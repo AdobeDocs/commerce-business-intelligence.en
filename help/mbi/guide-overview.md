@@ -36,5 +36,5 @@ This guide covers:
 
 ## Developer information
 
-For information about changes included in module releases, see the [Release Notes](release-notes.md). The [B2B Guide](https://devdocs.magento.com/guides/v2.4/b2b/bk-b2b.html){target="_blank"} in the developer documentation provides details about module architecture, APIs, and algorithm customization.
+Add if needed.
 
