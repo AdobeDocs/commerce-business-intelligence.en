@@ -1,0 +1,23 @@
+  - title: New to Magento Business Intelligence?
+    content: Learn how to install and sign in to your account. Discover what type of user you are and how best to use this guide to ensure success with Magento BI.
+    url: /getting-started.html
+
+  - title: Data User
+    content: You use data to help make business decisions. You might receive reports and dashboards from a developer on your team, but you also want to learn how to create those reports and dashboards.
+    url: /data-user.html
+
+  - title: Data Analyst
+    content: You are comfortable designing queries and being the go-to person for data analysis. You know how to find specific answers to data questions and want to facilitate a self-service experience for your colleagues.
+    url: /data-analyst.html
+
+  - title: Administrator
+    content: You manage the Magento BI account including licensing, adding and removing users, and handling essential administrative tasks.
+    url: /administrator.html
+
+  - title: Best Practices
+    content: Learn the best practices for capturing, analyzing, and viewing your data.
+    url: /best-practices.html
+
+  - title: Tutorials
+    content: Follow these self-guided tutorials to learn the power of Magento BI.
+    url: /tutorials.html

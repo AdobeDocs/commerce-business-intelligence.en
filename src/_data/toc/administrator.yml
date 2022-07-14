@@ -1,0 +1,29 @@
+label: Administrator
+pages:
+- label: Account management
+  url: /administrator/account-management/managing-account-settings.html
+  children:
+  - label: Provisioning
+    url: /administrator/account-management/account-provision.html
+  - label: Restricting database access
+    url: /administrator/account-management/restrict-db-access.html
+  - label: Displaying dashboards around the office
+    url: /administrator/account-management/display-dashboards-office.html
+  - label: New architecture
+    url: /administrator/account-management/new-architecture.html
+
+- label: User management
+  url: /administrator/user-management/user-management.html
+  children:
+  - label: Create new or edit existing user
+    url: /administrator/user-management/create-user.html
+  - label: Delete user
+    url: /administrator/user-management/delete-user.html
+  - label: Reset user password
+    url: /administrator/user-management/reset-password.html
+  - label: Update user email address
+    url: /administrator/user-management/update-address-password.html
+  - label: View billing information
+    url: /administrator/user-management/view-billing.html
+  - label: Restricting Metric Access
+    url: /administrator/user-management/restrict-metric-access.html

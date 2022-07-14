@@ -1,0 +1,93 @@
+
+- label: Getting Started
+  url: /getting-started.html
+  children:
+  - label: Introduction
+    url: /getting-started/getting-started.html
+
+  - label: Activating for On-Premise
+    url: /getting-started/onpremise-activation.html
+
+  - label: Activating for Cloud Starter
+    url: /getting-started/cloud-activation.html
+
+  - label: Sign in to your MBI Account
+    url: /getting-started/sign-in.html
+
+  - label: Account Management
+    url: /administrator/account-management/managing-account-settings.html
+
+  - label: User Management
+    url: /administrator/user-management/user-management.html
+
+  - label: How to Get Help
+    url: /getting-started/support.html
+
+- label: Analyze Data
+  url: /data-analyst.html
+  children:
+  - label: Connect Data to Magento BI
+    url: /data-analyst/importing-data/connecting-data/connecting-data.html
+
+  - label: Import Data using Integrations
+    url: /data-analyst/importing-data/integrations/integrations.html
+
+  - label: Manage Data
+    url: /data-analyst/data-warehouse-mgr/tour-dwm.html
+
+  - label: Analyze Campaigns
+    url: /data-analyst/analysis/camp-analysis.html
+
+  - label: Analyze Customers
+    url: /data-analyst/analysis/cust-analysis.html
+
+  - label: Analyze Business Performance
+    url: /data-analyst/analysis/bus-perf-analysis.html
+
+  - label: Forecast Lifetime Value
+    url: /data-analyst/analysis/forecasting.html
+
+- label: Build Reports
+  url: /data-user/reports/report-builder-options.html
+  children:
+  - label: Visual Report Builder
+    url: /data-user/reports/ess-rpt-build-visual.html
+
+  - label: SQL Report Builder
+    url: /data-analyst/dev-reports/what-is-sql-rprt-bldr-.html
+
+- label: Share Insights
+  url: /data-user.html
+  children:
+  - label: Dashboards
+    url: /data-user/dashboards/ess-dashboards.html
+
+  - label: Share Data
+    url: /data-user/export-data/share-data.html
+
+- label: Best Practices
+  url: /best-practices.html
+  children:
+  - label: Working with Data
+    url: /best-practices/work-data.html
+
+  - label: Project Organization
+    url: /best-practices/project-org.html
+
+  - label: Working with Dashboards
+    url: /best-practices/work-dashboards.html
+
+- label: Tutorials
+  url: /tutorials.html
+  children:
+  - label: Using the Visual Report Builder
+    url: /tutorials/using-visual-report-builder.html
+
+  - label: Using Time Options in the Visual Report Builder
+    url: /tutorials/time-options-visual-rpt-bldr.html
+
+  - label: Creating Visualizations from an SQL Query
+    url: /tutorials/create-visuals-from-sql.html
+
+  - label: Exporting Data to CSV or Excel File
+    url: /tutorials/export-raw-data.html
