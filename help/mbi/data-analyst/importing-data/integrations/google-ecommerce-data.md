@@ -1,0 +1,19 @@
+---
+title: Expected Google ECommerce data
+zendesk_id: 360016504332
+---
+
+After your Google ECommerce account is successfully connected to Magento BI, the system will start importing data into a table titled **ecommerce.**. This table will record a data row for each transaction. This includes the following order-level data columns:
+
+| **Column Name** | **Description** |
+| \_id | This column is the primary key. |
+| accountId | This column contains the account ID associated with your Google Analytics eCommerce account. |
+| profileName | This column contains your Google Analytics profile name. |
+| profileId | This column contains your Google Analytics profile ID. |
+| socialNetwork | This column contains the name of the social network (e.g. Facebook, YouTube, etc.) |
+| campaign | This column contains the campaign name (i.e. [utm\_campaign][(https://support.google.com/analytics/answer/1033867?hl=en)) |
+| medium | This column contains the medium name (i.e. [utm\_medium](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| source | This column contains the source name. (i.e. [utm\_source](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| keyword | This column contains the keyword description (i.e. [utm\_term](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| transactionId | This column contains the order ID. This will be used to join the referral data back to your orders data. |
+| updated\_at | This column contains the last time that the data row was updated. |
