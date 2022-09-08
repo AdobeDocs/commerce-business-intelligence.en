@@ -4,11 +4,11 @@ zendesk_id: 360016507092
 ---
 
 {:.bs-callout-info}
-This is only available for clients that are on the Pro plan and utilizing the new architecture. You are on the [new architecture](https://support.magento.com/hc/en-us/articles/360016503052-New-Architecture-FAQ) if you have the \"Data Warehouse Views\" section available after selecting \"Manage Data\" from the main toolbar.
+This is only available for clients that are on the Pro plan and utilizing the new architecture. You are on the [new architecture](https://support.magento.com/hc/en-us/articles/360016503052-New-Architecture-FAQ) if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
 
 Consolidating your Zendesk data with your transactional database is an excellent way to better understand how your customers are interacting with your sales or customer success teams and what type of customers are utilizing your support platform. In this article, we will demonstrate how to set up a dashboard to get granular reports about your Zendesk performance and tie in your transactional customers.
 
-Before getting started, you\'ll want to connect your [Zendesk](../data-analyst/importing-data/integrations/zendesk.md). This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
+Before getting started, you will want to connect your [Zendesk](../data-analyst/importing-data/integrations/zendesk.md). This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
 
 <!-- Getting Started -->
 

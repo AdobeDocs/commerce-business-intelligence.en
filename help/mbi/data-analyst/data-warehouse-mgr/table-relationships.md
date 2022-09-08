@@ -3,7 +3,7 @@ title: Understanding and Evaluating Table Relationships
 zendesk_Id: 360016505812
 ---
 
-When assessing the relationship between two given tables, you need to understand how many possible occurrences in one table could belong to an entity in another, and vice versa. For example, let's use a **users** table and an **orders** table. In this case, you want to know how many **orders** a given **user** has placed and how many possible **users** an **order** could belong to.
+When assessing the relationship between two given tables, you need to understand how many possible occurrences in one table could belong to an entity in another, and vice versa. For example, Let us use a **users** table and an **orders** table. In this case, you want to know how many **orders** a given **user** has placed and how many possible **users** an **order** could belong to.
 
 Understanding relationships is vital to maintaining data integrity, as it impacts the accuracy of your [calculated columns](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) and [dimensions](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md). To learn more, see [relationship types](../#types) and [how to evaluate the tables in your Data Warehouse.](../#eval)
 

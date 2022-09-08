@@ -3,7 +3,7 @@ title: Creating and Using a SQL Calculated Column
 zendesk_id: 360016729631
 ---
 
-This topic outlines the purpose and uses of the **Calculation** column type that can be added to tables using the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md). Below is an explanation of what SQL calculations do, why they are used, the process for creating a SQL calculation, and two examples.
+This topic outlines the purpose and uses of the **Calculation** column type that can be added to tables using the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md). Below is an explanation of what SQL calculations do, why they are used, the process for creating a SQL calculation, and two examples.
 
 **Explanation**
 
@@ -15,18 +15,18 @@ The different columns that can be created with the Calculation column are almost
 
 **Example 1: Is customer's last order?**
 
-Most accounts have a column called **Is customer\'s last order?** on their Orders table in order to perform analyses on repeat purchase rates and churned customers. If your account is on the new architecture, this column is built using a Calculation column and can be seen in the screenshot below:
+Most accounts have a column called **Is customer's last order?** on their Orders table in order to perform analyses on repeat purchase rates and churned customers. If your account is on the new architecture, this column is built using a Calculation column and can be seen in the screenshot below:
 
-![Is\_customer\_s\_last\_order.png](../assets/Is_customer_s_last_order.png)
+![Is\_customer\_s\_last\_order.png](../../assets/Is_customer_s_last_order.png)
 
-The **Is customer\'s last order?** column uses the inputs **Customer\'s lifetime number of orders** and **Customer\'s order number** aliased as A and B respectively.
+The **Is customer's last order?** column uses the inputs **Customer's lifetime number of orders** and **Customer's order number** aliased as A and B respectively.
 
 Line by line, the meaning of the PostgreSQL is:
 
 * case : This starts a series of If – Then statements
 * when A is null or B is null then null : If either input is empty, then the output should also be empty. This is to prevent SQL errors
-* when A=B then \'Yes\' : If **Customer\'s lifetime number of orders** equals **Customer\'s order number** for this row, then return Yes. So if a customer has placed 4 orders, the row for their 4<span data-fontsize="12">th</span> order would return Yes for **Is customer\'s last order?**
-* else \'No\' : If none of the other when statements are met, return No
+* when A=B then 'Yes' : If **Customer's lifetime number of orders** equals **Customer's order number** for this row, then return Yes. So if a customer has placed 4 orders, the row for their 4<span data-fontsize="12">th</span> order would return Yes for **Is customer's last order?**
+* else 'No' : If none of the other when statements are met, return No
 * end : This ends the If – Then statements
 
 The possible values that can be returned by this column (NULL, **Yes**, **No**) contain non number characters, so the data type here is String.
@@ -37,7 +37,7 @@ Many of our clients like to analyze revenue at the item level, slicing it by fie
 
 To enable product revenue analyses, most accounts have a column called **Order item total value (quantity \* price)** on their Orders Items table. If your account is on the new architecture, this column is also built using a Calculation column and can be seen in the screenshot below:
 
-![Order\_item\_total\_value.png](../assets/Order_item_total_value.png)
+![Order\_item\_total\_value.png](../../assets/Order_item_total_value.png)
 
 In the Magento schema, the **Order item total value (quantity \* price)** column uses the inputs **qty\_ordered** and **base\_price** aliased as A and B respectively.
 
@@ -47,7 +47,7 @@ The values that will be returned by this new column will be a dollars and cents,
 
 A new Calculation column can be added to a table by navigating to **Manage Data** > **Data Warehouse** as shown below:
 
-![](../assets/blobid2.png)
+![](../../assets/blobid2.png)
 
 From here you can create a new Calculation column by following the steps below:
 

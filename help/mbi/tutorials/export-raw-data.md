@@ -3,9 +3,9 @@ title: Exporting Raw Data
 zendesk_id: 360016505532
 ---
 
-Using raw data exports, you can export records from your MBI Data Warehouse to get a closer look at what\'s powering your dashboard. Additionally, raw data exports can help you [pinpoint data discrepancies](https://support.magento.com/hc/en-us/articles/360016730631).
+Using raw data exports, you can export records from your MBI Data Warehouse to get a closer look at what's powering your dashboard. Additionally, raw data exports can help you [pinpoint data discrepancies](https://support.magento.com/hc/en-us/articles/360016730631).
 
-Raw data exports provide access to additional columns and dimensions generated through de-normalization and pre-aggregation of relevant metrics. For example, **User\'s first order date** is a dimension that you can export for each user in MBI, while it may not be available in your database.
+Raw data exports provide access to additional columns and dimensions generated through de-normalization and pre-aggregation of relevant metrics. For example, **User's first order date** is a dimension that you can export for each user in MBI, while it may not be available in your database.
 
 This tutorial covers the following
 
@@ -19,10 +19,10 @@ There are two ways you can export raw data in MBI: at the chart level or at the 
 
 ### Exporting at the Table Level in your Manage Data Tab
 
-If you want to export the table from **Manage Data** tab, you\'ll need [Admin](../administrator/user-management/user-management.md) permissions.
+If you want to export the table from **Manage Data** tab, you will need [Admin](../administrator/user-management/user-management.md) permissions.
 
 1. Click **Manage Data** &gt; **Export Data** &gt; **Raw Data Export** to get started.
-1. You\'ll see an **Export List** of recently created data exports, if any exist. Click **Add Export** to create a new export.
+1. you will see an **Export List** of recently created data exports, if any exist. Click **Add Export** to create a new export.
 1. The **New Raw Data Export** dialog will display. Here, you can customize your export by selecting or deselecting columns and filters:
 
      * **Table** - The **Table** field selects the table that data will be exported from. By default, this will display the table you navigated into.
@@ -39,7 +39,7 @@ If you want to export the table from **Manage Data** tab, you\'ll need [Admin](.
 1. Customize the export by choosing the table, columns, and filters to include or exclude. Refer to the previous section for more detailed info on the fields in this module. Note that the table that displays in the **Table** field is, by default, the table that powers the chart.
 1. When finished, click the **Export Data** button.
 
-Let\'s take a look at the entire process at the chart level.
+Let us take a look at the entire process at the chart level.
 
 ![](../assets/Chart-level_export.gif)
 
@@ -55,4 +55,4 @@ To check if your export is ready, click the **Raw Data Exports** button in the t
 
 To view your past exports, click the **Raw Data Export** button in the top right corner of the screen. Pending and completed reports can be accessed for up to seven days.
 
-## Congratulations! You've finished.
+## Congratulations! you have finished.

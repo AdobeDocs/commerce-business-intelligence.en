@@ -122,11 +122,11 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 
 The initial repeat order probability report represents the Total Repeat Orders / Total Orders. Note that every order is an opportunity to make a repeat order; the number of repeat orders is the subset of those that actually do.
 
-The formula we use simplifies to (Total repeat orders that occurred after X months)/ (Total orders that are at least X months old). It shows us that historically, given that it's been X months since an order, there is a Y% chance that the user will place another order.
+The formula we use simplifies to (Total repeat orders that occurred after X months)/ (Total orders that are at least X months old). It shows us that historically, given that it is been X months since an order, there is a Y% chance that the user will place another order.
 
-Once you\'ve built out your dashboard, the most common question we receive is: How do I use this to determine a churn threshold?
+Once you have built out your dashboard, the most common question we receive is: How do I use this to determine a churn threshold?
 
-**There is no \"one right answer\" to this.** However, we recommend finding the point where the line crosses the value that is half of the initial repeat probability rate. This is the point where we can say "If a user was going to make a repeat order, they probably would have done it by now." Ultimately, the goal is to select the threshold where it makes sense to switch from "retention" to "reactivation" efforts.
+**There is no "one right answer" to this.** However, we recommend finding the point where the line crosses the value that is half of the initial repeat probability rate. This is the point where we can say "If a user was going to make a repeat order, they probably would have done it by now." Ultimately, the goal is to select the threshold where it makes sense to switch from "retention" to "reactivation" efforts.
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page
 

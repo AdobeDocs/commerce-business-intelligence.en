@@ -20,7 +20,7 @@ To complete this process, you will need to open two browser windows or tabs - on
 
 ## Opening the Mixpanel credentials page {#stepone}
 
-Let's get started:
+Let us get started:
 
 1. Go to the Connections page under **Manage Data** > **Connections**.
 1. Click the Add a New Source button, located on the right side of the screen above the Data Sources table.

@@ -9,7 +9,7 @@ _Clothes4U_ is a clothing retailer with both an online, and a brick and mortar p
 
 ## catalog\_product\_entity
 
-It's September 22nd, and _Clothes4U_ is rolling out three new items to its Fall line: "Throwback Bellbottoms", "Straight Leg Jeans", and "V-Neck T-Shirts." A _Clothes4U_ employee opens their Magento admin panel, clicks the "Add Product" button, and enters all the information for "Throwback Bellbottoms."
+it is September 22nd, and _Clothes4U_ is rolling out three new items to its Fall line: "Throwback Bellbottoms", "Straight Leg Jeans", and "V-Neck T-Shirts." A _Clothes4U_ employee opens their Magento admin panel, clicks the "Add Product" button, and enters all the information for "Throwback Bellbottoms."
 
 Satisfied with all the settings for "Throwback Bellbottoms," the employee clicks save, which inserts the first line below into the `catalog_product_entity` table. The employee repeats the process, creating another new Magento product for "Straight Leg Jeans," and then a third for "V-Neck T-Shirt," inserting the second and third lines below into the `catalog_product_entity` table:
 

@@ -3,7 +3,7 @@ title: Commerce Churn
 zendesk_id: 360016729831
 ---
 
-In this article, we demonstrate how to calculate a **churn rate** for your **commerce customers**. Unlike SaaS or traditional subscription companies, commerce customers typically do not have a concrete **\"churn event\"** to show you that they should no longer count toward your active customers. For this reason, the below instructions allow you to define a customer as \"churned\" based upon a determined amount of time passing since their last order.
+In this article, we demonstrate how to calculate a **churn rate** for your **commerce customers**. Unlike SaaS or traditional subscription companies, commerce customers typically do not have a concrete **"churn event"** to show you that they should no longer count toward your active customers. For this reason, the below instructions allow you to define a customer as "churned" based upon a determined amount of time passing since their last order.
 
 ![](../../assets/Churn_rate_image.png)
 

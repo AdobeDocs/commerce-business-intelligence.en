@@ -37,9 +37,9 @@ The table would look like the example below.
 
 The main differentiator is that one integration is stored (GA Warehoused), and the other is not (GA Live). In the case of GA Warehoused, this allows for manipulation of your GA data and gives you the ability to combine GA and other data sources to create insightful reporting.
 
-Let\'s look at GA ad campaigns for an example of what can be done from a manipulation standpoint. Suppose you had multiple ad campaigns for Q4 with different names. The campaigns were a result of a specific marketing initiative. With warehoused data, we can create a new column that finds the campaign names in question and returns the Q4 initiative name of \"Operation Dumbo\".
+Let us look at GA ad campaigns for an example of what can be done from a manipulation standpoint. Suppose you had multiple ad campaigns for Q4 with different names. The campaigns were a result of a specific marketing initiative. With warehoused data, we can create a new column that finds the campaign names in question and returns the Q4 initiative name of "Operation Dumbo".
 
-The combination aspect allows GA data to be joined to other data in order to conduct analyses. For example, take \"Total Time On Site By Ad Campaign\" data from GA and join it up against \"Total Spent Per Campaign\" data from Facebook Ads to get a complete picture of how much engagement is costing you.
+The combination aspect allows GA data to be joined to other data in order to conduct analyses. For example, take "Total Time On Site By Ad Campaign" data from GA and join it up against "Total Spent Per Campaign" data from Facebook Ads to get a complete picture of how much engagement is costing you.
 
 With the GA Live integration on the other hand, every GA chart is like a little silo that is not stored in your MBI data warehouse.
 

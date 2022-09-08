@@ -12,27 +12,27 @@ This guide will teach you how to do just that. Before getting started, we recomm
 1. Click the table you want to create a column in. For example, if we wanted to create a **Customer Gender** column for revenue segmentation, we'd select the **sales_flat_order** table.
 1. The table scheme will display. Click the **Create New Column** button.
 1. Give your column a name - for example, Customer Gender.
-1. Select the definition for the column. This is where the [Calculated Column Types guide](../data-analyst/data-warehouse-mgr/calc-column-types.md) will come in handy!
+1. Select the definition for the column. This is where the [Calculated Column Types guide](../data-warehouse-mgr/calc-column-types.md) will come in handy!
 1. For certain types of columns, a little more info is needed to properly create the column:
 
-* **For One to Many(joined) and Many to One (aggregate) columns**, you'll need to select the tables and columns.
-* **For a Same Table calculation**, you'll need to select the desired date field from the dropdown menu.
-* If you're creating a One to Many (joined) or Many to One (aggregate) column, you'll need to select a pathway to connect the two tables. In this step, you can either use an existing path or create a new one.
+* **For One to Many(joined) and Many to One (aggregate) columns**, you will need to select the tables and columns.
+* **For a Same Table calculation**, you will need to select the desired date field from the dropdown menu.
+* If you are creating a One to Many (joined) or Many to One (aggregate) column, you will need to select a pathway to connect the two tables. In this step, you can either use an existing path or create a new one.
 
   **Remember to properly define the table as either many or one!**
-* If desired, you can apply [filters](../data-user/reports/ess-manage-data-filters.md) to the new column.
+* If desired, you can apply [filters](../../data-user/reports/ess-manage-data-filters.md) to the new column.
 * When finished, click the **Save** button.
 
 That's it! Your new column will appear in the current table with a Pending status. After the next update completes, your column will be available for use in metrics and reports.
 
 ## Handy reference map {#map}
 
-If you're having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you're building:
+If you are having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you are building:
 
-![Calculated\_Columns\_Example.png](../assets/Calculated_Columns_Example.png){: width="805" height="643"}
+![Calculated\_Columns\_Example.png](../../assets/Calculated_Columns_Example.png){: width="805" height="643"}
 
 ## Related documentation
 
-* [Calculated Column Types](../data-analyst/data-warehouse-mgr/calc-column-types.md)
-* [Advanced Calculated Column Types](../data-analyst/data-warehouse-mgr/adv-calc-columns.md)
-* [Building Google ECommerce dimensions with order and customer data](../data-analyst/data-warehouse-mgr/bldg-google-ecomm-dim.md)
+* [Calculated Column Types](../data-warehouse-mgr/calc-column-types.md)
+* [Advanced Calculated Column Types](../data-warehouse-mgr/adv-calc-columns.md)
+* [Building Google ECommerce dimensions with order and customer data](../data-warehouse-mgr/bldg-google-ecomm-dim.md)

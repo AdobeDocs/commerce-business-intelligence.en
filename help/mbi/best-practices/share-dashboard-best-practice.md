@@ -26,7 +26,7 @@ When new users are created, they do not own any dashboards or charts. They will,
 
 ## Share Dashboards with New Users
 
-New users may also benefit from access to some dashboards that aren\'t shared organization-wide. In these cases, we recommend that dashboard owners [share the relevant dashboards](../data-user/dashboards/share-dashboard-with-users.md) with new users as soon as their accounts are created.
+New users may also benefit from access to some dashboards that aren't shared organization-wide. In these cases, we recommend that dashboard owners [share the relevant dashboards](../data-user/dashboards/share-dashboard-with-users.md) with new users as soon as their accounts are created.
 
 ## Be Selective with Edit Permissions
 

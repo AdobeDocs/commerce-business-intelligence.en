@@ -1,5 +1,5 @@
 ---
-title: What's the SQL Report Builder?
+title: what is the SQL Report Builder?
 zendesk_id: 360016504152
 ---
 

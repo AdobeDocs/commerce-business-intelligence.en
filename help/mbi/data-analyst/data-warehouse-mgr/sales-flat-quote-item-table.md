@@ -3,7 +3,7 @@ title: Common Magento Tables - quote_item
 zendesk_id: 360016731031
 ---
 
-The `quote_item` table (`sales_flat_quote_item` on M1) contains records on every item added to a shopping cart, whether the cart was abandoned or converted to a purchase. Each row represents one cart item. Due to the potential size of this table, Magento recommends you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
+The `quote_item` table (`sales_flat_quote_item` on M1) contains records on every item added to a shopping cart, whether the cart was abandoned or converted to a purchase. Each row represents one cart item. Due to the potential size of this table, we recommend you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
 
 {: .bs-callout-info}
 Analyzing historical abandoned carts is only possible if you do not delete records from the `quote` and `quote_item` table. If you do delete records, you will only be able to see the carts not yet removed from your database.

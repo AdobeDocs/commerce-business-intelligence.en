@@ -17,7 +17,7 @@ In this article, we explore some reports that you can use to uncover your most v
 
 ## Prerequisites {#prereqs}
 
-To build the analyses in this article, you need access to marketing acquisition/referral source data. If you're not already tracking it, you'll need to bring [order referral source data from Google ECommerce](../importing-data/integrations/google-ecommerce.md) into MBI before you can continue. In addition, adding user device information to your analyses enables you to see what technology your referrals are using.
+To build the analyses in this article, you need access to marketing acquisition/referral source data. If you are not already tracking it, you will need to bring [order referral source data from Google ECommerce](../importing-data/integrations/google-ecommerce.md) into MBI before you can continue. In addition, adding user device information to your analyses enables you to see what technology your referrals are using.
 
 ## New users by source {#newusersbysource}
 
@@ -30,7 +30,7 @@ To create this report in the [Report Builder](../../tutorials/using-visual-repor
 1. Set **Group By** to acquisition (or referral) source and select the sources you want to include.
 1. For this example, we used the **stacked columns** chart type.
 
-Here's a visual walkthrough:
+Here is a visual walkthrough:
 
 [ ![Creating a New users by source report.](../../assets/New_Users_by_source.gif){: style="max-width: 500px;"}][4]{: data-lightbox="image-1" data-title="Creating a New users by source report."}
 *Click for a closer look!*
@@ -80,14 +80,14 @@ To create this report in the Report Builder, add the **Revenue by user registrat
 1. Set **Group By** to acquisition (or referral) source and select the sources you want to include.
 1. For this example, we used the **stacked columns** chart type.
 
-Here's a visual walkthrough:
+Here is a visual walkthrough:
 
 [ ![Creating a Total revenue by user registration date &amp; source report.](../../assets/Revenue_by_user_registration_date_and_source.gif){: style="max-width: 500px;"}][8]{: data-lightbox="image-1" data-title="Creating a Total revenue by user registration date &amp; source report."}
 *Click for a closer look!*
 
 ## Repeat orders by user source {#repeatordersbysource}
 
-The Average order value report shows you, on average, how much users acquired from a particular source spend when placing an order. This report, however, doesn't show you if those same users are repeat customers. But with the Repeat orders by users sources, you can see if users from a particular source make more or less repeat purchases.
+The Average order value report shows you, on average, how much users acquired from a particular source spend when placing an order. This report, however, does not show you if those same users are repeat customers. But with the Repeat orders by users sources, you can see if users from a particular source make more or less repeat purchases.
 
 To create this report in the [Report Builder](../../tutorials/using-visual-report-builder.md), add the **Number of orders** metric and then do the following:
 
@@ -108,7 +108,7 @@ Here is a visual walkthrough:
 
 ## Wrapping Up {#wrapup}
 
-In this article, we touched on just a few analyses you can use to analyze the value of your acquisition and marketing channels, but this is just the tip of the iceberg. If you created a powerful analysis we didn't cover here, let us in on what you're doing in the comments.
+In this article, we touched on just a few analyses you can use to analyze the value of your acquisition and marketing channels, but this is just the tip of the iceberg. If you created a powerful analysis we didn't cover here, let us in on what you are doing in the comments.
 
 ## Related {#related}
 

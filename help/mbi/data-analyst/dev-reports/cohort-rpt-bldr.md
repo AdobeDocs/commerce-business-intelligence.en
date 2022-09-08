@@ -79,7 +79,7 @@ The interval for this value changes with whatever you selected in the **cohort t
 
 #### Example
 
-Here's an example to pull it all together. In this example, I want to check out order behavior after a cohort's first purchase to see if that cohort is coming back to make repeat purchases in the next 6 months.
+Here is an example to pull it all together. In this example, I want to check out order behavior after a cohort's first purchase to see if that cohort is coming back to make repeat purchases in the next 6 months.
 
 ![Orders cohort](../assets/crb_example.gif){: style="max-width: 900px;"}
 
@@ -95,7 +95,7 @@ Below are instructions specific to the legacy version of the Cohort Report Build
 
 Cohort analysis in action! Here, we can see revenue growing over time on a cumulative and per-user basis.
 
-In this section, we'll walk you through creating your own cohort analysis. For examples (and animated GIFs demonstrating the process), take a look at the [Examples section](../#examples) of this article.
+In this section, we walk you through creating your own cohort analysis. For examples (and animated GIFs demonstrating the process), take a look at the [Examples section](../#examples) of this article.
 
 1. Click **Report Builder** on the left tab or **Add Report** > **Create Report** in any dashboard.
 
@@ -103,7 +103,7 @@ In this section, we'll walk you through creating your own cohort analysis. For e
 
 #### Adding a metric
 
-Now that we’re in the Cohort Report Builder, let's add the metric (example: **Revenue** or **Number of orders**) that we want to perform the analysis on.
+Now that we’re in the Cohort Report Builder, Let us add the metric (example: **Revenue** or **Number of orders**) that we want to perform the analysis on.
 
 **Note:** Native Google Analytics metrics are not compatible with the Cohort Report Builder.
 
@@ -115,7 +115,7 @@ The next step is to specify the **cohort date**. This is the date by which your 
 
 #### Setting the interval and time period
 
-Next, we'll set the **Interval** and **Time Period.**
+Next, we set the **Interval** and **Time Period.**
 
 **Interval**
 The **Interval** option allows you to set the **length** of your cohorts. For example, if this is set to **Month**, your report will be measured in months.
@@ -139,7 +139,7 @@ If you opted to group users by a cohort date that’s been joined from another t
 
 ![](../assets/Cohort_Counting_Members_option.png)
 
-Let's look at an example to understand this setting. Suppose you built a report cohorting a **Revenue** metric by **Customer’s registration date**. You also wanted to use the perspective **Average value per cohort member** to see the revenue per buyer over time. To find the average value per buyer, we need to decide on the number of buyers to divide by. Is it the number of registered customers in your customers table, or is it the number of distinct buyers in your orders table for the same period of time?
+Let us look at an example to understand this setting. Suppose you built a report cohorting a **Revenue** metric by **Customer’s registration date**. You also wanted to use the perspective **Average value per cohort member** to see the revenue per buyer over time. To find the average value per buyer, we need to decide on the number of buyers to divide by. Is it the number of registered customers in your customers table, or is it the number of distinct buyers in your orders table for the same period of time?
 
 This setting answers that question. Counting members in the **customers** table includes all customers (whether or not they made a purchase, ever) in the average. Counting members in the **orders** table includes only customers who made a purchase.
 
@@ -155,7 +155,7 @@ For more details on Perspectives, click [here](../#perspectives).
 
 ## Examples of cohort analysis {#examples}
 
-Now that we’ve gone through how to create a cohort analysis, let's take a look at some examples.
+Now that we’ve gone through how to create a cohort analysis, Let us take a look at some examples.
 
 #### I want to know how my user cohorts are growing over time.
 

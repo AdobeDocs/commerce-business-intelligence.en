@@ -50,7 +50,7 @@ In this table, each row represents one order. The columns in this table contain 
 * **Created_at**: The date the order was created or placed.
 * **Customer_email**: The email address of the customer who placed the order. This may also be the unique identifier for the customer.
 * **Customer's lifetime number of orders**: A copy of the column with the same name on your Customers table.
-* **Customer's order number**: The customer's sequential order number associated with the order. For example, if the row you are looking at is a customer's first order, this column is \"1\"; but, if this was the customer's 15th order, this column shows \"15\" for this order. If this dimension does not exist on your Customers table, ask our [support team](https://support.magento.com/hc/en-us/articles/360016503692) to help you build it.
+* **Customer's order number**: The customer's sequential order number associated with the order. For example, if the row you are looking at is a customer's first order, this column is "1"; but, if this was the customer's 15th order, this column shows "15" for this order. If this dimension does not exist on your Customers table, ask our [support team](https://support.magento.com/hc/en-us/articles/360016503692) to help you build it.
 * **Customer's order number (previous-current)**: A concatenation of two values in the **Customer's order number** column. It is used in a sample report below to display the elapsed time between any two orders. For example, the time between a customer's first order date and their second order date is represented as "1-2" with this calculation.
 * **Coupon_code**: Shows which coupon(s) were used on each order.
 * **Seconds since previous order**: The time (in seconds) between a customer's orders.
@@ -388,7 +388,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Formula**: B/A
    * Select the % option.
    * **Group By**: campaign
-   * **Notes**: You can **title** the formula as \"CTR\", and **hide** all metrics.
+   * **Notes**: You can **title** the formula as "CTR", and **hide** all metrics.
 
    ![CTR](../../assets/CTR.png){: width="929"}
 
@@ -403,13 +403,13 @@ Here are some common examples of reports and metrics you might find useful:
    * **Formula**: A/B
    * Select the currency option
    * **Group By**: campaign
-   * **Notes**: You can **title** the formula as \"CPC\", and **hide** all metrics.
+   * **Notes**: You can **title** the formula as "CPC", and **hide** all metrics.
 
    ![CPC](../../assets/CPC.png){: width="929"}
 
 ### Customers by acquisition source
 
-* **Description**: If you track an order's source, medium, and campaign using Google eCommerce, you can analyze your customers by their acquisition source. This will help you identify which marketing sources are acquiring customers and answer questions such as \"are most of your customers making their first orders through Google, Facebook, or some other source?\"
+* **Description**: If you track an order's source, medium, and campaign using Google eCommerce, you can analyze your customers by their acquisition source. This will help you identify which marketing sources are acquiring customers and answer questions such as "are most of your customers making their first orders through Google, Facebook, or some other source?"
 * **Report Example**: Customers by acquisition source
    * **Metric Used**: New Customers
    * **Time Range**: All-Time
@@ -421,14 +421,14 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### Customers by acquisition medium and acquisition campaign
 
-* **Description**: Similar to analyzing customers by acquisition source, you can also analyze your customers by their first order's medium and campaign. This can help you answer questions such as \"which campaigns are attracting new customers?\"
+* **Description**: Similar to analyzing customers by acquisition source, you can also analyze your customers by their first order's medium and campaign. This can help you answer questions such as "which campaigns are attracting new customers?"
 * **Report Example**: Customers by acquisition campaign with paid medium
    * **Metric Used**: New customers
    * **Filter**: Customer's first order's medium IN ppc
    * **Time Range**: All-Time
    * **Time Interval**: None
    * **Group By**: Customer's first order's campaign
-   * **Note**: For the filter in your New Customers metric, you can add any other mediums that are considered \"paid\" mediums for your business such as cpc or paid search.
+   * **Note**: For the filter in your New Customers metric, you can add any other mediums that are considered "paid" mediums for your business such as cpc or paid search.
 
    ![Acquisition Medium](../../assets/acquisition_medium.png){: width="929"}
 
@@ -444,12 +444,12 @@ Here are some common examples of reports and metrics you might find useful:
    * **Formula**: B/A
    * Select the currency option
    * **Group By**:
-      * For metric A, select \"Customer's first order's campaign\"
-      * For metric B, select \"campaign\"
+      * For metric A, select "Customer's first order's campaign"
+      * For metric B, select "campaign"
 
    ![New Users.](../../assets/New_Users_Last_Month.png){: width="929"}
 
-* **Notes**: You can **title** the formula as \"CTR\", and **hide** all metrics. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
+* **Notes**: You can **title** the formula as "CTR", and **hide** all metrics. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
 ![CAC 1](../../assets/New_Users_Last_Month.png){: width="929"}
 
@@ -462,15 +462,15 @@ Here are some common examples of reports and metrics you might find useful:
    * If certain campaigns attract a low volume of customers, but those customers have a high lifetime value.
 * **Report Example**: To create this report, first add the New customers metric. Then, add the Average lifetime revenue metric. Select the desired time frame and choose the interval as None. Finally, select the group by option as Customer's first order's campaign.
    * **Metric A**: New Customers
-   * **Filter A**: Customer's first order's source LIKE \'%google%\'
+   * **Filter A**: Customer's first order's source LIKE '%google%'
    * **Filter B**: Customer's first order's medium IN ppc
    * **Metric B**: Average lifetime revenue
-   * **Filter A**: Customer's first order's source LIKE \'%google%\'
+   * **Filter A**: Customer's first order's source LIKE '%google%'
    * **Filter B**: Customer's first order's medium IN ppc
    * **Time Range**: All-Time
    * **Time Interval**: None
    * **Group By**: Customer's first order's campaign
-   * **Notes**: For the two filters, you can add any other mediums that are considered \"paid\" mediums for your business such as cpc or paid search, and you can add any other sources you\'d like to analyze such as Facebook. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
+   * **Notes**: For the two filters, you can add any other mediums that are considered "paid" mediums for your business such as cpc or paid search, and you can add any other sources you'd like to analyze such as Facebook. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
    ![Lifetime value by acquisition source, medium, and campaign](../../assets/LTV_2.png){: width="929"}
 
@@ -479,10 +479,10 @@ Here are some common examples of reports and metrics you might find useful:
 * **Description**: One way to calculate ROI by campaign is by analyzing all orders placed through the campaign. However, an alternate method is analyzing the lifetime value of customers acquired through a campaign. To analyze ROI, it is important that the campaign names are consistent across your spend data and transactional data. If you create the following report and there exist no ROI values due to mismatched campaign names, you may need to look into the [UTM tagging](../../best-practices/utm-tagging-google.md) you have implemented.
 * **Report Example**: ROI by campaign
    * **Metric A**: New Customers
-   * **Filter A**: Customer's first order's source LIKE \'%google%\'
+   * **Filter A**: Customer's first order's source LIKE '%google%'
    * **Filter B**: Customer's first order's medium IN ppc
    * **Metric B**: Average lifetime revenue
-   * **Filter A**: Customer's first order's source LIKE \'%google%\'
+   * **Filter A**: Customer's first order's source LIKE '%google%'
    * **Filter B**: Customer's first order's medium IN ppc
    * **Metric C**: Ad spend
    * **Time Range**: All-Time
@@ -490,9 +490,9 @@ Here are some common examples of reports and metrics you might find useful:
    * **Formula**: (B-(C/A))/(C/A)
    * Select the % option
    * **Group By**:
-   * For metric A and B, select \"Customer's first order's campaign\"
-   * For metric C, select \"campaign\"
-   * **Notes**: You can title the formula as \"ROI\", and Hide all metrics. In addition, you can adjust the filters in the metrics to analyze alternative sources and mediums. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
+   * For metric A and B, select "Customer's first order's campaign"
+   * For metric C, select "campaign"
+   * **Notes**: You can title the formula as "ROI", and Hide all metrics. In addition, you can adjust the filters in the metrics to analyze alternative sources and mediums. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
    ![ROI 1](../../assets/ROI_1.png){: width="929"}
 

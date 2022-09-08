@@ -53,17 +53,17 @@ If something looks amiss in the results, you can edit the query and re-run it un
 
 You might sometimes see [messages below the editor with EXPLAIN in them](../best-practices/optimizing-your-sql-queries.md){: target="_blank"}. If you see one of these, that means that your query hasn't run and needs a bit of fine-tuning.
 
-After you're done editing your query, you can move onto either creating a visualization or saving your work to a dashboard.
+After you are done editing your query, you can move onto either creating a visualization or saving your work to a dashboard.
 
 ## Creating a visualization {#createviz}
 
-To create a visualization with your query results, click the **Chart** tab in the **Results** pane. In this tab, you'll select:
+To create a visualization with your query results, click the **Chart** tab in the **Results** pane. In this tab, you will select:
 
 * The **Series**, or the column you want to measure, such as **Items sold**.
 * The **Category**, or the column you want to use to segment your data, such as **acquisition source**.
 * The **Labels**, or X-axis values.
 
-Here's a quick look at what the visualization process looks like:
+Here is a quick look at what the visualization process looks like:
 
 ![](../assets/SQL_RB_viz_overview.gif)
 

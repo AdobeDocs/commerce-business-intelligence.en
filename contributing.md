@@ -41,7 +41,7 @@ submitting a pull request!
 
 ## From Contributor To Committer
 
-We love contributions from our community! If you'd like to go a step beyond contributor
+We love contributions from our community! If you want to go a step beyond contributor
 and become a committer with full write access and a say in the project, you must
 be invited to the project. The existing committers employ an internal nomination
 process that must reach lazy consensus (silence is approval) before invitations

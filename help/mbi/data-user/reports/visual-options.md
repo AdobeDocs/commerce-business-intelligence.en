@@ -23,11 +23,11 @@ The MBI Visual Report Builder offers 12 distinct visualization options, each wit
 
 ## Scalar
 
-Scalar reports are displayed as a single, numeric value. Most often this is used to show the \"all time\" value of a key metric like revenue or orders, or to compare revenue to date vs budget with two separate scalar reports. In the example below, this simply shows the total number of orders for the given reporting interval:
+Scalar reports are displayed as a single, numeric value. Most often this is used to show the "all time" value of a key metric like revenue or orders, or to compare revenue to date vs budget with two separate scalar reports. In the example below, this simply shows the total number of orders for the given reporting interval:
 
 ![blobid0](../assets/blobid0.png){: width="350"}
 
-To save a report as a scalar, configure your filters and time settings, then click Save or Update at the top-right of the report. Under the Type drop-down, choose the \"Number: Metric name\" to save the report as the value shown on the left side-bar.
+To save a report as a scalar, configure your filters and time settings, then click Save or Update at the top-right of the report. Under the Type drop-down, choose the "Number: Metric name" to save the report as the value shown on the left side-bar.
 
 ![blobid1](../assets/blobid1.png)
 
@@ -49,7 +49,7 @@ Similar to scalar reports, you can save a report as a table by clicking Save or 
 
 **Requirements:**
 
-* Although there are no report configuration requirements, it's important to note that tables are limited to 3500 rows. If your data set includes more than 3500 rows, you will need to either filter the results to narrow down the scope, or export the results to CSV or Excel to see the full data set.
+* Although there are no report configuration requirements, it is important to note that tables are limited to 3500 rows. If your data set includes more than 3500 rows, you will need to either filter the results to narrow down the scope, or export the results to CSV or Excel to see the full data set.
 
 ## Line
 
@@ -57,7 +57,7 @@ Line charts are the perfect choice for comparing the performance of similar metr
 
 ![blobid0](../assets/blobid0.png){: width="350"}
 
-Each metric and formula added to the report is represented by its own line. When comparing metrics with similar units and scales, don't forget to clear the checkbox for "Multiple Y-Axes" to display all metrics on the same scale.
+Each metric and formula added to the report is represented by its own line. When comparing metrics with similar units and scales, do not forget to clear the checkbox for "Multiple Y-Axes" to display all metrics on the same scale.
 
 To save a report as a line chart, adjust the report **Type** to Chart, and select the appropriate visualization from within the report builder, as shown below:
 
@@ -91,7 +91,7 @@ As an example, the report below has two identical revenue metrics: one filtered 
 
 ![blobid4](../assets/blobid4.png){: width="625"}
 
-Make sure the \"Multiple Y-Axes\" box is unchecked when setting up a report like the above.
+Make sure the "Multiple Y-Axes" box is unchecked when setting up a report like the above.
 
 To save a report as a stacked bar chart, adjust the report **Type** to Chart and select the stacked bar option from the report builder:
 

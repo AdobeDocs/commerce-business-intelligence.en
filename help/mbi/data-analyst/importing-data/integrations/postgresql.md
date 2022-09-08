@@ -3,7 +3,7 @@ title: Connecting PostgreSQL
 zendesk_id: 360016506812
 ---
 
-To connect your PostgreSQL database to MBI via an SSH tunnel, you (or your team, if you\'re not a techie) will need to do a few things:
+To connect your PostgreSQL database to MBI via an SSH tunnel, you (or your team, if you're not a techie) will need to do a few things:
 
 1. [Retrieve the MBI public key](../#retrieve)
 1. [Allow access to the MBI IP address](../#allowlist)
@@ -11,26 +11,26 @@ To connect your PostgreSQL database to MBI via an SSH tunnel, you (or your team,
 1. [Create a Postgres user for MBI ](../#postgres)
 1. [Enter the connection and user info into MBI](../#finish)
 
-It\'s not as complicated as it might sound. Let\'s get started.
+It's not as complicated as it might sound. Let us get started.
 
 ## Retrieving the MBI public key {#retrieve}
 
-The public key is used to authorize the MBI Linux user. In the next section, we\'ll create the user and import the key.
+The public key is used to authorize the MBI Linux user. In the next section, we will create the user and import the key.
 
 1. Go to **Manage Data &gt; Connections** and click the **Add a Data Source** button.
 1. Click the **PostgreSQL icon**.
 1. After the PostgreSQL credentials page opens, toggle the **Encrypted** button to Yes. This will display the SSH setup form.
 1. The public key is located underneath this form.
 
-Leave this page open throughout the tutorial - you\'ll need it in the next section and at the end.
+Leave this page open throughout the tutorial - you will need it in the next section and at the end.
 
-If you\'re a bit lost, here\'s how to navigate through MBI to retrieve the key:
+If you're a bit lost, here's how to navigate through MBI to retrieve the key:
 
 ![Retrieving the RJMetrics public key](../assets/4.1.gif)
 
 ## Allow access to the MBI IP address {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP address. It\'s **54.88.76.97/32**, but it\'s also on the PostgreSQL credentials page. See the blue box in the GIF above? That\'s it!
+For the connection to be successful, your must configure your firewall to allow access from our IP address. It's **54.88.76.97/32**, but it's also on the PostgreSQL credentials page. See the blue box in the GIF above? That's it!
 
 ## Creating a Linux user for MBI {#linux}
 
@@ -62,7 +62,7 @@ This can be a production or secondary machine, as long as it contains real-time 
 
 **Important!**
 
-If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it\'s necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
+If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it's necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
 
 ## Creating an MBI Postgres user {#postgres}
 
@@ -78,7 +78,7 @@ If you want to connect multiple databases or schemas, repeat this process as nec
 
 ## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the PostgreSQL credentials page open? If not, go to **Manage Data > Connections** and click the Add a Data Source button, then the PostgreSQL icon. Don\'t forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the PostgreSQL credentials page open? If not, go to **Manage Data > Connections** and click the Add a Data Source button, then the PostgreSQL icon. Don't forget to toggle the Encrypted button to Yes.
 
 Enter the following info into this page, starting with the Database Connection section:
 
@@ -87,13 +87,13 @@ Enter the following info into this page, starting with the Database Connection s
 * **Port:** PostgreSQL port on your server (5432 by default)
 * **Host:** 127.0.0.1
 
-Under \"SSH Connection\":
+Under "SSH Connection":
 
 * **Remote Address:** The IP address or hostname of the server we will SSH into
 * **Username:** Our SSH login name (should be rjmetric)
 * **SSH Port:** SSH port on your server (22 by default)
 
-That\'s it! When you\'re finished, click the Save & Test button to complete the setup.
+That's it! When you're finished, click the Save & Test button to complete the setup.
 
 ### Related
 

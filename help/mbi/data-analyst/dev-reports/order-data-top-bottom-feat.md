@@ -30,9 +30,9 @@ Because the report does not have a Time Interval, the values - in this case, the
 
 ## What about using multiple metrics? {#multiplemetrics}
 
-Using this feature gets complicated when there's more than one metric in a report because each metric can only be sorted by itself or by one of the groupings.
+Using this feature gets complicated when tHere is more than one metric in a report because each metric can only be sorted by itself or by one of the groupings.
 
-Let's say we built a report with both the **Revenue** and **Number of orders** metrics, grouped by referral source. **Revenue** can only be sorted by **Revenue** or referral source and **Number of orders** can only be sorted by **Number of orders** or referral source.
+Let us say we built a report with both the **Revenue** and **Number of orders** metrics, grouped by referral source. **Revenue** can only be sorted by **Revenue** or referral source and **Number of orders** can only be sorted by **Number of orders** or referral source.
 
 This means that while we can show the revenue from only the top 5 revenue generating referral sources, we cannot show the number of orders also by the top 5 revenue generating referral sources. **Simply put: when there are multiple metrics, the best bet is to sort each metric by the grouping**.
 
@@ -48,7 +48,7 @@ If we had sorted both metrics by the grouping, the chart would look like this:
 
 When only one metric is included in a report with a **Group by** and a **Time Interval of None**, the default ordering in the Visual Report Builder is to show the top values based on the metric. In this instance, the Show Top/Bottom feature may not be necessary if this serves your needs.
 
-In this example, we're looking at how many opportunities our sales reps have closed. This table is automatically sorted from highest to lowest based on the metric, in this case **Won Opportunities**.
+In this example, we are looking at how many opportunities our sales reps have closed. This table is automatically sorted from highest to lowest based on the metric, in this case **Won Opportunities**.
 
 ![Ordering by the metric.](../assets/Ordered_by_metric.png){:.zoom}
 
@@ -58,6 +58,6 @@ However, when a second metric is added, **the default is to order the top based 
 
 ## Wrapping up {#wrapup}
 
-We mentioned it at the beginning of the article, but we'll say it again: while we covered some basic examples, this feature has a lot of interesting uses.
+We mentioned it at the beginning of the article, but we say it again: while we covered some basic examples, this feature has a lot of interesting uses.
 
 Think about our previous sales rep and opportunities example. Removing the Time Interval, applying a Group By, and sorting the data based on the grouping allowed us to get a detailed picture of each rep’s number of won opportunities. Additionally, using the Show Top/Bottom feature let us discover who the top performers are.

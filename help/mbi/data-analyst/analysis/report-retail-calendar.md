@@ -32,14 +32,14 @@ You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CS
       * Column type – "Same table -&gt; Calculation"
       * Inputs – **created\_at**
       * Datatype – Datetime
-      * Calculation - \` **case when A is null then null else to\_char(A, \'YYYY-MM-DD 00:00:00\') end**\`
+      * Calculation - \` **case when A is null then null else to\_char(A, 'YYYY-MM-DD 00:00:00') end**\`
 
 * **Retail calendar** file upload table
    * **Current date**
       * Column type – "Same table -&gt; Calculation"
       * Inputs – **Date Retail**
       * Datatype – Datetime
-      * Calculation - \`**case when A is null then null else to\_char(now(), \'YYYY-MM-DD 00:00:00\') end**\`
+      * Calculation - \`**case when A is null then null else to\_char(now(), 'YYYY-MM-DD 00:00:00') end**\`
          * Note: The 'now()' function above is specific to PostgreSQL. Although most MBI data warehouses are hosted on PostgreSQL, some may be hosted on Redshift. If the calculation above returns an error, you may need to use the Redshift function 'getdate()' instead of 'now()'.
     * **Current retail year** (Must be created by support analyst)
       * Column type – "Event Counter"

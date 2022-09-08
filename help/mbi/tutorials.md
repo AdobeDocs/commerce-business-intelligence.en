@@ -15,7 +15,7 @@ sections:
    url: /tutorials/create-visuals-from-sql.html
 
  - title: Exporting Raw Data
-   content: Learn how to use raw data exports to better understand what's powering your dashboard and how you can pinpoint data discrepancies
+   content: Learn how to use raw data exports to better understand what is powering your dashboard and how you can pinpoint data discrepancies
    url: /tutorials/export-raw-data.html
 
 ---

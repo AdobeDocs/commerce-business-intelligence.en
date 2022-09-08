@@ -9,6 +9,6 @@ Scalar numbers. Bar graphs. Charts extending over long periods. Every chart disp
 
 ![resize chart](../assets/Resize_Chart_in_Dashboard.gif)
 
-**To move a chart**, hover over the top of the chart until the \'Move\' cursor displays. Click and hold, then drag the chart to the desired location. Release to place the chart.
+**To move a chart**, hover over the top of the chart until the 'Move' cursor displays. Click and hold, then drag the chart to the desired location. Release to place the chart.
 
 ![move chart](../assets/Move_Chart_in_Dashboard.gif)

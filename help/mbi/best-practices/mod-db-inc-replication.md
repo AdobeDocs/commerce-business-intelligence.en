@@ -11,7 +11,7 @@ The `Modified At` method, which is the most ideal replication method, uses a `da
 
 If your table does not have a `datetime` column, you can add an index `modified at` column. Null values are not allowed in a `modified at` column. Check that the column is populated for every row.
 
-To ensure the `Modified At` method works as intended, you cannot delete rows from the table. Rather, you should mark the row as invalid by adding a `deleted` column to the table. This column will return a `1` if the row is invalid and `0` otherwise. You can then use this column to filter out invalid rows when you\'re building metrics and reports.
+To ensure the `Modified At` method works as intended, you cannot delete rows from the table. Rather, you should mark the row as invalid by adding a `deleted` column to the table. This column will return a `1` if the row is invalid and `0` otherwise. You can then use this column to filter out invalid rows when you're building metrics and reports.
 
 ## Modifications for Single Auto Incrementing Primary Key
 

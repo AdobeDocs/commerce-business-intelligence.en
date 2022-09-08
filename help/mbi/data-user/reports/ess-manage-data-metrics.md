@@ -51,9 +51,9 @@ For our **average order revenue** metric, we wouldn’t want to include any test
 
 The Filter Logic section is where you can further define how a metric should behave.
 
-* \"\[A\] or \[B\]\" will allow any data that satisfy the filters \[A\] OR \[B\]
-* \"\[A\] and \[B\]\" will only allow data that satisfies both filters \[A\] and \[B\]
-* \"(\[A\] and \[B\]) OR \[C\]\" will only allow data that either satisfy both filters \[A\] and \[B\], or satisfies filter \[C\] alone
+* "\[A\] or \[B\]" will allow any data that satisfy the filters \[A\] OR \[B\]
+* "\[A\] and \[B\]" will only allow data that satisfies both filters \[A\] and \[B\]
+* "(\[A\] and \[B\]) OR \[C\]" will only allow data that either satisfy both filters \[A\] and \[B\], or satisfies filter \[C\] alone
 
 ## Adding Dimensions {#dimensions}
 

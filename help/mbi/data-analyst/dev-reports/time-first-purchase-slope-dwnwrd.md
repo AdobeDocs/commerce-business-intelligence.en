@@ -16,4 +16,4 @@ You may have a chart on your **Users** dashboard named `Time to first order coho
 
 Example: The chart may show that for users that registered in December 2014, 0.56 (or 56%) made a first order by month 2 (i.e., January 2015).
 
-This cohort analysis is a good indicator of user activation rate over time. If this chart starts to flatten or plateau, and you're still not near 100% conversion to buyers, it may be time to activate the remaining users via email campaigns.
+This cohort analysis is a good indicator of user activation rate over time. If this chart starts to flatten or plateau, and you are still not near 100% conversion to buyers, it may be time to activate the remaining users via email campaigns.

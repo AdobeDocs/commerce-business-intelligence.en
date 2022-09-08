@@ -6,7 +6,7 @@ zendesk_id: 360016731231
 {:.bs-callout-info}
 [Requires Admin permissions](../administrator/user-management/user-management.md)
 
-In **Manage Data** > **Dashboards**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. Here's a quick look at what we'll cover in this article:
+In **Manage Data** > **Dashboards**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. Here is a quick look at what we cover in this article:
 
 1. [Renaming dashboards](../#rename)
 

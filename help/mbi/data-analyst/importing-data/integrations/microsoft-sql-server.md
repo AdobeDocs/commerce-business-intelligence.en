@@ -18,9 +18,9 @@ The best way to do this is for us to connect to your database server over TCP/IP
 
 1. Make sure your server allows connections over TCP/IP and mixed mode authentication.
 
-1. Make sure your firewall will allow our server\'s dedicated IP to connect.
+1. Make sure your firewall will allow our server's dedicated IP to connect.
 
-   You can find the IP address we will use to connect to your server on the connections section of your \"settings\" page.
+   You can find the IP address we will use to connect to your server on the connections section of your "settings" page.
 
 1. Create a user that we will use to log into your database server.  You have two options; either via UI or via a query:
     * UI

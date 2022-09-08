@@ -1,5 +1,5 @@
 ---
-title: What's SQL?
+title: what is SQL?
 zendesk_id: 360016504912
 ---
 

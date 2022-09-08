@@ -21,7 +21,7 @@ If you are familiar with SQL, both of these consolidation examples utilize the U
 
 New _Data Warehouse Views_ can be created and existing views can be deleted by navigating to **Manage Data** > **Data Warehouse Views**, as shown below:
 
-![](../assets/Data_Warehouse_Views.png)
+![](../../assets/Data_Warehouse_Views.png)
 
 From here you can create a new view by following the sample instructions below:
 
@@ -34,7 +34,7 @@ It is important to mention that after saving, the underlying query used to gener
 
 ## Example: Facebook and Google AdWords data
 
-Let's take a look a closer look at one of the examples mentioned earlier in this article: consolidating Facebook and AdWords spend data into a new consolidated ads table. Most commonly this involves the consolidation of two tables, with sample data sets below:
+Let us take a look a closer look at one of the examples mentioned earlier in this article: consolidating Facebook and AdWords spend data into a new consolidated ads table. Most commonly this involves the consolidation of two tables, with sample data sets below:
 
 **Ad source: Google AdWords**
 
@@ -462,7 +462,7 @@ Rather than creating a separate set of marketing metrics for each ad source, you
 
 **Looking for additional help?**
 
-Writing SQL and creating Data Warehouse Views is not included with Technical Support.  However, the Magento Services team does offer assistance in the creation of views. For everything from the migration and consolidation of a legacy database with a new database to the creation of a single Data Warehouse View for the purposes of a specific analysis, they are adept at curating SQL-based solutions for all of your data structure challenges.
+Writing SQL and creating Data Warehouse Views is not included with Technical Support.  However, the Services team does offer assistance in the creation of views. For everything from the migration and consolidation of a legacy database with a new database to the creation of a single Data Warehouse View for the purposes of a specific analysis, they are adept at curating SQL-based solutions for all of your data structure challenges.
 
 In most cases, the creation of a new Data Warehouse View for the purposes of consolidating 2-3 similarly structured tables requires 5 hours of Services time, which translates to roughly $1250 of work. However below are a few common factors which can increase the expected investment required:
 

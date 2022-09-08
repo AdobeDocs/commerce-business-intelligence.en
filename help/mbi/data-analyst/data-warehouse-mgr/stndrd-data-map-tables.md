@@ -53,7 +53,7 @@ To create the joined column, navigate to the table that the field will be reloca
 
    * On the **Many** side, select the table you’re relocating the field to (again, for us it’s **customer_address**) and the **foreign key** column, or **state** column, in our example.
    * On the **One** side, select the **mapping table** and the **primary key** column. In this case, we would select the **state_input** column from the **mapping_state** table.
-   * Here's a look at what our path looks like:
+   * Here is a look at what our path looks like:
 
       ![](../assets/State_Mapping_Path.png)
 

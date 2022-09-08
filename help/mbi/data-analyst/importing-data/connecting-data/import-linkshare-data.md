@@ -3,7 +3,7 @@ title: Importing Linkshare data
 zendesk_id: 360016506492
 ---
 
-To bring your Linkshare data into MBI, you'll need to do two things:
+To bring your Linkshare data into MBI, you will need to do two things:
 
 1. [Export the Linkshare data in CSV format](../#export)
 1. [Upload the spreadsheet into MBI](../data-analyst/importing-data/connecting-data/using-file-uploader.md)

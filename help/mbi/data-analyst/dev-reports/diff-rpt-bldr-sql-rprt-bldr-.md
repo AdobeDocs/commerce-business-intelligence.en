@@ -1,5 +1,5 @@
 ---
-title: What's the difference between the Report Builder and the SQL Report Builder?
+title: what is the difference between the Report Builder and the SQL Report Builder?
 zendesk_id: 360016732411
 ---
 

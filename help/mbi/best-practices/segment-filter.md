@@ -23,7 +23,7 @@ User segments help you understand who your users are and how they behave.
 * **Referred by**\: Who are your top influencers? How many users were directly referred by others?
 * **Industry**\: If you are a B2B business, in which industries do your users work? Which trade organizations are worth joining?
 * **Survey responses**\: If you perform customer surveys, use the responses as segments for a deeper level of profiling. You can ask questions that complement what you already know about your users or confirm your guesses.
-* **First order amount and product category**\: Is there a correlation between a user\'s first order and future purchasing patterns?
+* **First order amount and product category**\: Is there a correlation between a user's first order and future purchasing patterns?
 
 ## Orders / Events Segments
 
@@ -33,7 +33,7 @@ Order and event segments help with analyzing user behavior and engagement over t
 * **Status**\: How many of your orders failed to complete? What is the ratio of pending orders in the past seven days?
 * **Customer acquisition source**\: Beyond tracking user acquisition data at a user level, you can also [track it on an order or event level](../data-analyst/analysis/google-track-user-acq.md). A user that registered via one source may very well continue to access your site via other sources.
 * **Device**\: Are the number of mobile orders increasing? How much of your revenue is currently generated via mobile purchases? (If you are not tracking this yet, see this topic [about tracking order device data](../data-analyst/analysis/track-usr-dev-browser.md).
-* **Fulfillment Center: **Which one of your fulfillment centers is generating the most revenue? If you\'re analyzing the difference between order time and shipping time, which fulfillment center is most responsive?
+* **Fulfillment Center: **Which one of your fulfillment centers is generating the most revenue? If you're analyzing the difference between order time and shipping time, which fulfillment center is most responsive?
 * **Delivery Carrier: **Which is the most popular carrier? Which carrier has the least number of returned items?
 * **Discount / Coupon Codes**\: Are your promotions actually generating extra business? How many extra items did your customers buy in addition to the item on sale? How do coupons affect your average order value? What is your average margin on discounted vs. non-discounted items?
 * **Satisfaction / Rating**\: How satisfied are your customers with their orders? Are your customers likely to refer business to you?
@@ -52,7 +52,7 @@ If you are interested in merchandising, check out a blog post where I explore [h
 
 ## Establish Customer Profiles
 
-Segmentation experts may want to move beyond one-dimensional slices and begin establishing real customer profiles. For example, people between ages of 13 and 24 that registered via a mobile device put in a group \"Young &amp; Mobile\". How does this group\'s behavior compare to the rest of your user base?
+Segmentation experts may want to move beyond one-dimensional slices and begin establishing real customer profiles. For example, people between ages of 13 and 24 that registered via a mobile device put in a group "Young &amp; Mobile". How does this group's behavior compare to the rest of your user base?
 
 This type of analysis is what marketers at Fortune 1000 companies do all day. Prior to the advent of cloud-based business intelligence platforms like MBI, it was largely out of reach for the rest of us. Fortunately, that is no longer the case.
 

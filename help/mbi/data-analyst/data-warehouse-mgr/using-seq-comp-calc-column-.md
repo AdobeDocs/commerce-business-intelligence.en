@@ -104,7 +104,7 @@ The **Sequential Comparison** column type finds the difference between consecuti
 </tbody>
 </table>
 
- In the above example, **Seconds since owner's previous event** is the **Sequential Comparison** calculated column. For the **owner_id** = A, it first identifies a sequence based on the **timestamp** column, and then subtracts the previous event's **timestamp** from the current event's timestamp. In the 3rd row in the table – the 2nd row for **owner_id** A – the value of **Seconds since owner's previous event** is the number of seconds between \'2015-01-01 02:00\' and \'2015-01-01 00:00:00\'. This difference equals 2 hours = 7200 seconds.
+ In the above example, **Seconds since owner's previous event** is the **Sequential Comparison** calculated column. For the **owner_id** = A, it first identifies a sequence based on the **timestamp** column, and then subtracts the previous event's **timestamp** from the current event's timestamp. In the 3rd row in the table – the 2nd row for **owner_id** A – the value of **Seconds since owner's previous event** is the number of seconds between '2015-01-01 02:00' and '2015-01-01 00:00:00'. This difference equals 2 hours = 7200 seconds.
 
 For this calculated column type, the row corresponding to the owner's first event has a NULL value.
 

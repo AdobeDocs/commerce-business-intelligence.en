@@ -7,7 +7,7 @@ After [you’ve connected your Mixpanel account](../data-analyst/importing-data/
 
 In this article, we’ll explore the main data tables that you can import from Mixpanel into your MBI account. The following tables will be created in your data warehouse after connecting Mixpanel. To view all the fields available for tracking, click the links in the table name column.
 
-Note that due to the limitations of Mixpanel\'s API, historical data - data older than seven (7) days from the date of connection to MBI - will not be replicated.
+Note that due to the limitations of Mixpanel's API, historical data - data older than seven (7) days from the date of connection to MBI - will not be replicated.
 
 | **Table Name** | **Description** |
 | [mixpanel\_export](https://mixpanel.com/docs/api-documentation/exporting-raw-data-you-inserted-into-mixpanel#datafeed) | This table contains raw event data, including the event, event dates, and platform bucket. |

@@ -15,7 +15,7 @@ zendesk_id: 360016506672
 * [MySQL via direct connection](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
 * [MySQL via cPanel](../data-analyst/importing-data/integrations/mysql-via-cpanel.md)
 
-To connect your MySQL database to MBI via an SSH tunnel, you (or your team, if you\'re not a techie) will need to do a few things:
+To connect your MySQL database to MBI via an SSH tunnel, you (or your team, if you're not a techie) will need to do a few things:
 
 1. Retrieve the MBI public key
 1. Allow access to the MBI IP address
@@ -23,26 +23,26 @@ To connect your MySQL database to MBI via an SSH tunnel, you (or your team, if y
 1. Create a MySQL user for MBI
 1. Enter the connection and user info into MBI
 
-It\'s not as complicated as it might sound. Let\'s get started.
+It's not as complicated as it might sound. Let us get started.
 
 ## Retrieving the MBI public key {#retrieve}
 
-The public key is used to authorize the MBI Linux user. In the next section, we\'ll create the user and import the key.
+The public key is used to authorize the MBI Linux user. In the next section, we will create the user and import the key.
 
 1. Go to **Manage** **Data &gt; Connections** and click the Add New Data Source button.
 1. Click the MySQL icon.
 1. After the MySQL credentials page opens, toggle the Encrypted button to Yes. This will display the SSH setup form.
 1. The public key is located underneath this form.
 
-Leave this page open throughout the tutorial - you\'ll need it in the next section and at the end.
+Leave this page open throughout the tutorial - you will need it in the next section and at the end.
 
-If you\'re a bit lost, here\'s how to navigate through MBI to retrieve the key:
+If you're a bit lost, here's how to navigate through MBI to retrieve the key:
 
 ![](../assets/MySQL_SSH.gif){: width="778"}
 
 ## Allow access to the MBI IP address {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151** but they\'re also on the MySQL credentials page. See the blue box in the GIF above? That\'s it!
+For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151** but they're also on the MySQL credentials page. See the blue box in the GIF above? That's it!
 
 ## Creating a Linux user for MBI {#linux}
 
@@ -75,7 +75,7 @@ This can be a production or secondary machine, as long as it contains real-time 
 
 **Important!**
 
-If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it\'s necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
+If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it's necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
 
 ## Creating a MySQL user for MBI {#mysql}
 
@@ -91,16 +91,16 @@ To restrict this user from accessing data in specific databases, tables, or colu
 
 ## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click the Add New Data Source button, then the MySQL icon. Don\'t forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click the Add New Data Source button, then the MySQL icon. Don't forget to toggle the Encrypted button to Yes.
 
 Enter the following info into this page, starting with the Database Connection section:
 
 * **Username:** The username for the MBI MySQL user
 * **Password:** The password for the MBI MySQL user
-* **Port:** MySQL\'s port on your server (3306 by default)
-* **Host:** By default, this will be localhost. In general, it will be the bind-address value for your MySQL server, which by default is 127.0.0.1 (localhost), but could also be some local network address (e.g. 192.168.0.1) or your server\'s public IP address.
+* **Port:** MySQL's port on your server (3306 by default)
+* **Host:** By default, this will be localhost. In general, it will be the bind-address value for your MySQL server, which by default is 127.0.0.1 (localhost), but could also be some local network address (e.g. 192.168.0.1) or your server's public IP address.
 
-   The value can be found in your my.cnf file (usually located at \"/etc/my.cnf\") underneath the line that reads \"\[mysqld\]\". If the bind-address line is commented out in that file, your server is secured from outside connection attempts.
+   The value can be found in your my.cnf file (usually located at "/etc/my.cnf") underneath the line that reads "\[mysqld\]". If the bind-address line is commented out in that file, your server is secured from outside connection attempts.
 
 In the SSH Connection section:
 
@@ -108,7 +108,7 @@ In the SSH Connection section:
 * **Username:** The username for the MBI SSH (Linux) user
 * **SSH Port:** SSH port on your server (22 by default)
 
-That\'s it! When you\'re finished, click the Save & Test button to complete the setup.
+That's it! When you're finished, click the Save & Test button to complete the setup.
 
 ## Related:
 

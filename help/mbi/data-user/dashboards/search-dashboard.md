@@ -3,7 +3,7 @@ title: Searching for Dashboards
 zendesk_id: 360016506892
 ---
 
-In this article, we'll show you how to use the [Global Search feature](../#global) to look for dashboards and how to search for [dashboards owned by other users](../#other).
+In this article, we show you how to use the [Global Search feature](../#global) to look for dashboards and how to search for [dashboards owned by other users](../#other).
 
 ## Global Search {#global}
 

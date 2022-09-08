@@ -3,7 +3,7 @@ title: Analyzing Returned Orders
 zendesk_id: 360016506832
 ---
 
-In this article, we demonstrate how to set up a dashboard that will provide a detailed analysis of your store\'s returns.
+In this article, we demonstrate how to set up a dashboard that will provide a detailed analysis of your store's returns.
 
 ![](../../assets/upload_12_19_2016_at_3_34_09_PM.png)
 

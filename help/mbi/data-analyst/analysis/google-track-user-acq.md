@@ -26,7 +26,7 @@ In this article we will explain how to save Google Analytics acquisition channel
 
 #### Why?
 
-If you are just looking at the default Google Analytics conversion and acquisition metrics, you are not getting the whole picture. While seeing the number of conversions from organic search versus paid search is interesting, what can you do with that information? Should you spend more money on paid search? That depends on the value of customers coming from that channel, which is not something Google Analytics provides. [_Note: [Google Analytics eCommerce Tracking](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingEcommerce) does mitigate this problem by storing transaction data in Google Analytics, but this solution doesn't work for non-eCommerce sites, and certain tools like cohort analysis are not easy to do in the Google Analytics interface_].
+If you are just looking at the default Google Analytics conversion and acquisition metrics, you are not getting the whole picture. While seeing the number of conversions from organic search versus paid search is interesting, what can you do with that information? Should you spend more money on paid search? That depends on the value of customers coming from that channel, which is not something Google Analytics provides. [_Note: [Google Analytics eCommerce Tracking](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingEcommerce) does mitigate this problem by storing transaction data in Google Analytics, but this solution does not work for non-eCommerce sites, and certain tools like cohort analysis are not easy to do in the Google Analytics interface_].
 
 What if you want to email a follow-up deal to all customers acquired from a certain e-mail campaign? Or integrate acquisition data with your CRM system? This is impossible in Google Analytics - in fact, it is against the Terms of Service for Google Analytics to store any data that identifies an individual.  But that does not mean you cannot store this data yourself.
 
@@ -48,7 +48,7 @@ We recommend adding a new table to your database called, for example, `user_refe
 
 #### How to use this data
 
-Now that we're saving user acquisition source, how can we use it?
+Now that we are saving user acquisition source, how can we use it?
 
 Lets suppose we are using a SQL database and have a `users` table with the following structure:
 

@@ -14,7 +14,7 @@ To get started, open the SQL Report Builder by navigating to **Report Builder > 
 -  Any **filters (and filter sets)** that have been added to the metric, indicated by the WHERE clause in the example below.
 -  The component of the **timestamp** (year, month) on which the data is to be ordered, indicated by the ORDER BY clause in the example below.
 
-If you’d like to have a clearer view of the query, you can reformat how it's displayed in the query field. When you’re ready, select **Run Query**. The results will populate as a table in the report panel below the query.
+If you’d like to have a clearer view of the query, you can reformat how it is displayed in the query field. When you’re ready, select **Run Query**. The results will populate as a table in the report panel below the query.
 
 ![](../assets/gif1.gif)
 

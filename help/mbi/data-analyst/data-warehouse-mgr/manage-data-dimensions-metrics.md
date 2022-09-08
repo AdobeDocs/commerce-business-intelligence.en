@@ -17,7 +17,7 @@ To add one or more dimensions to multiple Metrics at once:
 1. {: dir="ltr"} On the main navigation bar, go to **Manage Data &gt; Metrics. **
     {: dir="ltr"}
 
-1. {: dir="ltr"} At the top of the page, click \"Add Dimensions To Metric(s)\".
+1. {: dir="ltr"} At the top of the page, click "Add Dimensions To Metric(s)".
     {: dir="ltr"}
 
 1. {: dir="ltr"} Choose the table that contains the dimensions.
@@ -27,7 +27,7 @@ To add one or more dimensions to multiple Metrics at once:
 1. {: dir="ltr"} If you’d like to segment or group by any of the data dimensions on reports, make sure to indicate they are Groupable.
     {: dir="ltr"}
 
-1. {: dir="ltr"} Click \"Add\".
+1. {: dir="ltr"} Click "Add".
 
 ## Delete dimensions from multiple metrics
 {: dir="ltr"}
@@ -37,7 +37,7 @@ To delete one or more dimensions from multiple metrics:
 1. {: dir="ltr"} On the main navigation bar, go to Data&gt;Metrics.
     {: dir="ltr"}
 
-1. {: dir="ltr"} At the top of the page, click \"Remove Dimensions From Metric(s)\".
+1. {: dir="ltr"} At the top of the page, click "Remove Dimensions From Metric(s)".
     {: dir="ltr"}
 
 1. {: dir="ltr"} Choose the table that contains the dimensions.
@@ -46,10 +46,10 @@ To delete one or more dimensions from multiple metrics:
 1. {: dir="ltr"} Select the metrics you would like to remove the dimensions from on the left, and the dimensions you wish to remove on the right.
     {: dir="ltr"}
 
-1. {: dir="ltr"} Click \"Remove\".
+1. {: dir="ltr"} Click "Remove".
     {: dir="ltr"}
 
-1. If the dimensions are in use on reports, you will be shown a warning and a list of charts that are using the dimensions. Use the \"Delete\" button to delete the checked dimensions and all of their dependents, including reports.
+1. If the dimensions are in use on reports, you will be shown a warning and a list of charts that are using the dimensions. Use the "Delete" button to delete the checked dimensions and all of their dependents, including reports.
 
 ## Manage dimensions in metrics
 {: dir="ltr"}
@@ -59,10 +59,10 @@ To delete one or more dimensions from multiple metrics:
 1. {: dir="ltr"} On the main navigation bar, go to Data&gt;Metrics.
     {: dir="ltr"}
 
-1. {: dir="ltr"} Click \"Edit\" on the metric you want a new dimension.
+1. {: dir="ltr"} Click "Edit" on the metric you want a new dimension.
     {: dir="ltr"}
 
-1. {: dir="ltr"} Under the \"Dimensions\" section, use the \"Add a dimension\" dropdown menu to select a dimension to add.
+1. {: dir="ltr"} Under the "Dimensions" section, use the "Add a dimension" dropdown menu to select a dimension to add.
     {: dir="ltr"}
 
 Note that any dimension that you want to filter or group by must already be tracked in MBI. If you do not find the desired dimension, we may need to start tracking a new data column in your database via the [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) page.

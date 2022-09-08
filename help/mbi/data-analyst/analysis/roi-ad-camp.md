@@ -31,33 +31,33 @@ Note that we will make the assumption that all campaign costs were exclusively u
 
 1. Create a Metric that sums your spend over time
 1. Go to Data -&gt; Metrics
-1. Select \"Add New Metric\" and select the \"Adwords...\" table that is recording your AdWords cost data.
+1. Select "Add New Metric" and select the "Adwords..." table that is recording your AdWords cost data.
 1. In the metric editor, give your metric a name (e.g., AdWord Cost)
-1. Using the drop-down menus, perform \" a \'**Sum**\' on the \'**adCost**\' column in the Adwords... table (Change) ordered by the \'**date**\' column.
+1. Using the drop-down menus, perform " a '**Sum**' on the '**adCost**' column in the Adwords... table (Change) ordered by the '**date**' column.
     ![2013-10-16\_1247.png](../../assets/2013-10-16_1247.png){: width="500" height="303"}
-1. We\'re done. Click on \"Back to Metric List\" at the top and go to any dashboard.
+1. We're done. Click on "Back to Metric List" at the top and go to any dashboard.
 
 1. Create a report that segments spend by campaigns
 1. In any dashboard, click Add Report -&gt; Create new report
-1. Select the \"Adword Cost\" metric that we just created
-1. Set the \"Time period\" to All-time, and \"Interval\" to None
-1. Under the \"Group by\" tab, add \"campaign\" as grouping field, and click \"Add All\" in the box below.
+1. Select the "Adword Cost" metric that we just created
+1. Set the "Time period" to All-time, and "Interval" to None
+1. Under the "Group by" tab, add "campaign" as grouping field, and click "Add All" in the box below.
 1. This report will show your all-time AdWord cost by campaigns
 
 **B. We will then create a report that counts new users by campaigns:**
 
 1. In any dashboard, click Add Report -&gt; Create new report
-1. Select the \"New users\" metric that counts the number of new registered users over time
-1. Set the \"Time period\" to All-time, and \"Interval\" to None
-1. Under the \"Group by\" tab, add \"campaign\" as grouping field, and click \"Add All\" in the box below
+1. Select the "New users" metric that counts the number of new registered users over time
+1. Set the "Time period" to All-time, and "Interval" to None
+1. Under the "Group by" tab, add "campaign" as grouping field, and click "Add All" in the box below
 1. This report will show your all-time registered users by campaigns
 
-**C. Now let\'s also create a report that segments average user LTV by campaigns:**
+**C. Now Let us also create a report that segments average user LTV by campaigns:**
 
 1. In any dashboard, click Add Report -&gt; Create new report
-1. Select the \"Average lifetime revenue\" metric that calculates an average user\'s lifetime revenue
-1. Set the \"Time period\" to All-time, and \"Interval\" to None
-1. Under the \"Group by\" tab, add \"campaign\" or \"utm\_campaign\" as grouping field, and click \"Add All\" in the box below
+1. Select the "Average lifetime revenue" metric that calculates an average user's lifetime revenue
+1. Set the "Time period" to All-time, and "Interval" to None
+1. Under the "Group by" tab, add "campaign" or "utm\_campaign" as grouping field, and click "Add All" in the box below
 1. This report will show your average user lifetime revenue by campaigns
 
 **Finally we will calculate campaign ROI by bringing together these three analyses in one report:**
@@ -70,9 +70,9 @@ Note that we will make the assumption that all campaign costs were exclusively u
 
 1. Click the hide button beside the word Chart so you can focus on the table
 1. Now we will use the Add Formula button to combine these metrics, as follows:
-1. **ROI**\: Enter the formula **\"(\[C\]-\[A\]/\[B\])/(\[A\]/\[B\])\"**, if \[A\] represents \"Ad Cost by Campaigns\", \[B\] represents \"New users by campaigns\", and \[C\] \"LTV by campaigns\". This will return the ratio of (average user LTV - average cost per acquisition) / (average cost per acquisition)
-1. **Avg Return per User**\: Enter the formula **\"\[C\]-(\[A\]/\[B\])\"**. This will return the average margin made on a user by calculating (average user LTV) - (average cost per acquisition).
-1. **CPA**\: Enter the formula **\"\[A\]/\[B\]\"**. This will return the actual campaign\'s cost per acquisition.
+1. **ROI**\: Enter the formula **"(\[C\]-\[A\]/\[B\])/(\[A\]/\[B\])"**, if \[A\] represents "Ad Cost by Campaigns", \[B\] represents "New users by campaigns", and \[C\] "LTV by campaigns". This will return the ratio of (average user LTV - average cost per acquisition) / (average cost per acquisition)
+1. **Avg Return per User**\: Enter the formula **"\[C\]-(\[A\]/\[B\])"**. This will return the average margin made on a user by calculating (average user LTV) - (average cost per acquisition).
+1. **CPA**\: Enter the formula **"\[A\]/\[B\]"**. This will return the actual campaign's cost per acquisition.
 1. Other potential metrics to include from AdWords data include sums of  *Impressions* and <em>adClicks </em>(from AdWords data), along with the total *number of orders* made via a particular campaign.
 1. It may also be interesting to calculate the ROI based on LTV 30 days and 90 days after a user registers or makes a first purchase.
 
@@ -90,29 +90,29 @@ Note that we will make the assumption that all campaign costs were exclusively u
 Before we start, [submit a support ticket](../../getting-started/support.md) to join the following dimensions to your line items table (e.g., sales\_flat\_order\_item, order\_item, etc.):
 {: style="padding-left: 30px;"}
 
-* Order\'s source (if you only track referral source at the user level, then join user\'s source)
-* Order\'s campaign (if you only track referral source at the user level, then join user\'s campaign)
-* Order\'s medium (if you only track referral source at the user level, then join user\'s medium)
+* Order's source (if you only track referral source at the user level, then join user's source)
+* Order's campaign (if you only track referral source at the user level, then join user's campaign)
+* Order's medium (if you only track referral source at the user level, then join user's medium)
 
 **A. Now start by creating a chart that returns revenue per campaign for specific product(s):**
 
 1. In any dashboard, click Add Report -&gt; Create new report
-1. Select the \"Revenue by items\" metric that calculates revenue at the line items level
-1. Set the \"Time period\" to All-time, and \"Interval\" to None
-1. Under the \"Filter by\" tab, add \"product name \'IN\' Product A, Product B, Product C, ...\" and include all product names targeted by your campaign separated by a comma (e.g., \"product name \'IN\' yellow t-shirt, red t-shirt, blue t-shirt\")
-1. Under the \"Group by\" tab, add \"order\'s campaign\" or \"order\'s utm\_campaign\" as grouping field, and click \"Add All\" in the box below
+1. Select the "Revenue by items" metric that calculates revenue at the line items level
+1. Set the "Time period" to All-time, and "Interval" to None
+1. Under the "Filter by" tab, add "product name 'IN' Product A, Product B, Product C, ..." and include all product names targeted by your campaign separated by a comma (e.g., "product name 'IN' yellow t-shirt, red t-shirt, blue t-shirt")
+1. Under the "Group by" tab, add "order's campaign" or "order's utm\_campaign" as grouping field, and click "Add All" in the box below
 1. This report will show you the revenue for specific product(s) by campaigns
 
 **B. To calculate ROI, we will once again combine metrics in one report:**
 
 1. In any dashboard, click Add Report -&gt; Create new report
-1. Add the \"Revenue by items\" metric, following the filter and group by directions from the campaign for specific product(s) report above and click \"Hide\" beneath the metric\'s scalar value
-1. Now add the \"AdWords Cost\" metric, following the filter and group by directions from the \"Ad cost by campaigns\" report we explored in the \"User acquisition campaigns\" section above; then click \"Hide\" beneath the metric\'s scalar value
-1. With these metrics in place, we\'ll now add formulas:
-1. **ROI**\: Enter the formula **\"\[A\]/\[B\]\"**, if \[A\] represents \"Revenue per campaign for specific product(s)\" and \[B\] represents \"Ad cost by campaigns\". This will return the ratio of (Revenue for specific product(s)) / (Campaign Cost)
-1. **Return**\: Enter the formula **\"\[A\]-\[B\]\"**. This will return the average margin made on a user by calculating (average user LTV) - (average cost per acquisition)
-1. (Optional) Revenue: Unhide the \"Revenue by items\" metric to see revenue for specific product(s) per campaigns
-1. (Optional) Cost: Unhide the \"AdWords Cost\" metric to see the cost for campaigns
+1. Add the "Revenue by items" metric, following the filter and group by directions from the campaign for specific product(s) report above and click "Hide" beneath the metric's scalar value
+1. Now add the "AdWords Cost" metric, following the filter and group by directions from the "Ad cost by campaigns" report we explored in the "User acquisition campaigns" section above; then click "Hide" beneath the metric's scalar value
+1. With these metrics in place, we will now add formulas:
+1. **ROI**\: Enter the formula **"\[A\]/\[B\]"**, if \[A\] represents "Revenue per campaign for specific product(s)" and \[B\] represents "Ad cost by campaigns". This will return the ratio of (Revenue for specific product(s)) / (Campaign Cost)
+1. **Return**\: Enter the formula **"\[A\]-\[B\]"**. This will return the average margin made on a user by calculating (average user LTV) - (average cost per acquisition)
+1. (Optional) Revenue: Unhide the "Revenue by items" metric to see revenue for specific product(s) per campaigns
+1. (Optional) Cost: Unhide the "AdWords Cost" metric to see the cost for campaigns
 
 1. Give your report a name and be sure to save it as a table
 

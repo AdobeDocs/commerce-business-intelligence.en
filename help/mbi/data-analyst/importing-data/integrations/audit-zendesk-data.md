@@ -3,7 +3,7 @@ title: Auditing Zendesk data
 zendesk_id: 360016506272
 ---
 
-Found something strange in your [Zendesk data](../data-analyst/importing-data/integrations/exp-zendesk-data.md)? To pinpoint the issue, we'll need to explore your data. This can be done by exporting your Zendesk data to a downloadable file.
+Found something strange in your [Zendesk data](../data-analyst/importing-data/integrations/exp-zendesk-data.md)? To pinpoint the issue, we need to explore your data. This can be done by exporting your Zendesk data to a downloadable file.
 
 ## Enabling data export
 
@@ -17,7 +17,7 @@ After data export is enabled, only administrators in a specific email domain can
 1. Click the **Export** tab.
 1. Click **Request file** beside Full XML Export as seen in the image below.
 
-   At this point, a build will begin; you'll be notified via email when it completes.
+   At this point, a build will begin; you will be notified via email when it completes.
    ![reports_export_new.png](../assets/reports_export_new.png)
 1. Click the link in your email notification to download a zip file containing the report.
 

@@ -5,7 +5,7 @@ zendesk_id: 360016505412
 
 The SQL Report Builder allows you to query and iterate on those queries at any given time. This is useful when you need to modify a query without having to wait for an update cycle to finish before realizing a column or report you created needs updating.
 
-Before a query is executed, [MBI estimates its cost](https://support.magento.com/hc/en-us/articles/360016730391). Cost takes into consideration the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds our limits, the query will not run. We put together a list of recommendations for querying your data warehouse, which will ensure you're writing the most streamlined queries possible.
+Before a query is executed, [MBI estimates its cost](https://support.magento.com/hc/en-us/articles/360016730391). Cost takes into consideration the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds our limits, the query will not run. We put together a list of recommendations for querying your data warehouse, which will ensure you are writing the most streamlined queries possible.
 
 ## Using SELECT * or Selecting All Columns
 
@@ -20,7 +20,7 @@ For this reason, we recommends you avoid using SELECT * wherever possible and on
 
 Outer joins select the entirety of both tables being joined, which will increase the computational cost of the query. This means that your query will take longer to run and is more likely to fail, as it may take longer than the execution limit to return the results.
 
-Instead of using this type of join, consider using an inner or left join. Inner joins return results only where there's a columnar match between tables (for example, `order_id` exists in both a typical `customers` and `orders` table); left joins will return all results from the left (first) table along with the matching results in the right (second) table.
+Instead of using this type of join, consider using an inner or left join. Inner joins return results only where tHere is a columnar match between tables (for example, `order_id` exists in both a typical `customers` and `orders` table); left joins will return all results from the left (first) table along with the matching results in the right (second) table.
 
 Take a look at how we can rewrite a FULL OUTER JOIN query:
 
@@ -39,7 +39,7 @@ Use filters whenever possible. `WHERE` and `HAVING` clauses will filter your res
 
 ## Using Filters in JOIN Clauses
 
-If you're using a filter when performing a join, be sure to apply it to both tables in the join. Even if it's redundant, this will reduce the computational cost of the query and speed up the execution time.
+If you are using a filter when performing a join, be sure to apply it to both tables in the join. Even if it is redundant, this will reduce the computational cost of the query and speed up the execution time.
 
 | **Instead of this...** | **Try this!** |
 | ![](../assets/Join_filters_1.png) | ![](../assets/Join_filters_2.png) |
@@ -52,11 +52,11 @@ Comparison operators (&gt;, &lt;, =, and so on) are the least expensive, followe
 
 ## Using EXISTS Versus IN
 
-Using EXISTS versus IN depends on the type of results you're trying to return. If you're only interested in a single value, use the EXISTS clause instead of IN. IN is used in conjunction with lists of comma-separated values, which will increase the computational cost of the query.
+Using EXISTS versus IN depends on the type of results you are trying to return. If you are only interested in a single value, use the EXISTS clause instead of IN. IN is used in conjunction with lists of comma-separated values, which will increase the computational cost of the query.
 
-When IN queries are run, the system must first process the subquery (the IN statement), then the entire query based on the relationship specified in the IN statement. EXISTS is far more efficient because the query doesn't have to be run through multiple times - a true/false value is returned while checking the relationship specified in the query.
+When IN queries are run, the system must first process the subquery (the IN statement), then the entire query based on the relationship specified in the IN statement. EXISTS is far more efficient because the query does not have to be run through multiple times - a true/false value is returned while checking the relationship specified in the query.
 
-To put it simply: the system doesn't have to process as much when using EXISTS.
+To put it simply: the system does not have to process as much when using EXISTS.
 
 | **Instead of this...** | **Try this!** |
 | ![](../assets/Exists_1.png) | ![](../assets/Exists_2.png) |
@@ -69,7 +69,7 @@ This is not to say that ORDER BY can not be used - just that it should only be u
 
 ## Using GROUP BY and ORDER BY
 
-While there may be a few situations where this approach doesn't conform with what you're trying to do, the general rule is that if you're using a GROUP BY and ORDER BY, you should put the columns in both clauses in the same order. For example:
+While there may be a few situations where this approach does not conform with what you are trying to do, the general rule is that if you are using a GROUP BY and ORDER BY, you should put the columns in both clauses in the same order. For example:
 
 | **Instead of this...** | **Try this!** |
 | ![](../assets/Group_by_2.png) | ![](../assets/Group_by_1.png) |

@@ -27,7 +27,7 @@ This metric reveals the gross revenue you earn from orders that include a partic
 
 #### Discounts from coupons
 
-This metric can show you the total discount amount applied from the coupons. It's important to note that these orders may not have occurred without the coupons.
+This metric can show you the total discount amount applied from the coupons. it is important to note that these orders may not have occurred without the coupons.
 
 #### Net revenue
 
@@ -89,7 +89,7 @@ While the **gross discounts** for all three coupons are very similar (around $2,
 
 On the other hand, the "10% off" coupon has a very high average discount value ($25.01), but the lowest **percent discounted**. This makes sense when you take into account its average net order value of $225.08. The "10% off" coupon has a small percent discount of a large average net order value, so the average order discount is a large amount.
 
-Let's take a look at the **distinct buyers** and **average lifetime revenue** for each coupon. The "10% off" coupon has the same number of orders as distinct buyers. This could be a result of each customer being limited to one coupon. On the other hand, the "$20 off $100 or more" and "$10 off" coupons have fewer distinct buyers than number of orders, which implies that some customers used these coupons multiple times.
+Let us take a look at the **distinct buyers** and **average lifetime revenue** for each coupon. The "10% off" coupon has the same number of orders as distinct buyers. This could be a result of each customer being limited to one coupon. On the other hand, the "$20 off $100 or more" and "$10 off" coupons have fewer distinct buyers than number of orders, which implies that some customers used these coupons multiple times.
 
 For average lifetime revenue, you can see that the average lifetime revenue for each coupon is greater than the respective **average net order** value. This implies that either customers made repeat purchases, and/or their order value was much higher than the average net order value.
 

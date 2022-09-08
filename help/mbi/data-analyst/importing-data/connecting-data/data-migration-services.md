@@ -14,7 +14,7 @@ Before we dive in, you should know the answers to these questions:
 * **Is the new database on a new server?** Before submitting a request, update your data connection's settings under **Manage Data > Connections**. If you need a refresher on how to do this, go to the [Integrations](../data-analyst/importing-data/integrations/integrations.md) section and find the instructions for the type of database you are using.
 * **Does your all historical data exist in the new database or does it need to be migrated?** We can consolidate the historical and new data during the migration process. Even if you don’t need a consolidation, we ask that you let us know in your request.
 
-After you have the answers to the above, we\'ll need to know the type of migration: will **the new database have the [<u>same</u>](../#sameschema) schema**, or will it have a **[<u>different</u>](../#newschema) schema**? In the sections below, you'll find detailed instructions for each migration type.
+After you have the answers to the above, we will need to know the type of migration: will **the new database have the [<u>same</u>](../#sameschema) schema**, or will it have a **[<u>different</u>](../#newschema) schema**? In the sections below, you will find detailed instructions for each migration type.
 
 ## Migrating to a new database with the same schema {#sameschema}
 
@@ -22,7 +22,7 @@ When submitting the request, let us know that the database schema isn’t changi
 
 **If the database has a new name**, include it in the request so your dashboards can be properly migrated.
 
-**If the database name isn\'t changing**, the migration is complete. Dashboards and reports will refresh after the next full update is completed. **We ask that you still contact us** so that we can stay ahead of any problems that might arise as a result of the migration.
+**If the database name isn't changing**, the migration is complete. Dashboards and reports will refresh after the next full update is completed. **We ask that you still contact us** so that we can stay ahead of any problems that might arise as a result of the migration.
 
 ## Migrating to a new database with a different schema {#newschema}
 
@@ -51,8 +51,8 @@ Please note that if certain data columns do not have equivalent columns in the n
 
 You can reach out to us by [submitting a support request](../getting-started/support.md).
 
-If you followed the steps in the previous section for creating the column matching spreadsheet, don't forget to attach it.
+If you followed the steps in the previous section for creating the column matching spreadsheet, do not forget to attach it.
 
-## What\'s next? {#wrapup}
+## What's next? {#wrapup}
 
 Determining the scope of the project will take some collaboration between you and the analyst from the Magento Services team performing the migration. The complexity of the changes and the responsiveness of you and the analyst directly impacts the amount of time the migration can take. After we nail down the details, a timeline will be established and sent to you with a statement of work.

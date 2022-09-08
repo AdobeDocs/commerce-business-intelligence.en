@@ -8,7 +8,7 @@ zendesk_id: 360016505452
 
 ![](../assets/Facebook_Logo.png)
 
-You did your research, you created your ads, you launched your campaign on Facebook. Now it\'s time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
+You did your research, you created your ads, you launched your campaign on Facebook. Now it's time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
 Connecting your Facebook ad data to MBI is a simple three-step process:
 
@@ -29,7 +29,7 @@ After clicking the Authorize button, a small pop-up window will display:
 
  ![](../assets/Facebook_Access_Popup.png)
 
-You will be taken through a series of steps to allow MBI to access data from your Public Profile, Facebook ads and related stats. \"Okay\" these steps to continue.
+You will be taken through a series of steps to allow MBI to access data from your Public Profile, Facebook ads and related stats. "Okay" these steps to continue.
 
 ## Select Facebook Ads Accounts for pulling data {#stepthree}
 
@@ -41,7 +41,7 @@ You will be taken through a series of steps to allow MBI to access data from you
 
    If the connection is successful, a *Connection Successful!* message will display at the top of the page.
 
-## What\'s next? {#next}
+## What's next? {#next}
 
 Make sure that you are tracking Facebook campaigns in Google Analytics as per this [tutorial](https://www.facebook.com/business/google-analytics). This will ensure that the utm\_campaign field in Google Analytics is properly populated for your Facebook campaigns.
 

@@ -23,7 +23,7 @@ With our question in hand, it is time to identify a list of possible analyses an
 
 * *Average time from registration to first purchase date per user*
 
-This will reveal the average time that lapses between registration date and the users\' first purchase date and give an idea on how users behave at this final step in the conversion funnel.
+This will reveal the average time that lapses between registration date and the users' first purchase date and give an idea on how users behave at this final step in the conversion funnel.
 
 ## Finding the data
 
@@ -46,15 +46,15 @@ At a more granular level, we need to identify the exact data fields that will be
 
 In addition to the native data columns outlined above, we will also need a set of calculated data fields to enable this analysis, including:
 
-* **Customer’s first purchase date** which returns a specific user\'s MIN(\`order\`.\`created\_at\`)
+* **Customer’s first purchase date** which returns a specific user's MIN(\`order\`.\`created\_at\`)
 
 That will then be used to create:
 
-* **Time between a customer’s registration date and first purchase date**, which returns a specific user\'s time lapsed between registration and 1st purchase date. This will be the basis for our metric later.
+* **Time between a customer’s registration date and first purchase date**, which returns a specific user's time lapsed between registration and 1st purchase date. This will be the basis for our metric later.
 
 Both of these fields need to be created at the user level (i.e. on the \`user\` table), so that the average analysis can be normalized by users (i.e. the denominator in this average calculation will be the count of users).
 
-This is where MBI steps in! You can leverage your MBI data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we\'ll create them. You can also leverage our [Column Editor](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
+This is where MBI steps in! You can leverage your MBI data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we will create them. You can also leverage our [Column Editor](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
 It is a best practice to avoid creating these calculated data fields in your database directly as it puts an unnecessary burden on your production servers.
 
@@ -68,7 +68,7 @@ Here we know that, mathematically, we want to perform the following calculation:
 * _[SUM of `Time between a customer’s registration date and first purchase date`] / [Total number of customers that registered and purchased]_
 {%endraw%}
 
-And we want to see this calculation plotted over time, or trending, according to a customer’s registration date. And here's how to [create this metric](../data-user/reports/ess-manage-data-metrics.md) in MBI:
+And we want to see this calculation plotted over time, or trending, according to a customer’s registration date. And Here is how to [create this metric](../data-user/reports/ess-manage-data-metrics.md) in MBI:
 
 1. Go to **Data** and select the **Metrics** tab.
 1. Click **Add New Metric** and select the \`user\` table (where we created the dimensions above).
@@ -122,7 +122,7 @@ When creating reports that will be shared with other members of your team, we re
 1. Enter a description into the word box.
 1. Hit Save Description.
 
-Let\'s take a look:
+Let us take a look:
 
 ![Chart\_Description.gif](../assets/Chart_Description.gif)
 
@@ -135,6 +135,6 @@ Need to include a report in a presentation or document? Any report can be saved 
 1. When the report enlarges, click the download icon in the top right corner of the report.
 1. Select the preferred image format from the drop-down. The download will begin immediately.
 
-Let\'s take a look:
+Let us take a look:
 
 ![3.3.gif](../assets/3.3.gif)

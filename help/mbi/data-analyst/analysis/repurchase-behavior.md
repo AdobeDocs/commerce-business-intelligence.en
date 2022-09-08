@@ -34,7 +34,7 @@ This measure shows customer's ordering frequency, or the time it takes for the c
 
 ## Today's example: coffee products
 
-Keeping the above metrics in mind, let's take a look at an example involving coffee products.
+Keeping the above metrics in mind, Let us take a look at an example involving coffee products.
 
 | **Product name** | **Repeat order probability** | **Avg lifetime number of orders** | **Avg lifetime revenue** | **Median time to next order** |
 | Single-cup coffee brewer | 94.98% | 7.92 | $549.82 | 57.01 days |
@@ -67,6 +67,6 @@ Using the metrics we outlined in this article, you can also build other useful r
 
 In addition to analyzing the repurchasing behavior of your customers, you can also build analyses that look at customer loyalty. Consider analyzing patterns in customer churn - where are your customers leaving your site and not coming back? At what rate is this occurring?
 
-Once you've identified why churn is happening, you can use your analysis to build a "reactivation" campaign. Using this data, you can identify users who've become inactive, how long it's been since their last visit, what their last purchase was, and so on. This will allow you to make actionable decisions that will entice your customers to come back.
+Once you have identified why churn is happening, you can use your analysis to build a "reactivation" campaign. Using this data, you can identify users who've become inactive, how long it is been since their last visit, what their last purchase was, and so on. This will allow you to make actionable decisions that will entice your customers to come back.
 
 For help with analysis, [contact support](../../getting-started/support.md).

@@ -17,7 +17,7 @@ In the typical commerce database, there is an **orders** table that joins to a *
 
 * **If guest orders are allowed**, this means that some orders do not have a value in the **customer\_id** column. Only registered customers are given a value for the **customer\_id** column on the **orders** table. Customers who are not registered will receive a NULL (or blank) value for this column. As a result, not all order records will have matching records in the **customers** table.
 
-  To identify the unique individual that made the order, there needs to be another unique user attribute beside **customer\_id** attached to an order. Typically, customer\'s email address is used.
+  To identify the unique individual that made the order, there needs to be another unique user attribute beside **customer\_id** attached to an order. Typically, customer's email address is used.
 
   ![Image 2](../assets/Image_2.png)
 
@@ -25,7 +25,7 @@ In the typical commerce database, there is an **orders** table that joins to a *
 
 Typically, the Sales Engineer that implements your account will take guest orders into consideration when building the foundation of your data warehouse.
 
-The most optimal way to account for guest orders is to base all customer-level metrics on the **orders** table. This setup will use a unique customer ID that all customers have, including guests (normally customer email is used). This ignores registration data from the **customers** table. With this option, only customers who have made at least one purchase will be included in customer-level reports. Registered users who have not yet made one purchase will not be included. With this option, your **New customer** metric will be based on the customer\'s first order date in the **orders** table.
+The most optimal way to account for guest orders is to base all customer-level metrics on the **orders** table. This setup will use a unique customer ID that all customers have, including guests (normally customer email is used). This ignores registration data from the **customers** table. With this option, only customers who have made at least one purchase will be included in customer-level reports. Registered users who have not yet made one purchase will not be included. With this option, your **New customer** metric will be based on the customer's first order date in the **orders** table.
 
 You may notice that the **Customers we count** filter set in this type of setup has a filter for “Customer’s order number = 1”. Let’s think about why this is.
 
@@ -35,7 +35,7 @@ In a situation without guest orders, each customer exists as a unique row in the
 
 In a guest orders setup where all customer metrics are based on the **orders** table to account for guest orders, you need to ensure that you are **not counting customers twice**. If you count the id of the orders table, you will be counting every order. If instead you count the id on the **orders** table and use a filter, “Customer’s order number = 1”, then you are going to count each unique customer **only one time**. This is applicable for all customer level metrics such as “Customer’s lifetime revenue” or “Customer’s lifetime number of orders”.
 
-In Image 2 above, you can see that there are null **customer\_ids** in the orders table. If we use the **customer\_email** to identify unique customers, you can see that \"erin@test.com\" has placed three (3) orders. Therefore, we can build a \"New customers\" metric on your orders table based on the following conditions:
+In Image 2 above, you can see that there are null **customer\_ids** in the orders table. If we use the **customer\_email** to identify unique customers, you can see that "erin@test.com" has placed three (3) orders. Therefore, we can build a "New customers" metric on your orders table based on the following conditions:
 
 * Operation table = orders
 * Operation column = id

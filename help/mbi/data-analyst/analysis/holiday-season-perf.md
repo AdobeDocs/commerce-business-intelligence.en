@@ -28,7 +28,7 @@ Now that we know what metrics to analyze, we look at some sample revenue data du
 
 In this example, there are two large spikes in revenue for 2014 and 2015: these increases coincide with Black Friday and Cyber Monday. Notice how the spikes aren't on the same day for 2014 and 2015. This is because Black Friday fell on November 27 for 2014 and November 28 for 2015. Similarly, Cyber Monday was November 30 for 2014 and December 1 for 2015.
 
-Furthermore, there is a spike in revenue for 2015 on December 19 that does not appear in 2014. It's possible that a sale was offered on this particular Saturday that wasn't available the previous year.
+Furthermore, there is a spike in revenue for 2015 on December 19 that does not appear in 2014. it is possible that a sale was offered on this particular Saturday that wasn't available the previous year.
 
 Apart from the few dates mentioned above, the revenue for these two years track together.
 

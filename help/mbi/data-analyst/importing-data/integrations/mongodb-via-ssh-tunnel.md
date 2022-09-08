@@ -4,7 +4,7 @@ zendesk_id: 360016732571
 ---
 
 
-To connect your MongoDB database to MBI via an SSH tunnel, you (or your team, if you're not a techie) will need to do a few things:
+To connect your MongoDB database to MBI via an SSH tunnel, you (or your team, if you are not a techie) will need to do a few things:
 
 1. [Retrieve the MBI public key](../#retrieve)
 1. [Allow access to the MBI IP address](../#allowlist)
@@ -16,29 +16,29 @@ Due to the technical nature of this setup, we suggest you loop in a developer to
 
 ## Retrieving the MBI public key {#retrieve}
 
-The public key is used to authorize the MBI Linux user. In the next section, we'll create the user and import the key.
+The public key is used to authorize the MBI Linux user. In the next section, we create the user and import the key.
 
 1. Go to **Data &gt; Connections** and click the **Add New Data Source** button.
 1. Click the **MongoDB** icon.
 1. After the MongoDB credentials page opens, toggle the **Encrypted** button to **Yes**. This will display the SSH setup form.
 1. The public key is located underneath this form.
 
-Leave this page open throughout the tutorial - you'll need it in the next section and at the end.
+Leave this page open throughout the tutorial - you will need it in the next section and at the end.
 
-If you're a bit lost, here's how to navigate through MBI to retrieve the key:
+If you are a bit lost, Here is how to navigate through MBI to retrieve the key:
 
 ![Retrieving the RJMetrics public key](../assets/MongoDB_Public_Key.gif){:.zoom}
 
 ## Allow access to the MBI IP address {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it's also on the MongoDB credentials page:
+For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it is also on the MongoDB credentials page:
 
 ![MBI_Allow_Access_IPs.png](../assets/MBI_allow_access_IPs.png)
 
 ## Creating a Linux user for MBI {#linux}
 
 **Important!**
- If the `sshd_config` file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it's necessary to run a command like `AllowUsers` to allow the rjmetric user access to the server.
+ If the `sshd_config` file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it is necessary to run a command like `AllowUsers` to allow the rjmetric user access to the server.
 
 This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may restrict this user any way you like as long as it retains the right to connect to the MongoDB server.
 
@@ -99,7 +99,7 @@ This will print a response that looks like this:
 
 #### If your server uses the default option {#default}
 
-If your server doesn't use auth mode, your MongoDB server will still be accessible even without a username and password. However, you should ensure the mongodb.conf file `(/etc/mongodb.conf)` has the following lines - if they're not there, restart your server after you add them.
+If your server does not use auth mode, your MongoDB server will still be accessible even without a username and password. However, you should ensure the mongodb.conf file `(/etc/mongodb.conf)` has the following lines - if they're not there, restart your server after you add them.
 
 ```bash
     bind_ip = 127.0.0.1
@@ -110,7 +110,7 @@ To bind your MongoDB server to a different address, adjust the database hostname
 
 ## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MongoDB credentials page open? If not, go to **Data &gt; Connections** and click the Add New Data Source button, then the MongoDB icon. Don't forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MongoDB credentials page open? If not, go to **Data &gt; Connections** and click the Add New Data Source button, then the MongoDB icon. do not forget to toggle the Encrypted button to Yes.
 
 Enter the following info into this page, starting with the Database Connection section:
 
@@ -126,7 +126,7 @@ Under the SSH Connection section:
 * <strong>Username: </strong>The MBI Linux (SSH) username (should be rjmetric)
 * <strong>SSH Port: </strong>The SSH port on your server (22 by default)
 
-That's it! When you're finished, click the Save &amp; Test button to complete the setup.
+That's it! When you are finished, click the Save &amp; Test button to complete the setup.
 
 ### Related
 

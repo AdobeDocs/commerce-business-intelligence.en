@@ -58,7 +58,7 @@ For this example, we want this to be a line chart that trends over time. To crea
 
 - **Series** &#0151; Select the **Items sold** column as the **Series** since we want to measure it. After you define a **Series** column, you’ll see a single line plotted in the report.
 
-- **Category** &#0151; For this example, we want to view each product as a different line in the report. To do this, we'll set **Product name** as the **Category**.
+- **Category** &#0151; For this example, we want to view each product as a different line in the report. To do this, we set **Product name** as the **Category**.
 
 - **Labels** &#0151; Use the columns **year** and **month** as labels on the x-axis to be able to view **Items Sold** as trending over time.
 

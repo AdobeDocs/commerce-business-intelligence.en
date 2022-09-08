@@ -3,7 +3,7 @@ title: Understanding your MBI Environment
 zendesk_id: 360016729951
 ---
 
-As you analyze your Commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Magento schema correctly, don't hesitate to [reach out to our support team](https://support.magento.com/hc/en-us/articles/360019088251).
+As you analyze your Commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Magento schema correctly, do not hesitate to [reach out to our support team](https://support.magento.com/hc/en-us/articles/360019088251).
 
 ## entity\_id
 
