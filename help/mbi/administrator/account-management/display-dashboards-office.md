@@ -3,7 +3,7 @@ title: Displaying your dashboards on screens around the office
 zendesk_id: 360016729791
 ---
 
-For Magento BI users who are interested in displaying their dashboards and reports on screens throughout the office, there are a number of hardware options that can easily enable this setup.
+For MBI users who are interested in displaying their dashboards and reports on screens throughout the office, there are a number of hardware options that can easily enable this setup.
 
 Here is the list of things you will need for the option we recommend:
 

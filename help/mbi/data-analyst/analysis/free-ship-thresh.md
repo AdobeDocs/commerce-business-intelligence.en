@@ -3,19 +3,20 @@ title: Free shipping threshold
 zendesk_id: 360016732291
 ---
 
-**Note: This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the new architecture if you have the \"Data Warehouse Views\" section available after selecting \"Manage Data\" from the main toolbar.**
+{: .bs-callout-info}
+This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the new architecture if you have the \"Data Warehouse Views\" section available after selecting \"Manage Data\" from the main toolbar.
 
-In this article, we demonstrate how to set up a dashboard that will track the performance of your free shipping threshold. This dashboard, seen below, is a great way to A/B test two different free shipping thresholds. For example, your company might be unsure whether you should offer free shipping at $50 or $100. You should perform an A/B test of two random subsets of your customers, and perform the analysis in Magento BI.
+In this article, we demonstrate how to set up a dashboard that will track the performance of your free shipping threshold. This dashboard, shown below, is a great way to A/B test two different free shipping thresholds. For example, your company might be unsure whether you should offer free shipping at $50 or $100. You should perform an A/B test of two random subsets of your customers, and perform the analysis in MBI.
 
-Before getting started, you\'ll want to identify two separate time periods where you have had different values for your store\'s free shipping threshold.
+Before getting started, you want to identify two separate time periods where you have had different values for your store\'s free shipping threshold.
 
-![](../assets/free_shipping_threshold.png)
+![](../../assets/free_shipping_threshold.png)
 
-This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
+This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 #### Calculated Columns
 
-If you are on the original architecture (i.e. if you do not have the “Data Warehouse Views” option under the “Manage Data” menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the “Manage Data -&gt; Data Warehouse” page. Detailed instructions are given below.
+If you are on the original architecture (i.e., if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data -&gt; Data Warehouse" page. Detailed instructions are given below.
 
 * <span class="wysiwyg-color-blue">**`sales_flat_order`**</span> table
   * This calculation creates buckets in increments relative to your typical cart sizes. This can range from increments including, 5, 10, 50, 100, etc
@@ -40,7 +41,7 @@ If you are on the original architecture (i.e. if you do not have the “Data War
 
 No new metrics!!!
 
-Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 #### Reports
 

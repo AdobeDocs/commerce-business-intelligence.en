@@ -1,5 +1,5 @@
 ---
-title: How many people can be on one Magento BI account?
+title: How many people can be on one MBI account?
 zendesk_id: 360016731171
 ---
 

@@ -7,7 +7,7 @@ This topic outlines the purpose and uses of the **Calculation** column type that
 
 **Explanation**
 
-In the past, columns that were deemed _advanced_ could only be done by an analyst on the Customer Success team here at Magento BI. Now all the power is in the hands of the end user, and advanced columns can be created in the form of SQL Calculation columns on the new Magento BI architecture.
+In the past, columns that were deemed _advanced_ could only be done by an analyst on the Customer Success team here at MBI. Now all the power is in the hands of the end user, and advanced columns can be created in the form of SQL Calculation columns on the new MBI architecture.
 
 The Calculation column type, now available as an option in the Data Warehouse Manager, is a same table operation that allows you to transform the columns on a table using PostgreSQL logic. Documentation on the functions and operators that can be used in the Calculation column type can be found on the PostgreSQL website [here](https://www.postgresql.org/docs/9.6/static/functions.html).
 

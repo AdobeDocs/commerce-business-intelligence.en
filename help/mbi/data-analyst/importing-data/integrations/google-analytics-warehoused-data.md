@@ -8,7 +8,7 @@ zendesk_id: 360016729671
 
 **Some information was used with permission from our friends at [Stitch](https://www.stitchdata.com/docs/integrations/saas/google-analytics).**
 
-Google Analytics Warehoused integration in Magento BI utilizes the GA [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
+Google Analytics Warehoused integration in MBI utilizes the GA [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
 
 {:.bs-callout-info}
 In order to avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with the metric(s) you use in the Report Builder. You can check [here](https://developers.google.com/analytics/devguides/reporting/core/dimsmets).
@@ -26,8 +26,8 @@ The table would look like the example below.
 
 | **Column Name** | **Description** |
 | \_id | This column is the primary key. |
-| \_rjm\_record\_hash | Magento BI unique identifier. This column is created by Magento BI. |
-| \_updated\_at | This column contains the last time that the data row was updated. This column is created by Magento BI. |
+| \_rjm\_record\_hash | MBI unique identifier. This column is created by MBI. |
+| \_updated\_at | This column contains the last time that the data row was updated. This column is created by MBI. |
 | start-date | Identification of what day the row is for. |
 | end-date | Identification of what day the row is for. |
 | month | Selected dimension: Month of the session, a two digit integer from 01 to 12. |
@@ -41,7 +41,7 @@ Let\'s look at GA ad campaigns for an example of what can be done from a manipul
 
 The combination aspect allows GA data to be joined to other data in order to conduct analyses. For example, take \"Total Time On Site By Ad Campaign\" data from GA and join it up against \"Total Spent Per Campaign\" data from Facebook Ads to get a complete picture of how much engagement is costing you.
 
-With the GA Live integration on the other hand, every GA chart is like a little silo that is not stored in your Magento BI data warehouse.
+With the GA Live integration on the other hand, every GA chart is like a little silo that is not stored in your MBI data warehouse.
 
 ## Related:
 

@@ -1,20 +1,20 @@
 ---
-title: Decluttering your Magento BI Account
+title: Decluttering your MBI Account
 zendesk_id: 360016730171
 ---
 
-Whether you’ve been with Magento BI for 6 months or 6 years, maintaining a tidy account is paramount to your organization getting the most out of the platform. Over time, it’s natural for there to be users, dashboards, reports, metrics, and columns that are no longer needed. Perhaps you created a report for one-time use and forgot about it, or a user who left your company never had his or her account deactivated.
+Whether you have been with MBI for 6 months or 6 years, maintaining a tidy account is paramount to your organization getting the most out of the platform. Over time, it's natural for there to be users, dashboards, reports, metrics, and columns that are no longer needed. Perhaps you created a report for one-time use and forgot about it, or a user who left your company never had his or her account deactivated.
 
-In conjunction with [standardized, clear naming for all elements](../best-practices/naming-elements.md)) of your Magento BI account, the account audit steps below will help you reduce the clutter and unnecessary analyses for your users. One additional benefit includes [potentially faster update cycles](../best-practices/reduce-update-cycle-time.md).
+In conjunction with [standardized, clear naming for all elements](../best-practices/naming-elements.md)) of your MBI account, the account audit steps below will help you reduce the clutter and unnecessary analyses for your users. One additional benefit includes [potentially faster update cycles](../best-practices/reduce-update-cycle-time.md).
 
 ## Step 1: Identify Your Non-Active Users
 
-The first step in cleaning up your account is to deactivate the accounts of your non-active users, such as people who have left the company or no longer use Magento BI in their current roles.
+The first step in cleaning up your account is to deactivate the accounts of your non-active users, such as people who have left the company or no longer use MBI in their current roles.
 
 You can do this by clicking your company\'s name in the top-right corner of the top navigation bar, then selecting **Manage Users**. Next, select the user you want to deactivate, and click the **Deactivate User** button. Note that you need [Admin permissions](../administrator/user-management/user-management.md) to do this.
 
 {:.bs-callout-warning}
-Deactivating a user will also remove the charts, dashboards, and other assets created by that user. If you want to preserve these assets, reach out to the Magento BI [support](../getting-started/support.md) team before deactivating the user. Support can help you transfer these assets to another user.
+Deactivating a user will also remove the charts, dashboards, and other assets created by that user. If you want to preserve these assets, reach out to the MBI [support](../getting-started/support.md) team before deactivating the user. Support can help you transfer these assets to another user.
 
 ### Reactivate a User
 
@@ -28,7 +28,7 @@ Every user with Admin or Standard access can create reports and dashboards. For 
 
 ### Review Your Dashboards and Reports
 
-Before you delete anything, you should review your reports and dashboards to assess what’s currently in use. While you can use the **find unused reports** feature described below, any initial review will make your cleanup efforts much more productive.
+Before you delete anything, you should review your reports and dashboards to assess what's currently in use. While you can use the **find unused reports** feature described below, any initial review will make your cleanup efforts much more productive.
 
 ### Deleting Dashboards and Reports
 
@@ -50,7 +50,7 @@ You can also select **Dashboard Options**, then **Delete** from the dashboard it
 
 ![](../assets/Delete_from_dashboard.png)
 
-Note that deleting a dashboard does not delete the reports within it, so you’ll have to take one more step to delete the reports.
+Note that deleting a dashboard does not delete the reports within it, so you'll have to take one more step to delete the reports.
 
 **To Delete Unused Reports**
 
@@ -59,18 +59,18 @@ Note that deleting a dashboard does not delete the reports within it, so you’l
 1. Select the reports you want to delete. You can select all by clicking the checkbox above the report list.
 1. Click the **Delete Selected** button.
 
-Here’s a look at the unused report deletion process:
+Here's a look at the unused report deletion process:
 
 ![](../assets/unused_reports.png)
 
 ## Step 3: Delete Unused Metrics
 
-After you’ve cleaned up your users list, dashboards, and reports, you can move onto auditing your list of metrics. This will help you identify anything that might be outdated - for example, a new metric was created with a different definition - or not in use.
+After you've cleaned up your users list, dashboards, and reports, you can move onto auditing your list of metrics. This will help you identify anything that might be outdated - for example, a new metric was created with a different definition - or not in use.
 
 1. To generate a list of dependent reports for a metric, go to **Manage Data**, then select **Metrics**.
 1. Click the **Edit** link next to a metric.
-1. At the bottom of the page, you’ll see a section called **Dependent Charts**. Click the link to generate a dependent reports list for this metric.
-1. After the system completes the check, Magento BI displays a list of dashboards, reports, and users utilizing this metric.
+1. At the bottom of the page, you'll see a section called **Dependent Charts**. Click the link to generate a dependent reports list for this metric.
+1. After the system completes the check, MBI displays a list of dashboards, reports, and users utilizing this metric.
 
 ![](../assets/report_dependecies.png)
 
@@ -80,21 +80,21 @@ If you decide that the metric is no longer needed, navigate back to the **Metric
 
 The last step is to assess the columns currently being synced in your data warehouse. Not only can unsyncing columns declutter your account, it can also potentially reduce your update time.
 
-If you would like to pursue this, reach out to Magento BI [support](../getting-started/support.md). The support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
+If you would like to pursue this, reach out to MBI [support](../getting-started/support.md). The support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
 
-Note that you can always start syncing these columns again in the future. Unsyncing a column won’t remove any data from your data warehouse; it only means this column won’t be checked for new or updated values during the update cycle.
+Note that you can always start syncing these columns again in the future. Unsyncing a column won't remove any data from your data warehouse; it only means this column won't be checked for new or updated values during the update cycle.
 
 **To Unsync a Column (or Columns)**
 
 1. Go to **Manage Data**, then **Data Warehouse**.
 1. In the **Synced Tables** list, navigate to the table that contains the column.
-1. Check the box(es) next to the column(s) you want to unsync. **Note that you can’t unsync a Primary Key column** without dropping the entire table.
+1. Check the box(es) next to the column(s) you want to unsync. **Note that you can't unsync a Primary Key column** without dropping the entire table.
 1. Click **Remove** to unsync the column(s).
 
-Here’s a look at the whole process:
+Here's a look at the whole process:
 
 ![](../assets/drop_column.png)
 
 ## Wrapping up
 
-That’s it! Your Magento BI account should now be tidier and easier to navigate for you and your team. For more best practices including optimizing your update time and database, click [here](../best-practices.md).
+That's it! Your MBI account should now be tidier and easier to navigate for you and your team. For more best practices including optimizing your update time and database, click [here](../best-practices.md).

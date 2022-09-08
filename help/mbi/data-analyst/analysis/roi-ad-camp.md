@@ -3,15 +3,15 @@ title: Increasing ROI on your advertising campaigns
 zendesk_id: 360016732971
 ---
 
-Magento BI allows you to easily [marry advertising cost data and revenue data](../data-analyst/importing-data/integrations/google-adwords.md) from your database. This will help you identify which campaigns have the highest ROI. In this article, we\'re going to explore a few different methods of evaluating your campaign performance.
+MBI allows you to easily [marry advertising cost data and revenue data](../data-analyst/importing-data/integrations/google-adwords.md) from your database. This will help you identify which campaigns have the highest ROI. In this article, we explore a few different methods of evaluating your campaign performance.
 
 ## Prerequisites
 
 * Import your advertising cost data:
-  * [Connect your Google AdWords to Magento BI](../data-analyst/importing-data/integrations/google-adwords.md): This will automatically sync your Adwords spend in Magento BI
-  * [Upload other advertising cost data](../data-analyst/importing-data/connecting-data/import-offline-ad-data.md): This is recommended for channels without a direct connector to Magento BI
-  * If you import cost data from multiple sources, we can [consolidate](../best-practices/consolidating-your-tables.md) the data in Magento BI. Simply [submit a support ticket](../getting-started/support.md).
-* [Track user acquisition channel data](../data-analyst/analysis/google-track-user-acq.md)
+  * [Connect your Google AdWords to MBI](../importing-data/integrations/google-adwords.md): This will automatically sync your Adwords spend in MBI
+  * [Upload other advertising cost data](../importing-data/connecting-data/import-offline-ad-data.md): This is recommended for channels without a direct connector to MBI
+  * If you import cost data from multiple sources, we can [consolidate](../../best-practices/consolidating-your-tables.md) the data in MBI. Simply [submit a support ticket](../../getting-started/support.md).
+* [Track user acquisition channel data](../analysis/google-track-user-acq.md)
 
 ## User acquisition campaigns
 
@@ -21,20 +21,20 @@ Campaigns targeted at user acquisition can be measured from many perspectives, i
 1. The conversion rate from registration to purchase of campaigns
 1. The ROI of campaigns based on average user lifetime value (LTV)
 
-Analyses (1) and (2) above are explored in a separate tutorial on [identifying your top marketing channels](../data-analyst/analysis/most-value-source-channel.md). Here we\'ll explore analysis (3) to measure campaign ROI over time. This will answer whether users acquired from a particular campaign generated enough lifetime revenue to cover his or her cost of acquisition.
+Analyses (1) and (2) above are explored in a separate tutorial on [identifying your top marketing channels](../analysis/most-value-source-channel.md). Here, we explore analysis (3) to measure campaign ROI over time. This will answer whether users acquired from a particular campaign generated enough lifetime revenue to cover his or her cost of acquisition.
 
 Note that we will make the assumption that all campaign costs were exclusively used to acquire new users. In reality, your campaign cost is also shared with acquiring unconverted visits, repeat purchasers, etc. Yet by assuming that all cost is used to acquire new registered users, the resulting ROI will account for the worst case scenario (highest cost per acquisition), so you can be sure that your actual ROI is higher than our calculation.
 
-*(e.g. Assuming that you spent $20 on a campaign that generated 10 new users and 10 repeat buyers, your actual cost per new user is $1, but under our assumption that all cost went to acquire new users, the cost per acquisition is $2.)*
+*(e.g., Assuming that you spent $20 on a campaign that generated 10 new users and 10 repeat buyers, your actual cost per new user is $1, but under our assumption that all cost went to acquire new users, the cost per acquisition is $2.)*
 
-**A. Let\'s start by creating a chart that segments your Ad Cost by Campaigns:**
+**A. Start by creating a chart that segments your Ad Cost by Campaigns:**
 
 1. Create a Metric that sums your spend over time
 1. Go to Data -&gt; Metrics
 1. Select \"Add New Metric\" and select the \"Adwords...\" table that is recording your AdWords cost data.
-1. In the metric editor, give your metric a name (e.g. AdWord Cost)
+1. In the metric editor, give your metric a name (e.g., AdWord Cost)
 1. Using the drop-down menus, perform \" a \'**Sum**\' on the \'**adCost**\' column in the Adwords... table (Change) ordered by the \'**date**\' column.
-    ![2013-10-16\_1247.png](../assets/2013-10-16_1247.png){: width="500" height="303"}
+    ![2013-10-16\_1247.png](../../assets/2013-10-16_1247.png){: width="500" height="303"}
 1. We\'re done. Click on \"Back to Metric List\" at the top and go to any dashboard.
 
 1. Create a report that segments spend by campaigns
@@ -87,19 +87,19 @@ Note that we will make the assumption that all campaign costs were exclusively u
 
 *(e.g. Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1, but under our assumption that all cost went to acquire new users, the cost per purchase is $2.)*
 
-Before we start, [submit a support ticket](../getting-started/support.md) to join the following dimensions to your line items table (e.g. sales\_flat\_order\_item, order\_item, etc.):
+Before we start, [submit a support ticket](../../getting-started/support.md) to join the following dimensions to your line items table (e.g., sales\_flat\_order\_item, order\_item, etc.):
 {: style="padding-left: 30px;"}
 
 * Order\'s source (if you only track referral source at the user level, then join user\'s source)
 * Order\'s campaign (if you only track referral source at the user level, then join user\'s campaign)
 * Order\'s medium (if you only track referral source at the user level, then join user\'s medium)
 
-**A. Now let\'s start by creating a chart that returns revenue per campaign for specific product(s):**
+**A. Now start by creating a chart that returns revenue per campaign for specific product(s):**
 
 1. In any dashboard, click Add Report -&gt; Create new report
 1. Select the \"Revenue by items\" metric that calculates revenue at the line items level
 1. Set the \"Time period\" to All-time, and \"Interval\" to None
-1. Under the \"Filter by\" tab, add \"product name \'IN\' Product A, Product B, Product C, ...\" and include all product names targeted by your campaign separated by a comma (e.g. \"product name \'IN\' yellow t-shirt, red t-shirt, blue t-shirt\")
+1. Under the \"Filter by\" tab, add \"product name \'IN\' Product A, Product B, Product C, ...\" and include all product names targeted by your campaign separated by a comma (e.g., \"product name \'IN\' yellow t-shirt, red t-shirt, blue t-shirt\")
 1. Under the \"Group by\" tab, add \"order\'s campaign\" or \"order\'s utm\_campaign\" as grouping field, and click \"Add All\" in the box below
 1. This report will show you the revenue for specific product(s) by campaigns
 
@@ -120,10 +120,10 @@ Before we start, [submit a support ticket](../getting-started/support.md) to joi
 
 ## Related documentation
 
-* [Track order referral source via GA E-Commerce](../data-analyst/importing-data/integrations/google-ecommerce.md)
-* [Track user referral source in your database](../data-analyst/analysis/google-track-user-acq.md)
-* [Track user device, browser and OS data in your database](../data-analyst/analysis/track-usr-dev-browser.md)
-* [Discover your most valuable acquisition sources and channels](../data-analyst/analysis/most-value-source-channel.md)
-* [Connect your Google Adwords account](../data-analyst/importing-data/integrations/google-adwords.md)
-* [How does Google Analytics UTM attribution work?](../data-analyst/analysis/utm-attributes.md)
-* [5 best-practice for UTM tagging in Google Analytics](../best-practices/utm-tagging-google.md)
+* [Track order referral source via GA E-Commerce](../importing-data/integrations/google-ecommerce.md)
+* [Track user referral source in your database](../analysis/google-track-user-acq.md)
+* [Track user device, browser and OS data in your database](../analysis/track-usr-dev-browser.md)
+* [Discover your most valuable acquisition sources and channels](../analysis/most-value-source-channel.md)
+* [Connect your Google Adwords account](../importing-data/integrations/google-adwords.md)
+* [How does Google Analytics UTM attribution work?](../analysis/utm-attributes.md)
+* [5 best-practice for UTM tagging in Google Analytics](../../best-practices/utm-tagging-google.md)

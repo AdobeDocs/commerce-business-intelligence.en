@@ -3,10 +3,10 @@ title: Importing Linkshare data
 zendesk_id: 360016506492
 ---
 
-To bring your Linkshare data into Magento BI, you'll need to do two things:
+To bring your Linkshare data into MBI, you'll need to do two things:
 
 1. [Export the Linkshare data in CSV format](../#export)
-1. [Upload the spreadsheet into Magento BI](../data-analyst/importing-data/connecting-data/using-file-uploader.md)
+1. [Upload the spreadsheet into MBI](../data-analyst/importing-data/connecting-data/using-file-uploader.md)
 
 ## Export data from Linkshare {#export}
 
@@ -16,7 +16,7 @@ To bring your Linkshare data into Magento BI, you'll need to do two things:
 
 1. Leave all other drop-down options as the default selection.
 
-1. In the **Date Range** drop-down, select whichever option (Sun - Sat, Mon - Sun) matches with your Start of Week settings in Magento BI.
+1. In the **Date Range** drop-down, select whichever option (Sun - Sat, Mon - Sun) matches with your Start of Week settings in MBI.
 
 1. Clear the **Compare Year-Over-Year Data** checkbox.
 
@@ -30,4 +30,4 @@ To bring your Linkshare data into Magento BI, you'll need to do two things:
 
    At this point, a CSV file will be created and downloaded.
 
-After the file is downloaded, you can upload it to Magento BI using the [File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md).
+After the file is downloaded, you can upload it to MBI using the [File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md).

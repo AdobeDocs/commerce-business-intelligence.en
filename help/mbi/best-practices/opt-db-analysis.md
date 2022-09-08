@@ -28,7 +28,7 @@ As a general rule, if you\'re updating a record due to some kind of user action,
 
 If a table\'s rows will have changing values over time, for example, **order\_status** changes from **processing** to **complete**, include an **updated\_at** column to record when the latest change occurs. Ensure that an updated\_at value is available when first inserting the new data row, at which time the updated\_at date corresponds to the created\_at date.
 
-In addition to optimizing for analysis, **updated\_at** columns also allow you to use [Incremental Replication methods](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md), which can help shorten the length of your update cycles.
+In addition to optimizing for analysis, **updated\_at** columns also allow you to use [Incremental Replication methods](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md), which can help shorten the length of your update cycles. 
 
 ## Store User Acquisition Source
 
@@ -36,22 +36,22 @@ One of the most common mistakes is the [user acquisition source](../data-analyst
 
 Storing UAS in your own database is often the largest improvement an online business can make to its analytical capabilities. This allows for the analysis of sales, user engagement, payback periods, customer lifetime value, churn, and other critical metrics by UAS. [This data is crucial when deciding where to invest marketing resources](../data-analyst/analysis/most-value-source-channel.md).
 
-Too many companies focus solely on finding channels that provide new users at the lowest cost, but if you aren\'t tracking the quality of users acquired from each channel, you run the risk of attracting users who don\'t generate business value.
+Too many companies focus solely on finding channels that provide new users at the lowest cost, but if you are not tracking the quality of users acquired from each channel, you run the risk of attracting users who do not generate business value.
 
 ## Data Table Setup
 
 ### Set a Primary Key
 
-A [primary key](../http://en.wikipedia.org/wiki/Unique_key) is an unchanging column (or set of columns) that produces unique values within a table. Primary keys are incredibly important, as they ensure that your tables are properly replicated in Magento BI.
+A [primary key](http://en.wikipedia.org/wiki/Unique_key) is an unchanging column (or set of columns) that produces unique values within a table. Primary keys are incredibly important, as they ensure that your tables are properly replicated in MBI.
 
 When building primary keys, use an integer data type for the column that auto-increases. We also recommend you avoid using multiple column primary keys where possible.
 
-If your table is an SQL view, add a column that can act as a primary key. Magento BI will be able to automatically identify this column as a primary key.
+If your table is an SQL view, add a column that can act as a primary key. MBI will be able to automatically identify this column as a primary key.
 
 ### Assign a Data Type to Your Data Column
 
-If a data column doesn\'t have an assigned [data type](../http://en.wikipedia.org/wiki/Data_type), Magento BI will guess what data type to use. If the system guesses incorrectly, you may not be able to perform the relevant analyses until our support team adjusts the column to the proper data type. For example, if a date column is guessed as a numeric data type, you won\'t be able to trend over time using that date dimension.
+If a data column does not have an assigned [data type](http://en.wikipedia.org/wiki/Data_type), MBI will guess what data type to use. If the system guesses incorrectly, you may not be able to perform the relevant analyses until our support team adjusts the column to the proper data type. For example, if a date column is guessed as a numeric data type, you are be able to trend over time using that date dimension.
 
 ### Add Prefixes to Your Data Tables if You Have Multiple Databases
 
-If you have more than one database connected to Magento BI, we recommend you add prefixes to your tables to avoid confusion. Prefixes will help you remember where metrics or data dimensions are sourced from.
+If you have more than one database connected to MBI, we recommend you add prefixes to your tables to avoid confusion. Prefixes will help you remember where metrics or data dimensions are sourced from.

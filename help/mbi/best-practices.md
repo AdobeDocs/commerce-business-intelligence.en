@@ -6,7 +6,7 @@ sections:
   content: Learn the best practices for organizing and working with that data.
   url: /best-practices/work-data.html
 - title: Project Organization
-  content: Learn the best practices for cleaning and maintaining your Magento BI account
+  content: Learn the best practices for cleaning and maintaining your MBI account
   url: /best-practices/project-org.html
 - title: Sharing Dashboards
   content: Learn the best practices for sharing dashboards to encourage collaboration and discussion.

@@ -3,15 +3,16 @@ title: Year-over-year, month-over-month, week-over-week
 zendesk_id: 360016506952
 ---
 
-**Note: This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../administrator/account-management/new-architecture.md) if you have the \"Data Warehouse Views\" section available after selecting \"Manage Data\" from the main toolbar.**
+{: .bs-callout-info}
+This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the \"Data Warehouse Views\" section available after selecting \"Manage Data\" from the main toolbar.
 
 The report builder allows you to easily see trends over time and change perspective for time periods you may want to compare. In this article, we will demonstrate how to set up a dashboard to go a level deeper to allow you to create reports for week over week, month over month and year over year analysis.
 
-![](../assets/Wow__mom__yoy.png)
+![](../../assets/Wow__mom__yoy.png)
 
-Before getting started, you will want to familiarize yourself with explore perspectives in more detail [here](../tutorials/using-visual-report-builder.md) as well as independent time options [here](../tutorials/time-options-visual-rpt-bldr.md).
+Before getting started, you want to familiarize yourself with explore perspectives in more detail [here](../../tutorials/using-visual-report-builder.md) as well as independent time options [here](../tutorials/time-options-visual-rpt-bldr.md).
 
-This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
+This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 ### Calculated Columns
 
@@ -30,13 +31,13 @@ This analysis contains [advanced calculated columns](../data-analyst/data-wareho
   * <span class="wysiwyg-color-blue">**`created_at (day of the month)`**</span> Calculation**:** **to_char(A, 'dd')**
   * <span class="wysiwyg-color-blue">**`created_at (day of the week)`**</span> Calculation**:** **to_char(A, 'd-Day')**
   * <span class="wysiwyg-color-blue">**`created_at (hour of the day)`**</span> Calculation**:** **to_char(A, 'hh24')**
-    ![Screen\_Shot\_2017-10-05\_at\_4.27.32\_PM.png](../assets/Screen_Shot_2017-10-05_at_4.27.32_PM.png)
+    ![Screen\_Shot\_2017-10-05\_at\_4.27.32\_PM.png](../../assets/Screen_Shot_2017-10-05_at_4.27.32_PM.png)
 
 ### Metrics
 
 None.
 
-Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+**Note:** Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ### Reports
 

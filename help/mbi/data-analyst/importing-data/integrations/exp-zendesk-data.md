@@ -5,7 +5,7 @@ zendesk_id: 360016733291
 
 After [you’ve connected your Zendesk account](../data-analyst/importing-data/integrations/zendesk.md), you can use the [Data Warehouse Manager](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) to easily track relevant data fields for analysis.
 
-In this article, we’ll explore the main data tables that you can import from Zendesk into Magento BI, including links to additional documentation about Zendesk data.
+In this article, we’ll explore the main data tables that you can import from Zendesk into MBI, including links to additional documentation about Zendesk data.
 
 | Table name | Description |
 | [Audits](https://developer.zendesk.com/rest_api/docs/core/ticket_audits) | The **audits** table records activity associated with a ticket, including status changes and both customer and agent responses. This table includes a ticket\_id which links back to the **tickets** table, which allows you to analyze the time to first response and time to resolution for each ticket. |

@@ -18,7 +18,7 @@ After you have the answers to the above, we\'ll need to know the type of migrati
 
 ## Migrating to a new database with the same schema {#sameschema}
 
-When submitting the request, let us know that the database schema isn’t changing and that the connection is already set up in Magento BI.
+When submitting the request, let us know that the database schema isn’t changing and that the connection is already set up in MBI.
 
 **If the database has a new name**, include it in the request so your dashboards can be properly migrated.
 

@@ -3,8 +3,8 @@ title: Connecting MySQL via cPanel
 zendesk_id: 360016506512
 ---
 
-* [Create a Magento BI MySQL user in cPanel](../#cpanel)
-* [Enter connection and user info into Magento BI](../#finish)
+* [Create a MBI MySQL user in cPanel](../#cpanel)
+* [Enter connection and user info into MBI](../#finish)
 
 ## JUMP TO
 
@@ -13,46 +13,46 @@ zendesk_id: 360016506512
 
 * **MySQL via cPanel**
 
-**One thing we take seriously is data security. We strongly recommend you use SSH or some other form of encryption to secure your data!** If this is not an option, you can still directly connect Magento BI to your database using the instructions in this article.
+**One thing we take seriously is data security. We strongly recommend you use SSH or some other form of encryption to secure your data!** If this is not an option, you can still directly connect MBI to your database using the instructions in this article.
 
-In this article, we\'ll walk you through directly connecting your MySQL database to Magento BI using cPanel. This process can also be used to connect Magento and any other MySQL-based eCommerce databases to Magento BI.
+In this article, we\'ll walk you through directly connecting your MySQL database to MBI using cPanel. This process can also be used to connect Magento and any other MySQL-based eCommerce databases to MBI.
 
-1. Create a Magento BI MySQL user in cPanel
-1. Enter connection and user info into Magento BI
+1. Create a MBI MySQL user in cPanel
+1. Enter connection and user info into MBI
 
 Let\'s get started.
 
-## Creating a Magento BI MySQL user in cPanel {#cpanel}
+## Creating a MBI MySQL user in cPanel {#cpanel}
 
 1. Login to [cPanel](../data-analyst/importing-data/integrations/mysql-via-cpanel.md) via your hosting provider.
 1. Click MySQL Databases, located in the Database section.
-1. Scroll down to the Add New User section and create a user for Magento BI:
+1. Scroll down to the Add New User section and create a user for MBI:
 
      ![](../assets/Screen_Shot_2015-11-20_at_3.48.08_PM.png)
 
 1. Click the Create User button.
 1. Now that you\'ve created the user, you need to associate it to a database. Go back to the Add New User section - see the settings for Add User to Database? That\'s what we need.
 1. In the User dropdown of this section, select the user you created.
-1. In the Database dropdown of this section, select the database you want to connect to Magento BI.
+1. In the Database dropdown of this section, select the database you want to connect to MBI.
 1. Click the Add button.
-1. When the checklist of privileges appears, check the box next to SELECT - this is all Magento BI needs to connect to your database.
+1. When the checklist of privileges appears, check the box next to SELECT - this is all MBI needs to connect to your database.
 
-## Entering the connection and user info into Magento BI {#finish}
+## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into Magento BI. Did you leave the MySQL credentials page open? If not, go to **Manage Data > Connections** and click the Add New Data Source button, then the MySQL icon.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Manage Data > Connections** and click the Add New Data Source button, then the MySQL icon.
 
 Enter the following info into this page in the Database Connection section:
 
-* **Username:** The username for the Magento BI MySQL user
-* **Password:** The password for the Magento BI MySQL user
+* **Username:** The username for the MBI MySQL user
+* **Password:** The password for the MBI MySQL user
 * **Port:** MySQL\'s port on your server (3306 by default)
-* **Host:** The public address of the MySQL server Magento BI will connect to. This is usually the URL you use to log into cPanel.
+* **Host:** The public address of the MySQL server MBI will connect to. This is usually the URL you use to log into cPanel.
 
 If you\'re using an [SSH tunnel](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md), you\'ll also need to enter the encryption information. Toggle the Encrypted button to Yes to display the form.
 
 * **Connection Type:** Set this to SSH Tunnel
-* **Remote Address:** The IP address or hostname of the server Magento BI will tunnel into
-* **Username:** The username for the Magento BI SSH (Linux) user ([click here](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md %}#linux) for instructions on how to do this, if you haven\'t already)
+* **Remote Address:** The IP address or hostname of the server MBI will tunnel into
+* **Username:** The username for the MBI SSH (Linux) user ([click here](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md %}#linux) for instructions on how to do this, if you haven\'t already)
 * **SSH Port:** SSH port on your server (22 by default)
 
 That\'s it! When you\'re finished, click the Save & Test button to complete the setup.

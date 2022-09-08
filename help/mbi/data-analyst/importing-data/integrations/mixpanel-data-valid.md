@@ -3,7 +3,7 @@ title: Data Validation in Mixpanel
 zendesk_id: 360016507212
 ---
 
-When Magento BI first connects to your Mixpanel data, your Account Manager or Analyst may request that you provide data exports from Mixpanel for validation purposes. This allows us to confirm that we have synced all the same data that is available to you directly within Mixpanel.
+When MBI first connects to your Mixpanel data, your Account Manager or Analyst may request that you provide data exports from Mixpanel for validation purposes. This allows us to confirm that we have synced all the same data that is available to you directly within Mixpanel.
 
 ## Data export process: Events
 

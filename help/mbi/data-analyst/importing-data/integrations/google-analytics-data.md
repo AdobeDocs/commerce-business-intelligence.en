@@ -5,16 +5,16 @@ zendesk_id: 360016729751
 
 After you\'ve connected a Google Analytics integration, you can interact with your GA metrics **immediately in the Visual Report Builder.** When you enter the Visual Report Builder, if you click **Add a Metric**, a series of metrics from your GA profile(s) will appear in a drop-down immediately beneath the metrics in your data warehouse.
 
-The Google Analytics integration is **live** -- this means that the Report Builder requests data from Google Analytics **immediately** when you add a metric to your report. It also means that the metrics you can access are defined exactly as they are in GA, and that these values aren\'t *warehoused* in your Magento BI account -- only displayed visually in your reports.
+The Google Analytics integration is **live** -- this means that the Report Builder requests data from Google Analytics **immediately** when you add a metric to your report. It also means that the metrics you can access are defined exactly as they are in GA, and that these values aren\'t *warehoused* in your MBI account -- only displayed visually in your reports.
 
-Google Analytics integrations in Magento BI utilize the GA [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
+Google Analytics integrations in MBI utilize the GA [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
 
 {:.bs-callout-info}
 In order to avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with the metric(s) you use in the Report Builder. You can check [here](https://developers.google.com/analytics/devguides/reporting/core/dimsmets).
 
 ## Supported Metrics
 
-| Magento BI Display Name | GA Name / Formula |
+| MBI Display Name | GA Name / Formula |
 | --- | --- |
 | Page Views | ga:pageviews |
 | Total Time Spent On Page | ga:timeOnPage |
@@ -66,7 +66,7 @@ In order to avoid unexpected or nonsensical results, confirm that any dimensions
 
 ## Supported Dimensions
 
-| Magento BI Display Name | GA Name / Formula | Groupable? |
+| MBI Display Name | GA Name / Formula | Groupable? |
 | --- | --- | --- |
 | Ad Content | ga:adContent | Yes |
 | Ad Group | ga:adGroup | Yes |

@@ -3,7 +3,7 @@ title: How Does Google Analytics UTM Attribution Work?
 zendesk_id: 360016733031
 ---
 
-It is critical to [track user acquisition source](../data-analyst/analysis/google-track-user-acq.md) to [identify the best performing advertising campaigns](../data-analyst/analysis/most-value-source-channel.md). In this tutorial, we are going to explore Google Analytics\'s source attribution process. In other words, what piece of information is recorded when.
+It is critical to [track user acquisition source](../data-analyst/analysis/google-track-user-acq.md) to [identify the best performing advertising campaigns](../data-analyst/analysis/most-value-source-channel.md). In this tutorial, we explore the Google Analytics source attribution process. In other words, what piece of information is recorded when.
 
 ## What is attribution?
 
@@ -15,15 +15,15 @@ The reality is that users often come from many sources before they hit/commit a 
 
 ## How does Google Analytics attribute referral sources via UTM parameters?
 
-When the UTM parameters are specified on the URL, these get parsed out and placed into a Google Analytics (GA) [cookie](https://en.wikipedia.org/wiki/HTTP_cookie). If a website does not have GA, there is no point in having UTMs. GA has rules for how it deals with a user who hits multiple URLs with UTMs in the course of their lifetime (more on that later). Assuming the website is configured to capture UTM parameters into an external database, any time a micro or macro conversion happens, whatever is in the GA cookie at the time of conversion would get replicated to the database.
+When the UTM parameters are specified on the URL, these get parsed out and placed into a Google Analytics [cookie](https://en.wikipedia.org/wiki/HTTP_cookie). If a website does not have Google Analytics, there is no point in having UTMs. Google Analytics has rules for how it deals with a user who hits multiple URLs with UTMs in the course of their lifetime (more on that later). Assuming the website is configured to capture UTM parameters into an external database, any time a micro or macro conversion happens, whatever is in the Google Analytics cookie at the time of conversion would get replicated to the database.
 
 ## First click vs. Last click
 
 ### Last click attribution
 
-Last click attribution is the most common attribution model employed by Google Analytics. In this case, the GA cookie represents the UTM parameters for the last, or most recent, source prior to the conversion event, and this is what is [recorded in the database](../data-analyst/analysis/google-track-user-acq.md). Note that the GA cookie only overwrites the previous UTM parameters if the user clicks on a new URL that contains a new set of UTM parameters.
+Last click attribution is the most common attribution model employed by Google Analytics. In this case, the Google Analytics cookie represents the UTM parameters for the last, or most recent, source prior to the conversion event, and this is what is [recorded in the database](../data-analyst/analysis/google-track-user-acq.md). Note that the Google Analytics cookie only overwrites the previous UTM parameters if the user clicks on a new URL that contains a new set of UTM parameters.
 
-For example, consider a user who first visits a website via *paid search*, then returns via *organic search*, and finally comes back to the *website directly* or via an *email link* **without UTM parameters**{: style="font-size: 1em; line-height: 1.45em;"} before the conversion event. In this example, the GA cookie says the user's source is organic, since this represents the last source prior to the conversion. The *path* of the user prior to that final conversion event is ignored. If instead the user visited the website from an email link with UTM, then the GA cookie would say that the source is \"email\". Therefore, if there are existing UTM parameters in the cookie, and the user comes in via direct, the GA cookie will always show the UTM parameters rather than \"direct\". *(Note: A specific user\'s GA cookie parameters will be erased when the cookie [expires](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage), or when a user clears his or her cookies in the browser.)*
+For example, consider a user who first visits a website via *paid search*, then returns via *organic search*, and finally comes back to the *website directly* or via an *email link* **without UTM parameters**{: style="font-size: 1em; line-height: 1.45em;"} before the conversion event. In this example, the Google Analytics cookie says the user's source is organic, since this represents the last source prior to the conversion. The *path* of the user prior to that final conversion event is ignored. If instead the user visited the website from an email link with UTM, then the Google Analytics cookie would say that the source is \"email\". Therefore, if there are existing UTM parameters in the cookie, and the user comes in via direct, the Google Analytics cookie will always show the UTM parameters rather than \"direct\". (**Note**: *A specific user\'s GA cookie parameters will be erased when the cookie [expires](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage), or when a user clears his or her cookies in the browser.*)
 
 ### First click attribution
 
@@ -31,7 +31,7 @@ Some paid attribution tools will allow you to capture \"the pancake stack\" of s
 
 ## How to analyze attribution?
 
-GA has some more robust functionality in their web interface that lets you perform four different attribution models:  first click, last click, linear (divide revenue equally across all the sources in the path), and weighted (customized attribution).
+Google Analytics has some more robust functionality in their web interface that lets you perform four different attribution models:  first click, last click, linear (divide revenue equally across all the sources in the path), and weighted (customized attribution).
 
 Now that you understand what is the attribution model for each micro or macro-conversion, the question becomes what do you do with the totality of a user\'s conversions?  For example, look at the UTMs recorded based on the GA last click logic:
 
@@ -44,10 +44,10 @@ Here is where you ask: How much revenue did I get from paid search?  From email?
 
 ## Related documentation
 
-*  [Track order referral source via GA E-Commerce](../data-analyst/importing-data/integrations/google-ecommerce.md)
-*  [Track user referral source in your database](../data-analyst/analysis/google-track-user-acq.md)
-*  [Track user device, browser and OS data in your database](../data-analyst/analysis/google-track-user-acq.md)
-*  [Discover your most valuable acquisition sources and channels](../data-analyst/analysis/most-value-source-channel.md)
-*  [Connect your Google Adwords account](../data-analyst/importing-data/integrations/google-adwords.md)
-*  [Increase ROI on your advertising campaigns](../data-analyst/analysis/roi-ad-camp.md)
-*  [5 best-practice for UTM tagging in Google Analytics](../best-practices/utm-tagging-google.md)
+*  [Track order referral source via GA E-Commerce](../importing-data/integrations/google-ecommerce.md)
+*  [Track user referral source in your database](../analysis/google-track-user-acq.md)
+*  [Track user device, browser and OS data in your database](../analysis/google-track-user-acq.md)
+*  [Discover your most valuable acquisition sources and channels](../analysis/most-value-source-channel.md)
+*  [Connect your Google Adwords account](../importing-data/integrations/google-adwords.md)
+*  [Increase ROI on your advertising campaigns](../analysis/roi-ad-camp.md)
+*  [5 best-practice for UTM tagging in Google Analytics](../../best-practices/utm-tagging-google.md)

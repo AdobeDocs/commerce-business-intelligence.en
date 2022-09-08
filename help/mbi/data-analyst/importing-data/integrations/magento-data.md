@@ -5,7 +5,7 @@ zendesk_id: 360016506072
 
 After you’ve [connected your Magento store](../data-analyst/importing-data/integrations/magento.md), you can use the Data Warehouse Manager to easily track relevant data fields from your Magento database for analysis.
 
-In this article, we’ll explore the main data tables that Magento users import into Magento BI.
+In this article, we’ll explore the main data tables that Magento users import into MBI.
 
 | **Table name** | **Description** |
 | Customers | The **customer\_entity** and related tables describe the information associated with each **registered customer** in your database, like their email address and registration date. With this information, you can begin segmenting by customer-level attributes and cohorts. |

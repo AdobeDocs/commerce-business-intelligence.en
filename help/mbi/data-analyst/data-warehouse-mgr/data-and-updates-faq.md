@@ -18,7 +18,7 @@ There are a few different ways [to check the status of your update cycle](../bes
 
 #### What's the difference between a regular and forced update? {#regularforcedupdates}
 
-Regular updates are **scheduled** processes while forced updates are **manual processes initiated by you**. If you have blackout hours - or a time period where Magento BI shouldn't update your data - forcing an update will start a cycle that doesn't respect the limitations of the blackout period.
+Regular updates are **scheduled** processes while forced updates are **manual processes initiated by you**. If you have blackout hours - or a time period where MBI shouldn't update your data - forcing an update will start a cycle that doesn't respect the limitations of the blackout period.
 
 #### Why does the update cycle take a long time? {#updatecycletime}
 

@@ -1,13 +1,13 @@
 ---
-title: Understanding your Magento BI Environment
+title: Understanding your MBI Environment
 zendesk_id: 360016729951
 ---
 
-As you analyze your Magento data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Magento schema correctly, don't hesitate to [reach out to our support team](https://support.magento.com/hc/en-us/articles/360019088251).
+As you analyze your Commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Magento schema correctly, don't hesitate to [reach out to our support team](https://support.magento.com/hc/en-us/articles/360019088251).
 
 ## entity\_id
 
-Many of your Magento tables contain a column named `entity\_id`. In each table that contains an `entity\_id`, that column is used to identify unique rows.
+Many of your tables contain a column named `entity\_id`. In each table that contains an `entity\_id`, that column is used to identify unique rows.
 
 For example, each row in the `sales\_order` table is a unique order. The primary key in this table is called `entity\_id`. This column can be thought of as `order\_id`. In a separate table, `customer\_entity`, each row represents a unique customer. The primary key in this table is also called `entity\_id`, which can be thought of as `customer\_id`.
 

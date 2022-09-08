@@ -6,15 +6,15 @@ zendesk_id: 360016732951
 {:.bs-callout-info}
 [Requires Admin permissions](../administrator/user-management/user-management.md)
 
-You\'ve got steady flow of traffic and orders, which means you\'re effectively reaching and acquiring customers. But what are your most valuable referral channels? What\'s the average lifetime value of customers acquired from one source versus another? By connecting your order referral source data from Google ECommerce to Magento BI, you can build analyses that will help you identify your [most valuable marketing channels](../data-analyst/analysis/most-value-source-channel.md).
+You\'ve got steady flow of traffic and orders, which means you\'re effectively reaching and acquiring customers. But what are your most valuable referral channels? What\'s the average lifetime value of customers acquired from one source versus another? By connecting your order referral source data from Google ECommerce to MBI, you can build analyses that will help you identify your [most valuable marketing channels](../data-analyst/analysis/most-value-source-channel.md).
 
-Let\'s get started by entering our Google ECommerce credentials into Magento BI:
+Let\'s get started by entering our Google ECommerce credentials into MBI:
 
 1. Go to the Connections page under **Admin &gt; Connections**.
 1. Click the **Add a New Source** button, located on the right side of the screen above the Data Sources table.
 1. Click the **Google ECommerce** icon. This will open the Google ECommerce credentials page.
-1. Enter your Google Analytics (GA) credentials. Upon completion of the authorization process, you will be redirected back to Magento BI.
-1. A list of profile IDs will display. Check the profiles you want to connect to Magento BI.
+1. Enter your Google Analytics (GA) credentials. Upon completion of the authorization process, you will be redirected back to MBI.
+1. A list of profile IDs will display. Check the profiles you want to connect to MBI.
 
      If you have multiple profiles and need some help identifying which is which, refer to the **Connecting Multiple GA profiles** section below.
 
@@ -22,9 +22,9 @@ Let\'s get started by entering our Google ECommerce credentials into Magento BI:
 
 1. Changes are saved automatically, so just click the **Back to Connections** button when you\'re finished.
 
-## Connecting multiple GA profiles to Magento BI
+## Connecting multiple GA profiles to MBI
 
-You may have multiple websites connected to a single GA account, identified by their own GA profile ID. In this case, you will have the option of including all your profile IDs in Magento BI. Just check the profile IDs you\'d like to include during the profile selection step.
+You may have multiple websites connected to a single GA account, identified by their own GA profile ID. In this case, you will have the option of including all your profile IDs in MBI. Just check the profile IDs you\'d like to include during the profile selection step.
 
 To identify a particular website\'s Google Analytics Profile ID:
 
@@ -32,11 +32,11 @@ To identify a particular website\'s Google Analytics Profile ID:
 1. Go to the particular website\'s GA dashboard
 1. Look at the URL - the Profile ID corresponds to the 8 numbers following \"p\" at the end of the line: e.g. www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX**/
 
-## Disconnecting Google ECommerce from Magento BI {#disconnect}
+## Disconnecting Google ECommerce from MBI {#disconnect}
 
 1. Visit your Google [account settings](https://www.google.com/accounts/) page.
 1. Under the Security section,  and click the \'edit\' link next to Authorizing applications and sites.
-1. Click the \'revoke access\' link next to Magento BI.
+1. Click the \'revoke access\' link next to MBI.
 
 ## Related:
 

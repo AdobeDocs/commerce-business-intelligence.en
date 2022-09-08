@@ -7,11 +7,11 @@ zendesk_id: 360016731911
 
 Creating custom segments to see how different traffic performs and observe trends (for better or worse!) is one of the most powerful uses for Google Analytics (GA). One class of segments that exist by default in GA are **Channels**. Channels are a grouping of common ways that people come to your site. GA automatically sorts the many ways you acquire a user - whether it is social media, pay-per-click, email, or referral links - and bundles them into a bucket, or Channel.
 
-## Why don’t I see my channels in Magento BI? {#nochannels}
+## Why don’t I see my channels in MBI? {#nochannels}
 
 Channels are simple, aggregate buckets of data. To sort your acquisitions into Channel buckets, Google sets distinct rules and definitions using specific parameters: a combination of acquisition [Source](https://support.google.com/analytics/answer/1033173?hl=en) (the origin of your traffic) and acquisition [Medium](https://support.google.com/analytics/answer/6099206?hl=en) (the general category of the source).
 
-While having these buckets can help you make sense of where your traffic is coming from, this data isn’t actually tagged by channel but by a combination of Source and Medium. Because Google sends channel information as two separate data points, channel groupings don’t automatically show up in Magento BI.
+While having these buckets can help you make sense of where your traffic is coming from, this data isn’t actually tagged by channel but by a combination of Source and Medium. Because Google sends channel information as two separate data points, channel groupings don’t automatically show up in MBI.
 
 ## What are the default channel groupings? How are they created?
 
@@ -40,7 +40,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
    To save you time, Magento has already created a table with the default groupings mapped as a file that you can [download](../http://docs.magento.com/downloads/mbi/ga_channel_mapping.csv).
 
-   If you are a GA pro and created your own channels, you will want to add your specific rules to the mapping table before uploading the file into Magento BI.
+   If you are a GA pro and created your own channels, you will want to add your specific rules to the mapping table before uploading the file into MBI.
 
    Bring it into your Data Warehouse as a [File Upload](../data-analyst/importing-data/connecting-data/using-file-uploader.md)
 

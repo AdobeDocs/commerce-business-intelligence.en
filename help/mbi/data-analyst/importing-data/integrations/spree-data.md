@@ -5,7 +5,7 @@ zendesk_id: 360016507192
 
 After you’ve [connected your Spree store](../data-analyst/importing-data/integrations/spree.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields from your Spree platform for analysis.
 
-In this article, we’ll explore the main data tables that you can import from Spree into your Magento BI account, including links to [additional documentation](https://guides.spreecommerce.org/developer/addresses.html#address) about Spree data.
+In this article, we’ll explore the main data tables that you can import from Spree into your MBI account, including links to [additional documentation](https://guides.spreecommerce.org/developer/addresses.html#address) about Spree data.
 
 | **Table name** | **Description** |
 | Users | The **users** table includes the account details for registered customers, including the individual’s email, name, and registration date. This allows you to analyze different customer segments and their buying behaviors. |

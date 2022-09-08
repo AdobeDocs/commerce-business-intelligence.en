@@ -3,7 +3,7 @@ title: Creating filter sets for metrics
 zendesk_id: 360016505492
 ---
 
-If you have multiple metrics in Magento BI that need to be filtered in a similar way (e.g., filter out test orders), you can create saved Filter Sets and apply them to the metrics. This saves you time as you don’t have to add individual filters when creating or editing a metric.
+If you have multiple metrics in MBI that need to be filtered in a similar way (e.g., filter out test orders), you can create saved Filter Sets and apply them to the metrics. This saves you time as you don’t have to add individual filters when creating or editing a metric.
 
 See our [training video](https://support.magento.com/hc/en-us/articles/360016730151) to learn more.
 
@@ -28,13 +28,13 @@ See our [training video](https://support.magento.com/hc/en-us/articles/360016730
 
 1. Verify your filter logic and that parentheses and operators are placed correctly: e.g., `\[A\] AND \[B\]; (\[A\] OR \[B\]) AND \[C\]`.
 
-   An incorrect filter is often the cause of data discrepancies between Magento BI reports and your expected results.
+   An incorrect filter is often the cause of data discrepancies between MBI reports and your expected results.
 
 1. Save the Filter Set.
 
 After a filter set is saved, you can apply it to any metric that is using the same table. For example, if you created a Filter Set on the **orders** table, you can apply it to **any metrics** built on this table, such as **Revenue.**
 
-Note that Filter Sets can also be applied to calculated columns in Magento BI. You may request to apply a filter set to a data dimension created in Magento BI via by contacting support.
+Note that Filter Sets can also be applied to calculated columns in MBI. You may request to apply a filter set to a data dimension created in MBI via by contacting support.
 
 ## Related
 

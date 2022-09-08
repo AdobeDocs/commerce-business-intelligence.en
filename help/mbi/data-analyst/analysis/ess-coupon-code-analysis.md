@@ -7,11 +7,11 @@ Understanding the coupon performance of your business is an interesting way to s
 
 We have documented the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
 
-![coupon\_analysis\_dash\_720.png](../assets/coupon_analysis_dash_720.png){: width="807" height="471"}
+![coupon\_analysis\_dash\_720.png](../../assets/coupon_analysis_dash_720.png){: width="807" height="471"}
 
 #### Getting Started
 
-First, a note about how Magento tracks coupon codes. If a customer applied a coupon to an order, three things happen:
+First, a note about how coupon codes are tracked. If a customer applied a coupon to an order, three things happen:
 
 * A discount is reflected in the `base_grand_total` amount (your <strong style="font-size: 13px;">Revenue </strong><span style="font-size: 13px;">metric in MBI)</span>
 * The coupon code is stored in the `coupon_code` field. If this field is NULL (empty) the order does not have a coupon associated with it.
@@ -40,8 +40,8 @@ The first step will be to construct a new metric with the following steps:</span
 ## Building Reports
 
 * **New Reports:**
-  * If you haven’t already, check out [this video][1] about using the Visual Report Builder to build charts, tables, and scalar values.
-  * Note on <strong>Time Period: </strong>The time period for each report is listed as “All-time”. Please feel free to alter this to suit your analysis needs. We recommend all reports on this dashboard cover the same time period, such as “All time”, “Year-to-date”, or “Last 365 days”.
+  * If you haven't already, check out [this video][1] about using the Visual Report Builder to build charts, tables, and scalar values.
+  * Note on **Time Period**: The time period for each report is listed as "All-time". Please feel free to alter this to suit your analysis needs. We recommend all reports on this dashboard cover the same time period, such as "All time", "Year-to-date", or "Last 365 days".
 
 * **Orders with coupons**
   * Metric:<em> Orders</em>
@@ -79,7 +79,7 @@ The first step will be to construct a new metric with the following steps:</span
 * **Average lifetime revenue: Coupon acquired customers**
   * Metric:<em> Avg lifetime revenue</em>
     * Add filter:
-      * [A] `Customer’s first order’s coupon_code` **IS NOT** `[NULL]`
+      * [A] `Customer's first order's coupon_code` **IS NOT** `[NULL]`
 
   * Time period:<em> All time</em>
   * Interval:<em> None</em>
@@ -88,7 +88,7 @@ The first step will be to construct a new metric with the following steps:</span
 * **Average lifetime revenue: Non-coupon acquired customers**
   * Metric:<em> Avg lifetime revenue</em>
     * Add filter:
-      * [A] ` Customer’s first order’s coupon_code` <strong>IS </strong>`[NULL]`
+      * [A] ` Customer's first order's coupon_code` <strong>IS </strong>`[NULL]`
 
   * Time period:<em> All time</em>
   * Interval:<em> None</em>
@@ -98,19 +98,19 @@ The first step will be to construct a new metric with the following steps:</span
   * Metric 1:<em> Orders</em>
     * Add filter:
       * [A] `coupon_code` <strong>IS NOT </strong>`[NULL]`
-      * [B] `Customer’s order number` **Equal to** `1`
+      * [B] `Customer's order number` **Equal to** `1`
 
   * Metric 2:<em> Revenue</em>
     * Add filter:
       * [A] `coupon_code` <strong>IS NOT </strong>`[NULL]`
-      * [B] `Customer’s order number` **Equal to** `1`
+      * [B] `Customer's order number` **Equal to** `1`
 
     * Rename: *Net revenue*
 
   * Metric 3:<em> Coupon discount amount</em>
     * Add filter:
       * [A] `coupon_code` <strong>IS NOT </strong>`[NULL]`
-      * [B] `Customer’s order number` **Equal to** `1`
+      * [B] `Customer's order number` **Equal to** `1`
 
   * Create new formula:<em> Gross revenue</em>
     * Formula:<em> (B – C)</em>
@@ -140,17 +140,17 @@ The first step will be to construct a new metric with the following steps:</span
 * **Coupon usage details (first time orders)**
   * Metric:<em> Avg lifetime revenue</em>
     * Add filter:
-      * [A] `Customer’s first order’s coupon_code` **IS NOT** `[NULL]`
+      * [A] `Customer's first order's coupon_code` **IS NOT** `[NULL]`
 
   * Time period:<em> All time</em>
   * Interval:<em> None</em>
-  * Group by:<em> Customer’s first order’s coupon_code</em>
+  * Group by:<em> Customer's first order's coupon_code</em>
   * Chart Type:<em> Column</em>
 
 * **New customers by coupon / non-coupon acquisition**
   * Metric 1:<em> New customers</em>
     * Add filter:
-      * [A] `Customer’s first order’s coupon_code` **IS NOT** `[NULL]`
+      * [A] `Customer's first order's coupon_code` **IS NOT** `[NULL]`
 
     * Rename: *Coupon acquisition customer*
 

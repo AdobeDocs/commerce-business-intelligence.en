@@ -10,6 +10,6 @@ Found something strange in [Google Adwords](../data-analyst/importing-data/inte
 1. Enter your Google AdWords account information.
 1. After your account is added to AdWords Editor, select **File > Export Spreadsheet (CSV) > Export Whole Account**
 
-This will build a CSV file containing all information stored in your current Google AdWords account. At this point, submit a support ticket (be sure to attach this file!) so we can take a closer look at your data. If the file is too large, share it with the Magento BI team via Dropbox or Google Drive.
+This will build a CSV file containing all information stored in your current Google AdWords account. At this point, submit a support ticket (be sure to attach this file!) so we can take a closer look at your data. If the file is too large, share it with the MBI team via Dropbox or Google Drive.
 
 For more information about Google AdWords CSV file exports, refer to the official [Google AdWords documentation](https://support.google.com/adwords/editor/answer/38657?hl=en "here").

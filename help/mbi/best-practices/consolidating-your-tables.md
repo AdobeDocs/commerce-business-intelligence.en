@@ -3,9 +3,9 @@ title: Consolidating your Tables
 zendesk_id: 360016504572
 ---
 
-If you operate multiple store fronts or in multiple markets, you may have similar databases stored separately. In Magento BI, it\'s easy to consolidate similar tables from different databases together.
+If you operate multiple store fronts or in multiple markets, you may have similar databases stored separately. In MBI, it is easy to consolidate similar tables from different databases together.
 
-For example, you may have an `orders` table for Market A, and a similar `orders` table for Market B. Magento BI can consolidate both tables and allow you to look at the aggregate order data from both Market A and B, in addition to segmenting it by specific market.
+For example, you may have an `orders` table for Market A, and a similar `orders` table for Market B. MBI can consolidate both tables and allow you to look at the aggregate order data from both Market A and B, in addition to segmenting it by specific market.
 
 For consolidation of tables to work, input tables must be **similarly structured**. In other words, all input tables must contain the data columns required in the consolidated table.
 
@@ -23,7 +23,7 @@ For example, you may have an `orders` table for website A and a separate, but si
 
 ### Integrating Legacy Data
 
-Many companies have refactored their databases at one time or another, and the data from the old database doesn\'t always get converted over to the new system. You can use consolidated tables to join the key columns from legacy tables with those from the active system. This allows you to conduct a unified analysis of your data throughout history.
+Many companies have refactored their databases at one time or another, and the data from the old database does not always get converted over to the new system. You can use consolidated tables to join the key columns from legacy tables with those from the active system. This allows you to conduct a unified analysis of your data throughout history.
 
 ### Combining Events for Active User Analysis
 
@@ -35,6 +35,6 @@ As with all other tables in your data warehouse, you can add additional columns 
 
 ## Creating, Viewing, or Updating a Consolidated Table
 
-If you\'re interested in adding a consolidated table to your data warehouse, contact Magento BI [support](../getting-started/support.md).
+If you\'re interested in adding a consolidated table to your data warehouse, contact MBI [support](../getting-started/support.md).
 
-Likewise, because consolidated tables are not viewable in the Data Warehouse Manager, viewing and updating these tables can only be done by Magento BI support.
+Likewise, because consolidated tables are not viewable in the Data Warehouse Manager, viewing and updating these tables can only be done by MBI support.

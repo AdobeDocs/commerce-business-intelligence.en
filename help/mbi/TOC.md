@@ -39,7 +39,7 @@ user-guide-description: Learn how to use MBI features available for Adobe Commer
     - [MongoDB data modeling guide](data-analyst/data-warehouse-mgr/mongodb-data-modeling.md)
     - [Replicating Google Analytics channels](data-analyst/data-warehouse-mgr/rep-google-analytics-channels.md)
     - [Standardizing data with mapping tables](data-analyst/data-warehouse-mgr/stndrd-data-map-tables.md)
-    - [Translating sQL queries into Magento BI reports](data-analyst/data-warehouse-mgr/sql-queries-reports.md)
+    - [Translating sQL queries into MBI reports](data-analyst/data-warehouse-mgr/sql-queries-reports.md)
     - [Understanding and Evaluating Table Relationships](data-analyst/data-warehouse-mgr/table-relationships.md)
     - [Using the Date Difference Calculated](data-analyst/data-warehouse-mgr/using-date-diff-calc-column-.md)
     - [Using Dashboard Wide Filtering](data-analyst/data-warehouse-mgr/using-dshbrd-wide-filter-date-ranges.md)
@@ -124,7 +124,7 @@ user-guide-description: Learn how to use MBI features available for Adobe Commer
   - Data Integrations {#integration}
     - [Connecting Amazon RDS](data-analyst/importing-data/integrations/amazon-rds.md)
     - [Connecting Databases via VPN](data-analyst/importing-data/integrations/databases-via-a-vpn.md)
-    - [Connect Your MySQL Database to Magento BI](data-analyst/importing-data/integrations/db-to-mbi.md)
+    - [Connect Your MySQL Database to MBI](data-analyst/importing-data/integrations/db-to-mbi.md)
     - [Connecting Magento](data-analyst/importing-data/integrations/magento.md)
     - [Expected Magento Data](data-analyst/importing-data/integrations/magento-data.md)
     - [Connecting Microsoft SQL Server](data-analyst/importing-data/integrations/microsoft-sql-server.md)
@@ -219,12 +219,12 @@ user-guide-description: Learn how to use MBI features available for Adobe Commer
     - [Modifying Your Database to Support Incremental Replication](best-practices/mod-db-inc-replication.md)
     - [Optimizing your Database for Analysis](best-practices/opt-db-analysis.md)
     - [Optimizing Your SQL Queries](best-practices/optimizing-your-sql-queries.md)
-    - [Understanding your Magento BI Environment](best-practices/understanding-magento.md)
+    - [Understanding your MBI Environment](best-practices/understanding-magento.md)
   - Project Organization {#project}
     - [Organizing Projects](best-practices/project-org.md)
-    - [Naming Reports and Elements in Magento BI](best-practices/naming-elements.md)
+    - [Naming Reports and Elements in MBI](best-practices/naming-elements.md)
     - [Consolidating your tables](best-practices/consolidating-your-tables.md)
-    - [Declutter your Magento BI account](best-practices/declutter-account.md)
+    - [Declutter your MBI account](best-practices/declutter-account.md)
   - Working with Dashboards {#working-dashboards}
     - [Working with Dashboards](best-practices/work-dashboards.md)
     - [Sharing Dashboards](best-practices/share-dashboard-best-practice.md)

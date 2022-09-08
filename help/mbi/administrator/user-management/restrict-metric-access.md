@@ -12,7 +12,7 @@ After setting the permission level, you can select the metrics a Standard user c
 1. Go to **Account Settings &gt; Manage Users.**
 1. Select the desired user account.
 1. The **Metrics** tab will display a list of available metrics. Check the metrics that you want the user to have access to; deselect those the user should not have access to.
-1. Magento BI saves the changes automatically. If the change is successful, Magento BI displays **Saved!** at the top of the page.
+1. MBI saves the changes automatically. If the change is successful, MBI displays **Saved!** at the top of the page.
 
 {:.bs-callout-info}
 All users with Standard permissions can access all data in the data warehouse via Data Export in addition to all metrics from Google Analytics.
@@ -20,4 +20,4 @@ All users with Standard permissions can access all data in the data warehouse vi
 You can also restrict access to a metric by editing the metric and [selecting users in the User Rights section](../data-user/reports/ess-manage-data-metrics.md).
 
 {:.bs-callout-info}
-If you duplicate a metric, Magento BI copies the user permissions set in the original metric.
+If you duplicate a metric, MBI copies the user permissions set in the original metric.

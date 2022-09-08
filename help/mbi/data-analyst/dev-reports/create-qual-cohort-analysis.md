@@ -5,7 +5,7 @@ zendesk_id: 360016731191
 
 Do you know how your Adwords-acquired customer segments grow their LTV compared to those customers acquired from organic search? Have you ever thought of performing a cohort analysis on different customer segments side-by-side in the same report? If so, a **qualitative cohort analysis** will help you answer those questions.
 
-In this article, we’ll dive into what a qualitative cohort even is, why you might be interested in building this analysis, and how you can create it in Magento BI.
+In this article, we’ll dive into what a qualitative cohort even is, why you might be interested in building this analysis, and how you can create it in MBI.
 
 ## What are qualitative cohorts, anyway? {#whatare}
 
@@ -13,7 +13,7 @@ Cohort analysis in general can be broadly defined as the analysis of user groups
 
 For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/){: target="_blank"} - we wrote the site on it!
 
-Most cohort analyses in Magento BI group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A **qualitative cohort** is a little different: it’s a user group that is defined by a characteristic that isn’t time-based. Some examples include:
+Most cohort analyses in MBI group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A **qualitative cohort** is a little different: it’s a user group that is defined by a characteristic that isn’t time-based. Some examples include:
 
 * The set of all users that were acquired from an ad campaign
 * The set of all users whose first purchase included a coupon (or didn’t)

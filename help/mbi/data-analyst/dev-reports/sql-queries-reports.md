@@ -1,11 +1,11 @@
 ---
-title: Translating SQL queries into Magento BI reports
+title: Translating SQL queries into MBI reports
 zendesk_id: 360016506772
 ---
 
-Ever wondered how SQL queries are translated into the [calculated columns](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), [metrics](../data-user/reports/ess-manage-data-metrics.md), and [reports](../tutorials/using-visual-report-builder.md) you use in Magento BI? If you’re a heavy SQL user, understanding how SQL is translated in Magento BI will enable you to work smarter in the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md) and get the most out of the Magento BI platform.
+Ever wondered how SQL queries are translated into the [calculated columns](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), [metrics](../data-user/reports/ess-manage-data-metrics.md), and [reports](../tutorials/using-visual-report-builder.md) you use in MBI? If you’re a heavy SQL user, understanding how SQL is translated in MBI will enable you to work smarter in the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md) and get the most out of the MBI platform.
 
-At the end of this article, we’ve included a **translation matrix** for SQL query clauses and Magento BI elements.
+At the end of this article, we’ve included a **translation matrix** for SQL query clauses and MBI elements.
 
 Let’s get started by looking at a general query:
 
@@ -23,7 +23,7 @@ This example covers the majority of translation cases, but there are some except
 
 ## Aggregate functions
 
-Aggregate functions (i.e. count, sum, average, max, min, etc) in queries either take the form of **metric aggregations** or **column aggregations** in Magento BI. The differentiating factor is whether or not a join is required to perform the aggregation.
+Aggregate functions (i.e. count, sum, average, max, min, etc) in queries either take the form of **metric aggregations** or **column aggregations** in MBI. The differentiating factor is whether or not a join is required to perform the aggregation.
 
 Let's take a look at an example for each of the above.
 
@@ -31,7 +31,7 @@ Let's take a look at an example for each of the above.
 
 A metric is required when aggregating _within a single table_. So for example, the SUM(b) aggregate function from the query above would most likely be represented by a metric which sums column "b". 
 
-Let's look at a specific example of how a "Total Revenue" metric might be defined in Magento BI. Take a look at the query below that we will attempt to translate:
+Let's look at a specific example of how a "Total Revenue" metric might be defined in MBI. Take a look at the query below that we will attempt to translate:
 
 |--- |--- |
 |`SELECT`||
@@ -60,7 +60,7 @@ The query for this aggregation may look something like the below:
 |`ON c.customer_id = o.customer_id`|Path|
 |`WHERE o.status = 'success'`|Aggregate filter|
 
-Setting this up in Magento BI requires the use of your **Data Warehouse** manager, where you will build a path between your "orders" and "customers" table then create a new column called "Customer LTV" in your customer's table.
+Setting this up in MBI requires the use of your **Data Warehouse** manager, where you will build a path between your "orders" and "customers" table then create a new column called "Customer LTV" in your customer's table.
 
 Let's first take a look at how to establish a new path between the "customers" and "orders". Our end goal is to create a new aggregated column in the "customers" table, so first navigate to the "customers" table in your **Data Warehouse**, then click **Create a Column** \=> **Select a definition** => **SUM**.
 
@@ -68,7 +68,7 @@ Next, you need to select the source table. If a path already exists to your "ord
 
 ![Create_new_path.png](../assets/Create_new_path.png)
 
-Here you need to carefully consider the relationship between the two tables you are attempting to join together. In this case, there are potentially **Many** orders associated with **One** customer, therefore the "orders" table is listed on the **Many** side, whereas the "customers" table selected on the **One** side. Note that in Magento BI, a **path** is equivalent to a **Join** in SQL.
+Here you need to carefully consider the relationship between the two tables you are attempting to join together. In this case, there are potentially **Many** orders associated with **One** customer, therefore the "orders" table is listed on the **Many** side, whereas the "customers" table selected on the **One** side. Note that in MBI, a **path** is equivalent to a **Join** in SQL.
 
 Once the path has been saved, you're all set to create the new "Customer LTV" column! Take a look at the below:
 
@@ -80,7 +80,7 @@ For more information on creating calculated columns with your Data Warehouse man
 
 ## GROUP BY clauses
 
-GROUP BY functions in queries are often represented in Magento BI as a column used to segment or filter a visual report. As an example, let's revisit the "Total Revenue" query that we explored previously, but this time let's segment the revenue by the 'coupon\_code' to gain a better understanding of which coupons are generating the most revenue.
+GROUP BY functions in queries are often represented in MBI as a column used to segment or filter a visual report. As an example, let's revisit the "Total Revenue" query that we explored previously, but this time let's segment the revenue by the 'coupon\_code' to gain a better understanding of which coupons are generating the most revenue.
 
 First, we start with the query below:
 
@@ -126,11 +126,11 @@ And let's also assume we already have metrics set up to calculate the "Total Rev
 
 ## Wrapping Up
 
-As we mentioned at the beginning of this article, if you’re a heavy SQL user, thinking about how queries translate in Magento BI will enable you to build calculated columns, metrics, and reports.
+As we mentioned at the beginning of this article, if you’re a heavy SQL user, thinking about how queries translate in MBI will enable you to build calculated columns, metrics, and reports.
 
-For quick reference, check out the matrix below. This shows a SQL clause’s equivalent Magento BI element and how it can map to more than one element, depending on how it’s used in the query.
+For quick reference, check out the matrix below. This shows a SQL clause’s equivalent MBI element and how it can map to more than one element, depending on how it’s used in the query.
 
-## Magento BI Elements
+## MBI Elements
 
 |--|--|--|--|--|--|--|--|
 |**SQL Clause**|**Metric**|**Filter**|**Report group by**|**Report time frame**|**Path**|**Calculated column inputs**|**Source table**|

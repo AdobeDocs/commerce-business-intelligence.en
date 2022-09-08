@@ -5,7 +5,7 @@ zendesk_id: 360016507452
 
 After [you’ve connected your Stripe account](../data-analyst/importing-data/integrations/stripe.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
 
-In this article, we’ll explore the main data tables that you can import from Stripe into Magento BI. After setup is completed, the following tables will be created in your data warehouse. Click the links in the Table Name column to learn more about the attributes in each table.
+In this article, we’ll explore the main data tables that you can import from Stripe into MBI. After setup is completed, the following tables will be created in your data warehouse. Click the links in the Table Name column to learn more about the attributes in each table.
 
 | **Table Name** | **Description** |
 | [Customers](https://stripe.com/docs/api/curl#customer_object) | Customer objects allow you to perform recurring charges and track multiple charges that are associated with the same customer. |

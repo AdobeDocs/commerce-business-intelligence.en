@@ -1,10 +1,10 @@
 ---
-title: Activating your Magento BI Account for On-Premise Subscriptions
+title: Activating your MBI Account for On-Premise Subscriptions
 ---
 
-To activate Magento BI for on-premise subscriptions, first create a Magento BI account, then connect MBI to your Magento database. For information about activation in Cloud Starter projects, see [Activating your Magento BI Account for Cloud Starter Subscriptions](../getting-started/cloud-activation.md).
+To activate MBI for on-premise subscriptions, first create a MBI account, then connect MBI to your Magento database. For information about activation in Cloud Starter projects, see [Activating your MBI Account for Cloud Starter Subscriptions](../getting-started/cloud-activation.md).
 
-1. Create your Magento BI Account.
+1. Create your MBI Account.
 
     -  Go to [https://account.magento.com/customer/account/login](https://account.magento.com/customer/account/login)
 

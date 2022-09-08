@@ -3,9 +3,9 @@ title: Exporting Raw Data
 zendesk_id: 360016505532
 ---
 
-Using raw data exports, you can export records from your Magento BI Data Warehouse to get a closer look at what\'s powering your dashboard. Additionally, raw data exports can help you [pinpoint data discrepancies](https://support.magento.com/hc/en-us/articles/360016730631).
+Using raw data exports, you can export records from your MBI Data Warehouse to get a closer look at what\'s powering your dashboard. Additionally, raw data exports can help you [pinpoint data discrepancies](https://support.magento.com/hc/en-us/articles/360016730631).
 
-Raw data exports provide access to additional columns and dimensions generated through de-normalization and pre-aggregation of relevant metrics. For example, **User\'s first order date** is a dimension that you can export for each user in Magento BI, while it may not be available in your database.
+Raw data exports provide access to additional columns and dimensions generated through de-normalization and pre-aggregation of relevant metrics. For example, **User\'s first order date** is a dimension that you can export for each user in MBI, while it may not be available in your database.
 
 This tutorial covers the following
 
@@ -15,7 +15,7 @@ This tutorial covers the following
 
 ## Step 1: Selecting Data to Export {#select}
 
-There are two ways you can export raw data in Magento BI: at the chart level or at the table level.
+There are two ways you can export raw data in MBI: at the chart level or at the table level.
 
 ### Exporting at the Table Level in your Manage Data Tab
 

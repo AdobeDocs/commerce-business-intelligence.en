@@ -26,7 +26,7 @@ After clicking the Connect with Stripe button, an access request page appears.
 
 1. Enter your credentials and click the Sign in to your account button.
 
-1. After clicking the button, your credentials will be validated and you will be taken back to Magento BI.
+1. After clicking the button, your credentials will be validated and you will be taken back to MBI.
 
 1. If the connection is successful, a *Connection Successful!* message apperas at the top of the screen.
 

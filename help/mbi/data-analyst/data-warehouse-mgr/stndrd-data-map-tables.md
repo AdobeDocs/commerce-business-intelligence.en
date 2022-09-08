@@ -36,9 +36,9 @@ In the second column, enter what these values **should be**. Continuing with our
 
 ![](../assets/Mapping_table_examples.jpg)
 
-## What do I need to do in Magento BI to use it? {#use}
+## What do I need to do in MBI to use it? {#use}
 
-After you’ve finished creating the mapping table, you’ll need to [upload the file](../{{ site.baseurl }}/data-analyst/importing-data/connecting-data/using-file-uploader.html#uploading) into Magento BI and [create a joined column](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/calc-column-types.html#joined) that relocates the new field into the desired table. You can do this after the file is synced to your data warehouse.
+After you’ve finished creating the mapping table, you’ll need to [upload the file](../{{ site.baseurl }}/data-analyst/importing-data/connecting-data/using-file-uploader.html#uploading) into MBI and [create a joined column](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/calc-column-types.html#joined) that relocates the new field into the desired table. You can do this after the file is synced to your data warehouse.
 
 In our example, we’ll move the column we created on the **mapping_state** table (**state_input**) to the **customer_address** table using a joined column. This will allow us to group by the clean **state_input** column in our reports instead of the **state** column.
 
@@ -68,7 +68,7 @@ After an update cycle completes, you’ll be able to use your new joined column 
 
 ![](../assets/Clean_State_Segments.png)
 
-Mapping tables are handy for any time you want to clean up some potentially messy data in your data warehouse. However, mapping tables can also be used for some other cool use cases, like [replicating your Google Analytics channels in Magento BI](../data-analyst/data-warehouse-mgr/rep-google-analytics-channels.md).
+Mapping tables are handy for any time you want to clean up some potentially messy data in your data warehouse. However, mapping tables can also be used for some other cool use cases, like [replicating your Google Analytics channels in MBI](../data-analyst/data-warehouse-mgr/rep-google-analytics-channels.md).
 
 ### Related
 

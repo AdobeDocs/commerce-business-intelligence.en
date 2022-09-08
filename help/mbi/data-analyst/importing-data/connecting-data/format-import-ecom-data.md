@@ -3,7 +3,7 @@ title: Formatting and importing eCommerce data
 zendesk_id: 360016505752
 ---
 
-If you're using an integration not currently supported by Magento BI, you can still use the [File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md) to get your data into your data warehouse. In this article, we'll go over the ideal data formats to be used for uploading eCommerce data.
+If you're using an integration not currently supported by MBI, you can still use the [File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md) to get your data into your data warehouse. In this article, we'll go over the ideal data formats to be used for uploading eCommerce data.
 
 ## Orders table
 

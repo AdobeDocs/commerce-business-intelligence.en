@@ -3,7 +3,7 @@ title: Importing MailChimp data
 zendesk_id: 360016506632
 ---
 
-To get a comprehensive picture of your campaigning efforts, you can import your MailChimp email campaign data into Magento BI. To complete the import, you need to do the following for each MailChimp campaign you have:
+To get a comprehensive picture of your campaigning efforts, you can import your MailChimp email campaign data into MBI. To complete the import, you need to do the following for each MailChimp campaign you have:
 
 ## Export Opens data {#opens}
 
@@ -61,8 +61,8 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
     ![Pic9.png](../assets/Pic9.png){: width="550px"}
 
-## Prepare files for upload into Magento BI {#upload}
+## Prepare files for upload into MBI {#upload}
 
-Each file - Opens, Clicks, and Sent - should be uploaded to Magento BI as a separate file. We also recommend that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with Open, Click, or Sent, and replace `DATE` with the date of export.
+Each file - Opens, Clicks, and Sent - should be uploaded to MBI as a separate file. We also recommend that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with Open, Click, or Sent, and replace `DATE` with the date of export.
 
 When you are ready to upload the files, use the [File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md) to bring the data into your data warehouse.

@@ -3,7 +3,7 @@ title: Using the Cohort Report Builder
 zendesk_id: 360016504632
 ---
 
-Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who don’t? If the answer is `Yes!`, then the Cohort Report Builder is the perfect tool for you. Magento BI is specifically optimized to perform this analysis and make it relevant to your business.
+Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who don’t? If the answer is `Yes!`, then the Cohort Report Builder is the perfect tool for you. MBI is specifically optimized to perform this analysis and make it relevant to your business.
 
 ## What is cohort analysis? {#what}
 
@@ -11,7 +11,7 @@ Cohort analysis can be broadly defined as the analysis of user groups that share
 
 For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/){: target="_blank"} - we wrote the site on it!
 
-In your Magento BI dashboard, it’s easy to create user cohorts based on a cohort date and a metric in your account.
+In your MBI dashboard, it’s easy to create user cohorts based on a cohort date and a metric in your account.
 
 ## Well, why is cohort analysis important? {#important}
 
@@ -87,7 +87,7 @@ Here's an example to pull it all together. In this example, I want to check out 
 
 #### Legacy Architecture {#personalinfo}
 
-Below are instructions specific to the legacy version of the Cohort Report Builder. If you are interested in using the new version, click [here](../administrator/account-management/new-architecture.md) for more information about migrating to a Magento BI New Architecture account.
+Below are instructions specific to the legacy version of the Cohort Report Builder. If you are interested in using the new version, click [here](../administrator/account-management/new-architecture.md) for more information about migrating to a MBI New Architecture account.
 
 #### How do I create my own cohort analysis? {#create}
 

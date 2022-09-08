@@ -11,11 +11,11 @@ When new tables are synced in the Data Warehouse Manager, a replication method w
 
 Replication methods fall into three groups - Incremental, Full Table, and Paused.
 
-[**Incremental** **Replication**](../#incremental) means that Magento BI will replicate only new or updated data on every replication attempt. As these methods will greatly reduce latency, we highly recommend using it where possible.
+[**Incremental** **Replication**](../#incremental) means that MBI will replicate only new or updated data on every replication attempt. As these methods will greatly reduce latency, we highly recommend using it where possible.
 
-[**Full Table Replication**](../#fulltable) **means that Magento BI will replicate the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, we recommend using an Incremental method instead.
+[**Full Table Replication**](../#fulltable) **means that MBI will replicate the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, we recommend using an Incremental method instead.
 
-**Paused** indicates that replication for the table is stopped, or paused. Magento BI won\'t check for new or updated data during an update cycle; this means no data will be replicated from a table that has this as its Replication Method.
+**Paused** indicates that replication for the table is stopped, or paused. MBI won\'t check for new or updated data during an update cycle; this means no data will be replicated from a table that has this as its Replication Method.
 
 ## Incremental replication methods {#incremental}
 
@@ -64,7 +64,7 @@ Note that unlike the Modified At method, **Add Date will not check existing rows
 
 Full table replication refreshes the entire table any time new rows are detected. This is by far the least efficient replication method, due to the fact that all data must be reprocessed during every update, assuming there are new rows.
 
-New rows are detected by querying your database at the start of the synchronization process and counting the number of rows. If your local database contains more rows than Magento BI, then the table is refreshed. If the row counts are identical, or if Magento BI contains *more* rows than your local database, then the table is skipped.
+New rows are detected by querying your database at the start of the synchronization process and counting the number of rows. If your local database contains more rows than MBI, then the table is refreshed. If the row counts are identical, or if MBI contains *more* rows than your local database, then the table is skipped.
 
 This raises the important point that **Full Table replication is incompatible when:**
 
@@ -95,7 +95,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
 1. The current replication method is listed below the table name. To change it, click the link.
 1. In the pop-up that displays, click the circle next to either Incremental or Full Table replication to select a replication type.
 1. Next, click the **Replication Method** dropdown to select a method - for example, **Paused** or **Modified At**.
-1. **Note that some Incremental methods require you to set a Replication Key**. Magento BI will use this key to determine where the next update cycle should begin.
+1. **Note that some Incremental methods require you to set a Replication Key**. MBI will use this key to determine where the next update cycle should begin.
 
     For example, if we want to use the **modified\_at** method for our **orders** table, we need to set a date column as the replication key. Several options for replication keys may exist, but we\'ll select **created\_at**, or the time the order was created. If the last update cycle stopped at 12/1/2015 00:10:00, the next cycle would begin replicating data with a **created\_at** date greater than this.
 1. When finished, click the Save button.

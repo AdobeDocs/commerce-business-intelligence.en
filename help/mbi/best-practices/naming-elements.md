@@ -1,17 +1,17 @@
 ---
-title: Best practices for naming reports and elements in Magento BI
+title: Best practices for naming reports and elements in MBI
 zendesk_id: 360016505772
 ---
 
-Before you get started building in Magento BI, we want to share some of our secrets to success. Knowing how to create metrics, filters, and so on is important, but all that work will be for naught if you can’t find what you need or if there’s any ambiguity.
+Before you get started building in MBI, we want to share some of our secrets to success. Knowing how to create metrics, filters, and so on is important, but all that work will be for naught if you can't find what you need or if there's any ambiguity.
 
 ## Why is nomenclature important? {#why}
 
-The way you name your calculated columns, metrics, and reports dictates the ease in which different users can navigate through your Magento BI account. When naming these features, we like to keep in mind the three Cs:
+The way you name your calculated columns, metrics, and reports dictates the ease in which different users can navigate through your MBI account. When naming these features, we like to keep in mind the three Cs:
 
 * **CLARITY** - So you can tell at a glance what a report is showing, what a metric does, and so on.
 * **CONSISTENCY** - So that you (and our support team!) can easily find and understand elements and reports in your account.
-* **CREDIBILITY** - In order to inspire and empower other data-driven Magento BI users, you need to instill confidence in how they understand and use the data!
+* **CREDIBILITY** - In order to inspire and empower other data-driven MBI users, you need to instill confidence in how they understand and use the data!
 
 Read on for our tried and true nomenclature tips!
 
@@ -19,22 +19,22 @@ Read on for our tried and true nomenclature tips!
 
 #### Be meaningful {#meaningful}
 
-Be specific whenever possible! For example, if it’s the country, do you know if it’s the shipping or the billing country? Is it the user’s city, or it is the deal’s city?
+Be specific whenever possible! For example, if it's the country, do you know if it's the shipping or the billing country? Is it the user's city, or it is the deal's city?
 
 **Bad example:**
  Revenue
 
-This is vague and doesn\'t tell us much.
+This is vague and does not tell us much.
 
 **Good examples:**
  Revenue (base\_grand\_total + fee)
- User’s shipping country
+ User's shipping country
 
 These examples are specific, which decreases the potential for confusion.
 
 #### Be consistent with capitalization {#capitalize}
 
-We’re big fans of the ‘first letter uppercase, rest of the characters lowercase unless proper noun’ style of capitalization. For example: **User\'s order number** rather than **User\'s Order Number.**
+We are big fans of the 'first letter uppercase, rest of the characters lowercase unless proper noun' style of capitalization. For example: **User\'s order number** rather than **User\'s Order Number.**
 
 This is really a matter of preference, but the thing to remember is to be consistent with whatever you choose.
 
@@ -48,7 +48,7 @@ You likely already have a nomenclature in place at your company. Keep the metric
 
 #### Spelling and grammar {#spelling}
 
-Make sure to double check your spelling and don’t forget about those pesky possessives!
+Make sure to double check your spelling and don't forget about those pesky possessives!
 
 ## Charts {#charts}
 
@@ -68,15 +68,15 @@ This tells us **exactly** what\'s in the report, which is fantastic.
 
 Dashboards should be named in ways that thematically represent the reports contained within them. For example, if your dashboard contains only information related to revenue and orders, consider naming it something like **\[Store Name\] - Revenue and orders.**
 
-Conversely, if your dashboard is a place where you are experimenting with different reports, consider naming it **\[Your Name’s\] Sandbox** so you know that the reports contained within are drafts.
+Conversely, if your dashboard is a place where you are experimenting with different reports, consider naming it **\[Your Name's\] Sandbox** so you know that the reports contained within are drafts.
 
 ## Dimensions (Calculated columns) {#dimensions}
 
 When naming new [dimensions](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), we find it most useful to follow this formula: **(Entity) + (Nth) + (time frame) + (calculation) + (comments)**. For example:
 
-User’s first 30 day revenue
- User’s order number
- User’s order number (awaiting audit)
+User's first 30 day revenue
+ User's order number
+ User's order number (awaiting audit)
 
 ## Filter Sets {#filterset}
 
@@ -96,4 +96,4 @@ Revenue (shipped\_at)
 
 ## Wrapping Up {#wrapup}
 
-Establishing style and naming conventions early on will help set you up for success in your Magento BI account. Remember the three Cs: clarity, consistency, and credibility.
+Establishing style and naming conventions early on will help set you up for success in your MBI account. Remember the three Cs: clarity, consistency, and credibility.

@@ -3,7 +3,7 @@ title: Building a Dashboard for Investors
 zendesk_id: 360016729691
 ---
 
-Many of our clients are working with investors and need to share information from platform with them, but the dashboards that you create to make day-to-day business decisions may not be what an investor is looking for. Here we’ll cover some best practices for how to create a dashboard that is comprehensive but simple, ideal for sharing with active and potential investors.
+Many of our clients are working with investors and need to share information from platform with them, but the dashboards that you create to make day-to-day business decisions may not be what an investor is looking for. Here we cover some best practices for how to create a dashboard that is comprehensive but simple, ideal for sharing with active and potential investors.
 
 Here is what you need to create reports for your investor dashboard:
 
@@ -21,9 +21,9 @@ Here is what you need to create reports for your investor dashboard:
     * Metric – Revenue
 * **Revenue from 1st time orders vs repeat orders**
     * Metric – First time<sup>t</sup> order revenue
-    * Filter – User’s order number is equal to 1
+    * Filter – User's order number is equal to 1
   * Metric 2 – Repeat order revenue
-    * Filter – User’s order number is greater than 1
+    * Filter – User's order number is greater than 1
   * Uncheck the box for Multiple Y-Axes
   * Change to a Stacked Column chart
 * **AOV by quarter**
@@ -35,14 +35,14 @@ Here is what you need to create reports for your investor dashboard:
     * A/B
 * **All-time revenue by source**
   * Metric – Revenue
-  * Group by customer’s utm_source
+  * Group by customer's utm_source
 * **Revenue from top 10 products**
   * Metric – Product revenue
     * Hide the chart
-    * Group by Product’s name. Select all products.
+    * Group by Product's name. Select all products.
     * Set the time range to All-Time
     * Set the time interval to None
-    * In “Show top/bottom”, show only the top 10 sorted by Product profit
+    * In "Show top/bottom", show only the top 10 sorted by Product profit
 * **Cumulative distinct buyers by quarter**
   * Metric – Distinct buyers
     * Perspective – Cumulative

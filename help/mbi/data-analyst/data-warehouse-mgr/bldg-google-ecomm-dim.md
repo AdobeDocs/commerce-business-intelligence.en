@@ -6,7 +6,7 @@ zendesk_id: 360016732211
 {:.bs-callout-info}
 [Requires Admin permissions](../administrator/user-management/user-management.md)
 
-Now that you’re finished [connecting your Google ECommerce account](../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in Magento BI? In this article, we’ll walk you through building dimensions that’ll link your eCommerce data with your orders and customer data.
+Now that you’re finished [connecting your Google ECommerce account](../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in MBI? In this article, we’ll walk you through building dimensions that’ll link your eCommerce data with your orders and customer data.
 
 The dimensions we'll cover will give you the ability to build analyses that [answer vital questions about your marketing channels and campaigns](../data-analyst/analysis/most-value-source-channel.md). What percent of revenue comes from each source? How does the lifetime value of Facebook acquired customers compare to those from Google?
 

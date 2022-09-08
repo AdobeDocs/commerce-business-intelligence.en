@@ -3,7 +3,7 @@ title: Reducing Your Update Cycle Time
 zendesk_id: 360016732071
 ---
 
-Magento BI syncs with your database throughout the day to replicate new data, ensuring that your dashboards always show the latest information.
+MBI syncs with your database throughout the day to replicate new data, ensuring that your dashboards always show the latest information.
 
 A lot of factors can add to an already lengthy update time. Certain replication methods, higher recheck frequencies, and the number of dashboards and charts are just a few contributors. This topics discusses some best practices to reduce your update times.
 
@@ -11,7 +11,7 @@ A lot of factors can add to an already lengthy update time. Certain replication 
 
 In a database table, there can be data columns with changeable values. For example, in an **orders** table there might be a column called **status**. When an order is initially written to the database, the status column might contain the value `pending`. The order will then be replicated in your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) with this `pending` value.
 
-Changeable columns need to be [rechecked for updated values](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) over time. By default, Magento BI rechecks these columns during every update, but if there\'s a large amount of data to be rechecked and replicated, it can negatively impact your update time. Instead of running rechecks during every update, Magento recommends setting the recheck frequency to daily, weekly, or monthly.
+Changeable columns need to be [rechecked for updated values](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) over time. By default, MBI rechecks these columns during every update, but if there is a large amount of data to be rechecked and replicated, it can negatively impact your update time. Instead of running rechecks during every update, we recommend setting the recheck frequency to daily, weekly, or monthly.
 
 ## Use Incremental Replication Methods
 
@@ -19,9 +19,9 @@ As mentioned above, long update times are directly correlated to how much data h
 
 ## Remove Unused Charts from Dashboards
 
-At the end of the update cycle, Magento BI performs a cache operation for all charts. A cache stores data so future requests for information can be completed faster. In Magento BI, this means dashboards will load quickly because charts don\'t need to query data every time they load.
+At the end of the update cycle, MBI performs a cache operation for all charts. A cache stores data so future requests for information can be completed faster. In MBI, this means dashboards will load quickly because charts don\'t need to query data every time they load.
 
-Since Magento BI only performs cache operations for charts found in a dashboard, removing unused charts from your dashboards will decrease your update time. Keep in mind that the same chart might be on multiple dashboards - check with your team to make sure they also removed any unused charts.
+Since MBI only performs cache operations for charts found in a dashboard, removing unused charts from your dashboards will decrease your update time. Keep in mind that the same chart might be on multiple dashboards - check with your team to make sure they also removed any unused charts.
 
 {:.bs-callout-info}
 Removing charts from your dashboard does not delete the chart. You can [add it back any time](../data-user/dashboards/add-charts-dashboard.md).

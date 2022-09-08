@@ -1,5 +1,5 @@
 ---
-title: Connect Your MySQL Database to Magento BI
+title: Connect Your MySQL Database to MBI
 zendesk_id: 360016502892
 ---
 

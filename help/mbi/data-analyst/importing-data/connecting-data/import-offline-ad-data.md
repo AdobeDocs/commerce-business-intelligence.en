@@ -7,13 +7,13 @@ Uploading your advertising spend data will allow you to measure campaign ROI by 
 
 ## Uploading advertising cost data
 
-The first step in analyzing ad spend data is getting the data. Since most advertising platforms allow you to export reports, we recommend you export the raw data from your ad platform and directly upload it to Magento BI without any manipulation. You can perform operations on the data in your data warehouse, so there is no need to double your efforts.
+The first step in analyzing ad spend data is getting the data. Since most advertising platforms allow you to export reports, we recommend you export the raw data from your ad platform and directly upload it to MBI without any manipulation. You can perform operations on the data in your data warehouse, so there is no need to double your efforts.
 
-After you have exported the ad spend data, use [the File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md) to bring the data into your data warehouse. You can upload new data to the same Magento BI table over time.
+After you have exported the ad spend data, use [the File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md) to bring the data into your data warehouse. You can upload new data to the same MBI table over time.
 
 ## Offline Sources
 
-In addition to your online campaigns, you may also have advertisements offline, such as on the radio or a billboard. To account for these cases, you can manually upload a spreadsheet with the cost data to Magento BI.
+In addition to your online campaigns, you may also have advertisements offline, such as on the radio or a billboard. To account for these cases, you can manually upload a spreadsheet with the cost data to MBI.
 
 The table structure explored below is recommended when creating a CSV file to record ad spend data. A template file is also attached at the bottom of this article to serve as example. Recommended columns are:
 

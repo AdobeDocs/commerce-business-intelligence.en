@@ -8,17 +8,17 @@ zendesk_id: 360016733251
 
 ![](../assets/Zendesk_logo.png)
 
-Connecting your Zendesk data allows you to consolidate your help desk reporting in Magento BI. This allows you to optimize customer support and monitor help desk performance alongside your revenue.
+Connecting your Zendesk data allows you to consolidate your help desk reporting in MBI. This allows you to optimize customer support and monitor help desk performance alongside your revenue.
 
 Connecting your Zendesk data is a simple three-step process:
 
-1. [Open the Zendesk credentials page in Magento BI](../#stepone)
+1. [Open the Zendesk credentials page in MBI](../#stepone)
 1. [Retrieve your Zendesk API Token](../#steptwo)
-1. [Enter your Zendesk login info and Token in Magento BI](../#stepthree)
+1. [Enter your Zendesk login info and Token in MBI](../#stepthree)
 
-To complete this process, you will need to open two browser windows or tabs - one for Magento BI, the other for your Zendesk account.
+To complete this process, you will need to open two browser windows or tabs - one for MBI, the other for your Zendesk account.
 
-## Open the Zendesk credentials page in Magento BI {#stepone}
+## Open the Zendesk credentials page in MBI {#stepone}
 
 1. Go to the Integrations page under **Manage Data > Data Sources > Integrations**.
 1. Click the **Add Integration** button, located on the right side of the screen.
@@ -30,13 +30,13 @@ To complete this process, you will need to open two browser windows or tabs - on
 1. When the Settings menu displays, locate the **Channels** section. Click the **API** link in this section.
 1. In the Token Access section of this page, click the checkbox next to Enabled. A list of Active API Tokens will display.
 1. Click the **Add New Token** link.
-1. When prompted, enter a label for the token. We recommend using \'Magento BI,\' so you will know, at a glance, what application is using the token.
+1. When prompted, enter a label for the token. We recommend using \'MBI,\' so you will know, at a glance, what application is using the token.
 1. Click Create.
 1. An API token will be created. Copy this token; it\'ll be used in the next step.
 
-## Enter Zendesk login info and API token into Magento BI {#stepthree}
+## Enter Zendesk login info and API token into MBI {#stepthree}
 
-1. Enter your Zendesk site prefix and login email in the Zendesk credentials page in Magento BI.
+1. Enter your Zendesk site prefix and login email in the Zendesk credentials page in MBI.
 1. Enter your API token.
 1. Click the Save & Connect button. If the connection is successful, a *Connection Successful!* message will display at the top of the screen.
 

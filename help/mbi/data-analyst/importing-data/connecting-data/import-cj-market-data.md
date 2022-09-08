@@ -3,7 +3,7 @@ title: Importing CJ Affiliate (Commission Junction) Marketing Data
 zendesk_id: 360016732671
 ---
 
-To import CJ Affiliate/Commission Junction data into Magento BI, simply follow the steps below and attach the resulting file to a support ticket. We will setup the data table your account and allow you to continue uploading data independently.
+To import CJ Affiliate/Commission Junction data into MBI, simply follow the steps below and attach the resulting file to a support ticket. We will setup the data table your account and allow you to continue uploading data independently.
 
 ## Export CJ Affiliate Data
 
@@ -21,6 +21,6 @@ To import CJ Affiliate/Commission Junction data into Magento BI, simply follow t
 
     ![Screen_Shot_2014-02-04_at_3.31.27_PM.png](../assets/Screen_Shot_2014-02-04_at_3.31.27_PM.png){:.zoom}
 
-1. After  you have downloaded the file, you can [upload the file](../data-analyst/importing-data/connecting-data/using-file-uploader.md) to your Magento BI data warehouse.
+1. After  you have downloaded the file, you can [upload the file](../data-analyst/importing-data/connecting-data/using-file-uploader.md) to your MBI data warehouse.
 
-   This creates a new table in your Magento BI data warehouse that you can continue to upload fresh data into periodically. When uploading the file, be sure to to follow the formatting requirements listed in [Using the File Uploader](../data-analyst/importing-data/connecting-data/using-file-uploader.md).
+   This creates a new table in your MBI data warehouse that you can continue to upload fresh data into periodically. When uploading the file, be sure to to follow the formatting requirements listed in [Using the File Uploader](../data-analyst/importing-data/connecting-data/using-file-uploader.md).

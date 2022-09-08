@@ -1,10 +1,10 @@
 ---
-title: Magento BI Essentials vs. Pro
+title: MBI Essentials vs. Pro
 zendesk_id: 360016502872
 ---
 
 {:.bs-callout-info}
-This is archived documentation for Magento BI.
+This is archived documentation for MBI.
 
 The following table describes what is included with Essentials and Pro.
 
@@ -138,7 +138,7 @@ Items in _italics_ are calculated fields.
   * store_id
   * name
 
-Refer to the following video series to learn more about the differences between Magento BI Essentials and Magento BI Pro.
+Refer to the following video series to learn more about the differences between MBI Essentials and MBI Pro.
 
 * [Essentials](https://support.magento.com/hc/en-us/articles/360005305614)
 * [Pro](https://support.magento.com/hc/en-us/articles/360005373453)

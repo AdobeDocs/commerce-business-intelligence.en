@@ -5,7 +5,7 @@ zendesk_id: 360016503492
 
 While reviewing your orders, if you notice that many **customer\_id** values are null or do not have a value to join back to the **customers** table, this is usually indicative that your store allows guest orders. This means that your **customers** table is most likely not inclusive of all of your customers.
 
-Let’s discuss what impact guest orders have on your data and what options you have to properly account for guest orders in your Magento BI data warehouse.
+Let’s discuss what impact guest orders have on your data and what options you have to properly account for guest orders in your MBI data warehouse.
 
 ## Impact of guest orders on data
 

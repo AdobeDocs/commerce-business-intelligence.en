@@ -4,19 +4,19 @@ zendesk_id: 360016732571
 ---
 
 
-To connect your MongoDB database to Magento BI via an SSH tunnel, you (or your team, if you're not a techie) will need to do a few things:
+To connect your MongoDB database to MBI via an SSH tunnel, you (or your team, if you're not a techie) will need to do a few things:
 
-1. [Retrieve the Magento BI public key](../#retrieve)
-1. [Allow access to the Magento BI IP address](../#allowlist)
-1. [Create a Linux user for Magento BI](../#linux)
-1. [Create a MongoDB user for Magento BI](../#mongodb)
-1. [Enter the connection and user info into Magento BI](../#finish)
+1. [Retrieve the MBI public key](../#retrieve)
+1. [Allow access to the MBI IP address](../#allowlist)
+1. [Create a Linux user for MBI](../#linux)
+1. [Create a MongoDB user for MBI](../#mongodb)
+1. [Enter the connection and user info into MBI](../#finish)
 
 Due to the technical nature of this setup, we suggest you loop in a developer to help out if you haven't done this before.
 
-## Retrieving the Magento BI public key {#retrieve}
+## Retrieving the MBI public key {#retrieve}
 
-The public key is used to authorize the Magento BI Linux user. In the next section, we'll create the user and import the key.
+The public key is used to authorize the MBI Linux user. In the next section, we'll create the user and import the key.
 
 1. Go to **Data &gt; Connections** and click the **Add New Data Source** button.
 1. Click the **MongoDB** icon.
@@ -25,20 +25,20 @@ The public key is used to authorize the Magento BI Linux user. In the next secti
 
 Leave this page open throughout the tutorial - you'll need it in the next section and at the end.
 
-If you're a bit lost, here's how to navigate through Magento BI to retrieve the key:
+If you're a bit lost, here's how to navigate through MBI to retrieve the key:
 
 ![Retrieving the RJMetrics public key](../assets/MongoDB_Public_Key.gif){:.zoom}
 
-## Allow access to the Magento BI IP address {#allowlist}
+## Allow access to the MBI IP address {#allowlist}
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it's also on the MongoDB credentials page:
 
 ![MBI_Allow_Access_IPs.png](../assets/MBI_allow_access_IPs.png)
 
-## Creating a Linux user for Magento BI {#linux}
+## Creating a Linux user for MBI {#linux}
 
 **Important!**
- If the `sshd_config` file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to Magento BI. In these cases, it's necessary to run a command like `AllowUsers` to allow the rjmetric user access to the server.
+ If the `sshd_config` file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it's necessary to run a command like `AllowUsers` to allow the rjmetric user access to the server.
 
 This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may restrict this user any way you like as long as it retains the right to connect to the MongoDB server.
 
@@ -64,22 +64,22 @@ To finish creating the user, alter the permissions on the /home/rjmetric directo
     chmod -R 700 /home/rjmetric/.ssh
 ```
 
-## Creating an Magento BI MongoDB user {#mongodb}
+## Creating an MBI MongoDB user {#mongodb}
 
 MongoDB servers have two run modes - [one with the "auth" option](../#auth) `(mongod -- auth)` and one without, [which is the default](../#default). The steps for creating a MongoDB user will vary a bit depending on what mode your server is using, so be sure to verify the mode before continuing.
 
 #### If your server uses the Auth Option: {#auth}
 
-When connecting to multiple databases, you can add the user by logging into MongoDB as an admin user and running the following commands. **Note that to see all available databases, the Magento BI user requires the permissions to run `listDatabases.`**
+When connecting to multiple databases, you can add the user by logging into MongoDB as an admin user and running the following commands. **Note that to see all available databases, the MBI user requires the permissions to run `listDatabases.`**
 
-This command will grant the Magento BI user access **to all databases**:
+This command will grant the MBI user access **to all databases**:
 
 ```bash
     use admin
     db.createUser('rjmetric', '< secure password here >', true)
 ```
 
-Use this command to grant the Magento BI user access **to a single database**:
+Use this command to grant the MBI user access **to a single database**:
 
 ```bash
     use < database name >
@@ -108,22 +108,22 @@ If your server doesn't use auth mode, your MongoDB server will still be accessib
 
 To bind your MongoDB server to a different address, adjust the database hostname in the next step accordingly.
 
-## Entering the connection and user info into Magento BI {#finish}
+## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into Magento BI. Did you leave the MongoDB credentials page open? If not, go to **Data &gt; Connections** and click the Add New Data Source button, then the MongoDB icon. Don't forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MongoDB credentials page open? If not, go to **Data &gt; Connections** and click the Add New Data Source button, then the MongoDB icon. Don't forget to toggle the Encrypted button to Yes.
 
 Enter the following info into this page, starting with the Database Connection section:
 
 * <strong>Host: </strong>127.0.0.1
-* <strong>Username: </strong> The Magento BI MongoDB username (should be rjmetric)
-* <strong>Password: </strong>The Magento BI MongoDB password
+* <strong>Username: </strong> The MBI MongoDB username (should be rjmetric)
+* <strong>Password: </strong>The MBI MongoDB password
 * <strong>Port: </strong>MongoDB's port on your server (27017 by default)
 * <strong>Database Name (Optional): </strong>If you only allowed access to one database, specify the name of that database here.
 
 Under the SSH Connection section:
 
 * <strong>Remote Address: </strong>The IP address or hostname of the server we will SSH into
-* <strong>Username: </strong>The Magento BI Linux (SSH) username (should be rjmetric)
+* <strong>Username: </strong>The MBI Linux (SSH) username (should be rjmetric)
 * <strong>SSH Port: </strong>The SSH port on your server (22 by default)
 
 That's it! When you're finished, click the Save &amp; Test button to complete the setup.

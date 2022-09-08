@@ -5,9 +5,9 @@ zendesk_id: 360016505032
 
 In this article, we demonstrate how to set up a dashboard that will help you define churn for your transactional customers.
 
-![](../assets/2017-02-07_1356.png)
+![](../../assets/2017-02-07_1356.png)
 
-This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
+This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Calculated Columns
 
@@ -50,7 +50,7 @@ Columns to create
 
 No new metrics!
 
-Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 
@@ -122,12 +122,12 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
 
 The initial repeat order probability report represents the Total Repeat Orders / Total Orders. Note that every order is an opportunity to make a repeat order; the number of repeat orders is the subset of those that actually do.
 
-The formula we use simplifies to (Total repeat orders that occurred after X months)/ (Total orders that are at least X months old). It shows us that historically, given that it’s been X months since an order, there is a Y% chance that the user will place another order.
+The formula we use simplifies to (Total repeat orders that occurred after X months)/ (Total orders that are at least X months old). It shows us that historically, given that it's been X months since an order, there is a Y% chance that the user will place another order.
 
 Once you\'ve built out your dashboard, the most common question we receive is: How do I use this to determine a churn threshold?
 
-**There is no \"one right answer\" to this.** However, we recommend finding the point where the line crosses the value that is half of the initial repeat probability rate. This is the point where we can say “If a user was going to make a repeat order, they probably would have done it by now.” Ultimately, the goal is to select the threshold where it makes sense to switch from “retention” to “reactivation” efforts.
+**There is no \"one right answer\" to this.** However, we recommend finding the point where the line crosses the value that is half of the initial repeat probability rate. This is the point where we can say "If a user was going to make a repeat order, they probably would have done it by now." Ultimately, the goal is to select the threshold where it makes sense to switch from "retention" to "reactivation" efforts.
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](https://support.magento.com/hc/en-us/articles/360016503692).
+If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).

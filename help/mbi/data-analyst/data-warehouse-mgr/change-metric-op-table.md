@@ -14,6 +14,6 @@ In certain cases, you may decide to change the data table that a metric uses to 
 1. Next, you\'ll have to match existing data dimensions to corresponding ones in the new table. For example, if you had a column called \"User\'s registration date\", simply select which column in the new table records the same date data. **(See next step if you do not have matching columns in the new table)**
 
     ![2013-08-01\_1414.png](../assets/2013-08-01_1414.png)
-1. If you do not have a matching column in the new table, you can either **create it in your data table** ([contact support](../getting-started/support.md) if it\'s a calculation column or dimension made by Magento BI), or simply **delete the dimension from the metric**. To delete a dimension that you no longer need, simply go back to the metric\'s editor and select which dimensions to delete under \"Dimensions\".
+1. If you do not have a matching column in the new table, you can either **create it in your data table** ([contact support](../getting-started/support.md) if it\'s a calculation column or dimension made by MBI), or simply **delete the dimension from the metric**. To delete a dimension that you no longer need, simply go back to the metric\'s editor and select which dimensions to delete under \"Dimensions\".
 
     ![2013-08-01\_1419.png](../assets/2013-08-01_1419.png)

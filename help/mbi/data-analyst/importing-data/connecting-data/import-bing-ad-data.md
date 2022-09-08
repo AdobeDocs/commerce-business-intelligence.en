@@ -3,7 +3,7 @@ title: Importing Bing Ad Spend data
 zendesk_id: 360016732451
 ---
 
-To import Bing advertising spend data into Magento BI for analysis, simply export the data from Bing Ads Editor in a CSV format and upload it to Magento BI as per the steps below:
+To import Bing advertising spend data into MBI for analysis, simply export the data from Bing Ads Editor in a CSV format and upload it to MBI as per the steps below:
 
 # Bing Ads Editor
 

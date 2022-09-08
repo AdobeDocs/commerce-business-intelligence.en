@@ -3,17 +3,18 @@ title: Marketing ROI
 zendesk_id: 360016506552
 ---
 
-**Note: This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../administrator/account-management/new-architecture.md) if you have the \"Data Warehouse Views\" section available after selecting \"Manage Data\" from the main toolbar.**
+{: .bs-callout-info}
+This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the \"Data Warehouse Views\" section available after selecting \"Manage Data\" from the main toolbar.
 
-If you\'re spending money on online advertising, you will inevitably want to track your return on this spend and make data-driven decisions on further investments. In this article, we demonstrate how to set up a dashboard that will track your channel analysis – including ROI in aggregate and by campaign.
+If you are spending money on online advertising, you will inevitably want to track your return on this spend and make data-driven decisions on further investments. In this article, we demonstrate how to set up a dashboard that will track your channel analysis – including ROI in aggregate and by campaign.
 
-![](../assets/Marketing_dashboard_example.png)
+![](../../assets/Marketing_dashboard_example.png)
 
-Before getting started, you\'ll want to connect your [Facebook Ads](../data-analyst/importing-data/integrations/facebook-ads.md), [Adwords](../data-analyst/importing-data/integrations/google-adwords.md), and [Google Ecommerce](../data-analyst/importing-data/integrations/google-ecommerce.md) accounts as well as bring in any additional online ad spend data. This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
+Before getting started, you want to connect your [Facebook Ads](../importing-data/integrations/facebook-ads.md), [Adwords](../importing-data/integrations/google-adwords.md), and [Google Ecommerce](../importing-data/integrations/google-ecommerce.md) accounts as well as bring in any additional online ad spend data. This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 #### Consolidated Tables
 
-**Original architecture:** In order to bring together your spend from various sources (like Facebook Ads or Google Adwords), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you haven't already, [file a support request](../getting-started/support.md) with the subject **[MARKETING ROI ANALYSIS]**, and an analyst will create this table.
+**Original architecture:** In order to bring together your spend from various sources (like Facebook Ads or Google Adwords), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you haven't already, [file a support request](../../getting-started/support.md) with the subject **[MARKETING ROI ANALYSIS]**, and an analyst will create this table.
 
 **New architecture:** You can follow the example set forth in [this Analysis Library](../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
 
@@ -286,5 +287,5 @@ If you run into any questions while building this analysis, or simply want to en
 
 ### Related Reading
 
-* [Best-Practices for UTM tagging in Google Analytics](../best-practices/utm-tagging-google.md)
-* [How does Google Analytics UTM attribution work?](../data-analyst/analysis/utm-attributes.md)
+* [Best-Practices for UTM tagging in Google Analytics](../../best-practices/utm-tagging-google.md)
+* [How does Google Analytics UTM attribution work?](../analysis/utm-attributes.md)

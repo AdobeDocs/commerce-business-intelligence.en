@@ -3,7 +3,7 @@ title: Setting a Default Dashboard
 zendesk_id: 360016505952
 ---
 
-The default dashboard is the first dashboard you see upon opening Magento BI.
+The default dashboard is the first dashboard you see upon opening MBI.
 
 1. While in the dashboard, click the **Dashboard Options** menu located at the top of the screen, located next to the **Global Search** menu.
 

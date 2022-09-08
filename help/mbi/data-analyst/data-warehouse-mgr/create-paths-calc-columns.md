@@ -61,7 +61,7 @@ Now we’ll walk you through actually creating the path.
 
 ## Limitations of Creating Paths {#limits}
 
-* **Magento BI cannot guess primary/foreign key relationships**. We wouldn’t want to introduce incorrect data into your account, so creating paths must be done manually.
+* **MBI cannot guess primary/foreign key relationships**. We wouldn’t want to introduce incorrect data into your account, so creating paths must be done manually.
 * **Currently, paths can only be specified between two different tables**. Does the logic you're trying to recreate involve more than two tables? It then might make sense to (1) join the columns to an intermediary table first, then to the "final destination" table, or (2) consult with our team to find the best approach to your goals.
 * **A column can only be the foreign key reference for ONE path at one time**. For example, if **order_items.order_id** points to **orders.id**, then order_items.order_id can't point to anything else.
 * **Many-to-many paths can technically be created, but will very often produce bad data because neither side is a true one-to-many foreign key**. The best way to approach these paths always depend on the specific desired analysis. Consult the RJ analyst team to uncovering the best solution.
@@ -70,4 +70,4 @@ If you are prevented from creating a calculated column due to one or more of the
 
 ## Wrapping up {#wrapup}
 
-By the end of this article you should now feel comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always use the Support button in your Magento BI account to get assistance.
+By the end of this article you should now feel comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always use the Support button in your MBI account to get assistance.

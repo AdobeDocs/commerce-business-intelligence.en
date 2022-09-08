@@ -8,15 +8,15 @@ zendesk_id: 360016733071
 
 ![](../assets/Mixpanel_logo.png)
 
-With Mixpanel, you can analyze how users navigate and utilize your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting Mixpanel to Magento BI lets you analyze how your users behave and how that behavior translates into revenue.
+With Mixpanel, you can analyze how users navigate and utilize your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting Mixpanel to MBI lets you analyze how your users behave and how that behavior translates into revenue.
 
-Connecting your Mixpanel data to Magento BI a simple three-step process:
+Connecting your Mixpanel data to MBI a simple three-step process:
 
-1. [Open the Mixpanel credentials page in Magento BI](../#stepone)
+1. [Open the Mixpanel credentials page in MBI](../#stepone)
 1. [Retrieve your Mixpanel API credentials](../#steptwo)
-1. [Enter your Mixpanel API credentials in Magento BI](../#stepthree)
+1. [Enter your Mixpanel API credentials in MBI](../#stepthree)
 
-To complete this process, you will need to open two browser windows or tabs - one for Magento BI, the other for your Mixpanel account.
+To complete this process, you will need to open two browser windows or tabs - one for MBI, the other for your Mixpanel account.
 
 ## Opening the Mixpanel credentials page {#stepone}
 
@@ -40,9 +40,9 @@ If you have not logged into your Mixpanel account yet, do so and then do the fol
 
 Keep this open - we need it to wrap this up.
 
-## Entering your Mixpanel API credentials in Magento BI {#stepthree}
+## Entering your Mixpanel API credentials in MBI {#stepthree}
 
-1. Copy the API Key and Secret into the Mixpanel credentials page in Magento BI.
+1. Copy the API Key and Secret into the Mixpanel credentials page in MBI.
 1. Click Connect to Mixpanel to complete the setup.
 
 That's it! If the connection is successful, a _Success!_ message will display at the top of the page.

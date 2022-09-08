@@ -3,13 +3,13 @@ title: Expected Lifetime Value (LTV) Analysis for Pro
 zendesk_id: 360016505552
 ---
 
-In this article, we demonstrate how to set up a dashboard that will help you understand customer lifetime value growth and expected lifetime value of your customers.
+In this article, we demonstrate how to set up a dashboard that will help you understand customer lifetime value growth and expected lifetime value of your customers. 
 
-![](../assets/upload_12_16_2016_at_3_03_34_PM.png)
+![](../../assets/upload_12_16_2016_at_3_03_34_PM.png)
 
 This analysis is only available to Pro account customers on the new architecture. If your account has access to the Persistent Views feature under the Manage Data side bar, you are on the new architecture and can follow the instructions listed here to build this analysis yourself.
 
-Before getting started, you will want to familiarize yourself with our [cohort report builder.](../data-analyst/dev-reports/cohort-rpt-bldr.md)
+Before getting started, you will want to familiarize yourself with our [cohort report builder.](../dev-reports/cohort-rpt-bldr.md)
 
 ## Calculated Columns
 
@@ -18,7 +18,7 @@ Columns to create on the **orders** table if using **30-day months**:
 * **Column name:** Months between first order and this order
 * **Column type:** Same Table
 * **Column equation:** CALCULATION
-* **Column input:** A = `Seconds between customer’s first order date and this order`
+* **Column input:** A = `Seconds between customer's first order date and this order`
 * **Datatype:** Integer
 * <strong>Definition: </strong>`case when A is null then null when A <= 0 then '1'::int else (ceil(A)/2629800)::int end`
 {: style="list-style-type: square;"}
@@ -151,4 +151,4 @@ Other chart details
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page.
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](https://support.magento.com/hc/en-us/articles/360016503692).
+If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).

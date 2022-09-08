@@ -3,7 +3,7 @@ title: Sharing dashboards organization-wide
 zendesk_id: 360016731591
 ---
 
-It's easy to ensure that every user has access to essential business dashboards in Magento BI. Universal dashboard sharing facilitates increased collaboration and transparency throughout your organization by providing a single "source of truth".
+It's easy to ensure that every user has access to essential business dashboards in MBI. Universal dashboard sharing facilitates increased collaboration and transparency throughout your organization by providing a single "source of truth".
 
 1. To show off your insights to your coworkers, click the **Share this Dashboard** button at the top of the screen.
 

@@ -20,6 +20,6 @@ sections:
 
 ---
 
-Follow these self-guided tutorials to learn the power of Magento BI.
+Follow these self-guided tutorials to learn the power of MBI.
 
 {% include grid.html sections=page.sections %}

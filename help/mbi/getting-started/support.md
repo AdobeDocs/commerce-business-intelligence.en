@@ -1,5 +1,5 @@
 ---
-title: Getting Help with Magento BI
+title: Getting Help with MBI
 ---
 
 This topic describes how to access our support team if you have questions or want to take advantage of some of our professional services or you encounter problems with our account and want to learn what resources are available to help you troubleshoot the issue.

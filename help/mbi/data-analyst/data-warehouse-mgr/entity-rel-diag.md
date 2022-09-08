@@ -24,7 +24,7 @@ One customer can place many orders. The relationship between these two tables is
 {: .bs-callout-warning}
 **customer\_entity.entity\_id** does not equal **sales\_flat\_order.entity\_id**. The first can be thought of as a "customer\_id" and the second can be thought of as an "order\_id." You can read more about this in the [entity\_id section](https://support.magento.com/hc/en-us/articles/360016729951) of our "Magento: Common Misconceptions" article.
 
-Within Magento BI, if the path between these two tables does not already exist, you can [create the path](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
+Within MBI, if the path between these two tables does not already exist, you can [create the path](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 
 ![](../assets/SFO___CE_path.png)
 
@@ -34,7 +34,7 @@ Within Magento BI, if the path between these two tables does not already exist, 
 
 One order can contain many items. The relationship between these two tables is **sales\_flat\_order.entity\_id = sales\_flat\_order\_item.order\_id**
 
-Within Magento BI, if the path between these two tables does not already exist, you can [create the path](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
+Within MBI, if the path between these two tables does not already exist, you can [create the path](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 
 ![](../assets/SFOI___SFO_path.png)
 
@@ -44,6 +44,6 @@ Within Magento BI, if the path between these two tables does not already exist, 
 
 One product can be purchased many items. The relationship between these two tables is **catalog\_product\_entity.entity\_id = sales\_flat\_order\_item.product**
 
-Within Magento BI, if the path between these two tables does not already exist, you can [create the path](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
+Within MBI, if the path between these two tables does not already exist, you can [create the path](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 
 ![](../assets/SFOI___CPE_path.png)

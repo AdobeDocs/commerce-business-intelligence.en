@@ -10,13 +10,13 @@ zendesk_id: 360016732531
 
 You did your research, you created your ads, you launched your campaign. Now it\'s time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
-Let\'s get started by entering our Google Adwords credentials into Magento BI:
+Let\'s get started by entering our Google Adwords credentials into MBI:
 
 1. Go to the Connections page under **Manage Data > Integrations**.
 1. Click the **Add Integration** button, located on the upper-right side of the screen.
 1. Click the **Google Adwords** icon. This will open the Google Adwords credentials page.
-1. Enter your Google Analytics (GA) credentials. Upon completion of the authorization process, you will be redirected back to Magento BI.
-1. A list of profile IDs will display. Check the profiles you want to connect to Magento BI.
+1. Enter your Google Analytics (GA) credentials. Upon completion of the authorization process, you will be redirected back to MBI.
+1. A list of profile IDs will display. Check the profiles you want to connect to MBI.
 
      ![](../assets/cnnct-profile.png){: width="400"}
 
@@ -24,9 +24,9 @@ Let\'s get started by entering our Google Adwords credentials into Magento BI:
 
 If you have multiple profiles and need some help identifying which is which, refer to the **Connecting Multiple GA profiles** section below.
 
-## Connecting multiple GA profiles to Magento BI
+## Connecting multiple GA profiles to MBI
 
-You may have multiple websites connected to a single GA account, identified by their own GA Profile ID. In this case, you will have the option of including all your Profile IDs in Magento BI. Just check the profile IDs you\'d like to include during the profile selection step.
+You may have multiple websites connected to a single GA account, identified by their own GA Profile ID. In this case, you will have the option of including all your Profile IDs in MBI. Just check the profile IDs you\'d like to include during the profile selection step.
 
 **To identify a particular website\'s Google Analytics Profile ID:**
 
@@ -36,11 +36,11 @@ You may have multiple websites connected to a single GA account, identified by t
 
      *www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX***
 
-## Disconnecting Adwords from Magento BI
+## Disconnecting Adwords from MBI
 
 1. Visit your Google [account settings](https://www.google.com/accounts/) page.
 1. Under the Security section, and click the \'edit\' link next to Authorizing applications and sites.
-1. Click the \'revoke access\' link next to Magento BI.
+1. Click the \'revoke access\' link next to MBI.
 
 ## Related
 

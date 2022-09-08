@@ -6,7 +6,7 @@ redirect_from:
   - /data-analyst/analysis/category-analysis.html
 sections:
 - title: Data Warehouse Manager
-  content: Become familiar with your Magento BI Data Warehouse
+  content: Become familiar with your MBI Data Warehouse
   url: /data-analyst/data-warehouse-mgr/tour-dwm.html
 - title: SQL Report Builder
   content: Become familiar with how to directly run queries against the PostgreSQL data warehouse that powers your dashboards

@@ -23,6 +23,6 @@ After data export is enabled, only administrators in a specific email domain can
 
    This download link is valid for at least three days.
 
-This process builds an XML file containing all information stored in your current Zendesk account, including ticket data (with comments), user data, and account data. At this point, you can [submit a support ticket](../getting-started/support.md) (be sure to attach this file!) so we can take a closer look at your data. If the file is too large, share it with the Magento BI team via Dropbox or Google Drive.
+This process builds an XML file containing all information stored in your current Zendesk account, including ticket data (with comments), user data, and account data. At this point, you can [submit a support ticket](../getting-started/support.md) (be sure to attach this file!) so we can take a closer look at your data. If the file is too large, share it with the MBI team via Dropbox or Google Drive.
 
 For more information about Zendesk file exports, refer to the official [Zendesk export documentation](https://support.zendesk.com/entries/23002207-Exporting-data-to-a-CSV-or-XML-file-Plus-and-Enterprise-).

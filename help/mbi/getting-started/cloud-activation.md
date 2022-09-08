@@ -1,5 +1,5 @@
 ---
-title: Activating your Magento BI Account for Cloud Starter Subscriptions
+title: Activating your MBI Account for Cloud Starter Subscriptions
 zendesk_id: 360016504752
 
 ---

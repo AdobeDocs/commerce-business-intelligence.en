@@ -5,17 +5,17 @@ zendesk_id: 360016503332
 
 In this article, we demonstrate how to set up a dashboard that will help you measure how total revenue is distributed among your customer base. Understand what percent of customers contribute what percent of revenue and create segmented lists to best market to and retain your high contributing customers.
 
-This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
+This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 #### Getting Started
 
 You will need to first upload a file containing just a primary key with the value of one. This will allow the creation of some necessary calculated columns for the analysis.
 
-You can leverage [the file uploader](../data-analyst/importing-data/connecting-data/using-file-uploader.md) as well as the image below to format your file.
+You can leverage [the file uploader](../importing-data/connecting-data/using-file-uploader.md) as well as the image below to format your file.
 
 #### Calculated Columns
 
-If you are on the original architecture (i.e. if you do not have the “Data Warehouse Views” option under the “Manage Data” menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the “Manage Data -&gt; Data Warehouse” page. Detailed instructions are given below.
+If you are on the original architecture (i.e. if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data -&gt; Data Warehouse" page. Detailed instructions are given below.
 
 A further distinction is made if your business allows guest orders. If so, you can ignore all steps for the `customer_entity` table. If guest orders are not allowed, ignore all steps for the `sales_flat_order` table.
 
@@ -23,48 +23,48 @@ Columns to create
 
 * <strong>Sales_flat_order/customer_entity </strong>table
 * (input) reference
-* Column type – “Same table -&gt; Calculation”
+* Column type – "Same table -&gt; Calculation"
 * Inputs – **entity_id**
 * Calculation - `**case when A is null then null else 1 end**`
 * Datatype – Integer
 
 * **Customer concentration** table (this is the file you just uploaded with the number "1")
 * Number of customers
-* Column type – “Many to One -&gt; Count Distinct”
+* Column type – "Many to One -&gt; Count Distinct"
 * Path – **sales_flat_order.(input) reference -&gt; Customer Concentration.Primary Key** OR <strong> customer_entity.(input)reference -&gt; Customer Concentration.Primary Key</strong>
 * Selected column – **sales_flat_order.customer_email** OR **customer_entity.entity_id**
 
 * **customer_entity** table
 * Number of customers
-* Column type – “One to Many -&gt; JOINED_COLUMN”
+* Column type – "One to Many -&gt; JOINED_COLUMN"
 * Path<strong> – customer_entity.(input) reference -&gt; Customer Concentration.Primary Key</strong>
 * Selected column<strong> – Number of customers</strong>
 
 * (input) Ranking by customer lifetime revenue
-* Column type<strong> – </strong>“Same table -&gt; Event Number”
+* Column type<strong> – </strong>"Same table -&gt; Event Number"
 * Event owner<strong> – Number of customers</strong>
-* Event rank<strong> – Customer’s lifetime revenue</strong>
+* Event rank<strong> – Customer's lifetime revenue</strong>
 
-* Customer’s revenue percentile
-* Column type – “Same table -&gt; Calculation”
+* Customer's revenue percentile
+* Column type – "Same table -&gt; Calculation"
 * Inputs – **(input) Ranking by customer lifetime revenue**, **Number of customers**
 * Calculation – **case when A is null then null else (A/B)*100 end**
 * Datatype – Decimal
 
 * Sales_flat_order table
 * Number of customers
-* Column type – “One to Many -&gt; JOINED_COLUMN”
+* Column type – "One to Many -&gt; JOINED_COLUMN"
 * Path – **sales_flat_order.(input) reference -&gt; Customer Concentration.Primary Key**
 * Selected column – **Number of customers**
 
 * (input) Ranking by customer lifetime revenue
-* Column type – “Same table -&gt; Event Number”
+* Column type – "Same table -&gt; Event Number"
 * Event owner – **Number of customers**
-* Event Rank – **Customer’s lifetime revenue**
-* Filter – **Customer’s order number = 1**
+* Event Rank – **Customer's lifetime revenue**
+* Filter – **Customer's order number = 1**
 
-* Customer’s revenue percentile
-* Column type – “Same tabke -&gt; Calculation”
+* Customer's revenue percentile
+* Column type – "Same tabke -&gt; Calculation"
 * Inputs – **(input) Ranking by customer lifetime revenue**, **Number of customers**
 * Calculation – **case when A is null then null else (A/B)*100 end**
 * Datatype - Decimal
@@ -141,4 +141,4 @@ NOTE: the percentiles used are even splits of customers, representing the Xth pe
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the above sample dashboard.
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](https://support.magento.com/hc/en-us/articles/360016503692).
+If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).
