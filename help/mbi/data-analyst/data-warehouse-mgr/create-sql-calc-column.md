@@ -3,7 +3,7 @@ title: Creating and Using a SQL Calculated Column
 zendesk_id: 360016729631
 ---
 
-This topic outlines the purpose and uses of the **Calculation** column type that can be added to tables using the [Data Warehouse Manager]({% link data-analyst/data-warehouse-mgr/tour-dwm.md %}). Below is an explanation of what SQL calculations do, why they are used, the process for creating a SQL calculation, and two examples.
+This topic outlines the purpose and uses of the **Calculation** column type that can be added to tables using the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md). Below is an explanation of what SQL calculations do, why they are used, the process for creating a SQL calculation, and two examples.
 
 **Explanation**
 
@@ -17,7 +17,7 @@ The different columns that can be created with the Calculation column are almost
 
 Most accounts have a column called **Is customer\'s last order?** on their Orders table in order to perform analyses on repeat purchase rates and churned customers. If your account is on the new architecture, this column is built using a Calculation column and can be seen in the screenshot below:
 
-![Is\_customer\_s\_last\_order.png]({% link images/Is_customer_s_last_order.png %})
+![Is\_customer\_s\_last\_order.png](../assets/Is_customer_s_last_order.png)
 
 The **Is customer\'s last order?** column uses the inputs **Customer\'s lifetime number of orders** and **Customer\'s order number** aliased as A and B respectively.
 
@@ -37,7 +37,7 @@ Many of our clients like to analyze revenue at the item level, slicing it by fie
 
 To enable product revenue analyses, most accounts have a column called **Order item total value (quantity \* price)** on their Orders Items table. If your account is on the new architecture, this column is also built using a Calculation column and can be seen in the screenshot below:
 
-![Order\_item\_total\_value.png]({% link images/Order_item_total_value.png %})
+![Order\_item\_total\_value.png](../assets/Order_item_total_value.png)
 
 In the Magento schema, the **Order item total value (quantity \* price)** column uses the inputs **qty\_ordered** and **base\_price** aliased as A and B respectively.
 
@@ -47,7 +47,7 @@ The values that will be returned by this new column will be a dollars and cents,
 
 A new Calculation column can be added to a table by navigating to **Manage Data** > **Data Warehouse** as shown below:
 
-![]({% link images/blobid2.png %})
+![](../assets/blobid2.png)
 
 From here you can create a new Calculation column by following the steps below:
 

@@ -3,7 +3,7 @@ title: Formatting and importing eCommerce data
 zendesk_id: 360016505752
 ---
 
-If you're using an integration not currently supported by Magento BI, you can still use the [File Upload feature]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}) to get your data into your data warehouse. In this article, we'll go over the ideal data formats to be used for uploading eCommerce data.
+If you're using an integration not currently supported by Magento BI, you can still use the [File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md) to get your data into your data warehouse. In this article, we'll go over the ideal data formats to be used for uploading eCommerce data.
 
 ## Orders table
 
@@ -15,7 +15,7 @@ The **orders** table should contain one row for every transaction the business h
 | Customer | The customer who placed the order. |
 | Order total | The total of the order. This may be a calculation-based column, where values in other columns - such as subtotal and shipping - make up the total for this column. |
 | Currency | The currency the order was paid in. Include if relevant. |
-| Order status | The status of the order, such as In Progress, Refunded, or Complete. The value of this column will likely change (if not complete). New and updated data can be imported using the [Append Data feature]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}#appending) on the File Uploads page. |
+| Order status | The status of the order, such as In Progress, Refunded, or Complete. The value of this column will likely change (if not complete). New and updated data can be imported using the [Append Data feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md %}#appending) on the File Uploads page. |
 | Acquisition/marketing channel | The acquisition or marketing channel that the customer who placed the order was referred from. |
 | Order datetime | The date and time the order was created. |
 | Order updated at | The date and time the last modification to the order record was made. |

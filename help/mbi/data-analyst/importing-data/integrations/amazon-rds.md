@@ -3,15 +3,15 @@ title: Connecting Amazon RDS
 zendesk_id: 360016730931
 ---
 
-Amazon Relational Database Services (RDS) is a managed database service that runs on database engines that you\'re probably already familiar with - [MySQL]({% link data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md %}), [Microsoft SQL]({% link data-analyst/importing-data/integrations/microsoft-sql-server.md %}), and [PostgreSQL]({% link data-analyst/importing-data/integrations/postgresql.md %}).
+Amazon Relational Database Services (RDS) is a managed database service that runs on database engines that you\'re probably already familiar with - [MySQL](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md), [Microsoft SQL](../data-analyst/importing-data/integrations/microsoft-sql-server.md), and [PostgreSQL](../data-analyst/importing-data/integrations/postgresql.md).
 
-The steps for connecting your RDS instance vary slightly depending on the type of database you\'re using (use the links above for detailed instructions for each database), and whether or not you\'re using an encrypted connection ([like an SSH tunnel for MySQL]({% link data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md %})), but here\'s the gist of it:
+The steps for connecting your RDS instance vary slightly depending on the type of database you\'re using (use the links above for detailed instructions for each database), and whether or not you\'re using an encrypted connection ([like an SSH tunnel for MySQL](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md)), but here\'s the gist of it:
 
 ## Authorize Magento BI to access your database
 
 On the credentials page (**Manage Data &gt; Integrations**) for each database, you\'ll see a box containing the IP addresses you\'ll need to authorize to connect RDS to Magento BI: **54.88.76.97** and **34.250.211.151**. Here\'s a look at the MySQL credentials page, where we highlighted the IP address box:
 
-![]({% link images/RDS_IP.png %})
+![](../assets/RDS_IP.png)
 
 For Magento BI to successfully connect with your RDS instance, you\'ll need to add these IP addresses to the appropriate database security group via the AWS management console. These IP addresses can be added to an existing group or you can create a new one - the important thing is that the group is authorized to access the instance you want to connect to Magento BI.
 
@@ -39,6 +39,6 @@ To finish creating the connection, we\'ll need the following info:
 
 Additionally, **if you\'re using an encrypted connection**, toggle the Encrypted button on the database credentials page to Yes. This will display an additional form for setting up the encryption:
 
-![]({% link images/5.1.png %})
+![](../assets/5.1.png)
 
 That\'s all there is to it! Connecting your RDS instance is complete.

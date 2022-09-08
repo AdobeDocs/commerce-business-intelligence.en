@@ -35,6 +35,6 @@ As with all other tables in your data warehouse, you can add additional columns 
 
 ## Creating, Viewing, or Updating a Consolidated Table
 
-If you\'re interested in adding a consolidated table to your data warehouse, contact Magento BI [support]({% link getting-started/support.md %}).
+If you\'re interested in adding a consolidated table to your data warehouse, contact Magento BI [support](../getting-started/support.md).
 
 Likewise, because consolidated tables are not viewable in the Data Warehouse Manager, viewing and updating these tables can only be done by Magento BI support.

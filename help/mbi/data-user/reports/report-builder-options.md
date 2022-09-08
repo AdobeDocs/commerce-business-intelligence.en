@@ -4,7 +4,7 @@ zendesk_id: 360016503932
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
 We all like having options. But, when confronted with choices, some of us might balk and freeze at the idea of having to commit to a decision. Options are great, but they can also be overwhelming and confusing.
 
@@ -45,7 +45,7 @@ In some cases, the structure of your data might make the SQL Report Builder a mo
 
 Let’s say a single product is considered a part of multiple product categories, and you’d like to view the revenue associated with each category of each product. Trying to create this relationship using the DWM can be tedious and difficult, but writing a SQL query may be a bit more straightforward:
 
-![]({% link images/When_should_I_use_the_RB_2.png %})
+![](../assets/When_should_I_use_the_RB_2.png)
 
 ## When should I use the traditional Report Builder? {#whentraditionalrb}
 

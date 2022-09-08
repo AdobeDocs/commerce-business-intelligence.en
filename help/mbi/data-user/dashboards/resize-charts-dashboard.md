@@ -7,8 +7,8 @@ Scalar numbers. Bar graphs. Charts extending over long periods. Every chart disp
 
 **To resize a chart**, click and drag the bottom-right corner of any chart.
 
-![resize chart]({% link images/Resize_Chart_in_Dashboard.gif %})
+![resize chart](../assets/Resize_Chart_in_Dashboard.gif)
 
 **To move a chart**, hover over the top of the chart until the \'Move\' cursor displays. Click and hold, then drag the chart to the desired location. Release to place the chart.
 
-![move chart]({% link images/Move_Chart_in_Dashboard.gif %})
+![move chart](../assets/Move_Chart_in_Dashboard.gif)

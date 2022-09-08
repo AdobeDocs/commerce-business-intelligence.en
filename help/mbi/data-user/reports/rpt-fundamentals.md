@@ -54,7 +54,7 @@ That will then be used to create:
 
 Both of these fields need to be created at the user level (i.e. on the \`user\` table), so that the average analysis can be normalized by users (i.e. the denominator in this average calculation will be the count of users).
 
-This is where Magento BI steps in! You can leverage your Magento BI data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we\'ll create them. You can also leverage our [Column Editor]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %}).
+This is where Magento BI steps in! You can leverage your Magento BI data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we\'ll create them. You can also leverage our [Column Editor](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
 It is a best practice to avoid creating these calculated data fields in your database directly as it puts an unnecessary burden on your production servers.
 
@@ -68,7 +68,7 @@ Here we know that, mathematically, we want to perform the following calculation:
 * _[SUM of `Time between a customer’s registration date and first purchase date`] / [Total number of customers that registered and purchased]_
 {%endraw%}
 
-And we want to see this calculation plotted over time, or trending, according to a customer’s registration date. And here's how to [create this metric]({% link data-user/reports/ess-manage-data-metrics.md %}) in Magento BI:
+And we want to see this calculation plotted over time, or trending, according to a customer’s registration date. And here's how to [create this metric](../data-user/reports/ess-manage-data-metrics.md) in Magento BI:
 
 1. Go to **Data** and select the **Metrics** tab.
 1. Click **Add New Metric** and select the \`user\` table (where we created the dimensions above).
@@ -81,11 +81,11 @@ This metric is now ready.
 
 With the new metric set up, we can use it to report on the average time between registration and first purchase date by registration date.
 
-Simply go to any dashboard and [create a new report]({% link data-user/reports/ess-manage-data-metrics.md %}) using the metric created above.
+Simply go to any dashboard and [create a new report](../data-user/reports/ess-manage-data-metrics.md) using the metric created above.
 
 #### Visual Report Builder {#visualrb}
 
-[The Visual Report Builder]({% link data-user/reports/ess-rpt-build-visual.md %}) is the easiest way to visualize your data. If you’re not familiar with SQL or you just want to quickly create a report, the Visual Report Builder is your best bet. With just a few clicks, you can add metrics, segment your data, and create reports to across your organization. This option is perfect for beginners and experts alike, as it doesn’t require any technical expertise.
+[The Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md) is the easiest way to visualize your data. If you’re not familiar with SQL or you just want to quickly create a report, the Visual Report Builder is your best bet. With just a few clicks, you can add metrics, segment your data, and create reports to across your organization. This option is perfect for beginners and experts alike, as it doesn’t require any technical expertise.
 
 <table style="width: 649px;">
 <tbody>
@@ -124,7 +124,7 @@ When creating reports that will be shared with other members of your team, we re
 
 Let\'s take a look:
 
-![Chart\_Description.gif]({% link images/Chart_Description.gif %})
+![Chart\_Description.gif](../assets/Chart_Description.gif)
 
 #### Exporting reports as images
 
@@ -137,4 +137,4 @@ Need to include a report in a presentation or document? Any report can be saved 
 
 Let\'s take a look:
 
-![3.3.gif]({% link images/3.3.gif %})
+![3.3.gif](../assets/3.3.gif)

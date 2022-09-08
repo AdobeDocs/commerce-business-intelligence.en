@@ -9,9 +9,9 @@ In this article, we demonstrate how to set up a dashboard that will track the pe
 
 Before getting started, you\'ll want to identify two separate time periods where you have had different values for your store\'s free shipping threshold.
 
-![]({% link images/free_shipping_threshold.png %})
+![](../assets/free_shipping_threshold.png)
 
-This analysis contains [advanced calculated columns]({% link data-analyst/data-warehouse-mgr/adv-calc-columns.md %}).
+This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
 
 #### Calculated Columns
 
@@ -40,7 +40,7 @@ If you are on the original architecture (i.e. if you do not have the “Data War
 
 No new metrics!!!
 
-Note: Make sure to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 #### Reports
 

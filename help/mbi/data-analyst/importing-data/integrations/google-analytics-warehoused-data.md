@@ -4,7 +4,7 @@ zendesk_id: 360016729671
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
 **Some information was used with permission from our friends at [Stitch](https://www.stitchdata.com/docs/integrations/saas/google-analytics).**
 
@@ -45,4 +45,4 @@ With the GA Live integration on the other hand, every GA chart is like a little 
 
 ## Related:
 
-* [Connecting Google Analytics Warehoused]({% link data-analyst/importing-data/integrations/google-analytics-warehoused.md %})
+* [Connecting Google Analytics Warehoused](../data-analyst/importing-data/integrations/google-analytics-warehoused.md)

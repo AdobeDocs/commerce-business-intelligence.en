@@ -6,11 +6,11 @@ zendesk_id: 360016732571
 
 To connect your MongoDB database to Magento BI via an SSH tunnel, you (or your team, if you're not a techie) will need to do a few things:
 
-1. [Retrieve the Magento BI public key](#retrieve)
-1. [Allow access to the Magento BI IP address](#allowlist)
-1. [Create a Linux user for Magento BI](#linux)
-1. [Create a MongoDB user for Magento BI](#mongodb)
-1. [Enter the connection and user info into Magento BI](#finish)
+1. [Retrieve the Magento BI public key](../#retrieve)
+1. [Allow access to the Magento BI IP address](../#allowlist)
+1. [Create a Linux user for Magento BI](../#linux)
+1. [Create a MongoDB user for Magento BI](../#mongodb)
+1. [Enter the connection and user info into Magento BI](../#finish)
 
 Due to the technical nature of this setup, we suggest you loop in a developer to help out if you haven't done this before.
 
@@ -27,13 +27,13 @@ Leave this page open throughout the tutorial - you'll need it in the next sectio
 
 If you're a bit lost, here's how to navigate through Magento BI to retrieve the key:
 
-![Retrieving the RJMetrics public key]({% link images/MongoDB_Public_Key.gif %}){:.zoom}
+![Retrieving the RJMetrics public key](../assets/MongoDB_Public_Key.gif){:.zoom}
 
 ## Allow access to the Magento BI IP address {#allowlist}
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it's also on the MongoDB credentials page:
 
-![MBI_Allow_Access_IPs.png]({% link images/MBI_allow_access_IPs.png %})
+![MBI_Allow_Access_IPs.png](../assets/MBI_allow_access_IPs.png)
 
 ## Creating a Linux user for Magento BI {#linux}
 
@@ -66,7 +66,7 @@ To finish creating the user, alter the permissions on the /home/rjmetric directo
 
 ## Creating an Magento BI MongoDB user {#mongodb}
 
-MongoDB servers have two run modes - [one with the "auth" option](#auth) `(mongod -- auth)` and one without, [which is the default](#default). The steps for creating a MongoDB user will vary a bit depending on what mode your server is using, so be sure to verify the mode before continuing.
+MongoDB servers have two run modes - [one with the "auth" option](../#auth) `(mongod -- auth)` and one without, [which is the default](../#default). The steps for creating a MongoDB user will vary a bit depending on what mode your server is using, so be sure to verify the mode before continuing.
 
 #### If your server uses the Auth Option: {#auth}
 

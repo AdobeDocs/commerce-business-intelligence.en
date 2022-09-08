@@ -35,7 +35,7 @@ When this is complete, you will know what data you need to sync to the new archi
 
 ### Getting Help
 
-The Magento BI Services team can perform your re-implementation for an additional cost. Contact our [Customer Success team]({% link getting-started/support.md %}) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
+The Magento BI Services team can perform your re-implementation for an additional cost. Contact our [Customer Success team](../getting-started/support.md) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
 
 ### Staying with Existing Architecture
 

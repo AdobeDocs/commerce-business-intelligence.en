@@ -13,13 +13,13 @@ In the typical commerce database, there is an **orders** table that joins to a *
 
 * **If all customers are registered** and guest orders are not allowed, this means that every record in the **orders** table has a value in the **customer\_id** column. As a result, every order joins back to the **customers **table. You can see this in the below image.
 
-  ![Image 1]({% link images/Image_1.png %})
+  ![Image 1](../assets/Image_1.png)
 
 * **If guest orders are allowed**, this means that some orders do not have a value in the **customer\_id** column. Only registered customers are given a value for the **customer\_id** column on the **orders** table. Customers who are not registered will receive a NULL (or blank) value for this column. As a result, not all order records will have matching records in the **customers** table.
 
   To identify the unique individual that made the order, there needs to be another unique user attribute beside **customer\_id** attached to an order. Typically, customer\'s email address is used.
 
-  ![Image 2]({% link images/Image_2.png %})
+  ![Image 2](../assets/Image_2.png)
 
 ## How to account for guest orders in data warehouse setup
 
@@ -29,7 +29,7 @@ The most optimal way to account for guest orders is to base all customer-level m
 
 You may notice that the **Customers we count** filter set in this type of setup has a filter for “Customer’s order number = 1”. Let’s think about why this is.
 
-![Image 3]({% link images/Image_3.png %})
+![Image 3](../assets/Image_3.png)
 
 In a situation without guest orders, each customer exists as a unique row in the customer table (see Image 1). A metric such as “New customers” can simply count the id of this table based on **created\_at** date to understand New customers based on registration date.
 

@@ -14,7 +14,7 @@ Selecting all columns doesn’t make for a timely, easily executed query. Querie
 For this reason, Magento recommends you avoid using SELECT * wherever possible and only include the columns you need:
 
 | **Instead of this...** | **Try this!** |
-| ![]({% link images/Select_all_1.png %}) | ![]({% link images/Select_all_2.png %}) |
+| ![](../assets/Select_all_1.png) | ![](../assets/Select_all_2.png) |
 
 ## Using Full Outer Joins
 
@@ -25,7 +25,7 @@ Instead of using this type of join, consider using an inner or left join. Inner 
 Let’s take a look at how we can rewrite a FULL OUTER JOIN query:
 
 | **Instead of this...** | **Try this!** |
-| ![]({% link images/Full_Outer_Join_1.png %}) | ![]({% link images/Full_Outer_Join_2.png %}) |
+| ![](../assets/Full_Outer_Join_1.png) | ![](../assets/Full_Outer_Join_2.png) |
 
 As you can see, these queries are identical in every way except for the type of JOIN they use.
 
@@ -42,7 +42,7 @@ Use filters whenever possible. `WHERE` and `HAVING` clauses will filter your res
 If you’re using a filter when performing a join, be sure to apply it to both tables in the join. Even if it’s redundant, this will reduce the computational cost of the query and speed up the execution time.
 
 | **Instead of this...** | **Try this!** |
-| ![]({% link images/Join_filters_1.png %}) | ![]({% link images/Join_filters_2.png %}) |
+| ![](../assets/Join_filters_1.png) | ![](../assets/Join_filters_2.png) |
 
 ## Using Operators
 
@@ -59,7 +59,7 @@ When IN queries are run, the system must first process the subquery (the IN stat
 To put it simply: the system doesn’t have to process as much when using EXISTS.
 
 | **Instead of this...** | **Try this!** |
-| ![]({% link images/Exists_1.png %}) | ![]({% link images/Exists_2.png %}) |
+| ![](../assets/Exists_1.png) | ![](../assets/Exists_2.png) |
 
 ## Using ORDER BY
 
@@ -72,7 +72,7 @@ This isn’t to say that ORDER BY can’t be used - just that it should only be 
 While there may be a few situations where this approach doesn’t conform with what you’re trying to do, the general rule is that if you’re using a GROUP BY and ORDER BY, you should put the columns in both clauses in the same order. For example:
 
 | **Instead of this...** | **Try this!** |
-| ![]({% link images/Group_by_2.png %}) | ![]({% link images/Group_by_1.png %}) |
+| ![](../assets/Group_by_2.png) | ![](../assets/Group_by_1.png) |
 
 ## Wrapping Up
 

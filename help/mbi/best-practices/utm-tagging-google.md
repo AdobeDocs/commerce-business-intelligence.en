@@ -5,7 +5,7 @@ zendesk_id: 360016731311
 
 UTM tracking is a tagging convention for URLs that let you analyze where your users are coming from. If you look on the URLs you click from most marketing email or banner ads, you’ll see UTM tagging. It is those long links that end with things like `utm\_source` and `utm\_medium`.
 
-Google Analytics uses UTM tagging to know where your traffic is coming from. Some of this information comes from the [HTTP referer](https://en.wikipedia.org/wiki/HTTP_referer) but the rest of it you have to supply yourself with UTM parameters. When you see “google adwords” or “email marketing” it means those UTM parameters being recorded from the original link click and then stored in users\' cookies. From there, GA uses that data to [attribute interesting behaviors]({% link data-analyst/analysis/google-track-user-acq.md %}) on your site. Understanding what those parameters are for helps you understand how best to set up and use UTM tagging.
+Google Analytics uses UTM tagging to know where your traffic is coming from. Some of this information comes from the [HTTP referer](https://en.wikipedia.org/wiki/HTTP_referer) but the rest of it you have to supply yourself with UTM parameters. When you see “google adwords” or “email marketing” it means those UTM parameters being recorded from the original link click and then stored in users\' cookies. From there, GA uses that data to [attribute interesting behaviors](../data-analyst/analysis/google-track-user-acq.md) on your site. Understanding what those parameters are for helps you understand how best to set up and use UTM tagging.
 
 ## Best Practices for UTM Tagging
 
@@ -25,10 +25,10 @@ It is important to remember that the tag `utm\_source=adwords` is a different ta
 
 ### 4. Store the UTM parameter values in your database
 
-Each time a transaction or event happens, you’ll want to evaluate the performance of your marketing activities. You can do this by reading the values of the UTM parameter values from the [Google Analytics cookie into your database]({% link data-analyst/analysis/google-track-user-acq.md %}).
+Each time a transaction or event happens, you’ll want to evaluate the performance of your marketing activities. You can do this by reading the values of the UTM parameter values from the [Google Analytics cookie into your database](../data-analyst/analysis/google-track-user-acq.md).
 
 ### 5. Think about how you name campaigns
 
 In order to track how your marketing efforts are improving over time, you’ll need to be smart about your naming conventions. Keep it simple and minimize as much as possible. Complicated naming systems are harder to maintain.
 
-Once you are capturing this data in your database, you can evaluate the performance of your marketing and advertising by more sophisticated analysis including [Customer Lifetime Value]({% link data-analyst/analysis/ess-expected-ltv.md %}), [Repeat Purchase Rates]({% link data-analyst/analysis/repurchase-behavior.md %}), and [Average Order Value]({% link data-analyst/analysis/basic-analytics.md %}).
+Once you are capturing this data in your database, you can evaluate the performance of your marketing and advertising by more sophisticated analysis including [Customer Lifetime Value](../data-analyst/analysis/ess-expected-ltv.md), [Repeat Purchase Rates](../data-analyst/analysis/repurchase-behavior.md), and [Average Order Value](../data-analyst/analysis/basic-analytics.md).

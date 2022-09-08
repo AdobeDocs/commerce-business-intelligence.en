@@ -7,4 +7,4 @@ Changing teams? In the middle of spring cleaning your Magento BI account? To lea
 
 Example:
 
-![leave dashboard]({% link images/Leave_Dashboard.gif %})
+![leave dashboard](../assets/Leave_Dashboard.gif)

@@ -7,9 +7,9 @@ In this article, we demonstrate how to set up the structure to use a [4-5-4 reta
 
 Because many of our customers alter their calendar to use retail or accounting dates, the below steps will illustrate how to work with your data and create reports using retail dates. Though the below instructions will reference the 4-5-4 Retail calendar, you can alter them for any specific calendar your team uses, whether it be financial or just a custom time frame.
 
-Before getting started, you will want to familiarize yourself with [the File Uploader]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}) and ensure that you have elongated the csv file so that the dates cover all of your historical data as well as push the dates into the future.
+Before getting started, you will want to familiarize yourself with [the File Uploader](../data-analyst/importing-data/connecting-data/using-file-uploader.md) and ensure that you have elongated the csv file so that the dates cover all of your historical data as well as push the dates into the future.
 
-This analysis contains [advanced calculated columns]({% link data-analyst/data-warehouse-mgr/adv-calc-columns.md %}).
+This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
 
 ## Getting Started
 
@@ -101,7 +101,7 @@ You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CS
 
 ## Metrics
 
-Note: No new metrics are needed for this analysis. However, make sure to [add the new columns you built in the sales\_order table as dimensions]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) for all metrics on the sales\_order table before continuing to the reports.
+Note: No new metrics are needed for this analysis. However, make sure to [add the new columns you built in the sales\_order table as dimensions](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) for all metrics on the sales\_order table before continuing to the reports.
 
 ## Reports
 
@@ -166,4 +166,4 @@ The above describes how to configure a retail calendar to be compatible with any
 
 So for example, to view customer level metrics on a 4-5-4 retail calendar, create a new "Same Table" calculation in the customer\_entity table, similar to '\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)' described above. You can then use this column to reproduce all of the "One to Many" JOINED\_COLUMN calculations (like "Created_at (retail year)" and "Include in previous retail year? (Yes/No)") by joining the customer\_entity table to the Retail Calendar table.
 
-Don't forget to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Don't forget to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.

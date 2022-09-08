@@ -5,11 +5,11 @@ zendesk_id: 360016505552
 
 In this article, we demonstrate how to set up a dashboard that will help you understand customer lifetime value growth and expected lifetime value of your customers.
 
-![]({% link images/upload_12_16_2016_at_3_03_34_PM.png %})
+![](../assets/upload_12_16_2016_at_3_03_34_PM.png)
 
 This analysis is only available to Pro account customers on the new architecture. If your account has access to the Persistent Views feature under the Manage Data side bar, you are on the new architecture and can follow the instructions listed here to build this analysis yourself.
 
-Before getting started, you will want to familiarize yourself with our [cohort report builder.]({% link data-analyst/dev-reports/cohort-rpt-bldr.md %})
+Before getting started, you will want to familiarize yourself with our [cohort report builder.](../data-analyst/dev-reports/cohort-rpt-bldr.md)
 
 ## Calculated Columns
 
@@ -81,7 +81,7 @@ Metrics to create
 * Ordered by the <span class="wysiwyg-color-blue">**`Customer's first order date`**</span> timestamp
 {: style="list-style-type: circle;"}
 
-Note: Make sure to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 

@@ -4,17 +4,17 @@ zendesk_id: 360016733071
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
-![]({% link images/Mixpanel_logo.png %})
+![](../assets/Mixpanel_logo.png)
 
 With Mixpanel, you can analyze how users navigate and utilize your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting Mixpanel to Magento BI lets you analyze how your users behave and how that behavior translates into revenue.
 
 Connecting your Mixpanel data to Magento BI a simple three-step process:
 
-1. [Open the Mixpanel credentials page in Magento BI](#stepone)
-1. [Retrieve your Mixpanel API credentials](#steptwo)
-1. [Enter your Mixpanel API credentials in Magento BI](#stepthree)
+1. [Open the Mixpanel credentials page in Magento BI](../#stepone)
+1. [Retrieve your Mixpanel API credentials](../#steptwo)
+1. [Enter your Mixpanel API credentials in Magento BI](../#stepthree)
 
 To complete this process, you will need to open two browser windows or tabs - one for Magento BI, the other for your Mixpanel account.
 
@@ -36,7 +36,7 @@ If you have not logged into your Mixpanel account yet, do so and then do the fol
 1. In the displayed dialog, click **Projects**.
 1. Your API credentials will display:
 
-![Retrieving Mixpanel API credentials]({% link images/Mixpanel_API_creds.png %}){:.zoom}
+![Retrieving Mixpanel API credentials](../assets/Mixpanel_API_creds.png){:.zoom}
 
 Keep this open - we need it to wrap this up.
 
@@ -49,5 +49,5 @@ That's it! If the connection is successful, a _Success!_ message will display at
 
 # Related
 
-* [Expected Mixpanel data]({% link data-analyst/importing-data/integrations/mixpanel-data.md %})
+* [Expected Mixpanel data](../data-analyst/importing-data/integrations/mixpanel-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)

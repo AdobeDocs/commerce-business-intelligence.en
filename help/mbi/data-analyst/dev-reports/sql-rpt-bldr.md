@@ -4,7 +4,7 @@ zendesk_id: 360016504112
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
 See our [training video](https://support.magento.com/hc/en-us/articles/360016730131) to learn more.
 
@@ -14,23 +14,23 @@ In this article, we’ll walk you through the ins and outs of using the SQL Repo
 
 Here’s an overview of what we’ll cover in this article:
 
-1. [Writing a query](#writing)
+1. [Writing a query](../#writing)
 
-1. [Running the query and viewing results](#runquery)
+1. [Running the query and viewing results](../#runquery)
 
-1. [Creating a visualization](#createviz)
+1. [Creating a visualization](../#createviz)
 
-1. [Saving the report](#save)
+1. [Saving the report](../#save)
 
 To get started creating a new SQL report, click **Report Builder** or the **Add Report** button at the top of any dashboard. In the Report Picker screen, click **SQL Report Builder** to open the SQL editor.
 
-To edit a report, click the **gear** (![]({% link images/gear-icon.png %})) icon in the top right corner of a SQL-based chart and click **Edit**.
+To edit a report, click the **gear** (![](../assets/gear-icon.png)) icon in the top right corner of a SQL-based chart and click **Edit**.
 
 Let’s get started!
 
 ## Writing a query {#writing}
 
-Following the [guidelines for query optimization]({% link best-practices/optimizing-your-sql-queries.md %}){: target="_blank"}, write a query in the SQL editor.
+Following the [guidelines for query optimization](../best-practices/optimizing-your-sql-queries.md){: target="_blank"}, write a query in the SQL editor.
 
 **Important! Metrics in SQL reports**
 When you insert a metric into a SQL report, the **current definition** of the metric will be used.
@@ -41,17 +41,17 @@ Using the buttons at the top of the sidebar, you can toggle between lists of tab
 
 You can also use the sidebar in the SQL editor to insert metrics, tables, and columns directly into your queries by hovering over them and clicking the **Insert** button:
 
-![Inserting a table into the SQL editor.]({% link images/SQL_RB_Insert_Table.png %})
+![Inserting a table into the SQL editor.](../assets/SQL_RB_Insert_Table.png)
 
 ## Running the query and viewing results {#runquery}
 
 When you’re done writing your query, click the **Run Query** button. The results will display in a table below the SQL editor:
 
-![Running the query and viewing results.]({% link images/SQL_Run_Query.gif %})
+![Running the query and viewing results.](../assets/SQL_Run_Query.gif)
 
 If something looks amiss in the results, you can edit the query and re-run it until you’re satisfied.
 
-You might sometimes see [messages below the editor with EXPLAIN in them]({% link best-practices/optimizing-your-sql-queries.md %}){: target="_blank"}. If you see one of these, that means that your query hasn't run and needs a bit of fine-tuning.
+You might sometimes see [messages below the editor with EXPLAIN in them](../best-practices/optimizing-your-sql-queries.md){: target="_blank"}. If you see one of these, that means that your query hasn't run and needs a bit of fine-tuning.
 
 After you're done editing your query, you can move onto either creating a visualization or saving your work to a dashboard.
 
@@ -65,23 +65,23 @@ To create a visualization with your query results, click the **Chart** tab in th
 
 Here's a quick look at what the visualization process looks like:
 
-![]({% link images/SQL_RB_viz_overview.gif %})
+![](../assets/SQL_RB_viz_overview.gif)
 
-For a detailed walk through of how to create a visualization, refer to our [Creating visualizations from SQL queries tutorial]({% link tutorials/create-visuals-from-sql.md %}){: target="_blank"}.
+For a detailed walk through of how to create a visualization, refer to our [Creating visualizations from SQL queries tutorial](../tutorials/create-visuals-from-sql.md){: target="_blank"}.
 
 ## Saving the report {#save}
 
-Before you can save your work, you’ll have to give the report a name. Remember to follow the [best practice guidelines for naming]({% link best-practices/naming-elements.md %}){: target="_blank"} and choose something that clearly conveys what the report is!
+Before you can save your work, you’ll have to give the report a name. Remember to follow the [best practice guidelines for naming](../best-practices/naming-elements.md){: target="_blank"} and choose something that clearly conveys what the report is!
 
 Click the **Save** button at the top right corner of the SQL editor and select the report **Type** (Chart or Table). To wrap things up, select the dashboard to save the report to and click the **Save to Dashboard** button.
 
-![]({% link images/SQL_Save_Report.gif %})
+![](../assets/SQL_Save_Report.gif)
 
 ### Analyze Your Data
 
 #### SQL Report Builder
 
-[The SQL Report Builder]({% link data-analyst/dev-reports/sql-rpt-bldr.md %}) gives you the power to directly query your data warehouse, view the results, and quickly transform them into a report. Using SQL also allows you [to utilize SQL functions that aren’t available](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html) in the Visual or Cohort Report Builders, thus giving you greater control over your data.
+[The SQL Report Builder](../data-analyst/dev-reports/sql-rpt-bldr.md) gives you the power to directly query your data warehouse, view the results, and quickly transform them into a report. Using SQL also allows you [to utilize SQL functions that aren’t available](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html) in the Visual or Cohort Report Builders, thus giving you greater control over your data.
 
 We’d like to mention that calculated columns created using SQL aren’t dependent on update cycles, meaning you can iterate on them as you please and immediately see results.
 
@@ -96,12 +96,12 @@ Note that this only applies to the structure of the column, not the freshness of
 
 #### Cohort Report Builder {#cohortrb}
 
-Unlike the Visual Report Builder, [the Cohort Report Builder]({% link data-analyst/dev-reports/cohort-rpt-bldr.md %}) is meant for a single purpose - analyzing and identifying behavioral trends of similar user groups over time. Using the Cohort Report Builder doesn’t require any SQL savvy, so you can dive right in without hesitation if you’re just starting out.
+Unlike the Visual Report Builder, [the Cohort Report Builder](../data-analyst/dev-reports/cohort-rpt-bldr.md) is meant for a single purpose - analyzing and identifying behavioral trends of similar user groups over time. Using the Cohort Report Builder doesn’t require any SQL savvy, so you can dive right in without hesitation if you’re just starting out.
 
 |**This is perfect for...**|**This isn’t so great for...**|
 |Intermediate/advanced analysts|**Beginners** - you’ll need practice defining cohorts.|
-|Identifying behavioral trends over time|**Qualitative analysis** - it can be [done]({% link data-analyst/dev-reports/create-qual-cohort-analysis.md %}), but requires our assistance.|
+|Identifying behavioral trends over time|**Qualitative analysis** - it can be [done](../data-analyst/dev-reports/create-qual-cohort-analysis.md), but requires our assistance.|
 
 ## Wrapping up {#wrapup}
 
-If you want to try something a bit more challenging, why not try writing a query that’s optimized for visualization? Check out our [Creating visualizations from SQL queries tutorial]({% link tutorials/create-visuals-from-sql.md %}){: target="_blank"}to get started.
+If you want to try something a bit more challenging, why not try writing a query that’s optimized for visualization? Check out our [Creating visualizations from SQL queries tutorial](../tutorials/create-visuals-from-sql.md){: target="_blank"}to get started.

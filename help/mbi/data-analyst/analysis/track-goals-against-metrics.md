@@ -5,17 +5,17 @@ zendesk_id: 360016506172
 
 A large majority of our clients often would like to track their **business goals**, but don\'t realize this is possible in Magento BI. In this article, we demonstrate how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. We\'ll also show you how to compare year over year performance, all in a dashboard like this:
 
-![]({% link images/Goals-_dashboard_2.png %})
+![](../assets/Goals-_dashboard_2.png)
 
-Before getting started, you\'ll want to familiarize yourself with our [file uploader]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}) and make sure you\'ve defined your business goals for a given period of time.
+Before getting started, you\'ll want to familiarize yourself with our [file uploader](../data-analyst/importing-data/connecting-data/using-file-uploader.md) and make sure you\'ve defined your business goals for a given period of time.
 
 #### Getting Started
 
 You will need to first upload a file containing specific daily/monthly/quarterly targets for your business.
 
-You can use the [file uploader]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}) and the image below to format your file. The most common targets that our clients track in Magento BI include Orders, Revenue, and New registered accounts.
+You can use the [file uploader](../data-analyst/importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that our clients track in Magento BI include Orders, Revenue, and New registered accounts.
 
-![]({% link images/Goals-_Excel.png %})
+![](../assets/Goals-_Excel.png)
 
 #### Metrics
 

@@ -7,7 +7,7 @@ Forecasting the lifetime value of customers as they place more orders is one of 
 
 Here are the steps to create analyses to understand your current customers\' lifetime value, and forecast how lifetime value will increase with more orders:
 
-![expected\_ltv\_720.png]({% link images/expected_ltv_720.png %})
+![expected\_ltv\_720.png](../assets/expected_ltv_720.png)
 
 #### Building a Metric
 

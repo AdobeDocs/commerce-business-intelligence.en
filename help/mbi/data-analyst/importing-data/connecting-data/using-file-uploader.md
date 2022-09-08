@@ -58,7 +58,7 @@ Let’s use **US ZIP codes** as an example of how to change number formatting. I
 
 The Type can be [formatted differently to accommodate other data types](https://support.office.com/en-us/article/Keep-leading-zeros-in-number-codes-1bf7b935-36e1-4985-842f-5dfa51f85fe7?CorrelationId=e1d4c2d3-cd5d-4a14-999d-437800274a90&ui=en-US&rs=en-US&ad=US), such as IDs. If an ID is nine digits long, for example, the Type could be “000000000” or “000-000-000”. This would change “123456” to “000-123-456”.
 
-For Google Docs and Apple Numbers resources, refer to the [Related](#related) list at the bottom of this page.
+For Google Docs and Apple Numbers resources, refer to the [Related](../#related) list at the bottom of this page.
 
 ## Uploading data {#uploading}
 
@@ -86,11 +86,11 @@ Now that your spreadsheet is correctly formatted and Magento BI-friendly, let’
 
 If you need a visual, here's a look at the whole process:
 
-![]({% link images/fileupload.gif %}){: width="714"}
+![](../assets/fileupload.gif){: width="714"}
 
 Uploaded tables display under the **File Uploads** section of the table list (in both the All Tables and Synced Tables options) in the Data Warehouse Manager:
 
-![]({% link images/upload-tables.png %}){: width="717" height="433"}
+![](../assets/upload-tables.png){: width="717" height="433"}
 
 ## Updating or appending data to an existing table {#appending}
 
@@ -126,11 +126,11 @@ Additionally, file upload isn’t the only way to get your data into Magento BI.
 
 ## Related {#related}
 
-* [Formatting and importing financial data]({% link best-practices/format-import-financial-data.md %})
-* [Importing offline / other ad spend data]({% link data-analyst/importing-data/connecting-data/import-offline-ad-data.md %})
-* [Expected Google ECommerce data]({% link data-analyst/importing-data/integrations/google-ecommerce-data.md %})
+* [Formatting and importing financial data](../best-practices/format-import-financial-data.md)
+* [Importing offline / other ad spend data](../data-analyst/importing-data/connecting-data/import-offline-ad-data.md)
+* [Expected Google ECommerce data](../data-analyst/importing-data/integrations/google-ecommerce-data.md)
 
 ## Third Party Resources
 
-* [Numbers Data Formatting Guide](http://www.dummies.com/how-to/content/how-to-choose-a-number-format-in-your-numbers-spre.html)
+* [Numbers Data Formatting Guide](../http://www.dummies.com/how-to/content/how-to-choose-a-number-format-in-your-numbers-spre.html)
 * [Google Docs Data Formatting Guide](https://support.google.com/docs/answer/56470?hl=en)

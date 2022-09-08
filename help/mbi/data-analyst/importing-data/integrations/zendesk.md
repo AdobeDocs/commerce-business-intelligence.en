@@ -4,17 +4,17 @@ zendesk_id: 360016733251
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
-![]({% link images/Zendesk_logo.png %})
+![](../assets/Zendesk_logo.png)
 
 Connecting your Zendesk data allows you to consolidate your help desk reporting in Magento BI. This allows you to optimize customer support and monitor help desk performance alongside your revenue.
 
 Connecting your Zendesk data is a simple three-step process:
 
-1. [Open the Zendesk credentials page in Magento BI](#stepone)
-1. [Retrieve your Zendesk API Token](#steptwo)
-1. [Enter your Zendesk login info and Token in Magento BI](#stepthree)
+1. [Open the Zendesk credentials page in Magento BI](../#stepone)
+1. [Retrieve your Zendesk API Token](../#steptwo)
+1. [Enter your Zendesk login info and Token in Magento BI](../#stepthree)
 
 To complete this process, you will need to open two browser windows or tabs - one for Magento BI, the other for your Zendesk account.
 
@@ -42,5 +42,5 @@ To complete this process, you will need to open two browser windows or tabs - on
 
 ## Related:
 
-* [Expected Zendesk data]({% link data-analyst/importing-data/integrations/exp-zendesk-data.md %})
+* [Expected Zendesk data](../data-analyst/importing-data/integrations/exp-zendesk-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)

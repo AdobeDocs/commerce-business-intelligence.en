@@ -4,7 +4,7 @@ zendesk_id: 360016503212
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
 Google Analytics (GA) is the most widely-used web analytics service on the internet. Implementing GA on your website allows you to track how visitors use your site, what content is attractive, where visitors exit, and more. Google Analytics Warehoused is a separate integration from our existing GA integration. It will allow for better analysis due to having the Google Analytics data in your Data Warehouse, which is different than the live feed of the existing GA integration. Analyzing these metrics in Magento BI, alongisde other pieces of data, will improve your site\'s overall health and usability.
 
@@ -48,8 +48,8 @@ To identify a particular website\'s Google Analytics Profile ID:
 ## Related documentation
 
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
-* [Connecting Google Adwords]({% link data-analyst/importing-data/integrations/google-adwords.md %})
-* [Analyzing website activity and customer conversion rates]({% link data-analyst/analysis/web-act-cust-conversion.md %})
-* [Track user acquisition data using GA cookies]({% link data-analyst/analysis/google-track-user-acq.md %})
+* [Connecting Google Adwords](../data-analyst/importing-data/integrations/google-adwords.md)
+* [Analyzing website activity and customer conversion rates](../data-analyst/analysis/web-act-cust-conversion.md)
+* [Track user acquisition data using GA cookies](../data-analyst/analysis/google-track-user-acq.md)
 * [Track user device and browser data using GA cookies](https://support.magento.com/hc/en-us/articles/360016732911)
 

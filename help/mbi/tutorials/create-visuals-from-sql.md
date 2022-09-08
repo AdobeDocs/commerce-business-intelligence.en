@@ -5,7 +5,7 @@ zendesk_id: 360016504852
 
 The goal for this tutorial is to familiarize you with the terminology used in the SQL Report Builder and give you a solid foundation for creating SQL visualizations.
 
-The [SQL Report Builder]({% link data-analyst/dev-reports/using-sql-rpt-bldr.md %}) is a report builder with options: you can run a query for the sole purpose of retrieving a table of data, or you can turn those results into a report. This tutorial explains how to build a visualization from a SQL query.
+The [SQL Report Builder](../data-analyst/dev-reports/using-sql-rpt-bldr.md) is a report builder with options: you can run a query for the sole purpose of retrieving a table of data, or you can turn those results into a report. This tutorial explains how to build a visualization from a SQL query.
 
 ## Terminology
 
@@ -13,7 +13,7 @@ Before you begin this tutorial, refer to the following terminology used in the S
 
 - **Series** &#0151; The column that you want to measure is referred to as a Series in the SQL Report Builder. Common examples are **revenue, items sold**, and **marketing spend**. At least one column must be set as a **Series** to create a visualization.
 
-- **Category** &#0151; The column you want to use to segment your data is called a **Category**. This is just like the **Group By** feature in the [Visual Report Builder]({% link data-user/reports/ess-rpt-build-visual.md %}). For example, if you want to segment your customers’ lifetime revenue by their acquisition source, the column that contains acquisition source would be specified as the Category. More than one column can be set as a Category. Note that dates and timestamps can also be used as Categories. They are just another column of data in your query and must be formatted and ordered as desired in the query itself.
+- **Category** &#0151; The column you want to use to segment your data is called a **Category**. This is just like the **Group By** feature in the [Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md). For example, if you want to segment your customers’ lifetime revenue by their acquisition source, the column that contains acquisition source would be specified as the Category. More than one column can be set as a Category. Note that dates and timestamps can also be used as Categories. They are just another column of data in your query and must be formatted and ordered as desired in the query itself.
 
 - **Labels** &#0151; These are applied as x-axis labels. When analyzing data trending over time, the year and month columns are generally specified as labels. More than one column can be set to be Label.
 
@@ -44,7 +44,7 @@ As an example, let’s consider this query that returns the monthly total number
 
 This query returns this table of results:
 
-![]({% link images/SQL_results_table.png %})
+![](../assets/SQL_results_table.png)
 
 ## Step 2: Create the Visualization
 
@@ -52,7 +52,7 @@ With these results, how do you create the visualization? To get started, click t
 
 When a query is first executed, the report may look inscrutable because all columns in the query are plotted as a series:
 
-![]({% link images/SQL_initial_report_results.png %})
+![](../assets/SQL_initial_report_results.png)
 
 For this example, we want this to be a line chart that trends over time. To create it, use these settings:
 
@@ -66,13 +66,13 @@ Note that the query must contain an `ORDER BY` clause on the labels if they are 
 
 Here’s a quick look at how we created this visualization, from running the query to setting up the report:
 
-![]({% link images/SQL_report_settings.gif %})
+![](../assets/SQL_report_settings.gif)
 
 ## Step 3: Select a Chart Type
 
 This example uses the **Line Chart** type. To use a different chart type, click the icons above the chart options section to change it:
 
-![]({% link images/Chart_types.png %})
+![](../assets/Chart_types.png)
 
 ## Step 4: Save the Visualization
 
@@ -82,4 +82,4 @@ In the dropdown, select **Chart** as the **Type** and then a dashboard to save t
 
 ## Congratulations! You’ve finished.
 
-Want to take it a step further? Check out the [query optimization best practices]({% link best-practices/optimizing-your-sql-queries.md %}).
+Want to take it a step further? Check out the [query optimization best practices](../best-practices/optimizing-your-sql-queries.md).

@@ -3,9 +3,9 @@ title: Expected Facebook Ads data
 zendesk_id: 360016504532
 ---
 
-![]({% link images/Facebook_Logo.png %})
+![](../assets/Facebook_Logo.png)
 
-After [you’ve connected your Facebook Ads account]({% link data-analyst/importing-data/integrations/facebook-ads.md %}), you can use the [Data Warehouse Manager]({% link data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
+After [you’ve connected your Facebook Ads account](../data-analyst/importing-data/integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
 
 In this article, we\'ll give you a brief overview of the tables we recommend you sync to your data warehouse. Note that this isn\'t an exhaustive list, as there are quite a few subtables. We\'re only highlighting the core tables.
 
@@ -51,6 +51,6 @@ This table includes the same information as the `facebook_ads_insights_{account_
 
 ### Related
 
-* [Connecting Facebook Ads]({% link data-analyst/importing-data/integrations/facebook-ads.md %})
+* [Connecting Facebook Ads](../data-analyst/importing-data/integrations/facebook-ads.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)
 

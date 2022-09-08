@@ -3,7 +3,7 @@ title: Configuring replication methods
 zendesk_id: 360016506232
 ---
 
-Replication methods and [rechecks]({% link data-analyst/data-warehouse-mgr/cfg-data-rechecks.md %}) are used to identify new or updated data in your database tables. Setting them correctly is crucial to ensuring both data accuracy and optimized update times. In this article, we\'ll be focusing just on replication methods.
+Replication methods and [rechecks](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) are used to identify new or updated data in your database tables. Setting them correctly is crucial to ensuring both data accuracy and optimized update times. In this article, we\'ll be focusing just on replication methods.
 
 When new tables are synced in the Data Warehouse Manager, a replication method will automatically be chosen for the table. Understanding the various replication methods, how tables are organized, and how the table data behaves will allow you to choose the best replication method for your tables.
 
@@ -11,9 +11,9 @@ When new tables are synced in the Data Warehouse Manager, a replication method w
 
 Replication methods fall into three groups - Incremental, Full Table, and Paused.
 
-[**Incremental** **Replication**](#incremental) means that Magento BI will replicate only new or updated data on every replication attempt. As these methods will greatly reduce latency, we highly recommend using it where possible.
+[**Incremental** **Replication**](../#incremental) means that Magento BI will replicate only new or updated data on every replication attempt. As these methods will greatly reduce latency, we highly recommend using it where possible.
 
-[**Full Table Replication**](#fulltable) **means that Magento BI will replicate the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, we recommend using an Incremental method instead.
+[**Full Table Replication**](../#fulltable) **means that Magento BI will replicate the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, we recommend using an Incremental method instead.
 
 **Paused** indicates that replication for the table is stopped, or paused. Magento BI won\'t check for new or updated data during an update cycle; this means no data will be replicated from a table that has this as its Replication Method.
 
@@ -34,7 +34,7 @@ When the update runs, new or changed data is identified by searching for rows th
 For example, a table may have a column called **modified\_at** that indicates the last time data was changed. If the most recent update ran Tuesday at noon, the update will search for all rows having a modified\_at value greater than Tuesday at noon. Any discovered rows that were either created or modified since Tuesday at noon will be replicated to the Data Warehouse.
 
 **Did you know?**
- Even if your database can't currently support an Incremental Replication method, you may be able to [make some changes to your database]({% link best-practices/mod-db-inc-replication.md %}) that would enable use of Modified At or Single Auto Incrementing PK.
+ Even if your database can't currently support an Incremental Replication method, you may be able to [make some changes to your database](../best-practices/mod-db-inc-replication.md) that would enable use of Modified At or Single Auto Incrementing PK.
 
 Modified At is not only the most ideal replication method, it\'s also the fastest. This method not only produces noticeable speed increases with large data sets, it also doesn\'t require configuring a recheck option. Other methods will need to iterate through an entire table to identify changes, even if a small subset of data has changed. Modified At iterates through only that small subset.
 
@@ -102,7 +102,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
 
 Here\'s a look at the whole process:
 
-![]({% link images/replication_method.gif %}){: width="801" height="341"}
+![](../assets/replication_method.gif){: width="801" height="341"}
 
 ## Wrapping up
 
@@ -115,7 +115,7 @@ To finish up, we\'ve put together this table that compares the various replicati
 
 ## Related documentation
 
-* [Understanding data rechecks]({% link data-analyst/data-warehouse-mgr/cfg-data-rechecks.md %})
-* [Modifying your database to support Incremental Replication]({% link best-practices/mod-db-inc-replication.md %})
-* [Optimizing your database for analysis]({% link best-practices/opt-db-analysis.md %})
-* [Reducing Update Times]({% link best-practices/reduce-update-cycle-time.md %})
+* [Understanding data rechecks](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md)
+* [Modifying your database to support Incremental Replication](../best-practices/mod-db-inc-replication.md)
+* [Optimizing your database for analysis](../best-practices/opt-db-analysis.md)
+* [Reducing Update Times](../best-practices/reduce-update-cycle-time.md)

@@ -16,6 +16,6 @@ sections:
    url: /administrator.html
 ---
 
-Learn how to activate and sign in to your account. Discover what type of user you are and how best to use this guide to ensure success with Magento BI.
+Learn how to activate and sign in to your account. Discover what type of user you are and how best to use this guide to ensure success with Adobe Commerce MBI.
 
 {% include grid.html sections=page.sections %}

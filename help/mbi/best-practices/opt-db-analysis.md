@@ -28,13 +28,13 @@ As a general rule, if you\'re updating a record due to some kind of user action,
 
 If a table\'s rows will have changing values over time, for example, **order\_status** changes from **processing** to **complete**, include an **updated\_at** column to record when the latest change occurs. Ensure that an updated\_at value is available when first inserting the new data row, at which time the updated\_at date corresponds to the created\_at date.
 
-In addition to optimizing for analysis, **updated\_at** columns also allow you to use [Incremental Replication methods]({% link data-analyst/data-warehouse-mgr/cfg-replication-methods.md %}), which can help shorten the length of your update cycles.
+In addition to optimizing for analysis, **updated\_at** columns also allow you to use [Incremental Replication methods](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md), which can help shorten the length of your update cycles.
 
 ## Store User Acquisition Source
 
-One of the most common mistakes is the [user acquisition source]({% link data-analyst/analysis/google-track-user-acq.md %}), or UAS, not being stored in the operational database. In the majority of situations where this is an issue, UAS is only being tracked through Google Analytics or some other web analytics tool. While these tools can be extremely valuable, there are some drawbacks to storing UAS in them exclusively; such as, you can\'t extract user-level data from these tools. When it is possible, it\'s usually a difficult process. It should be easy to get this information and marry it with data from other sources, such as the behavioral and transactional information also stored in your database.
+One of the most common mistakes is the [user acquisition source](../data-analyst/analysis/google-track-user-acq.md), or UAS, not being stored in the operational database. In the majority of situations where this is an issue, UAS is only being tracked through Google Analytics or some other web analytics tool. While these tools can be extremely valuable, there are some drawbacks to storing UAS in them exclusively; such as, you can\'t extract user-level data from these tools. When it is possible, it\'s usually a difficult process. It should be easy to get this information and marry it with data from other sources, such as the behavioral and transactional information also stored in your database.
 
-Storing UAS in your own database is often the largest improvement an online business can make to its analytical capabilities. This allows for the analysis of sales, user engagement, payback periods, customer lifetime value, churn, and other critical metrics by UAS. [This data is crucial when deciding where to invest marketing resources]({% link data-analyst/analysis/most-value-source-channel.md %}).
+Storing UAS in your own database is often the largest improvement an online business can make to its analytical capabilities. This allows for the analysis of sales, user engagement, payback periods, customer lifetime value, churn, and other critical metrics by UAS. [This data is crucial when deciding where to invest marketing resources](../data-analyst/analysis/most-value-source-channel.md).
 
 Too many companies focus solely on finding channels that provide new users at the lowest cost, but if you aren\'t tracking the quality of users acquired from each channel, you run the risk of attracting users who don\'t generate business value.
 
@@ -42,7 +42,7 @@ Too many companies focus solely on finding channels that provide new users at th
 
 ### Set a Primary Key
 
-A [primary key](http://en.wikipedia.org/wiki/Unique_key) is an unchanging column (or set of columns) that produces unique values within a table. Primary keys are incredibly important, as they ensure that your tables are properly replicated in Magento BI.
+A [primary key](../http://en.wikipedia.org/wiki/Unique_key) is an unchanging column (or set of columns) that produces unique values within a table. Primary keys are incredibly important, as they ensure that your tables are properly replicated in Magento BI.
 
 When building primary keys, use an integer data type for the column that auto-increases. We also recommend you avoid using multiple column primary keys where possible.
 
@@ -50,7 +50,7 @@ If your table is an SQL view, add a column that can act as a primary key. Magent
 
 ### Assign a Data Type to Your Data Column
 
-If a data column doesn\'t have an assigned [data type](http://en.wikipedia.org/wiki/Data_type), Magento BI will guess what data type to use. If the system guesses incorrectly, you may not be able to perform the relevant analyses until our support team adjusts the column to the proper data type. For example, if a date column is guessed as a numeric data type, you won\'t be able to trend over time using that date dimension.
+If a data column doesn\'t have an assigned [data type](../http://en.wikipedia.org/wiki/Data_type), Magento BI will guess what data type to use. If the system guesses incorrectly, you may not be able to perform the relevant analyses until our support team adjusts the column to the proper data type. For example, if a date column is guessed as a numeric data type, you won\'t be able to trend over time using that date dimension.
 
 ### Add Prefixes to Your Data Tables if You Have Multiple Databases
 

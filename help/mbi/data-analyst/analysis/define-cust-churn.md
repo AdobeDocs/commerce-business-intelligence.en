@@ -5,9 +5,9 @@ zendesk_id: 360016505032
 
 In this article, we demonstrate how to set up a dashboard that will help you define churn for your transactional customers.
 
-![]({% link images/2017-02-07_1356.png %})
+![](../assets/2017-02-07_1356.png)
 
-This analysis contains [advanced calculated columns]({% link data-analyst/data-warehouse-mgr/adv-calc-columns.md %}).
+This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
 
 ## Calculated Columns
 
@@ -50,7 +50,7 @@ Columns to create
 
 No new metrics!
 
-Note: Make sure to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 

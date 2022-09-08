@@ -4,12 +4,12 @@ zendesk_id: 360016504752
 
 ---
 
-To activate Magento BI for Cloud Starter projects, first create a Magento BI account, then create a SSH key, then finally connect to your Magento database. Click [here]({% link getting-started/onpremise-activation.md %}) for activating on-premise subscriptions.
+To activate MBI for Cloud Starter projects, first create a MBI account, then create a SSH key, then finally connect to your Magento database. Click [here](../getting-started/onpremise-activation.md) for activating on-premise subscriptions.
 
 {:.bs-callout-info}
-For help activating Magento BI for Cloud Pro projects, contact your Magento Customer Success Manager or Customer Technical Advisor.
+For help activating MBI for Cloud Pro projects, contact your Magento Customer Success Manager or Customer Technical Advisor.
 
-1. Create your Magento BI Account.
+1. Create your MBI Account.
 
     - Go to [https://account.magento.com/customer/account/login](https://account.magento.com/customer/account/login)
 
@@ -23,23 +23,23 @@ For help activating Magento BI for Cloud Pro projects, contact your Magento Cust
 
     - Input your information to create your account.
 
-     ![Picture2.png]({% link images/Picture2.png %})
+     ![Picture2.png](../assets/Picture2.png)
 
     - Go to your inbox and verify your email address.
 
-    ![Picture3.png]({% link images/Picture3.png %})
+    ![Picture3.png](../assets/Picture3.png)
 
     - Create your password.
 
-    ![Picture4.png]({% link images/Picture4.png %})
+    ![Picture4.png](../assets/Picture4.png)
 
     - After creating your account you will then have the option to add users to your new account. Technical admins can now be added to carry out the following steps.
 
-     ![Picture5.png]({% link images/Picture5.png %})
+     ![Picture5.png](../assets/Picture5.png)
 
 1. Input information about your store to set your preferences.
 
-    ![Picture6.png]({% link images/Picture6.png %})
+    ![Picture6.png](../assets/Picture6.png)
 
     There is some information you need to gather before you can connect your database for the third step in the onboarding flow. You will be filling in the **Connect your database** page in Step **9**.
 
@@ -47,13 +47,13 @@ For help activating Magento BI for Cloud Pro projects, contact your Magento Cust
 
     - Create a new user on [https://accounts.magento.com](https://accounts.magento.com).
 
-    - _Why a new user?_ Magento BI needs a user added to the project to continuously fetch new data to be transferred to the account's MBI data warehouse. This user will serve as that connection. Adding this user to the project will come in Step **4**.
+    - _Why a new user?_ MBI needs a user added to the project to continuously fetch new data to be transferred to the account's MBI data warehouse. This user will serve as that connection. Adding this user to the project will come in Step **4**.
 
     - The reason for having a dedicated MBI user is to prevent the added user from inadvertently being deactivated or deleted and stopping the MBI connection.
 
-1. Add the newly created user to the project’s primary environment as a `Contributor`.
+1. Add the newly created user to the project's primary environment as a `Contributor`.
 
-    ![Picture7.png]({% link images/Picture7.png %})
+    ![Picture7.png](../assets/Picture7.png)
 
 1. Get your MBI SSH keys.
 
@@ -61,23 +61,23 @@ For help activating Magento BI for Cloud Pro projects, contact your Magento Cust
 
     - For the field **Encryption Type** chose **SSH Tunnel**.
 
-    - From the dropdown you can copy and paste the provided Magento BI Public Key.
+    - From the dropdown, you can copy and paste the provided MBI Public Key.
 
-    ![Picture8.png]({% link images/Picture8.png %})
+    ![Picture8.png](../assets/Picture8.png)
 
-1. Add your new Magento BI Public key to the MBI user created in Step **5**.
+1. Add your new MBI Public key to the MBI user created in Step **5**.
 
     - Go to [https://accounts.magento.cloud/](https://accounts.magento.cloud/). Sign in with your account log in information for the new MBI user created. Then go to the **Account Settings** tab.
 
-    - Scroll down the page and expand the drop down for SSH keys. Then click **Add a public key**.
+    - Scroll down the page and expand the dropdown for SSH keys. Then click **Add a public key**.
 
-    ![Picture9.png]({% link images/Picture9.png %})
+    ![Picture9.png](../assets/Picture9.png)
 
-    - Add the Magento MBI SSH Public Key from above.
+    - Add the MBI SSH Public Key from above.
 
-    ![Picture10.png]({% link images/Picture10.png %})
+    ![Picture10.png](../assets/Picture10.png)
 
-1. Provide Magento Business Intelligence MySQL credentials.
+1. Provide MBI MySQL credentials.
 
     - Update your `.magento/services.yaml`
 
@@ -108,7 +108,7 @@ For help activating Magento BI for Cloud Pro projects, contact your Magento Cust
                 redis: "redis:redis"
     ```
 
-1. Get information for connecting your database to Magento Business Intelligence.
+1. Get information for connecting your database to MBI.
 
     Run
     `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp`
@@ -140,7 +140,7 @@ For help activating Magento BI for Cloud Pro projects, contact your Magento Cust
 
 1. Connect your Magento Database
 
-   ![Picture11.png]({% link images/Picture11.png %})*Inputs*
+   ![Picture11.png](../assets/Picture11.png)*Inputs*
 
     - Integration Name: [Choose a name for your integration.]
 
@@ -150,7 +150,7 @@ For help activating Magento BI for Cloud Pro projects, contact your Magento Cust
 
     - Username: `mbi`
 
-    - Password: [input password provided in Step **8**’s output.]
+    - Password: [input password provided in Step **8**'s output.]
 
     - Database Name: `main`
 
@@ -158,7 +158,7 @@ For help activating Magento BI for Cloud Pro projects, contact your Magento Cust
 
 1. Set your Timezone Settings.
 
-    ![Picture12.png]({% link images/Picture12.png %})*Inputs*
+    ![Picture12.png](../assets/Picture12.png)*Inputs*
 
      - Database: `Timezone: UTC`
 
@@ -168,13 +168,13 @@ For help activating Magento BI for Cloud Pro projects, contact your Magento Cust
 
     - The project UI provides an SSH access string. This string can be used for gathering the information needed for the **Remote Address** and **Username** in setting up your **Encryption settings**.  Use the SSH Access string found by clicking the access site button on your Master branch of your Project UI and find your **User Name** and **Remote Address** as shown below.
 
-    ![Picture13.png]({% link images/Picture13.png %})
+    ![Picture13.png](../assets/Picture13.png)
 
-    ![Picture14.png]({% link images/Picture14.png %})
+    ![Picture14.png](../assets/Picture14.png)
 
 1. Input information for your Encryption Settings
 
-    ![Picture15.png]({% link images/Picture15.png %})
+    ![Picture15.png](../assets/Picture15.png)
 
     **Inputs**
 
@@ -188,8 +188,8 @@ For help activating Magento BI for Cloud Pro projects, contact your Magento Cust
 
 1. Click **Save Integration**.
 
-1. You have now successfully connected to your Magento BI account.
+1. You have now successfully connected to your MBI account.
 
 1. After you have successfully connected MBI to your Commerce database, contact your Customer Success Manager to coordinate the next steps, such as setting up integrations and other configuration steps.
 
-1. When you finish configuration, you can [sign in]({% link getting-started/sign-in.md %}) to your MBI account.
+1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your MBI account.

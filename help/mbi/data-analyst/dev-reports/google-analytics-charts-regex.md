@@ -3,7 +3,7 @@ title: Create Google Analytics charts (with regex syntax help)
 zendesk_id: 360016506332
 ---
 
-After you’ve connected your [Google Analytics (GA) account]({% link data-analyst/importing-data/integrations/google-analytics.md %}){: target="_blank"}, you’ll be able to create charts from your GA data.
+After you’ve connected your [Google Analytics (GA) account](../data-analyst/importing-data/integrations/google-analytics.md){: target="_blank"}, you’ll be able to create charts from your GA data.
 
 # Create GA Charts
 

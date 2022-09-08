@@ -3,7 +3,7 @@ title: Expected Google Adwords data
 zendesk_id: 360016506252
 ---
 
-After [you’ve connected your Google Adwords account]({% link data-analyst/importing-data/integrations/google-adwords.md %}), you can use the [Data Warehouse Manager]({% link data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
+After [you’ve connected your Google Adwords account](../data-analyst/importing-data/integrations/google-adwords.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
 
 There, you’ll notice two tables available for replication into your data warehouse: `campaigns[account-id]` and `adwords[account-id]`.
 
@@ -58,7 +58,7 @@ The `adwords` table contains the following columns:
 | adDestinationUrl | The URL to which the AdWords ads referred traffic |
 | adGroup | The name of the AdWords ad group |
 
-Using this data, you can start creating [metrics ]({% link data-user/reports/ess-manage-data-metrics.md %}) and [reports]({% link tutorials/using-visual-report-builder.md %}) based on spending data and [marry it to your lifetime revenue to calculate ROI]({% link data-analyst/analysis/roi-ad-camp.md %}).
+Using this data, you can start creating [metrics ](../data-user/reports/ess-manage-data-metrics.md) and [reports](../tutorials/using-visual-report-builder.md) based on spending data and [marry it to your lifetime revenue to calculate ROI](../data-analyst/analysis/roi-ad-camp.md).
 
 #### Consolidated tables
 

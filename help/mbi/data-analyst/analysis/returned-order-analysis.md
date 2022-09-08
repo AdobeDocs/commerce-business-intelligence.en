@@ -5,11 +5,11 @@ zendesk_id: 360016506832
 
 In this article, we demonstrate how to set up a dashboard that will provide a detailed analysis of your store\'s returns.
 
-![]({% link images/upload_12_19_2016_at_3_34_09_PM.png %})
+![](../assets/upload_12_19_2016_at_3_34_09_PM.png)
 
 Before getting started, you will need to be an [Enterprise client of Magento](https://magento.com/products/magento-commerce) and will want to make sure your company is using the \`enterprise\_rma\` table for returns.
 
-This analysis contains [advanced calculated columns]({% link data-analyst/data-warehouse-mgr/adv-calc-columns.md %}).
+This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
 
 #### Getting Started
 
@@ -145,7 +145,7 @@ Columns to create
 {: style="list-style-type: square;"}
 {: style="list-style-type: circle;"}
 
-Note: Make sure to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 #### Reports
 

@@ -15,4 +15,4 @@ This is now your new default dashboard.
 
 Example:
 
-![default dashboard]({% link images/default_dashboard.gif %}){: width="706" height="348"}
+![default dashboard](../assets/default_dashboard.gif){: width="706" height="348"}

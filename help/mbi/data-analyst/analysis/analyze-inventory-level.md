@@ -3,7 +3,7 @@ title: Analyzing Inventory Levels
 zendesk_id: 360016732691
 ---
 
-This topic demonstrates how to set up a dashboard which will provide insights into your current inventory. This topic contains instructions for clients on both the legacy architecture or new architecture. You are on the legacy architecture if you do not have the **Data Warehouse Views** option under the **Manage Data** menu). If you are on the legacy architecture, [submit a new support request]({% link getting-started/support.md %}) with the subject **[INVENTORY ANALYSIS]** once you reach the designated section in the \"Calculated columns\" instructions below.
+This topic demonstrates how to set up a dashboard which will provide insights into your current inventory. This topic contains instructions for clients on both the legacy architecture or new architecture. You are on the legacy architecture if you do not have the **Data Warehouse Views** option under the **Manage Data** menu). If you are on the legacy architecture, [submit a new support request](../getting-started/support.md) with the subject **[INVENTORY ANALYSIS]** once you reach the designated section in the \"Calculated columns\" instructions below.
 
 ## Columns to track:
 

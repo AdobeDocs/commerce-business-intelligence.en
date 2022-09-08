@@ -9,13 +9,13 @@ A lot of factors can add to an already lengthy update time. Certain replication 
 
 ## Decrease Recheck Frequency
 
-In a database table, there can be data columns with changeable values. For example, in an **orders** table there might be a column called **status**. When an order is initially written to the database, the status column might contain the value `pending`. The order will then be replicated in your [Data Warehouse]({% link data-analyst/data-warehouse-mgr/tour-dwm.md %}) with this `pending` value.
+In a database table, there can be data columns with changeable values. For example, in an **orders** table there might be a column called **status**. When an order is initially written to the database, the status column might contain the value `pending`. The order will then be replicated in your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) with this `pending` value.
 
-Changeable columns need to be [rechecked for updated values]({% link data-analyst/data-warehouse-mgr/cfg-data-rechecks.md %}) over time. By default, Magento BI rechecks these columns during every update, but if there\'s a large amount of data to be rechecked and replicated, it can negatively impact your update time. Instead of running rechecks during every update, Magento recommends setting the recheck frequency to daily, weekly, or monthly.
+Changeable columns need to be [rechecked for updated values](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) over time. By default, Magento BI rechecks these columns during every update, but if there\'s a large amount of data to be rechecked and replicated, it can negatively impact your update time. Instead of running rechecks during every update, Magento recommends setting the recheck frequency to daily, weekly, or monthly.
 
 ## Use Incremental Replication Methods
 
-As mentioned above, long update times are directly correlated to how much data has to be rechecked and replicated. [Incremental replication methods]({% link data-analyst/data-warehouse-mgr/cfg-replication-methods.md %}) can greatly reduce the amount of data processed during the update cycle. Where possible, we recommend using these methods or making modifications to your database to support an incremental method.
+As mentioned above, long update times are directly correlated to how much data has to be rechecked and replicated. [Incremental replication methods](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) can greatly reduce the amount of data processed during the update cycle. Where possible, we recommend using these methods or making modifications to your database to support an incremental method.
 
 ## Remove Unused Charts from Dashboards
 
@@ -24,12 +24,12 @@ At the end of the update cycle, Magento BI performs a cache operation for all ch
 Since Magento BI only performs cache operations for charts found in a dashboard, removing unused charts from your dashboards will decrease your update time. Keep in mind that the same chart might be on multiple dashboards - check with your team to make sure they also removed any unused charts.
 
 {:.bs-callout-info}
-Removing charts from your dashboard does not delete the chart. You can [add it back any time]({% link data-user/dashboards/add-charts-dashboard.md %}).
+Removing charts from your dashboard does not delete the chart. You can [add it back any time](../data-user/dashboards/add-charts-dashboard.md).
 
 ## Optimize Your Database for Analysis
 
-In addition to reevaluating recheck frequencies, replication methods, and chart usefulness, you can also [optimize your database for analysis]({% link best-practices/opt-db-analysis.md %}).
+In addition to reevaluating recheck frequencies, replication methods, and chart usefulness, you can also [optimize your database for analysis](../best-practices/opt-db-analysis.md).
 
 ## Wrapping Up
 
-If your update time still seems slow even after implementing these recommendations, [contact our support team]({% link getting-started/support.md %}).
+If your update time still seems slow even after implementing these recommendations, [contact our support team](../getting-started/support.md).

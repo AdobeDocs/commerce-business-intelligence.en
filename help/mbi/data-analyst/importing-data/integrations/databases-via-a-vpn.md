@@ -5,10 +5,10 @@ zendesk_id: 360016504992
 
 While we recommend you connect your databases using an SSH tunnel, you can also use an encrypted VPN connection to keep things secure. A VPN can be used for any of our database integrations and, to keep things simple, the process is just about the same as setting up an SSH tunnel:
 
-1. [Create an Magento BI database user](#database)
-1. [Create an Magento BI VPN user](#vpn)
-1. [Allow access to the Magento BI IP address](#allowlist)
-1. [Enter the connection and VPN user info into Magento BI](#finish)
+1. [Create an Magento BI database user](../#database)
+1. [Create an Magento BI VPN user](../#vpn)
+1. [Allow access to the Magento BI IP address](../#allowlist)
+1. [Enter the connection and VPN user info into Magento BI](../#finish)
 
 In addition to database credentials, you\'ll have to enter credentials for a VPN user to wrap things up. Any VPN user will work, but we recommend you create an Magento BI user - it\'ll make it easier for you to keep track of the users on your account.
 
@@ -18,10 +18,10 @@ Let's get started.
 
 The process for creating a database user will vary depending on the database type you\'re connecting. To see the instructions for each database type, click the links below.
 
-* [Microsoft SQL]({% link data-analyst/importing-data/integrations/microsoft-sql-server.md %})
-* [MongoDB]({% link data-analyst/importing-data/integrations/databases-via-a-vpn.md %})
-* [MySQL]({% link data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md %})
-* [PostgreSQL]({% link data-analyst/importing-data/integrations/postgresql.md %})
+* [Microsoft SQL](../data-analyst/importing-data/integrations/microsoft-sql-server.md)
+* [MongoDB](../data-analyst/importing-data/integrations/databases-via-a-vpn.md)
+* [MySQL](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
+* [PostgreSQL](../data-analyst/importing-data/integrations/postgresql.md)
 
 ## Creating a VPN user for Magento BI {#vpn}
 
@@ -31,7 +31,7 @@ As we mentioned before, any valid VPN user will work - but we strongly recommend
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it's also on the credentials page for any database integration:
 
-![MBI_Allow_Access_IPs.png]({% link images/MBI_allow_access_IPs.png %})
+![MBI_Allow_Access_IPs.png](../assets/MBI_allow_access_IPs.png)
 
 ## Entering the connection and VPN user info into Magento BI {#finish}
 

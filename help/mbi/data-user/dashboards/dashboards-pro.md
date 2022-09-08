@@ -5,7 +5,7 @@ title: Out-of-the-Box Dashboards
 MBI includes out-of-the-box dashboards to provide insight into your business. With dashboards, you can check on the health of essential metrics such as user lifetime revenue, number of repeat purchases, top products purchased over a given time period, and more. These pre-configured dashboards were created to help you make informed business decisions.
 
 {:.bs-callout-info}
-Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support]({% link getting-started/support.md %}).
+Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](../getting-started/support.md).
 
 ## Report availability
 

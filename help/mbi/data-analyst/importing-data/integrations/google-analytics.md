@@ -4,9 +4,9 @@ zendesk_id: 360016732851
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
-![]({% link images/google-analytics-logo.png %})
+![](../assets/google-analytics-logo.png)
 
 Google Analytics (GA) is the most widely-used web analytics service on the internet. Implementing GA on your website allows you to track how visitors use your site, what content is attractive, where visitors exit, and more. Analyzing these metrics in Magento BI, alongside other pieces of data, will improve your site\'s overall health and usability.
 
@@ -18,7 +18,7 @@ Let\'s get started by entering our GA credentials into Magento BI:
 1. Enter your GA credentials. Upon completion of the authorization process, you will be redirected back to Magento BI.
 1. A list of profile IDs will display. Check the profiles you want to connect to Magento BI. If you have multiple profiles and need some help identifying which is which, refer to the Connecting Multiple GA profiles section below.
 
-     ![]({% link images/Screen_Shot_2015-11-17_at_11.20.08_AM.png %}){: width="600px"}
+     ![](../assets/Screen_Shot_2015-11-17_at_11.20.08_AM.png){: width="600px"}
 
 1. Changes are saved automatically, so click the Back to Connections button when you\'re done.
 
@@ -43,7 +43,7 @@ To identify a particular website\'s Google Analytics Profile ID:
 ## Related:
 
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
-* [Connecting Google Adwords]({% link data-analyst/importing-data/integrations/google-adwords.md %})
-* [Analyzing website activity and customer conversion rates]({% link data-analyst/analysis/web-act-cust-conversion.md %})
-* [Track user acquisition data using GA cookies]({% link data-analyst/analysis/google-track-user-acq.md %})
+* [Connecting Google Adwords](../data-analyst/importing-data/integrations/google-adwords.md)
+* [Analyzing website activity and customer conversion rates](../data-analyst/analysis/web-act-cust-conversion.md)
+* [Track user acquisition data using GA cookies](../data-analyst/analysis/google-track-user-acq.md)
 * [Track user device and browser data using GA cookies](https://support.magento.com/hc/en-us/articles/360016732911)

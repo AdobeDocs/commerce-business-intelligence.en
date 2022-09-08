@@ -3,7 +3,7 @@ title: Google Analytics - Track user device and browser data in your database
 zendesk_id: 360016732911
 ---
 
-With Google Analytics you can [save referral source information]({% link data-analyst/analysis/google-track-user-acq.md %}) to understand where your most valuable users are coming from. In this topic, you will learn about the platform (device, browser, etc.) your users are working on. With this, you will be able to understand how many users are actually logging in via mobile devices and how that affects the lifetime value of those users.
+With Google Analytics you can [save referral source information](../data-analyst/analysis/google-track-user-acq.md) to understand where your most valuable users are coming from. In this topic, you will learn about the platform (device, browser, etc.) your users are working on. With this, you will be able to understand how many users are actually logging in via mobile devices and how that affects the lifetime value of those users.
 
 ## Saving User Device and Browser Data
 
@@ -31,9 +31,9 @@ With this new information, you can better understand how users access your site.
 
 ## Related
 
-*  [Track order referral source via GA E-Commerce]({% link data-analyst/importing-data/integrations/google-ecommerce.md %})
-*  [Track user referral source in your database]({% link data-analyst/analysis/google-track-user-acq.md %})
-*  [Discover your most valuable acquisition sources and channels]({% link data-analyst/analysis/most-value-source-channel.md %})
-*  [Connect your Google Adwords account]({% link data-analyst/importing-data/integrations/google-adwords.md %})
-*  [Increase ROI on your advertising campaigns]({% link data-analyst/analysis/roi-ad-camp.md %})
-*  [How does Google Analytics UTM attribution work?]({% link data-analyst/analysis/utm-attributes.md %})
+*  [Track order referral source via GA E-Commerce](../data-analyst/importing-data/integrations/google-ecommerce.md)
+*  [Track user referral source in your database](../data-analyst/analysis/google-track-user-acq.md)
+*  [Discover your most valuable acquisition sources and channels](../data-analyst/analysis/most-value-source-channel.md)
+*  [Connect your Google Adwords account](../data-analyst/importing-data/integrations/google-adwords.md)
+*  [Increase ROI on your advertising campaigns](../data-analyst/analysis/roi-ad-camp.md)
+*  [How does Google Analytics UTM attribution work?](../data-analyst/analysis/utm-attributes.md)

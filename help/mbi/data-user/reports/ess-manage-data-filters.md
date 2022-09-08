@@ -8,11 +8,11 @@ If you have multiple metrics in Magento BI that need to be filtered in a similar
 See our [training video](https://support.magento.com/hc/en-us/articles/360016730151) to learn more.
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
 1. Click **Manage Data** > **Filter Sets** in the sidebar.
 
-    ![]({% link images/create-filter-sets.png %})
+    ![](../assets/create-filter-sets.png)
 
 1. Click **Add Filter Set** at the top of the page.
 
@@ -38,4 +38,4 @@ Note that Filter Sets can also be applied to calculated columns in Magento BI. Y
 
 ## Related
 
-* [Best Practices for Segmentation and Filtering]({% link best-practices/segment-filter.md %})
+* [Best Practices for Segmentation and Filtering](../best-practices/segment-filter.md)

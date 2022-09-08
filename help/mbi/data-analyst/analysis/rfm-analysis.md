@@ -5,7 +5,7 @@ zendesk_id: 360016506692
 
 In this article, we demonstrate how to set up a dashboard that will allow you to segment your customers by their recency, frequency, and monetary rankings. RFM analysis is a marketing technique that takes customer behaviors into account to help you determine segmentation for outreach. It takes three aspects into account: Recency in how recently a customer purchased from your store, Frequency in how often they purchase from you and Monetary in how much the customer spends.
 
-![]({% link images/blobid0.png %})
+![](../assets/blobid0.png)
 
 The RFM analysis is only able to be configured if you have the MBI Pro plan on the new architecture (i.e. if you have the “Data Warehouse Views” option under the “Manage Data” menu). These columns can be created from the “Manage Data -&gt; Data Warehouse” page. Detailed instructions are given below.
 
@@ -13,7 +13,7 @@ The RFM analysis is only able to be configured if you have the MBI Pro plan on t
 
 You will need to first upload a file containing just a primary key with the value of one. This will allow the creation of some necessary calculated columns for the analysis.
 
-You can leverage this [help center article]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}) as well as the image below to format your file.
+You can leverage this [help center article](../data-analyst/importing-data/connecting-data/using-file-uploader.md) as well as the image below to format your file.
 
 ### Calculated Columns
 
@@ -144,7 +144,7 @@ NOTE: the percentiles used are even splits of customers (I.e. 20% buckets to ret
 
 No new metrics!
 
-Note: Make sure to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ### Reports
 

@@ -6,13 +6,13 @@ zendesk_id: 360016504512
 
 When analyzing your data, it is beneficial to consolidate data from different sources. Want to group revenue by acquisition source, linking data from your orders table and Google Analytics? Or how about grouping revenue by customer gender, or joining a customer attribute to transaction data for segmentation?
 
-This guide will teach you how to do just that. Before getting started, we recommend you check out the [Calculated Column Types guide]({% link data-analyst/data-warehouse-mgr/calc-column-types.md %}). The Calculated Column Types Guide outlines the types of columns you can create in the Data Warehouse Manager, along with their definitions and examples.
+This guide will teach you how to do just that. Before getting started, we recommend you check out the [Calculated Column Types guide](../data-analyst/data-warehouse-mgr/calc-column-types.md). The Calculated Column Types Guide outlines the types of columns you can create in the Data Warehouse Manager, along with their definitions and examples.
 
 1. To get started, click **Manage Data** > **Data Warehouse** in the sidebar.
 1. Click the table you want to create a column in. For example, if we wanted to create a **Customer Gender** column for revenue segmentation, we'd select the **sales_flat_order** table.
 1. The table scheme will display. Click the **Create New Column** button.
 1. Give your column a name - for example, Customer Gender.
-1. Select the definition for the column. This is where the [Calculated Column Types guide]({% link data-analyst/data-warehouse-mgr/calc-column-types.md %}) will come in handy!
+1. Select the definition for the column. This is where the [Calculated Column Types guide](../data-analyst/data-warehouse-mgr/calc-column-types.md) will come in handy!
 1. For certain types of columns, a little more info is needed to properly create the column:
 
 * **For One to Many(joined) and Many to One (aggregate) columns**, you'll need to select the tables and columns.
@@ -20,7 +20,7 @@ This guide will teach you how to do just that. Before getting started, we recomm
 * If you're creating a One to Many (joined) or Many to One (aggregate) column, you'll need to select a pathway to connect the two tables. In this step, you can either use an existing path or create a new one.
 
   **Remember to properly define the table as either many or one!**
-* If desired, you can apply [filters]({% link data-user/reports/ess-manage-data-filters.md %}) to the new column.
+* If desired, you can apply [filters](../data-user/reports/ess-manage-data-filters.md) to the new column.
 * When finished, click the **Save** button.
 
 That's it! Your new column will appear in the current table with a Pending status. After the next update completes, your column will be available for use in metrics and reports.
@@ -29,10 +29,10 @@ That's it! Your new column will appear in the current table with a Pending statu
 
 If you're having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you're building:
 
-![Calculated\_Columns\_Example.png]({% link images/Calculated_Columns_Example.png %}){: width="805" height="643"}
+![Calculated\_Columns\_Example.png](../assets/Calculated_Columns_Example.png){: width="805" height="643"}
 
 ## Related documentation
 
-* [Calculated Column Types]({% link data-analyst/data-warehouse-mgr/calc-column-types.md %})
-* [Advanced Calculated Column Types]({% link data-analyst/data-warehouse-mgr/adv-calc-columns.md %})
-* [Building Google ECommerce dimensions with order and customer data]({% link data-analyst/data-warehouse-mgr/bldg-google-ecomm-dim.md %})
+* [Calculated Column Types](../data-analyst/data-warehouse-mgr/calc-column-types.md)
+* [Advanced Calculated Column Types](../data-analyst/data-warehouse-mgr/adv-calc-columns.md)
+* [Building Google ECommerce dimensions with order and customer data](../data-analyst/data-warehouse-mgr/bldg-google-ecomm-dim.md)

@@ -3,7 +3,7 @@ title: Translating SQL queries into Magento BI reports
 zendesk_id: 360016506772
 ---
 
-Ever wondered how SQL queries are translated into the [calculated columns]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %}), [metrics]({% link data-user/reports/ess-manage-data-metrics.md %}), and [reports]({% link tutorials/using-visual-report-builder.md %}) you use in Magento BI? If you’re a heavy SQL user, understanding how SQL is translated in Magento BI will enable you to work smarter in the [Data Warehouse Manager]({% link data-analyst/data-warehouse-mgr/tour-dwm.md %}) and get the most out of the Magento BI platform.
+Ever wondered how SQL queries are translated into the [calculated columns](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), [metrics](../data-user/reports/ess-manage-data-metrics.md), and [reports](../tutorials/using-visual-report-builder.md) you use in Magento BI? If you’re a heavy SQL user, understanding how SQL is translated in Magento BI will enable you to work smarter in the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md) and get the most out of the Magento BI platform.
 
 At the end of this article, we’ve included a **translation matrix** for SQL query clauses and Magento BI elements.
 
@@ -43,7 +43,7 @@ Let's look at a specific example of how a "Total Revenue" metric might be defin
 
 Navigating to the metric builder (**Manage Data **\=> **Metrics **\=> **Create New Metric**), we first must select the appropriate source table, which in this case is the "orders" table. Then the metric would be set up as shown below:
 
-![Metric_aggregation.png]({% link images/Metric_aggregation.png %})
+![Metric_aggregation.png](../assets/Metric_aggregation.png)
 
 ## Column aggregations
 
@@ -66,17 +66,17 @@ Let's first take a look at how to establish a new path between the "customers" a
 
 Next, you need to select the source table. If a path already exists to your "orders" table, simply select it from the drop-down. However if you are building a new path, click the **Create new path** button and you'll be presented with the screen below:
 
-![Create_new_path.png]({% link images/Create_new_path.png %})
+![Create_new_path.png](../assets/Create_new_path.png)
 
 Here you need to carefully consider the relationship between the two tables you are attempting to join together. In this case, there are potentially **Many** orders associated with **One** customer, therefore the "orders" table is listed on the **Many** side, whereas the "customers" table selected on the **One** side. Note that in Magento BI, a **path** is equivalent to a **Join** in SQL.
 
 Once the path has been saved, you're all set to create the new "Customer LTV" column! Take a look at the below:
 
-![]({% link images/Customer_LTV.gif %})
+![](../assets/Customer_LTV.gif)
 
-Now that you have built the new "Customer LTV" column in your "customers" table, you're ready to create a [metric aggregation](#aggregate) utilizing this column (for example to find the average LTV per customer), or simply group by or filter by the calculated column in a report using existing metrics built on the "customers" table. Note that for the latter, any time you build a new calculated column you will need to [add the dimension to existing metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before it will be available as a filter or group by.
+Now that you have built the new "Customer LTV" column in your "customers" table, you're ready to create a [metric aggregation](../#aggregate) utilizing this column (for example to find the average LTV per customer), or simply group by or filter by the calculated column in a report using existing metrics built on the "customers" table. Note that for the latter, any time you build a new calculated column you will need to [add the dimension to existing metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before it will be available as a filter or group by.
 
-For more information on creating calculated columns with your Data Warehouse manager, take a look at [this article]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %}).
+For more information on creating calculated columns with your Data Warehouse manager, take a look at [this article](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
 ## GROUP BY clauses
 
@@ -97,7 +97,7 @@ _Note that the only difference from the query we started with before is the addi
 
 Using the same "Total Revenue" metric that we created previously, we are now ready to create our report of revenue segmented by coupon code! Take a look at the gif below which shows how to set up this visual report looking at data from September to November:
 
-![Revenue_by_coupon_code.gif]({% link images/Revenue_by_coupon_code.gif %})
+![Revenue_by_coupon_code.gif](../assets/Revenue_by_coupon_code.gif)
 
 ## Formulas
 
@@ -122,7 +122,7 @@ Let's take a step back and look at the overall query for "Average order value":
 
 And let's also assume we already have metrics set up to calculate the "Total Revenue" and "Number of orders". Since these metrics already exist, we can simply open the Report Builder and create an ad hoc calculation using the Formula feature:
 
-![AOV_forumula.gif]({% link images/AOV_forumula.gif %})
+![AOV_forumula.gif](../assets/AOV_forumula.gif)
 
 ## Wrapping Up
 

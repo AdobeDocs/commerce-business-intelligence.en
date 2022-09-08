@@ -9,7 +9,7 @@ Note, throughout this article you will see the words **join**, **relationship** 
 
 ## Core Magento ER Diagram
 
-![4_DB_Chart]({% link images/4_DB_Chart.png %})
+![4_DB_Chart](../assets/4_DB_Chart.png)
 
 This ER diagram represents the relationships among the core tables within a Magento database. By viewing multiple relationships at once, you can see how data would relate across many tables.
 
@@ -17,33 +17,33 @@ The sections below contain ER diagrams specific to two tables at a time. To view
 
 ## customer\_entity & sales\_flat\_order
 
-![2_OneCustomerManyOrders]({% link images/2_OneCustomerManyOrders.png %})
+![2_OneCustomerManyOrders](../assets/2_OneCustomerManyOrders.png)
 
 One customer can place many orders. The relationship between these two tables is **customer\_entity.entity\_id = sales\_flat\_order.customer\_id**
 
 {: .bs-callout-warning}
 **customer\_entity.entity\_id** does not equal **sales\_flat\_order.entity\_id**. The first can be thought of as a "customer\_id" and the second can be thought of as an "order\_id." You can read more about this in the [entity\_id section](https://support.magento.com/hc/en-us/articles/360016729951) of our "Magento: Common Misconceptions" article.
 
-Within Magento BI, if the path between these two tables does not already exist, you can [create the path]({% link data-analyst/data-warehouse-mgr/create-paths-calc-columns.md %}) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
+Within Magento BI, if the path between these two tables does not already exist, you can [create the path](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 
-![]({% link images/SFO___CE_path.png %})
+![](../assets/SFO___CE_path.png)
 
 ## sales\_flat\_order & sales\_flat\_order\_item
 
-![1_OneOrderManyItems]({% link images/1_OneOrderManyItems.png %})
+![1_OneOrderManyItems](../assets/1_OneOrderManyItems.png)
 
 One order can contain many items. The relationship between these two tables is **sales\_flat\_order.entity\_id = sales\_flat\_order\_item.order\_id**
 
-Within Magento BI, if the path between these two tables does not already exist, you can [create the path]({% link data-analyst/data-warehouse-mgr/create-paths-calc-columns.md %}) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
+Within Magento BI, if the path between these two tables does not already exist, you can [create the path](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 
-![]({% link images/SFOI___SFO_path.png %})
+![](../assets/SFOI___SFO_path.png)
 
 ## catalog\_product\_entity & sales\_flat\_order\_item
 
-![3_OneProductManyTimes]({% link images/3_OneProductManyTimes.png %})
+![3_OneProductManyTimes](../assets/3_OneProductManyTimes.png)
 
 One product can be purchased many items. The relationship between these two tables is **catalog\_product\_entity.entity\_id = sales\_flat\_order\_item.product**
 
-Within Magento BI, if the path between these two tables does not already exist, you can [create the path]({% link data-analyst/data-warehouse-mgr/create-paths-calc-columns.md %}) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
+Within Magento BI, if the path between these two tables does not already exist, you can [create the path](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 
-![]({% link images/SFOI___CPE_path.png %})
+![](../assets/SFOI___CPE_path.png)

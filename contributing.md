@@ -6,9 +6,9 @@ The following are a set of guidelines to follow when contributing to this projec
 
 ## Code Of Conduct
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
+This project adheres to the Adobe [code of conduct](../code-of-conduct.md). By participating,
 you are expected to uphold this code. Please report unacceptable behavior to
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+[Grp-opensourceoffice@adobe.com](../mailto:Grp-opensourceoffice@adobe.com).
 
 ## Contributor Guide Documentation
 
@@ -24,7 +24,7 @@ consensus around project direction and issue solutions within issue threads
 
 All third-party contributions to this project must be accompanied by a signed contributor
 license agreement. This gives Adobe permission to redistribute your contributions
-as part of the project. [Sign our CLA](http://opensource.adobe.com/cla.html). You
+as part of the project. [Sign our CLA](../http://opensource.adobe.com/cla.html). You
 only need to submit an Adobe CLA one time, so if you have submitted one previously,
 you are good to go!
 
@@ -35,7 +35,7 @@ by project committers. Read [GitHub's pull request documentation](https://help.g
 for more information on sending pull requests.
 
 <!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
+Lastly, please follow the [pull request template](../PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 

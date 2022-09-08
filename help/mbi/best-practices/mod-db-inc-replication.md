@@ -24,4 +24,4 @@ Remember, tables using this method are single column with integer auto increment
 
 ## Wrapping Up
 
-By making minor modifications to your tables, you can take advantage of the faster, more efficient Incremental Replication Methods; however, if this is still not possible, you can still take other steps to [reduce your update time]({% link best-practices/reduce-update-cycle-time.md %}) and [optimize your database]({% link best-practices/opt-db-analysis.md %}).
+By making minor modifications to your tables, you can take advantage of the faster, more efficient Incremental Replication Methods; however, if this is still not possible, you can still take other steps to [reduce your update time](../best-practices/reduce-update-cycle-time.md) and [optimize your database](../best-practices/opt-db-analysis.md).

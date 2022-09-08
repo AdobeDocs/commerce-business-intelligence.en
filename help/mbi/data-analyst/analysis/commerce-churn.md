@@ -5,9 +5,9 @@ zendesk_id: 360016729831
 
 In this article, we demonstrate how to calculate a **churn rate** for your **commerce customers**. Unlike SaaS or traditional subscription companies, commerce customers typically do not have a concrete **\"churn event\"** to show you that they should no longer count toward your active customers. For this reason, the below instructions allow you to define a customer as \"churned\" based upon a determined amount of time passing since their last order.
 
-![]({% link images/Churn_rate_image.png %})
+![](../assets/Churn_rate_image.png)
 
-Many customers want assistance in starting to conceptualize what **timeframe** they should use based upon their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn]({% link data-analyst/analysis/define-cust-churn.md %}) Analysis Library article. Then, you can use the results in the formula for churn rate in the below instructions.
+Many customers want assistance in starting to conceptualize what **timeframe** they should use based upon their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../data-analyst/analysis/define-cust-churn.md) Analysis Library article. Then, you can use the results in the formula for churn rate in the below instructions.
 
 #### Calculated Columns
 
@@ -28,7 +28,7 @@ Columns to create
   * Select column: <span class="wysiwyg-color-blue">**`Customer's last order date`**</span><span class="wysiwyg-color-blue">**``**</span><span class="wysiwyg-color-blue">**``**</span>
   {: style="list-style-type: square;"}
 
-Note: Make sure to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 #### Metrics
 
@@ -56,7 +56,7 @@ Note: Make sure to [add all new columns as dimensions to metrics]({% link data-a
 * Filter:
 {: style="list-style-type: circle;"}
 
-Note: Make sure to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 #### Reports
 

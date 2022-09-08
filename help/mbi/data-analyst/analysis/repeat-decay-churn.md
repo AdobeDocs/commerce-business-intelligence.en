@@ -13,7 +13,7 @@ This topic explores the analyses that can help you answer the following question
 
 ## Recommended metrics
 
-When analyzing repeat probability decay and churn, consider using ([or building]({% link data-user/reports/ess-manage-data-metrics.md %})) these metrics:
+When analyzing repeat probability decay and churn, consider using ([or building](../data-user/reports/ess-manage-data-metrics.md)) these metrics:
 
 #### Initial repeat order probability
 
@@ -23,7 +23,7 @@ This measure is defined as the total number of repeat orders, as a percent of to
 
 This measure demonstrates the probability of a user ordering again given the number of months that have elapsed since their last order. The formula used to generate this metric simplifies to:
 
-![Repeat\_probability\_formula]({% link images/Repeat_probability_formula.png %})
+![Repeat\_probability\_formula](../assets/Repeat_probability_formula.png)
 
 Depending on your business model, the repeat order probability may either drop off immediately after a customer places an order and continue to decrease in subsequent months or it may demonstrate seasonal variations and spikes.
 
@@ -33,7 +33,7 @@ In either case, understanding what percentage of your customers are expected to 
 
 Let’s take a look at repeat probability decay for a typical eCommerce business.
 
-![Initial repeat order probability &amp; repeat order probability given months since order.]({% link images/Order_probability_reports.png %})
+![Initial repeat order probability &amp; repeat order probability given months since order.](../assets/Order_probability_reports.png)
 
 ### Initial repeat order probability
 
@@ -72,5 +72,5 @@ This best practice is provided by Magento BI Data Analysis Services (DAS). We’
 
 ## Related documentation
 
-* [Analyzing coupon impact on acquiring and retaining customers]({% link data-analyst/analysis/coupon-impact.md %})
-* [Analyzing customer repurchasing behavior]({% link data-analyst/analysis/repurchase-behavior.md %})
+* [Analyzing coupon impact on acquiring and retaining customers](../data-analyst/analysis/coupon-impact.md)
+* [Analyzing customer repurchasing behavior](../data-analyst/analysis/repurchase-behavior.md)

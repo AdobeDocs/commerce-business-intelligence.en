@@ -3,7 +3,7 @@ title: Expected Magento data
 zendesk_id: 360016506072
 ---
 
-After you’ve [connected your Magento store]({% link data-analyst/importing-data/integrations/magento.md %}), you can use the Data Warehouse Manager to easily track relevant data fields from your Magento database for analysis.
+After you’ve [connected your Magento store](../data-analyst/importing-data/integrations/magento.md), you can use the Data Warehouse Manager to easily track relevant data fields from your Magento database for analysis.
 
 In this article, we’ll explore the main data tables that Magento users import into Magento BI.
 
@@ -17,6 +17,6 @@ depending on how your Magento build is set up. The **catalog\_category\_entity**
 
 ### Related
 
-* [Connecting Magento]({% link data-analyst/importing-data/integrations/magento.md %})
+* [Connecting Magento](../data-analyst/importing-data/integrations/magento.md)
 * [[Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
 

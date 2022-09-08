@@ -3,7 +3,7 @@ title: Creating paths for calculated columns
 zendesk_id: 360016731471
 ---
 
-When [creating calculated columns]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %}) in your Data Warehouse, you’ll be asked to define a path describing how the table you’re creating a column on is related to the table you’re pulling information from. To successfully create a path, you need to know two things:
+When [creating calculated columns](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) in your Data Warehouse, you’ll be asked to define a path describing how the table you’re creating a column on is related to the table you’re pulling information from. To successfully create a path, you need to know two things:
 
 1. How the tables in your databases relate to each other
 1. The primary and foreign keys that define this relationship
@@ -14,7 +14,7 @@ If you know this information, you’ll be able to easily create a path following
 
 #### Table Relationships {#relationships}
 
-We covered this concept in depth in our [Understanding and evaluating table relationships article]({% link data-analyst/data-warehouse-mgr/table-relationships.md %}), but a quick summary never hurt anyone, right?
+We covered this concept in depth in our [Understanding and evaluating table relationships article](../data-analyst/data-warehouse-mgr/table-relationships.md), but a quick summary never hurt anyone, right?
 
 Tables can be related to one another in one of three ways:
 
@@ -47,10 +47,10 @@ Now we’ll walk you through actually creating the path.
 1. In the table list, click the table you want to create the column in. In our example, it’s the **customers** table.
 1. The table schema will display. Click the **Create New Column** button.
 1. Give your column a name - for example, Customer’s orders.
-1. Select the definition for the column. Check out the [Calculated Column Guide]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %}) for a handy cheat sheet.
+1. Select the definition for the column. Check out the [Calculated Column Guide](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) for a handy cheat sheet.
 1. In the Select table and column dropdown, click the Create new path option. This window will pop up:
 
-    ![Creating paths for calculated columns modal]({% link images/Creating_Paths_modal.png %}){:.zoom}
+    ![Creating paths for calculated columns modal](../assets/Creating_Paths_modal.png){:.zoom}
 
 1. Using the dropdowns, select the primary and foreign keys for each table.
 

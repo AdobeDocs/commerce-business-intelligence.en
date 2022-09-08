@@ -13,14 +13,14 @@ To import CJ Affiliate/Commission Junction data into Magento BI, simply follow t
 
 1. Set **Performance By** equal to `Program`, **Trend** equal to `Daily`, and **Date Range** equal to the date range being audited.
 
-    ![Screen_Shot_2014-02-04_at_3.30.56_PM.png]({% link images/Screen_Shot_2014-02-04_at_3.30.56_PM.png %}){:.zoom}
+    ![Screen_Shot_2014-02-04_at_3.30.56_PM.png](../assets/Screen_Shot_2014-02-04_at_3.30.56_PM.png){:.zoom}
 
 1. Select **Run Report.**
 
 1. In the **File Format** dropdown, select **CSV**.  Click the **Download** button.
 
-    ![Screen_Shot_2014-02-04_at_3.31.27_PM.png]({% link images/Screen_Shot_2014-02-04_at_3.31.27_PM.png %}){:.zoom}
+    ![Screen_Shot_2014-02-04_at_3.31.27_PM.png](../assets/Screen_Shot_2014-02-04_at_3.31.27_PM.png){:.zoom}
 
-1. After  you have downloaded the file, you can [upload the file]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}) to your Magento BI data warehouse.
+1. After  you have downloaded the file, you can [upload the file](../data-analyst/importing-data/connecting-data/using-file-uploader.md) to your Magento BI data warehouse.
 
-   This creates a new table in your Magento BI data warehouse that you can continue to upload fresh data into periodically. When uploading the file, be sure to to follow the formatting requirements listed in [Using the File Uploader]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}).
+   This creates a new table in your Magento BI data warehouse that you can continue to upload fresh data into periodically. When uploading the file, be sure to to follow the formatting requirements listed in [Using the File Uploader](../data-analyst/importing-data/connecting-data/using-file-uploader.md).

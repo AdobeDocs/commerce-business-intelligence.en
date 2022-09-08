@@ -6,7 +6,7 @@ BI Dashboards give you a quick view of your store’s performance and sales acti
 
 It’s easy to create a new report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
 
-![]({% link images/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png %}){: .zoom}
+![](../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png){: .zoom}
 *Dashboard*
 
 ## Creating dashboards {#createdash}
@@ -17,15 +17,15 @@ Dashboards are essentially sharable, themed buckets for the analyses you create 
 
 What the dashboards you create look like is entirely up to you. You can arrange and resize the elements in the dashboard any way you wish to suit your needs and workflow.
 
-![arrange\_resize\_dashboard\_element.gif]({% link images/arrange_resize_dashboard_element.gif %}){: width="750" height="375"}
+![arrange\_resize\_dashboard\_element.gif](../assets/arrange_resize_dashboard_element.gif){: width="750" height="375"}
 
 #### Create a new dashboard
 
 1. On the menu, click **Dashboards**.
 
-1. The name of the default dashboard appears in the upper-left corner of the dashboard header. Click the down arrow (![]({% link images/magento-bi-btn-down.png %})) to show the available options.
+1. The name of the default dashboard appears in the upper-left corner of the dashboard header. Click the down arrow (![](../assets/magento-bi-btn-down.png)) to show the available options.
 
-    ![]({% link images/magento-bi-dashboard-create.png %}){: .zoom}
+    ![](../assets/magento-bi-dashboard-create.png){: .zoom}
     *Create Dashboard*
 
 1. Click <span class="btn">Create Dashboard</span>. Then, do the following:
@@ -38,10 +38,10 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
     * Click <span class="btn">Create</span>.
 
-    ![]({% link images/magento-bi-dashboard-create-name.png %}){: .zoom}
+    ![](../assets/magento-bi-dashboard-create-name.png){: .zoom}
     *Dashboard Name*
 
-    * The name of your new dashboard appears in the upper-left corner. Click the down arrow (![]({% link images/magento-bi-btn-down.png %})) to show the options. If you created a group, the new dashboard appears below the group in the list.
+    * The name of your new dashboard appears in the upper-left corner. Click the down arrow (![](../assets/magento-bi-btn-down.png)) to show the options. If you created a group, the new dashboard appears below the group in the list.
 
 #### Add a report
 
@@ -51,12 +51,12 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
     * In the dashboard header, click **Add Report**.
 
-        ![]({% link images/magento-bi-dashboard-create-add-report.png %}){: .zoom}
+        ![](../assets/magento-bi-dashboard-create-add-report.png){: .zoom}
     *Add Report*
 
 1. Click **Create Report** to show the **Report Builder Options**.
 
-    ![]({% link images/magento-bi-report-builder.png %}){: .zoom}
+    ![](../assets/magento-bi-report-builder.png){: .zoom}
     *Report Builder Options*
 
 ## Arrange items on a dashboard
@@ -81,7 +81,7 @@ When you share a dashboard, you can assign permissions across your organization 
 
 **If you’re an Admin or Standard user** and want to add a shared dashboard to your account, you can do so by clicking **Dashboard Options** and then clicking **Find** in the dropdown.
 
-![find\_dashboard.png]({% link images/find_dashboard.png %}){: width="1000" height="535"}
+![find\_dashboard.png](../assets/find_dashboard.png){: width="1000" height="535"}
 
 #### Manage dashboard settings
 

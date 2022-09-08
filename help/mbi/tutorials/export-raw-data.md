@@ -9,9 +9,9 @@ Raw data exports provide access to additional columns and dimensions generated t
 
 This tutorial covers the following
 
-* [Selecting Data to Export](#select)
-* [Downloading the Export (.csv file)](#download)
-* [Accessing Historical Exports](#historical)
+* [Selecting Data to Export](../#select)
+* [Downloading the Export (.csv file)](../#download)
+* [Accessing Historical Exports](../#historical)
 
 ## Step 1: Selecting Data to Export {#select}
 
@@ -19,7 +19,7 @@ There are two ways you can export raw data in Magento BI: at the chart level or 
 
 ### Exporting at the Table Level in your Manage Data Tab
 
-If you want to export the table from **Manage Data** tab, you\'ll need [Admin]({% link administrator/user-management/user-management.md %}) permissions.
+If you want to export the table from **Manage Data** tab, you\'ll need [Admin](../administrator/user-management/user-management.md) permissions.
 
 1. Click **Manage Data** &gt; **Export Data** &gt; **Raw Data Export** to get started.
 1. You\'ll see an **Export List** of recently created data exports, if any exist. Click **Add Export** to create a new export.
@@ -41,7 +41,7 @@ If you want to export the table from **Manage Data** tab, you\'ll need [Admin]({
 
 Let\'s take a look at the entire process at the chart level.
 
-![]({% link images/Chart-level_export.gif %})
+![](../assets/Chart-level_export.gif)
 
 ## Step 2: Downloading the Export {#download}
 
@@ -49,7 +49,7 @@ The export will begin processing immediately after completing your selections in
 
 To check if your export is ready, click the **Raw Data Exports** button in the top right corner of the screen. Click the **Download** button to download a zipped .csv of your export.
 
-![]({% link images/Downloading_export.gif %})
+![](../assets/Downloading_export.gif)
 
 ## Step 3: Accessing Historical Exports {#historical}
 

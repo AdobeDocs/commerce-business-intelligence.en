@@ -24,7 +24,7 @@ Email summaries are a powerful communication tool you can use to share the curre
 
 1. In the **Choose Content** section, select the reports you want to include in the summary.
 
-   You can select up to 10 reports that you own. After you select a report, use the icons that appear to select if you want that report sent as a table or a chart. If you saved the report as a number, you can only send it as a number. For information about sending an email summary that contains a report with stale data, see [Managing your account settings]({% link administrator/account-management/managing-account-settings.md %}).
+   You can select up to 10 reports that you own. After you select a report, use the icons that appear to select if you want that report sent as a table or a chart. If you saved the report as a number, you can only send it as a number. For information about sending an email summary that contains a report with stale data, see [Managing your account settings](../administrator/account-management/managing-account-settings.md).
 
   {: .bs-callout-info}
   **Note**: Cohort reports are only available if you are using the new architecture.
@@ -76,7 +76,7 @@ In the **Set when to send the Email Summary** field, you can specify when to sen
 After you create and save an email summary, the **Email Summaries** page displays a list of all saved summaries. You can expand (`+`) each row for more information. The columns in this view are:
 
 * **Email Name** - Name of the email summary
-* **Content** - Type of content within the summary, such as the names of any reports. For information about sending an email summary that contains a report with stale data, see [Managing your account settings]({% link administrator/account-management/managing-account-settings.md %}).
+* **Content** - Type of content within the summary, such as the names of any reports. For information about sending an email summary that contains a report with stale data, see [Managing your account settings](../administrator/account-management/managing-account-settings.md).
 * **Scheduled** - Frequency, date, and time the email summary is sent
 * **Recipients** - Recipients of email summary
 * **Created Date** - Date the email summary was created

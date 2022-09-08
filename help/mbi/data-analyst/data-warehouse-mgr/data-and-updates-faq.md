@@ -3,18 +3,18 @@ title: Data and Updates FAQ
 zendesk_id: 360016503632
 ---
 
-* [Why did my data change?](#datachange)
-* [What's the difference between a regular and forced update?](#regularforcedupdates)
-* [Why does the update cycle take a long time?](#updatecycletime)
-* [Can I be notified when an update cycle completes?](#notifyupdate)
-* [Why is Google ECommerce data different from my database?](#ecommdatabase)
-* [How do I troubleshoot a data discrepancy?](#datadiscrepancy)
+* [Why did my data change?](../#datachange)
+* [What's the difference between a regular and forced update?](../#regularforcedupdates)
+* [Why does the update cycle take a long time?](../#updatecycletime)
+* [Can I be notified when an update cycle completes?](../#notifyupdate)
+* [Why is Google ECommerce data different from my database?](../#ecommdatabase)
+* [How do I troubleshoot a data discrepancy?](../#datadiscrepancy)
 
 #### Why did my data change? {#datachange}
 
-Chart values can change throughout the day due to new data being synced to your data warehouse. Additionally, values for existing data columns can change due to [rechecks]({% link data-analyst/data-warehouse-mgr/cfg-data-rechecks.md %}). A recheck is a process that looks for changed values in data columns - for example, an order status moving from **open** to **shipped.**
+Chart values can change throughout the day due to new data being synced to your data warehouse. Additionally, values for existing data columns can change due to [rechecks](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md). A recheck is a process that looks for changed values in data columns - for example, an order status moving from **open** to **shipped.**
 
-There are a few different ways [to check the status of your update cycle]({% link best-practices/check-update-cycle.md %}), depending on the type of user permissions you have.
+There are a few different ways [to check the status of your update cycle](../best-practices/check-update-cycle.md), depending on the type of user permissions you have.
 
 #### What's the difference between a regular and forced update? {#regularforcedupdates}
 
@@ -22,7 +22,7 @@ Regular updates are **scheduled** processes while forced updates are **manual pr
 
 #### Why does the update cycle take a long time? {#updatecycletime}
 
-A lot of factors can add to an already lengthy update time. Certain [replication methods]({% link data-analyst/data-warehouse-mgr/cfg-replication-methods.md %}), [higher recheck frequencies]({% link data-analyst/data-warehouse-mgr/cfg-data-rechecks.md %}), and the number of dashboards and charts are just a few contributors. We recommend [reconfiguring some of your settings]({% link best-practices/reduce-update-cycle-time.md %}) and [optimizing your database for analysis]({% link best-practices/opt-db-analysis.md %}) to reduce update times.
+A lot of factors can add to an already lengthy update time. Certain [replication methods](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md), [higher recheck frequencies](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md), and the number of dashboards and charts are just a few contributors. We recommend [reconfiguring some of your settings](../best-practices/reduce-update-cycle-time.md) and [optimizing your database for analysis](../best-practices/opt-db-analysis.md) to reduce update times.
 
 #### Can I be notified when an update cycle completes? {#notifyupdate}
 

@@ -21,15 +21,15 @@ Most cohort analyses in Magento BI group users together by a common date (i.e, t
 
 ## How does that differ from the normal cohort builder? {#different}
 
-The [Cohort Analysis Builder]({% link data-analyst/dev-reports/cohort-rpt-bldr.md %}) is optimized for grouping cohorts using a time-based characteristic. This is great for analyses focusing on a specific segment of user (i.e., all users who were acquired via a paid search campaign). In the Cohort Analysis Builder, you can (1) focus in on that specific user group, and (2) cohort on a date (like their first order date).
+The [Cohort Analysis Builder](../data-analyst/dev-reports/cohort-rpt-bldr.md) is optimized for grouping cohorts using a time-based characteristic. This is great for analyses focusing on a specific segment of user (i.e., all users who were acquired via a paid search campaign). In the Cohort Analysis Builder, you can (1) focus in on that specific user group, and (2) cohort on a date (like their first order date).
 
 However, if you want to analyze the cohort behavior of multiple user segments in the same cohort report (paid search vs. organic search vs direct traffic, perhaps?), this more advanced analysis can be constructed in the Report Builder.
 
 ## What information should I send to support to set up my analysis? {#support}
 
-Creating a qualitative cohort report in the Report Builder involves our analyst team creating some [advanced calculated columns]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %}) on the necessary tables.
+Creating a qualitative cohort report in the Report Builder involves our analyst team creating some [advanced calculated columns](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) on the necessary tables.
 
-To build these, submit a [support ticket]({% link getting-started/support.md %}) (and reference this article!). Here’s what we’ll need to know:
+To build these, submit a [support ticket](../getting-started/support.md) (and reference this article!). Here’s what we’ll need to know:
 
 * The **metric** you want to perform your cohort analysis with and what table it uses (example: **Revenue**, built on the **orders** table).
 
@@ -45,7 +45,7 @@ Once our analyst team responds to the above, you will have a couple of new advan
 
 First, you’ll want to add the metric you’re interested in cohorting, **once for each cohort you are analyzing**. In this example, we want to see cumulative **Revenue** made in the months after a customer’s first order, segmented by the **User’s referral source**. This means that, for each segment, we will add one **Revenue** metric and filter for the specific segment:
 
-![]({% link images/qualcohort1.gif %})
+![](../assets/qualcohort1.gif)
 
 Second, you should make two changes to the time options of the report:
 
@@ -55,7 +55,7 @@ Second, you should make two changes to the time options of the report:
 
 In our example, we’ll be looking at an **all time** view of **Revenue**. After this, you should end up with a series of dots:
 
-![]({% link images/qualcohort2.gif %})
+![](../assets/qualcohort2.gif)
 
 Third, you will make an adjustment to actually set up the cohorts. Based on the **cohort date** and **time interval** you specified to our analyst team, you’ll have a dimension in your account that will perform the cohort dating. In this example, that custom dimension is called **Months between this order and customer’s first order date**. Using this dimension, you should:
 

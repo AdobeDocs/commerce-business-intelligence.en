@@ -9,9 +9,9 @@ In this article, we demonstrate how to set up a dashboard that will track your w
 
 ## Prerequisites
 
-**Import your advertising cost data** - Connect [Google AdWords]({% link data-analyst/importing-data/integrations/google-adwords.md %}) to Magento BI - this will automatically sync your AdWords spend in Magento BI.
+**Import your advertising cost data** - Connect [Google AdWords](../data-analyst/importing-data/integrations/google-adwords.md) to Magento BI - this will automatically sync your AdWords spend in Magento BI.
 
-**Track user acquisition channel data** - In order to tie your Google AdWords data to specific orders in your database, we need to [track user acquisition]({% link data-analyst/analysis/google-track-user-acq.md %}) via Ecommerce in Google Analytics, allowing us to connect each order with a utm source and medium.
+**Track user acquisition channel data** - In order to tie your Google AdWords data to specific orders in your database, we need to [track user acquisition](../data-analyst/analysis/google-track-user-acq.md) via Ecommerce in Google Analytics, allowing us to connect each order with a utm source and medium.
 
 ## User acquisition campaigns
 

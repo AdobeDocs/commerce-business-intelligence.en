@@ -6,7 +6,7 @@ In Magento BI, data sources are called **integrations**. After an integration is
 
 Integrations are added and managed using the **Connections** page, which can be accessed by clicking **Manage Data &gt; Connections.** Here, you’ll see a list of all the integrations connected to your account, the integration type, status (\"Google Analytics\" and \"Data Import API\" connections will have blank status fields), and the last time a connection test (Last Connection Started column) was performed.
 
-![Data\_Sources\_Table.png]({% link images/Data_Sources_Table.png %})
+![Data\_Sources\_Table.png](../assets/Data_Sources_Table.png)
 
 #### Types of Integrations
 
@@ -14,9 +14,9 @@ There are four ways to get your data into Magento BI: connect a database, connec
 
 #### Database Integrations
 
-![Database\_icons.jpg]({% link images/Database_icons.jpg %})
+![Database\_icons.jpg](../assets/Database_icons.jpg)
 
-Magento BI supports SQL-based and NoSQL databases such as [MySQL]({% link data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md %}), [Microsoft SQL]({% link data-analyst/importing-data/integrations/microsoft-sql-server.md %}), [MongoDB]({% link data-analyst/importing-data/integrations/mongodb-via-ssh-tunnel.md %}), and [PostgreSQL]({% link data-analyst/importing-data/integrations/postgresql.md %}).
+Magento BI supports SQL-based and NoSQL databases such as [MySQL](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md), [Microsoft SQL](../data-analyst/importing-data/integrations/microsoft-sql-server.md), [MongoDB](../data-analyst/importing-data/integrations/mongodb-via-ssh-tunnel.md), and [PostgreSQL](../data-analyst/importing-data/integrations/postgresql.md).
 
 While you can directly connect your database to Magento BI using database credentials, **we recommend you use a proven encryption method like an SSH tunnel**. This will ensure that your data stays safe and secure as it makes its way into your data warehouse.
 
@@ -24,15 +24,15 @@ Depending on the connection method and type of database, some tech expertise mig
 
 #### SaaS Integrations
 
-![]({% link images/SaaS_icons.jpg %})
+![](../assets/SaaS_icons.jpg)
 
-SaaS integrations are services like [Google Adwords]({% link data-analyst/importing-data/integrations/google-adwords.md %}), [Salesforce]({% link data-analyst/importing-data/integrations/salesforce.md %}), and [Zendesk]({% link data-analyst/importing-data/integrations/zendesk.md %}). It’s important to note that because third-party data lives on the vendor’s server, you can’t directly access it like you can with the data in a database.
+SaaS integrations are services like [Google Adwords](../data-analyst/importing-data/integrations/google-adwords.md), [Salesforce](../data-analyst/importing-data/integrations/salesforce.md), and [Zendesk](../data-analyst/importing-data/integrations/zendesk.md). It’s important to note that because third-party data lives on the vendor’s server, you can’t directly access it like you can with the data in a database.
 
-In most cases, setting up an integration in Magento BI is as easy as simply entering your account credentials. Some services might require an API key to complete the authorization - check out the [integrations section]({% link data-analyst/importing-data/integrations/integrations.md %}) for instructions on generating any credentials you need.
+In most cases, setting up an integration in Magento BI is as easy as simply entering your account credentials. Some services might require an API key to complete the authorization - check out the [integrations section](../data-analyst/importing-data/integrations/integrations.md) for instructions on generating any credentials you need.
 
 #### File Upload
 
-Not sure how to get data from a supplementary source into your data warehouse? [Using the File Upload feature]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}) is a good way to pull in data that you don’t need for everyday decision making. Following our formatting rules, you can quickly upload CSV files into your data warehouse and join them with other data sources.
+Not sure how to get data from a supplementary source into your data warehouse? [Using the File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md) is a good way to pull in data that you don’t need for everyday decision making. Following our formatting rules, you can quickly upload CSV files into your data warehouse and join them with other data sources.
 
 #### Magento BI Import API
 
@@ -47,10 +47,10 @@ To learn more about getting started with the Import API, check out the [Develope
 To add an integration, click **Manage Data &gt; Connections** and then the **Add a New Data Source** button. Click the icon of the integration you want to add and follow the instructions in our help articles to set things up:
 
 * [Integration FAQ](https://support.magento.com/hc/en-us/sections/360003161871-Integration-FAQ)
-* [Available SaaS and database integrations]({% link data-analyst/importing-data/integrations/integrations.md %})
-* [Consolidating your tables]({% link best-practices/consolidating-your-tables.md %})
-* [Restricting access to your database]({% link administrator/account-management/restrict-db-access.md %})
+* [Available SaaS and database integrations](../data-analyst/importing-data/integrations/integrations.md)
+* [Consolidating your tables](../best-practices/consolidating-your-tables.md)
+* [Restricting access to your database](../administrator/account-management/restrict-db-access.md)
 
-**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you’re looking for something - for example, Facebook - but it isn’t listed, [submit a support ticket]({% link getting-started/support.md %}).
+**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you’re looking for something - for example, Facebook - but it isn’t listed, [submit a support ticket](../getting-started/support.md).
 
 **If you see an error status for an integration**, don\'t panic - check out the [Troubleshooting section](https://support.magento.com/hc/en-us/sections/360003078151) for help.

@@ -3,9 +3,9 @@ title: Expected QuickBooks data
 zendesk_id: 360016730671
 ---
 
-![]({% link images/Quickbooks.png %})
+![](../assets/Quickbooks.png)
 
-After [you have connected your QuickBooks account]({% link data-analyst/importing-data/integrations/quickbooks.md %}), you can use the [Data Warehouse Manager]({% link data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis. The following tables will be created in your data warehouse:
+After [you have connected your QuickBooks account](../data-analyst/importing-data/integrations/quickbooks.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis. The following tables will be created in your data warehouse:
 
 To view all the fields available for tracking, click the links in the table name column.
 
@@ -48,5 +48,5 @@ To view all the fields available for tracking, click the links in the table name
 
 ## Related:
 
-* [Connecting QuickBooks]({% link data-analyst/importing-data/integrations/quickbooks.md %})
+* [Connecting QuickBooks](../data-analyst/importing-data/integrations/quickbooks.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)

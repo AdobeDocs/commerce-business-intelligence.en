@@ -3,7 +3,7 @@ title: Expected Stripe data
 zendesk_id: 360016507452
 ---
 
-After [you’ve connected your Stripe account]({% link data-analyst/importing-data/integrations/stripe.md %}), you can use the [Data Warehouse Manager]({% link data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
+After [you’ve connected your Stripe account](../data-analyst/importing-data/integrations/stripe.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
 
 In this article, we’ll explore the main data tables that you can import from Stripe into Magento BI. After setup is completed, the following tables will be created in your data warehouse. Click the links in the Table Name column to learn more about the attributes in each table.
 
@@ -20,5 +20,5 @@ Note that many API requests may cause multiple events to be created. For example
 
 ## Related:
 
-* [Connecting Stripe]({% link data-analyst/importing-data/integrations/stripe.md %})
+* [Connecting Stripe](../data-analyst/importing-data/integrations/stripe.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)

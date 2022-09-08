@@ -7,6 +7,6 @@ Take your pick - plain English or the metric definition. Users can annotate char
 
 ## Related:
 
-* [Basic Analytics]({% link data-analyst/analysis/basic-analytics.md %})
-* [Visual Report Builder]({% link data-user/reports/ess-rpt-build-visual.md %})
-* [SQL Report Builder]({% link data-analyst/dev-reports/what-is-sql-rprt-bldr-.md %})
+* [Basic Analytics](../data-analyst/analysis/basic-analytics.md)
+* [Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md)
+* [SQL Report Builder](../data-analyst/dev-reports/what-is-sql-rprt-bldr-.md)

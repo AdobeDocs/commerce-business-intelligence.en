@@ -23,4 +23,4 @@ This is particularly useful if you want to re-create an existing set of charts b
 
 Example:
 
-![clone dashboard]({% link images/datgif.gif %})
+![clone dashboard](../assets/datgif.gif)

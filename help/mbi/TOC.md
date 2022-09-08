@@ -63,7 +63,7 @@ user-guide-description: Learn how to use MBI features available for Adobe Commer
     - [Report Builder vs SQL Report Builder](data-analyst/dev-reports/diff-rpt-bldr-sql-rprt-bldr-.md)
     - [Explore special filter operators](data-analyst/dev-reports/explr-special-filter-ops.md)
     - [Export the results of my query](data-analyst/dev-reports/export-query-results.md)
-    - [Using Formulas in the Report Builder](data-analyst/dev-reports/formulas-in-rpt-bldr.md)
+    - [Using Formulas in the Report Builder](../data-analyst/dev-reports/formulas-in-rpt-bldr.md)
     - [Create Google Analytics charts](data-analyst/dev-reports/google-analytics-charts-regex.md)
     - [Importance of the Lifetime Revenue Cohort Analysis](data-analyst/dev-reports/lifetime-rev-cohort-analysis.md)
     - [Ordering data using the Show Top/Bottom feature](data-analyst/dev-reports/order-data-top-bottom-feat.md)

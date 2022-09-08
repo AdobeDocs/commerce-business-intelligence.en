@@ -4,9 +4,9 @@ zendesk_id: 360016504252
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
-![]({% link images/Quickbooks.png %})
+![](../assets/Quickbooks.png)
 
 With the QuickBooks integration, your business finances can now live along side your sales and marketing data, allowing you to quickly and easily keep tabs on your expenses, identify overspending, and more.
 
@@ -21,12 +21,12 @@ With the QuickBooks integration, your business finances can now live along side 
 
 After clicking the **Connect to Quickbooks** button, log into your Intuit account and authorize the connection:
 
-![]({% link images/QuickBooks_App_Store_1.jpg %})
+![](../assets/QuickBooks_App_Store_1.jpg)
 
 1. In the **Search for a company** drop-down, select your company.
 1. Click **Next**. You are redirected to MBI and a *Connection Successful!* message will display at the top of the screen.
 
 ## Related
 
-* [Expected QuickBooks data]({% link data-analyst/importing-data/integrations/quickbooks-data.md %})
+* [Expected QuickBooks data](../data-analyst/importing-data/integrations/quickbooks-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)

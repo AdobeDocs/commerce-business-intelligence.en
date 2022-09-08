@@ -5,17 +5,17 @@ zendesk_id: 360016506312
 
 ## IN THIS ARTICLE
 
-* [Allow access to the Magento BI IP address](#allowlist)
-* [Create a MySQL user for Magento BI](#steptwo)
-* [Enter connection info into Magento BI](#stepthree)
+* [Allow access to the Magento BI IP address](../#allowlist)
+* [Create a MySQL user for Magento BI](../#steptwo)
+* [Enter connection info into Magento BI](../#stepthree)
 
 ## JUMP TO
 
-* [MySQL via SSH tunnel]({% link data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md %})
+* [MySQL via SSH tunnel](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md)
 * **MySQL via direct connection**
-* [MySQL via cPanel]({% link data-analyst/importing-data/integrations/mysql-via-cpanel.md %})
+* [MySQL via cPanel](../data-analyst/importing-data/integrations/mysql-via-cpanel.md)
 
-**One thing we take seriously is data security. We strongly recommend you use [SSH]({% link data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md %}) or some other form of encryption to secure your data!** If this is not an option, you can still directly connect Magento BI to your database using the instructions in this article.
+**One thing we take seriously is data security. We strongly recommend you use [SSH](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data!** If this is not an option, you can still directly connect Magento BI to your database using the instructions in this article.
 
 In this article, we\'ll walk you through directly connecting your MySQL database to Magento BI. These settings can also be used with Magento EE/CE or any other eCommerce databases that use MySQL.
 
@@ -23,7 +23,7 @@ In this article, we\'ll walk you through directly connecting your MySQL database
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151**, but it's also on the MySQL credentials page:
 
-![MBI_Allow_Access_IPs.png]({% link images/MBI_allow_access_IPs.png %})
+![MBI_Allow_Access_IPs.png](../assets/MBI_allow_access_IPs.png)
 
 ## <span id="steptwo">Create a MySQL user for Magento BI</span>
 

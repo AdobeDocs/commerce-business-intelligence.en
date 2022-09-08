@@ -8,7 +8,7 @@ This is only available for clients that are on the Pro plan and utilizing the ne
 
 Consolidating your Zendesk data with your transactional database is an excellent way to better understand how your customers are interacting with your sales or customer success teams and what type of customers are utilizing your support platform. In this article, we will demonstrate how to set up a dashboard to get granular reports about your Zendesk performance and tie in your transactional customers.
 
-Before getting started, you\'ll want to connect your [Zendesk]({% link data-analyst/importing-data/integrations/zendesk.md %}). This analysis contains [advanced calculated columns]({% link data-analyst/data-warehouse-mgr/adv-calc-columns.md %}).
+Before getting started, you\'ll want to connect your [Zendesk](../data-analyst/importing-data/integrations/zendesk.md). This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
 
 <!-- Getting Started -->
 
@@ -300,7 +300,7 @@ Before getting started, you\'ll want to connect your [Zendesk]({% link data-anal
 {: style="list-style-type: circle;"}
 
 {:.bs-callout-info}
-Make sure to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 #### Reports
 

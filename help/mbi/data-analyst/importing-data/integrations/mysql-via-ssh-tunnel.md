@@ -3,17 +3,17 @@ title: Connecting MySQL via SSH tunnel
 zendesk_id: 360016506672
 ---
 
-* [Retrieve the Magento BI public key](#retrieve)
-* [Allow access to the Magento BI IP address](#allowlist)
-* [Create a Linux user for Magento BI](#linux)
-* [Create a MySQL user for Magento BI](#mysql)
-* [Enter the connection and user info into Magento BI](#finish)
+* [Retrieve the Magento BI public key](../#retrieve)
+* [Allow access to the Magento BI IP address](../#allowlist)
+* [Create a Linux user for Magento BI](../#linux)
+* [Create a MySQL user for Magento BI](../#mysql)
+* [Enter the connection and user info into Magento BI](../#finish)
 
 ## JUMP TO
 
 * **MySQL via SSH tunnel**
-* [MySQL via direct connection]({% link data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md %})
-* [MySQL via cPanel]({% link data-analyst/importing-data/integrations/mysql-via-cpanel.md %})
+* [MySQL via direct connection](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
+* [MySQL via cPanel](../data-analyst/importing-data/integrations/mysql-via-cpanel.md)
 
 To connect your MySQL database to Magento BI via an SSH tunnel, you (or your team, if you\'re not a techie) will need to do a few things:
 
@@ -38,7 +38,7 @@ Leave this page open throughout the tutorial - you\'ll need it in the next secti
 
 If you\'re a bit lost, here\'s how to navigate through Magento BI to retrieve the key:
 
-![]({% link images/MySQL_SSH.gif %}){: width="778"}
+![](../assets/MySQL_SSH.gif){: width="778"}
 
 ## Allow access to the Magento BI IP address {#allowlist}
 
@@ -46,7 +46,7 @@ For the connection to be successful, your must configure your firewall to allow 
 
 ## Creating a Linux user for Magento BI {#linux}
 
-This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user]({% link administrator/account-management/restrict-db-access.md %}) any way you like, as long as it retains the right to connect to the MySQL server.
+This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the MySQL server.
 
 1. To add the new user, run the following commands as root on your Linux server:
 

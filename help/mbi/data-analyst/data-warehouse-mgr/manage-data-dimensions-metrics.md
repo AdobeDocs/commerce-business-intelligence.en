@@ -23,7 +23,7 @@ To add one or more dimensions to multiple Metrics at once:
 1. {: dir="ltr"} Choose the table that contains the dimensions.
     {: dir="ltr"}
 
-1. {: dir="ltr"} In the **Choose Metric(s) to Add Dimensions** column, select the metrics you want to add dimensions to. Once selected, the **Choose Dimensions to Add** column will appear on the right. Check the dimensions you want to add to the selected metric.![]({% link images/Add_Dimensions.png %})
+1. {: dir="ltr"} In the **Choose Metric(s) to Add Dimensions** column, select the metrics you want to add dimensions to. Once selected, the **Choose Dimensions to Add** column will appear on the right. Check the dimensions you want to add to the selected metric.![](../assets/Add_Dimensions.png)
 1. {: dir="ltr"} If you’d like to segment or group by any of the data dimensions on reports, make sure to indicate they are Groupable.
     {: dir="ltr"}
 
@@ -65,7 +65,7 @@ To delete one or more dimensions from multiple metrics:
 1. {: dir="ltr"} Under the \"Dimensions\" section, use the \"Add a dimension\" dropdown menu to select a dimension to add.
     {: dir="ltr"}
 
-Note that any dimension that you want to filter or group by must already be tracked in Magento BI. If you do not find the desired dimension, we may need to start tracking a new data column in your database via the [Data Warehouse]({% link data-analyst/data-warehouse-mgr/tour-dwm.md %}) page.
+Note that any dimension that you want to filter or group by must already be tracked in Magento BI. If you do not find the desired dimension, we may need to start tracking a new data column in your database via the [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) page.
 {: style="padding-left: 30px;"}
 
 **To delete dimension(s) from a metric:**
@@ -80,8 +80,8 @@ Note that any dimension that you want to filter or group by must already be trac
 1. {: dir="ltr"} Under the “Dimensions” section, select the checkbox in the delete column next to the dimension(s) you wish to remove.
     {: dir="ltr"}
 
-Note that even after deleting a dimension, it still exists as a column on your table in our data warehouse. You can add it back to any metric, and build new metrics using these dimensions. To remove the data column a dimension corresponds to from Magento BI, simply untrack the data column via the [Data Warehouse]({% link data-analyst/data-warehouse-mgr/tour-dwm.md %}) page.
+Note that even after deleting a dimension, it still exists as a column on your table in our data warehouse. You can add it back to any metric, and build new metrics using these dimensions. To remove the data column a dimension corresponds to from Magento BI, simply untrack the data column via the [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) page.
 
 ## Related documentation
 
-* [Best Practices for Segmentation and Filtering]({% link best-practices/segment-filter.md %})
+* [Best Practices for Segmentation and Filtering](../best-practices/segment-filter.md)

@@ -5,13 +5,13 @@ zendesk_id: 360016503332
 
 In this article, we demonstrate how to set up a dashboard that will help you measure how total revenue is distributed among your customer base. Understand what percent of customers contribute what percent of revenue and create segmented lists to best market to and retain your high contributing customers.
 
-This analysis contains [advanced calculated columns]({% link data-analyst/data-warehouse-mgr/adv-calc-columns.md %}).
+This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
 
 #### Getting Started
 
 You will need to first upload a file containing just a primary key with the value of one. This will allow the creation of some necessary calculated columns for the analysis.
 
-You can leverage [the file uploader]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %}) as well as the image below to format your file.
+You can leverage [the file uploader](../data-analyst/importing-data/connecting-data/using-file-uploader.md) as well as the image below to format your file.
 
 #### Calculated Columns
 

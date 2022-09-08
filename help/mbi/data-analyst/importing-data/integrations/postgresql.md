@@ -5,11 +5,11 @@ zendesk_id: 360016506812
 
 To connect your PostgreSQL database to Magento BI via an SSH tunnel, you (or your team, if you\'re not a techie) will need to do a few things:
 
-1. [Retrieve the Magento BI public key](#retrieve)
-1. [Allow access to the Magento BI IP address](#allowlist)
-1. [Create a Linux user for Magento BI ](#linux)
-1. [Create a Postgres user for Magento BI ](#postgres)
-1. [Enter the connection and user info into Magento BI](#finish)
+1. [Retrieve the Magento BI public key](../#retrieve)
+1. [Allow access to the Magento BI IP address](../#allowlist)
+1. [Create a Linux user for Magento BI ](../#linux)
+1. [Create a Postgres user for Magento BI ](../#postgres)
+1. [Enter the connection and user info into Magento BI](../#finish)
 
 It\'s not as complicated as it might sound. Let\'s get started.
 
@@ -26,7 +26,7 @@ Leave this page open throughout the tutorial - you\'ll need it in the next secti
 
 If you\'re a bit lost, here\'s how to navigate through Magento BI to retrieve the key:
 
-![Retrieving the RJMetrics public key]({% link images/4.1.gif %})
+![Retrieving the RJMetrics public key](../assets/4.1.gif)
 
 ## Allow access to the Magento BI IP address {#allowlist}
 
@@ -34,7 +34,7 @@ For the connection to be successful, your must configure your firewall to allow 
 
 ## Creating a Linux user for Magento BI {#linux}
 
-This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user]({% link administrator/account-management/restrict-db-access.md %}) any way you like, as long as it retains the right to connect to the PostgreSQL server.
+This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the PostgreSQL server.
 
 1. To add the new user, run the following commands as root on your Linux server:
 

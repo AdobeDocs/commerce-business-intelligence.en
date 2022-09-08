@@ -11,10 +11,10 @@ To ensure your transition is as smooth as possible, we ask that you be as detail
 
 Before we dive in, you should know the answers to these questions:
 
-* **Is the new database on a new server?** Before submitting a request, update your data connection's settings under **Manage Data > Connections**. If you need a refresher on how to do this, go to the [Integrations]({% link data-analyst/importing-data/integrations/integrations.md %}) section and find the instructions for the type of database you are using.
+* **Is the new database on a new server?** Before submitting a request, update your data connection's settings under **Manage Data > Connections**. If you need a refresher on how to do this, go to the [Integrations](../data-analyst/importing-data/integrations/integrations.md) section and find the instructions for the type of database you are using.
 * **Does your all historical data exist in the new database or does it need to be migrated?** We can consolidate the historical and new data during the migration process. Even if you don’t need a consolidation, we ask that you let us know in your request.
 
-After you have the answers to the above, we\'ll need to know the type of migration: will **the new database have the [<u>same</u>](#sameschema) schema**, or will it have a **[<u>different</u>](#newschema) schema**? In the sections below, you'll find detailed instructions for each migration type.
+After you have the answers to the above, we\'ll need to know the type of migration: will **the new database have the [<u>same</u>](../#sameschema) schema**, or will it have a **[<u>different</u>](../#newschema) schema**? In the sections below, you'll find detailed instructions for each migration type.
 
 ## Migrating to a new database with the same schema {#sameschema}
 
@@ -43,13 +43,13 @@ To successfully complete this type of migration, existing data columns have to b
 
 Here’s a look at an example:
 
-![]({% link images/Migration_Spreadsheet.png %})
+![](../assets/Migration_Spreadsheet.png)
 
 Please note that if certain data columns do not have equivalent columns in the new database, there is a chance that certain analyses will be lost in the process.
 
 ## How do I submit a request? {#submitreq}
 
-You can reach out to us by [submitting a support request]({% link getting-started/support.md %}).
+You can reach out to us by [submitting a support request](../getting-started/support.md).
 
 If you followed the steps in the previous section for creating the column matching spreadsheet, don't forget to attach it.
 

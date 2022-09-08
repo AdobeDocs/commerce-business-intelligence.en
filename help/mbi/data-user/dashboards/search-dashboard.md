@@ -3,7 +3,7 @@ title: Searching for Dashboards
 zendesk_id: 360016506892
 ---
 
-In this article, we'll show you how to use the [Global Search feature](#global) to look for dashboards and how to search for [dashboards owned by other users](#other).
+In this article, we'll show you how to use the [Global Search feature](../#global) to look for dashboards and how to search for [dashboards owned by other users](../#other).
 
 ## Global Search {#global}
 
@@ -15,10 +15,10 @@ The Global Search menu allows you to search for and select dashboards to view.
 
 Example:
 
-![dashboard global search]({% link images/7.1.gif %})
+![dashboard global search](../assets/7.1.gif)
 
 ## Find Dashboards Owned by Other Users {#other}
 
 Looking for a dashboard owned by another user? If the dashboard can be viewed by others, you can search for it by clicking **Find** in the **Dashboard Options** drop-down.
 
-![find dashboards]({% link images/7.2.png %})
+![find dashboards](../assets/7.2.png)

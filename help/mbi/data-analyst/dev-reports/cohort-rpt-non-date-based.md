@@ -3,7 +3,7 @@ title: Using the Cohort Report Builder for Non-Date Based Cohorts
 zendesk_id: 360021791071
 ---
 
-Our [Cohort Report Builder]({% link data-analyst/dev-reports/cohort-rpt-bldr.md %}) has been great at helping merchants study how different subsets of users behave over time. In the past, the Cohort Report Builder was mainly optimized for grouping users by a common **cohort date** (i.e., the set of all customers who made their first purchase in a given month). The Non-Date Based Cohort feature now gives you the power to group users by a similar activity or attribute. Let’s look at a few use cases for this feature.
+Our [Cohort Report Builder](../data-analyst/dev-reports/cohort-rpt-bldr.md) has been great at helping merchants study how different subsets of users behave over time. In the past, the Cohort Report Builder was mainly optimized for grouping users by a common **cohort date** (i.e., the set of all customers who made their first purchase in a given month). The Non-Date Based Cohort feature now gives you the power to group users by a similar activity or attribute. Let’s look at a few use cases for this feature.
 
 ## Use Cases
 
@@ -27,7 +27,7 @@ Now that we’re in the Report Builder, let’s add the metric that we want to p
 
 ### Toggle Metric View to Cohort
 
-![1-toggle-metric-view-to-cohort.png]({% link images/1-toggle-metric-view-to-cohort.png %}){: width="300" height="318"}
+![1-toggle-metric-view-to-cohort.png](../assets/1-toggle-metric-view-to-cohort.png){: width="300" height="318"}
 
 This opens up a new window where we can configure the details of the Cohort Report.
 
@@ -39,9 +39,9 @@ Five specifications are needed to build a Cohort report:
 1. Cohort first action time range
 1. Time range after cohort occurrence
 
-![2-cohort-groups.png]({% link images/2-cohort-groups.png %}){: width="300" height="336"}
+![2-cohort-groups.png](../assets/2-cohort-groups.png){: width="300" height="336"}
 
-![3-cohort-first-action-time-range.png]({% link images/3-cohort-first-action-time-range.png %}){: width="400" height="554"}
+![3-cohort-first-action-time-range.png](../assets/3-cohort-first-action-time-range.png){: width="400" height="554"}
 
 #### 1. Grouping cohorts
 
@@ -51,7 +51,7 @@ Cohorts are grouped together by a behavior characteristic, in this example “Cu
 
 You have the option to show all results for the given characteristic. Since this can result in a large number of cohorts, you can select the specific cohorts (which will correspond to the various values available for “Customer’s first order GA source”) that you need.
 
-![4-cohort-groups.png]({% link images/4-cohort-groups.png %}){: width="300" height="338"}
+![4-cohort-groups.png](../assets/4-cohort-groups.png){: width="300" height="338"}
 
 #### 3. Action timestamp
 
@@ -65,9 +65,9 @@ Here is where you will select the date range that contains the cohorts action ti
 
 Do you want to see the cohorts over time by month, week, or year? Here is where you will make those selections. Beneath that section, you will select the time range after the cohort action timestamp occurred. For example, this will show you twelve months of data for the customers who placed the first order during the action time range.
 
-![5-cohort-first-action-time-range.png]({% link images/5-cohort-first-action-time-range.png %}){: width="400" height="557"}
+![5-cohort-first-action-time-range.png](../assets/5-cohort-first-action-time-range.png){: width="400" height="557"}
 
 ### Other notes
 
 * Filters applied to your metrics will remain intact when you toggle between Standard and Cohort views
-* For more details on Perspectives, you can go to [this article]({% link data-analyst/dev-reports/cohort-rpt-bldr.md %}#perspectives).
+* For more details on Perspectives, you can go to [this article](../data-analyst/dev-reports/cohort-rpt-bldr.md %}#perspectives).

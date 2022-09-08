@@ -3,7 +3,7 @@ title: Advanced Calculated Column Types
 zendesk_id: 360016730791
 ---
 
-Many analyses you might attempt to create, involve the use of a **new column** that you want to **group by** or **filter by**. The [Creating Calculated Columns]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %}) tutorial covers the basics for most use cases -- but you may want calculated column that’s a bit more complex than what the Data Warehouse Manager can create.
+Many analyses you might attempt to create, involve the use of a **new column** that you want to **group by** or **filter by**. The [Creating Calculated Columns](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) tutorial covers the basics for most use cases -- but you may want calculated column that’s a bit more complex than what the Data Warehouse Manager can create.
 {: #top}
 
 These types of columns can be created by our team of Data Warehouse analysts. To define a new calculated column, please provide us with the **following information**:
@@ -14,12 +14,12 @@ These types of columns can be created by our team of Data Warehouse analysts. To
 
 Here are some common examples of advanced calculated columns that users often find useful:
 
-* [Order (or rank) event sequentially](#compareevents)
-* [Find the time between two events](#twoevents)
-* [Compare sequential event values](#sequence)
-* [Convert currency](#currency)
-* [Convert timezones](#timezone)
-* [Something else](#else)
+* [Order (or rank) event sequentially](../#compareevents)
+* [Find the time between two events](../#twoevents)
+* [Compare sequential event values](../#sequence)
+* [Convert currency](../#currency)
+* [Convert timezones](../#timezone)
+* [Something else](../#else)
 
 ## I’m trying to order events sequentially {#compareevents}
 
@@ -38,7 +38,7 @@ An event number calculated column could be used to observe differences in behavi
 
 Want to see the Customer\'s order number column in action? Click the image to see it used as a Group By dimension in a report.
 
-![Using an event number calculated column to Group By the customer\'s order number.]({% link images/EventNumber.gif %}){: style="max-width: 500px;"}
+![Using an event number calculated column to Group By the customer\'s order number.](../assets/EventNumber.gif){: style="max-width: 500px;"}
 
 To create this type of calculated column, we’ll need to know:
 
@@ -46,7 +46,7 @@ To create this type of calculated column, we’ll need to know:
 * The field which identifies the owner of the events (i.e. **owner\_id** in this example)
 * The field by which you would like to order the events (i.e. **timestamp** in this example)
 
-[back to top](#top)
+[back to top](../#top)
 
 ## I’m trying to find the time between two events. {#twoevents}
 
@@ -60,14 +60,14 @@ Here\'s an example:
 
 A date difference calculated column could be used to create a metric which calculates the average or median time between two events. Click the image below to check out how the **Average time to first order** metric is used in a report.
 
-![Using a date difference calculated column to calculate Average time to first order.]({% link images/DateDifference.gif %}){: style="max-width: 500px;"}
+![Using a date difference calculated column to calculate Average time to first order.](../assets/DateDifference.gif){: style="max-width: 500px;"}
 
 To create this type of calculated column, we’ll need to know:
 
 * The table on which you would like to create this column
 * The two timestamps you’d like to know the difference between
 
-[back to top](#top)
+[back to top](../#top)
 
 ## I’m trying to compare sequential event values. {#sequence}
 
@@ -84,7 +84,7 @@ Here’s an example:
 
 A sequential event comparison can be used to find the average or median time between each sequential event. Click the image below to see the **Average and Median time between orders** metrics in action.
 
-=![Using a sequential event comparison calculated column to calculate Average and Median time between orders.]({% link images/SeqEventComp.gif %}){: style="max-width: 500px;"}=
+=![Using a sequential event comparison calculated column to calculate Average and Median time between orders.](../assets/SeqEventComp.gif){: style="max-width: 500px;"}=
 
 To create this type of calculated column, we’ll need to know:
 
@@ -92,7 +92,7 @@ To create this type of calculated column, we’ll need to know:
 * The field which identifies the owner of the events (i.e. **owner\_id** in the example)
 * The value field which you would like to see the difference between for each sequential event (i.e., **timestamp** in this example)
 
-[back to top](#top)
+[back to top](../#top)
 
 ## I’m trying to convert currency. {#currency}
 
@@ -111,7 +111,7 @@ To create this type of calculated column, we’ll need to know:
 * The column which indicates the currency in which the data was recorded (typically an ISO code)
 * The preferred reporting currency
 
-[back to top](#top)
+[back to top](../#top)
 
 ## I’m trying to convert timezones. {#timezone}
 
@@ -130,16 +130,16 @@ To create this type of calculated column, we’ll need to know:
 * The timezone in which the data was recorded
 * The preferred reporting timezone
 
-[back to top](#top)
+[back to top](../#top)
 
 ## I’m trying to do something not listed here. {#else}
 
 Not to worry - just because it isn’t listed here doesn’t mean it’s not possible. Our team of Data Warehouse Analysts has you covered.
 
-To define a new calculated column, [submit a support ticket]({% link getting-started/support.md %}) with details on exactly what you\'d like to build.
+To define a new calculated column, [submit a support ticket](../getting-started/support.md) with details on exactly what you\'d like to build.
 
 ## Related documentation
 
-* [Creating calculated columns]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %})
-* [Calculated column types]({% link data-analyst/data-warehouse-mgr/calc-column-types.md %})
-* [Building Google ECommerce dimensions with order and customer data]({% link data-analyst/data-warehouse-mgr/bldg-google-ecomm-dim.md %})
+* [Creating calculated columns](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md)
+* [Calculated column types](../data-analyst/data-warehouse-mgr/calc-column-types.md)
+* [Building Google ECommerce dimensions with order and customer data](../data-analyst/data-warehouse-mgr/bldg-google-ecomm-dim.md)

@@ -34,31 +34,31 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
 1. **Enable your Google ECommerce integration**
 
-   [Once enabled]({% link data-analyst/importing-data/integrations/google-ecommerce.md %}), make sure to [sync]({{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) the **medium** and **source** fields in your Data Warehouse. After this is completed, medium and source acquisition data will be brought into your Data Warehouse.
+   [Once enabled](../data-analyst/importing-data/integrations/google-ecommerce.md), make sure to [sync](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) the **medium** and **source** fields in your Data Warehouse. After this is completed, medium and source acquisition data will be brought into your Data Warehouse.
 
 1. **Upload a mapping of Google’s channel groupings**
 
-   To save you time, Magento has already created a table with the default groupings mapped as a file that you can [download](http://docs.magento.com/downloads/mbi/ga_channel_mapping.csv).
+   To save you time, Magento has already created a table with the default groupings mapped as a file that you can [download](../http://docs.magento.com/downloads/mbi/ga_channel_mapping.csv).
 
    If you are a GA pro and created your own channels, you will want to add your specific rules to the mapping table before uploading the file into Magento BI.
 
-   Bring it into your Data Warehouse as a [File Upload]({% link data-analyst/importing-data/connecting-data/using-file-uploader.md %})
+   Bring it into your Data Warehouse as a [File Upload](../data-analyst/importing-data/connecting-data/using-file-uploader.md)
 
-   ![]({% link images/Setting_Primary_Keys.png %})
+   ![](../assets/Setting_Primary_Keys.png)
 
 1. **Establish a relationship between Google ECommerce and Mappings File Upload**
 
-   To establish a relationship between the Google ECommerce and the mapping table, [submit a support request]({% link getting-started/support.md %}) to our Data Analyst team and reference this article. The analyst will create a new calculated column called **Channel** in the ECommerce table. **After a full update cycle**, this column will be ready to use in a Filter or Group by.
+   To establish a relationship between the Google ECommerce and the mapping table, [submit a support request](../getting-started/support.md) to our Data Analyst team and reference this article. The analyst will create a new calculated column called **Channel** in the ECommerce table. **After a full update cycle**, this column will be ready to use in a Filter or Group by.
 
 Congratulations! Now you have Google Analytics Channel groupings in your Data Warehouse, which means you can analyze your data from a new perspective:
 
-![Segmenting the Number of Orders metric by Channel]({% link images/GA_Channel_Gif.gif %})
+![Segmenting the Number of Orders metric by Channel](../assets/GA_Channel_Gif.gif)
 
 In this example, we started simple - segmenting the **Number of Orders** metric by **Channel**. Now it is your turn - go test out your new column and see what trends you can identify in your GA channel data!
 
 ## Related documentation
 
-* [Using the Report Builder]({% link tutorials/using-visual-report-builder.md %})
-* [Expected Google ECommerce data]({% link data-analyst/importing-data/integrations/google-ecommerce-data.md %})
-* [Building Google ECommerce dimensions with order and customer data]({% link data-analyst/data-warehouse-mgr/bldg-google-ecomm-dim.md %})
-* [What are your most valuable acquisition sources and channels?]({% link data-analyst/analysis/most-value-source-channel.md %})
+* [Using the Report Builder](../tutorials/using-visual-report-builder.md)
+* [Expected Google ECommerce data](../data-analyst/importing-data/integrations/google-ecommerce-data.md)
+* [Building Google ECommerce dimensions with order and customer data](../data-analyst/data-warehouse-mgr/bldg-google-ecomm-dim.md)
+* [What are your most valuable acquisition sources and channels?](../data-analyst/analysis/most-value-source-channel.md)

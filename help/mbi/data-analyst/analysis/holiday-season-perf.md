@@ -9,7 +9,7 @@ Rushes can be experienced at any point during the year; for example, if your bus
 
 ## Recommended metrics
 
-When analyzing holiday season performance, consider analyzing ([or building]({% link data-user/reports/ess-manage-data-metrics.md %})) these metrics:
+When analyzing holiday season performance, consider analyzing ([or building](../data-user/reports/ess-manage-data-metrics.md)) these metrics:
 
 #### Number of new customers, Number of orders, Revenue
 
@@ -23,7 +23,7 @@ This measure displays the overall average order value during your holiday season
 
 Now that we know what metrics to analyze, let’s look at some sample revenue data during the holiday season months of November and December for both 2014 and 2015.
 
-[ ![Daily holiday season revenue for 2014 and 2015]({% link images/Analyzing_holiday_season.png %}){: style="max-width: 500px;"}][2]{: data-lightbox="image-1" data-title="Daily holiday season revenue for 2014 and 2015"}
+[ ![Daily holiday season revenue for 2014 and 2015](../assets/Analyzing_holiday_season.png){: style="max-width: 500px;"}][2]{: data-lightbox="image-1" data-title="Daily holiday season revenue for 2014 and 2015"}
 *Click for a closer look!*
 
 In this example, there are two large spikes in revenue for 2014 and 2015: these increases coincide with Black Friday and Cyber Monday. Notice how the spikes aren’t on the same day for 2014 and 2015. This is because Black Friday fell on November 27 for 2014 and November 28 for 2015. Similarly, Cyber Monday was November 30 for 2014 and December 1 for 2015.
@@ -49,9 +49,9 @@ One option is to analyze your customers’ buying behavior during the holiday se
 
 Another option is to analyze your ROI by campaign during the holiday seasons. Is your ROI higher for particular campaigns that run during the holiday season? Should you be increasing spend for campaigns with high ROI during these seasons?
 
-Furthermore, you could analyze the number of discounted orders versus full price orders. [Are most customers waiting for a sale to purchase orders]({% link data-analyst/analysis/coupon-usage.md %}) during your holiday season or are they purchasing full price items?
+Furthermore, you could analyze the number of discounted orders versus full price orders. [Are most customers waiting for a sale to purchase orders](../data-analyst/analysis/coupon-usage.md) during your holiday season or are they purchasing full price items?
 
 ### Related
 
-* [Analyzing coupon impact on acquiring and retaining customers]({% link data-analyst/analysis/coupon-impact.md %})
-* [Analyzing customer repurchasing behavior]({% link data-analyst/analysis/repurchase-behavior.md %})
+* [Analyzing coupon impact on acquiring and retaining customers](../data-analyst/analysis/coupon-impact.md)
+* [Analyzing customer repurchasing behavior](../data-analyst/analysis/repurchase-behavior.md)

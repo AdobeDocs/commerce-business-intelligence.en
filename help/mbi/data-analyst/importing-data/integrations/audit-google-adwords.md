@@ -3,7 +3,7 @@ title: Auditing Google Adwords data
 zendesk_id: 360016505832
 ---
 
-Found something strange in [Google Adwords]({% link data-analyst/importing-data/integrations/google-adwords.md %})? To pinpoint the issue, you'll need to explore your data. This can be done by exporting your Adwords data to a CSV file.
+Found something strange in [Google Adwords](../data-analyst/importing-data/integrations/google-adwords.md)? To pinpoint the issue, you'll need to explore your data. This can be done by exporting your Adwords data to a CSV file.
 
 1. Download and install the free [Google Adwords Editor](https://ads.google.com/home/tools/ads-editor/) application.
 1. After installation is complete, select **Add Cccount** in the Add/manage accounts panel.

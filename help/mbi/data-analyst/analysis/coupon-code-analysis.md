@@ -5,9 +5,9 @@ zendesk_id: 360016731011
 
 Understanding the coupon performance of your business is an interesting way to segment your orders and also better understand your customers. This article will walk you through the steps to create analyses to understand which customers you acquire through the use of coupons, how they perform and track general coupon usage.
 
-![]({% link images/coupon_analysis_-_analysis_library.png %}){: width="800" height="375"}
+![](../assets/coupon_analysis_-_analysis_library.png){: width="800" height="375"}
 
-This analysis contains [advanced calculated columns]({% link data-analyst/data-warehouse-mgr/adv-calc-columns.md %}).
+This analysis contains [advanced calculated columns](../data-analyst/data-warehouse-mgr/adv-calc-columns.md).
 
 ## Getting Started
 
@@ -162,7 +162,7 @@ Additional columns to create if guest orders NOT supported:
 * Ordered by the **created\_at** timestamp
 * Filter:
 
-Note: Make sure to [add all new columns as dimensions to metrics]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 

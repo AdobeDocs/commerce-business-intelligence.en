@@ -7,12 +7,12 @@ The Data Warehouse Manager, accessed by clicking **Manage Data &gt; Data Warehou
 
 In this article, we\'ll cover:
 
-* [Learning your way around](#learning)
-* [Syncing tables and columns](#syncing)
-* [Creating calculated columns](#calculated)
-* [Dropping tables and removing columns](#delete)
-* [Syncing new tables in the background](#syncnew)
-* [So, when can I use my new columns?](#when)
+* [Learning your way around](../#learning)
+* [Syncing tables and columns](../#syncing)
+* [Creating calculated columns](../#calculated)
+* [Dropping tables and removing columns](../#delete)
+* [Syncing new tables in the background](../#syncnew)
+* [So, when can I use my new columns?](../#when)
 
 ## Learning your way around {#learning}
 
@@ -42,13 +42,13 @@ The Data Warehouse Manager not only gives you the ability to easily view and man
 1. Make sure you check the **Primary Key** columns - these columns have a key symbol next to the column name. A Primary Key is required to properly sync data into the Data Warehouse.
 
     If you’re syncing a table that comes directly from your database, it’s possible that Primary Keys may not be denoted. In this case, contact your database administrator to request that a primary key or keys be added to the table.
-1. When finished, click the ![button.png]({% link images/button.png %}){: width="30" height="27"} button.
+1. When finished, click the ![button.png](../assets/button.png){: width="30" height="27"} button.
 
-A *Success!* message will display and the status will change to Pending for the selected columns. After the next full update completes, the newly synced tables and columns will be available for use in reports; you can also set new [replication methods]({% link data-analyst/data-warehouse-mgr/cfg-replication-methods.md %}) after the initial sync.
+A *Success!* message will display and the status will change to Pending for the selected columns. After the next full update completes, the newly synced tables and columns will be available for use in reports; you can also set new [replication methods](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) after the initial sync.
 
 Here's a quick look at the whole process:
 
-![Adding columns to your data warehouse]({% link images/DW_sync.gif %}){: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Adding tables and columns to your data warehouse"}
+![Adding columns to your data warehouse](../assets/DW_sync.gif){: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Adding tables and columns to your data warehouse"}
 
 ### Syncing New Tables in the Background {#syncnew}
 
@@ -56,7 +56,7 @@ When you a sync a large, new table for the first time, your data warehouse needs
 
 To make sure that occurs, you should select the **Save and Sync Data Immediately** option syncing that table for the first time, as below:
 
-![]({% link images/mceclip0.png %})
+![](../assets/mceclip0.png)
 
 ### Checking for new tables and columns {#forceupdate}
 
@@ -70,7 +70,7 @@ Simply being able to see and manage data from all your sources makes gaining ins
 
 Let\'s say you want to add **user’s lifetime revenue** to your **users** table to find high value users. Or, if you want to segment revenue by gender, you can add **customer’s gender** to your **orders** table.
 
-To help you master creating these columns, [we created a tutorial]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %}) to walk you through it.
+To help you master creating these columns, [we created a tutorial](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) to walk you through it.
 
 ## Dropping Tables and Removing Columns {#delete}
 
@@ -78,9 +78,9 @@ Just as you have the ability to select tables and columns to sync to your Data W
 
 Don’t worry if you click Delete by accident. A dependency check runs before anything is deleted, so you’ll have the chance to review everything before confirming.
 
-**To remove columns, **click the table that the column belongs to. Check the columns you want to remove and click the ![button\_1.png]({% link images/button_1.png %}){: width="31" height="26"} button.
+**To remove columns, **click the table that the column belongs to. Check the columns you want to remove and click the ![button\_1.png](../assets/button_1.png){: width="31" height="26"} button.
 
-<strong>To remove a synced table, </strong>select all columns in the table, and again click the ![button\_1.png]({% link images/button_1.png %}){: width="31" height="26"} button. This will remove all native and calculated columns that use this table from your data warehouse.
+<strong>To remove a synced table, </strong>select all columns in the table, and again click the ![button\_1.png](../assets/button_1.png){: width="31" height="26"} button. This will remove all native and calculated columns that use this table from your data warehouse.
 
 ### Confirming Changes
 
@@ -90,16 +90,16 @@ While deleted dependencies cannot be restored, the tables and columns will still
 
 Here\'s a quick look at removing a column:
 
-![Removing a column from your data warehouse]({% link images/DW_delete.gif %}){: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Removing a column from your data warehouse"}
+![Removing a column from your data warehouse](../assets/DW_delete.gif){: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Removing a column from your data warehouse"}
 
 ## So, when can I use my new columns? {#when}
 
 New synced columns and new/updated calculated columns will be ready for use after the next full update completes. If an update is not already in progress, you can force an update by clicking the <strong>Force update </strong>link shown at the top of the **Data Warehouse** or **Integrations** page. You can also schedule an email notification upon completion of the update by clicking **Email me when** **complete**.
 
-When you’re ready to use your new columns in reports, [you’ll need to add them to metrics first]({% link data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md %}). Although data won’t be available until an update completes, you can still use new columns in reports. Data within the report will display when the update is finished.
+When you’re ready to use your new columns in reports, [you’ll need to add them to metrics first](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md). Although data won’t be available until an update completes, you can still use new columns in reports. Data within the report will display when the update is finished.
 
 ## That\'s it - we\'re at the end!
 
 We covered a lot of material in this tutorial. By now, you should have a solid understanding of what a database is, how data is organized, how tables relate to each other, and what you can do with the Data Warehouse Manager.
 
-Excellent! Go test out your new knowledge by [creating a calculated column]({% link data-analyst/data-warehouse-mgr/creating-calculated-columns.md %}) or [making some interesting reports]({% link tutorials/using-visual-report-builder.md %}).
+Excellent! Go test out your new knowledge by [creating a calculated column](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) or [making some interesting reports](../tutorials/using-visual-report-builder.md).

@@ -3,11 +3,11 @@ title: Managing Users and Permissions
 zendesk_id: 360016731291
 ---
 
-Magento Business Intelligence is intended to be a single source of truth across your organization. Each user will have their own set of dashboards which they can [share with other users]({% link data-user/dashboards/share-dashboard-with-users.md %}).
+MBI is intended to be a single source of truth across your organization. Each user will have their own set of dashboards which they can [share with other users](../data-user/dashboards/share-dashboard-with-users.md).
 
 ## User Permission Levels
 
-In Magento Business Intelligence, there are three general permission levels that apply to users, which are selected when an account is created:
+In MBI, there are three general permission levels that apply to users, which are selected when an account is created:
 
 * Admin
 * Standard
@@ -35,12 +35,12 @@ These permissions enable users to perform certain actions or access specific par
 | **Access Billing** | ✔ | ✔** |   |
 | **Contact Support** | ✔ | ✔ | ✔ |
 
-\* _You can limit a Standard user\'s [access to specific metrics]({% link administrator/user-management/restrict-metric-access.md %})._
+\* _You can limit a Standard user\'s [access to specific metrics](../administrator/user-management/restrict-metric-access.md)._
 
 ** _Standard users can access Billing with an additional permission setting._
 
 {:.bs-callout-info}
-Read-Only users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in Magento Business Intelligence, nor can they search for and add new dashboards to their account. Magento recommends that you share a specific set of dashboards with Read-Only users that you or another member of your team maintains. Do not clone a set of dashboards for them.
+Read-Only users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in MBI, nor can they search for and add new dashboards to their account. Magento recommends that you share a specific set of dashboards with Read-Only users that you or another member of your team maintains. Do not clone a set of dashboards for them.
 
 ## Additional permissions: Billing and Technical {#billingtech}
 
@@ -52,12 +52,12 @@ Billing users have access to the billing page and can change payment information
 
 Admin users have access to the Billing tab by default, but Standard users can also gain access if they have the \'Billing\' checkbox selected on their profile.
 
-![billing]({% link images/billing.png %}){: width="550" height="363"}
+![billing](../assets/billing.png){: width="550" height="363"}
 
 ### Technical
 
 Technical users don\'t have any permissions specific to them - this setting just marks a technical contact within your organization. These users may be contacted by our teams for technical questions.
 
-Admins can add new users to their account by clicking **Account Settings &gt; Create Users** and following the prompts. After the user is created in Magento Business Intelligence, the lucky person you’re inviting will receive email instructions on how to complete the account setup process.
+Admins can add new users to their account by clicking **Account Settings &gt; Create Users** and following the prompts. After the user is created in MBI, the lucky person you're inviting will receive email instructions on how to complete the account setup process.
 
-At any time, Admins can view all the users in their account by clicking **Account Settings &gt; Manage Users**. This page displays the user’s permissions and what metrics and dashboards they have access to.
+At any time, Admins can view all the users in their account by clicking **Account Settings &gt; Manage Users**. This page displays the user's permissions and what metrics and dashboards they have access to.

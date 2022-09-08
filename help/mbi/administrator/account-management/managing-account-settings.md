@@ -4,9 +4,9 @@ zendesk_id: 360016729811
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
-In your Magento BI account, you are able to customize a number of account settings for your data warehouse. These can be accessed by selecting your organization name in the upper right-hand corner of any screen, then choosing **Account Settings** from the dropdown.
+In your MBI account, you are able to customize a number of account settings for your data warehouse. These can be accessed by selecting your organization name in the upper right-hand corner of any screen, then choosing **Account Settings** from the dropdown.
 
 * **Client Name:** This setting appears in the upper-right-hand corner of all dashboards and elsewhere throughout your account. If you want to change **\"Vandelay Industries Co., Ltd\"** to just **\"Vandelay\"**, this is where to do that.
 
@@ -16,7 +16,7 @@ In your Magento BI account, you are able to customize a number of account settin
 
 * **Forced update hours:** This setting ensures that a data warehouse update automatically begins in your account *on the hour(s)* you have specified. As with blackout hours, these are also in ET. For example, if you want data warehouse updates to begin automatically at **midnight** and **noon** ET, you should type the following array of digits: **0, 12**.
 
-* **Send email summaries if the data has not updated yet:** This option tells the system what to do in situations where an email summary is scheduled to be sent *before the data in one of its reports *is refreshed up to the present. If you choose **No**, your account will skip sending the email at its scheduled time, and instead send it once your data has updated. If you choose **Yes**, your account will send the email, include a message explaining that the data is stale, and will send another email once your data has updated.
+* **Send email summaries if the data has not updated yet:** This option tells the system what to do in situations where an email summary is scheduled to be sent *before the data in one of its reports* is refreshed up to the present. If you choose **No**, your account will skip sending the email at its scheduled time, and instead send it once your data has updated. If you choose **Yes**, your account will send the email, include a message explaining that the data is stale, and will send another email once your data has updated.
 
 * **Enable data updates:** This option ensures that data updates run on your account. If you change the setting to **No**, data syncs and column calculations will completely halt in your account.
 

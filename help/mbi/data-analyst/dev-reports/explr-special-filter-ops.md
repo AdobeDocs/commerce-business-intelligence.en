@@ -3,7 +3,7 @@ title: Explore special filter operators
 zendesk_id: 360016732551
 ---
 
-In this article, we're going to explore a few special operators used in filters when [creating a report]({% link tutorials/using-visual-report-builder.md %}){: target="_blank"} or [creating a metric]({% link data-user/reports/ess-manage-data-metrics.md %}){: target="_blank"}.
+In this article, we're going to explore a few special operators used in filters when [creating a report](../tutorials/using-visual-report-builder.md){: target="_blank"} or [creating a metric](../data-user/reports/ess-manage-data-metrics.md){: target="_blank"}.
 
 ## Filter Operators
 

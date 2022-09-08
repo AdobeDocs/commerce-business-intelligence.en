@@ -3,17 +3,17 @@ title: Checking the Update Cycle Status
 zendesk_id: 360016506372
 ---
 
-When you log into your Magento BI dashboard, there are several ways to check the status of your last update cycle. It all depends on the type of [user permissions]({% link administrator/user-management/user-management.md %}) you have.
+When you log into your Magento BI dashboard, there are several ways to check the status of your last update cycle. It all depends on the type of [user permissions](../administrator/user-management/user-management.md) you have.
 
 ## Why Should I Check the Update Cycle Status?
 
-Checking the status update cycle is useful when you’re auditing the data in your Magento BI account. If you see [results that do not meet your expectations]({% link data-analyst/data-warehouse-mgr/data-and-updates-faq.md %}), for example, daily sales in Magento BI are not matching what you are seeing in your e-commerce platform or in your [Google e-commerce revenue](https://support.magento.com/hc/en-us/articles/360016505232) you can check the last data point to see if the issue will be resolved once an update completes.
+Checking the status update cycle is useful when you’re auditing the data in your Magento BI account. If you see [results that do not meet your expectations](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md), for example, daily sales in Magento BI are not matching what you are seeing in your e-commerce platform or in your [Google e-commerce revenue](https://support.magento.com/hc/en-us/articles/360016505232) you can check the last data point to see if the issue will be resolved once an update completes.
 
 ## Read-Only and Standard Users
 
 Read-only users can log into their dashboard and see how recently the data has been updated by hovering over the icon at the top right of the page. This will show when the last data point was pulled.
 
-![]({% link images/2016-12-20_1120.png %})
+![](../assets/2016-12-20_1120.png)
 
 ## Admin Users
 
@@ -21,7 +21,7 @@ Admin users can log into the dashboard and see the last data point above, along 
 
 For more detail, admin users can click **Manage Data** &gt; **Integrations**.
 
-![]({% link images/2016-12-20_1123.png %})
+![](../assets/2016-12-20_1123.png)
 
 This page will show you the current update status and the time of the last completed update.
 

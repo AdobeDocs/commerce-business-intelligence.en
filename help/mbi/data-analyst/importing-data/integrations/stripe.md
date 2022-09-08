@@ -4,12 +4,12 @@ zendesk_id: 360016733211
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions]({% link administrator/user-management/user-management.md %})
+[Requires Admin permissions](../administrator/user-management/user-management.md)
 
 Stripe allows you to manage and keep track of your business's payment and invoice data. Connecting your Stripe account to MBI is a simple two-step process:
 
-1. [Add Stripe as a data source in MBI](#stepone)
-1. [Allow MBI access to your Stripe Data](#steptwo)
+1. [Add Stripe as a data source in MBI](../#stepone)
+1. [Allow MBI access to your Stripe Data](../#steptwo)
 
 ## Add Stripe as a data source {#stepone}
 
@@ -34,6 +34,6 @@ After clicking the Connect with Stripe button, an access request page appears.
 
 If you are a little more tech-savvy, the [Stripe API Documentation](https://stripe.com/docs/api) can be a useful resource for learning more about how Stripe is integrated with MBI.
 
-* [Expected Stripe data]({% link data-analyst/importing-data/integrations/stripe-data.md %})
+* [Expected Stripe data](../data-analyst/importing-data/integrations/stripe-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
 
