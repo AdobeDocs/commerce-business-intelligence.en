@@ -12,7 +12,7 @@ In your MBI account, you are able to customize a number of account settings for 
 
 * **Currency:** This is the *default currency* for all monetary values in your account. Anytime a decimal or currency value is synced into your data warehouse, this setting determines the symbol placed before that value within your reports.
 
-* **Blackout Hours:** This setting ensures that, during the selected hours of the day, your data warehouse does not access your connected databases. All hours are expressed at zero-hour and in ET. For example, if you don't want your production database to be accessed between the hours of 9:00 AM EST and 1:00 PM EST, you should type the following array of digits: **9, 10, 11, 12**.
+* **Blackout Hours:** This setting ensures that, during the selected hours of the day, your data warehouse does not access your connected databases. All hours are expressed at zero-hour and in ET. For example, if you do not want your production database to be accessed between the hours of 9:00 AM EST and 1:00 PM EST, you should type the following array of digits: **9, 10, 11, 12**.
 
 * **Forced update hours:** This setting ensures that a data warehouse update automatically begins in your account *on the hour(s)* you have specified. As with blackout hours, these are also in ET. For example, if you want data warehouse updates to begin automatically at **midnight** and **noon** ET, you should type the following array of digits: **0, 12**.
 

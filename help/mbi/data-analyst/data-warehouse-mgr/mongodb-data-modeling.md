@@ -6,13 +6,13 @@ zendesk_id: 360016731711
 
 When MBI pulls in MongoDB data, that data is translated into a relational model.
 
-The bad news: While the majority of data patterns don’t pose an issue, there are a few that, because of the translation to a relational model, MBI doesn’t support.
+The bad news: While the majority of data patterns do not pose an issue, there are a few that, because of the translation to a relational model, MBI does not support.
 
 The good news: All these patterns can be avoided.
 
 ## Sub-nested Arrays {#subnested}
 
-If your collection looks like the example below, MBI will only replicate the data in the items array. Data from the subItems array won’t be pulled.
+If your collection looks like the example below, MBI will only replicate the data in the items array. Data from the subItems array won't be pulled.
 
 ```bash
     {
@@ -34,7 +34,7 @@ If your collection looks like the example below, MBI will only replicate the dat
 
 ## Variable Object Keys {#varobjectkeys}
 
-Collections that include objects with variable object keys aren’t replicated in MBI. For example:
+Collections that include objects with variable object keys aren't replicated in MBI. For example:
 
 ```bash
     {
@@ -47,7 +47,7 @@ Collections that include objects with variable object keys aren’t replicated i
     }
 ```
 
-This usually occurs where an object is being used and an array would be more appropriate. Let’s rework the above example:
+This usually occurs where an object is being used and an array would be more appropriate. Let's rework the above example:
 
 ```bash
     {

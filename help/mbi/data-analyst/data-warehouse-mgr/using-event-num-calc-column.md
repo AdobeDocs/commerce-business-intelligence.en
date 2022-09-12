@@ -7,7 +7,7 @@ This topic outlines the purpose and uses of the **Event Number** calculated colu
 
 **Explanation**
 
-The **Event Number** column type identifies the sequence in which events occurred for a particular **event owner**, like a customer or user. If you're familiar with SQL, this column type is identical to the **RANK** function. It could be used to observe differences in behavior between first-time events, repeat events, or nth events in your data.
+The **Event Number** column type identifies the sequence in which events occurred for a particular **event owner**, like a customer or user. If you are familiar with SQL, this column type is identical to the **RANK** function. It could be used to observe differences in behavior between first-time events, repeat events, or nth events in your data.
 
 In case of ties, this column contains the same **rank** for the tied events, and skips the subsequent numbers. For example, if it were ranking the numbers 5,8,10,10,12, the ranks would be 1,2,3,3,5.
 
@@ -118,5 +118,5 @@ Here are some instructions on creating an **Event Number** column:
 1. The first drop-down **Event Owner** specifies the entity for which the rank is to be determined. In the case of **Customer's order number**, a customer identifier such as **customer_id** or **customer_email** would be the **Event Owner**.
 1. The second drop-down **Event Rank** specifies the column that enforces the sequence that determines the rank of the row. In the case of **Customer's order number**, the **created_at** timestamp would be the **Event Rank**.
 1. Under the **Options** drop-down, you can add filters to exclude rows from being considered. The excluded rows will have a NULL value for this column.
-1. Provide a name to the column and hit **Save**.
+1. Provide a name to the column and click **Save**.
 1. The column will be available to use **immediately.**

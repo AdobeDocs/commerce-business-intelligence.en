@@ -3,7 +3,7 @@ title: How Magento Stores Data
 zendesk_id: 360016731051
 ---
 
-The Magento Commerce platform records and organizes a wide variety of valuable commerce data across hundreds of tables. In this topic, you will learn how that data is generated, what exactly causes a new row to be inserted into one of the [Core Magento Tables](../data-analyst/data-warehouse-mgr/common-mage-tables.md), and how are actions such as making a purchase or creating an account recorded into the Magento database. To explain these concepts, refer to the following example:
+The Magento Commerce platform records and organizes a wide variety of valuable commerce data across hundreds of tables. In this topic, you will learn how that data is generated, what exactly causes a new row to be inserted into one of the [Core Magento Tables](../data-warehouse-mgr/common-mage-tables.md), and how are actions such as making a purchase or creating an account recorded into the Magento database. To explain these concepts, refer to the following example:
 
 _Clothes4U_ is a clothing retailer with both an online, and a brick and mortar presence. It uses Magento Community Edition behind its website to gather and organize data.
 
@@ -30,7 +30,7 @@ Satisfied with all the settings for "Throwback Bellbottoms," the employee clicks
 
 ## customer\_entity
 
-Shortly after the addition of the three new products, a new customer, Sammy Customer, visits _Clothes4U_'s website for the first time. Since _Clothes4U_ does not [allow guest orders](https://support.magento.com/hc/en-us/articles/360016729951-Common-Magento-Misconceptions), Sammy Customer must first create an account on the website. She enters her credentials and clicks submit, resulting in the following new entry on the [customer\_entity table](../data-analyst/data-warehouse-mgr/cust-ent-table.md):
+Shortly after the addition of the three new products, a new customer, Sammy Customer, visits _Clothes4U_'s website for the first time. Since _Clothes4U_ does not [allow guest orders](https://support.magento.com/hc/en-us/articles/360016729951-Common-Magento-Misconceptions), Sammy Customer must first create an account on the website. She enters her credentials and clicks submit, resulting in the following new entry on the [customer\_entity table](../data-warehouse-mgr/cust-ent-table.md):
 
 |**entity\_id**|**entity\_type\_id**|**email**|**created\_at**|
 |---|---|---|---|
@@ -45,7 +45,7 @@ Shortly after the addition of the three new products, a new customer, Sammy Cust
 
 ## sales\_flat\_order (or Sales\_order if you have Magento 2.0 or later)
 
-With her account creation finished, Sammy Customer is ready to start making her purchase. As she navigates the website, she adds two pairs of the "Throwback Bellbottoms" and one "V-Neck T-Shirt" to her cart. Satisfied with her selections, she moves to checkout and submits her order, creating the following entry on the [sales\_flat\_order table](../data-analyst/data-warehouse-mgr/sales-flat-order-table.md):
+With her account creation finished, Sammy Customer is ready to start making her purchase. As she navigates the website, she adds two pairs of the "Throwback Bellbottoms" and one "V-Neck T-Shirt" to her cart. Satisfied with her selections, she moves to checkout and submits her order, creating the following entry on the [sales\_flat\_order table](../data-warehouse-mgr/sales-flat-order-table.md):
 
 |**entity\_id**|**customer\_id**|**subtotal**|**created\_at**|
 |---|---|---|---|
@@ -61,7 +61,7 @@ With her account creation finished, Sammy Customer is ready to start making her 
 
 ## sales\_flat\_order\_item ( or Sales\_order\_item if you have Magento 2.0 or later)
 
-In addition to the single row on the Sales\_flat\_order table, when Sammy Customer submits her order, a row for each unique item in that order is inserted into the [sales\_flat\_order\_item table](../data-analyst/data-warehouse-mgr/sales-flat-order-item-table.md):
+In addition to the single row on the Sales\_flat\_order table, when Sammy Customer submits her order, a row for each unique item in that order is inserted into the [sales\_flat\_order\_item table](../data-warehouse-mgr/sales-flat-order-item-table.md):
 
 |**item\_id**|**name**|**product\_id**|**order\_id**|**qty\_ordered**|**price**|
 |822|Throwback Bellbottoms|205|227|2|39.95|

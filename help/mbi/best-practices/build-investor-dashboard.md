@@ -60,11 +60,11 @@ With [Magento's Data Enrichment services](https://magento.com/services), you can
 
 ## Other Tips
 
-* Use a clear and concise [naming convention](../best-practices/naming-elements.md)
+* Use a clear and concise [naming convention](../../best-practices/naming-elements.md)
 * Share the dashboard with investor users
-* Or send it via [Automated email summary](../data-user/export-data/email-summaries.md)
+* Or send it via [Automated email summary](../../data-user/export-data/email-summaries.md)
 * Create only one dashboard. This will make the content easier to maintain, and you will know exactly what your investors are looking at.
 
 Organize your reports thoughtfully and pay attention to detail. Once complete, the dashboard will look similar to:
 
-![](../assets/mceclip0.png)
+![](../../assets/mceclip0.png)

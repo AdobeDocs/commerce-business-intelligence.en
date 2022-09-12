@@ -23,7 +23,7 @@ In this article, we will walk you through directly connecting your MySQL databas
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151**, but it is also on the MySQL credentials page:
 
-![MBI_Allow_Access_IPs.png](../assets/MBI_allow_access_IPs.png)
+![MBI_Allow_Access_IPs.png](../../assets/MBI_allow_access_IPs.png)
 
 ## <span id="steptwo">Create a MySQL user for MBI</span>
 
@@ -39,7 +39,7 @@ To restrict this user from accessing data in specific databases, tables, or colu
 
 ## <span id="stepthree">Enter connection info in MBI</span>
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data &gt; Connections** and click the Add New Data Source button, then the MySQL icon. Don't forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data &gt; Connections** and click the Add New Data Source button, then the MySQL icon. do not forget to toggle the Encrypted button to Yes.
 
 Enter the following info into this page, starting with the Database Connection section:
 
@@ -51,7 +51,7 @@ Enter the following info into this page, starting with the Database Connection s
 
    The value can be found in your my.cnf file (usually located at "/etc/my.cnf") underneath the line that reads "\[mysqld\]". If the bind-address line is commented out in that file, your server is secured from outside connection attempts.
 
-That's it! When you're finished, click the Save & Test button to complete the setup.
+That's it! When you are finished, click the Save & Test button to complete the setup.
 
 ## Related documentation
 

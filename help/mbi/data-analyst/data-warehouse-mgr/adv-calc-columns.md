@@ -38,7 +38,7 @@ An event number calculated column could be used to observe differences in behavi
 
 Want to see the Customer's order number column in action? Click the image to see it used as a Group By dimension in a report.
 
-![Using an event number calculated column to Group By the customer's order number.](../assets/EventNumber.gif){: style="max-width: 500px;"}
+![Using an event number calculated column to Group By the customer's order number.](../../assets/EventNumber.gif){: style="max-width: 500px;"}
 
 To create this type of calculated column, we need to know:
 
@@ -136,7 +136,7 @@ To create this type of calculated column, we need to know:
 
 Not to worry - just because it isn't listed here does not mean it is not possible. Our team of Data Warehouse Analysts has you covered.
 
-To define a new calculated column, [submit a support ticket](../getting-started/support.md) with details on exactly what you'd like to build.
+To define a new calculated column, [submit a support ticket](../../getting-started/support.md) with details on exactly what you'd like to build.
 
 ## Related documentation
 

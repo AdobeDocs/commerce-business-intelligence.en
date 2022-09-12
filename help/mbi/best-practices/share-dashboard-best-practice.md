@@ -11,13 +11,13 @@ At times, you may find multiple dashboards with the same name - this is usually 
 
 To see who owns a dashboard, click the dashboard dropdown on the top left. Any dashboards that do not have a name below them belong to you.
 
- ![](../assets/Dash_ownership.gif)
+ ![](../../assets/Dash_ownership.gif)
 
 To remove all duplicate dashboards:
 
 1. Sync with your team and identify the person who should maintain the dashboard.
-1. [Unshare yourself](../data-user/dashboards/leave-dashboard.md) from all similar dashboards, except the one shared by the main user.
-1. If you have a copy of the dashboard, [delete it](../data-user/dashboards/deleting-dashboard.md).
+1. [Unshare yourself](../../data-user/dashboards/leave-dashboard.md) from all similar dashboards, except the one shared by the main user.
+1. If you have a copy of the dashboard, [delete it](../../data-user/dashboards/deleting-dashboard.md).
 1. Ask others to delete their version of the dashboard.
 
 ## Create a Core Set of Dashboards
@@ -26,7 +26,7 @@ When new users are created, they do not own any dashboards or charts. They will,
 
 ## Share Dashboards with New Users
 
-New users may also benefit from access to some dashboards that aren't shared organization-wide. In these cases, we recommend that dashboard owners [share the relevant dashboards](../data-user/dashboards/share-dashboard-with-users.md) with new users as soon as their accounts are created.
+New users may also benefit from access to some dashboards that aren't shared organization-wide. In these cases, we recommend that dashboard owners [share the relevant dashboards](../../data-user/dashboards/share-dashboard-with-users.md) with new users as soon as their accounts are created.
 
 ## Be Selective with Edit Permissions
 

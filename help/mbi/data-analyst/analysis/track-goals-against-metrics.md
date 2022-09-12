@@ -15,7 +15,7 @@ You will need to first upload a file containing specific daily/monthly/quarterly
 
 You can use the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that our clients track in MBI include Orders, Revenue, and New registered accounts.
 
-![](../assets/Goals-_Excel.png)
+![](../../assets/Goals-_Excel.png)
 
 #### Metrics
 

@@ -90,4 +90,4 @@ This table includes all customer orders, whether or not that order was processed
 `store`
 
 *  Join to `store` table to create new columns that return details related to the Magento store associated with the order.
-   *  Path: `sales_order.store_id` (many) => `store.store_id` (one)
+   *  Path: `sales_order.store_id` (many) => `store.store_id` (one) 

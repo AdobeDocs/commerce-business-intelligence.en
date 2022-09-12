@@ -11,15 +11,15 @@ However, for some analyses, you may need to consider different Time Ranges or Ti
 * [Giving One Metric an Independent Time Interval](../#independenttimeinterval)
 * [Comparing the Same Metric Across Different Time Ranges](../#difftimerange)
 
-If you want to follow along with some of the sample reports discussed in this topic, open the [Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md) before continuing.
+If you want to follow along with some of the sample reports discussed in this topic, open the [Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md) before continuing.
 
 ## Analyzing Metrics without Timestamps {#notimestamp}
 
-Some metrics simply cannot trend over time because the data isn’t collected or stored with an associated timestamp. For example, an inventory table will often contain only one row for each SKU. In that case, you should [create the metric](../data-user/reports/ess-manage-data-metrics.md) without specifying a timestamp.
+Some metrics simply cannot trend over time because the data isn’t collected or stored with an associated timestamp. For example, an inventory table will often contain only one row for each SKU. In that case, you should [create the metric](../../data-user/reports/ess-manage-data-metrics.md) without specifying a timestamp.
 
 When using such a metric in your reporting, you’ll notice that adding this metric to a report automatically sets an independent **Time Interval** of **None** and **Time Range** of **Global**:
 
-![](../assets/Metrics_without_timestamps.gif)
+![](../../assets/Metrics_without_timestamps.gif)
 
 ## Giving One Metric an Independent Time Interval {#independenttimeinterval}
 
@@ -52,11 +52,11 @@ This type of report can be useful if you want to compare revenue generated year-
 
 Now we can see just how impactful each month was last year:
 
-![](../assets/Independent_Time_Int.png)
+![](../../assets/Independent_Time_Int.png)
 
 ## Comparing the Same Metric Across Different Time Ranges {#difftimerange}
 
-This example uses a custom dimension called **Day number of the month**. If you want to create this report and don’t already have this dimension in your Data Warehouse, [contact support](../getting-started/support.md) for assistance.
+This example uses a custom dimension called **Day number of the month**. If you want to create this report and don’t already have this dimension in your Data Warehouse, [contact support](../../getting-started/support.md) for assistance.
 
 The two most common examples in this category are (1) comparing growth metrics (revenue year-over-year, month-over-month, etc.) and (2) better understanding recent inventory or item sales trends.
 
@@ -77,7 +77,7 @@ To demonstrate this use case, we’ll look at the daily revenue for the previous
 
    Don’t worry if the metric disappears from the report - setting an independent time options automatically hides the metric from the report. To redisplay it, click the **Show** option next to the metric.
 
-   ![](../assets/Different_Time_Ranges.gif)
+   ![](../../assets/Different_Time_Ranges.gif)
 
    * Click **Apply** to save the interval and range settings.
 
@@ -85,7 +85,7 @@ To demonstrate this use case, we’ll look at the daily revenue for the previous
 
    * In the **Group By** dropdown, select **Show All** and click **Apply**. This will effectively create the X-axis values for the report:
 
-   ![TO4.png](../assets/TO4.png)
+   ![TO4.png](../../assets/TO4.png)
 
    * Rename the metrics. In our example, the first metric is **Revenue - 2015** and the second is **Revenue - 2014**.
 
@@ -125,7 +125,7 @@ To create the formulas, click **Add Formula**. Enter the formulae below and clic
 
    * For the **last promo period**, enter `D / C` in the **Formula** field.
 
-   ![](../assets/Different_Time_Ranges_2.png)
+   ![](../../assets/Different_Time_Ranges_2.png)
 
    * Lastly, customize the report by hiding the metrics and adding a SKU or a similar dimension to the report as a Group By.
 

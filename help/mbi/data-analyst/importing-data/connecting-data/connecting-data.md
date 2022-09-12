@@ -6,7 +6,7 @@ In MBI, data sources are called **integrations**. After an integration is succes
 
 Integrations are added and managed using the **Connections** page, which can be accessed by clicking **Manage Data &gt; Connections.** Here, you’ll see a list of all the integrations connected to your account, the integration type, status ("Google Analytics" and "Data Import API" connections will have blank status fields), and the last time a connection test (Last Connection Started column) was performed.
 
-![Data\_Sources\_Table.png](../assets/Data_Sources_Table.png)
+![Data\_Sources\_Table.png](../../assets/Data_Sources_Table.png)
 
 #### Types of Integrations
 
@@ -14,7 +14,7 @@ There are four ways to get your data into MBI: connect a database, connect a Saa
 
 #### Database Integrations
 
-![Database\_icons.jpg](../assets/Database_icons.jpg)
+![Database\_icons.jpg](../../assets/Database_icons.jpg)
 
 MBI supports SQL-based and NoSQL databases such as [MySQL](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md), [Microsoft SQL](../data-analyst/importing-data/integrations/microsoft-sql-server.md), [MongoDB](../data-analyst/importing-data/integrations/mongodb-via-ssh-tunnel.md), and [PostgreSQL](../data-analyst/importing-data/integrations/postgresql.md).
 
@@ -24,7 +24,7 @@ Depending on the connection method and type of database, some tech expertise mig
 
 #### SaaS Integrations
 
-![](../assets/SaaS_icons.jpg)
+![](../../assets/SaaS_icons.jpg)
 
 SaaS integrations are services like [Google Adwords](../data-analyst/importing-data/integrations/google-adwords.md), [Salesforce](../data-analyst/importing-data/integrations/salesforce.md), and [Zendesk](../data-analyst/importing-data/integrations/zendesk.md). It’s important to note that because third-party data lives on the vendor’s server, you can’t directly access it like you can with the data in a database.
 
@@ -48,9 +48,9 @@ To add an integration, click **Manage Data &gt; Connections** and then the **Add
 
 * [Integration FAQ](https://support.magento.com/hc/en-us/sections/360003161871-Integration-FAQ)
 * [Available SaaS and database integrations](../data-analyst/importing-data/integrations/integrations.md)
-* [Consolidating your tables](../best-practices/consolidating-your-tables.md)
-* [Restricting access to your database](../administrator/account-management/restrict-db-access.md)
+* [Consolidating your tables](../../best-practices/consolidating-your-tables.md)
+* [Restricting access to your database](../../administrator/account-management/restrict-db-access.md)
 
-**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you’re looking for something - for example, Facebook - but it isn’t listed, [submit a support ticket](../getting-started/support.md).
+**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you’re looking for something - for example, Facebook - but it isn’t listed, [submit a support ticket](../../getting-started/support.md).
 
-**If you see an error status for an integration**, don't panic - check out the [Troubleshooting section](https://support.magento.com/hc/en-us/sections/360003078151) for help.
+**If you see an error status for an integration**, do not panic - check out the [Troubleshooting section](https://support.magento.com/hc/en-us/sections/360003078151) for help.

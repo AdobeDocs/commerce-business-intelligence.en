@@ -10,7 +10,7 @@ The report builder allows you to easily see trends over time and change perspect
 
 ![](../../assets/Wow__mom__yoy.png)
 
-Before getting started, you want to familiarize yourself with explore perspectives in more detail [here](../../tutorials/using-visual-report-builder.md) as well as independent time options [here](../tutorials/time-options-visual-rpt-bldr.md).
+Before getting started, you want to familiarize yourself with explore perspectives in more detail [here](../../tutorials/using-visual-report-builder.md) as well as independent time options [here](../../tutorials/time-options-visual-rpt-bldr.md).
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 

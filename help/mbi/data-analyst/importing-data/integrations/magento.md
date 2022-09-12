@@ -4,7 +4,7 @@ zendesk_id: 360016505852
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
 Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your Magento data to MBI will allow you to answer these questions and more.
 
@@ -13,6 +13,6 @@ As Magento's database is based on MySQL, you can connect it to MBI through a [di
 ### Related
 
 * [Expected Magento data](../data-analyst/importing-data/integrations/magento-data.md)
-* [Recommended data dimensions for segmentation and filtering](../best-practices/segment-filter.md)
+* [Recommended data dimensions for segmentation and filtering](../../best-practices/segment-filter.md)
 * [What are your most valuable acquisition sources and channels?](../data-analyst/analysis/most-value-source-channel.md)
 

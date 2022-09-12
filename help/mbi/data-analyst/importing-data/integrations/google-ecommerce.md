@@ -4,9 +4,9 @@ zendesk_id: 360016732951
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
-you have got steady flow of traffic and orders, which means you're effectively reaching and acquiring customers. But what are your most valuable referral channels? What's the average lifetime value of customers acquired from one source versus another? By connecting your order referral source data from Google ECommerce to MBI, you can build analyses that will help you identify your [most valuable marketing channels](../data-analyst/analysis/most-value-source-channel.md).
+you have got steady flow of traffic and orders, which means you are effectively reaching and acquiring customers. But what are your most valuable referral channels? What's the average lifetime value of customers acquired from one source versus another? By connecting your order referral source data from Google ECommerce to MBI, you can build analyses that will help you identify your [most valuable marketing channels](../data-analyst/analysis/most-value-source-channel.md).
 
 Let us get started by entering our Google ECommerce credentials into MBI:
 
@@ -18,9 +18,9 @@ Let us get started by entering our Google ECommerce credentials into MBI:
 
      If you have multiple profiles and need some help identifying which is which, refer to the **Connecting Multiple GA profiles** section below.
 
-     ![](../assets/Screen_Shot_2015-11-17_at_12.16.43_PM.png){: width="500"}
+     ![](../../assets/Screen_Shot_2015-11-17_at_12.16.43_PM.png){: width="500"}
 
-1. Changes are saved automatically, so just click the **Back to Connections** button when you're finished.
+1. Changes are saved automatically, so just click the **Back to Connections** button when you are finished.
 
 ## Connecting multiple GA profiles to MBI
 

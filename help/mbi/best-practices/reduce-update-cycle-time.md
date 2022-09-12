@@ -19,17 +19,17 @@ As mentioned above, long update times are directly correlated to how much data h
 
 ## Remove Unused Charts from Dashboards
 
-At the end of the update cycle, MBI performs a cache operation for all charts. A cache stores data so future requests for information can be completed faster. In MBI, this means dashboards will load quickly because charts don't need to query data every time they load.
+At the end of the update cycle, MBI performs a cache operation for all charts. A cache stores data so future requests for information can be completed faster. In MBI, this means dashboards will load quickly because charts do not need to query data every time they load.
 
 Since MBI only performs cache operations for charts found in a dashboard, removing unused charts from your dashboards will decrease your update time. Keep in mind that the same chart might be on multiple dashboards - check with your team to make sure they also removed any unused charts.
 
 {:.bs-callout-info}
-Removing charts from your dashboard does not delete the chart. You can [add it back any time](../data-user/dashboards/add-charts-dashboard.md).
+Removing charts from your dashboard does not delete the chart. You can [add it back any time](../../data-user/dashboards/add-charts-dashboard.md).
 
 ## Optimize Your Database for Analysis
 
-In addition to reevaluating recheck frequencies, replication methods, and chart usefulness, you can also [optimize your database for analysis](../best-practices/opt-db-analysis.md).
+In addition to reevaluating recheck frequencies, replication methods, and chart usefulness, you can also [optimize your database for analysis](../../best-practices/opt-db-analysis.md).
 
 ## Wrapping Up
 
-If your update time still seems slow even after implementing these recommendations, [contact our support team](../getting-started/support.md).
+If your update time still seems slow even after implementing these recommendations, [contact our support team](../../getting-started/support.md).

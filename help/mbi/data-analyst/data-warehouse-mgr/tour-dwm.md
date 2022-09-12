@@ -3,7 +3,7 @@ title: A tour of the Data Warehouse Manager
 zendesk_id: 360016732431
 ---
 
-The Data Warehouse Manager, accessed by clicking **Manage Data &gt; Data Warehouse** in the sidebar, is the portal to your MBI Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill-down into a table's schema, and create calculated columns to use in reports. **Note that you need Admin permissions to access the Data Warehouse Manager.**
+The Data Warehouse Manager, accessed by clicking **Manage Data &gt; Data Warehouse** in the sidebar, is the portal to your MBI Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. **Note that you need Admin permissions to access the Data Warehouse Manager.**
 
 In this article, we will cover:
 
@@ -26,9 +26,9 @@ The **Synced Tables** option shows all tables that have already been added into 
 
 do not see the table you are looking for in the All Tables list? There are a few possible reasons for this:
 
-* The data source hasn't been added yet
+* The data source has not been added yet
 * The data source is a database and the MBI user you created does not have access. In this case, you or your database administrator will need to grant access.
-* The data source or table was recently added and hasn't been synced yet
+* The data source or table was recently added and has not been synced yet
 
 ## Syncing tables and columns {#syncing}
 

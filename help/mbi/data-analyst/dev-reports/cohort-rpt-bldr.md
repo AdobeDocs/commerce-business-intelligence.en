@@ -3,7 +3,7 @@ title: Using the Cohort Report Builder
 zendesk_id: 360016504632
 ---
 
-Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who don’t? If the answer is `Yes!`, then the Cohort Report Builder is the perfect tool for you. MBI is specifically optimized to perform this analysis and make it relevant to your business.
+Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who don't? If the answer is `Yes!`, then the Cohort Report Builder is the perfect tool for you. MBI is specifically optimized to perform this analysis and make it relevant to your business.
 
 ## What is cohort analysis? {#what}
 
@@ -11,7 +11,7 @@ Cohort analysis can be broadly defined as the analysis of user groups that share
 
 For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/){: target="_blank"} - we wrote the site on it!
 
-In your MBI dashboard, it’s easy to create user cohorts based on a cohort date and a metric in your account.
+In your MBI dashboard, it's easy to create user cohorts based on a cohort date and a metric in your account.
 
 ## Well, why is cohort analysis important? {#important}
 
@@ -21,7 +21,7 @@ As mentioned above, cohort analysis allows you to identify behavioral trends amo
 
 ### New Architecture
 
-These are the instructions for using the Cohort Report Builder on the [New Architecture](../administrator/account-management/new-architecture.md).
+These are the instructions for using the Cohort Report Builder on the [New Architecture](../../administrator/account-management/new-architecture.md).
 
 1. Click **Report Builder** on the left tab or **Add Report** > **Create Report** in any dashboard.
 
@@ -29,13 +29,13 @@ These are the instructions for using the Cohort Report Builder on the [New Archi
 
 **Adding a Metric**
 
-Now that we’re in the Report Builder, let’s add the metric that we want to perform the analysis on (example: **Revenue** or **Orders**).
+Now that we are in the Report Builder, we add the metric that we want to perform the analysis on (example: **Revenue** or **Orders**).
 
 **Note:** Native Google Analytics metrics are not compatible with the Cohort Report Builder.
 
 **Toggle the Metric View to Cohort**
 
-![](../assets/visual-report-builder-cohort-toggle.png)
+![](../../assets/visual-report-builder-cohort-toggle.png)
 
 This opens up a new window where we can configure the details of the Cohort Report.
 
@@ -65,11 +65,11 @@ By default, the current cohort will not be included unless you change the minimu
 
 #### 5. Time Range After Cohort Occurrence
 
-This feature allows you to set the time range of data that you view for the selected cohorts. For example, if you want to view 24 monthly cohorts based on customer’s first order date, but you are only interested in the first 3 months of data for each cohort, you can set the **number of cohorts to view** to `24` and the **time range after cohort occurrence** to `3`.
+This feature allows you to set the time range of data that you view for the selected cohorts. For example, if you want to view 24 monthly cohorts based on customer's first order date, but you are only interested in the first 3 months of data for each cohort, you can set the **number of cohorts to view** to `24` and the **time range after cohort occurrence** to `3`.
 
 The interval for this value changes with whatever you selected in the **cohort time period** and the value is set to `12` by default; the value will not change unless you click on the calendar icon to edit it.
 
-![](../assets/mceclip1.png)
+![](../../assets/mceclip1.png)
 
 #### Other notes
 
@@ -81,17 +81,17 @@ The interval for this value changes with whatever you selected in the **cohort t
 
 Here is an example to pull it all together. In this example, I want to check out order behavior after a cohort's first purchase to see if that cohort is coming back to make repeat purchases in the next 6 months.
 
-![Orders cohort](../assets/crb_example.gif){: style="max-width: 900px;"}
+![Orders cohort](../../assets/crb_example.gif){: style="max-width: 900px;"}
 
 ### Legacy Architecture
 
 #### Legacy Architecture {#personalinfo}
 
-Below are instructions specific to the legacy version of the Cohort Report Builder. If you are interested in using the new version, click [here](../administrator/account-management/new-architecture.md) for more information about migrating to a MBI New Architecture account.
+Below are instructions specific to the legacy version of the Cohort Report Builder. If you are interested in using the new version, click [here](../../administrator/account-management/new-architecture.md) for more information about migrating to a MBI New Architecture account.
 
 #### How do I create my own cohort analysis? {#create}
 
-![](../assets/Screen_Shot_2015-11-04_at_3.09.04_PM.png)
+![](../../assets/Screen_Shot_2015-11-04_at_3.09.04_PM.png)
 
 Cohort analysis in action! Here, we can see revenue growing over time on a cumulative and per-user basis.
 
@@ -103,13 +103,13 @@ In this section, we walk you through creating your own cohort analysis. For exam
 
 #### Adding a metric
 
-Now that we’re in the Cohort Report Builder, Let us add the metric (example: **Revenue** or **Number of orders**) that we want to perform the analysis on.
+Now that we're in the Cohort Report Builder, Let us add the metric (example: **Revenue** or **Number of orders**) that we want to perform the analysis on.
 
 **Note:** Native Google Analytics metrics are not compatible with the Cohort Report Builder.
 
 #### Selecting the cohort date {#date}
 
-The next step is to specify the **cohort date**. This is the date by which your users will be grouped. For example, this might be **User’s first order date** or **User’s registration date**.
+The next step is to specify the **cohort date**. This is the date by which your users will be grouped. For example, this might be **User's first order date** or **User's registration date**.
 
 **Note**: You cannot use the same date the metric is built on (example: created at) as the cohort date.
 
@@ -125,58 +125,58 @@ You can change how these intervals are displayed on the x-axis using the **Durat
 **Time Period**
 Use the **Time Period** menu to choose the specific user cohorts to analyze. You can show every cohort, choose from a list, specify a time range, or define a rolling time range of cohorts to include. For example, if we used the **Specific Cohorts** option, we can select specific months to include in the analysis:
 
-![Using the Time Period menu to add Specific Cohorts](../assets/Cohort_Time_Period.gif){: width: "900px"}
+![Using the Time Period menu to add Specific Cohorts](../../assets/Cohort_Time_Period.gif){: width: "900px"}
 
 If we were grouping our cohorts by registration date and then selected April, May, and June in the **Specific Cohorts** list, any users who registered in those months would be included.
 
 #### Defining the X-axis
 
-Under **duration**, you can define the chart’s X-axis settings. That is, how many time periods each data point represents and how many data points to include in the analysis.
+Under **duration**, you can define the chart's X-axis settings. That is, how many time periods each data point represents and how many data points to include in the analysis.
 
 #### Selecting the "counting members" table
 
-If you opted to group users by a cohort date that’s been joined from another table, you may see a **counting members in the … table** option.
+If you opted to group users by a cohort date that's been joined from another table, you may see a **counting members in the … table** option.
 
-![](../assets/Cohort_Counting_Members_option.png)
+![](../../assets/Cohort_Counting_Members_option.png)
 
-Let us look at an example to understand this setting. Suppose you built a report cohorting a **Revenue** metric by **Customer’s registration date**. You also wanted to use the perspective **Average value per cohort member** to see the revenue per buyer over time. To find the average value per buyer, we need to decide on the number of buyers to divide by. Is it the number of registered customers in your customers table, or is it the number of distinct buyers in your orders table for the same period of time?
+Let us look at an example to understand this setting. Suppose you built a report cohorting a **Revenue** metric by **Customer's registration date**. You also wanted to use the perspective **Average value per cohort member** to see the revenue per buyer over time. To find the average value per buyer, we need to decide on the number of buyers to divide by. Is it the number of registered customers in your customers table, or is it the number of distinct buyers in your orders table for the same period of time?
 
 This setting answers that question. Counting members in the **customers** table includes all customers (whether or not they made a purchase, ever) in the average. Counting members in the **orders** table includes only customers who made a purchase.
 
 #### Selecting a perspective {#perspective}
 
-After you’ve defined the metric and how you want to analyze it, you can select the perspective you want to use.
+After you've defined the metric and how you want to analyze it, you can select the perspective you want to use.
 
 Just above the report visualization is a drop-down of perspective settings.
 
 For more details on Perspectives, click [here](../#perspectives).
 
-![](../assets/Cohort_Perspective_Menu.png)
+![](../../assets/Cohort_Perspective_Menu.png)
 
 ## Examples of cohort analysis {#examples}
 
-Now that we’ve gone through how to create a cohort analysis, Let us take a look at some examples.
+Now that we've gone through how to create a cohort analysis, Let us take a look at some examples.
 
 #### I want to know how my user cohorts are growing over time.
 
-![User cohorts growing over time](../assets/cohort1.gif){: width: "900px"}
+![User cohorts growing over time](../../assets/cohort1.gif){: width: "900px"}
 
-In this example, we analyzed the **Revenue** metric, grouped our cohorts by the **customer’s first order date**, and selected the 8 most recent cohorts (defined in the Time Period menu) to include in the analysis. To see how the cohorts grew over time, we used the **Cumulative Average Value per Cohort Member** perspective.
+In this example, we analyzed the **Revenue** metric, grouped our cohorts by the **customer's first order date**, and selected the 8 most recent cohorts (defined in the Time Period menu) to include in the analysis. To see how the cohorts grew over time, we used the **Cumulative Average Value per Cohort Member** perspective.
 
 #### I want to know, on average, how many orders a user makes at different points in their lifetime.
 
-![Average number of orders users make at different points in their lifetimes](../assets/cohort2.gif){: width: "900px"}
+![Average number of orders users make at different points in their lifetimes](../../assets/cohort2.gif){: width: "900px"}
 
-For this example, we analyzed the **Number of orders** metric, grouped our cohorts by the **customer’s first order date**, and included the 8 most recent cohorts (defined in the Time Period menu) in the analysis. To see the average number of orders for each cohort, we changed the perspective to **Average Value per Cohort Member**.
+For this example, we analyzed the **Number of orders** metric, grouped our cohorts by the **customer's first order date**, and included the 8 most recent cohorts (defined in the Time Period menu) in the analysis. To see the average number of orders for each cohort, we changed the perspective to **Average Value per Cohort Member**.
 
-#### I want to understand how a user’s future purchasing activity compares to their first month’s activity with the business.
+#### I want to understand how a user's future purchasing activity compares to their first month's activity with the business.
 
-![Comparing a user's future purchasing activity to their first month of activity](../assets/cohort3.gif){: width: "900px"}
+![Comparing a user's future purchasing activity to their first month of activity](../../assets/cohort3.gif){: width: "900px"}
 
 ## Perspectives {#perspectives}
 
 **Standard**
-This shows the incremental contribution of a given cohort group at any given point in their life-cycle. (example: The “Week 6” point displays all data points made by users in their sixth week.)
+This shows the incremental contribution of a given cohort group at any given point in their life-cycle. (example: The "Week 6" point displays all data points made by users in their sixth week.)
 
 **Average Value per Cohort Member**
 This divides the Standard cohort analysis in (1) by the number of users in each cohort group. This can be useful for comparing cohort performances on an apples-to-apples basis, as not all cohort groups may include the same number of users. For example, the average week 6 revenue per user from a certain cohort.
@@ -188,11 +188,11 @@ This perspective shows the traditional cohort analysis on a cumulative basis. In
 This divides the Cumulative analysis in (3) by the number of users in each cohort group. It shows the average lifetime contribution (often average lifetime revenue) per cohort member at each period in the cohort's life. For example, the average lifetime revenue after 6 months of users that joined in June.
 
 **Percent of First Value (show first value)**
-This analyzes the aggregate cohort contribution at a specific time in a cohort’s life cycle as a percentage of their contribution in the first period. For example, the month 6 revenue divided by the month 1 revenue of users that joined in June.
+This analyzes the aggregate cohort contribution at a specific time in a cohort's life cycle as a percentage of their contribution in the first period. For example, the month 6 revenue divided by the month 1 revenue of users that joined in June.
 
 **Percent of First Value (hide first value)**
 This is the same as the perspective above, except that the first time period value of 100% is hidden.
 
 ## Wrapping up {#finish}
 
-The Cohort Builder is currently optimized for grouping users by a common **cohort date**. You might be interested in grouping the users by a similar activity or attribute - if that’s the case, we would love to help! We recommend checking out [this tutorial on qualitative cohorts](../data-analyst/dev-reports/create-qual-cohort-analysis.md) to get started.
+The Cohort Builder is currently optimized for grouping users by a common **cohort date**. You might be interested in grouping the users by a similar activity or attribute - if that's the case, we would love to help! We recommend checking out [this tutorial on qualitative cohorts](../dev-reports/create-qual-cohort-analysis.md) to get started.

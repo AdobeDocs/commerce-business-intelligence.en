@@ -5,7 +5,7 @@ zendesk_id: 360016729891
 
 You may be curious what the "Last successful update began" field is inside your Integrations page:
 
-![Last_successful_update.png](../assets/Last_successful_update.png)
+![Last_successful_update.png](../../assets/Last_successful_update.png)
 
 ## Understand the timestamp field
 

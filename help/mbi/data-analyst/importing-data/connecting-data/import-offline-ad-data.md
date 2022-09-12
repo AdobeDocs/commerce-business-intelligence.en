@@ -20,8 +20,8 @@ The table structure explored below is recommended when creating a CSV file to re
 * **ID** - This is a unique identifier for each data row which is used by the database as primary key. This must be different for every row.
 * **Date** - This is the date the campaign ran, in yyyy-mm-dd format.
 * **Amount** - This is the amount you spent on the campaign.
-* **campaign** - This is the campaign name. If you're using Google Analytics (GA) to track your other ad spend data, it should match the utm\_campaign name.
-* **source** -  This is the source name. If you're using GA, this should match the `utm_source` name.
+* **campaign** - This is the campaign name. If you are using Google Analytics (GA) to track your other ad spend data, it should match the utm\_campaign name.
+* **source** -  This is the source name. If you are using GA, this should match the `utm_source` name.
 * **other (Optional)** - You may also incorporate additional columns that will help you segment campaigns and cost. It can also be a way to summarize several different UTM Campaign names into a single, coherent campaign for tracking purposes. Rather than set this up manually, it might be good to use a V-Lookup to a second sheet to match each Campaign Name to the Other Name and report it here dynamically.
 
 ## Related

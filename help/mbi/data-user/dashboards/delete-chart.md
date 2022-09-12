@@ -3,7 +3,7 @@ title: Permanently deleting a chart
 zendesk_id: 360016732891
 ---
 
-Even if you [remove a chart from the dashboard](../data-user/dashboards/remove-charts-dashboard.md){: target="_blank"}, it still exists in your MBI account. To permanently delete a chart:
+Even if you [remove a chart from the dashboard](../../data-user/dashboards/remove-charts-dashboard.md){: target="_blank"}, it still exists in your MBI account. To permanently delete a chart:
 
 1. Click the **Account Settings** tab in the sidebar.
 
@@ -19,4 +19,4 @@ Even if you [remove a chart from the dashboard](../data-user/dashboards/remove-c
 
 Example:
 
-![delete a chart](../assets/deletechart.gif){: width="630" height="402"}
+![delete a chart](../../assets/deletechart.gif){: width="630" height="402"}

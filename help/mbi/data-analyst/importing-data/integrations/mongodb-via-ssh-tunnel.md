@@ -27,13 +27,13 @@ Leave this page open throughout the tutorial - you will need it in the next sect
 
 If you are a bit lost, Here is how to navigate through MBI to retrieve the key:
 
-![Retrieving the RJMetrics public key](../assets/MongoDB_Public_Key.gif){:.zoom}
+![Retrieving the RJMetrics public key](../../assets/MongoDB_Public_Key.gif){:.zoom}
 
 ## Allow access to the MBI IP address {#allowlist}
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it is also on the MongoDB credentials page:
 
-![MBI_Allow_Access_IPs.png](../assets/MBI_allow_access_IPs.png)
+![MBI_Allow_Access_IPs.png](../../assets/MBI_allow_access_IPs.png)
 
 ## Creating a Linux user for MBI {#linux}
 

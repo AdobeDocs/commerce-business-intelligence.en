@@ -7,13 +7,13 @@ In a database table, there can be data columns with changeable values. For examp
 
 Order statuses can change, though - they will not always be in a pending status. Eventually it could become "complete" or "cancelled." To ensure that your Data Warehouse syncs this change, the column will need to be rechecked for new values.
 
-How does this fit in with the [replication methods](../data-warehouse-mgr/cfg-replication-methods.md) we discussed? The processing of rechecks varies based on the chosen replication method. The Modified\_At replication method is the best choice for processing changing values, as rechecks don't have to be configured. The Auto-Incrementing Primary Key and Primary Key Batch Monitoring methods require recheck configuration.
+How does this fit in with the [replication methods](../data-warehouse-mgr/cfg-replication-methods.md) we discussed? The processing of rechecks varies based on the chosen replication method. The Modified\_At replication method is the best choice for processing changing values, as rechecks do not have to be configured. The Auto-Incrementing Primary Key and Primary Key Batch Monitoring methods require recheck configuration.
 
 When using either of these methods, changeable columns must be flagged for rechecking. There are three ways to do this:
 
 * An auditing process that runs as part of the update will flag columns to be rechecked. Note that the auditor relies on a sampling process and the changing columns may not be caught immediately.
 * You can set them yourself by selecting the checkbox next to the column in the Data Warehouse manager, clicking **Set Recheck Frequency**, and choosing an appropriate time interval for when we should check for changes.
-* A member of the MBI Data Warehouse team can manually mark the columns for rechecking in your Data Warehouse. If you're aware of changeable columns, contact the team to request that rechecks are set. Please include a list of columns, along with frequency, with your request.
+* A member of the MBI Data Warehouse team can manually mark the columns for rechecking in your Data Warehouse. If you are aware of changeable columns, contact the team to request that rechecks are set. Please include a list of columns, along with frequency, with your request.
 
 ## Recheck frequencies {#frequency}
 
@@ -38,7 +38,7 @@ Recheck frequencies can be managed in the Data Warehouse by clicking on a table 
 
 To change the recheck frequency, click the checkbox next to the column(s) you want to change then click the **Set Recheck Frequency** dropdown and set the desired frequency.
 
-![](../assets/dwm-recheck.png)
+![](../../assets/dwm-recheck.png)
 
 You might sometimes see **Paused** in the **Changes?** column. This value will display when the table's [replication method](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) is set to Paused.
 

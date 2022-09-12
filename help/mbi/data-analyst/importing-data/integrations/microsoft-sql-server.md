@@ -4,11 +4,11 @@ zendesk_id: 360016505972
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
 This article explains how to connect your Microsoft SQL database to MBI in a four-step process. This process requires some technical expertise related to server connections and SQL, and may require support from developers on your team.
 
-We support Amazon RDS, EC2, Microsoft SQL Azure, and most other cloud server providers. If you have a question on your particular host, [submit a support ticket](../getting-started/support.md) asking us to provide this information.
+We support Amazon RDS, EC2, Microsoft SQL Azure, and most other cloud server providers. If you have a question on your particular host, [submit a support ticket](../../getting-started/support.md) asking us to provide this information.
 
 Our system needs to run SELECT queries on your database. We do this initially to get a snapshot of your database structure and then regularly overtime to keep our data up to date. Our updates are incremental, and we restrict update frequency and time to prevent any unwanted load on your server.
 
@@ -28,7 +28,7 @@ The best way to do this is for us to connect to your database server over TCP/IP
 
 1. Input the server IP address, username and password in MBI under **Manage Data > Connections**.
 
-    ![](../assets/2.1.png)
+    ![](../../assets/2.1.png)
 
 1. Click the **Add a Data Source** button.
 

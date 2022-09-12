@@ -4,9 +4,9 @@ zendesk_id: 360016732531
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
-![](../assets/Google_Adwords_logo.png)
+![](../../assets/Google_Adwords_logo.png)
 
 You did your research, you created your ads, you launched your campaign. Now it's time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
@@ -18,9 +18,9 @@ Let us get started by entering our Google Adwords credentials into MBI:
 1. Enter your Google Analytics (GA) credentials. Upon completion of the authorization process, you will be redirected back to MBI.
 1. A list of profile IDs will display. Check the profiles you want to connect to MBI.
 
-     ![](../assets/cnnct-profile.png){: width="400"}
+     ![](../../assets/cnnct-profile.png){: width="400"}
 
-1. Changes are saved automatically, so click the **Back to Connections** button when you're done.
+1. Changes are saved automatically, so click the **Back to Connections** button when you are done.
 
 If you have multiple profiles and need some help identifying which is which, refer to the **Connecting Multiple GA profiles** section below.
 

@@ -22,7 +22,7 @@ Overwriting data should be done sparingly and with caution.
 
 Using login dates as an example, many companies will store the last login date rather than a table of historical logins. While you may only need the last login date for functional purposes, that overwritten data is a huge loss from an analytics perspective. Not keeping a complete log of these actions eliminates the ability to see how many users stayed away for long periods of time and then reactivated. It also makes it impossible to build things like user engagement cohort analyses based on logins.
 
-As a general rule, if you're updating a record due to some kind of user action, do not overwrite information about a previous or separate user action.
+As a general rule, if you are updating a record due to some kind of user action, do not overwrite information about a previous or separate user action.
 
 ## Include Updated_at Columns for Data Updated Over Time
 

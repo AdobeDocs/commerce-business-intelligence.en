@@ -16,7 +16,7 @@ Let us get started.
 
 ## Creating a database user for MBI {#database}
 
-The process for creating a database user will vary depending on the database type you're connecting. To see the instructions for each database type, click the links below.
+The process for creating a database user will vary depending on the database type you are connecting. To see the instructions for each database type, click the links below.
 
 * [Microsoft SQL](../data-analyst/importing-data/integrations/microsoft-sql-server.md)
 * [MongoDB](../data-analyst/importing-data/integrations/databases-via-a-vpn.md)
@@ -31,11 +31,11 @@ As we mentioned before, any valid VPN user will work - but we strongly recommend
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it is also on the credentials page for any database integration:
 
-![MBI_Allow_Access_IPs.png](../assets/MBI_allow_access_IPs.png)
+![MBI_Allow_Access_IPs.png](../../assets/MBI_allow_access_IPs.png)
 
 ## Entering the connection and VPN user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the database credentials page open? If not, go to **Manage Data > Connections** and click the Add New Data Source button, then the icon for the database you're connecting. Don't forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the database credentials page open? If not, go to **Manage Data > Connections** and click the Add New Data Source button, then the icon for the database you are connecting. do not forget to toggle the Encrypted button to Yes.
 
 Enter the following info into this page, starting with the Database Connection section:
 
@@ -58,4 +58,4 @@ Under the Encryption Connection section:
 * **Username:** The MBI VPN username
 * **Password:** The MBI VPN user password
 
-That's it! When you're finished, click the Save & Test button to complete the setup.
+That's it! When you are finished, click the Save & Test button to complete the setup.

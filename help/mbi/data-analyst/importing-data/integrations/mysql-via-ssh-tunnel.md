@@ -15,7 +15,7 @@ zendesk_id: 360016506672
 * [MySQL via direct connection](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
 * [MySQL via cPanel](../data-analyst/importing-data/integrations/mysql-via-cpanel.md)
 
-To connect your MySQL database to MBI via an SSH tunnel, you (or your team, if you're not a techie) will need to do a few things:
+To connect your MySQL database to MBI via an SSH tunnel, you (or your team, if you are not a techie) will need to do a few things:
 
 1. Retrieve the MBI public key
 1. Allow access to the MBI IP address
@@ -36,9 +36,9 @@ The public key is used to authorize the MBI Linux user. In the next section, we 
 
 Leave this page open throughout the tutorial - you will need it in the next section and at the end.
 
-If you're a bit lost, here's how to navigate through MBI to retrieve the key:
+If you are a bit lost, here's how to navigate through MBI to retrieve the key:
 
-![](../assets/MySQL_SSH.gif){: width="778"}
+![](../../assets/MySQL_SSH.gif){: width="778"}
 
 ## Allow access to the MBI IP address {#allowlist}
 
@@ -46,7 +46,7 @@ For the connection to be successful, your must configure your firewall to allow 
 
 ## Creating a Linux user for MBI {#linux}
 
-This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the MySQL server.
+This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the MySQL server.
 
 1. To add the new user, run the following commands as root on your Linux server:
 
@@ -91,7 +91,7 @@ To restrict this user from accessing data in specific databases, tables, or colu
 
 ## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click the Add New Data Source button, then the MySQL icon. Don't forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click the Add New Data Source button, then the MySQL icon. do not forget to toggle the Encrypted button to Yes.
 
 Enter the following info into this page, starting with the Database Connection section:
 
@@ -108,7 +108,7 @@ In the SSH Connection section:
 * **Username:** The username for the MBI SSH (Linux) user
 * **SSH Port:** SSH port on your server (22 by default)
 
-That's it! When you're finished, click the Save & Test button to complete the setup.
+That's it! When you are finished, click the Save & Test button to complete the setup.
 
 ## Related:
 

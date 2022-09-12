@@ -3,7 +3,7 @@ title: Enterprise_Rma_Item_Entity Table
 zendesk_id: 360016730991
 ---
 
-Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_item_entity` in Magento 2.x, but the name can be customized) contains information about a specific item from a requested return. **Note that this table only comes standard with your Magento account if you are an Enterprise Edition or Enterprise Cloud Edition customer.**
+Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_item_entity` in Magento 2.x, but the name can be customized) contains information about a specific item from a requested return. **Note:** _This table only comes standard with your Magento account if you are an Enterprise Edition or Enterprise Cloud Edition customer._
 
 ### Common Native Columns
 
@@ -11,7 +11,7 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 |---|---|
 |entity\_id|Unique identifier for the table. Each \`entity\_id\` represents an item that has been requested for return.|
 |rma\_entity\_id|Foreign key associated with the \`enterprise\_rma\` table.|
-|status|The status of the item’s return. Values include 'received', 'pending', 'authorized', among others. The values in this status will not necessarily match the value of the overall return’s status.|
+|status|The status of the item's return. Values include 'received', 'pending', 'authorized', among others. The values in this status will not necessarily match the value of the overall return's status.|
 |qty\_requested|The quantity the customer requests for return.|
 |qty\_approved|The quantity the approved for return.|
 |qty\_returned|The quantity actually returned.|
@@ -24,7 +24,7 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 |---|---|
 |Return date\_requested|This is the date the customer requested the return.|
 |Item price|The price of the item.|
-|Return item’s total value (qty\_returned \* price)|This is the total monetary value of the items that are returned. This will be used to calculate the total return amount on the \`enterprise\_rma\` table.|
+|Return item's total value (qty\_returned \* price)|This is the total monetary value of the items that are returned. This will be used to calculate the total return amount on the \`enterprise\_rma\` table.|
 
 ### Common Metrics
 
@@ -32,7 +32,7 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 |---|---|---|
 |Number of items returned|The number of items that are returned.|Operation Column: qty\_returned<br>
 Operation: Sum<br>Timestamp Column: Return date\_requested|
-|Returned items' total value|The monetary amount returned.|Operation Column: Return item’s total value (qty\_returned \* price)<br>Operation: Sum<br>Timestamp Column: Return date\_requested|
+|Returned items' total value|The monetary amount returned.|Operation Column: Return item's total value (qty\_returned \* price)<br>Operation: Sum<br>Timestamp Column: Return date\_requested|
 
 ### Connections to Other Tables
 

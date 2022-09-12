@@ -4,9 +4,9 @@ zendesk_id: 360016505452
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
-![](../assets/Facebook_Logo.png)
+![](../../assets/Facebook_Logo.png)
 
 You did your research, you created your ads, you launched your campaign on Facebook. Now it's time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
@@ -27,7 +27,7 @@ Connecting your Facebook ad data to MBI is a simple three-step process:
 
 After clicking the Authorize button, a small pop-up window will display:
 
- ![](../assets/Facebook_Access_Popup.png)
+ ![](../../assets/Facebook_Access_Popup.png)
 
 You will be taken through a series of steps to allow MBI to access data from your Public Profile, Facebook ads and related stats. "Okay" these steps to continue.
 
@@ -35,7 +35,7 @@ You will be taken through a series of steps to allow MBI to access data from you
 
 1. After authentication is completed, you will be prompted to select the Facebook Ad Accounts you want to pull data from. Select the desired accounts by clicking the checkbox iin the Connect column.
 
-     ![](../assets/Facebook_Ad_Accounts.png)
+     ![](../../assets/Facebook_Ad_Accounts.png)
 
 1. Click **Save Connections**.
 

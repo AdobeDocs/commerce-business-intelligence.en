@@ -3,7 +3,7 @@ title: Expected QuickBooks data
 zendesk_id: 360016730671
 ---
 
-![](../assets/Quickbooks.png)
+![](../../assets/Quickbooks.png)
 
 After [you have connected your QuickBooks account](../data-analyst/importing-data/integrations/quickbooks.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis. The following tables will be created in your data warehouse:
 

@@ -58,7 +58,7 @@ The `adwords` table contains the following columns:
 | adDestinationUrl | The URL to which the AdWords ads referred traffic |
 | adGroup | The name of the AdWords ad group |
 
-Using this data, you can start creating [metrics ](../data-user/reports/ess-manage-data-metrics.md) and [reports](../tutorials/using-visual-report-builder.md) based on spending data and [marry it to your lifetime revenue to calculate ROI](../data-analyst/analysis/roi-ad-camp.md).
+Using this data, you can start creating [metrics ](../../data-user/reports/ess-manage-data-metrics.md) and [reports](../../tutorials/using-visual-report-builder.md) based on spending data and [marry it to your lifetime revenue to calculate ROI](../data-analyst/analysis/roi-ad-camp.md).
 
 #### Consolidated tables
 

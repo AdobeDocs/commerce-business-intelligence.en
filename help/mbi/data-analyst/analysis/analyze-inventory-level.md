@@ -206,4 +206,4 @@ This topic demonstrates how to set up a dashboard which will provide insights in
     * **`Sku`**
   * Chart type: Table
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](https://support.magento.com/hc/en-us/articles/360016503692).
+If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).

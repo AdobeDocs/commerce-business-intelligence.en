@@ -49,7 +49,7 @@ A joined column relocates an attribute on the one table *to* the many table. The
 
 In the example below, the **Customer's group\_id** dimension gets joined down into the orders table.
 
-![](../assets/joined_column.gif)
+![](../../assets/joined_column.gif)
 
 ## Many-to-one calculated columns {#manytoone}
 
@@ -61,7 +61,7 @@ This type of calculated column returns the count of values on the many table *on
 
 In the example below, the dimension **Customer's lifetime number of canceled orders** is created on the **customers table** (with a filter for **orders.status**).
 
-![many\_to\_one.gif](../assets/many_to_one.gif){: width="699" height="351"}
+![many\_to\_one.gif](../../assets/many_to_one.gif){: width="699" height="351"}
 
 ### Sum {#sum}
 
@@ -83,13 +83,13 @@ This type of dimension might determine, for example, if a customer ever purchase
 
 ## Handy reference map {#map}
 
-If you're having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you're building:
+If you are having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you are building:
 
-![](../assets/merged_reference_map.png)
+![](../../assets/merged_reference_map.png)
 
 ## Advanced calculated columns {#advanced}
 
-In your quest to analyze and answer questions about your business, you may encounter a situation where you're unable to build the exact column you want. In these cases, we have got you covered!
+In your quest to analyze and answer questions about your business, you may encounter a situation where you are unable to build the exact column you want. In these cases, we have got you covered!
 
 To ensure a speedy turnaround, we recommend checking out the [Advanced Calculated Column Types](../data-analyst/data-warehouse-mgr/adv-calc-columns.md) guide to see what kind of columns our support team can build. In that article, we also cover the info we will need from you to create the column - please include it with your request.
 

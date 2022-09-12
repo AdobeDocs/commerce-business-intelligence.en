@@ -4,9 +4,9 @@ zendesk_id: 360016733251
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
-![](../assets/Zendesk_logo.png)
+![](../../assets/Zendesk_logo.png)
 
 Connecting your Zendesk data allows you to consolidate your help desk reporting in MBI. This allows you to optimize customer support and monitor help desk performance alongside your revenue.
 

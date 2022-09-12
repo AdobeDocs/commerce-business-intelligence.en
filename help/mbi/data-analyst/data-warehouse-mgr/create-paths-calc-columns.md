@@ -3,12 +3,12 @@ title: Creating paths for calculated columns
 zendesk_id: 360016731471
 ---
 
-When [creating calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) in your Data Warehouse, you will be asked to define a path describing how the table you're creating a column on is related to the table you're pulling information from. To successfully create a path, you need to know two things:
+When [creating calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) in your Data Warehouse, you will be asked to define a path describing how the table you are creating a column on is related to the table you are pulling information from. To successfully create a path, you need to know two things:
 
 1. How the tables in your databases relate to each other
 1. The primary and foreign keys that define this relationship
 
-If you know this information, you will be able to easily create a path following the instructions in this article. We have provided an overview of these concepts if you're feeling a little unsure, but you may want to ask a Technical Expert in your organization or reach out to our support team.
+If you know this information, you will be able to easily create a path following the instructions in this article. We have provided an overview of these concepts if you are feeling a little unsure, but you may want to ask a Technical Expert in your organization or reach out to our support team.
 
 ## Refreshers on table relationships and key types {#refresher}
 
@@ -33,7 +33,7 @@ A **Foreign Key** is a column created inside a table that links to the **Primary
 
 ## Creating a Path {#createpath}
 
-When creating a column in your data warehouse, you will need to define the path that brings information from one table into another. Sometimes paths pre-populate because a path already exists between tables, but if this doesn't happen, you will need to create one.
+When creating a column in your data warehouse, you will need to define the path that brings information from one table into another. Sometimes paths pre-populate because a path already exists between tables, but if this does not happen, you will need to create one.
 
 We'll use the relationship between **customers** and **orders** to show you how it's done. Let's break it down:
 

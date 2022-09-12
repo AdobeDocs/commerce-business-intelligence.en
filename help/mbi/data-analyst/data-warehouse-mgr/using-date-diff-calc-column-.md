@@ -74,9 +74,9 @@ The following steps describe how to create a **Date Difference** column.
     * **Select Ending DATETIME Column** => Choose the ending datetime field, which is typically the event that occurs later
     * **Select Starting DATETIME Column** => Choose the starting datetime field, which is typically the event that occurs earlier
 
-1. Provide a name to the column and hit **Save**.
+1. Provide a name to the column and click **Save**.
 1. The column will be available to use **immediately.**
 
-As an example, the screenshot below is configured to calculate the **Seconds between order date and customer's creation date**:
+As an example, the following example is configured to calculate the **Seconds between order date and customer's creation date**:
 
-![date_diff.png](../assets/date_diff.png)
+![date_diff.png](../../assets/date_diff.png)

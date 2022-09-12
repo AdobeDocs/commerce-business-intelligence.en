@@ -4,9 +4,9 @@ zendesk_id: 360016732851
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
-![](../assets/google-analytics-logo.png)
+![](../../assets/google-analytics-logo.png)
 
 Google Analytics (GA) is the most widely-used web analytics service on the internet. Implementing GA on your website allows you to track how visitors use your site, what content is attractive, where visitors exit, and more. Analyzing these metrics in MBI, alongside other pieces of data, will improve your site's overall health and usability.
 
@@ -18,9 +18,9 @@ Let us get started by entering our GA credentials into MBI:
 1. Enter your GA credentials. Upon completion of the authorization process, you will be redirected back to MBI.
 1. A list of profile IDs will display. Check the profiles you want to connect to MBI. If you have multiple profiles and need some help identifying which is which, refer to the Connecting Multiple GA profiles section below.
 
-     ![](../assets/Screen_Shot_2015-11-17_at_11.20.08_AM.png){: width="600px"}
+     ![](../../assets/Screen_Shot_2015-11-17_at_11.20.08_AM.png){: width="600px"}
 
-1. Changes are saved automatically, so click the Back to Connections button when you're done.
+1. Changes are saved automatically, so click the Back to Connections button when you are done.
 
 ## Connecting multiple Google Analytics profiles
 

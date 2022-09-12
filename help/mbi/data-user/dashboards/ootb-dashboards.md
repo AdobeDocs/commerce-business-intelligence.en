@@ -7,7 +7,7 @@ As part of our services, we offer eCommerce and SaaS Starter Packages. These pac
 
 Note that the availability of some dashboards depends upon your dataset.
 
-If you have questions or you are interested in adding a package to your account, send us a [support ticket](../getting-started/support.md) to get things started.
+If you have questions or you are interested in adding a package to your account, send us a [support ticket](../../getting-started/support.md) to get things started.
 
 ## Executive overview
 
@@ -27,7 +27,7 @@ If you are currently not tracking user acquisition source, see the [Track User A
 
 ## Email summary
 
-The Email Summary dashboard includes a sample set of charts that can be used in an automated daily email summary. Refer to [creating automated email summaries](../data-user/export-data/email-summaries.md) for more information on configuring email summaries.  
+The Email Summary dashboard includes a sample set of charts that can be used in an automated daily email summary. Refer to [creating automated email summaries](../../data-user/export-data/email-summaries.md) for more information on configuring email summaries.  
 
 ## Retention health
 

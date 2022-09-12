@@ -57,7 +57,7 @@ Analyzing historical abandoned carts is only possible if you do not delete recor
 
 `quote_item`
 
-*  Join to `quote_item` to create new columns that associate details of the parent configurable or bundle SKU with the simple product. Note that you will need to [contact support](https://support.magento.com/hc/en-us/articles/360019088251) for assistance in configuring these calculations, if building in the Data Warehouse manager.
+*  Join to `quote_item` to create new columns that associate details of the parent configurable or bundle SKU with the simple product. Note that you will need to [contact support](../../getting-started/support.md) for assistance in configuring these calculations, if building in the Data Warehouse manager.
    *  Path: `quote_item.parent_item_id` (many) => `quote_item.item_id` (one)
 
 `store`

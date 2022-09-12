@@ -5,7 +5,7 @@ zendesk_id: 360016731531
 
 If you want to keep your dashboard list from becoming too cluttered, you can delete a dashboard if it’s no longer required. This can be accomplished in one of two ways:
 
-1. [Via the Account Settings page](../#account) - this method [requires Admin permissions](../administrator/user-management/user-management.md)
+1. [Via the Account Settings page](../#account) - this method [requires Admin permissions](../../administrator/user-management/user-management.md)
 
 1. [Via the Dashboard Options menu](../#DO) - this method requires you to own the dashboard or have Edit permissions to it
 
@@ -19,7 +19,7 @@ If you want to keep your dashboard list from becoming too cluttered, you can del
 
 Example:
 
-![delete dashboard](../assets/deleting_dash.gif){: width="703" height="346"}
+![delete dashboard](../../assets/deleting_dash.gif){: width="703" height="346"}
 
 ## Delete Dashboard via the Dashboard Options menu {#DO}
 
@@ -31,4 +31,4 @@ Example:
 
 Example:
 
-![delete dashboard](../assets/deleting_dash_2.gif){: width="703" height="347"}
+![delete dashboard](../../assets/deleting_dash_2.gif){: width="703" height="347"}

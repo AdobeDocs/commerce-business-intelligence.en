@@ -464,4 +464,4 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page.
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](https://support.magento.com/hc/en-us/articles/360016503692).
+If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).

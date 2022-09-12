@@ -4,7 +4,7 @@ zendesk_id: 360016505512
 ---
 
 {:.bs-callout-info}
-Requires [Admin permissions](../administrator/user-management/user-management.md) or Standard permissions to perform these functions. If you’re a Standard user, you also need **Edit** permissions to the dashboard.
+Requires [Admin permissions](../../administrator/user-management/user-management.md) or Standard permissions to perform these functions. If you’re a Standard user, you also need **Edit** permissions to the dashboard.
 
 Sometimes names just no longer fit. Renaming a dashboard is quick and easy.
 
@@ -18,4 +18,4 @@ Sometimes names just no longer fit. Renaming a dashboard is quick and easy.
 
 Example:
 
-![rename dashboard](../assets/Nov-23-2016_15-53-57.gif)
+![rename dashboard](../../assets/Nov-23-2016_15-53-57.gif)

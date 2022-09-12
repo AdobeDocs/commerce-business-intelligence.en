@@ -36,7 +36,7 @@ For example, a table may have a column called **modified\_at** that indicates th
 **Did you know?**
  Even if your database can't currently support an Incremental Replication method, you may be able to [make some changes to your database](../../best-practices/mod-db-inc-replication.md) that would enable use of Modified At or Single Auto Incrementing PK.
 
-Modified At is not only the most ideal replication method, it's also the fastest. This method not only produces noticeable speed increases with large data sets, it also doesn't require configuring a recheck option. Other methods will need to iterate through an entire table to identify changes, even if a small subset of data has changed. Modified At iterates through only that small subset.
+Modified At is not only the most ideal replication method, it's also the fastest. This method not only produces noticeable speed increases with large data sets, it also does not require configuring a recheck option. Other methods will need to iterate through an entire table to identify changes, even if a small subset of data has changed. Modified At iterates through only that small subset.
 
 ### Single Auto Incrementing Primary Key
 
@@ -77,7 +77,7 @@ In either of the above scenarios, Full Table replication will not detect any cha
 
 When a table uses Primary Key Batch (PK Batch), new data is discovered by counting rows inside ranges, or batches, of primary key values. While we typically think of this being used with integers, even text values can be ordered in a way that allows the system to define constant ranges.
 
-For example, Let us say an update runs and performs a row count for the range of keys from 1 to 100. In this update, the system finds and logs 37 rows. In the next update, a row count is performed again on the 1-100 range and finds 41 rows. Because there's a difference in the number of rows compared to the last update, the system will inspect that range (or batch) in more detail.
+For example, Let us say an update runs and performs a row count for the range of keys from 1 to 100. In this update, the system finds and logs 37 rows. In the next update, a row count is performed again on the 1-100 range and finds 41 rows. Because there is a difference in the number of rows compared to the last update, the system will inspect that range (or batch) in more detail.
 
 This method is intended to replicate data from tables that meet the following criteria:
 
@@ -85,7 +85,7 @@ This method is intended to replicate data from tables that meet the following cr
 * composite keys (multiple columns comprising the primary key) - note that columns used in a composite primary key can never have null values; or
 * single-column, integer, non-auto-incrementing primary key values.
 
-This method isn't ideal, as it's incredibly slow due to the amount of processing that must occur to examine batches and find changes. We don't recommend using this method unless it isn't possible to make the modifications necessary to support the other replication methods. Expect update times to increase if this method must be used.
+This method isn't ideal, as it's incredibly slow due to the amount of processing that must occur to examine batches and find changes. We do not recommend using this method unless it isn't possible to make the modifications necessary to support the other replication methods. Expect update times to increase if this method must be used.
 
 ## Setting replication methods
 

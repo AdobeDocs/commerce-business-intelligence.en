@@ -22,7 +22,7 @@ To bring your Linkshare data into MBI, you will need to do two things:
 
 1. Under **Data Type**, select **Transaction Date**.
 
-    ![importing\_linkshare\_data.png](../assets/importing_linkshare_data.png)
+    ![importing\_linkshare\_data.png](../../assets/importing_linkshare_data.png)
 
 1. Click **View Report**.
 

@@ -15,7 +15,7 @@ Lets get started!
 
 ## Recommended metrics {#metrics}
 
-When analyzing coupon usage, consider using ([or building](../data-user/reports/ess-manage-data-metrics.md)) these metrics:
+When analyzing coupon usage, consider using ([or building](../../data-user/reports/ess-manage-data-metrics.md)) these metrics:
 
 #### Number of orders
 

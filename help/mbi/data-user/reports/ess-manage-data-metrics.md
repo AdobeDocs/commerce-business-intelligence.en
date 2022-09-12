@@ -4,13 +4,13 @@ zendesk_id: 360016504592
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
 Simply put, a metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period of time.
 
-In MBI, you can use metrics to [create charts](../data-user/reports/ess-rpt-build-visual.md). For example, the metric **revenue** is the total amount of orders. The metric **average customer revenue per order** is what the average customer spends per order.
+In MBI, you can use metrics to [create charts](../../data-user/reports/ess-rpt-build-visual.md). For example, the metric **revenue** is the total amount of orders. The metric **average customer revenue per order** is what the average customer spends per order.
 
-When used in reports, metrics can be analyzed over a specified time period and [filtered or segmented](../best-practices/segment-filter.md) by different categories. Consider analyzing average customer revenue grouped by gender - in this case, **average customer revenue per order** is the metric and gender is the grouping.
+When used in reports, metrics can be analyzed over a specified time period and [filtered or segmented](../../best-practices/segment-filter.md) by different categories. Consider analyzing average customer revenue grouped by gender - in this case, **average customer revenue per order** is the metric and gender is the grouping.
 
 ## Defining the Metric {#define}
 
@@ -45,7 +45,7 @@ When used in reports, metrics can be analyzed over a specified time period and [
 
 ## Adding Filters {#filters}
 
-The Filter section allows you to create a new filter or apply a [saved filter set](../data-user/reports/ess-manage-data-filters.md) to your metric.
+The Filter section allows you to create a new filter or apply a [saved filter set](../../data-user/reports/ess-manage-data-filters.md) to your metric.
 
 For our **average order revenue** metric, we wouldn’t want to include any test orders that might have been done while setting up our store - this would give us an inaccurate result. We can apply a filter set to remove those orders from the data set. After the filter is created, it will apply to all charts built using this metric.
 

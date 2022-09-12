@@ -5,7 +5,7 @@ zendesk_id: 360016731211
 
 In addition to setting user permission levels, you can also restrict access to metrics on a user-by-user basis. For example, if you want your accounting department to have access to revenue-related metrics but not user-acquisition metrics, you can restrict access to those metrics.
 
-In cases like these, we recommend setting that user's account to [Standard](../administrator/user-management/user-management.md). Standard permissions should be given to users who do not need to create or alter metrics, calculated columns, integrations, or users, but they do need access to data in the Data Warehouse. If you want to fully restrict access to data, use the **Read Only** permissions instead.
+In cases like these, we recommend setting that user's account to [Standard](../../administrator/user-management/user-management.md). Standard permissions should be given to users who do not need to create or alter metrics, calculated columns, integrations, or users, but they do need access to data in the Data Warehouse. If you want to fully restrict access to data, use the **Read Only** permissions instead.
 
 After setting the permission level, you can select the metrics a Standard user can access by doing the following:
 

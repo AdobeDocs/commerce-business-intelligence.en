@@ -9,7 +9,7 @@ This document outlines the purpose and uses of _Data Warehouse Views_ accessible
 
 The _Data Warehouse Views_ feature is a method of creating new warehoused tables by modifying an existing table, or joining or consolidating multiple tables together through the use of SQL. Once a Data Warehouse View has been created and processed by an update cycle, it will populate in your Data Warehouse as a new table under the _Data Warehouse Views_ dropdown, as shown below:
 
-![](../assets/Data_Warehouse.png)
+![](../../assets/Data_Warehouse.png)
 
 From here, your new view functions like any other table, giving you the power to create new calculated columns or build metrics and reports on top of it.
 

@@ -86,11 +86,11 @@ Now that your spreadsheet is correctly formatted and MBI-friendly, Let us add it
 
 If you need a visual, Here is a look at the whole process:
 
-![](../assets/fileupload.gif){: width="714"}
+![](../../assets/fileupload.gif){: width="714"}
 
 Uploaded tables display under the **File Uploads** section of the table list (in both the All Tables and Synced Tables options) in the Data Warehouse Manager:
 
-![](../assets/upload-tables.png){: width="717" height="433"}
+![](../../assets/upload-tables.png){: width="717" height="433"}
 
 ## Updating or appending data to an existing table {#appending}
 
@@ -126,7 +126,7 @@ Additionally, file upload isn't the only way to get your data into MBI. The [Dat
 
 ## Related {#related}
 
-* [Formatting and importing financial data](../best-practices/format-import-financial-data.md)
+* [Formatting and importing financial data](../../best-practices/format-import-financial-data.md)
 * [Importing offline / other ad spend data](../data-analyst/importing-data/connecting-data/import-offline-ad-data.md)
 * [Expected Google ECommerce data](../data-analyst/importing-data/integrations/google-ecommerce-data.md)
 

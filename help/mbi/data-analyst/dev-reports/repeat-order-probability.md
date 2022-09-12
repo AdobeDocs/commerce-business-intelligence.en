@@ -15,7 +15,7 @@ If we were to add a filter that uses a dimension which is not equal for all orde
 
 In certain cases, we may be able to turn an order-specific dimension into a user-specific dimension to add as filter in the Repeat Order Probability chart. In these cases, we will return the order attribute of a user's first order or latest order (e.g., User's first order region name).
 
-If you want to create such a new dimension, [contact support](../getting-started/support.md){: target="_blank"}.
+If you want to create such a new dimension, [contact support](../../getting-started/support.md){: target="_blank"}.
 
 ### Comparing repeat probability of orders with different attributes
 

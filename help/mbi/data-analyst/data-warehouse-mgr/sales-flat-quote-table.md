@@ -28,7 +28,7 @@ Analyzing historical abandoned carts is only possible if you do not delete recor
 |**Column Name**|**Description**|
 |`Order date`|Timestamp reflecting order creation date for converted carts. Calculated by joining `quote.reserved_order_id` to `sales_order.increment_id` and returning the `sales_order.created_at` field
 |`Seconds between cart creation and order`|Elapsed time between cart creation and order creation. Calulated by subtracting `created_at` from `Order date`, returned as an integer number of seconds|
-|`Seconds since cart creation`|Elapsed time between the cart's creation date and now. Calculated by subtracting `created_at` from the server timestamp at the time the query is executed, returned as an integer number of seconds. Most commononly used to identify the age of a cart|
+|`Seconds since cart creation`|Elapsed time between the cart's creation date and now. Calculated by subtracting `created_at` from the server timestamp at the time the query is executed, returned as an integer number of seconds. Most commonly used to identify the age of a cart|
 |`Store name`|The name of the Magento store associated with this order. Calculated by joining `quote.store_id` to `store.store_id` and returning the `name` field|
 {:style="table-layout:fixed;"}
 

@@ -4,9 +4,9 @@ zendesk_id: 360016733071
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
-![](../assets/Mixpanel_logo.png)
+![](../../assets/Mixpanel_logo.png)
 
 With Mixpanel, you can analyze how users navigate and utilize your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting Mixpanel to MBI lets you analyze how your users behave and how that behavior translates into revenue.
 
@@ -36,7 +36,7 @@ If you have not logged into your Mixpanel account yet, do so and then do the fol
 1. In the displayed dialog, click **Projects**.
 1. Your API credentials will display:
 
-![Retrieving Mixpanel API credentials](../assets/Mixpanel_API_creds.png){:.zoom}
+![Retrieving Mixpanel API credentials](../../assets/Mixpanel_API_creds.png){:.zoom}
 
 Keep this open - we need it to wrap this up.
 

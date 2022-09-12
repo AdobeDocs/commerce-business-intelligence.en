@@ -3,7 +3,7 @@ title: Expected Facebook Ads data
 zendesk_id: 360016504532
 ---
 
-![](../assets/Facebook_Logo.png)
+![](../../assets/Facebook_Logo.png)
 
 After [you’ve connected your Facebook Ads account](../data-analyst/importing-data/integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
 

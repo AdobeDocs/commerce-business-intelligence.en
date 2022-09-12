@@ -43,13 +43,13 @@ To successfully complete this type of migration, existing data columns have to b
 
 Here’s a look at an example:
 
-![](../assets/Migration_Spreadsheet.png)
+![](../../assets/Migration_Spreadsheet.png)
 
 Please note that if certain data columns do not have equivalent columns in the new database, there is a chance that certain analyses will be lost in the process.
 
 ## How do I submit a request? {#submitreq}
 
-You can reach out to us by [submitting a support request](../getting-started/support.md).
+You can reach out to us by [submitting a support request](../../getting-started/support.md).
 
 If you followed the steps in the previous section for creating the column matching spreadsheet, do not forget to attach it.
 

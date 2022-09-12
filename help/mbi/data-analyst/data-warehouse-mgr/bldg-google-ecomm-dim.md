@@ -4,7 +4,7 @@ zendesk_id: 360016732211
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
 Now that you are finished [connecting your Google ECommerce account](../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in MBI? In this article, we walk you through building dimensions that will link your eCommerce data with your orders and customer data.
 
@@ -16,7 +16,7 @@ To create the dimensions in this article, you need a **Google ECommerce** table,
 
 Here is a quick look at syncing tables and columns if you need a refresher:
 
-![](../assets/Syncing_New_Columns.gif)
+![](../../assets/Syncing_New_Columns.gif)
 
 After creating a join from the **orders** table to the Google eCommerce table, we create the first three dimensions in the list below. Next, we use those dimensions to create three user/customer dimensions in the **customers** table. To finish up, we join those columns to the **orders** table.
 
@@ -54,7 +54,7 @@ In this example, we build the **Order's GA Source** dimension.
 1. In the window that displays, set the **Many** side to **orders.order\_id**, or the column in the **orders** table that contains the order ID.
 1. On the **One** side, find the **Google ECommerce** table, then set the column to **transactionID**.
 
-    ![](../assets/Screen_Shot_2015-11-12_at_5.05.57_PM.png)
+    ![](../../assets/Screen_Shot_2015-11-12_at_5.05.57_PM.png)
 
 1. Click Save to create the path.
 1. After the path is added, click the Select table and column dropdown again.
@@ -63,7 +63,7 @@ In this example, we build the **Order's GA Source** dimension.
 
 Here is a look at the whole process:
 
-![](../assets/help_center.gif)
+![](../../assets/help_center.gif)
 
 Next, try creating **Order's GA medium** and **campaign**. Not much will change for these dimensions, so give it a try. But if you get stuck, you can check out [the end of this article](../#stuck) to see what is different.
 

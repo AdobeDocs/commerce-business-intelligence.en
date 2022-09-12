@@ -9,7 +9,7 @@ Want to know who your most valuable customers are? What your most valuable marke
 
 In this article, we share some critical segments that we often recommend to our customers. We also go into detail on what questions these segments can help you answer. (Technically, segments are data columns in your database. In MBI, we refer to them as dimensions.)
 
-![2014-07-29\_1103.png](../assets/2014-07-29_1103.png)
+![2014-07-29\_1103.png](../../assets/2014-07-29_1103.png)
 
 ## User Segments
 
@@ -33,7 +33,7 @@ Order and event segments help with analyzing user behavior and engagement over t
 * **Status**\: How many of your orders failed to complete? What is the ratio of pending orders in the past seven days?
 * **Customer acquisition source**\: Beyond tracking user acquisition data at a user level, you can also [track it on an order or event level](../data-analyst/analysis/google-track-user-acq.md). A user that registered via one source may very well continue to access your site via other sources.
 * **Device**\: Are the number of mobile orders increasing? How much of your revenue is currently generated via mobile purchases? (If you are not tracking this yet, see this topic [about tracking order device data](../data-analyst/analysis/track-usr-dev-browser.md).
-* **Fulfillment Center: **Which one of your fulfillment centers is generating the most revenue? If you're analyzing the difference between order time and shipping time, which fulfillment center is most responsive?
+* **Fulfillment Center: **Which one of your fulfillment centers is generating the most revenue? If you are analyzing the difference between order time and shipping time, which fulfillment center is most responsive?
 * **Delivery Carrier: **Which is the most popular carrier? Which carrier has the least number of returned items?
 * **Discount / Coupon Codes**\: Are your promotions actually generating extra business? How many extra items did your customers buy in addition to the item on sale? How do coupons affect your average order value? What is your average margin on discounted vs. non-discounted items?
 * **Satisfaction / Rating**\: How satisfied are your customers with their orders? Are your customers likely to refer business to you?
@@ -60,8 +60,8 @@ This type of analysis is what marketers at Fortune 1000 companies do all day. Pr
 
 The first step to segment your metrics by the above dimensions is to make sure that you are tracking this data in your database. If it is not tracked, meet with your tech team and find a way to start tracking this data.
 
-Once we confirm that the data is tracked in your database, [contact our support team](../getting-started/support.md) to push the dimensions to your MBI metrics and charts, or simply use our Field Management tool to track these fields in MBI.
+Once we confirm that the data is tracked in your database, [contact our support team](../../getting-started/support.md) to push the dimensions to your MBI metrics and charts, or simply use our Field Management tool to track these fields in MBI.
 
 # Related
 
-* [Optimizing your database for analysis](../best-practices/opt-db-analysis.md)
+* [Optimizing your database for analysis](../../best-practices/opt-db-analysis.md)

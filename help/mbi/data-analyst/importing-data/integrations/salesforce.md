@@ -4,9 +4,9 @@ zendesk_id: 360016507372
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
-![](../assets/Salesforce_Logo.png)
+![](../../assets/Salesforce_Logo.png)
 
 Connecting your Salesforce data enables a range of analyses, from scoring and optimizing leads to hitting your goals for converted opportunities.
 
@@ -23,7 +23,7 @@ That's it! After your credentials are validated, Salesforce setup will be comple
 
 ## Related:
 
-If you're a little more tech-savvy, the [Salesforce API Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) can be a useful resource for learning more about how Salesforce is integrated with MBI.
+If you are a little more tech-savvy, the [Salesforce API Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) can be a useful resource for learning more about how Salesforce is integrated with MBI.
 
 * [Expected Salesforce data](../data-analyst/importing-data/integrations/salesforce-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
