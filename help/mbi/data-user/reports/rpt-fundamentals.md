@@ -3,23 +3,23 @@ title: Using Reports
 zendesk_id: 360016504552
 ---
 
-Use reports in MBI to help you answer business questions - whether you simply want to see this month’s revenue compared to last year or understand your acquisition costs for your latest AdWords campaign.
+Use reports in MBI to help you answer business questions - whether you simply want to see this month's revenue compared to last year or understand your acquisition costs for your latest AdWords campaign.
 
 What does that path from question to answer look like, exactly?
 
-To help you visualize this process, we’ve mapped out that route below. This topic will shed some light on both how we approach an analytical question, and the backend logistics required to get you the data you need.
+To help you visualize this process, we have mapped out that route below. This topic will shed some light on both how we approach an analytical question, and the backend logistics required to get you the data you need.
 
 ## Starting with the question
 
 We know that you are constantly asking questions to improve your business, from increasing customer satisfaction to cutting supply costs. We will focus on how to translate your questions into analyses that help you drive decisions.
 
-For our example, let’s assume that we want to answer the following question:
+For our example, we assume that we want to answer the following question:
 
-* *“How fast do my new registrants convert?”*
+* *"How fast do my new registrants convert?"*
 
 ## Identifying a measurement
 
-With our question in hand, it is time to identify a list of possible analyses and measurements to help answer the question. For this example, let’s focus on the following metric:
+With our question in hand, it is time to identify a list of possible analyses and measurements to help answer the question. For this example, focus on the following metric:
 
 * *Average time from registration to first purchase date per user*
 
@@ -29,7 +29,7 @@ This will reveal the average time that lapses between registration date and the 
 
 Understanding what to measure only gets us part of the way there. In order to assess the average time from registration to first purchase date per user, we need to identify all the data points that our measure is comprised of.
 
-Let’s break down our measure into its core components: we need to know the count, or number, of people that registered; the count of people that made a purchase; and the time that elapsed between those two events.
+Break down our measure into its core components: we need to know the count, or number, of people that registered; the count of people that made a purchase; and the time that elapsed between those two events.
 
 At a higher level, we need to know where to find this data in the database, specifically:
 
@@ -39,40 +39,40 @@ At a higher level, we need to know where to find this data in the database, spec
 
 At a more granular level, we need to identify the exact data fields that will be used for this analysis:
 
-* The data table and column that contain a customer’s registration date: e.g. \`user\`.\`created\_at\`
+* The data table and column that contain a customer's registration date: e.g. \`user\`.\`created\_at\`
 * The data table and column that contain a purchase date: e.g. \`order\`.\`created\_at\`
 
 ## Creating data columns for analysis
 
 In addition to the native data columns outlined above, we will also need a set of calculated data fields to enable this analysis, including:
 
-* **Customer’s first purchase date** which returns a specific user's MIN(\`order\`.\`created\_at\`)
+* **Customer's first purchase date** which returns a specific user's MIN(\`order\`.\`created\_at\`)
 
 That will then be used to create:
 
-* **Time between a customer’s registration date and first purchase date**, which returns a specific user's time lapsed between registration and 1st purchase date. This will be the basis for our metric later.
+* **Time between a customer's registration date and first purchase date**, which returns a specific user's time lapsed between registration and 1st purchase date. This will be the basis for our metric later.
 
 Both of these fields need to be created at the user level (i.e. on the \`user\` table), so that the average analysis can be normalized by users (i.e. the denominator in this average calculation will be the count of users).
 
-This is where MBI steps in! You can leverage your MBI data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we will create them. You can also leverage our [Column Editor](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
+This is where MBI steps in! You can leverage your MBI data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we will create them. You can also leverage our [Column Editor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
 It is a best practice to avoid creating these calculated data fields in your database directly as it puts an unnecessary burden on your production servers.
 
 ## Creating the metric
 
-Now that we have the required data fields for our analysis, it’s time to find or create the relevant metric to construct our analysis.
+Now that we have the required data fields for our analysis, it's time to find or create the relevant metric to construct our analysis.
 
 Here we know that, mathematically, we want to perform the following calculation:
 
 {%raw%}
-* _[SUM of `Time between a customer’s registration date and first purchase date`] / [Total number of customers that registered and purchased]_
+* _[SUM of `Time between a customer's registration date and first purchase date`] / [Total number of customers that registered and purchased]_
 {%endraw%}
 
-And we want to see this calculation plotted over time, or trending, according to a customer’s registration date. And Here is how to [create this metric](../../data-user/reports/ess-manage-data-metrics.md) in MBI:
+And we want to see this calculation plotted over time, or trending, according to a customer's registration date. And Here is how to [create this metric](../../data-user/reports/ess-manage-data-metrics.md) in MBI:
 
 1. Go to **Data** and select the **Metrics** tab.
 1. Click **Add New Metric** and select the \`user\` table (where we created the dimensions above).
-1. From the drop-down menu, select **Average** on the _Time between a customer’s registration date and first purchase date_ column in the _user_ table ordered by the **Customer’s registration date**  column.
+1. From the drop-down menu, select **Average** on the _Time between a customer's registration date and first purchase date_ column in the _user_ table ordered by the **Customer's registration date**  column.
 1. Add any relevant filters or filter sets.
 
 This metric is now ready.
@@ -85,13 +85,13 @@ Simply go to any dashboard and [create a new report](../../data-user/reports/ess
 
 #### Visual Report Builder {#visualrb}
 
-[The Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md) is the easiest way to visualize your data. If you’re not familiar with SQL or you just want to quickly create a report, the Visual Report Builder is your best bet. With just a few clicks, you can add metrics, segment your data, and create reports to across your organization. This option is perfect for beginners and experts alike, as it doesn’t require any technical expertise.
+[The Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md) is the easiest way to visualize your data. If you're not familiar with SQL or you just want to quickly create a report, the Visual Report Builder is your best bet. With just a few clicks, you can add metrics, segment your data, and create reports to across your organization. This option is perfect for beginners and experts alike, as it doesn't require any technical expertise.
 
 <table style="width: 649px;">
 <tbody>
 <tr>
 <td style="width: 245.5px;"><strong>This is perfect for...</strong></td>
-<td style="width: 397.5px;"><strong>This isn’t so great for...</strong></td>
+<td style="width: 397.5px;"><strong>This isn't so great for...</strong></td>
 </tr>
 <tr>
 <td style="width: 245.5px;" valign="top">
@@ -105,7 +105,7 @@ Simply go to any dashboard and [create a new report](../../data-user/reports/ess
 <ul>
 <li><strong>Analyses that require SQL-specific functions</strong></li>
 <li>
-<strong>Testing new columns</strong> - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL aren’t</li>
+<strong>Testing new columns</strong> - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL aren't</li>
 </ul>
 </td>
 </tr>

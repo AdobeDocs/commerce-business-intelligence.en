@@ -4,7 +4,7 @@ zendesk_id: 360016729671
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../../administrator/user-management/user-management.md)
 
 **Some information was used with permission from our friends at [Stitch](https://www.stitchdata.com/docs/integrations/saas/google-analytics).**
 
@@ -33,16 +33,16 @@ The table would look like the example below.
 | month | Selected dimension: Month of the session, a two digit integer from 01 to 12. |
 | users | Selected metric: The total number of users for the requested time period. |
 
-## Reminder: Difference between GA Warehoused and Live Integration
+## Reminder: Difference between Google Analytics Warehoused and Live Integration
 
-The main differentiator is that one integration is stored (GA Warehoused), and the other is not (GA Live). In the case of GA Warehoused, this allows for manipulation of your GA data and gives you the ability to combine GA and other data sources to create insightful reporting.
+The main differentiator is that one integration is stored (Google Analytics Warehoused), and the other is not (Google Analytics Live). In the case of Google Analytics Warehoused, this allows for manipulation of your Google Analytics data and gives you the ability to combine Google Analytics and other data sources to create insightful reporting.
 
-Let us look at GA ad campaigns for an example of what can be done from a manipulation standpoint. Suppose you had multiple ad campaigns for Q4 with different names. The campaigns were a result of a specific marketing initiative. With warehoused data, we can create a new column that finds the campaign names in question and returns the Q4 initiative name of "Operation Dumbo".
+Let us look at Google Analytics ad campaigns for an example of what can be done from a manipulation standpoint. Suppose you had multiple ad campaigns for Q4 with different names. The campaigns were a result of a specific marketing initiative. With warehoused data, we can create a new column that finds the campaign names in question and returns the Q4 initiative name of "Operation Dumbo".
 
-The combination aspect allows GA data to be joined to other data in order to conduct analyses. For example, take "Total Time On Site By Ad Campaign" data from GA and join it up against "Total Spent Per Campaign" data from Facebook Ads to get a complete picture of how much engagement is costing you.
+The combination aspect allows Google Analytics data to be joined to other data in order to conduct analyses. For example, take "Total Time On Site By Ad Campaign" data from Google Analytics and join it up against "Total Spent Per Campaign" data from Facebook Ads to get a complete picture of how much engagement is costing you.
 
-With the GA Live integration on the other hand, every GA chart is like a little silo that is not stored in your MBI data warehouse.
+With the Google Analytics Live integration on the other hand, every Google Analytics chart is like a little silo that is not stored in your MBI data warehouse.
 
 ## Related:
 
-* [Connecting Google Analytics Warehoused](../data-analyst/importing-data/integrations/google-analytics-warehoused.md)
+* [Connecting Google Analytics Warehoused](../integrations/google-analytics-warehoused.md)

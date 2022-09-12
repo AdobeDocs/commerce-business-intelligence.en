@@ -35,7 +35,7 @@ Note that we will make the assumption that all campaign costs were exclusively u
 1. In the metric editor, give your metric a name (e.g., AdWord Cost)
 1. Using the drop-down menus, perform " a '**Sum**' on the '**adCost**' column in the Adwords... table (Change) ordered by the '**date**' column.
     ![2013-10-16\_1247.png](../../assets/2013-10-16_1247.png){: width="500" height="303"}
-1. We're done. Click on "Back to Metric List" at the top and go to any dashboard.
+1. we are done. Click on "Back to Metric List" at the top and go to any dashboard.
 
 1. Create a report that segments spend by campaigns
 1. In any dashboard, click Add Report -&gt; Create new report

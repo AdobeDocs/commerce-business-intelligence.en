@@ -27,7 +27,7 @@ Once a relationship between two tables is understood, it can be used to determin
 
 #### Primary and foreign keys {#keys}
 
-A **Primary Key** is an unchanging column or set of columns that produces unique values within a table. For example, when a customer makes an order on a website, a new row is added to the **orders** table in your shopping cart, with a new **order_id**. This **order_id** allows both the customer and business to track the progress of that specific order. Because order id is unique, it's typically the Primary Key of an Orders table.
+A **Primary Key** is an unchanging column or set of columns that produces unique values within a table. For example, when a customer makes an order on a website, a new row is added to the **orders** table in your shopping cart, with a new **order_id**. This **order_id** allows both the customer and business to track the progress of that specific order. Because order id is unique, it is typically the Primary Key of an Orders table.
 
 A **Foreign Key** is a column created inside a table that links to the **Primary Key** column of another table. Foreign Keys create references between tables, allowing analysts to easy look up and link records together. Let us say we wanted to know which orders belonged to each of our customers. The **customer id** column (Primary Key of the **customers** table) and the **order_id** column (Foreign Key in the **customers** table, referencing the Primary Key of the **orders** table) allows us to link and analyze this information.When creating a path, you will be asked to define both the Primary and Foreign Key.
 
@@ -35,7 +35,7 @@ A **Foreign Key** is a column created inside a table that links to the **Primary
 
 When creating a column in your data warehouse, you will need to define the path that brings information from one table into another. Sometimes paths pre-populate because a path already exists between tables, but if this does not happen, you will need to create one.
 
-We'll use the relationship between **customers** and **orders** to show you how it's done. Let's break it down:
+We'll use the relationship between **customers** and **orders** to show you how it is done. Let's break it down:
 
 * The relationship is **one-to-many** - a customer can have many orders, but an order can have only one customer. This tells us the direction of the relationship, or where the calculated column should be created. In this case, it means information from the **orders** table can be brought into the **customers** table.
 * The **primary key** we want to use is **customers.customerid**, or the c**ustomer ID** column in the **customers** table.
@@ -44,7 +44,7 @@ We'll use the relationship between **customers** and **orders** to show you how 
 Now we'll walk you through actually creating the path.
 
 1. Click **Data &gt; Data Warehouse**.
-1. In the table list, click the table you want to create the column in. In our example, it's the **customers** table.
+1. In the table list, click the table you want to create the column in. In our example, it is the **customers** table.
 1. The table schema will display. Click the **Create New Column** button.
 1. Give your column a name - for example, Customer's orders.
 1. Select the definition for the column. Check out the [Calculated Column Guide](../data-warehouse-mgr/creating-calculated-columns.md) for a handy cheat sheet.

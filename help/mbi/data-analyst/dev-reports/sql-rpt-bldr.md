@@ -37,7 +37,7 @@ When you insert a metric into a SQL report, the **current definition** of the me
 
 If the metric is updated in the future, the SQL report **will not** reflect the changes. You will have to manually edit the report to have the changes take effect.
 
-Using the buttons at the top of the sidebar, you can toggle between lists of tables and metrics available for use in the SQL Report Builder. If you don't see what you're looking for in the list, try searching for it using the search bar at the top of the sidebar.
+Using the buttons at the top of the sidebar, you can toggle between lists of tables and metrics available for use in the SQL Report Builder. If you don't see what you are looking for in the list, try searching for it using the search bar at the top of the sidebar.
 
 You can also use the sidebar in the SQL editor to insert metrics, tables, and columns directly into your queries by hovering over them and clicking the **Insert** button:
 
@@ -45,11 +45,11 @@ You can also use the sidebar in the SQL editor to insert metrics, tables, and co
 
 ## Running the query and viewing results {#runquery}
 
-When you're done writing your query, click the **Run Query** button. The results will display in a table below the SQL editor:
+When you are done writing your query, click the **Run Query** button. The results will display in a table below the SQL editor:
 
 ![Running the query and viewing results.](../../assets/SQL_Run_Query.gif)
 
-If something looks amiss in the results, you can edit the query and re-run it until you're satisfied.
+If something looks amiss in the results, you can edit the query and re-run it until you are satisfied.
 
 You might sometimes see [messages below the editor with EXPLAIN in them](../../best-practices/optimizing-your-sql-queries.md){: target="_blank"}. If you see one of these, that means that your query hasn't run and needs a bit of fine-tuning.
 
@@ -83,7 +83,7 @@ Click the **Save** button at the top right corner of the SQL editor and select t
 
 [The SQL Report Builder](../dev-reports/sql-rpt-bldr.md) gives you the power to directly query your data warehouse, view the results, and quickly transform them into a report. Using SQL also allows you [to utilize SQL functions that are not available](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html) in the Visual or Cohort Report Builders, thus giving you greater control over your data.
 
-We'd like to mention that calculated columns created using SQL aren't dependent on update cycles, meaning you can iterate on them as you please and immediately see results.
+We'd like to mention that calculated columns created using SQL are not dependent on update cycles, meaning you can iterate on them as you please and immediately see results.
 
 Note that this only applies to the structure of the column, not the freshness of the data. Fresh data is still dependent on successfully completed update cycles.
 
@@ -96,7 +96,7 @@ Note that this only applies to the structure of the column, not the freshness of
 
 #### Cohort Report Builder {#cohortrb}
 
-Unlike the Visual Report Builder, [the Cohort Report Builder](../dev-reports/cohort-rpt-bldr.md) is meant for a single purpose - analyzing and identifying behavioral trends of similar user groups over time. Using the Cohort Report Builder doesn't require any SQL savvy, so you can dive right in without hesitation if you're just starting out.
+Unlike the Visual Report Builder, [the Cohort Report Builder](../dev-reports/cohort-rpt-bldr.md) is meant for a single purpose - analyzing and identifying behavioral trends of similar user groups over time. Using the Cohort Report Builder doesn't require any SQL savvy, so you can dive right in without hesitation if you are just starting out.
 
 |**This is perfect for...**|**This isn't so great for...**|
 |Intermediate/advanced analysts|**Beginners** - you'll need practice defining cohorts.|

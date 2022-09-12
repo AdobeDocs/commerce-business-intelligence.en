@@ -9,7 +9,7 @@ Many analyses you might attempt to create, involve the use of a **new column** t
 These types of columns can be created by our team of Data Warehouse analysts. To define a new calculated column, please provide us with the **following information**:
 
 1. The **definition** of this column (including inputs, formulas, or formatting)
-1. The **table** that you'd like to create the column on
+1. The **table** that you would like to create the column on
 1. Any **example data points** that describe what the column should contain
 
 Here are some common examples of advanced calculated columns that users often find useful:
@@ -136,7 +136,7 @@ To create this type of calculated column, we need to know:
 
 Not to worry - just because it isn't listed here does not mean it is not possible. Our team of Data Warehouse Analysts has you covered.
 
-To define a new calculated column, [submit a support ticket](../../getting-started/support.md) with details on exactly what you'd like to build.
+To define a new calculated column, [submit a support ticket](../../getting-started/support.md) with details on exactly what you would like to build.
 
 ## Related documentation
 

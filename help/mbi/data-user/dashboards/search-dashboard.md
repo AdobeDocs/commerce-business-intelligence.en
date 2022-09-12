@@ -9,9 +9,9 @@ In this article, we show you how to use the [Global Search feature](../#global) 
 
 The Global Search menu allows you to search for and select dashboards to view.
 
-* **To view a list of your existing dashboards**, click the dashboard drop-down menu.
+* **To view a list of your existing dashboards**, click the dashboard.
 
-* **To search for a dashboard**, type in some search criteria in the search bar after clicking the dashboard drop-down menu. If any dashboards match the criteria, they'll display first in the list.
+* **To search for a dashboard**, type in some search criteria in the search bar after clicking the dashboard drop-down menu. If any dashboards match the criteria, they display first in the list.
 
 Example:
 

@@ -6,7 +6,7 @@ zendesk_id: 360016506492
 To bring your Linkshare data into MBI, you will need to do two things:
 
 1. [Export the Linkshare data in CSV format](../#export)
-1. [Upload the spreadsheet into MBI](../data-analyst/importing-data/connecting-data/using-file-uploader.md)
+1. [Upload the spreadsheet into MBI](../connecting-data/using-file-uploader.md)
 
 ## Export data from Linkshare {#export}
 
@@ -22,7 +22,7 @@ To bring your Linkshare data into MBI, you will need to do two things:
 
 1. Under **Data Type**, select **Transaction Date**.
 
-    ![importing\_linkshare\_data.png](../../assets/importing_linkshare_data.png)
+    ![importing\_linkshare\_data.png](../../../assets/importing_linkshare_data.png)
 
 1. Click **View Report**.
 
@@ -30,4 +30,4 @@ To bring your Linkshare data into MBI, you will need to do two things:
 
    At this point, a CSV file will be created and downloaded.
 
-After the file is downloaded, you can upload it to MBI using the [File Upload feature](../data-analyst/importing-data/connecting-data/using-file-uploader.md).
+After the file is downloaded, you can upload it to MBI using the [File Upload feature](../connecting-data/using-file-uploader.md).

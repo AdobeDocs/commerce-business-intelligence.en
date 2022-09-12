@@ -18,10 +18,10 @@ Let us get started.
 
 The process for creating a database user will vary depending on the database type you are connecting. To see the instructions for each database type, click the links below.
 
-* [Microsoft SQL](../data-analyst/importing-data/integrations/microsoft-sql-server.md)
-* [MongoDB](../data-analyst/importing-data/integrations/databases-via-a-vpn.md)
-* [MySQL](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
-* [PostgreSQL](../data-analyst/importing-data/integrations/postgresql.md)
+* [Microsoft SQL](../integrations/microsoft-sql-server.md)
+* [MongoDB](../integrations/databases-via-a-vpn.md)
+* [MySQL](../integrations/mysql-via-a-direct-connection.md)
+* [PostgreSQL](../integrations/postgresql.md)
 
 ## Creating a VPN user for MBI {#vpn}
 
@@ -31,7 +31,7 @@ As we mentioned before, any valid VPN user will work - but we strongly recommend
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it is also on the credentials page for any database integration:
 
-![MBI_Allow_Access_IPs.png](../../assets/MBI_allow_access_IPs.png)
+![MBI_Allow_Access_IPs.png](../../../assets/MBI_allow_access_IPs.png)
 
 ## Entering the connection and VPN user info into MBI {#finish}
 
@@ -58,4 +58,4 @@ Under the Encryption Connection section:
 * **Username:** The MBI VPN username
 * **Password:** The MBI VPN user password
 
-That's it! When you are finished, click the Save & Test button to complete the setup.
+That is it! When you are finished, click the **Save & Test** button to complete the setup.

@@ -13,7 +13,7 @@ Cohort analysis in general can be broadly defined as the analysis of user groups
 
 For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/){: target="_blank"} - we wrote the site on it!
 
-Most cohort analyses in MBI group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A **qualitative cohort** is a little different: it's a user group that is defined by a characteristic that isn't time-based. Some examples include:
+Most cohort analyses in MBI group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A **qualitative cohort** is a little different: it is a user group that is defined by a characteristic that isn't time-based. Some examples include:
 
 * The set of all users that were acquired from an ad campaign
 * The set of all users whose first purchase included a coupon (or didn't)
@@ -63,7 +63,7 @@ Third, you will make an adjustment to actually set up the cohorts. Based on the 
 
 * Select all values of the dimension in which you are interested
 
-* With the **Show top/bottom option**, select the "top" X months that you're interested in, and sort by the **Months between this order and customer's first order date** dimension
+* With the **Show top/bottom option**, select the "top" X months that you are interested in, and sort by the **Months between this order and customer's first order date** dimension
 
 Now, you will be able to see one line for each cohort that you specified. Check out our example now -- we see the Revenue contributed by users of each referral source, grouped by the number of months between their first order and any subsequent order. We also added a **Cumulative perspective** to see the cohorts' aggregate growth - take a look at the results table for more granularity.
 

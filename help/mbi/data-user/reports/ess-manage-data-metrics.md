@@ -24,7 +24,7 @@ When used in reports, metrics can be analyzed over a specified time period and [
 
     We recommend a name that, at a glance, tells you what the metric is. For example: _Average Order Revenue_.
 
-1. The next step is to define what your metric does. Using the drop-down menus, define the metric’s operation, the operation column, and a date dimension:
+1. The next step is to define what your metric does. Using the drop-down menus, define the metric's operation, the operation column, and a date dimension:
 
     * Choose an operation:
        * **Count** - This operation counts the number of rows in a data table
@@ -39,7 +39,7 @@ When used in reports, metrics can be analyzed over a specified time period and [
 
     * Choose a column to perform the operation on. For example, if you wanted to find your total revenue, you would perform a sum operation on the **order total** column.
 
-      If you’re editing an existing metric, you can also [change the metric’s operational table](../data-analyst/data-warehouse-mgr/change-metric-op-table.md) in this section.
+      If you're editing an existing metric, you can also [change the metric's operational table](../../data-analyst/data-warehouse-mgr/change-metric-op-table.md) in this section.
 
     * Choose a date dimension that can be used to trend the metric. For example, **order date**.
 
@@ -47,7 +47,7 @@ When used in reports, metrics can be analyzed over a specified time period and [
 
 The Filter section allows you to create a new filter or apply a [saved filter set](../../data-user/reports/ess-manage-data-filters.md) to your metric.
 
-For our **average order revenue** metric, we wouldn’t want to include any test orders that might have been done while setting up our store - this would give us an inaccurate result. We can apply a filter set to remove those orders from the data set. After the filter is created, it will apply to all charts built using this metric.
+For our **average order revenue** metric, we wouldn't want to include any test orders that might have been done while setting up our store - this would give us an inaccurate result. We can apply a filter set to remove those orders from the data set. After the filter is created, it will apply to all charts built using this metric.
 
 The Filter Logic section is where you can further define how a metric should behave.
 
@@ -57,7 +57,7 @@ The Filter Logic section is where you can further define how a metric should beh
 
 ## Adding Dimensions {#dimensions}
 
-The [Dimensions](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) section shows all available data dimensions for filtering or grouping; by default, all available data columns are listed as dimensions. Continuing our example, if we wanted to segment our revenue by referral source, we could do that here.
+The [Dimensions](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) section shows all available data dimensions for filtering or grouping; by default, all available data columns are listed as dimensions. Continuing our example, if we wanted to segment our revenue by referral source, we could do that here.
 
 In addition to listing all available data columns as dimensions, MBI will also take a guess at which columns are groupable. **To segment or group data on reports**, columns must be marked as groupable.
 
@@ -65,6 +65,6 @@ In addition to listing all available data columns as dimensions, MBI will also t
 
 In addition to defining how your metric behaves, you can also set permission levels in the **User Rights** section. While Admin users have access to all metrics, you have to indicate the users who can use this metric by checking the box next to the appropriate group.
 
-If you’re editing an existing metric, you can view a list of charts (and who owns them) that use this metric in the **Dependent Charts** section.
+If you're editing an existing metric, you can view a list of charts (and who owns them) that use this metric in the **Dependent Charts** section.
 
 Changes are saved automatically and your metric is now good to go.

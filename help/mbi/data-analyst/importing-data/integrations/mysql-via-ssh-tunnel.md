@@ -12,8 +12,8 @@ zendesk_id: 360016506672
 ## JUMP TO
 
 * **MySQL via SSH tunnel**
-* [MySQL via direct connection](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
-* [MySQL via cPanel](../data-analyst/importing-data/integrations/mysql-via-cpanel.md)
+* [MySQL via direct connection](../integrations/mysql-via-a-direct-connection.md)
+* [MySQL via cPanel](../integrations/mysql-via-cpanel.md)
 
 To connect your MySQL database to MBI via an SSH tunnel, you (or your team, if you are not a techie) will need to do a few things:
 
@@ -23,7 +23,7 @@ To connect your MySQL database to MBI via an SSH tunnel, you (or your team, if y
 1. Create a MySQL user for MBI
 1. Enter the connection and user info into MBI
 
-It's not as complicated as it might sound. Let us get started.
+It is not as complicated as it might sound. Let us get started.
 
 ## Retrieving the MBI public key {#retrieve}
 
@@ -38,7 +38,7 @@ Leave this page open throughout the tutorial - you will need it in the next sect
 
 If you are a bit lost, here's how to navigate through MBI to retrieve the key:
 
-![](../../assets/MySQL_SSH.gif){: width="778"}
+![](../../../assets/MySQL_SSH.gif){: width="778"}
 
 ## Allow access to the MBI IP address {#allowlist}
 
@@ -46,7 +46,7 @@ For the connection to be successful, your must configure your firewall to allow 
 
 ## Creating a Linux user for MBI {#linux}
 
-This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the MySQL server.
+This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../../../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the MySQL server.
 
 1. To add the new user, run the following commands as root on your Linux server:
 
@@ -75,7 +75,7 @@ This can be a production or secondary machine, as long as it contains real-time 
 
 **Important!**
 
-If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it's necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
+If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it is necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
 
 ## Creating a MySQL user for MBI {#mysql}
 
@@ -108,7 +108,7 @@ In the SSH Connection section:
 * **Username:** The username for the MBI SSH (Linux) user
 * **SSH Port:** SSH port on your server (22 by default)
 
-That's it! When you are finished, click the Save & Test button to complete the setup.
+That is it! When you are finished, click the Save & Test button to complete the setup.
 
 ## Related:
 

@@ -12,7 +12,7 @@ The good news: All these patterns can be avoided.
 
 ## Sub-nested Arrays {#subnested}
 
-If your collection looks like the example below, MBI will only replicate the data in the items array. Data from the subItems array won't be pulled.
+If your collection looks like the example below, MBI will only replicate the data in the items array. Data from the subItems array will not be pulled.
 
 ```bash
     {
@@ -34,7 +34,7 @@ If your collection looks like the example below, MBI will only replicate the dat
 
 ## Variable Object Keys {#varobjectkeys}
 
-Collections that include objects with variable object keys aren't replicated in MBI. For example:
+Collections that include objects with variable object keys are not replicated in MBI. For example:
 
 ```bash
     {

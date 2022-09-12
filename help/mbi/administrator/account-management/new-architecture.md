@@ -39,4 +39,4 @@ The MBI Services team can perform your re-implementation for an additional cost.
 
 ### Staying with Existing Architecture
 
-If these features aren't important to you, you can stick with your existing account. There is no added cost for keeping your existing account, and we will continue supporting those accounts with no changes.
+If these features are not important to you, you can stick with your existing account. There is no added cost for keeping your existing account, and we will continue supporting those accounts with no changes.

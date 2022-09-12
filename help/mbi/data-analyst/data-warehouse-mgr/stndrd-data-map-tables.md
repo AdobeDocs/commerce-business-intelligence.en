@@ -38,7 +38,7 @@ In the second column, enter what these values **should be**. Continuing with our
 
 ## What do I need to do in MBI to use it? {#use}
 
-After you've finished creating the mapping table, you'll need to [upload the file](../{{ site.baseurl }}/data-analyst/importing-data/connecting-data/using-file-uploader.html#uploading) into MBI and [create a joined column](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/calc-column-types.html#joined) that relocates the new field into the desired table. You can do this after the file is synced to your data warehouse.
+After you have finished creating the mapping table, you'll need to [upload the file](../{{ site.baseurl }}/data-analyst/importing-data/connecting-data/using-file-uploader.html#uploading) into MBI and [create a joined column](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/calc-column-types.html#joined) that relocates the new field into the desired table. You can do this after the file is synced to your data warehouse.
 
 In our example, we will move the column we created on the **mapping_state** table (**state_input**) to the **customer_address** table using a joined column. This will allow us to group by the clean **state_input** column in our reports instead of the **state** column.
 
@@ -51,7 +51,7 @@ To create the joined column, navigate to the table that the field will be reloca
 
    If you are not sure what the table relationship is or how to properly define the primary and foreign keys, check out [our tutorial](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) for some help.
 
-   * On the **Many** side, select the table you are relocating the field to (again, for us it's **customer_address**) and the **foreign key** column, or **state** column, in our example.
+   * On the **Many** side, select the table you are relocating the field to (again, for us it is **customer_address**) and the **foreign key** column, or **state** column, in our example.
    * On the **One** side, select the **mapping table** and the **primary key** column. In this case, we would select the **state_input** column from the **mapping_state** table.
    * Here is a look at what our path looks like:
 

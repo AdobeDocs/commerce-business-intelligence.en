@@ -24,7 +24,7 @@ To add one or more dimensions to multiple Metrics at once:
     {: dir="ltr"}
 
 1. {: dir="ltr"} In the **Choose Metric(s) to Add Dimensions** column, select the metrics you want to add dimensions to. Once selected, the **Choose Dimensions to Add** column will appear on the right. Check the dimensions you want to add to the selected metric.![](../../assets/Add_Dimensions.png)
-1. {: dir="ltr"} If you'd like to segment or group by any of the data dimensions on reports, make sure to indicate they are Groupable.
+1. {: dir="ltr"} If you would like to segment or group by any of the data dimensions on reports, make sure to indicate they are Groupable.
     {: dir="ltr"}
 
 1. {: dir="ltr"} Click "Add".

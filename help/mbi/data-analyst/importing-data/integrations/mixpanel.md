@@ -4,9 +4,9 @@ zendesk_id: 360016733071
 ---
 
 {:.bs-callout-info}
-[Requires Admin permissions](../../administrator/user-management/user-management.md)
+[Requires Admin permissions](../../../administrator/user-management/user-management.md)
 
-![](../../assets/Mixpanel_logo.png)
+![](../../../assets/Mixpanel_logo.png)
 
 With Mixpanel, you can analyze how users navigate and utilize your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting Mixpanel to MBI lets you analyze how your users behave and how that behavior translates into revenue.
 
@@ -23,7 +23,7 @@ To complete this process, you will need to open two browser windows or tabs - on
 Let us get started:
 
 1. Go to the Connections page under **Manage Data** > **Connections**.
-1. Click the Add a New Source button, located on the right side of the screen above the Data Sources table.
+1. Click the **Add a New Source** button, located on the right side of the screen above the Data Sources table.
 1. Click the Mixpanel icon and the credentials page will display.
 
 Leave this page open for now and switch to the browser window with your Mixpanel account.
@@ -45,9 +45,9 @@ Keep this open - we need it to wrap this up.
 1. Copy the API Key and Secret into the Mixpanel credentials page in MBI.
 1. Click Connect to Mixpanel to complete the setup.
 
-That's it! If the connection is successful, a _Success!_ message will display at the top of the page.
+That is it! If the connection is successful, a _Success!_ message will display at the top of the page.
 
 # Related
 
-* [Expected Mixpanel data](../data-analyst/importing-data/integrations/mixpanel-data.md)
+* [Expected Mixpanel data](../integrations/mixpanel-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)

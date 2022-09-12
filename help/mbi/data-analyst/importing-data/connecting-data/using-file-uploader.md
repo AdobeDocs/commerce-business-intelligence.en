@@ -3,9 +3,9 @@ title: Using the File Uploader
 zendesk_id: 360016730951
 ---
 
-MBI is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single data warehouse. Even data that lives outside your databases and integrations can be brought into MBI by using the File Upload tool in the Data Warehouse Manager. **Note that you need Admin permissions to access use the File Uploader**.
+MBI is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single data warehouse. Even data that lives outside your databases and integrations can be brought into MBI by using the File Upload tool in the Data Warehouse Manager. **Note:** You need Admin permissions to access use the File Uploader.
 
-Let us use ad campaigns as an example. If you are running both online and offline campaigns, you can't get the whole picture if you are only analyzing data from an online integration. Uploading a spreadsheet with the offline campaign data allows you to analyze both sets of data and get a more robust understanding of your campaign performance.
+Let us use ad campaigns as an example. If you are running both online and offline campaigns, you cannot get the whole picture if you are only analyzing data from an online integration. Uploading a spreadsheet with the offline campaign data allows you to analyze both sets of data and get a more robust understanding of your campaign performance.
 
 ## Restrictions and requirements {#require}
 
@@ -72,7 +72,7 @@ Now that your spreadsheet is correctly formatted and MBI-friendly, Let us add it
 
    After the upload completes, you will see a list of the columns MBI found in your file.
 
-1. Check that the column names and datatypes are correct. Specifically, check that any date columns are being read as dates and not numbers.
+1. Check that the column names and data types are correct. Specifically, check that any date columns are being read as dates and not numbers.
 
    **The datatype is extremely important, so do not skip this step!**
 
@@ -86,11 +86,11 @@ Now that your spreadsheet is correctly formatted and MBI-friendly, Let us add it
 
 If you need a visual, Here is a look at the whole process:
 
-![](../../assets/fileupload.gif){: width="714"}
+![](../../../assets/fileupload.gif){: width="714"}
 
 Uploaded tables display under the **File Uploads** section of the table list (in both the All Tables and Synced Tables options) in the Data Warehouse Manager:
 
-![](../../assets/upload-tables.png){: width="717" height="433"}
+![](../../../assets/upload-tables.png){: width="717" height="433"}
 
 ## Updating or appending data to an existing table {#appending}
 
@@ -127,10 +127,10 @@ Additionally, file upload isn't the only way to get your data into MBI. The [Dat
 ## Related {#related}
 
 * [Formatting and importing financial data](../../best-practices/format-import-financial-data.md)
-* [Importing offline / other ad spend data](../data-analyst/importing-data/connecting-data/import-offline-ad-data.md)
-* [Expected Google ECommerce data](../data-analyst/importing-data/integrations/google-ecommerce-data.md)
+* [Importing offline / other ad spend data](../connecting-data/import-offline-ad-data.md)
+* [Expected Google ECommerce data](../integrations/google-ecommerce-data.md)
 
 ## Third Party Resources
 
-* [Numbers Data Formatting Guide](../http://www.dummies.com/how-to/content/how-to-choose-a-number-format-in-your-numbers-spre.html)
+* [Numbers Data Formatting Guide](http://www.dummies.com/how-to/content/how-to-choose-a-number-format-in-your-numbers-spre.html)
 * [Google Docs Data Formatting Guide](https://support.google.com/docs/answer/56470?hl=en)

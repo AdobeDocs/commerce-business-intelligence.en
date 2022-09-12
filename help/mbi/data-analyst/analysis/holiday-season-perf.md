@@ -26,7 +26,7 @@ Now that we know what metrics to analyze, we look at some sample revenue data du
 [ ![Daily holiday season revenue for 2014 and 2015](../../assets/Analyzing_holiday_season.png){: style="max-width: 500px;"}][2]{: data-lightbox="image-1" data-title="Daily holiday season revenue for 2014 and 2015"}
 *Click for a closer look!*
 
-In this example, there are two large spikes in revenue for 2014 and 2015: these increases coincide with Black Friday and Cyber Monday. Notice how the spikes aren't on the same day for 2014 and 2015. This is because Black Friday fell on November 27 for 2014 and November 28 for 2015. Similarly, Cyber Monday was November 30 for 2014 and December 1 for 2015.
+In this example, there are two large spikes in revenue for 2014 and 2015: these increases coincide with Black Friday and Cyber Monday. Notice how the spikes are not on the same day for 2014 and 2015. This is because Black Friday fell on November 27 for 2014 and November 28 for 2015. Similarly, Cyber Monday was November 30 for 2014 and December 1 for 2015.
 
 Furthermore, there is a spike in revenue for 2015 on December 19 that does not appear in 2014. it is possible that a sale was offered on this particular Saturday that wasn't available the previous year.
 

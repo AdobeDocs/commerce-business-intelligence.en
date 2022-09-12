@@ -3,7 +3,7 @@ title: Translating SQL queries into MBI reports
 zendesk_id: 360016506772
 ---
 
-Ever wondered how SQL queries are translated into the [calculated columns](../data-warehouse-mgr/creating-calculated-columns.md), [metrics](../../data-user/reports/ess-manage-data-metrics.md), and [reports](../../tutorials/using-visual-report-builder.md) you use in MBI? If you're a heavy SQL user, understanding how SQL is translated in MBI will enable you to work smarter in the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) and get the most out of the MBI platform.
+Ever wondered how SQL queries are translated into the [calculated columns](../data-warehouse-mgr/creating-calculated-columns.md), [metrics](../../data-user/reports/ess-manage-data-metrics.md), and [reports](../../tutorials/using-visual-report-builder.md) you use in MBI? If you are a heavy SQL user, understanding how SQL is translated in MBI will enable you to work smarter in the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) and get the most out of the MBI platform.
 
 At the end of this article, we have included a **translation matrix** for SQL query clauses and MBI elements.
 
@@ -126,9 +126,9 @@ And Let us also assume we already have metrics set up to calculate the "Total Re
 
 ## Wrapping Up
 
-As we mentioned at the beginning of this article, if you're a heavy SQL user, thinking about how queries translate in MBI will enable you to build calculated columns, metrics, and reports.
+As we mentioned at the beginning of this article, if you are a heavy SQL user, thinking about how queries translate in MBI will enable you to build calculated columns, metrics, and reports.
 
-For quick reference, check out the matrix below. This shows a SQL clause's equivalent MBI element and how it can map to more than one element, depending on how it's used in the query.
+For quick reference, check out the matrix below. This shows a SQL clause's equivalent MBI element and how it can map to more than one element, depending on how it is used in the query.
 
 ## MBI Elements
 

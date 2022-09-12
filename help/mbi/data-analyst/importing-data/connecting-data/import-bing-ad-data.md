@@ -16,4 +16,4 @@ In order to export your Bing Ads data, you will need to have Bing Ads Editor ins
 1. In the **Save As** dialog box, click the folder where you would like to save your export file.
 1. In the **File name** box, choose a name for your file export.
 1. Click **Save**
-1. After the file is downloaded, please **[contact support](../../getting-started/support.md)** and we will perform a first upload on your behalf and setup the necessary back-end dimensions.
+1. After the file is downloaded,  [contact support](../../getting-started/support.md) and we will perform a first upload on your behalf and setup the necessary back-end dimensions.

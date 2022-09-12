@@ -9,15 +9,15 @@ This is particularly useful if you want to re-create an existing set of charts b
 
 1. To clone a dashboard, click the **Options** menu at the top of the screen.
 
-1. In the drop-down menu, click **Save As**.
+1. In the dropdown , click **Save As**.
 
 1. When prompted, enter the **New Dashboard Name**. We recommend names that tell you, at a glance, what information is contained in the dashboard.
 
-   Lets say, for example, that you are cloning a dashboard named `Customer Activity`. This dashboard contained customer activity information for your Philadelphia location, but now you want to create a dashboard for your new New York City location. This dashboard could be named `New York City - Customer Activity`.
+   For example, you are cloning a dashboard named `Customer Activity`. This dashboard contained customer activity information for your Philadelphia location, but now you want to create a dashboard for your new New York City location. This dashboard could be named `New York City - Customer Activity`.
 
 1. Use the **Chart Title Find** and **Chart Title Replace** fields to find all charts with `Philadelphia` in the title and replace it with `New York City`.
 
-   If you don’t enter any values in these fields, a `(2)` will automatically be appended at the end of all chart titles in the new dashboard.
+   If you don't enter any values in these fields, a `(2)` will automatically be appended at the end of all chart titles in the new dashboard.
 
 1. Click the **Save** button to clone the dashboard.
 

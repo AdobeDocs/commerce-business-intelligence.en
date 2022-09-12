@@ -17,7 +17,7 @@ The following sections discuss when it might be appropriate to use consolidated 
 
 ### Integrating Data from Multiple Websites
 
-If you sell your products under different brands and websites, it's likely that the tables for each brand or website are similarly structured.
+If you sell your products under different brands and websites, it is likely that the tables for each brand or website are similarly structured.
 
 For example, you may have an `orders` table for website A and a separate, but similar, `orders` table for website B. In this situation, it may be useful to consolidate the `orders` tables from website A and B so that you can look at the consolidated revenue and number of orders from website A and B, in addition to be able to segment metrics by these two websites.
 

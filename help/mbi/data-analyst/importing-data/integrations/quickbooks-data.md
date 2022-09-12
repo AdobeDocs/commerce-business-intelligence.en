@@ -5,7 +5,7 @@ zendesk_id: 360016730671
 
 ![](../../assets/Quickbooks.png)
 
-After [you have connected your QuickBooks account](../data-analyst/importing-data/integrations/quickbooks.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis. The following tables will be created in your data warehouse:
+After [you have connected your QuickBooks account](../data-analyst/importing-data/integrations/quickbooks.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis. The following tables will be created in your data warehouse:
 
 To view all the fields available for tracking, click the links in the table name column.
 
@@ -34,7 +34,7 @@ To view all the fields available for tracking, click the links in the table name
 | **Table Name** | **Description** |
 | [accounts](https://developer.intuit.com/docs/api/accounting/Account) | The accounts table includes the account ID, name, status, type, balance, currency, and creation time. |
 | [budgets ](https://developer.intuit.com/docs/api/accounting/Budget) | This table records all information relating to company budgets, including the budget ID, name, start and end dates, type, status, and details. |
-| [classes](https://developer.intuit.com/docs/api/accounting/Class) | Classes, applied to detail lines of transactions, allow you to track segments that aren't tied to a client or project. This table records the class ID, name, subclass, and status. |
+| [classes](https://developer.intuit.com/docs/api/accounting/Class) | Classes, applied to detail lines of transactions, allow you to track segments that are not tied to a client or project. This table records the class ID, name, subclass, and status. |
 | [customers](https://developer.intuit.com/docs/api/accounting/Customer) | The customers table holds all information relating to your customers, including the customer's ID, name, billing and shipping addresses, phone number, and email address. |
 | [departments](https://developer.intuit.com/docs/api/accounting/Department) | The departments table includes the department ID, name, and type (subdepartment vs top-level department). |
 | [employees](https://developer.intuit.com/docs/api/accounting/Employee) | The employees table records information about the people who work for your company. Attributes include the employee ID, name, address, phone number, and billable information, if the company is payroll-enabled. |
@@ -48,5 +48,5 @@ To view all the fields available for tracking, click the links in the table name
 
 ## Related:
 
-* [Connecting QuickBooks](../data-analyst/importing-data/integrations/quickbooks.md)
+* [Connecting QuickBooks](../integrations/quickbooks.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)

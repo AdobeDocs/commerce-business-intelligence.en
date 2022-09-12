@@ -51,7 +51,7 @@ For example, when thinking about users and orders consider all that is possible 
 
 To use this method:
 
-1. Identify the entity being described in each table. **Hint: it's usually a noun**. For example, the tables **users** and **orders** are explicitly describing users and orders.
+1. Identify the entity being described in each table. **Hint: it is usually a noun**. For example, the tables **users** and **orders** are explicitly describing users and orders.
 1. Identify the verb(s) that describes how these entities interact. For example, when comparing users to orders, users "place" orders. Going the other direction, orders "belong" to users.
 
 This type of framework can be applied to any pairing of tables in your Data Warehouse, allowing you to easily identify the type of relationship as well as which table is a one side and which table is a many side.

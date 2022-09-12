@@ -62,7 +62,7 @@ This tells us nothing about the report, which is bad.
 **Good example:**
  Cumulative revenue past 30 days by month
 
-This tells us **exactly** what's in the report, which is fantastic.
+This tells us **exactly** what is in the report, which is fantastic.
 
 ## Dashboards {#dashboards}
 

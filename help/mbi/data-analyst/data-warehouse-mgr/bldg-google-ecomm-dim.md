@@ -48,7 +48,7 @@ In this example, we build the **Order's GA Source** dimension.
 1. From the list of tables in the Data Warehouse, click the table (in our case, **orders**) that contains your order information.
 1. Click the Create a Column button.
 1. Name the column.
-1. Select **Joined Column** from the [definition dropdown](../data-warehouse-mgr/calc-column-types.md). In this example, we're working with a [one-to-one relationship](../data-warehouse-mgr/table-relationships.md), matching the **eCommerce.transactionID** column to exactly one row of the **orders** table.
+1. Select **Joined Column** from the [definition dropdown](../data-warehouse-mgr/calc-column-types.md). In this example, we are working with a [one-to-one relationship](../data-warehouse-mgr/table-relationships.md), matching the **eCommerce.transactionID** column to exactly one row of the **orders** table.
 1. Next, we need to define the path, or how the table and column being used are connected. Click the Select a table and column dropdown.
 1. The path we need isn't available, so we need to create a new one. Click Create new Path.
 1. In the window that displays, set the **Many** side to **orders.order\_id**, or the column in the **orders** table that contains the order ID.

@@ -11,7 +11,7 @@ To connect your PostgreSQL database to MBI via an SSH tunnel, you (or your team,
 1. [Create a Postgres user for MBI ](../#postgres)
 1. [Enter the connection and user info into MBI](../#finish)
 
-It's not as complicated as it might sound. Let us get started.
+it is not as complicated as it might sound. Let us get started.
 
 ## Retrieving the MBI public key {#retrieve}
 
@@ -26,15 +26,15 @@ Leave this page open throughout the tutorial - you will need it in the next sect
 
 If you are a bit lost, here's how to navigate through MBI to retrieve the key:
 
-![Retrieving the RJMetrics public key](../../assets/4.1.gif)
+![Retrieving the RJMetrics public key](../../../assets/4.1.gif)
 
 ## Allow access to the MBI IP address {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP address. It's **54.88.76.97/32**, but it's also on the PostgreSQL credentials page. See the blue box in the GIF above? That's it!
+For the connection to be successful, your must configure your firewall to allow access from our IP address. it is **54.88.76.97/32**, but it is also on the PostgreSQL credentials page. See the blue box in the GIF above? That's it!
 
 ## Creating a Linux user for MBI {#linux}
 
-This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the PostgreSQL server.
+This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../../../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the PostgreSQL server.
 
 1. To add the new user, run the following commands as root on your Linux server:
 
@@ -62,7 +62,7 @@ This can be a production or secondary machine, as long as it contains real-time 
 
 **Important!**
 
-If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it's necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
+If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it is necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
 
 ## Creating an MBI Postgres user {#postgres}
 

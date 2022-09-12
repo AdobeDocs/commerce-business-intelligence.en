@@ -2,9 +2,9 @@
 title: Dashboards
 ---
 
-BI Dashboards give you a quick view of your store’s performance and sales activity at a glance. Individual dashboards can be shared with other users and organized into logical groups. You can also set different levels of permission for other users.
+MBI Dashboards give you a quick view of your store's performance and sales activity at a glance. Individual dashboards can be shared with other users and organized into logical groups. You can also set different levels of permission for other users.
 
-It’s easy to create a new report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
+It's easy to create a new report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
 
 ![](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png){: .zoom}
 *Dashboard*
@@ -13,7 +13,7 @@ It’s easy to create a new report, add it to a dashboard, and export the data t
 
 Dashboards are essentially sharable, themed buckets for the analyses you create in the Report Builders. This is how you can encourage your team to collaborate and maintain a single source of truth across your organization.
 
-**If you’re an Admin or a Standard user**, you can create a dashboard by clicking the Dashboard Options drop-down and choosing **Create New dashboard**.
+**If you are an Admin or a Standard user**, you can create a dashboard by clicking the Dashboard Options drop-down and choosing **Create New dashboard**.
 
 What the dashboards you create look like is entirely up to you. You can arrange and resize the elements in the dashboard any way you wish to suit your needs and workflow.
 
@@ -75,11 +75,11 @@ To truly scale MBI throughout your organization and provide valuable insights, w
 
 When you share a dashboard, you can assign permissions across your organization OR on an individual basis, meaning you get to decide who can view and edit your reports.
 
-**Note**: Read Only users only have access to dashboards that are directly shared with them - they aren’t able to search for and add dashboards on their own. Don’t forget to keep them in the loop!
+**Note**: Read Only users only have access to dashboards that are directly shared with them - they aren't able to search for and add dashboards on their own. Don't forget to keep them in the loop!
 
 #### Accessing shared dashboards {#accessshared}
 
-**If you’re an Admin or Standard user** and want to add a shared dashboard to your account, you can do so by clicking **Dashboard Options** and then clicking **Find** in the dropdown.
+**If you are an Admin or Standard user** and want to add a shared dashboard to your account, you can do so by clicking **Dashboard Options** and then clicking **Find** in the dropdown.
 
 ![find\_dashboard.png](../../assets/find_dashboard.png){: width="1000" height="535"}
 

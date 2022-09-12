@@ -5,7 +5,7 @@ zendesk_id: 360016505792
 
 In the [Report Builder](../../tutorials/using-visual-report-builder.md){: target="_blank"}, you can create powerful visualizations using the [defined metrics](../../data-user/reports/ess-manage-data-metrics.md){: target="_blank"} in your account. Combining these metrics in a formula allows you to glean additional insights from your data. In this article, we'll deep-dive into how formulas can be used in the Report Builder - lets jump in!
 
-## What's a formula? {#what}
+## what is a formula? {#what}
 
 In the Report Builder, a formula is just a combination of one or more metrics based on some mathematical logic. A typical example looks like this:
 
@@ -15,13 +15,13 @@ In this example, we are using a Number of orders metric (A) and a Distinct buyer
 
 * **Definition:** Here, you apply math on the input metrics. In this example, dividing the number of orders by the number of distinct buyers will tell us the average number of orders. Therefore, the definition is (A/B).
 
-* **Format:** Is your formula returning a number, a time period, or a currency amount? Next to the formula's definition is a drop-down menu, which you can use to specify the return's format. In this case, it's a number.
+* **Format:** Is your formula returning a number, a time period, or a currency amount? Next to the formula's definition is a drop-down menu, which you can use to specify the return's format. In this case, it is a number.
 
 * **Miscellaneous:** The formula's timestamp, groupings, perspectives, and filters are all inherited by its input metrics. There's nothing to do here!
 
 ## How can I use formulas in my reports? {#how}
 
-Now that we've covered the basics, lets take a look at some examples.
+Now that we have covered the basics, lets take a look at some examples.
 
 #### Example: I want to find out what percent of my revenue can be attributed to first-time orders.
 

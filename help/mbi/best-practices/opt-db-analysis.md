@@ -12,7 +12,7 @@ This topic contains some recommendations to help you optimize your database for 
 {:.bs-callout-tip}
 The local and international laws that affect your business (and your own terms of service) may affect what types of data you can retain and how long you can retain it for. Compliance with these laws should be your first priority.
 
-When an order is cancelled, a user deactivates their account, or a product is discontinued, it's tempting to delete the associated information in the database. Tables grow and eliminating clutter seems like a prudent idea. However, deleting rows means that this information is lost forever or that you will need to dig through old backups to find it.
+When an order is cancelled, a user deactivates their account, or a product is discontinued, it is tempting to delete the associated information in the database. Tables grow and eliminating clutter seems like a prudent idea. However, deleting rows means that this information is lost forever or that you will need to dig through old backups to find it.
 
 Instead, you can add a status column to the table which will indicate when the row is no longer active or relevant. It is also recommended to add a column that stores the date the change was made, or create a log for historical changes. If tables grow large enough that performance begins to suffer, consider archiving the old data to a table used for analytics.
 
@@ -32,7 +32,7 @@ In addition to optimizing for analysis, **updated\_at** columns also allow you t
 
 ## Store User Acquisition Source
 
-One of the most common mistakes is the [user acquisition source](../data-analyst/analysis/google-track-user-acq.md), or UAS, not being stored in the operational database. In the majority of situations where this is an issue, UAS is only being tracked through Google Analytics or some other web analytics tool. While these tools can be extremely valuable, there are some drawbacks to storing UAS in them exclusively; such as, you can't extract user-level data from these tools. When it is possible, it's usually a difficult process. It should be easy to get this information and marry it with data from other sources, such as the behavioral and transactional information also stored in your database.
+One of the most common mistakes is the [user acquisition source](../data-analyst/analysis/google-track-user-acq.md), or UAS, not being stored in the operational database. In the majority of situations where this is an issue, UAS is only being tracked through Google Analytics or some other web analytics tool. While these tools can be extremely valuable, there are some drawbacks to storing UAS in them exclusively; such as, you can't extract user-level data from these tools. When it is possible, it is usually a difficult process. It should be easy to get this information and marry it with data from other sources, such as the behavioral and transactional information also stored in your database.
 
 Storing UAS in your own database is often the largest improvement an online business can make to its analytical capabilities. This allows for the analysis of sales, user engagement, payback periods, customer lifetime value, churn, and other critical metrics by UAS. [This data is crucial when deciding where to invest marketing resources](../data-analyst/analysis/most-value-source-channel.md).
 

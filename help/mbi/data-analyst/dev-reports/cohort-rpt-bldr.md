@@ -11,7 +11,7 @@ Cohort analysis can be broadly defined as the analysis of user groups that share
 
 For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/){: target="_blank"} - we wrote the site on it!
 
-In your MBI dashboard, it's easy to create user cohorts based on a cohort date and a metric in your account.
+In your MBI dashboard, it is easy to create user cohorts based on a cohort date and a metric in your account.
 
 ## Well, why is cohort analysis important? {#important}
 
@@ -103,7 +103,7 @@ In this section, we walk you through creating your own cohort analysis. For exam
 
 #### Adding a metric
 
-Now that we're in the Cohort Report Builder, Let us add the metric (example: **Revenue** or **Number of orders**) that we want to perform the analysis on.
+Now that we are in the Cohort Report Builder, Let us add the metric (example: **Revenue** or **Number of orders**) that we want to perform the analysis on.
 
 **Note:** Native Google Analytics metrics are not compatible with the Cohort Report Builder.
 
@@ -145,7 +145,7 @@ This setting answers that question. Counting members in the **customers** table 
 
 #### Selecting a perspective {#perspective}
 
-After you've defined the metric and how you want to analyze it, you can select the perspective you want to use.
+After you have defined the metric and how you want to analyze it, you can select the perspective you want to use.
 
 Just above the report visualization is a drop-down of perspective settings.
 
@@ -155,7 +155,7 @@ For more details on Perspectives, click [here](../#perspectives).
 
 ## Examples of cohort analysis {#examples}
 
-Now that we've gone through how to create a cohort analysis, Let us take a look at some examples.
+Now that we have gone through how to create a cohort analysis, Let us take a look at some examples.
 
 #### I want to know how my user cohorts are growing over time.
 

@@ -470,7 +470,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time Range**: All-Time
    * **Time Interval**: None
    * **Group By**: Customer's first order's campaign
-   * **Notes**: For the two filters, you can add any other mediums that are considered "paid" mediums for your business such as cpc or paid search, and you can add any other sources you'd like to analyze such as Facebook. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
+   * **Notes**: For the two filters, you can add any other mediums that are considered "paid" mediums for your business such as cpc or paid search, and you can add any other sources you would like to analyze such as Facebook. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
    ![Lifetime value by acquisition source, medium, and campaign](../../assets/LTV_2.png){: width="929"}
 

@@ -21,9 +21,9 @@ This is not a comprehensive list, but here are some potential analyses that can 
 
 ### Adding a metric
 
-Now that we're in the Report Builder, let's add the metric that we want to perform the analysis on (example: **Revenue** or **Orders**).
+Now that we are in the Report Builder, let's add the metric that we want to perform the analysis on (example: **Revenue** or **Orders**).
 
-**Note: Native Google Analytics metrics aren't compatible with the Cohort Report Builder.** Our goal for this example is to look at revenue over time for first-order customers who were acquired through different GA sources.
+**Note: Native Google Analytics metrics are not compatible with the Cohort Report Builder.** Our goal for this example is to look at revenue over time for first-order customers who were acquired through different GA sources.
 
 ### Toggle Metric View to Cohort
 

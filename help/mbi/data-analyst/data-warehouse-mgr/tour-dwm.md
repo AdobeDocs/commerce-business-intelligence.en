@@ -97,7 +97,7 @@ New synced columns and new/updated calculated columns will be ready for use afte
 
 When you are ready to use your new columns in reports, [you need to add them to metrics first](../data-warehouse-mgr/manage-data-dimensions-metrics.md). Although data will not be available until an update completes, you can still use new columns in reports. Data within the report will display when the update is finished.
 
-## That's it - we're at the end!
+## That's it - we are at the end!
 
 We covered a lot of material in this tutorial. By now, you should have a solid understanding of what a database is, how data is organized, how tables relate to each other, and what you can do with the Data Warehouse Manager.
 

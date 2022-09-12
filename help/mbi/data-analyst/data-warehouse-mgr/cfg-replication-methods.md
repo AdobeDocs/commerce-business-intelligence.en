@@ -36,7 +36,7 @@ For example, a table may have a column called **modified\_at** that indicates th
 **Did you know?**
  Even if your database can't currently support an Incremental Replication method, you may be able to [make some changes to your database](../../best-practices/mod-db-inc-replication.md) that would enable use of Modified At or Single Auto Incrementing PK.
 
-Modified At is not only the most ideal replication method, it's also the fastest. This method not only produces noticeable speed increases with large data sets, it also does not require configuring a recheck option. Other methods will need to iterate through an entire table to identify changes, even if a small subset of data has changed. Modified At iterates through only that small subset.
+Modified At is not only the most ideal replication method, it is also the fastest. This method not only produces noticeable speed increases with large data sets, it also does not require configuring a recheck option. Other methods will need to iterate through an entire table to identify changes, even if a small subset of data has changed. Modified At iterates through only that small subset.
 
 ### Single Auto Incrementing Primary Key
 
@@ -85,7 +85,7 @@ This method is intended to replicate data from tables that meet the following cr
 * composite keys (multiple columns comprising the primary key) - note that columns used in a composite primary key can never have null values; or
 * single-column, integer, non-auto-incrementing primary key values.
 
-This method isn't ideal, as it's incredibly slow due to the amount of processing that must occur to examine batches and find changes. We do not recommend using this method unless it isn't possible to make the modifications necessary to support the other replication methods. Expect update times to increase if this method must be used.
+This method isn't ideal, as it is incredibly slow due to the amount of processing that must occur to examine batches and find changes. We do not recommend using this method unless it isn't possible to make the modifications necessary to support the other replication methods. Expect update times to increase if this method must be used.
 
 ## Setting replication methods
 

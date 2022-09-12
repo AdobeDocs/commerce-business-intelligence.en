@@ -36,9 +36,9 @@ Three levels of access exist in MBI for dashboards - View, Edit, and None.
 
 User permissions can be changed one of two ways - for all users or for an individual user.
 
-1. **To change all users’ permissions,** use the drop-down menu next to the **Set all users’ permissions to…** label.
+1. **To change all users' permissions,** use the drop-down menu next to the **Set all users' permissions to…** label.
 
-1. **To change an individual user’s permissions,** use the drop-down menu next to the user’s name to set the desired level of access.
+1. **To change an individual user's permissions,** use the drop-down menu next to the user's name to set the desired level of access.
 
 ## Change the Default Dashboard {#default}
 
