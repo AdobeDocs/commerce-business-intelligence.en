@@ -9,7 +9,7 @@ When analyzing your data, it is beneficial to consolidate data from different so
 This guide will teach you how to do just that. Before getting started, we recommend you check out the [Calculated Column Types guide](../data-analyst/data-warehouse-mgr/calc-column-types.md). The Calculated Column Types Guide outlines the types of columns you can create in the Data Warehouse Manager, along with their definitions and examples.
 
 1. To get started, click **Manage Data** > **Data Warehouse** in the sidebar.
-1. Click the table you want to create a column in. For example, if we wanted to create a **Customer Gender** column for revenue segmentation, we'd select the **sales_flat_order** table.
+1. Click the table you want to create a column in. For example, if we wanted to create a **Customer Gender** column for revenue segmentation, we would select the **sales_flat_order** table.
 1. The table scheme will display. Click the **Create New Column** button.
 1. Give your column a name - for example, Customer Gender.
 1. Select the definition for the column. This is where the [Calculated Column Types guide](../data-warehouse-mgr/calc-column-types.md) will come in handy!

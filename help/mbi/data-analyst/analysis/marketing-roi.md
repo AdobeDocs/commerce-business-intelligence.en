@@ -14,7 +14,7 @@ Before getting started, you want to connect your [Facebook Ads](../importing-dat
 
 #### Consolidated Tables
 
-**Original architecture:** In order to bring together your spend from various sources (like Facebook Ads or Google Adwords), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you haven't already, [file a support request](../../getting-started/support.md) with the subject **[MARKETING ROI ANALYSIS]**, and an analyst will create this table.
+**Original architecture:** In order to bring together your spend from various sources (like Facebook Ads or Google Adwords), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you have not already, [file a support request](../../getting-started/support.md) with the subject **[MARKETING ROI ANALYSIS]**, and an analyst will create this table.
 
 **New architecture:** You can follow the example set forth in [this Analysis Library](../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
 

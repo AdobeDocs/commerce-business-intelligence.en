@@ -335,7 +335,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### Time between orders
 
-* **Description**: Test your assumptions and expectations about your customers' purchase cycles with a **time between orders** analysis that looks at the average (or median!) amount of time between purchases. In the chart below, you can see that your best customers – those who place more than three orders – make their second purchase in less than six months. Customers who haven't placed a fourth order wait 14 months before making a second purchase.
+* **Description**: Test your assumptions and expectations about your customers' purchase cycles with a **time between orders** analysis that looks at the average (or median!) amount of time between purchases. In the chart below, you can see that your best customers – those who place more than three orders – make their second purchase in less than six months. Customers who have not placed a fourth order wait 14 months before making a second purchase.
 * **Metric definition**: This metric performs an **average** of **Time since previous order** from **sales_flat_order** ordered by **created_at**.
 * **Report example**:
    * **Metric 1**: ≤ 3 orders

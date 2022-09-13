@@ -7,7 +7,7 @@ zendesk_id: 360016504532
 
 After [you have connected your Facebook Ads account](../integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
 
-In this article, we  give you a brief overview of the tables we recommend you sync to your data warehouse. Note that this isn't an exhaustive list, as there are quite a few subtables. We are only highlighting the core tables.
+In this article, we  give you a brief overview of the tables we recommend you sync to your data warehouse. Note that this is not an exhaustive list, as there are quite a few subtables. We are only highlighting the core tables.
 
 ## Core ad campaign tables
 

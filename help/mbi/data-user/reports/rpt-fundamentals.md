@@ -85,13 +85,13 @@ Simply go to any dashboard and [create a new report](../../data-user/reports/ess
 
 #### Visual Report Builder {#visualrb}
 
-[The Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md) is the easiest way to visualize your data. If you're not familiar with SQL or you just want to quickly create a report, the Visual Report Builder is your best bet. With just a few clicks, you can add metrics, segment your data, and create reports to across your organization. This option is perfect for beginners and experts alike, as it doesn't require any technical expertise.
+[The Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md) is the easiest way to visualize your data. If you're not familiar with SQL or you just want to quickly create a report, the Visual Report Builder is your best bet. With just a few clicks, you can add metrics, segment your data, and create reports to across your organization. This option is perfect for beginners and experts alike, as it does not require any technical expertise.
 
 <table style="width: 649px;">
 <tbody>
 <tr>
 <td style="width: 245.5px;"><strong>This is perfect for...</strong></td>
-<td style="width: 397.5px;"><strong>This isn't so great for...</strong></td>
+<td style="width: 397.5px;"><strong>This is not so great for...</strong></td>
 </tr>
 <tr>
 <td style="width: 245.5px;" valign="top">
@@ -105,7 +105,7 @@ Simply go to any dashboard and [create a new report](../../data-user/reports/ess
 <ul>
 <li><strong>Analyses that require SQL-specific functions</strong></li>
 <li>
-<strong>Testing new columns</strong> - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL aren't</li>
+<strong>Testing new columns</strong> - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL are not</li>
 </ul>
 </td>
 </tr>

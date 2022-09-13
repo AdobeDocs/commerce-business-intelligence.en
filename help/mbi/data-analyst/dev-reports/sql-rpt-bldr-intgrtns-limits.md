@@ -1,5 +1,5 @@
 ---
-title: Are there any integrations I can't use with the SQL Report Builder?
+title: Are there any integrations I cannot use with the SQL Report Builder?
 zendesk_id: 360016506592
 ---
 

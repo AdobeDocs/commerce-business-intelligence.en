@@ -5,7 +5,7 @@ zendesk_id: 360016505472
 
 This topic discusses the best way to import financial data for analysis in MBI.
 
-A two-dimensional cross-tab data table is often the format used for financial data. With values categorized by labels in both columns and rows, this type of layout might be easy to view with human eyes and spreadsheet tools, but it isn't very friendly to databases.
+A two-dimensional cross-tab data table is often the format used for financial data. With values categorized by labels in both columns and rows, this type of layout might be easy to view with human eyes and spreadsheet tools, but it is not very friendly to databases.
 
 ![](../../assets/crosstab.png)
 

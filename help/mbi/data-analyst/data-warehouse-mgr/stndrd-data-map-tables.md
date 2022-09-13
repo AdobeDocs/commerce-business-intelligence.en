@@ -30,9 +30,9 @@ Before you dive in, we recommend that you [export the raw table data](../../tuto
 
 To make a mapping table, you'll need to create a two column spreadsheet that follows the [formatting rules for file uploads](../{{ site.baseurl}}/data-analyst/importing-data/connecting-data/using-file-uploader.html#formatting).
 
-In the first column, enter the values stored in your database with **only one value in each row**. For example, 'pa' and 'PA' can't be on the same line - each input needs to have its own row. See below for an example.
+In the first column, enter the values stored in your database with **only one value in each row**. For example, 'pa' and 'PA' cannot be on the same line - each input needs to have its own row. See below for an example.
 
-In the second column, enter what these values **should be**. Continuing with our billing state example, if we want 'pa,' 'PA,' 'Pennsylvania,' and 'pennsylvania' to simply be 'PA,' we'd enter PA in this column for each input value.
+In the second column, enter what these values **should be**. Continuing with our billing state example, if we want 'pa,' 'PA,' 'Pennsylvania,' and 'pennsylvania' to simply be 'PA,' we would enter PA in this column for each input value.
 
 ![](../../assets/Mapping_table_examples.jpg)
 

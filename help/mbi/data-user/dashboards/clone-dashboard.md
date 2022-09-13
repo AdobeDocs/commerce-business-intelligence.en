@@ -17,7 +17,7 @@ This is particularly useful if you want to re-create an existing set of charts b
 
 1. Use the **Chart Title Find** and **Chart Title Replace** fields to find all charts with `Philadelphia` in the title and replace it with `New York City`.
 
-   If you don't enter any values in these fields, a `(2)` will automatically be appended at the end of all chart titles in the new dashboard.
+   If you do not enter any values in these fields, a `(2)` will automatically be appended at the end of all chart titles in the new dashboard.
 
 1. Click the **Save** button to clone the dashboard.
 

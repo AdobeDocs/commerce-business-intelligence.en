@@ -18,7 +18,7 @@ Take a look at some of the more common reasons you would use the SQL Report Buil
 
 Part of the beauty of the SQL Report Builder is that it gives you the ability to use functions that are not currently available in the Data Warehouse Manager. In the past, an analyst may have had to step in to help you fully realize your vision.
 
-The SQL Report Builder supports functions like [LISTAGG](https://docs.aws.amazon.com/redshift/latest/dg/r_LISTAGG.html) and [GETDATE](https://docs.aws.amazon.com/redshift/latest/dg/r_GETDATE.html), which you couldn't previously use. You can access the [full list](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html), but some other SQL-specific functions include:
+The SQL Report Builder supports functions like [LISTAGG](https://docs.aws.amazon.com/redshift/latest/dg/r_LISTAGG.html) and [GETDATE](https://docs.aws.amazon.com/redshift/latest/dg/r_GETDATE.html), which you could not previously use. You can access the [full list](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html), but some other SQL-specific functions include:
 
 * [Bitwise aggregate functions](https://docs.aws.amazon.com/redshift/latest/dg/c_bitwise_aggregate_functions.html)
 * [CASE expression](https://docs.aws.amazon.com/redshift/latest/dg/r_CASE_function.html)
@@ -43,7 +43,7 @@ As we mentioned in the section above, creating a new column in the Data Warehous
 
 In some cases, the structure of your data might make the SQL Report Builder a more efficient and logical choice to build your analysis. Creating columns for one-to-one relationships is pretty straightforward in the Data Warehouse Manager, but things can get a little confusing when you're dealing with one-to-many relationships.
 
-Let's say a single product is considered a part of multiple product categories, and you'd like to view the revenue associated with each category of each product. Trying to create this relationship using the DWM can be tedious and difficult, but writing a SQL query may be a bit more straightforward:
+Let's say a single product is considered a part of multiple product categories, and you would like to view the revenue associated with each category of each product. Trying to create this relationship using the DWM can be tedious and difficult, but writing a SQL query may be a bit more straightforward:
 
 ![](../../assets/When_should_I_use_the_RB_2.png)
 
@@ -59,7 +59,7 @@ If what you want to create is straightforward, using the traditional Report Buil
 
 Will users across your organization be using/viewing this analysis? Depending on who you are sharing your work with, sticking with the Visual Report Builder may be better in some cases. Users can quickly look at the definition in the Visual Report Builder versus reading a potentially long SQL query.
 
-If there are some people who need the report but aren't familiar with SQL, we recommend using the original flavor of the Report Builder. It will make things easier on them.
+If there are some people who need the report but are not familiar with SQL, we recommend using the original flavor of the Report Builder. It will make things easier on them.
 
 ## Wrapping up {#wrapup}
 

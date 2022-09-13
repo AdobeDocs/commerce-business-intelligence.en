@@ -134,7 +134,7 @@ To create this type of calculated column, we need to know:
 
 ## I am trying to do something not listed here. {#else}
 
-Not to worry - just because it isn't listed here does not mean it is not possible. Our team of Data Warehouse Analysts has you covered.
+Not to worry - just because it is not listed here does not mean it is not possible. Our team of Data Warehouse Analysts has you covered.
 
 To define a new calculated column, [submit a support ticket](../../getting-started/support.md) with details on exactly what you would like to build.
 

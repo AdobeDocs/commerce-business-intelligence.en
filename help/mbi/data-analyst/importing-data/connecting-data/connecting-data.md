@@ -32,7 +32,7 @@ In most cases, setting up an integration in MBI is as easy as simply entering yo
 
 #### File Upload
 
-Not sure how to get data from a supplementary source into your data warehouse? [Using the File Upload feature](../connecting-data/using-file-uploader.md) is a good way to pull in data that you don't need for everyday decision making. Following our formatting rules, you can quickly upload CSV files into your data warehouse and join them with other data sources.
+Not sure how to get data from a supplementary source into your data warehouse? [Using the File Upload feature](../connecting-data/using-file-uploader.md) is a good way to pull in data that you do not need for everyday decision making. Following our formatting rules, you can quickly upload CSV files into your data warehouse and join them with other data sources.
 
 #### MBI Import API
 
@@ -51,6 +51,6 @@ To add an integration, click **Manage Data &gt; Connections** and then the **Add
 * [Consolidating your tables](../../best-practices/consolidating-your-tables.md)
 * [Restricting access to your database](../../administrator/account-management/restrict-db-access.md)
 
-**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you are looking for something - for example, Facebook - but it isn't listed, [submit a support ticket](../../getting-started/support.md).
+**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you are looking for something - for example, Facebook - but it is not listed, [submit a support ticket](../../getting-started/support.md).
 
 **If you see an error status for an integration**, do not panic - check out the [Troubleshooting section](https://support.magento.com/hc/en-us/sections/360003078151) for help.

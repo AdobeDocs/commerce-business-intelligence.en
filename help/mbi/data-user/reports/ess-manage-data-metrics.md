@@ -47,7 +47,7 @@ When used in reports, metrics can be analyzed over a specified time period and [
 
 The Filter section allows you to create a new filter or apply a [saved filter set](../../data-user/reports/ess-manage-data-filters.md) to your metric.
 
-For our **average order revenue** metric, we wouldn't want to include any test orders that might have been done while setting up our store - this would give us an inaccurate result. We can apply a filter set to remove those orders from the data set. After the filter is created, it will apply to all charts built using this metric.
+For our **average order revenue** metric, we would not want to include any test orders that might have been done while setting up our store - this would give us an inaccurate result. We can apply a filter set to remove those orders from the data set. After the filter is created, it will apply to all charts built using this metric.
 
 The Filter Logic section is where you can further define how a metric should behave.
 

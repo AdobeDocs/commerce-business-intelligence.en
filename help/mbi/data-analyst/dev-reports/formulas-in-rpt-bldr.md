@@ -29,7 +29,7 @@ Now that we have covered the basics, lets take a look at some examples.
 
 In this example, we used the **Revenue** and **Revenue (first time orders)** metrics. By dividing the **Revenue (first time orders)(B)** metric by the **Revenue metric (A)** and setting the return format to **Percent**, we can find the percent of revenue that can be attributed to first time orders.
 
-#### Example: I want to know what the average revenue per order is when I do and don't offer a promo code.
+#### Example: I want to know what the average revenue per order is when I do and do not offer a promo code.
 
 ![Using formulas to find the average revenue per order with and without promo codes](../../assets/promo_code.gif)
 

@@ -13,10 +13,10 @@ Cohort analysis in general can be broadly defined as the analysis of user groups
 
 For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/){: target="_blank"} - we wrote the site on it!
 
-Most cohort analyses in MBI group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A **qualitative cohort** is a little different: it is a user group that is defined by a characteristic that isn't time-based. Some examples include:
+Most cohort analyses in MBI group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A **qualitative cohort** is a little different: it is a user group that is defined by a characteristic that is not time-based. Some examples include:
 
 * The set of all users that were acquired from an ad campaign
-* The set of all users whose first purchase included a coupon (or didn't)
+* The set of all users whose first purchase included a coupon (or did not)
 * The set of all users who are of a certain age
 
 ## How does that differ from the normal cohort builder? {#different}

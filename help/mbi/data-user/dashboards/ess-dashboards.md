@@ -75,7 +75,7 @@ To truly scale MBI throughout your organization and provide valuable insights, w
 
 When you share a dashboard, you can assign permissions across your organization OR on an individual basis, meaning you get to decide who can view and edit your reports.
 
-**Note**: Read Only users only have access to dashboards that are directly shared with them - they aren't able to search for and add dashboards on their own. Don't forget to keep them in the loop!
+**Note**: Read Only users only have access to dashboards that are directly shared with them - they are not able to search for and add dashboards on their own. do not forget to keep them in the loop!
 
 #### Accessing shared dashboards {#accessshared}
 

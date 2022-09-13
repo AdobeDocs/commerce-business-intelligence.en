@@ -34,13 +34,13 @@ When the update runs, new or changed data is identified by searching for rows th
 For example, a table may have a column called **modified\_at** that indicates the last time data was changed. If the most recent update ran Tuesday at noon, the update will search for all rows having a modified\_at value greater than Tuesday at noon. Any discovered rows that were either created or modified since Tuesday at noon will be replicated to the Data Warehouse.
 
 **Did you know?**
- Even if your database can't currently support an Incremental Replication method, you may be able to [make some changes to your database](../../best-practices/mod-db-inc-replication.md) that would enable use of Modified At or Single Auto Incrementing PK.
+ Even if your database cannot currently support an Incremental Replication method, you may be able to [make some changes to your database](../../best-practices/mod-db-inc-replication.md) that would enable use of Modified At or Single Auto Incrementing PK.
 
 Modified At is not only the most ideal replication method, it is also the fastest. This method not only produces noticeable speed increases with large data sets, it also does not require configuring a recheck option. Other methods will need to iterate through an entire table to identify changes, even if a small subset of data has changed. Modified At iterates through only that small subset.
 
 ### Single Auto Incrementing Primary Key
 
-Auto Incrementing is a behavior that sequentially assigns primary keys to rows. If a table is Auto Incrementing and the highest primary key in the table is currently 1000, then the next primary value will be 1001 or higher. A table that does not use Auto Incrementing behavior may assign a primary key value that is less than 1000 or jump to a much bigger number, but this isn't commonly utilized.
+Auto Incrementing is a behavior that sequentially assigns primary keys to rows. If a table is Auto Incrementing and the highest primary key in the table is currently 1000, then the next primary value will be 1001 or higher. A table that does not use Auto Incrementing behavior may assign a primary key value that is less than 1000 or jump to a much bigger number, but this is not commonly utilized.
 
 This method is designed to replicate new data from tables that meet the following criteria:
 
@@ -85,7 +85,7 @@ This method is intended to replicate data from tables that meet the following cr
 * composite keys (multiple columns comprising the primary key) - note that columns used in a composite primary key can never have null values; or
 * single-column, integer, non-auto-incrementing primary key values.
 
-This method isn't ideal, as it is incredibly slow due to the amount of processing that must occur to examine batches and find changes. We do not recommend using this method unless it isn't possible to make the modifications necessary to support the other replication methods. Expect update times to increase if this method must be used.
+This method is not ideal, as it is incredibly slow due to the amount of processing that must occur to examine batches and find changes. We do not recommend using this method unless it is not possible to make the modifications necessary to support the other replication methods. Expect update times to increase if this method must be used.
 
 ## Setting replication methods
 

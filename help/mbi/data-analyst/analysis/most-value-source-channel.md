@@ -73,7 +73,7 @@ Here is a visual walkthrough:
 
 The lifetime revenue analysis we went over earlier lets you look at the average lifetime revenue of users acquired from different sources, but what about total lifetime revenue? This report will allow you to identify how much overall revenue users that registered during a specific time and from a specific source generate.
 
-To create this report in the Report Builder, add the **Revenue by user registration date** metric. If you haven't [created this metric](../../data-user/reports/ess-manage-data-metrics.md) already, you can do so by replicating the **Revenue** metric and **changing the time stamp to User's creation date**. After adding the metric, do the following:
+To create this report in the Report Builder, add the **Revenue by user registration date** metric. If you have not [created this metric](../../data-user/reports/ess-manage-data-metrics.md) already, you can do so by replicating the **Revenue** metric and **changing the time stamp to User's creation date**. After adding the metric, do the following:
 
 1. Set the **Time Period** to the registration period you want to analyze.
 1. Set the **Time Interval** to monthly.
@@ -108,7 +108,7 @@ Here is a visual walkthrough:
 
 ## Wrapping Up {#wrapup}
 
-In this article, we touched on just a few analyses you can use to analyze the value of your acquisition and marketing channels, but this is just the tip of the iceberg. If you created a powerful analysis we didn't cover here, let us in on what you are doing in the comments.
+In this article, we touched on just a few analyses you can use to analyze the value of your acquisition and marketing channels, but this is just the tip of the iceberg. If you created a powerful analysis we did not cover here, let us in on what you are doing in the comments.
 
 ## Related {#related}
 

@@ -56,7 +56,7 @@ Now we can see just how impactful each month was last year:
 
 ## Comparing the Same Metric Across Different Time Ranges {#difftimerange}
 
-This example uses a custom dimension called **Day number of the month**. If you want to create this report and don't already have this dimension in your Data Warehouse, [contact support](../getting-started/support.md) for assistance.
+This example uses a custom dimension called **Day number of the month**. If you want to create this report and do not already have this dimension in your Data Warehouse, [contact support](../getting-started/support.md) for assistance.
 
 The two most common examples in this category are (1) comparing growth metrics (revenue year-over-year, month-over-month, etc.) and (2) better understanding recent inventory or item sales trends.
 
@@ -75,7 +75,7 @@ To demonstrate this use case, we'll look at the daily revenue for the previous m
 
    * **Time Range** &#0151; set this to **From 14 Months Ago To 13 Months Ago** by first clicking **Custom** then **Moving Range**. Use the fields and dropdowns at the top of the menu to set the range. This setting allows us to see the revenue for the previous month, but in the previous year.
 
-   Don't worry if the metric disappears from the report - setting an independent time options automatically hides the metric from the report. To redisplay it, click the **Show** option next to the metric.
+   do not worry if the metric disappears from the report - setting an independent time options automatically hides the metric from the report. To redisplay it, click the **Show** option next to the metric.
 
    ![](../assets/Different_Time_Ranges.gif)
 

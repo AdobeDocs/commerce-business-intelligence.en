@@ -40,7 +40,7 @@ The first step will be to construct a new metric with the following steps:</span
 ## Building Reports
 
 * **New Reports:**
-  * If you haven't already, check out [this video][1] about using the Visual Report Builder to build charts, tables, and scalar values.
+  * If you have not already, check out [this video][1] about using the Visual Report Builder to build charts, tables, and scalar values.
   * Note on **Time Period**: The time period for each report is listed as "All-time". Please feel free to alter this to suit your analysis needs. We recommend all reports on this dashboard cover the same time period, such as "All time", "Year-to-date", or "Last 365 days".
 
 * **Orders with coupons**

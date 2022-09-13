@@ -24,7 +24,7 @@ You can add additional metrics after the initial metric is selected and overlay 
 
 Formulas are added to reports by clicking the **Add Formula** button, located just above the list of metrics in the report. In the [formula editor](../data-analyst/dev-reports/formulas-in-rpt-bldr.md), any of the metrics included in the report can be used as inputs. Basic mathematical operators are used to manipulate the different metrics.
 
-Let's say we wanted to create a report that shows us the average revenue per order. In this case, we'd divide the **Revenue** metric by the **Number of orders** metric.
+Let's say we wanted to create a report that shows us the average revenue per order. In this case, we would divide the **Revenue** metric by the **Number of orders** metric.
 
 ![](../assets/Screen_Shot_2015-11-23_at_4.47.45_PM.png)
 

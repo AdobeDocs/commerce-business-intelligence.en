@@ -13,7 +13,7 @@ To connect your MongoDB database to MBI via an SSH tunnel, you (or your team, if
 1. [Enter the connection and user info into MBI](../#finish)
 
 {:.bs-callout-info}
-Due to the technical nature of this setup, we suggest you loop in a developer to help out if you haven't done this before.
+Due to the technical nature of this setup, we suggest you loop in a developer to help out if you have not done this before.
 
 ## Retrieving the MBI public key {#retrieve}
 
