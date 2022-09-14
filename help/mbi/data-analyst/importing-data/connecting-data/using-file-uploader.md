@@ -86,11 +86,11 @@ Now that your spreadsheet is correctly formatted and MBI-friendly, Let us add it
 
 If you need a visual, Here is a look at the whole process:
 
-![](../../../assets/fileupload.gif){: width="714"}
+![](../../../assets/fileupload.gif)<!--{: width="714"}-->
 
 Uploaded tables display under the **File Uploads** section of the table list (in both the All Tables and Synced Tables options) in the Data Warehouse Manager:
 
-![](../../../assets/upload-tables.png){: width="717" height="433"}
+![](../../../assets/upload-tables.png)<!--{: width="717" height="433"}-->
 
 ## Updating or appending data to an existing table {#appending}
 

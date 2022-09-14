@@ -38,7 +38,7 @@ Leave this page open throughout the tutorial - you will need it in the next sect
 
 If you are a bit lost, here's how to navigate through MBI to retrieve the key:
 
-![](../../../assets/MySQL_SSH.gif){: width="778"}
+![](../../../assets/MySQL_SSH.gif)<!--{: width="770"}-->
 
 ## Allow access to the MBI IP address {#allowlist}
 

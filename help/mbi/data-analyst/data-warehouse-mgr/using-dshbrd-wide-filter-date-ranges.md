@@ -7,23 +7,23 @@ With dashboard wide filtering, you can make bulk edits of all the reports on a s
 
 ## Date filters
 
-To change the date range or interval of reports on a dashboard, click the calendar icon in the upper-right-hand corner (![calendar-button.png](../../assets/calendar-button.png)).
+To change the date range or interval of reports on a dashboard, click the calendar icon in the upper-right-hand corner (![calendar](../../assets/calendar-button.png)).
 
 You can choose to view data using a **Fixed Date Range** or a variety of pre-calculated **Moving Date Ranges**:
 
-![moving\_date\_ranges.png](../../assets/moving_date_ranges.png){: width="330" height="407"}
+![moving date ranges](../../assets/moving_date_ranges.png)<!--{: width="330" height="407"}-->
 
 The `Last Full...` moving range options represent the most recently fully completed range, while `This...` will be the current, in-progress range. For example, if it is currently June, the `Last Full Month` is _May 1 - May 31_, while `This Month` is _June 1 - Now_.
 
 Or create your own **Custom Moving Range**\:
 
-![custom-moving-range.png](../../assets/custom-moving-range.png)
+![custom moving range](../../assets/custom-moving-range.png)
 
-Choose to change the interval as well. Selecting the default button (![time_interval_default.png](../../assets/time_interval_default.png)) means only the date range will be changed:
+Choose to change the interval as well. Selecting the default button (![time interval default](../../assets/time_interval_default.png)) means only the date range will be changed:
 
-![time_interval.png](../../assets/time_interval.png){: width="330" height="407"}
+![time interval](../../assets/time_interval.png)<!--{: width="330" height="407"}-->
 
-To restore all reports to their initial date range and interval, click <span class="btn">Restore Defaults</span>, or click <span class="btn">Cancel</span>.
+To restore all reports to their initial date range and interval, click Restore Defaults or click Cancel.
 
 When you specify a date filter for a dashboard, that filter is applied to that dashboard only. It is not applied when you navigate to other dashboards.
 

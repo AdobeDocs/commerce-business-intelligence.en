@@ -5,7 +5,7 @@ zendesk_id: 360016731011
 
 Understanding the coupon performance of your business is an interesting way to segment your orders and also better understand your customers. This article will walk you through the steps to create analyses to understand which customers you acquire through the use of coupons, how they perform and track general coupon usage.
 
-![](../../assets/coupon_analysis_-_analysis_library.png){: width="800" height="375"}
+![](../../assets/coupon_analysis_-_analysis_library.png)<!--{: width="800" height="375"}-->
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 

@@ -44,7 +44,7 @@ For example, setting a time period from January 1st to March 1st and choosing a 
 
 You can choose **None** to prevent a metric from being segmented. For example, you might want a metric that returns total revenue without being segmented, while having another revenue metric segmented by region.
 
-Let's go back to our average revenue per order example and set the Group by to promo code. This will show us the average revenue per order for orders both with and without a promo code.
+Go back to our average revenue per order example and set the Group by to promo code. This will show us the average revenue per order for orders both with and without a promo code.
 
 ![](../assets/Group_By_Report_Builder.png)
 
@@ -96,7 +96,7 @@ Perspectives allow you to easily toggle between different views of your data. Le
 
 - **Rolling averages window perspective** &#0151; The rolling averages window perspective shows the rolling average value of a metric over the specified time range. The interval must be the same as the interval set on the report level. For example, if the report is showing the last full quarter of Revenue by week, you can set the rolling average window time range to 4 weeks, and the first three values will be null and the fourth value represents the average of the first 4 weeks of Revenue. For clarity, make sure to turn off the **Multiple Y-Axes** checkbox if you are viewing the same metric with a rolling average, like in the example below.
 
-![](../assets/rolling_avg_window.png){: width="834" height="266"}
+![](../assets/rolling_avg_window.png)
 
 ### Metric-specific Time Options
 

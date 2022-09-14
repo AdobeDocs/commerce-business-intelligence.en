@@ -29,7 +29,7 @@ That's it! Your new column will appear in the current table with a Pending statu
 
 If you are having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you are building:
 
-![Calculated\_Columns\_Example.png](../../assets/Calculated_Columns_Example.png){: width="805" height="643"}
+![](../../assets/Calculated_Columns_Example.png)<!--{: width="805" height="643"}-->
 
 ## Related documentation
 

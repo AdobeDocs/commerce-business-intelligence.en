@@ -16,8 +16,7 @@ The following example shows how to create a simple report, group the data by an 
 
         The available metrics can be listed alphabetically or by table.
 
-        ![](../../assets/magento-bi-visual-report-builder-add-metric.png){: .zoom}
-        *Visual Report Builder*
+        ![Visual Report Builder](../../assets/magento-bi-visual-report-builder-add-metric.png)<!--{: .zoom}-->
 
     * Choose the [metric](../../data-user/reports/ess-manage-data-metrics.md) that describes the set of data that you want to use for the report.
 
@@ -25,8 +24,7 @@ The following example shows how to create a simple report, group the data by an 
 
         The summary on the left shows the name of the current metric, followed by the result of any calculations on column data that are specified in the metric. In this example, the summary displays the total customer count.
 
-        ![](../../assets/magento-bi-report-builder-untitled.png){: .zoom}
-        *Visual Report Builder*
+        ![Visual Report Builder](../../assets/magento-bi-report-builder-untitled.png)<!--{: .zoom}-->
 
 1. In the chart, hover over each data point on the line. Each data point shows the total number of new customers who signed up during that month.
 
@@ -40,29 +38,25 @@ The following example shows how to create a simple report, group the data by an 
 
         For this example, the system found five coupon codes that were used by customers while placing their first order.
 
-        ![](../../assets/magento-bi-report-builder-group-by-dimensions.png){: .zoom}
-        *Group by*
+        ![Group by](../../assets/magento-bi-report-builder-group-by-dimensions.png)<!--{: .zoom}-->
 
         The Group By detail lists each coupon used by customers. The coupons that were used to place the initial order are marked with a checkbox The chart now has multiple colored lines that represent the each coupon that was used for a first order. The legend is color-coded to correspond to each row of data.
 
-    * Click <span class="btn">Apply</span> to close the Group By detail.
+    * Click **Apply** to close the Group By detail.
 
-        ![](../../assets/magento-bi-report-builder-group-by-dimension-detail.png){: .zoom}
-        *Multiple Dimensions*
+        ![Multiple Dimensions](../../assets/magento-bi-report-builder-group-by-dimension-detail.png)<!--{: .zoom}-->
 
     * Hover over a few data points on each line to see the number of customers during the month who used that coupon while placing their first order.
 
     * The table of data now has an addition dimension, with a column for each month, and a row for each coupon code.
 
-        ![](../../assets/magento-bi-report-builder-group-by-table-data.png){: .zoom}
-        *Group by Table Data*
+        ![Group by Table Data](../../assets/magento-bi-report-builder-group-by-table-data.png)<!--{: .zoom}-->
 
     * Click the **Transpose** (![](../../assets/magento-bi-btn-transpose.png)) control in the upper-right corner of the table to change the orientation of the data.
 
         The axis of the data is flipped, and the table now has a column for each coupon code, and a row for each month. You might find this orientation easier to read.
 
-        ![](../../assets/magento-bi-report-builder-group-by-table-data-transposed.png){: .zoom}
-        *Transposed Data*
+        ![Transposed Data](../../assets/magento-bi-report-builder-group-by-table-data-transposed.png)<!--{: .zoom}-->
 
     **Date Range**
 
@@ -70,19 +64,17 @@ The following example shows how to create a simple report, group the data by an 
 
     * Click the **Date Range** control, which in this example is set to `All-Time by Month`.
 
-        ![](../../assets/magento-bi-report-builder-date-range.png){: .zoom}
-        *Date Range*
+        ![Date Range](../../assets/magento-bi-report-builder-date-range.png)<!--{: .zoom}-->
 
     * Make the following changes:
 
         * To zoom in for a closer view, change the date range to **Last Full Quarter**.
-        * Under **Select Time Interval,** choose “Week.”
+        * Under **Select Time Interval,** choose "Week."
         * When complete, tap <span class="btn">Save</span>.
 
         The report now includes only the data for the last quarter, by week.
 
-        ![](../../assets/magento-bi-report-builder-date-range-quarter-by-week-chart.png){: .zoom}
-        *Report for Last Quarter by Week*
+        ![Report for Last Quarter by Week](../../assets/magento-bi-report-builder-date-range-quarter-by-week-chart.png)<!--{: .zoom}-->
 
     **Chart Type**
 
@@ -90,14 +82,14 @@ The following example shows how to create a simple report, group the data by an 
 
       Some chart types are not compatible with multidimensional data.
 
-      | ![](../../assets/magento-bi-btn-chart-line.png){: .button} | Line graph |
-      | ![](../../assets/magento-bi-btn-chart-horz-bar.png){: .button} | Horizontal Bar
-      | ![](../../assets/magento-bi-btn-chart-horz-stacked-bar.png){: .button} | Horizontal Stacked Bar
-      | ![](../../assets/magento-bi-btn-chart-vert-bar.png){: .button} | Vertical Bar
-      | ![](../../assets/magento-bi-btn-chart-vert-stacked-bar.png){: .button} | Vertical Stacked Bar
-      | ![](../../assets/magento-bi-btn-chart-pie.png){: .button} | Pie
-      | ![](../../assets/magento-bi-btn-chart-area.png){: .button} | Area
-      | ![](../../assets/magento-bi-btn-chart-funnel.png){: .button} | Funnel
+      | ![](../../assets/magento-bi-btn-chart-line.png) | Line graph |
+      | ![](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontal Bar
+      | ![](../../assets/magento-bi-btn-chart-horz-stacked-bar.png) | Horizontal Stacked Bar
+      | ![](../../assets/magento-bi-btn-chart-vert-bar.png) | Vertical Bar
+      | ![](../../assets/magento-bi-btn-chart-vert-stacked-bar.png) | Vertical Stacked Bar
+      | ![](../../assets/magento-bi-btn-chart-pie.png) | Pie
+      | ![](../../assets/magento-bi-btn-chart-area.png) | Area
+      | ![](../../assets/magento-bi-btn-chart-funnel.png) | Funnel
 
 1. To give the report a **title**, replace the `Untitled Report` text at the top of the page with a descriptive title.
 
@@ -109,8 +101,7 @@ The following example shows how to create a simple report, group the data by an 
 
     * Click **Save to Dashboard**.
 
-        ![](../../assets/magento-bi-report-builder-save-to-dashboard.png){: .zoom}
-        *Save to Dashboard*
+        ![Save to Dashboard](../../assets/magento-bi-report-builder-save-to-dashboard.png)<!--{: .zoom}-->
 
 1. To view the chart in a dashboard, do one of the following:
 
@@ -118,5 +109,4 @@ The following example shows how to create a simple report, group the data by an 
 
     * In the menu, choose **Dashboards** and click the name of the current dashboard to display the list. Then, click the name of the dashboard where the report was saved.
 
-        ![](../../assets/magento-bi-report-builder-my-dashboard.png){: .zoom}
-        *Report in Dashboard*
+        ![Report in Dashboard](../../assets/magento-bi-report-builder-my-dashboard.png)<!--{: .zoom}-->

@@ -7,7 +7,7 @@ Understanding the coupon performance of your business is an interesting way to s
 
 We have documented the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
 
-![coupon\_analysis\_dash\_720.png](../../assets/coupon_analysis_dash_720.png){: width="807" height="471"}
+![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
 #### Getting Started
 

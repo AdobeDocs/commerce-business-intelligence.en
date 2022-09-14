@@ -9,7 +9,7 @@ Want to know who your most valuable customers are? What your most valuable marke
 
 In this article, we share some critical segments that we often recommend to our customers. We also go into detail on what questions these segments can help you answer. (Technically, segments are data columns in your database. In MBI, we refer to them as dimensions.)
 
-![2014-07-29\_1103.png](../../assets/2014-07-29_1103.png)
+![](../../assets/2014-07-29_1103.png)
 
 ## User Segments
 

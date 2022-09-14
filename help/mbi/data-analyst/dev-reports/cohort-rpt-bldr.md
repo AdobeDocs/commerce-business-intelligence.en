@@ -81,7 +81,7 @@ The interval for this value changes with whatever you selected in the **cohort t
 
 Here is an example to pull it all together. In this example, I want to check out order behavior after a cohort's first purchase to see if that cohort is coming back to make repeat purchases in the next 6 months.
 
-![Orders cohort](../../assets/crb_example.gif){: style="max-width: 900px;"}
+![Orders cohort](../../assets/crb_example.gif)<!--{: style="max-width: 900px;"}-->
 
 ### Legacy Architecture
 
@@ -125,7 +125,7 @@ You can change how these intervals are displayed on the x-axis using the **Durat
 **Time Period**
 Use the **Time Period** menu to choose the specific user cohorts to analyze. You can show every cohort, choose from a list, specify a time range, or define a rolling time range of cohorts to include. For example, if we used the **Specific Cohorts** option, we can select specific months to include in the analysis:
 
-![Using the Time Period menu to add Specific Cohorts](../../assets/Cohort_Time_Period.gif){: width: "900px"}
+![Using the Time Period menu to add Specific Cohorts](../../assets/Cohort_Time_Period.gif)<!--{: width: "900px"}-->
 
 If we were grouping our cohorts by registration date and then selected April, May, and June in the **Specific Cohorts** list, any users who registered in those months would be included.
 
@@ -159,19 +159,19 @@ Now that we have gone through how to create a cohort analysis, Let us take a loo
 
 #### I want to know how my user cohorts are growing over time.
 
-![User cohorts growing over time](../../assets/cohort1.gif){: width: "900px"}
+![User cohorts growing over time](../../assets/cohort1.gif)<!--{: width: "900px"}-->
 
 In this example, we analyzed the **Revenue** metric, grouped our cohorts by the **customer's first order date**, and selected the 8 most recent cohorts (defined in the Time Period menu) to include in the analysis. To see how the cohorts grew over time, we used the **Cumulative Average Value per Cohort Member** perspective.
 
 #### I want to know, on average, how many orders a user makes at different points in their lifetime.
 
-![Average number of orders users make at different points in their lifetimes](../../assets/cohort2.gif){: width: "900px"}
+![Average number of orders users make at different points in their lifetimes](../../assets/cohort2.gif)<!--{: width: "900px"}-->
 
 For this example, we analyzed the **Number of orders** metric, grouped our cohorts by the **customer's first order date**, and included the 8 most recent cohorts (defined in the Time Period menu) in the analysis. To see the average number of orders for each cohort, we changed the perspective to **Average Value per Cohort Member**.
 
 #### I want to understand how a user's future purchasing activity compares to their first month's activity with the business.
 
-![Comparing a user's future purchasing activity to their first month of activity](../../assets/cohort3.gif){: width: "900px"}
+![Comparing a user's future purchasing activity to their first month of activity](../../assets/cohort3.gif)<!--{: width: "900px"}-->
 
 ## Perspectives {#perspectives}
 

@@ -14,5 +14,4 @@ Manage Data provides access to a variety of tools for managing integrations, rep
     * Manage Data
     * Export Data
 
-    ![](../../assets/magento-bi-manage-data.png){: .zoom}
-    *Manage Data*
+    ![Manage Data](../../assets/magento-bi-manage-data.png)<!--{: .zoom}-->

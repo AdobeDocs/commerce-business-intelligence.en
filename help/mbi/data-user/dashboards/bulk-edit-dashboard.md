@@ -24,13 +24,13 @@ That being said, consider this - **Do these changes need to be permanent?** If n
 
 1. In the **Chart Title Find** field, type the words or characters you want to find.
 
-1. In the **Replace With** field, type the words or characters that should replace what's in the **Find** field.
+1. In the **Replace With** field, type the words or characters that should replace what is in the **Find** field.
 
 1. Click the **Update Reports** button.
 
 Example:
 
-![bulk\_edit.gif](../../assets/bulk_edit.gif)
+![bulk edit](../../assets/bulk_edit.gif)
 
 ## Prepending Chart Names {#prepend}
 
@@ -44,7 +44,7 @@ Example:
 
 Example:
 
-![prepend.gif](../../assets/prepend.gif)
+![prepend](../../assets/prepend.gif)
 
 ## Changing Dates {#dates}
 

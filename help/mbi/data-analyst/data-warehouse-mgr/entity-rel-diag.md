@@ -17,7 +17,7 @@ The sections below contain ER diagrams specific to two tables at a time. To view
 
 ## customer\_entity & sales\_flat\_order
 
-![2_OneCustomerManyOrders](../../assets/2_OneCustomerManyOrders.png)
+![One Customer Many Orders](../../assets/2_OneCustomerManyOrders.png)
 
 One customer can place many orders. The relationship between these two tables is **customer\_entity.entity\_id = sales\_flat\_order.customer\_id**
 

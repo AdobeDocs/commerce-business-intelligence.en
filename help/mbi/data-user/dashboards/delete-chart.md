@@ -19,4 +19,4 @@ Even if you [remove a chart from the dashboard](../../data-user/dashboards/remov
 
 Example:
 
-![delete a chart](../../assets/deletechart.gif){: width="630" height="402"}
+![delete a chart](../../assets/deletechart.gif)<!--{: width="630" height="402"}-->

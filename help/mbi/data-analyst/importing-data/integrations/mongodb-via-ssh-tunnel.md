@@ -28,7 +28,7 @@ Leave this page open throughout the tutorial - you will need it in the next sect
 
 If you are a bit lost, Here is how to navigate through MBI to retrieve the key:
 
-![Retrieving the RJMetrics public key](../../../assets/MongoDB_Public_Key.gif){:.zoom}
+![Retrieving the RJMetrics public key](../../../assets/MongoDB_Public_Key.gif)<!--{:.zoom}-->
 
 ## Allow access to the MBI IP address {#allowlist}
 

@@ -23,23 +23,23 @@ For help activating MBI for Cloud Pro projects, contact your Magento Customer Su
 
     - Input your information to create your account.
 
-     ![Picture2.png](../assets/Picture2.png)
+     ![](../assets/Picture2.png)
 
     - Go to your inbox and verify your email address.
 
-    ![Picture3.png](../assets/Picture3.png)
+    ![](../assets/Picture3.png)
 
     - Create your password.
 
-    ![Picture4.png](../assets/Picture4.png)
+    ![](../assets/Picture4.png)
 
     - After creating your account you will then have the option to add users to your new account. Technical admins can now be added to carry out the following steps.
 
-     ![Picture5.png](../assets/Picture5.png)
+     ![](../assets/Picture5.png)
 
 1. Input information about your store to set your preferences.
 
-    ![Picture6.png](../assets/Picture6.png)
+    ![](../assets/Picture6.png)
 
     There is some information you need to gather before you can connect your database for the third step in the onboarding flow. You will be filling in the **Connect your database** page in Step **9**.
 
@@ -53,7 +53,7 @@ For help activating MBI for Cloud Pro projects, contact your Magento Customer Su
 
 1. Add the newly created user to the project's primary environment as a `Contributor`.
 
-    ![Picture7.png](../assets/Picture7.png)
+    ![](../assets/Picture7.png)
 
 1. Get your MBI SSH keys.
 
@@ -63,7 +63,7 @@ For help activating MBI for Cloud Pro projects, contact your Magento Customer Su
 
     - From the dropdown, you can copy and paste the provided MBI Public Key.
 
-    ![Picture8.png](../assets/Picture8.png)
+    ![](../assets/Picture8.png)
 
 1. Add your new MBI Public key to the MBI user created in Step **5**.
 
@@ -71,11 +71,11 @@ For help activating MBI for Cloud Pro projects, contact your Magento Customer Su
 
     - Scroll down the page and expand the dropdown for SSH keys. Then click **Add a public key**.
 
-    ![Picture9.png](../assets/Picture9.png)
+    ![](../assets/Picture9.png)
 
     - Add the MBI SSH Public Key from above.
 
-    ![Picture10.png](../assets/Picture10.png)
+    ![](../assets/Picture10.png)
 
 1. Provide MBI MySQL credentials.
 
@@ -140,7 +140,7 @@ For help activating MBI for Cloud Pro projects, contact your Magento Customer Su
 
 1. Connect your Magento Database
 
-   ![Picture11.png](../assets/Picture11.png)*Inputs*
+   ![](../assets/Picture11.png)
 
     - Integration Name: [Choose a name for your integration.]
 
@@ -158,7 +158,7 @@ For help activating MBI for Cloud Pro projects, contact your Magento Customer Su
 
 1. Set your Timezone Settings.
 
-    ![Picture12.png](../assets/Picture12.png)*Inputs*
+    ![Inputs](../assets/Picture12.png)
 
      - Database: `Timezone: UTC`
 
@@ -168,13 +168,13 @@ For help activating MBI for Cloud Pro projects, contact your Magento Customer Su
 
     - The project UI provides an SSH access string. This string can be used for gathering the information needed for the **Remote Address** and **Username** in setting up your **Encryption settings**.  Use the SSH Access string found by clicking the access site button on your Master branch of your Project UI and find your **User Name** and **Remote Address** as shown below.
 
-    ![Picture13.png](../assets/Picture13.png)
+    ![](../assets/Picture13.png)
 
-    ![Picture14.png](../assets/Picture14.png)
+    ![](../assets/Picture14.png)
 
 1. Input information for your Encryption Settings
 
-    ![Picture15.png](../assets/Picture15.png)
+    ![](../assets/Picture15.png)
 
     **Inputs**
 

@@ -43,7 +43,7 @@ Let us look at a specific example of how a "Total Revenue" metric might be defi
 
 Navigating to the metric builder (**Manage Data **\=> **Metrics **\=> **Create New Metric**), we first must select the appropriate source table, which in this case is the "orders" table. Then the metric would be set up as shown below:
 
-![Metric_aggregation.png](../../assets/Metric_aggregation.png)
+![Metric aggregation](../../assets/Metric_aggregation.png)
 
 ## Column aggregations
 
@@ -66,7 +66,7 @@ Let us first take a look at how to establish a new path between the "customers" 
 
 Next, you need to select the source table. If a path already exists to your "orders" table, simply select it from the drop-down. However if you are building a new path, click the **Create new path** button and you will be presented with the screen below:
 
-![Create_new_path.png](../../assets/Create_new_path.png)
+![Create new path](../../assets/Create_new_path.png)
 
 Here you need to carefully consider the relationship between the two tables you are attempting to join together. In this case, there are potentially **Many** orders associated with **One** customer, therefore the "orders" table is listed on the **Many** side, whereas the "customers" table selected on the **One** side. Note that in MBI, a **path** is equivalent to a **Join** in SQL.
 
@@ -97,7 +97,7 @@ _Note that the only difference from the query we started with before is the addi
 
 Using the same "Total Revenue" metric that we created previously, we are now ready to create our report of revenue segmented by coupon code! Take a look at the gif below which shows how to set up this visual report looking at data from September to November:
 
-![Revenue_by_coupon_code.gif](../../assets/Revenue_by_coupon_code.gif)
+![Revenue by coupon code](../../assets/Revenue_by_coupon_code.gif)
 
 ## Formulas
 
@@ -122,7 +122,7 @@ Let us take a step back and look at the overall query for "Average order value":
 
 And Let us also assume we already have metrics set up to calculate the "Total Revenue" and "Number of orders". Since these metrics already exist, we can simply open the Report Builder and create an ad hoc calculation using the Formula feature:
 
-![AOV_forumula.gif](../../assets/AOV_forumula.gif)
+![AOV forumula](../../assets/AOV_forumula.gif)
 
 ## Wrapping Up
 

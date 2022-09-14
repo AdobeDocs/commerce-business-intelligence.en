@@ -31,7 +31,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
   * <span class="wysiwyg-color-blue">**`created_at (day of the month)`**</span> Calculation**:** **to_char(A, 'dd')**
   * <span class="wysiwyg-color-blue">**`created_at (day of the week)`**</span> Calculation**:** **to_char(A, 'd-Day')**
   * <span class="wysiwyg-color-blue">**`created_at (hour of the day)`**</span> Calculation**:** **to_char(A, 'hh24')**
-    ![Screen\_Shot\_2017-10-05\_at\_4.27.32\_PM.png](../../assets/Screen_Shot_2017-10-05_at_4.27.32_PM.png)
+    ![](../../assets/Screen_Shot_2017-10-05_at_4.27.32_PM.png)
 
 ### Metrics
 

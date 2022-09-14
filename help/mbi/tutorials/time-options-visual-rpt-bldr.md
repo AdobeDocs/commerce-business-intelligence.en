@@ -85,7 +85,7 @@ To demonstrate this use case, we'll look at the daily revenue for the previous m
 
    * In the **Group By** dropdown, select **Show All** and click **Apply**. This will effectively create the X-axis values for the report:
 
-   ![TO4.png](../assets/TO4.png)
+   ![](../assets/TO4.png)
 
    * Rename the metrics. In our example, the first metric is **Revenue - 2015** and the second is **Revenue - 2014**.
 
