@@ -21,7 +21,7 @@ MBI includes a selection of filters that you can use "out of the box," or modify
 
 1. Click <span class="btn">Add Filter</span>.
 
-    Filters are numbered alphabetically, and the first is `[A]`. The first two parts of the filter are drop-down lists of options, and the third part is a value.
+    Filters are numbered alphabetically, and the first is `[A]`. The first two parts of the filter are drop-down options, and the third part is a value.
 
       ![](../../assets/magento-bi-report-builder-filter-add-a.png)<!--{: .zoom}-->
 

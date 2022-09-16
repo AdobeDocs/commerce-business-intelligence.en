@@ -13,7 +13,7 @@ We have documented the steps required to create this analysis to understand how 
 
 First, a note about how coupon codes are tracked. If a customer applied a coupon to an order, three things happen:
 
-* A discount is reflected in the `base_grand_total` amount (your <strong style="font-size: 13px;">Revenue </strong><span style="font-size: 13px;">metric in MBI)</span>
+* A discount is reflected in the `base_grand_total` amount (your <strong style="font-size: 13px;">Revenue**<span style="font-size: 13px;">metric in MBI)</span>
 * The coupon code is stored in the `coupon_code` field. If this field is NULL (empty) the order does not have a coupon associated with it.
 * The discounted amount is stored in `base_discount_amount`. Depending on your configuration, this value may appear negative or positive.
 
@@ -26,7 +26,7 @@ The first step will be to construct a new metric with the following steps:</span
   * FILTERS:
     * Add the **Orders we count (Saved Filter Set)**
     * Add the following:
-      * `coupon_code`<strong> IS NOT </strong>`[NULL]`
+      * `coupon_code`**IS NOT**`[NULL]`
     * Give the metric a name, such as **"Coupon discount amount"**.
 
 ## Creating your Dashboard
@@ -88,7 +88,7 @@ The first step will be to construct a new metric with the following steps:</span
 * **Average lifetime revenue: Non-coupon acquired customers**
   * Metric:<em> Avg lifetime revenue</em>
     * Add filter:
-      * [A] ` Customer's first order's coupon_code` <strong>IS </strong>`[NULL]`
+      * [A] ` Customer's first order's coupon_code` **IS**`[NULL]`
 
   * Time period:<em> All time</em>
   * Interval:<em> None</em>
@@ -97,19 +97,19 @@ The first step will be to construct a new metric with the following steps:</span
 * **Coupon usage details (first time orders)**
   * Metric 1:<em> Orders</em>
     * Add filter:
-      * [A] `coupon_code` <strong>IS NOT </strong>`[NULL]`
+      * [A] `coupon_code` **IS NOT**`[NULL]`
       * [B] `Customer's order number` **Equal to** `1`
 
   * Metric 2:<em> Revenue</em>
     * Add filter:
-      * [A] `coupon_code` <strong>IS NOT </strong>`[NULL]`
+      * [A] `coupon_code` **IS NOT**`[NULL]`
       * [B] `Customer's order number` **Equal to** `1`
 
     * Rename: *Net revenue*
 
   * Metric 3:<em> Coupon discount amount</em>
     * Add filter:
-      * [A] `coupon_code` <strong>IS NOT </strong>`[NULL]`
+      * [A] `coupon_code` **IS NOT**`[NULL]`
       * [B] `Customer's order number` **Equal to** `1`
 
   * Create new formula:<em> Gross revenue</em>
@@ -131,7 +131,7 @@ The first step will be to construct a new metric with the following steps:</span
 * **Average lifetime revenue by first order coupon**
   * Metric:<em> Avg lifetime revenue</em>
     * Add filter:
-      * [A] `coupon_code` <strong>IS </strong>`[NULL]`
+      * [A] `coupon_code` **IS**`[NULL]`
 
   * Time period:<em> All time</em>
   * Interval:<em> None</em>
@@ -156,7 +156,7 @@ The first step will be to construct a new metric with the following steps:</span
 
   * Metric 2:<em> New customers</em>
     * Add filter:
-      * [A] `coupon_code` <strong>IS </strong>`[NULL]`
+      * [A] `coupon_code` **IS**`[NULL]`
 
     * Rename: *Non-coupon acquisition customer*
 

@@ -14,7 +14,7 @@ Here are the steps to create analyses to understand your current customers' life
 The first step will be to construct a new metric with the following steps:
 * Navigate to **Manage Data &gt; Metrics**
   * View the existing **Avg lifetime revenue** Note the table this metric is constructed on (probably `customer_entity` or `sales_order` depending on your store's ability to accept guest checkout!).
-  * Click **Create New Metric **and select the table from above.
+  * Click **Create New Metric** and select the table from above.
   * This metric performs a **Median** on the **Customer's lifetime revenue **column, ordered by **created_at**.
     * FILTERS:
       * Add the **Customers we count (Saved Filter Set)** (or **Registered accounts we count**)

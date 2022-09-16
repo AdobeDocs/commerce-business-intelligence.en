@@ -26,7 +26,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
     ![Create Dashboard](../../assets/magento-bi-dashboard-create.png)<!--{: .zoom}-->
 
-1. Click <span class="btn">Create Dashboard</span>. Then, do the following:
+1. Click **Create Dashboard**. Then, do the following:
 
     * Enter a **Name** for your dashboard.
 
@@ -34,7 +34,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
         For example, if your Magento installation has multiple store views, you might create a Group for each store view.
 
-    * Click <span class="btn">Create</span>.
+    * Click the **Create** button.
 
     ![dashboard name](../../assets/magento-bi-dashboard-create-name.png)<!--{: .zoom}-->
 
@@ -102,7 +102,7 @@ When you share a dashboard, you can assign permissions across your organization 
 
     **Default**
 
-    1. To make this dashboard the default for your BI account, click <span class="btn">Make Default</span>.
+    1. To make this dashboard the default for your BI account, click **Make Default**.
 
     **Remove**
 

@@ -37,7 +37,7 @@ These permissions enable users to perform certain actions or access specific par
 
 **Note:** _You can limit a Standard user's [access to specific metrics](../../administrator/user-management/restrict-metric-access.md)._
 
-** _Standard users can access Billing with an additional permission setting._
+**Standard users can access Billing with an additional permission setting._
 
 {:.bs-callout-info}
 Read-Only users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in MBI, nor can they search for and add new dashboards to their account. We recommend that you share a specific set of dashboards with Read-Only users that you or another member of your team maintains. Do not clone a set of dashboards for them.

@@ -79,7 +79,7 @@ This can be used to create customer-level dimensions like **Customer's first ord
 
 An exists calculated column is a binary test determining the presence of a record on the many side. In other words, the new column will return a `1` if the path connects at least one row in each table, and `0` if no connection can be made.
 
-This type of dimension might determine, for example, if a customer ever purchased a particular product. Using a join between a **customers** table and **orders** table, a filter for a specific product, a dimension ****Customer has purchased Product X? ****can be built.
+This type of dimension might determine, for example, if a customer ever purchased a particular product. Using a join between a _customers_ table and _orders_ table, a filter for a specific product, a dimension **Customer has purchased Product X?** can be built.
 
 ## Handy reference map {#map}
 

@@ -21,7 +21,7 @@ A further distinction is made if your business allows guest orders. If so, you c
 
 Columns to create
 
-* <strong>Sales_flat_order/customer_entity </strong>table
+* **Sales_flat_order/customer_entity**table
 * (input) reference
 * Column type – "Same table -&gt; Calculation"
 * Inputs – **entity_id**
@@ -31,19 +31,19 @@ Columns to create
 * **Customer concentration** table (this is the file you just uploaded with the number "1")
 * Number of customers
 * Column type – "Many to One -&gt; Count Distinct"
-* Path – **sales_flat_order.(input) reference -&gt; Customer Concentration.Primary Key** OR <strong> customer_entity.(input)reference -&gt; Customer Concentration.Primary Key</strong>
+* Path – **sales_flat_order.(input) reference -&gt; Customer Concentration.Primary Key** OR **customer_entity.(input)reference -&gt; Customer Concentration.Primary Key**
 * Selected column – **sales_flat_order.customer_email** OR **customer_entity.entity_id**
 
 * **customer_entity** table
 * Number of customers
 * Column type – "One to Many -&gt; JOINED_COLUMN"
-* Path<strong> – customer_entity.(input) reference -&gt; Customer Concentration.Primary Key</strong>
-* Selected column<strong> – Number of customers</strong>
+* **Path** – customer_entity.(input) reference -&gt; Customer Concentration. Primary Key
+* **Selected column** – Number of customers
 
 * (input) Ranking by customer lifetime revenue
-* Column type<strong> – </strong>"Same table -&gt; Event Number"
-* Event owner<strong> – Number of customers</strong>
-* Event rank<strong> – Customer's lifetime revenue</strong>
+* **Column type** –"Same table -&gt; Event Number"
+* **Event owner** – Number of customers
+* **Event rank** – Customer's lifetime revenue
 
 * Customer's revenue percentile
 * Column type – "Same table -&gt; Calculation"
@@ -64,12 +64,12 @@ Columns to create
 * Filter – **Customer's order number = 1**
 
 * Customer's revenue percentile
-* Column type – "Same tabke -&gt; Calculation"
+* Column type – "Same table -&gt; Calculation"
 * Inputs – **(input) Ranking by customer lifetime revenue**, **Number of customers**
 * Calculation – **case when A is null then null else (A/B)*100 end**
 * Datatype - Decimal
 
-NOTE: the percentiles used are even splits of customers, representing the Xth percentile of your customer base. Each customer will be associated with an integer from 1 to 100, which can be thought of as their lifetime revenue *rank*. For example, if the Customer's revenue percentile for a specific customer is **5**, this customer is in the ***5th percentile*** of all customers in terms of lifetime revenue.
+**Note**: The percentiles used are even splits of customers, representing the Xth percentile of your customer base. Each customer will be associated with an integer from 1 to 100, which can be thought of as their lifetime revenue *rank*. For example, if the Customer's revenue percentile for a specific customer is **5**, this customer is in the ***5th percentile*** of all customers in terms of lifetime revenue.
 
 #### Metrics
 

@@ -36,16 +36,16 @@ To successfully complete this type of migration, existing data columns have to b
 1. Review all the tables and columns currently syncing to your Data Warehouse (**Manage Data > Data Warehouse**).
 1. In a spreadsheet, create a tab for every table to be migrated to the new database.
 1. In each tab, create a column for all the existing columns that need to be migrated. We recommend naming it something like **Existing column name**.
-1. You'll also need to make another column for the column equivalents in the new database in each tab of the spreadsheet. We recommend naming the column something like **New column name**.
+1. You also need to make another column for the column equivalents in the new database in each tab of the spreadsheet. We recommend naming the column something like **New column name**.
 1. Enter the existing columns and their equivalents. If an existing column does not have a new equivalent, just enter `N/A`.
 
-    Additionally, if there's a new way to calculate the same information in the new database, enter it in the **New column name** column.
+    Additionally, if there is a new way to calculate the same information in the new database, enter it in the **New column name** column.
 
-Here's a look at an example:
+Here is a look at an example:
 
 ![](../../assets/Migration_Spreadsheet.png)
 
-Please note that if certain data columns do not have equivalent columns in the new database, there is a chance that certain analyses will be lost in the process.
+**Note:** If certain data columns do not have equivalent columns in the new database, there is a chance that certain analyses will be lost in the process.
 
 ## How do I submit a request? {#submitreq}
 

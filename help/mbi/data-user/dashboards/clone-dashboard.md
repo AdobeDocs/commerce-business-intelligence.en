@@ -7,7 +7,7 @@ Cloning a dashboard allows you to copy all reports in a dashboard into a new das
 
 This is particularly useful if you want to re-create an existing set of charts but change the perspective (e.g., different data view, different market, different website or store). After duplicating the dashboard, you can edit each of the new charts to change its metric, data view, filter, or group-by.
 
-1. To clone a dashboard, click the **Options** menu at the top of the screen.
+1. To clone a dashboard, click the _Options_ menu at the top of the screen.
 
 1. In the dropdown , click **Save As**.
 

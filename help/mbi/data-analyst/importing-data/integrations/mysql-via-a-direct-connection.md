@@ -25,7 +25,7 @@ For the connection to be successful, your must configure your firewall to allow 
 
 ![MBI_Allow_Access_IPs.png](../../../assets/MBI_allow_access_IPs.png)
 
-## <span id="steptwo">Create a MySQL user for MBI</span>
+## Create a MySQL user for MBI
 
 The simplest way to create a MySQL user for MBI is to execute the following query when logged into MySQL with GRANT privileges. Replace *&lt;MBI IP Address&gt;* with the MBI IP address and replace *&lt;secure password&gt;* with a secure password of your choice:
 
@@ -37,7 +37,7 @@ To restrict this user from accessing data in specific databases, tables, or colu
 
 **Please re-run the GRANT query for all required IPs using the same user and password.**
 
-## <span id="stepthree">Enter connection info in MBI</span>
+## Enter connection info in MBI
 
 To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data &gt; Connections** and click the Add New Data Source button, then the MySQL icon. Do not forget to toggle the Encrypted button to Yes.
 

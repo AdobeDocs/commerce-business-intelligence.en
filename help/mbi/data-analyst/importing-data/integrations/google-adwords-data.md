@@ -5,7 +5,7 @@ zendesk_id: 360016506252
 
 After [you have connected your Google Adwords account](../integrations/google-adwords.md), you can use the [Data Warehouse Manager](../../data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
-There, you'll notice two tables available for replication into your data warehouse: `campaigns[account-id]` and `adwords[account-id]`.
+There, you notice two tables available for replication into your data warehouse: `campaigns[account-id]` and `adwords[account-id]`.
 
 The `campaigns` table **should be used by default**, so you can begin by syncing all relevant fields from that table.
 

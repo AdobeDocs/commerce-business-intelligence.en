@@ -31,7 +31,7 @@ To save a report as a scalar, configure your filters and time settings, then cli
 
 ![](../../assets/blobid1.png)
 
-**Requirements**\:
+**Requirements**:
 
 * Time interval: None
 * Group by: None

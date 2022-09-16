@@ -87,7 +87,7 @@ Whether you are dropping a table or removing columns, a dependency check will ru
 
 While deleted dependencies cannot be restored, the tables and columns will still be available if you need to resync any native columns in the future.
 
-Here's a quick look at removing a column:
+Here is a quick look at removing a column:
 
 ![Removing a column from your data warehouse](../../assets/DW_delete.gif)<!--{: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Removing a column from your data warehouse"}-->
 
@@ -97,7 +97,7 @@ New synced columns and new/updated calculated columns will be ready for use afte
 
 When you are ready to use your new columns in reports, [you need to add them to metrics first](../data-warehouse-mgr/manage-data-dimensions-metrics.md). Although data will not be available until an update completes, you can still use new columns in reports. Data within the report will display when the update is finished.
 
-## That's it - we are at the end!
+## That is it - we are at the end!
 
 We covered a lot of material in this tutorial. By now, you should have a solid understanding of what a database is, how data is organized, how tables relate to each other, and what you can do with the Data Warehouse Manager.
 

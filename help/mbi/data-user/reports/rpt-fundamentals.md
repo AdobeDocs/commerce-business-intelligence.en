@@ -15,13 +15,13 @@ We know that you are constantly asking questions to improve your business, from 
 
 For our example, we assume that we want to answer the following question:
 
-* *"How fast do my new registrants convert?"*
+* "How fast do my new registrants convert?"
 
 ## Identifying a measurement
 
 With our question in hand, it is time to identify a list of possible analyses and measurements to help answer the question. For this example, focus on the following metric:
 
-* *Average time from registration to first purchase date per user*
+* Average time from registration to first purchase date per use.
 
 This will reveal the average time that lapses between registration date and the users' first purchase date and give an idea on how users behave at this final step in the conversion funnel.
 
@@ -87,11 +87,20 @@ Simply go to any dashboard and [create a new report](../../data-user/reports/ess
 
 [The Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md) is the easiest way to visualize your data. If you're not familiar with SQL or you just want to quickly create a report, the Visual Report Builder is your best bet. With just a few clicks, you can add metrics, segment your data, and create reports to across your organization. This option is perfect for beginners and experts alike, as it does not require any technical expertise.
 
-<table style="width: 649px;">
+|||
+|--- |--- |
+|**This is perfect for...|**This is not so great for...|
+|All levels of analysis/tech experience
+Quickly creating reports
+Creating analyses to share with other users|**Analyses that require SQL-specific functions
+
+**Testing new columns - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL are not|
+
+<!--<table style="width: 649px;">
 <tbody>
 <tr>
-<td style="width: 245.5px;"><strong>This is perfect for...</strong></td>
-<td style="width: 397.5px;"><strong>This is not so great for...</strong></td>
+<td style="width: 245.5px;">**This is perfect for...</strong></td>
+<td style="width: 397.5px;">**This is not so great for...</strong></td>
 </tr>
 <tr>
 <td style="width: 245.5px;" valign="top">
@@ -103,14 +112,14 @@ Simply go to any dashboard and [create a new report](../../data-user/reports/ess
 </td>
 <td style="width: 397.5px;" valign="top">
 <ul>
-<li><strong>Analyses that require SQL-specific functions</strong></li>
+<li>**Analyses that require SQL-specific functions</strong></li>
 <li>
-<strong>Testing new columns</strong> - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL are not</li>
+**Testing new columns</strong> - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL are not</li>
 </ul>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 ### Report Descriptions and Images
 
@@ -118,7 +127,7 @@ Simply go to any dashboard and [create a new report](../../data-user/reports/ess
 
 When creating reports that will be shared with other members of your team, we recommend adding descriptions which will allow other users to better understand your analysis.
 
-1. Click the *i* button at the top of any report.
+1. Click the **i** button at the top of any report.
 1. Enter a description into the word box.
 1. Hit Save Description.
 
@@ -133,7 +142,7 @@ Need to include a report in a presentation or document? Any report can be saved 
 1. Click the gear icon in the top right corner of any report.
 1. From the drop-down, select Enlarge.
 1. When the report enlarges, click the download icon in the top right corner of the report.
-1. Select the preferred image format from the drop-down. The download will begin immediately.
+1. Select the preferred image format from the dropdown. The download will begin immediately.
 
 Let us take a look:
 

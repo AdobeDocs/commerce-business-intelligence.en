@@ -24,7 +24,7 @@ Columns to create
 
 * <span class="wysiwyg-color-blue">**`Consolidated Digital Ad Spend`**</span> table
 * <span class="wysiwyg-color-blue">**`Campaign name`**</span> will be created by an analyst as part of your **[MARKETING ROI ANALYSIS]** ticket (**note:** see above for new architecture differences)
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 **Original and new architectures:**
 
@@ -38,7 +38,7 @@ Columns to create
     * Select table: <span class="wysiwyg-color-blue">**`ecommerce####`**</span>
     * Select column: <span class="wysiwyg-color-blue">**`campaign`**</span>
     * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
-    {: style="list-style-type: square;"}
+    <!--{: style="list-style-type: square;"}-->
 
   * <span class="wysiwyg-color-blue">**`Order's GA medium`**</span>
     * Select a definition: Joined Column
@@ -62,7 +62,7 @@ Columns to create
   * Filter:
   * Orders we count
   * Customer's order number = 1
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
 * <span class="wysiwyg-color-blue">**`Customer's first order GA source`**</span>
   * Select a definition: Max
@@ -72,9 +72,9 @@ Columns to create
   * Filter:
     * Orders we count
     * Customer's order number = 1<span class="wysiwyg-color-blue">**``**</span>
-    {: style="list-style-type: circle;"}
-  {: style="list-style-type: circle;"}
-{: style="list-style-type: circle;"}
+    <!--{: style="list-style-type: circle;"}-->
+  <!--{: style="list-style-type: circle;"}-->
+<!--{: style="list-style-type: circle;"}-->
 
 * <span class="wysiwyg-color-blue">**`Customer's first order GA medium`**</span>
   * Select a definition: Max
@@ -84,9 +84,9 @@ Columns to create
   * Filter:
     * Orders we count
     * Customer's order number = 1
-    {: style="list-style-type: circle;"}
-  {: style="list-style-type: circle;"}
-{: style="list-style-type: circle;"}
+    <!--{: style="list-style-type: circle;"}-->
+  <!--{: style="list-style-type: circle;"}-->
+<!--{: style="list-style-type: circle;"}-->
 
 * <span class="wysiwyg-color-blue">**`sales_flat_order`**</span> table
 * <span class="wysiwyg-color-blue">**`Customer's first order GA campaign`**</span>
@@ -94,22 +94,22 @@ Columns to create
   * Select table: <span class="wysiwyg-color-blue">**`customer_entity`**</span>
   * Select column: <span class="wysiwyg-color-blue">**`Customer's first order GA campaign`**</span>
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
-  {: style="list-style-type: circle;"}
+  <!--{: style="list-style-type: circle;"}-->
 
 * <span class="wysiwyg-color-blue">**`Customer's first order GA source`**</span>
   * Select a definition: Joined Column
   * Select table: <span class="wysiwyg-color-blue">**`customer_entity`**</span>
   * Select column: <span class="wysiwyg-color-blue">**`Customer's first order GA source`**</span>
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
-  {: style="list-style-type: circle;"}
+  <!--{: style="list-style-type: circle;"}-->
 
 * <span class="wysiwyg-color-blue">**`Customer's first order GA medium`**</span>
   * Select a definition: Joined Column
   * Select table: <span class="wysiwyg-color-blue">**`customer_entity`**</span>
   * Select column: <span class="wysiwyg-color-blue">**`Customer's first order GA medium`**</span>
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
-  {: style="list-style-type: circle;"}
-{: style="list-style-type: circle;"}
+  <!--{: style="list-style-type: circle;"}-->
+<!--{: style="list-style-type: circle;"}-->
 
 #### Metrics
 * **Ad spend**
@@ -117,21 +117,21 @@ Columns to create
 * This metric performs a **Sum**
 * On the <span class="wysiwyg-color-blue">**`adCost`**</span> column
 * Ordered by the <span class="wysiwyg-color-blue">**`date`**</span> timestamp
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **Ad impressions**
 * In the <span class="wysiwyg-color-blue">**`Consolidated Digital Ad Spend`**</span> table
 * This metric performs a **Sum**
 * On the <span class="wysiwyg-color-blue">**`Impressions`**</span> column
 * Ordered by the <span class="wysiwyg-color-blue">**`Month`**</span> timestamp
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **Ad clicks**
 * In the <span class="wysiwyg-color-blue">**`Consolidated Digital Ad Spend`**</span> table
 * This metric performs a **Sum**
 * On the <span class="wysiwyg-color-blue">**`adClicks`**</span> column
 * Ordered by the <span class="wysiwyg-color-blue">**`Month`**</span> timestamp
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
@@ -139,13 +139,13 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
 
 * **Ad spend (all time)**
   * Metric: Ad Spend
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Ad Spend*
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **Ad customer acquisitions (all time)**
   * Metric: New customers
@@ -155,17 +155,17 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Ad customer acquisitions*
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **Ad ROI**
   * Metric: Ad Spend
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: New customers
   * Filters:
@@ -174,7 +174,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Average lifetime revenue
   * Filters:
@@ -183,11 +183,11 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Formula: ((C - (A / B)) / (A / B))
   * Format: Percentage
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Ad Spend* (hide)
 * *Metric B: Ad customer acquisitions* (hide)
@@ -196,22 +196,22 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **Orders by ga medium**
   * Metric: Orders
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Orders*
 * *Time period: All time*
 * *Interval: By Month*
 * *Group by: **`Order's medium`***
 * *Chart Type: Area chart*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **Ad ROI by campaign**
   * Metric: Ad Spend
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: New customers
   * Filters:
@@ -220,7 +220,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Average lifetime revenue
   * Filters:
@@ -229,7 +229,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Average lifetime number of orders
   * Filters:
@@ -238,33 +238,33 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Formula: (A / B)
   * Format: Currency
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Formula: (C - (A / B))
   * Format: Currency
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Formula: ((C - (A / B)) / (A / B))
   * Format: Percentage
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Ad Clicks
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Ad Impressions
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Formula: (H / I)
   * Format: Percentage
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Formula: (A / H)
   * Format: Currency
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Ad Spend* (hide)
 * *Metric B: Ad customer acquisitions*
@@ -281,7 +281,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-analys
 * *Interval: None*
 * *Group by: **`campaign`** (Use Customer's first order's campaign for non-ad spend table metrics)*
 * *Chart Type: Table*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).
 

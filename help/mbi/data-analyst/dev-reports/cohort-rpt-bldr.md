@@ -155,7 +155,7 @@ For more details on Perspectives, click [here](../#perspectives).
 
 ## Examples of cohort analysis {#examples}
 
-Now that we have gone through how to create a cohort analysis, Let us take a look at some examples.
+Now that we have gone through how to create a cohort analysis, let us take a look at some examples.
 
 #### I want to know how my user cohorts are growing over time.
 
@@ -195,4 +195,4 @@ This is the same as the perspective above, except that the first time period val
 
 ## Wrapping up {#finish}
 
-The Cohort Builder is currently optimized for grouping users by a common **cohort date**. You might be interested in grouping the users by a similar activity or attribute - if that's the case, we would love to help! We recommend checking out [this tutorial on qualitative cohorts](../dev-reports/create-qual-cohort-analysis.md) to get started.
+The Cohort Builder is currently optimized for grouping users by a common **cohort date**. You might be interested in grouping the users by a similar activity or attribute - if that is the case, we would love to help! We recommend checking out [this tutorial on qualitative cohorts](../dev-reports/create-qual-cohort-analysis.md) to get started.

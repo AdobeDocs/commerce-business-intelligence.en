@@ -32,7 +32,7 @@ If you are a bit lost, Here is how to navigate through MBI to retrieve the key:
 
 ## Allow access to the MBI IP address {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it is also on the MongoDB credentials page:
+For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151**, but it is also on the MongoDB credentials page:
 
 ![MBI_Allow_Access_IPs.png](../../../assets/MBI_allow_access_IPs.png)
 
@@ -115,17 +115,17 @@ To wrap things up, we need to enter the connection and user info into MBI. Did y
 
 Enter the following info into this page, starting with the Database Connection section:
 
-* <strong>Host: </strong>127.0.0.1
-* <strong>Username: </strong> The MBI MongoDB username (should be rjmetric)
-* <strong>Password: </strong>The MBI MongoDB password
-* <strong>Port: </strong>MongoDB's port on your server (27017 by default)
-* <strong>Database Name (Optional): </strong>If you only allowed access to one database, specify the name of that database here.
+* **Host:**127.0.0.1
+* **Username:** The MBI MongoDB username (should be rjmetric)
+* **Password:**The MBI MongoDB password
+* **Port:**MongoDB's port on your server (27017 by default)
+* **Database Name (Optional):**If you only allowed access to one database, specify the name of that database here.
 
 Under the SSH Connection section:
 
-* <strong>Remote Address: </strong>The IP address or hostname of the server we will SSH into
-* <strong>Username: </strong>The MBI Linux (SSH) username (should be rjmetric)
-* <strong>SSH Port: </strong>The SSH port on your server (22 by default)
+* **Remote Address:**The IP address or hostname of the server we will SSH into
+* **Username:**The MBI Linux (SSH) username (should be rjmetric)
+* **SSH Port:**The SSH port on your server (22 by default)
 
 That's it! When you are finished, click the Save &amp; Test button to complete the setup.
 

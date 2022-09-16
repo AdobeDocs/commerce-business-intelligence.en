@@ -52,7 +52,7 @@ When a table is using Single Auto Incrementing Primary Key replication, new data
 
 ### Add Date
 
-The Add Date method functions similarly to the Single Auto Incrementing Primary Key method. Instead of using an integer for the table's primary key, this method will use a timestamped column to check for new rows.
+The _Add Date_ method functions similarly to the Single Auto Incrementing Primary Key method. Instead of using an integer for the table's primary key, this method will use a timestamped column to check for new rows.
 
 When a table uses Add Date replication, new data is discovered by searching for timestamped values that are greater than the latest date synced to your Data Warehouse. For example, if an update last ran on 20/12/2015 09:00:00, any rows with a timestamp greater than this will be marked as new data and replicated.
 
@@ -94,7 +94,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
 1. Once in the Data Warehouse Manager, select the table from the Synced Tables list to display the table's schema.
 1. The current replication method is listed below the table name. To change it, click the link.
 1. In the pop-up that displays, click the circle next to either Incremental or Full Table replication to select a replication type.
-1. Next, click the **Replication Method** dropdown to select a method - for example, **Paused** or **Modified At**.
+1. Next, click the **Replication Method** dropdown to select a method - for example, _Paused_ or _Modified At_.
 1. **Note that some Incremental methods require you to set a Replication Key**. MBI will use this key to determine where the next update cycle should begin.
 
     For example, if we want to use the **modified\_at** method for our **orders** table, we need to set a date column as the replication key. Several options for replication keys may exist, but we will select **created\_at**, or the time the order was created. If the last update cycle stopped at 12/1/2015 00:10:00, the next cycle would begin replicating data with a **created\_at** date greater than this.

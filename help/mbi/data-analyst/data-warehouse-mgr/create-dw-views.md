@@ -42,16 +42,25 @@ Let us take a look a closer look at one of the examples mentioned earlier in thi
 
 **Sample data:**
 
-<table style="width: 456px;">
+|||||||
+|--- |--- |--- |--- |--- |--- |
+|**_id|**campaign|**adClicks|**date|**impressions**|**adCost|
+|1|eee|60|2017-05-05 00:00:00|2000|10.2|
+|2|ggg|40|2017-05-23 00:00:00|900|4.6|
+|3|aaa|22|2017-06-12 00:00:00|400|2.5|
+|4|eee|350|2017-06-30 00:00:00|14500|35|
+|5|fff|280|2017-07-10 00:00:00|10200|28.5|
+
+<!--<table style="width: 456px;">
 <tbody>
 <tr>
-<td style="width: 25px;"><strong>_id</strong></td>
-<td style="width: 77px;"><strong>campaign</strong></td>
-<td style="width: 15px;"><strong>adClicks</strong></td>
+<td style="width: 25px;">**_id</strong></td>
+<td style="width: 77px;">**campaign</strong></td>
+<td style="width: 15px;">**adClicks</strong></td>
 <td style="width: 155px;">
-<strong>date</strong> </td>
-<td style="width: 155px;"><strong>impressions </strong></td>
-<td style="width: 180px;"><strong>adCost</strong></td>
+**date</strong> </td>
+<td style="width: 155px;">**impressions**</td>
+<td style="width: 180px;">**adCost</strong></td>
 </tr>
 <tr>
 <td style="width: 25px;">1</td>
@@ -96,7 +105,7 @@ Let us take a look a closer look at one of the examples mentioned earlier in thi
 <td style="width: 180px;">28.5</td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 **Ad source: Facebook**
 
@@ -104,16 +113,25 @@ Let us take a look a closer look at one of the examples mentioned earlier in thi
 
 **Sample data:**
 
-<table style="width: 456px;">
+|||||||
+|--- |--- |--- |--- |--- |--- |
+|**_id|**campaign|**adClicks|**date|**impressions**|**adCost|
+|1|aaa|25|2017-05-01 00:00:00|1200|5|
+|2|ddd|12|2017-05-15 00:00:00|800|2.5|
+|3|aaa|40|2017-05-22 00:00:00|2000|7|
+|4|aaa|110|2017-06-08 00:00:00|6000|10|
+|5|ccc|5|2017-07-06 00:00:00|300|1.2|
+
+<!--<table style="width: 456px;">
 <tbody>
 <tr>
-<td style="width: 25px;"><strong>_id</strong></td>
-<td style="width: 77px;"><strong>campaign</strong></td>
-<td style="width: 15px;"><strong>adClicks</strong></td>
+<td style="width: 25px;">**_id</strong></td>
+<td style="width: 77px;">**campaign</strong></td>
+<td style="width: 15px;">**adClicks</strong></td>
 <td style="width: 155px;">
-<strong>date</strong> </td>
-<td style="width: 155px;"><strong>impressions </strong></td>
-<td style="width: 180px;"><strong>adCost</strong></td>
+**date</strong> </td>
+<td style="width: 155px;">**impressions**</td>
+<td style="width: 180px;">**adCost</strong></td>
 </tr>
 <tr>
 <td style="width: 25px;">1</td>
@@ -158,7 +176,7 @@ Let us take a look a closer look at one of the examples mentioned earlier in thi
 <td style="width: 180px;">1.2</td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 To create a single ad spend table containing both Facebook and AdWords campaigns, we will need to write a SQL query and make use of the UNION ALL function. A UNION ALL statement is most often used to combine multiple distinct SQL queries while appending the results of each query to a single output.
 
@@ -200,34 +218,44 @@ A couple of important points about the above:
 
 Saving the query above as a Data Warehouse View will create a new table with both Facebook and AdWords spend, similar to the below:
 
-<table border="2">
+|||||||
+|--- |--- |--- |--- |--- |--- |
+|**_id|**campaign|**adClicks|**date|**impressions**|**adCost|
+|1|aaa|25|2017-05-01 00:00:00|1200|5|
+|2|ddd|12|2017-05-15 00:00:00|800|2.5|
+|3|aaa|40|2017-05-22 00:00:00|2000|7|
+|4|aaa|110|2017-06-08 00:00:00|6000|10|
+|5|ccc|5|2017-07-06 00:00:00|300|1.2|
+
+
+<!--<table border="2">
 <tbody>
 <tr>
 <td>
-<p><strong>id</strong> </p>
+<p>**id</strong> </p>
 </td>
 <td>
-<p><strong>ad_source</strong> </p>
+<p>**ad_source</strong> </p>
 </td>
 <td>
-<p><strong>date</strong> </p>
+<p>**date</strong> </p>
 </td>
 <td>
-<p><strong>campaign</strong> </p>
+<p>**campaign</strong> </p>
 </td>
 <td>
-<p><strong>spend</strong> </p>
+<p>**spend</strong> </p>
 </td>
 <td>
-<p><strong>impressions</strong> </p>
+<p>**impressions</strong> </p>
 </td>
 <td>
-<p><strong>clicks</strong> </p>
+<p>**clicks</strong> </p>
 </td>
 </tr>
 <tr>
 <td>
-<p><strong>1</strong> </p>
+<p>**1</strong> </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -250,7 +278,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p><strong>1</strong> </p>
+<p>**1</strong> </p>
 </td>
 <td>
 <p>AdWords </p>
@@ -273,7 +301,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p><strong>2</strong> </p>
+<p>**2</strong> </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -296,7 +324,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p><strong>2</strong> </p>
+<p>**2</strong> </p>
 </td>
 <td>
 <p>AdWords </p>
@@ -319,7 +347,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p><strong>3</strong> </p>
+<p>**3</strong> </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -342,7 +370,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p><strong>3</strong> </p>
+<p>**3</strong> </p>
 </td>
 <td>
 <p>AdWords </p>
@@ -365,7 +393,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p><strong>4</strong> </p>
+<p>**4</strong> </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -388,7 +416,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p><strong>4</strong> </p>
+<p>**4</strong> </p>
 </td>
 <td>
 <p>AdWords </p>
@@ -411,7 +439,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p><strong>5</strong> </p>
+<p>**5</strong> </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -434,7 +462,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p><strong>5</strong> </p>
+<p>**5</strong> </p>
 </td>
 <td>
 <p>AdWords </p>
@@ -456,7 +484,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 Rather than creating a separate set of marketing metrics for each ad source, you can now create just a single set of metrics using the table above to capture all of your ads.
 

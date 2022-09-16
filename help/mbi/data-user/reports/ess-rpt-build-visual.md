@@ -8,9 +8,9 @@ The following example shows how to create a simple report, group the data by an 
 
 ## To create a simple report:
 
-1. In the BI menu, choose **Report Builder**.
+1. In the MBI menu, choose **Report Builder**.
 
-1. Under **Visual Report Builder**, click <span class="btn">Create Report</span> and do the following:
+1. Under **Visual Report Builder**, click **Create Report** and do the following:
 
     * Click **Add Metric**.
 

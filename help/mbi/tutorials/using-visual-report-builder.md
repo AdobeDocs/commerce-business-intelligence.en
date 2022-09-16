@@ -78,23 +78,23 @@ Adding multiple filters allows tight control of the chart's data. By default, al
 
 Perspectives allow you to easily toggle between different views of your data. Let's take a look at what's available:
 
-- **Standard perspective** &#0151; The standard perspective shows you the result for the matching date on the x-axis (e.g. revenue in January). This is the perspective we're using in our Average revenue per orders example.
+- **Standard perspective**: The standard perspective shows you the result for the matching date on the x-axis (e.g. revenue in January). This is the perspective we're using in our Average revenue per orders example.
 
 ![](../assets/Standard.png)
 
-- **Amount OR Percent Change vs Previous Period perspective** &#0151; This perspective shows the amount or percent change from one interval to the next and is useful for measuring the rate of change in fast-changing metrics.There is also a perspective to compare the interval to the same time period last year to show year over year growth.
+- **Amount OR Percent Change vs Previous Period perspective**: This perspective shows the amount or percent change from one interval to the next and is useful for measuring the rate of change in fast-changing metrics.There is also a perspective to compare the interval to the same time period last year to show year over year growth.
 
 ![](../assets/Amt_or_Percent_Change.png)
 
-- **Cumulative perspective** &#0151; The cumulative perspective shows the ongoing or cumulative sum amount of the metric over the time period. This is often used to analyze total customers and plan for future capacity.
+- **Cumulative perspective**: The cumulative perspective shows the ongoing or cumulative sum amount of the metric over the time period. This is often used to analyze total customers and plan for future capacity.
 
 ![](../assets/Cumulative_Perspective.png)
 
-- **Percent of First Value perspective** &#0151; This perspective shows the data as a percentage of the first time interval included in the analysis. This is helpful in measuring the effectiveness of specific actions relative to the first period performance.
+- **Percent of First Value perspective**: This perspective shows the data as a percentage of the first time interval included in the analysis. This is helpful in measuring the effectiveness of specific actions relative to the first period performance.
 
 ![](../assets/Percent_of_First_Value.png)
 
-- **Rolling averages window perspective** &#0151; The rolling averages window perspective shows the rolling average value of a metric over the specified time range. The interval must be the same as the interval set on the report level. For example, if the report is showing the last full quarter of Revenue by week, you can set the rolling average window time range to 4 weeks, and the first three values will be null and the fourth value represents the average of the first 4 weeks of Revenue. For clarity, make sure to turn off the **Multiple Y-Axes** checkbox if you are viewing the same metric with a rolling average, like in the example below.
+- **Rolling averages window perspective**: The rolling averages window perspective shows the rolling average value of a metric over the specified time range. The interval must be the same as the interval set on the report level. For example, if the report is showing the last full quarter of Revenue by week, you can set the rolling average window time range to 4 weeks, and the first three values will be null and the fourth value represents the average of the first 4 weeks of Revenue. For clarity, make sure to turn off the **Multiple Y-Axes** checkbox if you are viewing the same metric with a rolling average, like in the example below.
 
 ![](../assets/rolling_avg_window.png)
 

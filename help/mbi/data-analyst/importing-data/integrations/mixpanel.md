@@ -22,9 +22,9 @@ To complete this process, you will need to open two browser windows or tabs - on
 
 Let us get started:
 
-1. Go to the Connections page under **Manage Data** > **Connections**.
+1. Go to the _Connections_ page under **Manage Data** > **Connections**.
 1. Click the **Add a New Source** button, located on the right side of the screen above the Data Sources table.
-1. Click the Mixpanel icon and the credentials page will display.
+1. Click the **Mixpanel icon** and the credentials page will open.
 
 Leave this page open for now and switch to the browser window with your Mixpanel account.
 

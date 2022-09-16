@@ -11,7 +11,7 @@ To connect your PostgreSQL database to MBI via an SSH tunnel, you (or your team,
 1. [Create a Postgres user for MBI ](../#postgres)
 1. [Enter the connection and user info into MBI](../#finish)
 
-it is not as complicated as it might sound. Let us get started.
+It is not as complicated as it might sound. Get started.
 
 ## Retrieving the MBI public key {#retrieve}
 
@@ -72,7 +72,7 @@ Your organization may require a different process, but the simplest way to creat
     GRANT CONNECT ON DATABASE <database name> TO rjmetric WITH PASSWORD <secure password>;GRANT USAGE ON SCHEMA <schema name> TO rjmetric;GRANT SELECT ON ALL TABLES IN SCHEMA <schema name> TO rjmetric;ALTER DEFAULT PRIVILEGES IN SCHEMA <schema name> GRANT SELECT ON TABLES TO rjmetric;
 ```
 
-Replace *<secure password>* with a secure password, which can be different than the SSH password. Additionally, make sure you replace *<database name>* and *<schema name>* with the appropriate names in your database.
+Replace `secure password` with a secure password, which can be different than the SSH password. Additionally, make sure you replace `database name` and `schema name` with the appropriate names in your database.
 
 If you want to connect multiple databases or schemas, repeat this process as necessary.
 

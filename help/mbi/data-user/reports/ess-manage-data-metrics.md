@@ -18,7 +18,7 @@ When used in reports, metrics can be analyzed over a specified time period and [
 
 1. Click **Create New Metric**.
 
-1. From the drop-down, click the table that includes the native or calculated column you want to use for your metric.
+1. From the dropdown, click the table that includes the native or calculated column you want to use for your metric.
 
 1. Name your metric.
 
@@ -63,8 +63,8 @@ In addition to listing all available data columns as dimensions, MBI will also t
 
 ## Finishing Up {#finish}
 
-In addition to defining how your metric behaves, you can also set permission levels in the **User Rights** section. While Admin users have access to all metrics, you have to indicate the users who can use this metric by checking the box next to the appropriate group.
+In addition to defining how your metric behaves, you can also set permission levels in the _User Rights_ section. While Admin users have access to all metrics, you have to indicate the users who can use this metric by checking the box next to the appropriate group.
 
-If you're editing an existing metric, you can view a list of charts (and who owns them) that use this metric in the **Dependent Charts** section.
+If you're editing an existing metric, you can view a list of charts (and who owns them) that use this metric in the _Dependent Charts_ section.
 
 Changes are saved automatically and your metric is now good to go.

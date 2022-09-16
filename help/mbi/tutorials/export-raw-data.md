@@ -35,8 +35,8 @@ If you want to export the table from **Manage Data** tab, you will need [Admin](
 ### Exporting at the Chart Level from the Dashboard
 
 1. Click the gear icon in the top right corner of any chart.
-1. Select **Raw Export** from the drop-down menu to display the **Raw Export** dialog.
-1. Customize the export by choosing the table, columns, and filters to include or exclude. Refer to the previous section for more detailed info on the fields in this module. Note that the table that displays in the **Table** field is, by default, the table that powers the chart.
+1. Select **Raw Export** from the dropdown to display the **Raw Export** dialog.
+1. Customize the export by choosing the table, columns, and filters to include or exclude. Refer to the previous section for more detailed info on the fields in this module. Note that the table that displays in the _Table_ field is, by default, the table that powers the chart.
 1. When finished, click the **Export Data** button.
 
 Let us take a look at the entire process at the chart level.

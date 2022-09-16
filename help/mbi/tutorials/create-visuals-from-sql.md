@@ -11,11 +11,11 @@ The [SQL Report Builder](../data-analyst/dev-reports/using-sql-rpt-bldr.md) is a
 
 Before you begin this tutorial, refer to the following terminology used in the SQL Report Builder.
 
-- **Series** &#0151; The column that you want to measure is referred to as a Series in the SQL Report Builder. Common examples are **revenue, items sold**, and **marketing spend**. At least one column must be set as a **Series** to create a visualization.
+- **Series** The column that you want to measure is referred to as a Series in the SQL Report Builder. Common examples are **revenue, items sold**, and **marketing spend**. At least one column must be set as a **Series** to create a visualization.
 
-- **Category** &#0151; The column you want to use to segment your data is called a **Category**. This is just like the **Group By** feature in the [Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md). For example, if you want to segment your customers' lifetime revenue by their acquisition source, the column that contains acquisition source would be specified as the Category. More than one column can be set as a Category. Note that dates and timestamps can also be used as Categories. They are just another column of data in your query and must be formatted and ordered as desired in the query itself.
+- **Category** The column you want to use to segment your data is called a **Category** This is just like the **Group By** feature in the [Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md). For example, if you want to segment your customers' lifetime revenue by their acquisition source, the column that contains acquisition source would be specified as the Category. More than one column can be set as a Category. Note that dates and timestamps can also be used as Categories. They are just another column of data in your query and must be formatted and ordered as desired in the query itself.
 
-- **Labels** &#0151; These are applied as x-axis labels. When analyzing data trending over time, the year and month columns are generally specified as labels. More than one column can be set to be Label.
+- **Labels** These are applied as x-axis labels. When analyzing data trending over time, the year and month columns are generally specified as labels. More than one column can be set to be Label.
 
 ## Step 1: Write the Query
 

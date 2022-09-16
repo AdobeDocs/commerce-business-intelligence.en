@@ -240,7 +240,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Group by: Customer's order number
 * Chart Type: Bar chart
 
-* **Repeat order probablility: Non-coupon acquisitions**
+* **Repeat order probability: Non-coupon acquisitions**
   * Metric: Number of orders
   * Filter:
   * Customer's first order included a coupon (Coupon/No Coupon) = No Coupon
@@ -363,7 +363,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Interval: None
 * Group by: coupon code
 * Chart Type: Table
-* Note: The quantity of 10 for "Number of orders with this coupon" is arbitrary. Feel free to use the most appropriate quantity for this filter.
+* **Note**: The quantity of 10 for "Number of orders with this coupon" is arbitrary. Feel free to use the most appropriate quantity for this filter.
 
 * **Number of orders with coupon (all time)**
   * Metric: Number of coupons used

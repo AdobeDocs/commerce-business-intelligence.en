@@ -3,7 +3,10 @@ title: Using the File Uploader
 zendesk_id: 360016730951
 ---
 
-MBI is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single data warehouse. Even data that lives outside your databases and integrations can be brought into MBI by using the File Upload tool in the Data Warehouse Manager. **Note:** You need Admin permissions to access use the File Uploader.
+{:.bs-callout-info}
+[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+
+MBI is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single data warehouse. Even data that lives outside your databases and integrations can be brought into MBI by using the File Upload tool in the Data Warehouse Manager.
 
 Let us use ad campaigns as an example. If you are running both online and offline campaigns, you cannot get the whole picture if you are only analyzing data from an online integration. Uploading a spreadsheet with the offline campaign data allows you to analyze both sets of data and get a more robust understanding of your campaign performance.
 

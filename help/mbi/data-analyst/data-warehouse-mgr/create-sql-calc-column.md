@@ -64,5 +64,5 @@ From here you can create a new Calculation column by following the steps below:
     - String – Any type of text or series of characters that uses non numbers
     - Datetime – yyyy-MM-dd hh:mm:ss format
 
-1. Click the test column button. This will generate a list of 5 test values for each of your inputs, and show the result of the logic from step 6 for each set of test values. If any portion of the SQL generates an error, the appropriate error message will be returned. Note that sample results can only be generated if all input columns are native fields. If any of the input columns are calculated columns, you will need to validate the results by adding the column to a metric and viewing in the Visual Report Builder
-1. When you are satisfied with the results of step 8, click **Save**, and your column will be available for use.
+1. Click the **test column** button. This will generate a list of 5 test values for each of your inputs, and show the result of the logic from step 6 for each set of test values. If any portion of the SQL generates an error, the appropriate error message will be returned. Note that sample results can only be generated if all input columns are native fields. If any of the input columns are calculated columns, you will need to validate the results by adding the column to a metric and viewing in the Visual Report Builder
+1. When you are satisfied with the results, click **Save**, and your column will be available for use.

@@ -41,4 +41,4 @@ Additionally, **if you are using an encrypted connection**, toggle the Encrypted
 
 ![](../../../assets/5.1.png)
 
-That's all there is to it! Connecting your RDS instance is complete.
+That is all there is to it! Connecting your RDS instance is complete.

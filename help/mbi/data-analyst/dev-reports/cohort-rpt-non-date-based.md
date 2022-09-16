@@ -21,7 +21,7 @@ This is not a comprehensive list, but here are some potential analyses that can 
 
 ### Adding a metric
 
-Now that we are in the Report Builder, let's add the metric that we want to perform the analysis on (example: **Revenue** or **Orders**).
+Now that we are in the Report Builder, we add the metric that we want to perform the analysis on (example: **Revenue** or **Orders**).
 
 **Note: Native Google Analytics metrics are not compatible with the Cohort Report Builder.** Our goal for this example is to look at revenue over time for first-order customers who were acquired through different GA sources.
 
@@ -70,4 +70,4 @@ Do you want to see the cohorts over time by month, week, or year? Here is where 
 ### Other notes
 
 * Filters applied to your metrics will remain intact when you toggle between Standard and Cohort views
-* For more details on Perspectives, you can go to [this article](../data-analyst/dev-reports/cohort-rpt-bldr.md %}#perspectives).
+* For more details on Perspectives, you can go to [this article](../../data-analyst/dev-reports/cohort-rpt-bldr.md).

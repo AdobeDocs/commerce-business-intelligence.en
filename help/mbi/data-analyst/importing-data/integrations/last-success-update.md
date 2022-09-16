@@ -3,13 +3,13 @@ title: Understanding Results Between Database and SQL Editor
 zendesk_id: 360016729891
 ---
 
-You may be curious what the "Last successful update began" field is inside your Integrations page:
+You may be curious what the _Last successful update began_ field is inside your Integrations page:
 
 ![Last_successful_update.png](../../../assets/Last_successful_update.png)
 
 ## Understand the timestamp field
 
-It shows the start timestamp (in the timezone set on your account) of the _last successful update cycle_ on your account. Note that:
+It shows the start timestamp (in the timezone set on your account) of the _last successful update cycle_ on your account.
 
 -  If any of the synced tables encountered an issue during the last update cycle, this timestamp is **not updated**.
 -  Hence, there may be cases when reports have been updated with fresh data, but the "Last successful update began" is still lagging.

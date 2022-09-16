@@ -26,7 +26,7 @@ To get started creating a new SQL report, click **Report Builder** or the **Add 
 
 To edit a report, click the **gear** (![](../../assets/gear-icon.png)) icon in the top right corner of a SQL-based chart and click **Edit**.
 
-Let's get started!
+Let us get started!
 
 ## Writing a query {#writing}
 

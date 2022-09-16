@@ -12,13 +12,13 @@ The dimensions we cover will give you the ability to build analyses that [answ
 
 ## Prerequisites and overview
 
-To create the dimensions in this article, you need a **Google ECommerce** table, an **orders** table, and a **customers** table. Those tables have to be [synced to your data warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) before dimensions can be built. Tables that are synced display in the Synced Tables section of the Data Warehouse Manager.
+To create the dimensions in this article, you need a **Google ECommerce** table, an **orders** table, and a **customers** table. Those tables have to be [synced to your data warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) before dimensions can be built. Tables that are synced display in the _Synced Tables_ section of the _Data Warehouse Manager_.
 
 Here is a quick look at syncing tables and columns if you need a refresher:
 
 ![](../../assets/Syncing_New_Columns.gif)
 
-After creating a join from the **orders** table to the Google eCommerce table, we create the first three dimensions in the list below. Next, we use those dimensions to create three user/customer dimensions in the **customers** table. To finish up, we join those columns to the **orders** table.
+After creating a join from the _orders_ table to the _Google eCommerce_ table, we create the first three dimensions in the list below. Next, we use those dimensions to create three user/customer dimensions in the **customers** table. To finish up, we join those columns to the **orders** table.
 
 Here are the dimensions we cover:
 
@@ -39,7 +39,7 @@ Here are the dimensions we cover:
 
 ## Building the dimensions
 
-To create dimensions, open the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) by clicking **Data > Data Warehouse**.
+To create dimensions, open the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) by clicking **Data** > **Data Warehouse**.
 
 ### Orders table, round 1
 

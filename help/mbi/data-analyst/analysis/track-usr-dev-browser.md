@@ -15,7 +15,7 @@ Every time a request is made to your website, the user's browser sends a User-Ag
 4. Mozilla/5.0 (iPad; CPU OS 5\_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B176 Safari/7534.48.3
 5. Mozilla/5.0 (Linux; U; Android 2.2; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
 
-If you look closely, you will see that the string contains information about the user's operating system, browser, and the name of the device they are using (if it has a name). Although User-Agent strings vary widely across platforms and even versions of the same platform, it is generally true that the platform name will exist somewhere within. For example, #1 above is a Mac with the Chrome browser, #2 above is a Windows machine with the Firefox browser, #3 is an iPhone, #4 is an iPad, and #5 is an Android device.
+If you look closely, you see that the string contains information about the user's operating system, browser, and the name of the device they are using (if it has a name). Although User-Agent strings vary widely across platforms and even versions of the same platform, it is generally true that the platform name will exist somewhere within. For example, #1 above is a Mac with the Chrome browser, #2 above is a Windows machine with the Firefox browser, #3 is an iPhone, #4 is an iPad, and #5 is an Android device.
 
 This information can be accessed by your server every time a request is made. In PHP, the User-Agent string is stored in `$_SERVER['HTTP_USER_AGENT']`. In Ruby on Rails, it is stored in `request.env['HTTP_USER_AGENT']`. Other languages and environments will allow you to access it in similar ways.
 

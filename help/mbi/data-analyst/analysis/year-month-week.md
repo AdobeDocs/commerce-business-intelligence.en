@@ -4,7 +4,7 @@ zendesk_id: 360016506952
 ---
 
 {: .bs-callout-info}
-This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
+This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the _Data Warehouse Views_ section available after selecting _Manage Data_ from the main toolbar.
 
 The report builder allows you to easily see trends over time and change perspective for time periods you may want to compare. In this article, we will demonstrate how to set up a dashboard to go a level deeper to allow you to create reports for week over week, month over month and year over year analysis.
 
@@ -23,7 +23,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 * <span class="wysiwyg-color-blue">**`created_at (day of the month)`**</span>
 * <span class="wysiwyg-color-blue">**`created_at (day of the week)`**</span>
 * <span class="wysiwyg-color-blue">**`created_at (hour of the day)`**</span>
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **New architecture:** SQL listed below with a photo of an example for how to create this calculation
   * <span class="wysiwyg-color-blue">**`created_at (month-day)`**</span> Calculation**:** **to_char(A, 'mm-dd')**
@@ -43,11 +43,11 @@ None.
 
 * **YoY chart**
   * Metric: Number of orders
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Number of orders
   * Time options: Time range (Custom): 2 years ago to 1 year ago
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * *Show top/bottom: Top 100% sorted by **`created_at (month-day)`***
 
@@ -57,15 +57,15 @@ None.
 * *Interval: None*
 * *Group by: **`created_at (month-day)`***
 * *Chart Type: Line*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **MoM chart**
   * Metric: Number of orders
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Number of orders
   * Time options: Time range (Custom): 2 months ago to 1 month ago
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * *Show top/bottom: Top 100% sorted by **`created_at (day of month)`***
 
@@ -75,15 +75,15 @@ None.
 * *Interval: None*
 * *Group by: **`created_at (day of month)`***
 * *Chart Type: Line*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **WoW chart**
   * Metric: Number of orders
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Number of orders
   * Time options: Time range (Custom): 2 weekss ago to 1 week ago
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * *Show top/bottom: Top 100% sorted by **`created_at (day of week)`***
 
@@ -93,15 +93,15 @@ None.
 * *Interval: None*
 * *Group by: **`created_at (day of week)`***
 * *Chart Type: Line*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **DoD chart**
   * Metric: Number of orders
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Number of orders
   * Time options: Time range (Custom): 2 days ago to 1 day ago
-  {: style="list-style-type: square;"}
+  <!--{: style="list-style-type: square;"}-->
 
   * *Show top/bottom: Top 100% sorted by **`created_at (hour of day)`***
 
@@ -111,6 +111,6 @@ None.
 * *Interval: None*
 * *Group by: **`created_at (hour of day)`***
 * *Chart Type: Line*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of this page.

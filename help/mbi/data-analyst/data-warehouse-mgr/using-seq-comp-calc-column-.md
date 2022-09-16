@@ -15,25 +15,34 @@ The **Sequential Comparison** column type finds the difference between consecuti
 
 **Example**
 
-<table style="width: 693px; height: 283px;">
+|||||
+|--- |--- |--- |--- |
+|**event_id**|**owner_id**|**timestamp**|**Seconds since owner's previous event**|
+|**1**|A|2015-01-01 00:00:00|NULL|
+|**2**|B|2015-01-01 00:30:00|NULL|
+|**3**|A|2015-01-01 02:00:00|7200|
+|**4**|A|2015-01-02 13:00:00|126000|
+|**5**|B|2015-01-03 13:00:00|217800|
+
+<!--<table style="width: 693px; height: 283px;">
 <tbody>
 <tr style="height: 49px;">
 <td style="height: 49px; width: 80px;">
-<p><strong>event_id</strong> </p>
+<p>**event_id** </p>
 </td>
 <td style="height: 49px; width: 86px;">
-<p><strong>owner_id</strong> </p>
+<p>**owner_id** </p>
 </td>
 <td style="height: 49px; width: 173px;">
-<p><strong>timestamp</strong> </p>
+<p>**timestamp** </p>
 </td>
 <td style="height: 49px; width: 341px;">
-<p><strong>Seconds since owner's previous event</strong> </p>
+<p>**Seconds since owner's previous event** </p>
 </td>
 </tr>
 <tr style="height: 49px;">
 <td style="height: 49px; width: 80px;">
-<p><strong>1</strong> </p>
+<p>**1** </p>
 </td>
 <td style="height: 49px; width: 86px;">
 <p>A </p>
@@ -47,7 +56,7 @@ The **Sequential Comparison** column type finds the difference between consecuti
 </tr>
 <tr style="height: 49px;">
 <td style="height: 49px; width: 80px;">
-<p><strong>2</strong> </p>
+<p>**2** </p>
 </td>
 <td style="height: 49px; width: 86px;">
 <p>B </p>
@@ -61,7 +70,7 @@ The **Sequential Comparison** column type finds the difference between consecuti
 </tr>
 <tr style="height: 49px;">
 <td style="height: 49px; width: 80px;">
-<p><strong>3</strong> </p>
+<p>**3** </p>
 </td>
 <td style="height: 49px; width: 86px;">
 <p>A </p>
@@ -75,7 +84,7 @@ The **Sequential Comparison** column type finds the difference between consecuti
 </tr>
 <tr style="height: 49px;">
 <td style="height: 49px; width: 80px;">
-<p><strong>4</strong> </p>
+<p>**4** </p>
 </td>
 <td style="height: 49px; width: 86px;">
 <p>A </p>
@@ -89,7 +98,7 @@ The **Sequential Comparison** column type finds the difference between consecuti
 </tr>
 <tr style="height: 18px;">
 <td style="height: 18px; width: 80px;">
-<p><strong>5</strong> </p>
+<p>**5** </p>
 </td>
 <td style="height: 18px; width: 86px;">
 <p>B </p>
@@ -102,7 +111,7 @@ The **Sequential Comparison** column type finds the difference between consecuti
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
  In the above example, **Seconds since owner's previous event** is the **Sequential Comparison** calculated column. For the **owner_id** = A, it first identifies a sequence based on the **timestamp** column, and then subtracts the previous event's **timestamp** from the current event's timestamp. In the 3rd row in the table – the 2nd row for **owner_id** A – the value of **Seconds since owner's previous event** is the number of seconds between '2015-01-01 02:00' and '2015-01-01 00:00:00'. This difference equals 2 hours = 7200 seconds.
 

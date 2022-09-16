@@ -3,9 +3,9 @@ title: Configuring data rechecks
 zendesk_id: 360016506452
 ---
 
-In a database table, there can be data columns with changeable values. For example, in an **orders** table there might be a column called **status**. When an order is initially written to the database, the status column might contain the value "pending." The order will then be replicated in your [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) with this "pending" value.
+In a database table, there can be data columns with changeable values. For example, in an _orders)_ table there might be a column called **status**. When an order is initially written to the database, the status column might contain the value _pending_. The order will then be replicated in your [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) with this _pending_ value.
 
-Order statuses can change, though - they will not always be in a pending status. Eventually it could become "complete" or "cancelled." To ensure that your Data Warehouse syncs this change, the column will need to be rechecked for new values.
+Order statuses can change, though - they will not always be in a pending status. Eventually it could become _complete_ or _cancelled_. To ensure that your Data Warehouse syncs this change, the column will need to be rechecked for new values.
 
 How does this fit in with the [replication methods](../data-warehouse-mgr/cfg-replication-methods.md) we discussed? The processing of rechecks varies based on the chosen replication method. The Modified\_At replication method is the best choice for processing changing values, as rechecks do not have to be configured. The Auto-Incrementing Primary Key and Primary Key Batch Monitoring methods require recheck configuration.
 

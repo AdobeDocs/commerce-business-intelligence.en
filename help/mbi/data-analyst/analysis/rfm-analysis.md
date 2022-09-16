@@ -21,10 +21,10 @@ A further distinction is made if your business allows guest orders. If so, you c
 
 Columns to create
 
-* <strong>Sales_flat_order/customer_entity </strong>table
+* **Sales_flat_order/customer_entity**table
 * Customer's last order date
 * Column type – "Many to one -&gt; Max"
-* Path<strong> – sales_flat_order.customer_id -&gt; customer_entity.entity_id</strong>
+* Path – **sales_flat_order.customer_id -&gt; customer_entity.entity_id**
 * Selected column: **created_at**
 * Filter - Orders we count
 
@@ -41,19 +41,19 @@ Columns to create
 * **Count reference** table (this is the file you just uploaded with the number "1")
 * Number of customers
 * Column type – "Many to One -&gt; Count Distinct"
-* Path – **sales_flat_order.(input) reference -&gt; Count reference.Primary Key** OR<strong> customer_entity.(input)reference -&gt; Count Reference.Primary Key</strong>
+* Path – **sales_flat_order.(input) reference -&gt; Count reference.Primary Key** OR **customer_entity**.(input)reference -&gt; Count Reference. **Primary Key**
 * Selected column – **sales_flat_order.customer_email** OR **customer_entity.entity_id**
 
 * **Customer_entity** table
 * Number of customers
 * Column type – "One to Many -&gt; JOINED_COLUMN"
-* Path<strong> – customer_entity.(input) reference -&gt; Customer Concentration.Primary Key</strong>
-* Selected column<strong> – Number of customers</strong>
+* Path – **customer_entity**.(input) reference -&gt; Customer Concentration. **Primary Key**
+* Selected column – **Number of customers**
 
 * (input) Ranking by customer lifetime revenue
-* Column type<strong> – </strong>"Same table -&gt; Event Number"
-* Event owner<strong> – (input) reference for count</strong>
-* Event rank<strong> – Customer's lifetime revenue</strong>
+* Column type –**"Same table -&gt; Event Number"
+* Event owner – **(input) reference for count**
+* Event rank – **Customer's lifetime revenue**
 
 * Ranking by customer lifetime revenue
 * Column type – "Same table -&gt; Calculation"
@@ -68,9 +68,9 @@ Columns to create
 * Datatype – Integer
 
 * (input) Ranking by customer lifetime number of orders
-* Column type<strong> – </strong>"Same table -&gt; Event Number"
-* Event owner<strong> – (input) reference for count</strong>
-* Event rank<strong> – Customer's lifetime number of orders</strong>
+* Column type – **"Same table -&gt; Event Number"
+* Event owner – **(input) reference for count**
+* Event rank – **Customer's lifetime number of orders**
 
 * Ranking by customer lifetime number of orders
 * Column type – "Same table -&gt; Calculation"
@@ -85,9 +85,9 @@ Columns to create
 * Datatype – Integer
 
 * Ranking by seconds since customer's last order date
-* Column type<strong> – </strong>"Same table -&gt; Event Number"
-* Event owner<strong> – (input) reference for count</strong>
-* Event rank<strong> – Seconds since customer's last order date</strong>
+* Column type** –**"Same table -&gt; Event Number"
+* Event owner** – (input) reference for count</strong>
+* Event rank** – Seconds since customer's last order date</strong>
 
 * Customer's recency score (by percentiles)
 * Column type – "Same table -&gt; Calculation"
@@ -104,15 +104,15 @@ Columns to create
 * **Count reference** table
 * Number of customers (RFM &gt; 0)
 * Column type – "Many to One -&gt; Count Distinct"
-* Path – **sales_flat_order.(input) reference -&gt; Customer Concentration.Primary Key** OR<strong> customer_entity.(input)reference -&gt; Customer Concentration.Primary Key</strong>
+* Path – **sales_flat_order.(input) reference -&gt; Customer Concentration. Primary Key** OR** customer_entity.(input)reference -&gt; Customer Concentration.Primary Key</strong>
 * Selected column – **sales_flat_order.customer_email** OR **customer_entity.entity_id**
-* Filter - **Customer's RFM score (by percentile)** Not Eqaul To 000
+* Filter - **Customer's RFM score (by percentile)** Not Equal To 000
 
 * **Customer_entity** table
 * Number of customers (RFM &gt; 0)
 * Column type – "One to Many -&gt; JOINED_COLUMN"
-* Path<strong> – customer_entity.(input) reference -&gt; Customer Concentration.Primary Key</strong>
-* Selected column<strong> – Number of customers</strong>
+* Path** – **customer_entity.(input) reference -&gt; Customer Concentration.Primary Key**
+* Selected column – **Number of customers**
 
 * Customer's recency score (R+F+M)
 * Column type – "Same table -&gt; Calculation"
@@ -121,9 +121,9 @@ Columns to create
 * Datatype – Integer
 
 * (input) Ranking by customer's overall RFM score
-* Column type<strong> – </strong>"Same table -&gt; Event Number"
-* Event owner<strong> – (input) reference for count</strong>
-* Event rank<strong> – Customer's recency score (R+F+M)</strong>
+* Column type – **"Same table -&gt; Event Number"**
+* Event owner – **(input) reference for count**
+* Event rank – **Customer's recency score (R+F+M)**
 * Filter - **Customer's RFM score (by percentile)** Not Eqaul To 000
 
 * Ranking by customer's overall RFM score
@@ -144,7 +144,7 @@ Columns to create
 
 No new metrics!
 
-Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+**Note**: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ### Reports
 
@@ -153,7 +153,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Metric: New customers
 * Filter:
 * Customer's RFM score (by percentiles) Not Equal to 000
-{: style="list-style-type: square;"}
+<!--{: style="list-style-type: square;"}-->
 
 * *Time period: All time*
 * *Interval: None*
@@ -161,14 +161,14 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * *Group by: Customer's RFM group*
 * *Group by: Email*
 * *Chart type: Table*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **Customers with 5 recency score**
 * *Metric A: New customers*
 * Metric: New customers
 * Filter:
 * Customer's recency score (by percentiles) Equal to 5
-{: style="list-style-type: square;"}
+<!--{: style="list-style-type: square;"}-->
 
 * *Time period: All time*
 * *Interval: None*
@@ -177,14 +177,14 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * *Group by: Email*
 * *Group by: Customer's RFM score (R+F+M)*
 * *Chart type: Table*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 * **Customers with 1 recency score**
 * *Metric A: New customers*
 * Metric: New customers
 * Filter:
 * Customer's recency score (by percentiles) Equal to 1
-{: style="list-style-type: square;"}
+<!--{: style="list-style-type: square;"}-->
 
 * *Time period: All time*
 * *Interval: None*
@@ -193,6 +193,6 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * *Group by: Email*
 * *Group by: Customer's RFM score (R+F+M)*
 * *Chart type: Table*
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the above sample dashboard, but the three generated tables are just examples of the types of customer segmentation you can perform.

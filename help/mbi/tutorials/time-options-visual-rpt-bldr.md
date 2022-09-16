@@ -5,7 +5,7 @@ zendesk_id: 360016505432
 
 One of the features of the Visual Report builder is the global Time Range and Interval settings. These settings allow you to analyze the data in your report for a specific time period.
 
-However, for some analyses, you may need to consider different Time Ranges or Time Intervals in the same report. That's where Time Options come in. To give you a better idea of how to use Time Options in your reports, this tutorial will cover the following use cases:
+However, for some analyses, you may need to consider different Time Ranges or Time Intervals in the same report. That is where Time Options come in. To give you a better idea of how to use Time Options in your reports, this tutorial will cover the following use cases:
 
 * [Analyzing Metrics without Timestamps](../#notimestamp)
 * [Giving One Metric an Independent Time Interval](../#independenttimeinterval)
@@ -17,7 +17,7 @@ If you want to follow along with some of the sample reports discussed in this to
 
 Some metrics simply cannot trend over time because the data is not collected or stored with an associated timestamp. For example, an inventory table will often contain only one row for each SKU. In that case, you should [create the metric](../data-user/reports/ess-manage-data-metrics.md) without specifying a timestamp.
 
-When using such a metric in your reporting, you'll notice that adding this metric to a report automatically sets an independent **Time Interval** of **None** and **Time Range** of **Global**:
+When using such a metric in your reporting, you notice that adding this metric to a report automatically sets an independent **Time Interval** of **None** and **Time Range** of **Global**:
 
 ![](../assets/Metrics_without_timestamps.gif)
 
@@ -32,13 +32,13 @@ This type of report can be useful if you want to compare revenue generated year-
 1. Click the global **Time Range** option, then **Moving Time Range**. Set this to **Last Year**.
 1. Click the global **Time Interval** option and set it to **Monthly**.
 1. Report Builder automatically adds a second Y-axis for a second metric. Deselect the **Multiple Y-Axes** box.
-1. Next, we'll apply an independent Time Interval to the first metric. Click the **Time Options** option (clock icon) to the right of the **first Revenue metric**.
+1. Next, we apply an independent Time Interval to the first metric. Click the **Time Options** option (clock icon) to the right of the **first Revenue metric**.
 1. Click **Time Options** in the expanded window that displays above the report.
 1. In the dropdown, set the following:
 
-   * **Time Interval** &#0151; set this to **None**.
+   * **Time Interval**: set this to **None**.
 
-   * **Time Range** &#0151; set this to **Last Year** by first clicking **Custom**, then **Moving Range**, and finally the **Last Year** option.
+   * **Time Range**: set this to **Last Year** by first clicking **Custom**, then **Moving Range**, and finally the **Last Year** option.
 
    * Click **Apply** to save the interval and range settings. This creates a metric that calculates the total revenue for the previous year. Next, we'll use this metric as the denominator in a formula.
 
@@ -71,17 +71,17 @@ To demonstrate this use case, we'll look at the daily revenue for the previous m
 1. Click **Time Options** in the expanded window that displays above the report.
 1. In the dropdown, set the following:
 
-   * **Time Interval** &#0151; set this to **None**.
+   * **Time Interval**: set this to **None**.
 
-   * **Time Range** &#0151; set this to **From 14 Months Ago To 13 Months Ago** by first clicking **Custom** then **Moving Range**. Use the fields and dropdowns at the top of the menu to set the range. This setting allows us to see the revenue for the previous month, but in the previous year.
+   * **Time Range**: set this to **From 14 Months Ago To 13 Months Ago** by first clicking **Custom** then **Moving Range**. Use the fields and dropdowns at the top of the menu to set the range. This setting allows us to see the revenue for the previous month, but in the previous year.
 
-   do not worry if the metric disappears from the report - setting an independent time options automatically hides the metric from the report. To redisplay it, click the **Show** option next to the metric.
+   do not worry if the metric disappears from the report - setting an independent time options automatically hides the metric from the report. To redisplay it, click **Show** next to the metric.
 
    ![](../assets/Different_Time_Ranges.gif)
 
    * Click **Apply** to save the interval and range settings.
 
-   * Next, we'll add our custom **Day number of the month** dimension by clicking **Group By** and selecting the dimension. This will return the day number of the month of an order - for example, an order placed on March 2 will return `2`.
+   * Next, we add our custom **Day number of the month** dimension by clicking **Group By** and selecting the dimension. This will return the day number of the month of an order - for example, an order placed on March 2 will return `2`.
 
    * In the **Group By** dropdown, select **Show All** and click **Apply**. This will effectively create the X-axis values for the report:
 
@@ -104,13 +104,13 @@ Remember to set the time ranges to what you need when building this report yours
 1. Click **Time Options** in the expanded window that displays above the report.
 1. In the dropdown, set the following:
 
-   * **Time Interval** &#0151; set this to **None**.
-   * **Time Range** &#0151; set this to **From 29 days to 1 day ago** by first clicking **Custom**, then **Moving Range**. Use the fields and dropdowns at the top of the menu to set the range.
+   * **Time Interval**: set this to **None**.
+   * **Time Range**: set this to **From 29 days to 1 day ago** by first clicking **Custom**, then **Moving Range**. Use the fields and dropdowns at the top of the menu to set the range.
    * Click **Apply** to save the interval and range settings.
    * Duplicate the **Items sold last 28 days** metric and open the new metric's Time Options. Set the options to the following:
 
-      * **Time Interval** &#0151; leave this as **None**.
-      * **Time Range** &#0151; change this to the date range that aligns with the promotion you're interested in by clicking Specific Date Range and then entering the appropriate dates.
+      * **Time Interval**: leave this as **None**.
+      * **Time Range**: change this to the date range that aligns with the promotion you're interested in by clicking Specific Date Range and then entering the appropriate dates.
       * Rename the metric **Items sold during last promotion** or something similar.
       * Add your **Units on hand** metric.
       * Next, we need to add the calculations that'll show us the weeks on hand, considering sales trends, for the time periods (last 7 days, last 28 days, and last promo period) we're including in the report. You'll need to do this once for each time period.

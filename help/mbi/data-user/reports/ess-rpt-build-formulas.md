@@ -10,11 +10,11 @@ A formula combines multiple metrics and mathematical logic to answer a question.
 
 1. In the menu, choose **Report Builder**.
 
-1. Click <span class="btn">Add Metric</span> and choose the first metric for the report.
+1. Click **Add Metric and choose the first metric for the report.
 
     For this example, the _Revenue by products ordered_ metric is used.
 
-1. Click <span class="btn">Add Metric</span> again and choose the second metric for the report.
+1. Click **Add Metric** again and choose the second metric for the report.
 
     For this example, the _New Customers_ metric is used.
 

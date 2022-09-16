@@ -29,7 +29,7 @@ As we mentioned before, any valid VPN user will work - but we strongly recommend
 
 ## Allow access to the MBI IP addresses {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are 54.88.76.97 and 34.250.211.151, but it is also on the credentials page for any database integration:
+For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151**, but it is also on the credentials page for any database integration:
 
 ![MBI_Allow_Access_IPs.png](../../../assets/MBI_allow_access_IPs.png)
 

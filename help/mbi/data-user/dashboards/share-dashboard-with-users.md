@@ -20,7 +20,7 @@ If the dashboard you are sharing contains reports built with metrics that a spec
 
 1. Permissions can be set on a user-by-user basis or en masse.
 
-    **To set individual permissions**, click **None** to the right of the user’s name. From this drop-down, select the type of permissions the user should have.
+    **To set individual permissions**, click **None** to the right of the user's name. From this dropdown, select the type of permissions the user should have.
 
     **To set permissions en masse**, click the **Set Permissions** button. From this drop-down, select the type of permissions the selected users should have.
 

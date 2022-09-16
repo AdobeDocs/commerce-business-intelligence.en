@@ -5,7 +5,7 @@ zendesk_id: 360016731191
 
 Do you know how your Adwords-acquired customer segments grow their LTV compared to those customers acquired from organic search? Have you ever thought of performing a cohort analysis on different customer segments side-by-side in the same report? If so, a **qualitative cohort analysis** will help you answer those questions.
 
-In this article, we'll dive into what a qualitative cohort even is, why you might be interested in building this analysis, and how you can create it in MBI.
+In this article, we dive into what a qualitative cohort even is, why you might be interested in building this analysis, and how you can create it in MBI.
 
 ## What are qualitative cohorts, anyway? {#whatare}
 
@@ -43,7 +43,7 @@ Once our analyst team responds to the above, you will have a couple of new advan
 
 ## Creating the qualitative cohort analysis {#create}
 
-First, you will want to add the metric you are interested in cohorting, **once for each cohort you are analyzing**. In this example, we want to see cumulative **Revenue** made in the months after a customer's first order, segmented by the **User's referral source**. This means that, for each segment, we will add one **Revenue** metric and filter for the specific segment:
+First, you want to add the metric you are interested in cohorting, **once for each cohort you are analyzing**. In this example, we want to see cumulative **Revenue** made in the months after a customer's first order, segmented by the **User's referral source**. This means that, for each segment, we will add one **Revenue** metric and filter for the specific segment:
 
 ![](../../assets/qualcohort1.gif)
 
@@ -65,7 +65,7 @@ Third, you will make an adjustment to actually set up the cohorts. Based on the 
 
 * With the **Show top/bottom option**, select the "top" X months that you are interested in, and sort by the **Months between this order and customer's first order date** dimension
 
-Now, you will be able to see one line for each cohort that you specified. Check out our example now -- we see the Revenue contributed by users of each referral source, grouped by the number of months between their first order and any subsequent order. We also added a **Cumulative perspective** to see the cohorts' aggregate growth - take a look at the results table for more granularity.
+Now, you can able to see one line for each cohort that you specified. Check out our example now -- we see the Revenue contributed by users of each referral source, grouped by the number of months between their first order and any subsequent order. We also added a **Cumulative perspective** to see the cohorts' aggregate growth - take a look at the results table for more granularity.
 
 What does this tell us? Here, the specific referral source **Paid search** is very valuable in the first month of a customer's purchasing lifetime, but fails to retain its customer base with repeat revenue. While **Direct Traffic** starts off at a lower amount, revenue in subsequent months actually accumulates at a similar pace.
 

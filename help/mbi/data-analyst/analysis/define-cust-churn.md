@@ -21,8 +21,8 @@ Columns to create
 * Path: sales_flat_order.customer_id = customer_entity.entity_id
 * Filter:
 * Orders we count
-{: style="list-style-type: square;"}
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: square;"}-->
+<!--{: style="list-style-type: circle;"}-->
 
 * <span class="wysiwyg-color-blue">**`sales_flat_order`**</span> table
 * <span class="wysiwyg-color-blue">**`Customer's lifetime number of orders`**</span>
@@ -32,19 +32,19 @@ Columns to create
 * Path: sales_flat_order.customer_id = customer_entity.entity_id
 * Filter:
 * Orders we count
-{: style="list-style-type: square;"}
+<!--{: style="list-style-type: square;"}-->
 
 * <span class="wysiwyg-color-blue">**`Seconds since created_at`**</span>
 * Select a definition: Age
 * Select column: <span class="wysiwyg-color-blue">**`created_at`**</span>
-{: style="list-style-type: square;"}
+<!--{: style="list-style-type: square;"}-->
 
 * <span class="wysiwyg-color-blue">**`Customer's order number`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
 * <span class="wysiwyg-color-blue">**`Is customer's last order`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
 * <span class="wysiwyg-color-blue">**`Seconds since previous order`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
 * <span class="wysiwyg-color-blue">**`Months since order`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
 * <span class="wysiwyg-color-blue">**`Months since previous order`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-{: style="list-style-type: circle;"}
+<!--{: style="list-style-type: circle;"}-->
 
 ## Metrics
 
@@ -59,21 +59,21 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Metric: Number of orders
 * Filter:
 * Customer's order number greater than 1
-{: style="list-style-type: square;"}
+<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Metric B: All time orders*
 * Metric: Number of orders
-{: style="list-style-type: square;"}
+<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Formula: Initial repeat order probability*
 * Formula: A/B
 * Format: Percent
-{: style="list-style-type: square;"}
+<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-{: style="list-style-type: circle;"}
+<!--<!--{: style="list-style-type: circle;"}-->-->
 
 * **Repeat order probability given months since order**
 * *Metric A: Repeat orders by months since previous order* (hide)
@@ -81,14 +81,14 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Perspective: Cumulative
 * Filter:
 * Customer's order number greater than 1
-{: style="list-style-type: square;"}
+<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Metric B: Last orders by months since order* (hide)
 * Metric: Number of orders
 * Perspective: Cumulative
 * Filter:
 * Is customer's last order? (Yes/No) = "Yes"
-{: style="list-style-type: square;"}
+<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Metric C: All time repeat orders* (hide)
 * Metric: Number of orders
@@ -96,7 +96,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Customer's order number greater than 1
 
 * Group by: Independent
-{: style="list-style-type: square;"}
+<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Metric D: All time last orders* (hide)
 * Metric: Number of orders
@@ -104,21 +104,21 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Is customer's last order? (Yes/No) = "Yes"
 
 * Group by: Independent
-{: style="list-style-type: square;"}
+<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Formula: Initial repeat order probability*
 * Formula: (C-A)/(C+D-A-B)
 * Format: Percent
-{: style="list-style-type: square;"}
+<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Time period: All time*
 * *Interval: None*
 * *Group by: Months since previous order*
 * Show top.bottom: Top 24 categories. sorted by category name
-{: style="list-style-type: square;"}
+<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Chart Type: Line*
-{: style="list-style-type: circle;"}
+<!--<!--{: style="list-style-type: circle;"}-->-->
 
 The initial repeat order probability report represents the Total Repeat Orders / Total Orders. Note that every order is an opportunity to make a repeat order; the number of repeat orders is the subset of those that actually do.
 

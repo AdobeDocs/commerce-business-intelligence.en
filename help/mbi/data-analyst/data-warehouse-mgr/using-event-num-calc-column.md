@@ -15,25 +15,34 @@ The most common use case of this column is to analyze first time buyers and repe
 
 **Example**
 
-<table style="height: 173px;" width="734">
+|||||
+|--- |--- |--- |--- |
+|**event_id**|**owner_id**|**timestamp**|**Owner's event number**|
+|**1|A|2015-01-01 00:00:00|1|
+|**2|B|2015-01-01 00:30:00|1|
+|**3|A|2015-01-01 02:00:00|2|
+|**4|A|2015-01-02 13:00:00|3|
+|**5|B|2015-01-03 13:00:00|2|
+
+<!--<table style="height: 173px;" width="734">
 <tbody>
 <tr>
 <td style="width: 113px;">
-<p><strong>event_id</strong> </p>
+<p>**event_id</strong> </p>
 </td>
 <td style="width: 122px;">
-<p><strong>owner_id</strong> </p>
+<p>**owner_id</strong> </p>
 </td>
 <td style="width: 232px;">
-<p><strong>timestamp</strong> </p>
+<p>**timestamp</strong> </p>
 </td>
 <td style="width: 254px;">
-<p><strong>Owner's event number</strong> </p>
+<p>**Owner's event number</strong> </p>
 </td>
 </tr>
 <tr>
 <td style="width: 113px;">
-<p><strong>1</strong> </p>
+<p>**1</strong> </p>
 </td>
 <td style="width: 122px;">
 <p>A </p>
@@ -47,7 +56,7 @@ The most common use case of this column is to analyze first time buyers and repe
 </tr>
 <tr>
 <td style="width: 113px;">
-<p><strong>2</strong> </p>
+<p>**2</strong> </p>
 </td>
 <td style="width: 122px;">
 <p>B </p>
@@ -61,7 +70,7 @@ The most common use case of this column is to analyze first time buyers and repe
 </tr>
 <tr>
 <td style="width: 113px;">
-<p><strong>3</strong> </p>
+<p>**3</strong> </p>
 </td>
 <td style="width: 122px;">
 <p>A </p>
@@ -75,7 +84,7 @@ The most common use case of this column is to analyze first time buyers and repe
 </tr>
 <tr>
 <td style="width: 113px;">
-<p><strong>4</strong> </p>
+<p>**4</strong> </p>
 </td>
 <td style="width: 122px;">
 <p>A </p>
@@ -89,7 +98,7 @@ The most common use case of this column is to analyze first time buyers and repe
 </tr>
 <tr>
 <td style="width: 113px;">
-<p><strong>5</strong> </p>
+<p>**5</strong> </p>
 </td>
 <td style="width: 122px;">
 <p>B </p>
@@ -102,7 +111,7 @@ The most common use case of this column is to analyze first time buyers and repe
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 In the above example, the column **Owner's event number** is an **Event Number** column. It ranks the owner's events in the order in which they occurred (based on the **timestamp** column).
 
@@ -115,8 +124,8 @@ Here are some instructions on creating an **Event Number** column:
 1. Navigate to the **Manage Data -&gt; Data Warehouse** page.
 1. Navigate to the table on which you want to create this column.
 1. Click **Create a Column** and choose the **EVENT_NUMBER (…)** column type under the **Same Table** section.
-1. The first drop-down **Event Owner** specifies the entity for which the rank is to be determined. In the case of **Customer's order number**, a customer identifier such as **customer_id** or **customer_email** would be the **Event Owner**.
-1. The second drop-down **Event Rank** specifies the column that enforces the sequence that determines the rank of the row. In the case of **Customer's order number**, the **created_at** timestamp would be the **Event Rank**.
-1. Under the **Options** drop-down, you can add filters to exclude rows from being considered. The excluded rows will have a NULL value for this column.
+1. The first dropdown **Event Owner** specifies the entity for which the rank is to be determined. In the case of **Customer's order number**, a customer identifier such as **customer_id** or **customer_email** would be the **Event Owner**.
+1. The second dropdown **Event Rank** specifies the column that enforces the sequence that determines the rank of the row. In the case of **Customer's order number**, the **created_at** timestamp would be the **Event Rank**.
+1. Under the **Options** dropdown, you can add filters to exclude rows from being considered. The excluded rows will have a NULL value for this column.
 1. Provide a name to the column and click **Save**.
-1. The column will be available to use **immediately.**
+1. The column will be available to use _immediately._

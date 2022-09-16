@@ -30,7 +30,7 @@ To create this report in the [Report Builder](../../tutorials/using-visual-repor
 1. Set **Group By** to acquisition (or referral) source and select the sources you want to include.
 1. For this example, we used the **stacked columns** chart type.
 
-Here is a visual walkthrough:
+Here is a visual walk through:
 
 [ ![Creating a New users by source report.](../../assets/New_Users_by_source.gif)<!--{: style="max-width: 500px;"}-->[4]<!--{: data-lightbox="image-1" data-title="Creating a New users by source report."}-->
 

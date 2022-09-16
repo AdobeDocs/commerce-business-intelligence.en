@@ -27,7 +27,7 @@ To add one or more dimensions to multiple Metrics at once:
 1. {: dir="ltr"} If you would like to segment or group by any of the data dimensions on reports, make sure to indicate they are Groupable.
     {: dir="ltr"}
 
-1. {: dir="ltr"} Click "Add".
+1. {: dir="ltr"} Click **Add**.
 
 ## Delete dimensions from multiple metrics
 {: dir="ltr"}

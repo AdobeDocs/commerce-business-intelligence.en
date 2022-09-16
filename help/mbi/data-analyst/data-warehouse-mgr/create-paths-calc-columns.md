@@ -27,9 +27,9 @@ Once a relationship between two tables is understood, it can be used to determin
 
 #### Primary and foreign keys {#keys}
 
-A **Primary Key** is an unchanging column or set of columns that produces unique values within a table. For example, when a customer makes an order on a website, a new row is added to the **orders** table in your shopping cart, with a new **order_id**. This **order_id** allows both the customer and business to track the progress of that specific order. Because order id is unique, it is typically the Primary Key of an Orders table.
+A **Primary Key** is an unchanging column or set of columns that produces unique values within a table. For example, when a customer makes an order on a website, a new row is added to the _orders_ table in your shopping cart, with a new **order_id**. This **order_id** allows both the customer and business to track the progress of that specific order. Because order id is unique, it is typically the Primary Key of an Orders table.
 
-A **Foreign Key** is a column created inside a table that links to the **Primary Key** column of another table. Foreign Keys create references between tables, allowing analysts to easy look up and link records together. Let us say we wanted to know which orders belonged to each of our customers. The **customer id** column (Primary Key of the **customers** table) and the **order_id** column (Foreign Key in the **customers** table, referencing the Primary Key of the **orders** table) allows us to link and analyze this information.When creating a path, you will be asked to define both the Primary and Foreign Key.
+A **Foreign Key** is a column created inside a table that links to the **Primary Key** column of another table. Foreign Keys create references between tables, allowing analysts to easy look up and link records together. Let us say we wanted to know which orders belonged to each of our customers. The _customer id_ column (Primary Key of the **customers** table) and the **order_id** column (Foreign Key in the _customers_ table, referencing the Primary Key of the _orders_ table) allows us to link and analyze this information. When creating a path, you will be asked to define both the Primary and Foreign Key.
 
 ## Creating a Path {#createpath}
 

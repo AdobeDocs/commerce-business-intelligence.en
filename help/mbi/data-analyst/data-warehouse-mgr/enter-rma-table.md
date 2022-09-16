@@ -3,7 +3,7 @@ title: Enterprise_Rma Table
 zendesk_id: 360016503312
 ---
 
-Each row in the `enterprise_rma` table (often called `magento_rma ` in Magento 2.x, but the name can be customized) contains information about a specific return request. **Note:** _This table only comes standard with your Magento account if you are an Enterprise Edition or Enterprise Cloud Edition customer._
+Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.x, but the name can be customized) contains information about a specific return request. **Note:** _This table only comes standard with your Magento account if you are an Enterprise Edition or Enterprise Cloud Edition customer._
 
 ### Common Native Columns
 

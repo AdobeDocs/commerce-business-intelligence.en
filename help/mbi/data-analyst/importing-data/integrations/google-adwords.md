@@ -34,7 +34,7 @@ You may have multiple websites connected to a single Google Analytics account, i
 1. Go to the particular website's Google Analytics dashboard
 1. Look at the URL - the Profile ID corresponds to the 8 numbers following "p" at the end of the line:
 
-     *www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX***
+     www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX**
 
 ## Disconnecting Adwords from MBI
 

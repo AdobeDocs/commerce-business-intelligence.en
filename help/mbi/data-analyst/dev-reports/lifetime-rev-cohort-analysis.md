@@ -9,7 +9,7 @@ There are a lot of different ways to look at your data in MBI, and we know that 
 
 The chart below shows the cumulative spending per user for a period of time after they are acquired. Cohorts of users are split up by their acquisition month.
 
-![](https://lh4.googleusercontent.com/cU6evjjbCpSZ52CVMSDqSObnSx3yQ4ba1z2rmo7t9lCWd3JHu99UMLp06tla8HQ4HdV1Kql2_5Tl_KjKFy8oAErsTUEFzq6bk12uscnep0BRP5FPfYDe){: width="575px;"}
+![](https://lh4.googleusercontent.com/cU6evjjbCpSZ52CVMSDqSObnSx3yQ4ba1z2rmo7t9lCWd3JHu99UMLp06tla8HQ4HdV1Kql2_5Tl_KjKFy8oAErsTUEFzq6bk12uscnep0BRP5FPfYDe)<!--{: width="575px;"}-->
 
 For example, the orange line above shows the average for users who were acquired in November 2011. The first data point means that in their first month, users who were acquired in November spent an average of about $200. The second data point means that by the end of their second month, these users had spent an average of about $240. Their average spending in month two was approximately $40 (240 - 200). The different lines represent different cohorts of users. The green line represents the users that were acquired in December, and the blue is users that were acquired in October.
 

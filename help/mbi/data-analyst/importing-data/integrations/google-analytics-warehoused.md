@@ -10,7 +10,7 @@ Google Analytics is the most widely-used web analytics service on the internet. 
 
 ## Difference between GA Warehoused and Live Integration
 
-The main differentiator is that one integration is stored (Google Analytics Warehoused), and the other is not (Google Analytics Live). In the case of Google Analytics Warehoused, this allows for manipulation of your Google Analytics data and gives you the ability to combine GA and other data sources to create insightful reporting.
+The main differentiator is that one integration is stored (Google Analytics Warehoused), and the other is not (Google Analytics Live). In the case of Google Analytics Warehoused, this allows for manipulation of your Google Analytics data and gives you the ability to combine Google Analytics and other data sources to create insightful reporting.
 
 Let us look at Google Analytics ad campaigns for an example of what can be done from a manipulation standpoint. Suppose you had multiple ad campaigns for Q4 with different names. The campaigns were a result of a specific marketing initiative. With warehoused data, we can create a new column that finds the campaign names in question and returns the Q4 initiative name of "Operation Dumbo".
 

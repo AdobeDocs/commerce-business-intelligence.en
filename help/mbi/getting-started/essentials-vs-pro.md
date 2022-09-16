@@ -12,7 +12,7 @@ The following table describes what is included with Essentials and Pro.
 | **Pre-Defined Reports**| Up to 100 | Custom |
 | **Pre-Defined Dashboards**| 5-6 | Custom |
 | **New Custom Report Creation**| Yes | Yes |
-| **Magento Commerce Tables**| 4-6\* | Unlimited |
+| **Magento Commerce Tables**| 4-6 | Unlimited |
 | **Log-ins/User Accounts**| 10 | 20 |
 | **User Permissions**| Yes | Yes |
 | **Data Warehouse Manager**| Unavailable | Available |
@@ -24,7 +24,7 @@ The following table describes what is included with Essentials and Pro.
 | **Access to CS, AM, or Analysts**|  No | Yes  |
 | **Professional Services**|  Available | Available  |
 
-_*Number of tables depends on guest checkout._
+_Number of tables depends on guest checkout._
 
 **Included tables**
 
@@ -96,15 +96,15 @@ Items in _italics_ are calculated fields.
   * store_id
   * base_discount_amount
   * base_discount_invoiced
-  * _Order’s coupon_code_
+  * _Order's coupon_code_
   * _Order item total value (quantity * price)_
-  * _Order’s increment_id_
-  * _Customer’s email_
-  * _Customer’s lifetime number of orders_
+  * _Order's increment_id_
+  * _Customer's email_
+  * _Customer's lifetime number of orders_
   * _Store name_
-  * _Customer’s order number_
-  * _Order’s status_
-  * _Customer’s lifetime revenue_
+  * _Customer's order number_
+  * _Order's status_
+  * _Customer's lifetime revenue_
 
 * `sales_order_address` table
   * entity_id

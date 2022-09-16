@@ -7,7 +7,7 @@ Picture this: you are in the Report Builder, building a Revenue by State report.
 
 ![](../../assets/Messy_State_Segments.png)
 
-*How could this happen?*
+## How could this happen?
 
 Unfortunately, a lack of standardization can sometimes lead to messy data and headaches when building reports. In our example, there may not have been a dropdown menu or standardized way for our customers to input their billing state information. This lead to a variety of values - 'pa,' 'PA,' 'penna,' 'pennsylvania,' and 'Pennsylvania' - all for the same state, which will certainly lead to some strange results in the Report Builder.
 
@@ -60,11 +60,11 @@ To create the joined column, navigate to the table that the field will be reloca
 1. When finished, click the **Save** button to create the path.
 1. The path may not populate immediately after saving - if this happens, click the **Path** box and select the path you just created.
 1. Click the **Save** button to create the column.
-That's it!
+That is it!
 
 ## What do I do now? {#wrapup}
 
-After an update cycle completes, you'll be able to use your new joined column to properly segment your data instead of the messy column from your database. Take a look at our grouping options now - no more stress mess:
+After an update cycle completes, you will be able to use your new joined column to properly segment your data instead of the messy column from your database. Take a look at our grouping options now - no more stress mess:
 
 ![](../../assets/Clean_State_Segments.png)
 
