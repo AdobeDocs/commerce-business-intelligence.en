@@ -16,8 +16,9 @@ You can sign in with your Adobe ID or using your MBI email address and password.
 
 1. Enter the email address you used when you created your MBI account. If you do not already have an Adobe account, click **Create an account** and enter your information. Remember to use the email address you used when you created your MBI account. The email address is the key you need to access your Adobe account.
 
-{:.bs-callout-info}
-If you log in using your Adobe ID, you will not be able to change your MBI profile password.
+>[!NOTE]
+>
+>If you log in using your Adobe ID, you will not be able to change your MBI profile password.
 
 ## Sign in using your user name and password
 

@@ -25,8 +25,9 @@ For example, if we wanted to display the five referral sources that brought in t
 
 1. In the **Show Top/Bottom** settings, set the display to `5` so only the referral sources with the top five total revenue amounts are included in the report.
 
-{:.bs-callout-info}
-Because the report does not have a Time Interval, the values - in this case, the top five referral sources - can change over time. If one referral source surpasses another in terms of revenue, the order in which the sources display will change.
+>[!NOTE]
+>
+>Because the report does not have a Time Interval, the values - in this case, the top five referral sources - can change over time. If one referral source surpasses another in terms of revenue, the order in which the sources display will change.
 
 ## What about using multiple metrics? {#multiplemetrics}
 

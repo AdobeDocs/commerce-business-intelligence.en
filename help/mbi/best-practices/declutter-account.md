@@ -13,8 +13,9 @@ The first step in cleaning up your account is to deactivate the accounts of your
 
 You can do this by clicking your company's name in the top-right corner of the top navigation bar, then selecting **Manage Users**. Next, select the user you want to deactivate, and click the **Deactivate User** button. **Note:** You need [Admin permissions](../../administrator/user-management/user-management.md) to do this.
 
-{:.bs-callout-warning}
-Deactivating a user will also remove the charts, dashboards, and other assets created by that user. If you want to preserve these assets, reach out to the MBI [support](../../getting-started/support.md) team before deactivating the user. Support can help you transfer these assets to another user.
+>[!WARNING]
+>
+>Deactivating a user will also remove the charts, dashboards, and other assets created by that user. If you want to preserve these assets, reach out to the MBI [support](../../getting-started/support.md) team before deactivating the user. Support can help you transfer these assets to another user.
 
 ### Reactivate a User
 

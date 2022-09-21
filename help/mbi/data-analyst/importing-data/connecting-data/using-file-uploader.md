@@ -3,8 +3,9 @@ title: Using the File Uploader
 zendesk_id: 360016730951
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 MBI is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single data warehouse. Even data that lives outside your databases and integrations can be brought into MBI by using the File Upload tool in the Data Warehouse Manager.
 

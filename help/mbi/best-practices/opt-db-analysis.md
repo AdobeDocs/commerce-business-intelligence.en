@@ -9,8 +9,9 @@ This topic contains some recommendations to help you optimize your database for 
 
 ## Do Not Delete Data
 
-{:.bs-callout-tip}
-The local and international laws that affect your business (and your own terms of service) may affect what types of data you can retain and how long you can retain it for. Compliance with these laws should be your first priority.
+>[!TIP]
+>
+>The local and international laws that affect your business (and your own terms of service) may affect what types of data you can retain and how long you can retain it for. Compliance with these laws should be your first priority.
 
 When an order is cancelled, a user deactivates their account, or a product is discontinued, it is tempting to delete the associated information in the database. Tables grow and eliminating clutter seems like a prudent idea. However, deleting rows means that this information is lost forever or that you will need to dig through old backups to find it.
 

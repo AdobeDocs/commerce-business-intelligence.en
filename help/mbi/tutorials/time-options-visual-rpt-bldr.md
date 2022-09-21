@@ -120,8 +120,9 @@ To create the formulas, click **Add Formula**. Enter the formulae below and clic
    * For the **last 7 days time period**, enter `D / A` in the **Formula** field.
    * For the **last 28 days time period**, enter `D / (B/4)` in the **Formula** field.
 
-   {:.bs-callout-info}
-   It is important to normalize your selected time ranges here. Twenty-eight days should be broken into four weeks in this example. You may need to apply different logic to the formula.
+    >[!NOTE]
+    >
+    >It is important to normalize your selected time ranges here. Twenty-eight days should be broken into four weeks in this example. You may need to apply different logic to the formula.
 
    * For the **last promo period**, enter `D / C` in the **Formula** field.
 

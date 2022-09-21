@@ -3,8 +3,9 @@ title: Managing your account settings
 zendesk_id: 360016729811
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../administrator/user-management/user-management.md)
 
 In your MBI account, you are able to customize a number of account settings for your data warehouse. These can be accessed by selecting your organization name in the upper right-hand corner of any screen, then choosing **Account Settings** from the dropdown.
 

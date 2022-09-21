@@ -3,8 +3,9 @@ title: Building Google ECommerce dimensions with order and customer data
 zendesk_id: 360016732211
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
 Now that you are finished [connecting your Google ECommerce account](../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in MBI? In this article, we walk you through building dimensions that will link your eCommerce data with your orders and customer data.
 

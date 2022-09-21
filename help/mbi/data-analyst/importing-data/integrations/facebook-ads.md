@@ -3,8 +3,9 @@ title: Connecting Facebook Ads
 zendesk_id: 360016505452
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Facebook_Logo.png)
 

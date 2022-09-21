@@ -3,8 +3,9 @@ title: MBI Essentials vs. Pro
 zendesk_id: 360016502872
 ---
 
-{:.bs-callout-info}
-This is archived documentation for MBI.
+>[!NOTE]
+>
+>This is archived documentation for MBI.
 
 The following table describes what is included with Essentials and Pro.
 

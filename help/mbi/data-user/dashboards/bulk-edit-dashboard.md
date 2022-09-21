@@ -13,8 +13,9 @@ The bulk-editing feature makes it easy to change chart names and dates in your d
 
 That being said, consider this - **Do these changes need to be permanent?** If not, consider cloning the dashboard and then changing the dates in the new dashboard. This will allow you to preserve your original dashboard while still making the changes you need.
 
-{:.bs-callout-info}
-If you are making changes to a lot of reports, the update process could take a little while.
+>[!NOTE]
+>
+>If you are making changes to a lot of reports, the update process could take a little while.
 
 ## Using Find/Replace {#findreplace}
 

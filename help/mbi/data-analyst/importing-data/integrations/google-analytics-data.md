@@ -9,8 +9,9 @@ The Google Analytics integration is **live** -- this means that the Report Build
 
 Google Analytics integrations in MBI utilize the Google Analytics [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
 
-{:.bs-callout-info}
-To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with the metric(s) you use in the Report Builder. You can check [here](https://developers.google.com/analytics/devguides/reporting/core/dimsmets).
+>[!NOTE]
+>
+>To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with the metric(s) you use in the Report Builder. You can check [here](https://developers.google.com/analytics/devguides/reporting/core/dimsmets).
 
 ## Supported Metrics
 

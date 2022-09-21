@@ -13,8 +13,9 @@ Unfortunately, a lack of standardization can sometimes lead to messy data and he
 
 It is possible that there is a tech resource that can help you clean up the data or insert the columns you need directly into your database, but if not, we have another solution: **the mapping table**. A mapping table allows you to quickly and easily cleanse and standardize any messy data by 'mapping' data to a single output.
 
-{:.bs-callout-info}
-You cannot create a mapping table for consolidated tables without help from our Support team. Reach out us for additional information.
+>[!NOTE]
+>
+>You cannot create a mapping table for consolidated tables without help from our Support team. Reach out us for additional information.
 
 ## How do I create it? {#how}
 

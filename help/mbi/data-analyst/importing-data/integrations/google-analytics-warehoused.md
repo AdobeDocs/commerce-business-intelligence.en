@@ -3,8 +3,9 @@ title: Connecting Google Analytics Warehoused
 zendesk_id: 360016503212
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 Google Analytics is the most widely-used web analytics service on the internet. Implementing Google Analytics on your website allows you to track how visitors use your site, what content is attractive, where visitors exit, and more. Google Analytics Warehoused is a separate integration from our existing Google Analytics integration. It will allow for better analysis due to having the Google Analytics data in your Data Warehouse, which is different than the live feed of the existing Google Analytics integration. Analyzing these metrics in MBI, alongside other pieces of data, will improve your site's overall health and usability.
 

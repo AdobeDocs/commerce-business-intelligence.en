@@ -7,8 +7,9 @@ If you have multiple metrics in MBI that need to be filtered in a similar way (e
 
 See our [training video](https://support.magento.com/hc/en-us/articles/360016730151) to learn more.
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../administrator/user-management/user-management.md)
 
 1. Click **Manage Data** > **Filter Sets** in the sidebar.
 

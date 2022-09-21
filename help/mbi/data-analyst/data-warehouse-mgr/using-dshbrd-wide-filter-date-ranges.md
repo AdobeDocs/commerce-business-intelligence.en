@@ -27,15 +27,17 @@ To restore all reports to their initial date range and interval, click Restore D
 
 When you specify a date filter for a dashboard, that filter is applied to that dashboard only. It is not applied when you navigate to other dashboards.
 
-{:.bs-callout-info}
-At this time, **Cohort Reports** and **SQL Reports** are not included when applying changes at a dashboard level.
+>[!NOTE]
+>
+>At this time, **Cohort Reports** and **SQL Reports** are not included when applying changes at a dashboard level.
 
 ## Store filters
 
 To analyze how a specific store is performing, click the stores icon in the upper-right-hand corner (![Store Filter](../../assets/store-filter.png)). By default, **Store Filter** is set to `All Stores`, which displays the data from all [store views](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) available in your Commerce site.
 
-{:.bs-callout-info}
-A store filter is enabled or disabled for an entire MBI account. If a dashboard contains reports that are not affected by the filter, such as reports that are not built on any Commerce data, those reports do not update when the store filter is applied. You can [contact support](../../getting-started/support.md) if you believe a report should update based on store selection or if you believe your account store filter is mistakenly disabled.
+>[!NOTE]
+>
+>A store filter is enabled or disabled for an entire MBI account. If a dashboard contains reports that are not affected by the filter, such as reports that are not built on any Commerce data, those reports do not update when the store filter is applied. You can [contact support](../../getting-started/support.md) if you believe a report should update based on store selection or if you believe your account store filter is mistakenly disabled.
 
 When you select a store from the **Store Filter**, the filter retains your selection when you navigate between dashboards. Retaining your selection allows you to see data for your selected store everywhere until you select `All Stores`.
 

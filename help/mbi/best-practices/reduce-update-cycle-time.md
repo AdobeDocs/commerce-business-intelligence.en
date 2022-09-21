@@ -23,8 +23,9 @@ At the end of the update cycle, MBI performs a cache operation for all charts. A
 
 Since MBI only performs cache operations for charts found in a dashboard, removing unused charts from your dashboards will decrease your update time. Keep in mind that the same chart might be on multiple dashboards - check with your team to make sure they also removed any unused charts.
 
-{:.bs-callout-info}
-Removing charts from your dashboard does not delete the chart. You can [add it back any time](../../data-user/dashboards/add-charts-dashboard.md).
+>[!NOTE]
+>
+>Removing charts from your dashboard does not delete the chart. You can [add it back any time](../../data-user/dashboards/add-charts-dashboard.md).
 
 ## Optimize Your Database for Analysis
 

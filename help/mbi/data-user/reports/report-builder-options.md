@@ -3,8 +3,9 @@ title: Which Report Builder should I use?
 zendesk_id: 360016503932
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../administrator/user-management/user-management.md)
 
 We all like having options. But, when confronted with choices, some of us might balk and freeze at the idea of having to commit to a decision. Options are great, but they can also be overwhelming and confusing.
 

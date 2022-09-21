@@ -3,15 +3,17 @@ title: Expected Google Analytics Warehoused Data
 zendesk_id: 360016729671
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 **Some information was used with permission from our friends at [Stitch](https://www.stitchdata.com/docs/integrations/saas/google-analytics).**
 
 Google Analytics Warehoused integration in MBI utilizes the GA [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
 
-{:.bs-callout-info}
-In order to avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with the metric(s) you use in the Report Builder. You can check [here](https://developers.google.com/analytics/devguides/reporting/core/dimsmets).
+>[!NOTE]
+>
+>To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with the metric(s) you use in the Report Builder. You can check [here](https://developers.google.com/analytics/devguides/reporting/core/dimsmets).
 
 A single table - called `report`{: class=""} - will be created in your Data Warehouse.
 

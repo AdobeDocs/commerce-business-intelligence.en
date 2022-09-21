@@ -4,8 +4,9 @@ title: Out-of-the-Box Dashboards
 
 MBI includes out-of-the-box dashboards to provide insight into your business. With dashboards, you can check on the health of essential metrics such as user lifetime revenue, number of repeat purchases, top products purchased over a given time period, and more. These pre-configured dashboards were created to help you make informed business decisions.
 
-{:.bs-callout-info}
-Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](../../getting-started/support.md).
+>[!NOTE]
+>
+>Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](../../getting-started/support.md).
 
 ## Report availability
 
@@ -98,8 +99,9 @@ The Executive Summary (no guest checkout allowed) dashboard gives you a succinct
 
 The Orders dashboard provides insights on transactional volume of orders, their status, coupon codes used, revenue generated, and the payment methods used. For example, you can track the fulfillment process and make sure there are no issues or bottleneck occurrences.
 
-{:.bs-callout-info}
-The reports on this dashboard are available for accounts connected to stores with either type of configuration (guest checkout, no guest checkout).
+>[!NOTE]
+>
+>The reports on this dashboard are available for accounts connected to stores with either type of configuration (guest checkout, no guest checkout).
 
 ### Reports
 
@@ -122,8 +124,9 @@ The reports on this dashboard are available for accounts connected to stores wit
 
 The Products dashboard shows general product performance in terms of products ordered, their Gross Merchandise Value (GMV), as well as top products purchased and refunded. It can help you to balance purchases and returns, and to determine product success and popularity. Your store must be [configured to track refunds](https://docs.magento.com/user-guide/sales/credit-configure.html) for those charts to be populated.
 
-{:.bs-callout-info}
-The reports on this dashboard are available for accounts connected to stores with either type of configuration (guest checkout, no guest checkout).
+>[!NOTE]
+>
+>The reports on this dashboard are available for accounts connected to stores with either type of configuration (guest checkout, no guest checkout).
 
 ### Reports
 

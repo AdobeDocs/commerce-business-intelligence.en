@@ -3,8 +3,9 @@ title: Connecting Mixpanel
 zendesk_id: 360016733071
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Mixpanel_logo.png)
 

@@ -3,8 +3,9 @@ title: Connecting Google Adwords
 zendesk_id: 360016732531
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Google_Adwords_logo.png)
 

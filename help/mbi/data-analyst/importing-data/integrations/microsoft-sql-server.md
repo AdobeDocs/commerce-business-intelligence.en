@@ -3,8 +3,9 @@ title: Connecting Microsoft SQL Server
 zendesk_id: 360016505972
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 This article explains how to connect your Microsoft SQL database to MBI in a four-step process. This process requires some technical expertise related to server connections and SQL, and may require support from developers on your team.
 

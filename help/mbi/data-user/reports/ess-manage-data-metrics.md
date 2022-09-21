@@ -3,8 +3,9 @@ title: Creating metrics
 zendesk_id: 360016504592
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../administrator/user-management/user-management.md)
 
 Simply put, a metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period of time.
 

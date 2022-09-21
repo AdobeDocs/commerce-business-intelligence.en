@@ -5,8 +5,9 @@ zendesk_id: 360016730831
 
 The [Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md) allows you to visually explore your data to draw insights and help drive business decisions. This tutorial walks you through the process of creating a basic report.
 
-{:.bs-callout-info}
-To add a report to a dashboard, you need **Standard** [user permissions](../administrator/user-management/user-management.md) and Edit access to the dashboard.
+>[!NOTE]
+>
+>To add a report to a dashboard, you need **Standard** [user permissions](../administrator/user-management/user-management.md) and Edit access to the dashboard.
 
 ## Step 1: Creating a Report
 

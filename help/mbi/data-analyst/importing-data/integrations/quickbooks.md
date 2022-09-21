@@ -3,8 +3,9 @@ title: Connecting QuickBooks
 zendesk_id: 360016504252
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Quickbooks.png)
 

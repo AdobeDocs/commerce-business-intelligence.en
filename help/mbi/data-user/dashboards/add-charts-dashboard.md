@@ -5,8 +5,9 @@ zendesk_id: 360016506152
 
 Existing charts can be added to dashboards using the **Add Report** button in the top-right area of the screen. The same chart can be added to multiple dashboards, meaning if the chart is edited, all dashboards with this chart will reflect the change.
 
-{:.bs-callout-info}
-Clicking the **Add Report** button is not the same as using the **Save As** function in the chart editor. The **Add Report** button merely adds the chart to the dashboard whereas the **Save As** function creates a new version of an existing chart.
+>[!NOTE]
+>
+>Clicking the **Add Report** button is not the same as using the **Save As** function in the chart editor. The **Add Report** button merely adds the chart to the dashboard whereas the **Save As** function creates a new version of an existing chart.
 
 ### Add a chart
 

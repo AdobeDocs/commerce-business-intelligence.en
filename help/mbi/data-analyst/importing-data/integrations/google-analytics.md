@@ -3,8 +3,9 @@ title: Connecting Google Analytics
 zendesk_id: 360016732851
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/google-analytics-logo.png)
 

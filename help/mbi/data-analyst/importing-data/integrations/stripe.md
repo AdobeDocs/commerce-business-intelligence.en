@@ -3,8 +3,9 @@ title: Connecting Stripe
 zendesk_id: 360016733211
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 Stripe allows you to manage and keep track of your business's payment and invoice data. Connecting your Stripe account to MBI is a simple two-step process:
 

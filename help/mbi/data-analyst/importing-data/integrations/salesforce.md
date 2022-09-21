@@ -3,8 +3,9 @@ title: Connecting Salesforce
 zendesk_id: 360016507372
 ---
 
-{:.bs-callout-info}
-[Requires Admin permissions](../../../administrator/user-management/user-management.md)
+>[!NOTE]
+>
+>[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Salesforce_Logo.png)
 

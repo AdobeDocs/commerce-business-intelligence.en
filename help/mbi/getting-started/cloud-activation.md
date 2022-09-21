@@ -6,8 +6,9 @@ zendesk_id: 360016504752
 
 To activate MBI for Cloud Starter projects, first create a MBI account, then create a SSH key, then finally connect to your Magento database. Click [here](../getting-started/onpremise-activation.md) for activating on-premise subscriptions.
 
-{:.bs-callout-info}
-For help activating MBI for Cloud Pro projects, contact your Magento Customer Success Manager or Customer Technical Advisor.
+>[!NOTE]
+>
+>For help activating MBI for Cloud Pro projects, contact your Customer Success Manager or Customer Technical Advisor.
 
 1. Create your MBI Account.
 

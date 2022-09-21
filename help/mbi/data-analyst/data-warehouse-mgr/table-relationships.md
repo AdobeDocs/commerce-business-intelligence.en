@@ -98,8 +98,9 @@ For example, a **users** table may capture most user attributes (such as name) w
 
 ### One-to-many
 
-{:.bs-callout-info}
-Do you accept guest orders? See [Guest Orders](../data-warehouse-mgr/guest-orders.md) to learn how guest orders can impact your table relationships.
+>[!NOTE]
+>
+>Do you accept guest orders? See [Guest Orders](../data-warehouse-mgr/guest-orders.md) to learn how guest orders can impact your table relationships.
 
 When tables are linked using a foreign key pointing to a primary key, this setup describes a one-to-many relationship. The one side will be the table containing the primary key and the many side will be the table containing the foreign key.
 
