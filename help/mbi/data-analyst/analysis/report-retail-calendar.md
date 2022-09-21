@@ -29,17 +29,17 @@ You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CS
 
 * **sales\_order** table
    * **\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)**
-      * Column type – "Same table -&gt; Calculation"
+      * Column type – "Same table > Calculation"
       * Inputs – **created\_at**
       * Datatype – Datetime
-      * Calculation - \` **case when A is null then null else to\_char(A, 'YYYY-MM-DD 00:00:00') end**\`
+      * Calculation - ` **case when A is null then null else to\_char(A, 'YYYY-MM-DD 00:00:00') end**`
 
 * **Retail calendar** file upload table
    * **Current date**
-      * Column type – "Same table -&gt; Calculation"
+      * Column type – "Same table > Calculation"
       * Inputs – **Date Retail**
       * Datatype – Datetime
-      * Calculation - \`**case when A is null then null else to\_char(now(), 'YYYY-MM-DD 00:00:00') end**\`
+      * Calculation - `**case when A is null then null else to\_char(now(), 'YYYY-MM-DD 00:00:00') end**`
          * Note: The 'now()' function above is specific to PostgreSQL. Although most MBI data warehouses are hosted on PostgreSQL, some may be hosted on Redshift. If the calculation above returns an error, you may need to use the Redshift function 'getdate()' instead of 'now()'.
     * **Current retail year** (Must be created by support analyst)
       * Column type – "Event Counter"
@@ -48,51 +48,51 @@ You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CS
       * Operation - Max
       * Operation value - Year Retail
    * **Included in current retail year? (Yes/No)**
-      * Column type – "Same table -&gt; Calculation"
+      * Column type – "Same table > Calculation"
       * Inputs –
          * A - **Year Retail**
          * B - **Current retail year**
       * Datatype – String
-      * Calculation - \`**case when A is null or B is null then null when A = B then 'Yes' else 'No' end**\`
+      * Calculation - `**case when A is null or B is null then null when A = B then 'Yes' else 'No' end**`
    * **Included in previous retail year? (Yes/No)**
-      * Column type – "Same table -&gt; Calculation"
+      * Column type – "Same table > Calculation"
       * Inputs –
          * A - **Year Retail**
          * B - **Current retail year**
       * Datatype – String
-      * Calculation - \`**case when A is null or B is null then null when (A = (B-1)) then 'Yes' else 'No' end**\`
+      * Calculation - `**case when A is null or B is null then null when (A = (B-1)) then 'Yes' else 'No' end**`
 
 * **sales\_order** table
    * **Created\_at (retail year)**
-      * Column type – "One to Many -&gt; JOINED\_COLUMN"
+      * Column type – "One to Many > JOINED\_COLUMN"
       * Path -
          * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
          * One: Retail Calendar.Date Retail
       * Select table: **Retail Calendar**
       * Select column: **Year Retail**
    * **Created\_at (retail week)**
-      * Column type – "One to Many -&gt; JOINED\_COLUMN"
+      * Column type – "One to Many > JOINED\_COLUMN"
       * Path -
          * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
          * One: Retail Calendar.Date Retail
       * Select table: **Retail Calendar**
       * Select column: **Week Retail**
    * **Created\_at (retail month)**
-      * Column type – "One to Many -&gt; JOINED\_COLUMN"
+      * Column type – "One to Many > JOINED\_COLUMN"
       * Path -
          * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
          * One: Retail Calendar.Date Retail
       * Select table: **Retail Calendar**
       * Select column: **Month Number Retail**
    * **Include in previous retail year? (Yes/No)**
-      * Column type – "One to Many -&gt; JOINED\_COLUMN"
+      * Column type – "One to Many > JOINED\_COLUMN"
       * Path -
          * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
          * One: Retail Calendar.Date Retail
       * Select table: **Retail Calendar**
       * Select column: **Include in previous retail year? (Yes/No)**
    * **Include in current retail year? (Yes/No)**
-      * Column type – "One to Many -&gt; JOINED\_COLUMN"
+      * Column type – "One to Many > JOINED\_COLUMN"
       * Path -
          * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
          * One: Retail Calendar.Date Retail

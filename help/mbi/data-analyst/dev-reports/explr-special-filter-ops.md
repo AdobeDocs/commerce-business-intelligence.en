@@ -7,7 +7,7 @@ In this article, we are going to explore a few special operators used in filters
 
 ## Filter Operators
 
-* **LIKE** for pattern matching.  This must be used in conjunction with the wildcard characters % (for a wildcard with a variable number of letters) or \_ (for a wildcard single letter).  For example, the restriction "LIKE \_ake%" would return true for Jake Stein, Jake Smith, or Fake Smith.  It would return false for Drake Smith.
+* **LIKE** for pattern matching.  This must be used in conjunction with the wildcard characters % (for a wildcard with a variable number of letters) or _ (for a wildcard single letter).  For example, the restriction "LIKE \_ake%" would return true for Jake Stein, Jake Smith, or Fake Smith.  It would return false for Drake Smith.
 
 * **NOT LIKE** is similar to pattern matching above, but checks for which patterns do not match.
 

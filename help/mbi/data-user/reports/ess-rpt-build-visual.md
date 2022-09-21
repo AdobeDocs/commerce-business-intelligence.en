@@ -70,7 +70,7 @@ The following example shows how to create a simple report, group the data by an 
 
         * To zoom in for a closer view, change the date range to **Last Full Quarter**.
         * Under **Select Time Interval,** choose "Week."
-        * When complete, tap <span class="btn">Save</span>.
+        * When complete, click **Save<**.
 
         The report now includes only the data for the last quarter, by week.
 

@@ -295,10 +295,10 @@ Here are some common examples of reports and metrics you might find useful:
    * **Filter**: Customer's order number = 1
    * **Metric C**: Products ordered: repeat orders
    * **Metric**: Products ordered
-   * **Filter**: Customer's order number &gt; 1
+   * **Filter**: Customer's order number > 1
    * **Metric D**: Orders: Repeat orders
    * **Metric**: Orders
-   * **Filter**: Customer's order number &gt; 1
+   * **Filter**: Customer's order number > 1
    * **Time Range**: 1 Year Ago to 1 Month Ago
    * **Time Interval**: By Week
    * **Formula 1**: A/B
@@ -341,9 +341,9 @@ Here are some common examples of reports and metrics you might find useful:
    * **Metric 1**: ≤ 3 orders
       * **Metric**: Average time between orders
       * **Filter**: Customer's lifetime number of orders ≤ 3
-   * **Metric 2**: &gt; 3 orders
+   * **Metric 2**: > 3 orders
       * **Metric**: Average time between orders
-      * **Filter**: Customer's lifetime number of orders &gt; 3
+      * **Filter**: Customer's lifetime number of orders > 3
       * **Time Range**: All-Time
       * **Time Interval**: None
       * **Group By**: Customer's order number (previous-current)

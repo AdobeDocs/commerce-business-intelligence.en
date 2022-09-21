@@ -22,24 +22,24 @@ You can use the [file uploader](../importing-data/connecting-data/using-file-upl
 You need to create one new metric for each target. For example, if you upload monthly revenue and orders targets, you will need to create two new metrics:
 
 * **Monthly revenue target**
-* In the <span class="wysiwyg-color-blue">**`Monthly goals`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`Monthly goals`**<!--</span>--> table
 * This metric performs a **Sum**
-* On the <span class="wysiwyg-color-blue">**`Revenue target`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`Month`**</span> timestamp
+* On the <!--<span class="wysiwyg-color-blue">-->**`Revenue target`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
 <!--{: style="list-style-type: circle;"}-->
 
 * **Monthly orders target**
-* In the <span class="wysiwyg-color-blue">**`Monthly goals`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`Monthly goals`**<!--</span>--> table
 * This metric performs a **Sum**
-* On the <span class="wysiwyg-color-blue">**`Orders target`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`Month`**</span> timestamp
+* On the <!--<span class="wysiwyg-color-blue">-->**`Orders target`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
 <!--{: style="list-style-type: circle;"}-->
 
 * **Monthly new registered accounts target**
-* In the <span class="wysiwyg-color-blue">**`Monthly goals`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`Monthly goals`**<!--</span>--> table
 * This metric performs a **Sum**
-* On the <span class="wysiwyg-color-blue">**`New registered accounts target`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`Month`**</span> timestamp
+* On the <!--<span class="wysiwyg-color-blue">-->**`New registered accounts target`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
 <!--{: style="list-style-type: circle;"}-->
 
 #### Reports

@@ -11,7 +11,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 ## Getting Started
 
-As a first step, you need to ensure that the following columns are synced to your Data Warehouse. If they are not, go ahead and track them, by navigating to "Manage Data" -&gt; "Data Warehouse", and syncing the following:
+As a first step, you need to ensure that the following columns are synced to your Data Warehouse. If they are not, go ahead and track them, by navigating to "Manage Data" > "Data Warehouse", and syncing the following:
 
 * **sales\_flat\_order** table
 * **coupon\_code**
@@ -23,7 +23,7 @@ Columns to create regardless of guest orders policy:
 
 * **sales\_flat\_order** table
 * **Order has coupon applied?**
-  * Column Type: Same Table =&gt; CALCULATION
+  * Column Type: Same Table => CALCULATION
   * Inputs
     * A: **coupon\_code**
 
@@ -31,7 +31,7 @@ Columns to create regardless of guest orders policy:
   * Calculation: **case when A is null then 'No coupon' else 'Coupon' end**
 
 * **\[INPUT\] customer\_id - coupon code**
-  * Column type: Same Table =&gt; CALCULATION
+  * Column type: Same Table => CALCULATION
   * Inputs
     * A: **customer\_id**
     * B: **coupon\_code**
@@ -40,7 +40,7 @@ Columns to create regardless of guest orders policy:
   * Calculation: **concat(A,' - ',B)**
 
 * **Number of orders with this coupon**
-  * Column Type: Same Table =&gt; EVENT\_NUMBER
+  * Column Type: Same Table => EVENT\_NUMBER
   * Event Owner:**\[INPUT\] customer\_id - coupon code**
   * Event Rank: **created\_at**
   * Filters: "Orders we count" filter set
@@ -49,7 +49,7 @@ Additional columns to create if guest orders NOT supported:
 
 * **customer\_entity** table
   *  **Customer's first order included a coupon? (Coupon/No coupon)**
-    * Column Type: Many to One =&gt; MAX
+    * Column Type: Many to One => MAX
     * Path: sales\_flat\_order.customer\_id = customer\_entity.entity\_id
     * Select Column: **Order has coupon applied? (Coupon/No coupon)**
     * Filters:
@@ -57,7 +57,7 @@ Additional columns to create if guest orders NOT supported:
     * B: Customer's order number = 1
 
   * **Customer's first order's coupon**
-    * Column Type: Many to One =&gt; MAX
+    * Column Type: Many to One => MAX
     * Path: sales\_flat\_order.customer\_id = customer\_entity.entity\_id
     * Select Column: **coupon\_code**
     * Filter:
@@ -65,14 +65,14 @@ Additional columns to create if guest orders NOT supported:
     * B: Customer's order number = 1
 
   * **Customer's lifetime number of coupons used**
-    * Column Type: Many to One =&gt; COUNT
+    * Column Type: Many to One => COUNT
     * Path: sales\_flat\_order.customer\_id = customer\_entity.entity\_id
     * Filter:
       * A: Orders we count
       * B: Order has coupon applied? (Coupon/No coupon) = Coupon
 
   * **Coupon acquisition customer or Non coupon acquisition customer**
-    * Column type: Same Table =&gt; CALCULATION
+    * Column type: Same Table => CALCULATION
     * Inputs
       * A: **Customer's first order included a coupon? (Coupon/No coupon)**
 
@@ -80,7 +80,7 @@ Additional columns to create if guest orders NOT supported:
     * Calculation: **case when A='Coupon' then 'Coupon acquisition customer' else 'Non coupon acquisition customer' end**
 
   * **Percent of customer's orders with coupon**
-    * Column type: Same Table =&gt; CALCULATION
+    * Column type: Same Table => CALCULATION
     * Inputs
       * A: **User's lifetime number of coupons used**
       * B: **User's lifetime number of orders**
@@ -89,22 +89,22 @@ Additional columns to create if guest orders NOT supported:
     * Calculation: **case when A is null or B is null or B=0 then null else A/B end**
 
   * **Customer's coupon usage**
-    * Column type: Same Table =&gt; Calculation
+    * Column type: Same Table => Calculation
     * Inputs
       * A: **Percent of customer's orders with coupon**
 
     * Datatype: String
-    * Calculation: **case when A is null then null when A=0 then 'Never used coupon' when A&lt;0.5 then 'Mostly full price' when A=0.5 then '50/50' when A=1 then 'Coupons only' when A&gt;0.5 then 'Mostly coupon' else 'Undefined' end**
+    * Calculation: **case when A is null then null when A=0 then 'Never used coupon' when A<0.5 then 'Mostly full price' when A=0.5 then '50/50' when A=1 then 'Coupons only' when A>0.5 then 'Mostly coupon' else 'Undefined' end**
 
 * **sales\_flat\_order** table
   * **Customer's first order included coupon? (Coupon/No coupon)**
-    * Column Type: One to Many =&gt; JOINED\_COLUMN
+    * Column Type: One to Many => JOINED\_COLUMN
     * Path: sales\_flat\_order.customer\_id = customer\_entity.entity\_id
     * Select Column: **Customer's first order included a coupon? (Coupon/No coupon)**
   ^
 
   * **Customer's first order's coupon**
-    * Column Type: One to Many =&gt; JOINED\_COLUMN
+    * Column Type: One to Many => JOINED\_COLUMN
     * Path: sales\_flat\_order.customer\_id = customer\_entity.entity\_id
     * Select Column: **Customer's first order coupon?**
 
@@ -116,7 +116,7 @@ Additional columns to create if guest orders NOT supported:
 
 * **Customer's lifetime number of coupons used **{::}**-** created by analyst as part of your \[COUPON ANALYSIS\] ticket
 * **Coupon acquisition customer or Non coupon acquisition customer**
-  * Column type: Same Table =&gt; CALCULATION
+  * Column type: Same Table => CALCULATION
   * Inputs
     * A: **Customer's first order included a coupon? (Coupon/No coupon)**
 
@@ -124,7 +124,7 @@ Additional columns to create if guest orders NOT supported:
   * Calculation: **case when A='Coupon' then 'Coupon acquisition customer' else 'Non coupon acquisition customer' end**
 
 * **Percent of customer's orders with coupon**
-  * Column type: Same Table =&gt; CALCULATION
+  * Column type: Same Table => CALCULATION
   * Inputs
     * A: **User's lifetime number of coupons used**
     * B: **User's lifetime number of orders**
@@ -133,12 +133,12 @@ Additional columns to create if guest orders NOT supported:
   * Calculation: **case when A is null or B is null or B=0 then null else A/B end**
 
 * **Customer's coupon usage**
-  * Column type: Same Table =&gt; Calculation
+  * Column type: Same Table => Calculation
   * Inputs
     * A: **Percent of customer's orders with coupon**
 
   * Datatype: String
-  * Calculation: **case when A is null then null when A=0 then 'Never used coupon' when A&lt;0.5 then 'Mostly full price' when A=0.5 then '50/50' when A=1 then 'Coupons only' when A&gt;0.5 then 'Mostly coupon' else 'Undefined' end**
+  * Calculation: **case when A is null then null when A=0 then 'Never used coupon' when A<0.5 then 'Mostly full price' when A=0.5 then '50/50' when A=1 then 'Coupons only' when A>0.5 then 'Mostly coupon' else 'Undefined' end**
 
 ## Metrics
 
@@ -274,13 +274,13 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 
   * Metric: Number of orders
   * Filter:
-  * Customer's order number &gt; 1
+  * Customer's order number > 1
   * Customer's first order included a coupon? (Coupon/No coupon) = Coupon
   ^
 
   * Metric: Number of orders
   * Filter:
-  * Customer's order number &gt; 1
+  * Customer's order number > 1
   * Customer's first order included a coupon? (Coupon/No coupon) = Coupon
   * Order has coupon applied? (Coupon/No coupon) = Coupon
   ^
@@ -304,13 +304,13 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 
   * Metric: Number of orders
   * Filter:
-  * Customer's order number &gt; 1
+  * Customer's order number > 1
   * Customer's first order included a coupon? (Coupon/No coupon) = No coupon
   ^
 
   * Metric: Number of orders
   * Filter:
-  * Customer's order number &gt; 1
+  * Customer's order number > 1
   * Customer's first order included a coupon? (Coupon/No coupon) = No Coupon
   * Order has coupon applied? (Coupon/No coupon) = Coupon
   ^
@@ -330,19 +330,19 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
   * Metric: Number of orders
   * Filter:
   * Customer's order number = 1
-  * Number of orders with this coupon &gt; 10
+  * Number of orders with this coupon > 10
   ^
 
   * Metric: Revenue
   * Filter:
   * Customer's order number = 1
-  * Number of orders with this coupon &gt; 10
+  * Number of orders with this coupon > 10
   ^
 
   * Metric: Coupon discount amount
   * Filter:
   * Customer's order number = 1
-  * Number of orders with this coupon &gt; 10
+  * Number of orders with this coupon > 10
   ^
 
   * Formula: B-C (if C is negative); B+C (if C is positive)
@@ -352,7 +352,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
   * Metric: Average order value
   * Filter:
   * Customer's order number = 1
-  * Number of orders with this coupon &gt; 10
+  * Number of orders with this coupon > 10
 
 * Metric A: First time orders (FTO)
 * Metric B: Revenue from FTO
@@ -403,7 +403,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * **Coupon usage among repeat users**
   * Metric: New customers
   * Filter:
-  * Customer's lifetime number of orders &gt; 1
+  * Customer's lifetime number of orders > 1
 
 * Metric A: New customers
 * Time period: All time
@@ -414,17 +414,17 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * **Coupon usage details**
   * Metric: Number of orders with coupon
   * Filter:
-  * Number of orders with this coupon &gt; 10
+  * Number of orders with this coupon > 10
   ^
 
   * Metric: Revenue
   * Filter:
-  * Number of orders with this coupon &gt; 10
+  * Number of orders with this coupon > 10
   ^
 
   * Metric: Coupon discount amount
   * Filter:
-  * Number of orders with this coupon &gt; 10
+  * Number of orders with this coupon > 10
   ^
 
   * Formula: B-C (if C is negative); B+C (if C is positive)
@@ -437,7 +437,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 
   * Metric: Average order value
   * Filter:
-  * Number of orders with this coupon &gt; 10
+  * Number of orders with this coupon > 10
   ^
 
   * Formula: C/A
@@ -446,7 +446,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 
   * Metric: Distinct buyers
   * Filter:
-  * Number of orders with this coupon &gt; 10
+  * Number of orders with this coupon > 10
 
 * Metric A: Number of orders
 * Metric B: Net revenue from orders

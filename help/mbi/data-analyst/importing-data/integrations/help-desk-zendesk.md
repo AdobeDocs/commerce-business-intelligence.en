@@ -72,7 +72,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 
 * **`[Zendesk] user's`** table
   * **`User is agent? (Yes/No) `**
-  * * **Column type** - "Same Table -&gt; Calculation"
+  * * **Column type** - "Same Table > Calculation"
 
     * **Input columns** - `role`, `email`
 
@@ -165,19 +165,19 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * **`Ticket's latest solved date`**
 * **`First agent response date`**
 * **``** **`Seconds to resolution`**
-  * * **Column type** - "Same Table -&gt; Date Difference"
+  * * **Column type** - "Same Table > Date Difference"
 
     * `Ticket's latest solved date` minus `created_at`
   <!--{: style="list-style-type: circle;"}-->
 
 * **`Seconds to first response`**
-  * * **Column type** - "Same Table -&gt; Date Difference"
+  * * **Column type** - "Same Table > Date Difference"
 
     * `First agent response date` minus `created_at`
   <!--{: style="list-style-type: circle;"}-->
 
 * **``****`Requester's ticket number `**
-  * * **Column type** - "Same Table -&gt; Event Number"
+  * * **Column type** - "Same Table > Event Number"
 
     * **Event Owner** - `requester_id`
 
@@ -185,7 +185,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   <!--{: style="list-style-type: circle;"}-->
 
 * **``****`Ticket created_at (hour of day)`**
-  * * **Column type** - "Same Table -&gt; Calculation"
+  * * **Column type** - "Same Table > Calculation"
 
     * **Input columns** - `created_at`
 
@@ -195,7 +195,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   <!--{: style="list-style-type: circle;"}-->
 
 * **``****`Ticket created_at (day of week)`**
-  * * **Column type** - "Same Table -&gt; Calculation"
+  * * **Column type** - "Same Table > Calculation"
 
     * **Input columns** - `created_at`
 
@@ -219,11 +219,11 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 
 * **`User's lifetime number of support tickets requested`**
 * **``****`Has user filed a support ticket? (Yes/No)`**
-  * * **Column type** - "Same Table -&gt; Calculation"
+  * * **Column type** - "Same Table > Calculation"
 
     * **Input columns** - `User's lifetime number of support tickets requested`
 
-    * **Calculation** - `case when A&gt;0 then 'Yes' else 'No' end`
+    * **Calculation** - `case when A>0 then 'Yes' else 'No' end`
 
     * **Datatype** – String
   <!--{: style="list-style-type: circle;"}-->

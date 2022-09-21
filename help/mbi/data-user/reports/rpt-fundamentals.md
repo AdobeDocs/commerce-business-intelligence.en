@@ -35,24 +35,24 @@ At a higher level, we need to know where to find this data in the database, spec
 
 * The table that records a row of data every time someone registers
 * The table that records a data row every time someone makes a purchase
-* The column that can be used to join or reference the \`purchase\` table to the \`customer\` table - this will allow us to know who made a purchase
+* The column that can be used to join or reference the `purchase` table to the `customer` table - this will allow us to know who made a purchase
 
 At a more granular level, we need to identify the exact data fields that will be used for this analysis:
 
-* The data table and column that contain a customer's registration date: e.g. \`user\`.\`created\_at\`
-* The data table and column that contain a purchase date: e.g. \`order\`.\`created\_at\`
+* The data table and column that contain a customer's registration date: e.g. `user`.`created\_at`
+* The data table and column that contain a purchase date: e.g. `order`.`created\_at`
 
 ## Creating data columns for analysis
 
 In addition to the native data columns outlined above, we will also need a set of calculated data fields to enable this analysis, including:
 
-* **Customer's first purchase date** which returns a specific user's MIN(\`order\`.\`created\_at\`)
+* **Customer's first purchase date** which returns a specific user's MIN(`order`.`created_at`)
 
 That will then be used to create:
 
 * **Time between a customer's registration date and first purchase date**, which returns a specific user's time lapsed between registration and 1st purchase date. This will be the basis for our metric later.
 
-Both of these fields need to be created at the user level (i.e. on the \`user\` table), so that the average analysis can be normalized by users (i.e. the denominator in this average calculation will be the count of users).
+Both of these fields need to be created at the user level (i.e. on the `user` table), so that the average analysis can be normalized by users (i.e. the denominator in this average calculation will be the count of users).
 
 This is where MBI steps in! You can leverage your MBI data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we will create them. You can also leverage our [Column Editor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
@@ -64,14 +64,13 @@ Now that we have the required data fields for our analysis, it's time to find or
 
 Here we know that, mathematically, we want to perform the following calculation:
 
-{%raw%}
-* _[SUM of `Time between a customer's registration date and first purchase date`] / [Total number of customers that registered and purchased]_
-{%endraw%}
+
+_[SUM of `Time between a customer's registration date and first purchase date`] / [Total number of customers that registered and purchased]_
 
 And we want to see this calculation plotted over time, or trending, according to a customer's registration date. And Here is how to [create this metric](../../data-user/reports/ess-manage-data-metrics.md) in MBI:
 
 1. Go to **Data** and select the **Metrics** tab.
-1. Click **Add New Metric** and select the \`user\` table (where we created the dimensions above).
+1. Click **Add New Metric** and select the `user` table (where we created the dimensions above).
 1. From the drop-down menu, select **Average** on the _Time between a customer's registration date and first purchase date_ column in the _user_ table ordered by the **Customer's registration date**  column.
 1. Add any relevant filters or filter sets.
 
@@ -99,8 +98,8 @@ Creating analyses to share with other users|**Analyses that require SQL-specific
 <!--<table style="width: 649px;">
 <tbody>
 <tr>
-<td style="width: 245.5px;">**This is perfect for...</strong></td>
-<td style="width: 397.5px;">**This is not so great for...</strong></td>
+<td style="width: 245.5px;">**This is perfect for...**</td>
+<td style="width: 397.5px;">**This is not so great for...**</td>
 </tr>
 <tr>
 <td style="width: 245.5px;" valign="top">
@@ -112,9 +111,9 @@ Creating analyses to share with other users|**Analyses that require SQL-specific
 </td>
 <td style="width: 397.5px;" valign="top">
 <ul>
-<li>**Analyses that require SQL-specific functions</strong></li>
+<li>**Analyses that require SQL-specific functions**</li>
 <li>
-**Testing new columns</strong> - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL are not</li>
+**Testing new columns** - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL are not</li>
 </ul>
 </td>
 </tr>

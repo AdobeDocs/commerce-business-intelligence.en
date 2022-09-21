@@ -15,7 +15,7 @@ You can leverage [the file uploader](../importing-data/connecting-data/using-fil
 
 #### Calculated Columns
 
-If you are on the original architecture (i.e. if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data -&gt; Data Warehouse" page. Detailed instructions are given below.
+If you are on the original architecture (i.e. if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
 
 A further distinction is made if your business allows guest orders. If so, you can ignore all steps for the `customer_entity` table. If guest orders are not allowed, ignore all steps for the `sales_flat_order` table.
 
@@ -23,48 +23,48 @@ Columns to create
 
 * **Sales_flat_order/customer_entity**table
 * (input) reference
-* Column type – "Same table -&gt; Calculation"
+* Column type – "Same table > Calculation"
 * Inputs – **entity_id**
 * Calculation - `**case when A is null then null else 1 end**`
 * Datatype – Integer
 
 * **Customer concentration** table (this is the file you just uploaded with the number "1")
 * Number of customers
-* Column type – "Many to One -&gt; Count Distinct"
-* Path – **sales_flat_order.(input) reference -&gt; Customer Concentration.Primary Key** OR **customer_entity.(input)reference -&gt; Customer Concentration.Primary Key**
+* Column type – "Many to One > Count Distinct"
+* Path – **sales_flat_order.(input) reference > Customer Concentration.Primary Key** OR **customer_entity.(input)reference > Customer Concentration.Primary Key**
 * Selected column – **sales_flat_order.customer_email** OR **customer_entity.entity_id**
 
 * **customer_entity** table
 * Number of customers
-* Column type – "One to Many -&gt; JOINED_COLUMN"
-* **Path** – customer_entity.(input) reference -&gt; Customer Concentration. Primary Key
+* Column type – "One to Many > JOINED_COLUMN"
+* **Path** – customer_entity.(input) reference > Customer Concentration. Primary Key
 * **Selected column** – Number of customers
 
 * (input) Ranking by customer lifetime revenue
-* **Column type** –"Same table -&gt; Event Number"
+* **Column type** –"Same table > Event Number"
 * **Event owner** – Number of customers
 * **Event rank** – Customer's lifetime revenue
 
 * Customer's revenue percentile
-* Column type – "Same table -&gt; Calculation"
+* Column type – "Same table > Calculation"
 * Inputs – **(input) Ranking by customer lifetime revenue**, **Number of customers**
 * Calculation – **case when A is null then null else (A/B)*100 end**
 * Datatype – Decimal
 
 * Sales_flat_order table
 * Number of customers
-* Column type – "One to Many -&gt; JOINED_COLUMN"
-* Path – **sales_flat_order.(input) reference -&gt; Customer Concentration.Primary Key**
+* Column type – "One to Many > JOINED_COLUMN"
+* Path – **sales_flat_order.(input) reference > Customer Concentration.Primary Key**
 * Selected column – **Number of customers**
 
 * (input) Ranking by customer lifetime revenue
-* Column type – "Same table -&gt; Event Number"
+* Column type – "Same table > Event Number"
 * Event owner – **Number of customers**
 * Event Rank – **Customer's lifetime revenue**
 * Filter – **Customer's order number = 1**
 
 * Customer's revenue percentile
-* Column type – "Same table -&gt; Calculation"
+* Column type – "Same table > Calculation"
 * Inputs – **(input) Ranking by customer lifetime revenue**, **Number of customers**
 * Calculation – **case when A is null then null else (A/B)*100 end**
 * Datatype - Decimal
@@ -102,7 +102,7 @@ Columns to create
 
 * **Top 10% concentration**
 * Filter:
-* Customer's revenue percentile &lt;= 10
+* Customer's revenue percentile <= 10
 ^
 
 * *Metric A: Total customer lifetime revenue*
@@ -116,7 +116,7 @@ Columns to create
 ^
 
 * *Metric A: Total customer lifetime revenue*
-* Customer's revenue percentile &lt;= 50
+* Customer's revenue percentile <= 50
 * Customer's lifetime number of orders = 1
 * Filter:
 
@@ -129,7 +129,7 @@ Columns to create
 
 * **Bottom 10% concentration**
 * Filter:
-* Customer's revenue percentile &gt; 90
+* Customer's revenue percentile > 90
 ^
 
 * *Metric A: Total customer lifetime revenue*

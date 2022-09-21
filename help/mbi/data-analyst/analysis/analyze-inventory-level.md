@@ -187,7 +187,7 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 * **`Inventory with less than 2 weeks on hand (order now)`**
   * Metric: **`Inventory on hand`**
     * Filters:
-      * [A] **`Weeks on hand`** &lt; 2
+      * [A] **`Weeks on hand`** < 2
 
   * Time period: All time
   * Time interval: None
@@ -198,7 +198,7 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 * **`Inventory with more than 26 weeks on hand (put on sale)`**
   * Metric: **`Inventory on hand`**
     * Filters:
-      * [A] **`Weeks on hand`** &gt; 26 
+      * [A] **`Weeks on hand`** > 26 
 
   * Time period: All time
   * Time interval: None

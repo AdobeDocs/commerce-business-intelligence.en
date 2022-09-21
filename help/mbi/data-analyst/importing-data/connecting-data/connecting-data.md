@@ -4,7 +4,7 @@ title: Connect Your Data
 
 In MBI, data sources are called **integrations**. After an integration is successfully connected, you'll be able to browse the tables available for syncing in the Data Warehouse Manager.
 
-Integrations are added and managed using the **Connections** page, which can be accessed by clicking **Manage Data &gt; Connections.** Here, you'll see a list of all the integrations connected to your account, the integration type, status ("Google Analytics" and "Data Import API" connections will have blank status fields), and the last time a connection test (Last Connection Started column) was performed.
+Integrations are added and managed using the **Connections** page, which can be accessed by clicking **Manage Data > Connections.** Here, you'll see a list of all the integrations connected to your account, the integration type, status ("Google Analytics" and "Data Import API" connections will have blank status fields), and the last time a connection test (Last Connection Started column) was performed.
 
 ![Data\_Sources\_Table.png](../../../assets/Data_Sources_Table.png)
 
@@ -44,7 +44,7 @@ To learn more about getting started with the Import API, check out the [Develope
 
 #### Add an Integration
 
-To add an integration, click **Manage Data &gt; Connections** and then the **Add a New Data Source** button. Click the icon of the integration you want to add and follow the instructions in our help articles to set things up:
+To add an integration, click **Manage Data > Connections** and then the **Add a New Data Source** button. Click the icon of the integration you want to add and follow the instructions in our help articles to set things up:
 
 * [Integration FAQ](https://support.magento.com/hc/en-us/sections/360003161871-Integration-FAQ)
 * [Available SaaS and database integrations](../integrations/integrations.md)

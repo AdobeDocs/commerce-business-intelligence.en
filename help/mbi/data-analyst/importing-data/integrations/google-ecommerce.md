@@ -10,7 +10,7 @@ You have steady flow of traffic and orders, which means you are effectively reac
 
 Let us get started by entering our Google ECommerce credentials into MBI:
 
-1. Go to the Connections page under **Admin &gt; Connections**.
+1. Go to the Connections page under **Admin > Connections**.
 1. Click the **Add a New Source** button, located on the right side of the screen above the Data Sources table.
 1. Click the **Google ECommerce** icon. This will open the Google ECommerce credentials page.
 1. Enter your Google Analytics credentials. Upon completion of the authorization process, you will be redirected back to MBI.

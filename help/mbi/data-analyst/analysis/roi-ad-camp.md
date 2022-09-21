@@ -30,7 +30,7 @@ Note that we will make the assumption that all campaign costs were exclusively u
 **A. Start by creating a chart that segments your Ad Cost by Campaigns:**
 
 1. Create a Metric that sums your spend over time
-1. Go to Data -&gt; Metrics
+1. Go to Data > Metrics
 1. Select "Add New Metric" and select the "Adwords..." table that is recording your AdWords cost data.
 1. In the metric editor, give your metric a name (e.g., AdWord Cost)
 1. Using the dropdowns, perform " a '**Sum**' on the '**adCost**' column in the Adwords... table (Change) ordered by the '**date**' column.
@@ -46,7 +46,7 @@ Note that we will make the assumption that all campaign costs were exclusively u
 
 **B. We will then create a report that counts new users by campaigns:**
 
-1. In any dashboard, click Add Report -&gt; Create new report
+1. In any dashboard, click Add Report > Create new report
 1. Select the "New users" metric that counts the number of new registered users over time
 1. Set the "Time period" to All-time, and "Interval" to None
 1. Under the "Group by" tab, add "campaign" as `grouping field`, and click **Add All** in the box below
@@ -73,7 +73,7 @@ Note that we will make the assumption that all campaign costs were exclusively u
 1. **ROI**\: Enter the formula **"(\[C\]-\[A\]/\[B\])/(\[A\]/\[B\])"**, if \[A\] represents "Ad Cost by Campaigns", \[B\] represents "New users by campaigns", and \[C\] "LTV by campaigns". This will return the ratio of (average user LTV - average cost per acquisition) / (average cost per acquisition)
 1. **Avg Return per User**\: Enter the formula **"\[C\]-(\[A\]/\[B\])"**. This will return the average margin made on a user by calculating (average user LTV) - (average cost per acquisition).
 1. **CPA**\: Enter the formula **"\[A\]/\[B\]"**. This will return the actual campaign's cost per acquisition.
-1. Other potential metrics to include from AdWords data include sums of  *Impressions* and <em>adClicks </em>(from AdWords data), along with the total *number of orders* made via a particular campaign.
+1. Other potential metrics to include from AdWords data include sums of  *Impressions* and **adClicks**(from AdWords data), along with the total *number of orders* made via a particular campaign.
 1. It may also be interesting to calculate the ROI based on LTV 30 days and 90 days after a user registers or makes a first purchase.
 
 1. Feel free to click and drag your metrics and formulas to reorder the columns of your report

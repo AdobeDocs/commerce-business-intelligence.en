@@ -27,7 +27,7 @@ Keep in mind the following:
 
 - The `EXTRACT()` function is great to use for parsing out the day, week, month, or year of the timestamp. This is useful when the time interval you want to use on the report is daily, weekly, monthly, or yearly.
 
-To get started, open up the SQL Report Builder by clicking **Report Builder &gt; SQL Report Builder**.
+To get started, open up the SQL Report Builder by clicking **Report Builder > SQL Report Builder**.
 
 As an example, let's consider this query that returns the monthly total number of items sold for each product:
 

@@ -9,11 +9,11 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.
 
 |**Column Name**|**Description**|
 |---|---|
-|entity\_id|Unique identifier for the table. Each \`entity\_id\` represents a return request.|
+|entity\_id|Unique identifier for the table. Each `entity\_id` represents a return request.|
 |date\_requested|The date that the return was requested.|
 |status|The status of the return. Values include 'received', 'pending', 'authorized', among others.|
-|order\_id|Foreign key associated with the \`sales\_flat\_order\` table.|
-|customer\_id|Foreign key associated with the \`customer\_entity\` table.|
+|order\_id|Foreign key associated with the `sales\_flat\_order` table.|
+|customer\_id|Foreign key associated with the `customer\_entity` table.|
 
 ### Common Calculated Columns
 
@@ -44,6 +44,6 @@ Operation: Sum<br>Timestamp Column: date\_requested|
 
 `enterprise_rma_item_entity`
 
-* Create many-to-one columns such as \`Return's total value\` on the `enterprise_rma` table via the following join:
+* Create many-to-one columns such as `Return's total value` on the `enterprise_rma` table via the following join:
     * Magento 1.x: `enterprise_rma_item_entity.rma_entity_id` (many) => `enterprise_rma.entity_id` (one)
     * Magento 2.x: `magento_rma_item_entity.rma_entity_id ` (many) => `magento_rma.entity_id` (one)

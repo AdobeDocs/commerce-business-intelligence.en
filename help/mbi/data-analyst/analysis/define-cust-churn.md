@@ -13,37 +13,37 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 Columns to create
 
-* <span class="wysiwyg-color-blue">**`customer_entity`**</span> table
-* <span class="wysiwyg-color-blue">**`Customer's lifetime number of orders`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's lifetime number of orders`**<!--</span>-->
 * Select a definition: Count
-* Select table: <span class="wysiwyg-color-blue">**`sales_flat_order`**</span>
-* Select column: <span class="wysiwyg-color-blue">**`entity_id`**</span>
+* Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
+* Select column: <!--<span class="wysiwyg-color-blue">-->**`entity_id`**<!--</span>-->
 * Path: sales_flat_order.customer_id = customer_entity.entity_id
 * Filter:
 * Orders we count
 <!--{: style="list-style-type: square;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
-* <span class="wysiwyg-color-blue">**`sales_flat_order`**</span> table
-* <span class="wysiwyg-color-blue">**`Customer's lifetime number of orders`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's lifetime number of orders`**<!--</span>-->
 * Select a definition: Joined column
-* Select table: <span class="wysiwyg-color-blue">**`customer_entity`**</span>
-* Select column: <span class="wysiwyg-color-blue">**`Customer's lifetime number of orders`**</span>
+* Select table: <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>-->
+* Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's lifetime number of orders`**<!--</span>-->
 * Path: sales_flat_order.customer_id = customer_entity.entity_id
 * Filter:
 * Orders we count
 <!--{: style="list-style-type: square;"}-->
 
-* <span class="wysiwyg-color-blue">**`Seconds since created_at`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`Seconds since created_at`**<!--</span>-->
 * Select a definition: Age
-* Select column: <span class="wysiwyg-color-blue">**`created_at`**</span>
+* Select column: <!--<span class="wysiwyg-color-blue">-->**`created_at`**<!--</span>-->
 <!--{: style="list-style-type: square;"}-->
 
-* <span class="wysiwyg-color-blue">**`Customer's order number`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-* <span class="wysiwyg-color-blue">**`Is customer's last order`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-* <span class="wysiwyg-color-blue">**`Seconds since previous order`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-* <span class="wysiwyg-color-blue">**`Months since order`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-* <span class="wysiwyg-color-blue">**`Months since previous order`**</span> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's order number`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Is customer's last order`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Seconds since previous order`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Months since order`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Months since previous order`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
 <!--{: style="list-style-type: circle;"}-->
 
 ## Metrics

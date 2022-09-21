@@ -147,7 +147,7 @@ This setting answers that question. Counting members in the **customers** table 
 
 After you have defined the metric and how you want to analyze it, you can select the perspective you want to use.
 
-Just above the report visualization is a drop-down of perspective settings.
+Just above the report visualization is a dropdown of perspective settings.
 
 For more details on Perspectives, click [here](../#perspectives).
 

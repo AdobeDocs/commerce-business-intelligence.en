@@ -22,64 +22,64 @@ Before getting started, you want to connect your [Facebook Ads](../importing-dat
 
 Columns to create
 
-* <span class="wysiwyg-color-blue">**`Consolidated Digital Ad Spend`**</span> table
-* <span class="wysiwyg-color-blue">**`Campaign name`**</span> will be created by an analyst as part of your **[MARKETING ROI ANALYSIS]** ticket (**note:** see above for new architecture differences)
+* <!--<span class="wysiwyg-color-blue">-->**`Consolidated Digital Ad Spend`**<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`Campaign name`**<!--</span>--> will be created by an analyst as part of your **[MARKETING ROI ANALYSIS]** ticket (**note:** see above for new architecture differences)
 <!--{: style="list-style-type: circle;"}-->
 
 **Original and new architectures:**
 
-* <span class="wysiwyg-color-blue">**`sales_flat_order`**</span> table
-  * <span class="wysiwyg-color-blue">**`Order's GA campaign`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>--> table
+  * <!--<span class="wysiwyg-color-blue">-->**`Order's GA campaign`**<!--</span>-->
     * Select a definition: Joined Column
     * Create Path:
     * Many: sales_flat_order.increment_id
     * One: ecommerce####.transaction_id
 
-    * Select table: <span class="wysiwyg-color-blue">**`ecommerce####`**</span>
-    * Select column: <span class="wysiwyg-color-blue">**`campaign`**</span>
+    * Select table: <!--<span class="wysiwyg-color-blue">-->**`ecommerce####`**<!--</span>-->
+    * Select column: <!--<span class="wysiwyg-color-blue">-->**`campaign`**<!--</span>-->
     * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
     <!--{: style="list-style-type: square;"}-->
 
-  * <span class="wysiwyg-color-blue">**`Order's GA medium`**</span>
+  * <!--<span class="wysiwyg-color-blue">-->**`Order's GA medium`**<!--</span>-->
     * Select a definition: Joined Column
-    * Select table: <span class="wysiwyg-color-blue">**`ecommerce####`**</span>
-    * Select column: <span class="wysiwyg-color-blue">**`medium`**</span>
+    * Select table: <!--<span class="wysiwyg-color-blue">-->**`ecommerce####`**<!--</span>-->
+    * Select column: <!--<span class="wysiwyg-color-blue">-->**`medium`**<!--</span>-->
     * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
 
-  * <span class="wysiwyg-color-blue">**`Order's GA source`**</span>
+  * <!--<span class="wysiwyg-color-blue">-->**`Order's GA source`**<!--</span>-->
     * Select a definition: Joined Column
-    * Select table: <span class="wysiwyg-color-blue">**`ecommerce####`**</span>
-    * Select column: <span class="wysiwyg-color-blue">**`source`**</span>
+    * Select table: <!--<span class="wysiwyg-color-blue">-->**`ecommerce####`**<!--</span>-->
+    * Select column: <!--<span class="wysiwyg-color-blue">-->**`source`**<!--</span>-->
     * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
 ^
 
-* <span class="wysiwyg-color-blue">**`customer_entity`**</span> table
-* <span class="wysiwyg-color-blue">**`Customer's first order GA campaign`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA campaign`**<!--</span>-->
   * Select a definition: Max
-  * Select table: <span class="wysiwyg-color-blue">**`sales_flat_order`**</span>
-  * Select column: <span class="wysiwyg-color-blue">**`Order's GA campaign`**</span>
+  * Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
+  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Order's GA campaign`**<!--</span>-->
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
   * Filter:
   * Orders we count
   * Customer's order number = 1
   <!--{: style="list-style-type: square;"}-->
 
-* <span class="wysiwyg-color-blue">**`Customer's first order GA source`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA source`**<!--</span>-->
   * Select a definition: Max
-  * Select table: <span class="wysiwyg-color-blue">**`sales_flat_order`**</span>
-  * Select column: <span class="wysiwyg-color-blue">**`Order's GA source`**</span>
+  * Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
+  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Order's GA source`**<!--</span>-->
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
   * Filter:
     * Orders we count
-    * Customer's order number = 1<span class="wysiwyg-color-blue">**``**</span>
+    * Customer's order number = 1<!--<span class="wysiwyg-color-blue">-->**``**<!--</span>-->
     <!--{: style="list-style-type: circle;"}-->
   <!--{: style="list-style-type: circle;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
-* <span class="wysiwyg-color-blue">**`Customer's first order GA medium`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA medium`**<!--</span>-->
   * Select a definition: Max
-  * Select table: <span class="wysiwyg-color-blue">**`sales_flat_order`**</span>
-  * Select column: <span class="wysiwyg-color-blue">**`Order's GA medium`**</span>
+  * Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
+  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Order's GA medium`**<!--</span>-->
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
   * Filter:
     * Orders we count
@@ -88,49 +88,49 @@ Columns to create
   <!--{: style="list-style-type: circle;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
-* <span class="wysiwyg-color-blue">**`sales_flat_order`**</span> table
-* <span class="wysiwyg-color-blue">**`Customer's first order GA campaign`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA campaign`**<!--</span>-->
   * Select a definition: Joined Column
-  * Select table: <span class="wysiwyg-color-blue">**`customer_entity`**</span>
-  * Select column: <span class="wysiwyg-color-blue">**`Customer's first order GA campaign`**</span>
+  * Select table: <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>-->
+  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA campaign`**<!--</span>-->
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
   <!--{: style="list-style-type: circle;"}-->
 
-* <span class="wysiwyg-color-blue">**`Customer's first order GA source`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA source`**<!--</span>-->
   * Select a definition: Joined Column
-  * Select table: <span class="wysiwyg-color-blue">**`customer_entity`**</span>
-  * Select column: <span class="wysiwyg-color-blue">**`Customer's first order GA source`**</span>
+  * Select table: <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>-->
+  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA source`**<!--</span>-->
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
   <!--{: style="list-style-type: circle;"}-->
 
-* <span class="wysiwyg-color-blue">**`Customer's first order GA medium`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA medium`**<!--</span>-->
   * Select a definition: Joined Column
-  * Select table: <span class="wysiwyg-color-blue">**`customer_entity`**</span>
-  * Select column: <span class="wysiwyg-color-blue">**`Customer's first order GA medium`**</span>
+  * Select table: <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>-->
+  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA medium`**<!--</span>-->
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
   <!--{: style="list-style-type: circle;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
 #### Metrics
 * **Ad spend**
-* In the <span class="wysiwyg-color-blue">**`Consolidated Digital Ad Spend`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`Consolidated Digital Ad Spend`**<!--</span>--> table
 * This metric performs a **Sum**
-* On the <span class="wysiwyg-color-blue">**`adCost`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`date`**</span> timestamp
+* On the <!--<span class="wysiwyg-color-blue">-->**`adCost`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`date`**<!--</span>--> timestamp
 <!--{: style="list-style-type: circle;"}-->
 
 * **Ad impressions**
-* In the <span class="wysiwyg-color-blue">**`Consolidated Digital Ad Spend`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`Consolidated Digital Ad Spend`**<!--</span>--> table
 * This metric performs a **Sum**
-* On the <span class="wysiwyg-color-blue">**`Impressions`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`Month`**</span> timestamp
+* On the <!--<span class="wysiwyg-color-blue">-->**`Impressions`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
 <!--{: style="list-style-type: circle;"}-->
 
 * **Ad clicks**
-* In the <span class="wysiwyg-color-blue">**`Consolidated Digital Ad Spend`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`Consolidated Digital Ad Spend`**<!--</span>--> table
 * This metric performs a **Sum**
-* On the <span class="wysiwyg-color-blue">**`adClicks`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`Month`**</span> timestamp
+* On the <!--<span class="wysiwyg-color-blue">-->**`adClicks`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
 <!--{: style="list-style-type: circle;"}-->
 
 Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.

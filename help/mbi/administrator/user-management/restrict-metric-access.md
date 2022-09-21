@@ -9,7 +9,7 @@ In cases like these, we recommend setting that user's account to [Standard](../.
 
 After setting the permission level, you can select the metrics a Standard user can access by doing the following:
 
-1. Go to **Account Settings &gt; Manage Users.**
+1. Go to **Account Settings > Manage Users.**
 1. Select the desired user account.
 1. The **Metrics** tab will display a list of available metrics. Check the metrics that you want the user to have access to; deselect those the user should not have access to.
 1. MBI saves the changes automatically. If the change is successful, MBI displays **Saved!** at the top of the page.

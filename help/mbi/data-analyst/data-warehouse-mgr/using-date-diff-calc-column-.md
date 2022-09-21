@@ -23,21 +23,21 @@ A date difference calculated column could be used to create a metric which calcu
 <tbody>
 <tr>
 <td>
-<p>**id</strong> </p>
+<p>**id** </p>
 </td>
 <td>
-<p>**timestamp_1</strong> </p>
+<p>**timestamp_1** </p>
 </td>
 <td>
-<p>**timestamp_2</strong> </p>
+<p>**timestamp_2** </p>
 </td>
 <td>
-<p>**Seconds between timestamp_2 and timestamp_1</strong> </p>
+<p>**Seconds between timestamp_2 and timestamp_1** </p>
 </td>
 </tr>
 <tr>
 <td>
-<p>**A</strong> </p>
+<p>**A** </p>
 </td>
 <td>
 <p>2015-01-01 00:00:00 </p>
@@ -51,7 +51,7 @@ A date difference calculated column could be used to create a metric which calcu
 </tr>
 <tr>
 <td>
-<p>**B</strong> </p>
+<p>**B** </p>
 </td>
 <td>
 <p>2015-01-01 08:00:00 </p>

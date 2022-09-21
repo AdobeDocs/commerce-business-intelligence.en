@@ -19,7 +19,7 @@ Read-only users can log into their dashboard and see how recently the data has b
 
 Admin users can log into the dashboard and see the last data point above, along with a brief status icon of their account integrations.
 
-For more detail, admin users can click **Manage Data** &gt; **Integrations**.
+For more detail, admin users can click **Manage Data** > **Integrations**.
 
 ![](../../assets/2016-12-20_1123.png)
 

@@ -3,7 +3,7 @@ title: Expected Google Analytics data
 zendesk_id: 360016729751
 ---
 
-After you have connected a Google Analytics integration, you can interact with your Google Analytics metrics **immediately in the Visual Report Builder.** When you enter the Visual Report Builder, if you click **Add a Metric**, a series of metrics from your Google Analytics profile(s) will appear in a drop-down immediately beneath the metrics in your data warehouse.
+After you have connected a Google Analytics integration, you can interact with your Google Analytics metrics **immediately in the Visual Report Builder.** When you enter the Visual Report Builder, if you click **Add a Metric**, a series of metrics from your Google Analytics profile(s) will appear in a dropdown immediately beneath the metrics in your data warehouse.
 
 The Google Analytics integration is **live** -- this means that the Report Builder requests data from Google Analytics **immediately** when you add a metric to your report. It also means that the metrics you can access are defined exactly as they are in Google Analytics, and that these values are not *warehoused* in your MBI account -- only displayed visually in your reports.
 

@@ -7,7 +7,7 @@ In this article, we demonstrate how to set up a dashboard that will provide a de
 
 ![](../../assets/upload_12_19_2016_at_3_34_09_PM.png)
 
-Before getting started, you will need to be an [Enterprise client of Magento](https://magento.com/products/magento-commerce) and will want to make sure your company is using the \`enterprise\_rma\` table for returns.
+Before getting started, you will need to be an [Enterprise client of Magento](https://magento.com/products/magento-commerce) and will want to make sure your company is using the `enterprise\_rma` table for returns.
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
@@ -15,34 +15,34 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 Columns to track
 
-* <span class="wysiwyg-color-blue">**`enterprise_rma`**</span> or <span class="wysiwyg-color-blue">**`rma`**</span> table
-* <span class="wysiwyg-color-blue">**`entity_id`**</span>
-* <span class="wysiwyg-color-blue">**`status`**</span>
-* <span class="wysiwyg-color-blue">**`order_id`**</span>
-* <span class="wysiwyg-color-blue">**`customer_id`**</span>
-* <span class="wysiwyg-color-blue">**`date_requested`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma`**<!--</span>--> or <!--<span class="wysiwyg-color-blue">-->**`rma`**<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`entity_id`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`status`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`order_id`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`customer_id`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`date_requested`**<!--</span>-->
 <!--{: style="list-style-type: circle;"}-->
 
-* <span class="wysiwyg-color-blue">**`enterprise_rma_item_entity`**</span> or <span class="wysiwyg-color-blue">**`rma_item_entity`**</span> table
-* <span class="wysiwyg-color-blue">**`entity_id`**</span>
-* <span class="wysiwyg-color-blue">**`rma_entity_id`**</span>
-* <span class="wysiwyg-color-blue">**`qty_returned`**</span>
-* <span class="wysiwyg-color-blue">**`status`**</span>
-* <span class="wysiwyg-color-blue">**`order_item_id`**</span>
-* <span class="wysiwyg-color-blue">**`product_name`**</span>
-* <span class="wysiwyg-color-blue">**`product_sku`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma_item_entity`**<!--</span>--> or <!--<span class="wysiwyg-color-blue">-->**`rma_item_entity`**<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`entity_id`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`rma_entity_id`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`qty_returned`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`status`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`order_item_id`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`product_name`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`product_sku`**<!--</span>-->
 <!--{: style="list-style-type: circle;"}-->
 
 Filter sets to create
 
-* <span class="wysiwyg-color-blue">**`enterprise_rma`**</span> table
+* <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma`**<!--</span>--> table
 * Filter set name: Returns we count
 * Filter set logic:
 * Placeholder - enter your custom logic here
 <!--{: style="list-style-type: circle;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
-* <span class="wysiwyg-color-blue">**`enterprise_rma_item_entity`**</span> table
+* <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma_item_entity`**<!--</span>--> table
 * Filter set name: Returns items we count
 * Filter set logic:
 * Placeholder - enter your custom logic here
@@ -53,93 +53,93 @@ Filter sets to create
 
 Columns to create
 
-* <span class="wysiwyg-color-blue">**`enterprise_rma`**</span> table
-* <span class="wysiwyg-color-blue">**`Order's created at`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma`**<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`Order's created at`**<!--</span>-->
 * Select a definition: Joined Column
 * Create Path:
 * Many: enterprise_rma.order_id
 * One: sales_flat_order.entity_id
 
-* Select table: <span class="wysiwyg-color-blue">**`sales_flat_order`**</span>
-* Select column: <span class="wysiwyg-color-blue">**`created_at`**</span>
+* Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<<!--</span>-->
+* Select column: <!--<span class="wysiwyg-color-blue">-->**`created_at`**<<!--/span>-->
 * enterprise_rma.order_id = sales_flat_order.entity_id
 <!--{: style="list-style-type: square;"}-->
 
-* <span class="wysiwyg-color-blue">**`Customer's order number`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's order number`**<<!--</span>-->
 * Select a definition: Joined Column
-* Select table: <span class="wysiwyg-color-blue">**`sales_flat_order`**</span>
-* Select column: <span class="wysiwyg-color-blue">**`Customer's order number`**</span>
+* Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<<!--</span>-->
+* Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's order number`**<<!--</span>-->
 * enterprise_rma.order_id = sales_flat_order.entity_id
 <!--{: style="list-style-type: square;"}-->
 
-* <span class="wysiwyg-color-blue">**`Time between order's created_at and date_requested`**</span> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Time between order's created_at and date_requested`**<!--</span>--> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
 <!--{: style="list-style-type: circle;"}-->
 
-* <span class="wysiwyg-color-blue">**`enterprise_rma_item_entity`**</span> table
-* <span class="wysiwyg-color-blue">**`return_date_requested`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma_item_entity`**<<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`return_date_requested`**<<!--</span>-->
 * Select a definition: Joined Column
 * Create Path:
 * Many: enterprise_rma_item_entity.rma_entity_id
 * One: enterprise_rma.entity_id
 
-* Select table: <span class="wysiwyg-color-blue">**`enterprise_rma`**</span>
-* Select column: <span class="wysiwyg-color-blue">**`date_requested`**</span>
+* Select table: <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma`**<!--</span>-->
+* Select column: <!--<span class="wysiwyg-color-blue">-->**`date_requested`**<!--</span>-->
 * enterprise_rma_item_entity.rma_entity_id = enterprise_rma.entity_id
 <!--{: style="list-style-type: square;"}-->
 
-* <span class="wysiwyg-color-blue">**`Return item total value (qty_returned * price)`**</span> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Return item total value (qty_returned * price)`**<!--</span>--> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
 <!--{: style="list-style-type: circle;"}-->
 
-* <span class="wysiwyg-color-blue">**`sales_flat_order`**</span> table
-* <span class="wysiwyg-color-blue">**`Order contains a return? (1=yes/0=No)`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`Order contains a return? (1=yes/0=No)`**<!--</span>-->
 * Select a definition: Exists
-* Select table: <span class="wysiwyg-color-blue">**`enterprise_rma`**</span>
+* Select table: <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma`**<!--</span>-->
 * enterprise_rma.order_id = sales_flat_order.entity_id
 <!--{: style="list-style-type: square;"}-->
 
-* <span class="wysiwyg-color-blue">**`Customer's previous order number`**</span> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
-* <span class="wysiwyg-color-blue">**`Customer's previous order contains return? (1=yes/0=no)`**</span> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's previous order number`**<!--</span>--> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's previous order contains return? (1=yes/0=no)`**<!--</span>--> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
 <!--{: style="list-style-type: circle;"}-->
 
-<span class="wysiwyg-color-blue">**`^`**</span> If you are interested in analyzing only business hours for Seconds to resolution or Seconds to first response, let the analyst know when requesting the ticket.
+<!--<span class="wysiwyg-color-blue">-->**`^`**<!--</span>--> If you are interested in analyzing only business hours for Seconds to resolution or Seconds to first response, let the analyst know when requesting the ticket.
 
 #### Metrics
 
 * **Returns**
-* In the <span class="wysiwyg-color-blue">**`enterprise_rma`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma`**<!--</span>--> table
 * This metric performs a **Count**
-* On the <span class="wysiwyg-color-blue">**`entity_id`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`date_requested`**</span>
+* On the <!--<span class="wysiwyg-color-blue">-->**`entity_id`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`date_requested`**<!--</span>-->
 * Filter:
 * Returns we count
 <!--{: style="list-style-type: square;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
 * **Returned items**
-* In the <span class="wysiwyg-color-blue">**`enterprise_rma_item_entity`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma_item_entity`**<!--</span>--> table
 * This metric performs a **Sum**
-* On the <span class="wysiwyg-color-blue">**`qty_approved`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`return date_requested`**</span>
+* On the <!--<span class="wysiwyg-color-blue">-->**`qty_approved`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`return date_requested`**<!--</span>-->
 * Filter:
 * Returns we count
 <!--{: style="list-style-type: square;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
 * **Returned item total value**
-* In the <span class="wysiwyg-color-blue">**`enterprise_rma_item_entity`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma_item_entity`**<!--</span>--> table
 * This metric performs a **Sum**
-* On the <span class="wysiwyg-color-blue">**`Returned item total value (qty_returned * price)`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`return date_requested`**</span>
+* On the <!--<span class="wysiwyg-color-blue">-->**`Returned item total value (qty_returned * price)`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`return date_requested`**<!--</span>-->
 * Filter:
 * Returns we count
 <!--{: style="list-style-type: square;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
 * **Average time between order and return**
-* In the <span class="wysiwyg-color-blue">**`enterprise_rma`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma`**<!--</span>--> table
 * This metric performs a **Average**
-* On the <span class="wysiwyg-color-blue">**`Time between order's created_at and date_requested`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`date_requested`**</span>
+* On the <!--<span class="wysiwyg-color-blue">-->**`Time between order's created_at and date_requested`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`date_requested`**<!--</span>-->
 * Filter:
 * Returns we count
 <!--{: style="list-style-type: square;"}-->

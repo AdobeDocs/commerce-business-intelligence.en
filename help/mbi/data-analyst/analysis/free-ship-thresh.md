@@ -16,22 +16,22 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 #### Calculated Columns
 
-If you are on the original architecture (i.e., if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data -&gt; Data Warehouse" page. Detailed instructions are given below.
+If you are on the original architecture (i.e., if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
 
-* <span class="wysiwyg-color-blue">**`sales_flat_order`**</span> table
+* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>--> table
   * This calculation creates buckets in increments relative to your typical cart sizes. This can range from increments including, 5, 10, 50, 100, etc
   <!--<!--{: style="list-style-type: square;"}-->-->
 
-* <span class="wysiwyg-color-blue">**`Order subtotal (buckets)`**</span> Original Architecture: will be created by an analyst as part of your **[FREE SHIPPING ANALYSIS]** ticket
-* <span class="wysiwyg-color-blue">**`Order subtotal (buckets)` **<span class="wysiwyg-color-black">New Architecture:</span>** **</span>
+* <!--<span class="wysiwyg-color-blue">-->**`Order subtotal (buckets)`**<!--</span>--> Original Architecture: will be created by an analyst as part of your **[FREE SHIPPING ANALYSIS]** ticket
+* <!--<span class="wysiwyg-color-blue">-->**`Order subtotal (buckets)` **<span class="wysiwyg-color-black">New Architecture:<!--</span>-->** **<!--</span>-->
   * As mentioned above, this calculation creates buckets in increments relative to your typical cart sizes. If you have a native subtotal column such as `**base_subtotal**`, that can be used as the basis of this new column. If not, it can be a calculated column that excludes shipping, discounts, etc. from revenue. Please note: the "bucket" sizes will depend on what is appropriate for you as a client. You could start with your "average order value" and create a certain number of buckets less than and greater than that amount. When looking at the calculation below, you will see how to easily copy part of the query, edit it, and create additional buckets. The example is done in increments of 50.
   * Column type- Same table, Column definition- Calculation, Column Inputs- `base_subtotal`, or calculated column, Datatype- Integer
-  * Calculation-** case when A &gt;= 0 and A&lt;=200 then '0 - 200'</strong>
-    **when A&lt; 200 and A &lt;= 250 then '201 - 250'**
-    **when A&lt;251 and A&lt;= 300 then '251 - 300'**
-    **when A&lt;301 and A&lt;= 350 then '301 - 350'**
-    **when A&lt;351 and A&lt;=400 then '351 - 400`**
-    **when A&lt;401 and A&lt;=450 then '401 - 450'**
+  * Calculation-** case when A >= 0 and A<=200 then '0 - 200'**
+    **when A< 200 and A <= 250 then '201 - 250'**
+    **when A<251 and A<= 300 then '251 - 300'**
+    **when A<301 and A<= 350 then '301 - 350'**
+    **when A<351 and A<=400 then '351 - 400`**
+    **when A<401 and A<=450 then '401 - 450'**
     **else 'over 450'**
     **end**
   <!--<!--{: style="list-style-type: circle;"}-->-->

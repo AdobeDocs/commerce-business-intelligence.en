@@ -12,7 +12,7 @@ It's easy to create a new report, add it to a dashboard, and export the data to 
 
 Dashboards are essentially sharable, themed buckets for the analyses you create in the Report Builders. This is how you can encourage your team to collaborate and maintain a single source of truth across your organization.
 
-**If you are an Admin or a Standard user**, you can create a dashboard by clicking the Dashboard Options drop-down and choosing **Create New dashboard**.
+**If you are an Admin or a Standard user**, you can create a dashboard by clicking the Dashboard Options dropdown and choosing **Create New dashboard**.
 
 What the dashboards you create look like is entirely up to you. You can arrange and resize the elements in the dashboard any way you wish to suit your needs and workflow.
 
@@ -106,4 +106,4 @@ When you share a dashboard, you can assign permissions across your organization 
 
     **Remove**
 
-    1. To remove the dashboard, click <span class="btn">Delete Dashboard</span>.
+    1. To remove the dashboard, click **Delete Dashboard**.

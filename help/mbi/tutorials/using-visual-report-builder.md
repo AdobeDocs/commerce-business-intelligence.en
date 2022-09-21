@@ -40,7 +40,7 @@ For example, setting a time period from January 1st to March 1st and choosing a 
 
 ## Step 5: Group by / Segmenting the Analysis {#groupby}
 
-[To segment your metrics by a data dimension](../best-practices/segment-filter.md), click the **Group by** menu at the top left of the chart. This will reveal a drop-down including all available dimensions of the first metric included in the list.
+[To segment your metrics by a data dimension](../best-practices/segment-filter.md), click the **Group by** menu at the top left of the chart. This will reveal a dropdown including all available dimensions of the first metric included in the list.
 
 You can choose **None** to prevent a metric from being segmented. For example, you might want a metric that returns total revenue without being segmented, while having another revenue metric segmented by region.
 
@@ -114,7 +114,7 @@ To learn more about using time options in your reports, see this [tutorial](../t
 
 When you create a new chart, you can save it by clicking the **Save** button at the top right corner of the Visual Report Builder.
 
-You can choose to save a chart, table, or number (scalar) using the **Type** drop-down and the dashboard to which the report should be saved using the Location dropdown.
+You can choose to save a chart, table, or number (scalar) using the **Type** dropdown and the dashboard to which the report should be saved using the Location dropdown.
 
 You can then save the report by clicking the **Save to Dashboard** button.
 

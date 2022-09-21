@@ -28,21 +28,21 @@ The most common use case of this column is to analyze first time buyers and repe
 <tbody>
 <tr>
 <td style="width: 113px;">
-<p>**event_id</strong> </p>
+<p>**event_id** </p>
 </td>
 <td style="width: 122px;">
-<p>**owner_id</strong> </p>
+<p>**owner_id** </p>
 </td>
 <td style="width: 232px;">
-<p>**timestamp</strong> </p>
+<p>**timestamp** </p>
 </td>
 <td style="width: 254px;">
-<p>**Owner's event number</strong> </p>
+<p>**Owner's event number** </p>
 </td>
 </tr>
 <tr>
 <td style="width: 113px;">
-<p>**1</strong> </p>
+<p>**1** </p>
 </td>
 <td style="width: 122px;">
 <p>A </p>
@@ -56,7 +56,7 @@ The most common use case of this column is to analyze first time buyers and repe
 </tr>
 <tr>
 <td style="width: 113px;">
-<p>**2</strong> </p>
+<p>**2** </p>
 </td>
 <td style="width: 122px;">
 <p>B </p>
@@ -70,7 +70,7 @@ The most common use case of this column is to analyze first time buyers and repe
 </tr>
 <tr>
 <td style="width: 113px;">
-<p>**3</strong> </p>
+<p>**3** </p>
 </td>
 <td style="width: 122px;">
 <p>A </p>
@@ -84,7 +84,7 @@ The most common use case of this column is to analyze first time buyers and repe
 </tr>
 <tr>
 <td style="width: 113px;">
-<p>**4</strong> </p>
+<p>**4** </p>
 </td>
 <td style="width: 122px;">
 <p>A </p>
@@ -98,7 +98,7 @@ The most common use case of this column is to analyze first time buyers and repe
 </tr>
 <tr>
 <td style="width: 113px;">
-<p>**5</strong> </p>
+<p>**5** </p>
 </td>
 <td style="width: 122px;">
 <p>B </p>
@@ -121,7 +121,7 @@ For instance, consider all rows where **owner_id** = A. The first row in the tab
 
 Here are some instructions on creating an **Event Number** column:
 
-1. Navigate to the **Manage Data -&gt; Data Warehouse** page.
+1. Navigate to the **Manage Data > Data Warehouse** page.
 1. Navigate to the table on which you want to create this column.
 1. Click **Create a Column** and choose the **EVENT_NUMBER (…)** column type under the **Same Table** section.
 1. The first dropdown **Event Owner** specifies the entity for which the rank is to be determined. In the case of **Customer's order number**, a customer identifier such as **customer_id** or **customer_email** would be the **Event Owner**.

@@ -58,6 +58,6 @@ Admin users have access to the Billing tab by default, but Standard users can al
 
 Technical users do not have any permissions specific to them - this setting just marks a technical contact within your organization. These users may be contacted by our teams for technical questions.
 
-Admins can add new users to their account by clicking **Account Settings &gt; Create Users** and following the prompts. After the user is created in MBI, the lucky person you are inviting will receive email instructions on how to complete the account setup process.
+Admins can add new users to their account by clicking **Account Settings > Create Users** and following the prompts. After the user is created in MBI, the lucky person you are inviting will receive email instructions on how to complete the account setup process.
 
-At any time, Admins can view all the users in their account by clicking **Account Settings &gt; Manage Users**. This page displays the user's permissions and what metrics and dashboards they have access to.
+At any time, Admins can view all the users in their account by clicking **Account Settings > Manage Users**. This page displays the user's permissions and what metrics and dashboards they have access to.

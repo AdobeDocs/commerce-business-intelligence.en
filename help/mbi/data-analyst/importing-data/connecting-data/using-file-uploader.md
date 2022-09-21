@@ -105,7 +105,7 @@ Got some new data to add to a file you have already uploaded? No problem - you c
 
 1. In the drop-down menu, click the name of the table you want to update or append.
 
-1. Use the drop-down to select the option for handling duplicate rows:
+1. Use the dropdown to select the option for handling duplicate rows:
 
     `Overwrite old row with new row`|This will overwrite existing data with new data if a row has the same primary key in both the existing table and the new file. This is the method to use for columns with values that change over time - for example, a Status column. Existing data will be overwritten and updated with the new data. Rows with primary keys not in the existing table will be added as new rows.
     `Retain old row; discard new row`|This will cause new data to be ignored if a row has the same primary key in both the existing table and the new file.

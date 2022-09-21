@@ -26,8 +26,8 @@ New _Data Warehouse Views_ can be created and existing views can be deleted by n
 From here you can create a new view by following the sample instructions below:
 
 1. If observing an existing view, click **New Data Warehouse View** to open a blank query window. If a blank query window is already open, proceed to the next step.
-1. Give the view a name by typing in the **View Name** field. The name provided here will determine the display name for the view in the Data Warehouse. **View names are limited to lower case letters, numbers, and underscores (\_).** All other characters are forbidden.
-1. Enter your query in the window titled **Select Query**, using standard PostgreSQL syntax. Note that your query must reference specific column names. **The use of the \* character to select all columns is not permitted.**
+1. Give the view a name by typing in the **View Name** field. The name provided here will determine the display name for the view in the Data Warehouse. **View names are limited to lower case letters, numbers, and underscores (_).** All other characters are forbidden.
+1. Enter your query in the window titled **Select Query**, using standard PostgreSQL syntax. Note that your query must reference specific column names. **The use of the * character to select all columns is not permitted.**
 1. When you are finished, click **Save** to save your view. Note that your view will temporarily have a **Pending** status until it is processed by the next full update cycle, at which point the status will change to **Active**. After being processed by an update, your view is ready to use in reports.
 
 It is important to mention that after saving, the underlying query used to generate a Data Warehouse View cannot be edited. If for some reason you need to adjust the structure of a Data Warehouse View, you will need to create a new view and manually migrate any calculated columns, metrics, or reports from the original view to the new one. When migration is complete, you can safely delete the original view. Because _Data Warehouse Views_ are not editable, we strongly recommend that you test the output of your query using the SQL Report Builder before saving your query as a Data Warehouse View.
@@ -54,13 +54,13 @@ Let us take a look a closer look at one of the examples mentioned earlier in thi
 <!--<table style="width: 456px;">
 <tbody>
 <tr>
-<td style="width: 25px;">**_id</strong></td>
-<td style="width: 77px;">**campaign</strong></td>
-<td style="width: 15px;">**adClicks</strong></td>
+<td style="width: 25px;">**_id**</td>
+<td style="width: 77px;">**campaign**</td>
+<td style="width: 15px;">**adClicks**</td>
 <td style="width: 155px;">
-**date</strong> </td>
+**date** </td>
 <td style="width: 155px;">**impressions**</td>
-<td style="width: 180px;">**adCost</strong></td>
+<td style="width: 180px;">**adCost**</td>
 </tr>
 <tr>
 <td style="width: 25px;">1</td>
@@ -125,13 +125,13 @@ Let us take a look a closer look at one of the examples mentioned earlier in thi
 <!--<table style="width: 456px;">
 <tbody>
 <tr>
-<td style="width: 25px;">**_id</strong></td>
-<td style="width: 77px;">**campaign</strong></td>
-<td style="width: 15px;">**adClicks</strong></td>
+<td style="width: 25px;">**_id**</td>
+<td style="width: 77px;">**campaign**</td>
+<td style="width: 15px;">**adClicks**</td>
 <td style="width: 155px;">
-**date</strong> </td>
+**date** </td>
 <td style="width: 155px;">**impressions**</td>
-<td style="width: 180px;">**adCost</strong></td>
+<td style="width: 180px;">**adCost**</td>
 </tr>
 <tr>
 <td style="width: 25px;">1</td>
@@ -232,30 +232,30 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 <tbody>
 <tr>
 <td>
-<p>**id</strong> </p>
+<p>**id** </p>
 </td>
 <td>
-<p>**ad_source</strong> </p>
+<p>**ad_source** </p>
 </td>
 <td>
-<p>**date</strong> </p>
+<p>**date** </p>
 </td>
 <td>
-<p>**campaign</strong> </p>
+<p>**campaign** </p>
 </td>
 <td>
-<p>**spend</strong> </p>
+<p>**spend** </p>
 </td>
 <td>
-<p>**impressions</strong> </p>
+<p>**impressions** </p>
 </td>
 <td>
-<p>**clicks</strong> </p>
+<p>**clicks** </p>
 </td>
 </tr>
 <tr>
 <td>
-<p>**1</strong> </p>
+<p>**1** </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -278,7 +278,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p>**1</strong> </p>
+<p>**1** </p>
 </td>
 <td>
 <p>AdWords </p>
@@ -301,7 +301,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p>**2</strong> </p>
+<p>**2** </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -324,7 +324,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p>**2</strong> </p>
+<p>**2** </p>
 </td>
 <td>
 <p>AdWords </p>
@@ -347,7 +347,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p>**3</strong> </p>
+<p>**3** </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -370,7 +370,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p>**3</strong> </p>
+<p>**3** </p>
 </td>
 <td>
 <p>AdWords </p>
@@ -393,7 +393,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p>**4</strong> </p>
+<p>**4** </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -416,7 +416,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p>**4</strong> </p>
+<p>**4** </p>
 </td>
 <td>
 <p>AdWords </p>
@@ -439,7 +439,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p>**5</strong> </p>
+<p>**5** </p>
 </td>
 <td>
 <p>Facebook </p>
@@ -462,7 +462,7 @@ Saving the query above as a Data Warehouse View will create a new table with bot
 </tr>
 <tr>
 <td>
-<p>**5</strong> </p>
+<p>**5** </p>
 </td>
 <td>
 <p>AdWords </p>

@@ -9,7 +9,7 @@ The steps for connecting your RDS instance vary slightly depending on the type o
 
 ## Authorize MBI to access your database
 
-On the credentials page (**Manage Data &gt; Integrations**) for each database, you will see a box containing the IP addresses you will need to authorize to connect RDS to MBI: **54.88.76.97** and **34.250.211.151**. Here's a look at the MySQL credentials page, where we highlighted the IP address box:
+On the credentials page (**Manage Data > Integrations**) for each database, you will see a box containing the IP addresses you will need to authorize to connect RDS to MBI: **54.88.76.97** and **34.250.211.151**. Here's a look at the MySQL credentials page, where we highlighted the IP address box:
 
 ![](../../../assets/RDS_IP.png)
 
@@ -29,7 +29,7 @@ This is the part of the process where, depending on the database you are using, 
 
 After you have granted MBI access to your instance and created a user for us, the last thing you will need to do is enter the connection info into MBI.
 
-The credential pages for MySQL, Microsoft SQL, and PostgreSQL are accessed via the Integrations page (**Manage Data &gt; Integrations**) by clicking the **Add Integration** button. When the list of integrations displays, click the icon for the database you are using to go to the credentials page. If you do not currently have access to the integration you need, contact your CSM.
+The credential pages for MySQL, Microsoft SQL, and PostgreSQL are accessed via the Integrations page (**Manage Data > Integrations**) by clicking the **Add Integration** button. When the list of integrations displays, click the icon for the database you are using to go to the credentials page. If you do not currently have access to the integration you need, contact your CSM.
 
 To finish creating the connection, we will need the following info:
 

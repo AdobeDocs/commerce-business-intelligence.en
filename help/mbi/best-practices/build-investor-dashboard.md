@@ -20,7 +20,7 @@ Here is what you need to create reports for your investor dashboard:
 * **Revenue by quarter**
     * Metric – Revenue
 * **Revenue from 1st time orders vs repeat orders**
-    * Metric – First time<sup>t</sup> order revenue
+    * Metric – First time order revenue
     * Filter – User's order number is equal to 1
   * Metric 2 – Repeat order revenue
     * Filter – User's order number is greater than 1

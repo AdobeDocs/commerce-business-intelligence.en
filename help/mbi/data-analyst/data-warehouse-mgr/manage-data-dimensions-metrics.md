@@ -14,7 +14,7 @@ Note: To manage dimensions, you must have administrative access.
 
 To add one or more dimensions to multiple Metrics at once:
 
-1. {: dir="ltr"} On the main navigation bar, go to **Manage Data &gt; Metrics. **
+1. {: dir="ltr"} On the main navigation bar, go to **Manage Data > Metrics. **
     {: dir="ltr"}
 
 1. {: dir="ltr"} At the top of the page, click "Add Dimensions To Metric(s)".
@@ -34,7 +34,7 @@ To add one or more dimensions to multiple Metrics at once:
 
 To delete one or more dimensions from multiple metrics:
 
-1. {: dir="ltr"} On the main navigation bar, go to Data&gt;Metrics.
+1. {: dir="ltr"} On the main navigation bar, go to Data>Metrics.
     {: dir="ltr"}
 
 1. {: dir="ltr"} At the top of the page, click "Remove Dimensions From Metric(s)".
@@ -56,7 +56,7 @@ To delete one or more dimensions from multiple metrics:
 
 **To add dimension(s) in a metric:**
 
-1. {: dir="ltr"} On the main navigation bar, go to Data&gt;Metrics.
+1. {: dir="ltr"} On the main navigation bar, go to Data>Metrics.
     {: dir="ltr"}
 
 1. {: dir="ltr"} Click "Edit" on the metric you want a new dimension.
@@ -71,7 +71,7 @@ Note that any dimension that you want to filter or group by must already be trac
 **To delete dimension(s) from a metric:**
 {: dir="ltr"}
 
-1. {: dir="ltr"} On the main navigation bar, go to **Manage Data &gt; Metrics. **
+1. {: dir="ltr"} On the main navigation bar, go to **Manage Data > Metrics. **
     {: dir="ltr"}
 
 1. {: dir="ltr"} Click "Edit" on the metric you want a new dimension.

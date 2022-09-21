@@ -48,7 +48,7 @@ If you are using a filter when performing a join, be sure to apply it to both ta
 
 When writing queries, consider using the 'least expensive' operators possible. Every query has a computational cost, which is determined by the functions, operators, and filters that make up the query. Some operators require less computational effort, which makes them less expensive than other operators.
 
-Comparison operators (&gt;, &lt;, =, and so on) are the least expensive, followed by [LIKE. SIMILAR TO and POSIX operators](https://www.postgresql.org/docs/9.5/functions-matching.html) which are the most expensive operators.
+Comparison operators (>, <, =, and so on) are the least expensive, followed by [LIKE. SIMILAR TO and POSIX operators](https://www.postgresql.org/docs/9.5/functions-matching.html) which are the most expensive operators.
 
 ## Using EXISTS Versus IN
 

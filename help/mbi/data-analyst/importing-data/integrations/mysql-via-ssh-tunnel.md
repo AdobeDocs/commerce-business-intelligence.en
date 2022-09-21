@@ -29,7 +29,7 @@ It is not as complicated as it might sound. Let us get started.
 
 The public key is used to authorize the MBI Linux user. In the next section, we will create the user and import the key.
 
-1. Go to **Manage** **Data &gt; Connections** and click the Add New Data Source button.
+1. Go to **Manage** **Data > Connections** and click the Add New Data Source button.
 1. Click the MySQL icon.
 1. After the MySQL credentials page opens, toggle the Encrypted button to Yes. This will display the SSH setup form.
 1. The public key is located underneath this form.
@@ -85,7 +85,7 @@ Your organization may require a different process, but the simplest way to creat
     GRANT SELECT ON *.* TO 'rjmetric'@'localhost' IDENTIFIED BY '<secure password here>';
 ```
 
-Replace *&lt;secure password here&gt;* with a secure password, which can be different than the SSH password.
+Replace *<secure password here>* with a secure password, which can be different than the SSH password.
 
 To restrict this user from accessing data in specific databases, tables, or columns, you can instead run GRANT queries that only allow access to the data you permit.
 

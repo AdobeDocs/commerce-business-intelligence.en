@@ -17,7 +17,7 @@ It is not as complicated as it might sound. Get started.
 
 The public key is used to authorize the MBI Linux user. In the next section, we will create the user and import the key.
 
-1. Go to **Manage Data &gt; Connections** and click the **Add a Data Source** button.
+1. Go to **Manage Data > Connections** and click the **Add a Data Source** button.
 1. Click the **PostgreSQL icon**.
 1. After the PostgreSQL credentials page opens, toggle the **Encrypted** button to Yes. This will display the SSH setup form.
 1. The public key is located underneath this form.

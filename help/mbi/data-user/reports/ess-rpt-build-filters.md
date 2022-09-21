@@ -19,7 +19,7 @@ MBI includes a selection of filters that you can use "out of the box," or modify
 
     ![Add Filter](../../assets/magento-bi-report-builder-filter-add.png)<!--{: .zoom}-->
 
-1. Click <span class="btn">Add Filter</span>.
+1. Click **Add Filter**.
 
     Filters are numbered alphabetically, and the first is `[A]`. The first two parts of the filter are drop-down options, and the third part is a value.
 
@@ -32,7 +32,6 @@ MBI includes a selection of filters that you can use "out of the box," or modify
     * Click the second part of the filter and choose the operator.
 
         ![Choose the operator](../../assets/magento-bi-report-builder-filter-part2.png)<!--{: .zoom}-->
-        *Choose the Operator*
 
     * In the third part of the filter, enter the value that is needed to complete the expression.
 
@@ -48,7 +47,7 @@ MBI includes a selection of filters that you can use "out of the box," or modify
 
     ![Perspective](../../assets/magento-bi-report-builder-filter-perspective.png)<!--{: .zoom}-->
 
-1. In the list of settings, choose **Cumulative**. Then, click <span class="btn">Apply</span>.
+1. In the list of settings, choose **Cumulative**. Then, click **Apply**.
 
     ![Cumulative Perspective](../../assets/magento-bi-report-builder-filter-perspective-cumulative.png)<!--{: .zoom}-->
 

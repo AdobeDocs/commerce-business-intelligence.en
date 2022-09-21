@@ -43,7 +43,7 @@ We'll use the relationship between **customers** and **orders** to show you how 
 
 Now we'll walk you through actually creating the path.
 
-1. Click **Data &gt; Data Warehouse**.
+1. Click **Data > Data Warehouse**.
 1. In the table list, click the table you want to create the column in. In our example, it is the **customers** table.
 1. The table schema will display. Click the **Create New Column** button.
 1. Give your column a name - for example, Customer's orders.

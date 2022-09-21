@@ -16,21 +16,21 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 ### Calculated Columns
 
-* <span class="wysiwyg-color-blue">**`Sales_flat_order`**</span> table
+* <!--<span class="wysiwyg-color-blue">-->**`Sales_flat_order`**<!--</span>--> table
 * **Original architecture:** the below columns will be created by an analyst as part of your **[YoY WoW MoM ANALYSIS]** ticket
-* <span class="wysiwyg-color-blue">**`created_at (month-day)`**</span>
-* <span class="wysiwyg-color-blue">**`created_at (month)`**</span>
-* <span class="wysiwyg-color-blue">**`created_at (day of the month)`**</span>
-* <span class="wysiwyg-color-blue">**`created_at (day of the week)`**</span>
-* <span class="wysiwyg-color-blue">**`created_at (hour of the day)`**</span>
+* <!--<span class="wysiwyg-color-blue">-->**`created_at (month-day)`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`created_at (month)`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the month)`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the week)`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`created_at (hour of the day)`**<!--</span>-->
 <!--{: style="list-style-type: circle;"}-->
 
 * **New architecture:** SQL listed below with a photo of an example for how to create this calculation
-  * <span class="wysiwyg-color-blue">**`created_at (month-day)`**</span> Calculation**:** **to_char(A, 'mm-dd')**
-  * <span class="wysiwyg-color-blue">**`created_at (month)`**</span> Calculation**:** **to_char(A, 'mm-month')**
-  * <span class="wysiwyg-color-blue">**`created_at (day of the month)`**</span> Calculation**:** **to_char(A, 'dd')**
-  * <span class="wysiwyg-color-blue">**`created_at (day of the week)`**</span> Calculation**:** **to_char(A, 'd-Day')**
-  * <span class="wysiwyg-color-blue">**`created_at (hour of the day)`**</span> Calculation**:** **to_char(A, 'hh24')**
+  * <!--<span class="wysiwyg-color-blue">-->**`created_at (month-day)`**<!--</span>--> Calculation**:** **to_char(A, 'mm-dd')**
+  * <!--<span class="wysiwyg-color-blue">-->**`created_at (month)`**<!--</span>--> Calculation**:** **to_char(A, 'mm-month')**
+  * <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the month)`**<!--</span>--> Calculation**:** **to_char(A, 'dd')**
+  * <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the week)`**<!--</span>--> Calculation**:** **to_char(A, 'd-Day')**
+  * <!--<span class="wysiwyg-color-blue">-->**`created_at (hour of the day)`**<!--</span>--> Calculation**:** **to_char(A, 'hh24')**
     ![](../../assets/Screen_Shot_2017-10-05_at_4.27.32_PM.png)
 
 ### Metrics

@@ -72,13 +72,13 @@ Columns to create on the **`orders`** table if using **calendar** months:
 Metrics to create
 
 * **Distinct customers by first order date***
-  * If you enable guest orders, use <span class="wysiwyg-color-blue">**`customer_email`**</span>
+  * If you enable guest orders, use <!--<span class="wysiwyg-color-blue">-->**`customer_email`**<!--</span>-->
   <!--<!--{: style="list-style-type: square;"}-->-->
 
-* In the <span class="wysiwyg-color-blue">**`orders`**</span> table
+* In the <!--<span class="wysiwyg-color-blue">-->**`orders`**<!--</span>--> table
 * This metric performs a **Count Distinct Values**
-* On the <span class="wysiwyg-color-blue">**`customer_id`**</span> column
-* Ordered by the <span class="wysiwyg-color-blue">**`Customer's first order date`**</span> timestamp
+* On the <!--<span class="wysiwyg-color-blue">-->**`customer_id`**<!--</span>--> column
+* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Customer's first order date`**<!--</span>--> timestamp
 <!--<!--{: style="list-style-type: circle;"}-->-->
 
 **Note**: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
@@ -90,7 +90,7 @@ Metrics to create
 **Expected revenue per customer by month**
 
 * Metric A: Revenue (hide)
-  * `Calendar months between first order and this order` &lt;= X (Pick some reasonable number for X, e.g. 24 months)
+  * `Calendar months between first order and this order` <= X (Pick some reasonable number for X, e.g. 24 months)
   * `Is in current month?` = No
 
 * Metric: Revenue
@@ -105,7 +105,7 @@ Metrics to create
 <!--<!--{: style="list-style-type: square;"}-->-->
 
 * Metric C: All time customers by month since first order (hide)
-  * `Calendar months since order` &lt;= X
+  * `Calendar months since order` <= X
   * `Is in current month?` = No
 
 * Metric: New customers by first order date
