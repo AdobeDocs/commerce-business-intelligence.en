@@ -1,7 +1,8 @@
 ---
 title: Expected Mixpanel data
-zendesk_id: 360016504312
+description: Explore the main data tables that you can import from Mixpanel into your MBI account.
 ---
+# Expected Mixpanel data
 
 After [you have connected your Mixpanel account](../integrations/mixpanel.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
 

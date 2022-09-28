@@ -1,7 +1,8 @@
 ---
-title: Reducing Your Update Cycle Time
-zendesk_id: 360016732071
+title: Reduce Your Update Cycle Time
+description: Learn how to reduce your update cycle time. 
 ---
+# Reduce Update Cycle Processing Time
 
 MBI syncs with your database throughout the day to replicate new data, ensuring that your dashboards always show the latest information.
 

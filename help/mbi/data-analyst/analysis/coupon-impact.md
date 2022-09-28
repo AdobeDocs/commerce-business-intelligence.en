@@ -1,7 +1,8 @@
 ---
-title: Analyzing coupon impact on acquiring and retaining customers
-zendesk_id: 360016504392
+title: Analyzing coupon impact
+description: Learn how to analyzing coupon impact on acquiring and retaining customers. 
 ---
+# Coupon Impact
 
 Analyzing how customers use your coupons can provide significant insight into your business. Specifically, analyzing how you acquire and retain customers via coupons. In this article, we explore analyses that can help you answer the following types of questions:
 

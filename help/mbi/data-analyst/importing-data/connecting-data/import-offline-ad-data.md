@@ -1,7 +1,8 @@
 ---
-title: Importing offline / other ad spend data
-zendesk_id: 360016506752
+title: Import other ad spend data
+description: Learn to import offline or other ad spend data into MBI.
 ---
+# Import other ad spend data
 
 Uploading your advertising spend data will allow you to measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV) of users acquired from your campaigns.
 

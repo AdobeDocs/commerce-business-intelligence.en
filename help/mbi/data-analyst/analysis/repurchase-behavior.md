@@ -1,7 +1,8 @@
 ---
 title: Analyzing Customer Repurchasing Behavior
-zendesk_id: 360016504412
+description: Learn how to analyze customer repurchase behavior. 
 ---
+# Customer Repurchasing Behavior
 
 If you offer more than one product, you probably wonder how customers that purchase a specific product behave differently over time compared to other customers. In this article, we explore analyses that can help you answer the following questions:
 

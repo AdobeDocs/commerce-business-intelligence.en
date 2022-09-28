@@ -1,7 +1,8 @@
 ---
-title: Importing charts from another user
-zendesk_id: 360016506652
+title: Import charts from another user
+description: Learn how to edit a chart that another user owns, or create something similar.
 ---
+# Import chart from another user
 
 You may want to edit a chart that another user owns, or create something similar. For this, we have made it easy to import a chart that another user currently owns and save it in your own dashboard.
 

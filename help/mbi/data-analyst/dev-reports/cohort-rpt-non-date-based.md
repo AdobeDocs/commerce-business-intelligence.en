@@ -1,7 +1,8 @@
 ---
-title: Using the Cohort Report Builder for Non-Date Based Cohorts
-zendesk_id: 360021791071
+title: Cohort Report Builder for Non-Date Based Cohorts
+description: Learn to group users by a similar activity or attribute.
 ---
+# Cohort Report Builder for Non-Date-Based Cohorts
 
 Our [Cohort Report Builder](../dev-reports/cohort-rpt-bldr.md) has been great at helping merchants study how different subsets of users behave over time. In the past, the Cohort Report Builder was mainly optimized for grouping users by a common **cohort date** (i.e., the set of all customers who made their first purchase in a given month). The Non-Date Based Cohort feature now gives you the power to group users by a similar activity or attribute. Take a look at a few use cases for this feature.
 
@@ -23,7 +24,9 @@ This is not a comprehensive list, but here are some potential analyses that can 
 
 Now that we are in the Report Builder, we add the metric that we want to perform the analysis on (example: **Revenue** or **Orders**).
 
-**Note: Native Google Analytics metrics are not compatible with the Cohort Report Builder.** Our goal for this example is to look at revenue over time for first-order customers who were acquired through different GA sources.
+>[!NOTE]
+>
+>Native Google Analytics metrics are not compatible with the Cohort Report Builder.** Our goal for this example is to look at revenue over time for first-order customers who were acquired through different GA sources.
 
 ### Toggle Metric View to Cohort
 

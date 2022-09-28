@@ -1,7 +1,8 @@
 ---
-title: Building a Dashboard for Investors
-zendesk_id: 360016729691
+title: Building a dashboard for investors
+description: Learn how to build a dashboard for investors. 
 ---
+# Build Investor Dashboard
 
 Many of our clients are working with investors and need to share information from platform with them, but the dashboards that you create to make day-to-day business decisions may not be what an investor is looking for. Here we cover some best practices for how to create a dashboard that is comprehensive but simple, ideal for sharing with active and potential investors.
 

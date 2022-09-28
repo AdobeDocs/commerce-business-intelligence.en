@@ -1,7 +1,8 @@
 ---
 title: Importing Linkshare data
-zendesk_id: 360016506492
+description: Learn to import Linkshare data into MBI.
 ---
+# Import Linkshare data
 
 To bring your Linkshare data into MBI, you need to do two things:
 

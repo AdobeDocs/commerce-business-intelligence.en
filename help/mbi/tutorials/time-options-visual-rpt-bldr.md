@@ -1,7 +1,8 @@
 ---
-title: Using Time Options in the Visual Report Builder
-zendesk_id: 360016505432
+title: Use Time Options in the Visual Report Builder
+description: Learn to analyze the data in your report for a specific time period.
 ---
+# Use Time Options in Visual Report Builder
 
 One of the features of the Visual Report builder is the global Time Range and Interval settings. These settings allow you to analyze the data in your report for a specific time period.
 

@@ -1,7 +1,8 @@
 ---
-title: Exporting Chart Data
-zendesk_id: 360016505152
+title: Export Chart Data
+description: Learn how to view the data behind a chart.
 ---
+# Export Chart Data
 
 If you want to view the data behind a chart, click the gear icon in the top-right corner of any chart.
 

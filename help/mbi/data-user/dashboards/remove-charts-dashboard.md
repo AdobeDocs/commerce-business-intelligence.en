@@ -1,7 +1,8 @@
 ---
-title: Removing Charts from Dashboards
-zendesk_id: 360016506352
+title: Remove Chart from Dashboard
+description: Learn how to remove a chart from a dashboard.
 ---
+# Remove a chart from a dashboard
 
 To remove a chart from a dashboard, click the **gear** (![](../../assets/gear-icon.png)) icon in the top-right corner of the chart and click **Remove from Dashboard**.
 

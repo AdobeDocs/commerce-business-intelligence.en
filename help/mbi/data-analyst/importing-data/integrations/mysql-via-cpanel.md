@@ -1,7 +1,8 @@
 ---
-title: Connecting MySQL via cPanel
-zendesk_id: 360016506512
+title: Connect MySQL via cPanel
+description: Learn how to connect MySQL via cPanel.
 ---
+# Connect MySQL via cPanel
 
 * [Create a MBI MySQL user in cPanel](../#cpanel)
 * [Enter connection and user info into MBI](../#finish)

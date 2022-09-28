@@ -1,10 +1,12 @@
 ---
 title: Dashboards
+description: Learn how to create and work with a dashboard.
 ---
+# Dashboards
 
 MBI Dashboards give you a quick view of your store's performance and sales activity at a glance. Individual dashboards can be shared with other users and organized into logical groups. You can also set different levels of permission for other users.
 
-It's easy to create a new report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
+It is easy to create a new report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
 
 ![Dashboard](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png)<!--{: .zoom}-->
 

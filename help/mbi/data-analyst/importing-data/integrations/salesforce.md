@@ -1,7 +1,8 @@
 ---
-title: Connecting Salesforce
-zendesk_id: 360016507372
+title: Connect Salesforce
+description: Learn how Salesforce data enables a range of analyses, from scoring and optimizing leads to hitting your goals for converted opportunities.
 ---
+# Connect Salesforce
 
 >[!NOTE]
 >

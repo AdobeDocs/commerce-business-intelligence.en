@@ -1,7 +1,8 @@
 ---
 title: Expected Spree data
-zendesk_id: 360016507192
+description: Explore the main data tables that you can import from Spree into your MBI account.
 ---
+# Expected Spree data
 
 After you have [connected your Spree store](../data-analyst/importing-data/integrations/spree.md), you can use the [Data Warehouse Manager](../../data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields from your Spree platform for analysis.
 

@@ -1,7 +1,8 @@
 ---
-title: Using the Event Number Calculated Column
-zendesk_id: 360016503152
+title: Event Number Calculated Column
+description: Learn the purpose and uses of the Event Number calculated column.
 ---
+# Event Number Calculated Column
 
 This topic outlines the purpose and uses of the **Event Number** calculated column available in the **Manage Data** > **Data Warehouse** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.
 

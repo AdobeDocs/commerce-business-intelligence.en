@@ -1,7 +1,8 @@
 ---
-title: Using the File Uploader
-zendesk_id: 360016730951
+title: Use File Uploader
+description: Learn how to put all of your data into a single data warehouse.
 ---
+# Use File Uploader
 
 >[!NOTE]
 >

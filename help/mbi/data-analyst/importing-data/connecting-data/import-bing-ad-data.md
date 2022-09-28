@@ -1,7 +1,8 @@
 ---
-title: Importing Bing Ad Spend data
-zendesk_id: 360016732451
+title: Import Bing Ad Spend data
+description: Learn to import Bing advertising spend data into MBI for analysis.
 ---
+# Import Bing Data
 
 To import Bing advertising spend data into MBI for analysis, simply export the data from Bing Ads Editor in a CSV format and upload it to MBI as per the steps below:
 

@@ -1,7 +1,8 @@
 ---
-title: Sharing dashboards with other users
-zendesk_id: 360016505012
+title: Share dashboards with other users
+description: Learn how to share dashboards with other users.
 ---
+# Share dashboards with other users
 
 Sharing dashboards is a great way to keep your team in the loop and encourage collaborative discussion. By creating and sharing a central dashboard, you can provide your team with the information they need while still maintaining control. [We recommend](../../best-practices/share-dashboard-best-practice.md){: target="_blank"} that you grant Edit rights to a select few to minimize accidental changes.
 

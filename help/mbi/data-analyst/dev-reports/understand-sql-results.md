@@ -1,7 +1,8 @@
 ---
 title: Understanding Results Between Database and SQL Editor
-zendesk_id: 360016733051
+description: Learn how to understand the difference between results.
 ---
+# Database vs SQL Editor results 
 
 The majority of the time, differences in results can be attributed to update cycles. If MBI is in the process of replicating data from your database to your Data Warehouse, you might see different results even when using the same query.
 

@@ -1,9 +1,10 @@
 ---
-title: Using formulas in the Report Builder
-zendesk_id: 360016505792
+title: Formulas in the Report Builder
+description: Learn how formulas can be used in the Report Builder.
 ---
+# Formulas in the Report Builder
 
-In the [Report Builder](../../tutorials/using-visual-report-builder.md){: target="_blank"}, you can create powerful visualizations using the [defined metrics](../../data-user/reports/ess-manage-data-metrics.md){: target="_blank"} in your account. Combining these metrics in a formula allows you to glean additional insights from your data. In this article, we'll deep-dive into how formulas can be used in the Report Builder - lets jump in!
+In the [Report Builder](../../tutorials/using-visual-report-builder.md), you can create powerful visualizations using the [defined metrics](../../data-user/reports/ess-manage-data-metrics.md) in your account. Combining these metrics in a formula allows you to glean additional insights from your data. In this article, we deep-dive into how formulas can be used in the Report Builder - lets jump in!
 
 ## what is a formula? {#what}
 

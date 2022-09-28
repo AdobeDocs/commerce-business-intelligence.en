@@ -1,7 +1,8 @@
 ---
-title: Common Magento Tables - sales_order
-zendesk_id: 360016731751
+title: sales_order table
+description: Learn how to work with the sales_order table.
 ---
+# sales_order Table
 
 The `sales_order` table (`sales_flat_order` on M1) is where each order is captured. In most cases, each row represents one unique order, although there are some custom implementations of Magento that result in splitting an order into separate rows.
 

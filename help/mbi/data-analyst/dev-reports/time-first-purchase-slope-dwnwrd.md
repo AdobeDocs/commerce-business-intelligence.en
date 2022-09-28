@@ -1,7 +1,8 @@
 ---
-title: Why does the time to first purchase report slope downward?
-zendesk_id: 360016732591
+title: Average time to first purchase report
+description: Learn how to use the Average time to first purchase report.
 ---
+# Average time to first purchase report 
 
 Many of our customers have a metric and chart named `Average time to first purchase`, which shows the average time between a group of users' registration date and first purchase date. The data almost invariably slopes downward as time moves closer to the present.
 

@@ -1,9 +1,14 @@
 ---
-title: A tour of the Data Warehouse Manager
-zendesk_id: 360016732431
+title: Data Warehouse Manager
+description: Learn how to manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports.
 ---
+# Data Warehouse Manager
 
-The Data Warehouse Manager, accessed by clicking **Manage Data > Data Warehouse** in the sidebar, is the portal to your MBI Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. **Note that you need Admin permissions to access the Data Warehouse Manager.**
+The Data Warehouse Manager, accessed by clicking **Manage Data > Data Warehouse** in the sidebar, is the portal to your MBI Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
+
+>[!NOTE]
+>
+>You need Admin permissions to access the Data Warehouse Manager.
 
 In this article, we will cover:
 

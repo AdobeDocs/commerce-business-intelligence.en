@@ -1,7 +1,8 @@
 ---
-title: Deleting Dashboards
-zendesk_id: 360016731531
+title: Delete a Dashboard
+description: Learn how to delete a dashboard.
 ---
+# Delete a dashboard
 
 If you want to keep your dashboard list from becoming too cluttered, you can delete a dashboard if it is no longer required. This can be accomplished in one of two ways:
 

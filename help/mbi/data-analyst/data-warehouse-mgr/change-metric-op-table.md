@@ -1,7 +1,8 @@
 ---
-title: Changing a metric's operational table
-zendesk_id: 360016731651
+title: Change a metric's operational table
+description: Learn how to change the data table that a metric uses to perform its operation.
 ---
+# Change a metric's operational table
 
 In certain cases, you may decide to change the data table that a metric uses to perform its operation. For example, if you have a new users table, you will want to migrate your user related metrics from the  "Users\_Old" table to use the "Users\_New" table instead.
 

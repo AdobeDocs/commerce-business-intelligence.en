@@ -1,7 +1,8 @@
 ---
-title: Connecting Magento
-zendesk_id: 360016505852
+title: Connect Magento
+description: Learn how to find your most valuable acquisition sources and channels.
 ---
+# Connect Magento
 
 >[!NOTE]
 >

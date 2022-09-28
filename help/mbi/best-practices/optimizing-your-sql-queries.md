@@ -1,7 +1,8 @@
 ---
 title: Optimizing Your SQL Queries
-zendesk_id: 360016505412
+description: Learn how to optimize your SQL queries. 
 ---
+# Optimize your SQL queries
 
 The SQL Report Builder allows you to query and iterate on those queries at any given time. This is useful when you need to modify a query without having to wait for an update cycle to finish before realizing a column or report you created needs updating.
 

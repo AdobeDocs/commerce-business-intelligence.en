@@ -1,7 +1,8 @@
 ---
 title: Help desk reporting for Zendesk
-zendesk_id: 360016507092
+description: Learn about your most valued referral channels.
 ---
+# Help desk reporting for Zendesk
 
 >[!NOTE]
 >

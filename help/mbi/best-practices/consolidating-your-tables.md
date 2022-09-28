@@ -1,7 +1,8 @@
 ---
-title: Consolidating your Tables
-zendesk_id: 360016504572
+title: Consolidate your Tables
+description: Learn how to consolidate your tables and databases. 
 ---
+# Consolidate your Tables
 
 If you operate multiple store fronts or in multiple markets, you may have similar databases stored separately. In MBI, it is easy to consolidate similar tables from different databases together.
 

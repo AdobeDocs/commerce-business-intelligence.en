@@ -1,7 +1,8 @@
 ---
 title: Analyzing Holiday Season Performance
-zendesk_id: 360016504212
+description: Learn and understand how the pattern of this year's growth compares with previous years. 
 ---
+# Holiday Shopping Analysis
 
 For your business, the holidays might be one of the busiest times of the year. For retailers with a large American customer base, the holiday season usually spans the months between Thanksgiving and the New Year.
 

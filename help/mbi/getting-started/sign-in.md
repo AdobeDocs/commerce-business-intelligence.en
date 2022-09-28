@@ -1,6 +1,8 @@
 ---
-title: Sign in to your MBI Account
+title: Access your MBI Account
+description: Learn about signing into your MBI account.
 ---
+# Access your activated MBI account
 
 After you have activated your MBI account either for [on-premise](../getting-started/onpremise-activation.md) or [cloud](../getting-started/cloud-activation.md) and have worked with your Customer Success Manager to finalize the configuration steps, you can now sign in to your account.
 

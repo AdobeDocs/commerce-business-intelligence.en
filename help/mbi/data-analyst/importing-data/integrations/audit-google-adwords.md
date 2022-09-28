@@ -1,7 +1,8 @@
 ---
 title: Auditing Google Adwords data
-zendesk_id: 360016505832
+description: Learn the steps for exporting your Google Adwords data.
 ---
+# Audit Google Adwords data
 
 Found something strange in [Google Adwords](../integrations/google-adwords.md)? To pinpoint the issue, you will need to explore your data. This can be done by exporting your Adwords data to a CSV file.
 

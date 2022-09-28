@@ -1,7 +1,8 @@
 ---
-title: Common Magento Tables - customer_entity
-zendesk_id: 360016505052
+title: customer_entity table
+description: Learn how to access records of all registered accounts.
 ---
+# customer_entity Table
 
 The `customer_entity` table contains records of all registered accounts. An account is considered registered if they sign up for an account, regardless of whether or not they ever complete a purchase. Each row corresponds to one unique registered account, as identified by that account's `entity_id`.
 

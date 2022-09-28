@@ -1,9 +1,10 @@
 ---
 title: Expected Zendesk data
-zendesk_id: 360016733291
+description: Learn the main data tables that you can import from Zendesk into MBI, including links to additional documentation about Zendesk data.
 ---
+# Expected Zendesk data
 
-After [you have connected your Zendesk account](../integrations/zendesk.md), you can use the [Data Warehouse Manager](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) to easily track relevant data fields for analysis.
+After [you have connected your Zendesk account](../integrations/zendesk.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) to easily track relevant data fields for analysis.
 
 In this article, we explore the main data tables that you can import from Zendesk into MBI, including links to additional documentation about Zendesk data.
 

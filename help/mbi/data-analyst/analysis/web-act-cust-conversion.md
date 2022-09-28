@@ -1,7 +1,8 @@
 ---
 title: Analyzing Website Activity and Customer Conversion Rates
-zendesk_id: 360016506612
+description: Learn how to set up a dashboard that will track your website activity - including page views, sessions and users - as well as your customer conversion rate over time. 
 ---
+# Analyzing Website Activity
 
 MBI allows you to easily integrate your advertising cost data with the rest of your data. This not only enables you to understand your website activity, but empowers you to derive the percentage of visitors on your website that become a registered user or make a purchase.
 

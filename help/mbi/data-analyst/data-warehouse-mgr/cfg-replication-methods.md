@@ -1,7 +1,8 @@
 ---
 title: Configuring replication methods
-zendesk_id: 360016506232
+description: Learn how tables are organized, and how the table data behaves will allow you to choose the best replication method for your tables.
 ---
+# Configuring replication methods
 
 Replication methods and [rechecks](../data-warehouse-mgr/cfg-data-rechecks.md) are used to identify new or updated data in your database tables. Setting them correctly is crucial to ensuring both data accuracy and optimized update times. In this article, we will be focusing just on replication methods.
 

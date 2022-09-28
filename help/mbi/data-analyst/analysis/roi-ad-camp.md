@@ -1,7 +1,8 @@
 ---
 title: Increasing ROI on your advertising campaigns
-zendesk_id: 360016732971
+description: Learn about a few different methods of evaluating your campaign performance. 
 ---
+# Advertising Campaigns and ROI
 
 MBI allows you to easily [marry advertising cost data and revenue data](../data-analyst/importing-data/integrations/google-adwords.md) from your database. This will help you identify which campaigns have the highest ROI. In this article, we explore a few different methods of evaluating your campaign performance.
 

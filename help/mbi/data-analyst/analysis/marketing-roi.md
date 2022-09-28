@@ -1,10 +1,12 @@
 ---
 title: Marketing ROI
-zendesk_id: 360016506552
+description: Learn how to set up a dashboard that will track your channel analysis – including ROI in aggregate and by campaign. 
 ---
+# Marketing ROI
 
-{: .bs-callout-info}
-This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
+>[!NOTE]
+>
+>This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
 
 If you are spending money on online advertising, you will inevitably want to track your return on this spend and make data-driven decisions on further investments. In this article, we demonstrate how to set up a dashboard that will track your channel analysis – including ROI in aggregate and by campaign.
 

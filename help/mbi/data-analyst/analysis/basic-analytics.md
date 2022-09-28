@@ -1,7 +1,8 @@
 ---
-title: Understanding and building basic analytics
-zendesk_id: 360016503552
+title: Understand and build basic analytics
+description: Learn how to understand and build basics analytics. 
 ---
+# Basic Analytics
 
 Once you are familiar with the MBI platform and have a basic understanding of the tool, you are going to want to start building reports. One of the most common questions you may have is "What should I be looking at?"
 

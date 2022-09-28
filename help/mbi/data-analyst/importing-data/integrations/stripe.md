@@ -1,7 +1,8 @@
 ---
-title: Connecting Stripe
-zendesk_id: 360016733211
+title: Connect Stripe
+description: Learn how to manage and keep track of your business's payment and invoice data.
 ---
+# Connect Stripe
 
 >[!NOTE]
 >

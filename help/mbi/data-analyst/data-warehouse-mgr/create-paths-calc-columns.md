@@ -1,7 +1,8 @@
 ---
-title: Creating paths for calculated columns
-zendesk_id: 360016731471
+title: Create paths for calculated columns
+description: Learn how to define a path describing how the table you are creating a column on is related to the table you are pulling information from.
 ---
+# Create Paths for Calculated Columns
 
 When [creating calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) in your Data Warehouse, you will be asked to define a path describing how the table you are creating a column on is related to the table you are pulling information from. To successfully create a path, you need to know two things:
 

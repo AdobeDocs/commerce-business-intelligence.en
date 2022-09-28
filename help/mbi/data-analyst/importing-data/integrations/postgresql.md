@@ -1,7 +1,8 @@
 ---
-title: Connecting PostgreSQL
-zendesk_id: 360016506812
+title: Connect PostgreSQL via SSH Tunnel
+description: Learn how to connect your PostgreSQL database to MBI via an SSH tunnel.
 ---
+# Connect PostgreSQL via SSH Tunnel
 
 To connect your PostgreSQL database to MBI via an SSH tunnel, you (or your team, if you are not a techie) will need to do a few things:
 

@@ -1,7 +1,8 @@
 ---
-title: Understanding Results Between Database and SQL Editor
-zendesk_id: 360016729891
+title: Understand Results Between Database and SQL Editor
+description: Learn to understand results between database and SQL editor.
 ---
+# Database Results vs SQL Editor Results
 
 You may be curious what the _Last successful update began_ field is inside your Integrations page:
 

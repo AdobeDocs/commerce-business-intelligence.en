@@ -1,7 +1,8 @@
 ---
 title: Enterprise_Rma_Item_Entity Table
-zendesk_id: 360016730991
+description: Learn how analyze information about a specific item from a requested return.
 ---
+# enterprise_rma_item_entity Table
 
 Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_item_entity` in Magento 2.x, but the name can be customized) contains information about a specific item from a requested return. **Note:** _This table only comes standard with your Magento account if you are an Enterprise Edition or Enterprise Cloud Edition customer._
 

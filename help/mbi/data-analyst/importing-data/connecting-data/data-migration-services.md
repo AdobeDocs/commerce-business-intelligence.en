@@ -1,9 +1,10 @@
 ---
 title: Data migration services
-zendesk_id: 360016506112
+description: Learn everything you need to submit a request and get started on the migration.
 ---
+# Data Migration
 
-Migrating to a new database schema, server, or reporting database does not have to be stressful. Our **Magento Services - Analytics** team offers migration assistance: we do all the heavy lifting so you do not have to.
+Migrating to a new database schema, server, or reporting database does not have to be stressful. Our **Magento Services - Analytics** team offers migration assistance - we do all the heavy lifting so you do not have to.
 
 To ensure your transition is as smooth as possible, we ask that you be as detailed as possible when submitting your migration request. In this article is everything you need to submit a request and get started on the migration. Providing us with a comprehensive picture of your needs will guarantee that your project is scoped properly and that the estimate is accurate.
 

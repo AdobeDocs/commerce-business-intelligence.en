@@ -1,7 +1,8 @@
 ---
-title: Connecting Google Analytics
-zendesk_id: 360016732851
+title: Connect Google Analytics
+description: Learn to connect Google Analytics with MBI.
 ---
+# Connect Google Analytics
 
 >[!NOTE]
 >

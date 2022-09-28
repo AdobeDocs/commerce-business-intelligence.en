@@ -1,9 +1,10 @@
 ---
 title: Analyzing coupon usage
-zendesk_id: 360016504372
+description: Learn how to analyzing coupon usage on acquiring and retaining customers. 
 ---
+# Coupon Usage
 
-Ever wonder how offering coupons affects your business? Want to know which coupons are helping or hurting performance? In this article, we explore analyses that give you a good picture of your customers' coupon usage by answering these questions:
+Do you ever wonder how offering coupons affects your business? Want to know which coupons are helping or hurting performance? In this article, we explore analyses that give you a good picture of your customers' coupon usage by answering these questions:
 
 * How many customers are using coupons?
 * How many coupons are being used?

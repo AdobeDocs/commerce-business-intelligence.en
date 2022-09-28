@@ -1,7 +1,8 @@
 ---
 title: Replicating Google Analytics channels using acquisition sources
-zendesk_id: 360016731911
+description: Learn how to replicate Google Analytics channels using acquisition sources.
 ---
+# Google Analytics using Acquisition Sources
 
 ## What are Channels? {#channels}
 

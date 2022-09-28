@@ -1,7 +1,8 @@
 ---
-title: UTM Tagging in Google Analytics
-zendesk_id: 360016731311
+title: UTM Tracking in Google Analytics
+description: Learn about best practices for UTM tracking (tagging) in Google Analytics. 
 ---
+# UTM Tracking
 
 UTM tracking is a tagging convention for URLs that let you analyze where your users are coming from. If you look on the URLs you click from most marketing email or banner ads, you will see UTM tagging. It is those long links that end with things like `utm\_source` and `utm\_medium`.
 

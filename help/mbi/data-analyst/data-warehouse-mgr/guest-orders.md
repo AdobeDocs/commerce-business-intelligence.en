@@ -1,7 +1,8 @@
 ---
-title: Does your store accept guest orders?
-zendesk_id: 360016503492
+title: Guest orders
+description: Learn about the impact guest orders have on your data and what options you have to properly account for guest orders in your MBI data warehouse.
 ---
+# Guest Orders
 
 While reviewing your orders, if you notice that many **customer\_id** values are null or do not have a value to join back to the **customers** table, this is usually indicative that your store allows guest orders. This means that your **customers** table is most likely not inclusive of all of your customers.
 

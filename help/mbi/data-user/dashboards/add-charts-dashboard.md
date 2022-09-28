@@ -1,7 +1,8 @@
 ---
-title: Adding Charts to Dashboards
-zendesk_id: 360016506152
+title: Add Charts to Dashboards
+description: Learn how to add charts to dashboards using the Add Report function.
 ---
+# Add Charts to Dashboards
 
 Existing charts can be added to dashboards using the **Add Report** button in the top-right area of the screen. The same chart can be added to multiple dashboards, meaning if the chart is edited, all dashboards with this chart will reflect the change.
 

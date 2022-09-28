@@ -1,12 +1,14 @@
 ---
-title: Common Magento Tables - quote
-zendesk_id: 360016503372
+title: quote table
+description: Learn how to work with the quote table.
 ---
+# quote Table
 
 The `quote` table (`sales_flat_quote` on M1) contains records on every shopping cart created in your store, whether they were abandoned or converted to a purchase. Each row represents one cart. Due to the potential size of this table, we recommend you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
 
-{: .bs-callout-info}
-Analyzing historical abandoned carts is only possible if you do not delete records from the `quote` table. If you do delete records, you will only be able to see the carts not yet removed from your database.
+>[!NOTE]
+>
+>Analyzing historical abandoned carts is only possible if you do not delete records from the `quote` table. If you do delete records, you will only be able to see the carts not yet removed from your database.
 
 ### Common Native Columns
 

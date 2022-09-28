@@ -1,7 +1,8 @@
 ---
 title: Expected Google ECommerce data
-zendesk_id: 360016504332
+description: Learn what types of data is shared with Google ECommerce.
 ---
+# Expected Google ECommerce data
 
 After your Google ECommerce account is successfully connected to MBI, the system will start importing data into a table titled **ecommerce.**. This table will record a data row for each transaction. This includes the following order-level data columns:
 

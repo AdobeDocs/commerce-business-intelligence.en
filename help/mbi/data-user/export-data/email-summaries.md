@@ -1,7 +1,8 @@
 ---
-title: Creating automated email summaries
-zendesk_id: 360016730911
+title: Create automated email summaries
+description: Learn how to create automated email summaries.
 ---
+# Create automated email summaries
 
 Email summaries are a powerful communication tool you can use to share the current status and trends of your business with key stakeholders. With email summaries you can:
 

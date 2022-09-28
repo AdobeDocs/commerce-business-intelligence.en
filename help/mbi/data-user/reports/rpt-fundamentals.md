@@ -1,7 +1,8 @@
 ---
-title: Using Reports
-zendesk_id: 360016504552
+title: Use a Reports
+description: Learn how to use your report data.
 ---
+# Use a report
 
 Use reports in MBI to help you answer business questions - whether you simply want to see this month's revenue compared to last year or understand your acquisition costs for your latest AdWords campaign.
 

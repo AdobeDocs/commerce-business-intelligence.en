@@ -1,7 +1,8 @@
 ---
-title: Creating Visualizations from SQL Queries
-zendesk_id: 360016504852
+title: Create Visualizations from SQL Queries
+description: Learn to familiarize you with the terminology used in the SQL Report Builder and give you a solid foundation for creating SQL visualizations.
 ---
+# Create Visualizations from SQL Queries
 
 The goal for this tutorial is to familiarize you with the terminology used in the SQL Report Builder and give you a solid foundation for creating SQL visualizations.
 

@@ -1,7 +1,8 @@
 ---
 title: Calculated Column Types
-zendesk_id: 360016504972
+description: Learn how to create columns to augment and optimize your data for analysis.
 ---
+# Calculated Column Types
 
 * [Same table calculations](../#sametable)
 * [One to many calculations](../#onetomany)

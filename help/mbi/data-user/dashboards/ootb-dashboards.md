@@ -1,7 +1,8 @@
 ---
 title: Included Dashboards
-zendesk_id: 360016505292
+description: Learn how to check on the health of essential metrics such as user lifetime revenue, number of repeat purchases, and more, thus creating a solid foundation for future exploration.
 ---
+# Included dashboards
 
 As part of our services, we offer eCommerce and SaaS Starter Packages. These packages, created by our analysts, contain a customized set of dashboards and reports for your dataset. The analyses contained in these packages let you check on the health of essential metrics such as user lifetime revenue, number of repeat purchases, and more, thus creating a solid foundation for future exploration.
 

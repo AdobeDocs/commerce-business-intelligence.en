@@ -1,7 +1,8 @@
 ---
 title: Expected Google Analytics Warehoused Data
-zendesk_id: 360016729671
+description: Learn to interact with your Google Analytics warehoused data.
 ---
+# Expected Google Analytics Warehoused Data
 
 >[!NOTE]
 >
@@ -9,20 +10,20 @@ zendesk_id: 360016729671
 
 **Some information was used with permission from our friends at [Stitch](https://www.stitchdata.com/docs/integrations/saas/google-analytics).**
 
-Google Analytics Warehoused integration in MBI utilizes the GA [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
+Google Analytics Warehoused integration in MBI utilizes the Google Analytics [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
 
 >[!NOTE]
 >
 >To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with the metric(s) you use in the Report Builder. You can check [here](https://developers.google.com/analytics/devguides/reporting/core/dimsmets).
 
-A single table - called `report`{: class=""} - will be created in your Data Warehouse.
+A single table - called `report` - will be created in your Data Warehouse.
 
-The schema of this table will be composed of the Metrics and Dimensions you selected during the setup process and two other columns:` start-date`{: class=""} and `end-date`{: class=""}.
+The schema of this table will be composed of the Metrics and Dimensions you selected during the setup process and two other columns:` start-date` and `end-date`.
 
 If, for example, you selected the following Metrics and Dimensions during setup:
 
-* **Metrics**\: `ga:users`{: class=""}
-* **Dimensions**\: `ga:month`{: class=""}
+* **Metrics**\: `ga:users`
+* **Dimensions**\: `ga:month`
 
 The table would look like the example below.
 

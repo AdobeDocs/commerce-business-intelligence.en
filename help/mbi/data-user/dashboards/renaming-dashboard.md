@@ -1,7 +1,8 @@
 ---
 title: Renaming Dashboards
-zendesk_id: 360016505512
+description: Learn how to remove a chart from a dashboard.
 ---
+# Remove a chart from a dashboard
 
 >[!NOTE]
 >
@@ -11,11 +12,11 @@ Sometimes names just no longer fit. Renaming a dashboard is quick and easy.
 
 1. While in the dashboard, click the **Dashboard Options** menu at the top of the screen, located next to the _Global Search_ menu.
 
-1. Click the **Rename** option in the dropdown.
+1. Click **Rename** in the dropdown.
 
 1. When prompted, enter the new name for your dashboard.
 
-1. Click the **Save Changes** button.
+1. Click **Save Changes**.
 
 Example:
 

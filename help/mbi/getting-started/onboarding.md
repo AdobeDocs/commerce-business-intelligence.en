@@ -1,7 +1,8 @@
 ---
-title: Onboarding Questions
-zendesk_id: 360016503352
+title: Onboarding
+description: Learn about onboarding.
 ---
+# Onboarding
 
 The onboarding questions related to **store** and **database settings** ensure that we set up your reporting correctly. With these answers, we will deliver your reports that are precisely tailored to your store's setup.
 

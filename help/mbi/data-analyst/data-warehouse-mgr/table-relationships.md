@@ -1,7 +1,8 @@
 ---
-title: Understanding and Evaluating Table Relationships
-zendesk_Id: 360016505812
+title: Understand and Evaluate Table Relationships
+description: Learn how to understand how many possible occurrences in one table could belong to an entity in another, and vice versa.
 ---
+# Understand and Evaluate Table Relationships
 
 When assessing the relationship between two given tables, you need to understand how many possible occurrences in one table could belong to an entity in another, and vice versa. For example, Let us use a **users** table and an **orders** table. In this case, you want to know how many **orders** a given **user** has placed and how many possible **users** an **order** could belong to.
 

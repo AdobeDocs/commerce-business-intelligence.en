@@ -1,7 +1,8 @@
 ---
 title: Formatting and importing eCommerce data
-zendesk_id: 360016505752
+description: Learn the ideal data formats to be used for uploading eCommerce data.
 ---
+# Formatting and Importing Data
 
 If you are using an integration not currently supported by MBI, you can still use the [File Upload feature](using-file-uploader.md) to get your data into your data warehouse. In this article, we go over the ideal data formats to be used for uploading eCommerce data.
 

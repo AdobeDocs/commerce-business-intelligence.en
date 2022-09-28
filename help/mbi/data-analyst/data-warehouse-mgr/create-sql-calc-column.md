@@ -1,7 +1,8 @@
 ---
 title: Creating and Using a SQL Calculated Column
-zendesk_id: 360016729631
+description: Learn how advanced columns can be created in the form of SQL Calculation columns on the new MBI architecture.
 ---
+# Create a SQL Calculated Column
 
 This topic outlines the purpose and uses of the **Calculation** column type that can be added to tables using the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md). Below is an explanation of what SQL calculations do, why they are used, the process for creating a SQL calculation, and two examples.
 

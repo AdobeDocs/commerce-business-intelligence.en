@@ -1,7 +1,8 @@
 ---
-title: Configuring data rechecks
-zendesk_id: 360016506452
+title: Configuring Data Checks
+description: Learn how to configure data columns with changeable values.
 ---
+# Configuring Data Checks
 
 In a database table, there can be data columns with changeable values. For example, in an _orders)_ table there might be a column called **status**. When an order is initially written to the database, the status column might contain the value _pending_. The order will then be replicated in your [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) with this _pending_ value.
 

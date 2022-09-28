@@ -1,7 +1,8 @@
 ---
 title: Introduction
-zendesk_id: 360005150814
+description: Learn about MBI.
 ---
+# Introduction
 
 MBI is a cloud-based data management and analytics platform. MBI provides you with the ability to easily consolidate and manage your data sources, model your data, create charts and reports, and maintain a single source of truth.
 

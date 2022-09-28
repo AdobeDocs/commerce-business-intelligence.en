@@ -1,7 +1,8 @@
 ---
-title: Using Dashboard Groups
-zendesk_id: 360016503072
+title: Use Dashboard Groups
+description: Learn how to allow better organization of dashboards.
 ---
+# Use dashboard groups
 
 Dashboard groups allow better organization of dashboards. The most common use case is to group similar dashboards under the same "group". For example, all dashboards related to marketing could be grouped together under a dashboard group "Marketing".
 

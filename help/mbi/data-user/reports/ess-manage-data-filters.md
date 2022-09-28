@@ -1,7 +1,8 @@
 ---
-title: Creating filter sets for metrics
-zendesk_id: 360016505492
+title: Create filter sets for metrics
+description: Learn how to create saved Filter Sets and apply them to the metrics.
 ---
+# Create filter sets
 
 If you have multiple metrics in MBI that need to be filtered in a similar way (e.g., filter out test orders), you can create saved Filter Sets and apply them to the metrics. This saves you time as you do not have to add individual filters when creating or editing a metric.
 

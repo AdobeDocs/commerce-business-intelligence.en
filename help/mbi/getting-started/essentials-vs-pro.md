@@ -1,7 +1,8 @@
 ---
 title: MBI Essentials vs. Pro
-zendesk_id: 360016502872
+description: Learn how MBI Essentials differs from MBI Pro.
 ---
+# MBI Essentials vs MBI Pro
 
 >[!NOTE]
 >

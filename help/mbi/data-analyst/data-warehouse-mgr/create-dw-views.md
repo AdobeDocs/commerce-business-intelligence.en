@@ -1,7 +1,8 @@
 ---
-title: Creating and Using Data Warehouse Views
-zendesk_id: 360016503132
+title: Create and Use Data Warehouse Views
+description: Learn about a method of creating new warehoused tables by modifying an existing table, or joining or consolidating multiple tables together through the use of SQL.
 ---
+# Working with Data Warehouse Views
 
 This document outlines the purpose and uses of _Data Warehouse Views_ accessible by navigating to **Manage Data** > **Data Warehouse Views**. Below is an explanation of what it does and how to create new views, as well as an example of how to use _Data Warehouse Views_ to consolidate Facebook and AdWords spend data.
 

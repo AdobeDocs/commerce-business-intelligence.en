@@ -1,7 +1,8 @@
 ---
-title: Connecting Google Adwords
-zendesk_id: 360016732531
+title: Connect Google Adwords
+description: Learn to measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV) of users acquired from your campaigns.
 ---
+# Connect Google Adwords
 
 >[!NOTE]
 >

@@ -1,7 +1,8 @@
 ---
-title: Modifying Your Database to Support Incremental Replication
-zendesk_id: 360016730651
+title: Modifying Your Database to Support for Incremental Replication
+description: Learn how to modify your database to support incremental replication. 
 ---
+# Support for Incremental Replication
 
 If your tables currently do not allow for incremental replication, refer to the following recommendations for possible solutions.
 

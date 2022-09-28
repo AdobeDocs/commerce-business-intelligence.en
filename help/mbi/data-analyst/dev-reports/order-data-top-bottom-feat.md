@@ -1,7 +1,8 @@
 ---
-title: Ordering data using the Show Top/Bottom feature
-zendesk_id: 360016504932
+title: Order data using the Show Top/Bottom feature
+description: Learn how to order your data using the Show Top/Bottom feature.
 ---
+# Ordering Data using Show Top/Bottom feature
 
 You can do more in the Visual Report Builder than create analyses that trend over time. For example, you can build a report to show how valuable your acquisition and marketing channels are, but you can also build a report that shows only the top five performers. Similarly, you can refocus your marketing efforts by creating a report that shows you which states generate the most revenue.
 

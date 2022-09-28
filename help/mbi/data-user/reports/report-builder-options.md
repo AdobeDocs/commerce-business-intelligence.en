@@ -1,7 +1,8 @@
 ---
-title: Which Report Builder should I use?
-zendesk_id: 360016503932
+title: Choose a report builder
+description: Learn how to choose your report builder.
 ---
+# Choose a report builder
 
 >[!NOTE]
 >

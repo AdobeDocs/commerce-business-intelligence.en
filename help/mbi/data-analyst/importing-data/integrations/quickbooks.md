@@ -1,7 +1,8 @@
 ---
-title: Connecting QuickBooks
-zendesk_id: 360016504252
+title: Connect QuickBooks
+description: Learn how your business finances can now live along side your sales and marketing data, allowing you to quickly and easily keep tabs on your expenses, identify overspending, and more.
 ---
+# Connect QuickBooks
 
 >[!NOTE]
 >

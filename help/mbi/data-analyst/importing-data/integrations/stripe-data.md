@@ -1,7 +1,8 @@
 ---
 title: Expected Stripe data
-zendesk_id: 360016507452
+description: Explore the main data tables that you can import from Stripe into MBI.
 ---
+# Expected Stripe data
 
 After [you have connected your Stripe account](../integrations/stripe.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
 

@@ -1,7 +1,8 @@
 ---
 title: Expected QuickBooks data
-zendesk_id: 360016730671
+description: Learn how to to easily track relevant data fields for analysis.
 ---
+# Expected QuickBooks data
 
 ![](../../assets/Quickbooks.png)
 

@@ -1,7 +1,8 @@
 ---
 title: New Architecture
-zendesk_id: 360016503052
+description: Learn about the benefits of moving to new architecture.
 ---
+# New Architecture
 
 Our Product and Engineering teams have been focused on making the most sweeping, highly-requested improvements possible for the last year. We are thrilled to announce the availability of a new MBI product architecture that makes these improvements a reality.
 

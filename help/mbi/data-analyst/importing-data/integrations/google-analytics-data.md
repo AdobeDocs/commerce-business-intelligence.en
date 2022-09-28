@@ -1,7 +1,8 @@
 ---
 title: Expected Google Analytics data
-zendesk_id: 360016729751
+description: Learn to interact with your Google Analytics metrics.
 ---
+# Expected Google Analytics data
 
 After you have connected a Google Analytics integration, you can interact with your Google Analytics metrics **immediately in the Visual Report Builder.** When you enter the Visual Report Builder, if you click **Add a Metric**, a series of metrics from your Google Analytics profile(s) will appear in a dropdown immediately beneath the metrics in your data warehouse.
 

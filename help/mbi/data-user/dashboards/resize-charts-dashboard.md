@@ -1,7 +1,8 @@
 ---
-title: Resizing and Rearranging Charts in a Dashboard
-zendesk_id: 360016732791
+title: Resize and Rearrange Charts in a Dashboard
+description: Learn how you can resize and rearrange charts to create your ideal workspace.
 ---
+# Working with charts in dashboards
 
 Scalar numbers. Bar graphs. Charts extending over long periods. Every chart displays information differently, meaning the size and location of charts is not a one-size-fits-all solution. In MBI, you can resize and rearrange charts to create your ideal workspace.
 

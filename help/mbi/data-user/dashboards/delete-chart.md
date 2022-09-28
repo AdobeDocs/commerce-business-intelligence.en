@@ -1,21 +1,26 @@
 ---
-title: Permanently deleting a chart
-zendesk_id: 360016732891
+title: Permanently delete a chart
+description: Learn how to permanently delete a chart.
 ---
+# Permanently delete a chart
 
-Even if you [remove a chart from the dashboard](../../data-user/dashboards/remove-charts-dashboard.md){: target="_blank"}, it still exists in your MBI account. To permanently delete a chart:
+Even if you [remove a chart from the dashboard](../../data-user/dashboards/remove-charts-dashboard.md), it still exists in your MBI account. 
 
-1. Click the **Account Settings** tab in the sidebar.
+To permanently delete a chart:
 
-1. Click the **Charts** option.
+1. Click **Account Settings** in the sidebar.
+
+1. Click **Charts**.
 
 1. The charts you have the ability to delete (based on user permissions and chart ownership) will display on the right side of the screen.
 
 1. Click the checkbox next to the chart you want to delete.
 
-1. Click the **Delete Selected** button.
+1. Click **Delete Selected**.
 
-   **Note**: If the chart is being used in a dashboard, email summary, etc., a notification will display. To continue, you must confirm the deletion and then click the **Force Deletion** button.
+   >[!NOTE]
+   >
+   >If the chart is being used in a dashboard, email summary, etc., a notification will display. To continue, you must confirm the deletion and then click the **Force Deletion** button.
 
 Example:
 

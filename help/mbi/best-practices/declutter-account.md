@@ -1,7 +1,8 @@
 ---
 title: Decluttering your MBI Account
-zendesk_id: 360016730171
+description: Learn how to clean up your MBI account. 
 ---
+# Clean up your MBI Account
 
 Whether you have been with MBI for 6 months or 6 years, maintaining a tidy account is paramount to your organization getting the most out of the platform. Over time, it is natural for there to be users, dashboards, reports, metrics, and columns that are no longer needed. Perhaps you created a report for one-time use and forgot about it, or a user who left your company never had his or her account deactivated.
 

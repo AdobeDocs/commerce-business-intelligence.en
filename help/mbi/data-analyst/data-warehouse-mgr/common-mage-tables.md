@@ -1,7 +1,8 @@
 ---
 title: Common Magento Tables
-zendesk_id: 360016504772
+description: Learn about some of the more common tables that MBI customers utilize.
 ---
+# Common Magento Tables
 
 When you first [connect a Magento instance to MBI](../importing-data/integrations/magento.md), MBI automatically replicates data from some of your commerce tables (typically 4-6 tables) in order to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
 

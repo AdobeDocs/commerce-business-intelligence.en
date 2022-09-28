@@ -1,7 +1,8 @@
 ---
-title: Connecting MongoDB via SSH tunnel
-zendesk_id: 360016732571
+title: Connect MongoDB via SSH tunnel
+description: Learn how to connect MongoDB via SSH tunnel.
 ---
+# Connect MongoDB via SSH Tunnel 
 
 
 To connect your MongoDB database to MBI via an SSH tunnel, you (or your team, if you are not a techie) will need to do a few things:

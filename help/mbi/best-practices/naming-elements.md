@@ -1,7 +1,8 @@
 ---
-title: Best practices for naming reports and elements in MBI
-zendesk_id: 360016505772
+title: Name reports and elements in MBI
+description: Learn best practices for naming reports and elements in MBI. 
 ---
+# Name reports and elements
 
 Before you get started building in MBI, we want to share some of our secrets to success. Knowing how to create metrics, filters, and so on is important, but all that work will be for naught if you cannot find what you need or if tHere is any ambiguity.
 

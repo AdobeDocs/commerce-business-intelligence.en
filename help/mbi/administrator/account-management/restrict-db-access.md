@@ -1,9 +1,10 @@
 ---
-title: Restricting access to your database
-zendesk_id: 360016732111
+title: Restricting Access to your Database
+description: Learn how you can restrict access, limiting access to the server that houses your database.
 ---
+# Restrict Access
 
-When we create an SSH tunnel to your server, tHere is no need for MBI to have access to anything but the database. If you do not want MBI to have full access to the server that houses your database, you can restrict access by forcing the MBI Linux user into a [restricted bash shell](https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html).
+When we create an SSH tunnel to your server, there is no need for MBI to have access to anything but the database. If you do not want MBI to have full access to the server that houses your database, you can restrict access by forcing the MBI Linux user into a [restricted bash shell](https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html).
 
 You may have guessed from the name, but a restricted bash shell is used to set up an environment more controlled than the standard shell. The important thing about this type of shell is that restricted shell users cannot access system functions or make any kind of modifications.
 

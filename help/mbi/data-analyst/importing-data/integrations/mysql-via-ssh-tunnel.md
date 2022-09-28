@@ -1,7 +1,8 @@
 ---
 title: Connecting MySQL via SSH tunnel
-zendesk_id: 360016506672
+description: Learn how to connect MySQL via SSH Tunnel.
 ---
+# Connect MySQL via SSH Tunnel
 
 * [Retrieve the MBI public key](../#retrieve)
 * [Allow access to the MBI IP address](../#allowlist)

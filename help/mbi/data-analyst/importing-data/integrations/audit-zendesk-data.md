@@ -1,7 +1,8 @@
 ---
-title: Auditing Zendesk data
-zendesk_id: 360016506272
+title: Audit Zendesk data
+description: Learn the steps for exporting your Zendesk data.
 ---
+# Audit Zendesk data
 
 Found something strange in your [Zendesk data](../integrations/exp-zendesk-data.md)? To pinpoint the issue, we need to explore your data. This can be done by exporting your Zendesk data to a downloadable file.
 

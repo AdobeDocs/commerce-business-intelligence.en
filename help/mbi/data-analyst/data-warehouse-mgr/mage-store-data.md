@@ -1,9 +1,10 @@
 ---
-title: How Magento Stores Data
-zendesk_id: 360016731051
+title: Storing Data
+description: Learn how data is generated, what exactly causes a new row to be inserted into one of the Core Magento Tables, and how are actions such as making a purchase or creating an account recorded into the Magento database.
 ---
+# Storing Data
 
-The Magento Commerce platform records and organizes a wide variety of valuable commerce data across hundreds of tables. In this topic, you will learn how that data is generated, what exactly causes a new row to be inserted into one of the [Core Magento Tables](../data-warehouse-mgr/common-mage-tables.md), and how are actions such as making a purchase or creating an account recorded into the Magento database. To explain these concepts, refer to the following example:
+The Commerce platform records and organizes a wide variety of valuable commerce data across hundreds of tables. In this topic, you will learn how that data is generated, what exactly causes a new row to be inserted into one of the [Core Magento Tables](../data-warehouse-mgr/common-mage-tables.md), and how are actions such as making a purchase or creating an account recorded into the Magento database. To explain these concepts, refer to the following example:
 
 _Clothes4U_ is a clothing retailer with both an online, and a brick and mortar presence. It uses Magento Community Edition behind its website to gather and organize data.
 

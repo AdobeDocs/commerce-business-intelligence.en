@@ -1,7 +1,8 @@
 ---
-title: Sharing dashboards organization-wide
-zendesk_id: 360016731591
+title: Share dashboards organization-wide
+description: Learn how to ensure that every user has access to essential business dashboards in MBI.
 ---
+# Share dashboards organization-wide
 
 It is easy to ensure that every user has access to essential business dashboards in MBI. Universal dashboard sharing facilitates increased collaboration and transparency throughout your organization by providing a single "source of truth".
 

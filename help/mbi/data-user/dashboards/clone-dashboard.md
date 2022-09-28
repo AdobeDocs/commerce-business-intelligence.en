@@ -1,7 +1,8 @@
 ---
-title: Cloning dashboards
-zendesk_id: 360016506792
+title: Clone dashboards
+description: Learn how to clone dashboards.
 ---
+# Clone a Dashboard
 
 Cloning a dashboard allows you to copy all reports in a dashboard into a new dashboard.
 

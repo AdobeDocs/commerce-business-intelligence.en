@@ -1,7 +1,8 @@
 ---
 title: Using the SQL Report Builder
-zendesk_id: 360016504112
+description: Learn the ins and outs of using the SQL Report Builder.
 ---
+# Using SQL Report Builder 
 
 >[!NOTE]
 >

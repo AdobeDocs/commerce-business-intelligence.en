@@ -1,10 +1,12 @@
 ---
-title: Year-over-year, month-over-month, week-over-week
-zendesk_id: 360016506952
+title: Yearly, Monthly, and Weekly Reports
+description: Learn how to easily see trends over time and change perspective for time periods you may want to compare. 
 ---
+# Reporting over Time Periods
 
-{: .bs-callout-info}
-This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the _Data Warehouse Views_ section available after selecting _Manage Data_ from the main toolbar.
+>[!NOTE]
+>
+>This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the _Data Warehouse Views_ section available after selecting _Manage Data_ from the main toolbar.
 
 The report builder allows you to easily see trends over time and change perspective for time periods you may want to compare. In this article, we will demonstrate how to set up a dashboard to go a level deeper to allow you to create reports for week over week, month over month and year over year analysis.
 

@@ -1,7 +1,8 @@
 ---
-title: Displaying your dashboards on screens around the office
-zendesk_id: 360016729791
+title: Displaying dashboards on multiple screens
+description: Learn how to display your dashboards around the office.
 ---
+# Display Dashboards around the office
 
 For MBI users who are interested in displaying their dashboards and reports on screens throughout the office, there are a number of hardware options that can easily enable this setup.
 

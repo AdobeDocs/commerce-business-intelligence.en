@@ -1,7 +1,8 @@
 ---
 title: Recommended Data Dimensions for Segmentation and Filtering
-zendesk_id: 360016505272
+description: Learn about best practices for segmentation and filtering. 
 ---
+# Segmentation and Filtering
 
 Good segmentation is what turns a superficial statistic into a business metric that drives decisions.
 

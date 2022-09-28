@@ -1,7 +1,8 @@
 ---
 title: Expected Google Adwords data
-zendesk_id: 360016506252
+description: Learn how you can use the Data Warehouse Manager to easily track relevant data fields for analysis.
 ---
+# Expected Google Adwords data
 
 After [you have connected your Google Adwords account](../integrations/google-adwords.md), you can use the [Data Warehouse Manager](../../data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 

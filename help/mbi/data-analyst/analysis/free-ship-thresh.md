@@ -1,10 +1,12 @@
 ---
 title: Free shipping threshold
-zendesk_id: 360016732291
+description: Learn how to how to set up a dashboard that will track the performance of your free shipping threshold. 
 ---
+# Free Shipping
 
-{: .bs-callout-info}
-This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the new architecture if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
+>[!NOTE]
+>
+>This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the new architecture if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
 
 In this article, we demonstrate how to set up a dashboard that will track the performance of your free shipping threshold. This dashboard, shown below, is a great way to A/B test two different free shipping thresholds. For example, your company might be unsure whether you should offer free shipping at $50 or $100. You should perform an A/B test of two random subsets of your customers, and perform the analysis in MBI.
 

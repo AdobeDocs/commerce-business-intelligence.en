@@ -1,7 +1,8 @@
 ---
 title: Visualization Options in the Visual Report Builder
-zendesk_id: 360016729611
+description: Learn how to use the Visualization options in the Visual Report Builder.
 ---
+# Visualization Options
 
 Selecting the right visualization for a given data set is a critical piece of the analytical process. Every data set has a story to tell, but the effect of that story is emphasized by its visual impact and readability.
 

@@ -1,7 +1,8 @@
 ---
-title: Connecting Google ECommerce
-zendesk_id: 360016732951
+title: Connect Google ECommerce
+description: Learn about your most valued referral channels.
 ---
+# Connect Google ECommerce
 
 >[!NOTE]
 >

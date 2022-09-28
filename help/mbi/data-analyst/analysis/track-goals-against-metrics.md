@@ -1,7 +1,8 @@
 ---
-title: Tracking Goals Against Actual Metrics
-zendesk_id: 360016506172
+title: Tracking Goals Against Metrics
+description: Learn how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. 
 ---
+# Tracking Goals Against Performance Metrics
 
 A large majority of our clients often would like to track their **business goals**, but do not realize this is possible in MBI. In this article, we demonstrate how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. We also show you how to compare year over year performance, all in a dashboard like this:
 

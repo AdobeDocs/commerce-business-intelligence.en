@@ -1,7 +1,8 @@
 ---
-title: Differences in Columns Between SQL and Data Warehouse Manager
-zendesk_id: 360016506212
+title: Differences Between SQL and Data Warehouse Manager
+description: Learn the differences between SQL and Data Warehouse Manager.
 ---
+# Differences Between SQL and Data Warehouse Manager
 
 There are two key differences between columns created in the [SQL Report Builder](../dev-reports/sql-rpt-bldr.md) and those created using the [Data Warehouse Manager](../data-warehouse-mgr/creating-calculated-columns.md): one is the dependency on update cycles, the other is how columns are saved in your account.
 

@@ -1,7 +1,8 @@
 ---
 title: Reporting on a retail calendar
-zendesk_id: 360016729771
+description: Learn how to set up the structure to use a 4-5-4 retail calendar within your MBI account. 
 ---
+# Reporting on a Retail Calendar
 
 In this article, we demonstrate how to set up the structure to use a [4-5-4 retail calendar](https://nrf.com/resources/4-5-4-calendar) within your MBI account. The visual report builder provides incredibly flexible time ranges, intervals and independent settings. Our team is also able to help you change the start day of the week to align with your business preferences. However, all of these settings work with the traditional monthly calendar in place.
 

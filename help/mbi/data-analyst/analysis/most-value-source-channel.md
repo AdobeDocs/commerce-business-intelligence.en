@@ -1,7 +1,8 @@
 ---
 title: Identifying Your Most Valuable Marketing Sources and Channels
-zendesk_id: 360016732991
+description: Learn about some reports that you can use to uncover your most valuable marketing channels. 
 ---
+# Identify Successful Marketing Sources
 
 You researched your audience, you created your campaign, you invested in a few marketing channels. Now that some time has passed, how are those channels performing? What channel has brought in the most new users? What source has contributed the most to your total revenue?
 

@@ -1,7 +1,8 @@
 ---
 title: Connecting MySQL via a direct connection
-zendesk_id: 360016506312
+description: Learn how to connect MongoDB via direct connection.
 ---
+# Connect MongoDB via direct connection
 
 ## IN THIS ARTICLE
 

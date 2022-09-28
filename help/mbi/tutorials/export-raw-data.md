@@ -1,7 +1,8 @@
 ---
-title: Exporting Raw Data
-zendesk_id: 360016505532
+title: Export Raw Data
+description: Learn to export records from your MBI Data Warehouse to get a closer look at what is powering your dashboard.
 ---
+# Export Raw Data
 
 Using raw data exports, you can export records from your MBI Data Warehouse to get a closer look at what is powering your dashboard. Additionally, raw data exports can help you [pinpoint data discrepancies](https://support.magento.com/hc/en-us/articles/360016730631).
 

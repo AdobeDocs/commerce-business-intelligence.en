@@ -1,7 +1,8 @@
 ---
-title: Connecting Mixpanel
-zendesk_id: 360016733071
+title: Connect Mixpanel
+description: Learn how to analyze how users navigate and utilize your websites and apps.
 ---
+# Connect Mixpanel 
 
 >[!NOTE]
 >

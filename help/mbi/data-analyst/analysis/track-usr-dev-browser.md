@@ -1,7 +1,8 @@
 ---
 title: Google Analytics - Track user device and browser data in your database
-zendesk_id: 360016732911
+description: Learn  how many users are actually logging in via mobile devices and how that affects the lifetime value of those users. 
 ---
+# Google Analytics Tracking
 
 With Google Analytics you can [save referral source information](../analysis/google-track-user-acq.md) to understand where your most valuable users are coming from. In this topic, you will learn about the platform (device, browser, etc.) your users are working on. With this, you will be able to understand how many users are actually logging in via mobile devices and how that affects the lifetime value of those users.
 

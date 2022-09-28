@@ -1,7 +1,8 @@
 ---
 title: Translating SQL queries into MBI reports
-zendesk_id: 360016506772
+description: Learn how SQL queries are translated into the calculated columns, metrics you use in MBI.
 ---
+# Translate SQL queries in MBI
 
 Ever wondered how SQL queries are translated into the [calculated columns](../data-warehouse-mgr/creating-calculated-columns.md), [metrics](../../data-user/reports/ess-manage-data-metrics.md), and [reports](../../tutorials/using-visual-report-builder.md) you use in MBI? If you are a heavy SQL user, understanding how SQL is translated in MBI will enable you to work smarter in the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) and get the most out of the MBI platform.
 

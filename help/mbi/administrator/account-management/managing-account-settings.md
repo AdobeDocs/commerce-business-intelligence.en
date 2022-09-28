@@ -1,7 +1,8 @@
 ---
-title: Managing your account settings
-zendesk_id: 360016729811
+title: Manage your account settings
+description: Learn how to customize a number of account settings for your data warehouse.
 ---
+# Customizing your account settings
 
 >[!NOTE]
 >

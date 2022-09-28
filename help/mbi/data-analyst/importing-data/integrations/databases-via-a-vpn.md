@@ -1,7 +1,8 @@
 ---
-title: Connecting databases via a VPN
-zendesk_id: 360016504992
+title: Connect databases via VPN
+description: Learn how to connect databases via VPN instead of SSH Tunnel.
 ---
+# Connect databases via VPN
 
 While we recommend you connect your databases using an SSH tunnel, you can also use an encrypted VPN connection to keep things secure. A VPN can be used for any of our database integrations and, to keep things simple, the process is just about the same as setting up an SSH tunnel:
 

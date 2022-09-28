@@ -1,7 +1,8 @@
 ---
 title: Coupon Code Analysis (basic)
-zendesk_id: 360016729731
+description: Learn about the coupon performance of your business is an interesting way to segment your orders and better understand customer habits. 
 ---
+# Basic Coupon Code Analysis
 
 Understanding the coupon performance of your business is an interesting way to segment your orders and better understand customer habits.
 
@@ -13,7 +14,7 @@ We have documented the steps required to create this analysis to understand how 
 
 First, a note about how coupon codes are tracked. If a customer applied a coupon to an order, three things happen:
 
-* A discount is reflected in the `base_grand_total` amount (your <strong style="font-size: 13px;">Revenue**<span style="font-size: 13px;">metric in MBI)<!--</span>-->
+* A discount is reflected in the `base_grand_total` amount (your **Revenue** metric in MBI)<!--</span>-->
 * The coupon code is stored in the `coupon_code` field. If this field is NULL (empty) the order does not have a coupon associated with it.
 * The discounted amount is stored in `base_discount_amount`. Depending on your configuration, this value may appear negative or positive.
 

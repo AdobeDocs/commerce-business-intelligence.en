@@ -1,7 +1,8 @@
 ---
 title: Data and Updates FAQ
-zendesk_id: 360016503632
+description: Learn how to check the status of your update cycle.
 ---
+# Data and Updates FAQ
 
 * [Why did my data change?](../#datachange)
 * [What is the difference between a regular and forced update?](../#regularforcedupdates)

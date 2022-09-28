@@ -1,6 +1,8 @@
 ---
 title: Out-of-the-Box Dashboards
+description: Learn about out-of-the-box dashboards to provide insight into your business.
 ---
+# Out-of-the-box dashboards
 
 MBI includes out-of-the-box dashboards to provide insight into your business. With dashboards, you can check on the health of essential metrics such as user lifetime revenue, number of repeat purchases, top products purchased over a given time period, and more. These pre-configured dashboards were created to help you make informed business decisions.
 

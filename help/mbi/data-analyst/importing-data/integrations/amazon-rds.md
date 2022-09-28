@@ -1,7 +1,8 @@
 ---
-title: Connecting Amazon RDS
-zendesk_id: 360016730931
+title: Connect Amazon RDS
+description: Learn the steps for connecting your RDS instance.
 ---
+# Connect Amazon RDS
 
 Amazon Relational Database Services (RDS) is a managed database service that runs on database engines that you are probably already familiar with - [MySQL](../integrations/mysql-via-a-direct-connection.md), [Microsoft SQL](../integrations/microsoft-sql-server.md), and [PostgreSQL](../integrations/postgresql.md).
 

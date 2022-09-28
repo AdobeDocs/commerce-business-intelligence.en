@@ -1,7 +1,8 @@
 ---
-title: Defining customer concentration
-zendesk_id: 360016503332
+title: Define customer concentration
+description: Learn how to set up a dashboard that will help you measure how total revenue is distributed among your customer base. 
 ---
+# Customer Concentration
 
 In this article, we demonstrate how to set up a dashboard that will help you measure how total revenue is distributed among your customer base. Understand what percent of customers contribute what percent of revenue and create segmented lists to best market to and retain your high contributing customers.
 

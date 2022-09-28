@@ -1,9 +1,10 @@
 ---
 title: Advanced Calculated Column Types
-zendesk_id: 360016730791
+description: Learn the basics for most use column cases -- but you may want calculated column that iss a bit more complex than what the Data Warehouse Manager can create.
 ---
+# Advanced Calculated Column Types
 
-Many analyses you might attempt to create, involve the use of a **new column** that you want to **group by** or **filter by**. The [Creating Calculated Columns](../data-warehouse-mgr/creating-calculated-columns.md) tutorial covers the basics for most use cases -- but you may want calculated column that's a bit more complex than what the Data Warehouse Manager can create.
+Many analyses you might attempt to create, involve the use of a **new column** that you want to **group by** or **filter by**. The [Creating Calculated Columns](../data-warehouse-mgr/creating-calculated-columns.md) tutorial covers the basics for most use cases -- but you may want calculated column that is a bit more complex than what the Data Warehouse Manager can create.
 {: #top}
 
 These types of columns can be created by our team of Data Warehouse analysts. To define a new calculated column, provide us with the **following information**:

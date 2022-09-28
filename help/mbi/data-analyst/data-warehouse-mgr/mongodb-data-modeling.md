@@ -1,7 +1,8 @@
 ---
-title: MongoDB data modeling guide
-zendesk_id: 360016731711
+title: MongoDB data modeling
+description: Learn how to avoid data patterns that pose an issue.
 ---
+# MongoDB Data Modeling
 
 
 When MBI pulls in MongoDB data, that data is translated into a relational model.

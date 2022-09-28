@@ -1,7 +1,8 @@
 ---
-title: Connecting WooCommerce
-zendesk_id: 360016733111
+title: Connect WooCommerce
+description: Learn how to see how your business is performing or find your most valuable acquisition sources and channels.
 ---
+# Connect WooCommerce
 
 >[!NOTE]
 >

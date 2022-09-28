@@ -1,12 +1,13 @@
 ---
-title: Creating calculated columns
-zendesk_id: 360016504512
+title: Create calculated columns
+description: Learn how to consolidate data from different sources.
 ---
+# Create Calculated Columns
 
 
 When analyzing your data, it is beneficial to consolidate data from different sources. Want to group revenue by acquisition source, linking data from your orders table and Google Analytics? Or how about grouping revenue by customer gender, or joining a customer attribute to transaction data for segmentation?
 
-This guide will teach you how to do just that. Before getting started, we recommend you check out the [Calculated Column Types guide](../data-analyst/data-warehouse-mgr/calc-column-types.md). The Calculated Column Types Guide outlines the types of columns you can create in the Data Warehouse Manager, along with their definitions and examples.
+This guide will teach you how to do just that. Before getting started, we recommend you check out the [Calculated Column Types guide](../data-analyst/data-warehouse-mgr/calc-column-types.md). The _Calculated Column Types Guide_ outlines the types of columns you can create in the Data Warehouse Manager, along with their definitions and examples.
 
 1. To get started, click **Manage Data** > **Data Warehouse** in the sidebar.
 1. Click the table you want to create a column in. For example, if we wanted to create a **Customer Gender** column for revenue segmentation, we would select the **sales_flat_order** table.

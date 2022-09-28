@@ -1,7 +1,8 @@
 ---
-title: Defining commerce churn [an Expert Analysis]
-zendesk_id: 360016505032
+title: Defining commerce churn
+description: Learn how to set up a dashboard that will help you define churn for your transactional customers. 
 ---
+# Transactional Churn
 
 In this article, we demonstrate how to set up a dashboard that will help you define churn for your transactional customers.
 

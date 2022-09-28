@@ -1,7 +1,8 @@
 ---
-title: Connecting PrestaShop
-zendesk_id: 360016507152
+title: Connect PrestaShop
+description: Learn how to connect PrestaShop data to MBI.
 ---
+# Connect PrestaShop
 
 Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your PrestaShop data to MBI will allow you to answer these questions and more.
 

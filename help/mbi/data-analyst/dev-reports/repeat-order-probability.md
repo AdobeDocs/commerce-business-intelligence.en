@@ -1,7 +1,8 @@
 ---
-title: Understanding the Repeat Order Probability Report
-zendesk_id: 360016505872
+title: Repeat Order Probability Report
+description: Learn and understand the Repeat Order Probability Report.
 ---
+# Repeat Order Probability Report
 
 ### When is the Incremental Event Probability perspective available?
 
@@ -21,11 +22,11 @@ If you want to create such a new dimension, [contact support](../../getting-star
 
 To compare the number of repeat purchases for different order attributes (e.g., order's region), we recommend creating a chart similar to "Users by lifetime number of orders" which shows you the number of users that made 1, 2, 3,... lifetime number of orders, and add the order level filter. (e.g., This can show you whether users make more or less repeat purchases in one region or another.)
 
-The numbers that make up such a chart can then be exported to excel to calculate the repeat order probability ratio. To see the probability of customers that made (x) orders to make (x+1) orders, simply **divide the number of people who’ve made at least (x+1) purchases by the number of people who have made at least (x)** purchases.
+The numbers that make up such a chart can then be exported to excel to calculate the repeat order probability ratio. To see the probability of customers that made (x) orders to make (x+1) orders, simply **divide the number of people who've made at least (x+1) purchases by the number of people who have made at least (x)** purchases.
 
 #### Example:
 
 |Number of customers who made 1 purchase in their lifetime|`90`|
 |Number of customers who made 2 purchases in their lifetime|`30`|
 |Number of customers who made 3 purchases in their lifetime|`10`|
-|The repeat order probability of customers who’ve made one purchase in their lifetime to make a second purchase|`(30 + 10) / (30+10+90) = 30.77%`|
+|The repeat order probability of customers who've made one purchase in their lifetime to make a second purchase|`(30 + 10) / (30+10+90) = 30.77%`|

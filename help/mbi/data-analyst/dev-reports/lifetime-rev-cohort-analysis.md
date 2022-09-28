@@ -1,7 +1,8 @@
 ---
-title: Why is the Lifetime Revenue Cohort Analysis Important?
-zendesk_id: 360016506912
+title: Lifetime Revenue Cohort Analysis
+description: Explore the power of MBI cohort analysis.
 ---
+# Lifetime Revenue Cohort Analysis
 
 There are a lot of different ways to look at your data in MBI, and we know that interpretation and understanding are just as important as calculation and visualization. This article will explore the power of MBI cohort analysis.
 
@@ -34,6 +35,6 @@ There are two simple inputs to this calculation: how many members are in the coh
 
 ## What are the variations of this chart?
 
-There are many different kinds of useful cohort analyses.  The most common variation is [filtering by user acquisition source](../analysis/most-value-source-channel.md){: target="_blank"}. For example, you might want to look at this chart for customers who came from organic search, paid search, or an affiliate program. This will help you understand if the customers from one acquisition source are more loyal or valuable than another. Of course, you can also filter by demographics or other user attributes.
+There are many different kinds of useful cohort analyses.  The most common variation is [filtering by user acquisition source](../analysis/most-value-source-channel.md). For example, you might want to look at this chart for customers who came from organic search, paid search, or an affiliate program. This will help you understand if the customers from one acquisition source are more loyal or valuable than another. Of course, you can also filter by demographics or other user attributes.
 
 Another way to look at the data is with an incremental, rather than cumulative, data perspective.  This shows the incremental amount that an average user spends in each month after they are acquired.  This is useful for forecasting the amount of repeat purchases you will get from existing users. We can look at this with other things besides revenue as well.  Some examples include margin as well as non financial metrics like invites, votes, or messages.

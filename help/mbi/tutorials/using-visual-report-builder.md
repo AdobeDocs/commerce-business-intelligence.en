@@ -1,7 +1,8 @@
 ---
-title: Using the Visual Report Builder
-zendesk_id: 360016730831
+title: Use the Visual Report Builder
+description: Learn to analyze the data in your report for a specific time period.
 ---
+# Use the Visual Report Builder
 
 The [Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md) allows you to visually explore your data to draw insights and help drive business decisions. This tutorial walks you through the process of creating a basic report.
 

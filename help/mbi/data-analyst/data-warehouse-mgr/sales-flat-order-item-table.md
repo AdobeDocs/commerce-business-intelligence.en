@@ -1,7 +1,8 @@
 ---
-title: Common Magento Tables - sales_order_item
-zendesk_id: 360016505572
+title: sales_order_item table
+description: Learn how to work with the sales_order_item table.
 ---
+# sales_order_item Table
 
 The `sales_order_item` table (`sales_flat_order_item` on M1) contains records of all products that were purchased in an order. Each row represents a unique `sku` included in an order. The quantity of units that were purchased for a specific `sku` is most often represented by the `qty_ordered` field.
 

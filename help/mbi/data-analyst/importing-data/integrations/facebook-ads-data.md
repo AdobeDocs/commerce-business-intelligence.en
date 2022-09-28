@@ -1,13 +1,14 @@
 ---
 title: Expected Facebook Ads data
-zendesk_id: 360016504532
+description: Learn a brief overview of the tables we recommend you sync to your data warehouse
 ---
+# Expected Facebook Ads data
 
 ![](../../../assets/Facebook_Logo.png)
 
 After [you have connected your Facebook Ads account](../integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
 
-In this article, we  give you a brief overview of the tables we recommend you sync to your data warehouse. Note that this is not an exhaustive list, as there are quite a few subtables. We are only highlighting the core tables.
+In this article, we  give you a brief overview of the tables we recommend you sync to your data warehouse. This is not an exhaustive list, as there are quite a few subtables. We are only highlighting the core tables.
 
 ## Core ad campaign tables
 

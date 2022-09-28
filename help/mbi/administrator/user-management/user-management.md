@@ -1,7 +1,8 @@
 ---
-title: Managing Users and Permissions
-zendesk_id: 360016731291
+title: Managing users and permissions
+description: Learn how to manage your MBI users. 
 ---
+# Managing users
 
 MBI is intended to be a single source of truth across your organization. Each user will have their own set of dashboards which they can [share with other users](../../data-user/dashboards/share-dashboard-with-users.md).
 

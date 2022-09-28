@@ -1,6 +1,8 @@
 ---
 title: Visual Report Builder
+description: Learn how to use Visual Report Builder.
 ---
+# Visual Report Builder
 
 Visual Report Builder makes it easy to create quick reports based on predefined metrics. Each metric includes a query that defines the set of data for the report.
 

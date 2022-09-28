@@ -1,10 +1,12 @@
 ---
 title: Google Analytics - Track User Acquisition Source Data Overview
-zendesk_id: 360016506932
+description: Learn how to segment your data by user acquisition source. 
 ---
+# Segmentation by user acquisition source
 
-{: .bs-callout-info}
-The process below does not support GoogleUniversal Analytics.
+>[!NOTE]
+>
+>The process below does not support GoogleUniversal Analytics.
 
 The ability to segment your data by user acquisition source is critical to effectively managing your marketing plan. Knowing the acquisition source of new users shows which channels yield the top returns, and allows your team to allocate marketing dollars with confidence.
 

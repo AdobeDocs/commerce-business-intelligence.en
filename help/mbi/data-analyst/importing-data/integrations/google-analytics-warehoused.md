@@ -1,7 +1,8 @@
 ---
-title: Connecting Google Analytics Warehoused
-zendesk_id: 360016503212
+title: Connect Google Analytics Warehoused
+description: Learn to track how visitors use your site, what content is attractive, where visitors exit, and more.
 ---
+# Connect Google Analytics Warehoused
 
 >[!NOTE]
 >

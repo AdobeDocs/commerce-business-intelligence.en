@@ -1,7 +1,8 @@
 ---
 title: Formatting and Importing Financial Data
-zendesk_id: 360016505472
+description: Learn how to format and import financial data. 
 ---
+# Format and Import Financial Data
 
 This topic discusses the best way to import financial data for analysis in MBI.
 

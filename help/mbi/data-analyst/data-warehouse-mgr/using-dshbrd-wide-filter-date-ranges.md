@@ -1,7 +1,8 @@
 ---
-title: Using Dashboard Wide Filtering
-zendesk_id: 360016503192
+title: Dashboard Wide Filtering
+description: Learn how to make bulk edits of all the reports on a specific dashboard.
 ---
+# Dashboard Wide Filtering
 
 With dashboard wide filtering, you can make bulk edits of all the reports on a specific dashboard. You can quickly view the same analysis over different time periods or for different stores. You can easily compare the performance of a previous year, month, or week per store. Further, you can update an entire dashboard to accommodate a newly launched campaign.
 

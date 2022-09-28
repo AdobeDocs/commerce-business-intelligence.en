@@ -1,9 +1,10 @@
 ---
-title: Standardizing data with mapping tables
-zendesk_id: 360016732331
+title: Standardize data with mapping tables
+description: Learn how to work with mapping tables.
 ---
+# Standardize Data with Mapping Tables
 
-Picture this: you are in the Report Builder, building a Revenue by State report. you are in the zone. Everything is going swimmingly until you go to add a **billing state** grouping to your report and you see this:
+Picture this: you are in the Report Builder, building a Revenue by State report. You are in the zone. Everything is going swimmingly until you go to add a **billing state** grouping to your report and you see this:
 
 ![](../../assets/Messy_State_Segments.png)
 

@@ -1,6 +1,8 @@
 ---
 title: Manage Data
+description: Learn how to use Manage Data.
 ---
+# Manage Data
 
 Manage Data provides access to a variety of tools for managing integrations, report and chart data, dashboards, and exports.
 

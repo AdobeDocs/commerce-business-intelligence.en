@@ -1,7 +1,8 @@
 ---
-title: Connecting Zendesk
-zendesk_id: 360016733251
+title: Connect Zendesk
+description: Learn how to consolidate your help desk reporting in MBI.
 ---
+# Connect Zendesk
 
 >[!NOTE]
 >

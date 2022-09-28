@@ -1,7 +1,8 @@
 ---
-title: Connecting Facebook Ads
-zendesk_id: 360016505452
+title: Connect Facebook Ads
+description: Learn to to analyze your ad spend data and see if your money is being spent effectively.
 ---
+# Connect Facebook Ads
 
 >[!NOTE]
 >

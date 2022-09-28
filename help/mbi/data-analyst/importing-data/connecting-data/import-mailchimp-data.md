@@ -1,7 +1,8 @@
 ---
-title: Importing MailChimp data
-zendesk_id: 360016506632
+title: Import MailChimp data
+description: Learn to import MailChimp data into MBI.
 ---
+# Import MailChimp data
 
 To get a comprehensive picture of your campaigning efforts, you can import your MailChimp email campaign data into MBI. To complete the import, you need to do the following for each MailChimp campaign you have:
 

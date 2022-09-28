@@ -1,7 +1,8 @@
 ---
 title: Using the Date Difference Calculated Column
-zendesk_id: 360016503172
+description: Learn the purpose and uses of the Date Difference calculated column.
 ---
+# Date Difference Calculated Column
 
  This topic outlines the purpose and uses of the **Date Difference** calculated column available in the **Manage Data** > **Data Warehouse** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.
 

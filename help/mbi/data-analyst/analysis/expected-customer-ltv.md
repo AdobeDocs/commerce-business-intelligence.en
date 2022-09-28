@@ -1,7 +1,8 @@
 ---
 title: Expected Lifetime Value (LTV) Analysis for Pro
-zendesk_id: 360016505552
+description: Learn how to set up a dashboard that will help you understand customer lifetime value growth and expected lifetime value of your customers. 
 ---
+# Expected Lifetime Value Analysis
 
 In this article, we demonstrate how to set up a dashboard that will help you understand customer lifetime value growth and expected lifetime value of your customers. 
 

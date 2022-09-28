@@ -1,7 +1,8 @@
 ---
-title: Coupon Code Analysis
-zendesk_id: 360016731011
+title: Coupon Performance
+description: Learn about analyzing your coupon performance. 
 ---
+# Coupon Performance
 
 Understanding the coupon performance of your business is an interesting way to segment your orders and also better understand your customers. This article will walk you through the steps to create analyses to understand which customers you acquire through the use of coupons, how they perform and track general coupon usage.
 

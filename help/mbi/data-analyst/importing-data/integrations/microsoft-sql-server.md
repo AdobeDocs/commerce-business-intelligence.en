@@ -1,7 +1,8 @@
 ---
-title: Connecting Microsoft SQL Server
-zendesk_id: 360016505972
+title: Connect Microsoft SQL Server
+description: Learn how to connect your Microsoft SQL database to MBI in a four-step process.
 ---
+# Connect Microsoft SQL Server
 
 >[!NOTE]
 >

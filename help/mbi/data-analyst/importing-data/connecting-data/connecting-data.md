@@ -1,8 +1,10 @@
 ---
 title: Connect Your Data
+description: Learn how to browse the tables available for syncing in the Data Warehouse Manager.
 ---
+# Connect your Data
 
-In MBI, data sources are called **integrations**. After an integration is successfully connected, you'll be able to browse the tables available for syncing in the Data Warehouse Manager.
+In MBI, data sources are called **integrations**. After an integration is successfully connected, you will be able to browse the tables available for syncing in the Data Warehouse Manager.
 
 Integrations are added and managed using the **Connections** page, which can be accessed by clicking **Manage Data > Connections.** Here, you'll see a list of all the integrations connected to your account, the integration type, status ("Google Analytics" and "Data Import API" connections will have blank status fields), and the last time a connection test (Last Connection Started column) was performed.
 

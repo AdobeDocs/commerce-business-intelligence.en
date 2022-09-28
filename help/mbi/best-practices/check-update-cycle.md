@@ -1,7 +1,8 @@
 ---
 title: Checking the Update Cycle Status
-zendesk_id: 360016506372
+description: Learn how to check the update cycle status. 
 ---
+# Update cycle progress
 
 When you log into your MBI dashboard, there are several ways to check the status of your last update cycle. It all depends on the type of [user permissions](../../administrator/user-management/user-management.md) you have.
 

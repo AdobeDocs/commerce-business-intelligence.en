@@ -1,7 +1,8 @@
 ---
-title: Adding a New User
-zendesk_id: 360016505192
+title: Adding a new user
+description: Learn how to add a new MBI user. 
 ---
+# Add a new user
 
 1. Click on your company's name in the upper right-hand corner and select **Invite User** from the dropdown.
 1. Enter the user's name and email.
@@ -10,7 +11,9 @@ zendesk_id: 360016505192
 1. Click the **Save button**.
 1. The new user will receive an email with login and password details.
 
-**Important!** The new user will not have any dashboards by default. We recommends that you [share](../../data-user/dashboards/share-dashboard-with-users.md) the necessary dashboards with the new user right away.
+>[!NOTE]
+>
+>The new user will not have any dashboards by default. We recommends that you [share](../../data-user/dashboards/share-dashboard-with-users.md) the necessary dashboards with the new user right away.
 
 ## Resend the Invitation
 

@@ -1,7 +1,8 @@
 ---
 title: Create a copy of a report
-zendesk_id: 360016506532
+description: Learn how to create a copy of a report.
 ---
+# Create a copy of a report
 
 Often, you will find yourself wanting to create similarly defined charts where you only want to change one element - like editing a filter or changing the group-by.
 

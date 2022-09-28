@@ -1,9 +1,10 @@
 ---
 title: Analyzing Repeat Probability Decay and Churn
-zendesk_id: 360016730251
+description: Learn and understand how time lapses between orders and when customers are expected to churn. 
 ---
+# Repeat Probability Decay and Churn
 
-If a portion of your revenue comes from repeat purchases, you are probably aware of the tremendous value of a loyal customer base. To this end, it is critical to understand how time elapses between orders and when customers are expected to churn.
+If a portion of your revenue comes from repeat purchases, you are probably aware of the tremendous value of a loyal customer base. To this end, it is critical to understand how time lapses between orders and when customers are expected to churn.
 
 This topic explores the analyses that can help you answer the following questions:
 

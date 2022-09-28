@@ -1,7 +1,8 @@
 ---
-title: Managing Dashboards
-zendesk_id: 360016731231
+title: Manage Dashboards
+description: Learn how to manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard.
 ---
+# Manage a dashboard
 
 >[!NOTE]
 >

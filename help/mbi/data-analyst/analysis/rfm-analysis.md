@@ -1,7 +1,8 @@
 ---
 title: Recency, Frequency, Monetary (RFM) Analysis
-zendesk_id: 360016506692
+description: Learn how to set up a dashboard that will allow you to segment your customers by their recency, frequency, and monetary rankings. 
 ---
+# RFM Analysis
 
 In this article, we demonstrate how to set up a dashboard that will allow you to segment your customers by their recency, frequency, and monetary rankings. RFM analysis is a marketing technique that takes customer behaviors into account to help you determine segmentation for outreach. It takes three aspects into account: Recency in how recently a customer purchased from your store, Frequency in how often they purchase from you, and Monetary in how much the customer spends.
 

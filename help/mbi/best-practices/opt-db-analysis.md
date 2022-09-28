@@ -1,7 +1,8 @@
 ---
 title: Optimizing Your Database for Analysis
-zendesk_id: 360016731631
+description: Learn how to optimize your database for analysis. 
 ---
+# Optimize your database
 
 The primary benefit of using an operational database for business intelligence is that nothing needs to be built or modified in order to collect data. Valuable information is already there; all you need to do is unlock it.
 

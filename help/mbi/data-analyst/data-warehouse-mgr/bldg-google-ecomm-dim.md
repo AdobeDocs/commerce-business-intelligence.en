@@ -1,7 +1,8 @@
 ---
-title: Building Google ECommerce dimensions with order and customer data
-zendesk_id: 360016732211
+title: Build Google ECommerce dimensions
+description: Learn to build dimensions that will link your eCommerce data with your orders and customer data.
 ---
+# Build Google ECommerce Dimensions
 
 >[!NOTE]
 >

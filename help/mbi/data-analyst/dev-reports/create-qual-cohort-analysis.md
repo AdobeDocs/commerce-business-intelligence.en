@@ -1,17 +1,18 @@
 ---
-title: Creating a qualitative cohort analysis
-zendesk_id: 360016731191
+title: Create a qualitative cohort analysis
+description: Learn what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in MBI.
 ---
+# Create a Qualitative Cohort Analysis
 
 Do you know how your Adwords-acquired customer segments grow their LTV compared to those customers acquired from organic search? Have you ever thought of performing a cohort analysis on different customer segments side-by-side in the same report? If so, a **qualitative cohort analysis** will help you answer those questions.
 
-In this article, we dive into what a qualitative cohort even is, why you might be interested in building this analysis, and how you can create it in MBI.
+In this article, we dive into what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in MBI.
 
 ## What are qualitative cohorts, anyway? {#whatare}
 
 Cohort analysis in general can be broadly defined as the analysis of user groups that share similar characteristics over their life cycles. It allows you to identify behavioral trends across different user groups.
 
-For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/){: target="_blank"} - we wrote the site on it!
+For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/) - we wrote the site on it!
 
 Most cohort analyses in MBI group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A **qualitative cohort** is a little different: it is a user group that is defined by a characteristic that is not time-based. Some examples include:
 

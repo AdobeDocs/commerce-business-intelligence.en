@@ -1,7 +1,8 @@
 ---
-title: How can I tell what a chart is analyzing?
-zendesk_id: 360016504032
+title: Chart data information
+description: Learn how to use the Visualization options in the Visual Report Builder.
 ---
+# Chart data information
 
 Take your pick - plain English or the metric definition. Users can annotate charts and view the metrics and formulas in a chart by clicking the **Information icon** in the top-right corner of any chart.
 

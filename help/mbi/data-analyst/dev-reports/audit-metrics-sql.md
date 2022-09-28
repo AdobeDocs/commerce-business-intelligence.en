@@ -1,7 +1,8 @@
 ---
-title: Auditing Metrics Using the SQL Report Builder
-zendesk_id: 360016503592
+title: SQL Report Builder
+description: Learn how to audit data and metrics using the SQL Report Builder so that you can compare the results with the data from your local database.
 ---
+# SQL Report Builder
 
 The SQL Report Builder is primarily used to build new reports and iterate on analyses, but it can also be used to effectively audit data and metrics. The following information explains how to audit data and metrics using the SQL Report Builder so that you can compare the results with the data from your local database.
 

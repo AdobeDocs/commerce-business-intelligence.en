@@ -1,7 +1,8 @@
 ---
 title: Reset Password
-zendesk_id: 360016506432
+description: Learn how to reset a user's password. 
 ---
+# Reset your password
 
 To reset your password, click the **Reset Password** link below the password field on your MBI sign in page. Enter the email address you are using to log in, and an email will be sent with a password reset link.
 

@@ -1,7 +1,8 @@
 ---
-title: Using the Cohort Report Builder
-zendesk_id: 360016504632
+title: Cohort Report Builder
+description: Learn about the analysis of user groups that share similar characteristics over their life cycles.
 ---
+# Cohort Report Builder
 
 Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who do not? If the answer is `Yes!`, then the Cohort Report Builder is the perfect tool for you. MBI is specifically optimized to perform this analysis and make it relevant to your business.
 
@@ -9,7 +10,7 @@ Have you ever wanted to study how different subsets of your users behave over ti
 
 Cohort analysis can be broadly defined as the analysis of user groups that share similar characteristics over their life cycles. It allows you to identify behavioral trends across different user groups.
 
-For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/){: target="_blank"} - we wrote the site on it!
+For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/) - we wrote the site on it!
 
 In your MBI dashboard, it is easy to create user cohorts based on a cohort date and a metric in your account.
 

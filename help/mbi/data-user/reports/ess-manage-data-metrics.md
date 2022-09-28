@@ -1,7 +1,8 @@
 ---
-title: Creating metrics
-zendesk_id: 360016504592
+title: Create metrics
+description: Learn how to use metrics to create charts.
 ---
+# Create metrics
 
 >[!NOTE]
 >

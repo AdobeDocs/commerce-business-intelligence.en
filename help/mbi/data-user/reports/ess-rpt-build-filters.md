@@ -1,6 +1,8 @@
 ---
 title: Filters
+description: Learn how to use filters.
 ---
+# Filters
 
 One or more filter(s) can be added to limit the data that is used to product a report. Each filter is an expression that includes a column from the associated table, an operator, and a value. For example to include only repeat customers, you might create a filter that includes only customers who have placed more than one order. Multiple filters can be used with logical "AND/OR" operators to add logic to the report.
 
