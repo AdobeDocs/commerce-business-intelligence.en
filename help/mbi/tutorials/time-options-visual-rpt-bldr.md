@@ -118,18 +118,18 @@ Remember to set the time ranges to what you need when building this report yours
 
 To create the formulas, click **Add Formula**. Enter the formulae below and click **Apply Changes** when finished. Repeat this for each of the three time periods:
 
-   * For the **last 7 days time period**, enter `D / A` in the **Formula** field.
-   * For the **last 28 days time period**, enter `D / (B/4)` in the **Formula** field.
+* For the **last 7 days time period**, enter `D / A` in the **Formula** field.
+* For the **last 28 days time period**, enter `D / (B/4)` in the **Formula** field.
 
     >[!NOTE]
     >
     >It is important to normalize your selected time ranges here. Twenty-eight days should be broken into four weeks in this example. You may need to apply different logic to the formula.
 
-   * For the **last promo period**, enter `D / C` in the **Formula** field.
+* For the **last promo period**, enter `D / C` in the **Formula** field.
 
    ![](../assets/Different_Time_Ranges_2.png)
 
-   * Lastly, customize the report by hiding the metrics and adding a SKU or a similar dimension to the report as a Group By.
+* Lastly, customize the report by hiding the metrics and adding a SKU or a similar dimension to the report as a Group By.
 
 This example demonstrates that current inventory levels were well-situated for a product-wide 14-day sale. However, adding a comparable promotional period suggests that the company needs to make some changes – either by ordering more inventory and only promoting the items with enough units in stock.
 

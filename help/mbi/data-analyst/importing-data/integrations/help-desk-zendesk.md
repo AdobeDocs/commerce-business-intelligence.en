@@ -191,7 +191,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 
     * **Input columns** - `created_at`
 
-    * **SQL Calculation** - `to_char(A,'HH24')::int
+    * **SQL Calculation** - `to_char(A,'HH24')::int`
 
     * **Datatype** – Integer
   <!--{: style="list-style-type: circle;"}-->
@@ -305,7 +305,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 >
 >Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
-#### Reports
+### Reports
 
 * **New/Open/Pending tickets**
   * Metric: New Tickets

@@ -1,6 +1,9 @@
 ---
 title: Working with Dashboards
+description: Learn the best practices for sharing dashboards to encourage collaboration and discussion.
 ---
+
+# Working with Dashboards
 
 Dashboards are a powerful communication tool you can use to tell a story through data. In this section, learn the best practices for sharing dashboards to encourage collaboration and discussion.
 

@@ -1,5 +1,5 @@
 ---
-title: Use a Reports
+title: Use a Report
 description: Learn how to use your report data.
 ---
 # Use a report
@@ -83,18 +83,14 @@ With the new metric set up, we can use it to report on the average time between 
 
 Simply go to any dashboard and [create a new report](../../data-user/reports/ess-manage-data-metrics.md) using the metric created above.
 
-#### Visual Report Builder {#visualrb}
+### Visual Report Builder {#visualrb}
 
 [The Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md) is the easiest way to visualize your data. If you're not familiar with SQL or you just want to quickly create a report, the Visual Report Builder is your best bet. With just a few clicks, you can add metrics, segment your data, and create reports to across your organization. This option is perfect for beginners and experts alike, as it does not require any technical expertise.
 
 |||
 |--- |--- |
-|**This is perfect for...|**This is not so great for...|
-|All levels of analysis/tech experience
-Quickly creating reports
-Creating analyses to share with other users|**Analyses that require SQL-specific functions
-
-**Testing new columns - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL are not|
+|**This is perfect for...**|**This is not so great for...**|
+| - All levels of analysis/tech experience<br>- Quickly creating reports<br>- Creating analyses to share with other users | - Analyses that require SQL-specific functions<br>- Testing new columns - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL are not|
 
 <!--<table style="width: 649px;">
 <tbody>

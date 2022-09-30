@@ -16,11 +16,11 @@ This topic explores the analyses that can help you answer the following question
 
 When analyzing repeat probability decay and churn, consider using ([or building](../../data-user/reports/ess-manage-data-metrics.md)) these metrics:
 
-#### Initial repeat order probability
+### Initial repeat order probability
 
 This measure is defined as the total number of repeat orders, as a percent of total orders. Phrased another way, this is the likelihood of an order to be followed up by another order. When this probability is above 50%, it implies that more than half of all orders are followed up by a subsequent order.
 
-#### Repeat order probability given months since order
+### Repeat order probability given months since order
 
 This measure demonstrates the probability of a user ordering again given the number of months that have elapsed since their last order. The formula used to generate this metric simplifies to:
 
@@ -71,7 +71,7 @@ If you offer more than one product, you probably wonder how customers that purch
 
 This best practice is provided by MBI Data Analysis Services (DAS). We look forward to answering any of your specific business questions! [Contact support](../../getting-started/support.md) for more info.
 
-## Related documentation
+### Related
 
 * [Analyzing coupon impact on acquiring and retaining customers](../analysis/coupon-impact.md)
 * [Analyzing customer repurchasing behavior](../analysis/repurchase-behavior.md)

@@ -1,6 +1,8 @@
 ---
 title: Business Performance Analysis
+description: Business Performance Analysis
 ---
+# Business Performance Analysis
 
 In this section, you will learn how to track your business goals against your actual data - including revenue, new registered users, and orders over time.
 

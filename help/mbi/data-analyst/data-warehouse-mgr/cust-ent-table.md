@@ -8,7 +8,7 @@ The `customer_entity` table contains records of all registered accounts. An acco
 
 This table does not contain records of customers who place an order via guest checkout. If your store accepts guest checkout, [learn how to account](../data-warehouse-mgr/guest-orders.md) for those customers.
 
-### Common Columns
+## Common Columns
 
 |**Column Name**|**Description**|
 |---|---|
@@ -18,7 +18,7 @@ This table does not contain records of customers who place an order via guest ch
 |`group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the registered account|
 |`store_id`|Foreign key associated with the `store` table. Join to `store`.`store_id` to determine which Magento store view is associated with the registered account|
 
-### Common Calculated Columns
+## Common Calculated Columns
 
 |**Column Name**|**Description**|
 |---|---|
@@ -34,7 +34,7 @@ This table does not contain records of customers who place an order via guest ch
 |`Store name`|The name of the Magento store associated with this registered account. Calculated by joining `customer_entity.store_id` to `store.store_id` and returning the `name` field|
 {:style="table-layout:fixed;"}
 
-### Common Metrics
+## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
@@ -46,7 +46,7 @@ This table does not contain records of customers who place an order via guest ch
 |Registered accounts|The number of accounts registered. Includes all registered accounts, regardless of whether or not the account ever placed an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `created_at`|
 {:style="table-layout:fixed;"}
 
-### Foreign Key Joining Paths
+## Foreign Key Joining Paths
 
 `customer_group`
 

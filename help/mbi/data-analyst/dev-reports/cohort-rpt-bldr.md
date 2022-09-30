@@ -158,19 +158,19 @@ For more details on Perspectives, click [here](../#perspectives).
 
 Now that we have gone through how to create a cohort analysis, let us take a look at some examples.
 
-#### I want to know how my user cohorts are growing over time.
+### I want to know how my user cohorts are growing over time.
 
 ![User cohorts growing over time](../../assets/cohort1.gif)<!--{: width: "900px"}-->
 
 In this example, we analyzed the **Revenue** metric, grouped our cohorts by the **customer's first order date**, and selected the 8 most recent cohorts (defined in the Time Period menu) to include in the analysis. To see how the cohorts grew over time, we used the **Cumulative Average Value per Cohort Member** perspective.
 
-#### I want to know, on average, how many orders a user makes at different points in their lifetime.
+### I want to know, on average, how many orders a user makes at different points in their lifetime.
 
 ![Average number of orders users make at different points in their lifetimes](../../assets/cohort2.gif)<!--{: width: "900px"}-->
 
 For this example, we analyzed the **Number of orders** metric, grouped our cohorts by the **customer's first order date**, and included the 8 most recent cohorts (defined in the Time Period menu) in the analysis. To see the average number of orders for each cohort, we changed the perspective to **Average Value per Cohort Member**.
 
-#### I want to understand how a user's future purchasing activity compares to their first month's activity with the business.
+### I want to understand how a user's future purchasing activity compares to their first month's activity with the business.
 
 ![Comparing a user's future purchasing activity to their first month of activity](../../assets/cohort3.gif)<!--{: width: "900px"}-->
 

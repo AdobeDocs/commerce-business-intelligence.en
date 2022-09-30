@@ -1,6 +1,8 @@
 ---
 title: Working with Data
+description: Learn the best practices for organizing and working with that data.
 ---
+# Working with Data
 
 MBI allows you to import data from multiple sources. In this section, learn the best practices for organizing and working with that data.
 

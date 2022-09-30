@@ -71,7 +71,7 @@ To finish creating the user, alter the permissions on the /home/rjmetric directo
 
 MongoDB servers have two run modes - [one with the "auth" option](../#auth) `(mongod -- auth)` and one without, [which is the default](../#default). The steps for creating a MongoDB user will vary a bit depending on what mode your server is using, so be sure to verify the mode before continuing.
 
-#### If your server uses the Auth Option: {#auth}
+### If your server uses the Auth Option: {#auth}
 
 When connecting to multiple databases, you can add the user by logging into MongoDB as an admin user and running the following commands. **Note that to see all available databases, the MBI user requires the permissions to run `listDatabases.`**
 
@@ -100,7 +100,7 @@ This will print a response that looks like this:
     }
 ```
 
-#### If your server uses the default option {#default}
+### If your server uses the default option {#default}
 
 If your server does not use auth mode, your MongoDB server will still be accessible even without a username and password. However, you should ensure the mongodb.conf file `(/etc/mongodb.conf)` has the following lines - if they're not there, restart your server after you add them.
 

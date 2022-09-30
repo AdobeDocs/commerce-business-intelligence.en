@@ -10,7 +10,7 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 >
 >Analyzing historical abandoned carts is only possible if you do not delete records from the `quote` and `quote_item` table. If you do delete records, you will only be able to see the carts not yet removed from your database.
 
-### Common Native Columns
+## Common Native Columns
 
 |**Column Name**|**Description**|
 |---|---|
@@ -26,18 +26,18 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 |`sku`|Unique identifier for the cart item|
 |`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which Magento store view is associated with the cart item|
 
-### Common Calculated Columns
+## Common Calculated Columns
 
 |**Column Name**|**Description**|
 |---|---|
 |`Cart creation date`|Timestamp associated with the cart creation date. Calculated by joining `quote_item.quote_id` to `quote.entity_id` and returning the `created_at` timestamp|
 |`Cart is active? (1/0)`|Boolean field that returns "1" if the cart was created by a customer and has not yet converted to an order. Returns "0" for converted carts, or carts created through the admin. Calculated by joining `quote_item.quote_id` to `quote.entity_id` and returning the `is_active` field|
-|`Cart item total value (qty * base_price)`|Total value of an item at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied. Calculated by multiplying the `qty` by the `base_price`
+|`Cart item total value (qty * base_price)`|Total value of an item at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied. Calculated by multiplying the `qty` by the `base_price`|
 |`Seconds since cart creation`|Elapsed time between the cart's creation date and now. Calculated by joining `quote_item.quote_id` to `quote.entity_id` and returning the `Seconds since cart creation` field|
 |`Store name`|Name of the Magento store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
 {:style="table-layout:fixed;"}
 
-### Common Metrics
+## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
@@ -45,7 +45,7 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 |Abandoned cart item value|Sum of total revenue associated with carts that meet specific "abandonment" conditions|Operation: Sum<br>Operand: `Cart item total value (qty * base_price)`<br>Timestamp: `Cart creation date`<br>Filters:<br><br>- \[A\] `Cart is active? (1/0)` = 1<br>- \[B\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
 {:style="table-layout:fixed;"}
 
-### Foreign Key Joining Paths
+## Foreign Key Joining Paths
 
 `catalog_product_entity`
 

@@ -10,7 +10,7 @@ Here are the steps to create analyses to understand your current customers' life
 
 ![expected lifetime value](../../assets/expected_ltv_720.png)
 
-#### Building a Metric
+## Building a Metric
 
 The first step will be to construct a new metric with the following steps:
 * Navigate to **Manage Data > Metrics**
@@ -22,7 +22,7 @@ The first step will be to construct a new metric with the following steps:
 
   * Give the metric a name, such as **Median lifetime revenue**.
 
-#### Creating your Dashboard
+## Creating your Dashboard
 
 Once the metric has been created, you can **create a dashboard** by doing this:
 * Navigate to **Dashboards > Dashboard Options > Create New Dashboard.**
@@ -30,7 +30,7 @@ Once the metric has been created, you can **create a dashboard** by doing this:
 
 * This will be where we create and add all the reports.
 
-#### Building Reports
+## Building Reports
 
 * If you have not already, check out [this video](https://fast.wistia.net/embed/iframe/24zz7wmjrt) about using the Visual Report Builder to build charts, tables, and scalar values.
 * Note on **Time Period:** The time period for each report is listed as "All-time". Please feel free to alter this to suit your analysis needs. We recommend all reports on this dashboard cover the same time period, such as "All time", "Year-to-date", or "Last 365 days".

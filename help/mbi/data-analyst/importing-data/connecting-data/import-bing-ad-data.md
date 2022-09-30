@@ -6,11 +6,11 @@ description: Learn to import Bing advertising spend data into MBI for analysis.
 
 To import Bing advertising spend data into MBI for analysis, simply export the data from Bing Ads Editor in a CSV format and upload it to MBI as per the steps below:
 
-# Bing Ads Editor
+## Bing Ads Editor
 
 To export your Bing Ads data, you will need to have Bing Ads Editor installed. You can find a free download of [Bing Ads Editor](https://advertise.bingads.microsoft.com/en-us/bingads-editor).
 
-# Bing Ads Data Export
+## Bing Ads Data Export
 
 1. In the **Browser** pane of Bing Ads Editor, right-click the campaign or ad-group that you want to export and click **Export**.
 1. In the **Export** dialog box, click **Export.**

@@ -10,7 +10,7 @@ A large majority of our clients often would like to track their **business goals
 
 Before getting started, you want to familiarize yourself with our [file uploader](../importing-data/connecting-data/using-file-uploader.md) and make sure you have defined your business goals for a given period of time.
 
-#### Getting Started
+## Getting Started
 
 You will need to first upload a file containing specific daily/monthly/quarterly targets for your business.
 
@@ -18,7 +18,7 @@ You can use the [file uploader](../importing-data/connecting-data/using-file-upl
 
 ![](../../assets/Goals-_Excel.png)
 
-#### Metrics
+## Metrics
 
 You need to create one new metric for each target. For example, if you upload monthly revenue and orders targets, you will need to create two new metrics:
 
@@ -43,7 +43,7 @@ You need to create one new metric for each target. For example, if you upload mo
 * Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
 <!--{: style="list-style-type: circle;"}-->
 
-#### Reports
+## Reports
 
 As always, it is helpful to have a mix of static values and visual charts when analyzing your targets. Below are three example reports to get you started tracking your revenue performance.
 

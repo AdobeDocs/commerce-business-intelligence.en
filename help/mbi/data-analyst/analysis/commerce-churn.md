@@ -10,7 +10,7 @@ In this topic article, we demonstrate how to calculate a **churn rate** for your
 
 Many customers want assistance in starting to conceptualize what **timeframe** they should use based upon their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../analysis/define-cust-churn.md) Analysis Library article. Then, you can use the results in the formula for churn rate in the below instructions.
 
-#### Calculated Columns
+## Calculated Columns
 
 Columns to create
 
@@ -31,7 +31,7 @@ Columns to create
 
 Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
-#### Metrics
+## Metrics
 
 * **New customers (by first order date)**
   * Customers we count
@@ -59,7 +59,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 
 Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
-#### Reports
+## Reports
 
 * **Churn Rate**
   * Metric: New customers (by first order date)

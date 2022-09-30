@@ -12,11 +12,11 @@ Rushes can be experienced at any point during the year; for example, if your bus
 
 When analyzing holiday season performance, consider analyzing ([or building](../../data-user/reports/ess-manage-data-metrics.md)) these metrics:
 
-#### Number of new customers, Number of orders, Revenue
+### Number of new customers, Number of orders, Revenue
 
 To help you understand how the pattern of this year's growth compares with previous years, consider analyzing these measures. The number of new customers, number of new orders, and revenue will show you how your business is performing on a day-by-day basis for the time frame (holiday season) you specify. You can also analyze these measures using a cumulative perspective to see how the metric changes over time.
 
-#### Average order value
+### Average order value
 
 This measure displays the overall average order value during your holiday seasons.
 
@@ -24,7 +24,7 @@ This measure displays the overall average order value during your holiday season
 
 Now that we know what metrics to analyze, we look at some sample revenue data during the holiday season months of November and December for both 2014 and 2015.
 
-[ ![Daily holiday season revenue for 2014 and 2015](../../assets/Analyzing_holiday_season.png)<!--{: style="max-width: 500px;"}-->[2]<!--{: data-lightbox="image-1" data-title="Daily holiday season revenue for 2014 and 2015"}-->
+![Daily holiday season revenue for 2014 and 2015](../../assets/Analyzing_holiday_season.png)<!--{: style="max-width: 500px;"}-->[2]<!--{: data-lightbox="image-1" data-title="Daily holiday season revenue for 2014 and 2015"}-->
 
 In this example, there are two large spikes in revenue for 2014 and 2015: these increases coincide with Black Friday and Cyber Monday. Notice how the spikes are not on the same day for 2014 and 2015. This is because Black Friday fell on November 27 for 2014 and November 28 for 2015. Similarly, Cyber Monday was November 30 for 2014 and December 1 for 2015.
 

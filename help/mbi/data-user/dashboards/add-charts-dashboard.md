@@ -10,7 +10,7 @@ Existing charts can be added to dashboards using the **Add Report** button in th
 >
 >Clicking the **Add Report** button is not the same as using the **Save As** function in the chart editor. The **Add Report** button merely adds the chart to the dashboard whereas the **Save As** function creates a new version of an existing chart.
 
-### Add a chart
+## Add a chart
 
 1. Click the **Add Report** button. A list of existing charts will display.
 

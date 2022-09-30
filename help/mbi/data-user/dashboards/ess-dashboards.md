@@ -20,7 +20,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
 ![arrange resize dashboard element](../../assets/arrange_resize_dashboard_element.gif)<!--{: width="750" height="375"}-->
 
-#### Create a new dashboard
+### Create a new dashboard
 
 1. On the menu, click **Dashboards**.
 
@@ -42,7 +42,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
     * The name of your new dashboard appears in the upper-left corner. Click the down arrow (![](../../assets/magento-bi-btn-down.png)) to show the options. If you created a group, the new dashboard appears below the group in the list.
 
-#### Add a report
+### Add a report
 
 1. To add a report, do one of the following:
 
@@ -66,7 +66,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
 In **Manage Data** > **Dashboards**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard.
 
-#### Sharing your dashboards {#sharingdash}
+### Sharing your dashboards {#sharingdash}
 
 To truly scale MBI throughout your organization and provide valuable insights, we encourage you to share dashboards you create with other team members. **You can share dashboards you own** by clicking the **Share Dashboard** option at the top of the page.
 
@@ -74,13 +74,13 @@ When you share a dashboard, you can assign permissions across your organization 
 
 **Note**: Read Only users only have access to dashboards that are directly shared with them - they are not able to search for and add dashboards on their own. do not forget to keep them in the loop!
 
-#### Accessing shared dashboards {#accessshared}
+### Accessing shared dashboards {#accessshared}
 
 **If you are an Admin or Standard user** and want to add a shared dashboard to your account, you can do so by clicking **Dashboard Options** and then clicking **Find** in the dropdown.
 
 ![find dashboard](../../assets/find_dashboard.png)<!--{: width="1000" height="535"}-->
 
-#### Manage dashboard settings
+### Manage dashboard settings
 
 1. On the menu, click **Manage Data** > **Dashboards**.
 

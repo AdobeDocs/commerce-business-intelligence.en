@@ -6,7 +6,7 @@ description: Learn how analyze information about a specific return request.
 
 Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.x, but the name can be customized) contains information about a specific return request. **Note:** _This table only comes standard with your Magento account if you are an Enterprise Edition or Enterprise Cloud Edition customer._
 
-### Common Native Columns
+## Common Native Columns
 
 |**Column Name**|**Description**|
 |---|---|
@@ -16,7 +16,7 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.
 |order\_id|Foreign key associated with the `sales\_flat\_order` table.|
 |customer\_id|Foreign key associated with the `customer\_entity` table.|
 
-### Common Calculated Columns
+## Common Calculated Columns
 
 |**Column Name**|**Description**|
 |---|---|
@@ -25,17 +25,16 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.
 |Seconds between order's created\_at and return's date\_requested|The number of seconds from the order date to the return request.|
 |Return's total value|This is the total monetary amount that is returned. This will be the sum of each return item's individual return amount.|
 
-### Common Metrics
+## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|Number of returns|The number of returns requested.|Operation Column: entity\_id<br>Operation: Count<br>Timestamp Column: date\_requested|
-|Total returned amount|The total monetary amount returned.|Operation Column: Return's total value<br>
-Operation: Sum<br>Timestamp Column: date\_requested|
-|Average returned amount|The average monetary amount returned.|Operation Column: Return's total value<br>Operation: Average<br>Timestamp Column: date\_requested|
-|Average time to return|The average time from order to return.|Operation Column: Seconds between order's created\_at and return's date\_requested<br>Operation: Average<br>Timestamp Column: date\_requested|
+|Number of returns|The number of returns requested.|Operation Column: entity id<br>Operation: Count<br>Timestamp Column: date requested|
+|Total returned amount|The total monetary amount returned.|Operation Column: Return's total value<br>Operation: Sum<br>Timestamp Column: date requested|
+|Average returned amount|The average monetary amount returned.|Operation Column: Return's total value<br>Operation: Average<br>Timestamp Column: date requested|
+|Average time to return|The average time from order to return.|Operation Column: Seconds between order's created at and return's date requested<br>Operation: Average<br>Timestamp Column: date requested|
 
-### Connections to Other Tables
+## Connections to Other Tables
 
 `sale_flat_order`
 

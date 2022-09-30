@@ -12,7 +12,7 @@ Want to see how your business is performing or find your most valuable acquisiti
 
 As Magento's database is based on MySQL, you can connect it to MBI through a [direct connection](../integrations/mysql-via-a-direct-connection.md), [cPanel](../integrations/mysql-via-cpanel.md), or [via an SSH tunnel](../integrations/mysql-via-ssh-tunnel.md). We care about your data, so we recommend using the SSH method, as it is the most secure.
 
-### Related
+## Related
 
 * [Expected Magento data](../integrations/magento-data.md)
 * [Recommended data dimensions for segmentation and filtering](../../../best-practices/segment-filter.md)

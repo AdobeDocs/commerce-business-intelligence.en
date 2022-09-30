@@ -28,9 +28,9 @@ No added cost! We will create a new account for you to begin re-implementation, 
 
 Re-implementation times vary depending on what you want to rebuild. We recommend that you perform the following steps in your existing account to get an idea of what would be involved in your re-implementation:
 
-  * Identify a core set of reports/dashboards
-  * Identify metrics and dimensions required to build those reports
-  * Identify the columns required to recreate those metrics and dimensions
+* Identify a core set of reports/dashboards
+* Identify metrics and dimensions required to build those reports
+* Identify the columns required to recreate those metrics and dimensions
 
 When this is complete, you will know what data you need to sync to the new architecture data warehouse in order to rebuild those core reports.
 

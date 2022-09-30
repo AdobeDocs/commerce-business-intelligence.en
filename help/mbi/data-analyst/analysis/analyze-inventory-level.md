@@ -8,7 +8,7 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 
 ## Columns to track:
 
-#### Columns to track instructions
+### Columns to track instructions
 
 * **cataloginventory_stock_item** table:
   * **`item_id`**
@@ -22,7 +22,7 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 
 ## Calculated columns:
 
-#### New Architecture
+### New Architecture
 
 * **catalog_product_entity** table:
   * **`Product's most recent order date`**
@@ -99,7 +99,7 @@ This topic demonstrates how to set up a dashboard which will provide insights in
     * Definition:
       * case when A is null or B is null or B = 0.0 then null else round(A::decimal/B,2) end
 
-#### Legacy Architecture
+### Legacy Architecture
 
 * **catalog_product_entity** table:
   * **`Product's most recent order date`**
@@ -164,7 +164,7 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 
 ## Metrics
 
-#### Metrics instructions
+### Metrics instructions
 
 * **cataloginventory_stock_item** table:
   * **`Inventory on hand`**: this metric performs a
@@ -174,7 +174,7 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 
 ## Reports
 
-#### Report instructions
+### Report instructions
 
 * **`Inventory on hand by sku`**
   * Metric: **`Inventory on hand`**

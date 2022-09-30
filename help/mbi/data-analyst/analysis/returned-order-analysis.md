@@ -12,7 +12,7 @@ Before getting started, you will need to be an [Enterprise client of Magento](ht
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
-#### Getting Started
+## Getting Started
 
 Columns to track
 
@@ -50,7 +50,7 @@ Filter sets to create
 <!--{: style="list-style-type: circle;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
-#### Calculated Columns
+### Calculated Columns
 
 Columns to create
 
@@ -104,7 +104,7 @@ Columns to create
 
 <!--<span class="wysiwyg-color-blue">-->**`^`**<!--</span>--> If you are interested in analyzing only business hours for Seconds to resolution or Seconds to first response, let the analyst know when requesting the ticket.
 
-#### Metrics
+### Metrics
 
 * **Returns**
 * In the <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma`**<!--</span>--> table
@@ -146,9 +146,11 @@ Columns to create
 <!--{: style="list-style-type: square;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
-Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+>[!NOTE]
+>
+>Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
-#### Reports
+### Reports
 
 * **Repeat order probability after making a return**
 * *Metric A: Number of orders with returns*

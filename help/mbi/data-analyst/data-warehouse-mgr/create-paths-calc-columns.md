@@ -13,7 +13,7 @@ If you know this information, you will be able to easily create a path following
 
 ## Refreshers on table relationships and key types {#refresher}
 
-#### Table Relationships {#relationships}
+### Table Relationships {#relationships}
 
 We covered this concept in depth in our [Understanding and evaluating table relationships article](../data-analyst/data-warehouse-mgr/table-relationships.md), but a quick summary never hurt anyone, right?
 
@@ -26,7 +26,7 @@ Tables can be related to one another in one of three ways:
 
 Once a relationship between two tables is understood, it can be used to determine what path should be created to bring information from one table to another. This next step requires knowing the primary and foreign keys that facilitate a table relationship.
 
-#### Primary and foreign keys {#keys}
+### Primary and foreign keys {#keys}
 
 A **Primary Key** is an unchanging column or set of columns that produces unique values within a table. For example, when a customer makes an order on a website, a new row is added to the _orders_ table in your shopping cart, with a new **order_id**. This **order_id** allows both the customer and business to track the progress of that specific order. Because order id is unique, it is typically the Primary Key of an Orders table.
 
@@ -42,7 +42,7 @@ We'll use the relationship between **customers** and **orders** to show you how 
 * The **primary key** we want to use is **customers.customerid**, or the c**ustomer ID** column in the **customers** table.
 * The **foreign key** we want to use is **orders.customerid**, or the **customer ID** column in the **orders** table.
 
-Now we'll walk you through actually creating the path.
+Now we will walk you through actually creating the path.
 
 1. Click **Data > Data Warehouse**.
 1. In the table list, click the table you want to create the column in. In our example, it is the **customers** table.

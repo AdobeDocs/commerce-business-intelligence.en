@@ -37,7 +37,7 @@ _Number of tables depends on guest checkout._
 * `customer\_group`
 * `store`
 
-#### Columns Included in Essentials
+## Columns Included in Essentials
 
 Items in _italics_ are calculated fields.
 

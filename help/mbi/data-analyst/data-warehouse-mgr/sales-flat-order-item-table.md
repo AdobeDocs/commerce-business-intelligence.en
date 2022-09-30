@@ -6,7 +6,7 @@ description: Learn how to work with the sales_order_item table.
 
 The `sales_order_item` table (`sales_flat_order_item` on M1) contains records of all products that were purchased in an order. Each row represents a unique `sku` included in an order. The quantity of units that were purchased for a specific `sku` is most often represented by the `qty_ordered` field.
 
-### Product Types
+## Product Types
 
 The `sales_order_item` captures details on all [product types](https://docs.magento.com/m2/ce/user_guide/catalog/product-types.html) that were purchased. A common practice in Magento is to offer configurable products, or in other words, a product that can be customized according to size, color, and other product attributes. Although a configurable product has its own `sku`, it can relate to multiple simple products, where each simple product represents a unique product configuration. Refer to [configuring products](https://devdocs.magento.com/guides/v2.3/rest/tutorials/configurable-product/config-product-intro.html) for more information.
 
@@ -18,7 +18,7 @@ When a configurable product is included in an order, two rows are generated in t
 
 Therefore it is possible to report on sales of products either at the simple level or at the configurable level. By default, all standard order-item-level metrics in MBI are configured to exclude the simple products, and *only* report on the configurable versions. This is accomplished through the "Ordered products we count" filter set, which filters on the condition where `parent_item_id` is `NULL`.
 
-### Common Columns
+## Common Columns
 
 |**Column Name**|**Description**|
 |`base_price`|Price of an individual unit of a product at the time of sale after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied, represented in the base currency of the store|
@@ -33,7 +33,7 @@ Therefore it is possible to report on sales of products either at the simple lev
 |`sku`|Unique identifier for the order item that was purchased|
 |`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which Magento store view is associated with the order item|
 
-### Common Calculated Columns
+## Common Calculated Columns
 
 |**Column Name**|**Description**|
 |`Customer's email`|Email address of the customer placing the order. Calculated by joining `sales_order_item.order_id` to `sales_order.entity_id` and returning the `customer_email` field|
@@ -47,14 +47,14 @@ Therefore it is possible to report on sales of products either at the simple lev
 |`Store name`|Name of the Magento store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
 {:style="table-layout:fixed;"}
 
-### Common Metrics
+## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
 |Products ordered|The total quantity of products included in carts at the time of sale|Operation: Sum<br>Operand: `qty_ordered`<br>Timestamp: `created_at`|
 |Revenue by products ordered|Total value of products included in carts at the time of sale after catalog price rules, tiered discounts, and special pricing are applied and before any taxes, shipping, or cart discounts are applied|Operation: Sum<br>Operand: `Order item total value (quantity * price)`<br>Timestamp: `created_at`|
 {:style="table-layout:fixed;"}
 
-### Foreign Key Joining Paths
+## Foreign Key Joining Paths
 
 `catalog_product_entity`
 

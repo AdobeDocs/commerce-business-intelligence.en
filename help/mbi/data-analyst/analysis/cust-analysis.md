@@ -1,6 +1,8 @@
 ---
 title: Customer Analysis
+description: Customer Analysis
 ---
+# Customer Analysis
 
 In this section, you will acquire the tools to analyze your customers by learning how to:
 

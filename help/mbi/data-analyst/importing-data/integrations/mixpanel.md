@@ -49,7 +49,7 @@ Keep this open - we need it to wrap this up.
 
 That is it! If the connection is successful, a _Success!_ message will display at the top of the page.
 
-# Related
+### Related
 
 * [Expected Mixpanel data](../integrations/mixpanel-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)

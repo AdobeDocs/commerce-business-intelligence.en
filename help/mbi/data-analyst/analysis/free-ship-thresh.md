@@ -16,7 +16,7 @@ Before getting started, you want to identify two separate time periods where you
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
-#### Calculated Columns
+## Calculated Columns
 
 If you are on the original architecture (i.e., if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
 
@@ -32,20 +32,20 @@ If you are on the original architecture (i.e., if you do not have the "Data Ware
     **when A< 200 and A <= 250 then '201 - 250'**
     **when A<251 and A<= 300 then '251 - 300'**
     **when A<301 and A<= 350 then '301 - 350'**
-    **when A<351 and A<=400 then '351 - 400`**
+    **when A<351 and A<=400 then '351 - 400'**
     **when A<401 and A<=450 then '401 - 450'**
     **else 'over 450'**
     **end**
   <!--<!--{: style="list-style-type: circle;"}-->-->
 <!--<!--{: style="list-style-type: circle;"}-->-->
 
-#### Metrics
+## Metrics
 
 No new metrics!!!
 
 Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
-#### Reports
+## Reports
 
 * **Average order value with shipping rule A**
   * Metric: Average order value

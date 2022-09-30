@@ -6,7 +6,7 @@ description: Learn how analyze information about a specific item from a requeste
 
 Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_item_entity` in Magento 2.x, but the name can be customized) contains information about a specific item from a requested return. **Note:** _This table only comes standard with your Magento account if you are an Enterprise Edition or Enterprise Cloud Edition customer._
 
-### Common Native Columns
+## Common Native Columns
 
 |**Column Name**|**Description**|
 |---|---|
@@ -19,7 +19,7 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 |order\_item\_id|Foreign key associated with the `sales\_flat\_order\_item` table.|
 |product\_sku|The sku being returned.|
 
-### Common Calculated Columns
+## Common Calculated Columns
 
 |**Column Name**|**Description**|
 |---|---|
@@ -27,15 +27,14 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 |Item price|The price of the item.|
 |Return item's total value (qty\_returned * price)|This is the total monetary value of the items that are returned. This will be used to calculate the total return amount on the `enterprise\_rma` table.|
 
-### Common Metrics
+## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|Number of items returned|The number of items that are returned.|Operation Column: qty\_returned<br>
-Operation: Sum<br>Timestamp Column: Return date\_requested|
-|Returned items' total value|The monetary amount returned.|Operation Column: Return item's total value (qty\_returned * price)<br>Operation: Sum<br>Timestamp Column: Return date\_requested|
+|Number of items returned|The number of items that are returned.|Operation Column: qty returned<br>Operation: Sum<br>Timestamp Column: Return date requested |
+|Returned items' total value|The monetary amount returned. |Operation Column: Return item's total value (qty returned * price)<br>Operation: Sum<br>Timestamp Column: Return date requested|
 
-### Connections to Other Tables
+## Connections to Other Tables
 
 `enterprise_rma`
 

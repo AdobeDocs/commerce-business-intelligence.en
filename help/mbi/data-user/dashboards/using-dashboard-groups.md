@@ -8,13 +8,13 @@ Dashboard groups allow better organization of dashboards. The most common use ca
 
 In the dashboard selection drop-down, dashboard groups are shown in alphabetical order, with all dashboards under "No Group" shown last. Dashboards under the same group are shown together and in alphabetical order within each group.
 
-### Dashboard Group Sharing
+## Dashboard Group Sharing
 
 Dashboard groups cannot be directly shared between users. When a dashboard is shared with users, the dashboard group it is under is automatically created for those users if it does not already exist. If the dashboard group already exists, the dashboard is simply appended to the list.
 
 When a dashboard's group is changed by its owner, the change will be reflected automatically for all users with whom the dashboard has been shared. Users cannot change the dashboard group for dashboards they do not own.
 
-### Create dashboard groups
+## Create dashboard groups
 
 Dashboard groups can be created in one of two ways:
 
@@ -32,7 +32,7 @@ Dashboard groups can be created in one of two ways:
 
       ![create dashboard group](../../assets/create-dashboard-groups-existing-dashboard.png)
 
-### Add Existing Dashboards to Existing Groups
+## Add Existing Dashboards to Existing Groups
 
 1. On the **Manage Data** > **Dashboards** page, choose the dashboard for which to change the group.
 
@@ -42,6 +42,6 @@ Dashboard groups can be created in one of two ways:
 
    ![change group dashboard](../../assets/add-existing-dashboard-existing-group.png)
 
-### Delete dashboard groups
+## Delete dashboard groups
 
 When a dashboard group has no dashboards under it, it is automatically deleted.

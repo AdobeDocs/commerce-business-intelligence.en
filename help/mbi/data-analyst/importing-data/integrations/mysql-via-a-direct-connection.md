@@ -28,7 +28,7 @@ For the connection to be successful, your must configure your firewall to allow 
 
 ## Create a MySQL user for MBI
 
-The simplest way to create a MySQL user for MBI is to execute the following query when logged into MySQL with GRANT privileges. Replace *<MBI IP Address>* with the MBI IP address and replace *<secure password>* with a secure password of your choice:
+The simplest way to create a MySQL user for MBI is to execute the following query when logged into MySQL with GRANT privileges. Replace `MBI IP Address` with the MBI IP address and replace `secure password` with a secure password of your choice:
 
 ```sql
     GRANT SELECT ON *.* TO 'magentobi'@'<MBI IP address>' IDENTIFIED BY '<secure password>';

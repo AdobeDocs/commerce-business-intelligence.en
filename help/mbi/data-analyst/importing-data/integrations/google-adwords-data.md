@@ -21,7 +21,7 @@ Whenever you are interested in performing an analysis that considers these attri
 
 Here's a look at the expected schema for both tables:
 
-#### Campaigns table
+## Campaigns table
 
 The `campaigns` table contains the following columns:
 
@@ -38,7 +38,7 @@ The `campaigns` table contains the following columns:
 | profileName | The profile name |
 | \_updated\_at | The date and time of the last update for this row |
 
-#### AdWords table
+## AdWords table
 
 The `adwords` table contains the following columns:
 
@@ -61,7 +61,7 @@ The `adwords` table contains the following columns:
 
 Using this data, you can start creating [metrics ](../../../data-user/reports/ess-manage-data-metrics.md) and [reports](../../../tutorials/using-visual-report-builder.md) based on spending data and [marry it to your lifetime revenue to calculate ROI](../../analysis/roi-ad-camp.md).
 
-#### Consolidated tables
+## Consolidated tables
 
 We always recommend creating a **consolidated ad spend table** to combine the data from all of your multiple advertising sources into a single table. This enables you to use a single set of metrics for advertising analysis.
 

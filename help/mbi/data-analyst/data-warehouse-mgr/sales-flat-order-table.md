@@ -8,7 +8,7 @@ The `sales_order` table (`sales_flat_order` on M1) is where each order is captur
 
 This table includes all customer orders, whether or not that order was processed through guest checkout. If your store accepts guest checkout please find more information about this use case [here](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/guest-orders.html).
 
-### Common Columns
+## Common Columns
 
 |**Column Name**|**Description**|
 |---|---|
@@ -30,7 +30,7 @@ This table includes all customer orders, whether or not that order was processed
 |`status`|Order's status. May return values such as 'complete', 'processing', 'cancelled', 'refunded', as well as any custom statuses implemented on the Magento instance. Subject to changes as the order gets processed|
 |`store_id`|Foreign key associated with the `store` table. Join to `store`.`store_id` to determine which Magento store view is associated with the order|
 
-### Common Calculated Columns
+## Common Calculated Columns
 
 |**Column Name**|**Description**|
 |`Billing address city`|Billing city for the order. Calculated by joining `sales_order`.`billing_address_id` to `sales_order_address`.`entity_id` and returning the `city` field|
@@ -55,7 +55,7 @@ This table includes all customer orders, whether or not that order was processed
 |`Store name`|The name of the Magento store associated with this order. Calculated by joining `sales_order`.`store_id` to `store`.`store_id` and returning the `name` field|
 {:style="table-layout:fixed;"}
 
-### Common Metrics
+## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
 |Avg order value|The average revenue per order, where revenue is defined as the `base_grand_total`|Operation: Average<br/>Operand: `base_grand_total`<br/>Timestamp: `created_at`|
@@ -69,7 +69,7 @@ This table includes all customer orders, whether or not that order was processed
 |Unique Customers|The number of unique customers placing an order in the given reporting time interval. For example if the report's interval was weekly, each customer who places at least one order in a given week will be counted exactly once, regardless of how many orders they placed in that week|Operation: Count Distinct<br/>Operand: `customer_email`<br/>Timestamp: `created_at`|
 {:style="table-layout:fixed;"}
 
-### Foreign Key Joining Paths
+## Foreign Key Joining Paths
 
 `customer_entity`
 

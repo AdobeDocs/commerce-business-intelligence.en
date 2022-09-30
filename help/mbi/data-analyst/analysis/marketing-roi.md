@@ -14,13 +14,13 @@ If you are spending money on online advertising, you will inevitably want to tra
 
 Before getting started, you want to connect your [Facebook Ads](../importing-data/integrations/facebook-ads.md), [Adwords](../importing-data/integrations/google-adwords.md), and [Google Ecommerce](../importing-data/integrations/google-ecommerce.md) accounts as well as bring in any additional online ad spend data. This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
-#### Consolidated Tables
+## Consolidated Tables
 
 **Original architecture:** In order to bring together your spend from various sources (like Facebook Ads or Google Adwords), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you have not already, [file a support request](../../getting-started/support.md) with the subject **[MARKETING ROI ANALYSIS]**, and an analyst will create this table.
 
 **New architecture:** You can follow the example set forth in [this Analysis Library](../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
 
-#### Calculated Columns
+## Calculated Columns
 
 Columns to create
 
@@ -113,7 +113,8 @@ Columns to create
   <!--{: style="list-style-type: circle;"}-->
 <!--{: style="list-style-type: circle;"}-->
 
-#### Metrics
+## Metrics
+
 * **Ad spend**
 * In the <!--<span class="wysiwyg-color-blue">-->**`Consolidated Digital Ad Spend`**<!--</span>--> table
 * This metric performs a **Sum**
@@ -137,7 +138,7 @@ Columns to create
 
 Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
-#### Reports
+## Reports
 
 * **Ad spend (all time)**
   * Metric: Ad Spend

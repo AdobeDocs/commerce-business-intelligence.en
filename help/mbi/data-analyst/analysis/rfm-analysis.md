@@ -10,13 +10,13 @@ In this article, we demonstrate how to set up a dashboard that will allow you to
 
 The RFM analysis is only able to be configured if you have the MBI Pro plan on the new architecture (i.e., if you have the "Data Warehouse Views" option under the "Manage Data" menu). These columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
 
-### Getting Started
+## Getting Started
 
 You will need to first upload a file containing just a primary key with the value of one. This will allow the creation of some necessary calculated columns for the analysis.
 
 You can leverage this [help center article](../importing-data/connecting-data/using-file-uploader.md) as well as the image below to format your file.
 
-### Calculated Columns
+## Calculated Columns
 
 A further distinction is made if your business allows guest orders. If so, you can ignore all steps for the `customer_entity` table. If guest orders are not allowed, ignore all steps for the `sales_flat_order` table.
 
@@ -141,13 +141,13 @@ Columns to create
 
 **Note**: The percentiles used are even splits of customers (i.e., 20% buckets to return 1-5). If you have a custom way you would like to weight these, let the analyst know when you submit the ticket.
 
-### Metrics
+## Metrics
 
 No new metrics!
 
 **Note**: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
-### Reports
+## Reports
 
 * **Customers by RFM grouping**
 * *Metric A: New customers*

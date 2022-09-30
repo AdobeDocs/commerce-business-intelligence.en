@@ -10,7 +10,7 @@ The `quote` table (`sales_flat_quote` on M1) contains records on every shopping 
 >
 >Analyzing historical abandoned carts is only possible if you do not delete records from the `quote` table. If you do delete records, you will only be able to see the carts not yet removed from your database.
 
-### Common Native Columns
+## Common Native Columns
 
 |**Column Name**|**Description**|
 |`base_currency_code`|Currency for all values captured in `base_*` fields (that is `base_grand_total`, `base_subtotal`, and so on). This typically reflects the Magento store's default currency|
@@ -25,16 +25,16 @@ The `quote` table (`sales_flat_quote` on M1) contains records on every shopping 
 |`reserved_order_id`|Foreign key associated with the `sales_order` table. Join to `sales_order.increment_id` to determine order details associated with a converted cart. For carts that are not associated with a converted order, the `reserved_order_id` will remain `NULL`|
 |`store_id`|Foreign key associated with the `store` table. Join to `store`.`store_id` to determine which Magento store view is associated with the cart|
 
-### Common Calculated Columns
+## Common Calculated Columns
 
 |**Column Name**|**Description**|
-|`Order date`|Timestamp reflecting order creation date for converted carts. Calculated by joining `quote.reserved_order_id` to `sales_order.increment_id` and returning the `sales_order.created_at` field
+|`Order date`|Timestamp reflecting order creation date for converted carts. Calculated by joining `quote.reserved_order_id` to `sales_order.increment_id` and returning the `sales_order.created_at` field |
 |`Seconds between cart creation and order`|Elapsed time between cart creation and order creation. Calculated by subtracting `created_at` from `Order date`, returned as an integer number of seconds|
 |`Seconds since cart creation`|Elapsed time between the cart's creation date and now. Calculated by subtracting `created_at` from the server timestamp at the time the query is executed, returned as an integer number of seconds. Most commonly used to identify the age of a cart|
 |`Store name`|The name of the Magento store associated with this order. Calculated by joining `quote.store_id` to `store.store_id` and returning the `name` field|
 {:style="table-layout:fixed;"}
 
-### Common Metrics
+## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
 |Number of abandoned carts|The count of carts that meet specific "abandonment" conditions|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `created_at`<br/>Filters:<br><br>- \[A\] `is_active` = 1<br>- \[B\] `items_count` > 0<br>- \[C\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
@@ -42,7 +42,7 @@ The `quote` table (`sales_flat_quote` on M1) contains records on every shopping 
 |Abandoned cart value|The sum of the total abandoned cart potential revenue, where revenue is defined as the `base_grand_total` field|Operation: Sum<br>Operand: `base_grand_total`<br>Timestamp: `created_at`<br>Filters:<br><br>- \[A\] `is_active` = 1<br>- \[B\] `items_count` > 0<br>- \[C\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
 {:style="table-layout:fixed;"}
 
-### Foreign Key Joining Paths
+## Foreign Key Joining Paths
 
 `customer_entity`
 

@@ -63,6 +63,6 @@ The first step to segment your metrics by the above dimensions is to make sure t
 
 Once we confirm that the data is tracked in your database, [contact our support team](../../getting-started/support.md) to push the dimensions to your MBI metrics and charts, or simply use our Field Management tool to track these fields in MBI.
 
-# Related
+## Related
 
 * [Optimizing your database for analysis](../../best-practices/opt-db-analysis.md)

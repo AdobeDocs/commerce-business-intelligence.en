@@ -9,7 +9,7 @@ After [you have connected your Zendesk account](../integrations/zendesk.md), you
 In this article, we explore the main data tables that you can import from Zendesk into MBI, including links to additional documentation about Zendesk data.
 
 | Table name | Description |
-| [Audits](https://developer.zendesk.com/rest_api/docs/core/ticket_audits) | The **audits** table records activity associated with a ticket, including status changes and both customer and agent responses. This table includes a ticket\_id which links back to the **tickets** table, which allows you to analyze the time to first response and time to resolution for each ticket. |
+| [Audits](https://developer.zendesk.com/rest_api/docs/core/ticket_audits) | The **audits** table records activity associated with a ticket, including status changes and both customer and agent responses. This table includes a ticket id which links back to the **tickets** table, which allows you to analyze the time to first response and time to resolution for each ticket. |
 | [Audit_~\_Events](https://developer.zendesk.com/rest_api/docs/core/ticket_audits#audit-events) | The **audit_~\_events** table is the child of the **audits** table and records additional details of a ticket event. |
 | [Organizations](https://developer.zendesk.com/rest_api/docs/core/organizations) | The organizations table records company information about your end-users such as the name, ID, associated domain names, tags, and any custom fields. |
 | [Tickets](https://developer.zendesk.com/rest_api/docs/core/tickets) | The **tickets** table records all ticket details, including the created_at timestamp as well as the requester\_id and assignee\_id, which allows you to link a ticket to an end-user and agent in the **users** table respectively. |
@@ -20,7 +20,7 @@ In this article, we explore the main data tables that you can import from Zendes
 | [Zendesk\_Tags](https://developer.zendesk.com/rest_api/docs/core/tags) | The **tags** table contains a list of all the tags in your account. |
 | [Zendesk\_Ticket\_Metrics](https://developer.zendesk.com/rest_api/docs/core/ticket_metrics#ticket-metrics) | This table contains data about (you guessed it) ticket metrics. Fields include the ticket ID, URL, and the number of groups, assignees, reopens, replies, reply time (in minutes), full resolution time, and last update (status, assignee, requester, etc) information. |
 
-### Related
+## Related
 
 * [Connecting Zendesk](../integrations/zendesk.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)

@@ -16,7 +16,7 @@ Before getting started, you want to familiarize yourself with explore perspectiv
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
-### Calculated Columns
+## Calculated Columns
 
 * <!--<span class="wysiwyg-color-blue">-->**`Sales_flat_order`**<!--</span>--> table
 * **Original architecture:** the below columns will be created by an analyst as part of your **[YoY WoW MoM ANALYSIS]** ticket
@@ -35,13 +35,13 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
   * <!--<span class="wysiwyg-color-blue">-->**`created_at (hour of the day)`**<!--</span>--> Calculation**:** **to_char(A, 'hh24')**
     ![](../../assets/Screen_Shot_2017-10-05_at_4.27.32_PM.png)
 
-### Metrics
+## Metrics
 
 None.
 
 **Note:** Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
-### Reports
+## Reports
 
 * **YoY chart**
   * Metric: Number of orders

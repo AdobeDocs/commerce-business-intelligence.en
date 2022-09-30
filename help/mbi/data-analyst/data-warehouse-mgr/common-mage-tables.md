@@ -6,7 +6,7 @@ description: Learn about some of the more common tables that MBI customers utili
 
 When you first [connect a Magento instance to MBI](../importing-data/integrations/magento.md), MBI automatically replicates data from some of your commerce tables (typically 4-6 tables) in order to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
 
-Below is a list of some of the more common tables that MBI customers utilize. After you [connect your Magento instance to MBI](../data-analyst/importing-data/integrations/magento.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#calculated) to track relevant data fields.
+Below is a list of some of the more common tables that MBI customers utilize. After you [connect your Magento instance to MBI](../data-analyst/importing-data/integrations/magento.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md) to track relevant data fields.
 
 |Table name|Description|
 |---|---|
@@ -20,6 +20,6 @@ Below is a list of some of the more common tables that MBI customers utilize. Af
 |`sales_order_address`|Each row on the `sales_order_address` table contains shipping and billing information for a specific order. On the `sales_order` table, the `billing_address_id` and the `shipping_address_id` for a given order refer to a specific row (identified by `entity_id`) on the `sales_order_address` table.|
 |`sales_order_item`|Each row in the [`sales_order_item`](../data-warehouse-mgr/sales-flat-quote-item-table.md) table identifies a specific item from a specific order. Each row contains details such as the product, the quantity purchased, and the order with which the given item is associated.|
 
-### Related documentation
+## Related documentation
 
 [Magento Entity Relationship Diagrams](../data-warehouse-mgr/entity-rel-diag.md)

@@ -54,6 +54,7 @@ A *Success!* message will appear and the status will change to Pending for the s
 Here is a quick look at the whole process:
 
 ![Adding columns to your data warehouse](../../assets/DW_sync.gif)<!--{: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Adding tables and columns to your data warehouse"}-->
+
 ### Syncing New Tables in the Background {#syncnew}
 
 When you a sync a large, new table for the first time, your data warehouse needs to retroactively capture all data points in the table before capturing new data on an ongoing basis. If your table is particularly large, you may not want to have that initial sync run in sequence with your **update cycle** — in situation, you will want the initial sync to occur in the background, in *parallel* with any currently running update.

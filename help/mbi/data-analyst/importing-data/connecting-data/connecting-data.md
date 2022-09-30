@@ -10,11 +10,11 @@ Integrations are added and managed using the **Connections** page, which can be 
 
 ![Data\_Sources\_Table.png](../../../assets/Data_Sources_Table.png)
 
-#### Types of Integrations
+## Types of Integrations
 
 There are four ways to get your data into MBI: connect a database, connect a SaaS integration, upload a CSV file, or use our API.
 
-#### Database Integrations
+## Database Integrations
 
 ![Database\_icons.jpg](../../../assets/Database_icons.jpg)
 
@@ -24,7 +24,7 @@ While you can directly connect your database to MBI using database credentials, 
 
 Depending on the connection method and type of database, some tech expertise might be required to complete the setup.
 
-#### SaaS Integrations
+## SaaS Integrations
 
 ![](../../../assets/SaaS_icons.jpg)
 
@@ -32,19 +32,19 @@ SaaS integrations are services like [Google Adwords](../integrations/google-adwo
 
 In most cases, setting up an integration in MBI is as easy as simply entering your account credentials. Some services might require an API key to complete the authorization - check out the [integrations section](../integrations/integrations.md) for instructions on generating any credentials you need.
 
-#### File Upload
+## File Upload
 
 Not sure how to get data from a supplementary source into your data warehouse? [Using the File Upload feature](../connecting-data/using-file-uploader.md) is a good way to pull in data that you do not need for everyday decision making. Following our formatting rules, you can quickly upload CSV files into your data warehouse and join them with other data sources.
 
-#### MBI Import API
+## MBI Import API
 
 If you would rather automate the retrieval of data from one of your own sources, you can use the MBI Import API. **Basically: if it is not in a database or a SaaS integration**, the Import API is your best bet.
 
-Using the API requires a bit of technical expertise - someone who's comfortable with writing and maintaining a small Ruby or PHP script will be more than qualified.
+Using the API requires a bit of technical expertise - someone who is comfortable with writing and maintaining a small Ruby or PHP script will be more than qualified.
 
 To learn more about getting started with the Import API, check out the [Developer site](https://devdocs.magento.com/mbi/docs/getting-started.html) and [how to generate an API key](https://devdocs.magento.com/mbi/docs/import-api.html).
 
-#### Add an Integration
+## Add an Integration
 
 To add an integration, click **Manage Data > Connections** and then the **Add a New Data Source** button. Click the icon of the integration you want to add and follow the instructions in our help articles to set things up:
 

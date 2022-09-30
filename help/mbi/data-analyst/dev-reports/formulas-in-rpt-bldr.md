@@ -6,7 +6,7 @@ description: Learn how formulas can be used in the Report Builder.
 
 In the [Report Builder](../../tutorials/using-visual-report-builder.md), you can create powerful visualizations using the [defined metrics](../../data-user/reports/ess-manage-data-metrics.md) in your account. Combining these metrics in a formula allows you to glean additional insights from your data. In this article, we deep-dive into how formulas can be used in the Report Builder - lets jump in!
 
-## what is a formula? {#what}
+## What is a formula? {#what}
 
 In the Report Builder, a formula is just a combination of one or more metrics based on some mathematical logic. A typical example looks like this:
 
@@ -16,27 +16,27 @@ In this example, we are using a Number of orders metric (A) and a Distinct buyer
 
 * **Definition:** Here, you apply math on the input metrics. In this example, dividing the number of orders by the number of distinct buyers will tell us the average number of orders. Therefore, the definition is (A/B).
 
-* **Format:** Is your formula returning a number, a time period, or a currency amount? Next to the formula's definition is a drop-down menu, which you can use to specify the return's format. In this case, it is a number.
+* **Format:** Is your formula returning a number, a time period, or a currency amount? Next to the formula's definition is a dropdown, which you can use to specify the return's format. In this case, it is a number.
 
-* **Miscellaneous:** The formula's timestamp, groupings, perspectives, and filters are all inherited by its input metrics. There's nothing to do here!
+* **Miscellaneous:** The formula's timestamp, groupings, perspectives, and filters are all inherited by its input metrics. There is nothing to do here!
 
 ## How can I use formulas in my reports? {#how}
 
 Now that we have covered the basics, lets take a look at some examples.
 
-#### Example: I want to find out what percent of my revenue can be attributed to first-time orders.
+### Example: I want to find out what percent of my revenue can be attributed to first-time orders.
 
 ![Using formulas to find the percent of revenue attributed to first-time orders](../../assets/first_time_orders.gif)
 
 In this example, we used the **Revenue** and **Revenue (first time orders)** metrics. By dividing the **Revenue (first time orders)(B)** metric by the **Revenue metric (A)** and setting the return format to **Percent**, we can find the percent of revenue that can be attributed to first time orders.
 
-#### Example: I want to know what the average revenue per order is when I do and do not offer a promo code.
+### Example: I want to know what the average revenue per order is when I do and do not offer a promo code.
 
 ![Using formulas to find the average revenue per order with and without promo codes](../../assets/promo_code.gif)
 
 In this example, we used the **Revenue** and **Number of orders** metrics. The answer to this question involves two steps - dividing **Revenue (A)** by the **Number of orders (B)** and setting the return format to **Currency**. Next, we only allowed the formula result **(Avg. Revenue per order)** to show and grouped the results by **Promo code**.
 
-#### Example: I want to know the distribution of my new customers' UTM sources.
+### Example: I want to know the distribution of my new customers' UTM sources.
 
 ![Using formulas to find the distribution of new customers' UTM sources](../../assets/distro.gif)
 
@@ -56,4 +56,4 @@ In our example, we used the **Stacked Columns** perspective to display the resul
 
 Did you notice in the examples above that the formula's timestamp, groupings, perspectives, and filters are inherited from its input metrics? Keep in mind that formulas can be leveraged to use perspectives and [independent time options](../../tutorials/time-options-visual-rpt-bldr.md){: target="_blank"}, just like metrics can.
 
-If you have any additional questions about using formulas in the Report Builder, [contact support](../../getting-started/support.md){: target="_blank"}!
+If you have any additional questions about using formulas in the Report Builder, [contact support](../../getting-started/support.md).

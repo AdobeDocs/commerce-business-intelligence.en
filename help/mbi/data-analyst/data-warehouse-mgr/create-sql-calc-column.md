@@ -61,10 +61,10 @@ From here you can create a new Calculation column by following the steps below:
 1. Choose the input columns from the table that will be used in the logic for your new column. Each column you add will get a letter alias, so the first column will be A, the second will be B and so on
 1. In the window, type the PostgreSQL logic for your new column using the letter aliases of your inputs. The SQL calculation should be limited to a single column definition, including all logic between the SELECT and FROM statements of a SQL query. Note that SQL keywords using any of the input letters should be in lowercase. For example, when using the **CASE** statement, it should be written in lowercase - _case_. The system assumes that an uppercase _A_ refers to one of the inputs.
 1. Choose the appropriate datatype
-    - Integer – Whole number
-    - Decimal(10,2) - a decimal number with 10 total digits, of which 2 are to the right of the decimal point
-    - String – Any type of text or series of characters that uses non numbers
-    - Datetime – yyyy-MM-dd hh:mm:ss format
+    * Integer – Whole number
+    * Decimal(10,2) - a decimal number with 10 total digits, of which 2 are to the right of the decimal point
+    * String – Any type of text or series of characters that uses non numbers
+    * Datetime – yyyy-MM-dd hh:mm:ss format
 
 1. Click the **test column** button. This will generate a list of 5 test values for each of your inputs, and show the result of the logic from step 6 for each set of test values. If any portion of the SQL generates an error, the appropriate error message will be returned. Note that sample results can only be generated if all input columns are native fields. If any of the input columns are calculated columns, you will need to validate the results by adding the column to a metric and viewing in the Visual Report Builder
 1. When you are satisfied with the results, click **Save**, and your column will be available for use.

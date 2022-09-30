@@ -8,13 +8,13 @@ In this article, we demonstrate how to set up a dashboard that will help you mea
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
-#### Getting Started
+## Getting Started
 
 You will need to first upload a file containing just a primary key with the value of one. This will allow the creation of some necessary calculated columns for the analysis.
 
 You can leverage [the file uploader](../importing-data/connecting-data/using-file-uploader.md) as well as the image below to format your file.
 
-#### Calculated Columns
+## Calculated Columns
 
 If you are on the original architecture (i.e. if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
 
@@ -72,7 +72,7 @@ Columns to create
 
 **Note**: The percentiles used are even splits of customers, representing the Xth percentile of your customer base. Each customer will be associated with an integer from 1 to 100, which can be thought of as their lifetime revenue *rank*. For example, if the Customer's revenue percentile for a specific customer is **5**, this customer is in the ***5th percentile*** of all customers in terms of lifetime revenue.
 
-#### Metrics
+## Metrics
 
 * **Total customer lifetime value**
 * In the **customer_entity** table
@@ -80,7 +80,7 @@ Columns to create
 * On the **Customer's lifetime revenue** column
 * Ordered by the **Customer's first order date** timestamp
 
-#### Reports
+## Reports
 
 * **Customer concentration**
 * Metric: Total customer lifetime value

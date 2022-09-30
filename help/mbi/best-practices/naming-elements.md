@@ -18,7 +18,7 @@ Read on for our tried and true nomenclature tips!
 
 ## General best practices {#general}
 
-#### Be meaningful {#meaningful}
+### Be meaningful {#meaningful}
 
 Be specific whenever possible! For example, if it is the country, do you know if it is the shipping or the billing country? Is it the user's city, or it is the deal's city?
 
@@ -33,13 +33,13 @@ This is vague and does not tell us much.
 
 These examples are specific, which decreases the potential for confusion.
 
-#### Be consistent with capitalization {#capitalize}
+### Be consistent with capitalization {#capitalize}
 
 We are big fans of the 'first letter uppercase, rest of the characters lowercase unless proper noun' style of capitalization. For example: **User's order number** rather than **User's Order Number.**
 
 This is really a matter of preference, but the thing to remember is to be consistent with whatever you choose.
 
-#### Entity consistency {#entity}
+### Entity consistency {#entity}
 
 You likely already have a nomenclature in place at your company. Keep the metrics and dimensions you put in place consistent with what is used in other databases and tools. For example:
 
@@ -47,7 +47,7 @@ You likely already have a nomenclature in place at your company. Keep the metric
 * Company vs. Account vs. Organization
 * Registration vs. Creation
 
-#### Spelling and grammar {#spelling}
+### Spelling and grammar {#spelling}
 
 Make sure to double check your spelling and do not forget about those pesky possessives!
 

@@ -10,7 +10,7 @@ We have documented the steps required to create this analysis to understand how 
 
 ![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
-#### Getting Started
+## Getting Started
 
 First, a note about how coupon codes are tracked. If a customer applied a coupon to an order, three things happen:
 

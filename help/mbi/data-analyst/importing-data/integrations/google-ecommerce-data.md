@@ -4,7 +4,7 @@ description: Learn what types of data is shared with Google ECommerce.
 ---
 # Expected Google ECommerce data
 
-After your Google ECommerce account is successfully connected to MBI, the system will start importing data into a table titled **ecommerce.**. This table will record a data row for each transaction. This includes the following order-level data columns:
+After your Google ECommerce account is successfully connected to MBI, the system will start importing data into a table titled **ecommerce**. This table will record a data row for each transaction. This includes the following order-level data columns:
 
 | **Column Name** | **Description** |
 | \_id | This column is the primary key. |
@@ -12,7 +12,7 @@ After your Google ECommerce account is successfully connected to MBI, the system
 | profileName | This column contains your Google Analytics profile name. |
 | profileId | This column contains your Google Analytics profile ID. |
 | socialNetwork | This column contains the name of the social network (e.g. Facebook, YouTube, etc.) |
-| campaign | This column contains the campaign name (i.e. [utm\_campaign][(https://support.google.com/analytics/answer/1033867?hl=en)) |
+| campaign | This column contains the campaign name (i.e., [utm\_campaign](https://support.google.com/analytics/answer/1033867?hl=en)). |
 | medium | This column contains the medium name (i.e. [utm\_medium](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | source | This column contains the source name. (i.e. [utm\_source](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | keyword | This column contains the keyword description (i.e. [utm\_term](https://support.google.com/analytics/answer/1033867?hl=en)) |

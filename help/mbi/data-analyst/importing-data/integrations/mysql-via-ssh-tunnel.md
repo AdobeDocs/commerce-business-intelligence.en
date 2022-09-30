@@ -86,7 +86,7 @@ Your organization may require a different process, but the simplest way to creat
     GRANT SELECT ON *.* TO 'rjmetric'@'localhost' IDENTIFIED BY '<secure password here>';
 ```
 
-Replace *<secure password here>* with a secure password, which can be different than the SSH password.
+Replace `secure password here` with a secure password, which can be different than the SSH password.
 
 To restrict this user from accessing data in specific databases, tables, or columns, you can instead run GRANT queries that only allow access to the data you permit.
 

@@ -85,13 +85,13 @@ The following example shows how to create a simple report, group the data by an 
       Some chart types are not compatible with multidimensional data.
 
       | ![](../../assets/magento-bi-btn-chart-line.png) | Line graph |
-      | ![](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontal Bar
-      | ![](../../assets/magento-bi-btn-chart-horz-stacked-bar.png) | Horizontal Stacked Bar
-      | ![](../../assets/magento-bi-btn-chart-vert-bar.png) | Vertical Bar
-      | ![](../../assets/magento-bi-btn-chart-vert-stacked-bar.png) | Vertical Stacked Bar
-      | ![](../../assets/magento-bi-btn-chart-pie.png) | Pie
-      | ![](../../assets/magento-bi-btn-chart-area.png) | Area
-      | ![](../../assets/magento-bi-btn-chart-funnel.png) | Funnel
+      | ![](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontal Bar |
+      | ![](../../assets/magento-bi-btn-chart-horz-stacked-bar.png) | Horizontal Stacked Bar |
+      | ![](../../assets/magento-bi-btn-chart-vert-bar.png) | Vertical Bar|
+      | ![](../../assets/magento-bi-btn-chart-vert-stacked-bar.png) | Vertical Stacked Bar|
+      | ![](../../assets/magento-bi-btn-chart-pie.png) | Pie|
+      | ![](../../assets/magento-bi-btn-chart-area.png) | Area|
+      | ![](../../assets/magento-bi-btn-chart-funnel.png) | Funnel|
 
 1. To give the report a **title**, replace the `Untitled Report` text at the top of the page with a descriptive title.
 
