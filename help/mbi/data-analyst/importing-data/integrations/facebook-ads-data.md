@@ -6,7 +6,7 @@ description: Learn a brief overview of the tables we recommend you sync to your 
 
 ![](../../../assets/Facebook_Logo.png)
 
-After [you have connected your Facebook Ads account](../integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md %}#syncing) to easily track relevant data fields for analysis.
+After you have [connected your Facebook Ads account](../integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
 In this article, we  give you a brief overview of the tables we recommend you sync to your data warehouse. This is not an exhaustive list, as there are quite a few subtables. We are only highlighting the core tables.
 

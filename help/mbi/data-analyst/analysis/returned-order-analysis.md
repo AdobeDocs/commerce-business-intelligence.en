@@ -61,15 +61,15 @@ Columns to create
 * Many: enterprise_rma.order_id
 * One: sales_flat_order.entity_id
 
-* Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<<!--</span>-->
-* Select column: <!--<span class="wysiwyg-color-blue">-->**`created_at`**<<!--/span>-->
+* Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
+* Select column: <!--<span class="wysiwyg-color-blue">-->**`created_at`**<!--</span>-->
 * enterprise_rma.order_id = sales_flat_order.entity_id
 <!--{: style="list-style-type: square;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's order number`**<<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`Customer's order number`**
 * Select a definition: Joined Column
-* Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<<!--</span>-->
-* Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's order number`**<<!--</span>-->
+* Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
+* Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's order number`**<!--</span>-->
 * enterprise_rma.order_id = sales_flat_order.entity_id
 <!--{: style="list-style-type: square;"}-->
 
@@ -77,7 +77,7 @@ Columns to create
 <!--{: style="list-style-type: circle;"}-->
 
 * <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma_item_entity`**<<!--</span>--> table
-* <!--<span class="wysiwyg-color-blue">-->**`return_date_requested`**<<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`return_date_requested`**
 * Select a definition: Joined Column
 * Create Path:
 * Many: enterprise_rma_item_entity.rma_entity_id
@@ -91,8 +91,8 @@ Columns to create
 * <!--<span class="wysiwyg-color-blue">-->**`Return item total value (qty_returned * price)`**<!--</span>--> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
 <!--{: style="list-style-type: circle;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<<!--</span>--> table
-* <!--<span class="wysiwyg-color-blue">-->**`Order contains a return? (1=yes/0=No)`**<!--</span>-->
+* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`** table
+* <!--<span class="wysiwyg-color-blue">-->**`Order contains a return? (1=yes/0=No)`**
 * Select a definition: Exists
 * Select table: <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma`**<!--</span>-->
 * enterprise_rma.order_id = sales_flat_order.entity_id

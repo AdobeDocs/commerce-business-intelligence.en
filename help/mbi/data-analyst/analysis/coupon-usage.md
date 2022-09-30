@@ -18,7 +18,7 @@ Lets get started!
 
 When analyzing coupon usage, consider using ([or building](../../data-user/reports/ess-manage-data-metrics.md)) these metrics:
 
-#### Number of orders
+### Number of orders
 
 This metric shows you the number of orders with and without coupons over time. This shows if and how often customers are using your coupons, and how this changes over time.
 
