@@ -42,23 +42,29 @@ Keeping the above metrics in mind, Let us take a look at an example involving co
 | Single-cup coffee brewer | 94.98% | 7.92 | $549.82 | 57.01 days |
 | Coffee capsules | 93.82% | 8.68 | $479.98 | 63.48 days |
 | Coffee beans | 41.92% | 6.07 | $99.82 | 27.31 days |
+
 {style="table-layout:auto"}
 
 Now that we have our data, lets take a look at what this could mean for each of our metrics.
+
 ### Repeat order probability
 
 In this example, the repeat order probability - or the likelihood that an order will be followed up by another order - is much higher for the single-cup coffee brewers and coffee capsules than for the coffee beans.
 
 Since customers who purchase the brewer are "committed" to purchasing the associated capsules going forward, this makes sense. Similarly, the customers who purchased capsules have a brewer that is compatible with the capsules. However, coffee beans are not specific to any particular brewer.
+
 ### Average lifetime number of orders
 
 Based on the data above, we can see that people who purchase the brewer or capsules have made more purchases in their lifetime, on average, compared to customers who have purchased coffee beans.
+
 ### Average customer lifetime revenue
 
 Customers who purchase the brewer have the highest average lifetime revenue; which makes sense, given that the cost of the brewer is included in this measure. In contrast, customers who purchase coffee beans typically only purchase low-cost items.
+
 ### Time to next order
 
 Among customers who have purchased coffee capsules, half make a repeat order in about 2 months. However, among customers who have purchased coffee beans, half make a repeat order in about 1 month. This could be because people who order capsules either (1) do not drink as much coffee, or (2) place orders in bulk (e.g., purchasing 2 months' worth of coffee in one order).
+
 ## What other analyses can I build?
 
 Using the metrics we outlined in this article, you can also build other useful repurchasing analyses. For example, we can also see how customers repurchase **the same item** - for example, if they buy refills on a regular basis. Capsules and coffee beans may be repurchased regularly, but it would be unexpected to see customers making repeat purchases of the coffee brewer. If your business focuses on refills or restocking, this analysis would be extremely useful.

@@ -76,7 +76,7 @@ Columns to create
 * <!--<span class="wysiwyg-color-blue">-->**`Time between order's created_at and date_requested`**<!--</span>--> will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
 <!--{: style="list-style-type: circle;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma_item_entity`**<<!--</span>--> table
+* <!--<span class="wysiwyg-color-blue">-->**`enterprise_rma_item_entity`** table
 * <!--<span class="wysiwyg-color-blue">-->**`return_date_requested`**
 * Select a definition: Joined Column
 * Create Path:
