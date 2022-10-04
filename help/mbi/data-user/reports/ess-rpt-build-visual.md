@@ -84,6 +84,7 @@ The following example shows how to create a simple report, group the data by an 
 
       Some chart types are not compatible with multidimensional data.
 
+      | | |
       |-----|-----|
       | ![](../../assets/magento-bi-btn-chart-line.png) | Line graph |
       | ![](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontal Bar |

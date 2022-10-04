@@ -18,6 +18,7 @@ After you have connected your [Google Analytics account](../data-analyst/importi
 
 **Note**: The only special characters that need to be escaped using the \ character are the Metacharacters below:
 
+| | | | | |
 |-----|-----|-----|-----|-----|
 | ^ | [ | ] | $ | ( |
 | ) | . | { | } | * |
