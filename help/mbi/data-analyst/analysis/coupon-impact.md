@@ -40,6 +40,7 @@ Let us look at some sample data for coupon acquisition versus non-coupon acquisi
 | **Customer acquisition** | **Number of new customers** | **Average lifetime revenue** | **Number of repeat orders** | **Number of repeat orders w/ coupon** | **% of repeat orders w/ coupon** |
 | Coupon | 1,206 | $356.91 | 2,570 | 1,248 | 48.56% |
 | Non-coupon | 11,561 | $498.30 | 20,145 | 3,251 | 16.14% |
+
 {style="table-layout:auto"}
 
 What can we take away from this? Let us take a look:
@@ -102,6 +103,7 @@ Now, Let us look at an example involving three different coupons used for custom
 | **25% off $100 or more** | 56 | $8,531.04 | $2,132.76 | $6,398.28 | $152.34 |
 | **$10 off** | 87 | $3,707.07 | $426.10 | $3,280.97 | $42.61 |
 | **20% off** | 145 | $10,975.05 | $2,195.01 | $8,780.04 | $75.69 |
+
 {style="table-layout:auto"}
 
 What can we take away from this? First, the "20% off" coupon had the most number of first time orders. However, the number of orders associated with each coupon could vary based on several factors, including:
@@ -128,6 +130,7 @@ Now that we have looked at the orders themselves, Let us take a look at the cust
 | **25% off $100 or more** | 56 | 2.8 | $554.54 |
 | **$10 off** | 87 | 1.9 | $115.50 |
 | **20% off** | 145 | 1.3 | $103.75 |
+
 {style="table-layout:auto"}
 
 you will notice that the number of first time orders is the same as the number of customers for each coupon. This makes sense because each customer can only have one first order.

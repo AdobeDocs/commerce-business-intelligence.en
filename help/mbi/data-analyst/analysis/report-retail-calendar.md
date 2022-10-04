@@ -25,6 +25,7 @@ You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CS
 | Week Retail | Whole Number | No |
 | Month Name Retail | Text (Up to 255 Characters) | No |
 | Week Number of Month Retail | Whole Number | No |
+
 {style="table-layout:auto"}
 
 ## Columns to Create

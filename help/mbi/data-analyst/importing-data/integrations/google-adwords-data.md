@@ -37,6 +37,7 @@ The `campaigns` table contains the following columns:
 | profileId | The profile ID |
 | profileName | The profile name |
 | \_updated\_at | The date and time of the last update for this row |
+
 {style="table-layout:auto"}
 
 ## AdWords table
@@ -59,6 +60,7 @@ The `adwords` table contains the following columns:
 | adContent | The first line of the text for the online campaign |
 | adDestinationUrl | The URL to which the AdWords ads referred traffic |
 | adGroup | The name of the AdWords ad group |
+
 {style="table-layout:auto"}
 
 Using this data, you can start creating [metrics ](../../../data-user/reports/ess-manage-data-metrics.md) and [reports](../../../tutorials/using-visual-report-builder.md) based on spending data and [marry it to your lifetime revenue to calculate ROI](../../analysis/roi-ad-camp.md).

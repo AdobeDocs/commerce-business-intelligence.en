@@ -65,6 +65,7 @@ Google Analytics integrations in MBI utilize the Google Analytics [Core Reportin
 | All Goal Completions | ga:goalCompletionsAll |
 | All Goals Conversion Rate | ga:goalConversionRateAll |
 | Total Goal Value | ga:goal1ValueAll |
+
 {style="table-layout:auto"}
 
 ## Supported Dimensions
@@ -134,4 +135,5 @@ Google Analytics integrations in MBI utilize the Google Analytics [Core Reportin
 | Transaction ID | ga:transactionId | Yes |
 | Custom (User Defined) Value | ga:userDefinedValue | Yes |
 | Year | ga:year | No |
+
 {style="table-layout:auto"}

@@ -19,6 +19,7 @@ In this article, we explore the main data tables that you can import from Zendes
 | [Zendesk\_Macro](https://developer.zendesk.com/rest_api/docs/core/macros) | Macros are actions defined by you that modify the values of a ticket's fields. This table contains attributes such as the macro's title, ID, actions, restrictions, and creation and update information. |
 | [Zendesk\_Tags](https://developer.zendesk.com/rest_api/docs/core/tags) | The **tags** table contains a list of all the tags in your account. |
 | [Zendesk\_Ticket\_Metrics](https://developer.zendesk.com/rest_api/docs/core/ticket_metrics#ticket-metrics) | This table contains data about (you guessed it) ticket metrics. Fields include the ticket ID, URL, and the number of groups, assignees, reopens, replies, reply time (in minutes), full resolution time, and last update (status, assignee, requester, etc) information. |
+
 {style="table-layout:auto"}
 
 ## Related

@@ -54,6 +54,7 @@ Percentages must be entered as decimals. For example:
 | **Right:** | **Wrong:** |
 | .05 | 5% |
 | .23 | 23 |
+
 {style="table-layout:auto"}
 
 ### Values with leading and/or trailing zeroes {#zeroes}

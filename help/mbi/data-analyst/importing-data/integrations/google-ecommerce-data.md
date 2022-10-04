@@ -18,4 +18,5 @@ After your Google ECommerce account is successfully connected to MBI, the system
 | keyword | This column contains the keyword description (i.e. [utm\_term](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | transactionId | This column contains the order ID. This will be used to join the referral data back to your orders data. |
 | updated\_at | This column contains the last time that the data row was updated. |
+
 {style="table-layout:auto"}

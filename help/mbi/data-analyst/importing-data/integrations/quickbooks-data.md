@@ -28,6 +28,7 @@ To view all the fields available for tracking, click the links in the table name
 | [timeactivities](https://developer.intuit.com/docs/api/accounting/TimeActivity) | Time activities are time records for vendors and/or employees. The timeactivities table includes the time activity ID, employee/vendor information, time logged, activity description, and date recorded. |
 | [transfers](https://developer.intuit.com/docs/api/accounting/Transfer) | The transfers table records information on funds moved between accounts. Attributes include the transfer ID, amount, account information, and date. |
 | [vendorcredits](https://developer.intuit.com/docs/api/accounting/VendorCredit) | Vendor credits are AP transactions that are refunds or credits given to vendors. The vendorcredits table includes the vendor credit ID, line item information, vendor information, AP account, total amount, and date. |
+
 {style="table-layout:auto"}
 
 ## Name List Entities {#namelistentities}
@@ -46,6 +47,7 @@ To view all the fields available for tracking, click the links in the table name
 | [taxrates](https://developer.intuit.com/docs/api/accounting/TaxRate) | Tax rates are used to calculate tax liabilities. This table includes the tax rate ID, name, description, rate, tax agency, and more. |
 | [terms](https://developer.intuit.com/docs/api/accounting/Term) | This entity represents the terms under which sales are made. The terms table includes the term ID, name, type, discount percent, and due days. |
 | [vendors](https://developer.intuit.com/docs/api/accounting/Vendor) | The vendors table contains information about the vendors you purchase from. Table attributes include the vendor ID, company name, account number, account balance, 1099 status, billing address, phone number, email address, and web address. |
+
 {style="table-layout:auto"}
 
 ## Related:

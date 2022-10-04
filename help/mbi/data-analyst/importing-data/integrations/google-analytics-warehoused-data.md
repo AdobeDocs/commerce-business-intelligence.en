@@ -35,6 +35,7 @@ The table would look like the example below.
 | end-date | Identification of what day the row is for. |
 | month | Selected dimension: Month of the session, a two digit integer from 01 to 12. |
 | users | Selected metric: The total number of users for the requested time period. |
+
 {style="table-layout:auto"}
 
 ## Reminder: Difference between Google Analytics Warehoused and Live Integration

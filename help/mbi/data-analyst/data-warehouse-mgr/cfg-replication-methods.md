@@ -113,6 +113,7 @@ To finish up, we have put together this table that compares the various replicat
 | Auto-Incrementing Primary Key | Faster | Slow | No | No | No | Yes |
 | Primary Key Batch Monitoring | Slow | Slow | Yes | Yes | Yes | Yes |
 | Modified At | Faster | Faster | Yes | Yes | Yes | No |
+
 {style="table-layout:auto"}
 
 ## Related documentation

@@ -35,6 +35,7 @@ These permissions enable users to perform certain actions or access specific par
 | **Access Timezone settings** | ✔ |   |   |
 | **Access Billing** | ✔ | ✔** |   |
 | **Contact Support** | ✔ | ✔ | ✔ |
+
 {style="table-layout:auto"}
 
 **Note:** _You can limit a Standard user's [access to specific metrics](../../administrator/user-management/restrict-metric-access.md)._

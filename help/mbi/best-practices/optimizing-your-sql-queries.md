@@ -16,6 +16,7 @@ For this reason, we recommends you avoid using SELECT * wherever possible and on
 
 | **Instead of this...** | **Try this!** |
 | ![](../../assets/Select_all_1.png) | ![](../../assets/Select_all_2.png) |
+
 {style="table-layout:auto"}
 
 ## Using Full Outer Joins
@@ -28,6 +29,7 @@ Take a look at how we can rewrite a FULL OUTER JOIN query:
 
 | **Instead of this...** | **Try this!** |
 | ![](../../assets/Full_Outer_Join_1.png) | ![](../../assets/Full_Outer_Join_2.png) |
+
 {style="table-layout:auto"}
 
 As you can see, these queries are identical in every way except for the type of JOIN they use.
@@ -46,6 +48,7 @@ If you are using a filter when performing a join, be sure to apply it to both ta
 
 | **Instead of this...** | **Try this!** |
 | ![](../../assets/Join_filters_1.png) | ![](../../assets/Join_filters_2.png) |
+
 {style="table-layout:auto"}
 
 ## Using Operators
@@ -64,6 +67,7 @@ To put it simply: the system does not have to process as much when using EXISTS.
 
 | **Instead of this...** | **Try this!** |
 | ![](../../assets/Exists_1.png) | ![](../../assets/Exists_2.png) |
+
 {style="table-layout:auto"}
 ## Using ORDER BY
 
@@ -77,6 +81,7 @@ While there may be a few situations where this approach does not conform with wh
 
 | **Instead of this...** | **Try this!** |
 | ![](../../assets/Group_by_2.png) | ![](../../assets/Group_by_1.png) |
+
 {style="table-layout:auto"}
 ## Wrapping Up
 
