@@ -1,11 +1,9 @@
 ---
-product: MBI
-audience: end user
-user-guide-title: "[!DNL MBI] User Guide"
-user-guide-description: Learn how to use MBI features available for Adobe Commerce.
+title: MBI
+description: Learn how to use MBI features available for Adobe Commerce.
 ---
 
-# [!DNL MBI] User Guide {#MBI}
+# [!DNL MBI] User Guide {#mbi}
 
 - Getting Started {#start}
   - [Introduction](getting-started.md)
@@ -39,7 +37,7 @@ user-guide-description: Learn how to use MBI features available for Adobe Commer
     - [MongoDB data modeling guide](data-analyst/data-warehouse-mgr/mongodb-data-modeling.md)
     - [Replicating Google Analytics channels](data-analyst/data-warehouse-mgr/rep-google-analytics-channels.md)
     - [Standardizing data with mapping tables](data-analyst/data-warehouse-mgr/stndrd-data-map-tables.md)
-    - [Translating sQL queries into MBI reports](data-analyst/data-warehouse-mgr/sql-queries-reports.md)
+    - [Translating sQL queries into MBI reports](data-analyst/dev-reports/sql-queries-reports.md)
     - [Understanding and Evaluating Table Relationships](data-analyst/data-warehouse-mgr/table-relationships.md)
     - [Using the Date Difference Calculated](data-analyst/data-warehouse-mgr/using-date-diff-calc-column-.md)
     - [Using Dashboard Wide Filtering](data-analyst/data-warehouse-mgr/using-dshbrd-wide-filter-date-ranges.md)
@@ -50,7 +48,7 @@ user-guide-description: Learn how to use MBI features available for Adobe Commer
     - [customer_entity](data-analyst/data-warehouse-mgr/cust-ent-table.md)
     - [enterprise_rma](data-analyst/data-warehouse-mgr/enter-rma-table.md)
     - [enterprise_rma_item_entity](data-analyst/data-warehouse-mgr/enter-rma-entity-item.md)
-    - [sales_order](sales-flat-order-table.md)
+    - [sales_order](../mbi/data-analyst/data-warehouse-mgr/sales-flat-order-table.md)
     - [sales_order_item](data-analyst/data-warehouse-mgr/sales-flat-order-item-table.md)
     - [quote](data-analyst/data-warehouse-mgr/sales-flat-quote-table.md)
     - [quote_item](data-analyst/data-warehouse-mgr/sales-flat-quote-item-table.md)
@@ -63,7 +61,7 @@ user-guide-description: Learn how to use MBI features available for Adobe Commer
     - [Report Builder vs SQL Report Builder](data-analyst/dev-reports/diff-rpt-bldr-sql-rprt-bldr-.md)
     - [Explore special filter operators](data-analyst/dev-reports/explr-special-filter-ops.md)
     - [Export the results of my query](data-analyst/dev-reports/export-query-results.md)
-    - [Using Formulas in the Report Builder](../data-analyst/dev-reports/formulas-in-rpt-bldr.md)
+    - [Using Formulas in the Report Builder](../mbi/data-analyst/dev-reports/formulas-in-rpt-bldr.md)
     - [Create Google Analytics charts](data-analyst/dev-reports/google-analytics-charts-regex.md)
     - [Importance of the Lifetime Revenue Cohort Analysis](data-analyst/dev-reports/lifetime-rev-cohort-analysis.md)
     - [Ordering data using the Show Top/Bottom feature](data-analyst/dev-reports/order-data-top-bottom-feat.md)
@@ -168,7 +166,6 @@ user-guide-description: Learn how to use MBI features available for Adobe Commer
     - [Reporting a retail calendar](data-analyst/analysis/report-retail-calendar.md)
   - Forecasting {#forecasting}
     - [Introduction](data-analyst/analysis/forecasting.md)
-    - [Expected lifetime value (LTV)](data-analyst/analysis/ess-expected-ltv.md)
 - Build Reports and Share Data {#build}
   - Reports {#reports}
     - [Report Fundamentals](data-user/reports/rpt-fundamentals.md)
@@ -203,7 +200,7 @@ user-guide-description: Learn how to use MBI features available for Adobe Commer
     - [Accessing shared Dashboards](data-user/dashboards/access-shared-dashboard.md)
     - [Changing access to shared Dashboards](data-user/dashboards/change-access-dashboard.md)
     - [Leaving (unsharing) a Dashboard](data-user/dashboards/leave-dashboard.md)
-  - Sharing Data {#Share}
+  - Sharing Data {#share}
     - [Share Data](data-user/export-data/share-data.md)
     - [Exporting chart data](data-user/export-data/exp-chart-dash.md)
     - [Automated email summaries](data-user/export-data/email-summaries.md)
