@@ -26,6 +26,7 @@ Here is a look at the expected schema for both tables:
 The `campaigns` table contains the following columns:
 
 | **Column** | **Description** |
+|-----|-----|
 | \_id | The primary key for the table  |
 | accountId | The account ID |
 | [adClicks](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adclicks) | Total number of clicks for the day |
@@ -45,6 +46,7 @@ The `campaigns` table contains the following columns:
 The `adwords` table contains the following columns:
 
 | **Column** | **Description** |
+|-----|-----|
 | \_id | The primary key for the table  |
 | accountId | The account ID |
 | [adClicks](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adclicks) | Total number of clicks for the day |

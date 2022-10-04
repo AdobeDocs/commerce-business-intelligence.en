@@ -9,6 +9,7 @@ After [you have connected your Stripe account](../integrations/stripe.md), you c
 In this article, we explore the main data tables that you can import from Stripe into MBI. After setup is completed, the following tables will be created in your data warehouse. Click the links in the Table Name column to learn more about the attributes in each table.
 
 | **Table Name** | **Description** |
+|-----|-----|
 | [Customers](https://stripe.com/docs/api/curl#customer_object) | Customer objects allow you to perform recurring charges and track multiple charges that are associated with the same customer. |
 | [Charges](https://stripe.com/docs/api/curl#charge_object) | This table contains information about charges to credit and debit cards, including the amount, currency, status, customer ID, and more. |
 | [Coupons](https://stripe.com/docs/api/curl#coupon_object) | This table contains information about a percent- or amount-off discount you may want to apply to a customer. Note that coupons only apply to invoices; they do not apply to one-off charges. |

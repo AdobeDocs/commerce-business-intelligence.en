@@ -20,6 +20,7 @@ We covered this concept in depth in our [Understanding and evaluating table rela
 Tables can be related to one another in one of three ways:
 
 | **Relationship Type** | **Example** |
+|-----|-----|
 | **one-to-one** | The relationship between people and driver's license numbers. A person can have one and only one driver's license number, and a driver's license number belongs to one and only person. |
 | **one-to-many** | The relationship between orders and items - an order can contain many items, but an item belongs to a single order. In this case, the orders table is the one side and the items table is the many side. |
 | **many-to-many** | The relationship between products and categories: a product can belong to many categories, and a category can contain many products. |

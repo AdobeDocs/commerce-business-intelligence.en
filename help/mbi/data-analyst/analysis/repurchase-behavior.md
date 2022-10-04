@@ -38,6 +38,7 @@ This measure shows customer's ordering frequency, or the time it takes for the c
 Keeping the above metrics in mind, Let us take a look at an example involving coffee products.
 
 | **Product name** | **Repeat order probability** | **Avg lifetime number of orders** | **Avg lifetime revenue** | **Median time to next order** |
+|-----|-----|-----|-----|-----|
 | Single-cup coffee brewer | 94.98% | 7.92 | $549.82 | 57.01 days |
 | Coffee capsules | 93.82% | 8.68 | $479.98 | 63.48 days |
 | Coffee beans | 41.92% | 6.07 | $99.82 | 27.31 days |

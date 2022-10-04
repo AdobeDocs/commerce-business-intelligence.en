@@ -15,6 +15,7 @@ Selecting all columns does not make for a timely, easily executed query. Queries
 For this reason, we recommends you avoid using SELECT * wherever possible and only include the columns you need:
 
 | **Instead of this...** | **Try this!** |
+|-----|-----|
 | ![](../../assets/Select_all_1.png) | ![](../../assets/Select_all_2.png) |
 
 {style="table-layout:auto"}
@@ -28,6 +29,7 @@ Instead of using this type of join, consider using an inner or left join. Inner 
 Take a look at how we can rewrite a FULL OUTER JOIN query:
 
 | **Instead of this...** | **Try this!** |
+|-----|-----|
 | ![](../../assets/Full_Outer_Join_1.png) | ![](../../assets/Full_Outer_Join_2.png) |
 
 {style="table-layout:auto"}
@@ -47,6 +49,7 @@ Use filters whenever possible. `WHERE` and `HAVING` clauses will filter your res
 If you are using a filter when performing a join, be sure to apply it to both tables in the join. Even if it is redundant, this will reduce the computational cost of the query and speed up the execution time.
 
 | **Instead of this...** | **Try this!** |
+|-----|-----|
 | ![](../../assets/Join_filters_1.png) | ![](../../assets/Join_filters_2.png) |
 
 {style="table-layout:auto"}
@@ -66,6 +69,7 @@ When IN queries are run, the system must first process the subquery (the IN stat
 To put it simply: the system does not have to process as much when using EXISTS.
 
 | **Instead of this...** | **Try this!** |
+|-----|-----|
 | ![](../../assets/Exists_1.png) | ![](../../assets/Exists_2.png) |
 
 {style="table-layout:auto"}
@@ -80,6 +84,7 @@ This is not to say that ORDER BY can not be used - just that it should only be u
 While there may be a few situations where this approach does not conform with what you are trying to do, the general rule is that if you are using a GROUP BY and ORDER BY, you should put the columns in both clauses in the same order. For example:
 
 | **Instead of this...** | **Try this!** |
+|-----|-----|
 | ![](../../assets/Group_by_2.png) | ![](../../assets/Group_by_1.png) |
 
 {style="table-layout:auto"}

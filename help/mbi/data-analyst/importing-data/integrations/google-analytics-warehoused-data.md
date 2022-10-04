@@ -28,6 +28,7 @@ If, for example, you selected the following Metrics and Dimensions during setup:
 The table would look like the example below.
 
 | **Column Name** | **Description** |
+|-----|-----|
 | \_id | This column is the primary key. |
 | \_rjm\_record\_hash | MBI unique identifier. This column is created by MBI. |
 | \_updated\_at | This column contains the last time that the data row was updated. This column is created by MBI. |

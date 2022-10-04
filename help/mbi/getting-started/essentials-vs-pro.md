@@ -11,6 +11,7 @@ description: Learn how MBI Essentials differs from MBI Pro.
 The following table describes what is included with Essentials and Pro.
 
 |   | **MBI Essentials**| **MBI Pro**|
+|-----|-----|-----|
 | **Pre-Defined Reports**| Up to 100 | Custom |
 | **Pre-Defined Dashboards**| 5-6 | Custom |
 | **New Custom Report Creation**| Yes | Yes |

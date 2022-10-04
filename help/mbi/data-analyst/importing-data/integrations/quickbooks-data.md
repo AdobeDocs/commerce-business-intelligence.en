@@ -13,6 +13,7 @@ To view all the fields available for tracking, click the links in the table name
 ## Transaction Entities {#transactionentities}
 
 | **Table Name** | **Description** |
+|-----|-----|
 | [bill](https://developer.intuit.com/docs/api/accounting/Bill) | The bills table contains information about AP transactions, or a request-for-payment from a third-party. Attributes include currency type, exchange rate, total amount, due date, balance, and more. |
 | [billpayments](https://developer.intuit.com/docs/api/accounting/BillPayment) | BillPayment entities are the final transaction of payment of bills received from a vendor. This table includes the vendor information, payment type, total amount, transaction date, and more. |
 | [creditmemos](https://developer.intuit.com/docs/api/accounting/CreditMemo) | The creditmemos table records transactions that are refunds or credits of both full and partial payments. Some attributes include the customer's name, the customer's billing and shipping info, the amount, and date. |
@@ -34,6 +35,7 @@ To view all the fields available for tracking, click the links in the table name
 ## Name List Entities {#namelistentities}
 
 | **Table Name** | **Description** |
+|-----|-----|
 | [accounts](https://developer.intuit.com/docs/api/accounting/Account) | The accounts table includes the account ID, name, status, type, balance, currency, and creation time. |
 | [budgets ](https://developer.intuit.com/docs/api/accounting/Budget) | This table records all information relating to company budgets, including the budget ID, name, start and end dates, type, status, and details. |
 | [classes](https://developer.intuit.com/docs/api/accounting/Class) | Classes, applied to detail lines of transactions, allow you to track segments that are not tied to a client or project. This table records the class ID, name, subclass, and status. |

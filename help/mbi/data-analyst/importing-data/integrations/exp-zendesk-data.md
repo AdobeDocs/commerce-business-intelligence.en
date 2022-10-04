@@ -9,6 +9,7 @@ After [you have connected your Zendesk account](../integrations/zendesk.md), you
 In this article, we explore the main data tables that you can import from Zendesk into MBI, including links to additional documentation about Zendesk data.
 
 | Table name | Description |
+|-----|-----|
 | [Audits](https://developer.zendesk.com/rest_api/docs/core/ticket_audits) | The **audits** table records activity associated with a ticket, including status changes and both customer and agent responses. This table includes a ticket id which links back to the **tickets** table, which allows you to analyze the time to first response and time to resolution for each ticket. |
 | [Audit_~\_Events](https://developer.zendesk.com/rest_api/docs/core/ticket_audits#audit-events) | The **audit_~\_events** table is the child of the **audits** table and records additional details of a ticket event. |
 | [Organizations](https://developer.zendesk.com/rest_api/docs/core/organizations) | The organizations table records company information about your end-users such as the name, ID, associated domain names, tags, and any custom fields. |

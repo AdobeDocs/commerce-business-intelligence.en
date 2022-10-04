@@ -29,6 +29,7 @@ We call this an **event number** calculated column. This means we are trying to 
 Here is an example:
 
 | **event\_id** | **owner\_id** | **timestamp** | **Owner's event number** |
+|-----|-----|-----|-----|
 | 1 | A | 2015-01-01 00:00:00 | 1 |
 | 2 | B | 2015-01-01 00:30:00 | 1 |
 | 3 | A | 2015-01-01 02:00:00 | 2 |
@@ -58,6 +59,7 @@ We call this a **date difference** calculated column. This means we are trying t
 Here's an example:
 
 | id | timestamp\_1 | timestamp\_2 | Seconds between timestamp\_2 and timestamp\_1 |
+|-----|-----|-----|-----|
 | A | 2015-01-01 00:00:00 | 2015-01-01 12:30:00 | 45000 |
 | B | 2015-01-01 08:00:00 | 2015-01-01 10:00:00 | 7200  |
 
@@ -81,6 +83,7 @@ We call this a **sequential event comparison**. This means we are trying to find
 Here is an example:
 
 | **event\_id** | **owner\_id** | **timestamp** | **Seconds since owner's previous event** |
+|-----|-----|-----|-----|
 | 1 | A | 2015-01-01 00:00:00 | NULL |
 | 2 | B | 2015-01-01 00:30:00 | NULL |
 | 3 | A | 2015-01-01 02:00:00 | 7720 |
@@ -108,6 +111,7 @@ A **currency conversion** calculated column converts transaction amounts from a 
 Here is an example:
 
 | **id** | **timestamp** | **transaction\_value\_EUR** | **transaction\_value\_USD** |
+|-----|-----|-----|-----|
 | 1 | 2015-01-01 00:00:00 | 30 | 33.57 |
 | 2 | 2015-01-02 00:00:00 | 50 | 55.93 |
 
@@ -129,6 +133,7 @@ A **timezone conversion** calculated column converts the timestamps for a partic
 Here is an example:
 
 | id | timestamp\_UTC | timestamp\_ET |
+|-----|-----|-----|
 | 1 | 2015-01-01 00:00:00 | 2014-12-31 19:00:00 |
 | 2 | 2015-01-01 12:00:00 | 2015-01-01 07:00:00 |
 

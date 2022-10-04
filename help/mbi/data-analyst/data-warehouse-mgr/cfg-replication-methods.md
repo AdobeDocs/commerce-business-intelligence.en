@@ -110,6 +110,7 @@ Here's a look at the whole process:
 To finish up, we have put together this table that compares the various replication methods. We find it incredibly handy when selecting a method for the tables in our data warehouse.
 
 | **Method** | **Syncing New Data** | **Processing Rechecks on Large Data Sets** | **Handle Composite Keys?** | **Handle Non-Integer PKs?** | **Handle Non-Sequential PK Population?** | **Handle Row Deletion?** |
+|-----|-----|-----|-----|-----|-----|-----|
 | Auto-Incrementing Primary Key | Faster | Slow | No | No | No | Yes |
 | Primary Key Batch Monitoring | Slow | Slow | Yes | Yes | Yes | Yes |
 | Modified At | Faster | Faster | Yes | Yes | Yes | No |

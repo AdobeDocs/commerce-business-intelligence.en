@@ -52,6 +52,7 @@ Currency values should have the datatype **Decimal Number** selected, and these 
 Percentages must be entered as decimals. For example:
 
 | **Right:** | **Wrong:** |
+|-----|-----|
 | .05 | 5% |
 | .23 | 23 |
 

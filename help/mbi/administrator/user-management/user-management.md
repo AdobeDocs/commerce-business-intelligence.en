@@ -16,7 +16,8 @@ In MBI, there are three general permission levels that apply to users, which are
 
 These permissions enable users to perform certain actions or access specific parts of Magento Business Intelligence. Here's a table of what each permission level can do in Magento Business Intelligence:
 
-|   | **Admin** | **Standard** | **Read Only** |
+|   | Admin | Standard | Read Only |
+| -----|-----|-----|----|
 | **Create/manage users** | ✔|   |   |
 | **Create email summaries** | ✔ | ✔ |   |
 | **Create/edit/share dashboards** | ✔ | ✔ |   |
