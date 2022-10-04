@@ -14,6 +14,19 @@ description: Learn how to use MBI features available for Adobe Commerce.
   - [Account Management](administrator/account-management/managing-account-settings.md)
   - [User Management](administrator/user-management/user-management.md)
   - [How to Get Help](getting-started/support.md)
+- Administrator {#administrator}
+
+  - [Account Provision](../mbi/administrator/account-management/account-provision.md)
+  - [Create User](../mbi/administrator/user-management/create-user.md)
+  - [Delete User](../mbi/administrator/user-management/delete-user.md)
+  - [Display Dashboards around the office](../mbi/administrator/account-management/display-dashboards-office.md)
+  - [New Architecture](../mbi/administrator/account-management/new-architecture.md)
+  - [Reset Password](../mbi/administrator/user-management/reset-password.md)
+  - [Restrict Database Access](../mbi/administrator/account-management/)
+  - [Restrict Metric Access](../mbi/administrator/account-management/restrict-db-access.md)restrict-db-access.md)
+  - [Update Address or Password](../mbi/administrator/user-management/update-address-password.md)
+  - [User Management](../mbi/administrator/user-management/user-management.md)
+  - [View Billing](../mbi/administrator/user-management/view-billing.md)
 - Analyze Data {#analyze}
   - [Data Analyst](data-analyst.md)
   - Data Warehouse Manager {#warehouse-manager}
