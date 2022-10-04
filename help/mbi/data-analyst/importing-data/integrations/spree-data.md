@@ -14,6 +14,7 @@ In this article, we explore the main data tables that you can import from Spree 
 | Line items | The **line\_items** table is a child of either the **orders** table or **subscriptions**. It records an order's or a subscription's line item details. For orders with multiple products, each product will have its own data row in this table, including a product\_id that allows you to tie it to the **products** table. |
 | [Products](https://guides.spreecommerce.com/developer/products.html#overview) | The **products** table records all product details for a saleable item in your Spree catalog. This allows you to segment your line item-level metrics by product attributes. |
 | Subscriptions | If you have a Spree subscriptions extension, the **subscriptions** table holds each individual subscription's information, including created\_at (the start date), cancelled\_at (the date a subscription was cancelled), and the interval of the subscription. |
+{style="table-layout:auto"}
 
 ## Related:
 

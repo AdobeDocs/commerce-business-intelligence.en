@@ -20,6 +20,7 @@ The **orders** table should contain one row for every transaction the business h
 | Acquisition/marketing channel | The acquisition or marketing channel that the customer who placed the order was referred from. |
 | Order datetime | The date and time the order was created. |
 | Order updated at | The date and time the last modification to the order record was made. |
+{style="table-layout:auto"}
 
 ## Order detail/items table {#itemstable}
 

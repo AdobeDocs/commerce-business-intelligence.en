@@ -91,6 +91,7 @@ Simply go to any dashboard and [create a new report](../../data-user/reports/ess
 |--- |--- |
 |**This is perfect for...**|**This is not so great for...**|
 | - All levels of analysis/tech experience<br>- Quickly creating reports<br>- Creating analyses to share with other users | - Analyses that require SQL-specific functions<br>- Testing new columns - calculated columns are dependent on update cycles for initial data population, whereas those created using SQL are not|
+{style="table-layout:auto"}
 
 <!--<table style="width: 649px;">
 <tbody>

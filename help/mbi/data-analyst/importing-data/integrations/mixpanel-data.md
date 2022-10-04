@@ -14,6 +14,7 @@ In this article, we explore the main data tables that you can import from Mixpan
 | [mixpanel\_export](https://mixpanel.com/docs/api-documentation/exporting-raw-data-you-inserted-into-mixpanel#datafeed) | This table contains raw event data, including the event, event dates, and platform bucket. |
 | [mixpanel\_funnels](https://mixpanel.com/docs/api-documentation/data-export-api#funnels-default) | This table contains data about your funnels, including the funnel ID, the funnel length (# of days the user has to complete the funnel), and the starting and ending dates of the funnel. |
 | [mixpanel\_engage](https://mixpanel.com/docs/api-documentation/data-export-api#engage-default) | This contains data from People Analytics, including session IDs, page and user information, and the date/time the user was last seen.  |
+{style="table-layout:auto"}
 
 ## Related documentation
 

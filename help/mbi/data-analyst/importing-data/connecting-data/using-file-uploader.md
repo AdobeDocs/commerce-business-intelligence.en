@@ -54,6 +54,7 @@ Percentages must be entered as decimals. For example:
 | **Right:** | **Wrong:** |
 | .05 | 5% |
 | .23 | 23 |
+{style="table-layout:auto"}
 
 ### Values with leading and/or trailing zeroes {#zeroes}
 
@@ -105,7 +106,7 @@ Got some new data to add to a file you have already uploaded? No problem - you c
 
 1. Click the **Edit/Upload CSV to Existing Tables** tab.
 
-1. In the drop-down menu, click the name of the table you want to update or append.
+1. In the dropdown, click the name of the table you want to update or append.
 
 1. Use the dropdown to select the option for handling duplicate rows:
 

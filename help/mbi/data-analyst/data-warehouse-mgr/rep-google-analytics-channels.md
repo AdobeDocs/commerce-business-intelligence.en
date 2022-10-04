@@ -28,6 +28,7 @@ By default, Google sets you up with 8 different channels. Let's take a look at t
 | Email | Traffic from sessions that are tagged with a medium of "email." | UTM Tracking code of Medium = `email` |
 | Display | Traffic that has a UTM Tracking code where the medium is either display or cpm. Also includes AdWords interaction where the ad distribution network matches "Content"                                 | Medium = `^(display|cpm|banner)$`<br>OR Ad Distribution Network = `Content`<br>AND Ad Format ≠ `Text` |
 | Other | Sessions from other advertising channels, not including Paid Search, that are tagged with a medium of "cpc", "ppc", "cpm, "cpv", "cpa", "cpp", "affiliate".| Medium = `^(cpv|cpa|cpp|content-text)$`|
+{style="table-layout:auto"}
 
 ## How can I recreate these channel groupings in my Data Warehouse? {#recreate}
 

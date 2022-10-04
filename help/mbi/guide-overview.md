@@ -24,6 +24,7 @@ This guide covers:
 | | |
 | | |
 | | |
+{style="table-layout:auto"}
 
 <!--{style="table-layout:auto"}-->
 

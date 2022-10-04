@@ -34,6 +34,7 @@ Here is an example:
 | 3 | A | 2015-01-01 02:00:00 | 2 |
 | 4 | A |  2015-01-02 13:00:00 | 3 |
 | 5 | B | 2015-01-03 13:00:00 | 2 |
+{style="table-layout:auto"}
 
 An event number calculated column could be used to observe differences in behavior between first-time events, repeat events, or nth events in your data.
 
@@ -58,6 +59,7 @@ Here's an example:
 | id | timestamp\_1 | timestamp\_2 | Seconds between timestamp\_2 and timestamp\_1 |
 | A | 2015-01-01 00:00:00 | 2015-01-01 12:30:00 | 45000 |
 | B | 2015-01-01 08:00:00 | 2015-01-01 10:00:00 | 7200  |
+{style="table-layout:auto"}
 
 A date difference calculated column could be used to create a metric which calculates the average or median time between two events. Click the image below to check out how the **Average time to first order** metric is used in a report.
 
@@ -82,6 +84,7 @@ Here is an example:
 | 3 | A | 2015-01-01 02:00:00 | 7720 |
 | 4 | A | 2015-01-02 13:00:00 | 126000 |
 | 5 | B | 2015-01-03 13:00:00 | 217800 |
+{style="table-layout:auto"}
 
 A sequential event comparison can be used to find the average or median time between each sequential event. Click the image below to see the **Average and Median time between orders** metrics in action.
 
@@ -104,6 +107,7 @@ Here is an example:
 | **id** | **timestamp** | **transaction\_value\_EUR** | **transaction\_value\_USD** |
 | 1 | 2015-01-01 00:00:00 | 30 | 33.57 |
 | 2 | 2015-01-02 00:00:00 | 50 | 55.93 |
+{style="table-layout:auto"}
 
 To create this type of calculated column, we need to know:
 
@@ -123,6 +127,7 @@ Here is an example:
 | id | timestamp\_UTC | timestamp\_ET |
 | 1 | 2015-01-01 00:00:00 | 2014-12-31 19:00:00 |
 | 2 | 2015-01-01 12:00:00 | 2015-01-01 07:00:00 |
+{style="table-layout:auto"}
 
 To create this type of calculated column, we need to know:
 

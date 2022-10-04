@@ -14,6 +14,7 @@ In this article, we explore the main data tables that Magento users import into 
 | Order items | The **sales\_flat\_order\_item** table records each item belonging to an order. This includes the **price** and **qty\_ordered** fields, as well as the **order\_id** field which connects to the **sales\_flat\_order** table. This table is the foundation for metrics like "Item sold", and allows you to segment by **product** and **product type.** |
 | Products | The **catalog\_product\_entity** table stores information on product-level attributes, like category, size, and color. |
 | Categories | Your products will belong to one or many different **product categories**, depending on how your Magento build is set up. The **catalog\_category\_entity** table stores the hierarchy of these categories (Apprarel -> Tops -> T-Shirts, for example), and the **catalog\_category\_product** table logs the connections between your products and those categories. |
+{style="table-layout:auto"}
 
 ## Related
 

@@ -19,7 +19,7 @@ The `adwords` table contains four columns that are not in the `campaigns` table:
 
 Whenever you are interested in performing an analysis that considers these attributes, you must use the `adwords` table. However, it is important to note that **this table will exclude rows where all four of these columns are null.**
 
-Here's a look at the expected schema for both tables:
+Here is a look at the expected schema for both tables:
 
 ## Campaigns table
 
@@ -37,6 +37,7 @@ The `campaigns` table contains the following columns:
 | profileId | The profile ID |
 | profileName | The profile name |
 | \_updated\_at | The date and time of the last update for this row |
+{style="table-layout:auto"}
 
 ## AdWords table
 
@@ -58,6 +59,7 @@ The `adwords` table contains the following columns:
 | adContent | The first line of the text for the online campaign |
 | adDestinationUrl | The URL to which the AdWords ads referred traffic |
 | adGroup | The name of the AdWords ad group |
+{style="table-layout:auto"}
 
 Using this data, you can start creating [metrics ](../../../data-user/reports/ess-manage-data-metrics.md) and [reports](../../../tutorials/using-visual-report-builder.md) based on spending data and [marry it to your lifetime revenue to calculate ROI](../../analysis/roi-ad-camp.md).
 

@@ -92,6 +92,7 @@ The following example shows how to create a simple report, group the data by an 
       | ![](../../assets/magento-bi-btn-chart-pie.png) | Pie|
       | ![](../../assets/magento-bi-btn-chart-area.png) | Area|
       | ![](../../assets/magento-bi-btn-chart-funnel.png) | Funnel|
+      {style="table-layout:auto"}
 
 1. To give the report a **title**, replace the `Untitled Report` text at the top of the page with a descriptive title.
 

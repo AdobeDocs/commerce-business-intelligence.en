@@ -21,3 +21,4 @@ After you have connected your [Google Analytics account](../data-analyst/importi
 | ^ | [ | ] | $ | ( |
 | ) | . | { | } | * |
 | + | ? | \ | \ | - |
+{style="table-layout:auto"}

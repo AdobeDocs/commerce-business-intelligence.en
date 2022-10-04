@@ -41,6 +41,7 @@ Keeping the above metrics in mind, Let us take a look at an example involving co
 | Single-cup coffee brewer | 94.98% | 7.92 | $549.82 | 57.01 days |
 | Coffee capsules | 93.82% | 8.68 | $479.98 | 63.48 days |
 | Coffee beans | 41.92% | 6.07 | $99.82 | 27.31 days |
+{style="table-layout:auto"}
 
 Now that we have our data, lets take a look at what this could mean for each of our metrics.
 

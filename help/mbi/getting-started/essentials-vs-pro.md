@@ -25,6 +25,7 @@ The following table describes what is included with Essentials and Pro.
 | **Full API Access**|  No | Yes  |
 | **Access to CS, AM, or Analysts**|  No | Yes  |
 | **Professional Services**|  Available | Available  |
+{style="table-layout:auto"}
 
 _Number of tables depends on guest checkout._
 

@@ -62,12 +62,14 @@ Now that we know what metrics to look at, lets take a look at an example involvi
 | **10% off** | 79 | $19,757.02 | $1,975.70 | $17,781.32 | 10.00% |
 | **$20 off $100+** | 101 | $13,928.91 | $2,020.00 | $11,908.91 | 14.50% |
 | **$10 off** | 201 | $14,542.35 | $2,010.00 | $12,532.35 | 13.82% |
+{style="table-layout:auto"}
 
 
 | **Coupon** | **Avg. net order value** | **Avg. order discount** | **Distinct buyers** | **Avg. lifetime revenue** |
 | **10% off** | $225.08 | $25.01 | 79 | $361.50 |
 | **$20 off $100+** | $117.91 | $20.00 | 95 | $218.76 |
 | **$10 off** | $62.35 | $10.00 | 199 | $84.27 |
+{style="table-layout:auto"}
 
 ## What can we take away from this?
 

@@ -16,8 +16,9 @@ In this article, we explore the main data tables that you can import from Stripe
 | [Plans](https://stripe.com/docs/api/curl#plan_object) | This table contains the pricing information for different products and feature levels on your site. For example, you may have a $10/month plan for basic features and a $20/month plan for premium features. |
 | [Subscriptions](https://stripe.com/docs/api/curl#subscription_object) | This table contains the details of subscription plans your customers belong to. Attributes include customer ID, status, canceled/ended at dates, tax percent, trial information, and more. |
 | [Events](https://stripe.com/docs/api/curl#event_object) | Events let you know about something interesting that has just happened in an account. [When an interesting event occurs](https://stripe.com/docs/api/curl#event_types), a new event object is created. For example, when a charge succeeds **charge.succeeded** event is created; or, when an invoice cannot be paid an invoice.payment\_failed event is created. |
+{style="table-layout:auto"}
 
-**Note:** Many API requests may cause multiple events to be created. For example, if you create a new subscription for a customer, you will receive both a **customer.subscription.created**event and a *charge.succeeded* event. |
+**Note:** _Many API requests may cause multiple events to be created. For example, if you create a new subscription for a customer, you will receive both a **customer.subscription.created** event and a_ charge.succeeded _event._ 
 
 ## Related:
 
