@@ -22,10 +22,9 @@ description: Learn how to use MBI features available for Adobe Commerce.
   - [Display Dashboards around the office](../mbi/administrator/account-management/display-dashboards-office.md)
   - [New Architecture](../mbi/administrator/account-management/new-architecture.md)
   - [Reset Password](../mbi/administrator/user-management/reset-password.md)
-  - [Restrict Database Access](../mbi/administrator/account-management/)
-  - [Restrict Metric Access](../mbi/administrator/account-management/restrict-db-access.md)restrict-db-access.md)
+  - [Restrict Database Access](../mbi/administrator/account-management/restrict-db-access.md)
+  - [Restrict Metric Access](../mbi/administrator/user-management/restrict-metric-access.md)
   - [Update Address or Password](../mbi/administrator/user-management/update-address-password.md)
-  - [User Management](../mbi/administrator/user-management/user-management.md)
   - [View Billing](../mbi/administrator/user-management/view-billing.md)
 - Analyze Data {#analyze}
   - [Data Analyst](data-analyst.md)
