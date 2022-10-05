@@ -20,4 +20,4 @@ Existing charts can be added to dashboards using the **Add Report** button in th
 
 Example:
 
-![add chart](../../mbi/assets/6.1.gif)
+![add chart](../../assets/6.1.gif)

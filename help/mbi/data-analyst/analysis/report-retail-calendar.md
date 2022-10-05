@@ -8,7 +8,7 @@ In this article, we demonstrate how to set up the structure to use a [4-5-4 reta
 
 Because many of our customers alter their calendar to use retail or accounting dates, the below steps will illustrate how to work with your data and create reports using retail dates. Though the below instructions will reference the 4-5-4 Retail calendar, you can alter them for any specific calendar your team uses, whether it be financial or just a custom time frame.
 
-Before getting started, you want to familiarize yourself with [the File Uploader](../data-analyst/importing-data/connecting-data/using-file-uploader.md) and ensure that you have elongated the csv file so that the dates cover all of your historical data as well as push the dates into the future.
+Before getting started, you want to familiarize yourself with [the File Uploader](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) and ensure that you have elongated the csv file so that the dates cover all of your historical data as well as push the dates into the future.
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 

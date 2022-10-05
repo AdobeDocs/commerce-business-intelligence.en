@@ -81,11 +81,11 @@ User's first 30 day revenue
 
 ## Filter Sets {#filterset}
 
-[Filter sets](../../data-user/reports/ess-manage-data-filters.md) are typically named in ways that explain the information they are including or excluding. For example, naming a filter set **Order items we count** will allow any user to go in, view the logic of the filter set, and understand what order information determines what is counted across the business. Remember that filter sets can be applied to both calculated columns and metrics, and should be easy to understand.
+[Filter sets](../data-user/reports/ess-manage-data-filters.md) are typically named in ways that explain the information they are including or excluding. For example, naming a filter set **Order items we count** will allow any user to go in, view the logic of the filter set, and understand what order information determines what is counted across the business. Remember that filter sets can be applied to both calculated columns and metrics, and should be easy to understand.
 
 ## Metrics {#metrics}
 
-[Metrics](../../data-user/reports/ess-manage-data-metrics.md) are essentially questions that you want answers to regularly. What was the number of orders in the past month? What is the average lifetime value of our customers? It is generally best practice to name metrics to reflect the answer they are giving users. Additionally, if you have the same metric filtered for a specific store or department, they should be labelled as such. For example:
+[Metrics](../data-user/reports/ess-manage-data-metrics.md) are essentially questions that you want answers to regularly. What was the number of orders in the past month? What is the average lifetime value of our customers? It is generally best practice to name metrics to reflect the answer they are giving users. Additionally, if you have the same metric filtered for a specific store or department, they should be labelled as such. For example:
 
 Average customer LTV (first 30 days)
  \[Store Name\] - Revenue

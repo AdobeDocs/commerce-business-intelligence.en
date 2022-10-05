@@ -8,4 +8,4 @@ Often, you will find yourself wanting to create similarly defined charts where y
 
 In these cases, launch the Chart Editor and click **Save As** at the top right corner. This will replicate your existing chart and add it to your current dashboard with the new name you select, and allow you to edit the settings of the new chart right away.
 
-![](../../mbi/assets/2015-01-14_1004.png)
+![](../../assets/2015-01-14_1004.png)

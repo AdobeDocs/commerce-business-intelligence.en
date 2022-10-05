@@ -10,7 +10,7 @@ description: Learn how to set up a dashboard that will track your channel analys
 
 If you are spending money on online advertising, you will inevitably want to track your return on this spend and make data-driven decisions on further investments. In this article, we demonstrate how to set up a dashboard that will track your channel analysis – including ROI in aggregate and by campaign.
 
-![](../../mbi/assets/Marketing_dashboard_example.png)
+![](../../assets/Marketing_dashboard_example.png)
 
 Before getting started, you want to connect your [Facebook Ads](../importing-data/integrations/facebook-ads.md), [Adwords](../importing-data/integrations/google-adwords.md), and [Google Ecommerce](../importing-data/integrations/google-ecommerce.md) accounts as well as bring in any additional online ad spend data. This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
@@ -18,7 +18,7 @@ Before getting started, you want to connect your [Facebook Ads](../importing-dat
 
 **Original architecture:** In order to bring together your spend from various sources (like Facebook Ads or Google Adwords), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you have not already, [file a support request](../../getting-started/support.md) with the subject **[MARKETING ROI ANALYSIS]**, and an analyst will create this table.
 
-**New architecture:** You can follow the example set forth in [this Analysis Library](../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
+**New architecture:** You can follow the example set forth in [this Analysis Library](../../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
 
 ## Calculated Columns
 
@@ -136,7 +136,7 @@ Columns to create
 * Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
 <!--{: style="list-style-type: circle;"}-->
 
-Note: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+Note: Make sure to [add all new columns as dimensions to metrics](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 

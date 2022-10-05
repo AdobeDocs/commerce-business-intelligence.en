@@ -22,7 +22,7 @@ To add one or more dimensions to multiple Metrics at once:
 
 1. Choose the table that contains the dimensions.
 
-1. In the _Choose Metric(s) to Add Dimensions_ column, select the metrics you want to add dimensions to. Once selected, the _Choose Dimensions to Add_ column will appear on the right. Check the dimensions you want to add to the selected metric.![](../../mbi/assets/Add_Dimensions.png)
+1. In the _Choose Metric(s) to Add Dimensions_ column, select the metrics you want to add dimensions to. Once selected, the _Choose Dimensions to Add_ column will appear on the right. Check the dimensions you want to add to the selected metric.![](../../assets/Add_Dimensions.png)
 
 1. If you would like to segment or group by any of the data dimensions on reports, make sure to indicate they are _Groupable_.
 
@@ -42,7 +42,7 @@ To delete one or more dimensions from multiple metrics:
 
 1. Click **Remove**.
 
-1. If the dimensions are in use on reports, you will be shown a warning and a list of charts that are using the dimensions. Click **Delete** button to delete the checked dimensions and all of their dependents, including reports.
+1. If the dimensions are in use on reports, you will be shown a warning and a list of charts that are using the dimensions. Click **Delete** to delete the checked dimensions and all of their dependents, including reports.
 
 ## Manage dimensions in metrics
 

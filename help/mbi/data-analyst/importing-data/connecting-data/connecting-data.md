@@ -18,7 +18,7 @@ There are four ways to get your data into MBI: connect a database, connect a Saa
 
 ![Database\_icons.jpg](../../../assets/Database_icons.jpg)
 
-MBI supports SQL-based and NoSQL databases such as [MySQL](../importing-data/integrations/mysql-via-ssh-tunnel.md), [Microsoft SQL](../integrations/microsoft-sql-server.md), [MongoDB](../integrations/mongodb-via-ssh-tunnel.md), and [PostgreSQL](../integrations/postgresql.md).
+MBI supports SQL-based and NoSQL databases such as [MySQL](../../importing-data/integrations/mysql-via-ssh-tunnel.md), [Microsoft SQL](../integrations/microsoft-sql-server.md), [MongoDB](../integrations/mongodb-via-ssh-tunnel.md), and [PostgreSQL](../integrations/postgresql.md).
 
 While you can directly connect your database to MBI using database credentials, **we recommend you use a proven encryption method like an SSH tunnel**. This will ensure that your data stays safe and secure as it makes its way into your data warehouse.
 
@@ -50,9 +50,9 @@ To add an integration, click **Manage Data > Connections** and then the **Add a 
 
 * [Integration FAQ](https://support.magento.com/hc/en-us/sections/360003161871-Integration-FAQ)
 * [Available SaaS and database integrations](../integrations/integrations.md)
-* [Consolidating your tables](../../best-practices/consolidating-your-tables.md)
-* [Restricting access to your database](../../administrator/account-management/restrict-db-access.md)
+* [Consolidating your tables](../../../best-practices/consolidating-your-tables.md)
+* [Restricting access to your database](../../../administrator/account-management/restrict-db-access.md)
 
-**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you are looking for something - for example, Facebook - but it is not listed, [submit a support ticket](../../getting-started/support.md).
+**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you are looking for something - for example, Facebook - but it is not listed, [submit a support ticket](../../../getting-started/support.md).
 
 **If you see an error status for an integration**, do not panic - check out the [Troubleshooting section](https://support.magento.com/hc/en-us/sections/360003078151) for help.

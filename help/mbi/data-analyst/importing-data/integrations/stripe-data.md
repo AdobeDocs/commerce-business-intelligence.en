@@ -4,7 +4,7 @@ description: Explore the main data tables that you can import from Stripe into M
 ---
 # Expected Stripe data
 
-After [you have connected your Stripe account](../integrations/stripe.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
+After [you have connected your Stripe account](../integrations/stripe.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
 In this article, we explore the main data tables that you can import from Stripe into MBI. After setup is completed, the following tables will be created in your data warehouse. Click the links in the Table Name column to learn more about the attributes in each table.
 

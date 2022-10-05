@@ -4,7 +4,7 @@ description: Explore the main data tables that Magento users import into MBI
 ---
 # Expected Magento Data
 
-After you have [connected your Magento store](../data-analyst/importing-data/integrations/magento.md), you can use the Data Warehouse Manager to easily track relevant data fields from your Magento database for analysis.
+After you have [connected your Magento store](../../../data-analyst/importing-data/integrations/magento.md), you can use the Data Warehouse Manager to easily track relevant data fields from your Magento database for analysis.
 
 In this article, we explore the main data tables that Magento users import into MBI.
 

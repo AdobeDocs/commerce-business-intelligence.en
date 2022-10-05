@@ -6,7 +6,7 @@ description: Learn how to set up a dashboard that will help you track your busin
 
 A large majority of our clients often would like to track their **business goals**, but do not realize this is possible in MBI. In this article, we demonstrate how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. We also show you how to compare year over year performance, all in a dashboard like this:
 
-![](../../mbi/assets/Goals-_dashboard_2.png)
+![](../../assets/Goals-_dashboard_2.png)
 
 Before getting started, you want to familiarize yourself with our [file uploader](../importing-data/connecting-data/using-file-uploader.md) and make sure you have defined your business goals for a given period of time.
 
@@ -16,7 +16,7 @@ You will need to first upload a file containing specific daily/monthly/quarterly
 
 You can use the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that our clients track in MBI include Orders, Revenue, and New registered accounts.
 
-![](../../mbi/assets/Goals-_Excel.png)
+![](../../assets/Goals-_Excel.png)
 
 ## Metrics
 

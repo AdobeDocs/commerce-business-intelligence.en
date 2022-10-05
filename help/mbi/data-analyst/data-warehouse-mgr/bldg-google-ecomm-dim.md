@@ -8,13 +8,13 @@ description: Learn to build dimensions that will link your eCommerce data with y
 >
 >[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
-Now that you are finished [connecting your Google ECommerce account](../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in MBI? In this article, we walk you through building dimensions that will link your eCommerce data with your orders and customer data.
+Now that you are finished [connecting your Google ECommerce account](../../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in MBI? In this article, we walk you through building dimensions that will link your eCommerce data with your orders and customer data.
 
-The dimensions we cover will give you the ability to build analyses that [answer vital questions about your marketing channels and campaigns](../data-analyst/analysis/most-value-source-channel.md). What percent of revenue comes from each source? How does the lifetime value of Facebook acquired customers compare to those from Google?
+The dimensions we cover will give you the ability to build analyses that [answer vital questions about your marketing channels and campaigns](../../data-analyst/analysis/most-value-source-channel.md). What percent of revenue comes from each source? How does the lifetime value of Facebook acquired customers compare to those from Google?
 
 ## Prerequisites and overview
 
-To create the dimensions in this article, you need a **Google ECommerce** table, an **orders** table, and a **customers** table. Those tables have to be [synced to your data warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) before dimensions can be built. Tables that are synced display in the _Synced Tables_ section of the _Data Warehouse Manager_.
+To create the dimensions in this article, you need a **Google ECommerce** table, an **orders** table, and a **customers** table. Those tables have to be [synced to your data warehouse](../../data-analyst/data-warehouse-mgr/tour-dwm.md) before dimensions can be built. Tables that are synced display in the _Synced Tables_ section of the _Data Warehouse Manager_.
 
 Here is a quick look at syncing tables and columns if you need a refresher:
 
@@ -76,7 +76,7 @@ In this example, we build the **Customer's first order's GA source** dimension.
 1. From the list of tables in the Data Warehouse, click the table (in our case, **customers**) that contains your customer information.
 1. Click the Create a Column button.
 1. Name the column.
-1. For this example, we select the **is MAX** definition from the [definition dropdown](../data-analyst/data-warehouse-mgr/calc-column-types.md). The **is MIN** definition could also work if applied to a text column with only one possible value. The important part is ensuring proper filters are set, which we do later.
+1. For this example, we select the **is MAX** definition from the [definition dropdown](../../data-analyst/data-warehouse-mgr/calc-column-types.md). The **is MIN** definition could also work if applied to a text column with only one possible value. The important part is ensuring proper filters are set, which we do later.
 1. Click the Select a table and column dropdown and select the **orders** table, then the **Order's GA source** column.
 1. Click Save.
 1. Once you are back in the table schema, click the Options dropdown, then Filters.

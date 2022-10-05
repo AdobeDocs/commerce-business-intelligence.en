@@ -4,9 +4,9 @@ description: Learn how to to easily track relevant data fields for analysis.
 ---
 # Expected QuickBooks data
 
-![](../../mbi/assets/Quickbooks.png)
+![](../../../assets/Quickbooks.png)
 
-After [you have connected your QuickBooks account](../data-analyst/importing-data/integrations/quickbooks.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis. The following tables will be created in your data warehouse:
+After [you have connected your QuickBooks account](../../../data-analyst/importing-data/integrations/quickbooks.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis. The following tables will be created in your data warehouse:
 
 To view all the fields available for tracking, click the links in the table name column.
 

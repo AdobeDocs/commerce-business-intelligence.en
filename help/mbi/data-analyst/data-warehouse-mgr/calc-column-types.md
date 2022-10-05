@@ -42,7 +42,7 @@ For Magento clients, the **base\_currency\_code** field typically stores native 
 
 ## One-to-many calculated columns {#onetomany}
 
-One-to-Many columns [utilize a path between two tables](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). This path always implies a one table, where an attribute lives, and a many table, where that attribute gets "relocated" down to. The path can be described as a **foreign key--primary key** relationship.
+One-to-Many columns [utilize a path between two tables](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). This path always implies a one table, where an attribute lives, and a many table, where that attribute gets "relocated" down to. The path can be described as a **foreign key--primary key** relationship.
 
 ### Joined column {#joined}
 
@@ -92,11 +92,11 @@ If you are having a little trouble remembering what all the inputs are when crea
 
 In your quest to analyze and answer questions about your business, you may encounter a situation where you are unable to build the exact column you want. In these cases, we have got you covered!
 
-To ensure a speedy turnaround, we recommend checking out the [Advanced Calculated Column Types](../data-analyst/data-warehouse-mgr/adv-calc-columns.md) guide to see what kind of columns our support team can build. In that article, we also cover the info we will need from you to create the column - please include it with your request.
+To ensure a speedy turnaround, we recommend checking out the [Advanced Calculated Column Types](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) guide to see what kind of columns our support team can build. In that article, we also cover the info we will need from you to create the column - please include it with your request.
 
 ## Related documentation
 
-* [Creating calculated columns](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md)
-* [Creating paths for calculated columns](../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md)
-* [Deleting calculated column paths](../data-analyst/data-warehouse-mgr/delete-calc-column-paths.md)
-* [Understanding and evaluating table relationships](../data-analyst/data-warehouse-mgr/table-relationships.md)
+* [Creating calculated columns](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md)
+* [Creating paths for calculated columns](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md)
+* [Deleting calculated column paths](../../data-analyst/data-warehouse-mgr/delete-calc-column-paths.md)
+* [Understanding and evaluating table relationships](../../data-analyst/data-warehouse-mgr/table-relationships.md)

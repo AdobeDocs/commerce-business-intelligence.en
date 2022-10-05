@@ -25,7 +25,7 @@ Let us get started.
 
 ## Creating a MBI MySQL user in cPanel {#cpanel}
 
-1. Login to [cPanel](../data-analyst/importing-data/integrations/mysql-via-cpanel.md) via your hosting provider.
+1. Login to [cPanel](../../../data-analyst/importing-data/integrations/mysql-via-cpanel.md) via your hosting provider.
 1. Click MySQL Databases, located in the Database section.
 1. Scroll down to the Add New User section and create a user for MBI:
 
@@ -53,7 +53,7 @@ If you are using an [SSH tunnel](../integrations/mysql-via-ssh-tunnel.md), you w
 
 * **Connection Type:** Set this to SSH Tunnel
 * **Remote Address:** The IP address or hostname of the server MBI will tunnel into
-* **Username:** The username for the MBI SSH (Linux) user ([click here](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) for instructions on how to do this, if you have not already)
+* **Username:** The username for the MBI SSH (Linux) user ([click here](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) for instructions on how to do this, if you have not already)
 * **SSH Port:** SSH port on your server (22 by default)
 
 That's it! When you are finished, click the Save & Test button to complete the setup.

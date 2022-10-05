@@ -6,7 +6,7 @@ description: Learn how to clean up your MBI account.
 
 Whether you have been with MBI for 6 months or 6 years, maintaining a tidy account is paramount to your organization getting the most out of the platform. Over time, it is natural for there to be users, dashboards, reports, metrics, and columns that are no longer needed. Perhaps you created a report for one-time use and forgot about it, or a user who left your company never had his or her account deactivated.
 
-In conjunction with [standardized, clear naming for all elements](../best-practices/naming-elements.md)) of your MBI account, the account audit steps below will help you reduce the clutter and unnecessary analyses for your users. One additional benefit includes [potentially faster update cycles](../../best-practices/reduce-update-cycle-time.md).
+In conjunction with [standardized, clear naming for all elements](../best-practices/naming-elements.md)) of your MBI account, the account audit steps below will help you reduce the clutter and unnecessary analyses for your users. One additional benefit includes [potentially faster update cycles](../best-practices/reduce-update-cycle-time.md).
 
 ## Step 1: Identify Your Non-Active Users
 
@@ -16,7 +16,7 @@ You can do this by clicking your company's name in the top-right corner of the t
 
 >[!WARNING]
 >
->Deactivating a user will also remove the charts, dashboards, and other assets created by that user. If you want to preserve these assets, reach out to the MBI [support](../../getting-started/support.md) team before deactivating the user. Support can help you transfer these assets to another user.
+>Deactivating a user will also remove the charts, dashboards, and other assets created by that user. If you want to preserve these assets, reach out to the MBI [support](../getting-started/support.md) team before deactivating the user. Support can help you transfer these assets to another user.
 
 ### Reactivate a User
 
@@ -82,7 +82,7 @@ If you decide that the metric is no longer needed, navigate back to the **Metric
 
 The last step is to assess the columns currently being synced in your data warehouse. Not only can unsyncing columns declutter your account, it can also potentially reduce your update time.
 
-If you would like to pursue this, reach out to MBI [support](../../getting-started/support.md). The support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
+If you would like to pursue this, reach out to MBI [support](../getting-started/support.md). The support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
 
 Note that you can always start syncing these columns again in the future. Unsyncing a column will not remove any data from your data warehouse; it only means this column will not be checked for new or updated values during the update cycle.
 

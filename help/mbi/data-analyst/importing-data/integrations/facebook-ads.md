@@ -10,7 +10,7 @@ description: Learn to to analyze your ad spend data and see if your money is bei
 
 ![](../../../assets/Facebook_Logo.png)
 
-You did your research, you created your ads, you launched your campaign on Facebook. Now it is time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
+You did your research, you created your ads, you launched your campaign on Facebook. Now it is time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../../../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
 Connecting your Facebook ad data to MBI is a simple three-step process:
 

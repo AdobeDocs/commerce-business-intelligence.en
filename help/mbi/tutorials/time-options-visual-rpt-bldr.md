@@ -12,7 +12,7 @@ However, for some analyses, you may need to consider different Time Ranges or Ti
 * [Giving One Metric an Independent Time Interval](#independenttimeinterval)
 * [Comparing the Same Metric Across Different Time Ranges](#difftimerange)
 
-If you want to follow along with some of the sample reports discussed in this topic, open the [Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md) before continuing.
+If you want to follow along with some of the sample reports discussed in this topic, open the [Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md) before continuing.
 
 ## Analyzing Metrics without Timestamps {#notimestamp}
 

@@ -62,8 +62,8 @@ This type of analysis is what marketers at Fortune 1000 companies do all day. Pr
 
 The first step to segment your metrics by the above dimensions is to make sure that you are tracking this data in your database. If it is not tracked, meet with your tech team and find a way to start tracking this data.
 
-Once we confirm that the data is tracked in your database, [contact our support team](../../getting-started/support.md) to push the dimensions to your MBI metrics and charts, or simply use our Field Management tool to track these fields in MBI.
+Once we confirm that the data is tracked in your database, [contact our support team](../getting-started/support.md) to push the dimensions to your MBI metrics and charts, or simply use our Field Management tool to track these fields in MBI.
 
 ## Related
 
-* [Optimizing your database for analysis](../../best-practices/opt-db-analysis.md)
+* [Optimizing your database for analysis](../best-practices/opt-db-analysis.md)

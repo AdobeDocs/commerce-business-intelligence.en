@@ -41,7 +41,7 @@ To change the recheck frequency, click the checkbox next to the column(s) you wa
 
 ![](../../mbi/assets/dwm-recheck.png)
 
-You might sometimes see **Paused** in the **Changes?** column. This value will display when the table's [replication method](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) is set to Paused.
+You might sometimes see **Paused** in the **Changes?** column. This value will display when the table's [replication method](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) is set to `Paused`.
 
 We recommend reviewing these columns to both optimize your updates and ensure changeable columns are being rechecked. If the recheck frequency for a column is unnecessarily high given how often the data will change, we recommend decreasing it to optimize your updates.
 

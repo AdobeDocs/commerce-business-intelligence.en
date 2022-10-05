@@ -26,12 +26,12 @@ Since MBI only performs cache operations for charts found in a dashboard, removi
 
 >[!NOTE]
 >
->Removing charts from your dashboard does not delete the chart. You can [add it back any time](../../data-user/dashboards/add-charts-dashboard.md).
+>Removing charts from your dashboard does not delete the chart. You can [add it back any time](../data-user/dashboards/add-charts-dashboard.md).
 
 ## Optimize Your Database for Analysis
 
-In addition to reevaluating recheck frequencies, replication methods, and chart usefulness, you can also [optimize your database for analysis](../../best-practices/opt-db-analysis.md).
+In addition to reevaluating recheck frequencies, replication methods, and chart usefulness, you can also [optimize your database for analysis](../best-practices/opt-db-analysis.md).
 
 ## Wrapping Up
 
-If your update time still seems slow even after implementing these recommendations, [contact our support team](../../getting-started/support.md).
+If your update time still seems slow even after implementing these recommendations, [contact our support team](../getting-started/support.md).

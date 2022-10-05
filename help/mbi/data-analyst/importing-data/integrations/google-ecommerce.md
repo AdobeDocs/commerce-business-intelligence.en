@@ -8,7 +8,7 @@ description: Learn about your most valued referral channels.
 >
 >[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
-You have steady flow of traffic and orders, which means you are effectively reaching and acquiring customers. But what are your most valuable referral channels? what is the average lifetime value of customers acquired from one source versus another? By connecting your order referral source data from Google ECommerce to MBI, you can build analyses that will help you identify your [most valuable marketing channels](../data-analyst/analysis/most-value-source-channel.md).
+You have steady flow of traffic and orders, which means you are effectively reaching and acquiring customers. But what are your most valuable referral channels? what is the average lifetime value of customers acquired from one source versus another? By connecting your order referral source data from Google ECommerce to MBI, you can build analyses that will help you identify your [most valuable marketing channels](../../../data-analyst/analysis/most-value-source-channel.md).
 
 Let us get started by entering our Google ECommerce credentials into MBI:
 

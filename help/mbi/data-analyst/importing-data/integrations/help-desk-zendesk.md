@@ -303,7 +303,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 
 >[!NOTE]
 >
->Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+>Make sure to [add all new columns as dimensions to metrics](../../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ### Reports
 

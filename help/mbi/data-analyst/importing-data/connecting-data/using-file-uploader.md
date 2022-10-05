@@ -134,7 +134,7 @@ Additionally, file upload is not the only way to get your data into MBI. The [Da
 
 ## Related {#related}
 
-* [Formatting and importing financial data](../../best-practices/format-import-financial-data.md)
+* [Formatting and importing financial data](../../../best-practices/format-import-financial-data.md)
 * [Importing offline / other ad spend data](../connecting-data/import-offline-ad-data.md)
 * [Expected Google ECommerce data](../integrations/google-ecommerce-data.md)
 

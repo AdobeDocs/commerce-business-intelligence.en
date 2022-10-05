@@ -4,7 +4,7 @@ description: Learn how to create charts from your Google Analytics data.
 ---
 # Create Google Analytics charts
 
-After you have connected your [Google Analytics account](../data-analyst/importing-data/integrations/google-analytics.md), you are able to create charts from your Google Analytics data.
+After you have connected your [Google Analytics account](../../data-analyst/importing-data/integrations/google-analytics.md), you are able to create charts from your Google Analytics data.
 
 ## Create Google Analytics Charts
 

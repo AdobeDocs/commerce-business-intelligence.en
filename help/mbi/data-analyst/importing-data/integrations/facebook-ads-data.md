@@ -6,7 +6,7 @@ description: Learn a brief overview of the tables we recommend you sync to your 
 
 ![](../../../assets/Facebook_Logo.png)
 
-After you have [connected your Facebook Ads account](../integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
+After you have [connected your Facebook Ads account](../integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
 In this article, we  give you a brief overview of the tables we recommend you sync to your data warehouse. This is not an exhaustive list, as there are quite a few subtables. We are only highlighting the core tables.
 
@@ -42,7 +42,7 @@ This table includes an entry for each campaign/set/ad combination for each day, 
 
 This is a subtable of the `facebook_ads_insights_{account_id}` table. It includes conversion data for actions that happen based on different campaigns.
 
-### facebook _ads insights country_ account-id)
+### facebook _ads insights country_ (account-id)
 
 This table includes the same information as the `facebook_ads_insights_{account_id}` table and segments it by country.
 

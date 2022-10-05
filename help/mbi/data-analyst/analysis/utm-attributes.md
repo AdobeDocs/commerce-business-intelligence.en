@@ -4,7 +4,7 @@ description: Learn about the Google Analytics source attribution process.
 ---
 # UTM Attribution
 
-It is critical to [track user acquisition source](../data-analyst/analysis/google-track-user-acq.md) to [identify the best performing advertising campaigns](../data-analyst/analysis/most-value-source-channel.md). In this tutorial, we explore the Google Analytics source attribution process. In other words, what piece of information is recorded when.
+It is critical to [track user acquisition source](../../data-analyst/analysis/google-track-user-acq.md) to [identify the best performing advertising campaigns](../../data-analyst/analysis/most-value-source-channel.md). In this tutorial, we explore the Google Analytics source attribution process. In other words, what piece of information is recorded when.
 
 ## What is attribution?
 
@@ -22,7 +22,7 @@ When the UTM parameters are specified on the URL, these get parsed out and place
 
 ### Last click attribution
 
-Last click attribution is the most common attribution model employed by Google Analytics. In this case, the Google Analytics cookie represents the UTM parameters for the last, or most recent, source prior to the conversion event, and this is what is [recorded in the database](../data-analyst/analysis/google-track-user-acq.md). Note that the Google Analytics cookie only overwrites the previous UTM parameters if the user clicks on a new URL that contains a new set of UTM parameters.
+Last click attribution is the most common attribution model employed by Google Analytics. In this case, the Google Analytics cookie represents the UTM parameters for the last, or most recent, source prior to the conversion event, and this is what is [recorded in the database](../../data-analyst/analysis/google-track-user-acq.md). Note that the Google Analytics cookie only overwrites the previous UTM parameters if the user clicks on a new URL that contains a new set of UTM parameters.
 
 For example, consider a user who first visits a website via *paid search*, then returns via *organic search*, and finally comes back to the *website directly* or via an *email link* **without UTM parameters**{: style="font-size: 1em; line-height: 1.45em;"} before the conversion event. In this example, the Google Analytics cookie says the user's source is organic, since this represents the last source prior to the conversion. The *path* of the user prior to that final conversion event is ignored. If instead the user visited the website from an email link with UTM, then the Google Analytics cookie would say that the source is "email". Therefore, if there are existing UTM parameters in the cookie, and the user comes in via direct, the Google Analytics cookie will always show the UTM parameters rather than "direct". (**Note**: *A specific user's GA cookie parameters will be erased when the cookie [expires](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage), or when a user clears his or her cookies in the browser.*)
 

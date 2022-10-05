@@ -82,7 +82,7 @@ Metrics to create
 * Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Customer's first order date`**<!--</span>--> timestamp
 <!--<!--{: style="list-style-type: circle;"}-->-->
 
-**Note**: Make sure to [add all new columns as dimensions to metrics](../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+**Note**: Make sure to [add all new columns as dimensions to metrics](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 
