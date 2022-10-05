@@ -8,7 +8,7 @@ Understanding the coupon performance of your business is an interesting way to s
 
 We have documented the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
 
-![](../../mbi/assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
+![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
 ## Getting Started
 
@@ -41,128 +41,127 @@ The first step will be to construct a new metric with the following steps:<!--</
 ## Building Reports
 
 * **New Reports:**
-  * If you have not already, check out [this video][1] about using the Visual Report Builder to build charts, tables, and scalar values.
-  * Note on **Time Period**: The time period for each report is listed as "All-time". Please feel free to alter this to suit your analysis needs. We recommend all reports on this dashboard cover the same time period, such as "All time", "Year-to-date", or "Last 365 days".
+  * **Note:** The **Time Period** for each report is listed as "All-time". Please feel free to alter this to suit your analysis needs. We recommend all reports on this dashboard cover the same time period, such as "All time", "Year-to-date", or "Last 365 days".
 
 * **Orders with coupons**
-  * Metric:**Orders</em>
+  * Metric:**Orders**
     * Add filter:
       * [A] `coupon_code` **IS NOT** `[NULL]`
 
-  * Time period:**All time</em>
-  * Interval:**None</em>
-  * Chart Type:**Number (scalar)</em>
+  * Time period:**All time**
+  * Interval:**None**
+  * Chart Type:**Number (scalar)**
 
 * **Orders without coupons**
-  * Metric:**Orders</em>
+  * Metric:**Orders**
     * Add filter:
       * [A] `coupon_code` **IS** `[NULL]`
 
-  * Time period:**All time</em>
-  * Interval:**None</em>
-  * Chart Type:**Number (scalar)</em>
+  * Time period:**All time**
+  * Interval:**None**
+  * Chart Type:**Number (scalar)**
 
 * **Net revenue from orders with coupons**
-  * Metric:**Revenue</em>
+  * Metric:**Revenue**
     * Add filter:
       * [A] `coupon_code` **IS NOT** `[NULL]`
 
-  * Time period:**All time</em>
-  * Interval:**None</em>
-  * Chart Type:**Number (scalar)</em>
+  * Time period:**All time**
+  * Interval:**None**
+  * Chart Type:**Number (scalar)**
 
 * **Discounts from coupons**
-  * Metric:**Coupon discount amount</em>
-  * Time period:**All time</em>
-  * Interval:**None</em>
-  * Chart Type:**Number (scalar)</em>
+  * Metric:**Coupon discount amount**
+  * Time period:**All time**
+  * Interval:**None**
+  * Chart Type:**Number (scalar)**
 
 * **Average lifetime revenue: Coupon acquired customers**
-  * Metric:**Avg lifetime revenue</em>
+  * Metric:**Avg lifetime revenue**
     * Add filter:
       * [A] `Customer's first order's coupon_code` **IS NOT** `[NULL]`
 
-  * Time period:**All time</em>
-  * Interval:**None</em>
-  * Chart Type:**Number (scalar)</em>
+  * Time period:**All time**
+  * Interval:**None**
+  * Chart Type:**Number (scalar)**
 
 * **Average lifetime revenue: Non-coupon acquired customers**
-  * Metric:**Avg lifetime revenue</em>
+  * Metric:**Avg lifetime revenue**
     * Add filter:
       * [A] ` Customer's first order's coupon_code` **IS**`[NULL]`
 
-  * Time period:**All time</em>
-  * Interval:**None</em>
-  * Chart Type:**Number (scalar)</em>
+  * Time period:**All time**
+  * Interval:**None**
+  * Chart Type:**Number (scalar)**
 
 * **Coupon usage details (first time orders)**
-  * Metric 1:**Orders</em>
+  * Metric 1:**Orders**
     * Add filter:
       * [A] `coupon_code` **IS NOT**`[NULL]`
       * [B] `Customer's order number` **Equal to** `1`
 
-  * Metric 2:**Revenue</em>
+  * Metric 2:**Revenue**
     * Add filter:
       * [A] `coupon_code` **IS NOT**`[NULL]`
       * [B] `Customer's order number` **Equal to** `1`
 
     * Rename: *Net revenue*
 
-  * Metric 3:**Coupon discount amount</em>
+  * Metric 3:**Coupon discount amount**
     * Add filter:
       * [A] `coupon_code` **IS NOT**`[NULL]`
       * [B] `Customer's order number` **Equal to** `1`
 
-  * Create new formula:**Gross revenue</em>
-    * Formula:**(B – C)</em>
-    * Format:**Currency</em>
+  * Create new formula:**Gross revenue**
+    * Formula:**(B – C)**
+    * Format:**Currency**
 
-  * Create new formula:**% discounted</em>
+  * Create new formula:**% discounted**
     * Formula*: (C / (B - C))*
-    * Format:**Percentage</em>
+    * Format:**Percentage**
 
-  * Create new formula:**Average order discount</em>
-    * Formula:**(C / A)</em>
-    * Format:**Percentage</em>
+  * Create new formula:**Average order discount**
+    * Formula:**(C / A)**
+    * Format:**Percentage**
 
-  * Time period:**All time</em>
-  * Interval:**None</em>
-  * Chart Type:**Table</em>
+  * Time period:**All time**
+  * Interval:**None**
+  * Chart Type:**Table**
 
 * **Average lifetime revenue by first order coupon**
-  * Metric:**Avg lifetime revenue</em>
+  * Metric:**Avg lifetime revenue**
     * Add filter:
       * [A] `coupon_code` **IS**`[NULL]`
 
-  * Time period:**All time</em>
-  * Interval:**None</em>
-  * Chart Type:**Number (scalar)</em>
+  * Time period:**All time**
+  * Interval:**None**
+  * Chart Type:**Number (scalar)**
 
 * **Coupon usage details (first time orders)**
-  * Metric:**Avg lifetime revenue</em>
+  * Metric:**Avg lifetime revenue**
     * Add filter:
       * [A] `Customer's first order's coupon_code` **IS NOT** `[NULL]`
 
-  * Time period:**All time</em>
-  * Interval:**None</em>
-  * Group by:**Customer's first order's coupon_code</em>
-  * Chart Type:**Column</em>
+  * Time period:**All time**
+  * Interval:**None**
+  * Group by:**Customer's first order's coupon_code**
+  * Chart Type:**Column**
 
 * **New customers by coupon / non-coupon acquisition**
-  * Metric 1:**New customers</em>
+  * Metric 1:**New customers**
     * Add filter:
       * [A] `Customer's first order's coupon_code` **IS NOT** `[NULL]`
 
     * Rename: *Coupon acquisition customer*
 
-  * Metric 2:**New customers</em>
+  * Metric 2:**New customers**
     * Add filter:
       * [A] `coupon_code` **IS**`[NULL]`
 
     * Rename: *Non-coupon acquisition customer*
 
-  * Time period:**All time</em>
-  * Interval:**By Month</em>
-  * Chart Type:**Stacked Column</em>
+  * Time period:**All time**
+  * Interval:**By Month**
+  * Chart Type:**Stacked Column**
 
 After building the reports, refer to the image at the top of this topic for how you can organize the reports on your dashboard.

@@ -94,7 +94,7 @@ Here is an example:
 
 A sequential event comparison can be used to find the average or median time between each sequential event. Click the image below to see the **Average and Median time between orders** metrics in action.
 
-=![Using a sequential event comparison calculated column to calculate Average and Median time between orders.](../../mbi/assets/SeqEventComp.gif)<!--{: style="max-width: 500px;"}-->
+=![Using a sequential event comparison calculated column to calculate Average and Median time between orders.](../../assets/SeqEventComp.gif)<!--{: style="max-width: 500px;"}-->
 
 To create this type of calculated column, we need to know:
 

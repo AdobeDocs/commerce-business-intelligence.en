@@ -53,7 +53,7 @@ Make sure to double check your spelling and do not forget about those pesky poss
 
 ## Charts {#charts}
 
-When naming [charts](../../tutorials/using-visual-report-builder.md), we find it most useful to follow this formula: **(Data Perspective) + (Metric) + (Time Period) + (Time Interval)**
+When naming [charts](../tutorials/using-visual-report-builder.md), we find it most useful to follow this formula: **(Data Perspective) + (Metric) + (Time Period) + (Time Interval)**
 
 **Bad example:**
  Revenue

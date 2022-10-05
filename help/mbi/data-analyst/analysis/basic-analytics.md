@@ -112,7 +112,7 @@ Here are some common examples of reports and metrics you might find useful:
 * **Time Range**: Last Month
 * **Time Interval**: By Day
 
-![New Users](../../mbi/assets/New_Users_Last_Month.png)<!--{: width="929"}-->
+![New Users](../../assets/New_Users_Last_Month.png)<!--{: width="929"}-->
 
 ### Unique customers
 
@@ -123,7 +123,7 @@ Here are some common examples of reports and metrics you might find useful:
 * **Time Range**: Moving range > Last 90 Days
 * **Time Interval**: By Day
 
-![Unique Customers.](../../mbi/assets/Unique_customers_last_7_days.png)<!--{: width="929"}-->
+![Unique Customers.](../../assets/Unique_customers_last_7_days.png)<!--{: width="929"}-->
 
 ### New subscribers
 
@@ -134,7 +134,7 @@ Here are some common examples of reports and metrics you might find useful:
 * **Time Range**: 1 Year Ago to 0 Days Ago
 * **Time Interval**: By Month
 
-![Subscribers](../../mbi/assets/New_Subscribers_This_Year_by_Month.png)<!--{: width="929"}-->
+![Subscribers](../../assets/New_Subscribers_This_Year_by_Month.png)<!--{: width="929"}-->
 
 ### Repeat customers
 

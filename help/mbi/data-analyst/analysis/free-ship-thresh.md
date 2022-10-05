@@ -12,7 +12,7 @@ In this article, we demonstrate how to set up a dashboard that will track the pe
 
 Before getting started, you want to identify two separate time periods where you have had different values for your store's free shipping threshold.
 
-![](../../mbi/assets/free_shipping_threshold.png)
+![](../../assets/free_shipping_threshold.png)
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 

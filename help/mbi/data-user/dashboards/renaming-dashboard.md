@@ -20,4 +20,4 @@ Sometimes names just no longer fit. Renaming a dashboard is quick and easy.
 
 Example:
 
-![rename dashboard](../../mbi/assets/Nov-23-2016_15-53-57.gif)
+![rename dashboard](../../assets/Nov-23-2016_15-53-57.gif)

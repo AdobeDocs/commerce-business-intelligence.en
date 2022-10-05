@@ -136,4 +136,4 @@ To create an **Event Number** column:
 1. Provide a name for the column at the top of the page and click **Save**.
 1. The column will be available to use immediately.
 
-![SEC](../../mbi/assets/SEC_new.png)<!--{: width="665" height="492"}-->
+![SEC](../../assets/SEC_new.png)<!--{: width="665" height="492"}-->

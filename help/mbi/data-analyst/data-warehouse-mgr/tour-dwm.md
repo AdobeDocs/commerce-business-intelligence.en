@@ -75,7 +75,7 @@ Simply being able to see and manage data from all your sources makes gaining ins
 
 Let us say you want to add **user's lifetime revenue** to your **users** table to find high value users. Or, if you want to segment revenue by gender, you can add **customer's gender** to your **orders** table.
 
-To help you master creating these columns, [we created a tutorial](../creating-calculated-columns.md) to walk you through it.
+To help you master creating these columns, [we created a tutorial](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) to walk you through it.
 
 ## Dropping Tables and Removing Columns {#delete}
 

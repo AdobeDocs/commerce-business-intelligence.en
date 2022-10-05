@@ -28,7 +28,7 @@ An age calculated column returns the number of seconds between the current time 
 
 In the example below, we created **Seconds since customer's most recent order** in the **customers**table. This can be leveraged to construct user lists of customers who have not made purchases (sometimes referred to as churning) within X days.
 
-![](../../mbi/assets/age.gif)
+![](../../assets/age.gif)
 
 ### Currency Converter
 
@@ -38,7 +38,7 @@ In the example below, we created **base\_grand\_total In AED**, converting the *
 
 For Magento clients, the **base\_currency\_code** field typically stores native currencies. The **Spot Time** field should match the date used in your metrics.
 
-![](../../mbi/assets/currency_converter.png)
+![](../../assets/currency_converter.png)
 
 ## One-to-many calculated columns {#onetomany}
 
@@ -50,7 +50,7 @@ A joined column relocates an attribute on the one table *to* the many table. The
 
 In the example below, the **Customer's group\_id** dimension gets joined down into the orders table.
 
-![](../../mbi/assets/joined_column.gif)
+![](../../assets/joined_column.gif)
 
 ## Many-to-one calculated columns {#manytoone}
 
@@ -62,7 +62,7 @@ This type of calculated column returns the count of values on the many table *on
 
 In the example below, the dimension **Customer's lifetime number of canceled orders** is created on the **customers table** (with a filter for **orders.status**).
 
-![](../../mbi/assets/many_to_one.gif){: width="699" height="351"}
+![](../../assets/many_to_one.gif){: width="699" height="351"}
 
 ### Sum {#sum}
 
@@ -86,7 +86,7 @@ This type of dimension might determine, for example, if a customer ever purchase
 
 If you are having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you are building:
 
-![](../../mbi/assets/merged_reference_map.png)
+![](../../assets/merged_reference_map.png)
 
 ## Advanced calculated columns {#advanced}
 

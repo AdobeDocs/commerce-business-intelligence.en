@@ -8,7 +8,7 @@ If you want to keep your dashboard list from becoming too cluttered, you can del
 
 1. [Via the Account Settings page](#account) - this method [requires Admin permissions](../../administrator/user-management/user-management.md)
 
-1. [Via the Dashboard Options menu](#DO) - this method requires you to own the dashboard or have Edit permissions.
+1. [Via the Dashboard Options menu](#do) - this method requires you to own the dashboard or have Edit permissions.
 
 ## Delete Dashboard via the Account Settings page {#account}
 
@@ -20,9 +20,9 @@ If you want to keep your dashboard list from becoming too cluttered, you can del
 
 Example:
 
-![delete dashboard](../../mbi/assets/deleting_dash.gif)<!--{: width="703" height="346"}-->
+![delete dashboard](../../assets/deleting_dash.gif)<!--{: width="703" height="346"}-->
 
-## Delete Dashboard via the Dashboard Options menu {#DO}
+## Delete Dashboard via the Dashboard Options menu {#do}
 
 1. Click the **Dashboard Options** menu at the top of the screen.
 
@@ -32,4 +32,4 @@ Example:
 
 Example:
 
-![delete dashboard](../../mbi/assets/deleting_dash_2.gif)<!--{: width="703" height="347"}-->
+![delete dashboard](../../assets/deleting_dash_2.gif)<!--{: width="703" height="347"}-->

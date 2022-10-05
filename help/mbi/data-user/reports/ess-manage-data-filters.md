@@ -14,7 +14,7 @@ See our [training video](https://support.magento.com/hc/en-us/articles/360016730
 
 1. Click **Manage Data** > **Filter Sets** in the sidebar.
 
-    ![](../../mbi/assets/create-filter-sets.png)
+    ![](../../assets/create-filter-sets.png)
 
 1. Click **Add Filter Set** at the top of the page.
 
