@@ -28,7 +28,7 @@ For example, in the relationship between people and driver's license numbers, a 
 
 In a one-to-many relationship, a record in Table A can potentially belong to several records in Table B. Think about the relationship between **orders** and **items** - an order can contain many items, but an item belongs to a single order. In this case, the **orders** table is the one side and the **items** table is the many side.
 
-![](../../assone-to-many_001.png)
+![](../../assets/one-to-many_001.png)
 
 ### Many-to-Many {#manytomany}
 

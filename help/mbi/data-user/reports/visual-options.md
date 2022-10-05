@@ -42,7 +42,7 @@ To save a report as a scalar, configure your filters and time settings, then cli
 
 As the name suggests, table reports are great for displaying tabular details. When there is a need to display a large number of group by values or metrics in a single report, a table is often the best way to go. As an example, below is a table of "Customer details", showing orders and revenue grouped by customer email:
 
- ![](../../massets/blobid2.png)
+ ![](../../assets/blobid2.png)
 
 Similar to scalar reports, you can save a report as a table by clicking Save or Update within the report builder, then selecting the Table option under the Type drop-down.
 
@@ -56,7 +56,7 @@ Similar to scalar reports, you can save a report as a table by clicking Save or 
 
 Line charts are the perfect choice for comparing the performance of similar metric cohorts. For example, analyzing the revenue of two regions over the same time period, or comparing year over year growth in fulfilled orders, as shown below:
 
-![](../../mbi/assets/blobid0.png)
+![](../../assets/blobid0.png)
 
 Each metric and formula added to the report is represented by its own line. When comparing metrics with similar units and scales, do not forget to clear the checkbox for "Multiple Y-Axes" to display all metrics on the same scale.
 
