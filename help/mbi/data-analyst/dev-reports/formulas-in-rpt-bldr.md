@@ -10,7 +10,7 @@ In the [Report Builder](../../tutorials/using-visual-report-builder.md), you can
 
 In the Report Builder, a formula is just a combination of one or more metrics based on some mathematical logic. A typical example looks like this:
 
-![](../../mbi/assets//Screen_Shot_2015-11-04_at_3.29.01_PM.png)
+![](../../mbi/assets/Screen_Shot_2015-11-04_at_3.29.01_PM.png)
 
 In this example, we are using a Number of orders metric (A) and a Distinct buyers metric (B), and our goal is to answer the question: what is the average number of orders my buyers are making each month? The parameters of the formula are:
 
@@ -26,19 +26,19 @@ Now that we have covered the basics, lets take a look at some examples.
 
 ### Example: I want to find out what percent of my revenue can be attributed to first-time orders.
 
-![Using formulas to find the percent of revenue attributed to first-time orders](../../mbi/assets//first_time_orders.gif)
+![Using formulas to find the percent of revenue attributed to first-time orders](../../mbi/assets/first_time_orders.gif)
 
 In this example, we used the **Revenue** and **Revenue (first time orders)** metrics. By dividing the **Revenue (first time orders)(B)** metric by the **Revenue metric (A)** and setting the return format to **Percent**, we can find the percent of revenue that can be attributed to first time orders.
 
 ### Example: I want to know what the average revenue per order is when I do and do not offer a promo code.
 
-![Using formulas to find the average revenue per order with and without promo codes](../../mbi/assets//promo_code.gif)
+![Using formulas to find the average revenue per order with and without promo codes](../../mbi/assets/promo_code.gif)
 
 In this example, we used the **Revenue** and **Number of orders** metrics. The answer to this question involves two steps - dividing **Revenue (A)** by the **Number of orders (B)** and setting the return format to **Currency**. Next, we only allowed the formula result **(Avg. Revenue per order)** to show and grouped the results by **Promo code**.
 
 ### Example: I want to know the distribution of my new customers' UTM sources.
 
-![Using formulas to find the distribution of new customers' UTM sources](../../mbi/assets//distro.gif)
+![Using formulas to find the distribution of new customers' UTM sources](../../mbi/assets/distro.gif)
 
 Finding the answer this question involves a few steps:
 

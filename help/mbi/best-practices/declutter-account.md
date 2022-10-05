@@ -6,7 +6,7 @@ description: Learn how to clean up your MBI account.
 
 Whether you have been with MBI for 6 months or 6 years, maintaining a tidy account is paramount to your organization getting the most out of the platform. Over time, it is natural for there to be users, dashboards, reports, metrics, and columns that are no longer needed. Perhaps you created a report for one-time use and forgot about it, or a user who left your company never had his or her account deactivated.
 
-In conjunction with [standardized, clear naming for all elements](../../best-practices/naming-elements.md)) of your MBI account, the account audit steps below will help you reduce the clutter and unnecessary analyses for your users. One additional benefit includes [potentially faster update cycles](../../best-practices/reduce-update-cycle-time.md).
+In conjunction with [standardized, clear naming for all elements](../best-practices/naming-elements.md)) of your MBI account, the account audit steps below will help you reduce the clutter and unnecessary analyses for your users. One additional benefit includes [potentially faster update cycles](../../best-practices/reduce-update-cycle-time.md).
 
 ## Step 1: Identify Your Non-Active Users
 
@@ -50,7 +50,7 @@ After you access your dashboards and reports, you can then begin cleaning up you
 
 You can also select **Dashboard Options**, then **Delete** from the dashboard itself.
 
-![](../../mbi/assets//Delete_from_dashboard.png)
+![](../../mbi/assets/Delete_from_dashboard.png)
 
 Note that deleting a dashboard does not delete the reports within it, so you will have to take one more step to delete the reports.
 
@@ -63,7 +63,7 @@ Note that deleting a dashboard does not delete the reports within it, so you wil
 
 Here is a look at the unused report deletion process:
 
-![](../../mbi/assets//unused_reports.png)
+![](../../mbi/assets/unused_reports.png)
 
 ## Step 3: Delete Unused Metrics
 
@@ -74,7 +74,7 @@ After you have cleaned up your users list, dashboards, and reports, you can move
 1. At the bottom of the page, you will see a section called **Dependent Charts**. Click the link to generate a dependent reports list for this metric.
 1. After the system completes the check, MBI displays a list of dashboards, reports, and users utilizing this metric.
 
-![](../../mbi/assets//report_dependecies.png)
+![](../../mbi/assets/report_dependecies.png)
 
 If you decide that the metric is no longer needed, navigate back to the **Metrics** page by clicking the **Back to Metric List** link at the top of the page and find the metric you want to delete. Click **Delete**.
 
@@ -95,8 +95,8 @@ Note that you can always start syncing these columns again in the future. Unsync
 
 Here is a look at the whole process:
 
-![](../../mbi/assets//drop_column.png)
+![](../../mbi/assets/drop_column.png)
 
 ## Wrapping up
 
-That's it! Your MBI account should now be tidier and easier to navigate for you and your team. For more best practices including optimizing your update time and database, click [here](../../best-practices.md).
+That is it! Your MBI account should now be tidier and easier to navigate for you and your team. For more best practices including optimizing your update time and database, click [here](../best-practices.md).

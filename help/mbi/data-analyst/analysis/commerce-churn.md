@@ -6,7 +6,7 @@ description: Learn how to generate and analyze your Commerce churn rate.
 
 In this topic article, we demonstrate how to calculate a **churn rate** for your **commerce customers**. Unlike SaaS or traditional subscription companies, commerce customers typically do not have a concrete **"churn event"** to show you that they should no longer count toward your active customers. For this reason, the below instructions allow you to define a customer as "churned" based upon a determined amount of time passing since their last order.
 
-![](../../mbi/assets//Churn_rate_image.png)
+![](../../mbi/assets/Churn_rate_image.png)
 
 Many customers want assistance in starting to conceptualize what **timeframe** they should use based upon their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../analysis/define-cust-churn.md) Analysis Library article. Then, you can use the results in the formula for churn rate in the below instructions.
 

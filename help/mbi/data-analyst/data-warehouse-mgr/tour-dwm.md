@@ -47,13 +47,13 @@ The Data Warehouse Manager not only gives you the ability to easily view and man
 1. Make sure you check the **Primary Key** columns - these columns have a key symbol next to the column name. A Primary Key is required to properly sync data into the Data Warehouse.
 
     If you are syncing a table that comes directly from your database, it is possible that Primary Keys may not be denoted. In this case, contact your database administrator to request that a primary key or keys be added to the table.
-1. When finished, click the ![button](../../mbi/assets//button.png)<!--{: width="30" height="27"}--> button.
+1. When finished, click the ![button](../../mbi/assets/button.png)<!--{: width="30" height="27"}--> button.
 
 A *Success!* message will appear and the status will change to Pending for the selected columns. After the next full update completes, the newly synced tables and columns will be available for use in reports; you can also set new [replication methods](./cfg-replication-methods.md) after the initial sync.
 
 Here is a quick look at the whole process:
 
-![Adding columns to your data warehouse](../../mbi/assets//DW_sync.gif)<!--{: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Adding tables and columns to your data warehouse"}-->
+![Adding columns to your data warehouse](../../mbi/assets/DW_sync.gif)<!--{: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Adding tables and columns to your data warehouse"}-->
 
 ### Syncing New Tables in the Background {#syncnew}
 
@@ -61,7 +61,7 @@ When you a sync a large, new table for the first time, your data warehouse needs
 
 To make sure that occurs, you should select the **Save and Sync Data Immediately** option syncing that table for the first time, as below:
 
-![](../../mbi/assets//mceclip0.png)
+![](../../mbi/assets/mceclip0.png)
 
 ### Checking for new tables and columns {#forceupdate}
 
@@ -83,9 +83,9 @@ Just as you have the ability to select tables and columns to sync to your Data W
 
 do not worry if you click Delete by accident. A dependency check runs before anything is deleted, so you will have the chance to review everything before confirming.
 
-**To remove columns, **click the table that the column belongs to. Check the columns you want to remove and click the ![button\_1.png](../../mbi/assets//button_1.png){: width="31" height="26"} button.
+**To remove columns, **click the table that the column belongs to. Check the columns you want to remove and click the ![button\_1.png](../../mbi/assets/button_1.png){: width="31" height="26"} button.
 
-**To remove a synced table**, select all columns in the table, and again click the ![button](../../mbi/assets//button_1.png)<!--{: width="31" height="26"}--> button. This will remove all native and calculated columns that use this table from your data warehouse.
+**To remove a synced table**, select all columns in the table, and again click the ![button](../../mbi/assets/button_1.png)<!--{: width="31" height="26"}--> button. This will remove all native and calculated columns that use this table from your data warehouse.
 
 ### Confirming Changes
 
@@ -95,7 +95,7 @@ While deleted dependencies cannot be restored, the tables and columns will still
 
 Here is a quick look at removing a column:
 
-![Removing a column from your data warehouse](../../mbi/assets//DW_delete.gif)<!--{: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Removing a column from your data warehouse"}-->
+![Removing a column from your data warehouse](../../mbi/assets/DW_delete.gif)<!--{: style="max-width: 500px;"}{: data-lightbox="image-1" data-title="Removing a column from your data warehouse"}-->
 
 ## So, when can I use my new columns? {#when}
 

@@ -22,7 +22,7 @@ In a one-to-one relationship, a record in Table B belongs to one and only one re
 
 For example, in the relationship between people and driver's license numbers, a person can have one and only one driver's license number, and a driver's license number belongs to one and only person.
 
-![](../../mbi/assets//one-to-one.png)
+![](../../mbi/assets/one-to-one.png)
 
 ### One-to-Many {#onetomany}
 
@@ -36,7 +36,7 @@ In a many-to-many relationship, a record in Table B can potentially belong to se
 
 Think about the relationship between **products** and **categories**: a product can belong to many categories, and a category can contain many products.
 
-![](../../mbi/assets//many-to-many.png)
+![](../../mbi/assets/many-to-many.png)
 
 ## Evaluating Your Tables {#eval}
 
@@ -65,7 +65,7 @@ _"One given person can have one and only one driver's license number. One given 
 
 This is a one-to-one relationship where each table is a one side.
 
-![](../../mbi/assets//one-to-one3.png)
+![](../../mbi/assets/one-to-one3.png)
 
 ### One-to-Many
 
@@ -73,7 +73,7 @@ _"One given order can possibly contain many items. One given item belongs to one
 
 This is a one-to-many relationship where the orders table is the one side and the items table is the many side.
 
-![](../../mbi/assets//one-to-many3.png)
+![](../../mbi/assets/one-to-many3.png)
 
 ### Many-to-Many
 
@@ -81,7 +81,7 @@ _"One given product can possibly belong to many categories. One given category c
 
 This is a many-to-many relationship where each table is a many side.
 
-![](../../mbi/assets//many-to-many3.png)
+![](../../mbi/assets/many-to-many3.png)
 
 ### Using the Table's Schema {#schema}
 
@@ -95,7 +95,7 @@ If the tables are linked using the primary key of both tables, then the same uni
 
 For example, a **users** table may capture most user attributes (such as name) while a supplemental **user_source** table captures user registration sources. In each table, a row represents one user.
 
-![](../../mbi/assets//one-to-one1.png)
+![](../../mbi/assets/one-to-one1.png)
 
 ### One-to-many
 
@@ -105,17 +105,17 @@ For example, a **users** table may capture most user attributes (such as name) w
 
 When tables are linked using a foreign key pointing to a primary key, this setup describes a one-to-many relationship. The one side will be the table containing the primary key and the many side will be the table containing the foreign key.
 
-![](../../mbi/assets//one-to-many1.png)
+![](../../mbi/assets/one-to-many1.png)
 
 ### Many-to-many
 
 If either of the following is true, the relationship is many-to-many:
 
 * Non-primary key columns are being used to link two tables
-    ![](../../mbi/assets//many-to-many1.png)
+    ![](../../mbi/assets/many-to-many1.png)
 * Part of a composite primary key is used to link two tables
 
-![](../../mbi/assets//many-to-mnay2.png)
+![](../../mbi/assets/many-to-mnay2.png)
 
 ## Next steps
 

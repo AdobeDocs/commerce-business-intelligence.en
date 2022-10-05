@@ -47,7 +47,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
    Bring it into your Data Warehouse as a [File Upload](../importing-data/connecting-data/using-file-uploader.md)
 
-   ![](../../mbi/assets//Setting_Primary_Keys.png)
+   ![](../../mbi/assets/Setting_Primary_Keys.png)
 
 1. **Establish a relationship between Google ECommerce and Mappings File Upload**
 
@@ -55,7 +55,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
 Congratulations! Now you have Google Analytics Channel groupings in your Data Warehouse, which means you can analyze your data from a new perspective:
 
-![Segmenting the Number of Orders metric by Channel](../../mbi/assets//GA_Channel_Gif.gif)
+![Segmenting the Number of Orders metric by Channel](../../mbi/assets/GA_Channel_Gif.gif)
 
 In this example, we started simple - segmenting the **Number of Orders** metric by **Channel**. Now it is your turn - go test out your new column and see what trends you can identify in your Google Analytics channel data!
 

@@ -6,7 +6,7 @@ description: Learn how to set up a dashboard that will provide a detailed analys
 
 In this article, we demonstrate how to set up a dashboard that will provide a detailed analysis of your store's returns.
 
-![](../../mbi/assets//upload_12_19_2016_at_3_34_09_PM.png)
+![](../../mbi/assets/upload_12_19_2016_at_3_34_09_PM.png)
 
 Before getting started, you will need to be an [Enterprise client of Magento](https://magento.com/products/magento-commerce) and will want to make sure your company is using the `enterprise\_rma` table for returns.
 

@@ -131,7 +131,7 @@ When creating reports that will be shared with other members of your team, we re
 
 Let us take a look:
 
-![Chart Description](../../mbi/assets//Chart_Description.gif)
+![Chart Description](../../mbi/assets/Chart_Description.gif)
 
 #### Exporting reports as images
 
@@ -144,4 +144,4 @@ Need to include a report in a presentation or document? Any report can be saved 
 
 Let us take a look:
 
-![](../../mbi/assets//3.3.gif)
+![](../../mbi/assets/3.3.gif)

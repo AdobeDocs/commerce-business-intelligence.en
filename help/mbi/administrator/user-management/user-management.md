@@ -57,7 +57,7 @@ Billing users have access to the billing page and can change payment information
 
 Admin users have access to the Billing tab by default, but Standard users can also gain access if they have the 'Billing' checkbox selected on their profile.
 
-![billing](../../mbi/assets//billing.png)<!--{: width="550" height="363"}-->
+![billing](../../mbi/assets/billing.png)<!--{: width="550" height="363"}-->
 
 ### Technical
 

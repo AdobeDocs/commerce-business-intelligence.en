@@ -22,7 +22,7 @@ Admin users can log into the dashboard and see the last data point above, along 
 
 For more detail, admin users can click **Manage Data** > **Integrations**.
 
-![](../../mbi/assets//2016-12-20_1123.png)
+![](../../mbi/assets/2016-12-20_1123.png)
 
 This page will show you the current update status and the time of the last completed update.
 

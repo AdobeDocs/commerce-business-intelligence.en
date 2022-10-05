@@ -6,7 +6,7 @@ description: Learn how to work with mapping tables.
 
 Picture this: you are in the Report Builder, building a Revenue by State report. You are in the zone. Everything is going swimmingly until you go to add a **billing state** grouping to your report and you see this:
 
-![](../../mbi/assets//Messy_State_Segments.png)
+![](../../mbi/assets/Messy_State_Segments.png)
 
 ## How could this happen?
 
@@ -36,7 +36,7 @@ In the first column, enter the values stored in your database with **only one va
 
 In the second column, enter what these values **should be**. Continuing with our billing state example, if we want 'pa,' 'PA,' 'Pennsylvania,' and 'pennsylvania' to simply be 'PA,' we would enter PA in this column for each input value.
 
-![](../../mbi/assets//Mapping_table_examples.jpg)
+![](../../mbi/assets/Mapping_table_examples.jpg)
 
 ## What do I need to do in MBI to use it? {#use}
 
@@ -57,7 +57,7 @@ To create the joined column, navigate to the table that the field will be reloca
    * On the **One** side, select the **mapping table** and the **primary key** column. In this case, we would select the **state_input** column from the **mapping_state** table.
    * Here is a look at what our path looks like:
 
-      ![](../../mbi/assets//State_Mapping_Path.png)
+      ![](../../mbi/assets/State_Mapping_Path.png)
 
 1. When finished, click the **Save** button to create the path.
 1. The path may not populate immediately after saving - if this happens, click the **Path** box and select the path you just created.
@@ -68,7 +68,7 @@ That is it!
 
 After an update cycle completes, you will be able to use your new joined column to properly segment your data instead of the messy column from your database. Take a look at our grouping options now - no more stress mess:
 
-![](../../mbi/assets//Clean_State_Segments.png)
+![](../../mbi/assets/Clean_State_Segments.png)
 
 Mapping tables are handy for any time you want to clean up some potentially messy data in your data warehouse. However, mapping tables can also be used for some other cool use cases, like [replicating your Google Analytics channels in MBI](../data-warehouse-mgr/rep-google-analytics-channels.md).
 

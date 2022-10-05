@@ -47,7 +47,7 @@ In some cases, the structure of your data might make the SQL Report Builder a mo
 
 Let's say a single product is considered a part of multiple product categories, and you would like to view the revenue associated with each category of each product. Trying to create this relationship using the DWM can be tedious and difficult, but writing a SQL query may be a bit more straightforward:
 
-![](../../mbi/assets//When_should_I_use_the_RB_2.png)
+![](../../mbi/assets/When_should_I_use_the_RB_2.png)
 
 ## When should I use the traditional Report Builder? {#whentraditionalrb}
 

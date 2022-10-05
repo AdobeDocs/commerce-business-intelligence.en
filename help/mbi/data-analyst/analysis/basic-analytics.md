@@ -112,7 +112,7 @@ Here are some common examples of reports and metrics you might find useful:
 * **Time Range**: Last Month
 * **Time Interval**: By Day
 
-![New Users](../../mbi/assets//New_Users_Last_Month.png)<!--{: width="929"}-->
+![New Users](../../mbi/assets/New_Users_Last_Month.png)<!--{: width="929"}-->
 
 ### Unique customers
 
@@ -123,7 +123,7 @@ Here are some common examples of reports and metrics you might find useful:
 * **Time Range**: Moving range > Last 90 Days
 * **Time Interval**: By Day
 
-![Unique Customers.](../../mbi/assets//Unique_customers_last_7_days.png)<!--{: width="929"}-->
+![Unique Customers.](../../mbi/assets/Unique_customers_last_7_days.png)<!--{: width="929"}-->
 
 ### New subscribers
 
@@ -134,7 +134,7 @@ Here are some common examples of reports and metrics you might find useful:
 * **Time Range**: 1 Year Ago to 0 Days Ago
 * **Time Interval**: By Month
 
-![Subscribers](../../mbi/assets//New_Subscribers_This_Year_by_Month.png)<!--{: width="929"}-->
+![Subscribers](../../mbi/assets/New_Subscribers_This_Year_by_Month.png)<!--{: width="929"}-->
 
 ### Repeat customers
 
@@ -146,7 +146,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time Interval**: By Month
    * **Group By**: Customer's Order Number, then select 2 and 3
 
-   ![](../../mbi/assets//2nd_and_3rd_purchases_last_year.png)
+   ![](../../mbi/assets/2nd_and_3rd_purchases_last_year.png)
 
 * **Report example 2**:  Number of repeat customers last year
    * **Metric**: Distinct Customers
@@ -154,7 +154,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time Range**: Moving range > Last Year
    * **Time Interval**: By Month
 
-   ![Repeat Customers Last Year](../../mbi/assets//Repeat_customers_last_year.png)<!--{: width="929"}-->
+   ![Repeat Customers Last Year](../../mbi/assets/Repeat_customers_last_year.png)<!--{: width="929"}-->
 
 ### Top customers by lifetime number of orders
 
@@ -167,7 +167,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Group By**: customer_email
    * **Show Top/Bottom**: Top 25 sorted by Orders
 
-   ![Top 25 Customers by Orders](../../mbi/assets//Top_25_customers_by_lifetime_orders.png)<!--{: width="929"}-->
+   ![Top 25 Customers by Orders](../../mbi/assets/Top_25_customers_by_lifetime_orders.png)<!--{: width="929"}-->
 
 ### Top customers by lifetime revenue
 
@@ -180,7 +180,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Group By**: customer_email
    * **Show Top Bottom**: Top 25 sorted by Lifetime Revenue
 
-   ![Top 25 Customers by Revenue](../../mbi/assets//top_25_customers_by_lifetime_revneue.png)<!--{: width="929"}-->
+   ![Top 25 Customers by Revenue](../../mbi/assets/top_25_customers_by_lifetime_revneue.png)<!--{: width="929"}-->
 
 ### Average lifetime revenue by cohort
 
@@ -195,7 +195,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Table**: Customer_entity
    * **Perspective**: Cumulative Average Value Per Cohort Member
 
-   ![Customer Lifetime Revenue by Cohort](../../mbi/assets//Avg_customer_lifetime_revenue_by_cohort.png)<!--{: width="929"}-->
+   ![Customer Lifetime Revenue by Cohort](../../mbi/assets/Avg_customer_lifetime_revenue_by_cohort.png)<!--{: width="929"}-->
 
 ### Customers by coupon usage
 
@@ -211,7 +211,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time range**: All Time
    * **Time interval**: By Month
 
-   ![Customers by Coupon Usage](../../mbi/assets//Customers_by_coupon_usage.png)<!--{: width="929"}-->
+   ![Customers by Coupon Usage](../../mbi/assets/Customers_by_coupon_usage.png)<!--{: width="929"}-->
 
 * **Report example 2**: Percent of Coupon and Non coupon customers by month
    * **Metric A**: Non coupon customers (hide metric)
@@ -225,7 +225,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Formula**: B/(A+B)
    * **Note**: Hide all metrics
 
-   ![Coupon Usage](../../mbi/assets//Customers_by_coupon_usage_formula.png)<!--{: width="929"}-->
+   ![Coupon Usage](../../mbi/assets/Customers_by_coupon_usage_formula.png)<!--{: width="929"}-->
 
 ### Average first 30 day revenue
 
@@ -236,7 +236,7 @@ Here are some common examples of reports and metrics you might find useful:
 * **Time Range**: All Time
 * **Time Interval**: None
 
-![Average First 30 Day Revenue](../../mbi/assets//Avg_first_30_day_revenue.png)<!--{: width="929"}-->
+![Average First 30 Day Revenue](../../mbi/assets/Avg_first_30_day_revenue.png)<!--{: width="929"}-->
 
 ### Average customer lifetime revenue
 
@@ -247,7 +247,7 @@ Here are some common examples of reports and metrics you might find useful:
 * **Time Range**: All Time
 * **Time Interval**: None
 
-![Customer Lifetime Revenue](../../mbi/assets//Avd_customer_lifetime_revenue_.png)<!--{: width="929"}-->
+![Customer Lifetime Revenue](../../mbi/assets/Avd_customer_lifetime_revenue_.png)<!--{: width="929"}-->
 
 ## Order analytics {#orderanalytics}
 
@@ -261,7 +261,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time Interval**: By Month
    * **Tip** Make sure your revenue metric's calculation is consistent with the definition that you discuss internally. For example, you may only want to count revenue from orders that have been shipped, you might need to convert currencies from different regions, and you may want to exclude tax. Further, you can use [Filter Sets](../../data-user/reports/ess-manage-data-filters.md) to ensure consistency across all metrics built on the same table.
 
-   ![Revenue](../../mbi/assets//revenue.png)<!--{: width="929"}-->
+   ![Revenue](../../mbi/assets/revenue.png)<!--{: width="929"}-->
 
 ### Orders
 
@@ -273,7 +273,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time Interval**: By Month
    * **Tip** Just like the revenue metric, you should have [Filter Sets](../../data-user/reports/ess-manage-data-filters.md) in place to exclude incomplete, test, or returned orders.
 
-   ![Orders](../../mbi/assets//orders_pic.png)<!--{: width="929"}-->
+   ![Orders](../../mbi/assets/orders_pic.png)<!--{: width="929"}-->
 
 ### Products ordered
 
@@ -284,7 +284,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time Range**: 1 Year Ago to 1 Month Ago
    * **Time Interval**: By Month
 
-   ![Products Ordered](../../mbi/assets//products_ordered_pic1.png)<!--{: width="929"}-->
+   ![Products Ordered](../../mbi/assets/products_ordered_pic1.png)<!--{: width="929"}-->
 
 * Combine this metric with your number of orders metric to calculate the number of items per order. Next, add coupon codes to the report to determine how your promotions impact cart size, or segment by new vs repeat orders to better understand your customer behavior.
 * **Report example**: Products per order: 1st order vs repeat orders
@@ -306,7 +306,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Formula 2**: C/D
    * **Notes**: Uncheck the **Multiple Y-Axes box** and **Hide** all metrics
 
-   ![Products Ordered 2](../../mbi/assets//products_ordered_pic2.png)<!--{: width="929"}-->
+   ![Products Ordered 2](../../mbi/assets/products_ordered_pic2.png)<!--{: width="929"}-->
 
 ### Average order value
 
@@ -318,7 +318,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time Interval**: By Month
    * **Perspective**: Amount Change vs Previous Year
 
-   ![AOV](../../mbi/assets//aov_pic.png)<!--{: width="929"}-->
+   ![AOV](../../mbi/assets/aov_pic.png)<!--{: width="929"}-->
 
 ### Products most purchased with coupons
 
@@ -332,7 +332,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Group By**: name (or SKU, or any other product identifier)
    * **Show top/bottom**: Top 25 sorted by Products ordered
 
-   ![Products with Coupons](../../mbi/assets//prod_coupons_pic.png)<!--{: width="929"}-->
+   ![Products with Coupons](../../mbi/assets/prod_coupons_pic.png)<!--{: width="929"}-->
 
 ### Time between orders
 
@@ -350,7 +350,7 @@ Here are some common examples of reports and metrics you might find useful:
       * **Group By**: Customer's order number (previous-current)
       * **Notes**: Uncheck the Multiple Y-Axes box
 
-   ![Time Between Orders](../../mbi/assets//time_bw_orders_pic.png)<!--{: width="929"}-->
+   ![Time Between Orders](../../mbi/assets/time_bw_orders_pic.png)<!--{: width="929"}-->
 
 ## Marketing spend analytics {#mktgspendanalytics}
 
@@ -364,7 +364,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time Interval**: None
    * **Group By**: campaign
 
-![Ad Spend](../../mbi/assets//ad_spend.png)<!--{: width="929"}-->
+![Ad Spend](../../mbi/assets/ad_spend.png)<!--{: width="929"}-->
 
 ### Ad impressions and ad clicks
 
@@ -376,7 +376,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Time Range**: 1 Year Ago to 3 Months Ago
    * **Time Interval**: By Day
 
-   ![Ad Impressions](../../mbi/assets//ad_impressions.png)<!--{: width="929"}-->
+   ![Ad Impressions](../../mbi/assets/ad_impressions.png)<!--{: width="929"}-->
 
 ### Click-through-rate (CTR)
 
@@ -391,7 +391,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Group By**: campaign
    * **Notes**: You can **title** the formula as "CTR", and **hide** all metrics.
 
-   ![CTR](../../mbi/assets//CTR.png)<!--{: width="929"}-->
+   ![CTR](../../mbi/assets/CTR.png)<!--{: width="929"}-->
 
 ### Cost per click (CPC)
 
@@ -406,7 +406,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Group By**: campaign
    * **Notes**: You can **title** the formula as "CPC", and **hide** all metrics.
 
-   ![CPC](../../mbi/assets//CPC.png)<!--{: width="929"}-->
+   ![CPC](../../mbi/assets/CPC.png)<!--{: width="929"}-->
 
 ### Customers by acquisition source
 
@@ -418,7 +418,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Group By**: Customer's first order's source
    * **Notes**: Check out [this article](../analysis/most-value-source-channel.md) for more examples of reports using acquisition source.
 
-   ![Acquisition Source](../../mbi/assets//acquisition_source.png)<!--{: width="929"}-->
+   ![Acquisition Source](../../mbi/assets/acquisition_source.png)<!--{: width="929"}-->
 
 ### Customers by acquisition medium and acquisition campaign
 
@@ -431,7 +431,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Group By**: Customer's first order's campaign
    * **Note**: For the filter in your New Customers metric, you can add any other mediums that are considered "paid" mediums for your business such as cpc or paid search.
 
-   ![Acquisition Medium](../../mbi/assets//acquisition_medium.png)<!--{: width="929"}-->
+   ![Acquisition Medium](../../mbi/assets/acquisition_medium.png)<!--{: width="929"}-->
 
 ### Customer acquisition cost (CAC) or cost per acquisition (CPA)
 
@@ -448,13 +448,13 @@ Here are some common examples of reports and metrics you might find useful:
       * For metric A, select "Customer's first order's campaign"
       * For metric B, select "campaign"
 
-   ![New Users.](../../mbi/assets//New_Users_Last_Month.png)<!--{: width="929"}-->
+   ![New Users.](../../mbi/assets/New_Users_Last_Month.png)<!--{: width="929"}-->
 
 * **Notes**: You can **title** the formula as "CTR", and **hide** all metrics. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
-![CAC 1](../../mbi/assets//New_Users_Last_Month.png)<!--{: width="929"}-->
+![CAC 1](../../mbi/assets/New_Users_Last_Month.png)<!--{: width="929"}-->
 
-![CAC 2](../../mbi/assets//CAC_2.png)<!--{: width="929"}-->
+![CAC 2](../../mbi/assets/CAC_2.png)<!--{: width="929"}-->
 
 ### Lifetime value by acquisition source, medium, and campaign
 
@@ -473,7 +473,7 @@ Here are some common examples of reports and metrics you might find useful:
    * **Group By**: Customer's first order's campaign
    * **Notes**: For the two filters, you can add any other mediums that are considered "paid" mediums for your business such as cpc or paid search, and you can add any other sources you would like to analyze such as Facebook. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
-   ![Lifetime value by acquisition source, medium, and campaign](../../mbi/assets//LTV_2.png)<!--{: width="929"}-->
+   ![Lifetime value by acquisition source, medium, and campaign](../../mbi/assets/LTV_2.png)<!--{: width="929"}-->
 
 ### Return on investment (ROI)
 
@@ -495,6 +495,6 @@ Here are some common examples of reports and metrics you might find useful:
    * For metric C, select "campaign"
    * **Notes**: You can title the formula as "ROI", and Hide all metrics. In addition, you can adjust the filters in the metrics to analyze alternative sources and mediums. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
-   ![ROI 1](../../mbi/assets//ROI_1.png)<!--{: width="929"}-->
+   ![ROI 1](../../mbi/assets/ROI_1.png)<!--{: width="929"}-->
 
-   ![ROI 2](../../mbi/assets//ROI_2.png)<!--{: width="929"}-->
+   ![ROI 2](../../mbi/assets/ROI_2.png)<!--{: width="929"}-->

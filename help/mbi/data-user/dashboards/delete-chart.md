@@ -24,4 +24,4 @@ To permanently delete a chart:
 
 Example:
 
-![delete a chart](../../mbi/assets//deletechart.gif)<!--{: width="630" height="402"}-->
+![delete a chart](../../mbi/assets/deletechart.gif)<!--{: width="630" height="402"}-->

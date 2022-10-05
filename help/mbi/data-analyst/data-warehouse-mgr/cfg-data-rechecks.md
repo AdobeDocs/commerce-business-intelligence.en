@@ -39,7 +39,7 @@ Recheck frequencies can be managed in the Data Warehouse by clicking on a table 
 
 To change the recheck frequency, click the checkbox next to the column(s) you want to change then click the **Set Recheck Frequency** dropdown and set the desired frequency.
 
-![](../../mbi/assets//dwm-recheck.png)
+![](../../mbi/assets/dwm-recheck.png)
 
 You might sometimes see **Paused** in the **Changes?** column. This value will display when the table's [replication method](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) is set to Paused.
 

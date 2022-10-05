@@ -20,7 +20,7 @@ If you want to keep your dashboard list from becoming too cluttered, you can del
 
 Example:
 
-![delete dashboard](../../mbi/assets//deleting_dash.gif)<!--{: width="703" height="346"}-->
+![delete dashboard](../../mbi/assets/deleting_dash.gif)<!--{: width="703" height="346"}-->
 
 ## Delete Dashboard via the Dashboard Options menu {#DO}
 
@@ -32,4 +32,4 @@ Example:
 
 Example:
 
-![delete dashboard](../../mbi/assets//deleting_dash_2.gif)<!--{: width="703" height="347"}-->
+![delete dashboard](../../mbi/assets/deleting_dash_2.gif)<!--{: width="703" height="347"}-->

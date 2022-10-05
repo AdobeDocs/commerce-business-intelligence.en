@@ -54,7 +54,7 @@ Now we will walk you through actually creating the path.
 1. Select the definition for the column. Check out the [Calculated Column Guide](../data-warehouse-mgr/creating-calculated-columns.md) for a handy cheat sheet.
 1. In the Select table and column dropdown, click the Create new path option. This window will pop up:
 
-    ![Creating paths for calculated columns modal](../../mbi/assets//Creating_Paths_modal.png)<!--{:.zoom}-->
+    ![Creating paths for calculated columns modal](../../mbi/assets/Creating_Paths_modal.png)<!--{:.zoom}-->
 
 1. Using the dropdowns, select the primary and foreign keys for each table.
 

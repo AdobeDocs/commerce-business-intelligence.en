@@ -12,7 +12,7 @@ What is an **entity relationship (ER) diagram**? An ER diagram is a visualizatio
 
 ## Core Magento ER Diagram
 
-![4_DB_Chart](../../mbi/assets//4_DB_Chart.png)
+![4_DB_Chart](../../mbi/assets/4_DB_Chart.png)
 
 This ER diagram represents the relationships among the core tables within a Magento database. By viewing multiple relationships at once, you can see how data would relate across many tables.
 
@@ -20,7 +20,7 @@ The sections below contain ER diagrams specific to two tables at a time. To view
 
 ## customer\_entity & sales\_flat\_order
 
-![One Customer Many Orders](../../mbi/assets//2_OneCustomerManyOrders.png)
+![One Customer Many Orders](../../mbi/assets/2_OneCustomerManyOrders.png)
 
 One customer can place many orders. The relationship between these two tables is **customer\_entity.entity\_id = sales\_flat\_order.customer\_id**
 
@@ -29,24 +29,24 @@ One customer can place many orders. The relationship between these two tables is
 
 Within MBI, if the path between these two tables does not already exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 
-![](../../mbi/assets//SFO___CE_path.png)
+![](../../mbi/assets/SFO___CE_path.png)
 
 ## sales\_flat\_order & sales\_flat\_order\_item
 
-![1_OneOrderManyItems](../../mbi/assets//1_OneOrderManyItems.png)
+![1_OneOrderManyItems](../../mbi/assets/1_OneOrderManyItems.png)
 
 One order can contain many items. The relationship between these two tables is **sales\_flat\_order.entity\_id = sales\_flat\_order\_item.order\_id**
 
 Within MBI, if the path between these two tables does not already exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 
-![](../../mbi/assets//SFOI___SFO_path.png)
+![](../../mbi/assets/SFOI___SFO_path.png)
 
 ## catalog\_product\_entity & sales\_flat\_order\_item
 
-![3_OneProductManyTimes](../../mbi/assets//3_OneProductManyTimes.png)
+![3_OneProductManyTimes](../../mbi/assets/3_OneProductManyTimes.png)
 
 One product can be purchased many items. The relationship between these two tables is **catalog\_product\_entity.entity\_id = sales\_flat\_order\_item.product**
 
 Within MBI, if the path between these two tables does not already exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 
-![](../../mbi/assets//SFOI___CPE_path.png)
+![](../../mbi/assets/SFOI___CPE_path.png)

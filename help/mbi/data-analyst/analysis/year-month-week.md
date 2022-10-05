@@ -10,7 +10,7 @@ description: Learn how to easily see trends over time and change perspective for
 
 The report builder allows you to easily see trends over time and change perspective for time periods you may want to compare. In this article, we will demonstrate how to set up a dashboard to go a level deeper to allow you to create reports for week over week, month over month and year over year analysis.
 
-![](../../mbi/assets//Wow__mom__yoy.png)
+![](../../mbi/assets/Wow__mom__yoy.png)
 
 Before getting started, you want to familiarize yourself with explore perspectives in more detail [here](../../tutorials/using-visual-report-builder.md) as well as independent time options [here](../../tutorials/time-options-visual-rpt-bldr.md).
 
@@ -33,7 +33,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
   * <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the month)`**<!--</span>--> Calculation**:** **to_char(A, 'dd')**
   * <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the week)`**<!--</span>--> Calculation**:** **to_char(A, 'd-Day')**
   * <!--<span class="wysiwyg-color-blue">-->**`created_at (hour of the day)`**<!--</span>--> Calculation**:** **to_char(A, 'hh24')**
-    ![](../../mbi/assets//Screen_Shot_2017-10-05_at_4.27.32_PM.png)
+    ![](../../mbi/assets/Screen_Shot_2017-10-05_at_4.27.32_PM.png)
 
 ## Metrics
 
