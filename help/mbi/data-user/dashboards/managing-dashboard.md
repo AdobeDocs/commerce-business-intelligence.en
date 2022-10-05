@@ -10,13 +10,13 @@ description: Learn how to manage user permissions for dashboards you own, delete
 
 In **Manage Data** > **Dashboards**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. Here is a quick look at what we cover in this article:
 
-1. [Renaming dashboards](../#rename)
+1. [Renaming dashboards](#rename)
 
-1. [Managing dashboard permissions](../#userperm)
+1. [Managing dashboard permissions](#userperm)
 
-1. [Changing the default dashboard](../#default)
+1. [Changing the default dashboard](#default)
 
-1. [Deleting dashboards](../#delete)
+1. [Deleting dashboards](#delete)
 
 ## Rename a Dashboard {#rename}
 

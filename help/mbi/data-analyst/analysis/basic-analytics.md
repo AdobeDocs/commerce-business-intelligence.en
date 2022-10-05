@@ -97,9 +97,9 @@ When analyzing your marketing spend, you can include Facebook, Google AdWords, o
 
 Here are some common examples of reports and metrics you might find useful:
 
-* [Customer Analytics](../#customeranalytics)
-* [Order Analytics](../#orderanalytics)
-* [Marketing Spend Analytics](../#mktgspendanalytics)
+* [Customer Analytics](#customeranalytics)
+* [Order Analytics](#orderanalytics)
+* [Marketing Spend Analytics](#mktgspendanalytics)
 
 ## Customer analytics {#customeranalytics}
 

@@ -14,9 +14,9 @@ With Mixpanel, you can analyze how users navigate and utilize your websites and 
 
 Connecting your Mixpanel data to MBI a simple three-step process:
 
-1. [Open the Mixpanel credentials page in MBI](../#stepone)
-1. [Retrieve your Mixpanel API credentials](../#steptwo)
-1. [Enter your Mixpanel API credentials in MBI](../#stepthree)
+1. [Open the Mixpanel credentials page in MBI](#stepone)
+1. [Retrieve your Mixpanel API credentials](#steptwo)
+1. [Enter your Mixpanel API credentials in MBI](#stepthree)
 
 To complete this process, you will need to open two browser windows or tabs - one for MBI, the other for your Mixpanel account.
 

@@ -15,12 +15,12 @@ These types of columns can be created by our team of Data Warehouse analysts. To
 
 Here are some common examples of advanced calculated columns that users often find useful:
 
-* [Order (or rank) event sequentially](../#compareevents)
-* [Find the time between two events](../#twoevents)
-* [Compare sequential event values](../#sequence)
-* [Convert currency](../#currency)
-* [Convert timezones](../#timezone)
-* [Something else](../#else)
+* [Order (or rank) event sequentially](#compareevents)
+* [Find the time between two events](#twoevents)
+* [Compare sequential event values](#sequence)
+* [Convert currency](#currency)
+* [Convert timezones](#timezone)
+* [Something else](#else)
 
 ## I am trying to order events sequentially {#compareevents}
 
@@ -50,7 +50,7 @@ To create this type of calculated column, we need to know:
 * The field which identifies the owner of the events (i.e. **owner\_id** in this example)
 * The field by which you would like to order the events (i.e. **timestamp** in this example)
 
-[back to top](../#top)
+[back to top](#top)
 
 ## I am trying to find the time between two events. {#twoevents}
 
@@ -74,7 +74,7 @@ To create this type of calculated column, we need to know:
 * The table on which you would like to create this column
 * The two timestamps between which you want to know the difference
 
-[back to top](../#top)
+[back to top](#top)
 
 ## I am trying to compare sequential event values. {#sequence}
 
@@ -102,7 +102,7 @@ To create this type of calculated column, we need to know:
 * The field which identifies the owner of the events (i.e., **owner\_id** in the example)
 * The value field which you would like to see the difference between for each sequential event (i.e., **timestamp** in this example)
 
-[back to top](../#top)
+[back to top](#top)
 
 ## I am trying to convert currency. {#currency}
 
@@ -124,7 +124,7 @@ To create this type of calculated column, we need to know:
 * The column which indicates the currency in which the data was recorded (typically an ISO code)
 * The preferred reporting currency
 
-[back to top](../#top)
+[back to top](#top)
 
 ## I am trying to convert timezones. {#timezone}
 
@@ -146,7 +146,7 @@ To create this type of calculated column, we need to know:
 * The timezone in which the data was recorded
 * The preferred reporting timezone
 
-[back to top](../#top)
+[back to top](#top)
 
 ## I am trying to do something not listed here. {#else}
 

@@ -4,7 +4,7 @@ description: Learn how to use the Global Search feature to look for dashboards a
 ---
 # Search for a dashboard
 
-In this article, we show you how to use the [Global Search feature](../#global) to look for dashboards and how to search for [dashboards owned by other users](../#other).
+In this article, we show you how to use the [Global Search feature](#global) to look for dashboards and how to search for [dashboards owned by other users](#other).
 
 ## Global Search {#global}
 

@@ -4,11 +4,11 @@ description: Learn how to connect MySQL via SSH Tunnel.
 ---
 # Connect MySQL via SSH Tunnel
 
-* [Retrieve the MBI public key](../#retrieve)
-* [Allow access to the MBI IP address](../#allowlist)
-* [Create a Linux user for MBI](../#linux)
-* [Create a MySQL user for MBI](../#mysql)
-* [Enter the connection and user info into MBI](../#finish)
+* [Retrieve the MBI public key](#retrieve)
+* [Allow access to the MBI IP address](#allowlist)
+* [Create a Linux user for MBI](#linux)
+* [Create a MySQL user for MBI](#mysql)
+* [Enter the connection and user info into MBI](#finish)
 
 ## JUMP TO
 

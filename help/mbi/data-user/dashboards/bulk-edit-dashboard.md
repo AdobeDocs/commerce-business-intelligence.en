@@ -6,11 +6,11 @@ description: Learn how to use the bulk editing feature in MBI.
 
 The bulk-editing feature makes it easy to change chart names and dates in your dashboards. For example, you want all charts on a specific dashboard to refer to a single store and report on a monthly basis rather than quarterly. Rather than changing everything manually, let the bulk-editing feature do the work. In this article, you will learn how to use:
 
-* [The Find/Replace Feature](../#findreplace)
+* [The Find/Replace Feature](#findreplace)
 
-* [The Prepend Name Feature](../#prepend)
+* [The Prepend Name Feature](#prepend)
 
-* [The Change Dates Feature](../#dates)
+* [The Change Dates Feature](#dates)
 
 That being said, consider this - **Do these changes need to be permanent?** If not, consider cloning the dashboard and then changing the dates in the new dashboard. This will allow you to preserve your original dashboard while still making the changes you need.
 

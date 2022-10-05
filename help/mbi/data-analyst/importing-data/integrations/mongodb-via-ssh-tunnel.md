@@ -7,11 +7,11 @@ description: Learn how to connect MongoDB via SSH tunnel.
 
 To connect your MongoDB database to MBI via an SSH tunnel, you (or your team, if you are not a techie) will need to do a few things:
 
-1. [Retrieve the MBI public key](../#retrieve)
-1. [Allow access to the MBI IP address](../#allowlist)
-1. [Create a Linux user for MBI](../#linux)
-1. [Create a MongoDB user for MBI](../#mongodb)
-1. [Enter the connection and user info into MBI](../#finish)
+1. [Retrieve the MBI public key](#retrieve)
+1. [Allow access to the MBI IP address](#allowlist)
+1. [Create a Linux user for MBI](#linux)
+1. [Create a MongoDB user for MBI](#mongodb)
+1. [Enter the connection and user info into MBI](#finish)
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ To finish creating the user, alter the permissions on the /home/rjmetric directo
 
 ## Creating an MBI MongoDB user {#mongodb}
 
-MongoDB servers have two run modes - [one with the "auth" option](../#auth) `(mongod -- auth)` and one without, [which is the default](../#default). The steps for creating a MongoDB user will vary a bit depending on what mode your server is using, so be sure to verify the mode before continuing.
+MongoDB servers have two run modes - [one with the "auth" option](#auth) `(mongod -- auth)` and one without, [which is the default](#default). The steps for creating a MongoDB user will vary a bit depending on what mode your server is using, so be sure to verify the mode before continuing.
 
 ### If your server uses the Auth Option: {#auth}
 

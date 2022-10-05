@@ -67,7 +67,7 @@ Here is a look at the whole process:
 
 ![](../../assets/help_center.gif)
 
-Next, try creating **Order's GA medium** and **campaign**. Not much will change for these dimensions, so give it a try. But if you get stuck, you can check out [the end of this article](../#stuck) to see what is different.
+Next, try creating **Order's GA medium** and **campaign**. Not much will change for these dimensions, so give it a try. But if you get stuck, you can check out [the end of this article](#stuck) to see what is different.
 
 ### Customers table {#customers}
 
@@ -88,11 +88,11 @@ In this example, we build the **Customer's first order's GA source** dimension.
     _
 1. Click Save to create the dimension.
 
-Next, try creating **Customer's first order's GA medium** and **campaign**. Not much will change for these dimensions, so give it a try. But if you get stuck, you can check out [the end of this article](../#stuck) to see what is different.
+Next, try creating **Customer's first order's GA medium** and **campaign**. Not much will change for these dimensions, so give it a try. But if you get stuck, you can check out [the end of this article](#stuck) to see what is different.
 
 ### Bonus: Orders table, round 2
 
-You can stop here if you want, but this section enables further analysis by bringing the **Customer's first order's GA dimensions** we created in the [last section](../#customers) into the **orders** table. Creating the dimensions in this section lets you analyze all the metrics built on your **orders** table - Revenue, Number of orders, Distinct buyers, and so on - using the GA attributes of a customer's first order.
+You can stop here if you want, but this section enables further analysis by bringing the **Customer's first order's GA dimensions** we created in the [last section](#customers) into the **orders** table. Creating the dimensions in this section lets you analyze all the metrics built on your **orders** table - Revenue, Number of orders, Distinct buyers, and so on - using the GA attributes of a customer's first order.
 
 In this example, we join the **Customer's first order's GA source** dimension to the orders table.
 
@@ -108,7 +108,7 @@ Here is a look at the whole process:
 
 ![](../../assets/help_center2.gif)
 
-Finish up by joining the **Customer's first order's medium** and **campaign** dimensions to the **orders** table. Give it a try, and as we mentioned before, check out [the end of the article](../#stuck) if you need help.
+Finish up by joining the **Customer's first order's medium** and **campaign** dimensions to the **orders** table. Give it a try, and as we mentioned before, check out [the end of the article](#stuck) if you need help.
 
 ### Wrapping Up
 

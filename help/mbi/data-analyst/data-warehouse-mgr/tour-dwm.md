@@ -12,12 +12,12 @@ The Data Warehouse Manager, accessed by clicking **Manage Data > Data Warehouse*
 
 In this article, we will cover:
 
-* [Learning your way around](../#learning)
-* [Syncing tables and columns](../#syncing)
-* [Creating calculated columns](../#calculated)
-* [Dropping tables and removing columns](../#delete)
-* [Syncing new tables in the background](../#syncnew)
-* [So, when can I use my new columns?](../#when)
+* [Learning your way around](#learning)
+* [Syncing tables and columns](#syncing)
+* [Creating calculated columns](#calculated)
+* [Dropping tables and removing columns](#delete)
+* [Syncing new tables in the background](#syncnew)
+* [So, when can I use my new columns?](#when)
 
 ## Learning your way around {#learning}
 

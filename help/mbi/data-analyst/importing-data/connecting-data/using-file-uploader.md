@@ -66,7 +66,7 @@ Let us use **US ZIP codes** as an example of how to change number formatting. In
 
 The Type can be [formatted differently to accommodate other data types](https://support.office.com/en-us/article/Keep-leading-zeros-in-number-codes-1bf7b935-36e1-4985-842f-5dfa51f85fe7?CorrelationId=e1d4c2d3-cd5d-4a14-999d-437800274a90&ui=en-US&rs=en-US&ad=US), such as IDs. If an ID is nine digits long, for example, the Type could be "000000000" or "000-000-000". This would change "123456" to "000-123-456".
 
-For Google Docs and Apple Numbers resources, refer to the [Related](../#related) list at the bottom of this page.
+For Google Docs and Apple Numbers resources, refer to the [Related](#related) list at the bottom of this page.
 
 ## Uploading data {#uploading}
 

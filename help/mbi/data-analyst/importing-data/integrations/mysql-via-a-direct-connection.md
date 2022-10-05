@@ -6,9 +6,9 @@ description: Learn how to connect MongoDB via direct connection.
 
 ## IN THIS ARTICLE
 
-* [Allow access to the MBI IP address](../#allowlist)
-* [Create a MySQL user for MBI](../#steptwo)
-* [Enter connection info into MBI](../#stepthree)
+* [Allow access to the MBI IP address](#allowlist)
+* [Create a MySQL user for MBI](#steptwo)
+* [Enter connection info into MBI](#stepthree)
 
 ## JUMP TO
 

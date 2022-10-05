@@ -10,9 +10,9 @@ Raw data exports provide access to additional columns and dimensions generated t
 
 This tutorial covers the following
 
-* [Selecting Data to Export](../#select)
-* [Downloading the Export (.csv file)](../#download)
-* [Accessing Historical Exports](../#historical)
+* [Selecting Data to Export](#select)
+* [Downloading the Export (.csv file)](#download)
+* [Accessing Historical Exports](#historical)
 
 ## Step 1: Selecting Data to Export {#select}
 
@@ -56,4 +56,4 @@ To check if your export is ready, click the **Raw Data Exports** button in the t
 
 To view your past exports, click the **Raw Data Export** button in the top right corner of the screen. Pending and completed reports can be accessed for up to seven days.
 
-## Congratulations! You have finished.
+Congratulations! You have finished.

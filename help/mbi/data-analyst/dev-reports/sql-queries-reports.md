@@ -75,7 +75,7 @@ Once the path has been saved, you are all set to create the new "Customer LTV" c
 
 ![](../../assets/Customer_LTV.gif)
 
-Now that you have built the new "Customer LTV" column in your "customers" table, you are ready to create a [metric aggregation](../#aggregate) utilizing this column (for example to find the average LTV per customer), or simply group by or filter by the calculated column in a report using existing metrics built on the "customers" table. Note that for the latter, any time you build a new calculated column you will need to [add the dimension to existing metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before it will be available as a filter or group by.
+Now that you have built the new "Customer LTV" column in your "customers" table, you are ready to create a [metric aggregation](#aggregate) utilizing this column (for example to find the average LTV per customer), or simply group by or filter by the calculated column in a report using existing metrics built on the "customers" table. Note that for the latter, any time you build a new calculated column you will need to [add the dimension to existing metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before it will be available as a filter or group by.
 
 For more information on creating calculated columns with your Data Warehouse manager, take a look at [this article](../data-warehouse-mgr/creating-calculated-columns.md).
 

@@ -12,9 +12,9 @@ When new tables are synced in the Data Warehouse Manager, a replication method w
 
 Replication methods fall into three groups - Incremental, Full Table, and Paused.
 
-[**Incremental** **Replication**](../#incremental) means that MBI will replicate only new or updated data on every replication attempt. As these methods will greatly reduce latency, we highly recommend using it where possible.
+[**Incremental** **Replication**](#incremental) means that MBI will replicate only new or updated data on every replication attempt. As these methods will greatly reduce latency, we highly recommend using it where possible.
 
-[**Full Table Replication**](../#fulltable) **means that MBI will replicate the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, we recommend using an Incremental method instead.
+[**Full Table Replication**](#fulltable) **means that MBI will replicate the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, we recommend using an Incremental method instead.
 
 **Paused** indicates that replication for the table is stopped, or paused. MBI will not check for new or updated data during an update cycle; this means no data will be replicated from a table that has this as its Replication Method.
 

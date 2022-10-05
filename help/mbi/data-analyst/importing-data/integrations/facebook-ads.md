@@ -14,9 +14,9 @@ You did your research, you created your ads, you launched your campaign on Faceb
 
 Connecting your Facebook ad data to MBI is a simple three-step process:
 
-1. [Add Facebook as a data source in MBI](../#stepone)
-1. [Allow MBI access to your Facebook Ads data](../#steptwo)
-1. [Select Facebook Ad Accounts for pulling data](../#stepthree)
+1. [Add Facebook as a data source in MBI](#stepone)
+1. [Allow MBI access to your Facebook Ads data](#steptwo)
+1. [Select Facebook Ad Accounts for pulling data](#stepthree)
 
 ## Add Facebook as a data source in MBI {#stepone}
 

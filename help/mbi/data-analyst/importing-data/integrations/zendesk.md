@@ -14,9 +14,9 @@ Connecting your Zendesk data allows you to consolidate your help desk reporting 
 
 Connecting your Zendesk data is a simple three-step process:
 
-1. [Open the Zendesk credentials page in MBI](../#stepone)
-1. [Retrieve your Zendesk API Token](../#steptwo)
-1. [Enter your Zendesk login info and Token in MBI](../#stepthree)
+1. [Open the Zendesk credentials page in MBI](#stepone)
+1. [Retrieve your Zendesk API Token](#steptwo)
+1. [Enter your Zendesk login info and Token in MBI](#stepthree)
 
 To complete this process, you will need to open two browser windows or tabs - one for MBI, the other for your Zendesk account.
 

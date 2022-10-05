@@ -4,8 +4,8 @@ description: Learn how to connect MySQL via cPanel.
 ---
 # Connect MySQL via cPanel
 
-* [Create a MBI MySQL user in cPanel](../#cpanel)
-* [Enter connection and user info into MBI](../#finish)
+* [Create a MBI MySQL user in cPanel](#cpanel)
+* [Enter connection and user info into MBI](#finish)
 
 ## JUMP TO
 

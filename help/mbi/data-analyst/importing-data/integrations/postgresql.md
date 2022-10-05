@@ -6,11 +6,11 @@ description: Learn how to connect your PostgreSQL database to MBI via an SSH tun
 
 To connect your PostgreSQL database to MBI via an SSH tunnel, you (or your team, if you are not a techie) will need to do a few things:
 
-1. [Retrieve the MBI public key](../#retrieve)
-1. [Allow access to the MBI IP address](../#allowlist)
-1. [Create a Linux user for MBI ](../#linux)
-1. [Create a Postgres user for MBI ](../#postgres)
-1. [Enter the connection and user info into MBI](../#finish)
+1. [Retrieve the MBI public key](#retrieve)
+1. [Allow access to the MBI IP address](#allowlist)
+1. [Create a Linux user for MBI ](#linux)
+1. [Create a Postgres user for MBI ](#postgres)
+1. [Enter the connection and user info into MBI](#finish)
 
 It is not as complicated as it might sound. Get started.
 

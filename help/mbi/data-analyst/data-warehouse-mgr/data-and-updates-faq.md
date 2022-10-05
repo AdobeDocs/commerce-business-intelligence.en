@@ -4,12 +4,12 @@ description: Learn how to check the status of your update cycle.
 ---
 # Data and Updates FAQ
 
-* [Why did my data change?](../#datachange)
-* [What is the difference between a regular and forced update?](../#regularforcedupdates)
-* [Why does the update cycle take a long time?](../#updatecycletime)
-* [Can I be notified when an update cycle completes?](../#notifyupdate)
-* [Why is Google ECommerce data different from my database?](../#ecommdatabase)
-* [How do I troubleshoot a data discrepancy?](../#datadiscrepancy)
+* [Why did my data change?](#datachange)
+* [What is the difference between a regular and forced update?](#regularforcedupdates)
+* [Why does the update cycle take a long time?](#updatecycletime)
+* [Can I be notified when an update cycle completes?](#notifyupdate)
+* [Why is Google ECommerce data different from my database?](#ecommdatabase)
+* [How do I troubleshoot a data discrepancy?](#datadiscrepancy)
 
 ## Why did my data change? {#datachange}
 

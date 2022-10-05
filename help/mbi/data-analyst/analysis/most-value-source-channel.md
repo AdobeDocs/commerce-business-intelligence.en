@@ -10,11 +10,11 @@ With MBI, you can easily segment your revenue and users by referral source, whet
 
 In this article, we explore some reports that you can use to uncover your most valuable marketing channels:
 
-* [New users by sources](../#newusersbysource)
-* [Average lifetime revenue by user source](../#avglifetimerev)
-* [Average order value by user source](../#avgorderval)
-* [Revenue by user registration date and sources](../#revbyregdateandsource)
-* [Repeat orders by user source](../#repeatordersbysource)
+* [New users by sources](#newusersbysource)
+* [Average lifetime revenue by user source](#avglifetimerev)
+* [Average order value by user source](#avgorderval)
+* [Revenue by user registration date and sources](#revbyregdateandsource)
+* [Repeat orders by user source](#repeatordersbysource)
 
 ## Prerequisites {#prereqs}
 

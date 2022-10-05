@@ -6,7 +6,7 @@ description: Learn to import Linkshare data into MBI.
 
 To bring your Linkshare data into MBI, you need to do two things:
 
-1. [Export the Linkshare data in CSV format](../#export)
+1. [Export the Linkshare data in CSV format](#export)
 1. [Upload the spreadsheet into MBI](../connecting-data/using-file-uploader.md)
 
 ## Export data from Linkshare {#export}

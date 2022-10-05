@@ -8,9 +8,9 @@ One of the features of the Visual Report builder is the global Time Range and In
 
 However, for some analyses, you may need to consider different Time Ranges or Time Intervals in the same report. That is where Time Options come in. To give you a better idea of how to use Time Options in your reports, this tutorial will cover the following use cases:
 
-* [Analyzing Metrics without Timestamps](../#notimestamp)
-* [Giving One Metric an Independent Time Interval](../#independenttimeinterval)
-* [Comparing the Same Metric Across Different Time Ranges](../#difftimerange)
+* [Analyzing Metrics without Timestamps](#notimestamp)
+* [Giving One Metric an Independent Time Interval](#independenttimeinterval)
+* [Comparing the Same Metric Across Different Time Ranges](#difftimerange)
 
 If you want to follow along with some of the sample reports discussed in this topic, open the [Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md) before continuing.
 

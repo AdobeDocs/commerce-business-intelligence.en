@@ -11,7 +11,7 @@ Analyzing how customers use your coupons can provide significant insight into yo
 * How does average lifetime revenue differ between coupon-acquired customers and customers not acquired through coupons?
 * Do customers acquired from coupons make repeat purchases with coupons?
 
-To answer these questions, we focus on [comparing coupon-acquired customers to non-coupon acquired customers](../#compare), [analyzing first order details from coupon acquisitions](../#firstorder), and [looking at the attributes of customers who use coupons in their first order.](../#attributes)
+To answer these questions, we focus on [comparing coupon-acquired customers to non-coupon acquired customers](#compare), [analyzing first order details from coupon acquisitions](#firstorder), and [looking at the attributes of customers who use coupons in their first order.](#attributes)
 
 Let us get started!
 

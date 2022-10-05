@@ -6,15 +6,15 @@ description: Learn how to understand how many possible occurrences in one table 
 
 When assessing the relationship between two given tables, you need to understand how many possible occurrences in one table could belong to an entity in another, and vice versa. For example, Let us use a **users** table and an **orders** table. In this case, you want to know how many **orders** a given **user** has placed and how many possible **users** an **order** could belong to.
 
-Understanding relationships is vital to maintaining data integrity, as it impacts the accuracy of your [calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) and [dimensions](../data-warehouse-mgr/manage-data-dimensions-metrics.md). To learn more, see [relationship types](../#types) and [how to evaluate the tables in your Data Warehouse.](../#eval)
+Understanding relationships is vital to maintaining data integrity, as it impacts the accuracy of your [calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) and [dimensions](../data-warehouse-mgr/manage-data-dimensions-metrics.md). To learn more, see [relationship types](#types) and [how to evaluate the tables in your Data Warehouse.](#eval)
 
 ## Relationship Types {#types}
 
 There are three types of relationships that can exist between two tables:
 
-* [one-to-one](../#onetoone)
-* [one-to-many](../#onetomany)
-* [many-to-many](../#manytomany)
+* [one-to-one](#onetoone)
+* [one-to-many](#onetomany)
+* [many-to-many](#manytomany)
 
 ### One-to-One {#onetoone}
 
@@ -42,7 +42,7 @@ Think about the relationship between **products** and **categories**: a product 
 
 Given the types of relationships that exist between tables, you can learn how to evaluate the tables in your data warehouse. As these relationships shape how multi-table calculated columns are defined, it is important that you understand how to identify table relationships and what 'side' - one or many - the table belongs to.
 
-There are two methods you can use to evaluate the relationships of a given pair of tables within your Data Warehouse. The first method employs a [conceptual framework](../#concept) that considers how the table's entities interact with each other. The second method utilizes the [table's schema](../#schema).
+There are two methods you can use to evaluate the relationships of a given pair of tables within your Data Warehouse. The first method employs a [conceptual framework](#concept) that considers how the table's entities interact with each other. The second method utilizes the [table's schema](#schema).
 
 ### Using the Conceptual Framework {#concept}
 

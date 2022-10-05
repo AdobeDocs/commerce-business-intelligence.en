@@ -6,10 +6,10 @@ description: Learn how to connect databases via VPN instead of SSH Tunnel.
 
 While we recommend you connect your databases using an SSH tunnel, you can also use an encrypted VPN connection to keep things secure. A VPN can be used for any of our database integrations and, to keep things simple, the process is just about the same as setting up an SSH tunnel:
 
-1. [Create an MBI database user](../#database)
-1. [Create an MBI VPN user](../#vpn)
-1. [Allow access to the MBI IP address](../#allowlist)
-1. [Enter the connection and VPN user info into MBI](../#finish)
+1. [Create an MBI database user](#database)
+1. [Create an MBI VPN user](#vpn)
+1. [Allow access to the MBI IP address](#allowlist)
+1. [Enter the connection and VPN user info into MBI](#finish)
 
 In addition to database credentials, you will have to enter credentials for a VPN user to wrap things up. Any VPN user will work, but we recommend you create an MBI user - it'll make it easier for you to keep track of the users on your account.
 

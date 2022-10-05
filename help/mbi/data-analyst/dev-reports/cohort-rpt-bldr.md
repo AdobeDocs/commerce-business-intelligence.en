@@ -76,7 +76,7 @@ The interval for this value changes with whatever you selected in the **cohort t
 
 * Filters applied to your metrics will remain intact when you toggle between Standard and Cohort views.
 
-* For more details on Perspectives, click [here](../#perspectives).
+* For more details on Perspectives, click [here](#perspectives).
 
 #### Example
 
@@ -96,7 +96,7 @@ Below are instructions specific to the legacy version of the Cohort Report Build
 
 Cohort analysis in action! Here, we can see revenue growing over time on a cumulative and per-user basis.
 
-In this section, we walk you through creating your own cohort analysis. For examples (and animated GIFs demonstrating the process), take a look at the [Examples section](../#examples) of this article.
+In this section, we walk you through creating your own cohort analysis. For examples (and animated GIFs demonstrating the process), take a look at the [Examples section](#examples) of this article.
 
 1. Click **Report Builder** on the left tab or **Add Report** > **Create Report** in any dashboard.
 
@@ -150,7 +150,7 @@ After you have defined the metric and how you want to analyze it, you can select
 
 Just above the report visualization is a dropdown of perspective settings.
 
-For more details on Perspectives, click [here](../#perspectives).
+For more details on Perspectives, click [here](#perspectives).
 
 ![](../../assets/Cohort_Perspective_Menu.png)
 

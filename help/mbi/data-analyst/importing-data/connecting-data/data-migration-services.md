@@ -15,7 +15,7 @@ Before we dive in, you should know the answers to these questions:
 * **Is the new database on a new server?** Before submitting a request, update your data connection's settings under **Manage Data > Connections**. If you need a refresher on how to do this, go to the [Integrations](../integrations/integrations.md) section and find the instructions for the type of database you are using.
 * **Does your all historical data exist in the new database or does it need to be migrated?** We can consolidate the historical and new data during the migration process. Even if you do not need a consolidation, we ask that you let us know in your request.
 
-After you have the answers to the above, we will need to know the type of migration: will **the new database have the [<u>same</u>](../#sameschema) schema**, or will it have a **[<u>different</u>](../#newschema) schema**? In the sections below, you will find detailed instructions for each migration type.
+After you have the answers to the above, we will need to know the type of migration: will **the new database have the [<u>same</u>](#sameschema) schema**, or will it have a **[<u>different</u>](#newschema) schema**? In the sections below, you will find detailed instructions for each migration type.
 
 ## Migrating to a new database with the same schema {#sameschema}
 

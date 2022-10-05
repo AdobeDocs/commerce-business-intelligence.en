@@ -16,13 +16,13 @@ In this article, we walk you through the ins and outs of using the SQL Report Bu
 
 Here's an overview of what we cover in this article:
 
-1. [Writing a query](../#writing)
+1. [Writing a query](#writing)
 
-1. [Running the query and viewing results](../#runquery)
+1. [Running the query and viewing results](#runquery)
 
-1. [Creating a visualization](../#createviz)
+1. [Creating a visualization](#createviz)
 
-1. [Saving the report](../#save)
+1. [Saving the report](#save)
 
 To get started creating a new SQL report, click **Report Builder** or the **Add Report** button at the top of any dashboard. In the Report Picker screen, click **SQL Report Builder** to open the SQL editor.
 
