@@ -68,4 +68,4 @@ With [Magento's Data Enrichment services](https://magento.com/services), you can
 
 Organize your reports thoughtfully and pay attention to detail. Once complete, the dashboard will look similar to:
 
-![](../../assets/mceclip0.png)
+![](../../mbi/assets//mceclip0.png)

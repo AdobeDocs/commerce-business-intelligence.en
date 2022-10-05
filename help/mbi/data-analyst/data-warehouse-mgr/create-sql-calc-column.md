@@ -18,7 +18,7 @@ The different columns that can be created with the Calculation column are almost
 
 Most accounts have a column called **Is customer's last order?** on their Orders table in order to perform analyses on repeat purchase rates and churned customers. If your account is on the new architecture, this column is built using a Calculation column and can be seen in the screenshot below:
 
-![](../../assets/Is_customer_s_last_order.png)
+![](../../mbi/assets//Is_customer_s_last_order.png)
 
 The **Is customer's last order?** column uses the inputs **Customer's lifetime number of orders** and **Customer's order number** aliased as A and B respectively.
 
@@ -39,7 +39,7 @@ Many of our clients like to analyze revenue at the item level, slicing it by fie
 
 To enable product revenue analyses, most accounts have a column called **Order item total value (quantity * price)** on their Orders Items table. If your account is on the new architecture, this column is also built using a Calculation column and can be seen in the screenshot below:
 
-![](../../assets/Order_item_total_value.png)
+![](../../mbi/assets//Order_item_total_value.png)
 
 In the Magento schema, the **Order item total value (quantity * price)** column uses the inputs **qty\_ordered** and **base\_price** aliased as A and B respectively.
 
@@ -49,7 +49,7 @@ The values that will be returned by this new column will be a dollars and cents,
 
 A new Calculation column can be added to a table by navigating to **Manage Data** > **Data Warehouse** as shown below:
 
-![](../../assets/blobid2.png)
+![](../../mbi/assets//blobid2.png)
 
 From here you can create a new Calculation column by following the steps below:
 

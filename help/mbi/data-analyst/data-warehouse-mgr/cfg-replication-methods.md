@@ -103,7 +103,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
 
 Here's a look at the whole process:
 
-![](../../assets/replication_method.gif)<!--{: width="801" height="341"}-->
+![](../../mbi/assets//replication_method.gif)<!--{: width="801" height="341"}-->
 
 ## Wrapping up
 

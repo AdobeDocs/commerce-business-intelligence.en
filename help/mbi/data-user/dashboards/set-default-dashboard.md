@@ -16,4 +16,4 @@ This is now your new default dashboard.
 
 Example:
 
-![default dashboard](../../assets/default_dashboard.gif)<!--{: width="706" height="348"}-->
+![default dashboard](../../mbi/assets//default_dashboard.gif)<!--{: width="706" height="348"}-->

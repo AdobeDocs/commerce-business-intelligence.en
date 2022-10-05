@@ -30,7 +30,7 @@ That's it! Your new column will appear in the current table with a Pending statu
 
 If you are having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you are building:
 
-![](../../assets/Calculated_Columns_Example.png)<!--{: width="805" height="643"}-->
+![](../../mbi/assets//Calculated_Columns_Example.png)<!--{: width="805" height="643"}-->
 
 ## Related documentation
 

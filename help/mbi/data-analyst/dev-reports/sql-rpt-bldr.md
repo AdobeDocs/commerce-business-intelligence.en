@@ -26,7 +26,7 @@ Here's an overview of what we cover in this article:
 
 To get started creating a new SQL report, click **Report Builder** or the **Add Report** button at the top of any dashboard. In the Report Picker screen, click **SQL Report Builder** to open the SQL editor.
 
-To edit a report, click the **gear** (![](../../assets/gear-icon.png)) icon in the top right corner of a SQL-based chart and click **Edit**.
+To edit a report, click the **gear** (![](../../mbi/assets//gear-icon.png)) icon in the top right corner of a SQL-based chart and click **Edit**.
 
 Let us get started!
 
@@ -43,13 +43,13 @@ Using the buttons at the top of the sidebar, you can toggle between lists of tab
 
 You can also use the sidebar in the SQL editor to insert metrics, tables, and columns directly into your queries by hovering over them and clicking the **Insert** button:
 
-![Inserting a table into the SQL editor.](../../assets/SQL_RB_Insert_Table.png)
+![Inserting a table into the SQL editor.](../../mbi/assets//SQL_RB_Insert_Table.png)
 
 ## Running the query and viewing results {#runquery}
 
 When you are done writing your query, click the **Run Query** button. The results will display in a table below the SQL editor:
 
-![Running the query and viewing results.](../../assets/SQL_Run_Query.gif)
+![Running the query and viewing results.](../../mbi/assets//SQL_Run_Query.gif)
 
 If something looks amiss in the results, you can edit the query and re-run it until you are satisfied.
 
@@ -67,7 +67,7 @@ To create a visualization with your query results, click the **Chart** tab in th
 
 Here is a quick look at what the visualization process looks like:
 
-![](../../assets/SQL_RB_viz_overview.gif)
+![](../../mbi/assets//SQL_RB_viz_overview.gif)
 
 For a detailed walk through of how to create a visualization, refer to our [Creating visualizations from SQL queries tutorial](../../tutorials/create-visuals-from-sql.md){: target="_blank"}.
 
@@ -77,7 +77,7 @@ Before you can save your work, you'll have to give the report a name. Remember t
 
 Click the **Save** button at the top right corner of the SQL editor and select the report **Type** (Chart or Table). To wrap things up, select the dashboard to save the report to and click the **Save to Dashboard** button.
 
-![](../../assets/SQL_Save_Report.gif)
+![](../../mbi/assets//SQL_Save_Report.gif)
 
 ### Analyze Your Data
 

@@ -38,7 +38,7 @@ If you have not logged into your Mixpanel account yet, do so and then do the fol
 1. In the displayed dialog, click **Projects**.
 1. Your API credentials will display:
 
-![Retrieving Mixpanel API credentials](../../assets/Mixpanel_API_creds.png)<!--{:.zoom}-->
+![Retrieving Mixpanel API credentials](../../mbi/assets//Mixpanel_API_creds.png)<!--{:.zoom}-->
 
 Keep this open - we need it to wrap this up.
 

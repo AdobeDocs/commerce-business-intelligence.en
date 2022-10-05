@@ -6,7 +6,7 @@ description: Learn how to set up a dashboard that will help you understand custo
 
 In this article, we demonstrate how to set up a dashboard that will help you understand customer lifetime value growth and expected lifetime value of your customers. 
 
-![](../../assets/upload_12_16_2016_at_3_03_34_PM.png)
+![](../../mbi/assets//upload_12_16_2016_at_3_03_34_PM.png)
 
 This analysis is only available to Pro account customers on the new architecture. If your account has access to the Persistent Views feature under the Manage Data side bar, you are on the new architecture and can follow the instructions listed here to build this analysis yourself.
 

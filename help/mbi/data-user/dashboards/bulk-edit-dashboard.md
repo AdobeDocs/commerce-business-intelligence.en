@@ -20,7 +20,7 @@ That being said, consider this - **Do these changes need to be permanent?** If n
 
 ## Using Find/Replace {#findreplace}
 
-1. Click the **gear** (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the **Bulk Edit Reports** window.
+1. Click the **gear** (![](../../mbi/assets//gear-icon.png)) icon next to your dashboard's name, then the **Bulk Edit Reports** window.
 
 1. Click **Chart Title Find and Replace** in the pop-up window.
 
@@ -32,11 +32,11 @@ That being said, consider this - **Do these changes need to be permanent?** If n
 
 Example:
 
-![bulk edit](../../assets/bulk_edit.gif)
+![bulk edit](../../mbi/assets//bulk_edit.gif)
 
 ## Prepending Chart Names {#prepend}
 
-1. Click the **gear** (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the **Bulk Edit Reports **window.
+1. Click the **gear** (![](../../mbi/assets//gear-icon.png)) icon next to your dashboard's name, then the **Bulk Edit Reports **window.
 
 1. Click **Prepend Report Names** in the pop-up window.
 
@@ -46,11 +46,11 @@ Example:
 
 Example:
 
-![prepend](../../assets/prepend.gif)
+![prepend](../../mbi/assets//prepend.gif)
 
 ## Changing Dates {#dates}
 
-1. Click the **gear** (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the **Bulk Edit Reports **window.
+1. Click the **gear** (![](../../mbi/assets//gear-icon.png)) icon next to your dashboard's name, then the **Bulk Edit Reports **window.
 
 1. Click **Change Dates** in the pop-up window.
 
@@ -60,4 +60,4 @@ Example:
 
 Example:
 
-![changing dates](../../assets/dates.gif)
+![changing dates](../../mbi/assets//dates.gif)

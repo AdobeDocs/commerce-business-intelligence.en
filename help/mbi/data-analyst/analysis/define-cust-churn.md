@@ -6,7 +6,7 @@ description: Learn how to set up a dashboard that will help you define churn for
 
 In this article, we demonstrate how to set up a dashboard that will help you define churn for your transactional customers.
 
-![](../../assets/2017-02-07_1356.png)
+![](../../mbi/assets//2017-02-07_1356.png)
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 

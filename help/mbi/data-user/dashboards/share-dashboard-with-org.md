@@ -18,4 +18,4 @@ It is easy to ensure that every user has access to essential business dashboards
 
 Example:
 
-![share dashboard](../../assets/share.gif)<!--{: width="675" height="311"}-->
+![share dashboard](../../mbi/assets//share.gif)<!--{: width="675" height="311"}-->

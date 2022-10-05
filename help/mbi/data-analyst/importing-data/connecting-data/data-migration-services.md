@@ -44,7 +44,7 @@ To successfully complete this type of migration, existing data columns have to b
 
 Here is a look at an example:
 
-![](../../assets/Migration_Spreadsheet.png)
+![](../../mbi/assets//Migration_Spreadsheet.png)
 
 **Note:** If certain data columns do not have equivalent columns in the new database, there is a chance that certain analyses will be lost in the process.
 

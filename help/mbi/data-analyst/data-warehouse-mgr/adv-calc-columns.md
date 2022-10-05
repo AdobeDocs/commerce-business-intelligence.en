@@ -42,7 +42,7 @@ An event number calculated column could be used to observe differences in behavi
 
 Want to see the Customer's order number column in action? Click the image to see it used as a Group By dimension in a report.
 
-![Using an event number calculated column to Group By the customer's order number.](../../assets/EventNumber.gif)<!--{: style="max-width: 500px;"}-->
+![Using an event number calculated column to Group By the customer's order number.](../../mbi/assets//EventNumber.gif)<!--{: style="max-width: 500px;"}-->
 
 To create this type of calculated column, we need to know:
 
@@ -67,7 +67,7 @@ Here's an example:
 
 A date difference calculated column could be used to create a metric which calculates the average or median time between two events. Click the image below to check out how the **Average time to first order** metric is used in a report.
 
-![Using a date difference calculated column to calculate Average time to first order.](../../assets/DateDifference.gif)<!--{: style="max-width: 500px;"}-->
+![Using a date difference calculated column to calculate Average time to first order.](../../mbi/assets//DateDifference.gif)<!--{: style="max-width: 500px;"}-->
 
 To create this type of calculated column, we need to know:
 
@@ -94,7 +94,7 @@ Here is an example:
 
 A sequential event comparison can be used to find the average or median time between each sequential event. Click the image below to see the **Average and Median time between orders** metrics in action.
 
-=![Using a sequential event comparison calculated column to calculate Average and Median time between orders.](../../assets/SeqEventComp.gif)<!--{: style="max-width: 500px;"}-->
+=![Using a sequential event comparison calculated column to calculate Average and Median time between orders.](../../mbi/assets//SeqEventComp.gif)<!--{: style="max-width: 500px;"}-->
 
 To create this type of calculated column, we need to know:
 

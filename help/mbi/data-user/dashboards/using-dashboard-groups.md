@@ -20,7 +20,7 @@ Dashboard groups can be created in one of two ways:
 
 1. When creating a new dashboard:
 
-   ![create dashboard group](../../assets/create-dashboard-groups-new-dashboard.png)
+   ![create dashboard group](../../mbi/assets//create-dashboard-groups-new-dashboard.png)
 
 1. When changing the group of an existing dashboard, from the **Manage Data** > **Dashboards** page:
 
@@ -30,7 +30,7 @@ Dashboard groups can be created in one of two ways:
 
    1. To create a new group, type the name of the new group and then click outside the box.
 
-      ![create dashboard group](../../assets/create-dashboard-groups-existing-dashboard.png)
+      ![create dashboard group](../../mbi/assets//create-dashboard-groups-existing-dashboard.png)
 
 ## Add Existing Dashboards to Existing Groups
 
@@ -40,7 +40,7 @@ Dashboard groups can be created in one of two ways:
 
 1. To change the group of the dashboard, choose another group from the list – in this case `PS`, `Campaigns`.
 
-   ![change group dashboard](../../assets/add-existing-dashboard-existing-group.png)
+   ![change group dashboard](../../mbi/assets//add-existing-dashboard-existing-group.png)
 
 ## Delete dashboard groups
 

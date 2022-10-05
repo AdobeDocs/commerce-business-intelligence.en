@@ -16,10 +16,10 @@ The Global Search menu allows you to search for and select dashboards to view.
 
 Example:
 
-![dashboard global search](../../assets/7.1.gif)
+![dashboard global search](../../mbi/assets//7.1.gif)
 
 ## Find Dashboards Owned by Other Users {#other}
 
 Looking for a dashboard owned by another user? If the dashboard can be viewed by others, you can search for it by clicking **Find** in the **Dashboard Options** dropdown.
 
-![find dashboards](../../assets/7.2.png)
+![find dashboards](../../mbi/assets//7.2.png)

@@ -8,4 +8,4 @@ Changing teams? In the middle of spring cleaning your MBI account? To leave or u
 
 Example:
 
-![leave dashboard](../../assets/Leave_Dashboard.gif)
+![leave dashboard](../../mbi/assets//Leave_Dashboard.gif)

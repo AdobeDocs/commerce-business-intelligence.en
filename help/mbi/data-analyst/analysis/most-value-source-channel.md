@@ -33,7 +33,7 @@ To create this report in the [Report Builder](../../tutorials/using-visual-repor
 
 Here is a visual walk through:
 
-![Creating a New users by source report.](../../assets/New_Users_by_source.gif)<!--{: style="max-width: 500px;"}-->[4]<!--{: data-lightbox="image-1" data-title="Creating a New users by source report."}-->
+![Creating a New users by source report.](../../mbi/assets//New_Users_by_source.gif)<!--{: style="max-width: 500px;"}-->[4]<!--{: data-lightbox="image-1" data-title="Creating a New users by source report."}-->
 
 
 ## Average lifetime revenue by user source {#avglifetimerev}
@@ -49,7 +49,7 @@ To create this report in the Report Builder, add the **Average lifetime revenue*
 
 Here is a visual walkthrough:
 
-![Creating an Average lifetime revenue by user source.](../../assets/Lifetime_revenue_by_user_source.gif)<!--{: style="max-width: 500px;"}-->[5]<!--{: data-lightbox="image-1" data-title="Creating an Average lifetime revenue by user source report."}-->
+![Creating an Average lifetime revenue by user source.](../../mbi/assets//Lifetime_revenue_by_user_source.gif)<!--{: style="max-width: 500px;"}-->[5]<!--{: data-lightbox="image-1" data-title="Creating an Average lifetime revenue by user source report."}-->
 
 This example only looks at lifetime revenue, but you could also replicate this analysis to look at the **Number of orders** or **Distinct buyers** by referral source.
 
@@ -66,7 +66,7 @@ To create this report in the Report Builder, add the **Average order value** met
 
 Here is a visual walkthrough:
 
-![Creating an Average order value by user source report.](../../assets/Average_order_value_by_source.gif)<!--: style="max-width: 500px;"}-->[6]<!--{: data-lightbox="image-1" data-title="Creating an Average order value by user source report."}-->
+![Creating an Average order value by user source report.](../../mbi/assets//Average_order_value_by_source.gif)<!--: style="max-width: 500px;"}-->[6]<!--{: data-lightbox="image-1" data-title="Creating an Average order value by user source report."}-->
 
 ## Total revenue by user registration date and source {#revbyregdateandsource}
 
@@ -81,7 +81,7 @@ To create this report in the Report Builder, add the **Revenue by user registrat
 
 Here is a visual walkthrough:
 
-![Creating a Total revenue by user registration date &amp; source report.](../../assets/Revenue_by_user_registration_date_and_source.gif)<!--{: style="max-width: 500px;"}-->[8]<!--{: data-lightbox="image-1" data-title="Creating a Total revenue by user registration date &amp; source report."}-->
+![Creating a Total revenue by user registration date &amp; source report.](../../mbi/assets//Revenue_by_user_registration_date_and_source.gif)<!--{: style="max-width: 500px;"}-->[8]<!--{: data-lightbox="image-1" data-title="Creating a Total revenue by user registration date &amp; source report."}-->
 
 ## Repeat orders by user source {#repeatordersbysource}
 
@@ -100,7 +100,7 @@ To create this report in the [Report Builder](../../tutorials/using-visual-repor
 
 Here is a visual walkthrough:
 
-![Creating a Repeat orders by user source report.](../../assets/Repeat_orders_by_user_source.gif)<!--{: style="max-width: 500px;"}-->[9]<!--{: data-lightbox="image-1" data-title="Creating a Repeat orders by user source report."}-->
+![Creating a Repeat orders by user source report.](../../mbi/assets//Repeat_orders_by_user_source.gif)<!--{: style="max-width: 500px;"}-->[9]<!--{: data-lightbox="image-1" data-title="Creating a Repeat orders by user source report."}-->
 
 
 ## Wrapping Up {#wrapup}

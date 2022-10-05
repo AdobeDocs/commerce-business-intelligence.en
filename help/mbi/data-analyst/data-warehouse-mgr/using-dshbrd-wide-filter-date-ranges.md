@@ -8,21 +8,21 @@ With dashboard wide filtering, you can make bulk edits of all the reports on a s
 
 ## Date filters
 
-To change the date range or interval of reports on a dashboard, click the calendar icon in the upper-right-hand corner (![calendar](../../assets/calendar-button.png)).
+To change the date range or interval of reports on a dashboard, click the calendar icon in the upper-right-hand corner (![calendar](../../mbi/assets//calendar-button.png)).
 
 You can choose to view data using a **Fixed Date Range** or a variety of pre-calculated **Moving Date Ranges**:
 
-![moving date ranges](../../assets/moving_date_ranges.png)<!--{: width="330" height="407"}-->
+![moving date ranges](../../mbi/assets//moving_date_ranges.png)<!--{: width="330" height="407"}-->
 
 The `Last Full...` moving range options represent the most recently fully completed range, while `This...` will be the current, in-progress range. For example, if it is currently June, the `Last Full Month` is _May 1 - May 31_, while `This Month` is _June 1 - Now_.
 
 Or create your own **Custom Moving Range**\:
 
-![custom moving range](../../assets/custom-moving-range.png)
+![custom moving range](../../mbi/assets//custom-moving-range.png)
 
-Choose to change the interval as well. Selecting the default button (![time interval default](../../assets/time_interval_default.png)) means only the date range will be changed:
+Choose to change the interval as well. Selecting the default button (![time interval default](../../mbi/assets//time_interval_default.png)) means only the date range will be changed:
 
-![time interval](../../assets/time_interval.png)<!--{: width="330" height="407"}-->
+![time interval](../../mbi/assets//time_interval.png)<!--{: width="330" height="407"}-->
 
 To restore all reports to their initial date range and interval, click Restore Defaults or click Cancel.
 
@@ -34,7 +34,7 @@ When you specify a date filter for a dashboard, that filter is applied to that d
 
 ## Store filters
 
-To analyze how a specific store is performing, click the stores icon in the upper-right-hand corner (![Store Filter](../../assets/store-filter.png)). By default, **Store Filter** is set to `All Stores`, which displays the data from all [store views](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) available in your Commerce site.
+To analyze how a specific store is performing, click the stores icon in the upper-right-hand corner (![Store Filter](../../mbi/assets//store-filter.png)). By default, **Store Filter** is set to `All Stores`, which displays the data from all [store views](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) available in your Commerce site.
 
 >[!NOTE]
 >

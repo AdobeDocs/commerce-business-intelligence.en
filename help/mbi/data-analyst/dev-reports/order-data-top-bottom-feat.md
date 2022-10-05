@@ -10,7 +10,7 @@ See our [training video](https://support.magento.com/hc/en-us/articles/360016730
 
 This kind of sorting and ordering of data can be done in reports that use both a **Group By** and a **Time Interval of None**. When both of these elements are in a report, the **Show Top/Bottom** feature will display above the chart preview. This feature allows you to see the top (highest to lowest) and bottom (lowest to highest) data points based on the parameters you set.
 
-![Show Top/Bottom feature in the Visual Report Builder.](../../assets/Show_Top_Bottom.png)<!--{:.zoom}-->
+![Show Top/Bottom feature in the Visual Report Builder.](../../mbi/assets//Show_Top_Bottom.png)<!--{:.zoom}-->
 
 ## How do I use this? {#how}
 
@@ -40,11 +40,11 @@ This means that while we can show the revenue from only the top 5 revenue genera
 
 Here's an example of a chart where we sorted the **Revenue** metric by itself instead of by the grouping. As you can see, not sorting the metric by the grouping created a strange (and ultimately unhelpful) report:
 
-![Strange and unhelpful report results.](../../assets/Screen_Shot_2015-12-17_at_3.53.13_PM.png)<!--{:.zoom}-->
+![Strange and unhelpful report results.](../../mbi/assets//Screen_Shot_2015-12-17_at_3.53.13_PM.png)<!--{:.zoom}-->
 
 If we had sorted both metrics by the grouping, the chart would look like this:
 
-![Sorting both metrics by the grouping.](../../assets/Screen_Shot_2015-12-17_at_3.55.29_PM.png)<!--{:.zoom}-->
+![Sorting both metrics by the grouping.](../../mbi/assets//Screen_Shot_2015-12-17_at_3.55.29_PM.png)<!--{:.zoom}-->
 
 ## How are values sorted by default? {#defaultsorting}
 
@@ -52,11 +52,11 @@ When only one metric is included in a report with a **Group by** and a **Time In
 
 In this example, we are looking at how many opportunities our sales reps have closed. This table is automatically sorted from highest to lowest based on the metric, in this case **Won Opportunities**.
 
-![Ordering by the metric.](../../assets/Ordered_by_metric.png)<!--{:.zoom}-->
+![Ordering by the metric.](../../mbi/assets//Ordered_by_metric.png)<!--{:.zoom}-->
 
 However, when a second metric is added, **the default is to order the top based on the grouping**. As metrics and groupings are added, the default sorting will be based on the first grouping, then the second grouping, and so on.
 
-![Ordering by the grouping.](../../assets/Ordered_by_grouping.png)<!--{:.zoom}-->
+![Ordering by the grouping.](../../mbi/assets//Ordered_by_grouping.png)<!--{:.zoom}-->
 
 ## Wrapping up {#wrapup}
 

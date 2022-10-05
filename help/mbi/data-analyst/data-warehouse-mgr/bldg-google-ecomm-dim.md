@@ -18,7 +18,7 @@ To create the dimensions in this article, you need a **Google ECommerce** table,
 
 Here is a quick look at syncing tables and columns if you need a refresher:
 
-![](../../assets/Syncing_New_Columns.gif)
+![](../../mbi/assets//Syncing_New_Columns.gif)
 
 After creating a join from the _orders_ table to the _Google eCommerce_ table, we create the first three dimensions in the list below. Next, we use those dimensions to create three user/customer dimensions in the **customers** table. To finish up, we join those columns to the **orders** table.
 
@@ -56,7 +56,7 @@ In this example, we build the **Order's GA Source** dimension.
 1. In the window that displays, set the **Many** side to **orders.order\_id**, or the column in the **orders** table that contains the order ID.
 1. On the **One** side, find the **Google ECommerce** table, then set the column to **transactionID**.
 
-    ![](../../assets/Screen_Shot_2015-11-12_at_5.05.57_PM.png)
+    ![](../../mbi/assets//Screen_Shot_2015-11-12_at_5.05.57_PM.png)
 
 1. Click Save to create the path.
 1. After the path is added, click the Select table and column dropdown again.
@@ -65,7 +65,7 @@ In this example, we build the **Order's GA Source** dimension.
 
 Here is a look at the whole process:
 
-![](../../assets/help_center.gif)
+![](../../mbi/assets//help_center.gif)
 
 Next, try creating **Order's GA medium** and **campaign**. Not much will change for these dimensions, so give it a try. But if you get stuck, you can check out [the end of this article](#stuck) to see what is different.
 
@@ -106,7 +106,7 @@ In this example, we join the **Customer's first order's GA source** dimension t
 
 Here is a look at the whole process:
 
-![](../../assets/help_center2.gif)
+![](../../mbi/assets//help_center2.gif)
 
 Finish up by joining the **Customer's first order's medium** and **campaign** dimensions to the **orders** table. Give it a try, and as we mentioned before, check out [the end of the article](#stuck) if you need help.
 

@@ -12,7 +12,7 @@ In conjunction with [standardized, clear naming for all elements](../../best-pra
 
 The first step in cleaning up your account is to deactivate the accounts of your non-active users, such as people who have left the company or no longer use MBI in their current roles.
 
-You can do this by clicking your company's name in the top-right corner of the top navigation bar, then selecting **Manage Users**. Next, select the user you want to deactivate, and click the **Deactivate User** button. **Note:** You need [Admin permissions](../../administrator/user-management/user-management.md) to do this.
+You can do this by clicking your company's name in the top-right corner of the top navigation bar, then selecting **Manage Users**. Next, select the user you want to deactivate, and click the **Deactivate User** button. **Note:** You need [Admin permissions](../administrator/user-management/user-management.md) to do this.
 
 >[!WARNING]
 >
@@ -24,7 +24,7 @@ To reactivate a user, reinvite the user by recreating their account with the sam
 
 ## Step 2: Delete Unused Dashboards and Reports
 
-The next step in auditing your account is to delete any unused dashboards and reports. Note that you need [Admin or standard user permissions](../../administrator/user-management/user-management.md) to do this.
+The next step in auditing your account is to delete any unused dashboards and reports. Note that you need [Admin or standard user permissions](../administrator/user-management/user-management.md) to do this.
 
 Every user with Admin or Standard access can create reports and dashboards. For that reason, everyone with these permissions must follow the steps below to identify and remove unused reports.
 
@@ -50,7 +50,7 @@ After you access your dashboards and reports, you can then begin cleaning up you
 
 You can also select **Dashboard Options**, then **Delete** from the dashboard itself.
 
-![](../../assets/Delete_from_dashboard.png)
+![](../../mbi/assets//Delete_from_dashboard.png)
 
 Note that deleting a dashboard does not delete the reports within it, so you will have to take one more step to delete the reports.
 
@@ -63,7 +63,7 @@ Note that deleting a dashboard does not delete the reports within it, so you wil
 
 Here is a look at the unused report deletion process:
 
-![](../../assets/unused_reports.png)
+![](../../mbi/assets//unused_reports.png)
 
 ## Step 3: Delete Unused Metrics
 
@@ -74,7 +74,7 @@ After you have cleaned up your users list, dashboards, and reports, you can move
 1. At the bottom of the page, you will see a section called **Dependent Charts**. Click the link to generate a dependent reports list for this metric.
 1. After the system completes the check, MBI displays a list of dashboards, reports, and users utilizing this metric.
 
-![](../../assets/report_dependecies.png)
+![](../../mbi/assets//report_dependecies.png)
 
 If you decide that the metric is no longer needed, navigate back to the **Metrics** page by clicking the **Back to Metric List** link at the top of the page and find the metric you want to delete. Click **Delete**.
 
@@ -95,7 +95,7 @@ Note that you can always start syncing these columns again in the future. Unsync
 
 Here is a look at the whole process:
 
-![](../../assets/drop_column.png)
+![](../../mbi/assets//drop_column.png)
 
 ## Wrapping up
 

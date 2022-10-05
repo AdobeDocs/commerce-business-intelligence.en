@@ -34,4 +34,4 @@ Sharing dashboards is a great way to keep your team in the loop and encourage co
 
 Example:
 
-![share dashboard](../../assets/Share_Dashboards.gif)
+![share dashboard](../../mbi/assets//Share_Dashboards.gif)
