@@ -103,6 +103,8 @@ description: Learn how to use MBI features available for Adobe Commerce.
   - SaaS Integrations {#saas}
     - [SaaS Integrations](data-analyst/importing-data/integrations/integrations.md)
     - [Understand Results Between Database and SQL Editor](data-analyst/importing-data/integrations/last-success-update.md)
+    - [Connecting Adobe Analytics](data-analyst/importing-data/integrations/adobe-analytics.md)
+    - [Adobe Analytics Data](data-analyst/importing-data/integrations/adobe-analytics-data.md)
     - [Connecting Facebook Ads](data-analyst/importing-data/integrations/facebook-ads.md)
     - [Expected Facebook Ads data](data-analyst/importing-data/integrations/facebook-ads-data.md)
     - [Connecting Google Adwords](data-analyst/importing-data/integrations/google-adwords.md)
