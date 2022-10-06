@@ -23,7 +23,7 @@ With the Google Analytics Live integration on the other hand, every Google Analy
 ## Connecting Google Analytics Warehoused
 
 {: .bs-callout-info}
-Google Analytics Warehoused is a Premium Integration. [Contact support](../../getting-started/support.md) if you have an interest in adding this integration to your subscription.
+Google Analytics Warehoused is a Premium Integration. [Contact support](../../../getting-started/support.md) if you have an interest in adding this integration to your subscription.
 
 1. Go to the Connections page under **Admin > Integrations**.
 1. Click the Add a Add Integration button, located on the right side of the screen.
@@ -39,7 +39,7 @@ To identify a particular website's Google Analytics Profile ID:
 
 1. Log into Google Analytics
 1. Go to the particular website's Google Analytics dashboard
-1. Look at the URL - the Profile ID corresponds to the 8 numbers following "p" at the end of the line: e.g., www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX**/
+1. Look at the URL - the Profile ID corresponds to the 8 numbers following "p" at the end of the line (e.g., www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX**/).
 
 ## Disconnecting Google Analytics Warehoused from MBI {#disconnect}
 

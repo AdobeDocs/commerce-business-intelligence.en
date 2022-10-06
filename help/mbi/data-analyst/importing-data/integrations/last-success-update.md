@@ -22,4 +22,4 @@ The latest data point for a particular integration is determined by the _Last D
 To check for freshness of data from **specific tables**, we recommend creating a quick [SQL report](../../dev-reports/sql-rpt-bldr.md) that performs a **MAX(timestamp)** on the most important table on your account. Comparing this timestamp to the "Last Data Point" will indicate whether the issue affected the entire account or a subset of the tables. We recommend doing this for three to four important, commonly used tables.
 
 -  If the MAX(timestamp) values are more recent than _Last Data Point Received_, it means that a subset of the tables were affected, but the overall account's update cycle is stable.
--  If the MAX(timestamp) values are equal to or before _Last Data Point Received_, it means that the account's update cycle was affected. In this situation, [submit a support ticket](../../getting-started/support.md).
+-  If the MAX(timestamp) values are equal to or before _Last Data Point Received_, it means that the account's update cycle was affected. In this situation, [submit a support ticket](../../../getting-started/support.md).

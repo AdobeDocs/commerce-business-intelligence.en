@@ -18,7 +18,7 @@ To activate MBI for on-premise subscriptions, first create a MBI account, then c
 
      ![](../assets/Picture2.png)
 
-    -  Go to your inbox and verify your email address. If you did not receive an email, [contact support](../../getting-started/support.md).
+    -  Go to your inbox and verify your email address. If you did not receive an email, [contact support](../getting-started/support.md).
 
     -  Create your password.
 
