@@ -5,7 +5,7 @@ description: Learn to bring together the end-to-end customer journey focus of Ad
 
 # Connect Adobe Analytics
 
->[!NOTE}
+>[!NOTE]
 >
 >[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 

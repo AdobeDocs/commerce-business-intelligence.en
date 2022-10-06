@@ -24,7 +24,7 @@ The table would contain these columns:
 | Column Name | Description |
 | --- | --- |
 | `_id` | This column is the primary key. |
-| `_item_hash` | MBI unique identifier. This column is created by MBI.
+| `_item_hash` | MBI unique identifier. This column is created by MBI.|
 | `_updated_at` | This column contains the last time the data row was updated. It is created by MBI.|
 | `start_date` | Start date of included data for the row. `start_date` will always be 00:00 of the same day within one row.|
 | `end_date` | End date of included data for the row. `end_date` will always be 23:59 of the same day within one row.|
@@ -34,6 +34,7 @@ The table would contain these columns:
 Control which of the selected metrics and dimensions have data available in your MBI table by using the *sync* or *unsync* options in the Data Warehouse page. Columns not currently being synced appear in gray. If you stop syncing a column, you can begin syncing it again later.
 
 ## Current Limitations
+
 This section outlines limitations of the Adobe Analytics integration for MBI.
 
 | Limitation | Description |
