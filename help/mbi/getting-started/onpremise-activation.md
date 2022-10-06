@@ -18,7 +18,7 @@ To activate MBI for on-premise subscriptions, first create a MBI account, then c
 
      ![](../assets/Picture2.png)
 
-    -  Go to your inbox and verify your email address. If you did not receive an email, [contact support](https://support.magento.com/hc/en-us/articles/360019088251).
+    -  Go to your inbox and verify your email address. If you did not receive an email, [contact support](../../getting-started/support.md).
 
     -  Create your password.
 

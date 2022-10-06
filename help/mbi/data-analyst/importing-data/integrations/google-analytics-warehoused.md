@@ -23,7 +23,7 @@ With the Google Analytics Live integration on the other hand, every Google Analy
 ## Connecting Google Analytics Warehoused
 
 {: .bs-callout-info}
-Google Analytics Warehoused is a Premium Integration. Contact Support if you have an interest in adding this integration to your subscription.
+Google Analytics Warehoused is a Premium Integration. [Contact support](../../getting-started/support.md) if you have an interest in adding this integration to your subscription.
 
 1. Go to the Connections page under **Admin > Integrations**.
 1. Click the Add a Add Integration button, located on the right side of the screen.

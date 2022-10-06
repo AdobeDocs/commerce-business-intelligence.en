@@ -4,7 +4,7 @@ description: Learn about working with and improving your MBI environment.
 ---
 # Your MBI Environment
 
-As you analyze your Commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Magento schema correctly, do not hesitate to [contact our support team](https://support.magento.com/hc/en-us/articles/360019088251).
+As you analyze your Commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Magento schema correctly, do not hesitate to [contact support](../../getting-started/support.md).
 
 ## entity\_id
 
