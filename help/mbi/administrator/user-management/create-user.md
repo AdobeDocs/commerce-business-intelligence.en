@@ -1,5 +1,5 @@
 ---
-title: Adding a new user
+title: Add a new user
 description: Learn how to add a new MBI user. 
 ---
 # Add a new user
