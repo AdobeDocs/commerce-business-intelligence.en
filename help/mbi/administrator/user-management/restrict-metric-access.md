@@ -1,8 +1,8 @@
 ---
-title: Restricting metrics access
+title: Restrict metrics access
 description: Learn how to work with metrics access and restrictions. 
 ---
-# Managing metrics users
+# Manage metrics users
 
 In addition to setting user permission levels, you can also restrict access to metrics on a user-by-user basis. For example, if you want your accounting department to have access to revenue-related metrics but not user-acquisition metrics, you can restrict access to those metrics.
 
