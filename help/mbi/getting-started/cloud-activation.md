@@ -14,7 +14,7 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
     - Go to [https://account.magento.com/customer/account/login](https://account.magento.com/customer/account/login)
 
-    - Go to **My Account** → **My MBI Instances**.
+    - Go to **My Account** > **My MBI Instances**.
 
     - Click the **Create Instance**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
 
