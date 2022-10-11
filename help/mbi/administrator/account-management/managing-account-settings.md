@@ -22,4 +22,6 @@ In your MBI account, you are able to customize a number of account settings for 
 
 * **Enable data updates:** This option ensures that data updates run on your account. If you change the setting to **No**, data syncs and column calculations will completely halt in your account.
 
-Make sure to select **Save Customizations** after you make any changes.
+>[!NOTE]
+>
+>Make sure to select **Save Customizations** after you make any changes.
