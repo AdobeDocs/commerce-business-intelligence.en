@@ -6,7 +6,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
 # [!DNL MBI] User Guide {#mbi}
 
 - Getting Started {#start}
-  - [Introduction](getting-started.md)
+  - [Introduction](getting-started/getting-started.md)
   - [Onboarding](getting-started/onboarding.md)
   - [Activate for On-Premise](getting-started/onpremise-activation.md)
   - [Activate for Cloud Starter](getting-started/cloud-activation.md)
