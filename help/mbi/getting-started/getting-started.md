@@ -8,7 +8,7 @@ MBI is a cloud-based data management and analytics platform. MBI provides you wi
 
 ## Activating your Magento Business Intelligence Account
 
-When you [activate](../../getting-started/onpremise-activation.md) your MBI account, you are connecting your Magento database to MBI and immediately getting access to five dashboards with approximately 100 reports. These reports are designed to provide insights around your data and answer questions like: "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?".
+When you [activate](../getting-started/onpremise-activation.md) your MBI account, you are connecting your Magento database to MBI and immediately getting access to five dashboards with approximately 100 reports. These reports are designed to provide insights around your data and answer questions like: "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?".
 
 ## How to Get Help
 
