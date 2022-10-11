@@ -11,17 +11,15 @@ description: Learn how to use MBI features available for Adobe Commerce.
   - [Activate for On-Premise](getting-started/onpremise-activation.md)
   - [Activate for Cloud Starter](getting-started/cloud-activation.md)
   - [Sign in to your MBI Account](getting-started/sign-in.md)
-  - [Account Management]
-  - [User Management]
   - [How to Get Help](getting-started/support.md)
 - Administrator {#administrator}
   - [Introduction](../mbi/administrator.md)
-  - Account Management {acct-mgmt}
+  - Account Management {#acct-mgmt}
     - [Manage your Account](administrator/account-management/managing-account-settings.md)
     - [Restrict Database Access](../mbi/administrator/account-management/restrict-db-access.md)
     - [Display Dashboards around the office](../mbi/administrator/account-management/display-dashboards-office.md)
     - [New Architecture](../mbi/administrator/account-management/new-architecture.md)
-  - User Management {usr-mgmt}
+  - User Management {#usr-mgmt}
     - [Manage Users](administrator/user-management/user-management.md)
     - [Create/Edit User](../mbi/administrator/user-management/create-user.md)
     - [Delete/Reactivate User](../mbi/administrator/user-management/delete-user.md)
