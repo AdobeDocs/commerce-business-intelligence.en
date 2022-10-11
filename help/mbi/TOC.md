@@ -15,7 +15,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
   - [User Management](administrator/user-management/user-management.md)
   - [How to Get Help](getting-started/support.md)
 - Administrator {#administrator}
-
+  - [Introduction](../mbi/administrator.md)
   - [Account Provision](../mbi/administrator/account-management/account-provision.md)
   - [Create User](../mbi/administrator/user-management/create-user.md)
   - [Delete User](../mbi/administrator/user-management/delete-user.md)
@@ -181,6 +181,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
   - Forecasting {#forecasting}
     - [Introduction](data-analyst/analysis/forecasting.md)
 - Build Reports and Share Data {#build}
+  - [Data User](../mbi/data-user.md)
   - Reports {#reports}
     - [Report Fundamentals](data-user/reports/rpt-fundamentals.md)
     - [Which Report Builder should I use?](data-user/reports/report-builder-options.md)
@@ -241,6 +242,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Sharing Dashboards](best-practices/share-dashboard-best-practice.md)
     - [Building an Investor Dashboard](best-practices/build-investor-dashboard.md)
 - Tutorials {#tutorials}
+  - [Introduction](../mbi/tutorials.md)
   - [Using the Visual Report Builder](tutorials/using-visual-report-builder.md)
   - [Using Time Options in the Visual Report Builder](tutorials/time-options-visual-rpt-bldr.md)
   - [Creating Visualizations fro an SQL Query](tutorials/create-visuals-from-sql.md)
