@@ -11,21 +11,24 @@ description: Learn how to use MBI features available for Adobe Commerce.
   - [Activate for On-Premise](getting-started/onpremise-activation.md)
   - [Activate for Cloud Starter](getting-started/cloud-activation.md)
   - [Sign in to your MBI Account](getting-started/sign-in.md)
-  - [Account Management](administrator/account-management/managing-account-settings.md)
-  - [User Management](administrator/user-management/user-management.md)
+  - [Account Management]
+  - [User Management]
   - [How to Get Help](getting-started/support.md)
 - Administrator {#administrator}
   - [Introduction](../mbi/administrator.md)
-  - [Account Provision](../mbi/administrator/account-management/account-provision.md)
-  - [Create User](../mbi/administrator/user-management/create-user.md)
-  - [Delete User](../mbi/administrator/user-management/delete-user.md)
-  - [Display Dashboards around the office](../mbi/administrator/account-management/display-dashboards-office.md)
-  - [New Architecture](../mbi/administrator/account-management/new-architecture.md)
-  - [Reset Password](../mbi/administrator/user-management/reset-password.md)
-  - [Restrict Database Access](../mbi/administrator/account-management/restrict-db-access.md)
-  - [Restrict Metric Access](../mbi/administrator/user-management/restrict-metric-access.md)
-  - [Update Address or Password](../mbi/administrator/user-management/update-address-password.md)
-  - [View Billing](../mbi/administrator/user-management/view-billing.md)
+  - Account Management {acct-mgmt}
+    - [Manage your Account](administrator/account-management/managing-account-settings.md)
+    - [Restrict Database Access](../mbi/administrator/account-management/restrict-db-access.md)
+    - [Display Dashboards around the office](../mbi/administrator/account-management/display-dashboards-office.md)
+    - [New Architecture](../mbi/administrator/account-management/new-architecture.md)
+  - User Management {usr-mgmt}
+    - [Manage Users](administrator/user-management/user-management.md)
+    - [Create/Edit User](../mbi/administrator/user-management/create-user.md)
+    - [Delete/Reactivate User](../mbi/administrator/user-management/delete-user.md)
+
+    - [Reset Password](../mbi/administrator/user-management/reset-password.md)
+    - [Restrict Metric Access](../mbi/administrator/user-management/restrict-metric-access.md)
+    - [View Billing Information](../mbi/administrator/user-management/view-billing.md)
 - Analyze Data {#analyze}
   - [Data Analyst](data-analyst.md)
   - Data Warehouse Manager {#warehouse-manager}

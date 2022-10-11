@@ -4,7 +4,7 @@ description: Learn how to reset a user's password.
 ---
 # Reset your password
 
-To reset your password, click the **Reset Password** link below the password field on your MBI sign in page. Enter the email address you are using to log in, and an email will be sent with a password reset link.
+To reset your password, click **Reset Password** below the password field on your MBI sign in page. Enter the email address you are using to log in, and an email will be sent with a password reset link.
 
 Additionally, you can change your password inside MBI by using the **Personal Settings** page.
 
