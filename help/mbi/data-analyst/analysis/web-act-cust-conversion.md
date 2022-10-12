@@ -26,73 +26,71 @@ This collection of reports is built using the following:
 
 ### A. Start by creating a report that shows the number of page views, sessions and users over time:
 
-1. Create a new report
-1. Click the green **Add Metric** button, then mouse over the _Google Analytics_ section at the bottom of the dropdown and select "Page Views"
-1. Add another metric, again mousing over the _Google Analytics_ section, this time selecting "Sessions"
-1. Add a third metric, again mousing over the _Google Analytics_ section, this time selecting "Users"
-1. Now change your time period to a moving range, from 31 days ago to 1 day ago, and adjust the time interval to "by day"
-1. Give your report a name (e.g., "Page views, sessions and users by day"), and click the green **Save** button
+1. Create a new report.
+1. Click **Add Metric**, then mouse over the _Google Analytics_ section at the bottom of the dropdown and select "Page Views".
+1. Add another metric, again mousing over the _Google Analytics_ section, this time selecting "Sessions".
+1. Add a third metric, again mousing over the _Google Analytics_ section, this time selecting "Users".
+1. Now change your time period to a moving range, from 31 days ago to 1 day ago, and adjust the time interval to "by day".
+1. Give your report a name (e.g., "Page views, sessions and users by day"), and click the green **Save**.
 
 ### B. Our second report will look at the number of page views over the past year:
 
-1. Create a new report
-1. Click the green **Add Metric** button, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Page Views_
-1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to _by month_
-1. Give your report a name, like "Page views by month," and click the green **Save** button
+1. Create a new report.
+1. Click **Add Metric**, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Page Views_.
+1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to _by month_.
+1. Give your report a name, like "Page views by month," and click **Save**.
 
 ### C. The third chart will look at the bounce rate over the past year:
 
-1. Create a new report
-1. Click the green **Add Metric** button, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Bounce rate_
-1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to "by month"
-1. Give your report a name, like _Bounce rate by month_, and click the green **Save** button
+1. Create a new report.
+1. Click **Add Metric**, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Bounce rate_.
+1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to "by month".
+1. Give your report a name, like _Bounce rate by month_, and click **Save**.
 
 ### D. Now, take a look at the average session length of new visitors compared to returning visitors:
 
-1. Create a new report
-1. Click the green **Add Metric** button, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Average Session Length_
+1. Create a new report.
+1. Click **Add Metric**, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Average Session Length_.
 1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to _by month?
-1. Add a _Group by_ and select _New or returning visitor_.  Check the _Show All_ box; then click the blue **Apply** button
-1. Give your report a name, like _Average session length_, and click the green **Save** button
+1. Add a _Group by_ and select _New or returning visitor_.  Check the _Show All_ box; then click **Apply**.
+1. Give your report a name, like _Average session length_, and click **Save**.
 
 ### E. Next, take a look at your top referring domains in the last 30 days:
 
-1. Create a new report
-1. Click the green **Add Metric** button, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Sessions_
-1. Change your time period to a moving range, from 31 days ago to 1 day ago, and adjust the time interval to _none_
-1. Add a _Group by_ and select _ga:source_.  Check the _Show All_ box; then click the blue **Apply** button
-1. Add another _group by_ and select _ga:medium_. Again, check the _Show All_ box; then click **Apply**
-1. Give your report a name, like _Top 20 Referring Domains, 30 Days_, and click the green **Save** button
+1. Create a new report.
+1. Click **Add Metric**, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Sessions_.
+1. Change your time period to a moving range, from 31 days ago to 1 day ago, and adjust the time interval to _none_.
+1. Add a _Group by_ and select _ga:source_.  Check the _Show All_ box; then click **Apply**.
+1. Add another _group by_ and select _ga:medium_. Again, check the _Show All_ box; then click **Apply**.
+1. Give your report a name, like _Top 20 Referring Domains, 30 Days_, and click **Save**.
 
 ### F. Finally, take a look at conversion:
 
-1. Create a new report
+1. Create a new report.
 1. Add the following metrics:
 
-* **New users**
+  * **New users**
+    * Click **Hide** beneath the metric name
 
- * Click **Hide** beneath the metric name
+  * **Number of orders**
+    * Add a filter for _Customer's order number_ = 1 and click **Apply**
+    * Rename the metric by clicking on the metric name, calling it _Number of first orders;_ then click **Hide**
 
-* **Number of orders**
+  * **Number of orders**
+    * **Hide** the metric
 
- * Add a filter for _Customer's order number_ = 1 and click **Apply**
- * Rename the metric by clicking on the metric name, calling it _Number of first orders;_ then click **Hide**
+  * **Users**
+    * **Hide** the metric
+    * Change the time period to _24 months ago to now_, and adjust time interval to _by month_
+    * Add the following formulas by clicking **Formula**.
+    * A/D then click **Apply**
+    * Rename the formula _Registration conversion_
+    * B/D then click **Apply**
+    * Rename the formula _First order conversion_
+    * C/D then click **Apply**
+    * Rename the formula _Any order conversion_
 
-* **Number of orders**
- * **Hide** the metric
-
-* **Users**
- * **Hide** the metric
- * Change the time period to _24 months ago to now_, and adjust time interval to _by month_
- * Add the following formulas by clicking the **Formula** button
-  * A/D then click the **Apply** button
-   * Rename the formula _Registration conversion_
-  * B/D then click the **Apply** button
-   * Rename the formula _First order conversion_
-  * C/D then click the **Apply** button
-   * Rename the formula _Any order conversion_
-
-* Now give your report a name, like "Conversion by month," and then click the green **Save** button
+  * Now give your report a name, like "Conversion by month," and then click **Save**
 
 ## Next steps
 

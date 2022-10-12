@@ -24,8 +24,9 @@ The sections below contain ER diagrams specific to two tables at a time. To view
 
 One customer can place many orders. The relationship between these two tables is **customer\_entity.entity\_id = sales\_flat\_order.customer\_id**
 
-{: .bs-callout-warning}
-**customer\_entity.entity\_id** does not equal **sales\_flat\_order.entity\_id**. The first can be thought of as a "customer\_id" and the second can be thought of as an "order\_id." You can read more about this in the [entity\_id section](https://support.magento.com/hc/en-us/articles/360016729951) of our "Magento: Common Misconceptions" article.
+>[!IMPORTANT]
+>
+>**customer\_entity.entity\_id** does not equal **sales\_flat\_order.entity\_id**. The first can be thought of as a "customer\_id" and the second can be thought of as an "order\_id." You can read more about this in the [entity\_id section](https://support.magento.com/hc/en-us/articles/360016729951) of our "Magento: Common Misconceptions" article.
 
 Within MBI, if the path between these two tables does not already exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
 

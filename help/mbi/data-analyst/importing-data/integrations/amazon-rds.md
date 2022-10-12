@@ -30,7 +30,7 @@ This is the part of the process where, depending on the database you are using, 
 
 After you have granted MBI access to your instance and created a user for us, the last thing you will need to do is enter the connection info into MBI.
 
-The credential pages for MySQL, Microsoft SQL, and PostgreSQL are accessed via the Integrations page (**Manage Data > Integrations**) by clicking the **Add Integration** button. When the list of integrations displays, click the icon for the database you are using to go to the credentials page. If you do not currently have access to the integration you need, contact your CSM.
+The credential pages for MySQL, Microsoft SQL, and PostgreSQL are accessed via the Integrations page (**Manage Data > Integrations**) by clicking **Add Integration**. When the list of integrations displays, click the icon for the database you are using to go to the credentials page. If you do not currently have access to the integration you need, contact your CSM.
 
 To finish creating the connection, we will need the following info:
 
@@ -38,7 +38,7 @@ To finish creating the connection, we will need the following info:
 *  **The port your database instance uses**. Some databases have a default port, which will automatically populate the Port field. This info can also be found in our setup documentation for the database.
 *  The username and password of the user you created for MBI
 
-Additionally, **if you are using an encrypted connection**, toggle the Encrypted button on the database credentials page to Yes. This will display an additional form for setting up the encryption:
+Additionally, **if you are using an encrypted connection**, change the "Encrypted" toggle on the database credentials page to `Yes`. This will display an additional form for setting up the encryption:
 
 ![](../../../assets/5.1.png)
 

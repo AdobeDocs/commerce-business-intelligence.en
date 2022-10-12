@@ -24,11 +24,11 @@ Here's an overview of what we cover in this article:
 
 1. [Saving the report](#save)
 
-To get started creating a new SQL report, click **Report Builder** or the **Add Report** button at the top of any dashboard. In the Report Picker screen, click **SQL Report Builder** to open the SQL editor.
+To get started creating a new SQL report, click **Report Builder** or **Add Report** at the top of any dashboard. In the Report Picker screen, click **SQL Report Builder** to open the SQL editor.
 
-To edit a report, click the **gear** (![](../../assets/gear-icon.png)) icon in the top right corner of a SQL-based chart and click **Edit**.
+To edit a report, click the gear (![](../../assets/gear-icon.png)) icon in the top right corner of a SQL-based chart and click **Edit**.
 
-Let us get started!
+Get started!
 
 ## Writing a query {#writing}
 
@@ -41,13 +41,13 @@ If the metric is updated in the future, the SQL report **will not** reflect the 
 
 Using the buttons at the top of the sidebar, you can toggle between lists of tables and metrics available for use in the SQL Report Builder. If you do not see what you are looking for in the list, try searching for it using the search bar at the top of the sidebar.
 
-You can also use the sidebar in the SQL editor to insert metrics, tables, and columns directly into your queries by hovering over them and clicking the **Insert** button:
+You can also use the sidebar in the SQL editor to insert metrics, tables, and columns directly into your queries by hovering over them and clicking **Insert**:
 
 ![Inserting a table into the SQL editor.](../../assets/SQL_RB_Insert_Table.png)
 
 ## Running the query and viewing results {#runquery}
 
-When you are done writing your query, click the **Run Query** button. The results will display in a table below the SQL editor:
+When you are done writing your query, click **Run Query**. The results will display in a table below the SQL editor:
 
 ![Running the query and viewing results.](../../assets/SQL_Run_Query.gif)
 
@@ -75,7 +75,7 @@ For a detailed walk through of how to create a visualization, refer to our [Crea
 
 Before you can save your work, you'll have to give the report a name. Remember to follow the [best practice guidelines for naming](../../best-practices/naming-elements.md){: target="_blank"} and choose something that clearly conveys what the report is!
 
-Click the **Save** button at the top right corner of the SQL editor and select the report **Type** (Chart or Table). To wrap things up, select the dashboard to save the report to and click the **Save to Dashboard** button.
+Click **Save** at the top right corner of the SQL editor and select the report **Type** (Chart or Table). To wrap things up, select the dashboard to save the report to and click **Save to Dashboard**.
 
 ![](../../assets/SQL_Save_Report.gif)
 
@@ -106,4 +106,4 @@ Unlike the Visual Report Builder, [the Cohort Report Builder](../dev-reports/coh
 
 ## Wrapping up {#wrapup}
 
-If you want to try something a bit more challenging, why not try writing a query that's optimized for visualization? Check out our [Creating visualizations from SQL queries tutorial](../../tutorials/create-visuals-from-sql.md){: target="_blank"}to get started.
+If you want to try something a bit more challenging, why not try writing a query that is optimized for visualization? Check out our [Creating visualizations from SQL queries tutorial](../../tutorials/create-visuals-from-sql.md){: target="_blank"}to get started.

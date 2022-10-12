@@ -21,6 +21,7 @@ Therefore it is possible to report on sales of products either at the simple lev
 ## Common Columns
 
 |**Column Name**|**Description**|
+|----|----|
 |`base_price`|Price of an individual unit of a product at the time of sale after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied, represented in the base currency of the store|
 |`created_at`|Creation timestamp of the order item, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in MBI that differs from your database time zone|
 |`item_id` (PK)|Unique identifier for the table|
@@ -33,9 +34,12 @@ Therefore it is possible to report on sales of products either at the simple lev
 |`sku`|Unique identifier for the order item that was purchased|
 |`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which Magento store view is associated with the order item|
 
+{style="table-layout:auto"}
+
 ## Common Calculated Columns
 
 |**Column Name**|**Description**|
+|---|---|
 |`Customer's email`|Email address of the customer placing the order. Calculated by joining `sales_order_item.order_id` to `sales_order.entity_id` and returning the `customer_email` field|
 |`Customer's lifetime number of orders`|Total count of orders placed by this customer. Calculated by joining `sales_order_item.order_id` to `sales_order.entity_id` and returning the `Customer's lifetime number of orders` field|
 |`Customer's lifetime revenue`|Sum total of revenue for all orders placed by this customer. Calculated by joining `sales_order_item.order_id` to `sales_order.entity_id` and returning the `Customer's lifetime revenue` field|
@@ -45,14 +49,17 @@ Therefore it is possible to report on sales of products either at the simple lev
 |`Order's increment_id`|Unique identifier of the order. Calculated by joining `sales_order_item.order_id` to `sales_order.entity_id` and returning the `increment_id` field|
 |`Order's status`|Status of the order. Calculated by joining `sales_order_item.order_id` to `sales_order.entity_id` and returning the `status` field|
 |`Store name`|Name of the Magento store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
-{:style="table-layout:fixed;"}
+
+{style="table-layout:auto"}
 
 ## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
+|---|---|---|
 |Products ordered|The total quantity of products included in carts at the time of sale|Operation: Sum<br>Operand: `qty_ordered`<br>Timestamp: `created_at`|
 |Revenue by products ordered|Total value of products included in carts at the time of sale after catalog price rules, tiered discounts, and special pricing are applied and before any taxes, shipping, or cart discounts are applied|Operation: Sum<br>Operand: `Order item total value (quantity * price)`<br>Timestamp: `created_at`|
-{:style="table-layout:fixed;"}
+
+{style="table-layout:auto"}
 
 ## Foreign Key Joining Paths
 

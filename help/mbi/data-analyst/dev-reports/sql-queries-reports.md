@@ -10,6 +10,7 @@ At the end of this article, we have included a **translation matrix** for SQL qu
 
 We start by looking at a general query:
 
+| | |
 |--- |--- |
 |`SELECT`||
 |`a,`|Report group by|
@@ -34,6 +35,7 @@ A metric is required when aggregating _within a single table_. So for example, t
 
 Let us look at a specific example of how a "Total Revenue" metric might be defined in MBI. Take a look at the query below that we will attempt to translate:
 
+| | |
 |--- |--- |
 |`SELECT`||
 |`SUM(order_total) as "Total Revenue"`|Metric operation(column)|
@@ -52,8 +54,9 @@ A calculated column is required when aggregating a column that is joined from an
 
 The query for this aggregation may look something like the below:
 
+|||
 |--- |--- |
-|`SELECT`||
+|`Select`| |
 |`c.customer_id`|Aggregate owner|
 |`SUM(o.order_total) as "Customer LTV"`|Aggregate operation(column)|
 |`FROM customers c`|Aggregate owner table|
@@ -65,7 +68,7 @@ Setting this up in MBI requires the use of your **Data Warehouse** manager, whe
 
 Let us first take a look at how to establish a new path between the "customers" and "orders". Our end goal is to create a new aggregated column in the "customers" table, so first navigate to the "customers" table in your **Data Warehouse**, then click **Create a Column** \=> **Select a definition** => **SUM**.
 
-Next, you need to select the source table. If a path already exists to your "orders" table, simply select it from the drop-down. However if you are building a new path, click the **Create new path** button and you will be presented with the screen below:
+Next, you need to select the source table. If a path already exists to your "orders" table, simply select it from the drop-down. However if you are building a new path, click **Create new path** and you will be presented with the screen below:
 
 ![Create new path](../../assets/Create_new_path.png)
 
@@ -85,6 +88,7 @@ GROUP BY functions in queries are often represented in MBI as a column used to 
 
 First, we start with the query below:
 
+| | |
 |--- |--- |
 |`SELECT coupon_code,`|Report group by|
 |`SUM(order_total) as "Total Revenue"`|Metric operation(column)|
@@ -94,7 +98,9 @@ First, we start with the query below:
 |`AND created_at < '2016-12-01'` <br><br>`AND created_at >= '2016-09-01'`|Metric timestamp (and reporting time range)|
 |`GROUP BY coupon_code`|Report group by|
 
-_Note that the only difference from the query we started with before is the addition of the 'coupon\_code' as the group by._
+>[!NOTE]
+>
+>The only difference from the query we started with before is the addition of the 'coupon\_code' as the group by._
 
 Using the same "Total Revenue" metric that we created previously, we are now ready to create our report of revenue segmented by coupon code! Take a look at the gif below which shows how to set up this visual report looking at data from September to November:
 
@@ -111,6 +117,7 @@ The former method would involve the creation of a new metric which performs an a
 
 Let us take a step back and look at the overall query for "Average order value":
 
+| | |
 |--- |--- |
 |`SELECT`||
 |`SUM(order_total) as "Total Revenue"`|Metric operation(column)|
@@ -133,8 +140,8 @@ For quick reference, check out the matrix below. This shows a SQL clause's equiv
 
 ## MBI Elements
 
-|--|--|--|--|--|--|--|--|
 |**SQL Clause**|**Metric**|**Filter**|**Report group by**|**Report time frame**|**Path**|**Calculated column inputs**|**Source table**|
+|--|--|--|--|--|--|--|--|
 |**SELECT**|X|-|X|-|-|X|-|
 |**FROM**|-|-|-|-|-|-|X|
 |**WHERE**|-|X|-|-|-|-|-|

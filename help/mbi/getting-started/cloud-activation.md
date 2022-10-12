@@ -16,7 +16,7 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
     - Go to **My Account** > **My MBI Instances**.
 
-    - Click the **Create Instance**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
+    - Click **Create Instance**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
 
     - Select your Cloud Starter subscription. If you only have a cloud starter subscription this will automatically be selected.
 

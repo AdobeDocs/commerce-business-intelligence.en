@@ -58,7 +58,7 @@ You have the option to show all results for the given characteristic. Since this
 
 #### 3. Action timestamp
 
-This will allow you to choose a date-based column other than the column on which the metric is created. Below, we'll look at selecting the time range that applies to the given action timestamp.
+This will allow you to choose a date-based column other than the column on which the metric is created. Below, we look at selecting the time range that applies to the given action timestamp.
 
 #### 4. Cohort first action time range
 

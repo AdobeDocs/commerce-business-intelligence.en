@@ -13,16 +13,16 @@ You have steady flow of traffic and orders, which means you are effectively reac
 Let us get started by entering our Google ECommerce credentials into MBI:
 
 1. Go to the Connections page under **Admin > Connections**.
-1. Click the **Add a New Source** button, located on the right side of the screen above the Data Sources table.
-1. Click the **Google ECommerce** icon. This will open the Google ECommerce credentials page.
-1. Enter your Google Analytics credentials. Upon completion of the authorization process, you will be redirected back to MBI.
+1. Click **Add a New Source**, located on the right side of the screen above the Data Sources table.
+1. Click the Google ECommerce icon. This will open the Google ECommerce credentials page.
+1. Enter your Google Analytics credentials. At completion of the authorization process, you will be redirected back to MBI.
 1. A list of profile IDs will display. Check the profiles you want to connect to MBI.
 
      If you have multiple profiles and need some help identifying which is which, refer to the **Connecting Multiple Google Analytics profiles** section below.
 
      ![](../../../assets/Screen_Shot_2015-11-17_at_12.16.43_PM.png)<!--{: width="500"}-->
 
-1. Changes are saved automatically, so just click the **Back to Connections** button when you are finished.
+1. Changes are saved automatically, so just click **Back to Connections** when you are finished.
 
 ## Connecting multiple GA profiles to MBI
 
@@ -37,8 +37,8 @@ To identify a particular website's Google Analytics Profile ID:
 ## Disconnecting Google ECommerce from MBI {#disconnect}
 
 1. Visit your Google [account settings](https://www.google.com/accounts/) page.
-1. Under the Security section, click the 'edit' link next to Authorizing applications and sites.
-1. Click the 'revoke access' link next to MBI.
+1. Under the Security section, click **edit** next to Authorizing applications and sites.
+1. Click **revoke access** next to MBI.
 
 ## Related:
 

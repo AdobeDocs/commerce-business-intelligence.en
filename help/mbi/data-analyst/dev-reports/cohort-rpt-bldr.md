@@ -136,7 +136,7 @@ Under **duration**, you can define the chart's X-axis settings. That is, how man
 
 #### Selecting the "counting members" table
 
-If you opted to group users by a cohort date that's been joined from another table, you may see a **counting members in the … table** option.
+If you opted to group users by a cohort date that has been joined from another table, you may see a **counting members in the … table** option.
 
 ![](../../assets/Cohort_Counting_Members_option.png)
 

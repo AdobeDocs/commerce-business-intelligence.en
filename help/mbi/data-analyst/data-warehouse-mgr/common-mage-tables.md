@@ -20,6 +20,8 @@ Below is a list of some of the more common tables that MBI customers utilize. Af
 |`sales_order_address`|Each row on the `sales_order_address` table contains shipping and billing information for a specific order. On the `sales_order` table, the `billing_address_id` and the `shipping_address_id` for a given order refer to a specific row (identified by `entity_id`) on the `sales_order_address` table.|
 |`sales_order_item`|Each row in the [`sales_order_item`](../data-warehouse-mgr/sales-flat-quote-item-table.md) table identifies a specific item from a specific order. Each row contains details such as the product, the quantity purchased, and the order with which the given item is associated.|
 
+{style="table-layout:auto"}
+
 ## Related documentation
 
 [Magento Entity Relationship Diagrams](../data-warehouse-mgr/entity-rel-diag.md)

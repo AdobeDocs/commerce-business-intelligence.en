@@ -4,13 +4,11 @@ description: Learn how data is generated, what exactly causes a new row to be in
 ---
 # Managing data dimensions
 
-A dimension is a field in the same table as a metric that can be used to filter or segment charts based on that metric. For example, a revenue metric may contain city, state, country, order status, coupon code and other types of dimensions.
-
-
 >[!NOTE]
 >
->To manage dimensions, you must have administrative access.
+>[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
+A dimension is a field in the same table as a metric that can be used to filter or segment charts based on that metric. For example, a revenue metric may contain city, state, country, order status, coupon code and other types of dimensions.
 
 ## Add dimensions to multiple metrics
 

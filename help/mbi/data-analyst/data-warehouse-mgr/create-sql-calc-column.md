@@ -54,7 +54,7 @@ A new Calculation column can be added to a table by navigating to **Manage Data*
 From here you can create a new Calculation column by following the steps below:
 
 1. Select the table upon which you would like to add the Calculation column
-1. While on the correct table, click the green **Create New Column** button at the top right of the screen
+1. While on the correct table, click **Create New Column** at the top right of the screen
 1. From the **Select a definition** dropdown, select **Same Table**
 1. Select **Calculation** as the column definition equation
 1. Enter the column name
@@ -66,5 +66,5 @@ From here you can create a new Calculation column by following the steps below:
     * String – Any type of text or series of characters that uses non numbers
     * Datetime – yyyy-MM-dd hh:mm:ss format
 
-1. Click the **test column** button. This will generate a list of 5 test values for each of your inputs, and show the result of the logic from step 6 for each set of test values. If any portion of the SQL generates an error, the appropriate error message will be returned. Note that sample results can only be generated if all input columns are native fields. If any of the input columns are calculated columns, you will need to validate the results by adding the column to a metric and viewing in the Visual Report Builder
+1. Click **test column**. This will generate a list of 5 test values for each of your inputs, and show the result of the logic from step 6 for each set of test values. If any portion of the SQL generates an error, the appropriate error message will be returned. Note that sample results can only be generated if all input columns are native fields. If any of the input columns are calculated columns, you will need to validate the results by adding the column to a metric and viewing in the Visual Report Builder
 1. When you are satisfied with the results, click **Save**, and your column will be available for use.

@@ -30,9 +30,9 @@ It is not as complicated as it might sound. Let us get started.
 
 The public key is used to authorize the MBI Linux user. In the next section, we will create the user and import the key.
 
-1. Go to **Manage** **Data > Connections** and click the Add New Data Source button.
+1. Go to **Manage** **Data > Connections** and click **Add New Data Source**.
 1. Click the MySQL icon.
-1. After the MySQL credentials page opens, toggle the Encrypted button to Yes. This will display the SSH setup form.
+1. After the MySQL credentials page opens, set the _Encrypted_ toggle to `Yes`. This will display the SSH setup form.
 1. The public key is located underneath this form.
 
 Leave this page open throughout the tutorial - you will need it in the next section and at the end.
@@ -43,7 +43,7 @@ If you are a bit lost, here's how to navigate through MBI to retrieve the key:
 
 ## Allow access to the MBI IP address {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151** but they're also on the MySQL credentials page. See the blue box in the GIF above? That's it!
+For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151** but they're also on the MySQL credentials page. See the blue box in the GIF above? That is it!
 
 ## Creating a Linux user for MBI {#linux}
 
@@ -92,7 +92,7 @@ To restrict this user from accessing data in specific databases, tables, or colu
 
 ## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click the Add New Data Source button, then the MySQL icon. do not forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click **Add New Data Source**, then the MySQL icon. do not forget to set the _Encrypted_ toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 
@@ -109,7 +109,7 @@ In the SSH Connection section:
 * **Username:** The username for the MBI SSH (Linux) user
 * **SSH Port:** SSH port on your server (22 by default)
 
-That is it! When you are finished, click the Save & Test button to complete the setup.
+That is it! When you are finished, click **Save & Test** to complete the setup.
 
 ## Related:
 

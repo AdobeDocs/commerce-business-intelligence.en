@@ -31,16 +31,16 @@ Let us get started.
 
      ![](../../../assets/Screen_Shot_2015-11-20_at_3.48.08_PM.png)
 
-1. Click the **Create User** button.
+1. Click **Create User**.
 1. Now that you have created the user, you need to associate it to a database. Go back to the _Add New User_ section - see the settings for Add User to Database? That is what we need.
 1. In the User dropdown of this section, select the user you created.
 1. In the Database dropdown of this section, select the database you want to connect to MBI.
-1. Click the **Add** button.
+1. Click **Add**.
 1. When the checklist of privileges appears, check the box next to SELECT - this is all MBI needs to connect to your database.
 
 ## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Manage Data > Connections** and click the **Add New Data Source** button, then the MySQL icon.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Manage Data > Connections** and click **Add New Data Source**, then the MySQL icon.
 
 Enter the following info into this page in the Database Connection section:
 
@@ -49,14 +49,14 @@ Enter the following info into this page in the Database Connection section:
 * **Port:** MySQL's port on your server (3306 by default)
 * **Host:** The public address of the MySQL server MBI will connect to. This is usually the URL you use to log into cPanel.
 
-If you are using an [SSH tunnel](../integrations/mysql-via-ssh-tunnel.md), you will also need to enter the encryption information. Toggle the Encrypted button to Yes to display the form.
+If you are using an [SSH tunnel](../integrations/mysql-via-ssh-tunnel.md), you will also need to enter the encryption information. Set the _Encrypted_ toggle to `Yes` to display the form.
 
 * **Connection Type:** Set this to SSH Tunnel
 * **Remote Address:** The IP address or hostname of the server MBI will tunnel into
 * **Username:** The username for the MBI SSH (Linux) user ([click here](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) for instructions on how to do this, if you have not already)
 * **SSH Port:** SSH port on your server (22 by default)
 
-That's it! When you are finished, click the Save & Test button to complete the setup.
+That is it! When you are finished, click **Save & Test** to complete the setup.
 
 ## Related:
 

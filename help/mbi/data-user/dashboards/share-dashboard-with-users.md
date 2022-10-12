@@ -12,25 +12,25 @@ Sharing dashboards is a great way to keep your team in the loop and encourage co
 
 ## Share a dashboard
 
-1. Click the **Share Dashboard** button at the top of the screen.
+1. Click **Share Dashboard** at the top of the screen.
 
    A list of all users in your Magento Business Intelligence account will display.
 
 1. To select a user to share the dashboard with, check the box to the left of their name.
 
-   To select/deselect all users, click the **Select** button and select `Everyone` or `None`, respectively.
+   To select/deselect all users, click **Select** and select `Everyone` or `None`, respectively.
 
 1. Permissions can be set on a user-by-user basis or en masse.
 
     **To set individual permissions**, click **None** to the right of the user's name. From this dropdown, select the type of permissions the user should have.
 
-    **To set permissions en masse**, click the **Set Permissions** button. From this drop-down, select the type of permissions the selected users should have.
+    **To set permissions en masse**, click **Set Permissions**. From this dropdown, select the type of permissions the selected users should have.
 
     >[!NOTE]
     >
     >You can also use this feature to update previously set permissions. For example, if you want to stop sharing the dashboard with someone, set their permissions to `None`.
 
-1. To share the dashboard, click the **Save Changes** button. The selected user(s) will receive an email inviting them to view the dashboard.
+1. To share the dashboard, click **Save Changes**. The selected user(s) will receive an email inviting them to view the dashboard.
 
 Example:
 

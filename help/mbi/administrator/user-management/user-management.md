@@ -2,7 +2,7 @@
 title: Managing users and permissions
 description: Learn how to manage your MBI users. 
 ---
-# Managing users
+# Manage user permissions
 
 MBI is intended to be a single source of truth across your organization. Each user will have their own set of dashboards which they can [share with other users](../../data-user/dashboards/share-dashboard-with-users.md).
 
@@ -39,11 +39,11 @@ These permissions enable users to perform certain actions or access specific par
 
 {style="table-layout:auto"}
 
-**Note:** _You can limit a Standard user's [access to specific metrics](../../administrator/user-management/restrict-metric-access.md)._
-
-_Standard users can access Billing with an additional permission setting._
-
 >[!NOTE]
+>
+>_You can limit a Standard user's [access to specific metrics](../../administrator/user-management/restrict-metric-access.md)._
+>
+>_Standard users can access Billing with an additional permission setting._
 >
 >Read-Only users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in MBI, nor can they search for and add new dashboards to their account. We recommend that you share a specific set of dashboards with Read-Only users that you or another member of your team maintains. Do not clone a set of dashboards for them.
 

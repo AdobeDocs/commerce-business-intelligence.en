@@ -18,7 +18,7 @@ To import CJ Affiliate (Commission Junction) data into MBI, simply follow the st
 
 1. Select **Run Report.**
 
-1. In the **File Format** dropdown, select **CSV**.  Click the **Download** button.
+1. In the **File Format** dropdown, select **CSV**.  Click **Download**.
 
     ![Screen_Shot_2014-02-04_at_3.31.27_PM.png](../../../assets/Screen_Shot_2014-02-04_at_3.31.27_PM.png)<!--{:.zoom}-->
 

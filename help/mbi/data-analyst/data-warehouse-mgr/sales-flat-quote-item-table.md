@@ -26,6 +26,8 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 |`sku`|Unique identifier for the cart item|
 |`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which Magento store view is associated with the cart item|
 
+{style="table-layout:auto"}
+
 ## Common Calculated Columns
 
 |**Column Name**|**Description**|
@@ -35,7 +37,8 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 |`Cart item total value (qty * base_price)`|Total value of an item at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied. Calculated by multiplying the `qty` by the `base_price`|
 |`Seconds since cart creation`|Elapsed time between the cart's creation date and now. Calculated by joining `quote_item.quote_id` to `quote.entity_id` and returning the `Seconds since cart creation` field|
 |`Store name`|Name of the Magento store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
-{:style="table-layout:fixed;"}
+
+{style="table-layout:auto"}
 
 ## Common Metrics
 
@@ -43,7 +46,8 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 |---|---|---|
 |Number of abandoned cart items|Total quantity of items added to carts that meet specific "abandonment" conditions|Operation: Sum<br/>Operand: `qty`<br/>Timestamp: `Cart creation date`<br>Filters:<br><br>- \[A\] `Cart is active? (1/0)` = 1<br>- \[B\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
 |Abandoned cart item value|Sum of total revenue associated with carts that meet specific "abandonment" conditions|Operation: Sum<br>Operand: `Cart item total value (qty * base_price)`<br>Timestamp: `Cart creation date`<br>Filters:<br><br>- \[A\] `Cart is active? (1/0)` = 1<br>- \[B\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
-{:style="table-layout:fixed;"}
+
+{style="table-layout:auto"}
 
 ## Foreign Key Joining Paths
 

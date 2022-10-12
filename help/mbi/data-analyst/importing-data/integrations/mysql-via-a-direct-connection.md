@@ -40,7 +40,7 @@ To restrict this user from accessing data in specific databases, tables, or colu
 
 ## Enter connection info in MBI
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click the Add New Data Source button, then the MySQL icon. Do not forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click **Add New Data Source**, then the MySQL icon. Do not forget to change the _Encrypted_ toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 
@@ -52,7 +52,7 @@ Enter the following info into this page, starting with the Database Connection s
 
    The value can be found in your my.cnf file (usually located at "/etc/my.cnf") underneath the line that reads "\[mysqld\]". If the bind-address line is commented out in that file, your server is secured from outside connection attempts.
 
-That is it! When you are finished, click the Save & Test button to complete the setup.
+That is it! When you are finished, click **Save & Test** to complete the setup.
 
 ## Related documentation
 

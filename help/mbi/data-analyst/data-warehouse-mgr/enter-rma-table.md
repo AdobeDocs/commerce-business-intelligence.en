@@ -16,6 +16,8 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.
 |order\_id|Foreign key associated with the `sales\_flat\_order` table.|
 |customer\_id|Foreign key associated with the `customer\_entity` table.|
 
+{style="table-layout:auto"}
+
 ## Common Calculated Columns
 
 |**Column Name**|**Description**|
@@ -25,6 +27,8 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.
 |Seconds between order's created\_at and return's date\_requested|The number of seconds from the order date to the return request.|
 |Return's total value|This is the total monetary amount that is returned. This will be the sum of each return item's individual return amount.|
 
+{style="table-layout:auto"}
+
 ## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
@@ -33,6 +37,8 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.
 |Total returned amount|The total monetary amount returned.|Operation Column: Return's total value<br>Operation: Sum<br>Timestamp Column: date requested|
 |Average returned amount|The average monetary amount returned.|Operation Column: Return's total value<br>Operation: Average<br>Timestamp Column: date requested|
 |Average time to return|The average time from order to return.|Operation Column: Seconds between order's created at and return's date requested<br>Operation: Average<br>Timestamp Column: date requested|
+
+{style="table-layout:auto"}
 
 ## Connections to Other Tables
 

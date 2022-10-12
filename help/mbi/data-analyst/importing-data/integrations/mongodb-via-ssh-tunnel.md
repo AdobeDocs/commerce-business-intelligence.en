@@ -21,9 +21,9 @@ To connect your MongoDB database to MBI via an SSH tunnel, you (or your team, if
 
 The public key is used to authorize the MBI Linux user. In the next section, we create the user and import the key.
 
-1. Go to **Data > Connections** and click the **Add New Data Source** button.
+1. Go to **Data > Connections** and click **Add New Data Source**.
 1. Click the **MongoDB** icon.
-1. After the MongoDB credentials page opens, toggle the **Encrypted** button to **Yes**. This will display the SSH setup form.
+1. After the MongoDB credentials page opens, change the **Encrypted** toggle to `Yes`. This will display the SSH setup form.
 1. The public key is located underneath this form.
 
 Leave this page open throughout the tutorial - you will need it in the next section and at the end.
@@ -113,7 +113,7 @@ To bind your MongoDB server to a different address, adjust the database hostname
 
 ## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MongoDB credentials page open? If not, go to **Data > Connections** and click the Add New Data Source button, then the MongoDB icon. do not forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MongoDB credentials page open? If not, go to **Data > Connections** and click **Add New Data Source**, then the MongoDB icon. do not forget to change the _Encrypted_ toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 
@@ -129,7 +129,7 @@ Under the SSH Connection section:
 * **Username:**The MBI Linux (SSH) username (should be rjmetric)
 * **SSH Port:**The SSH port on your server (22 by default)
 
-That's it! When you are finished, click the Save &amp; Test button to complete the setup.
+That is it! When you are finished, click **Save Test** to complete the setup.
 
 ### Related
 

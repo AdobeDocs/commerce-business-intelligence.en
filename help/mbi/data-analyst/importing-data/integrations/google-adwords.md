@@ -15,14 +15,14 @@ You did your research, you created your ads, you launched your campaign. Now it 
 Let us get started by entering our Google Adwords credentials into MBI:
 
 1. Go to the Connections page under **Manage Data > Integrations**.
-1. Click the **Add Integration** button, located on the upper-right side of the screen.
+1. Click **Add Integration**, located on the upper-right side of the screen.
 1. Click the **Google Adwords** icon. This will open the Google Adwords credentials page.
 1. Enter your Google Analytics credentials. Upon completion of the authorization process, you will be redirected back to MBI.
 1. A list of profile IDs will display. Check the profiles you want to connect to MBI.
 
      ![](../../../assets/cnnct-profile.png){: width="400"}
 
-1. Changes are saved automatically, so click the **Back to Connections** button when you are done.
+1. Changes are saved automatically, so click **Back to Connections** when you are done.
 
 If you have multiple profiles and need some help identifying which is which, refer to the **Connecting Multiple Google Analytics profiles** section below.
 

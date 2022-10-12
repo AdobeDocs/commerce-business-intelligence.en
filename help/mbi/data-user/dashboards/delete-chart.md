@@ -20,7 +20,7 @@ To permanently delete a chart:
 
    >[!NOTE]
    >
-   >If the chart is being used in a dashboard, email summary, etc., a notification will display. To continue, you must confirm the deletion and then click the **Force Deletion** button.
+   >If the chart is being used in a dashboard, email summary, etc., a notification will display. To continue, you must confirm the deletion and then click **Force Deletion**.
 
 Example:
 

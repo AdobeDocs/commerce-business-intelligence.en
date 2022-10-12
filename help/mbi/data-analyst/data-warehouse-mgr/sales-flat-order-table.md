@@ -30,6 +30,8 @@ This table includes all customer orders, whether or not that order was processed
 |`status`|Order's status. May return values such as 'complete', 'processing', 'cancelled', 'refunded', as well as any custom statuses implemented on the Magento instance. Subject to changes as the order gets processed|
 |`store_id`|Foreign key associated with the `store` table. Join to `store`.`store_id` to determine which Magento store view is associated with the order|
 
+{style="table-layout:auto"}
+
 ## Common Calculated Columns
 
 |**Column Name**|**Description**|
@@ -53,7 +55,8 @@ This table includes all customer orders, whether or not that order was processed
 |`Shipping address country`|Shipping country code for the order. Calculated by joining `sales_order`.`Shipping_address_id` to `sales_order_address`.`entity_id` and returning the `country_id`|
 |`Shipping address region`|Shipping region (most often state or province) for the order. Calculated by joining `sales_order`.`shipping_address_id` to `sales_order_address`.`entity_id` and returning the `region` field|
 |`Store name`|The name of the Magento store associated with this order. Calculated by joining `sales_order`.`store_id` to `store`.`store_id` and returning the `name` field|
-{:style="table-layout:fixed;"}
+
+{style="table-layout:auto"}
 
 ## Common Metrics
 
@@ -67,7 +70,8 @@ This table includes all customer orders, whether or not that order was processed
 |Shipping|The sum of the shipping amount for all orders|Operation: Sum<br/>Operand: `base_shipping_amount`<br/>Timestamp: `created_at`|
 |Tax|The sum of the taxes applied to all orders|Operation: Sum<br/>Operand: `base_tax_amount`<br/>Timestamp: `created_at`|
 |Unique Customers|The number of unique customers placing an order in the given reporting time interval. For example if the report's interval was weekly, each customer who places at least one order in a given week will be counted exactly once, regardless of how many orders they placed in that week|Operation: Count Distinct<br/>Operand: `customer_email`<br/>Timestamp: `created_at`|
-{:style="table-layout:fixed;"}
+
+{style="table-layout:auto"}
 
 ## Foreign Key Joining Paths
 

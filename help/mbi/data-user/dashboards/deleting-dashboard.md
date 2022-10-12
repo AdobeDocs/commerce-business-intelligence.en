@@ -16,7 +16,7 @@ If you want to keep your dashboard list from becoming too cluttered, you can del
 
 1. In the list of dashboards, click the dashboard you want to delete.
 
-1. Click the **Delete Dashboard** button.
+1. Click **Delete Dashboard**.
 
 Example:
 
@@ -28,7 +28,7 @@ Example:
 
 1. In the dropdown, click **Delete**.
 
-1. When prompted to confirm, click the **Delete** button.
+1. When prompted to confirm, click **Delete**.
 
 Example:
 

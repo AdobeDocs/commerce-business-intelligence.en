@@ -69,8 +69,8 @@ Note that we will make the assumption that all campaign costs were exclusively u
 1. **Users**\: Add the metric New Users - this will be variable \[B\]. This will simply return the number of users by campaigns.
 1. **LTV**\: Add the metric Average Lifetime Revenue - this will be variable \[C\]. This will simply return LTV by campaigns.
 
-1. Click the hide button beside the word Chart so you can focus on the table
-1. Now we will use the **Add Formula** button to combine these metrics, as follows:
+1. Click the hide icon beside the word Chart so you can focus on the table
+1. Now we will use **Add Formula** to combine these metrics, as follows:
 1. **ROI**\: Enter the formula **"(\[C\]-\[A\]/\[B\])/(\[A\]/\[B\])"**, if \[A\] represents "Ad Cost by Campaigns", \[B\] represents "New users by campaigns", and \[C\] "LTV by campaigns". This will return the ratio of (average user LTV - average cost per acquisition) / (average cost per acquisition)
 1. **Avg Return per User**\: Enter the formula **"\[C\]-(\[A\]/\[B\])"**. This will return the average margin made on a user by calculating (average user LTV) - (average cost per acquisition).
 1. **CPA**\: Enter the formula **"\[A\]/\[B\]"**. This will return the actual campaign's cost per acquisition.

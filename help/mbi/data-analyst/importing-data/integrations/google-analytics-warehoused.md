@@ -26,7 +26,7 @@ With the Google Analytics Live integration on the other hand, every Google Analy
 Google Analytics Warehoused is a Premium Integration. [Contact support](../../../getting-started/support.md) if you have an interest in adding this integration to your subscription.
 
 1. Go to the Connections page under **Admin > Integrations**.
-1. Click the Add a Add Integration button, located on the right side of the screen.
+1. Click **Add a Add Integration**, located on the right side of the screen.
 1. Click the Google Analytics Warehoused icon. This will open the Google Analytics credentials page.
 1. Enter your Google Analytics credentials. Upon completion of the authorization process, you will be redirected back to MBI.
 1. A list of profile IDs will display. Check the profiles you want to connect to MBI. If you have multiple profiles and need some help identifying which is which, refer to the Connecting Multiple Google Analytics profiles section below.

@@ -15,13 +15,13 @@ With the QuickBooks integration, your business finances can now live along side 
 ## Add QuickBooks as a data source in MBI
 
 1. Go to the **Integrations** page under **Manage Data > Data Sources**.
-1. Click the **Add Integration** button, located on the right side of the screen above the Data Sources table.
-1. Click the **QuickBooks** icon.
-1. Click the **Connect to Quickbooks** button.
+1. Click **Add Integration**, located on the right side of the screen above the Data Sources table.
+1. Click the QuickBooks icon.
+1. Click **Connect to Quickbooks**.
 
 ## Grant MBI access to your QuickBooks data
 
-After clicking the **Connect to Quickbooks** button, log into your Intuit account and authorize the connection:
+After clicking **Connect to Quickbooks**, log into your Intuit account and authorize the connection:
 
 ![](../../../assets/QuickBooks_App_Store_1.jpg)
 

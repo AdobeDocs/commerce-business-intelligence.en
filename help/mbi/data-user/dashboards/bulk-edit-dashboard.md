@@ -20,15 +20,15 @@ That being said, consider this - **Do these changes need to be permanent?** If n
 
 ## Using Find/Replace {#findreplace}
 
-1. Click the **gear** (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the **Bulk Edit Reports** window.
+1. Click the gear (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the _Bulk Edit Reports_ window.
 
 1. Click **Chart Title Find and Replace** in the pop-up window.
 
-1. In the **Chart Title Find** field, type the words or characters you want to find.
+1. In the _Chart Title Find_ field, type the words or characters you want to find.
 
-1. In the **Replace With** field, type the words or characters that should replace what is in the **Find** field.
+1. In the _Replace With_ field, type the words or characters that should replace what is in the _Find_ field.
 
-1. Click the **Update Reports** button.
+1. Click **Update Reports**.
 
 Example:
 
@@ -36,13 +36,13 @@ Example:
 
 ## Prepending Chart Names {#prepend}
 
-1. Click the **gear** (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the **Bulk Edit Reports **window.
+1. Click the gear (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the _Bulk Edit Reports_ window.
 
 1. Click **Prepend Report Names** in the pop-up window.
 
 1. Type the words or characters you want to prepend your charts with.
 
-1. Click the **Update Reports** button.
+1. Click **Update Reports**.
 
 Example:
 
@@ -50,7 +50,7 @@ Example:
 
 ## Changing Dates {#dates}
 
-1. Click the **gear** (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the **Bulk Edit Reports** window.
+1. Click the gear (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the _Bulk Edit Reports_ window.
 
 1. Click **Change Dates** in the pop-up window.
 

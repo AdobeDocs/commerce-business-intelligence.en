@@ -18,6 +18,8 @@ This table does not contain records of customers who place an order via guest ch
 |`group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the registered account|
 |`store_id`|Foreign key associated with the `store` table. Join to `store`.`store_id` to determine which Magento store view is associated with the registered account|
 
+{style="table-layout:auto"}
+
 ## Common Calculated Columns
 
 |**Column Name**|**Description**|
@@ -32,7 +34,8 @@ This table does not contain records of customers who place an order via guest ch
 |`Customer's lifetime revenue`|Sum total of revenue for all orders placed by this customer. Calculated by joining `customer_entity.entity_id` to `sales_order.customer_id` and summing the `base_grand_total` field for all orders placed by this customer|
 |`Seconds since customer's first order date`|Elapsed time between the customer's first order date and now. Calculated by subtracting `Customer's first order date` from the server timestamp at the time the query is executed, returned as an integer number of seconds|
 |`Store name`|The name of the Magento store associated with this registered account. Calculated by joining `customer_entity.store_id` to `store.store_id` and returning the `name` field|
-{:style="table-layout:fixed;"}
+
+{style="table-layout:auto"}
 
 ## Common Metrics
 
@@ -44,7 +47,8 @@ This table does not contain records of customers who place an order via guest ch
 |Avg lifetime revenue|The average total revenue per customer for all orders placed over their lifetime|Operation: Average<br/>Operand: `Customer's lifetime revenue`<br/>Timestamp: `created_at`|
 |New customers|The number of customers with at least one order, counted on the date of their first order. Excludes accounts who register but never place an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `Customer's first order date`|
 |Registered accounts|The number of accounts registered. Includes all registered accounts, regardless of whether or not the account ever placed an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `created_at`|
-{:style="table-layout:fixed;"}
+
+{style="table-layout:auto"}
 
 ## Foreign Key Joining Paths
 

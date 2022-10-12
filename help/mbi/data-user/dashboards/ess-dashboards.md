@@ -36,7 +36,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
         For example, if your Magento installation has multiple store views, you might create a Group for each store view.
 
-    * Click the **Create** button.
+    * Click **Create**.
 
     ![dashboard name](../../assets/magento-bi-dashboard-create-name.png)<!--{: .zoom}-->
 

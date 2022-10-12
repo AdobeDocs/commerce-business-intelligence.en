@@ -4,7 +4,7 @@ description: Learn how to leave or unshare yourself from a dashboard.
 ---
 # Leave (unshare) a dashboard
 
-Changing teams? In the middle of spring cleaning your MBI account? To leave or unshare yourself from a dashboard, click **Shared** at the top of the screen while in the dashboard you want to leave. Click the **Leave this Dashboard** button to remove yourself.
+Changing teams? In the middle of spring cleaning your MBI account? To leave or unshare yourself from a dashboard, click **Shared** at the top of the screen while in the dashboard you want to leave. Click **Leave this Dashboard** to remove yourself.
 
 Example:
 

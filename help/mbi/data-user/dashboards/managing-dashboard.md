@@ -48,7 +48,7 @@ To change your default dashboard for the account:
 
 1. Click the name of the dashboard you want as your default.
 
-1. Click the **Make Default** button.
+1. Click **Make Default**.
 
 ## Delete Dashboards {#delete}
 
@@ -56,4 +56,4 @@ To delete a dashboard:
 
 1. Click the name of the dashboard you want to delete.
 
-1. Click the **Delete Dashboard** button.
+1. Click **Delete Dashboard**.

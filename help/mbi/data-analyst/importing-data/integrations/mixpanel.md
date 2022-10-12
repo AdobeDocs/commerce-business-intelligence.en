@@ -25,8 +25,8 @@ To complete this process, you will need to open two browser windows or tabs - on
 Let us get started:
 
 1. Go to the _Connections_ page under **Manage Data** > **Connections**.
-1. Click the **Add a New Source** button, located on the right side of the screen above the Data Sources table.
-1. Click the **Mixpanel icon** and the credentials page will open.
+1. Click **Add a New Source**, located on the right side of the screen above the Data Sources table.
+1. Click the Mixpanel icon and the credentials page will open.
 
 Leave this page open for now and switch to the browser window with your Mixpanel account.
 
@@ -45,7 +45,7 @@ Keep this open - we need it to wrap this up.
 ## Entering your Mixpanel API credentials in MBI {#stepthree}
 
 1. Copy the API Key and Secret into the Mixpanel credentials page in MBI.
-1. Click Connect to Mixpanel to complete the setup.
+1. Click **Connect to Mixpanel** to complete the setup.
 
 That is it! If the connection is successful, a _Success!_ message will display at the top of the page.
 

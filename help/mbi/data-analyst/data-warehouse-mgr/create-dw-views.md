@@ -43,9 +43,8 @@ Let us take a look a closer look at one of the examples mentioned earlier in thi
 
 **Sample data:**
 
-|||||||
+|**_id**|****campaign**|**adClicks**|**date**|**impressions**|**adCost**|
 |--- |--- |--- |--- |--- |--- |
-|**_id|**campaign|**adClicks|**date|**impressions**|**adCost|
 |1|eee|60|2017-05-05 00:00:00|2000|10.2|
 |2|ggg|40|2017-05-23 00:00:00|900|4.6|
 |3|aaa|22|2017-06-12 00:00:00|400|2.5|
@@ -114,9 +113,8 @@ Let us take a look a closer look at one of the examples mentioned earlier in thi
 
 **Sample data:**
 
-|||||||
+|**_id**|****campaign**|**adClicks**|**date**|**impressions**|**adCost**|
 |--- |--- |--- |--- |--- |--- |
-|**_id|**campaign|**adClicks|**date|**impressions**|**adCost|
 |1|aaa|25|2017-05-01 00:00:00|1200|5|
 |2|ddd|12|2017-05-15 00:00:00|800|2.5|
 |3|aaa|40|2017-05-22 00:00:00|2000|7|
@@ -219,9 +217,8 @@ A couple of important points about the above:
 
 Saving the query above as a Data Warehouse View will create a new table with both Facebook and AdWords spend, similar to the below:
 
-|||||||
+|**_id**|****campaign**|**adClicks**|**date**|**impressions**|**adCost**|
 |--- |--- |--- |--- |--- |--- |
-|**_id|**campaign|**adClicks|**date|**impressions**|**adCost|
 |1|aaa|25|2017-05-01 00:00:00|1200|5|
 |2|ddd|12|2017-05-15 00:00:00|800|2.5|
 |3|aaa|40|2017-05-22 00:00:00|2000|7|

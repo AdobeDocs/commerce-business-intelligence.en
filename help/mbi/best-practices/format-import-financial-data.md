@@ -28,5 +28,4 @@ To flatten a two-dimensional table using an Excel pivot table:
 1. Double-click the resulting numerical value to show the flattened source data in a new sheet.
     ![](../../mbi/assets/pivot-table-double-click.png)
 1. Save as a **CSV** file.
-
-That's it! The data table has been converted to a list format, preserving all of its original information, and can now be [imported to MBI](../data-analyst/importing-data/connecting-data/using-file-uploader.md) for analysis.
+ iThat's it! The data table has been converted to a list format, preserving all of its original information, and can now be [imported to MBI](../data-analyst/importing-data/connecting-data/using-file-uploader.md) for analysis.

@@ -12,7 +12,7 @@ The [Visual Report Builder](../data-user/reports/ess-rpt-build-visual.md) allows
 
 ## Step 1: Creating a Report
 
-To get started creating a new report, click **Report Builder** on the sidebar or the **Add Report** button at the top of any dashboard. When the **Report Builder** selection page displays, click the **Visual Report Builder** option.
+To get started creating a new report, click **Report Builder** on the sidebar or **Add Report** at the top of any dashboard. When the **Report Builder** selection page displays, click the **Visual Report Builder** option.
 
 To edit a report created in the Visual Report Builder, click the gear (Options) icon in the top right corner of any chart, then click **Edit**.
 
@@ -24,7 +24,7 @@ You can add additional metrics after the initial metric is selected and overlay 
 
 ## Step 3: Adding Formulas
 
-Formulas are added to reports by clicking the **Add Formula** button, located just above the list of metrics in the report. In the [formula editor](../data-analyst/dev-reports/formulas-in-rpt-bldr.md), any of the metrics included in the report can be used as inputs. Basic mathematical operators are used to manipulate the different metrics.
+Formulas are added to reports by clicking **Add Formula**, located just above the list of metrics in the report. In the [formula editor](../data-analyst/dev-reports/formulas-in-rpt-bldr.md), any of the metrics included in the report can be used as inputs. Basic mathematical operators are used to manipulate the different metrics.
 
 Let's say we wanted to create a report that shows us the average revenue per order. In this case, we would divide the **Revenue** metric by the **Number of orders** metric.
 
@@ -114,11 +114,11 @@ To learn more about using time options in your reports, see this [tutorial](../t
 
 ## Step 7: Saving the Report
 
-When you create a new chart, you can save it by clicking the **Save** button at the top right corner of the Visual Report Builder.
+When you create a new chart, you can save it by clicking **Save** at the top right corner of the Visual Report Builder.
 
 You can choose to save a chart, table, or number (scalar) using the **Type** dropdown and the dashboard to which the report should be saved using the Location dropdown.
 
-You can then save the report by clicking the **Save to Dashboard** button.
+You can then save the report by clicking **Save to Dashboard**.
 
 ![](../assets/Screen_Shot_2015-11-23_at_5.51.17_PM.png)
 

@@ -20,7 +20,7 @@ This is particularly useful if you want to re-create an existing set of charts b
 
    If you do not enter any values in these fields, a `(2)` will automatically be appended at the end of all chart titles in the new dashboard.
 
-1. Click the **Save** button to clone the dashboard.
+1. Click **Save** to clone the dashboard.
 
 Example:
 

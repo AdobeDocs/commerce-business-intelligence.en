@@ -31,14 +31,14 @@ If you want to export the table from **Manage Data** tab, you will need [Admin](
      * **Available Columns** - This field lists the columns (dimensions) in your database that are available for inclusion in the export. To add a column, click its name.
      * **Selected Columns** - This field lists the columns (dimensions) currently included in the export. To remove a column, click its name.
      * **Filter** - This section lists the filters currently applied to the export. These filters can be changed; new filters can also be added to export a particular dataset.
-     * When finished, click the **Export Data** button.
+     * When finished, click **Export Data**.
 
 ### Exporting at the Chart Level from the Dashboard
 
 1. Click the gear icon in the top right corner of any chart.
 1. Select **Raw Export** from the dropdown to display the **Raw Export** dialog.
 1. Customize the export by choosing the table, columns, and filters to include or exclude. Refer to the previous section for more detailed info on the fields in this module. Note that the table that displays in the _Table_ field is, by default, the table that powers the chart.
-1. When finished, click the **Export Data** button.
+1. When finished, click **Export Data**.
 
 Let us take a look at the entire process at the chart level.
 
@@ -48,12 +48,12 @@ Let us take a look at the entire process at the chart level.
 
 The export will begin processing immediately after completing your selections in the **Raw Data Export** dialog. As some exports can be large in size, they are limited to 10 million rows and may take some time to run.
 
-To check if your export is ready, click the **Raw Data Exports** button in the top right corner of the screen. Click the **Download** button to download a zipped .csv of your export.
+To check if your export is ready, click **Raw Data Exports** in the top right corner of the screen. Click **Download** to download a zipped .csv of your export.
 
 ![](../assets/Downloading_export.gif)
 
 ## Step 3: Accessing Historical Exports {#historical}
 
-To view your past exports, click the **Raw Data Export** button in the top right corner of the screen. Pending and completed reports can be accessed for up to seven days.
+To view your past exports, click **Raw Data Export** in the top right corner of the screen. Pending and completed reports can be accessed for up to seven days.
 
 Congratulations! You have finished.

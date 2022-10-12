@@ -45,7 +45,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
    If you are a Google Analytics pro and created your own channels, you will want to add your specific rules to the mapping table before uploading the file into MBI.
 
-   Bring it into your Data Warehouse as a [File Upload](../importing-data/connecting-data/using-file-uploader.md)
+   Bring it into your Data Warehouse as a [File Upload](../importing-data/connecting-data/using-file-uploader.md).
 
    ![](../../assets/Setting_Primary_Keys.png)
 

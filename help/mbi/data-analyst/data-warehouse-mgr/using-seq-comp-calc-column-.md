@@ -17,9 +17,8 @@ The **Sequential Comparison** column type finds the difference between consecuti
 
 **Example**
 
-|||||
-|--- |--- |--- |--- |
 |**event_id**|**owner_id**|**timestamp**|**Seconds since owner's previous event**|
+|--- |--- |--- |--- |
 |**1**|A|2015-01-01 00:00:00|NULL|
 |**2**|B|2015-01-01 00:30:00|NULL|
 |**3**|A|2015-01-01 02:00:00|7200|
@@ -125,7 +124,7 @@ To create an **Event Number** column:
 
 1. Navigate to the **Manage Data** > **Data Warehouse** page.
 1. Navigate to the table on which you want to create this column.
-1. Click the green **Create New Column** button at the top right of the screen.
+1. Click **Create New Column** at the top right of the screen.
 1. Select **Same Table** as the Definition Type (if the columns you want to compare are not on the same table you may need to relocate them).
 1. Select **SEQUENTIAL_COMPARISON** as the Column Definition Equation.
 1. Choose the inputs, as explained above:

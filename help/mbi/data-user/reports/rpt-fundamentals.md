@@ -125,9 +125,9 @@ Simply go to any dashboard and [create a new report](../../data-user/reports/ess
 
 When creating reports that will be shared with other members of your team, we recommend adding descriptions which will allow other users to better understand your analysis.
 
-1. Click the **i** button at the top of any report.
+1. Click **i** at the top of any report.
 1. Enter a description into the word box.
-1. Hit Save Description.
+1. Click **Save Description.
 
 Let us take a look:
 
@@ -138,10 +138,10 @@ Let us take a look:
 Need to include a report in a presentation or document? Any report can be saved as an image (in PNG, PDF, or SVG format) using the Report Options menu, located in the top right corner of every report.
 
 1. Click the gear icon in the top right corner of any report.
-1. From the drop-down, select Enlarge.
-1. When the report enlarges, click the download icon in the top right corner of the report.
+1. From the dropdown, select **Enlarge**.
+1. When the report enlarges, click **Download** in the top right corner of the report.
 1. Select the preferred image format from the dropdown. The download will begin immediately.
 
-Let us take a look:
+Take a look:
 
 ![](../../assets/3.3.gif)

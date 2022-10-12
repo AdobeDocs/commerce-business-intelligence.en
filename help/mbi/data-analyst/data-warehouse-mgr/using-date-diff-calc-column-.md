@@ -14,9 +14,8 @@ A date difference calculated column could be used to create a metric which calcu
 
 **Example**
 
-|||||
+|**id**|**timestamp_1**|**timestamp_2**|**Seconds between timestamp_2 and timestamp_1**|
 |--- |--- |--- |--- |
-|**id|**timestamp_1**|**timestamp_2**|**Seconds between timestamp_2 and timestamp_1**|
 |**A**|2015-01-01 00:00:00|2015-01-01 12:30:00|45000|
 |**B**|2015-01-01 08:00:00|2015-01-01 10:00:00|7200|
 
@@ -76,13 +75,13 @@ The following steps describe how to create a **Date Difference** column.
 1. Navigate to the **Manage Data** > **Data Warehouse** page.
 1. Navigate to the table on which you want to create this column.
 1. Click **Create a Column** and configure your column as follows:
-    * **Select Column Definition Type** => Same Table
-    * **Select Column Definition Equation** => DATE_DIFF = (Ending DATETIME - Starting DATETIME)
-    * **Select Ending DATETIME Column** => Choose the ending datetime field, which is typically the event that occurs later
-    * **Select Starting DATETIME Column** => Choose the starting datetime field, which is typically the event that occurs earlier
+    * **Select Column Definition Type** > Same Table
+    * **Select Column Definition Equation** > DATE_DIFF = (Ending DATETIME - Starting DATETIME)
+    * **Select Ending DATETIME Column** > Choose the ending datetime field, which is typically the event that occurs later
+    * **Select Starting DATETIME Column** > Choose the starting datetime field, which is typically the event that occurs earlier
 
 1. Provide a name to the column and click **Save**.
-1. The column will be available to use **immediately.**
+1. The column will be available to use **immediately**.
 
 As an example, the following example is configured to calculate the **Seconds between order date and customer's creation date**:
 

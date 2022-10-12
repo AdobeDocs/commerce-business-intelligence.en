@@ -15,22 +15,21 @@ description: Learn how to use MBI features available for Adobe Commerce.
 - Administrator {#administrator}
   - [Introduction](../mbi/administrator.md)
   - Account Management {#acct-mgmt}
+    - [Benefits of New Architecture](../mbi/administrator/account-management/new-architecture.md)
+    - [Display Dashboards around the office](../mbi/administrator/account-management/display-dashboards-office.md)
     - [Manage your Account](administrator/account-management/managing-account-settings.md)
     - [Restrict Database Access](../mbi/administrator/account-management/restrict-db-access.md)
-    - [Display Dashboards around the office](../mbi/administrator/account-management/display-dashboards-office.md)
-    - [New Architecture](../mbi/administrator/account-management/new-architecture.md)
   - User Management {#user-mgmt}
-    - [Manage Users](administrator/user-management/user-management.md)
     - [Create/Edit User](../mbi/administrator/user-management/create-user.md)
     - [Delete/Reactivate User](../mbi/administrator/user-management/delete-user.md)
-
+    - [Manage User Permissions](administrator/user-management/user-management.md)
     - [Reset Password](../mbi/administrator/user-management/reset-password.md)
     - [Restrict Metric Access](../mbi/administrator/user-management/restrict-metric-access.md)
     - [View Billing Information](../mbi/administrator/user-management/view-billing.md)
 - Analyze Data {#analyze}
   - [Data Analyst](data-analyst.md)
   - Data Warehouse Manager {#warehouse-manager}
-    - [Data Warehouse Manager](data-analyst/data-warehouse-mgr/tour-dwm.md)
+    - [Introduction](data-analyst/data-warehouse-mgr/tour-dwm.md)
     - [Advanced Calculated Column Types](data-analyst/data-warehouse-mgr/adv-calc-columns.md)
     - [Building Google Ecommerce dimensions](data-analyst/data-warehouse-mgr/bldg-google-ecomm-dim.md)
     - [Calculated Column Types](data-analyst/data-warehouse-mgr/calc-column-types.md)

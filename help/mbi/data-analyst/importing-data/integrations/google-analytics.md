@@ -15,14 +15,14 @@ Google Analytics is the most widely-used web analytics service on the internet. 
 Let us get started by entering our Google Analytics credentials into MBI:
 
 1. Go to the **Manage Data > Integrations** page.
-1. Click the Add Integration button, located on the right side of the screen.
+1. Click **Add Integration**, located on the right side of the screen.
 1. Click the Google Analytics icon. This will open the Google Analytics credentials page.
-1. Enter your Google AnalyticsA credentials. Upon completion of the authorization process, you will be redirected back to MBI.
+1. Enter your Google Analytics credentials. At completion of the authorization process, you will be redirected back to MBI.
 1. A list of profile IDs will display. Check the profiles you want to connect to MBI. If you have multiple profiles and need some help identifying which is which, refer to the Connecting Multiple Google Analytics profiles section below.
 
      ![](../../../assets/Screen_Shot_2015-11-17_at_11.20.08_AM.png)<!--{: width="600px"}-->
 
-1. Changes are saved automatically, so click the **Back to Connections** button when you are done.
+1. Changes are saved automatically, so click **Back to Connections** when you are done.
 
 ## Connecting multiple Google Analytics profiles
 

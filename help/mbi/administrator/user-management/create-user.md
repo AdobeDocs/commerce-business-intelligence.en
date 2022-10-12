@@ -8,7 +8,7 @@ description: Learn how to add a new MBI user and how to update your user name or
 1. Enter the user's name and email.
 1. Set the user's **general permission level**\: Admin, Standard, or Read Only.
 1. Indicate if this new user should also be accountable for **billing or technical** issues by checking the appropriate boxes.
-1. Click the **Save button**.
+1. Click the **Save**.
 1. The new user will receive an email with login and password details.
 
 >[!NOTE]
@@ -21,7 +21,7 @@ You can update your email address and/or password by clicking on your company na
 
 ## Resend the Invitation
 
-If you need to resend the invitation to the new user, on the [login page](https://dashboard.rjmetrics.com), click the **Forgot?** link, enter the new user's email address, and click the **Reset Password** button. This will resend the invitation and allow the user to log in.
+If you need to resend the invitation to the new user, on the [login page](https://dashboard.rjmetrics.com), click the **Forgot?** link, enter the new user's email address, and click **Reset Password**. This will resend the invitation and allow the user to log in.
 
 >[!IMPORTANT]
 >

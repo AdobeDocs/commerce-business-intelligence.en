@@ -10,7 +10,7 @@ description: Learn how to create columns to augment and optimize your data for a
 * [Handy reference map](#map)
 * [Advanced calculated columns](#advanced)
 
-Within the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), you have the ability to create columns to augment and optimize your data for analysis. [This functionality](../data-warehouse-mgr/creating-calculated-columns.md) can be accessed by selecting any table in the Data Warehouse Manager and clicking the **Create New Column** button.
+Within the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), you have the ability to create columns to augment and optimize your data for analysis. [This functionality](../data-warehouse-mgr/creating-calculated-columns.md) can be accessed by selecting any table in the Data Warehouse Manager and clicking **Create New Column**.
 
 This article describes the types of columns that you can create with the Data Warehouse Manager, along with a description, a visual walk through of that column, and a [reference map](#map) of all the inputs required to create a column. There are three ways to create calculated columns:
 

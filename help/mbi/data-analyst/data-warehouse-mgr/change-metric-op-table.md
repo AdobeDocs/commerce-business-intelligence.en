@@ -6,7 +6,7 @@ description: Learn how to change the data table that a metric uses to perform it
 
 In certain cases, you may decide to change the data table that a metric uses to perform its operation. For example, if you have a new users table, you will want to migrate your user related metrics from the  "Users\_Old" table to use the "Users\_New" table instead.
 
-1. Go to Data > Metrics
+1. Go to **Data** > **Metrics**
 1. Click **Edit** beside the metric for which you would like to switch the operational table.
 1. In the editor, click **Change**.
 

@@ -76,7 +76,7 @@ Now that your spreadsheet is correctly formatted and MBI-friendly, Let us add it
 
 1. Click the **Upload to New Table** tab.
 
-1. Click the **Choose File** button and select the file. Click **Open** to start the upload.
+1. Click **Choose File** and select the file. Click **Open** to start the upload.
 
    After the upload completes, you will see a list of the columns MBI found in your file.
 

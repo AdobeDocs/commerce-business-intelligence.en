@@ -46,9 +46,9 @@ In our example, we will move the column we created on the **mapping_state** tabl
 
 To create the joined column, navigate to the table that the field will be relocated to in the Data Warehouse Manager. In our example, this would be the **customer_address** table.
 
-1. Click the **Create a Column** button.
+1. Click **Create a Column**.
 1. Select **Joined Column** from the Definition dropdown.
-1. Give the column a name that differentiates it from the state column in your database. We'll go with **billing state (mapped)** so we can tell which column to use when segmenting in the report builder.
+1. Give the column a name that differentiates it from the state column in your database. We will go with **billing state (mapped)** so we can tell which column to use when segmenting in the report builder.
 1. The path we need to connect the tables does not exist, so we need to create a new one. Click the Create new path option in the Select a table and column dropdown.
 
    If you are not sure what the table relationship is or how to properly define the primary and foreign keys, check out [our tutorial](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) for some help.
@@ -59,9 +59,10 @@ To create the joined column, navigate to the table that the field will be reloca
 
       ![](../../assets/State_Mapping_Path.png)
 
-1. When finished, click the **Save** button to create the path.
+1. When finished, click **Save** to create the path.
 1. The path may not populate immediately after saving - if this happens, click the **Path** box and select the path you just created.
-1. Click the **Save** button to create the column.
+1. Click **Save** to create the column.
+
 That is it!
 
 ## What do I do now? {#wrapup}

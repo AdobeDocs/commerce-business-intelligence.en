@@ -12,7 +12,7 @@ In conjunction with [standardized, clear naming for all elements](../best-practi
 
 The first step in cleaning up your account is to deactivate the accounts of your non-active users, such as people who have left the company or no longer use MBI in their current roles.
 
-You can do this by clicking your company's name in the top-right corner of the top navigation bar, then selecting **Manage Users**. Next, select the user you want to deactivate, and click the **Deactivate User** button. **Note:** You need [Admin permissions](../administrator/user-management/user-management.md) to do this.
+You can do this by clicking your company's name in the top-right corner of the top navigation bar, then selecting **Manage Users**. Next, select the user you want to deactivate, and click **Deactivate User**. **Note:** You need [Admin permissions](../administrator/user-management/user-management.md) to do this.
 
 >[!WARNING]
 >
@@ -39,7 +39,7 @@ After you access your dashboards and reports, you can then begin cleaning up you
 **To Remove a Report from a Dashboard**
 
 1. Locate the report you want to remove on the dashboard.
-1. Select the **Options** button in the top-right corner of the report.
+1. Select **Options** in the top-right corner of the report.
 1. Click **Remove From Dashboard**.
 
 **To Delete an Entire Dashboard**
@@ -59,7 +59,7 @@ Note that deleting a dashboard does not delete the reports within it, so you wil
 1. Select **Manage Data**, then **Reports**.
 1. Check the **Only show unused reports** box located beneath the metrics list. This will create a list of reports that are not used in a dashboard or email summary.
 1. Select the reports you want to delete. You can select all by clicking the checkbox above the report list.
-1. Click the **Delete Selected** button.
+1. Click **Delete Selected**.
 
 Here is a look at the unused report deletion process:
 
@@ -70,7 +70,7 @@ Here is a look at the unused report deletion process:
 After you have cleaned up your users list, dashboards, and reports, you can move onto auditing your list of metrics. This will help you identify anything that might be outdated - for example, a new metric was created with a different definition - or not in use.
 
 1. To generate a list of dependent reports for a metric, go to **Manage Data**, then select **Metrics**.
-1. Click the **Edit** link next to a metric.
+1. Click **Edit** next to a metric.
 1. At the bottom of the page, you will see a section called **Dependent Charts**. Click the link to generate a dependent reports list for this metric.
 1. After the system completes the check, MBI displays a list of dashboards, reports, and users utilizing this metric.
 
@@ -90,7 +90,11 @@ Note that you can always start syncing these columns again in the future. Unsync
 
 1. Go to **Manage Data**, then **Data Warehouse**.
 1. In the **Synced Tables** list, navigate to the table that contains the column.
-1. Check the box(es) next to the column(s) you want to unsync. **Note that you cannot unsync a Primary Key column** without dropping the entire table.
+1. Check the box(es) next to the column(s) you want to unsync. 
+  >[!NOTE]
+  >
+  >You cannot unsync a Primary Key column without dropping the entire table.
+
 1. Click **Remove** to unsync the column(s).
 
 Here is a look at the whole process:

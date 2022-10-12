@@ -17,7 +17,7 @@ Email summaries are a powerful communication tool you can use to share the curre
 
    If this is the first time you are creating an email summary, this page does not display any saved summaries.
 
-1. Click the **Create New Email Summary** button in the top right corner.
+1. Click **Create New Email Summary** in the top right corner.
 
 1. Enter a name for the summary.
 

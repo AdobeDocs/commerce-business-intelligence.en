@@ -16,9 +16,8 @@ The most common use case of this column is to analyze first time buyers and repe
 
 **Example**
 
-|||||
-|--- |--- |--- |--- |
 |**event_id**|**owner_id**|**timestamp**|**Owner's event number**|
+|--- |--- |--- |--- |
 |**1|A|2015-01-01 00:00:00|1|
 |**2|B|2015-01-01 00:30:00|1|
 |**3|A|2015-01-01 02:00:00|2|

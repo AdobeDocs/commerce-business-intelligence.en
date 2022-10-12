@@ -27,7 +27,7 @@ To bring your Linkshare data into MBI, you need to do two things:
 
 1. Click **View Report**.
 
-1. Click the **Download** button.
+1. Click **Download**.
 
    At this point, a CSV file will be created and downloaded.
 

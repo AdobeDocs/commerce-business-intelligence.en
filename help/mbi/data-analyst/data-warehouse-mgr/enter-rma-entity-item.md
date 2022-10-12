@@ -19,6 +19,8 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 |order\_item\_id|Foreign key associated with the `sales\_flat\_order\_item` table.|
 |product\_sku|The sku being returned.|
 
+{style="table-layout:auto"}
+
 ## Common Calculated Columns
 
 |**Column Name**|**Description**|
@@ -27,12 +29,16 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 |Item price|The price of the item.|
 |Return item's total value (qty\_returned * price)|This is the total monetary value of the items that are returned. This will be used to calculate the total return amount on the `enterprise\_rma` table.|
 
+{style="table-layout:auto"}
+
 ## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
 |Number of items returned|The number of items that are returned.|Operation Column: qty returned<br>Operation: Sum<br>Timestamp Column: Return date requested |
 |Returned items' total value|The monetary amount returned. |Operation Column: Return item's total value (qty returned * price)<br>Operation: Sum<br>Timestamp Column: Return date requested|
+
+{style="table-layout:auto"}
 
 ## Connections to Other Tables
 

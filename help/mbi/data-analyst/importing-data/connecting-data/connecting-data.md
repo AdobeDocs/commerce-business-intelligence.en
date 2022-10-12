@@ -46,7 +46,7 @@ To learn more about getting started with the Import API, check out the [Develope
 
 ## Add an Integration
 
-To add an integration, click **Manage Data > Connections** and then the **Add a New Data Source** button. Click the icon of the integration you want to add and follow the instructions in our help articles to set things up:
+To add an integration, click **Manage Data > Connections** and then click **Add a New Data Source**. Click the icon of the integration you want to add and follow the instructions in our help articles to set things up:
 
 * [Integration FAQ](https://support.magento.com/hc/en-us/sections/360003161871-Integration-FAQ)
 * [Available SaaS and database integrations](../integrations/integrations.md)

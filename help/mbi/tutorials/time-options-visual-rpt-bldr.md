@@ -41,9 +41,9 @@ This type of report can be useful if you want to compare revenue generated year-
 
    * **Time Range**: set this to **Last Year** by first clicking **Custom**, then **Moving Range**, and finally the **Last Year** option.
 
-   * Click **Apply** to save the interval and range settings. This creates a metric that calculates the total revenue for the previous year. Next, we'll use this metric as the denominator in a formula.
+   * Click **Apply** to save the interval and range settings. This creates a metric that calculates the total revenue for the previous year. Next, we use this metric as the denominator in a formula.
 
-   * To see the percent of revenue for each month, we need to add a formula to the report. Click the **Add Formula** button.
+   * To see the percent of revenue for each month, we need to add a formula to the report. Click **Add Formula**.
 
    * Enter **B/A** in the formula field and select **% Percent** from the dropdown next to the text field. This formula divides the amount of revenue from a specific month last year by the total amount of revenue last year.
 
@@ -61,14 +61,14 @@ This example uses a custom dimension called **Day number of the month**. If you 
 
 The two most common examples in this category are (1) comparing growth metrics (revenue year-over-year, month-over-month, etc.) and (2) better understanding recent inventory or item sales trends.
 
-To demonstrate this use case, we'll look at the daily revenue for the previous month compared to the same month from the previous year. Let's say we want to look at the revenue for each day of January 2016 and then compare that to January 2015, January 2014, and so on – this report would show us that.
+To demonstrate this use case, we look at the daily revenue for the previous month compared to the same month from the previous year. Let's say we want to look at the revenue for each day of January 2016 and then compare that to January 2015, January 2014, and so on – this report would show us that.
 
 1. Add your **Revenue** metric to the report.
 1. Click the **Duplicate** option to make a copy of the metric.
 1. Rename the first metric to **Items sold last 7 days** and the second metric to **Items sold last 28 days**.
 1. Click the global **Time Range** option, then **Moving Time Range**. Set this to **Last Month**.
 1. Click the global **Time Interval** option and set it to **None**.
-1. Click the **Time Options** button (clock icon) next to the **second Revenue metric**.
+1. Click **Time Options** (clock icon) next to the **second Revenue metric**.
 1. Click **Time Options** in the expanded window that displays above the report.
 1. In the dropdown, set the following:
 
@@ -96,12 +96,12 @@ Remember to set the time ranges to what you need when building this report yours
 
 1. Add your **Items Sold** metric to the report.
 1. Click the **Duplicate** option to make a copy of the metric.
-1. Rename the metrics. You can use the same names we are, or use something that's similar:
+1. Rename the metrics. You can use the same names we are, or use something that is similar:
    1. Rename the first metric to **Items sold last 7 days**.
    1. Rename the second metric to **Items sold last 28 days**.
-1. On the **Items sold last 7 days** metric, click the global **Time Range** option then **Moving Time Range**. For this example, we'll set it to Last 7 Days.
+1. On the **Items sold last 7 days** metric, click the global **Time Range** option then **Moving Time Range**. For this example, we set it to Last 7 Days.
 1. Click the global **Time Interval** and set it to **None**.
-1. Next, we'll define the Time Options for the **Items sold last 28 days** metric. Click the **Time Options** button (clock icon) to the right of the **second Items sold metric**.
+1. Next, we define the Time Options for the **Items sold last 28 days** metric. Click **Time Options** (clock icon) to the right of the **second Items sold metric**.
 1. Click **Time Options** in the expanded window that displays above the report.
 1. In the dropdown, set the following:
 
@@ -114,7 +114,7 @@ Remember to set the time ranges to what you need when building this report yours
       * **Time Range**: change this to the date range that aligns with the promotion you're interested in by clicking Specific Date Range and then entering the appropriate dates.
       * Rename the metric **Items sold during last promotion** or something similar.
       * Add your **Units on hand** metric.
-      * Next, we need to add the calculations that'll show us the weeks on hand, considering sales trends, for the time periods (last 7 days, last 28 days, and last promo period) we're including in the report. You'll need to do this once for each time period.
+      * Next, we need to add the calculations that show us the weeks on hand, considering sales trends, for the time periods (last 7 days, last 28 days, and last promo period) we are including in the report. You need to do this once for each time period.
 
 To create the formulas, click **Add Formula**. Enter the formulae below and click **Apply Changes** when finished. Repeat this for each of the three time periods:
 

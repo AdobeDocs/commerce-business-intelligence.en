@@ -39,20 +39,20 @@ A **Foreign Key** is a column created inside a table that links to the **Primary
 
 When creating a column in your data warehouse, you will need to define the path that brings information from one table into another. Sometimes paths pre-populate because a path already exists between tables, but if this does not happen, you will need to create one.
 
-We'll use the relationship between **customers** and **orders** to show you how it is done. Let's break it down:
+We use the relationship between **customers** and **orders** to show you how it is done. Broken down:
 
 * The relationship is **one-to-many** - a customer can have many orders, but an order can have only one customer. This tells us the direction of the relationship, or where the calculated column should be created. In this case, it means information from the **orders** table can be brought into the **customers** table.
 * The **primary key** we want to use is **customers.customerid**, or the c**ustomer ID** column in the **customers** table.
 * The **foreign key** we want to use is **orders.customerid**, or the **customer ID** column in the **orders** table.
 
-Now we will walk you through actually creating the path.
+Now, we walk you through actually creating the path.
 
 1. Click **Data > Data Warehouse**.
 1. In the table list, click the table you want to create the column in. In our example, it is the **customers** table.
-1. The table schema will display. Click the **Create New Column** button.
+1. The table schema will display. Click **Create New Column**.
 1. Give your column a name - for example, Customer's orders.
 1. Select the definition for the column. Check out the [Calculated Column Guide](../data-warehouse-mgr/creating-calculated-columns.md) for a handy cheat sheet.
-1. In the Select table and column dropdown, click the Create new path option. This window will pop up:
+1. In the **Select table and column** dropdown, click the Create new path option. 
 
     ![Creating paths for calculated columns modal](../../assets/Creating_Paths_modal.png)<!--{:.zoom}-->
 
@@ -61,7 +61,8 @@ Now we will walk you through actually creating the path.
      On the **Many** side, we select **orders.customerid** - remember, customers can have many orders.
 
      On the **One** side, we select **customers.customerid** - an order can only have one customer.
-1. Click the **Save** button to save the path and finish creating the column.
+
+1. Click **Save** to save the path and finish creating the column.
 
 ## Limitations of Creating Paths {#limits}
 
@@ -74,4 +75,4 @@ If you are prevented from creating a calculated column due to one or more of the
 
 ## Wrapping up {#wrapup}
 
-You should now feel comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always use the **Support** button in your MBI account to get assistance.
+You should now feel comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always click **Support** in your MBI account to get assistance.

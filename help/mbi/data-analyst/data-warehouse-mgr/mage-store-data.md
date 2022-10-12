@@ -1,8 +1,8 @@
 ---
-title: Storing Data
+title: Storing Data in Magento
 description: Learn how data is generated, what exactly causes a new row to be inserted into one of the Core Magento Tables, and how are actions such as making a purchase or creating an account recorded into the Magento database.
 ---
-# Storing Data
+# Storing Data in Magento
 
 The Commerce platform records and organizes a wide variety of valuable commerce data across hundreds of tables. In this topic, you will learn how that data is generated, what exactly causes a new row to be inserted into one of the [Core Magento Tables](../data-warehouse-mgr/common-mage-tables.md), and how are actions such as making a purchase or creating an account recorded into the Magento database. To explain these concepts, refer to the following example:
 
@@ -10,7 +10,7 @@ _Clothes4U_ is a clothing retailer with both an online, and a brick and mortar p
 
 ## catalog\_product\_entity
 
-it is September 22nd, and _Clothes4U_ is rolling out three new items to its Fall line: "Throwback Bellbottoms", "Straight Leg Jeans", and "V-Neck T-Shirts." A _Clothes4U_ employee opens their Magento admin panel, clicks the "Add Product" button, and enters all the information for "Throwback Bellbottoms."
+it is September 22nd, and _Clothes4U_ is rolling out three new items to its Fall line: "Throwback Bellbottoms", "Straight Leg Jeans", and "V-Neck T-Shirts." A _Clothes4U_ employee opens their Magento admin panel, clicks **Add Product**, and enters all the information for "Throwback Bellbottoms."
 
 Satisfied with all the settings for "Throwback Bellbottoms," the employee clicks save, which inserts the first line below into the `catalog_product_entity` table. The employee repeats the process, creating another new Magento product for "Straight Leg Jeans," and then a third for "V-Neck T-Shirt," inserting the second and third lines below into the `catalog_product_entity` table:
 
@@ -26,8 +26,8 @@ Satisfied with all the settings for "Throwback Bellbottoms," the employee clicks
     * This being the `catalog_product_entity` table, each row has the same entity type: product. In Magento, the `entity_type_id` for product is 4, which is why all three of the new products created return 4 for this column.
 * `attribute_set_id` – Attribute sets are used to identify products that have the same of descriptors.
     * The top two rows of the table are the "Throwback Bellbottoms" and "Straight Leg Jeans" products, both of which are pants. These products would have the same descriptors (name, inseam, waistline, etc...), and therefore have the same `attribute_set_id`. The third item, "V-Neck T-Shirt" has a different `attribute_set_id` because it would not have the same descriptors as the pants; shirts do not have waistlines or inseams.
-* `sku`\- These are unique values assigned to each product by the user when creating a new product in Magento.
-* `created_at`\- This column returns the timestamp of when each product was created
+* `sku` - These are unique values assigned to each product by the user when creating a new product in Magento.
+* `created_at` - This column returns the timestamp of when each product was created
 
 ## customer\_entity
 

@@ -32,7 +32,7 @@ The best way to do this is for us to connect to your database server over TCP/IP
 
     ![](../../../assets/2.1.png)
 
-1. Click the **Add a Data Source** button.
+1. Click **Add a Data Source**.
 
 1. Select to connect a Microsoft SQL database and enter your credentials in the fields on the new connections page.
 

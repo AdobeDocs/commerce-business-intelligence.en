@@ -21,17 +21,17 @@ Connecting your Facebook ad data to MBI is a simple three-step process:
 ## Add Facebook as a data source in MBI {#stepone}
 
 1. To add the Facebook integration to your account, navigate to the Connections page under **Manage Data > Integrations**.
-1. Click the **Add Integration** button, located on the right side of the screen above the Data Sources table.
+1. Click **Add Integration**, located on the right side of the screen above the Data Sources table.
 1. Click the Facebook icon. This will display the Facebook authorization page.
-1. Click the Authorize button.
+1. Click **Authorize**.
 
 ## Allow MBI access to your Facebook Ads data {#steptwo}
 
-After clicking the Authorize button, a small pop-up window will display:
+After clicking **Authorize**, a small pop-up window will display:
 
  ![](../../../assets/Facebook_Access_Popup.png)
 
-You will be taken through a series of steps to allow MBI to access data from your Public Profile, Facebook ads and related stats. "Okay" these steps to continue.
+You will follow a series of steps to allow MBI to access data from your Public Profile, Facebook ads and related stats. "Okay" these steps to continue.
 
 ## Select Facebook Ads Accounts for pulling data {#stepthree}
 

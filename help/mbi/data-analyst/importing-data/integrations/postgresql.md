@@ -18,20 +18,20 @@ It is not as complicated as it might sound. Get started.
 
 The public key is used to authorize the MBI Linux user. In the next section, we will create the user and import the key.
 
-1. Go to **Manage Data > Connections** and click the **Add a Data Source** button.
+1. Go to **Manage Data > Connections** and click **Add a Data Source**.
 1. Click the **PostgreSQL icon**.
-1. After the PostgreSQL credentials page opens, toggle the **Encrypted** button to Yes. This will display the SSH setup form.
+1. After the PostgreSQL credentials page opens, set the _Encrypted_ toggle to `Yes`. This will display the SSH setup form.
 1. The public key is located underneath this form.
 
 Leave this page open throughout the tutorial - you will need it in the next section and at the end.
 
-If you are a bit lost, here's how to navigate through MBI to retrieve the key:
+If you are a bit lost, this is how to navigate through MBI to retrieve the key:
 
 ![Retrieving the RJMetrics public key](../../../assets/4.1.gif)
 
 ## Allow access to the MBI IP address {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP address. it is **54.88.76.97/32**, but it is also on the PostgreSQL credentials page. See the blue box in the GIF above? That's it!
+For the connection to be successful, your must configure your firewall to allow access from our IP address. it is **54.88.76.97/32**, but it is also on the PostgreSQL credentials page. See the blue box in the GIF above? That is it!
 
 ## Creating a Linux user for MBI {#linux}
 
@@ -79,7 +79,7 @@ If you want to connect multiple databases or schemas, repeat this process as nec
 
 ## Entering the connection and user info into MBI {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the PostgreSQL credentials page open? If not, go to **Manage Data > Connections** and click the Add a Data Source button, then the PostgreSQL icon. do not forget to toggle the Encrypted button to Yes.
+To wrap things up, we need to enter the connection and user info into MBI. Did you leave the PostgreSQL credentials page open? If not, go to **Manage Data > Connections** and click **Add a Data Source**, then the PostgreSQL icon. do not forget to set the _Encrypted_ toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 
@@ -93,8 +93,7 @@ Under "SSH Connection":
 * **Remote Address:** The IP address or hostname of the server we will SSH into
 * **Username:** Our SSH login name (should be rjmetric)
 * **SSH Port:** SSH port on your server (22 by default)
-
-That's it! When you are finished, click the Save & Test button to complete the setup.
+That is it! When you are finished, click **Save & Test** to complete the setup.
 
 ### Related
 
