@@ -35,6 +35,7 @@ This table includes all customer orders, whether or not that order was processed
 ## Common Calculated Columns
 
 |**Column Name**|**Description**|
+|---|---|
 |`Billing address city`|Billing city for the order. Calculated by joining `sales_order`.`billing_address_id` to `sales_order_address`.`entity_id` and returning the `city` field|
 |`Billing address country`|Billing country code for the order. Calculated by joining `sales_order`.`billing_address_id` to `sales_order_address`.`entity_id` and returning the `country_id`|
 |`Billing address region`|Billing region (most often state or province) for the order. Calculated by joining `sales_order`.`billing_address_id` to `sales_order_address`.`entity_id` and returning the `region` field|
@@ -61,6 +62,7 @@ This table includes all customer orders, whether or not that order was processed
 ## Common Metrics
 
 |**Metric Name**|**Description**|**Construction**|
+|---|---|---|
 |Avg order value|The average revenue per order, where revenue is defined as the `base_grand_total`|Operation: Average<br/>Operand: `base_grand_total`<br/>Timestamp: `created_at`|
 |Avg time between orders|The average time between a customer's (n-1) order and nth order, for all customers and orders|Operation: Average<br/>Operand: `Seconds since previous order`<br/>Timestamp: `created_at`|
 |GMV|The sum of the gross merchandise value for all orders, where GMV is defined as the subtotal, before all taxes and discounts are applied|Operation: Sum<br/>Operand: `base_subtotal`<br/>Timestamp: `created_at`|
