@@ -6,7 +6,7 @@ description: Learn how to work with the sales_order table.
 
 The `sales_order` table (`sales_flat_order` on M1) is where each order is captured. In most cases, each row represents one unique order, although there are some custom implementations of Magento that result in splitting an order into separate rows.
 
-This table includes all customer orders, whether or not that order was processed through guest checkout. If your store accepts guest checkout please find more information about this use case [here](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/guest-orders.html).
+This table includes all customer orders, whether or not that order was processed through guest checkout. If your store accepts guest checkout please find more information about this [use case](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/guest-orders.html).
 
 ## Common Columns
 
