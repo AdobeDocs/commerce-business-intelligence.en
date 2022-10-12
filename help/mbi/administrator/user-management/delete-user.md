@@ -2,7 +2,6 @@
 title: Delete or reactivate a user
 description: Learn how to delete an MBI user. 
 ---
-
 # Delete a user
 
 Users can be deleted by going to your account dropdown on the top right, clicking **Manage Users**, selecting the account you want to delete, and then clicking the **Deactivate User** button.

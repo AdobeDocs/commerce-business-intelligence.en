@@ -1,6 +1,6 @@
 ---
-title: Add a new user
-description: Learn how to add a new MBI user. 
+title: Add/Edit a new user
+description: Learn how to add a new MBI user and how to update your user name or password. 
 ---
 # Add a new user
 
@@ -15,6 +15,14 @@ description: Learn how to add a new MBI user.
 >
 >The new user will not have any dashboards by default. We recommends that you [share](../../data-user/dashboards/share-dashboard-with-users.md) the necessary dashboards with the new user right away.
 
+## Update your email address or password
+
+You can update your email address and/or password by clicking on your company name in the top right-hand corner and then click **Edit Profile**.
+
 ## Resend the Invitation
 
 If you need to resend the invitation to the new user, on the [login page](https://dashboard.rjmetrics.com), click the **Forgot?** link, enter the new user's email address, and click the **Reset Password** button. This will resend the invitation and allow the user to log in.
+
+>[!IMPORTANT]
+>
+>Each account has a contracted number of licenses, or seats. If you hit your limit or would like to know more, [submit a support ticket](../../getting-started/support.md).
