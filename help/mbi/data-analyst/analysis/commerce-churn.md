@@ -57,7 +57,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Filter:
 <!--{: style="list-style-type: circle;"}-->
 
->[!NOTE}
+>[!NOTE]
 >
 >Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
