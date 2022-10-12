@@ -19,7 +19,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Restrict Database Access](../mbi/administrator/account-management/restrict-db-access.md)
     - [Display Dashboards around the office](../mbi/administrator/account-management/display-dashboards-office.md)
     - [New Architecture](../mbi/administrator/account-management/new-architecture.md)
-  - User Management {#usr-mgmt}
+  - User Management {#user-mgmt}
     - [Manage Users](administrator/user-management/user-management.md)
     - [Create/Edit User](../mbi/administrator/user-management/create-user.md)
     - [Delete/Reactivate User](../mbi/administrator/user-management/delete-user.md)
