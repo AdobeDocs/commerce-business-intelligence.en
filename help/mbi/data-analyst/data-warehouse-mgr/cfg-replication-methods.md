@@ -96,11 +96,12 @@ Replication methods are set on a table-by-table basis. To set a replication meth
 1. The current replication method is listed below the table name. To change it, click the link.
 1. In the pop-up that displays, click the radio button next to either Incremental or Full Table replication to select a replication type.
 1. Next, click the **Replication Method** dropdown to select a method - for example, _Paused_ or _Modified At_.
-  >[!NOTE]
-  >
-  >**Some Incremental methods require you to set a Replication Key**. MBI will use this key to determine where the next update cycle should begin.
-  >
-  >For example, if we want to use the **modified\_at** method for our **orders** table, we need to set a date column as the replication key. Several options for replication keys may exist, but we will select **created\_at**, or the time the order was created. If the last update cycle stopped at 12/1/2015 00:10:00, the next cycle would begin replicating data with a **created\_at** date greater than this.
+
+   >[!NOTE]
+   >
+   >**Some Incremental methods require you to set a Replication Key**. MBI will use this key to determine where the next update cycle should begin.
+   >
+   >For example, if we want to use the **modified at** method for our **orders** table, we need to set a date column as the replication key. Several options for replication keys may exist, but we will select **created at**, or the time the order was created. If the last update cycle stopped at 12/1/2015 00:10:00, the next cycle would begin replicating data with a **created at** date greater than this.
 
 1. When finished, click **Save**.
 
