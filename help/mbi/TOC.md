@@ -64,7 +64,6 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [quote](data-analyst/data-warehouse-mgr/sales-flat-quote-table.md)
     - [quote_item](data-analyst/data-warehouse-mgr/sales-flat-quote-item-table.md)
   - SQL Report Builder {#sql}
-    - [Introduction](data-analyst/dev-reports/what-is-sql-rprt-bldr-.md)
     - [Using the Cohort Report Builder](data-analyst/dev-reports/cohort-rpt-bldr.md)
     - [Using the Cohort Report Builder for Non-Date Based Cohorts](data-analyst/dev-reports/cohort-rpt-non-date-based.md)
     - [Creating a qualitative cohort analysis](data-analyst/dev-reports/create-qual-cohort-analysis.md)
