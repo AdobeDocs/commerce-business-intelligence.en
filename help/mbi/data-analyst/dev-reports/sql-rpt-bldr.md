@@ -6,7 +6,7 @@ description: Learn the ins and outs of using the SQL Report Builder.
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../administrator/user-management/user-management.md)
+>[Requires Admin permissions](../../administrator/user-management/user-management.md) to create and edit SQL charts. Standard users can rearrange these charts on dashboards, and Read-only users will have the same experience they do with traditional charts. In addition, Read-only users do not have access to the text of the query.
 
 See our [training video](https://support.magento.com/hc/en-us/articles/360016730131) to learn more.
 
