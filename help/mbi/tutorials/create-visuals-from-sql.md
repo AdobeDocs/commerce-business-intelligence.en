@@ -6,7 +6,7 @@ description: Learn to familiarize you with the terminology used in the SQL Repor
 
 The goal for this tutorial is to familiarize you with the terminology used in the SQL Report Builder and give you a solid foundation for creating SQL visualizations.
 
-The [SQL Report Builder](../data-analyst/dev-reports/using-sql-rpt-bldr.md) is a report builder with options: you can run a query for the sole purpose of retrieving a table of data, or you can turn those results into a report. This tutorial explains how to build a visualization from a SQL query.
+The [SQL Report Builder](../data-analyst/dev-reports/sql-rpt-bldr.md) is a report builder with options: you can run a query for the sole purpose of retrieving a table of data, or you can turn those results into a report. This tutorial explains how to build a visualization from a SQL query.
 
 ## Terminology
 
