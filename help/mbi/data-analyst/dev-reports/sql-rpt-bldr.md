@@ -37,6 +37,7 @@ In the current state of the world, [Google Analytics](../importing-data/integrat
 To get started creating a new SQL report, click **Report Builder** or **Add Report** at the top of any dashboard. In the Report Picker screen, click **SQL Report Builder** to open the SQL editor.
 
 ## Get Started
+
 To edit a report, click the gear (![](../../assets/gear-icon.png)) icon in the top right corner of a SQL-based chart and click **Edit**.
 
 ## Writing a query {#writing}
