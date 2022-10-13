@@ -1,8 +1,10 @@
 ---
-title: Create paths for calculated columns
+title: Create or delete paths for calculated columns
 description: Learn how to define a path describing how the table you are creating a column on is related to the table you are pulling information from.
 ---
-# Create Paths for Calculated Columns
+# Create or Delete Paths for Calculated Columns
+
+## Calculated Columns Refresher
 
 When [creating calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) in your Data Warehouse, you will be asked to define a path describing how the table you are creating a column on is related to the table you are pulling information from. To successfully create a path, you need to know two things:
 
@@ -64,15 +66,25 @@ Now, we walk you through actually creating the path.
 
 1. Click **Save** to save the path and finish creating the column.
 
-## Limitations of Creating Paths {#limits}
+### Limitations of Creating Paths {#limits}
 
 * **MBI cannot guess primary/foreign key relationships**. We would not want to introduce incorrect data into your account, so creating paths must be done manually.
 * **Currently, paths can only be specified between two different tables**. Does the logic you are trying to recreate involve more than two tables? It then might make sense to (1) join the columns to an intermediary table first, then to the "final destination" table, or (2) consult with our team to find the best approach to your goals.
 * **A column can only be the foreign key reference for ONE path at one time**. For example, if **order_items.order_id** points to **orders.id**, then order_items.order_id cannot point to anything else.
 * **Many-to-many paths can technically be created, but will very often produce bad data because neither side is a true one-to-many foreign key**. The best way to approach these paths always depend on the specific desired analysis. Consult the RJ analyst team to uncovering the best solution.
 
-If you are prevented from creating a calculated column due to one or more of the limitations above, reach out to support with a description of the column you are attempting to create.
+If you are prevented from creating a calculated column due to one or more of the limitations above, reach out to support with a description of the column you are
+
+## Delete a Calculated Column Path {#delete}
+
+Created an incorrect path in your Data Warehouse? Or maybe you are doing a little spring cleaning and want to tidy up? If you need to delete a path from your account, you can [zip a ticket over to our support analysts](../../getting-started/support.md). **Be sure to include the name of the path!**
 
 ## Wrapping up {#wrapup}
 
 You should now feel comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always click **Support** in your MBI account to get assistance.
+
+## Related
+
+* [Understanding and evaluating table relationships](../data-warehouse-mgr/table-relationships.md)
+* [Creating paths for calculated columns](../data-warehouse-mgr/create-paths-calc-columns.md)
+* [Calculated Column Types](../data-warehouse-mgr/calc-column-types.md) attempting to create.

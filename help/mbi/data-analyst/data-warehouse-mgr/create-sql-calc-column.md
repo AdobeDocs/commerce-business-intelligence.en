@@ -26,9 +26,8 @@ Line by line, the meaning of the PostgreSQL is:
 
 * case : This starts a series of If – Then statements
 * when A is null or B is null then null : If either input is empty, then the output should also be empty. This is to prevent SQL errors
-* when A=B then 'Yes' : If **Customer's lifetime number of orders** equals **Customer's order number** for this row, then return Yes. So if a customer has placed 4 orders, the row for their 4 <!--<span data-fontsize="12">th--> order would return Yes for **Is customer's last order?**
-* else 'No' : If none of the other when stateme
-nts are met, return No
+* when A=B then `Yes` : If **Customer's lifetime number of orders** equals **Customer's order number** for this row, then return Yes. So if a customer has placed 4 orders, the row for their 4 order would return Yes for **Is customer's last order?**
+* else `No` : If none of the other when statements are met, return No
 * end : This ends the If – Then statements
 
 The possible values that can be returned by this column (NULL, **Yes**, **No**) contain non number characters, so the data type here is String.
@@ -41,7 +40,7 @@ To enable product revenue analyses, most accounts have a column called **Order i
 
 ![](../../assets/Order_item_total_value.png)
 
-In the Magento schema, the **Order item total value (quantity * price)** column uses the inputs **qty\_ordered** and **base\_price** aliased as A and B respectively.
+In the Magento schema, the **Order item total value (quantity * price)** column uses the inputs **qty ordered** and **base price** aliased as A and B respectively.
 
 The values that will be returned by this new column will be a dollars and cents, so the correct data type is Decimal(10,2).
 
