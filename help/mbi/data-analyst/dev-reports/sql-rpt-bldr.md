@@ -136,6 +136,7 @@ The [SQL Report Builder](https://experienceleague-review.corp.adobe.com/docs/com
 Unlike the Visual Report Builder, [the Cohort Report Builder](../dev-reports/cohort-rpt-bldr.md) is meant for a single purpose - analyzing and identifying behavioral trends of similar user groups over time. Using the Cohort Report Builder does not require any SQL savvy, so you can dive right in without hesitation if you are just starting out.
 
 |**This is perfect for...**|**This is not so great for...**|
+|---|---|
 |Intermediate/advanced analysts|**Beginners** - you'll need practice defining cohorts.|
 |Identifying behavioral trends over time|**Qualitative analysis** - it can be [done](../dev-reports/create-qual-cohort-analysis.md), but requires our assistance.|
 
