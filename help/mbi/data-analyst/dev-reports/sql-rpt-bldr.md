@@ -129,7 +129,7 @@ Columns created using the SQL Report Builder are not saved to your Data Warehous
 
 #### Report Builder vs SQL Report Builder
 
-The [SQL Report Builder](https://experienceleague-review.corp.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html?lang=en) gives you more flexibility when creating and structuring your charts - you can, for example, select what values should show on the X and Y axes. For more info on creating charts in the SQL Report Builder, check out our [Creating visualizations from SQL queries](https://experienceleague-review.corp.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html?lang=en) tutorial.
+The SQL Report Builder gives you more flexibility when creating and structuring your charts - you can, for example, select what values should show on the X and Y axes. For more info on creating charts in the SQL Report Builder, check out our [Creating visualizations from SQL queries](../../tutorials/create-visuals-from-sql.md) tutorial.
 
 #### Cohort Report Builder {#cohortrb}
 
