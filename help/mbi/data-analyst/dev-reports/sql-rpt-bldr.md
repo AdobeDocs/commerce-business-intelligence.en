@@ -104,6 +104,7 @@ we would like to mention that calculated columns created using SQL are not depen
 Note that this only applies to the structure of the column, not the freshness of the data. Fresh data is still dependent on successfully completed update cycles.
 
 |**This is perfect for...**|**This is not so great for...**|
+|---|---|
 |Intermediate/advanced analysts|**Beginners** - you need to know SQL.|
 |The SQL savvy|**Simple analyses** - writing a query can be more work than simply using the Visual Report Builder.|
 |Building one-time-use calculated columns|**Sharing with others** - consider your audience: do they understand SQL? If not, they may be confused by how the report is built.|
