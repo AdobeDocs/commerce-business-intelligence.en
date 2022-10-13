@@ -118,6 +118,15 @@ Connection issues can also result in discrepancies. Navigate to the Connections 
 
 If all your integrations are connected successfully and you are not in the middle of an update cycle, something else may be amiss. Try using the [data discrepancy troubleshooting guides](https://support.magento.com/hc/en-us/sections/360003074492) on our Support site to pinpoint the problem.
 
+#### Does deleting a SQL report also delete the underlying columns from my Data Warehouse?
+
+No, you will not lose any columns from your Data Warehouse, regardless of how you built them.
+
+Columns created using the Data Warehouse Manager will not be affected if you delete a report or query that uses them.
+
+Columns created using the SQL Report Builder are not saved to your Data Warehouse.
+
+
 #### Report Builder vs SQL Report Builder
 
 The [SQL Report Builder](https://experienceleague-review.corp.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html?lang=en) gives you more flexibility when creating and structuring your charts - you can, for example, select what values should show on the X and Y axes. For more info on creating charts in the SQL Report Builder, check out our [Creating visualizations from SQL queries](https://experienceleague-review.corp.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html?lang=en) tutorial.

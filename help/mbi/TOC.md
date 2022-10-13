@@ -67,7 +67,6 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Using the Cohort Report Builder](data-analyst/dev-reports/cohort-rpt-bldr.md)
     - [Using the Cohort Report Builder for Non-Date Based Cohorts](data-analyst/dev-reports/cohort-rpt-non-date-based.md)
     - [Creating a qualitative cohort analysis](data-analyst/dev-reports/create-qual-cohort-analysis.md)
-    - [Does deleting a SQL report/query also delete the underlying columns from my Data Warehouse?](data-analyst/dev-reports/delete-sql-query-delete-columns.md)
     - [Explore special filter operators](data-analyst/dev-reports/explr-special-filter-ops.md)
     - [Export the results of my query](data-analyst/dev-reports/export-query-results.md)
     - [Using Formulas in the Report Builder](../mbi/data-analyst/dev-reports/formulas-in-rpt-bldr.md)
