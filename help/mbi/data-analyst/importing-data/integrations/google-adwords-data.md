@@ -33,8 +33,8 @@ The `campaigns` table contains the following columns:
 | [adCost](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adcost) | Total cost for the campaign for the day |
 | [adwordsCampaignID](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adwordscampaignid) | Adwords Campaign ID |
 | [campaign](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=traffic_sources&jump=ga_campaign) | Campaign name (i.e., [utm\_campaign](https://support.google.com/analytics/answer/1033867?hl=en)) |
-| [date](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=time&jump=ga_date | The date the campaign ran |
-| [impressions]https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_impressions | Number of impressions for the day |
+| [date](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=time&jump=ga_date) | The date the campaign ran |
+| [impressions](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_impressions) | Number of impressions for the day |
 | profileId | The profile ID |
 | profileName | The profile name |
 | \_updated\_at | The date and time of the last update for this row |

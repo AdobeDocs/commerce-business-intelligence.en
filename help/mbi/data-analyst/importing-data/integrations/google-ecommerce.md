@@ -32,7 +32,7 @@ To identify a particular website's Google Analytics Profile ID:
 
 1. Log into Google Analytics
 1. Go to the particular website's Google Analytics dashboard
-1. Look at the URL - the Profile ID corresponds to the 8 numbers following "p" at the end of the line: e.g., www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX**/
+1. Look at the URL - the Profile ID corresponds to the 8 numbers following "p" at the end of the line: (e.g., www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX**/)
 
 ## Disconnecting Google ECommerce from MBI {#disconnect}
 

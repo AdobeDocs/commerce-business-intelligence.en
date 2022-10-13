@@ -1,9 +1,9 @@
 ---
-title: Adobe Analytics Data
+title: Expected Adobe Analytics Data
 description: Learn the steps for connecting your RDS instance.
 ---
 
-# Adobe Analytics Data
+# Expected Adobe Analytics Data
 
 The Adobe Analytics integration for MBI uses the [Analytics 2.0 Reporting API](https://developer.adobe.com/analytics-apis/docs/2.0/#!AdobeDocs/analytics-2.0-apis/master/README.md).
 

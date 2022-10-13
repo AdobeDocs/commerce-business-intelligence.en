@@ -68,7 +68,7 @@ Now that we know what metrics to look at, lets take a look at an example involvi
 
 
 | **Coupon** | **Avg. net order value** | **Avg. order discount** | **Distinct buyers** | **Avg. lifetime revenue** |
-|-----|-----|-----|-----|-----|-----|
+|-----|-----|-----|-----|-----|
 | **10% off** | $225.08 | $25.01 | 79 | $361.50 |
 | **$20 off $100+** | $117.91 | $20.00 | 95 | $218.76 |
 | **$10 off** | $62.35 | $10.00 | 199 | $84.27 |

@@ -12,8 +12,9 @@ description: Learn how Salesforce data enables a range of analyses, from scoring
 
 Connecting your Salesforce data enables a range of analyses, from scoring and optimizing leads to hitting your goals for converted opportunities.
 
-{: .bs-callout-warning}
-The Salesforce connector requires that you have [Salesforce API access](../integrations/salesforce.md) as part of your Salesforce subscription. Please verify this is enabled before getting started.
+>[!IMPORTANT]
+>
+>The Salesforce connector requires that you have [Salesforce API access](../integrations/salesforce.md) as part of your Salesforce subscription. Please verify this is enabled before getting started.
 
 1. To add the Salesforce integration to your account, navigate to the Connections page under **Manage Data > Connections**.
 1. Click **Add a Data Source**, located on the right side of the screen above the Data Sources table.

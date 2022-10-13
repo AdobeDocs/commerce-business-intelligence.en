@@ -94,7 +94,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [SaaS Integrations](data-analyst/importing-data/integrations/integrations.md)
     - [Understand Results Between Database and SQL Editor](data-analyst/importing-data/integrations/last-success-update.md)
     - [Connecting Adobe Analytics](data-analyst/importing-data/integrations/adobe-analytics.md)
-    - [Adobe Analytics Data](data-analyst/importing-data/integrations/adobe-analytics-data.md)
+    - [Expected Adobe Analytics Data](data-analyst/importing-data/integrations/adobe-analytics-data.md)
     - [Connecting Facebook Ads](data-analyst/importing-data/integrations/facebook-ads.md)
     - [Expected Facebook Ads data](data-analyst/importing-data/integrations/facebook-ads-data.md)
     - [Connecting Google Adwords](data-analyst/importing-data/integrations/google-adwords.md)
@@ -123,7 +123,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Expected Zendesk data](data-analyst/importing-data/integrations/exp-zendesk-data.md)
     - [Analyzing Zendesk data](data-analyst/importing-data/integrations/help-desk-zendesk.md)
     - [Auditing Zendesk data](data-analyst/importing-data/integrations/audit-zendesk-data.md)
-  - Data Integrations {#integration}
+  - Database Integrations {#integration}
     - [Connecting Amazon RDS](data-analyst/importing-data/integrations/amazon-rds.md)
     - [Connecting Databases via VPN](data-analyst/importing-data/integrations/databases-via-a-vpn.md)
     - [Connect Your MySQL Database to MBI](data-analyst/importing-data/integrations/db-to-mbi.md)
@@ -136,11 +136,11 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Connecting MySQL via SSH Tunnel](data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md)
     - [Connecting PostgreSQL](data-analyst/importing-data/integrations/postgresql.md)
   - Analyze Campaigns {#campaigns}
-    - [Analyzing Campaigns](data-analyst/analysis/camp-analysis.md)
+    - [Introduction](data-analyst/analysis/camp-analysis.md)
     - [Coupon code analysis (basic)](data-analyst/analysis/ess-coupon-code-analysis.md)
     - [Coupon code analysis (advanced)](data-analyst/analysis/coupon-code-analysis.md)
     - [Free shipping threshold](data-analyst/analysis/free-ship-thresh.md)
-    - [Analyzing coupon impact on acquiring and retaining customers](data-analyst/analysis/coupon-impact.md)
+    - [Analyzing coupon impact](data-analyst/analysis/coupon-impact.md)
     - [Analyzing coupon usage](data-analyst/analysis/coupon-usage.md)
     - [Increasing ROI on your advertising campaigns](data-analyst/analysis/roi-ad-camp.md)
     - [Marketing ROI](data-analyst/analysis/marketing-roi.md)

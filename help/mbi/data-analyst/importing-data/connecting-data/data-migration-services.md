@@ -27,8 +27,9 @@ When submitting the request, let us know that the database schema is not changin
 
 ## Migrating to a new database with a different schema {#newschema}
 
-{: .bs-callout-warning}
-**Important!**  If certain data columns do not have equivalent columns in the new database, there is a chance that certain analyses will be lost in the process.
+>[!IMPORTANT]
+>
+>If certain data columns do not have equivalent columns in the new database, there is a chance that certain analyses will be lost in the process.
 
 To successfully complete this type of migration, existing data columns have to be matched with their equivalents in the new database. **This is not mandatory for you to do yourself**, but performing the matching for us will help speed up the turnaround time of your request and lower the price of the migration.
 

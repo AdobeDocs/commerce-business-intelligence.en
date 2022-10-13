@@ -36,8 +36,8 @@ If you are on the original architecture (i.e., if you do not have the "Data Ware
     **when A<401 and A<=450 then '401 - 450'**
     **else 'over 450'**
     **end**
-  <!--<!--{: style="list-style-type: circle;"}-->-->
-<!--<!--{: style="list-style-type: circle;"}-->-->
+  <!--<!--{: style="list-style-type: circle;"}-->
+<!--<!--{: style="list-style-type: circle;"}-->
 
 ## Metrics
 
@@ -49,27 +49,27 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 
 * **Average order value with shipping rule A**
   * Metric: Average order value
-  <!--<!--{: style="list-style-type: square;"}-->-->
+  <!--<!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Average Order Value*
 * *Time period: Time period with shipping rule A*
 * *Interval: None*
 * *Chart Type: Scalar*
-<!--<!--{: style="list-style-type: circle;"}-->-->
+<!--<!--{: style="list-style-type: circle;"}-->
 
 * **Number of orders by subtotal buckets with shipping rule A**
   * Metric: Number of orders
-  <!--<!--{: style="list-style-type: square;"}-->-->
+  <!--<!--{: style="list-style-type: square;"}-->
 
   * Note: You can cut off the tail end by showing the top X sorted by Order subtotal (buckets) in the Show top/bottom.
-  <!--<!--{: style="list-style-type: square;"}-->-->
+  <!--<!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Number of orders*
 * *Time period: Time period with shipping rule A*
 * *Interval: None*
 * *Group by: Order subtotal (buckets)*
 * *Chart Type: Column*
-<!--<!--{: style="list-style-type: circle;"}-->-->
+<!--<!--{: style="list-style-type: circle;"}-->
 
 * **Percent of orders by subtotal with shipping rule A**
   * Metric: Number of orders
@@ -89,7 +89,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * *Interval: None*
 * *Group by: Order subtotal (buckets)*
 * *Chart Type: Line*
-<!--<!--{: style="list-style-type: circle;"}-->-->
+<!--<!--{: style="list-style-type: circle;"}-->
 
 * **Percent of orders with subtotal exceeding shipping rule A**
   * Metric: Number of orders
@@ -110,7 +110,7 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * *Interval: None*
 * *Group by: Order subtotal (buckets)*
 * *Chart Type: Line*
-<!--<!--{: style="list-style-type: circle;"}-->-->
+<!--<!--{: style="list-style-type: circle;"}-->
 
 Repeat the above steps and reports for Shipping B and the time period with shipping rule B.
 
