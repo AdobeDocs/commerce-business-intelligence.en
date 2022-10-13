@@ -52,7 +52,9 @@ This opens up a new window where we can configure the details of the Cohort Repo
 
 Cohorts are grouped together by a timestamp, like **registration date** or **first order date**.
 
-**Note**: You cannot use the same timestamp that the metric is built on for the cohort date. For an analysis that requires this, you can use the Standard report builder instead.
+   >[!NOTE]
+   >
+   >You cannot use the same timestamp that the metric is built on for the cohort date. For an analysis that requires this, you can use the Standard report builder instead.
 
 #### 2. Cohort time period
 
@@ -106,13 +108,17 @@ In this section, we walk you through creating your own cohort analysis. For exam
 
 Now that we are in the Cohort Report Builder, Let us add the metric (example: **Revenue** or **Number of orders**) that we want to perform the analysis on.
 
-**Note:** Native Google Analytics metrics are not compatible with the Cohort Report Builder.
+>[!NOTE]
+>
+>Native Google Analytics metrics are not compatible with the Cohort Report Builder.
 
 #### Selecting the cohort date {#date}
 
 The next step is to specify the **cohort date**. This is the date by which your users will be grouped. For example, this might be **User's first order date** or **User's registration date**.
 
-**Note**: You cannot use the same date the metric is built on (example: created at) as the cohort date.
+>[!NOTE]
+>
+>You cannot use the same date the metric is built on (example: created at) as the cohort date.
 
 #### Setting the interval and time period
 

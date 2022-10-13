@@ -10,11 +10,17 @@ description: Learn the ins and outs of using the SQL Report Builder.
 
 See our [training video](https://support.magento.com/hc/en-us/articles/360016730131) to learn more.
 
+SQL, or Structured Query Language, is a programming language used to communicate with databases. In MBI, SQL is used to query, or retrieve, data from your data warehouse. Take a look at the reports on your dashboard - behind the scenes, each one is powered by a SQL query.
+
+You can use the [SQL Report Builder](../dev-reports/sql-rpt-bldr.md) to directly query your data warehouse, view the results, and transform them into a chart. You can start creating a report with the SQL Report Builder by navigating to **Report Builder** > **SQL Report Builder**.
+
+See our [training video](https://support.magento.com/hc/en-us/articles/360016730131-Training-Video-SQL-Report-Builder) to learn more.
+
 The SQL Report Builder allows you to directly query your data warehouse, view the results, and quickly transform them into a chart. The best part about using SQL to build reports is that [you do not need to wait on update cycles to iterate on columns](https://support.magento.com/hc/en-us/articles/360016506212) you create. If the results do not look quite right, you can quickly edit and re-run the query until things match your expectations.
 
 In this article, we walk you through the ins and outs of using the SQL Report Builder. After you have learned your way around, check out our SQL for visualizations tutorial or try optimizing some of the queries you have written.
 
-Here's an overview of what we cover in this article:
+Here is an overview of what we cover in this article:
 
 1. [Writing a query](#writing)
 
@@ -31,6 +37,10 @@ To edit a report, click the gear (![](../../assets/gear-icon.png)) icon in the t
 Get started!
 
 ## Writing a query {#writing}
+
+>[!NOTE]
+>
+>SQL Report Builder queries are case-sensitive. Make sure you are using the correct case when writing queries or you could wind up with unexpected results or errors.
 
 Following the [guidelines for query optimization](../../best-practices/optimizing-your-sql-queries.md){: target="_blank"}, write a query in the SQL editor.
 

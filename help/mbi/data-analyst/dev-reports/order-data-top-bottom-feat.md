@@ -6,8 +6,6 @@ description: Learn how to order your data using the Show Top/Bottom feature.
 
 You can do more in the Visual Report Builder than create analyses that trend over time. For example, you can build a report to show how valuable your acquisition and marketing channels are, but you can also build a report that shows only the top five performers. Similarly, you can refocus your marketing efforts by creating a report that shows you which states generate the most revenue.
 
-See our [training video](https://support.magento.com/hc/en-us/articles/360016730091) to learn more.
-
 This kind of sorting and ordering of data can be done in reports that use both a **Group By** and a **Time Interval of None**. When both of these elements are in a report, the **Show Top/Bottom** feature will display above the chart preview. This feature allows you to see the top (highest to lowest) and bottom (lowest to highest) data points based on the parameters you set.
 
 ![Show Top/Bottom feature in the Visual Report Builder.](../../assets/Show_Top_Bottom.png)<!--{:.zoom}-->
