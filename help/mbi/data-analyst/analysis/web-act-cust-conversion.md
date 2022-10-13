@@ -69,17 +69,17 @@ This collection of reports is built using the following:
 1. Create a new report.
 1. Add the following metrics:
 
-  * **New users**
+* **New users**
     * Click **Hide** beneath the metric name
 
-  * **Number of orders**
+* **Number of orders**
     * Add a filter for _Customer's order number_ = 1 and click **Apply**
     * Rename the metric by clicking on the metric name, calling it _Number of first orders;_ then click **Hide**
 
-  * **Number of orders**
+* **Number of orders**
     * **Hide** the metric
 
-  * **Users**
+* **Users**
     * **Hide** the metric
     * Change the time period to _24 months ago to now_, and adjust time interval to _by month_
     * Add the following formulas by clicking **Formula**.
@@ -90,7 +90,7 @@ This collection of reports is built using the following:
     * C/D then click **Apply**
     * Rename the formula _Any order conversion_
 
-  * Now give your report a name, like "Conversion by month," and then click **Save**
+* Now give your report a name, like _Conversion by month_, and then click **Save**
 
 ## Next steps
 

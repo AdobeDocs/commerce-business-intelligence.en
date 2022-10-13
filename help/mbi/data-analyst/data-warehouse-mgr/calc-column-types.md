@@ -97,6 +97,5 @@ To ensure a speedy turnaround, we recommend checking out the [Advanced Calculate
 ## Related documentation
 
 * [Creating calculated columns](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md)
-* [Creating paths for calculated columns](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md)
-* [Deleting calculated column paths](../../data-analyst/data-warehouse-mgr/delete-calc-column-paths.md)
+* [Creating/deleting paths for calculated columns](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md)
 * [Understanding and evaluating table relationships](../../data-analyst/data-warehouse-mgr/table-relationships.md)

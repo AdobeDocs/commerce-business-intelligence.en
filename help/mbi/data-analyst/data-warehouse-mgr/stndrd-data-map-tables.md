@@ -76,6 +76,4 @@ Mapping tables are handy for any time you want to clean up some potentially mess
 ### Related
 
 * [Understanding and evaluating table relationships](../data-warehouse-mgr/table-relationships.md)
-* [Creating paths for calculated columns](../data-warehouse-mgr/create-paths-calc-columns.md)
-* [Deleting calculated column paths](../data-warehouse-mgr/delete-calc-column-paths.md)
-
+* [Creating/deleting paths for calculated columns](../data-warehouse-mgr/create-paths-calc-columns.md)
