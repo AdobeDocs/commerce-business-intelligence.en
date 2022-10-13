@@ -68,7 +68,6 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Using the Cohort Report Builder for Non-Date Based Cohorts](data-analyst/dev-reports/cohort-rpt-non-date-based.md)
     - [Creating a qualitative cohort analysis](data-analyst/dev-reports/create-qual-cohort-analysis.md)
     - [Does deleting a SQL report/query also delete the underlying columns from my Data Warehouse?](data-analyst/dev-reports/delete-sql-query-delete-columns.md)
-    - [Report Builder vs SQL Report Builder](data-analyst/dev-reports/diff-rpt-bldr-sql-rprt-bldr-.md)
     - [Explore special filter operators](data-analyst/dev-reports/explr-special-filter-ops.md)
     - [Export the results of my query](data-analyst/dev-reports/export-query-results.md)
     - [Using Formulas in the Report Builder](../mbi/data-analyst/dev-reports/formulas-in-rpt-bldr.md)
@@ -82,7 +81,6 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Understanding the Repeat Order Probability Report](data-analyst/dev-reports/repeat-order-probability.md)
     - [Auditing Metrics using the SQL Report Builder](data-analyst/dev-reports/audit-metrics-sql.md)
     - [Differences in Columns Between SQL and Data Warehouse Manager](data-analyst/dev-reports/columns-sql-dwm.md)
-    - [Understanding Results Between Database and SQL Editor](data-analyst/dev-reports/understand-sql-results.md)
   - Connecting Data {#connecting}
     - [Introduction](data-analyst/importing-data/connecting-data/connecting-data.md)
     - [Formatting and importing eCommerce data](data-analyst/importing-data/connecting-data/format-import-ecom-data.md)

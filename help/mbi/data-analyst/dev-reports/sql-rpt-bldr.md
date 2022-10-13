@@ -30,11 +30,14 @@ Here is an overview of what we cover in this article:
 
 1. [Saving the report](#save)
 
+## SQL Report Builder Integrations
+
+In the current state of the world, [Google Analytics](../importing-data/integrations/google-analytics.md)<!--{: target="_blank"}--> is the only integration unavailable for use with the [SQL Report Builder](../dev-reports/sql-rpt-bldr.md)<!--{: target="_blank"}-->. We are working on including this functionality in a later release.
+
 To get started creating a new SQL report, click **Report Builder** or **Add Report** at the top of any dashboard. In the Report Picker screen, click **SQL Report Builder** to open the SQL editor.
 
+## Get Started
 To edit a report, click the gear (![](../../assets/gear-icon.png)) icon in the top right corner of a SQL-based chart and click **Edit**.
-
-Get started!
 
 ## Writing a query {#writing}
 
@@ -113,6 +116,10 @@ The majority of the time, differences in results can be attributed to update cyc
 Connection issues can also result in discrepancies. Navigate to the Connections page (**Manage Data** > **Connections**) to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations) to get things running again.
 
 If all your integrations are connected successfully and you are not in the middle of an update cycle, something else may be amiss. Try using the [data discrepancy troubleshooting guides](https://support.magento.com/hc/en-us/sections/360003074492) on our Support site to pinpoint the problem.
+
+#### Report Builder vs SQL Report Builder
+
+The [SQL Report Builder](https://experienceleague-review.corp.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html?lang=en) gives you more flexibility when creating and structuring your charts - you can, for example, select what values should show on the X and Y axes. For more info on creating charts in the SQL Report Builder, check out our [Creating visualizations from SQL queries](https://experienceleague-review.corp.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html?lang=en) tutorial.
 
 #### Cohort Report Builder {#cohortrb}
 
