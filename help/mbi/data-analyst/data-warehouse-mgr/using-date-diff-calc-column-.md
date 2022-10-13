@@ -19,52 +19,8 @@ A date difference calculated column could be used to create a metric which calcu
 |**A**|2015-01-01 00:00:00|2015-01-01 12:30:00|45000|
 |**B**|2015-01-01 08:00:00|2015-01-01 10:00:00|7200|
 
-<!--<table>
-<tbody>
-<tr>
-<td>
-<p>**id** </p>
-</td>
-<td>
-<p>**timestamp_1** </p>
-</td>
-<td>
-<p>**timestamp_2** </p>
-</td>
-<td>
-<p>**Seconds between timestamp_2 and timestamp_1** </p>
-</td>
-</tr>
-<tr>
-<td>
-<p>**A** </p>
-</td>
-<td>
-<p>2015-01-01 00:00:00 </p>
-</td>
-<td>
-<p>2015-01-01 12:30:00 </p>
-</td>
-<td>
-<p>45000 </p>
-</td>
-</tr>
-<tr>
-<td>
-<p>**B** </p>
-</td>
-<td>
-<p>2015-01-01 08:00:00 </p>
-</td>
-<td>
-<p>2015-01-01 10:00:00 </p>
-</td>
-<td>
-<p>7200 </p>
-</td>
-</tr>
-</tbody>
-</table>-->
+{style="table-layout:auto"}
+
 
 In the above example, the **Date Difference** column is the **Seconds between timestamp_2 and timestamp_1** column. It performs the calculation **timestamp_2 minus timestamp_1**.
 

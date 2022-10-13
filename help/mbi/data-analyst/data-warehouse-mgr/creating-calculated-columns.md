@@ -16,8 +16,10 @@ This guide will teach you how to do just that. Before getting started, we recomm
 1. For certain types of columns, a little more info is needed to properly create the column:
 
   * **For One to Many(joined) and Many to One (aggregate) columns**, you will need to select the tables and columns.
+
   * **For a Same Table calculation**, you will need to select the desired date field from the dropdown menu.
-* If you are creating a One to Many (joined) or Many to One (aggregate) column, you will need to select a pathway to connect the two tables. In this step, you can either use an existing path or create a new one.
+
+* If you are creating a One to Many (joined) or Many to One (aggregate) column, you need to select a pathway to connect the two tables. In this step, you can either use an existing path or create a new one.
 
     **Remember to properly define the table as either many or one!**
   * If desired, you can apply [filters](../../data-user/reports/ess-manage-data-filters.md) to the new column.

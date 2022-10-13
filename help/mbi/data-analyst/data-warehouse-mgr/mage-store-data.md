@@ -33,7 +33,7 @@ Satisfied with all the settings for "Throwback Bellbottoms," the employee clicks
 
 Shortly after the addition of the three new products, a new customer, Sammy Customer, visits _Clothes4U_'s website for the first time. Since _Clothes4U_ does not [allow guest orders](https://support.magento.com/hc/en-us/articles/360016729951-Common-Magento-Misconceptions), Sammy Customer must first create an account on the website. She enters her credentials and clicks submit, resulting in the following new entry on the [customer\_entity table](../data-warehouse-mgr/cust-ent-table.md):
 
-|**entity\_id**|**entity\_type\_id**|**email**|**created\_at**|
+|**entity id**|**entity type id**|**email**|**created at**|
 |---|---|---|---|
 |214|1|sammy.customer@gmail.com|2016/09/23 15:27:12|
 
@@ -46,9 +46,9 @@ Shortly after the addition of the three new products, a new customer, Sammy Cust
 
 ## sales\_flat\_order (or Sales\_order if you have Magento 2.0 or later)
 
-With her account creation finished, Sammy Customer is ready to start making her purchase. As she navigates the website, she adds two pairs of the "Throwback Bellbottoms" and one "V-Neck T-Shirt" to her cart. Satisfied with her selections, she moves to checkout and submits her order, creating the following entry on the [sales\_flat\_order table](../data-warehouse-mgr/sales-flat-order-table.md):
+With her account creation finished, Sammy Customer is ready to start making her purchase. As she navigates the website, she adds two pairs of the "Throwback Bellbottoms" and one "V-Neck T-Shirt" to her cart. Satisfied with her selections, she moves to checkout and submits her order, creating the following entry on the [sales flat order table](../data-warehouse-mgr/sales-flat-order-table.md):
 
-|**entity\_id**|**customer\_id**|**subtotal**|**created\_at**|
+|**entity id**|**customer id**|**subtotal**|**created at**|
 |---|---|---|---|
 |227|214|94.85|2016/09/23 15:41:39|
 
@@ -65,6 +65,7 @@ With her account creation finished, Sammy Customer is ready to start making her 
 In addition to the single row on the Sales\_flat\_order table, when Sammy Customer submits her order, a row for each unique item in that order is inserted into the [sales\_flat\_order\_item table](../data-warehouse-mgr/sales-flat-order-item-table.md):
 
 |**item\_id**|**name**|**product\_id**|**order\_id**|**qty\_ordered**|**price**|
+|---|---|---|---|---|---|
 |822|Throwback Bellbottoms|205|227|2|39.95|
 |823|V-Neck T-Shirt|207|227|1|14.95|
 
