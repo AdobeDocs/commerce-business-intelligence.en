@@ -78,7 +78,6 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Rebuild my queries after an update cycle](data-analyst/dev-reports/rebuild-queries-after-update.md)
     - [Integrations compatible with the SQL Report Builder](data-analyst/dev-reports/sql-rpt-bldr-intgrtns-limits.md)
     - [Using the SQL Report Builder](data-analyst/dev-reports/sql-rpt-bldr.md)
-    - [Supported SQL functions](data-analyst/dev-reports/supp-sql-func.md)
     - [First purchase report](data-analyst/dev-reports/time-first-purchase-slope-dwnwrd.md)
     - [Understanding the Repeat Order Probability Report](data-analyst/dev-reports/repeat-order-probability.md)
     - [Auditing Metrics using the SQL Report Builder](data-analyst/dev-reports/audit-metrics-sql.md)

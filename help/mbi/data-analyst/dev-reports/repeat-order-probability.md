@@ -26,6 +26,8 @@ The numbers that make up such a chart can then be exported to excel to calculate
 
 ### Example:
 
+| | |
+|---|---|
 |Number of customers who made 1 purchase in their lifetime|`90`|
 |Number of customers who made 2 purchases in their lifetime|`30`|
 |Number of customers who made 3 purchases in their lifetime|`10`|

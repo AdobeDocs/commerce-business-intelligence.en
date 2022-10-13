@@ -11,7 +11,7 @@ In this section, you will learn how to connect and import data to MBI, view how 
 ## Related
 
 * [Data Warehouse Manager](../mbi/data-analyst/data-warehouse-mgr/tour-dwm.md)
-* [SQL Report Builder](../mbi/data-analyst/dev-reports/what-is-sql-rprt-bldr-.md)
+* [SQL Report Builder](../mbi/data-analyst/dev-reports/sql-rprt-bldr.md)
 * [Connecting Data](../mbi/data-analyst/importing-data/connecting-data/connecting-data.md)
 * [Integrations](../mbi/data-analyst/importing-data/integrations/magento.md)
 * [Campaign Analysis](../mbi/data-analyst/analysis/camp-analysis.md)
