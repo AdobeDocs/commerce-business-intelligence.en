@@ -42,7 +42,7 @@ Five specifications are needed to build a Cohort report:
 1. Cohort first action time range
 1. Time range after cohort occurrence
 
-![cohort-groups](../../assets/2-cohort-groups.png){: width="300" height="336"}
+![cohort-groups](../../assets/2-cohort-groups.png){: width="200" height="224"}
 
 ![cohort-first-action-time-range](../../assets/3-cohort-first-action-time-range.png){: width="400" height="554"}
 
