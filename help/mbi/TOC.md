@@ -157,7 +157,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Analyzing Website Activity and Customer Conversion Rates](data-analyst/analysis/web-act-cust-conversion.md)
     - [Recency, frequency, monetary (RFM) analysis](data-analyst/analysis/rfm-analysis.md)
   - Analyze Business Performance {#performance}
-    - [Business Performance Analysis](data-analyst/analysis/bus-perf-analysis.md)
+    - [Introduction](data-analyst/analysis/bus-perf-analysis.md)
     - [Tracking goals against actual metrics](data-analyst/analysis/track-goals-against-metrics.md)
     - [Analyzing returned orders](data-analyst/analysis/returned-order-analysis.md)
     - [Year-over-year, month-over-month, week-over-week](data-analyst/analysis/year-month-week.md)
@@ -185,7 +185,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Copy report](data-user/reports/copy-report.md)
     - [Chart Analyzing](data-user/reports/what-is-chart-analyzing.md)
   - Dashboards {#dashboards}
-    - [Dashboard Introduction](data-user/dashboards/ess-dashboards.md)
+    - [Create and Manage Dashboards](data-user/dashboards/ess-dashboards.md)
     - [Out-of-the-box dashboards](data-user/dashboards/dashboards-pro.md)
     - [Importing charts from another user](data-user/dashboards/import-charts-other-user.md)
     - [Permanently deleting a chart](data-user/dashboards/delete-chart.md)

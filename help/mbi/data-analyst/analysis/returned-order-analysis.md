@@ -89,7 +89,9 @@ Columns to create
 * **`Customer's previous order number`** will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
 * **`Customer's previous order contains return? (1=yes/0=no)`** will be created by an analyst as part of your **[RETURNS ANALYSIS]** ticket
 
-**`^`** If you are interested in analyzing only business hours for Seconds to resolution or Seconds to first response, let the analyst know when requesting the ticket.
+>[!NOTE]
+>
+>If you are interested in analyzing only business hours for Seconds to resolution or Seconds to first response, let the analyst know when requesting the ticket.
 
 ### Metrics
 

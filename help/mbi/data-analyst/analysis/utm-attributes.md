@@ -2,7 +2,7 @@
 title: Google Analytics and UTM Attribution
 description: Learn about the Google Analytics source attribution process. 
 ---
-# UTM Attribution
+# Google Analytics and UTM Attribution
 
 It is critical to [track user acquisition source](../../data-analyst/analysis/google-track-user-acq.md) to [identify the best performing advertising campaigns](../../data-analyst/analysis/most-value-source-channel.md). In this tutorial, we explore the Google Analytics source attribution process. In other words, what piece of information is recorded when.
 
