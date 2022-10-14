@@ -22,7 +22,7 @@ A further distinction is made if your business allows guest orders. If so, you c
 
 Columns to create
 
-* **Sales_flat_order/customer_entity**table
+* **Sales_flat_order/customer_entity** table
 * Customer's last order date
 * Column type – "Many to one > Max"
 * Path – **sales_flat_order.customer_id > customer_entity.entity_id**
@@ -139,7 +139,9 @@ Columns to create
 * Calculation – **Case when round(A * 100/B,0) <= 20 then '5. copper' when round(A * 100/B,0) <= 40 then '4. bronze' when round(A * 100/B,0) <= 60 then '3. silver' when round(A * 100/B,0)<= 80 then '2. gold' else '1. Platinum' end**
 * Datatype – Integer
 
-**Note**: The percentiles used are even splits of customers (i.e., 20% buckets to return 1-5). If you have a custom way you would like to weight these, let the analyst know when you submit the ticket.
+>[!NOTE]
+>
+>The percentiles used are even splits of customers (i.e., 20% buckets to return 1-5). If you have a custom way you would like to weight these, let the analyst know when you submit the ticket.
 
 ## Metrics
 
