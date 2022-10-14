@@ -154,7 +154,6 @@ No new metrics!
 * Metric: New customers
 * Filter:
 * Customer's RFM score (by percentiles) Not Equal to 000
-<!--{: style="list-style-type: square;"}-->
 
 * *Time period: All time*
 * *Interval: None*
@@ -162,14 +161,12 @@ No new metrics!
 * *Group by: Customer's RFM group*
 * *Group by: Email*
 * *Chart type: Table*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Customers with 5 recency score**
 * *Metric A: New customers*
 * Metric: New customers
 * Filter:
 * Customer's recency score (by percentiles) Equal to 5
-<!--{: style="list-style-type: square;"}-->
 
 * *Time period: All time*
 * *Interval: None*
@@ -178,14 +175,12 @@ No new metrics!
 * *Group by: Email*
 * *Group by: Customer's RFM score (R+F+M)*
 * *Chart type: Table*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Customers with 1 recency score**
 * *Metric A: New customers*
 * Metric: New customers
 * Filter:
 * Customer's recency score (by percentiles) Equal to 1
-<!--{: style="list-style-type: square;"}-->
 
 * *Time period: All time*
 * *Interval: None*
@@ -194,6 +189,5 @@ No new metrics!
 * *Group by: Email*
 * *Group by: Customer's RFM score (R+F+M)*
 * *Chart type: Table*
-<!--{: style="list-style-type: circle;"}-->
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the above sample dashboard, but the three generated tables are just examples of the types of customer segmentation you can perform.

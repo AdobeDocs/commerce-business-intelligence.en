@@ -24,7 +24,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * **`id`**
 * **`ticket_id`**
 * **`_updated_at`**
-<!--{: style="list-style-type: circle;"}-->
 
 * **`audits_~_events`** table
 * **`_sub_id`**
@@ -34,7 +33,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * **`public`**
 * **`type`**
 * **`value`**
-<!--{: style="list-style-type: circle;"}-->
 
 * **`tickets`** table
 * **`_id`**
@@ -46,7 +44,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * **`updated_at`**
 * **`via_~_source_~_from_~_address`**
 * **`_updated_at`**
-<!--{: style="list-style-type: circle;"}-->
 
 * **`users`** table
 * **`_id`**
@@ -56,17 +53,14 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * **`role`**
 * **`updated_at`**
 * **`_updated_at`**
-<!--{: style="list-style-type: circle;"}-->
 
 ### Filter sets to create
 
 * **`[Zendesk] Tickets`** table
   * status != deleted
-  <!--{: style="list-style-type: circle;"}-->
 
 * Filter set name: Tickets we count
 * Filter set logic:
-<!--{: style="list-style-type: circle;"}-->
 
 ## Calculated Columns
 
@@ -93,10 +87,8 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   * Select table: **`[Zendesk] users`**
   * Select column: **`User is agent? (Yes/No)`**
   * Path: [Zendesk] audits_~_events.author_id = [Zendesk] users.id
-  <!--{: style="list-style-type: square;"}-->
 
 * **`Author is agent? (Yes/No)`**
-<!--{: style="list-style-type: circle;"}-->
 
 * **`[Zendesk] audits`** table
   * Select a definition: Exists
@@ -110,7 +102,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   * field_name = status
   * type = Change
   * value = solved
-  <!--{: style="list-style-type: square;"}-->
 
   * Select a definition: Exists
   * Select table: **`[Zendesk] audits_~_events`**
@@ -119,11 +110,9 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   * Author is agent? (Yes/No)
   * type = Comment
   * public = 1
-  <!--{: style="list-style-type: square;"}-->
 
 * **`Status changes to solved? (1/0)`**
 * **`Is agent comment? (1/0)`**
-<!--{: style="list-style-type: circle;"}-->
 
 * **`[Zendesk] Tickets`** table
   * Select a definition: Joined Column
@@ -134,13 +123,11 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   * Select table: **`[Zendesk] users`**
   * Select column: **`email`**
   * Path: [Zendesk] tickets.requester_id = [Zendesk] users.id
-  <!--{: style="list-style-type: square;"}-->
 
   * Select a definition: Joined Column
   * Select table: **`[Zendesk] users`**
   * Select column: **`role`**
   * Path: [Zendesk] tickets.requester_id = [Zendesk] users.id
-  <!--{: style="list-style-type: square;"}-->
 
   * Select a definition: Max
   * Create Path:
@@ -152,7 +139,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   * Path: [Zendesk] audits.ticket_id = [Zendesk] tickets.id
   * Filter:
   * status changed to solved = 1
-  <!--{: style="list-style-type: square;"}-->
 
   * Select a definition: Min
   * Select table: **`[Zendesk] audits`**
@@ -160,7 +146,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   * Path: [Zendesk] audits.ticket_id = [Zendesk] tickets.id
   * Filter:
   * Is agent comment? = 1
-  <!--{: style="list-style-type: square;"}-->
 
 * **`Requester's email`**
 * **`Requester's role`**
@@ -170,13 +155,11 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   * * **Column type** - "Same Table > Date Difference"
 
     * `Ticket's latest solved date` minus `created_at`
-  <!--{: style="list-style-type: circle;"}-->
 
 * **`Seconds to first response`**
   * * **Column type** - "Same Table > Date Difference"
 
     * `First agent response date` minus `created_at`
-  <!--{: style="list-style-type: circle;"}-->
 
 * **``****`Requester's ticket number `**
   * * **Column type** - "Same Table > Event Number"
@@ -184,7 +167,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
     * **Event Owner** - `requester_id`
 
     * **Event Rank** - `created_at`
-  <!--{: style="list-style-type: circle;"}-->
 
 * **``****`Ticket created_at (hour of day)`**
   * * **Column type** - "Same Table > Calculation"
@@ -194,7 +176,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
     * **SQL Calculation** - `to_char(A,'HH24')::int`
 
     * **Datatype** – Integer
-  <!--{: style="list-style-type: circle;"}-->
 
 * **``****`Ticket created_at (day of week)`**
   * * **Column type** - "Same Table > Calculation"
@@ -204,8 +185,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
     * **Calculation** - `to_char(A,'D')||'. '||to_char(A,'Day')`
 
     * **Datatype** – String
-  <!--{: style="list-style-type: circle;"}-->
-<!--{: style="list-style-type: circle;"}-->
 
 * **`customer_entity`** table
   * Select a definition: Count
@@ -217,7 +196,6 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   * Path: [Zendesk] tickets.email = customer_entity.email
   * Filter:
   * Tickets we count
-  <!--{: style="list-style-type: square;"}-->
 
 * **`User's lifetime number of support tickets requested`**
 * **``****`Has user filed a support ticket? (Yes/No)`**
@@ -228,78 +206,64 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
     * **Calculation** - `case when A>0 then 'Yes' else 'No' end`
 
     * **Datatype** – String
-  <!--{: style="list-style-type: circle;"}-->
-<!--{: style="list-style-type: circle;"}-->
 
 * **`[Zendesk] Tickets`** table
   * Select a definition: Joined Column
   * Select table: **`customer_entity`**
   * Select column: **`User's lifetime number of support tickets requested`**
   * Path: [Zendesk] tickets.email = customer_entity.email
-  <!--{: style="list-style-type: square;"}-->
 
 * **`Requester's lifetime number of support tickets`**
-<!--{: style="list-style-type: circle;"}-->
 
 ## Metrics
 
 * **[Zendesk] New tickets**
   * Tickets we count
-  <!--{: style="list-style-type: square;"}-->
 
 * In the **`[Zendesk] tickets`** table
 * This metric performs a **Count**
 * On the **`id`** column
 * Ordered by the **`created_at`** timestamp
 * Filter:
-<!--{: style="list-style-type: circle;"}-->
 
 * **[Zendesk] Solved tickets**
   * Tickets we count
   * status IN closed, solved
-  <!--{: style="list-style-type: square;"}-->
 
 * In the **`[Zendesk] tickets`** table
 * This metric performs a **Count**
 * On the **`id`** column
 * Ordered by the **`created_at`** timestamp
 * Filter:
-<!--{: style="list-style-type: circle;"}-->
 
 * **[Zendesk] Distinct users filing tickets**
   * Tickets we count
-  <!--{: style="list-style-type: square;"}-->
 
 * In the **`[Zendesk] tickets`** table
 * This metric performs a **Count Distinct**
 * On the **`requester_id`** column
 * Ordered by the **`created_at`** timestamp
 * Filter:
-<!--{: style="list-style-type: circle;"}-->
 
 * **[Zendesk] Average/median ticket resolution time**
   * Tickets we count
   * status IN closed, solved
-  <!--{: style="list-style-type: square;"}-->
 
 * In the **`[Zendesk] tickets`** table
 * This metric performs an **Average (or Median)**
 * On the **`Seconds to resolution`** column
 * Ordered by the **`created_at`** timestamp
 * Filter:
-<!--{: style="list-style-type: circle;"}-->
 
 * **[Zendesk] Average/median time to first response**
   * Tickets we count
   * status IN closed, solved
-  <!--{: style="list-style-type: square;"}-->
 
 * In the **`[Zendesk] tickets`** table
 * This metric performs an **Average (or Median)**
 * On the **`Seconds to first response`** column
 * Ordered by the **`created_at`** timestamp
 * Filter:
-<!--{: style="list-style-type: circle;"}-->
 
 >[!NOTE]
 >
@@ -311,119 +275,97 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
   * Metric: New Tickets
   * Filter:
   * status IN new, open, pending
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: New tickets*
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Closed/Solved tickets**
   * Metric: New Tickets
   * Filter:
   * status IN solved, closed
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: New tickets*
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Average time to first response**
   * Metric: Average time to first response
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Average time to first response*
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Average time to resolution**
   * Metric: Average time to resolution
   * Filter:
   * status IN solved, closed
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Averae time to resolution*
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Tickets by status**
   * Metric: New Tickets
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: New tickets*
 * *Time period: All time*
 * *Interval: Monthly*
 * *Group by: status*
 * *Chart Type: Stacked Column*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Number of new and solved tickets**
   * Metric: New Tickets
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: New Tickets
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: New tickets*
 * *Metric B: Solved tickets*
 * *Time period: All time*
 * *Interval: Monthly*
 * *Chart Type: Line*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Time to first response**
   * Metric: Average time to first response
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Average time to first response*
 * *Time period: All time*
 * *Interval: Monthly*
 * *Chart Type: Column*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Time to resolution**
   * Metric: Average time to resolution
   * Filter:
   * status IN solved, closed
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Averae time to resolution*
 * *Time period: All time*
 * *Interval: Monthly*
 * *Chart Type: Column*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Distinct users filing tickets**
   * Metric: Distinct users filing tickets
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Distinct users filing tickets*
 * *Time period: All time*
 * *Interval: Monthly*
 * *Chart Type: Column*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Peak ticket days**
   * Metric: New Tickets
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: New tickets*
 * *Time period: All time*
 * *Interval: None*
 * *Group by: Ticket created_at (day of week)*
 * *Chart Type: Pie*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Peak ticket hours**
   * Metric: New Tickets
-  <!--{: style="list-style-type: square;"}-->
 
   * Show top/bottom: Top 100% sorted by created_at (hour of the day)
 
@@ -432,26 +374,21 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Interval: None*
 * *Group by: Ticket created_at (hour of the day)*
 * *Chart Type: Pie*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Avg LTV of users who have and have not filed tickets**
   * Metric: Average lifetime revenue
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Average lifetime revenue*
 * *Time period: All time*
 * *Interval: Monthly*
 * *Group by: User has filed a support ticket?*
 * *Chart Type: Column*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Number of new users who have and have not filed tickets**
   * Metric: Users
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: New users*
 * *Time period: All time*
 * *Interval: Monthly*
 * *Group by: User has filed a support ticket?*
 * *Chart Type: Column*
-<!--{: style="list-style-type: circle;"}-->

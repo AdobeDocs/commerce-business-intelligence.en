@@ -22,7 +22,6 @@ Columns to create on the **orders** table if using **30-day months**:
 * **Column input:** A = `Seconds between customer's first order date and this order`
 * **Datatype:** Integer
 * **Definition:**`case when A is null then null when A <= 0 then '1'::int else (ceil(A)/2629800)::int end`
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * **Column name:** Months since order
 * **Column type:** Same Table
@@ -30,9 +29,6 @@ Columns to create on the **orders** table if using **30-day months**:
 * **Column input:** A = `created_at`
 * **Datatype:** Integer
 * **Definition:**`case when created_at is null then null else (ceil((extract(epoch from current_timestamp) - extract(epoch from created_at))/2629800))::int end`
-<!--<!--{: style="list-style-type: square;"}-->
-<!--{: style="list-style-type: circle;"}-->
-<!--{: style="list-style-type: circle;"}-->-->
 
 Columns to create on the **`orders`** table if using **calendar** months:
 
@@ -42,11 +38,9 @@ Columns to create on the **`orders`** table if using **calendar** months:
 * **Column inputs:**
   * A = `created_at`
   * B = `Customer's first order date`
-  <!--<!--{: style="list-style-type: square;"}-->-->
 
 * **Datatype:** Integer
 * **Definition:**`case when (A::date is null) or (B::date is null) then null else ((date_part('year',A::date) - date_part('year',B::date))*12 + date_part('month',A::date) - date_part('month',B::date))::int end`
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * **Column name:** Calendar months since order
 * **Column type:** Same Table
@@ -54,7 +48,6 @@ Columns to create on the **`orders`** table if using **calendar** months:
 * **Column input:** A = `created_at`
 * **Datatype:** Integer
 * **Definition:**`case when A is null then null else ((date_part('year',current_timestamp::date) - date_part('year',A::date))*12 + date_part('month',current_timestamp::date) - date_part('month',A::date))::int end`
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * **Column name:** Is in current month? (Yes/No)
 * **Column type:** Same Table
@@ -62,9 +55,6 @@ Columns to create on the **`orders`** table if using **calendar** months:
 * **Column input:** A = `created_at`
 * **Datatype:** String
 * **Definition:**`case when A is null then null when (date_trunc('month', current_timestamp::date))::varchar = (date_trunc('month', A::date))::varchar then 'Yes' else 'No' end`
-<!--<!--{: style="list-style-type: square;"}-->
-<!--{: style="list-style-type: circle;"}-->
-<!--{: style="list-style-type: circle;"}-->-->
 
 ## Metrics
 
@@ -73,16 +63,16 @@ Columns to create on the **`orders`** table if using **calendar** months:
 Metrics to create
 
 * **Distinct customers by first order date***
-  * If you enable guest orders, use <!--<span class="wysiwyg-color-blue">-->**`customer_email`**<!--</span>-->
-  <!--<!--{: style="list-style-type: square;"}-->-->
+  * If you enable guest orders, use **`customer_email`**
 
-* In the <!--<span class="wysiwyg-color-blue">-->**`orders`**<!--</span>--> table
+* In the **`orders`** table
 * This metric performs a **Count Distinct Values**
-* On the <!--<span class="wysiwyg-color-blue">-->**`customer_id`**<!--</span>--> column
-* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Customer's first order date`**<!--</span>--> timestamp
-<!--<!--{: style="list-style-type: circle;"}-->-->
+* On the **`customer_id`** column
+* Ordered by the **`Customer's first order date`** timestamp
 
-**Note**: Make sure to [add all new columns as dimensions to metrics](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+>[!NOTE]
+>
+>Make sure to [add all new columns as dimensions to metrics](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 
@@ -96,14 +86,12 @@ Metrics to create
 
 * Metric: Revenue
 * Filter:
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * Metric B: All time customers (hide)
   * `Is in current month?` = No
 
 * Metric: New customers by first order date
 * Filter:
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * Metric C: All time customers by month since first order (hide)
   * `Calendar months since order` <= X
@@ -111,13 +99,10 @@ Metrics to create
 
 * Metric: New customers by first order date
 * Filter:
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * Formula: Expected revenue
 * Formula: A / (B - C)
 * Format: Currency
-<!--<!--{: style="list-style-type: square;"}-->
-<!--{: style="list-style-type: circle;"}-->-->
 
 Other chart details
 
@@ -129,8 +114,6 @@ Other chart details
 * **Revenue: **Top 24 sorted by Calendar months between first order and this order
 * **All time customers:** Top 24 sorted by All time customers
 * **All time customers by month since first order:** Top 24 sorted by All time customers by month since first order
-<!--<!--{: style="list-style-type: square;"}-->
-<!--{: style="list-style-type: circle;"}-->-->
 
 **Avg revenue per month by cohort**
 
@@ -138,8 +121,6 @@ Other chart details
 * Metric view: Cohort
 * Cohort date: `Customer's first order date`
 * Perspective: Average value per cohort member
-<!--<!--{: style="list-style-type: square;"}-->
-<!--{: style="list-style-type: circle;"}-->-->
 
 **Cumulative avg revenue per month by cohort**
 
@@ -147,8 +128,6 @@ Other chart details
 * Metric view: Cohort
 * Cohort date: `Customer's first order date`
 * Perspective: Cumulative average value per cohort member
-<!--<!--{: style="list-style-type: square;"}-->
-<!--{: style="list-style-type: circle;"}-->-->
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page.
 

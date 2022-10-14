@@ -26,7 +26,7 @@ Columns to create
 * (input) reference
 * Column type – "Same table > Calculation"
 * Inputs – **entity_id**
-* Calculation - `**case when A is null then null else 1 end**`
+* Calculation - **case when A is null then null else 1 end**
 * Datatype – Integer
 
 * **Customer concentration** table (this is the file you just uploaded with the number "1")

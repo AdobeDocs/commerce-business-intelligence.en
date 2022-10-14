@@ -18,38 +18,37 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 ## Calculated Columns
 
-* <!--<span class="wysiwyg-color-blue">-->**`Sales_flat_order`**<!--</span>--> table
+* **`Sales_flat_order`** table
 * **Original architecture:** the below columns will be created by an analyst as part of your **[YoY WoW MoM ANALYSIS]** ticket
-* <!--<span class="wysiwyg-color-blue">-->**`created_at (month-day)`**<!--</span>-->
-* <!--<span class="wysiwyg-color-blue">-->**`created_at (month)`**<!--</span>-->
-* <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the month)`**<!--</span>-->
-* <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the week)`**<!--</span>-->
-* <!--<span class="wysiwyg-color-blue">-->**`created_at (hour of the day)`**<!--</span>-->
-<!--{: style="list-style-type: circle;"}-->
+* **`created_at (month-day)`**
+* **`created_at (month)`**
+* **`created_at (day of the month)`**
+* **`created_at (day of the week)`**
+* **`created_at (hour of the day)`**
 
 * **New architecture:** SQL listed below with a photo of an example for how to create this calculation
-  * <!--<span class="wysiwyg-color-blue">-->**`created_at (month-day)`**<!--</span>--> Calculation**:** **to_char(A, 'mm-dd')**
-  * <!--<span class="wysiwyg-color-blue">-->**`created_at (month)`**<!--</span>--> Calculation**:** **to_char(A, 'mm-month')**
-  * <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the month)`**<!--</span>--> Calculation**:** **to_char(A, 'dd')**
-  * <!--<span class="wysiwyg-color-blue">-->**`created_at (day of the week)`**<!--</span>--> Calculation**:** **to_char(A, 'd-Day')**
-  * <!--<span class="wysiwyg-color-blue">-->**`created_at (hour of the day)`**<!--</span>--> Calculation**:** **to_char(A, 'hh24')**
+  * **`created_at (month-day)`** Calculation: **to_char(A, 'mm-dd')**
+  * **`created_at (month)`** Calculation: **to_char(A, 'mm-month')**
+  * **`created_at (day of the month)`**< Calculation: **to_char(A, 'dd')**
+  * **`created_at (day of the week)`** Calculation: **to_char(A, 'd-Day')**
+  * **`created_at (hour of the day)`** Calculation: **to_char(A, 'hh24')**
     ![](../../assets/Screen_Shot_2017-10-05_at_4.27.32_PM.png)
 
 ## Metrics
 
 None.
 
-**Note:** Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+>[!NOTE]
+>
+>Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 
 * **YoY chart**
   * Metric: Number of orders
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Number of orders
   * Time options: Time range (Custom): 2 years ago to 1 year ago
-  <!--{: style="list-style-type: square;"}-->
 
   * *Show top/bottom: Top 100% sorted by **`created_at (month-day)`***
 
@@ -59,15 +58,12 @@ None.
 * *Interval: None*
 * *Group by: **`created_at (month-day)`***
 * *Chart Type: Line*
-<!--{: style="list-style-type: circle;"}-->
 
 * **MoM chart**
   * Metric: Number of orders
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Number of orders
   * Time options: Time range (Custom): 2 months ago to 1 month ago
-  <!--{: style="list-style-type: square;"}-->
 
   * *Show top/bottom: Top 100% sorted by **`created_at (day of month)`***
 
@@ -77,15 +73,12 @@ None.
 * *Interval: None*
 * *Group by: **`created_at (day of month)`***
 * *Chart Type: Line*
-<!--{: style="list-style-type: circle;"}-->
 
 * **WoW chart**
   * Metric: Number of orders
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Number of orders
   * Time options: Time range (Custom): 2 weekss ago to 1 week ago
-  <!--{: style="list-style-type: square;"}-->
 
   * *Show top/bottom: Top 100% sorted by **`created_at (day of week)`***
 
@@ -95,15 +88,12 @@ None.
 * *Interval: None*
 * *Group by: **`created_at (day of week)`***
 * *Chart Type: Line*
-<!--{: style="list-style-type: circle;"}-->
 
 * **DoD chart**
   * Metric: Number of orders
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Number of orders
   * Time options: Time range (Custom): 2 days ago to 1 day ago
-  <!--{: style="list-style-type: square;"}-->
 
   * *Show top/bottom: Top 100% sorted by **`created_at (hour of day)`***
 
@@ -113,6 +103,5 @@ None.
 * *Interval: None*
 * *Group by: **`created_at (hour of day)`***
 * *Chart Type: Line*
-<!--{: style="list-style-type: circle;"}-->
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of this page.

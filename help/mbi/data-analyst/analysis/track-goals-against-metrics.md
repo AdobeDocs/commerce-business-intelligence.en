@@ -23,25 +23,22 @@ You can use the [file uploader](../importing-data/connecting-data/using-file-upl
 You need to create one new metric for each target. For example, if you upload monthly revenue and orders targets, you will need to create two new metrics:
 
 * **Monthly revenue target**
-* In the <!--<span class="wysiwyg-color-blue">-->**`Monthly goals`**<!--</span>--> table
+* In the **`Monthly goals`** table
 * This metric performs a **Sum**
-* On the <!--<span class="wysiwyg-color-blue">-->**`Revenue target`**<!--</span>--> column
-* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
-<!--{: style="list-style-type: circle;"}-->
+* On the **`Revenue target`** column
+* Ordered by the **`Month`** timestamp
 
 * **Monthly orders target**
-* In the <!--<span class="wysiwyg-color-blue">-->**`Monthly goals`**<!--</span>--> table
+* In the **`Monthly goals`** table
 * This metric performs a **Sum**
-* On the <!--<span class="wysiwyg-color-blue">-->**`Orders target`**<!--</span>--> column
-* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
-<!--{: style="list-style-type: circle;"}-->
+* On the **`Orders target`** column
+* Ordered by the **`Month`** timestamp
 
 * **Monthly new registered accounts target**
-* In the <!--<span class="wysiwyg-color-blue">-->**`Monthly goals`**<!--</span>--> table
+* In the **`Monthly goals`** table
 * This metric performs a **Sum**
-* On the <!--<span class="wysiwyg-color-blue">-->**`New registered accounts target`**<!--</span>--> column
-* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
-<!--{: style="list-style-type: circle;"}-->
+* On the **`New registered accounts target`** column
+* Ordered by the **`Month`** timestamp
 
 ## Reports
 
@@ -50,46 +47,37 @@ As always, it is helpful to have a mix of static values and visual charts when a
 * **Revenue left to achieve target**
 * *Metric A: Revenue*
 * Metric: Revenue
-<!--{: style="list-style-type: square;"}-->
 
 * *Metric B: Target Revenue*
 * Metric: Monthly Revenue Target
-<!--{: style="list-style-type: square;"}-->
 
 * *Formula: Revenue left to achieve target*
 * Formula: (B-A)
 * Format: Number
-<!--{: style="list-style-type: square;"}-->
 
 * *Time period: (Whatever relevant time period you want)*
 * *Interval: Month*
 * *Chart Type: Scalar*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Revenue targets**
 * *Metric A: Revenue*
 * Metric: Revenue
-<!--{: style="list-style-type: square;"}-->
 
 * *Metric B: Target Revenue*
 * Metric: Monthly Revenue Target
-<!--{: style="list-style-type: square;"}-->
 
 * *Metric C: Revenue (amount change since previous year)* (hide)
 * Metric: Revenue
 * Perspective: Amount change vs. Previous year
-<!--{: style="list-style-type: square;"}-->
 
 * *Formula: (This month last year)*
 * Formula: (A-C)
 * Format: Currency
-<!--{: style="list-style-type: square;"}-->
 
 * Turn "Multiple Y-Axes" off
 * *Time period: (Whatever relevant time period you want)*
 * *Interval: Month*
 * *Chart Type: Line Chart*
-<!--{: style="list-style-type: circle;"}-->
 
 Once you have completed the above reports for revenue targets, you can create identical reports for goals around orders, registered accounts, or any other values you have included in your goals file upload.
 
