@@ -27,8 +27,9 @@ Email summaries are a powerful communication tool you can use to share the curre
 
    You can select up to 10 reports that you own. After you select a report, use the icons that appear to select if you want that report sent as a table or a chart. If you saved the report as a number, you can only send it as a number. For information about sending an email summary that contains a report with stale data, see [Managing your account settings](../../administrator/account-management/managing-account-settings.md).
 
-  {: .bs-callout-info}
-  **Note**: Cohort reports are only available if you are using the new architecture.
+   >[!NOTE]
+   >
+   >Cohort reports are only available if you are using the new architecture.
 
 1. (Optional) Select **Send Email To Me** if you want to receive the email.
 

@@ -31,14 +31,14 @@ User segments help you understand who your users are and how they behave.
 
 Order and event segments help with analyzing user behavior and engagement over time.
 
-* **Billing / Shipping Address**\: Where do most of your orders come from? Is there a difference between billing and shipping addresses?
-* **Status**\: How many of your orders failed to complete? What is the ratio of pending orders in the past seven days?
-* **Customer acquisition source**\: Beyond tracking user acquisition data at a user level, you can also [track it on an order or event level](../data-analyst/analysis/google-track-user-acq.md). A user that registered via one source may very well continue to access your site via other sources.
-* **Device**\: Are the number of mobile orders increasing? How much of your revenue is currently generated via mobile purchases? (If you are not tracking this yet, see this topic [about tracking order device data](../data-analyst/analysis/track-usr-dev-browser.md).
-* **Fulfillment Center: **Which one of your fulfillment centers is generating the most revenue? If you are analyzing the difference between order time and shipping time, which fulfillment center is most responsive?
-* **Delivery Carrier: **Which is the most popular carrier? Which carrier has the least number of returned items?
-* **Discount / Coupon Codes**\: Are your promotions actually generating extra business? How many extra items did your customers buy in addition to the item on sale? How do coupons affect your average order value? What is your average margin on discounted vs. non-discounted items?
-* **Satisfaction / Rating**\: How satisfied are your customers with their orders? Are your customers likely to refer business to you?
+* **Billing / Shipping Address**: Where do most of your orders come from? Is there a difference between billing and shipping addresses?
+* **Status**: How many of your orders failed to complete? What is the ratio of pending orders in the past seven days?
+* **Customer acquisition source**: Beyond tracking user acquisition data at a user level, you can also [track it on an order or event level](../data-analyst/analysis/google-track-user-acq.md). A user that registered via one source may very well continue to access your site via other sources.
+* **Device**: Are the number of mobile orders increasing? How much of your revenue is currently generated via mobile purchases? (If you are not tracking this yet, see this topic [about tracking order device data](../data-analyst/analysis/track-usr-dev-browser.md).
+* **Fulfillment Center**: Which one of your fulfillment centers is generating the most revenue? If you are analyzing the difference between order time and shipping time, which fulfillment center is most responsive?
+* **Delivery Carrier**: Which is the most popular carrier? Which carrier has the least number of returned items?
+* **Discount / Coupon Codes**: Are your promotions actually generating extra business? How many extra items did your customers buy in addition to the item on sale? How do coupons affect your average order value? What is your average margin on discounted vs. non-discounted items?
+* **Satisfaction / Rating**: How satisfied are your customers with their orders? Are your customers likely to refer business to you?
 
 ## Product Segments
 

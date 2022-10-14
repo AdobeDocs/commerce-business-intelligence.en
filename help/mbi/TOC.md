@@ -185,7 +185,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Copy report](data-user/reports/copy-report.md)
     - [Chart Analyzing](data-user/reports/what-is-chart-analyzing.md)
   - Dashboards {#dashboards}
-    - [Create and Manage Dashboards](data-user/dashboards/ess-dashboards.md)
+    - [Create Dashboards](data-user/dashboards/ess-dashboards.md)
     - [Out-of-the-box dashboards](data-user/dashboards/dashboards-pro.md)
     - [Importing charts from another user](data-user/dashboards/import-charts-other-user.md)
     - [Permanently deleting a chart](data-user/dashboards/delete-chart.md)

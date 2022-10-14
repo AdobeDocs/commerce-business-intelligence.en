@@ -91,9 +91,9 @@ Note that you can always start syncing these columns again in the future. Unsync
 1. Go to **Manage Data**, then **Data Warehouse**.
 1. In the **Synced Tables** list, navigate to the table that contains the column.
 1. Check the box(es) next to the column(s) you want to unsync. 
-  >[!NOTE]
-  >
-  >You cannot unsync a Primary Key column without dropping the entire table.
+   >[!NOTE]
+   >
+   >You cannot unsync a Primary Key column without dropping the entire table.
 
 1. Click **Remove** to unsync the column(s).
 
