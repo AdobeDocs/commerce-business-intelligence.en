@@ -22,7 +22,7 @@ A further distinction is made if your business allows guest orders. If so, you c
 
 Columns to create
 
-* **Sales_flat_order/customer_entity**table
+* **Sales_flat_order/customer_entity** table
 * (input) reference
 * Column type – "Same table > Calculation"
 * Inputs – **entity_id**

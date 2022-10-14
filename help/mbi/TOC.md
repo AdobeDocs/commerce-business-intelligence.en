@@ -145,7 +145,7 @@ description: Learn how to use MBI features available for Adobe Commerce.
     - [Increasing ROI on your advertising campaigns](data-analyst/analysis/roi-ad-camp.md)
     - [Marketing ROI](data-analyst/analysis/marketing-roi.md)
   - Analyze Customers {#customers}
-    - [Analyzing Customers](data-analyst/analysis/cust-analysis.md)
+    - [Introduction](data-analyst/analysis/cust-analysis.md)
     - [Calculating Commerce churn rates](data-analyst/analysis/commerce-churn.md)
     - [Defining customer concentration](data-analyst/analysis/define-cust-concent.md)
     - [Defining customer churn](data-analyst/analysis/define-cust-churn.md)

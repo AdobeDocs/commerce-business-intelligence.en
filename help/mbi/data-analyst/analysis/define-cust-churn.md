@@ -14,44 +14,41 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 Columns to create
 
-* <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>--> table
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's lifetime number of orders`**<!--</span>-->
+* **`customer_entity`** table
+* **`Customer's lifetime number of orders`**
 * Select a definition: Count
-* Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
-* Select column: <!--<span class="wysiwyg-color-blue">-->**`entity_id`**<!--</span>-->
+* Select table: **`sales_flat_order`**
+* Select column: **`entity_id`**
 * Path: sales_flat_order.customer_id = customer_entity.entity_id
 * Filter:
 * Orders we count
-<!--{: style="list-style-type: square;"}-->
-<!--{: style="list-style-type: circle;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>--> table
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's lifetime number of orders`**<!--</span>-->
+* **`sales_flat_order`** table
+* **`Customer's lifetime number of orders`**
 * Select a definition: Joined column
-* Select table: <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>-->
-* Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's lifetime number of orders`**<!--</span>-->
+* Select table: **`customer_entity`**
+* Select column: **`Customer's lifetime number of orders`**
 * Path: sales_flat_order.customer_id = customer_entity.entity_id
 * Filter:
 * Orders we count
-<!--{: style="list-style-type: square;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`Seconds since created_at`**<!--</span>-->
+* **`Seconds since created_at`**
 * Select a definition: Age
-* Select column: <!--<span class="wysiwyg-color-blue">-->**`created_at`**<!--</span>-->
-<!--{: style="list-style-type: square;"}-->
+* Select column: **`created_at`**
 
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's order number`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-* <!--<span class="wysiwyg-color-blue">-->**`Is customer's last order`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-* <!--<span class="wysiwyg-color-blue">-->**`Seconds since previous order`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-* <!--<span class="wysiwyg-color-blue">-->**`Months since order`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-* <!--<span class="wysiwyg-color-blue">-->**`Months since previous order`**<!--</span>--> will be created by an analyst as part of your **[DEFINING CHURN]** ticket
-<!--{: style="list-style-type: circle;"}-->
+* **`Customer's order number`** will be created by an analyst as part of your **[DEFINING CHURN]** ticket
+* **`Is customer's last order`** will be created by an analyst as part of your **[DEFINING CHURN]** ticket
+* **`Seconds since previous order`** will be created by an analyst as part of your **[DEFINING CHURN]** ticket
+* **`Months since order`** will be created by an analyst as part of your **[DEFINING CHURN]** ticket
+* **`Months since previous order`** will be created by an analyst as part of your **[DEFINING CHURN]** ticket
 
 ## Metrics
 
 No new metrics!
 
-Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+>[!NOTE]
+>
+>Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 
@@ -60,21 +57,17 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Metric: Number of orders
 * Filter:
 * Customer's order number greater than 1
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Metric B: All time orders*
 * Metric: Number of orders
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Formula: Initial repeat order probability*
 * Formula: A/B
 * Format: Percent
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-<!--<!--{: style="list-style-type: circle;"}-->-->
 
 * **Repeat order probability given months since order**
 * *Metric A: Repeat orders by months since previous order* (hide)
@@ -82,14 +75,12 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Perspective: Cumulative
 * Filter:
 * Customer's order number greater than 1
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Metric B: Last orders by months since order* (hide)
 * Metric: Number of orders
 * Perspective: Cumulative
 * Filter:
 * Is customer's last order? (Yes/No) = "Yes"
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Metric C: All time repeat orders* (hide)
 * Metric: Number of orders
@@ -97,7 +88,6 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Customer's order number greater than 1
 
 * Group by: Independent
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Metric D: All time last orders* (hide)
 * Metric: Number of orders
@@ -105,21 +95,17 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * Is customer's last order? (Yes/No) = "Yes"
 
 * Group by: Independent
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Formula: Initial repeat order probability*
 * Formula: (C-A)/(C+D-A-B)
 * Format: Percent
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Time period: All time*
 * *Interval: None*
 * *Group by: Months since previous order*
 * Show top.bottom: Top 24 categories. sorted by category name
-<!--<!--{: style="list-style-type: square;"}-->-->
 
 * *Chart Type: Line*
-<!--<!--{: style="list-style-type: circle;"}-->-->
 
 The initial repeat order probability report represents the Total Repeat Orders / Total Orders. Note that every order is an opportunity to make a repeat order; the number of repeat orders is the subset of those that actually do.
 

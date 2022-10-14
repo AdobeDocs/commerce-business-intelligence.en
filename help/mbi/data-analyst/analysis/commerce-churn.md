@@ -14,48 +14,44 @@ Many customers want assistance in starting to conceptualize what **timeframe** t
 
 Columns to create
 
-* <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>--> table
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's last order date`**<!--</span>-->
+* **`customer_entity`** table
+* **`Customer's last order date`**
   * Select a definition: Max
-  * Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
-  * Select column: <!--<span class="wysiwyg-color-blue">-->**`created_at`**<!--</span>-->
+  * Select table: **`sales_flat_order`**
+  * Select column: **`created_at`**
   * sales_flat_order.customer_id = customer_entity.entity_id
   * Filter:
   * Orders we count
-  <!--{: style="list-style-type: square;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`Seconds since customer's last order date`**<!--</span>-->
+* **`Seconds since customer's last order date`**
   * Select a definition: Age
-  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's last order date`**<!--</span>--><!--<span class="wysiwyg-color-blue">-->**``**<!--</span>--><!--<span class="wysiwyg-color-blue">-->**``**<!--</span>-->
-  <!--{: style="list-style-type: square;"}-->
+  * Select column: **`Customer's last order date`** **`` ``** 
 
-Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+>[!NOTE]
+>
+>Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Metrics
 
 * **New customers (by first order date)**
   * Customers we count
-  <!--{: style="list-style-type: circle;"}-->
 
-* NOTE: this metric may already exist on your account
-* In the <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>--> table
+* **Note**: This metric may already exist on your account
+* In the **`customer_entity`**table
 * This metric performs a **Count**
-* On the <!--<span class="wysiwyg-color-blue">-->**`entity_id`**<!--</span>--> column
-* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Customer's first order date`**<!--</span>--> timestamp
+* On the **`entity_id`** column
+* Ordered by the **`Customer's first order date`** timestamp
 * Filter:
-<!--{: style="list-style-type: circle;"}-->
 
 * **New customers (by last order date)**
   * Customers we count
-  <!--{: style="list-style-type: circle;"}-->
 
 * **Note**: this metric may already exist on your account
-* In the <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>--> table
+* In the **`customer_entity`** table
 * This metric performs a **Count**
-* On the <!--<span class="wysiwyg-color-blue">-->**`entity_id`**<!--</span>--> column
-* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Customer's last order date`**<!--</span>--> timestamp
+* On the **`entity_id`** column
+* Ordered by the **`Customer's last order date`** timestamp
 * Filter:
-<!--{: style="list-style-type: circle;"}-->
 
 >[!NOTE]
 >
@@ -69,24 +65,20 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
   * Lifetime number of orders Greater Than 0
 
   * Perspective: Cumulative
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: New customers (by last order date)
   * Filter:
-  * Seconds since customer's last order date >= [Your self-defined cutoff for churned customers]<!--<span class="wysiwyg-color-blue">-->**`^`**<!--</span>-->
+  * Seconds since customer's last order date >= [Your self-defined cutoff for churned customers]**`^`**
   * Lifetime number of orders Greater Than 0
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: New customers (by last order date)
   * Filter:
   * Lifetime number of orders Greater Than 0
 
   * Perspective: Cumulative
-  <!--{: style="list-style-type: square;"}-->
 
   * Formula: (B / ((A + B) - C)
   * Format: Percentage
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: New customers cumulative*
 * *Metric B: Churned customers by last order date*
@@ -95,15 +87,14 @@ Note: Make sure to [add all new columns as dimensions to metrics](../data-wareho
 * *Time period: All time (or custom range)*
 * *Group by: Customer's order number*
 * *Chart Type: Column*
-<!--{: style="list-style-type: circle;"}-->
 
 Below are some common month > second conversions, but google provides other values, including week > seconds conversions for any custom values you may be looking for.
 
 | **Months** | **Seconds** |
-{: align="center"}| 3 | 7,776,000 |
-{: align="center"}| 6 | 15,552,000 |
-{: align="center"}| 9 | 23,328,000 |
-{: align="center"}| 12 | 31,104,000 |
-{: align="center"}{: align="center"}
+|---|---|
+| 3 | 7,776,000 |
+| 6 | 15,552,000 |
+| 9 | 23,328,000 |
+| 12 | 31,104,000 |
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the above sample dashboard.
