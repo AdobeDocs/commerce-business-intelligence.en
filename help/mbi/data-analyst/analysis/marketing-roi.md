@@ -24,131 +24,116 @@ Before getting started, you want to connect your [Facebook Ads](../importing-dat
 
 Columns to create
 
-* <!--<span class="wysiwyg-color-blue">-->**`Consolidated Digital Ad Spend`**<!--</span>--> table
-* <!--<span class="wysiwyg-color-blue">-->**`Campaign name`**<!--</span>--> will be created by an analyst as part of your **[MARKETING ROI ANALYSIS]** ticket (**note:** see above for new architecture differences)
-<!--{: style="list-style-type: circle;"}-->
+* **`Consolidated Digital Ad Spend`** table
+* **`Campaign name`** will be created by an analyst as part of your **[MARKETING ROI ANALYSIS]** ticket (**note:** see above for new architecture differences)
 
 **Original and new architectures:**
 
-* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>--> table
-  * <!--<span class="wysiwyg-color-blue">-->**`Order's GA campaign`**<!--</span>-->
+* **`sales_flat_order`** table
+  * **`Order's GA campaign`**
     * Select a definition: Joined Column
     * Create Path:
     * Many: sales_flat_order.increment_id
     * One: ecommerce####.transaction_id
 
-    * Select table: <!--<span class="wysiwyg-color-blue">-->**`ecommerce####`**<!--</span>-->
-    * Select column: <!--<span class="wysiwyg-color-blue">-->**`campaign`**<!--</span>-->
-    * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
-    <!--{: style="list-style-type: square;"}-->
-
-  * <!--<span class="wysiwyg-color-blue">-->**`Order's GA medium`**<!--</span>-->
-    * Select a definition: Joined Column
-    * Select table: <!--<span class="wysiwyg-color-blue">-->**`ecommerce####`**<!--</span>-->
-    * Select column: <!--<span class="wysiwyg-color-blue">-->**`medium`**<!--</span>-->
+    * Select table: **`ecommerce####`**
+    * Select column: **`campaign`**
     * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
 
-  * <!--<span class="wysiwyg-color-blue">-->**`Order's GA source`**<!--</span>-->
+
+  * **`Order's GA medium`**
     * Select a definition: Joined Column
-    * Select table: <!--<span class="wysiwyg-color-blue">-->**`ecommerce####`**<!--</span>-->
-    * Select column: <!--<span class="wysiwyg-color-blue">-->**`source`**<!--</span>-->
+    * Select table: **`ecommerce####`**
+    * Select column: **`medium`**
+    * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
+
+  * **`Order's GA source`**
+    * Select a definition: Joined Column
+    * Select table: **`ecommerce####`**
+    * Select column: **`source`**
     * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
 ^
 
-* <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>--> table
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA campaign`**<!--</span>-->
+* **`customer_entity`** table
+* **`Customer's first order GA campaign`**
   * Select a definition: Max
-  * Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
-  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Order's GA campaign`**<!--</span>-->
+  * Select table: **`sales_flat_order`**
+  * Select column: **`Order's GA campaign`**
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
   * Filter:
   * Orders we count
   * Customer's order number = 1
-  <!--{: style="list-style-type: square;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA source`**<!--</span>-->
+* **`Customer's first order GA source`**
   * Select a definition: Max
-  * Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
-  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Order's GA source`**<!--</span>-->
+  * Select table: **`sales_flat_order`**
+  * Select column: **`Order's GA source`**
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
   * Filter:
     * Orders we count
-    * Customer's order number = 1<!--<span class="wysiwyg-color-blue">-->**``**<!--</span>-->
-    <!--{: style="list-style-type: circle;"}-->
-  <!--{: style="list-style-type: circle;"}-->
-<!--{: style="list-style-type: circle;"}-->
+    * Customer's order number = 1 **``**
 
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA medium`**<!--</span>-->
+* **`Customer's first order GA medium`**
   * Select a definition: Max
-  * Select table: <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>-->
-  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Order's GA medium`**<!--</span>-->
+  * Select table: **`sales_flat_order`**
+  * Select column: **`Order's GA medium`**
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
   * Filter:
     * Orders we count
     * Customer's order number = 1
-    <!--{: style="list-style-type: circle;"}-->
-  <!--{: style="list-style-type: circle;"}-->
-<!--{: style="list-style-type: circle;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`sales_flat_order`**<!--</span>--> table
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA campaign`**<!--</span>-->
+* **`sales_flat_order`** table
+* **`Customer's first order GA campaign`**
   * Select a definition: Joined Column
-  * Select table: <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>-->
-  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA campaign`**<!--</span>-->
+  * Select table: **`customer_entity`**
+  * Select column: **`Customer's first order GA campaign`**
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
-  <!--{: style="list-style-type: circle;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA source`**<!--</span>-->
+* **`Customer's first order GA source`**
   * Select a definition: Joined Column
-  * Select table: <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>-->
-  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA source`**<!--</span>-->
+  * Select table: **`customer_entity`**
+  * Select column: **`Customer's first order GA source`**
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
-  <!--{: style="list-style-type: circle;"}-->
 
-* <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA medium`**<!--</span>-->
+* **`Customer's first order GA medium`**
   * Select a definition: Joined Column
-  * Select table: <!--<span class="wysiwyg-color-blue">-->**`customer_entity`**<!--</span>-->
-  * Select column: <!--<span class="wysiwyg-color-blue">-->**`Customer's first order GA medium`**<!--</span>-->
+  * Select table: **`customer_entity`**
+  * Select column: **`Customer's first order GA medium`**
   * Path: sales_flat_order.customer_id = customer_entity.entity_id
-  <!--{: style="list-style-type: circle;"}-->
-<!--{: style="list-style-type: circle;"}-->
 
 ## Metrics
 
 * **Ad spend**
-* In the <!--<span class="wysiwyg-color-blue">-->**`Consolidated Digital Ad Spend`**<!--</span>--> table
+* In the **`Consolidated Digital Ad Spend`** table
 * This metric performs a **Sum**
-* On the <!--<span class="wysiwyg-color-blue">-->**`adCost`**<!--</span>--> column
-* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`date`**<!--</span>--> timestamp
-<!--{: style="list-style-type: circle;"}-->
+* On the **`adCost`** column
+* Ordered by the **`date`**<!--</span>--> timestamp
 
 * **Ad impressions**
-* In the <!--<span class="wysiwyg-color-blue">-->**`Consolidated Digital Ad Spend`**<!--</span>--> table
+* In the **`Consolidated Digital Ad Spend`** table
 * This metric performs a **Sum**
-* On the <!--<span class="wysiwyg-color-blue">-->**`Impressions`**<!--</span>--> column
-* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
-<!--{: style="list-style-type: circle;"}-->
+* On the **`Impressions`** column
+* Ordered by the **`Month`** timestamp
 
 * **Ad clicks**
-* In the <!--<span class="wysiwyg-color-blue">-->**`Consolidated Digital Ad Spend`**<!--</span>--> table
+* In the **`Consolidated Digital Ad Spend`** table
 * This metric performs a **Sum**
-* On the <!--<span class="wysiwyg-color-blue">-->**`adClicks`**<!--</span>--> column
-* Ordered by the <!--<span class="wysiwyg-color-blue">-->**`Month`**<!--</span>--> timestamp
-<!--{: style="list-style-type: circle;"}-->
+* On the **`adClicks`** column
+* Ordered by the **`Month`** timestamp
 
-Note: Make sure to [add all new columns as dimensions to metrics](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+>[!NOTE]
+>
+>Make sure to [add all new columns as dimensions to metrics](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 
 * **Ad spend (all time)**
   * Metric: Ad Spend
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Ad Spend*
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Ad customer acquisitions (all time)**
   * Metric: New customers
@@ -158,17 +143,14 @@ Note: Make sure to [add all new columns as dimensions to metrics](../../data-ana
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Ad customer acquisitions*
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Ad ROI**
   * Metric: Ad Spend
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: New customers
   * Filters:
@@ -177,7 +159,6 @@ Note: Make sure to [add all new columns as dimensions to metrics](../../data-ana
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Average lifetime revenue
   * Filters:
@@ -186,11 +167,9 @@ Note: Make sure to [add all new columns as dimensions to metrics](../../data-ana
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  <!--{: style="list-style-type: square;"}-->
 
   * Formula: ((C - (A / B)) / (A / B))
   * Format: Percentage
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Ad Spend* (hide)
 * *Metric B: Ad customer acquisitions* (hide)
@@ -199,22 +178,18 @@ Note: Make sure to [add all new columns as dimensions to metrics](../../data-ana
 * *Time period: All time*
 * *Interval: None*
 * *Chart Type: Scalar*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Orders by ga medium**
   * Metric: Orders
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Orders*
 * *Time period: All time*
 * *Interval: By Month*
 * *Group by: **`Order's medium`***
 * *Chart Type: Area chart*
-<!--{: style="list-style-type: circle;"}-->
 
 * **Ad ROI by campaign**
   * Metric: Ad Spend
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: New customers
   * Filters:
@@ -223,7 +198,6 @@ Note: Make sure to [add all new columns as dimensions to metrics](../../data-ana
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Average lifetime revenue
   * Filters:
@@ -232,7 +206,6 @@ Note: Make sure to [add all new columns as dimensions to metrics](../../data-ana
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Average lifetime number of orders
   * Filters:
@@ -241,33 +214,25 @@ Note: Make sure to [add all new columns as dimensions to metrics](../../data-ana
   * User's first order's source LIKE %fb%
   * User's first order's medium IN cpc, ppc
   * Filter logic: ([A] OR [B] OR [C]) AND [D]
-  <!--{: style="list-style-type: square;"}-->
 
   * Formula: (A / B)
   * Format: Currency
-  <!--{: style="list-style-type: square;"}-->
 
   * Formula: (C - (A / B))
   * Format: Currency
-  <!--{: style="list-style-type: square;"}-->
 
   * Formula: ((C - (A / B)) / (A / B))
   * Format: Percentage
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Ad Clicks
-  <!--{: style="list-style-type: square;"}-->
 
   * Metric: Ad Impressions
-  <!--{: style="list-style-type: square;"}-->
 
   * Formula: (H / I)
   * Format: Percentage
-  <!--{: style="list-style-type: square;"}-->
 
   * Formula: (A / H)
   * Format: Currency
-  <!--{: style="list-style-type: square;"}-->
 
 * *Metric A: Ad Spend* (hide)
 * *Metric B: Ad customer acquisitions*
@@ -284,11 +249,10 @@ Note: Make sure to [add all new columns as dimensions to metrics](../../data-ana
 * *Interval: None*
 * *Group by: **`campaign`** (Use Customer's first order's campaign for non-ad spend table metrics)*
 * *Chart Type: Table*
-<!--{: style="list-style-type: circle;"}-->
 
 If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).
 
-### Related Reading
+### Related
 
 * [Best-Practices for UTM tagging in Google Analytics](../../best-practices/utm-tagging-google.md)
 * [How does Google Analytics UTM attribution work?](../analysis/utm-attributes.md)
