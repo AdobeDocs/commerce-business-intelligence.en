@@ -24,7 +24,7 @@ This guide will teach you how to do just that. Before getting started, we recomm
 
   * **For a Same Table calculation**, you need to select the desired date field from the dropdown menu.
 
-* If you are creating a One to Many (joined) or Many to One (aggregate) column, you need to select a pathway to connect the two tables. In this step, you can either use an existing path or create a new one.
+If you are creating a One to Many (joined) or Many to One (aggregate) column, you need to select a pathway to connect the two tables. In this step, you can either use an existing path or create a new one.
 
     **Remember to properly define the table as either many or one!**
   * If desired, you can apply [filters](../../data-user/reports/ess-manage-data-filters.md) to the new column.
@@ -36,7 +36,7 @@ That is it! Your new column will appear in the current table with a Pending stat
 
 If you are having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you are building:
 
-![](../../assets/Calculated_Columns_Example.png)<!--{: width="805" height="643"}-->
+![](../../assets/Calculated_Columns_Example.png)
 
 ## Related documentation
 
