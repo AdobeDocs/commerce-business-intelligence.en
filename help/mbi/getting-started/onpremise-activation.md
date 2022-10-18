@@ -30,7 +30,7 @@ To activate MBI for on-premise subscriptions, first create a MBI account, then c
 
 1. Enter information about your store to set your preferences.
 
-    ![](../assets/create-account-.png)
+    ![](../assets/create-account-6.png)
 
 1. Connect MBI to your Magento database using an encrypted connection.
 

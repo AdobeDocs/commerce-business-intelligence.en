@@ -59,9 +59,7 @@ Here is a quick look at the whole process:
 
 When you a sync a large, new table for the first time, your data warehouse needs to retroactively capture all data points in the table before capturing new data on an ongoing basis. If your table is particularly large, you may not want to have that initial sync run in sequence with your **update cycle** — in situation, you will want the initial sync to occur in the background, in *parallel* with any currently running update.
 
-To make sure that occurs, you should select the **Save and Sync Data Immediately** option syncing that table for the first time, as below:
-
-![](../../assets/mceclip0.png)
+To make sure that occurs, you should select the **Save and Sync Data Immediately** option syncing that table for the first time.
 
 ### Checking for new tables and columns {#forceupdate}
 
