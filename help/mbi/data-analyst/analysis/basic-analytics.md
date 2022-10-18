@@ -448,11 +448,11 @@ Here are some common examples of reports and metrics you might find useful:
       * For metric A, select "Customer's first order's campaign"
       * For metric B, select "campaign"
 
-   ![New Users.](../../assets/new_users_last_month.png)
+   ![New Users.](../../assets/New_Users_Last_Month.png)
 
 * **Notes**: You can **title** the formula as "CTR", and **hide** all metrics. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
-![CAC 1](../../assets/new_users_last_month.png)
+![CAC 1](../../assets/New_Users_Last_Month.png)
 
 ![CAC 2](../../assets/cac-2.png)
 
