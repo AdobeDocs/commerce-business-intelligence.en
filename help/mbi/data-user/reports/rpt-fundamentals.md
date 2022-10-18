@@ -144,4 +144,4 @@ Need to include a report in a presentation or document? Any report can be saved 
 
 Take a look:
 
-![](../../assets/3.3.gif)
+![](../../assets/exp-rep-as-image.gif)

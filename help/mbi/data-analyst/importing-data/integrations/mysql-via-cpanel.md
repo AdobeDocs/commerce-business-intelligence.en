@@ -27,9 +27,9 @@ Let us get started.
 
 1. Login to [cPanel](../../../data-analyst/importing-data/integrations/mysql-via-cpanel.md) via your hosting provider.
 1. Click MySQL Databases, located in the Database section.
-1. Scroll down to the Add New User section and create a user for MBI:
+1. Scroll down to the **Add New User**** section and create a user for MBI:
 
-     ![](../../../assets/Screen_Shot_2015-11-20_at_3.48.08_PM.png)
+     ![](../../../assets/create-mbi-mysql-user-cpanel.png)
 
 1. Click **Create User**.
 1. Now that you have created the user, you need to associate it to a database. Go back to the _Add New User_ section - see the settings for Add User to Database? That is what we need.

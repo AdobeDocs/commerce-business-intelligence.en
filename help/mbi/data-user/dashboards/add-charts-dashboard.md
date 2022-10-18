@@ -20,4 +20,4 @@ Existing charts can be added to dashboards using the **Add Report** function, lo
 
 Example:
 
-![add chart](../../assets/6.1.gif)
+![add chart](../../assets/sql-integration-encrypted-yes.png)

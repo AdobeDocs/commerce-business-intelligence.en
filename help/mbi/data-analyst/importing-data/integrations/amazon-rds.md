@@ -6,7 +6,7 @@ description: Learn the steps for connecting your RDS instance.
 
 Amazon Relational Database Services (RDS) is a managed database service that runs on database engines that you are probably already familiar with - [MySQL](../integrations/mysql-via-a-direct-connection.md), [Microsoft SQL](../integrations/microsoft-sql-server.md), and [PostgreSQL](../integrations/postgresql.md).
 
-The steps for connecting your RDS instance vary slightly depending on the type of database you are using (use the links above for detailed instructions for each database), and whether or not you are using an encrypted connection ([like an SSH tunnel for MySQL](../integrations/mysql-via-ssh-tunnel.md)), but here's the gist of it:
+The steps for connecting your RDS instance vary slightly depending on the type of database you are using (use the links above for detailed instructions for each database), and whether or not you are using an encrypted connection ([like an SSH tunnel for MySQL](../integrations/mysql-via-ssh-tunnel.md)), but here are the basics:
 
 ## Authorize MBI to access your database
 
@@ -40,6 +40,6 @@ To finish creating the connection, we will need the following info:
 
 Additionally, **if you are using an encrypted connection**, change the "Encrypted" toggle on the database credentials page to `Yes`. This will display an additional form for setting up the encryption:
 
-![](../../../assets/5.1.png)
+![](../../../assets/sql-integration-encrypted-yes.png)
 
 That is all there is to it! Connecting your RDS instance is complete.

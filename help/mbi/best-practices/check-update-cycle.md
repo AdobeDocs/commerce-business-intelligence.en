@@ -14,7 +14,7 @@ Checking the status update cycle is useful when you are auditing the data in you
 
 Read-only users can log into their dashboard and see how recently the data has been updated by hovering over the icon at the top right of the page. This will show when the last data point was pulled.
 
-![](../../mbi/assets/2016-12-20_1120.png)
+![](../../mbi/assets/last-success-data.png)
 
 ## Admin Users
 
@@ -22,7 +22,7 @@ Admin users can log into the dashboard and see the last data point above, along 
 
 For more detail, admin users can click **Manage Data** > **Integrations**.
 
-![](../../mbi/assets/2016-12-20_1123.png)
+![](../../mbi/assets/detail-manage-data-integrations.png)
 
 This page will show you the current update status and the time of the last completed update.
 

@@ -20,7 +20,7 @@ Let us get started by entering our Google ECommerce credentials into MBI:
 
      If you have multiple profiles and need some help identifying which is which, refer to the **Connecting Multiple Google Analytics profiles** section below.
 
-     ![](../../../assets/Screen_Shot_2015-11-17_at_12.16.43_PM.png)<!--{: width="500"}-->
+     ![](../../../assets/conn-mult-ga-profiles.png)<!--{: width="500"}-->
 
 1. Changes are saved automatically, so just click **Back to Connections** when you are finished.
 

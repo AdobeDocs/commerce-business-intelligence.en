@@ -26,9 +26,9 @@ You can add additional metrics after the initial metric is selected and overlay 
 
 Formulas are added to reports by clicking **Add Formula**, located just above the list of metrics in the report. In the [formula editor](../data-analyst/dev-reports/formulas-in-rpt-bldr.md), any of the metrics included in the report can be used as inputs. Basic mathematical operators are used to manipulate the different metrics.
 
-Let's say we wanted to create a report that shows us the average revenue per order. In this case, we would divide the **Revenue** metric by the **Number of orders** metric.
+Say we wanted to create a report that shows us the average revenue per order. In this case, we would divide the **Revenue** metric by the **Number of orders** metric.
 
-![](../assets/Screen_Shot_2015-11-23_at_4.47.45_PM.png)
+![](../assets/ave-rev-per-order.png)
 
 ## Step 4: Setting the Time Period and Interval of Analysis {#time}
 
@@ -74,7 +74,7 @@ The use of wildcards (`%` or `_`) in conjunction with LIKE statements is support
 
 Adding multiple filters allows tight control of the chart's data. By default, all filter conditions must be true for a piece of data to be included, but you can create OR relationships by editing the Filter Rules text box.
 
-![](../assets/Screen_Shot_2015-11-23_at_5.11.40_PM.png)
+![](../assets/edit-filter-rules.png)
 
 ### Perspectives
 
@@ -120,7 +120,7 @@ You can choose to save a chart, table, or number (scalar) using the **Type** dro
 
 You can then save the report by clicking **Save to Dashboard**.
 
-![](../assets/Screen_Shot_2015-11-23_at_5.51.17_PM.png)
+![](../assets/save-to-dashboard.png)
 
 ## Report Outputs
 

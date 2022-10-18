@@ -38,11 +38,11 @@ This means that while we can show the revenue from only the top 5 revenue genera
 
 Here's an example of a chart where we sorted the **Revenue** metric by itself instead of by the grouping. As you can see, not sorting the metric by the grouping created a strange (and ultimately unhelpful) report:
 
-![Strange and unhelpful report results.](../../assets/Screen_Shot_2015-12-17_at_3.53.13_PM.png)<!--{:.zoom}-->
+![Strange and unhelpful report results.](../../assets/strange-report-results.png)<!--{:.zoom}-->
 
 If we had sorted both metrics by the grouping, the chart would look like this:
 
-![Sorting both metrics by the grouping.](../../assets/Screen_Shot_2015-12-17_at_3.55.29_PM.png)<!--{:.zoom}-->
+![Sorting both metrics by the grouping.](../../assets/sort-metrics-by-grouping.png)<!--{:.zoom}-->
 
 ## How are values sorted by default? {#defaultsorting}
 

@@ -56,7 +56,7 @@ In this example, we build the **Order's GA Source** dimension.
 1. In the window that displays, set the **Many** side to **orders.order\_id**, or the column in the **orders** table that contains the order ID.
 1. On the **One** side, find the **Google ECommerce** table, then set the column to **transactionID**.
 
-    ![](../../assets/Screen_Shot_2015-11-12_at_5.05.57_PM.png)
+    ![](../../assets/google-ecommerce-table.png)
 
 1. Click **Save** to create the path.
 1. After the path is added, click the **Select table and column** dropdown again.

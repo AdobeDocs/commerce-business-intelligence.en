@@ -30,7 +30,7 @@ The best way to do this is for us to connect to your database server over TCP/IP
 
 1. Input the server IP address, username and password in MBI under **Manage Data > Connections**.
 
-    ![](../../../assets/2.1.png)
+    ![](../../../assets/manage-data-connections.png)
 
 1. Click **Add a Data Source**.
 

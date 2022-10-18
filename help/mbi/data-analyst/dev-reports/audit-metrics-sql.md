@@ -17,13 +17,13 @@ To get started, open the SQL Report Builder by navigating to **Report Builder > 
 
 If you would like to have a clearer view of the query, you can reformat how it is displayed in the query field. When you are ready, select **Run Query**. The results will populate as a table in the report panel below the query.
 
-![](../../assets/gif1.gif)
+![](../../assets/run-query-results.gif)
 
 ## Restricting the query
 
 If you are trying to pinpoint a specific discrepancy or set of data, you should restrict the query to a specific sample to check against your local database. You can do this by editing the query to match your desired restrictions. In the following example, we are restricting the query to include only revenue from January 1, 2013 or later. After you update the query, select **Run Query** again to update the results.
 
-![](../../assets/gif2.gif)
+![](../../assets/restricting-query.gif)
 
 ## Saving and exporting
 
@@ -31,7 +31,7 @@ When the report meets your needs, save it to a dashboard by giving the report a 
 
 After the report is saved, navigate to that dashboard by selecting **Go to Dashboard**. From there, you can export the data by finding the report and selecting **Options gear > Full CSV Export** or **Full Excel Export.**
 
-![](../../assets/gif3.gif)
+![](../../assets/export-dboard-data.gif)
 
 ## Custom queries
 

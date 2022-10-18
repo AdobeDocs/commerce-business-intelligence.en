@@ -72,7 +72,7 @@ This feature allows you to set the time range of data that you view for the sele
 
 The interval for this value changes with whatever you selected in the **cohort time period** and the value is set to `12` by default; the value will not change unless you click on the calendar icon to edit it.
 
-![](../../assets/mceclip1.png)
+![](../../assets/cohort-time-range.png)
 
 #### Other notes
 
@@ -94,7 +94,7 @@ Below are instructions specific to the legacy version of the Cohort Report Build
 
 #### How do I create my own cohort analysis? {#create}
 
-![](../../assets/Screen_Shot_2015-11-04_at_3.09.04_PM.png)
+![](../../assets/create-cohort-analysis.png)
 
 Cohort analysis in action! Here, we can see revenue growing over time on a cumulative and per-user basis.
 

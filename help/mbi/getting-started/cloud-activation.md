@@ -24,23 +24,23 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
     - Input your information to create your account.
 
-     ![](../assets/Picture2.png)
+     ![](../assets/create-account-2.png)
 
     - Go to your inbox and verify your email address.
 
-    ![](../assets/Picture3.png)
+    ![](../assets/create-account-3.png)
 
     - Create your password.
 
-    ![](../assets/Picture4.png)
+    ![](../assets/create-account-4.png)
 
     - After creating your account you will then have the option to add users to your new account. Technical admins can now be added to carry out the following steps.
 
-     ![](../assets/Picture5.png)
+     ![](../assets/create-account-5.png)
 
 1. Input information about your store to set your preferences.
 
-    ![](../assets/Picture6.png)
+    ![](../assets/create-account-6.png)
 
     There is some information you need to gather before you can connect your database for the third step in the onboarding flow. You will be filling in the **Connect your database** page in Step **9**.
 
@@ -54,7 +54,7 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
 1. Add the newly created user to the project's primary environment as a `Contributor`.
 
-    ![](../assets/Picture7.png)
+    ![](../assets/create-account-7.png)
 
 1. Get your MBI SSH keys.
 
@@ -64,7 +64,7 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
     - From the dropdown, you can copy and paste the provided MBI Public Key.
 
-    ![](../assets/Picture8.png)
+    ![](../assets/create-account-8.png)
 
 1. Add your new MBI Public key to the MBI user created in Step **5**.
 
@@ -72,11 +72,11 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
     - Scroll down the page and expand the dropdown for SSH keys. Then click **Add a public key**.
 
-    ![](../assets/Picture9.png)
+    ![](../assets/create-account-9.png)
 
     - Add the MBI SSH Public Key from above.
 
-    ![](../assets/Picture10.png)
+    ![](../assets/create-account-10.png)
 
 1. Provide MBI MySQL credentials.
 
@@ -141,7 +141,7 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
 1. Connect your Magento Database
 
-   ![](../assets/Picture11.png)
+   ![](../assets/create-account-11.png)
 
     - Integration Name: [Choose a name for your integration.]
 
@@ -159,7 +159,7 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
 1. Set your Timezone Settings.
 
-    ![Inputs](../assets/Picture12.png)
+    ![Inputs](../assets/create-account-12.png)
 
      - Database: `Timezone: UTC`
 
@@ -169,13 +169,13 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
     - The project UI provides an SSH access string. This string can be used for gathering the information needed for the **Remote Address** and **Username** in setting up your **Encryption settings**.  Use the SSH Access string found by clicking the access site button on your Master branch of your Project UI and find your **User Name** and **Remote Address** as shown below.
 
-    ![](../assets/Picture13.png)
+    ![](../assets/create-account-13.png)
 
-    ![](../assets/Picture14.png)
+    ![](../assets/create-account-14.png)
 
 1. Input information for your Encryption Settings
 
-    ![](../assets/Picture15.png)
+    ![](../assets/create-account-15.png)
 
     **Inputs**
 

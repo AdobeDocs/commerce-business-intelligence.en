@@ -32,7 +32,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
   * **`created_at (day of the month)`**< Calculation: **to_char(A, 'dd')**
   * **`created_at (day of the week)`** Calculation: **to_char(A, 'd-Day')**
   * **`created_at (hour of the day)`** Calculation: **to_char(A, 'hh24')**
-    ![](../../assets/Screen_Shot_2017-10-05_at_4.27.32_PM.png)
+    ![](../../assets/new-arch-create-calc.png)
 
 ## Metrics
 

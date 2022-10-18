@@ -27,7 +27,7 @@ Leave this page open throughout the tutorial - you will need it in the next sect
 
 If you are a bit lost, this is how to navigate through MBI to retrieve the key:
 
-![Retrieving the RJMetrics public key](../../../assets/4.1.gif)
+![Retrieving the RJMetrics public key](../../../assets/get-mbi-public-key.gif) 
 
 ## Allow access to the MBI IP address {#allowlist}
 
