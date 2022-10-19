@@ -13,7 +13,7 @@ After setting the permission level, you can select the metrics a Standard user c
 1. Go to **Account Settings > Manage Users.**
 1. Select the desired user account.
 1. The **Metrics** tab will display a list of available metrics. Check the metrics that you want the user to have access to; deselect those the user should not have access to.
-1.[!DNL MBI]saves the changes automatically. If the change is successful,[!DNL MBI]displays **Saved!** at the top of the page.
+1. [!DNL MBI] saves the changes automatically. If the change is successful, [!DNL MBI] displays **Saved!** at the top of the page.
 
 >[!NOTE]
 >
@@ -23,4 +23,4 @@ You can also restrict access to a metric by editing the metric and [selecting us
 
 >[!NOTE]
 >
->If you duplicate a metric,[!DNL MBI]copies the user permissions set in the original metric.
+>If you duplicate a metric, [!DNL MBI] copies the user permissions set in the original metric.

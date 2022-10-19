@@ -81,7 +81,7 @@ Created an incorrect path in your Data Warehouse? Or maybe you are doing a littl
 
 ## Wrapping up {#wrapup}
 
-You should now feel comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always click **Support** in your[!DNL MBI]account to get assistance.
+You should now feel comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always click **Support** in your [!DNL MBI] account to get assistance.
 
 ## Related
 

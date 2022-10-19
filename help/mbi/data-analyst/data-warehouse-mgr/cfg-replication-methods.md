@@ -12,11 +12,11 @@ When new tables are synced in the Data Warehouse Manager, a replication method w
 
 Replication methods fall into three groups - Incremental, Full Table, and Paused.
 
-[**Incremental** **Replication**](#incremental) means that[!DNL MBI]will replicate only new or updated data on every replication attempt. As these methods will greatly reduce latency, we highly recommend using it where possible.
+[**Incremental** **Replication**](#incremental) means that [!DNL MBI] will replicate only new or updated data on every replication attempt. As these methods will greatly reduce latency, we highly recommend using it where possible.
 
-[**Full Table Replication**](#fulltable) **means that[!DNL MBI]will replicate the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, we recommend using an Incremental method instead.
+[**Full Table Replication**](#fulltable) **means that [!DNL MBI] will replicate the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, we recommend using an Incremental method instead.
 
-**Paused** indicates that replication for the table is stopped, or paused.[!DNL MBI]will not check for new or updated data during an update cycle; this means no data will be replicated from a table that has this as its Replication Method.
+**Paused** indicates that replication for the table is stopped, or paused. [!DNL MBI] will not check for new or updated data during an update cycle; this means no data will be replicated from a table that has this as its Replication Method.
 
 ## Incremental replication methods {#incremental}
 
@@ -65,7 +65,7 @@ Note that unlike the Modified At method, **Add Date will not check existing rows
 
 Full table replication refreshes the entire table any time new rows are detected. This is by far the least efficient replication method, due to the fact that all data must be reprocessed during every update, assuming there are new rows.
 
-New rows are detected by querying your database at the start of the synchronization process and counting the number of rows. If your local database contains more rows than MBI, then the table is refreshed. If the row counts are identical, or if[!DNL MBI]contains *more* rows than your local database, then the table is skipped.
+New rows are detected by querying your database at the start of the synchronization process and counting the number of rows. If your local database contains more rows than MBI, then the table is refreshed. If the row counts are identical, or if [!DNL MBI] contains *more* rows than your local database, then the table is skipped.
 
 This raises the important point that **Full Table replication is incompatible when:**
 
@@ -99,7 +99,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
 
    >[!NOTE]
    >
-   >**Some Incremental methods require you to set a Replication Key**.[!DNL MBI]will use this key to determine where the next update cycle should begin.
+   >**Some Incremental methods require you to set a Replication Key**. [!DNL MBI] will use this key to determine where the next update cycle should begin.
    >
    >For example, if we want to use the **modified at** method for our **orders** table, we need to set a date column as the replication key. Several options for replication keys may exist, but we will select **created at**, or the time the order was created. If the last update cycle stopped at 12/1/2015 00:10:00, the next cycle would begin replicating data with a **created at** date greater than this.
 

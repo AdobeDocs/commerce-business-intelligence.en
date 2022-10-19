@@ -68,7 +68,7 @@ In **Manage Data** > **Dashboards**, you can manage user permissions for dashboa
 
 ### Sharing your dashboards {#sharingdash}
 
-To truly scale[!DNL MBI]throughout your organization and provide valuable insights, we encourage you to share dashboards you create with other team members. **You can share dashboards you own** by clicking the **Share Dashboard** option at the top of the page.
+To truly scale [!DNL MBI] throughout your organization and provide valuable insights, we encourage you to share dashboards you create with other team members. **You can share dashboards you own** by clicking the **Share Dashboard** option at the top of the page.
 
 When you share a dashboard, you can assign permissions across your organization OR on an individual basis, meaning you get to decide who can view and edit your reports.
 

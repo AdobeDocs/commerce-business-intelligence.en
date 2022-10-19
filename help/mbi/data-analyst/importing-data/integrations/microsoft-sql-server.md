@@ -1,6 +1,6 @@
 ---
 title: Connect Microsoft SQL Server
-description: Learn how to connect your Microsoft SQL database to[!DNL MBI]in a four-step process.
+description: Learn how to connect your Microsoft SQL database to [!DNL MBI] in a four-step process.
 ---
 # Connect Microsoft SQL Server
 
@@ -8,7 +8,7 @@ description: Learn how to connect your Microsoft SQL database to[!DNL MBI]in a f
 >
 >[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
-This article explains how to connect your Microsoft SQL database to[!DNL MBI]in a four-step process. This process requires some technical expertise related to server connections and SQL, and may require support from developers on your team.
+This article explains how to connect your Microsoft SQL database to [!DNL MBI] in a four-step process. This process requires some technical expertise related to server connections and SQL, and may require support from developers on your team.
 
 We support Amazon RDS, EC2, Microsoft SQL Azure, and most other cloud server providers. If you have a question on your particular host, [submit a support ticket](../../../getting-started/support.md) asking us to provide this information.
 
@@ -28,7 +28,7 @@ The best way to do this is for us to connect to your database server over TCP/IP
     * UI
     * [Query](http://sqlserverplanet.com/security/add-user) (second example)
 
-1. Input the server IP address, username and password in[!DNL MBI]under **Manage Data > Connections**.
+1. Input the server IP address, username and password in [!DNL MBI] under **Manage Data > Connections**.
 
     ![](../../../assets/manage-data-connections.png)
 

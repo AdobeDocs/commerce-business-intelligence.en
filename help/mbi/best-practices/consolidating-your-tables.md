@@ -6,7 +6,7 @@ description: Learn how to consolidate your tables and databases.
 
 If you operate multiple store fronts or in multiple markets, you may have similar databases stored separately. In MBI, it is easy to consolidate similar tables from different databases together.
 
-For example, you may have an `orders` table for Market A, and a similar `orders` table for Market B.[!DNL MBI]can consolidate both tables and allow you to look at the aggregate order data from both Market A and B, in addition to segmenting it by specific market.
+For example, you may have an `orders` table for Market A, and a similar `orders` table for Market B. [!DNL MBI] can consolidate both tables and allow you to look at the aggregate order data from both Market A and B, in addition to segmenting it by specific market.
 
 For consolidation of tables to work, input tables must be **similarly structured**. In other words, all input tables must contain the data columns required in the consolidated table.
 
@@ -36,6 +36,6 @@ As with all other tables in your data warehouse, you can add additional columns 
 
 ## Creating, Viewing, or Updating a Consolidated Table
 
-If you are interested in adding a consolidated table to your data warehouse, contact[!DNL MBI][support](../getting-started/support.md).
+If you are interested in adding a consolidated table to your data warehouse, contact [!DNL MBI] [support](../getting-started/support.md).
 
-Likewise, because consolidated tables are not viewable in the Data Warehouse Manager, viewing and updating these tables can only be done by[!DNL MBI]support.
+Likewise, because consolidated tables are not viewable in the Data Warehouse Manager, viewing and updating these tables can only be done by [!DNL MBI] support.

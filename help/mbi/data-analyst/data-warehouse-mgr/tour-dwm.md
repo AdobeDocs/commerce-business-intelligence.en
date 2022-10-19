@@ -8,7 +8,7 @@ description: Learn how to manage table and column sync settings, drill down into
 >
 >[Requires Admin permissions](../../administrator/user-management/user-management.md)
 
-The Data Warehouse Manager, accessed by clicking **Manage Data > Data Warehouse** in the sidebar, is the portal to your[!DNL MBI]Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
+The Data Warehouse Manager, accessed by clicking **Manage Data > Data Warehouse** in the sidebar, is the portal to your [!DNL MBI] Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
 
 In this article, we will cover:
 
@@ -32,7 +32,7 @@ The **Synced Tables** option shows all tables that have already been added into 
 do not see the table you are looking for in the All Tables list? There are a few possible reasons for this:
 
 * The data source has not been added yet
-* The data source is a database and the[!DNL MBI]user you created does not have access. In this case, you or your database administrator will need to grant access.
+* The data source is a database and the [!DNL MBI] user you created does not have access. In this case, you or your database administrator will need to grant access.
 * The data source or table was recently added and has not been synced yet
 
 ## Syncing tables and columns {#syncing}

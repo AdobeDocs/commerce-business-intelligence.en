@@ -1,8 +1,8 @@
 ---
-title:[!DNL MBI]Essentials vs. Pro
-description: Learn how[!DNL MBI]Essentials differs from[!DNL MBI]Pro.
+title: [!DNL MBI] Essentials vs. Pro
+description: Learn how [!DNL MBI] Essentials differs from [!DNL MBI] Pro.
 ---
-#[!DNL MBI]Essentials vs[!DNL MBI]Pro
+# [!DNL MBI] Essentials vs [!DNL MBI] Pro
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ Items in _italics_ are calculated fields.
   * store_id
   * name
 
-Refer to the following video series to learn more about the differences between[!DNL MBI]Essentials and[!DNL MBI]Pro.
+Refer to the following video series to learn more about the differences between [!DNL MBI] Essentials and [!DNL MBI] Pro.
 
 * [Essentials](https://support.magento.com/hc/en-us/articles/360005305614)
 * [Pro](https://support.magento.com/hc/en-us/articles/360005373453)

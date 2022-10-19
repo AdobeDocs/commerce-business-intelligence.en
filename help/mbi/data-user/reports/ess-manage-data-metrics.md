@@ -61,7 +61,7 @@ The Filter Logic section is where you can further define how a metric should beh
 
 The [Dimensions](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) section shows all available data dimensions for filtering or grouping; by default, all available data columns are listed as dimensions. Continuing our example, if we wanted to segment our revenue by referral source, we could do that here.
 
-In addition to listing all available data columns as dimensions,[!DNL MBI]will also take a guess at which columns are groupable. **To segment or group data on reports**, columns must be marked as groupable.
+In addition to listing all available data columns as dimensions, [!DNL MBI] will also take a guess at which columns are groupable. **To segment or group data on reports**, columns must be marked as groupable.
 
 ## Finishing Up {#finish}
 

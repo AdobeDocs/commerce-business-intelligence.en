@@ -18,7 +18,7 @@ In this article, we explore some reports that you can use to uncover your most v
 
 ## Prerequisites {#prereqs}
 
-To build the analyses in this article, you need access to marketing acquisition/referral source data. If you are not already tracking it, you will need to bring [order referral source data from Google ECommerce](../importing-data/integrations/google-ecommerce.md) into[!DNL MBI]before you can continue. In addition, adding user device information to your analyses enables you to see what technology your referrals are using.
+To build the analyses in this article, you need access to marketing acquisition/referral source data. If you are not already tracking it, you will need to bring [order referral source data from Google ECommerce](../importing-data/integrations/google-ecommerce.md) into [!DNL MBI] before you can continue. In addition, adding user device information to your analyses enables you to see what technology your referrals are using.
 
 ## New users by source {#newusersbysource}
 

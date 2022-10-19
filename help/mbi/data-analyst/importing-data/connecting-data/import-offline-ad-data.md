@@ -8,9 +8,9 @@ Uploading your advertising spend data will allow you to measure campaign ROI by 
 
 ## Uploading advertising cost data
 
-The first step in analyzing ad spend data is getting the data. Since most advertising platforms allow you to export reports, we recommend you export the raw data from your ad platform and directly upload it to[!DNL MBI]without any manipulation. You can perform operations on the data in your data warehouse, so there is no need to double your efforts.
+The first step in analyzing ad spend data is getting the data. Since most advertising platforms allow you to export reports, we recommend you export the raw data from your ad platform and directly upload it to [!DNL MBI] without any manipulation. You can perform operations on the data in your data warehouse, so there is no need to double your efforts.
 
-After you have exported the ad spend data, use [the File Upload feature](../connecting-data/using-file-uploader.md) to bring the data into your data warehouse. You can upload new data to the same[!DNL MBI]table over time.
+After you have exported the ad spend data, use [the File Upload feature](../connecting-data/using-file-uploader.md) to bring the data into your data warehouse. You can upload new data to the same [!DNL MBI] table over time.
 
 ## Offline Sources
 

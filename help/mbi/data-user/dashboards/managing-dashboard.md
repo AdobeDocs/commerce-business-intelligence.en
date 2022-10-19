@@ -28,7 +28,7 @@ To rename a dashboard:
 
 ## Manage User Permissions {#userperm}
 
-Three levels of access exist in[!DNL MBI]for dashboards - View, Edit, and None.
+Three levels of access exist in [!DNL MBI] for dashboards - View, Edit, and None.
 
 * **View** allows selected users to view the dashboard but not edit it. Users can also resize charts, export data, and copy the charts onto their own dashboards using the Save As function if they have Standard or Admin permissions.
 

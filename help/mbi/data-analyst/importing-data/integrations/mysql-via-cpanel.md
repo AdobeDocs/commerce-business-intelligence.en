@@ -4,7 +4,7 @@ description: Learn how to connect MySQL via cPanel.
 ---
 # Connect MySQL via cPanel
 
-* [Create a[!DNL MBI]MySQL user in cPanel](#cpanel)
+* [Create a [!DNL MBI] MySQL user in cPanel](#cpanel)
 * [Enter connection and user info into MBI](#finish)
 
 ## JUMP TO
@@ -14,16 +14,16 @@ description: Learn how to connect MySQL via cPanel.
 
 * **MySQL via cPanel**
 
-**One thing we take seriously is data security. We strongly recommend you use SSH or some other form of encryption to secure your data!** If this is not an option, you can still directly connect[!DNL MBI]to your database using the instructions in this article.
+**One thing we take seriously is data security. We strongly recommend you use SSH or some other form of encryption to secure your data!** If this is not an option, you can still directly connect [!DNL MBI] to your database using the instructions in this article.
 
-In this article, we walk you through directly connecting your MySQL database to[!DNL MBI]using cPanel. This process can also be used to connect Magento and any other MySQL-based eCommerce databases to MBI.
+In this article, we walk you through directly connecting your MySQL database to [!DNL MBI] using cPanel. This process can also be used to connect Magento and any other MySQL-based eCommerce databases to MBI.
 
-1. Create a[!DNL MBI]MySQL user in cPanel
+1. Create a [!DNL MBI] MySQL user in cPanel
 1. Enter connection and user info into MBI
 
 Let us get started.
 
-## Creating a[!DNL MBI]MySQL user in cPanel {#cpanel}
+## Creating a [!DNL MBI] MySQL user in cPanel {#cpanel}
 
 1. Login to [cPanel](../../../data-analyst/importing-data/integrations/mysql-via-cpanel.md) via your hosting provider.
 1. Click MySQL Databases, located in the Database section.
@@ -36,24 +36,24 @@ Let us get started.
 1. In the User dropdown of this section, select the user you created.
 1. In the Database dropdown of this section, select the database you want to connect to MBI.
 1. Click **Add**.
-1. When the checklist of privileges appears, check the box next to SELECT - this is all[!DNL MBI]needs to connect to your database.
+1. When the checklist of privileges appears, check the box next to SELECT - this is all [!DNL MBI] needs to connect to your database.
 
-## Entering the connection and user info into[!DNL MBI]{#finish}
+## Entering the connection and user info into [!DNL MBI] {#finish}
 
 To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Manage Data > Connections** and click **Add New Data Source**, then the MySQL icon.
 
 Enter the following info into this page in the Database Connection section:
 
-* **Username:** The username for the[!DNL MBI]MySQL user
-* **Password:** The password for the[!DNL MBI]MySQL user
+* **Username:** The username for the [!DNL MBI] MySQL user
+* **Password:** The password for the [!DNL MBI] MySQL user
 * **Port:** MySQL's port on your server (3306 by default)
-* **Host:** The public address of the MySQL server[!DNL MBI]will connect to. This is usually the URL you use to log into cPanel.
+* **Host:** The public address of the MySQL server [!DNL MBI] will connect to. This is usually the URL you use to log into cPanel.
 
 If you are using an [SSH tunnel](../integrations/mysql-via-ssh-tunnel.md), you will also need to enter the encryption information. Set the _Encrypted_ toggle to `Yes` to display the form.
 
 * **Connection Type:** Set this to SSH Tunnel
-* **Remote Address:** The IP address or hostname of the server[!DNL MBI]will tunnel into
-* **Username:** The username for the[!DNL MBI]SSH (Linux) user ([click here](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) for instructions on how to do this, if you have not already)
+* **Remote Address:** The IP address or hostname of the server [!DNL MBI] will tunnel into
+* **Username:** The username for the [!DNL MBI] SSH (Linux) user ([click here](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) for instructions on how to do this, if you have not already)
 * **SSH Port:** SSH port on your server (22 by default)
 
 That is it! When you are finished, click **Save & Test** to complete the setup.

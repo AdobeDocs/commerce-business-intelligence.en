@@ -22,6 +22,6 @@ To import CJ Affiliate (Commission Junction) data into MBI, simply follow the st
 
     ![export cj affiliate data](../../../assets/export-an-individual-order-2.jpg)<!--{:.zoom}-->
 
-1. After  you have downloaded the file, you can [upload the file](../connecting-data/using-file-uploader.md) to your[!DNL MBI]data warehouse.
+1. After  you have downloaded the file, you can [upload the file](../connecting-data/using-file-uploader.md) to your [!DNL MBI] data warehouse.
 
-   This creates a new table in your[!DNL MBI]data warehouse that you can continue to upload fresh data into periodically. When uploading the file, be sure to to follow the formatting requirements listed in [Using the File Uploader](../connecting-data/using-file-uploader.md).
+   This creates a new table in your [!DNL MBI] data warehouse that you can continue to upload fresh data into periodically. When uploading the file, be sure to to follow the formatting requirements listed in [Using the File Uploader](../connecting-data/using-file-uploader.md).

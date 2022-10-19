@@ -62,8 +62,8 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
     ![import mailchimp 9](../../../assets/import-mailchimp-9.png)<!--{: width="500px"}-->
 
-## Prepare files for upload into[!DNL MBI]{#upload}
+## Prepare files for upload into [!DNL MBI] {#upload}
 
-Each file - Opens, Clicks, and Sent - should be uploaded to[!DNL MBI]as a separate file. We also recommend that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with Open, Click, or Sent, and replace `DATE` with the date of export.
+Each file - Opens, Clicks, and Sent - should be uploaded to [!DNL MBI] as a separate file. We also recommend that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with Open, Click, or Sent, and replace `DATE` with the date of export.
 
 When you are ready to upload the files, use the [File Upload feature](../connecting-data/using-file-uploader.md) to bring the data into your data warehouse.

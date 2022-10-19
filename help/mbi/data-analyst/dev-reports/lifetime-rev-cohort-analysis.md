@@ -1,10 +1,10 @@
 ---
 title: Lifetime Revenue Cohort Analysis
-description: Explore the power of[!DNL MBI]cohort analysis.
+description: Explore the power of [!DNL MBI] cohort analysis.
 ---
 # Lifetime Revenue Cohort Analysis
 
-There are a lot of different ways to look at your data in MBI, and we know that interpretation and understanding are just as important as calculation and visualization. This article will explore the power of[!DNL MBI]cohort analysis.
+There are a lot of different ways to look at your data in MBI, and we know that interpretation and understanding are just as important as calculation and visualization. This article will explore the power of [!DNL MBI] cohort analysis.
 
 ## What does lifetime revenue cohort analysis mean?
 

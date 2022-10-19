@@ -4,11 +4,11 @@ description: Learn about MBI.
 ---
 # Introduction
 
-MBI is a cloud-based data management and analytics platform.[!DNL MBI]provides you with the ability to easily consolidate and manage your data sources, model your data, create charts and reports, and maintain a single source of truth.
+MBI is a cloud-based data management and analytics platform. [!DNL MBI] provides you with the ability to easily consolidate and manage your data sources, model your data, create charts and reports, and maintain a single source of truth.
 
 ## Activating your Magento Business Intelligence Account
 
-When you [activate](../getting-started/onpremise-activation.md) your[!DNL MBI]account, you are connecting your Magento database to[!DNL MBI]and immediately getting access to five dashboards with approximately 100 reports. These reports are designed to provide insights around your data and answer questions like: "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?".
+When you [activate](../getting-started/onpremise-activation.md) your [!DNL MBI] account, you are connecting your Magento database to [!DNL MBI] and immediately getting access to five dashboards with approximately 100 reports. These reports are designed to provide insights around your data and answer questions like: "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?".
 
 ## How to Get Help
 

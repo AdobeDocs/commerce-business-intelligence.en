@@ -6,16 +6,16 @@ description: Learn how to connect databases via VPN instead of SSH Tunnel.
 
 While we recommend you connect your databases using an SSH tunnel, you can also use an encrypted VPN connection to keep things secure. A VPN can be used for any of our database integrations and, to keep things simple, the process is just about the same as setting up an SSH tunnel:
 
-1. [Create an[!DNL MBI]database user](#database)
-1. [Create an[!DNL MBI]VPN user](#vpn)
-1. [Allow access to the[!DNL MBI]IP address](#allowlist)
+1. [Create an [!DNL MBI] database user](#database)
+1. [Create an [!DNL MBI] VPN user](#vpn)
+1. [Allow access to the [!DNL MBI] IP address](#allowlist)
 1. [Enter the connection and VPN user info into MBI](#finish)
 
-In addition to database credentials, you will have to enter credentials for a VPN user to wrap things up. Any VPN user will work, but we recommend you create an[!DNL MBI]user - it'll make it easier for you to keep track of the users on your account.
+In addition to database credentials, you will have to enter credentials for a VPN user to wrap things up. Any VPN user will work, but we recommend you create an [!DNL MBI] user - it'll make it easier for you to keep track of the users on your account.
 
 Let us get started.
 
-## Creating a database user for[!DNL MBI]{#database}
+## Creating a database user for [!DNL MBI] {#database}
 
 The process for creating a database user will vary depending on the database type you are connecting. To see the instructions for each database type, click the links below.
 
@@ -24,24 +24,24 @@ The process for creating a database user will vary depending on the database typ
 * [MySQL](../integrations/mysql-via-a-direct-connection.md)
 * [PostgreSQL](../integrations/postgresql.md)
 
-## Creating a VPN user for[!DNL MBI]{#vpn}
+## Creating a VPN user for [!DNL MBI] {#vpn}
 
-As we mentioned before, any valid VPN user will work - but we strongly recommend you create a user solely for[!DNL MBI]use.
+As we mentioned before, any valid VPN user will work - but we strongly recommend you create a user solely for [!DNL MBI] use.
 
-## Allow access to the[!DNL MBI]IP addresses {#allowlist}
+## Allow access to the [!DNL MBI] IP addresses {#allowlist}
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151**, but it is also on the credentials page for any database integration:
 
 ![MBI_Allow_Access_IPs.png](../../../assets/MBI_allow_access_IPs.png)
 
-## Entering the connection and VPN user info into[!DNL MBI]{#finish}
+## Entering the connection and VPN user info into [!DNL MBI] {#finish}
 
 To wrap things up, we need to enter the connection and user info into MBI. Did you leave the database credentials page open? If not, go to **Manage Data > Connections** and click **Add New Data Source**, then the icon for the database you are connecting. do not forget to change the _Encrypted_ toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 
-* **Username:** The username for the[!DNL MBI]database user
-* **Password:** The password for the[!DNL MBI]database user
+* **Username:** The username for the [!DNL MBI] database user
+* **Password:** The password for the [!DNL MBI] database user
 * **Port:** The database's port on your server. Defaults are:
 * **MicrosoftSQL:** 1433
 * **MongoDB:** 27017
@@ -56,7 +56,7 @@ Under the Encryption Connection section:
 * **Gateway Address:** The IP address of the VPN server
 * **Group Name:** The name of the group used for group authentication
 * **Group Secret:** The password corresponding to the group.
-* **Username:** The[!DNL MBI]VPN username
-* **Password:** The[!DNL MBI]VPN user password
+* **Username:** The [!DNL MBI] VPN username
+* **Password:** The [!DNL MBI] VPN user password
 
 That is it! When you are finished, click **Save & Test** to complete the setup.

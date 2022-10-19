@@ -10,7 +10,7 @@ description: Learn to interact with your Google Analytics warehoused data.
 
 **Some information was used with permission from our friends at [Stitch](https://www.stitchdata.com/docs/integrations/saas/google-analytics).**
 
-Google Analytics Warehoused integration in[!DNL MBI]utilizes the Google Analytics [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
+Google Analytics Warehoused integration in [!DNL MBI] utilizes the Google Analytics [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ The table would look like the example below.
 | **Column Name** | **Description** |
 |-----|-----|
 | \_id | This column is the primary key. |
-| \_rjm\_record\_hash |[!DNL MBI]unique identifier. This column is created by MBI. |
+| \_rjm\_record\_hash | [!DNL MBI] unique identifier. This column is created by MBI. |
 | \_updated\_at | This column contains the last time that the data row was updated. This column is created by MBI. |
 | start-date | Identification of what day the row is for. |
 | end-date | Identification of what day the row is for. |
@@ -47,7 +47,7 @@ Let us look at Google Analytics ad campaigns for an example of what can be done 
 
 The combination aspect allows Google Analytics data to be joined to other data in order to conduct analyses. For example, take "Total Time On Site By Ad Campaign" data from Google Analytics and join it up against "Total Spent Per Campaign" data from Facebook Ads to get a complete picture of how much engagement is costing you.
 
-With the Google Analytics Live integration on the other hand, every Google Analytics chart is like a little silo that is not stored in your[!DNL MBI]data warehouse.
+With the Google Analytics Live integration on the other hand, every Google Analytics chart is like a little silo that is not stored in your [!DNL MBI] data warehouse.
 
 ## Related:
 

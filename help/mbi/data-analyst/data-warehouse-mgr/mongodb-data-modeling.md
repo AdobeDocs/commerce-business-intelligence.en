@@ -5,15 +5,15 @@ description: Learn how to avoid data patterns that pose an issue.
 # MongoDB Data Modeling
 
 
-When[!DNL MBI]pulls in MongoDB data, that data is translated into a relational model.
+When [!DNL MBI] pulls in MongoDB data, that data is translated into a relational model.
 
-The bad news: While the majority of data patterns do not pose an issue, there are a few that, because of the translation to a relational model,[!DNL MBI]does not support.
+The bad news: While the majority of data patterns do not pose an issue, there are a few that, because of the translation to a relational model, [!DNL MBI] does not support.
 
 The good news: All these patterns can be avoided.
 
 ## Sub-nested Arrays {#subnested}
 
-If your collection looks like the example below,[!DNL MBI]will only replicate the data in the items array. Data from the subItems array will not be pulled.
+If your collection looks like the example below, [!DNL MBI] will only replicate the data in the items array. Data from the subItems array will not be pulled.
 
 ```bash
     {

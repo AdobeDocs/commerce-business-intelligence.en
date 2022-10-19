@@ -8,7 +8,7 @@ description: Learn how to customize a number of account settings for your data w
 >
 >[Requires Admin permissions.](../../administrator/user-management/user-management.md)
 
-In your[!DNL MBI]account, you are able to customize a number of account settings for your data warehouse. These can be accessed by selecting your organization name in the upper right-hand corner of any screen, then choosing **Account Settings** from the dropdown.
+In your [!DNL MBI] account, you are able to customize a number of account settings for your data warehouse. These can be accessed by selecting your organization name in the upper right-hand corner of any screen, then choosing **Account Settings** from the dropdown.
 
 * **Client Name:** This setting appears in the upper-right-hand corner of all dashboards and elsewhere throughout your account. If you want to change **"Vandelay Industries Co., Ltd"** to just **"Vandelay"**, this is where to do that.
 

@@ -12,26 +12,26 @@ description: Learn to to analyze your ad spend data and see if your money is bei
 
 You did your research, you created your ads, you launched your campaign on Facebook. Now it is time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../../../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
-Connecting your Facebook ad data to[!DNL MBI]is a simple three-step process:
+Connecting your Facebook ad data to [!DNL MBI] is a simple three-step process:
 
 1. [Add Facebook as a data source in MBI](#stepone)
-1. [Allow[!DNL MBI]access to your Facebook Ads data](#steptwo)
+1. [Allow [!DNL MBI] access to your Facebook Ads data](#steptwo)
 1. [Select Facebook Ad Accounts for pulling data](#stepthree)
 
-## Add Facebook as a data source in[!DNL MBI]{#stepone}
+## Add Facebook as a data source in [!DNL MBI] {#stepone}
 
 1. To add the Facebook integration to your account, navigate to the Connections page under **Manage Data > Integrations**.
 1. Click **Add Integration**, located on the right side of the screen above the Data Sources table.
 1. Click the Facebook icon. This will display the Facebook authorization page.
 1. Click **Authorize**.
 
-## Allow[!DNL MBI]access to your Facebook Ads data {#steptwo}
+## Allow [!DNL MBI] access to your Facebook Ads data {#steptwo}
 
 After clicking **Authorize**, a small pop-up window will display:
 
  ![](../../../assets/Facebook_Access_Popup.png)
 
-You will follow a series of steps to allow[!DNL MBI]to access data from your Public Profile, Facebook ads and related stats. "Okay" these steps to continue.
+You will follow a series of steps to allow [!DNL MBI] to access data from your Public Profile, Facebook ads and related stats. "Okay" these steps to continue.
 
 ## Select Facebook Ads Accounts for pulling data {#stepthree}
 

@@ -4,7 +4,7 @@ description: Learn about the analysis of user groups that share similar characte
 ---
 # Cohort Report Builder
 
-Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who do not? If the answer is `Yes!`, then the Cohort Report Builder is the perfect tool for you.[!DNL MBI]is specifically optimized to perform this analysis and make it relevant to your business.
+Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who do not? If the answer is `Yes!`, then the Cohort Report Builder is the perfect tool for you. [!DNL MBI] is specifically optimized to perform this analysis and make it relevant to your business.
 
 ## What is cohort analysis? {#what}
 
@@ -12,7 +12,7 @@ Cohort analysis can be broadly defined as the analysis of user groups that share
 
 For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/) - we wrote the site on it!
 
-In your[!DNL MBI]dashboard, it is easy to create user cohorts based on a cohort date and a metric in your account.
+In your [!DNL MBI] dashboard, it is easy to create user cohorts based on a cohort date and a metric in your account.
 
 ## Well, why is cohort analysis important? {#important}
 
@@ -90,7 +90,7 @@ Here is an example to pull it all together. In this example, I want to check out
 
 #### Legacy Architecture {#personalinfo}
 
-Below are instructions specific to the legacy version of the Cohort Report Builder. If you are interested in using the new version, click [here](../../administrator/account-management/new-architecture.md) for more information about migrating to a[!DNL MBI]New Architecture account.
+Below are instructions specific to the legacy version of the Cohort Report Builder. If you are interested in using the new version, click [here](../../administrator/account-management/new-architecture.md) for more information about migrating to a [!DNL MBI] New Architecture account.
 
 #### How do I create my own cohort analysis? {#create}
 

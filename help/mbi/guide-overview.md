@@ -1,11 +1,11 @@
 ---
-title:[!DNL MBI]User Guide Overview
-description: Comprehensive information for[!DNL MBI]data administrators.
+title: [!DNL MBI] User Guide Overview
+description: Comprehensive information for [!DNL MBI] data administrators.
 breadcrumb-title: Guide Overview
-seo-title:[!DNL MBI]User Guide
-seo-description: Describes how to use the[!DNL MBI]features used to gain insights from Adobe Commerce or Magento Open Source data.
+seo-title: [!DNL MBI] User Guide
+seo-description: Describes how to use the [!DNL MBI] features used to gain insights from Adobe Commerce or Magento Open Source data.
 ---
-#[!DNL MBI]User Guide Overview
+# [!DNL MBI] User Guide Overview
 
 This guide is intended for --> add summary of guide purpose
 

@@ -36,7 +36,7 @@ To identify a particular website's Google Analytics Profile ID:
 
    www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX**/
 
-## Disconnecting Google Analytics from[!DNL MBI]{#disconnect}
+## Disconnecting Google Analytics from [!DNL MBI] {#disconnect}
 
 1. Visit your Google [account settings](https://www.google.com/accounts/) page.
 1. Under the Security section,  and click the 'edit' link next to Authorizing applications and sites.

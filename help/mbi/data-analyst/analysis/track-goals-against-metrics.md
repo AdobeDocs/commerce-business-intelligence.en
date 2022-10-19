@@ -14,7 +14,7 @@ Before getting started, you want to familiarize yourself with our [file uploader
 
 You will need to first upload a file containing specific daily/monthly/quarterly targets for your business.
 
-You can use the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that our clients track in[!DNL MBI]include Orders, Revenue, and New registered accounts.
+You can use the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that our clients track in [!DNL MBI] include Orders, Revenue, and New registered accounts.
 
 ![](../../assets/Goals-_Excel.png)
 

@@ -10,9 +10,9 @@ description: Learn how to analyze how users navigate and utilize your websites a
 
 ![](../../../assets/Mixpanel_logo.png)
 
-With Mixpanel, you can analyze how users navigate and utilize your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting Mixpanel to[!DNL MBI]lets you analyze how your users behave and how that behavior translates into revenue.
+With Mixpanel, you can analyze how users navigate and utilize your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting Mixpanel to [!DNL MBI] lets you analyze how your users behave and how that behavior translates into revenue.
 
-Connecting your Mixpanel data to[!DNL MBI]a simple three-step process:
+Connecting your Mixpanel data to [!DNL MBI] a simple three-step process:
 
 1. [Open the Mixpanel credentials page in MBI](#stepone)
 1. [Retrieve your Mixpanel API credentials](#steptwo)
@@ -42,7 +42,7 @@ If you have not logged into your Mixpanel account yet, do so and then do the fol
 
 Keep this open - we need it to wrap this up.
 
-## Entering your Mixpanel API credentials in[!DNL MBI]{#stepthree}
+## Entering your Mixpanel API credentials in [!DNL MBI] {#stepthree}
 
 1. Copy the API Key and Secret into the Mixpanel credentials page in MBI.
 1. Click **Connect to Mixpanel** to complete the setup.

@@ -8,7 +8,7 @@ description: Learn how to put all of your data into a single data warehouse.
 >
 >[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
-MBI is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single data warehouse. Even data that lives outside your databases and integrations can be brought into[!DNL MBI]by using the File Upload tool in the Data Warehouse Manager.
+MBI is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single data warehouse. Even data that lives outside your databases and integrations can be brought into [!DNL MBI] by using the File Upload tool in the Data Warehouse Manager.
 
 Let us use ad campaigns as an example. If you are running both online and offline campaigns, you cannot get the whole picture if you are only analyzing data from an online integration. Uploading a spreadsheet with the offline campaign data allows you to analyze both sets of data and get a more robust understanding of your campaign performance.
 
@@ -78,7 +78,7 @@ Now that your spreadsheet is correctly formatted and MBI-friendly, Let us add it
 
 1. Click **Choose File** and select the file. Click **Open** to start the upload.
 
-   After the upload completes, you will see a list of the columns[!DNL MBI]found in your file.
+   After the upload completes, you will see a list of the columns [!DNL MBI] found in your file.
 
 1. Check that the column names and data types are correct. Specifically, check that any date columns are being read as dates and not numbers.
 
@@ -122,7 +122,7 @@ Got some new data to add to a file you have already uploaded? No problem - you c
 
 1. Click **Open** to start the upload.
 
-    After the upload completes,[!DNL MBI]will validate the data structure in the file. A *Success!* message appears at the top of the screen after your table is saved.
+    After the upload completes, [!DNL MBI] will validate the data structure in the file. A *Success!* message appears at the top of the screen after your table is saved.
 
 ## Data availability {#availability}
 
@@ -132,7 +132,7 @@ Just like calculated columns, data from file uploads is available after the next
 
 This article covered only the basics for using importing data, but we are betting you want to do something a little more advanced. Check out the Related articles for guidance on formatting and importing financial, eCommerce, ad spend, and other types of data.
 
-Additionally, file upload is not the only way to get your data into MBI. The [Data Import API](https://devdocs.magento.com/mbi/docs/import-api.html) allows you to push arbitrary data into your[!DNL MBI]data warehouse.
+Additionally, file upload is not the only way to get your data into MBI. The [Data Import API](https://devdocs.magento.com/mbi/docs/import-api.html) allows you to push arbitrary data into your [!DNL MBI] data warehouse.
 
 ## Related {#related}
 

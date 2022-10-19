@@ -4,7 +4,7 @@ description: Learn how to understand and build basics analytics.
 ---
 # Basic Analytics
 
-Once you are familiar with the[!DNL MBI]platform and have a basic understanding of the tool, you are going to want to start building reports. One of the most common questions you may have is "What should I be looking at?"
+Once you are familiar with the [!DNL MBI] platform and have a basic understanding of the tool, you are going to want to start building reports. One of the most common questions you may have is "What should I be looking at?"
 
 The information below outlines some of the common metrics and reports you might find valuable. A number of these reports already exist within your account, so make sure you review the metrics and reports that exist within your account to avoid creating duplicates.
 

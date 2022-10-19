@@ -8,10 +8,10 @@ description: Learn how to manage and keep track of your business's payment and i
 >
 >[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
 
-Stripe allows you to manage and keep track of your business's payment and invoice data. Connecting your Stripe account to[!DNL MBI]is a simple two-step process:
+Stripe allows you to manage and keep track of your business's payment and invoice data. Connecting your Stripe account to [!DNL MBI] is a simple two-step process:
 
 1. [Add Stripe as a data source in MBI](#stepone)
-1. [Allow[!DNL MBI]access to your Stripe Data](#steptwo)
+1. [Allow [!DNL MBI] access to your Stripe Data](#steptwo)
 
 ## Add Stripe as a data source {#stepone}
 
@@ -20,7 +20,7 @@ Stripe allows you to manage and keep track of your business's payment and invoic
 1. Click the Stripe icon. This will display the Stripe authorization page.
 1. Click **Connect with Stripe**.
 
-## Allow[!DNL MBI]access to your Stripe data {#steptwo}
+## Allow [!DNL MBI] access to your Stripe data {#steptwo}
 
 After clicking the **Connect with Stripe**, an access request page appears.
 

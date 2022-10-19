@@ -10,7 +10,7 @@ description: Learn how to segment your data by user acquisition source.
 
 The ability to segment your data by user acquisition source is critical to effectively managing your marketing plan. Knowing the acquisition source of new users shows which channels yield the top returns, and allows your team to allocate marketing dollars with confidence.
 
-If you are not already tracking user acquisition sources in your database,[!DNL MBI]can help you get started:
+If you are not already tracking user acquisition sources in your database, [!DNL MBI] can help you get started:
 
 ## Tracking user acquisition source
 
@@ -18,7 +18,7 @@ We recommend two methods to track referral source data based on your setup:
 
 ### (Option 1)  Track order referral source data via Google Analytics E-Commerce (Including Shopify Stores)
 
-If you leverage Google Analytics E-Commerce to track your order and sales data, you can leverage our [Google Analytics E-Commerce Connector](../importing-data/integrations/google-ecommerce.md) to sync each order's referral source data. This will allow you to segment revenue and orders by referral source (e.g., utm_source, utm_medium, etc.) and also get a sense of customer acquisition sources via[!DNL MBI]custom dimensions such as "User's first order source".
+If you leverage Google Analytics E-Commerce to track your order and sales data, you can leverage our [Google Analytics E-Commerce Connector](../importing-data/integrations/google-ecommerce.md) to sync each order's referral source data. This will allow you to segment revenue and orders by referral source (e.g., utm_source, utm_medium, etc.) and also get a sense of customer acquisition sources via [!DNL MBI] custom dimensions such as "User's first order source".
 
 **Note for Shopify users**: Turn on [Google Analytics E-Commerce tracking in Shopify](http://docs.shopify.com/manual/settings/general/google-analytics#ecommerce-tracking)** before connecting your GA E-Commerce account to MBI.
 

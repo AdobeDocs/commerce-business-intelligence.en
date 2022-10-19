@@ -4,7 +4,7 @@ description: Learn how to work with and share your dashboards.
 ---
 # Share a Dashboard
 
-Sharing dashboards means you and your team possess the same information at any given time, which allows for collaboration and discussion. Here are some recommendations for sharing dashboards and keeping your[!DNL MBI]account uncluttered.
+Sharing dashboards means you and your team possess the same information at any given time, which allows for collaboration and discussion. Here are some recommendations for sharing dashboards and keeping your [!DNL MBI] account uncluttered.
 
 ## Avoid Duplicate Dashboards
 

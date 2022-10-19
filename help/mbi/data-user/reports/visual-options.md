@@ -6,7 +6,7 @@ description: Learn how to use the Visualization options in the Visual Report Bui
 
 Selecting the right visualization for a given data set is a critical piece of the analytical process. Every data set has a story to tell, but the effect of that story is emphasized by its visual impact and readability.
 
-The[!DNL MBI]Visual Report Builder offers 12 distinct visualization options, each with their own advantages and use-cases. This article discusses the various visualization options in MBI, including required report configurations when applicable, as well as an example of a use-case. The following visualizations are available in MBI:
+The [!DNL MBI] Visual Report Builder offers 12 distinct visualization options, each with their own advantages and use-cases. This article discusses the various visualization options in MBI, including required report configurations when applicable, as well as an example of a use-case. The following visualizations are available in MBI:
 
 * Scalar
 * Table

@@ -4,7 +4,7 @@ description: Learn how to display your dashboards around the office.
 ---
 # Display Dashboards around the office
 
-For [!DNL MBI] users who are interested in displaying their dashboards and reports on screens throughout the office, there are a number of hardware options that can easily enable this setup.
+For  [!DNL MBI]  users who are interested in displaying their dashboards and reports on screens throughout the office, there are a number of hardware options that can easily enable this setup.
 
 Here is the list of things you will need for the option we recommend:
 

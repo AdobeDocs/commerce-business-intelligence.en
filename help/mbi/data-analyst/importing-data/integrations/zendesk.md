@@ -20,7 +20,7 @@ Connecting your Zendesk data is a simple three-step process:
 
 To complete this process, you will need to open two browser windows or tabs - one for MBI, the other for your Zendesk account.
 
-## Open the Zendesk credentials page in[!DNL MBI]{#stepone}
+## Open the Zendesk credentials page in [!DNL MBI] {#stepone}
 
 1. Go to the Integrations page under **Manage Data > Data Sources > Integrations**.
 1. Click **Add Integration**, located on the right side of the screen.
@@ -36,7 +36,7 @@ To complete this process, you will need to open two browser windows or tabs - on
 1. Click **Create**.
 1. An API token will be created. Copy this token; it will be used in the next step.
 
-## Enter Zendesk login info and API token into[!DNL MBI]{#stepthree}
+## Enter Zendesk login info and API token into [!DNL MBI] {#stepthree}
 
 1. Enter your Zendesk site prefix and login email in the Zendesk credentials page in MBI.
 1. Enter your API token.

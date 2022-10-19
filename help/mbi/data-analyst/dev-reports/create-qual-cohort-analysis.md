@@ -14,7 +14,7 @@ Cohort analysis in general can be broadly defined as the analysis of user groups
 
 For a more in-depth primer on cohort analysis, [take a look here](https://www.cohortanalysis.com/) - we wrote the site on it!
 
-Most cohort analyses in[!DNL MBI]group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A **qualitative cohort** is a little different: it is a user group that is defined by a characteristic that is not time-based. Some examples include:
+Most cohort analyses in [!DNL MBI] group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A **qualitative cohort** is a little different: it is a user group that is defined by a characteristic that is not time-based. Some examples include:
 
 * The set of all users that were acquired from an ad campaign
 * The set of all users whose first purchase included a coupon (or did not)

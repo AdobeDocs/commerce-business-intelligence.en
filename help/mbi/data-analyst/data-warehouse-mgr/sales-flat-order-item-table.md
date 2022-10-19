@@ -16,14 +16,14 @@ When a configurable product is included in an order, two rows are generated in t
 
 *  (simple) `sales_order_item.parent_item_id` => (configurable) `sales_order_item.item_id`
 
-Therefore it is possible to report on sales of products either at the simple level or at the configurable level. By default, all standard order-item-level metrics in[!DNL MBI]are configured to exclude the simple products, and *only* report on the configurable versions. This is accomplished through the "Ordered products we count" filter set, which filters on the condition where `parent_item_id` is `NULL`.
+Therefore it is possible to report on sales of products either at the simple level or at the configurable level. By default, all standard order-item-level metrics in [!DNL MBI] are configured to exclude the simple products, and *only* report on the configurable versions. This is accomplished through the "Ordered products we count" filter set, which filters on the condition where `parent_item_id` is `NULL`.
 
 ## Common Columns
 
 |**Column Name**|**Description**|
 |----|----|
 |`base_price`|Price of an individual unit of a product at the time of sale after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied, represented in the base currency of the store|
-|`created_at`|Creation timestamp of the order item, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in[!DNL MBI]that differs from your database time zone|
+|`created_at`|Creation timestamp of the order item, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
 |`item_id` (PK)|Unique identifier for the table|
 |`name`|Text name of the order item|
 |`order_id`|Foreign key associated with the `sales_order` table. Join to `sales_order.entity_id` to determine order attributes associated with the order item|

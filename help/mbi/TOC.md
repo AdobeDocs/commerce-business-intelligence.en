@@ -1,16 +1,16 @@
 ---
 title: MBI
-description: Learn how to use[!DNL MBI]features available for Adobe Commerce.
+description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
 ---
 
-# [!DNL MBI] User Guide {#mbi}
+#  [!DNL MBI]  User Guide {#mbi}
 
 - Getting Started {#start}
   - [Introduction](getting-started/getting-started.md)
   - [Onboarding](getting-started/onboarding.md)
   - [Activate for On-Premise](getting-started/onpremise-activation.md)
   - [Activate for Cloud Starter](getting-started/cloud-activation.md)
-  - [Sign in to your[!DNL MBI]Account](getting-started/sign-in.md)
+  - [Sign in to your [!DNL MBI] Account](getting-started/sign-in.md)
   - [How to Get Help](getting-started/support.md)
 - Administrator {#administrator}
   - [Introduction](../mbi/administrator.md)
@@ -48,7 +48,7 @@ description: Learn how to use[!DNL MBI]features available for Adobe Commerce.
     - [MongoDB data modeling guide](data-analyst/data-warehouse-mgr/mongodb-data-modeling.md)
     - [Replicating Google Analytics channels](data-analyst/data-warehouse-mgr/rep-google-analytics-channels.md)
     - [Standardizing data with mapping tables](data-analyst/data-warehouse-mgr/stndrd-data-map-tables.md)
-    - [Translating sQL queries into[!DNL MBI]reports](data-analyst/dev-reports/sql-queries-reports.md)
+    - [Translating sQL queries into [!DNL MBI] reports](data-analyst/dev-reports/sql-queries-reports.md)
     - [Understanding and Evaluating Table Relationships](data-analyst/data-warehouse-mgr/table-relationships.md)
     - [Using the Date Difference Calculated](data-analyst/data-warehouse-mgr/using-date-diff-calc-column-.md)
     - [Using Dashboard Wide Filtering](data-analyst/data-warehouse-mgr/using-dshbrd-wide-filter-date-ranges.md)
@@ -221,12 +221,12 @@ description: Learn how to use[!DNL MBI]features available for Adobe Commerce.
     - [Modifying Your Database to Support Incremental Replication](best-practices/mod-db-inc-replication.md)
     - [Optimizing your Database for Analysis](best-practices/opt-db-analysis.md)
     - [Optimizing Your SQL Queries](best-practices/optimizing-your-sql-queries.md)
-    - [Understanding your[!DNL MBI]Environment](best-practices/understanding-magento.md)
+    - [Understanding your [!DNL MBI] Environment](best-practices/understanding-magento.md)
   - Project Organization {#project}
     - [Organizing Projects](best-practices/project-org.md)
     - [Naming Reports and Elements in MBI](best-practices/naming-elements.md)
     - [Consolidating your tables](best-practices/consolidating-your-tables.md)
-    - [Declutter your[!DNL MBI]account](best-practices/declutter-account.md)
+    - [Declutter your [!DNL MBI] account](best-practices/declutter-account.md)
   - Working with Dashboards {#working-dashboards}
     - [Working with Dashboards](best-practices/work-dashboards.md)
     - [Sharing Dashboards](best-practices/share-dashboard-best-practice.md)
