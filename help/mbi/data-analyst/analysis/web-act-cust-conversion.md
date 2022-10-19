@@ -10,7 +10,7 @@ In this article, we demonstrate how to set up a dashboard that will track your w
 
 ## Prerequisites
 
-**Import your advertising cost data** - Connect [Google AdWords](../importing-data/integrations/google-adwords.md) to MBI - this will automatically sync your AdWords spend in BI.
+**Import your advertising cost data** - Connect [Google AdWords](../importing-data/integrations/google-adwords.md) to[!DNL MBI]- this will automatically sync your AdWords spend in BI.
 
 **Track user acquisition channel data** - In order to tie your Google AdWords data to specific orders in your database, we need to [track user acquisition](../analysis/google-track-user-acq.md) via Ecommerce in Google Analytics, allowing us to connect each order with a utm source and medium.
 

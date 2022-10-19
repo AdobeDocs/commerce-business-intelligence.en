@@ -8,11 +8,11 @@ Before you get started building in MBI, we want to share some of our secrets to 
 
 ## Why is nomenclature important? {#why}
 
-The way you name your calculated columns, metrics, and reports dictates the ease in which different users can navigate through your MBI account. When naming these features, we like to keep in mind the three Cs:
+The way you name your calculated columns, metrics, and reports dictates the ease in which different users can navigate through your[!DNL MBI]account. When naming these features, we like to keep in mind the three Cs:
 
 * **CLARITY** - So you can tell at a glance what a report is showing, what a metric does, and so on.
 * **CONSISTENCY** - So that you (and our support team!) can easily find and understand elements and reports in your account.
-* **CREDIBILITY** - In order to inspire and empower other data-driven MBI users, you need to instill confidence in how they understand and use the data!
+* **CREDIBILITY** - In order to inspire and empower other data-driven[!DNL MBI]users, you need to instill confidence in how they understand and use the data!
 
 Read on for our tried and true nomenclature tips!
 
@@ -97,4 +97,4 @@ Revenue (shipped\_at)
 
 ## Wrapping Up {#wrapup}
 
-Establishing style and naming conventions early on will help set you up for success in your MBI account. Remember the three Cs: clarity, consistency, and credibility.
+Establishing style and naming conventions early on will help set you up for success in your[!DNL MBI]account. Remember the three Cs: clarity, consistency, and credibility.

@@ -12,7 +12,7 @@ This table does not contain records of customers who place an order via guest ch
 
 |**Column Name**|**Description**|
 |---|---|
-|`created_at`|Timestmap corresponding to the account's registration date, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in MBI that differs from your database time zone|
+|`created_at`|Timestmap corresponding to the account's registration date, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in[!DNL MBI]that differs from your database time zone|
 |`email`|Email address associated with the account|
 |`entity_id` (PK)|Unique identifier for the table, and commonly used in joins to the `customer_id` in other tables within the instance|
 |`group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the registered account|

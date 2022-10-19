@@ -1,6 +1,6 @@
 ---
 title: Get Help with MBI
-description: Learn about get help with your MBI account.
+description: Learn about get help with your[!DNL MBI]account.
 ---
 # Get Help
 

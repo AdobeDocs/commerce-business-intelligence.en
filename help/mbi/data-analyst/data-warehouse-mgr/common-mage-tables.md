@@ -1,12 +1,12 @@
 ---
 title: Common Magento Tables
-description: Learn about some of the more common tables that MBI customers utilize.
+description: Learn about some of the more common tables that[!DNL MBI]customers utilize.
 ---
 # Common Magento Tables
 
-When you first [connect a Magento instance to MBI](../importing-data/integrations/magento.md), MBI automatically replicates data from some of your commerce tables (typically 4-6 tables) in order to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
+When you first [connect a Magento instance to MBI](../importing-data/integrations/magento.md),[!DNL MBI]automatically replicates data from some of your commerce tables (typically 4-6 tables) in order to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
 
-Below is a list of some of the more common tables that MBI customers utilize. After you [connect your Magento instance to MBI](../../data-analyst/importing-data/integrations/magento.md), you can use the [Data Warehouse Manager](../../data-analyst/data-warehouse-mgr/tour-dwm.md) to track relevant data fields.
+Below is a list of some of the more common tables that[!DNL MBI]customers utilize. After you [connect your Magento instance to MBI](../../data-analyst/importing-data/integrations/magento.md), you can use the [Data Warehouse Manager](../../data-analyst/data-warehouse-mgr/tour-dwm.md) to track relevant data fields.
 
 |Table name|Description|
 |---|---|

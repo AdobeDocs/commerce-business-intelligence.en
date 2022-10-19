@@ -4,7 +4,7 @@ description: Learn how to permanently delete a chart.
 ---
 # Permanently delete a chart
 
-Even if you [remove a chart from the dashboard](../../data-user/dashboards/remove-charts-dashboard.md), it still exists in your MBI account. 
+Even if you [remove a chart from the dashboard](../../data-user/dashboards/remove-charts-dashboard.md), it still exists in your[!DNL MBI]account. 
 
 To permanently delete a chart:
 

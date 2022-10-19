@@ -4,7 +4,7 @@ description: Learn how to use your report data.
 ---
 # Use a report
 
-Use reports in MBI to help you answer business questions - whether you simply want to see this month's revenue compared to last year or understand your acquisition costs for your latest AdWords campaign.
+Use reports in[!DNL MBI]to help you answer business questions - whether you simply want to see this month's revenue compared to last year or understand your acquisition costs for your latest AdWords campaign.
 
 What does that path from question to answer look like, exactly?
 
@@ -55,7 +55,7 @@ That will then be used to create:
 
 Both of these fields need to be created at the user level (i.e. on the `user` table), so that the average analysis can be normalized by users (i.e. the denominator in this average calculation will be the count of users).
 
-This is where MBI steps in! You can leverage your MBI data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we will create them. You can also leverage our [Column Editor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
+This is where[!DNL MBI]steps in! You can leverage your[!DNL MBI]data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we will create them. You can also leverage our [Column Editor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
 It is a best practice to avoid creating these calculated data fields in your database directly as it puts an unnecessary burden on your production servers.
 

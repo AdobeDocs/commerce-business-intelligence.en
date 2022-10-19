@@ -1,10 +1,10 @@
 ---
 title: Reporting on a retail calendar
-description: Learn how to set up the structure to use a 4-5-4 retail calendar within your MBI account. 
+description: Learn how to set up the structure to use a 4-5-4 retail calendar within your[!DNL MBI]account. 
 ---
 # Reporting on a Retail Calendar
 
-In this article, we demonstrate how to set up the structure to use a [4-5-4 retail calendar](https://nrf.com/resources/4-5-4-calendar) within your MBI account. The visual report builder provides incredibly flexible time ranges, intervals and independent settings. Our team is also able to help you change the start day of the week to align with your business preferences. However, all of these settings work with the traditional monthly calendar in place.
+In this article, we demonstrate how to set up the structure to use a [4-5-4 retail calendar](https://nrf.com/resources/4-5-4-calendar) within your[!DNL MBI]account. The visual report builder provides incredibly flexible time ranges, intervals and independent settings. Our team is also able to help you change the start day of the week to align with your business preferences. However, all of these settings work with the traditional monthly calendar in place.
 
 Because many of our customers alter their calendar to use retail or accounting dates, the below steps will illustrate how to work with your data and create reports using retail dates. Though the below instructions will reference the 4-5-4 Retail calendar, you can alter them for any specific calendar your team uses, whether it be financial or just a custom time frame.
 
@@ -14,7 +14,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 ## Getting Started
 
-You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CSV version of the 4-5-4 retail calendar for retail years 2014 through 2017. Note that you may need to adjust this file according to your internal retail calendar as well as extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your MBI data warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
+You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CSV version of the 4-5-4 retail calendar for retail years 2014 through 2017. Note that you may need to adjust this file according to your internal retail calendar as well as extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your[!DNL MBI]data warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
 
 | Column Name | Column Datatype | Primary Key |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CS
       * Inputs – **Date Retail**
       * Datatype – Datetime
       * Calculation - `**case when A is null then null else to\_char(now(), 'YYYY-MM-DD 00:00:00') end**`
-         * Note: The 'now()' function above is specific to PostgreSQL. Although most MBI data warehouses are hosted on PostgreSQL, some may be hosted on Redshift. If the calculation above returns an error, you may need to use the Redshift function 'getdate()' instead of 'now()'.
+         * Note: The 'now()' function above is specific to PostgreSQL. Although most[!DNL MBI]data warehouses are hosted on PostgreSQL, some may be hosted on Redshift. If the calculation above returns an error, you may need to use the Redshift function 'getdate()' instead of 'now()'.
     * **Current retail year** (Must be created by support analyst)
       * Column type – "Event Counter"
       * Local Key - **Current date**

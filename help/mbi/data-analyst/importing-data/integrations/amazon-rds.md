@@ -8,27 +8,27 @@ Amazon Relational Database Services (RDS) is a managed database service that run
 
 The steps for connecting your RDS instance vary slightly depending on the type of database you are using (use the links above for detailed instructions for each database), and whether or not you are using an encrypted connection ([like an SSH tunnel for MySQL](../integrations/mysql-via-ssh-tunnel.md)), but here are the basics:
 
-## Authorize MBI to access your database
+## Authorize[!DNL MBI]to access your database
 
 On the credentials page (**Manage Data > Integrations**) for each database, you will see a box containing the IP addresses you will need to authorize to connect RDS to MBI: **54.88.76.97** and **34.250.211.151**. Here's a look at the MySQL credentials page, where we highlighted the IP address box:
 
 ![](../../../assets/RDS_IP.png)
 
-For MBI to successfully connect with your RDS instance, you will need to add these IP addresses to the appropriate database security group via the AWS management console. These IP addresses can be added to an existing group or you can create a new one - the important thing is that the group is authorized to access the instance you want to connect to MBI.
+For[!DNL MBI]to successfully connect with your RDS instance, you will need to add these IP addresses to the appropriate database security group via the AWS management console. These IP addresses can be added to an existing group or you can create a new one - the important thing is that the group is authorized to access the instance you want to connect to MBI.
 
-When adding the MBI IP addresses, make sure you add a "/32" to the end of the address to indicate to Amazon that it is an exact IP address. do not worry; the AWS interface will make it clear that this is required.
+When adding the[!DNL MBI]IP addresses, make sure you add a "/32" to the end of the address to indicate to Amazon that it is an exact IP address. do not worry; the AWS interface will make it clear that this is required.
 
-## Create a Linux user for MBI {#linux}
+## Create a Linux user for[!DNL MBI]{#linux}
 
 **This step is only required if you are using an encrypted connection.** For instructions on how to do this, refer to the setup article for the database you are using (ex: MySQL). The Linux user will allow us to create an SSH tunnel, which is the safest method of sending data over the internet.
 
 ## Create a database user for MBI
 
-This is the part of the process where, depending on the database you are using, the steps will vary. The idea is the same, though: you will create a user for MBI which will be used to access your database. Instructions for creating a database MBI user can be found in the setup article for the database you are using.
+This is the part of the process where, depending on the database you are using, the steps will vary. The idea is the same, though: you will create a user for[!DNL MBI]which will be used to access your database. Instructions for creating a database[!DNL MBI]user can be found in the setup article for the database you are using.
 
 ## Enter connection info into MBI
 
-After you have granted MBI access to your instance and created a user for us, the last thing you will need to do is enter the connection info into MBI.
+After you have granted[!DNL MBI]access to your instance and created a user for us, the last thing you will need to do is enter the connection info into MBI.
 
 The credential pages for MySQL, Microsoft SQL, and PostgreSQL are accessed via the Integrations page (**Manage Data > Integrations**) by clicking **Add Integration**. When the list of integrations displays, click the icon for the database you are using to go to the credentials page. If you do not currently have access to the integration you need, contact your CSM.
 

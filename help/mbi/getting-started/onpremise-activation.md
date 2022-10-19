@@ -1,16 +1,16 @@
 ---
-title: Activating your MBI Account for On-Premise Subscriptions
-description: Learn about activating your MBI account for On-Premise Subscriptions.
+title: Activating your[!DNL MBI]Account for On-Premise Subscriptions
+description: Learn about activating your[!DNL MBI]account for On-Premise Subscriptions.
 ---
-# Activate your MBI Account for On-Premise Subscriptions
+# Activate your[!DNL MBI]Account for On-Premise Subscriptions
 
-To activate MBI for on-premise subscriptions, first create a MBI account, then connect MBI to your Magento database. For information about activation in Cloud Starter projects, see [Activating your MBI Account for Cloud Starter Subscriptions](../getting-started/cloud-activation.md).
+To activate[!DNL MBI]for on-premise subscriptions, first create a[!DNL MBI]account, then connect[!DNL MBI]to your Magento database. For information about activation in Cloud Starter projects, see [Activating your[!DNL MBI]Account for Cloud Starter Subscriptions](../getting-started/cloud-activation.md).
 
-1. Create your MBI Account.
+1. Create your[!DNL MBI]Account.
 
     -  Go to [https://account.magento.com/customer/account/login](https://account.magento.com/customer/account/login)
 
-    -  Go to **My Account** > **My MBI Instances**.
+    -  Go to **My Account** > **My[!DNL MBI]Instances**.
 
     -  Click **Create Instance**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
 
@@ -32,10 +32,10 @@ To activate MBI for on-premise subscriptions, first create a MBI account, then c
 
     ![](../assets/create-account-6.png)
 
-1. Connect MBI to your Magento database using an encrypted connection.
+1. Connect[!DNL MBI]to your Magento database using an encrypted connection.
 
-   Magento strongly recommends you connect using an [SSH tunnel](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md). However, if this is not an option, you can still link MBI to your database using a [direct connection](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
+   Magento strongly recommends you connect using an [SSH tunnel](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md). However, if this is not an option, you can still link[!DNL MBI]to your database using a [direct connection](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
 
-1. After you have successfully connected MBI to your Commerce database, contact your Customer Success Manager to coordinate the next steps, such as setting up integrations and other configuration steps.
+1. After you have successfully connected[!DNL MBI]to your Commerce database, contact your Customer Success Manager to coordinate the next steps, such as setting up integrations and other configuration steps.
 
-1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your MBI account.
+1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your[!DNL MBI]account.

@@ -15,7 +15,7 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 |**Column Name**|**Description**|
 |---|---|
 |`base_price`|Price of an individual unit of a product at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied, represented in the base currency of the store|
-|`created_at`|Creation timestamp of the cart item, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in MBI that differs from your database time zone|
+|`created_at`|Creation timestamp of the cart item, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in[!DNL MBI]that differs from your database time zone|
 |`item_id` (PK)|Unique identifier for the table|
 |`name`|Text name of the order item|
 |`parent_item_id`|Foreign key that relates a simple product to its parent bundle or configurable product. Join to `quote_item.item_id` to determine parent product attributes associated with simple product. For parent cart items (that is, bundle or configurable product types), the `parent_item_id` will be `NULL`|

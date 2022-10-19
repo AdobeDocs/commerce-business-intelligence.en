@@ -1,6 +1,6 @@
 ---
 title: Add/Edit a new user
-description: Learn how to add a new MBI user and how to update your user name or password. 
+description: Learn how to add a new[!DNL MBI]user and how to update your user name or password. 
 ---
 # Add a new user
 

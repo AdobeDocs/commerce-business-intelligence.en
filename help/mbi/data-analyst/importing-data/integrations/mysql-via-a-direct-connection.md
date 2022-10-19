@@ -6,7 +6,7 @@ description: Learn how to connect MongoDB via direct connection.
 
 ## IN THIS ARTICLE
 
-* [Allow access to the MBI IP address](#allowlist)
+* [Allow access to the[!DNL MBI]IP address](#allowlist)
 * [Create a MySQL user for MBI](#steptwo)
 * [Enter connection info into MBI](#stepthree)
 
@@ -16,11 +16,11 @@ description: Learn how to connect MongoDB via direct connection.
 * **MySQL via direct connection**
 * [MySQL via cPanel](../integrations/mysql-via-cpanel.md)
 
-**One thing we take seriously is data security. We strongly recommend you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data!** If this is not an option, you can still directly connect MBI to your database using the instructions in this article.
+**One thing we take seriously is data security. We strongly recommend you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data!** If this is not an option, you can still directly connect[!DNL MBI]to your database using the instructions in this article.
 
 In this article, we walk you through directly connecting your MySQL database to MBI. These settings can also be used with Magento EE/CE or any other eCommerce databases that use MySQL.
 
-## Allow access to the MBI IP addresses {#allowlist}
+## Allow access to the[!DNL MBI]IP addresses {#allowlist}
 
 For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are **54.88.76.97** and **34.250.211.151**, but it is also on the MySQL credentials page:
 
@@ -28,7 +28,7 @@ For the connection to be successful, your must configure your firewall to allow 
 
 ## Create a MySQL user for MBI
 
-The simplest way to create a MySQL user for MBI is to execute the following query when logged into MySQL with GRANT privileges. Replace `MBI IP Address` with the MBI IP address and replace `secure password` with a secure password of your choice:
+The simplest way to create a MySQL user for[!DNL MBI]is to execute the following query when logged into MySQL with GRANT privileges. Replace `MBI IP Address` with the[!DNL MBI]IP address and replace `secure password` with a secure password of your choice:
 
 ```sql
     GRANT SELECT ON *.* TO 'magentobi'@'<MBI IP address>' IDENTIFIED BY '<secure password>';
@@ -45,8 +45,8 @@ To wrap things up, we need to enter the connection and user info into MBI. Did y
 Enter the following info into this page, starting with the Database Connection section:
 
 * **Connection Nickname:** Enter a name for the integration (ex: Ecommerce Store)
-* **Username:** The username for the MBI MySQL user
-* **Password:** The password for the MBI MySQL user
+* **Username:** The username for the[!DNL MBI]MySQL user
+* **Password:** The password for the[!DNL MBI]MySQL user
 * **Port:** MySQL's port on your server (3306 by default)
 * **Host:** By default, this will be localhost. In general, it will be the bind-address value for your MySQL server, which by default is 127.0.0.1 (localhost), but could also be some local network address (e.g., 192.168.0.1) or your server's public IP address.
 

@@ -18,7 +18,7 @@ Let us look at Google Analytics ad campaigns for an example of what can be done 
 
 The combination aspect allows Google Analytics data to be joined to other data in order to conduct analyses. For example, take "Total Time On Site By Ad Campaign" data from Google Analytics and join it up against "Total Spent Per Campaign" data from Facebook Ads to get a complete picture of how much engagement is costing you.
 
-With the Google Analytics Live integration on the other hand, every Google Analytics chart is like a little silo that is not stored in your MBI data warehouse.
+With the Google Analytics Live integration on the other hand, every Google Analytics chart is like a little silo that is not stored in your[!DNL MBI]data warehouse.
 
 ## Connecting Google Analytics Warehoused
 
@@ -42,7 +42,7 @@ To identify a particular website's Google Analytics Profile ID:
 1. Go to the particular website's Google Analytics dashboard
 1. Look at the URL - the Profile ID corresponds to the 8 numbers following "p" at the end of the line (e.g., www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX**/).
 
-## Disconnecting Google Analytics Warehoused from MBI {#disconnect}
+## Disconnecting Google Analytics Warehoused from[!DNL MBI]{#disconnect}
 
 1. Visit your Google [account settings](https://www.google.com/accounts/) page.
 1. Under the Security section,  and click the 'edit' link next to Authorizing applications and sites.

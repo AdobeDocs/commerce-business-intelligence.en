@@ -1,20 +1,20 @@
 ---
-title: Activate your MBI Account for Cloud Starter Subscriptions
-description: Learn how to activate MBI for Cloud Starter projects.
+title: Activate your[!DNL MBI]Account for Cloud Starter Subscriptions
+description: Learn how to activate[!DNL MBI]for Cloud Starter projects.
 ---
-# Activate your MBI Account for Cloud Starter Subscriptions
+# Activate your[!DNL MBI]Account for Cloud Starter Subscriptions
 
-To activate MBI for Cloud Starter projects, first create a MBI account, then create a SSH key, then finally connect to your Magento database. Click [here](../getting-started/onpremise-activation.md) for activating on-premise subscriptions.
+To activate[!DNL MBI]for Cloud Starter projects, first create a[!DNL MBI]account, then create a SSH key, then finally connect to your Magento database. Click [here](../getting-started/onpremise-activation.md) for activating on-premise subscriptions.
 
 >[!NOTE]
 >
->For help activating MBI for Cloud Pro projects, contact your Customer Success Manager or Customer Technical Advisor.
+>For help activating[!DNL MBI]for Cloud Pro projects, contact your Customer Success Manager or Customer Technical Advisor.
 
-1. Create your MBI Account.
+1. Create your[!DNL MBI]Account.
 
     - Go to [https://account.magento.com/customer/account/login](https://account.magento.com/customer/account/login)
 
-    - Go to **My Account** > **My MBI Instances**.
+    - Go to **My Account** > **My[!DNL MBI]Instances**.
 
     - Click **Create Instance**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
 
@@ -44,41 +44,41 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
     There is some information you need to gather before you can connect your database for the third step in the onboarding flow. You will be filling in the **Connect your database** page in Step **9**.
 
-1. Create dedicated MBI User.
+1. Create dedicated[!DNL MBI]User.
 
     - Create a new user on [https://accounts.magento.com](https://accounts.magento.com).
 
-    - _Why a new user?_ MBI needs a user added to the project to continuously fetch new data to be transferred to the account's MBI data warehouse. This user will serve as that connection. Adding this user to the project will come in Step **4**.
+    - _Why a new user?_[!DNL MBI]needs a user added to the project to continuously fetch new data to be transferred to the account's[!DNL MBI]data warehouse. This user will serve as that connection. Adding this user to the project will come in Step **4**.
 
-    - The reason for having a dedicated MBI user is to prevent the added user from inadvertently being deactivated or deleted and stopping the MBI connection.
+    - The reason for having a dedicated[!DNL MBI]user is to prevent the added user from inadvertently being deactivated or deleted and stopping the[!DNL MBI]connection.
 
 1. Add the newly created user to the project's primary environment as a `Contributor`.
 
     ![](../assets/create-account-7.png)
 
-1. Get your MBI SSH keys.
+1. Get your[!DNL MBI]SSH keys.
 
-    - Go to the **Connect your database** page of the MBI set up user interface and scroll down to **Encryption settings**.
+    - Go to the **Connect your database** page of the[!DNL MBI]set up user interface and scroll down to **Encryption settings**.
 
     - For the field **Encryption Type** chose **SSH Tunnel**.
 
-    - From the dropdown, you can copy and paste the provided MBI Public Key.
+    - From the dropdown, you can copy and paste the provided[!DNL MBI]Public Key.
 
     ![](../assets/create-account-8.png)
 
-1. Add your new MBI Public key to the MBI user created in Step **5**.
+1. Add your new[!DNL MBI]Public key to the[!DNL MBI]user created in Step **5**.
 
-    - Go to [https://accounts.magento.cloud/](https://accounts.magento.cloud/). Sign in with your account log in information for the new MBI user created. Then go to the **Account Settings** tab.
+    - Go to [https://accounts.magento.cloud/](https://accounts.magento.cloud/). Sign in with your account log in information for the new[!DNL MBI]user created. Then go to the **Account Settings** tab.
 
     - Scroll down the page and expand the dropdown for SSH keys. Then click **Add a public key**.
 
     ![](../assets/create-account-9.png)
 
-    - Add the MBI SSH Public Key from above.
+    - Add the[!DNL MBI]SSH Public Key from above.
 
     ![](../assets/create-account-10.png)
 
-1. Provide MBI MySQL credentials.
+1. Provide[!DNL MBI]MySQL credentials.
 
     - Update your `.magento/services.yaml`
 
@@ -189,8 +189,8 @@ To activate MBI for Cloud Starter projects, first create a MBI account, then cre
 
 1. Click **Save Integration**.
 
-1. You have now successfully connected to your MBI account.
+1. You have now successfully connected to your[!DNL MBI]account.
 
-1. After you have successfully connected MBI to your Commerce database, contact your Customer Success Manager to coordinate the next steps, such as setting up integrations and other configuration steps.
+1. After you have successfully connected[!DNL MBI]to your Commerce database, contact your Customer Success Manager to coordinate the next steps, such as setting up integrations and other configuration steps.
 
-1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your MBI account.
+1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your[!DNL MBI]account.

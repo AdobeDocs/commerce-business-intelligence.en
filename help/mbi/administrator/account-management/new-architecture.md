@@ -4,7 +4,7 @@ description: Learn about the benefits of moving to new architecture.
 ---
 # New Architecture
 
-Our Product and Engineering teams have been focused on making the most sweeping, highly-requested improvements possible for the last year. We are thrilled to announce the availability of a new MBI product architecture that makes these improvements a reality.
+Our Product and Engineering teams have been focused on making the most sweeping, highly-requested improvements possible for the last year. We are thrilled to announce the availability of a new[!DNL MBI]product architecture that makes these improvements a reality.
 
 ## Benefits of New Architecture
 
@@ -36,7 +36,7 @@ When this is complete, you will know what data you need to sync to the new archi
 
 ### Getting Help
 
-The MBI Services team can perform your re-implementation for an additional cost. Contact our [Customer Success team](../../getting-started/support.md) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
+The[!DNL MBI]Services team can perform your re-implementation for an additional cost. Contact our [Customer Success team](../../getting-started/support.md) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
 
 ### Staying with Existing Architecture
 

@@ -6,9 +6,9 @@ description: Learn to interact with your Google Analytics metrics.
 
 After you have connected a Google Analytics integration, you can interact with your Google Analytics metrics **immediately in the Visual Report Builder.** When you enter the Visual Report Builder, if you click **Add a Metric**, a series of metrics from your Google Analytics profile(s) will appear in a dropdown immediately beneath the metrics in your data warehouse.
 
-The Google Analytics integration is **live** -- this means that the Report Builder requests data from Google Analytics **immediately** when you add a metric to your report. It also means that the metrics you can access are defined exactly as they are in Google Analytics, and that these values are not *warehoused* in your MBI account -- only displayed visually in your reports.
+The Google Analytics integration is **live** -- this means that the Report Builder requests data from Google Analytics **immediately** when you add a metric to your report. It also means that the metrics you can access are defined exactly as they are in Google Analytics, and that these values are not *warehoused* in your[!DNL MBI]account -- only displayed visually in your reports.
 
-Google Analytics integrations in MBI utilize the Google Analytics [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
+Google Analytics integrations in[!DNL MBI]utilize the Google Analytics [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
 
 >[!NOTE]
 >
@@ -16,7 +16,7 @@ Google Analytics integrations in MBI utilize the Google Analytics [Core Reportin
 
 ## Supported Metrics
 
-| MBI Display Name | GA Name / Formula |
+|[!DNL MBI]Display Name | GA Name / Formula |
 | --- | --- |
 | Page Views | ga:pageviews |
 | Total Time Spent On Page | ga:timeOnPage |
@@ -70,7 +70,7 @@ Google Analytics integrations in MBI utilize the Google Analytics [Core Reportin
 
 ## Supported Dimensions
 
-| MBI Display Name | GA Name / Formula | Groupable? |
+|[!DNL MBI]Display Name | GA Name / Formula | Groupable? |
 | --- | --- | --- |
 | Ad Content | ga:adContent | Yes |
 | Ad Group | ga:adGroup | Yes |

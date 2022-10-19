@@ -48,11 +48,11 @@ A [primary key](http://en.wikipedia.org/wiki/Unique_key) is an unchanging column
 
 When building primary keys, use an integer data type for the column that auto-increases. We also recommend you avoid using multiple column primary keys where possible.
 
-If your table is an SQL view, add a column that can act as a primary key. MBI will be able to automatically identify this column as a primary key.
+If your table is an SQL view, add a column that can act as a primary key.[!DNL MBI]will be able to automatically identify this column as a primary key.
 
 ### Assign a Data Type to Your Data Column
 
-If a data column does not have an assigned [data type](http://en.wikipedia.org/wiki/Data_type), MBI will guess what data type to use. If the system guesses incorrectly, you may not be able to perform the relevant analyses until our support team adjusts the column to the proper data type. For example, if a date column is guessed as a numeric data type, you are be able to trend over time using that date dimension.
+If a data column does not have an assigned [data type](http://en.wikipedia.org/wiki/Data_type),[!DNL MBI]will guess what data type to use. If the system guesses incorrectly, you may not be able to perform the relevant analyses until our support team adjusts the column to the proper data type. For example, if a date column is guessed as a numeric data type, you are be able to trend over time using that date dimension.
 
 ### Add Prefixes to Your Data Tables if You Have Multiple Databases
 

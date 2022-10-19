@@ -4,9 +4,9 @@ description: Learn how to see how your business is performing or find your most 
 ---
 # Connect Spree
 
-Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your Spree data to MBI will allow you to answer these questions and more.
+Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your Spree data to[!DNL MBI]will allow you to answer these questions and more.
 
-As Spree's database is based on PostgreSQL, you can connect it to MBI using the [same steps that you would for a normal Postgres connection](../integrations/postgresql.md).
+As Spree's database is based on PostgreSQL, you can connect it to[!DNL MBI]using the [same steps that you would for a normal Postgres connection](../integrations/postgresql.md).
 
 ## Related documentation
 

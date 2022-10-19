@@ -4,7 +4,7 @@ description: Administrator
 ---
 # Administrator
 
-You can manage the MBI account including licensing, adding and removing users, and handling essential administrative tasks.
+You can manage the[!DNL MBI]account including licensing, adding and removing users, and handling essential administrative tasks.
 
 ## Related
  

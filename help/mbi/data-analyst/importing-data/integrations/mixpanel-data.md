@@ -1,14 +1,14 @@
 ---
 title: Expected Mixpanel data
-description: Explore the main data tables that you can import from Mixpanel into your MBI account.
+description: Explore the main data tables that you can import from Mixpanel into your[!DNL MBI]account.
 ---
 # Expected Mixpanel data
 
 After [you have connected your Mixpanel account](../integrations/mixpanel.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
-In this article, we explore the main data tables that you can import from Mixpanel into your MBI account. The following tables will be created in your data warehouse after connecting Mixpanel. To view all the fields available for tracking, click the links in the table name column.
+In this article, we explore the main data tables that you can import from Mixpanel into your[!DNL MBI]account. The following tables will be created in your data warehouse after connecting Mixpanel. To view all the fields available for tracking, click the links in the table name column.
 
-**Note**: Due to the limitations of Mixpanel's API, historical data - data older than seven (7) days from the date of connection to MBI - will not be replicated.
+**Note**: Due to the limitations of Mixpanel's API, historical data - data older than seven (7) days from the date of connection to[!DNL MBI]- will not be replicated.
 
 | **Table Name** | **Description** |
 |-----|-----|

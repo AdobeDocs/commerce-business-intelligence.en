@@ -31,4 +31,4 @@ To bring your Linkshare data into MBI, you need to do two things:
 
    At this point, a CSV file will be created and downloaded.
 
-After the file is downloaded, you can upload it to MBI using the [File Upload feature](../connecting-data/using-file-uploader.md).
+After the file is downloaded, you can upload it to[!DNL MBI]using the [File Upload feature](../connecting-data/using-file-uploader.md).

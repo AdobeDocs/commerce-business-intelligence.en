@@ -38,9 +38,9 @@ In the second column, enter what these values **should be**. Continuing with our
 
 ![](../../assets/Mapping_table_examples.jpg)
 
-## What do I need to do in MBI to use it? {#use}
+## What do I need to do in[!DNL MBI]to use it? {#use}
 
-After you have finished creating the mapping table, you'll need to [upload the file](../{{ site.baseurl }}/data-analyst/importing-data/connecting-data/using-file-uploader.html#uploading) into MBI and [create a joined column](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/calc-column-types.html#joined) that relocates the new field into the desired table. You can do this after the file is synced to your data warehouse.
+After you have finished creating the mapping table, you'll need to [upload the file](../{{ site.baseurl }}/data-analyst/importing-data/connecting-data/using-file-uploader.html#uploading) into[!DNL MBI]and [create a joined column](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/calc-column-types.html#joined) that relocates the new field into the desired table. You can do this after the file is synced to your data warehouse.
 
 In our example, we will move the column we created on the **mapping_state** table (**state_input**) to the **customer_address** table using a joined column. This will allow us to group by the clean **state_input** column in our reports instead of the **state** column.
 

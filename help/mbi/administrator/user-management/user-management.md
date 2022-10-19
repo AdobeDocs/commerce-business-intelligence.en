@@ -1,6 +1,6 @@
 ---
 title: Managing users and permissions
-description: Learn how to manage your MBI users. 
+description: Learn how to manage your[!DNL MBI]users. 
 ---
 # Manage user permissions
 

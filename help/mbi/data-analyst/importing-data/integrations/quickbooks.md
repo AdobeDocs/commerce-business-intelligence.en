@@ -19,14 +19,14 @@ With the QuickBooks integration, your business finances can now live along side 
 1. Click the QuickBooks icon.
 1. Click **Connect to Quickbooks**.
 
-## Grant MBI access to your QuickBooks data
+## Grant[!DNL MBI]access to your QuickBooks data
 
 After clicking **Connect to Quickbooks**, log into your Intuit account and authorize the connection:
 
 ![](../../../assets/QuickBooks_App_Store_1.jpg)
 
 1. In the **Search for a company** dropdown, select your company.
-1. Click **Next**. You are redirected to MBI and a *Connection Successful!* message will display at the top of the screen.
+1. Click **Next**. You are redirected to[!DNL MBI]and a *Connection Successful!* message will display at the top of the screen.
 
 ## Related
 
