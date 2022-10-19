@@ -14,7 +14,7 @@ The first step in cleaning up your account is to deactivate the accounts of your
 
 You can do this by clicking your company's name in the top-right corner of the top navigation bar, then selecting **[!UICONTROL Manage Users]**. Next, select the user you want to deactivate, and click **[!UICONTROL Deactivate User]**. 
 
->[NOTE]
+>[!NOTE]
 >
 >You need [Admin permissions](../administrator/user-management/user-management.md) to do this.
 
@@ -30,7 +30,7 @@ To reactivate a user, reinvite the user by recreating their account with the sam
 
 The next step in auditing your account is to delete any unused dashboards and reports. 
 
->[!NOTE}
+>[!NOTE]
 >
 >You need `Admin` or `Standard` [user permissions](../administrator/user-management/user-management.md) to do this.
 

@@ -65,4 +65,4 @@ In addition to the general permission levels, two other user designations also e
 
 `Admin` users can add new users to their account by clicking **[!UICONTROL Account Settings]** > **[!UICONTROL Create Users]** and following the prompts. After the user is created in [!DNL MBI], the lucky person you are inviting will receive email instructions on how to complete the account setup process.
 
-At any time, `Admins` can view all the users in their account by clicking **[!UICONTROL Account Settings** > **[!UICONTROL Manage Users]**. This page displays the user's permissions and what metrics and dashboards they have access to.
+At any time, `Admins` can view all the users in their account by clicking **[!UICONTROL Account Settings]** > **[!UICONTROL Manage Users]**. This page displays the user's permissions and what metrics and dashboards they have access to.
