@@ -8,7 +8,7 @@ The `sales_order_item` table (`sales_flat_order_item` on M1) contains records of
 
 ## Product Types
 
-The `sales_order_item` captures details on all [product types](https://docs.magento.com/m2/ce/user_guide/catalog/product-types.html) that were purchased. A common practice in Magento is to offer configurable products, or in other words, a product that can be customized according to size, color, and other product attributes. Although a configurable product has its own `sku`, it can relate to multiple simple products, where each simple product represents a unique product configuration. Refer to [configuring products](https://devdocs.magento.com/guides/v2.3/rest/tutorials/configurable-product/config-product-intro.html) for more information.
+The `sales_order_item` captures details on all [product types](https://docs.magento.com/m2/ce/user_guide/catalog/product-types.html) that were purchased. A common practice in **[!UICONTROL Magento]** is to offer configurable products, or in other words, a product that can be customized according to size, color, and other product attributes. Although a configurable product has its own `sku`, it can relate to multiple simple products, where each simple product represents a unique product configuration. Refer to [configuring products](https://devdocs.magento.com/guides/v2.3/rest/tutorials/configurable-product/config-product-intro.html) for more information.
 
 > For example, consider a configurable product such as a t-shirt. When a customer checks out, they select options to alter the color and size. If the customer selects a color of blue, and a size of small, they end up purchasing a simple product like "t-shirt-blue-small" which relates back to the parent product of "t-shirt".
 
@@ -32,7 +32,7 @@ Therefore it is possible to report on sales of products either at the simple lev
 |`product_type`|Type of product that was sold. Potential [product types](https://docs.magento.com/m2/ce/user_guide/catalog/product-types.html) include: simple, configurable, grouped, virtual, bundle, and downloadable|
 |`qty_ordered`|Quantity of units included in the cart for the particular order item at the time of sale|
 |`sku`|Unique identifier for the order item that was purchased|
-|`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which Magento store view is associated with the order item|
+|`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which **[!UICONTROL Magento]** store view is associated with the order item|
 
 {style="table-layout:auto"}
 
@@ -48,7 +48,7 @@ Therefore it is possible to report on sales of products either at the simple lev
 |`Order's coupon_code`|Coupon applied to the order. Calculated by joining `sales_order_item.order_id` to `sales_order.entity_id` and returning the `coupon_code` field|
 |`Order's increment_id`|Unique identifier of the order. Calculated by joining `sales_order_item.order_id` to `sales_order.entity_id` and returning the `increment_id` field|
 |`Order's status`|Status of the order. Calculated by joining `sales_order_item.order_id` to `sales_order.entity_id` and returning the `status` field|
-|`Store name`|Name of the Magento store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
+|`Store name`|Name of the **[!UICONTROL Magento]** store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
 
 {style="table-layout:auto"}
 
@@ -80,5 +80,5 @@ Therefore it is possible to report on sales of products either at the simple lev
 
 `store`
 
-*  Join to `store` table to create new columns that return details related to the Magento store associated with the order item.
+*  Join to `store` table to create new columns that return details related to the **[!UICONTROL Magento]** store associated with the order item.
    *  Path: `sales_order_item.store_id` (many) => `store.store_id` (one)

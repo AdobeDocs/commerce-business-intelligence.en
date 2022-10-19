@@ -4,14 +4,14 @@ description: Learn best practices for naming reports and elements in MBI.
 ---
 # Name reports and elements
 
-Before you get started building in MBI, we want to share some of our secrets to success. Knowing how to create metrics, filters, and so on is important, but all that work will be for naught if you cannot find what you need or if tHere is any ambiguity.
+Before you get started building in[!DNL MBI], we want to share some of our secrets to success. Knowing how to create metrics, filters, and so on is important, but all that work will be for naught if you cannot find what you need or if tHere is any ambiguity.
 
 ## Why is nomenclature important? {#why}
 
 The way you name your calculated columns, metrics, and reports dictates the ease in which different users can navigate through your [!DNL MBI] account. When naming these features, we like to keep in mind the three Cs:
 
 * **CLARITY** - So you can tell at a glance what a report is showing, what a metric does, and so on.
-* **CONSISTENCY** - So that you (and our support team!) can easily find and understand elements and reports in your account.
+* **CONSISTENCY** - So that you (and our support team) can easily find and understand elements and reports in your account.
 * **CREDIBILITY** - In order to inspire and empower other data-driven [!DNL MBI] users, you need to instill confidence in how they understand and use the data!
 
 Read on for our tried and true nomenclature tips!
@@ -28,14 +28,14 @@ Be specific whenever possible! For example, if it is the country, do you know if
 This is vague and does not tell us much.
 
 **Good examples:**
- Revenue (base\_grand\_total + fee)
+ Revenue (base grand total + fee)
  User's shipping country
 
 These examples are specific, which decreases the potential for confusion.
 
 ### Be consistent with capitalization {#capitalize}
 
-We are big fans of the 'first letter uppercase, rest of the characters lowercase unless proper noun' style of capitalization. For example: **User's order number** rather than **User's Order Number.**
+We are big fans of the first letter uppercase, rest of the characters lowercase unless proper noun style of capitalization. For example: **User's order number** rather than **User's Order Number.**
 
 This is really a matter of preference, but the thing to remember is to be consistent with whatever you choose.
 
@@ -67,17 +67,17 @@ This tells us **exactly** what is in the report, which is fantastic.
 
 ## Dashboards {#dashboards}
 
-Dashboards should be named in ways that thematically represent the reports contained within them. For example, if your dashboard contains only information related to revenue and orders, consider naming it something like **\[Store Name\] - Revenue and orders.**
+Dashboards should be named in ways that thematically represent the reports contained within them. For example, if your dashboard contains only information related to revenue and orders, consider naming it something like **Store Name - Revenue and orders.**
 
-Conversely, if your dashboard is a place where you are experimenting with different reports, consider naming it **\[Your Name's\] Sandbox** so you know that the reports contained within are drafts.
+Conversely, if your dashboard is a place where you are experimenting with different reports, consider naming it **Your Name's Sandbox** so you know that the reports contained within are drafts.
 
 ## Dimensions (Calculated columns) {#dimensions}
 
 When naming new [dimensions](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), we find it most useful to follow this formula: **(Entity) + (Nth) + (time frame) + (calculation) + (comments)**. For example:
 
-User's first 30 day revenue
- User's order number
- User's order number (awaiting audit)
+User's first 30-day revenue
+* User's order number
+* User's order number (awaiting audit)
 
 ## Filter Sets {#filterset}
 
@@ -88,7 +88,7 @@ User's first 30 day revenue
 [Metrics](../data-user/reports/ess-manage-data-metrics.md) are essentially questions that you want answers to regularly. What was the number of orders in the past month? What is the average lifetime value of our customers? It is generally best practice to name metrics to reflect the answer they are giving users. Additionally, if you have the same metric filtered for a specific store or department, they should be labelled as such. For example:
 
 Average customer LTV (first 30 days)
- \[Store Name\] - Revenue
+ Store Name - Revenue
 
 Finally, the same metric can sometimes be organized by different timestamps, depending on how individual users calculate it. If this is the case, make sure to include the timestamp in the name:
 

@@ -12,7 +12,7 @@ See our [training video](https://support.magento.com/hc/en-us/articles/360016730
 >
 >[Requires Admin permissions.](../../administrator/user-management/user-management.md)
 
-1. Click **Manage Data** > **Filter Sets** in the sidebar.
+1. Click **[!DNL Manage Data]** > **Filter Sets** in the sidebar.
 
     ![](../../assets/create-filter-sets.png)
 

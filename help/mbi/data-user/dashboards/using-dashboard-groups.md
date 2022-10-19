@@ -22,7 +22,7 @@ Dashboard groups can be created in one of two ways:
 
    ![create dashboard group](../../assets/create-dashboard-groups-new-dashboard.png)
 
-1. When changing the group of an existing dashboard, from the **Manage Data** > **Dashboards** page:
+1. When changing the group of an existing dashboard, from the **[!DNL Manage Data]** > **Dashboards** page:
 
    1. Click the dashboard for which you would like to create the new group.
 
@@ -34,7 +34,7 @@ Dashboard groups can be created in one of two ways:
 
 ## Add Existing Dashboards to Existing Groups
 
-1. On the **Manage Data** > **Dashboards** page, choose the dashboard for which to change the group.
+1. On the **[!DNL Manage Data]** > **Dashboards** page, choose the dashboard for which to change the group.
 
 1. The text under _Dashboard Group (optional)_ shows the current dashboard group of the dashboard.
 

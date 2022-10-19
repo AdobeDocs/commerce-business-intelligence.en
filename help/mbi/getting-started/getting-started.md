@@ -6,13 +6,13 @@ description: Learn about MBI.
 
 MBI is a cloud-based data management and analytics platform. [!DNL MBI] provides you with the ability to easily consolidate and manage your data sources, model your data, create charts and reports, and maintain a single source of truth.
 
-## Activating your Magento Business Intelligence Account
+## Activating your **[!UICONTROL Magento]** Business Intelligence Account
 
-When you [activate](../getting-started/onpremise-activation.md) your [!DNL MBI] account, you are connecting your Magento database to [!DNL MBI] and immediately getting access to five dashboards with approximately 100 reports. These reports are designed to provide insights around your data and answer questions like: "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?".
+When you [activate](../getting-started/onpremise-activation.md) your [!DNL MBI] account, you are connecting your **[!UICONTROL Magento]** database to [!DNL MBI] and immediately getting access to five dashboards with approximately 100 reports. These reports are designed to provide insights around your data and answer questions like: "How are my orders growing month-over-month?", "Who are my most loyal customers?", and "Is my coupon strategy working?".
 
 ## How to Get Help
 
-Click [here](../getting-started/support.md) to learn about the customer support services available to Magento Business Intelligence subscribers.
+Click [here](../getting-started/support.md) to learn about the customer support services available to **[!UICONTROL Magento]** Business Intelligence subscribers.
 
 ## How to Use this Guide
 
@@ -20,9 +20,9 @@ This guide contains the following sections that are organized based on what role
 
 -  [Data User](../data-user.md): You use data to help make business decisions. You might receive reports and dashboards from a data analyst on your team, but you also want to learn how to create those reports and dashboards.
 -  [Data Analyst](../data-analyst.md): You are comfortable designing queries and being the go-to person for data analysis. You know how to find specific answers to data questions and want to facilitate a self-service experience for your colleagues.
--  [Administrator](../administrator.md): You manage the Magento Business Intelligence account including licensing, adding and removing users, and handling essential administrative tasks.
+-  [Administrator](../administrator.md): You manage the **[!UICONTROL Magento]** Business Intelligence account including licensing, adding and removing users, and handling essential administrative tasks.
 
 In addition to the above role-based workflows, this guide also contains:
 
--  [Best Practices](../best-practices.md): Magento Business Intelligence is a robust and flexible platform which means there are many different ways to perform similar tasks. This section pulls together Magento's recommended methods for capturing, analyzing, and viewing your data.
--  [Tutorials](../tutorials.md): Follow these self-guided tutorials to learn the power of Magento Business Intelligence.
+-  [Best Practices](../best-practices.md): **[!UICONTROL Magento]** Business Intelligence is a robust and flexible platform which means there are many different ways to perform similar tasks. This section pulls together Magento's recommended methods for capturing, analyzing, and viewing your data.
+-  [Tutorials](../tutorials.md): Follow these self-guided tutorials to learn the power of **[!UICONTROL Magento]** Business Intelligence.

@@ -16,7 +16,7 @@ This table does not contain records of customers who place an order via guest ch
 |`email`|Email address associated with the account|
 |`entity_id` (PK)|Unique identifier for the table, and commonly used in joins to the `customer_id` in other tables within the instance|
 |`group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the registered account|
-|`store_id`|Foreign key associated with the `store` table. Join to `store`.`store_id` to determine which Magento store view is associated with the registered account|
+|`store_id`|Foreign key associated with the `store` table. Join to `store`.`store_id` to determine which **[!UICONTROL Magento]** store view is associated with the registered account|
 
 {style="table-layout:auto"}
 
@@ -33,7 +33,7 @@ This table does not contain records of customers who place an order via guest ch
 |`Customer's lifetime number of orders`|Total count of orders placed by this customer. Calculated by joining `customer_entity.entity_id` to `sales_order.customer_id` and counting the number of rows in the `sales_order` table|
 |`Customer's lifetime revenue`|Sum total of revenue for all orders placed by this customer. Calculated by joining `customer_entity.entity_id` to `sales_order.customer_id` and summing the `base_grand_total` field for all orders placed by this customer|
 |`Seconds since customer's first order date`|Elapsed time between the customer's first order date and now. Calculated by subtracting `Customer's first order date` from the server timestamp at the time the query is executed, returned as an integer number of seconds|
-|`Store name`|The name of the Magento store associated with this registered account. Calculated by joining `customer_entity.store_id` to `store.store_id` and returning the `name` field|
+|`Store name`|The name of the **[!UICONTROL Magento]** store associated with this registered account. Calculated by joining `customer_entity.store_id` to `store.store_id` and returning the `name` field|
 
 {style="table-layout:auto"}
 

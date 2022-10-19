@@ -84,7 +84,7 @@ In this step, you will save the report as a chart, and also as a table.
 
     Then, do the following:
 
-    * In the upper-right corner, click **Save**.
+    * In the upper-right corner, Click **[!UICONTROL Save]**.
 
     * For **Type**, accept the default `Chart` setting.
 

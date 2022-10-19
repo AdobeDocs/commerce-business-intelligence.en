@@ -4,7 +4,7 @@ description: Learn the purpose and uses of the Date Difference calculated column
 ---
 # Date Difference Calculated Column
 
- This topic outlines the purpose and uses of the **Date Difference** calculated column available in the **Manage Data** > **Data Warehouse** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.
+ This topic outlines the purpose and uses of the **Date Difference** calculated column available in the **[!DNL Manage Data]** > **Data Warehouse** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.
 
 **Explanation**
 
@@ -28,7 +28,7 @@ In the above example, the **Date Difference** column is the **Seconds between ti
 
 The following steps describe how to create a **Date Difference** column.
 
-1. Navigate to the **Manage Data** > **Data Warehouse** page.
+1. Navigate to the **[!DNL Manage Data]** > **Data Warehouse** page.
 1. Navigate to the table on which you want to create this column.
 1. Click **Create a Column** and configure your column as follows:
     * **Select Column Definition Type** > Same Table
@@ -36,7 +36,7 @@ The following steps describe how to create a **Date Difference** column.
     * **Select Ending DATETIME Column** > Choose the ending datetime field, which is typically the event that occurs later
     * **Select Starting DATETIME Column** > Choose the starting datetime field, which is typically the event that occurs earlier
 
-1. Provide a name to the column and click **Save**.
+1. Provide a name to the column and Click **[!UICONTROL Save]**.
 1. The column will be available to use **immediately**.
 
 As an example, the following example is configured to calculate the **Seconds between order date and customer's creation date**:

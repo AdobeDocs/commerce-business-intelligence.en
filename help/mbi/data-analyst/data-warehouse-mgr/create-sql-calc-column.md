@@ -40,13 +40,13 @@ To enable product revenue analyses, most accounts have a column called **Order i
 
 ![](../../assets/Order_item_total_value.png)
 
-In the Magento schema, the **Order item total value (quantity * price)** column uses the inputs **qty ordered** and **base price** aliased as A and B respectively.
+In the **[!UICONTROL Magento]** schema, the **Order item total value (quantity * price)** column uses the inputs **qty ordered** and **base price** aliased as A and B respectively.
 
 The values that will be returned by this new column will be a dollars and cents, so the correct data type is Decimal(10,2).
 
 **Mechanics**
 
-A new Calculation column can be added to a table by navigating to **Manage Data** > **Data Warehouse** as shown below:
+A new Calculation column can be added to a table by navigating to **[!DNL Manage Data]** > **Data Warehouse** as shown below:
 
 ![](../../assets/blobid2.png)
 
@@ -66,4 +66,4 @@ From here you can create a new Calculation column by following the steps below:
     * Datetime – yyyy-MM-dd hh:mm:ss format
 
 1. Click **test column**. This will generate a list of 5 test values for each of your inputs, and show the result of the logic from step 6 for each set of test values. If any portion of the SQL generates an error, the appropriate error message will be returned. Note that sample results can only be generated if all input columns are native fields. If any of the input columns are calculated columns, you will need to validate the results by adding the column to a metric and viewing in the Visual Report Builder
-1. When you are satisfied with the results, click **Save**, and your column will be available for use.
+1. When you are satisfied with the results, Click **[!UICONTROL Save]**, and your column will be available for use.

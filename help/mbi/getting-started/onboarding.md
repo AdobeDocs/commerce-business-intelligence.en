@@ -16,12 +16,12 @@ The onboarding questions related to **store** and **database settings** ensure t
 
 -  **Your week starts on...** - Select the **day of the week** that you would like to be the start of the week in your reports.
 
--  **Which version of Magento do you use?** - Select the **currency** that your store operates in.
+-  **Which version of **[!UICONTROL Magento]** do you use?** - Select the **currency** that your store operates in.
 
 -  **Is your store based in the European Union?** - If you answer **yes** to this question, we will host your Data Warehouse and all of your data in the European Union, in compliance with GDPR.
 
 ## Database settings
 
--  **Database name** - What is the **name of the MySQL database** where your Magento transactional data resides?
+-  **Database name** - What is the **name of the MySQL database** where your **[!UICONTROL Magento]** transactional data resides?
 
--  **Table prefix (optional)** - Are the tables contained in your Magento database prepended by anything (for example, **store_**)? This is not normally the case, but it is a customization that can be made.
+-  **Table prefix (optional)** - Are the tables contained in your **[!UICONTROL Magento]** database prepended by anything (for example, **store_**)? This is not normally the case, but it is a customization that can be made.

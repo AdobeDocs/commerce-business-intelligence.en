@@ -77,7 +77,7 @@ This example uses the **Line Chart** type. To use a different chart type, click 
 
 ## Step 4: Save the Visualization
 
-If you want to use this report again, give the report a name and click **Save** in the top right corner.
+If you want to use this report again, give the report a name and Click **[!UICONTROL Save]** in the top right corner.
 
 In the dropdown, select **Chart** as the **Type** and then a dashboard to save the report to.
 

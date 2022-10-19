@@ -12,7 +12,11 @@ In conjunction with [standardized, clear naming for all elements](../best-practi
 
 The first step in cleaning up your account is to deactivate the accounts of your non-active users, such as people who have left the company or no longer use [!DNL MBI] in their current roles.
 
-You can do this by clicking your company's name in the top-right corner of the top navigation bar, then selecting **Manage Users**. Next, select the user you want to deactivate, and click **Deactivate User**. **Note:** You need [Admin permissions](../administrator/user-management/user-management.md) to do this.
+You can do this by clicking your company's name in the top-right corner of the top navigation bar, then selecting **[!UICONTROL Manage Users]**. Next, select the user you want to deactivate, and click **[!UICONTROL Deactivate User]**. 
+
+>[NOTE]
+>
+>You need [Admin permissions](../administrator/user-management/user-management.md) to do this.
 
 >[!WARNING]
 >
@@ -24,13 +28,17 @@ To reactivate a user, reinvite the user by recreating their account with the sam
 
 ## Step 2: Delete Unused Dashboards and Reports
 
-The next step in auditing your account is to delete any unused dashboards and reports. Note that you need [Admin or standard user permissions](../administrator/user-management/user-management.md) to do this.
+The next step in auditing your account is to delete any unused dashboards and reports. 
 
-Every user with Admin or Standard access can create reports and dashboards. For that reason, everyone with these permissions must follow the steps below to identify and remove unused reports.
+>[!NOTE}
+>
+>You need `Admin` or `Standard` [user permissions](../administrator/user-management/user-management.md) to do this.
+
+Every user with `Admin` or `Standard` access can create reports and dashboards. For that reason, everyone with these permissions must follow the steps below to identify and remove unused reports.
 
 ### Review Your Dashboards and Reports
 
-Before you delete anything, you should review your reports and dashboards to assess what is currently in use. While you can use the **find unused reports** feature described below, any initial review will make your cleanup efforts much more productive.
+Before you delete anything, you should review your reports and dashboards to assess what is currently in use. While you can use the **[!UICONTROL find unused reports]** feature described below, any initial review will make your cleanup efforts much more productive.
 
 ### Deleting Dashboards and Reports
 
@@ -39,27 +47,29 @@ After you access your dashboards and reports, you can then begin cleaning up you
 **To Remove a Report from a Dashboard**
 
 1. Locate the report you want to remove on the dashboard.
-1. Select **Options** in the top-right corner of the report.
-1. Click **Remove From Dashboard**.
+1. Select **[!UICONTROL Options]** in the top-right corner of the report.
+1. Click **[!UICONTROL Remove From Dashboard]**.
 
 **To Delete an Entire Dashboard**
 
-1. Select **Manage Data**, then **Dashboards**.
+1. Select **[!UICONTROL Manage Data]**, then **[!UICONTROL Dashboards**].
 1. Click on the dashboard you want to delete.
-1. Click **Delete Dashboard**.
+1. Click **[!UICONTROL Delete Dashboard]**.
 
-You can also select **Dashboard Options**, then **Delete** from the dashboard itself.
+You can also select **[!UICONTROL Dashboard Options]**, then **[!UICONTROL Delete]** from the dashboard itself.
 
 ![](../../mbi/assets/Delete_from_dashboard.png)
 
-Note that deleting a dashboard does not delete the reports within it, so you will have to take one more step to delete the reports.
+>[!NOTE]
+>
+>Deleting a dashboard does not delete the reports within it, so you will have to take one more step to delete the reports.
 
 **To Delete Unused Reports**
 
-1. Select **Manage Data**, then **Reports**.
+1. Select **[!UICONTROL Manage Data]**, then **[!UICONTROL Reports]**.
 1. Check the **Only show unused reports** box located beneath the metrics list. This will create a list of reports that are not used in a dashboard or email summary.
 1. Select the reports you want to delete. You can select all by clicking the checkbox above the report list.
-1. Click **Delete Selected**.
+1. Click **[!UICONTROL Delete Selected]**.
 
 Here is a look at the unused report deletion process:
 
@@ -69,33 +79,35 @@ Here is a look at the unused report deletion process:
 
 After you have cleaned up your users list, dashboards, and reports, you can move onto auditing your list of metrics. This will help you identify anything that might be outdated - for example, a new metric was created with a different definition - or not in use.
 
-1. To generate a list of dependent reports for a metric, go to **Manage Data**, then select **Metrics**.
-1. Click **Edit** next to a metric.
-1. At the bottom of the page, you will see a section called **Dependent Charts**. Click the link to generate a dependent reports list for this metric.
+1. To generate a list of dependent reports for a metric, go to **[!DNL Manage Data]**, then select Click **[!UICONTROL Metrics]**.
+1. Click **[!UICONTROL Edit]** next to a metric.
+1. At the bottom of the page, you will see a section called **[!UICONTROL Dependent Charts]**. Click the link to generate a dependent reports list for this metric.
 1. After the system completes the check, [!DNL MBI] displays a list of dashboards, reports, and users utilizing this metric.
 
 ![](../../mbi/assets/report_dependecies.png)
 
-If you decide that the metric is no longer needed, navigate back to the **Metrics** page by clicking the **Back to Metric List** link at the top of the page and find the metric you want to delete. Click **Delete**.
+If you decide that the metric is no longer needed, navigate back to the **[!UICONTROL Metrics]** page by clicking **[!UICONTROL Back to Metric List]** at the top of the page and find the metric you want to delete. Click **[!UICONTROL Delete]**.
 
 ## Step 4: Assess Your Synced Columns
 
 The last step is to assess the columns currently being synced in your data warehouse. Not only can unsyncing columns declutter your account, it can also potentially reduce your update time.
 
-If you would like to pursue this, reach out to [!DNL MBI] [support](../getting-started/support.md). The support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
+If you would like to pursue this, reach out to [!DNL MBI] [Support](../getting-started/support.md). The Support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
 
-Note that you can always start syncing these columns again in the future. Unsyncing a column will not remove any data from your data warehouse; it only means this column will not be checked for new or updated values during the update cycle.
+>[!NOTE]
+>
+>You can always start syncing these columns again in the future. Unsyncing a column will not remove any data from your data warehouse; it only means this column will not be checked for new or updated values during the update cycle.
 
 **To Unsync a Column (or Columns)**
 
-1. Go to **Manage Data**, then **Data Warehouse**.
-1. In the **Synced Tables** list, navigate to the table that contains the column.
+1. Go to **[!DNL Manage Data]**, then **[!UICONTROL Data Warehouse]**.
+1. In the **[!UICONTROL Synced Tables]** list, navigate to the table that contains the column.
 1. Check the box(es) next to the column(s) you want to unsync. 
    >[!NOTE]
    >
    >You cannot unsync a Primary Key column without dropping the entire table.
 
-1. Click **Remove** to unsync the column(s).
+1. Click **[!UICONTROL Remove]** to unsync the column(s).
 
 Here is a look at the whole process:
 
@@ -103,4 +115,4 @@ Here is a look at the whole process:
 
 ## Wrapping up
 
-That is it! Your [!DNL MBI] account should now be tidier and easier to navigate for you and your team. For more best practices including optimizing your update time and database, click [here](../best-practices.md).
+That is it! Your [!DNL MBI] account should now be tidier and easier to navigate for you and your team. For more best practices including optimizing your update time and database, see [Best Practices](../best-practices.md).

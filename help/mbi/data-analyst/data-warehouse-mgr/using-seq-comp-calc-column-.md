@@ -5,7 +5,7 @@ description: Learn the purpose and uses of the Sequential Comparison calculated 
 
 # Sequential Comparison Calculated Column
 
-This topic outlines the purpose and uses of the **Sequential Comparison** calculated column available in the **Manage Data** > **Data Warehouse** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.
+This topic outlines the purpose and uses of the **Sequential Comparison** calculated column available in the **[!DNL Manage Data]** > **Data Warehouse** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.
 
 **Explanation**
 
@@ -122,7 +122,7 @@ For this calculated column type, the row corresponding to the owner's first even
 
 To create an **Event Number** column:
 
-1. Navigate to the **Manage Data** > **Data Warehouse** page.
+1. Navigate to the **[!DNL Manage Data]** > **Data Warehouse** page.
 1. Navigate to the table on which you want to create this column.
 1. Click **Create New Column** at the top right of the screen.
 1. Select **Same Table** as the Definition Type (if the columns you want to compare are not on the same table you may need to relocate them).
@@ -132,7 +132,7 @@ To create an **Event Number** column:
    - Event Date
    - Value to Compare
 1. Filters can also be added to exclude rows from being considered. The excluded rows will have a NULL value for this column.
-1. Provide a name for the column at the top of the page and click **Save**.
+1. Provide a name for the column at the top of the page and Click **[!UICONTROL Save]**.
 1. The column will be available to use immediately.
 
 ![SEC](../../assets/SEC_new.png)<!--{: width="665" height="492"}-->

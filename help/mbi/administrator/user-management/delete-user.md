@@ -4,7 +4,7 @@ description: Learn how to delete an [!DNL MBI] user.
 ---
 # Delete a user
 
-Users can be deleted by going to your account dropdown on the top right. Click **Manage Users**, select the account you want to delete, and then click **Deactivate User**.
+Users can be deleted by going to your account dropdown on the top right. Click **[!UICONTROL Manage Users]**, select the account you want to delete, and then click **[!UICONTROL Deactivate User]**.
 
 >[!NOTE]
 >

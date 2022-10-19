@@ -24,7 +24,7 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 |`qty`|Quantity of units included in the cart for the particular cart item|
 |`quote_id`|Foreign key associated with the `quote` table. Join to `quote.entity_id` to determine cart attributes associated with the cart item|
 |`sku`|Unique identifier for the cart item|
-|`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which Magento store view is associated with the cart item|
+|`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which **[!UICONTROL Magento]** store view is associated with the cart item|
 
 {style="table-layout:auto"}
 
@@ -36,7 +36,7 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 |`Cart is active? (1/0)`|Boolean field that returns "1" if the cart was created by a customer and has not yet converted to an order. Returns "0" for converted carts, or carts created through the admin. Calculated by joining `quote_item.quote_id` to `quote.entity_id` and returning the `is_active` field|
 |`Cart item total value (qty * base_price)`|Total value of an item at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied. Calculated by multiplying the `qty` by the `base_price`|
 |`Seconds since cart creation`|Elapsed time between the cart's creation date and now. Calculated by joining `quote_item.quote_id` to `quote.entity_id` and returning the `Seconds since cart creation` field|
-|`Store name`|Name of the Magento store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
+|`Store name`|Name of the **[!UICONTROL Magento]** store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
 
 {style="table-layout:auto"}
 
@@ -68,5 +68,5 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 
 `store`
 
-*  Join to `store` table to create new columns that return details related to the Magento store associated with the cart item.
+*  Join to `store` table to create new columns that return details related to the **[!UICONTROL Magento]** store associated with the cart item.
    *  Path: `quote_item.store_id` (many) => `store.store_id` (one)

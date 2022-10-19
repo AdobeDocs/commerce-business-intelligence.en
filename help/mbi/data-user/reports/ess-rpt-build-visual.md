@@ -99,7 +99,7 @@ The following example shows how to create a simple report, group the data by an 
 
 1. To give the report a **title**, replace the `Untitled Report` text at the top of the page with a descriptive title.
 
-1. In the upper-right corner, click **Save** and do the following:
+1. In the upper-right corner, Click **[!UICONTROL Save]** and do the following:
 
     * For **Type**, accept the default setting, `Chart`.
 

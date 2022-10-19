@@ -31,7 +31,7 @@ New users may also benefit from access to some dashboards that are not shared or
 
 ## Be Selective with Edit Permissions
 
-Edit permissions give users a lot of power. But with great power comes great responsibility. To prevent accidental changes to your charts and dashboards, we recommend that you are selective about who you give Edit permissions to.
+`Edit` permissions give users a lot of power. But with great power comes great responsibility. To prevent accidental changes to your charts and dashboards, we recommend that you are selective about who you give `Edit` permissions to.
 
 ## Annotate Your Charts
 

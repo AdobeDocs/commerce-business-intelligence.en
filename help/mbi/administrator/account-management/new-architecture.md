@@ -8,9 +8,9 @@ Our Product and Engineering teams have been focused on making the most sweeping,
 
 ## Benefits of New Architecture
 
-* Create new types of columns in the data warehouse, including calculated columns with SQL
-* New columns are available immediately
-* Data latency is dramatically improved
+* Create new types of columns in the data warehouse, including calculated columns with SQL.
+* New columns are available immediately.
+* Data latency is dramatically improved.
 
 ## Technical Benefits
 
@@ -18,7 +18,7 @@ The main differences are listed above, but what has technically changed is the w
 
 ### Moving to New Architecture
 
-As the accounts are fundamentally built differently, there is no automatic process we can employ to "migrate" your data warehouse or reports to a new architecture account, so moving to the new architecture requires a re-implementation of your existing account.
+As the accounts are fundamentally built differently, there is no automatic process we can employ to migrate your data warehouse or reports to a new architecture account, so moving to the new architecture requires a re-implementation of your existing account.
 
 ### Cost to Move to the New Architecture
 
@@ -28,9 +28,9 @@ No added cost! We will create a new account for you to begin re-implementation, 
 
 Re-implementation times vary depending on what you want to rebuild. We recommend that you perform the following steps in your existing account to get an idea of what would be involved in your re-implementation:
 
-* Identify a core set of reports/dashboards
-* Identify metrics and dimensions required to build those reports
-* Identify the columns required to recreate those metrics and dimensions
+* Identify a core set of reports/dashboards.
+* Identify metrics and dimensions required to build those reports.
+* Identify the columns required to recreate those metrics and dimensions.
 
 When this is complete, you will know what data you need to sync to the new architecture data warehouse in order to rebuild those core reports.
 

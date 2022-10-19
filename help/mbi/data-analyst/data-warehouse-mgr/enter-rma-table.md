@@ -4,7 +4,7 @@ description: Learn how analyze information about a specific return request.
 ---
 # enterprise_rma Table
 
-Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.x, but the name can be customized) contains information about a specific return request. **Note:** _This table only comes standard with your Magento account if you are an Enterprise Edition or Enterprise Cloud Edition customer._
+Each row in the `enterprise_rma` table (often called `magento_rma` in **[!UICONTROL Magento]** 2.x, but the name can be customized) contains information about a specific return request. **Note:** _This table only comes standard with your **[!UICONTROL Magento]** account if you are an Enterprise Edition or Enterprise Cloud Edition customer._
 
 ## Common Native Columns
 
@@ -45,11 +45,11 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in Magento 2.
 `sale_flat_order`
 
 * Create joined columns to segment and filter by order-level attributes on the `enterprise_rma` table via the following join:
-    * Magento 1.x: `enterprise_rma.order_id` (many) => `sales_flat_order.entity_id` (one)
-    * Magento 2.x: `magento_rma.order_id` (many) => `sales_order.entity_id` (one)
+    * **[!UICONTROL Magento]** 1.x: `enterprise_rma.order_id` (many) => `sales_flat_order.entity_id` (one)
+    * **[!UICONTROL Magento]** 2.x: `magento_rma.order_id` (many) => `sales_order.entity_id` (one)
 
 `enterprise_rma_item_entity`
 
 * Create many-to-one columns such as `Return's total value` on the `enterprise_rma` table via the following join:
-    * Magento 1.x: `enterprise_rma_item_entity.rma_entity_id` (many) => `enterprise_rma.entity_id` (one)
-    * Magento 2.x: `magento_rma_item_entity.rma_entity_id ` (many) => `magento_rma.entity_id` (one)
+    * **[!UICONTROL Magento]** 1.x: `enterprise_rma_item_entity.rma_entity_id` (many) => `enterprise_rma.entity_id` (one)
+    * **[!UICONTROL Magento]** 2.x: `magento_rma_item_entity.rma_entity_id ` (many) => `magento_rma.entity_id` (one)

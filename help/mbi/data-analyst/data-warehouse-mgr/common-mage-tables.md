@@ -1,18 +1,18 @@
 ---
-title: Common Magento Tables
+title: Common **[!UICONTROL Magento]** Tables
 description: Learn about some of the more common tables that [!DNL MBI] customers utilize.
 ---
-# Common Magento Tables
+# Common **[!UICONTROL Magento]** Tables
 
-When you first [connect a Magento instance to MBI](../importing-data/integrations/magento.md), [!DNL MBI] automatically replicates data from some of your commerce tables (typically 4-6 tables) in order to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
+When you first [connect a **[!UICONTROL Magento]** instance to MBI](../importing-data/integrations/magento.md), [!DNL MBI] automatically replicates data from some of your commerce tables (typically 4-6 tables) in order to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
 
-Below is a list of some of the more common tables that [!DNL MBI] customers utilize. After you [connect your Magento instance to MBI](../../data-analyst/importing-data/integrations/magento.md), you can use the [Data Warehouse Manager](../../data-analyst/data-warehouse-mgr/tour-dwm.md) to track relevant data fields.
+Below is a list of some of the more common tables that [!DNL MBI] customers utilize. After you [connect your **[!UICONTROL Magento]** instance to MBI](../../data-analyst/importing-data/integrations/magento.md), you can use the [Data Warehouse Manager](../../data-analyst/data-warehouse-mgr/tour-dwm.md) to track relevant data fields.
 
 |Table name|Description|
 |---|---|
 |`catalog_category_entity`|Each row in the `catalog_category_entity` table describes a specific category. With the associated `catalog_category_entity_varchar` table and the `catalog_category_product` mapping table, you can obtain category information for each product.|
 |`catalog_category_product`|Each row in the `catalog_category_product` table lists a combination of a product and a category. Therefore, a given product can exist on this table multiple times with different categories, and a given category can exist on this table multiple times associated with different products. This table indexes the `catalog_category_entity` table (which holds category-level details) and the `catalog_product_entity` table (which holds product-level details).|
-|`catalog_product_entity`|Each row in the `catalog_product_entity` table represents a specific product. This includes when that product was created in your Magento account and its SKU.|
+|`catalog_product_entity`|Each row in the `catalog_product_entity` table represents a specific product. This includes when that product was created in your **[!UICONTROL Magento]** account and its SKU.|
 |`customer_entity`|Each row in the [`customer_entity`](../data-warehouse-mgr/cust-ent-table.md) table represents a registered user on your website. Basic customer-level details like their registration date and email address live on this table.|
 |`quote`|Each row in the [`quote`](../data-warehouse-mgr/sales-flat-quote-table.md) table represents a cart that was created in the checkout process, whether or not that cart eventually converted to an order. Due to the potential size of this table, we recommend you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.|
 |`quote_item`|Each row in the [`quote_item`](../data-warehouse-mgr/sales-flat-quote-item-table.md) table represents an item added to a cart, whether or not the cart eventually converted to an order. Due to the potential size of this table, we recommend you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.|

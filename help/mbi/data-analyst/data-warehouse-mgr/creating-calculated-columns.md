@@ -8,7 +8,7 @@ When analyzing your data, it is beneficial to consolidate data from different so
 
 This guide will teach you how to do just that. Before getting started, we recommend you check out the [Calculated Column Types guide](../../data-analyst/data-warehouse-mgr/calc-column-types.md). The _Calculated Column Types Guide_ outlines the types of columns you can create in the Data Warehouse Manager, along with their definitions and examples.
 
-1. To get started, click **Manage Data** > **Data Warehouse** in the sidebar.
+1. To get started, click **[!DNL Manage Data]** > **Data Warehouse** in the sidebar.
 
 1. Click the table you want to create a column in. For example, if we wanted to create a **Customer Gender** column for revenue segmentation, we would select the **sales_flat_order** table.
 
@@ -29,9 +29,9 @@ If you are creating a **One to Many** (joined) or **Many to One** (aggregate) co
 >Remember to properly define the table as either many or one!
 
 * If desired, you can apply [filters](../../data-user/reports/ess-manage-data-filters.md) to the new column.
-* When finished, click **Save**.
+* When finished, Click **[!UICONTROL Save]**.
 
-That is it! Your new column will appear in the current table with a Pending status. After the next update completes, your column will be available for use in metrics and reports.
+That is it! Your new column will appear in the current table with a `Pending` status. After the next update completes, your column will be available for use in metrics and reports.
 
 ## Handy reference map {#map}
 

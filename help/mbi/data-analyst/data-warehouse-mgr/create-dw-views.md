@@ -4,7 +4,7 @@ description: Learn about a method of creating new warehoused tables by modifying
 ---
 # Working with Data Warehouse Views
 
-This document outlines the purpose and uses of _Data Warehouse Views_ accessible by navigating to **Manage Data** > **Data Warehouse Views**. Below is an explanation of what it does and how to create new views, as well as an example of how to use _Data Warehouse Views_ to consolidate Facebook and AdWords spend data.
+This document outlines the purpose and uses of _Data Warehouse Views_ accessible by navigating to **[!DNL Manage Data]** > **Data Warehouse Views**. Below is an explanation of what it does and how to create new views, as well as an example of how to use _Data Warehouse Views_ to consolidate Facebook and AdWords spend data.
 
 ## General Purpose
 
@@ -20,7 +20,7 @@ If you are familiar with SQL, both of these consolidation examples utilize the U
 
 ## Creating and Managing Data Warehouse Views
 
-New _Data Warehouse Views_ can be created and existing views can be deleted by navigating to **Manage Data** > **Data Warehouse Views**, as shown below:
+New _Data Warehouse Views_ can be created and existing views can be deleted by navigating to **[!DNL Manage Data]** > **Data Warehouse Views**, as shown below:
 
 ![](../../assets/Data_Warehouse_Views.png)
 
@@ -29,7 +29,7 @@ From here you can create a new view by following the sample instructions below:
 1. If observing an existing view, click **New Data Warehouse View** to open a blank query window. If a blank query window is already open, proceed to the next step.
 1. Give the view a name by typing in the **View Name** field. The name provided here will determine the display name for the view in the Data Warehouse. **View names are limited to lower case letters, numbers, and underscores (_).** All other characters are forbidden.
 1. Enter your query in the window titled **Select Query**, using standard PostgreSQL syntax. Note that your query must reference specific column names. **The use of the * character to select all columns is not permitted.**
-1. When you are finished, click **Save** to save your view. Note that your view will temporarily have a **Pending** status until it is processed by the next full update cycle, at which point the status will change to **Active**. After being processed by an update, your view is ready to use in reports.
+1. When you are finished, Click **[!UICONTROL Save]** to save your view. Note that your view will temporarily have a **Pending** status until it is processed by the next full update cycle, at which point the status will change to **Active**. After being processed by an update, your view is ready to use in reports.
 
 It is important to mention that after saving, the underlying query used to generate a Data Warehouse View cannot be edited. If for some reason you need to adjust the structure of a Data Warehouse View, you will need to create a new view and manually migrate any calculated columns, metrics, or reports from the original view to the new one. When migration is complete, you can safely delete the original view. Because _Data Warehouse Views_ are not editable, we strongly recommend that you test the output of your query using the SQL Report Builder before saving your query as a Data Warehouse View.
 

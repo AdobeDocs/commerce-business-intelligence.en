@@ -6,13 +6,13 @@ description: Learn how to optimize your SQL queries.
 
 The SQL Report Builder allows you to query and iterate on those queries at any given time. This is useful when you need to modify a query without having to wait for an update cycle to finish before realizing a column or report you created needs updating.
 
-Before a query is executed, [MBI estimates its cost](https://support.magento.com/hc/en-us/articles/360016730391). Cost takes into consideration the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds our limits, the query will not run. We put together a list of recommendations for querying your data warehouse, which will ensure you are writing the most streamlined queries possible.
+Before a query is executed, [[!DNL MBI] estimates its cost](https://support.magento.com/hc/en-us/articles/360016730391). Cost takes into consideration the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds our limits, the query will not run. We put together a list of recommendations for querying your data warehouse, which will ensure you are writing the most streamlined queries possible.
 
 ## Using SELECT * or Selecting All Columns
 
-Selecting all columns does not make for a timely, easily executed query. Queries that use SELECT * can take quite a bit of time to run, especially if your table has a large number of columns.
+Selecting all columns does not make for a timely, easily executed query. Queries that use `SELECT *` can take quite a bit of time to run, especially if your table has a large number of columns.
 
-For this reason, we recommends you avoid using SELECT * wherever possible and only include the columns you need:
+For this reason, we recommends you avoid using `SELECT *` wherever possible and only include the columns you need:
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
@@ -62,11 +62,11 @@ Comparison operators (>, <, =, and so on) are the least expensive, followed by [
 
 ## Using EXISTS Versus IN
 
-Using EXISTS versus IN depends on the type of results you are trying to return. If you are only interested in a single value, use the EXISTS clause instead of IN. IN is used in conjunction with lists of comma-separated values, which will increase the computational cost of the query.
+Using `EXISTS` versus `IN` depends on the type of results you are trying to return. If you are only interested in a single value, use the `EXISTS` clause instead of `IN`. `IN` is used in conjunction with lists of comma-separated values, which will increase the computational cost of the query.
 
-When IN queries are run, the system must first process the subquery (the IN statement), then the entire query based on the relationship specified in the IN statement. EXISTS is far more efficient because the query does not have to be run through multiple times - a true/false value is returned while checking the relationship specified in the query.
+When `IN` queries are run, the system must first process the subquery (the `IN` statement), then the entire query based on the relationship specified in the `IN` statement. `EXISTS` is far more efficient because the query does not have to be run through multiple times - a true/false value is returned while checking the relationship specified in the query.
 
-To put it simply: the system does not have to process as much when using EXISTS.
+To put it simply: the system does not have to process as much when using `EXISTS`.
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
@@ -76,13 +76,13 @@ To put it simply: the system does not have to process as much when using EXISTS.
 
 ## Using ORDER BY
 
-ORDER BY is an expensive function in SQL and can significantly raise the cost of a query. If you receive an error message saying that the EXPLAIN cost of your query is too high, try eliminating any ORDER BYs from your query unless absolutely required.
+`ORDER BY` is an expensive function in SQL and can significantly raise the cost of a query. If you receive an error message saying that the EXPLAIN cost of your query is too high, try eliminating any `ORDER BY`s from your query unless absolutely required.
 
-This is not to say that ORDER BY can not be used - just that it should only be used when necessary.
+This is not to say that `ORDER BY` can not be used - just that it should only be used when necessary.
 
 ## Using GROUP BY and ORDER BY
 
-While there may be a few situations where this approach does not conform with what you are trying to do, the general rule is that if you are using a GROUP BY and ORDER BY, you should put the columns in both clauses in the same order. For example:
+While there may be a few situations where this approach does not conform with what you are trying to do, the general rule is that if you are using a `GROUP BY` and `ORDER BY`, you should put the columns in both clauses in the same order. For example:
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|

@@ -34,7 +34,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
     * To create a new **Group** for the dashboard, enter the name of the group.
 
-        For example, if your Magento installation has multiple store views, you might create a Group for each store view.
+        For example, if your **[!UICONTROL Magento]** installation has multiple store views, you might create a Group for each store view.
 
     * Click **Create**.
 
@@ -64,7 +64,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
 ## Managing your dashboards {#managedash}
 
-In **Manage Data** > **Dashboards**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard.
+In **[!DNL Manage Data]** > **Dashboards**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard.
 
 ### Sharing your dashboards {#sharingdash}
 
@@ -82,7 +82,7 @@ When you share a dashboard, you can assign permissions across your organization 
 
 ### Manage dashboard settings
 
-1. On the menu, click **Manage Data** > **Dashboards**.
+1. On the menu, click **[!DNL Manage Data]** > **Dashboards**.
 
 1. If applicable, enter a new **Dashboard Name**.
 

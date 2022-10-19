@@ -89,7 +89,7 @@ For a detailed walk through of how to create a visualization, refer to our [Crea
 
 Before you can save your work, you'll have to give the report a name. Remember to follow the [best practice guidelines for naming](../../best-practices/naming-elements.md){: target="_blank"} and choose something that clearly conveys what the report is!
 
-Click **Save** at the top right corner of the SQL editor and select the report **Type** (Chart or Table). To wrap things up, select the dashboard to save the report to and click **Save to Dashboard**.
+Click **[!UICONTROL Save]** at the top right corner of the SQL editor and select the report **Type** (Chart or Table). To wrap things up, select the dashboard to save the report to and click **Save to Dashboard**.
 
 ![](../../assets/SQL_Save_Report.gif)
 
@@ -115,7 +115,7 @@ Note that this only applies to the structure of the column, not the freshness of
 
 The majority of the time, differences in results can be attributed to update cycles. If [!DNL MBI] is in the process of replicating data from your database to your Data Warehouse, you might see different results even when using the same query.
 
-Connection issues can also result in discrepancies. Navigate to the Connections page (**Manage Data** > **Connections**) to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations) to get things running again.
+Connection issues can also result in discrepancies. Navigate to the Connections page (**[!DNL Manage Data]** > **Connections**) to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations) to get things running again.
 
 If all your integrations are connected successfully and you are not in the middle of an update cycle, something else may be amiss. Try using the [data discrepancy troubleshooting guides](https://support.magento.com/hc/en-us/sections/360003074492) on our Support site to pinpoint the problem.
 

@@ -58,10 +58,10 @@ In this example, we build the **Order's GA Source** dimension.
 
     ![](../../assets/google-ecommerce-table.png)
 
-1. Click **Save** to create the path.
+1. Click **[!UICONTROL Save]** to create the path.
 1. After the path is added, click the **Select table and column** dropdown again.
 1. Locate the **ECommerce** table, and then click the **Source** column. This ties the orders to the source information.
-1. Once you are back in the table schema, click **Save** again to create the dimension.
+1. Once you are back in the table schema, Click **[!UICONTROL Save]** again to create the dimension.
 
 Here is a look at the whole process:
 
@@ -78,7 +78,7 @@ In this example, we build the **Customer's first order's GA source** dimension.
 1. Name the column.
 1. For this example, we select the **is MAX** definition from the [definition dropdown](../../data-analyst/data-warehouse-mgr/calc-column-types.md). The **is MIN** definition could also work if applied to a text column with only one possible value. The important part is ensuring proper filters are set, which we do later.
 1. Click the **Select a table and column** dropdown and select the **orders** table, then the **Order's GA source** column.
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 1. Once you are back in the table schema, click the Options dropdown, then Filters.
 1. Click **Add Filter Set** and then select the **Orders we count** set. We only want orders included in the Orders we count filter set to be included, so it is important that this filter set is selected.
 1. Click **Add Filter**. We want to find the customer's first order's GA source, so we need to add a filter:
@@ -86,7 +86,7 @@ In this example, we build the **Customer's first order's GA source** dimension.
     _orders.Customer's order number = 1
 
     _
-1. Click **Save** to create the dimension.
+1. Click **[!UICONTROL Save]** to create the dimension.
 
 Next, try creating **Customer's first order's GA medium** and **campaign**. Not much will change for these dimensions, so give it a try. But if you get stuck, you can check out [the end of this article](#stuck) to see what is different.
 
@@ -102,7 +102,7 @@ In this example, we join the **Customer's first order's GA source** dimension t
 1. Select **Joined Column** from the definition dropdown. This will join the customer dimensions you created in the previous section to the **orders** table.
 1. Click the **Select a table and column** dropdown, then select the **customers** table and the **Customer's first order's GA source** column.
 1. If a path does not automatically populate, select the path that best connects the customers and orders tables.
-1. Click **Save** to create the dimension.
+1. Click **[!UICONTROL Save]** to create the dimension.
 
 Here is a look at the whole process:
 

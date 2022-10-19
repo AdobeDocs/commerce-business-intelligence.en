@@ -20,9 +20,9 @@ There are two ways you can export raw data in MBI: at the chart level or at the 
 
 ### Exporting at the Table Level in your Manage Data Tab
 
-If you want to export the table from **Manage Data** tab, you will need [Admin](../administrator/user-management/user-management.md) permissions.
+If you want to export the table from **[!DNL Manage Data]** tab, you will need [Admin](../administrator/user-management/user-management.md) permissions.
 
-1. Click **Manage Data** > **Export Data** > **Raw Data Export** to get started.
+1. Click **[!DNL Manage Data]** > **Export Data** > **Raw Data Export** to get started.
 1. you will see an **Export List** of recently created data exports, if any exist. Click **Add Export** to create a new export.
 1. The **New Raw Data Export** dialog will display. Here, you can customize your export by selecting or deselecting columns and filters:
 

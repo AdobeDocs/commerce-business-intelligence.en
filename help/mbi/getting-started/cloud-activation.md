@@ -4,7 +4,7 @@ description: Learn how to activate [!DNL MBI] for Cloud Starter projects.
 ---
 # Activate your [!DNL MBI] Account for Cloud Starter Subscriptions
 
-To activate [!DNL MBI] for Cloud Starter projects, first create a [!DNL MBI] account, then create a SSH key, then finally connect to your Magento database. Click [here](../getting-started/onpremise-activation.md) for activating on-premise subscriptions.
+To activate [!DNL MBI] for Cloud Starter projects, first create a [!DNL MBI] account, then create a SSH key, then finally connect to your **[!UICONTROL Magento]** database. Click [here](../getting-started/onpremise-activation.md) for activating on-premise subscriptions.
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ To activate [!DNL MBI] for Cloud Starter projects, first create a [!DNL MBI] acc
                ],
     ```
 
-1. Connect your Magento Database
+1. Connect your **[!UICONTROL Magento]** Database
 
    ![](../assets/create-account-11.png)
 

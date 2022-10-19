@@ -64,7 +64,7 @@ Now, we walk you through actually creating the path.
 
      On the **One** side, we select **customers.customerid** - an order can only have one customer.
 
-1. Click **Save** to save the path and finish creating the column.
+1. Click **[!UICONTROL Save]** to save the path and finish creating the column.
 
 ### Limitations of Creating Paths {#limits}
 

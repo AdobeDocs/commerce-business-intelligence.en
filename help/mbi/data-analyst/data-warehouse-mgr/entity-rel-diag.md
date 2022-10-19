@@ -1,20 +1,20 @@
 ---
 title: Entity Relationship Diagrams
-description: Learn about a few ER diagrams to help you visualize the relationship between a handful of common Magento database tables.
+description: Learn about a few ER diagrams to help you visualize the relationship between a handful of common **[!UICONTROL Magento]** database tables.
 ---
 # Entity Relationship Diagram
 
-What is an **entity relationship (ER) diagram**? An ER diagram is a visualization of tables within a database and how they relate to each other. This article contains a few ER diagrams to help you visualize the relationship between a handful of common Magento database tables.
+What is an **entity relationship (ER) diagram**? An ER diagram is a visualization of tables within a database and how they relate to each other. This article contains a few ER diagrams to help you visualize the relationship between a handful of common **[!UICONTROL Magento]** database tables.
 
 >[!NOTE]
 >
 >Throughout this article you will see the words **join**, **relationship** and **path**. These words are all used to describe how two tables are connected.
 
-## Core Magento ER Diagram
+## Core **[!UICONTROL Magento]** ER Diagram
 
 ![4_DB_Chart](../../assets/4_DB_Chart.png)
 
-This ER diagram represents the relationships among the core tables within a Magento database. By viewing multiple relationships at once, you can see how data would relate across many tables.
+This ER diagram represents the relationships among the core tables within a **[!UICONTROL Magento]** database. By viewing multiple relationships at once, you can see how data would relate across many tables.
 
 The sections below contain ER diagrams specific to two tables at a time. To view a diagram and its accompanying description, click on the header for that section.
 

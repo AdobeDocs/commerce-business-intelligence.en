@@ -8,7 +8,7 @@ description: Learn how to manage user permissions for dashboards you own, delete
 >
 >[Requires Admin permissions.](../../administrator/user-management/user-management.md)
 
-In **Manage Data** > **Dashboards**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. Here is a quick look at what we cover in this article:
+In **[!DNL Manage Data]** > **Dashboards**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. Here is a quick look at what we cover in this article:
 
 1. [Renaming dashboards](#rename)
 

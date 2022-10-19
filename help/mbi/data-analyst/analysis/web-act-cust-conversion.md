@@ -38,14 +38,14 @@ This collection of reports is built using the following:
 1. Create a new report.
 1. Click **Add Metric**, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Page Views_.
 1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to _by month_.
-1. Give your report a name, like "Page views by month," and click **Save**.
+1. Give your report a name, like "Page views by month," and Click **[!UICONTROL Save]**.
 
 ### C. The third chart will look at the bounce rate over the past year:
 
 1. Create a new report.
 1. Click **Add Metric**, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Bounce rate_.
 1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to "by month".
-1. Give your report a name, like _Bounce rate by month_, and click **Save**.
+1. Give your report a name, like _Bounce rate by month_, and Click **[!UICONTROL Save]**.
 
 ### D. Now, take a look at the average session length of new visitors compared to returning visitors:
 
@@ -53,7 +53,7 @@ This collection of reports is built using the following:
 1. Click **Add Metric**, mouse over the _Google Analytics_ section at the bottom of the dropdown and select _Average Session Length_.
 1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to _by month?
 1. Add a _Group by_ and select _New or returning visitor_.  Check the _Show All_ box; then click **Apply**.
-1. Give your report a name, like _Average session length_, and click **Save**.
+1. Give your report a name, like _Average session length_, and Click **[!UICONTROL Save]**.
 
 ### E. Next, take a look at your top referring domains in the last 30 days:
 
@@ -62,7 +62,7 @@ This collection of reports is built using the following:
 1. Change your time period to a moving range, from 31 days ago to 1 day ago, and adjust the time interval to _none_.
 1. Add a _Group by_ and select _ga:source_.  Check the _Show All_ box; then click **Apply**.
 1. Add another _group by_ and select _ga:medium_. Again, check the _Show All_ box; then click **Apply**.
-1. Give your report a name, like _Top 20 Referring Domains, 30 Days_, and click **Save**.
+1. Give your report a name, like _Top 20 Referring Domains, 30 Days_, and Click **[!UICONTROL Save]**.
 
 ### F. Finally, take a look at conversion:
 
@@ -90,7 +90,7 @@ This collection of reports is built using the following:
     * C/D then click **Apply**
     * Rename the formula _Any order conversion_
 
-* Now give your report a name, like _Conversion by month_, and then click **Save**
+* Now give your report a name, like _Conversion by month_, and then Click **[!UICONTROL Save]**
 
 ## Next steps
 

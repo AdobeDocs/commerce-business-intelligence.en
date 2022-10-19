@@ -57,4 +57,4 @@ If you followed the steps in the previous section for creating the column matchi
 
 ## What is next? {#wrapup}
 
-Determining the scope of the project will take some collaboration between you and the analyst from the Magento Services team performing the migration. The complexity of the changes and the responsiveness of you and the analyst directly impacts the amount of time the migration can take. After we nail down the details, a timeline will be established and sent to you with a statement of work.
+Determining the scope of the project will take some collaboration between you and the analyst from the **[!UICONTROL Magento]** Services team performing the migration. The complexity of the changes and the responsiveness of you and the analyst directly impacts the amount of time the migration can take. After we nail down the details, a timeline will be established and sent to you with a statement of work.

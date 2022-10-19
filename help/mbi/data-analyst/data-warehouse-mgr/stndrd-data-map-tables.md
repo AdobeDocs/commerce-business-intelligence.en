@@ -59,9 +59,9 @@ To create the joined column, navigate to the table that the field will be reloca
 
       ![](../../assets/State_Mapping_Path.png)
 
-1. When finished, click **Save** to create the path.
+1. When finished, Click **[!UICONTROL Save]** to create the path.
 1. The path may not populate immediately after saving - if this happens, click the **Path** box and select the path you just created.
-1. Click **Save** to create the column.
+1. Click **[!UICONTROL Save]** to create the column.
 
 That is it!
 

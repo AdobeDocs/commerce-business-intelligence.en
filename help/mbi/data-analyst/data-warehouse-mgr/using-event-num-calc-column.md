@@ -4,7 +4,7 @@ description: Learn the purpose and uses of the Event Number calculated column.
 ---
 # Event Number Calculated Column
 
-This topic outlines the purpose and uses of the **Event Number** calculated column available in the **Manage Data** > **Data Warehouse** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.
+This topic outlines the purpose and uses of the **Event Number** calculated column available in the **[!DNL Manage Data]** > **Data Warehouse** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.
 
 **Explanation**
 
@@ -127,5 +127,5 @@ Here are some instructions on creating an **Event Number** column:
 1. The first dropdown **Event Owner** specifies the entity for which the rank is to be determined. In the case of **Customer's order number**, a customer identifier such as **customer_id** or **customer_email** would be the **Event Owner**.
 1. The second dropdown **Event Rank** specifies the column that enforces the sequence that determines the rank of the row. In the case of **Customer's order number**, the **created_at** timestamp would be the **Event Rank**.
 1. Under the **Options** dropdown, you can add filters to exclude rows from being considered. The excluded rows will have a NULL value for this column.
-1. Provide a name to the column and click **Save**.
+1. Provide a name to the column and Click **[!UICONTROL Save]**.
 1. The column will be available to use _immediately._

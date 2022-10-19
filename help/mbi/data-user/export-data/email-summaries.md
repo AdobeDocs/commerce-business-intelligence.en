@@ -13,7 +13,7 @@ Email summaries are a powerful communication tool you can use to share the curre
 
 ## Create New Email Summary
 
-1. Select **Manage Data** then **Email Summary** in the sidebar.
+1. Select **[!DNL Manage Data]** then **Email Summary** in the sidebar.
 
    If this is the first time you are creating an email summary, this page does not display any saved summaries.
 
@@ -47,7 +47,7 @@ In the **Set when to send the Email Summary** field, you can specify when to sen
 
 1. Select **Manual** from the **Set when to send the Email Summary** field.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
    This saves the summary to the list of email summaries.
 

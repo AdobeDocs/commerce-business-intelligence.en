@@ -4,7 +4,7 @@ description: Learn how to reduce your update cycle time.
 ---
 # Reduce Update Cycle Processing Time
 
-MBI syncs with your database throughout the day to replicate new data, ensuring that your dashboards always show the latest information.
+[!DNL MBI] syncs with your database throughout the day to replicate new data, ensuring that your dashboards always show the latest information.
 
 A lot of factors can add to an already lengthy update time. Certain replication methods, higher recheck frequencies, and the number of dashboards and charts are just a few contributors. This topics discusses some best practices to reduce your update times.
 

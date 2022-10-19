@@ -14,7 +14,7 @@ Sharing dashboards is a great way to keep your team in the loop and encourage co
 
 1. Click **Share Dashboard** at the top of the screen.
 
-   A list of all users in your Magento Business Intelligence account will display.
+   A list of all users in your **[!UICONTROL Magento]** Business Intelligence account will display.
 
 1. To select a user to share the dashboard with, check the box to the left of their name.
 

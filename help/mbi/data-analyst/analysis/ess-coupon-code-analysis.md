@@ -22,7 +22,7 @@ First, a note about how coupon codes are tracked. If a customer applied a coupon
 
 The first step will be to construct a new metric with the following steps:<!--</span>-->
 * Navigate to **Manage Data > Metrics > Create New Metric**.
-* Select the `sales_order` (if your store is on Magento 2) or `sales_flat_order` (if your store is on Magento 1) table.
+* Select the `sales_order` (if your store is on **[!UICONTROL Magento]** 2) or `sales_flat_order` (if your store is on **[!UICONTROL Magento]** 1) table.
 * This metric performs a **Sum** on the **base_discount_amount** column, ordered by **created_at**.
   * FILTERS:
     * Add the **Orders we count (Saved Filter Set)**

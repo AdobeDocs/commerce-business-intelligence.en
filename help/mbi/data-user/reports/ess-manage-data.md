@@ -8,7 +8,7 @@ Manage Data provides access to a variety of tools for managing integrations, rep
 
 ## To access Manage Data:
 
-1. In the menu, choose **Manage Data**.
+1. In the menu, choose **[!DNL Manage Data]**.
 
 1. In the sidebar, choose the topic that you want under the following headings:
 

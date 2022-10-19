@@ -103,7 +103,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
    >
    >For example, if we want to use the **modified at** method for our **orders** table, we need to set a date column as the replication key. Several options for replication keys may exist, but we will select **created at**, or the time the order was created. If the last update cycle stopped at 12/1/2015 00:10:00, the next cycle would begin replicating data with a **created at** date greater than this.
 
-1. When finished, click **Save**.
+1. When finished, Click **[!UICONTROL Save]**.
 
 Take a look at the whole process:
 

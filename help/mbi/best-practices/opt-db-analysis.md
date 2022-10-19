@@ -28,13 +28,13 @@ As a general rule, if you are updating a record due to some kind of user action,
 
 ## Include Updated_at Columns for Data Updated Over Time
 
-If a table's rows will have changing values over time, for example, **order\_status** changes from **processing** to **complete**, include an **updated\_at** column to record when the latest change occurs. Ensure that an updated\_at value is available when first inserting the new data row, at which time the updated\_at date corresponds to the created\_at date.
+If a table's rows will have changing values over time, for example, **order\_status** changes from`processing` to `complete`, include an **updated\_at** column to record when the latest change occurs. Ensure that an **updated\_at** value is available when first inserting the new data row, at which time the **updated\_at** date corresponds to the **created\_at** date.
 
 In addition to optimizing for analysis, **updated\_at** columns also allow you to use [Incremental Replication methods](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md), which can help shorten the length of your update cycles. 
 
 ## Store User Acquisition Source
 
-One of the most common mistakes is the [user acquisition source](../data-analyst/analysis/google-track-user-acq.md), or UAS, not being stored in the operational database. In the majority of situations where this is an issue, UAS is only being tracked through Google Analytics or some other web analytics tool. While these tools can be extremely valuable, there are some drawbacks to storing UAS in them exclusively; such as, you cannot extract user-level data from these tools. When it is possible, it is usually a difficult process. It should be easy to get this information and marry it with data from other sources, such as the behavioral and transactional information also stored in your database.
+One of the most common mistakes is the [user acquisition source](../data-analyst/analysis/google-track-user-acq.md) (UAS) not being stored in the operational database. In the majority of situations where this is an issue, UAS is only being tracked through [!DNL Google Analytics] or some other web analytics tool. While these tools can be extremely valuable, there are some drawbacks to storing UAS in them exclusively; such as, you cannot extract user-level data from these tools. When it is possible, it is usually a difficult process. It should be easy to get this information and marry it with data from other sources, such as the behavioral and transactional information also stored in your database.
 
 Storing UAS in your own database is often the largest improvement an online business can make to its analytical capabilities. This allows for the analysis of sales, user engagement, payback periods, customer lifetime value, churn, and other critical metrics by UAS. [This data is crucial when deciding where to invest marketing resources](../data-analyst/analysis/most-value-source-channel.md).
 
@@ -56,4 +56,4 @@ If a data column does not have an assigned [data type](http://en.wikipedia.org/w
 
 ### Add Prefixes to Your Data Tables if You Have Multiple Databases
 
-If you have more than one database connected to MBI, we recommend you add prefixes to your tables to avoid confusion. Prefixes will help you remember where metrics or data dimensions are sourced from.
+If you have more than one database connected to [!DNL MBI], we recommend you add prefixes to your tables to avoid confusion. Prefixes will help you remember where metrics or data dimensions are sourced from.

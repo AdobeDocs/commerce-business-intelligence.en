@@ -1,6 +1,6 @@
 ---
 title: Managing data dimensions
-description: Learn how data is generated, what exactly causes a new row to be inserted into one of the Core Magento Tables, and how are actions such as making a purchase or creating an account recorded into the Magento database.
+description: Learn how data is generated, what exactly causes a new row to be inserted into one of the Core **[!UICONTROL Magento]** Tables, and how are actions such as making a purchase or creating an account recorded into the **[!UICONTROL Magento]** database.
 ---
 # Managing data dimensions
 
