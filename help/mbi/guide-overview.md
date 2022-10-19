@@ -1,5 +1,5 @@
 ---
-title: [!DNL MBI] User Guide Overview
+title: MBI User Guide Overview
 description: Comprehensive information for [!DNL MBI] data administrators.
 breadcrumb-title: Guide Overview
 seo-title: [!DNL MBI] User Guide
@@ -14,21 +14,6 @@ There are two areas for data administrators:
 - The Admin: Use this area to access the configuration UI and reporting.
 - The command-line interface: Use this tool to execute installation and backend configuration tasks.
 
-This guide covers:
-
-| Subject | Description |
-| ------- | ----------- |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-
-{style="table-layout:auto"}
-
-<!--{style="table-layout:auto"}-->
-
 ## Additional documentation
 
 | Guide | Description |
@@ -38,7 +23,4 @@ This guide covers:
 
 {style="table-layout:auto"}
 
-## Developer information
-
-Add if needed.
 
