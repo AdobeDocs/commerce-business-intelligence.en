@@ -24,7 +24,10 @@ This guide will teach you how to do just that. Before getting started, we recomm
 
 If you are creating a One to Many (joined) or Many to One (aggregate) column, you need to select a pathway to connect the two tables. In this step, you can either use an existing path or create a new one.
 
-    **Remember to properly define the table as either many or one!**
+>[!NOTE]
+>
+>Remember to properly define the table as either many or one!**
+
   * If desired, you can apply [filters](../../data-user/reports/ess-manage-data-filters.md) to the new column.
   * When finished, click **Save**.
 
