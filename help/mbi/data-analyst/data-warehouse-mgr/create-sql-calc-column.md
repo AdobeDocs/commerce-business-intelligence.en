@@ -1,6 +1,6 @@
 ---
 title: Creating and Using a SQL Calculated Column
-description: Learn how advanced columns can be created in the form of SQL Calculation columns on the new [!DNL MBI] architecture.
+description: Learn how advanced columns can be created in the form of SQL Calculation columns on the new MBI architecture.
 ---
 # Create a SQL Calculated Column
 
