@@ -1,6 +1,6 @@
 ---
-title: [!DNL MBI] Essentials vs. Pro
-description: Learn how [!DNL MBI] Essentials differs from [!DNL MBI] Pro.
+title: MBI Essentials vs. Pro
+description: Learn how MBI Essentials differs from MBI Pro.
 ---
 # [!DNL MBI] Essentials vs [!DNL MBI] Pro
 

@@ -3,7 +3,7 @@ title: MBI
 description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
 ---
 
-#  [!DNL MBI]  User Guide {#mbi}
+# [!DNL MBI] User Guide {#mbi}
 
 - Getting Started {#start}
   - [Introduction](getting-started/getting-started.md)
