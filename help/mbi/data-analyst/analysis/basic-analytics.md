@@ -50,7 +50,7 @@ In this table, each row represents one order. The columns in this table contain 
 * **[!UICONTROL Customer_id]**: A unique identifier for the customer who placed the order. This will often be used to move information between the customer and orders tables. In our examples, we expect the customer_id on the **[!UICONTROL sales_flat_order]** table to align with the **[!UICONTROL entitiy_id]** on the **[!UICONTROL customer_entity]** table.
 * **[!UICONTROL Created_at]**: The date the order was created or placed.
 * **[!UICONTROL Customer_email]**: The email address of the customer who placed the order. This may also be the unique identifier for the customer.
-* **[!UICONTROL Customer's lifetime number of orders**: A copy of the column with the same name on your `Customers` table.
+* **[!UICONTROL Customer's lifetime number of orders]**: A copy of the column with the same name on your `Customers` table.
 * **[!UICONTROL Customer's order number]**: The customer's sequential order number associated with the order. For example, if the row you are looking at is a customer's first order, this column is "1"; but, if this was the customer's 15th order, this column shows "15" for this order. If this dimension does not exist on your `Customers` table, ask our [support team](https://support.magento.com/hc/en-us/articles/360016503692) to help you build it.
 * **[!UICONTROL Customer's order number (previous-current)]**: A concatenation of two values in the **[!UICONTROL Customer's order number]** column. It is used in a sample report below to display the elapsed time between any two orders. For example, the time between a customer's first order date and their second order date is represented as "1-2" with this calculation.
 * **[!UICONTROL Coupon_code]**: Shows which coupon(s) were used on each order.
@@ -58,7 +58,7 @@ In this table, each row represents one order. The columns in this table contain 
 
 ## Order Items table
 
-In this table, each row represents one item that was sold. This table contains information about the items sold in each order, such as the order reference number, product number, quantity, and so on. In the examples below, we use `sales_flat_order_item`]**` as the name of a sample order items table.
+In this table, each row represents one item that was sold. This table contains information about the items sold in each order, such as the order reference number, product number, quantity, and so on. In the examples below, we use `sales_flat_order_item` as the name of a sample order items table.
 
 **Dimensions**
 
@@ -83,12 +83,12 @@ When analyzing your marketing spend, you can include [!DNL Facebook], [!DNL Goog
 
 **Dimensions**
 
-* **[!UICONTROL Spend**: The total ad spend. In [!DNL Facebook], this would be the spend column in the `facebook_ads_insights_####` table. For [!DNL Google AdWords], this would be the `adCost` column in the `campaigns####` table.
+* **[!UICONTROL Spend]**: The total ad spend. In [!DNL Facebook], this would be the spend column in the `facebook_ads_insights_####` table. For [!DNL Google AdWords], this would be the `adCost` column in the `campaigns####` table.
 * The `####` which is appended to each of these tables relates to the specific account ID for your [!DNL Facebook] or [!DNL Google AdWords] account.
 * **[!UICONTROL Clicks]**: The total number of clicks. In [!DNL Facebook], this would be the clicks column in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the adClicks column in the `campaigns####` table.
 * **[!UICONTROL Impressions]**: The total number of impressions. In [!DNL Facebook], this would be the impressions in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the impressions the `campaigns####` table.
 * **[!UICONTROL Campaign]**: The total number of clicks. In [!DNL Facebook], this would be the campaign_name column in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the campaign column in the `campaigns####` table.
-* **[!UICONTROL Date**: The timestamp that the spend, clicks, or impressions occurred for a particular campaign. In [!DNL Facebook], this would be the `date_start` column in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the date column in the `campaigns####` table.
+* **[!UICONTROL Date]**: The timestamp that the spend, clicks, or impressions occurred for a particular campaign. In [!DNL Facebook], this would be the `date_start` column in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the date column in the `campaigns####` table.
 * **[!UICONTROL Customer's first order's source]**: The order's source from a customer's first order. First, check to see if you have a column named `customer's first order's source` in your account. If you do not see this column, you can create the desired column using these instructions.
 * **[!UICONTROL Customer's first order's medium]**: The order's medium from a customer's first order. First, check to see if you have a column named `customer's first order's source` in your account. If you do not see this column, you can create the desired column using these instructions.
 * **[!UICONTROL Customer's first order's campaign]**: The order's campaign from a customer's first order. First, check to see if you have a column named `customer's first order's source` in your account. If you do not see this column, you can create the desired column using these instructions.
