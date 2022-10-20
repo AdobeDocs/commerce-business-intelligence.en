@@ -45,7 +45,7 @@ These permissions enable users to perform certain actions or access specific par
 >
 >**[!UICONTROL Standard] _users can access Billing with an additional permission setting._
 >
->**[!UICONTROL Read-Only] users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in **[!DNL MBI], nor can they search for and add new dashboards to their account. We recommend that you share a specific set of dashboards with **[!UICONTROL Read-Only] users that you or another member of your team maintains. Do not clone a set of dashboards for them.
+>**[!UICONTROL Read-Only]** users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in [!DNL MBI], nor can they search for and add new dashboards to their account. We recommend that you share a specific set of dashboards with **[!UICONTROL Read-Only]** users that you or another member of your team maintains. Do not clone a set of dashboards for them.
 
 ## Additional permissions: Billing and Technical {#billingtech}
 
