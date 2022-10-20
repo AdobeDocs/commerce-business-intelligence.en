@@ -42,7 +42,7 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
     - [Creating calculated columns](data-analyst/data-warehouse-mgr/creating-calculated-columns.md)
     - [Data and Updates FAQ](data-analyst/data-warehouse-mgr/data-and-updates-faq.md)
     - [Guest orders](data-analyst/data-warehouse-mgr/guest-orders.md)
-    - [How **[!UICONTROL Magento]** Stores Data](data-analyst/data-warehouse-mgr/mage-store-data.md)
+    - [How [!UICONTROL Magento] Stores Data](data-analyst/data-warehouse-mgr/mage-store-data.md)
     - [Magento Entity Relationship Diagrams](data-analyst/data-warehouse-mgr/entity-rel-diag.md)
     - [Managing data dimensions in metrics](data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md)
     - [MongoDB data modeling guide](data-analyst/data-warehouse-mgr/mongodb-data-modeling.md)
@@ -54,7 +54,7 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
     - [Using Dashboard Wide Filtering](data-analyst/data-warehouse-mgr/using-dshbrd-wide-filter-date-ranges.md)
     - [Using the Event Number Calculated Column](data-analyst/data-warehouse-mgr/using-event-num-calc-column.md)
     - [Using the Sequential Comparison Calculated Column](data-analyst/data-warehouse-mgr/using-seq-comp-calc-column-.md)
-  - Common **[!UICONTROL Magento]** Tables {#tables}
+  - Common [!UICONTROL Magento] Tables {#tables}
     - [Introduction](data-analyst/data-warehouse-mgr/common-mage-tables.md)
     - [customer_entity](data-analyst/data-warehouse-mgr/cust-ent-table.md)
     - [enterprise_rma](data-analyst/data-warehouse-mgr/enter-rma-table.md)
@@ -128,7 +128,7 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
     - [Connecting Databases via VPN](data-analyst/importing-data/integrations/databases-via-a-vpn.md)
     - [Connect Your MySQL Database to MBI](data-analyst/importing-data/integrations/db-to-mbi.md)
     - [Connecting Magento](data-analyst/importing-data/integrations/magento.md)
-    - [Expected **[!UICONTROL Magento]** Data](data-analyst/importing-data/integrations/magento-data.md)
+    - [Expected [!UICONTROL Magento] Data](data-analyst/importing-data/integrations/magento-data.md)
     - [Connecting Microsoft SQL Server](data-analyst/importing-data/integrations/microsoft-sql-server.md)
     - [Connecting MongoDB via SSH Tunnel](data-analyst/importing-data/integrations/mongodb-via-ssh-tunnel.md)
     - [Connecting MySQL via a direct connection](data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
