@@ -41,7 +41,7 @@ These permissions enable users to perform certain actions or access specific par
 
 >[!NOTE]
 >
->_You can limit a **[!UICONTROL Standard]** user's [access to specific metrics](../../administrator/user-management/restrict*-metric-access.md)._
+>_You can limit a **[!UICONTROL Standard]** user's [access to specific metrics](../../administrator/user-management/restrict-metric-access.md)._
 >
 >**[!UICONTROL Standard] _users can access Billing with an additional permission setting._
 >
