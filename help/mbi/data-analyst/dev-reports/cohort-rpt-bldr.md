@@ -76,7 +76,7 @@ The interval for this value changes with whatever you selected in the **cohort t
 
 #### Other notes
 
-* Filters applied to your metrics will remain intact when you toggle between Standard and Cohort views.
+* [!UICONTROL Filters]: applied to your metrics will remain intact when you toggle between Standard and Cohort views.
 
 * For more details on Perspectives, click [here](#perspectives).
 

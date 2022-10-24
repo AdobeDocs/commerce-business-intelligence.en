@@ -12,11 +12,11 @@ If you are spending money on online advertising, you will inevitably want to tra
 
 ![](../../assets/Marketing_dashboard_example.png)
 
-Before getting started, you want to connect your [Facebook Ads](../importing-data/integrations/facebook-ads.md), [Adwords](../importing-data/integrations/google-adwords.md), and [Google Ecommerce](../importing-data/integrations/google-ecommerce.md) accounts as well as bring in any additional online ad spend data. This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
+Before getting started, you want to connect your [!DNL [Facebook Ads](../importing-data/integrations/facebook-ads.md)], [!DNL [Adwords](../importing-data/integrations/google-adwords.md)], and [!DNL [Google Ecommerce](../importing-data/integrations/google-ecommerce.md)] accounts as well as bring in any additional online ad spend data. This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Consolidated Tables
 
-**Original architecture:** In order to bring together your spend from various sources (like Facebook Ads or Google Adwords), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you have not already, [file a support request](../../getting-started/support.md) with the subject **[MARKETING ROI ANALYSIS]**, and an analyst will create this table.
+**Original architecture:** To bring together your spend from various sources (like [!DNL Facebook Ads] or [!DNL Google Adwords]), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you have not already, [file a support request](../../getting-started/support.md) with the subject `[MARKETING ROI ANALYSIS]`, and an analyst will create this table.
 
 **New architecture:** You can follow the example set forth in [this Analysis Library](../../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
 
@@ -25,81 +25,85 @@ Before getting started, you want to connect your [Facebook Ads](../importing-dat
 Columns to create
 
 * **`Consolidated Digital Ad Spend`** table
-* **`Campaign name`** will be created by an analyst as part of your **[MARKETING ROI ANALYSIS]** ticket (**note:** see above for new architecture differences)
+* **`Campaign name`** will be created by an analyst as part of your **[MARKETING ROI ANALYSIS]** ticket 
+
+>[!NOTE]
+>
+>See above for new architecture differences.
 
 **Original and new architectures:**
 
 * **`sales_flat_order`** table
   * **`Order's GA campaign`**
-    * Select a definition: Joined Column
-    * Create Path:
-    * Many: sales_flat_order.increment_id
-    * One: ecommerce####.transaction_id
+    * Select a definition: `Joined Column`
+    * [!UICONTROL Create Path]:
+    * [!UICONTROL Many]: `sales_flat_order.increment_id`
+    * [!UICONTROL One]: `ecommerce####.transaction_id`
 
-    * Select table: **`ecommerce####`**
-    * Select column: **`campaign`**
-    * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
+    * Select a [!UICONTROL table]: `ecommerce####`
+    * Select a [!UICONTROL column]: `campaign`
+    * [!UICONTROL Path]: `sales_flat_order.increment_id = ecommerce#####.transactionID`
 
 
   * **`Order's GA medium`**
     * Select a definition: Joined Column
-    * Select table: **`ecommerce####`**
-    * Select column: **`medium`**
-    * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
+    * Select a [!UICONTROL table]: `ecommerce####`
+    * Select a [!UICONTROL column]: `medium`
+    * [!UICONTROL Path]: sales_flat_order.increment_id = ecommerce#####.transactionId
 
   * **`Order's GA source`**
     * Select a definition: Joined Column
-    * Select table: **`ecommerce####`**
-    * Select column: **`source`**
-    * Path: sales_flat_order.increment_id = ecommerce#####.transactionId
+    * Select a [!UICONTROL table]: `ecommerce####`
+    * Select a [!UICONTROL column]: `source`
+    * [!UICONTROL Path]: sales_flat_order.increment_id = ecommerce#####.transactionId
 ^
 
 * **`customer_entity`** table
 * **`Customer's first order GA campaign`**
-  * Select a definition: Max
-  * Select table: **`sales_flat_order`**
-  * Select column: **`Order's GA campaign`**
-  * Path: sales_flat_order.customer_id = customer_entity.entity_id
-  * Filter:
-  * Orders we count
-  * Customer's order number = 1
+  * Select a definition: `Max`
+  * Select a [!UICONTROL table]: `sales_flat_order`
+  * Select a [!UICONTROL column]: `Order's GA campaign`
+  * [!UICONTROL Path]: `sales_flat_order.customer_id = customer_entity.entity_id`
+  * [!UICONTROL Filter]:
+    * `Orders we count`
+    * `Customer's order number = 1`
 
 * **`Customer's first order GA source`**
-  * Select a definition: Max
-  * Select table: **`sales_flat_order`**
-  * Select column: **`Order's GA source`**
-  * Path: sales_flat_order.customer_id = customer_entity.entity_id
-  * Filter:
-    * Orders we count
-    * Customer's order number = 1 **``**
+  * Select a definition: `Max`
+  * Select a [!UICONTROL table]: `sales_flat_order`
+  * Select a [!UICONTROL column]: `Order's GA source`
+  * [!UICONTROL Path]: sales_flat_order.customer_id = customer_entity.entity_id
+  * [!UICONTROL Filter]:
+    * `Orders we count`
+    * `Customer's order number = 1`
 
 * **`Customer's first order GA medium`**
-  * Select a definition: Max
-  * Select table: **`sales_flat_order`**
-  * Select column: **`Order's GA medium`**
-  * Path: sales_flat_order.customer_id = customer_entity.entity_id
-  * Filter:
-    * Orders we count
-    * Customer's order number = 1
+  * Select a definition: `Max`
+  * Select a [!UICONTROL table]: `sales_flat_order`
+  * Select a [!UICONTROL column]: `Order's GA medium`
+  * [!UICONTROL Path]: `sales_flat_order.customer_id = customer_entity.entity_id`
+  * [!UICONTROL Filter]:
+    * `Orders we count`
+    * `Customer's order number = 1`
 
 * **`sales_flat_order`** table
 * **`Customer's first order GA campaign`**
-  * Select a definition: Joined Column
-  * Select table: **`customer_entity`**
-  * Select column: **`Customer's first order GA campaign`**
-  * Path: sales_flat_order.customer_id = customer_entity.entity_id
+  * Select a definition: `Joined Column`
+  * Select a [!UICONTROL table]: `customer_entity`
+  * Select a [!UICONTROL column]: `Customer's first order GA campaign`
+  * [!UICONTROL Path]: `sales_flat_order.customer_id = customer_entity.entity_id`
 
 * **`Customer's first order GA source`**
   * Select a definition: Joined Column
-  * Select table: **`customer_entity`**
-  * Select column: **`Customer's first order GA source`**
-  * Path: sales_flat_order.customer_id = customer_entity.entity_id
+  * Select a [!UICONTROL table]: `customer_entity`
+  * Select a [!UICONTROL column]: `Customer's first order GA source`
+  * [!UICONTROL Path]: `sales_flat_order.customer_id = customer_entity.entity_id`
 
 * **`Customer's first order GA medium`**
-  * Select a definition: Joined Column
-  * Select table: **`customer_entity`**
-  * Select column: **`Customer's first order GA medium`**
-  * Path: sales_flat_order.customer_id = customer_entity.entity_id
+  * Select a definition: `Joined Column`
+  * Select a [!UICONTROL table]: `customer_entity`
+  * Select a [!UICONTROL column]: `Customer's first order GA medium`
+  * [!UICONTROL Path]: `sales_flat_order.customer_id = customer_entity.entity_id`
 
 ## Metrics
 
@@ -107,7 +111,7 @@ Columns to create
 * In the **`Consolidated Digital Ad Spend`** table
 * This metric performs a **Sum**
 * On the **`adCost`** column
-* Ordered by the **`date`**<!--</span>--> timestamp
+* Ordered by the **`date`** timestamp
 
 * **Ad impressions**
 * In the **`Consolidated Digital Ad Spend`** table
@@ -128,131 +132,131 @@ Columns to create
 ## Reports
 
 * **Ad spend (all time)**
-  * Metric: Ad Spend
+  * [!UICONTROL Metric]: Ad Spend
 
-* *Metric A: Ad Spend*
-* *Time period: All time*
-* *Interval: None*
-* *Chart Type: Scalar*
+* Metric `A`: Ad Spend
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Chart Type]: `Scalar`
 
 * **Ad customer acquisitions (all time)**
-  * Metric: New customers
-  * Filters:
-  * User's first order's source LIKE %google%
-  * User's first order's source LIKE %facebook%
-  * User's first order's source LIKE %fb%
-  * User's first order's medium IN cpc, ppc
-  * Filter logic: ([A] OR [B] OR [C]) AND [D]
+  * [!UICONTROL Metric]: `New customers`
+  * [!UICONTROL Filters]:
+    * `User's first order's source LIKE %google%`
+    * `User's first order's source LIKE %facebook%`
+    * `User's first order's source LIKE %fb%`
+    * `User's first order's medium IN cpc, ppc`
+    * Filter logic: ([`A`] OR [`B`] OR [`C`]) AND [`D`]
 
-* *Metric A: Ad customer acquisitions*
-* *Time period: All time*
-* *Interval: None*
-* *Chart Type: Scalar*
+* Metric `A`: `Ad customer acquisitions`
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Chart Type]: `Scalar`
 
 * **Ad ROI**
-  * Metric: Ad Spend
+  * [!UICONTROL Metric]: Ad Spend
 
-  * Metric: New customers
-  * Filters:
-  * User's first order's source LIKE %google%
-  * User's first order's source LIKE %facebook%
-  * User's first order's source LIKE %fb%
-  * User's first order's medium IN cpc, ppc
-  * Filter logic: ([A] OR [B] OR [C]) AND [D]
+  * [!UICONTROL Metric]: `New customers`
+  * [!UICONTROL Filters]:
+    * `User's first order's source LIKE %google%`
+    * `User's first order's source LIKE %facebook%`
+    * `User's first order's source LIKE %fb%`
+    * `User's first order's medium IN cpc, ppc`
+    * Filter logic: ([`A`] OR [`B`] OR [`C`]) AND [`D`]
 
-  * Metric: Average lifetime revenue
-  * Filters:
-  * User's first order's source LIKE %google%
-  * User's first order's source LIKE %facebook%
-  * User's first order's source LIKE %fb%
-  * User's first order's medium IN cpc, ppc
-  * Filter logic: ([A] OR [B] OR [C]) AND [D]
+  * [!UICONTROL Metric]: Average lifetime revenue
+  * [!UICONTROL Filters]:
+    * `User's first order's source LIKE %google%`
+    * `User's first order's source LIKE %facebook%`
+    * `User's first order's source LIKE %fb%`
+    * `User's first order's medium IN cpc, ppc`
+    * Filter logic: ([`A`] OR [`B`] OR [`C`]) AND [`D`]
 
-  * Formula: ((C - (A / B)) / (A / B))
-  * Format: Percentage
+  * [!UICONTROL Formula]: `((C - (A / B)) / (A / B))`
+  * [!UICONTROL Format]: `Percentage`
 
-* *Metric A: Ad Spend* (hide)
-* *Metric B: Ad customer acquisitions* (hide)
-* *Metric C: Average LTV* (hide)
-* *Formula: Ads ROI*
-* *Time period: All time*
-* *Interval: None*
-* *Chart Type: Scalar*
+* Metric `A`: `Ad Spend (hide)`
+* Metric `B`: `Ad customer acquisitions (hide)`
+* Metric `C`: `Average LTV (hide)`
+* [!UICONTROL Formula]: `Ads ROI`
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Chart Type]: `Scalar`
 
 * **Orders by ga medium**
-  * Metric: Orders
+  * [!UICONTROL Metric]: `Orders`
 
-* *Metric A: Orders*
-* *Time period: All time*
-* *Interval: By Month*
-* *Group by: **`Order's medium`***
-* *Chart Type: Area chart*
+* Metric `A`: `Orders`
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `By Month`
+* [!UICONTROL Group by]: `Order's medium`
+* [!UICONTROL Chart Type]: `Area`
 
 * **Ad ROI by campaign**
-  * Metric: Ad Spend
+  * [!UICONTROL Metric]: `Ad Spend`
 
-  * Metric: New customers
-  * Filters:
-  * User's first order's source LIKE %google%
-  * User's first order's source LIKE %facebook%
-  * User's first order's source LIKE %fb%
-  * User's first order's medium IN cpc, ppc
-  * Filter logic: ([A] OR [B] OR [C]) AND [D]
+  * [!UICONTROL Metric]:`New customers`
+  * [!UICONTROL Filters]:
+    * `User's first order's source LIKE %google%`
+    * `User's first order's source LIKE %facebook%`
+    * `User's first order's source LIKE %fb%`
+    * `User's first order's medium IN cpc, ppc`
+    * Filter logic: ([`A`] OR [`B`] OR [`C`]) AND [`D`]
 
-  * Metric: Average lifetime revenue
-  * Filters:
-  * User's first order's source LIKE %google%
-  * User's first order's source LIKE %facebook%
-  * User's first order's source LIKE %fb%
-  * User's first order's medium IN cpc, ppc
-  * Filter logic: ([A] OR [B] OR [C]) AND [D]
+  * [!UICONTROL Metric]: Average lifetime revenue
+  * [!UICONTROL Filters]:
+    * `User's first order's source LIKE %google%`
+    * `User's first order's source LIKE %facebook%`
+    * `User's first order's source LIKE %fb%`
+    * `User's first order's medium IN cpc, ppc`
+    * Filter logic: ([`A`] OR [`B`] OR [`C`]) AND [`D`]
 
-  * Metric: Average lifetime number of orders
-  * Filters:
-  * User's first order's source LIKE %google%
-  * User's first order's source LIKE %facebook%
-  * User's first order's source LIKE %fb%
-  * User's first order's medium IN cpc, ppc
-  * Filter logic: ([A] OR [B] OR [C]) AND [D]
+  * [!UICONTROL Metric]: Average lifetime number of orders
+  * [!UICONTROL Filters]:
+    * `User's first order's source LIKE %google%`
+    * `User's first order's source LIKE %facebook%`
+    * `User's first order's source LIKE %fb%`
+    * `User's first order's medium IN cpc, ppc`
+    * Filter logic: ([`A`] OR [`B`] OR [`C`]) AND [`D`]
 
-  * Formula: (A / B)
-  * Format: Currency
+  * [!UICONTROL Formula]: `(A / B)`
+  * [!UICONTROL Format]: `Currency`
 
-  * Formula: (C - (A / B))
-  * Format: Currency
+  * [!UICONTROL Formula]: `(C - (A / B))`
+  * [!UICONTROL Format]: `Currency`
 
-  * Formula: ((C - (A / B)) / (A / B))
-  * Format: Percentage
+  * [!UICONTROL Formula]: `((C - (A / B)) / (A / B))`
+  * [!UICONTROL Format]: `Percentage`
 
-  * Metric: Ad Clicks
+  * [!UICONTROL Metric]: `Ad Clicks`
 
-  * Metric: Ad Impressions
+  * [!UICONTROL Metric]: `Ad Impressions`
 
-  * Formula: (H / I)
-  * Format: Percentage
+  * [!UICONTROL Formula]: `(H / I)`
+  * [!UICONTROL Format]: `Percentage`
 
-  * Formula: (A / H)
-  * Format: Currency
+  * [!UICONTROL Formula]: `(A / H)`
+  * [!UICONTROL Format]: `Currency`
 
-* *Metric A: Ad Spend* (hide)
-* *Metric B: Ad customer acquisitions*
-* *Metric C: Average LTV*
-* *Metric D: Average lifetime # of orders*
-* *Formula: CAC*
-* *Formula: Avg return*
-* *Formula: Ads ROI*
-* *Metric H: adClicks*
-* *Metric I: Impressions*
-* *Formula: CTR*
-* *Formula: CPC*
-* *Time period: All time*
-* *Interval: None*
-* *Group by: **`campaign`** (Use Customer's first order's campaign for non-ad spend table metrics)*
-* *Chart Type: Table*
+* Metric `A`: `Ad Spend` (hide)
+* Metric `B`: `Ad customer acquisitions`
+* Metric `C`: `Average LTV`
+* Metric `D`: `Average lifetime # of orders`
+* [!UICONTROL Formula]: `CAC`
+* [!UICONTROL Formula]: `Avg return`
+* [!UICONTROL Formula]: `Ads ROI`
+* Metric `H`: `adClicks`
+* Metric `I`: `Impressions`
+* [!UICONTROL Formula]: `CTR`
+* [!UICONTROL Formula]: `CPC`
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Group by]: `campaign` (Use `Customer's first order's` campaign for non-ad spend table metrics)
+* [!UICONTROL Chart Type]: `Table`
 
 If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).
 
 ### Related
 
-* [Best-Practices for UTM tagging in Google Analytics](../../best-practices/utm-tagging-google.md)
-* [How does Google Analytics UTM attribution work?](../analysis/utm-attributes.md)
+* [Best-Practices for UTM tagging in [!DNL Google Analytics](../../best-practices/utm-tagging-google.md)]
+* [How does [!DNL Google Analytics] UTM attribution work?](../analysis/utm-attributes.md)

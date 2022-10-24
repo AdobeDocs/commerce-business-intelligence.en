@@ -45,7 +45,7 @@ Some special characters are not accepted. For example, the pipe symbol "&#124;" 
 
 ### Decimal Numbers
 
-Currency values should have the datatype **Decimal Number** selected, and these columns will automatically round to two decimal places in your data warehouse. If you do not want to round your decimal numbers or have a degree of precision greater than this, you should select the **Non-Currency Decimal Number** datatype.
+Currency values should have the datatype **Decimal Number** selected, and these columns will automatically round to two decimal places in your data warehouse. If you do not want to round your decimal numbers or have a degree of precision greater than this, you should select the **Non-Currency Decimal Number** [!UICONTROL Datatype]:.
 
 ### Percentages
 

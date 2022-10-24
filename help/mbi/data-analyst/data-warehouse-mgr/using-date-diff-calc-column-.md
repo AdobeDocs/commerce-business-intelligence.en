@@ -8,7 +8,7 @@ description: Learn the purpose and uses of the Date Difference calculated column
 
 **Explanation**
 
-The **Date Difference** column type finds the time between two events belonging to a single record, based on the event timestamps. The raw value calculated in this column is in seconds, but it will auto-convert to minutes, hours, days and so on for display on reports. When used as a filter/group by, however, you will want to use the value in seconds.
+The **Date Difference** [!UICONTROL Column type]: finds the time between two events belonging to a single record, based on the event timestamps. The raw value calculated in this column is in seconds, but it will auto-convert to minutes, hours, days and so on for display on reports. When used as a filter/group by, however, you will want to use the value in seconds.
 
 A date difference calculated column could be used to create a metric which calculates the average or median time between two events, such as average time between customer registration and their first orders.
 

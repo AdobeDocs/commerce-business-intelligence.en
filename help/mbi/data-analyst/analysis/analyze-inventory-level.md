@@ -26,76 +26,76 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 
 * **[!UICONTROL catalog_product_entity]** table:
   * **`Product's most recent order date`**
-    * Column type: Many to One
-    * Column equation: MAX
-    * Path: **`sales_order_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`created_at`**
-    * Filters:
+    * [!UICONTROL Column type]: `Many to One`
+    * [!UICONTROL Column equation]: `MAX`
+    * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `created_at`
+    * [!UICONTROL Filters]:
       * [A] `Ordered products we count`
 
   * **`Product's first order date`**
-    * Column type: `Many to One`
-    * Column equation: `MIN`
-    * Path: **`sales_order_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`created_at`**
-    * Filters:
+    * [!UICONTROL Column type]: `Many to One`
+    * [!UICONTROL Column equation]: `MIN`
+    * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `created_at`
+    * [!UICONTROL Filters]:
       * [A] `Ordered products we count`
 
   * **`Seconds since product's most recent order date`**
-    * Column type: `Same Table`
-    * Column equation: `AGE`
-    * Select DATETIME column: **`Product's most recent order date`**
+    * [!UICONTROL Column type]: `Same Table`
+    * [!UICONTROL Column equation]: `AGE`
+    * Select [!UICONTROL DATETIME column]: `Product's most recent order date`
 
   * **`Product's lifetime number of items sold`**
-    * Column type: `Many to One`
-    * Column equation: `SUM`
-    * Path: **`sales_order_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`qty_ordered`**
-    * Filters:
+    * [!UICONTROL Column type]: `Many to One`
+    * [!UICONTROL Column equation]: `SUM`
+    * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `qty_ordered`
+    * [!UICONTROL Filters]:
       * [A] `Ordered products we count`
 
   * **`Avg products sold per week (all time)`**
-    * Column type: `Same Table`
-    * Column equation: `CALCULATION`
-    * Column inputs:
-      * A: **`Product's lifetime number of items sold`**
-      * B: **`Product's first order date`**
-    * Datatype: `Decimal`
+    * [!UICONTROL Column type]: `Same Table`
+    * [!UICONTROL Column equation]: `CALCULATION`
+    * [!UICONTROL Column] inputs:
+      * A: `Product's lifetime number of items sold`
+      * B: `Product's first order date`
+    * [!UICONTROL Datatype]: `Decimal`
     * Definition:
       * case when A is null or B is null then null else round(A::decimal/(extract(epoch from (current_timestamp - B))::decimal/604800.0),2) end
 
 * **[!UICONTROL cataloginventory_stock_item]** table:
   * **`Sku`**
-    * Column type: `One to Many`
-    * Column equation: `JOINED_COLUMN`
-    * Path: **`cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`sku`**
+    * [!UICONTROL Column type]: `One to Many`
+    * [!UICONTROL Column equation]: `JOINED_COLUMN`
+    * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `sku`
 
   * **`Product's lifetime number of items sold`**
-    * Column type: `One to Many`
-    * Column equation: `JOINED_COLUMN`
-    * Path: **`cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`Product's lifetime number of items sold`**
+    * [!UICONTROL Column type]: `One to Many`
+    * [!UICONTROL Column equation]: `JOINED_COLUMN`
+    * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `Product's lifetime number of items sold`
 
   * **`Seconds since product's most recent order date`**
-    * Column type: `One to Many`
-    * Column equation: `JOINED_COLUMN`
-    * Path: **`cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`Seconds since product's most recent order date`**
+    * [!UICONTROL Column type]: `One to Many`
+    * [!UICONTROL Column equation]: `JOINED_COLUMN`
+    * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `Seconds since product's most recent order date`
 
   * **`Avg products sold per week (all time)`**
-    * Column type: `One to Many`
-    * Column equation: `JOINED_COLUMN`
-    * Path: **`cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`Avg products sold per week (all time)`**
+    * [!UICONTROL Column type]: `One to Many`
+    * [!UICONTROL Column equation]: `JOINED_COLUMN`
+    * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `Avg products sold per week (all time)`
 
   * **`Weeks on hand`**
-    * Column type: `Same Table`
-    * Column equation: `CALCULATION`
-    * Column inputs:
-      * A: **`qty`**
-      * B: **`Avg products sold per week (all time)`**
-    * Datatype: `Decimal`
+    * [!UICONTROL Column type]: `Same Table`
+    * [!UICONTROL Column equation]: `CALCULATION`
+    * [!UICONTROL Column] inputs:
+      * A: `qty`
+      * B: `Avg products sold per week (all time)`
+    * [!UICONTROL Datatype]: `Decimal`
     * Definition:
       * case when A is null or B is null or B = 0.0 then null else round(A::decimal/B,2) end
 
@@ -103,32 +103,32 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 
 * **[!UICONTROL catalog_product_entity]** table:
   * **`Product's most recent order date`**
-    * Column type: `Many to One`
-    * Column equation: `MAX`
-    * Path: **`sales_order_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`created_at`**
-    * Filters:
+    * [!UICONTROL Column type]: `Many to One`
+    * [!UICONTROL Column equation]: `MAX`
+    * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `created_at`
+    * [!UICONTROL Filters]:
       * [A] `Ordered products we count`
 
   * **`Product's first order date`**
-    * Column type: `Many to One`
-    * Column equation: `MIN`
-    * Path: **`sales_order_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`created_at`**
-    * Filters:
+    * [!UICONTROL Column type]: `Many to One`
+    * [!UICONTROL Column equation]: `MIN`
+    * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `created_at`
+    * [!UICONTROL Filters]:
       * [A] `Ordered products we count`
 
   * **`Seconds since product's most recent order date`**
-    * Column type: `Same Table`
-    * Column equation: `AGE`
+    * [!UICONTROL Column type]: `Same Table`
+    * [!UICONTROL Column equation]: `AGE`
     * Select DATETIME column: **`Product's most recent order date`**
 
   * **`Product's lifetime number of items sold`**
-    * Column type: `Many to One`
-    * Column equation: `SUM`
-    * Path: **`sales_order_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`qty_ordered`**
-    * Filters:
+    * [!UICONTROL Column type]: `Many to One`
+    * [!UICONTROL Column equation]: `SUM`
+    * [!UICONTROL Path]: **`sales_order_item.product_id => catalog_product_entity.entity_id`**
+    * Select a [!UICONTROL column]: **`qty_ordered`**
+    * [!UICONTROL Filters]:
       * [A] `Ordered products we count`
 
   * **`Avg products sold per week (all time)`**
@@ -136,28 +136,28 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 
 * **[!UICONTROL cataloginventory_stock_item]** table:
   * **`Sku`**
-    * Column type: `One to Many`
-    * Column equation: `JOINED_COLUMN`
-    * Path: **`cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`sku`**
+    * [!UICONTROL Column type]: `One to Many`
+    * [!UICONTROL Column equation]: `JOINED_COLUMN`
+    * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `sku`
 
   * **`Product's lifetime number of items sold`**
-    * Column type: `One to Many`
-    * Column equation: `JOINED_COLUMN`
-    * Path: **`cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`Product's lifetime number of items sold`**
+    * [!UICONTROL Column type]: `One to Many`
+    * [!UICONTROL Column equation]: `JOINED_COLUMN`
+    * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `Product's lifetime number of items sold`
 
   * **`Seconds since product's most recent order date`**
-    * Column type: `One to Many`
-    * Column equation: `JOINED_COLUMN`
-    * Path: **`cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`Seconds since product's most recent order date`**
+    * [!UICONTROL Column type]: `One to Many`
+    * [!UICONTROL Column equation]: `JOINED_COLUMN`
+    * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `Seconds since product's most recent order date`
 
   * **`Avg products sold per week (all time)`**
-    * Column type: `One to Many`
-    * Column equation: `JOINED_COLUMN`
-    * Path: **`cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`**
-    * Select a column: **`Avg products sold per week (all time)`**
+    * [!UICONTROL Column type]: `One to Many`
+    * [!UICONTROL Column equation]: `JOINED_COLUMN`
+    * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
+    * Select a [!UICONTROL column]: `Avg products sold per week (all time)`
 
   * **`Weeks on hand`**
     * Will be created by an analyst when you file submit your **[!UICONTROL INVENTORY ANALYSIS]** support request
@@ -177,34 +177,32 @@ This topic demonstrates how to set up a dashboard which will provide insights in
 ### Report instructions
 
 * **`Inventory on hand by sku`**
-  * Metric: **`Inventory on hand`**
-  * Time period: `All time`
+  * [!UICONTROL Metric]: `Inventory on hand`
+  * [!UICONTROL Time period]: `All time`
   * Time interval: `None`
-  * Group by:
-    * **`Sku`**
-    * **`Weeks on hand`**
-  * Chart type: `Table`
+  * [!UICONTROL Group by]:
+    * `Sku`
+    * `Weeks on hand`
+  * [!UICONTROL Chart type]: `Table`
 
 * **`Inventory with less than 2 weeks on hand (order now)`**
-  * Metric: **`Inventory on hand`**
-    * Filters:
-      * [A] **`Weeks on hand`** `< 2`
+  * [!UICONTROL Metric]: `Inventory on hand`
+    * [!UICONTROL Filters]:
+      * [A] `Weeks on hand` `< 2`
 
-  * Time period: `All time`
+  * [!UICONTROL Time period]: `All time`
   * Time interval: `None`
-  * Group by:
-    * **`Sku`**
-  * Chart type: `Table`
+  * [!UICONTROL Group by]: `Sku`
+  * [!UICONTROL Chart type]: `Table`
 
 * **`Inventory with more than 26 weeks on hand (put on sale)`**
-  * Metric: **`Inventory on hand`**
-    * Filters:
-      * [A] **`Weeks on hand`** `> 26` 
+  * [!UICONTROL Metric]: `Inventory on hand`
+    * [!UICONTROL Filters]:
+      * [A] `Weeks on hand` `> 26` 
 
-  * Time period: `All time`
+  * [!UICONTROL Time period]: `All time`
   * Time interval: `None`
-  * Group by:
-    * **`Sku`**
-  * Chart type: `Table`
+  * [!UICONTROL Group by]: `Sku`
+  * [!UICONTROL Chart type]: `Table`
 
 If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).

@@ -72,5 +72,5 @@ Do you want to see the cohorts over time by month, week, or year? Here is where 
 
 ### Other notes
 
-* Filters applied to your metrics will remain intact when you toggle between Standard and Cohort views
+* [!UICONTROL Filters]: applied to your metrics will remain intact when you toggle between Standard and Cohort views
 * For more details on Perspectives, you can go to [this article](../../data-analyst/dev-reports/cohort-rpt-bldr.md).

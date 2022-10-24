@@ -16,59 +16,59 @@ You can leverage [the file uploader](../importing-data/connecting-data/using-fil
 
 ## Calculated Columns
 
-If you are on the original architecture (i.e. if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
+If you are on the original architecture (i.e., if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
 
 A further distinction is made if your business allows guest orders. If so, you can ignore all steps for the `customer_entity` table. If guest orders are not allowed, ignore all steps for the `sales_flat_order` table.
 
 Columns to create
 
-* **Sales_flat_order/customer_entity** table
-* (input) reference
-* Column type – "Same table > Calculation"
-* Inputs – **entity_id**
-* Calculation - **case when A is null then null else 1 end**
-* Datatype – Integer
+* `Sales_flat_order/customer_entity` table
+* (input) `reference`
+* [!UICONTROL Column type]: – `Same table > Calculation`
+* [!UICONTROL Inputs]: – `entity_id`
+* [!UICONTROL Calculation]: - **case when A is null then null else 1 end**
+* [!UICONTROL Datatype]: – `Integer`
 
-* **Customer concentration** table (this is the file you just uploaded with the number "1")
+* `Customer concentration` table (this is the file you just uploaded with the number `1`)
 * Number of customers
-* Column type – "Many to One > Count Distinct"
-* Path – **sales_flat_order.(input) reference > Customer Concentration.Primary Key** OR **customer_entity.(input)reference > Customer Concentration.Primary Key**
-* Selected column – **sales_flat_order.customer_email** OR **customer_entity.entity_id**
+* [!UICONTROL Column type]: – `Many to One > Count Distinct`
+* Path – `sales_flat_order.(input) reference > Customer Concentration.Primary Key` OR `customer_entity.(input)reference > Customer Concentration.Primary Key`
+* Selected column – `sales_flat_order.customer_email` OR `customer_entity.entity_id`
 
-* **customer_entity** table
+* `customer_entity` table
 * Number of customers
-* Column type – "One to Many > JOINED_COLUMN"
-* **Path** – customer_entity.(input) reference > Customer Concentration. Primary Key
-* **Selected column** – Number of customers
+* [!UICONTROL Column type]: – `One to Many > JOINED_COLUMN`
+* Path – `customer_entity.(input) reference > Customer Concentration. Primary Key`
+* Selected column – `Number of customers`
 
-* (input) Ranking by customer lifetime revenue
-* **Column type** –"Same table > Event Number"
-* **Event owner** – Number of customers
-* **Event rank** – Customer's lifetime revenue
+* (input) `Ranking by customer lifetime revenue`
+* [!UICONTROL Column type]: – `Same table > Event Number`
+* Event owner – `Number of customers`
+* Event rank – `Customer's lifetime revenue`
 
 * Customer's revenue percentile
-* Column type – "Same table > Calculation"
-* Inputs – **(input) Ranking by customer lifetime revenue**, **Number of customers**
-* Calculation – **case when A is null then null else (A/B)*100 end**
-* Datatype – Decimal
+* [!UICONTROL Column type]: – `Same table > Calculation`
+* [!UICONTROL Inputs]: – `(input) Ranking by customer lifetime revenue`, `Number of customers`
+* [!UICONTROL Calculation]: – **case when A is null then null else (A/B)*100 end**
+* [!UICONTROL Datatype]: – `Decimal`
 
-* Sales_flat_order table
+* `Sales_flat_order` table
 * Number of customers
-* Column type – "One to Many > JOINED_COLUMN"
-* Path – **sales_flat_order.(input) reference > Customer Concentration.Primary Key**
-* Selected column – **Number of customers**
+* [!UICONTROL Column type]: – `One to Many > JOINED_COLUMN`
+* Path – `sales_flat_order.(input) reference > Customer Concentration.Primary Key`
+* Selected column – `Number of customers`
 
 * (input) Ranking by customer lifetime revenue
-* Column type – "Same table > Event Number"
-* Event owner – **Number of customers**
-* Event Rank – **Customer's lifetime revenue**
-* Filter – **Customer's order number = 1**
+* [!UICONTROL Column type]: – `Same table > Event Number`
+* Event owner – `Number of customers`
+* Event Rank – `Customer's lifetime revenue`
+* Filter – `Customer's order number = 1`
 
 * Customer's revenue percentile
-* Column type – "Same table > Calculation"
-* Inputs – **(input) Ranking by customer lifetime revenue**, **Number of customers**
-* Calculation – **case when A is null then null else (A/B)*100 end**
-* Datatype - Decimal
+* [!UICONTROL Column type]: – `Same table > Calculation`
+* [!UICONTROL Inputs]: – `(input) Ranking by customer lifetime revenue`, `Number of customers`
+* [!UICONTROL Calculation]: – **case when A is null then null else (A/B)*100 end**
+* [!UICONTROL Datatype]: - `Decimal`
 
 >[!NOTE]
 >
@@ -77,70 +77,61 @@ Columns to create
 ## Metrics
 
 * **Total customer lifetime value**
-* In the **customer_entity** table
+* In the `customer_entity` table
 * This metric performs a **Sum**
-* On the **Customer's lifetime revenue** column
-* Ordered by the **Customer's first order date** timestamp
+* On the `Customer's lifetime revenue` column
+* Ordered by the `Customer's first order date` timestamp
 
 ## Reports
 
 * **Customer concentration**
-* Metric: Total customer lifetime value
-* Filter:
-* Customer's revenue percentile IS NOT NULL
+* [!UICONTROL Metric]: `Total customer lifetime value`
+* [!UICONTROL Filter]: `Customer's revenue percentile IS NOT NULL`
 
-* Metric: Total customer lifetime value
-* Filter:
-* Customer's revenue percentile IS NOT NULL
+* [!UICONTROL Metric]: `Total customer lifetime value`
+* [!UICONTROL Filter]: `Customer's revenue percentile IS NOT NULL`
 
-* Group by: Independent
-* *Metric A: Total customer lifetime revenue by percentile*
-* *Metric B: Total customer lifetime revenue (ungrouped)*
-* *Time period: All time*
-* *Interval: None*
-* *Group by: Customer's revenue percentile*
-* *Show top/bottom: 100% of Customer's revenue percentile Name*
-* *Chart type: Line*
-^
+* [!UICONTROL Group by]: `Independent`
+* Metric `A`: `Total customer lifetime revenue by percentile`
+* Metric `B`: `Total customer lifetime revenue (ungrouped)`
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Group by]: `Customer's revenue percentile`
+* Show top/bottom: `100% of Customer's revenue percentile Name`
+* [!UICONTROL Chart type]: `Line`
 
 * **Top 10% concentration**
-* Filter:
-* Customer's revenue percentile <= 10
-^
+* [!UICONTROL Filter]: `Customer's revenue percentile <= 10`
 
-* *Metric A: Total customer lifetime revenue*
-* *Time period: All time*
-* *Interval: None*
-* *Hide chart*
-* *Group by: Email*
-* *Chart type: Table*
+* Metric `A`: `Total customer lifetime revenue`
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* Hide chart
+* [!UICONTROL Group by]: `Email`
+* [!UICONTROL Chart type]: `Table`
 
 * **Bottom 50% concentration with only one purchase**
-^
 
-* *Metric A: Total customer lifetime revenue*
-* Customer's revenue percentile <= 50
-* Customer's lifetime number of orders = 1
-* Filter:
+* Metric `A`: `Total customer lifetime revenue`
+* `Customer's revenue percentile <= 50`
+* `Customer's lifetime number of orders = 1`
+* [!UICONTROL Filter]:
 
-* *Time period: All time*
-* *Interval: None*
-* *Hide chart*
-* *Group by: Email*
-* *Chart type: Table*
-^
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* Hide chart
+* [!UICONTROL Group by]: `Email`
+* [!UICONTROL Chart type]: `Table`
 
 * **Bottom 10% concentration**
-* Filter:
-* Customer's revenue percentile > 90
-^
+* [!UICONTROL Filter]: `Customer's revenue percentile > 90`
 
-* *Metric A: Total customer lifetime revenue*
-* *Time period: All time*
-* *Interval: None*
-* *Hide chart*
-* *Group by: Email*
-* *Chart type: Table*
+* Metric `A`: `Total customer lifetime revenue`
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* Hide chart
+* [!UICONTROL Group by]: `Email`
+* [!UICONTROL Chart type]: `Table`
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the above sample dashboard.
 

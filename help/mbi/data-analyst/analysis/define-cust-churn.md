@@ -14,27 +14,26 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 Columns to create
 
-* **`customer_entity`** table
-* **`Customer's lifetime number of orders`**
-* Select a definition: Count
-* Select table: **`sales_flat_order`**
-* Select column: **`entity_id`**
-* Path: sales_flat_order.customer_id = customer_entity.entity_id
-* Filter:
+* `customer_entity` table
+* `Customer's lifetime number of orders`
+* Select a definition: `Count`
+* Select a [!UICONTROL table]: `sales_flat_order`
+* Select a [!UICONTROL column]: **`entity_id`**
+* [!UICONTROL Path]: sales_flat_order.customer_id = customer_entity.entity_id
+* [!UICONTROL Filter]:
 * Orders we count
 
-* **`sales_flat_order`** table
-* **`Customer's lifetime number of orders`**
+* `sales_flat_order` table
+* `Customer's lifetime number of orders`
 * Select a definition: Joined column
-* Select table: **`customer_entity`**
-* Select column: **`Customer's lifetime number of orders`**
-* Path: sales_flat_order.customer_id = customer_entity.entity_id
-* Filter:
-* Orders we count
+* Select a [!UICONTROL table]: `customer_entity`
+* Select a [!UICONTROL column]: `Customer's lifetime number of orders`
+* [!UICONTROL Path]: `sales_flat_order.customer_id = customer_entity.entity_id`
+* [!UICONTROL Filter]: `Orders we count`
 
-* **`Seconds since created_at`**
-* Select a definition: Age
-* Select column: **`created_at`**
+* `Seconds since created_at`
+* Select a definition: `Age`
+* Select a [!UICONTROL column]: `created_at`
 
 * **`Customer's order number`** will be created by an analyst as part of your **[DEFINING CHURN]** ticket
 * **`Is customer's last order`** will be created by an analyst as part of your **[DEFINING CHURN]** ticket
@@ -53,61 +52,56 @@ No new metrics!
 ## Reports
 
 * **Initial repeat order probability**
-* *Metric A: All time repeat orders*
-* Metric: Number of orders
-* Filter:
-* Customer's order number greater than 1
+* Metric A: All time repeat orders
+* [!UICONTROL Metric]: `Number of orders`
+* [!UICONTROL Filter]: `Customer's order number greater than 1`
 
-* *Metric B: All time orders*
-* Metric: Number of orders
+* Metric B: All time orders
+* [!UICONTROL Metric]: Number of orders
 
-* *Formula: Initial repeat order probability*
-* Formula: A/B
-* Format: Percent
+* [!UICONTROL Formula]: Initial repeat order probability
+* [!UICONTROL Formula]: `A/B`
+* [!UICONTROL Format]: `Percent`
 
-* *Time period: All time*
-* *Interval: None*
-* *Chart Type: Scalar*
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Chart type]: `Scalar`
 
 * **Repeat order probability given months since order**
-* *Metric A: Repeat orders by months since previous order* (hide)
-* Metric: Number of orders
-* Perspective: Cumulative
-* Filter:
-* Customer's order number greater than 1
+* Metric A: Repeat orders by months since previous order (hide)
+* [!UICONTROL Metric]: `Number of orders`
+* [!UICONTROL Perspective]: `Cumulative`
+* [!UICONTROL Filter]: `Customer's order number greater than 1`
 
-* *Metric B: Last orders by months since order* (hide)
-* Metric: Number of orders
-* Perspective: Cumulative
-* Filter:
-* Is customer's last order? (Yes/No) = "Yes"
+* Metric B: Last orders by months since order (hide)
+* [!UICONTROL Metric]: `Number of orders`
+* [!UICONTROL Perspective]: `Cumulative`
+* [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
-* *Metric C: All time repeat orders* (hide)
-* Metric: Number of orders
-* Filter:
-* Customer's order number greater than 1
+* Metric C: All time repeat orders (hide)
+* [!UICONTROL Metric]: `Number of orders`
+* [!UICONTROL Filter]: `Customer's order number greater than 1`
 
-* Group by: Independent
+* [!UICONTROL Group by]: `Independent`
 
-* *Metric D: All time last orders* (hide)
-* Metric: Number of orders
-* Filter:
-* Is customer's last order? (Yes/No) = "Yes"
+* Metric D: All time last orders (hide)
+* [!UICONTROL Metric]: `Number of orders`
+* [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
-* Group by: Independent
+* [!UICONTROL Group by]: `Independent`
 
-* *Formula: Initial repeat order probability*
-* Formula: (C-A)/(C+D-A-B)
-* Format: Percent
+* [!UICONTROL Formula]: Initial repeat order probability
+* [!UICONTROL Formula]: `(C-A)/(C+D-A-B)`
+* [!UICONTROL Format]: `Percent`
 
-* *Time period: All time*
-* *Interval: None*
-* *Group by: Months since previous order*
-* Show top.bottom: Top 24 categories. sorted by category name
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Group by]: `Months since previous order`
+* Show top.bottom: Top 24 categories, sorted by category name
 
-* *Chart Type: Line*
+* [!UICONTROL Chart type]: `Line`
 
-The initial repeat order probability report represents the Total Repeat Orders / Total Orders. Note that every order is an opportunity to make a repeat order; the number of repeat orders is the subset of those that actually do.
+The initial repeat order probability report represents the Total Repeat Orders / Total Orders. Every order is an opportunity to make a repeat order; the number of repeat orders is the subset of those that actually do.
 
 The formula we use simplifies to (Total repeat orders that occurred after X months)/ (Total orders that are at least X months old). It shows us that historically, given that it is been X months since an order, there is a Y% chance that the user will place another order.
 

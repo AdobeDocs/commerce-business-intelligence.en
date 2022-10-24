@@ -80,33 +80,33 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 
 * **`[Zendesk] audits_~_events`** table
   * Select a definition: Joined Column
-  * Create Path:
-  * Many: [Zendesk] audits_~_events.author_id
-  * One: [Zendesk] users.id
+  * [!UICONTROL Create Path]:
+  * [!UICONTROL Many]: [Zendesk] audits_~_events.author_id
+  * [!UICONTROL One]: [Zendesk] users.id
 
-  * Select table: **`[Zendesk] users`**
-  * Select column: **`User is agent? (Yes/No)`**
-  * Path: [Zendesk] audits_~_events.author_id = [Zendesk] users.id
+  * Select a [!UICONTROL table]: **`[Zendesk] users`**
+  * Select a [!UICONTROL column]: **`User is agent? (Yes/No)`**
+  * [!UICONTROL Path]: [Zendesk] audits_~_events.author_id = [Zendesk] users.id
 
 * **`Author is agent? (Yes/No)`**
 
 * **`[Zendesk] audits`** table
   * Select a definition: Exists
-  * Create Path:
-  * Many: [Zendesk] audits_~_events._id_of_parent
-  * One: [Zendesk] audits._id
+  * [!UICONTROL Create Path]:
+  * [!UICONTROL Many]: [Zendesk] audits_~_events._id_of_parent
+  * [!UICONTROL One]: [Zendesk] audits._id
 
-  * Select table: **`[Zendesk] audits_~_events`**
-  * Path: [Zendesk] audits_~_events._id_of_parent = [Zendesk] audits._id
-  * Filter:
+  * Select a [!UICONTROL table]: **`[Zendesk] audits_~_events`**
+  * [!UICONTROL Path]: [Zendesk] audits_~_events._id_of_parent = [Zendesk] audits._id
+  * [!UICONTROL Filter]:
   * field_name = status
   * type = Change
   * value = solved
 
   * Select a definition: Exists
-  * Select table: **`[Zendesk] audits_~_events`**
-  * Path: [Zendesk] audits_~_events._id_of_parent = [Zendesk] audits._id
-  * Filter:
+  * Select a [!UICONTROL table]: **`[Zendesk] audits_~_events`**
+  * [!UICONTROL Path]: [Zendesk] audits_~_events._id_of_parent = [Zendesk] audits._id
+  * [!UICONTROL Filter]:
   * Author is agent? (Yes/No)
   * type = Comment
   * public = 1
@@ -116,35 +116,35 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 
 * **`[Zendesk] Tickets`** table
   * Select a definition: Joined Column
-  * Create Path:
-  * Many: [Zendesk] tickets.requester_id
-  * One: [Zendesk] users.id
+  * [!UICONTROL Create Path]:
+  * [!UICONTROL Many]: [Zendesk] tickets.requester_id
+  * [!UICONTROL One]: [Zendesk] users.id
 
-  * Select table: **`[Zendesk] users`**
-  * Select column: **`email`**
-  * Path: [Zendesk] tickets.requester_id = [Zendesk] users.id
+  * Select a [!UICONTROL table]: **`[Zendesk] users`**
+  * Select a [!UICONTROL column]: **`email`**
+  * [!UICONTROL Path]: [Zendesk] tickets.requester_id = [Zendesk] users.id
 
   * Select a definition: Joined Column
-  * Select table: **`[Zendesk] users`**
-  * Select column: **`role`**
-  * Path: [Zendesk] tickets.requester_id = [Zendesk] users.id
+  * Select a [!UICONTROL table]: **`[Zendesk] users`**
+  * Select a [!UICONTROL column]: **`role`**
+  * [!UICONTROL Path]: [Zendesk] tickets.requester_id = [Zendesk] users.id
 
   * Select a definition: Max
-  * Create Path:
-  * Many: [Zendesk] audits.ticket_id
-  * One: [Zendesk] tickets.id
+  * [!UICONTROL Create Path]:
+  * [!UICONTROL Many]: [Zendesk] audits.ticket_id
+  * [!UICONTROL One]: [Zendesk] tickets.id
 
-  * Select table: **`[Zendesk] audits`**
-  * Select column: **`created_at`**
-  * Path: [Zendesk] audits.ticket_id = [Zendesk] tickets.id
-  * Filter:
+  * Select a [!UICONTROL table]: **`[Zendesk] audits`**
+  * Select a [!UICONTROL column]: **`created_at`**
+  * [!UICONTROL Path]: [Zendesk] audits.ticket_id = [Zendesk] tickets.id
+  * [!UICONTROL Filter]:
   * status changed to solved = 1
 
   * Select a definition: Min
-  * Select table: **`[Zendesk] audits`**
-  * Select column: **`created_at`**
-  * Path: [Zendesk] audits.ticket_id = [Zendesk] tickets.id
-  * Filter:
+  * Select a [!UICONTROL table]: **`[Zendesk] audits`**
+  * Select a [!UICONTROL column]: **`created_at`**
+  * [!UICONTROL Path]: [Zendesk] audits.ticket_id = [Zendesk] tickets.id
+  * [!UICONTROL Filter]:
   * Is agent comment? = 1
 
 * **`Requester's email`**
@@ -188,13 +188,13 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 
 * **`customer_entity`** table
   * Select a definition: Count
-  * Create Path:
-  * Many: [Zendesk] tickets.email
-  * One: customer_entity.email
+  * [!UICONTROL Create Path]:
+  * [!UICONTROL Many]: [Zendesk] tickets.email
+  * [!UICONTROL One]: customer_entity.email
 
-  * Select table: **`[Zendesk] tickets`**
-  * Path: [Zendesk] tickets.email = customer_entity.email
-  * Filter:
+  * Select a [!UICONTROL table]: **`[Zendesk] tickets`**
+  * [!UICONTROL Path]: [Zendesk] tickets.email = customer_entity.email
+  * [!UICONTROL Filter]:
   * Tickets we count
 
 * **`User's lifetime number of support tickets requested`**
@@ -209,9 +209,9 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 
 * **`[Zendesk] Tickets`** table
   * Select a definition: Joined Column
-  * Select table: **`customer_entity`**
-  * Select column: **`User's lifetime number of support tickets requested`**
-  * Path: [Zendesk] tickets.email = customer_entity.email
+  * Select a [!UICONTROL table]: **`customer_entity`**
+  * Select a [!UICONTROL column]: **`User's lifetime number of support tickets requested`**
+  * [!UICONTROL Path]: [Zendesk] tickets.email = customer_entity.email
 
 * **`Requester's lifetime number of support tickets`**
 
@@ -224,7 +224,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * This metric performs a **Count**
 * On the **`id`** column
 * Ordered by the **`created_at`** timestamp
-* Filter:
+* [!UICONTROL Filter]:
 
 * **[Zendesk] Solved tickets**
   * Tickets we count
@@ -234,7 +234,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * This metric performs a **Count**
 * On the **`id`** column
 * Ordered by the **`created_at`** timestamp
-* Filter:
+* [!UICONTROL Filter]:
 
 * **[Zendesk] Distinct users filing tickets**
   * Tickets we count
@@ -243,7 +243,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * This metric performs a **Count Distinct**
 * On the **`requester_id`** column
 * Ordered by the **`created_at`** timestamp
-* Filter:
+* [!UICONTROL Filter]:
 
 * **[Zendesk] Average/median ticket resolution time**
   * Tickets we count
@@ -253,7 +253,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * This metric performs an **Average (or Median)**
 * On the **`Seconds to resolution`** column
 * Ordered by the **`created_at`** timestamp
-* Filter:
+* [!UICONTROL Filter]:
 
 * **[Zendesk] Average/median time to first response**
   * Tickets we count
@@ -263,7 +263,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * This metric performs an **Average (or Median)**
 * On the **`Seconds to first response`** column
 * Ordered by the **`created_at`** timestamp
-* Filter:
+* [!UICONTROL Filter]:
 
 >[!NOTE]
 >
@@ -272,8 +272,8 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 ### Reports
 
 * **New/Open/Pending tickets**
-  * Metric: New Tickets
-  * Filter:
+  * [!UICONTROL Metric]: New Tickets
+  * [!UICONTROL Filter]:
   * status IN new, open, pending
 
 * *Metric A: New tickets*
@@ -282,8 +282,8 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Scalar*
 
 * **Closed/Solved tickets**
-  * Metric: New Tickets
-  * Filter:
+  * [!UICONTROL Metric]: New Tickets
+  * [!UICONTROL Filter]:
   * status IN solved, closed
 
 * *Metric A: New tickets*
@@ -292,7 +292,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Scalar*
 
 * **Average time to first response**
-  * Metric: Average time to first response
+  * [!UICONTROL Metric]: Average time to first response
 
 * *Metric A: Average time to first response*
 * *Time period: All time*
@@ -300,8 +300,8 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Scalar*
 
 * **Average time to resolution**
-  * Metric: Average time to resolution
-  * Filter:
+  * [!UICONTROL Metric]: Average time to resolution
+  * [!UICONTROL Filter]:
   * status IN solved, closed
 
 * *Metric A: Averae time to resolution*
@@ -310,7 +310,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Scalar*
 
 * **Tickets by status**
-  * Metric: New Tickets
+  * [!UICONTROL Metric]: New Tickets
 
 * *Metric A: New tickets*
 * *Time period: All time*
@@ -319,9 +319,9 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Stacked Column*
 
 * **Number of new and solved tickets**
-  * Metric: New Tickets
+  * [!UICONTROL Metric]: New Tickets
 
-  * Metric: New Tickets
+  * [!UICONTROL Metric]: New Tickets
 
 * *Metric A: New tickets*
 * *Metric B: Solved tickets*
@@ -330,7 +330,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Line*
 
 * **Time to first response**
-  * Metric: Average time to first response
+  * [!UICONTROL Metric]: Average time to first response
 
 * *Metric A: Average time to first response*
 * *Time period: All time*
@@ -338,8 +338,8 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Column*
 
 * **Time to resolution**
-  * Metric: Average time to resolution
-  * Filter:
+  * [!UICONTROL Metric]: Average time to resolution
+  * [!UICONTROL Filter]:
   * status IN solved, closed
 
 * *Metric A: Averae time to resolution*
@@ -348,7 +348,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Column*
 
 * **Distinct users filing tickets**
-  * Metric: Distinct users filing tickets
+  * [!UICONTROL Metric]: Distinct users filing tickets
 
 * *Metric A: Distinct users filing tickets*
 * *Time period: All time*
@@ -356,7 +356,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Column*
 
 * **Peak ticket days**
-  * Metric: New Tickets
+  * [!UICONTROL Metric]: New Tickets
 
 * *Metric A: New tickets*
 * *Time period: All time*
@@ -365,7 +365,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Pie*
 
 * **Peak ticket hours**
-  * Metric: New Tickets
+  * [!UICONTROL Metric]: New Tickets
 
   * Show top/bottom: Top 100% sorted by created_at (hour of the day)
 
@@ -376,7 +376,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Pie*
 
 * **Avg LTV of users who have and have not filed tickets**
-  * Metric: Average lifetime revenue
+  * [!UICONTROL Metric]: Average lifetime revenue
 
 * *Metric A: Average lifetime revenue*
 * *Time period: All time*
@@ -385,7 +385,7 @@ Before getting started, you will want to connect your [Zendesk](../integrations/
 * *Chart Type: Column*
 
 * **Number of new users who have and have not filed tickets**
-  * Metric: Users
+  * [!UICONTROL Metric]: Users
 
 * *Metric A: New users*
 * *Time period: All time*

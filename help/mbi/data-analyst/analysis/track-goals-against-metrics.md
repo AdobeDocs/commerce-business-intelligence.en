@@ -45,39 +45,39 @@ You need to create one new metric for each target. For example, if you upload mo
 As always, it is helpful to have a mix of static values and visual charts when analyzing your targets. Below are three example reports to get you started tracking your revenue performance.
 
 * **Revenue left to achieve target**
-* *Metric A: Revenue*
-* Metric: Revenue
+* Metric `A`: `Revenue`
+* [!UICONTROL Metric]: `Revenue`
 
-* *Metric B: Target Revenue*
-* Metric: Monthly Revenue Target
+* Metric `B`: `Target Revenue`
+* [!UICONTROL Metric]: `Monthly Revenue Target`
 
-* *Formula: Revenue left to achieve target*
-* Formula: (B-A)
-* Format: Number
+* [!UICONTROL Formula]: `Revenue left to achieve target`
+* [!UICONTROL Formula]: `(B-A)`
+* [!UICONTROL Format]: `Number`
 
-* *Time period: (Whatever relevant time period you want)*
-* *Interval: Month*
-* *Chart Type: Scalar*
+* [!UICONTROL Time period]: (Whatever relevant time period you want)
+* [!UICONTROL Interval]: `Month`
+* [!UICONTROL Chart Type]: `Scalar`
 
 * **Revenue targets**
-* *Metric A: Revenue*
-* Metric: Revenue
+* Metric `A`: `Revenue`
+* [!UICONTROL Metric]: `Revenue`
 
-* *Metric B: Target Revenue*
-* Metric: Monthly Revenue Target
+* Metric `B`: `Target Revenue`
+* [!UICONTROL Metric]: `Monthly Revenue Target`
 
-* *Metric C: Revenue (amount change since previous year)* (hide)
-* Metric: Revenue
-* Perspective: Amount change vs. Previous year
+* `Metric `C`: `Revenue (amount change since previous year)` (hide)
+* [!UICONTROL Metric]: `Revenue`
+* [!UICONTROL Perspective]: `Amount change vs. Previous year`
 
-* *Formula: (This month last year)*
-* Formula: (A-C)
-* Format: Currency
+* !UICONTROL Formula]: (This month last year)
+* [!UICONTROL Formula]: `(A-C)`
+* [!UICONTROL Format]: `Currency`
 
-* Turn "Multiple Y-Axes" off
-* *Time period: (Whatever relevant time period you want)*
-* *Interval: Month*
-* *Chart Type: Line Chart*
+* Turn off `Multiple Y-Axes`
+* [!UICONTROL Time period]: (Whatever relevant time period you want)*
+* [!UICONTROL Interval]: `Month`
+* [!UICONTROL Chart Type]: `Line Chart`
 
 Once you have completed the above reports for revenue targets, you can create identical reports for goals around orders, registered accounts, or any other values you have included in your goals file upload.
 

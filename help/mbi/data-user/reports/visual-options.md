@@ -35,7 +35,7 @@ To save a report as a scalar, configure your filters and time settings, then cli
 **Requirements**:
 
 * Time interval: None
-* Group by: None
+* [!UICONTROL Group by]: None
 * One metric only
 
 ## Table

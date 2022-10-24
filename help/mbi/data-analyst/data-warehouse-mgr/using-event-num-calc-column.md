@@ -8,7 +8,7 @@ This topic outlines the purpose and uses of the **Event Number** calculated colu
 
 **Explanation**
 
-The **Event Number** column type identifies the sequence in which events occurred for a particular **event owner**, like a customer or user. If you are familiar with SQL, this column type is identical to the **RANK** function. It could be used to observe differences in behavior between first-time events, repeat events, or nth events in your data.
+The **Event Number** [!UICONTROL Column type]: identifies the sequence in which events occurred for a particular **event owner**, like a customer or user. If you are familiar with SQL, this column type is identical to the **RANK** function. It could be used to observe differences in behavior between first-time events, repeat events, or nth events in your data.
 
 In case of ties, this column contains the same **rank** for the tied events, and skips the subsequent numbers. For example, if it were ranking the numbers 5,8,10,10,12, the ranks would be 1,2,3,3,5.
 
@@ -123,7 +123,7 @@ Here are some instructions on creating an **Event Number** column:
 
 1. Navigate to the **Manage Data > Data Warehouse** page.
 1. Navigate to the table on which you want to create this column.
-1. Click **Create a Column** and choose the **EVENT_NUMBER (…)** column type under the **Same Table** section.
+1. Click **Create a Column** and choose the **EVENT_NUMBER (…)** [!UICONTROL Column type]: under the **Same Table** section.
 1. The first dropdown **Event Owner** specifies the entity for which the rank is to be determined. In the case of **Customer's order number**, a customer identifier such as **customer_id** or **customer_email** would be the **Event Owner**.
 1. The second dropdown **Event Rank** specifies the column that enforces the sequence that determines the rank of the row. In the case of **Customer's order number**, the **created_at** timestamp would be the **Event Rank**.
 1. Under the **Options** dropdown, you can add filters to exclude rows from being considered. The excluded rows will have a NULL value for this column.

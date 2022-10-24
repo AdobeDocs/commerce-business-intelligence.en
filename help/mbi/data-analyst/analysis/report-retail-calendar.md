@@ -18,89 +18,93 @@ You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CS
 
 | Column Name | Column Datatype | Primary Key |
 | --- | --- | --- |
-| Date Retail | Date & Time | Yes |
-| Year Retail | Whole Number | No |
-| Quarter Retail | Whole Number | No |
-| Month Number Retail | Whole Number | No |
-| Week Retail | Whole Number | No |
-| Month Name Retail | Text (Up to 255 Characters) | No |
-| Week Number of Month Retail | Whole Number | No |
+| `Date Retail` | `Date & Time` | `Yes` |
+| `Year Retail` | `Whole Number` | `No` |
+| `Quarter Retail` | `Whole Number` | `No` |
+| `Month Number Retail` | `Whole Number` | `No` |
+| `Week Retail` | `Whole Number` | `No` |
+| `Month Name Retail` | `Text` (Up to 255 Characters) | `No` |
+| `Week Number of Month Retail` | `Whole Number` | `No` |
 
 {style="table-layout:auto"}
 
 ## Columns to Create
 
 * **sales\_order** table
-   * **\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)**
-      * Column type – "Same table > Calculation"
-      * Inputs – **created\_at**
-      * Datatype – Datetime
-      * Calculation - ` **case when A is null then null else to\_char(A, 'YYYY-MM-DD 00:00:00') end**`
+   * `INPUT` `created\_at` (yyyy-mm-dd 00:00:00)
+      * [!UICONTROL Column type]: – `Same table > Calculation`
+      * [!UICONTROL Inputs]: – `created\_at`
+      * [!UICONTROL Datatype]: – `Datetime`
+      * [!UICONTROL Calculation]: - ` case when A is null then null else to\_char(A, 'YYYY-MM-DD 00:00:00') end`
 
 * **Retail calendar** file upload table
    * **Current date**
-      * Column type – "Same table > Calculation"
-      * Inputs – **Date Retail**
-      * Datatype – Datetime
-      * Calculation - `**case when A is null then null else to\_char(now(), 'YYYY-MM-DD 00:00:00') end**`
-         * Note: The 'now()' function above is specific to PostgreSQL. Although most [!DNL MBI] data warehouses are hosted on PostgreSQL, some may be hosted on Redshift. If the calculation above returns an error, you may need to use the Redshift function 'getdate()' instead of 'now()'.
+      * [!UICONTROL Column type]: `Same table > Calculation`
+      * [!UICONTROL Inputs]: `Date Retail`
+      * [!UICONTROL Datatype]: `Datetime`
+      * [!UICONTROL Calculation]: `case when A is null then null else to\_char(now(), 'YYYY-MM-DD 00:00:00') end`
+
+         >[!NOTE]
+         >
+         >The `now()` function above is specific to PostgreSQL. Although most [!DNL MBI] data warehouses are hosted on PostgreSQL, some may be hosted on Redshift. If the calculation above returns an error, you may need to use the Redshift function `getdate()` instead of `now()`.
+
     * **Current retail year** (Must be created by support analyst)
-      * Column type – "Event Counter"
-      * Local Key - **Current date**
-      * Remote Key - **Retail calendar.Date Retail**
-      * Operation - Max
-      * Operation value - Year Retail
+      * [!UICONTROL Column type]: E`vent Counter`
+      * [!UICONTROL Local Key]: `Current date`
+      * [!UICONTROL Remote Key]: `Retail calendar.Date Retail`
+      * [!UICONTROL Operation]: `Max`
+      * [!UICONTROL Operation value]: `Year Retail`
    * **Included in current retail year? (Yes/No)**
-      * Column type – "Same table > Calculation"
-      * Inputs –
-         * A - **Year Retail**
-         * B - **Current retail year**
-      * Datatype – String
-      * Calculation - `**case when A is null or B is null then null when A = B then 'Yes' else 'No' end**`
+      * [!UICONTROL Column type]: `Same table > Calculation`
+      * [!UICONTROL Inputs]: 
+         * `A` - `Year Retail`
+         * `B` - `Current retail year`
+      * [!UICONTROL Datatype]: `String`
+      * [!UICONTROL Calculation]: `case when A is null or B is null then null when A = B then 'Yes' else 'No' end`
    * **Included in previous retail year? (Yes/No)**
-      * Column type – "Same table > Calculation"
-      * Inputs –
-         * A - **Year Retail**
-         * B - **Current retail year**
-      * Datatype – String
-      * Calculation - `**case when A is null or B is null then null when (A = (B-1)) then 'Yes' else 'No' end**`
+      * [!UICONTROL Column type]: `Same table > Calculation`
+      * [!UICONTROL Inputs]:
+         * `A` - `Year Retail`
+         * `B` - `Current retail year`
+      * [!UICONTROL Datatype]: String
+      * [!UICONTROL Calculation]: `case when A is null or B is null then null when (A = (B-1)) then 'Yes' else 'No' end`
 
 * **sales\_order** table
    * **Created\_at (retail year)**
-      * Column type – "One to Many > JOINED\_COLUMN"
+      * [!UICONTROL Column type]: `One to Many > JOINED\_COLUMN`
       * Path -
-         * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
-         * One: Retail Calendar.Date Retail
-      * Select table: **Retail Calendar**
-      * Select column: **Year Retail**
+         * [!UICONTROL Many]: `sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)`
+         * [!UICONTROL One]: `Retail Calendar.Date Retail`
+      * Select a [!UICONTROL table]: `Retail Calendar`
+      * Select a [!UICONTROL column]: `Year Retail`
    * **Created\_at (retail week)**
-      * Column type – "One to Many > JOINED\_COLUMN"
+      * [!UICONTROL Column type]: `One to Many > JOINED\_COLUMN`
       * Path -
-         * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
-         * One: Retail Calendar.Date Retail
-      * Select table: **Retail Calendar**
-      * Select column: **Week Retail**
+         * [!UICONTROL Many]:sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00
+         * [!UICONTROL One]:Retail Calendar.Date Retai
+      * Select a [!UICONTROL table]: `Retail Calendar`
+      * Select a [!UICONTROL column]: `Week Retail`
    * **Created\_at (retail month)**
-      * Column type – "One to Many > JOINED\_COLUMN"
-      * Path -
-         * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
-         * One: Retail Calendar.Date Retail
-      * Select table: **Retail Calendar**
-      * Select column: **Month Number Retail**
+      * [!UICONTROL Column type]: `One to Many > JOINED\_COLUMN`
+      * Path 
+         * [!UICONTROL Many]: `sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)`
+         * [!UICONTROL One]: `Retail Calendar.Date Retail`
+      * Select a [!UICONTROL table]: `Retail Calendar`
+      * Select a [!UICONTROL column]: `Month Number Retail`
    * **Include in previous retail year? (Yes/No)**
-      * Column type – "One to Many > JOINED\_COLUMN"
+      * [!UICONTROL Column type]: `One to Many > JOINED\_COLUMN`
       * Path -
-         * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
-         * One: Retail Calendar.Date Retail
-      * Select table: **Retail Calendar**
-      * Select column: **Include in previous retail year? (Yes/No)**
+         * [!UICONTROL Many]: `sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)`
+         * [!UICONTROL One]: Retail `Calendar.Date Retail`
+      * Select a [!UICONTROL table]: `Retail Calendar`
+      * Select a [!UICONTROL column]: `Include in previous retail year? (Yes/No)`
    * **Include in current retail year? (Yes/No)**
-      * Column type – "One to Many > JOINED\_COLUMN"
+      * [!UICONTROL Column type]: `One to Many > JOINED\_COLUMN`
       * Path -
-         * Many: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)
-         * One: Retail Calendar.Date Retail
-      * Select table: **Retail Calendar**
-      * Select column: **Include in current retail year? (Yes/No)**
+         * [!UICONTROL Many]: `sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)`
+         * [!UICONTROL One]: Retail `Calendar.Date Retail`
+      * Select a [!UICONTROL table]: `Retail Calendar`
+      * Select a [!UICONTROL column]: `Include in current retail year? (Yes/No)`
 
 ## Metrics
 
@@ -109,64 +113,64 @@ Note: No new metrics are needed for this analysis. However, make sure to [add th
 ## Reports
 
 * **Weekly orders - retail calendar (YoY)**
-   * Metric A: 2017
-      * Metric: Number of orders
-      * Filter:
+   * Metric `A`: `2017`
+      * [!UICONTROL Metric]: Number of orders
+      * [!UICONTROL Filter]:
          * Created\_at (retail Year) = 2017
-   * Metric B: 2016
-      * Metric: Number of orders
-      * Filter:
+   * Metric `B`: `2016`
+      * [!UICONTROL Metric]: Number of orders
+      * [!UICONTROL Filter]:
          * Created\_at (retail Year) = 2016
-   * Metric C: 2015
-      * Metric: Number of orders
-      * Filter:
-         * Created\_at (retail Year) = 2015
-   * Time period: All time
-   * Interval: None
-   * Group by: Created\_at (retail week)
-   * Chart Type: Line
-      * Turn off multiple Y-axes
+   * Metric `C`: `2015`
+      * [!UICONTROL Metric]: `Number of orders`
+      * [!UICONTROL Filter]:
+         * `Created\_at (retail Year) = 2015`
+   * [!UICONTROL Time period]: `All time`
+   * [!UICONTROL Interval]: `None`
+   * [!UICONTROL Group by]: `Created\_at` (retail week)
+   * [!UICONTROL Chart type]: `Line`
+      * Turn off `multiple Y-axes`
 
 * **Retail calendar overview (current retail year by month)**
-   * Metric A: Revenue
-      * Metric: Revenue
-      * Filter:
-         * Include current retail year? = Yes
-   * Metric B: Orders
-      * Metric: Number of orders
-      * Filter:
-         * Include current retail year? = Yes
-   * Metric C: Avg order value
-      * Metric: Avg order value
-      * Filter:
-         * Include current retail year? = Yes
-   * Time period: All time
-   * Interval: None
-   * Group by: Created\_at (retail month)
-   * Chart Type: Line
+   * Metric `A`: `Revenue`
+      * [!UICONTROL Metric]: `Revenue`
+      * [!UICONTROL Filter]:
+         * [!UICONTROL Include current retail year? ]: `Yes`
+   * Metric `B`: `Orders`
+      * [!UICONTROL Metric]: `Number of orders`
+      * [!UICONTROL Filter]:
+         * [!UICONTROL Include current retail year? ]: `Yes`
+   * Metric `C``: `Avg order value`
+      * [!UICONTROL Metric]: `Avg order value`
+      * [!UICONTROL Filter]:
+         * [!UICONTROL Include current retail year? ]: `Yes`
+   * [!UICONTROL Time period]: `All time`
+   * [!UICONTROL Interval]: `None`
+   * [!UICONTROL Group by]: `Created\_at` (retail month)
+   * [!UICONTROL Chart type]: `Line`
 
 * **Retail calendar overview (previous retail year by month)**
-   * Metric A: Revenue
-      * Metric: Revenue
-      * Filter:
-         * Include previous retail year? = Yes
-   * Metric B: Orders
-      * Metric: Number of orders
-      * Filter:
-         * Include previous retail year? = Yes
-   * Metric C: Avg order value
-      * Metric: Avg order value
-      * Filter:
-         * Include previous retail year? = Yes
-   * Time period: All time
-   * Interval: None
-   * Group by: Created\_at (retail month)
-   * Chart Type: Line
+   * Metric `A`: `Revenue`
+      * [!UICONTROL Metric]: `Revenue`
+      * [!UICONTROL Filter]:
+         * [!UICONTROL Include current retail year? ]: `Yes`
+   * Metric `B`: `Orders`
+      * [!UICONTROL Metric]: Number of orders
+      * [!UICONTROL Filter]:
+         * [!UICONTROL Include current retail year? ]: `Yes`
+   * Metric `C`: `Avg order value`
+      * [!UICONTROL Metric]: `Avg order value`
+      * [!UICONTROL Filter]:
+         * [!UICONTROL Include current retail year? ]: `Yes`
+   * [!UICONTROL Time period]: `All time`
+   * [!UICONTROL Interval]: `None`
+   * [!UICONTROL Group by]: `Created\_at` (retail month)
+   * [!UICONTROL Chart type]: `Line`
 
 ## Next Steps
 
-The above describes how to configure a retail calendar to be compatible with any metric built on your sales\_order table (i.e., "Revenue" and "Orders"), but you can also extend this to support the retail calendar for metrics built on any table. The only requirement is that this table has a valid datetime field that can be used to join to the Retail Calendar table.
+The above describes how to configure a retail calendar to be compatible with any metric built on your `sales\_order` table (i.e., `Revenue` and `Orders`), but you can also extend this to support the retail calendar for metrics built on any table. The only requirement is that this table has a valid datetime field that can be used to join to the Retail Calendar table.
 
-So for example, to view customer level metrics on a 4-5-4 retail calendar, create a new "Same Table" calculation in the customer\_entity table, similar to '\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)' described above. You can then use this column to reproduce all of the "One to Many" JOINED\_COLUMN calculations (like "Created_at (retail year)" and "Include in previous retail year? (Yes/No)") by joining the customer\_entity table to the Retail Calendar table.
+So for example, to view customer level metrics on a 4-5-4 retail calendar, create a new `Same Table` calculation in the `customer\_entity` table, similar to `\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)` described above. You can then use this column to reproduce all of the `One to Many` JOINED\_COLUMN calculations (like `Created_at (retail year)` and `Include in previous retail year? (Yes/No)` by joining the `customer\_entity` table to the `Retail Calendar` table.
 
 Do not forget to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.

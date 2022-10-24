@@ -6,7 +6,7 @@ description: Learn about some reports that you can use to uncover your most valu
 
 You researched your audience, you created your campaign, you invested in a few marketing channels. Now that some time has passed, how are those channels performing? What channel has brought in the most new users? What source has contributed the most to your total revenue?
 
-With MBI, you can easily segment your revenue and users by referral source, whether it corresponds to [Google Analytics' UTM fields](https://support.google.com/analytics/answer/1191184?hl=en) or custom data fields. This segmentation will allow you to find your best performing channels and better invest your marketing budget.
+With MBI, you can easily segment your revenue and users by referral source, whether it corresponds to [!DNL [Google Analytics' UTM fields](https://support.google.com/analytics/answer/1191184?hl=en)] or custom data fields. This segmentation will allow you to find your best performing channels and better invest your marketing budget.
 
 In this article, we explore some reports that you can use to uncover your most valuable marketing channels:
 
@@ -18,7 +18,7 @@ In this article, we explore some reports that you can use to uncover your most v
 
 ## Prerequisites {#prereqs}
 
-To build the analyses in this article, you need access to marketing acquisition/referral source data. If you are not already tracking it, you will need to bring [order referral source data from Google ECommerce](../importing-data/integrations/google-ecommerce.md) into [!DNL MBI] before you can continue. In addition, adding user device information to your analyses enables you to see what technology your referrals are using.
+To build the analyses in this article, you need access to marketing acquisition/referral source data. If you are not already tracking it, you will need to bring [order referral source data from [!DNL Google ECommerce](../importing-data/integrations/google-ecommerce.md)] into [!DNL MBI] before you can continue. In addition, adding user device information to your analyses enables you to see what technology your referrals are using.
 
 ## New users by source {#newusersbysource}
 
@@ -26,10 +26,10 @@ Assessing the performance of referral sources is key in determining your most va
 
 To create this report in the [Report Builder](../../tutorials/using-visual-report-builder.md), add the **New users** metric (or an equivalent metric that counts the number of new users over time) to the report. Then do the following:
 
-1. Set the **Time Period** to the registration period you want to analyze.
-1. Set the **Interval** to monthly.
-1. Set **Group By** to acquisition (or referral) source and select the sources you want to include.
-1. For this example, we used the **stacked columns** chart type.
+1. Set the [!UICONTROL Time Period] to the registration period you want to analyze.
+1. Set the [!UICONTROL Interval] to monthly.
+1. Set [!UICONTROL Group By] to acquisition (or referral) source and select the sources you want to include.
+1. For this example, we used the `stacked columns` [!UICONTROL chart type].
 
 Here is a visual walk through:
 
@@ -41,16 +41,16 @@ Finding the channels that bring in new users is important, but how valuable are 
 
 To create this report in the Report Builder, add the **Average lifetime revenue** metric to the report. Then do the following:
 
-1. Set the **Time Period** to the time period you want to analyze.
-1. Set the **Interval** to monthly.
-1. Set **Group By** to acquisition (or referral) source and select the sources you want to include.
-1. For this example, we used the **line chart** type.
+1. Set the [!UICONTROL Time Period] to the time period you want to analyze.
+1. Set the [!UICONTROL Interval] to monthly.
+[!UICONTROL Group By] to acquisition (or referral) source and select the sources you want to include.
+1. For this example, we used the `line chart` type.
 
 Here is a visual walkthrough:
 
-![Creating an Average lifetime revenue by user source.](../../assets/Lifetime_revenue_by_user_source.gif)
+![Creating an Average lifetime revenue by user source](../../assets/Lifetime_revenue_by_user_source.gif).
 
-This example only looks at lifetime revenue, but you could also replicate this analysis to look at the **Number of orders** or **Distinct buyers** by referral source.
+This example only looks at lifetime revenue, but you could also replicate this analysis to look at the [!UICONTROL Number of orders] or [!UICONTROL Distinct buyers] by referral source.
 
 ## Average order value by user source {#avgorderval}
 
@@ -58,9 +58,9 @@ To get a better idea of how much money users from a specific acquisition source 
 
 To create this report in the Report Builder, add the **Average order value** metric and then do the following:
 
-1. Set the **Time Period** to the registration period you want to analyze.
-1. Set the **Time Interval** to monthly.
-1. Set **Group By** to acquisition (or referral) source and select the sources you want to include.
+1. Set the [!UICONTROL Time Period] to the registration period you want to analyze.
+1. Set the [!UICONTROL Time Interval] to monthly.
+1. Set [!UICONTROL Group By] to acquisition (or referral) source and select the sources you want to include.
 1. For this example, we used the **stacked columns** chart type.
 
 Here is a visual walkthrough:
@@ -71,12 +71,12 @@ Here is a visual walkthrough:
 
 The lifetime revenue analysis we went over earlier lets you look at the average lifetime revenue of users acquired from different sources, but what about total lifetime revenue? This report will allow you to identify how much overall revenue users that registered during a specific time and from a specific source generate.
 
-To create this report in the Report Builder, add the **Revenue by user registration date** metric. If you have not [created this metric](../../data-user/reports/ess-manage-data-metrics.md) already, you can do so by replicating the **Revenue** metric and **changing the time stamp to User's creation date**. After adding the metric, do the following:
+To create this report in the Report Builder, add the `Revenue by user registration date` metric. If you have not [created this metric](../../data-user/reports/ess-manage-data-metrics.md) already, you can do so by replicating the `Revenue` metric and changing the `time stamp` to User's `creation date`. After adding the metric, do the following:
 
-1. Set the **Time Period** to the registration period you want to analyze.
-1. Set the **Time Interval** to monthly.
-1. Set **Group By** to acquisition (or referral) source and select the sources you want to include.
-1. For this example, we used the **stacked columns** chart type.
+1. Set the [!UICONTROL Time Period] to the registration period you want to analyze.
+1. Set the [!UICONTROL Time Interval] to monthly.
+1. Set [!UICONTROL Group By] to acquisition (or referral) source and select the sources you want to include.
+1. For this example, we used the `stacked columns` chart type.
 
 Here is a visual walkthrough:
 
@@ -88,14 +88,14 @@ The Average order value report shows you, on average, how much users acquired fr
 
 To create this report in the [Report Builder](../../tutorials/using-visual-report-builder.md), add the **Number of orders** metric and then do the following:
 
-1. Set the **Time Period** to the registration period you want to analyze.
-1. Set the **Time Interval** to monthly.
-1. Add a **filter** so that only users with repeat orders are included:
+1. Set the [!UICONTROL Time Period] to the registration period you want to analyze.
+1. Set the [!UICONTROL Time Interval] to monthly.
+1. Add a [!UICONTROL filter] so that only users with repeat orders are included:
 
     User's order number greater than 1
 
-1. Set **Group By** to acquisition (or referral) source and select the sources you want to include.
-1. For this example, we used the **stacked columns** chart type.
+1. Set [!UICONTROL Group By] to acquisition (or referral) source and select the sources you want to include.
+1. For this example, we used the `stacked columns` chart type.
 
 Here is a visual walkthrough:
 
@@ -108,7 +108,7 @@ In this article, we touched on just a few analyses you can use to analyze the va
 
 ## Related {#related}
 
-* [Tracking order referral source via Google ECommerce](../importing-data/integrations/google-ecommerce.md)
-* [Connecting your Google Adwords account](../importing-data/integrations/google-adwords.md)
-* [Building Google ECommerce dimensions with orders and customer data](../data-warehouse-mgr/bldg-google-ecomm-dim.md)
-* [Best-practices for UTM tagging in Google Analytics](../../best-practices/utm-tagging-google.md)
+* [Tracking order referral source via [!DNL Google ECommerce](../importing-data/integrations/google-ecommerce.md)]
+* [Connecting your [!DNL Google Adwords] account](../importing-data/integrations/google-adwords.md)
+* [Building [!DNL Google ECommerce] dimensions with orders and customer data](../data-warehouse-mgr/bldg-google-ecomm-dim.md)
+* [Best-practices for UTM tagging in [!DNL Google Analytics]](../../best-practices/utm-tagging-google.md)

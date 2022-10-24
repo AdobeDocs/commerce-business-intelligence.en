@@ -3,11 +3,11 @@ title: MBI User Guide Overview
 description: Comprehensive information for MBI data administrators.
 breadcrumb-title: Guide Overview
 seo-title: MBI User Guide
-seo-description: Describes how to use the MBI features used to gain insights from Adobe Commerce or **[!UICONTROL Magento]** Open Source data.
+seo-description: Describes how to use the MBI features used to gain insights from Adobe Commerce or Magento Open Source data.
 ---
 # [!DNL MBI] User Guide Overview
 
-This guide is intended for --> add summary of guide purpose
+This guide is intended for > add summary of guide purpose
 
 There are two areas for data administrators:
 

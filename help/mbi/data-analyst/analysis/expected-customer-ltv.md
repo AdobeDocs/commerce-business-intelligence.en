@@ -8,7 +8,7 @@ In this article, we demonstrate how to set up a dashboard that will help you und
 
 ![](../../assets/exp-lifetim-value-anyalysis.png)
 
-This analysis is only available to Pro account customers on the new architecture. If your account has access to the Persistent Views feature under the Manage Data side bar, you are on the new architecture and can follow the instructions listed here to build this analysis yourself.
+This analysis is only available to Pro account customers on the new architecture. If your account has access to the `Persistent Views` feature under the `Manage Data` side bar, you are on the new architecture and can follow the instructions listed here to build this analysis yourself.
 
 Before getting started, you will want to familiarize yourself with our [cohort report builder.](../dev-reports/cohort-rpt-bldr.md)
 
@@ -16,45 +16,45 @@ Before getting started, you will want to familiarize yourself with our [cohort r
 
 Columns to create on the **orders** table if using **30-day months**:
 
-* **Column name:** Months between first order and this order
-* **Column type:** Same Table
-* **Column equation:** CALCULATION
-* **Column input:** A = `Seconds between customer's first order date and this order`
-* **Datatype:** Integer
+* [!UICONTROL Column name]: `Months between first order and this order`
+* [!UICONTROL Column type]: `Same Table`
+* [!UICONTROL Column equation]: `CALCULATION`
+* [!UICONTROL Column input]: A = `Seconds between customer's first order date and this order`
+* [!UICONTROL Datatype]: `Integer`
 * **Definition:**`case when A is null then null when A <= 0 then '1'::int else (ceil(A)/2629800)::int end`
 
-* **Column name:** Months since order
-* **Column type:** Same Table
-* **Column equation:** CALCULATION
-* **Column input:** A = `created_at`
-* **Datatype:** Integer
-* **Definition:**`case when created_at is null then null else (ceil((extract(epoch from current_timestamp) - extract(epoch from created_at))/2629800))::int end`
+* [!UICONTROL Column name]: `Months since order`
+* [!UICONTROL Column type]: `Same Table`
+* [!UICONTROL Column equation]: `CALCULATION`
+* [!UICONTROL Column input]: A = `created_at`
+* [!UICONTROL Datatype]: `Integer`
+* Definition: `case when created_at is null then null else (ceil((extract(epoch from current_timestamp) - extract(epoch from created_at))/2629800))::int end`
 
 Columns to create on the **`orders`** table if using **calendar** months:
 
-* **Column name:** Calendar months between first order and this order
-* **Column type:** Same Table
-* **Column equation:** CALCULATION
-* **Column inputs:**
-  * A = `created_at`
-  * B = `Customer's first order date`
+* [!UICONTROL Column name]: `Calendar months between first order and this order`
+* [!UICONTROL Column type]: `Same Table`
+* [!UICONTROL Column equation]: `CALCULATION`
+* [!UICONTROL Column inputs]:
+  * `A` = `created_at`
+  * `B` = `Customer's first order date`
 
-* **Datatype:** Integer
-* **Definition:**`case when (A::date is null) or (B::date is null) then null else ((date_part('year',A::date) - date_part('year',B::date))*12 + date_part('month',A::date) - date_part('month',B::date))::int end`
+* [!UICONTROL Datatype]: `Integer`
+* Definition: `case when (A::date is null) or (B::date is null) then null else ((date_part('year',A::date) - date_part('year',B::date))*12 + date_part('month',A::date) - date_part('month',B::date))::int end`
 
-* **Column name:** Calendar months since order
-* **Column type:** Same Table
-* **Column equation:** CALCULATION
-* **Column input:** A = `created_at`
-* **Datatype:** Integer
+* [!UICONTROL Column name]: `Calendar months since order`
+* [!UICONTROL Column type]: `Same Table`
+* [!UICONTROL Column equation]: `CALCULATION`
+* [!UICONTROL Column input]: `A` = `created_at`
+* [!UICONTROL Datatype]: `Integer`
 * **Definition:**`case when A is null then null else ((date_part('year',current_timestamp::date) - date_part('year',A::date))*12 + date_part('month',current_timestamp::date) - date_part('month',A::date))::int end`
 
-* **Column name:** Is in current month? (Yes/No)
-* **Column type:** Same Table
-* **Column equation:** CALCULATION
-* **Column input:** A = `created_at`
-* **Datatype:** String
-* **Definition:**`case when A is null then null when (date_trunc('month', current_timestamp::date))::varchar = (date_trunc('month', A::date))::varchar then 'Yes' else 'No' end`
+* [!UICONTROL Column name]: `Is in current month? (Yes/No)
+* [!UICONTROL Column type]: `Same Table`
+* [!UICONTROL Column equation]: `CALCULATION`
+* [!UICONTROL Column input]: A = `created_at`
+* [!UICONTROL Datatype]: `String`
+* Definition: `case when A is null then null when (date_trunc('month', current_timestamp::date))::varchar = (date_trunc('month', A::date))::varchar then 'Yes' else 'No' end`
 
 ## Metrics
 
@@ -62,8 +62,8 @@ Columns to create on the **`orders`** table if using **calendar** months:
 
 Metrics to create
 
-* **Distinct customers by first order date***
-  * If you enable guest orders, use **`customer_email`**
+* **Distinct customers by first order date**
+  * If you enable guest orders, use `customer_email`
 
 * In the **`orders`** table
 * This metric performs a **Count Distinct Values**
@@ -80,54 +80,54 @@ Metrics to create
 
 **Expected revenue per customer by month**
 
-* Metric A: Revenue (hide)
-  * `Calendar months between first order and this order` <= X (Pick some reasonable number for X, e.g. 24 months)
-  * `Is in current month?` = No
+* Metric `A`: `Revenue (hide)`
+  * `Calendar months between first order and this order` `<= X` (Pick some reasonable number for X, e.g., 24 months)
+  * `Is in current month?` = `No`
 
-* Metric: Revenue
-* Filter:
+* [!UICONTROL Metric]: `Revenue`
+* [!UICONTROL Filter]:
 
-* Metric B: All time customers (hide)
-  * `Is in current month?` = No
+* Metric `B`: `All time customers (hide)`
+  * `Is in current month?` = `No`
 
-* Metric: New customers by first order date
-* Filter:
+* [!UICONTROL Metric]: `New customers by first order date`
+* [!UICONTROL Filter]:
 
-* Metric C: All time customers by month since first order (hide)
-  * `Calendar months since order` <= X
-  * `Is in current month?` = No
+* Metric `C`: `All time customers by month since first order (hide)`
+  * `Calendar months since order` `<= X`
+  * `Is in current month?` = `No`
 
-* Metric: New customers by first order date
-* Filter:
+* [!UICONTROL Metric]: `New customers by first order date`
+* [!UICONTROL Filter]:
 
-* Formula: Expected revenue
-* Formula: A / (B - C)
-* Format: Currency
+* [!UICONTROL Formula]: `Expected revenue`
+* [!UICONTROL Formula]: `A / (B - C)`
+* [!UICONTROL Format]: `Currency`
 
 Other chart details
 
-* Time period: All time
-* Time interval: None
-* Group by: `Calendar months between first order and this order` - show all
-* Change the group by for the **All time customers** metric to Independent using the pencil icon next to the group by
-* Edit the **Show top/bottom** fields as follows:
-* **Revenue: **Top 24 sorted by Calendar months between first order and this order
-* **All time customers:** Top 24 sorted by All time customers
-* **All time customers by month since first order:** Top 24 sorted by All time customers by month since first order
+* [!UICONTROL Time period]: `All time`
+* Time interval: `None`
+* [!UICONTROL Group by]: `Calendar months between first order and this order` - show all
+* Change the `group by` for the `All time customers` metric to Independent using the pencil icon next to the `group by`
+* Edit the `Show top/bottom` fields as follows:
+  * [!UICONTROL Revenue]: `Top 24 sorted by Calendar months between first order and this order`
+  * [!UICONTROL All time customers]: `Top 24 sorted by All time customers`
+  * [!UICONTROL All time customers by month since first order]: `Top 24 sorted by All time customers by month since first order`
 
 **Avg revenue per month by cohort**
 
-* Metric A: Revenue
-* Metric view: Cohort
-* Cohort date: `Customer's first order date`
-* Perspective: Average value per cohort member
+* Metric `A`: `Revenue`
+* [!UICONTROL Metric view]: `Cohort`
+* [!UICONTROL Cohort date]: `Customer's first order date`
+* [!UICONTROL Perspective]: `Average value per cohort member`
 
 **Cumulative avg revenue per month by cohort**
 
-* Metric A: Revenue
-* Metric view: Cohort
-* Cohort date: `Customer's first order date`
-* Perspective: Cumulative average value per cohort member
+* Metric `A`: `Revenue`
+* [!UICONTROL Metric view]: `Cohort`
+* [!UICONTROL Cohort date]: `Customer's first order date`
+* [!UICONTROL Perspective]: `Cumulative average value per cohort member`
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page.
 

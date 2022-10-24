@@ -4,11 +4,11 @@ description: Learn how to generate and analyze your Commerce churn rate.
 ---
 # Churn Rate
 
-In this topic article, we demonstrate how to calculate a **churn rate** for your **commerce customers**. Unlike SaaS or traditional subscription companies, commerce customers typically do not have a concrete **"churn event"** to show you that they should no longer count toward your active customers. For this reason, the below instructions allow you to define a customer as "churned" based upon a determined amount of time passing since their last order.
+In this topic, we demonstrate how to calculate a **churn rate** for your **commerce customers**. Unlike SaaS or traditional subscription companies, commerce customers typically do not have a concrete **"churn event"** to show you that they should no longer count toward your active customers. For this reason, the below instructions allow you to define a customer as "churned" based upon a determined amount of time passing since their last order.
 
 ![](../../assets/Churn_rate_image.png)
 
-Many customers want assistance in starting to conceptualize what **timeframe** they should use based upon their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../analysis/define-cust-churn.md) Analysis Library article. Then, you can use the results in the formula for churn rate in the below instructions.
+Many customers want assistance in starting to conceptualize what **timeframe** they should use based upon their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../analysis/define-cust-churn.md) article. Then, you can use the results in the formula for churn rate in the below instructions.
 
 ## Calculated Columns
 
@@ -16,16 +16,15 @@ Columns to create
 
 * **`customer_entity`** table
 * **`Customer's last order date`**
-  * Select a definition: Max
-  * Select table: **`sales_flat_order`**
-  * Select column: **`created_at`**
-  * sales_flat_order.customer_id = customer_entity.entity_id
-  * Filter:
-  * Orders we count
+  * Select a [!UICONTROL definition]: `Max`
+  * Select [!UICONTROL table]: `sales_flat_order`
+  * Select [!UICONTROL column]: `created_at`
+  * `sales_flat_order.customer_id = customer_entity.entity_id`
+  * [!UICONTROL Filter]: `Orders we count`
 
 * **`Seconds since customer's last order date`**
-  * Select a definition: Age
-  * Select column: **`Customer's last order date`** **`` ``** 
+  * Select a [!UICONTROL definition]: `Age`
+  * Select [!UICONTROL column]: `Customer's last order date` 
 
 >[!NOTE]
 >
@@ -36,22 +35,28 @@ Columns to create
 * **New customers (by first order date)**
   * Customers we count
 
-* **Note**: This metric may already exist on your account
-* In the **`customer_entity`**table
+>[!NOTE]
+>
+>This metric may already exist on your account.
+
+* In the **`customer_entity`** table
 * This metric performs a **Count**
 * On the **`entity_id`** column
 * Ordered by the **`Customer's first order date`** timestamp
-* Filter:
+* [!UICONTROL Filter]:
 
 * **New customers (by last order date)**
   * Customers we count
 
-* **Note**: this metric may already exist on your account
+>[!NOTE]
+>
+>This metric may already exist on your account.
+
 * In the **`customer_entity`** table
 * This metric performs a **Count**
 * On the **`entity_id`** column
 * Ordered by the **`Customer's last order date`** timestamp
-* Filter:
+* [!UICONTROL Filter]:
 
 >[!NOTE]
 >
@@ -60,33 +65,27 @@ Columns to create
 ## Reports
 
 * **Churn Rate**
-  * Metric: New customers (by first order date)
-  * Filter:
-  * Lifetime number of orders Greater Than 0
-
-  * Perspective: Cumulative
-
-  * Metric: New customers (by last order date)
-  * Filter:
+  * [!UICONTROL Metric]: New customers (by first order date)
+  * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
+  * [!UICONTROL Perspective]: `Cumulative`
+  * [!UICONTROL Metric]: `New customers (by last order date)`
+  * [!UICONTROL Filter]:
   * Seconds since customer's last order date >= [Your self-defined cutoff for churned customers]**`^`**
-  * Lifetime number of orders Greater Than 0
+  * `Lifetime number of orders Greater Than 0`
 
-  * Metric: New customers (by last order date)
-  * Filter:
-  * Lifetime number of orders Greater Than 0
+  * [!UICONTROL Metric]: `New customers (by last order date)`
+  * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
+  * [!UICONTROL Perspective]: Cumulative
+  * [!UICONTROL Formula]: `(B / ((A + B) - C)`
+  * [!UICONTROL Format]: Percentage
 
-  * Perspective: Cumulative
-
-  * Formula: (B / ((A + B) - C)
-  * Format: Percentage
-
-* *Metric A: New customers cumulative*
-* *Metric B: Churned customers by last order date*
-* *Metric C: Customers by last order date cumulative*
-* *Formula: Repeat order probability*
-* *Time period: All time (or custom range)*
-* *Group by: Customer's order number*
-* *Chart Type: Column*
+* *Metric `A`: `New customers cumulative`*
+* *Metric `B`: `Churned customers by last order date`*
+* *Metric `C`: `Customers by last order date cumulative`*
+* *`Formula`: `Repeat order probability`*
+* *`Time period`: `All time (or custom range)`*
+* *`Group by`: `Customer's order number`*
+* *`Chart Type`: `Column`*
 
 Below are some common month > second conversions, but google provides other values, including week > seconds conversions for any custom values you may be looking for.
 

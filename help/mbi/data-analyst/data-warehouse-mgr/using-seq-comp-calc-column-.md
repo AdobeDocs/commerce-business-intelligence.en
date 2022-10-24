@@ -9,7 +9,7 @@ This topic outlines the purpose and uses of the **Sequential Comparison** calcul
 
 **Explanation**
 
-The **Sequential Comparison** column type finds the difference between consecutive events. The most common type of **Sequential Comparison** column is the **Seconds since previous order** column. There are three inputs needed for this column:
+The **Sequential Comparison** [!UICONTROL Column type]: finds the difference between consecutive events. The most common type of **Sequential Comparison** column is the **Seconds since previous order** column. There are three inputs needed for this column:
 
 1. **Event Owner**: This input determines the entity for which rows are grouped. For example, in the **Seconds since previous order** column, the event owner is the customer, because we want to find the number of seconds since the previous order of the same customer.
 1. **Event Date**: This input enforces the sequence of events. In the case of **Seconds since previous order**, the column containing the timestamp of the order should be the **Event Date**. This input is always a timestamp.

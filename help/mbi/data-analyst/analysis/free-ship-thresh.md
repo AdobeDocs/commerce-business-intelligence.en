@@ -18,90 +18,94 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 ## Calculated Columns
 
-If you are on the original architecture (i.e., if you do not have the "Data Warehouse Views" option under the "Manage Data" menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
+If you are on the original architecture (i.e., if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
 
 * **`sales_flat_order`** table
   * This calculation creates buckets in increments relative to your typical cart sizes. This can range from increments including, 5, 10, 50, 100, etc
 
-* **`Order subtotal (buckets)`** Original Architecture: will be created by an analyst as part of your **[FREE SHIPPING ANALYSIS]** ticket
+* **`Order subtotal (buckets)`** Original Architecture: will be created by an analyst as part of your `**`[FREE SHIPPING ANALYSIS]` ticket
 * **`Order subtotal (buckets)`** New Architecture:
-  * As mentioned above, this calculation creates buckets in increments relative to your typical cart sizes. If you have a native subtotal column such as `**base_subtotal**`, that can be used as the basis of this new column. If not, it can be a calculated column that excludes shipping, discounts, etc. from revenue. Please note: the "bucket" sizes will depend on what is appropriate for you as a client. You could start with your "average order value" and create a certain number of buckets less than and greater than that amount. When looking at the calculation below, you will see how to easily copy part of the query, edit it, and create additional buckets. The example is done in increments of 50.
-  * Column type- Same table, Column definition- Calculation, Column Inputs- `base_subtotal`, or calculated column, Datatype- Integer
-  * Calculation-** case when A >= 0 and A<=200 then '0 - 200'**
-    **when A< 200 and A <= 250 then '201 - 250'**
-    **when A<251 and A<= 300 then '251 - 300'**
-    **when A<301 and A<= 350 then '301 - 350'**
-    **when A<351 and A<=400 then '351 - 400'**
-    **when A<401 and A<=450 then '401 - 450'**
-    **else 'over 450'**
-    **end**
+  * As mentioned above, this calculation creates buckets in increments relative to your typical cart sizes. If you have a native subtotal column such as `base_subtotal`, that can be used as the basis of this new column. If not, it can be a calculated column that excludes shipping, discounts, etc. from revenue. 
+
+>[!NOTE]
+>
+>The "bucket" sizes will depend on what is appropriate for you as a client. You could start with your `average order value` and create a certain number of buckets less than and greater than that amount. When looking at the calculation below, you will see how to easily copy part of the query, edit it, and create additional buckets. The example is done in increments of 50.
+
+  * **`Column type - Same table, Column definition- Calculation, Column Inputs-`** `base_subtotal`, or `calculated column`, `Datatype: `Integer`
+  * [!UICONTROL Calculation] - `case when A >= 0 and A<=200 then '0 - 200'`**`
+    when `A< 200` and `A <= 250` then `201 - 250`
+    when `A<251` and `A<= 300` then `251 - 300`
+    when `A<301` and `A<= 350` then `301 - 350`
+    when `A<351` and `A<=400` then `351 - 400`
+    when `A<401` and `A<=450` then `401 - 450`
+    else 'over 450'
+    end
 
 
 ## Metrics
 
 No new metrics!!!
 
-Note: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+>[!NOTE]
+>
+>Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 
 * **Average order value with shipping rule A**
-  * Metric: Average order value
+  * [!UICONTROL Metric]: `Average order value`
 
-* *Metric A: Average Order Value*
-* *Time period: Time period with shipping rule A*
-* *Interval: None*
-* *Chart Type: Scalar*
+* Metric `A`: `Average Order Value`
+* [!UICONTROL Time period]: `Time period with shipping rule A`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Chart Type]: `Scalar`
 
 * **Number of orders by subtotal buckets with shipping rule A**
-  * Metric: Number of orders
+  * [!UICONTROL Metric]: `Number of orders`
 
-  * Note: You can cut off the tail end by showing the top X sorted by Order subtotal (buckets) in the Show top/bottom.
+  >[!NOTE]
+  >
+  >You can cut off the tail end by showing the top `X` `sorted by` `Order subtotal` (buckets) in the `Show top/bottom`.
 
-* *Metric A: Number of orders*
-* *Time period: Time period with shipping rule A*
-* *Interval: None*
-* *Group by: Order subtotal (buckets)*
-* *Chart Type: Column*
+* Metric `A`: `Number of orders`
+* [!UICONTROL Time period]: `Time period with shipping rule A`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Group by]: `Order subtotal (buckets)`
+* [!UICONTROL Chart Type]: `Column`
 
 * **Percent of orders by subtotal with shipping rule A**
-  * Metric: Number of orders
-  ^
+  * [!UICONTROL Metric]: `Number of orders`
 
-  * Metric: Number of orders
-  * Group by: Independent
-  ^
+  * [!UICONTROL Metric]: `Number of orders`
+  * [!UICONTROL Group by]: `Independent`
+  * [!UICONTROL Formula]: `(A / B)`
+  * [!UICONTROL Format]: `%`
 
-  * Formula: (A / B)
-  * Format: %
-
-* *Metric A: Number of orders by subtotal (hide)*
-* *Metric B: Total number of orders* (hide)
-* *Formula: % of orders*
-* *Time period: Time period with shipping rule A*
-* *Interval: None*
-* *Group by: Order subtotal (buckets)*
-* *Chart Type: Line*
+* Metric `A`: `Number of orders by subtotal (hide)`
+* Metric `B`: `Total number of orders (hide)`
+* [!UICONTROL Formula]: `% of orders`
+* [!UICONTROL Time period]: `Time period with shipping rule A`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Group by]: `Order subtotal (buckets)`
+* [!UICONTROL Chart Type]: `Line`
 
 * **Percent of orders with subtotal exceeding shipping rule A**
-  * Metric: Number of orders
-  * Perspective: Cumulative
-  ^
+  * [!UICONTROL Metric]: `Number of orders`
+  * [!UICONTROL Perspective]: `Cumulative`
 
-  * Metric: Number of orders
-  * Group by: Independent
-  ^
+  * [!UICONTROL Metric]: `Number of orders`
+  * [!UICONTROL Group by]: `Independent`
 
-  * Formula: 1- (A / B)
-  * Format: %
+  * [!UICONTROL Formula]: `1- (A / B)`
+  * [!UICONTROL Format]: `%`
 
-* *Metric A: Number of orders by subtotal*
-* *Metric B: Total number of orders (hide)*
-* *Formula: % of orders*
-* *Time period: Time period with shipping rule A*
-* *Interval: None*
-* *Group by: Order subtotal (buckets)*
-* *Chart Type: Line*
+* Metric `A`: `Number of orders by subtotal`
+* Metric `B`: `Total number of orders (hide)`
+* [!UICONTROL Formula]: `% of orders`
+* [!UICONTROL Time period]: `Time period with shipping rule A`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Group by]: `Order subtotal (buckets)`
+* [!UICONTROL Chart Type]: `Line`
 
 
 Repeat the above steps and reports for Shipping B and the time period with shipping rule B.

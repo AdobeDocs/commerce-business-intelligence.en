@@ -6,7 +6,7 @@ description: Learn how to analyze customer repurchase behavior.
 
 If you offer more than one product, you probably wonder how customers that purchase a specific product behave differently over time compared to other customers. In this article, we explore analyses that can help you answer the following questions:
 
-Among customers who purchase a **specific item**,
+Among customers who purchase a *specific item*,
 
 * What is the probability they will make another purchase?
 * How long will it take for them to make another purchase?
@@ -71,6 +71,6 @@ Using the metrics we outlined in this article, you can also build other useful r
 
 In addition to analyzing the repurchasing behavior of your customers, you can also build analyses that look at customer loyalty. Consider analyzing patterns in customer churn - where are your customers leaving your site and not coming back? At what rate is this occurring?
 
-Once you have identified why churn is happening, you can use your analysis to build a "reactivation" campaign. Using this data, you can identify users who've become inactive, how long it is been since their last visit, what their last purchase was, and so on. This will allow you to make actionable decisions that will entice your customers to come back.
+Once you have identified why churn is happening, you can use your analysis to build a `reactivation` campaign. Using this data, you can identify users who've become inactive, how long it is been since their last visit, what their last purchase was, and so on. This will allow you to make actionable decisions that will entice your customers to come back.
 
 For help with analysis, [contact support](../../getting-started/support.md).
