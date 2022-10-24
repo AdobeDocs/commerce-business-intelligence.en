@@ -172,9 +172,9 @@ Columns to create
 * [!UICONTROL Formula]: `B / A`
 * [!UICONTROL Format]: `Percentage`
 
-* [!UICONTROL Time period: `All time`
-* [!UICONTROL Interval: `None`
-* [!UICONTROL Chart Type: `Number - % of orders with return`
+* [!UICONTROL Time period]: `All time`
+* [!UICONTROL Interval]: `None`
+* [!UICONTROL Chart Type]: `Number - % of orders with return`
 
 * **Revenue returned by month**
 * Metric `A`: `Returned item total value`

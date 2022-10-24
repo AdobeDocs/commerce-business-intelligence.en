@@ -432,7 +432,7 @@ Additional columns to create if guest orders NOT supported:
   * [!UICONTROL Filter]:
      * Number of orders with this coupon > 10
 
-* Metric ``A`: `Number of orders`
+* Metric `A`: `Number of orders`
 * Metric `B`: `Net revenue from orders`
 * Metric `C`: `Total discounts applied`
 * [!UICONTROL Formula]: `Gross revenue`

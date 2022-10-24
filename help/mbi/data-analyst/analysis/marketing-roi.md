@@ -12,7 +12,7 @@ If you are spending money on online advertising, you will inevitably want to tra
 
 ![](../../assets/Marketing_dashboard_example.png)
 
-Before getting started, you want to connect your [!DNL [Facebook Ads](../importing-data/integrations/facebook-ads.md)], [!DNL [Adwords](../importing-data/integrations/google-adwords.md)], and [!DNL [Google Ecommerce](../importing-data/integrations/google-ecommerce.md)] accounts as well as bring in any additional online ad spend data. This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
+Before getting started, you want to connect your [!DNL [Facebook Ads]](../importing-data/integrations/facebook-ads.md), [!DNL [Adwords]](../importing-data/integrations/google-adwords.md), and [!DNL [Google Ecommerce]](../importing-data/integrations/google-ecommerce.md) accounts as well as bring in any additional online ad spend data. This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Consolidated Tables
 
@@ -258,5 +258,5 @@ If you run into any questions while building this analysis, or simply want to en
 
 ### Related
 
-* [Best-Practices for UTM tagging in [!DNL Google Analytics](../../best-practices/utm-tagging-google.md)]
+* [Best-Practices for UTM tagging in [!DNL Google Analytics]](../../best-practices/utm-tagging-google.md)
 * [How does [!DNL Google Analytics] UTM attribution work?](../analysis/utm-attributes.md)

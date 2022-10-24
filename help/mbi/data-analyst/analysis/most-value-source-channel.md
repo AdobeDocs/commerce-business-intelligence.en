@@ -6,7 +6,7 @@ description: Learn about some reports that you can use to uncover your most valu
 
 You researched your audience, you created your campaign, you invested in a few marketing channels. Now that some time has passed, how are those channels performing? What channel has brought in the most new users? What source has contributed the most to your total revenue?
 
-With MBI, you can easily segment your revenue and users by referral source, whether it corresponds to [!DNL [Google Analytics' UTM fields](https://support.google.com/analytics/answer/1191184?hl=en)] or custom data fields. This segmentation will allow you to find your best performing channels and better invest your marketing budget.
+With MBI, you can easily segment your revenue and users by referral source, whether it corresponds to [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) or custom data fields. This segmentation will allow you to find your best performing channels and better invest your marketing budget.
 
 In this article, we explore some reports that you can use to uncover your most valuable marketing channels:
 
@@ -18,7 +18,7 @@ In this article, we explore some reports that you can use to uncover your most v
 
 ## Prerequisites {#prereqs}
 
-To build the analyses in this article, you need access to marketing acquisition/referral source data. If you are not already tracking it, you will need to bring [order referral source data from [!DNL Google ECommerce](../importing-data/integrations/google-ecommerce.md)] into [!DNL MBI] before you can continue. In addition, adding user device information to your analyses enables you to see what technology your referrals are using.
+To build the analyses in this article, you need access to marketing acquisition/referral source data. If you are not already tracking it, you will need to bring [order referral source data from [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md) into [!DNL MBI] before you can continue. In addition, adding user device information to your analyses enables you to see what technology your referrals are using.
 
 ## New users by source {#newusersbysource}
 
@@ -108,7 +108,7 @@ In this article, we touched on just a few analyses you can use to analyze the va
 
 ## Related {#related}
 
-* [Tracking order referral source via [!DNL Google ECommerce](../importing-data/integrations/google-ecommerce.md)]
+* [Tracking order referral source via [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md)
 * [Connecting your [!DNL Google Adwords] account](../importing-data/integrations/google-adwords.md)
 * [Building [!DNL Google ECommerce] dimensions with orders and customer data](../data-warehouse-mgr/bldg-google-ecomm-dim.md)
 * [Best-practices for UTM tagging in [!DNL Google Analytics]](../../best-practices/utm-tagging-google.md)

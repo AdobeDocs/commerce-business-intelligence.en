@@ -22,7 +22,7 @@ This information can be accessed by your server every time a request is made. In
 
 ### When should you record this data?
 
-We recommend you add a new field called `Platform` or `User-Agent` to your `Customers` `and `Orders` database tables to store this information whenever a user is created or an order is placed. If you are using a SQL database, this field should be a `VARCHAR(255)`. 
+We recommend you add a new field called `Platform` or `User-Agent` to your `Customers` and `Orders` database tables to store this information whenever a user is created or an order is placed. If you are using a SQL database, this field should be a `VARCHAR(255)`. 
 
 >[!NOTE]
 >

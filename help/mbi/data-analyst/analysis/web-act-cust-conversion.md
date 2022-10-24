@@ -52,7 +52,7 @@ This collection of reports is built using the following:
 1. Create a new report.
 1. Click **UICONTROL Add Metric**, mouse over the [!DNL Google Analytics] section at the bottom of the dropdown and select `Average Session Length`.
 1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to `by month`?
-1. Add a `Group by` and select `New or returning visitor`.  Check the `Show All`_` box; then click **[!UICONTROL Apply**.
+1. Add a `Group by` and select `New or returning visitor`.  Check the `Show All` box; then click **[!UICONTROL Apply]**.
 1. Give your report a name, like `Average session length`, and Click **[!UICONTROL Save]**.
 
 ### 5. Next, take a look at your top referring domains in the last 30 days:

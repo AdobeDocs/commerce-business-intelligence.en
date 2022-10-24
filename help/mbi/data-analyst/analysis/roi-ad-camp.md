@@ -45,12 +45,12 @@ Analyses (1) and (2) above are explored in a separate tutorial on [identifying y
 1. Select the [!UICONTROL Adword Cost] metric that we just created
 1. Set the [!UICONTROL Time period] to `All-time`, and [!UICONTROL Interval] to `None`
 1. Under the `Group by` tab, add `campaign` as [!UICONTROL grouping field], and click `Add All` in the box.
-1. This report will show your all-time [!DNL AdWord' cost by campaigns
+1. This report will show your all-time [!DNL AdWords] cost by campaigns
 
 **2. We will then create a report that counts new users by campaigns:**
 
 1. In any dashboard, click **[!UICONTROL Add Report > Create new report]**
-1. Select the `New users" metric that counts the number of new registered users over time
+1. Select the `New users` metric that counts the number of new registered users over time
 1. Set the [!UICONTROL Time period] to `All-time`, and [!UICONTROL Interval] to `None`
 1. Under the `Group by` tab, add `campaign` as `grouping field`, and click **`Add All`** in the box
 1. This report will show your all-time registered users by campaigns
@@ -72,7 +72,7 @@ Analyses (1) and (2) above are explored in a separate tutorial on [identifying y
 1. [!UICONTROL LTV]: Add the metric Average Lifetime Revenue - this will be variable \[`C`\]. This will simply return LTV by campaigns.
 
 1. Click the hide icon beside the word Chart so you can focus on the table
-1. Now we will use `Add Formula to combine these metrics, as follows:
+1. Now we will use `Add Formula` to combine these metrics, as follows:
 1. [!UICONTROL ROI]: Enter the formula `(\[C\]-\[A\]/\[B\])/(\[A\]/\[B\])`, if \[`A`\] represents `Ad Cost by Campaigns`, \[`B`\] represents `New users by campaigns`, and \[`C`\] `LTV by campaigns`. This will return the ratio of (average user LTV - average cost per acquisition) / (average cost per acquisition)
 1. [!UICONTROL Avg Return per User]: Enter the formula **\[`C`\]-(\[`A`\]/\[`B`\])**. This will return the average margin made on a user by calculating (average user LTV) - (average cost per acquisition).
 1. [!UICONTROL CPA]: Enter the formula **`\[A\]/\[B\]`**. This will return the actual campaign's cost per acquisition.
@@ -87,9 +87,9 @@ Analyses (1) and (2) above are explored in a separate tutorial on [identifying y
 Are you running product specific advertisements? If so, you can measure ROI on those campaigns by calculating revenue / cost for specific product(s).
 
 >[!NOTE]
-
->We will make the assumption that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI will account for the worst case scenario (highest cost per purchase), so you can be sure that your actual ROI is higher than this calculation.
 >
+>We will make the assumption that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI will account for the worst case scenario (highest cost per purchase), so you can be sure that your actual ROI is higher than this calculation 
+
 >Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1, but under our assumption that all cost went to acquire new users, the cost per purchase is $2.)*
 
 Before we start, [submit a support ticket](../../getting-started/support.md) to join the following dimensions to your line items table (e.g., `sales\_flat\_order\_item, order\_item`, etc.):
@@ -109,11 +109,11 @@ Before we start, [submit a support ticket](../../getting-started/support.md) to 
 
 **2. To calculate ROI, we will once again combine metrics in one report:**
 
-1. In any dashboard, click **[!UICONTROL Add Report > Create new report**
+1. In any dashboard, click **[!UICONTROL Add Report > Create new report]**
 1. Add the `Revenue by items` metric, following the filter and group by directions from the campaign for specific product(s) report above and click **[!UICONTROL Hide]** beneath the metric's scalar value
 1. Now add the [!DNL AdWords Cost] metric, following the filter and group by directions from the `Ad cost by campaigns` report we explored in the `User acquisition campaigns` section above; then click **[!UICONTROL Hide]** beneath the metric's scalar value
 1. With these metrics in place, we will now add formulas:
-1. [!UICONTROL ROI]: Enter the formula `**"`\[A\]/\[B\]`, if `\[A\]` represents `Revenue per campaign for specific product(s)` and `\[B\]` represents `Ad cost by campaigns`. This will return the ratio of (Revenue for specific product(s)) / (Campaign Cost)
+1. [!UICONTROL ROI]: Enter the formula `\[A\]/\[B\]`, if `\[A\]` represents `Revenue per campaign for specific product(s)` and `\[B\]` represents `Ad cost by campaigns`. This will return the ratio of (Revenue for specific product(s)) / (Campaign Cost)
 1. [!UICONTROL Return]: Enter the formula `\[A\]-\[B\]`. This will return the average margin made on a user by calculating (average user LTV) - (average cost per acquisition)
   1. (Optional) [!UICONTROL Revenue]: Unhide the `Revenue by items` metric to see revenue for specific product(s) per campaigns
   1. (Optional) [!UICONTROL Cost]: Unhide the `AdWords Cost` metric to see the cost for campaigns

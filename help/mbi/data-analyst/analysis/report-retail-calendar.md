@@ -140,7 +140,7 @@ Note: No new metrics are needed for this analysis. However, make sure to [add th
       * [!UICONTROL Metric]: `Number of orders`
       * [!UICONTROL Filter]:
          * [!UICONTROL Include current retail year? ]: `Yes`
-   * Metric `C``: `Avg order value`
+   * Metric `C`: `Avg order value`
       * [!UICONTROL Metric]: `Avg order value`
       * [!UICONTROL Filter]:
          * [!UICONTROL Include current retail year? ]: `Yes`

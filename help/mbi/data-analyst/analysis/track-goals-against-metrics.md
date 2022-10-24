@@ -66,11 +66,11 @@ As always, it is helpful to have a mix of static values and visual charts when a
 * Metric `B`: `Target Revenue`
 * [!UICONTROL Metric]: `Monthly Revenue Target`
 
-* `Metric `C`: `Revenue (amount change since previous year)` (hide)
+* Metric `C`: `Revenue (amount change since previous year)` (hide)
 * [!UICONTROL Metric]: `Revenue`
 * [!UICONTROL Perspective]: `Amount change vs. Previous year`
 
-* !UICONTROL Formula]: (This month last year)
+* [!UICONTROL Formula]: (This month last year)
 * [!UICONTROL Formula]: `(A-C)`
 * [!UICONTROL Format]: `Currency`
 
