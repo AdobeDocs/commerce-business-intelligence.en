@@ -88,9 +88,7 @@ Are you running product specific advertisements? If so, you can measure ROI on t
 
 >[!NOTE]
 >
->We will make the assumption that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI will account for the worst case scenario (highest cost per purchase), so you can be sure that your actual ROI is higher than this calculation 
-
->Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1, but under our assumption that all cost went to acquire new users, the cost per purchase is $2.)*
+>We will make the assumption that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI will account for the worst case scenario (highest cost per purchase), so you can be sure that your actual ROI is higher than this calculation. Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1, but under our assumption that all cost went to acquire new users, the cost per purchase is $2.)*
 
 Before we start, [submit a support ticket](../../getting-started/support.md) to join the following dimensions to your line items table (e.g., `sales\_flat\_order\_item, order\_item`, etc.):
 

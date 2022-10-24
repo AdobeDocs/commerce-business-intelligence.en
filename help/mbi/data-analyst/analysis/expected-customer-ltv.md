@@ -49,7 +49,7 @@ Columns to create on the **`orders`** table if using **calendar** months:
 * [!UICONTROL Datatype]: `Integer`
 * **Definition:**`case when A is null then null else ((date_part('year',current_timestamp::date) - date_part('year',A::date))*12 + date_part('month',current_timestamp::date) - date_part('month',A::date))::int end`
 
-* [!UICONTROL Column name]: `Is in current month? (Yes/No)
+* [!UICONTROL Column name]: `Is in current month? (Yes/No)`
 * [!UICONTROL Column type]: `Same Table`
 * [!UICONTROL Column equation]: `CALCULATION`
 * [!UICONTROL Column input]: A = `created_at`

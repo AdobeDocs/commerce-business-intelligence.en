@@ -20,13 +20,13 @@ We recommend two methods to track referral source data based on your setup:
 
 If you leverage [!DNL Google Analytics E-Commerce] to track your order and sales data, you can leverage our [!DNL [Google Analytics E-Commerce Connector]](../importing-data/integrations/google-ecommerce.md) to sync each order's referral source data. This will allow you to segment revenue and orders by referral source (e.g., `utm_source`, `utm_medium`, etc.) and also get a sense of customer acquisition sources via [!DNL MBI] custom dimensions such as `User's first order source`.
 
->[!NOTE}
+>[!NOTE]
 >
 >For Shopify users**: Turn on [!DNL [Google Analytics E-Commerce] tracking in Shopify](http://docs.shopify.com/manual/settings/general/google-analytics#ecommerce-tracking) before connecting your [!DNL Google Analytics E-Commerce] account to [!DNL MBI].
 
 ### (Option 2) Saving [!DNL Google Analytics]' acquisition source data in your database
 
-In this article we will explain how to save [!DNL Google Analytics] acquisition channel information into your own database - namely the `source`, `medium`, `term`, `content`, `campaign`, and `gclid` parameters that were present on a user's first visit to your website. For an explanation of these parameters, check out the [!DNL [Google Analytics documentation](http://support.google.com/analytics/bin/answer.py?hl=en&answer=1191184)]. Then, we will explore some of the powerful marketing analyses that can be performed with this information in MBI.
+In this article we will explain how to save [!DNL Google Analytics] acquisition channel information into your own database - namely the `source`, `medium`, `term`, `content`, `campaign`, and `gclid` parameters that were present on a user's first visit to your website. For an explanation of these parameters, check out the [!DNL [Google Analytics] documentation](http://support.google.com/analytics/bin/answer.py?hl=en&answer=1191184). Then, we will explore some of the powerful marketing analyses that can be performed with this information in MBI.
 
 #### Why?
 
