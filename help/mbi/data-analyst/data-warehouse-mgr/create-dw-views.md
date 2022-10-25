@@ -20,7 +20,7 @@ If you are familiar with SQL, both of these consolidation examples utilize the `
 
 ## Creating and Managing Data Warehouse Views
 
-New `Data Warehouse Views`_` can be created and existing views can be deleted by navigating to **[!UICONTROL Manage Data]** > **[!UICONTROL Data Warehouse Views]**, as shown below:
+New `Data Warehouse Views` can be created and existing views can be deleted by navigating to **[!UICONTROL Manage Data]** > **[!UICONTROL Data Warehouse Views]**, as shown below:
 
 ![](../../assets/Data_Warehouse_Views.png)
 
@@ -59,7 +59,7 @@ Let us take a look a closer look at one of the examples mentioned earlier in thi
 
 `Table name: facebook_ads_insights_12345`
 
-`Sample data:`**`
+`Sample data:`
 
 |**`_id`**|**`campaign`**|**`adClicks`**|**`date`**|**`impressions`**|**`adCost`**|
 |--- |--- |--- |--- |--- |--- |

@@ -24,7 +24,7 @@ The table would contain these columns:
 | Column Name | Description |
 | --- | --- |
 | `_id` | This column is the primary key. |
-| `_item_hash` | [!DNL MBI] unique identifier. This column is created by [!DNL MBI].L MBI].|
+| `_item_hash` | [!DNL MBI] unique identifier. This column is created by [!DNL MBI].|
 | `_updated_at` | This column contains the last time the data row was updated. It is created by [!DNL MBI].|
 | `start_date` | Start date of included data for the row. `start_date` will always be 00:00 of the same day within one row.|
 | `end_date` | End date of included data for the row. `end_date` will always be 23:59 of the same day within one row.|

@@ -27,7 +27,7 @@ Therefore it is possible to report on sales of products either at the simple lev
 |`item_id` (PK)|Unique identifier for the table|
 |`name`|Text name of the order item|
 |`order_id`|`Foreign key` associated with the `sales_order` table. Join to `sales_order.entity_id` to determine order attributes associated with the order item|
-|`parent_item_id`|`Foreign ke`y` that relates a simple product to its parent bundle or configurable product. Join to `sales_order_item.item_id` to determine parent product attributes associated with simple product. For parent order items (that is, bundle or configurable product types), the `parent_item_id` will be `NULL`|
+|`parent_item_id`|`Foreign key` that relates a simple product to its parent bundle or configurable product. Join to `sales_order_item.item_id` to determine parent product attributes associated with simple product. For parent order items (that is, bundle or configurable product types), the `parent_item_id` will be `NULL`|
 |`product_id`|`Foreign key` associated with the `catalog_product_entity` table. Join to `catalog_product_entity.entity_id` to determine product attributes associated with the order item|
 |`product_type`|Type of product that was sold. Potential [product types](https://docs.magento.com/m2/ce/user_guide/catalog/product-types.html) include: simple, configurable, grouped, virtual, bundle, and downloadable|
 |`qty_ordered`|Quantity of units included in the cart for the particular order item at the time of sale|

@@ -34,7 +34,7 @@ After clicking the **Connect with Stripe**, an access request page appears.
 
 ## Related:
 
-If you are a little more tech-savvy, the [Stripe API Documentation](https://stripe.com/docs/api) can be a useful resource for learning more about how Stripe is integrated with [!DNL MBI].L MBI].
+If you are a little more tech-savvy, the [Stripe API Documentation](https://stripe.com/docs/api) can be a useful resource for learning more about how Stripe is integrated with [!DNL MBI].
 
 * [Expected Stripe data](../integrations/stripe-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)

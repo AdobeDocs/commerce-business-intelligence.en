@@ -84,7 +84,7 @@ To help you master creating these columns, [we created a tutorial](../../data-an
 
 Just as you have the ability to select tables and columns to sync to your Data Warehouse, you also have the ability to drop or remove them. 
 
->[!NOTE}
+>[!NOTE]
 >
 >Dropping a table or removing columns will delete any dependent reports, metrics, filter sets and columns once you confirm the deletion. Be certain you want to do this - **this action cannot be undone.**
 

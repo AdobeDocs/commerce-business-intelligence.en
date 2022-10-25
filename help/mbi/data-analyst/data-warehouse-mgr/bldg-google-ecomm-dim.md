@@ -94,7 +94,7 @@ Next, try creating **Customer's first order's [!DNL Google Analytics] medium** a
 
 You can stop here if you want, but this section enables further analysis by bringing the **Customer's first order's [!DNL Google Analytics] dimensions** we created in the [last section](#customers) into the `orders` table. Creating the dimensions in this section lets you analyze all the metrics built on your `orders` table - `Revenue`, `Number of orders`, `Distinct buyers`, and so on - using the [!DNL Google Analytics] attributes of a customer's first order.
 
-In this example, we join the `Customer's first order's [!DNL Google Analytics] source dimension to the `orders` table.
+In this example, we join the `Customer's first order's [!DNL Google Analytics] source` dimension to the `orders` table.
 
 1. From the list of tables in the Data Warehouse, click the table (in our case, `orders`) that contains your order information.
 1. Click **[!UICONTROL Create a Column]**.

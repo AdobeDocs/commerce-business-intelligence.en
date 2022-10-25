@@ -1,9 +1,8 @@
 ---
-title: [!DNL MongoDB] data modeling
+title: MongoDB data modeling
 description: Learn how to avoid data patterns that pose an issue.
 ---
 # [!DNL MongoDB] Data Modeling
-
 
 When [!DNL MBI] pulls in [!DNL MongoDB] data, that data is translated into a relational model.
 

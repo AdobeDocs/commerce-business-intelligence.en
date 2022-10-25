@@ -8,7 +8,7 @@ This topic outlines the purpose and uses of the `Event Number` calculated column
 
 **Explanation**
 
-The `Event Number` column type: identifies the sequence in which events occurred for a particular **event owner**, like a `customer` or `user`*`. If you are familiar with SQL, this column type is identical to the `RANK` function. It could be used to observe differences in behavior between first-time events, repeat events, or nth events in your data.
+The `Event Number` column type: identifies the sequence in which events occurred for a particular **event owner**, like a `customer` or `user`. If you are familiar with SQL, this column type is identical to the `RANK` function. It could be used to observe differences in behavior between first-time events, repeat events, or nth events in your data.
 
 In case of ties, this column contains the same **rank** for the tied events, and skips the subsequent numbers. For example, if it were ranking the numbers 5,8,10,10,12, the ranks would be 1,2,3,3,5.
 

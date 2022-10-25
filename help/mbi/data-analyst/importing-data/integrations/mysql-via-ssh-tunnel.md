@@ -92,7 +92,7 @@ To restrict this user from accessing data in specific databases, tables, or colu
 
 ## Entering the connection and user info into [!DNL MBI] {#finish}
 
-To wrap things up, we need to enter the connection and user info into [!DNL MBI].L MBI]. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click **Add New Data Source**, then the MySQL icon. do not forget to set the _Encrypted_ toggle to `Yes`.
+To wrap things up, we need to enter the connection and user info into [!DNL MBI]. Did you leave the MySQL credentials page open? If not, go to **[!UICONTROL Data > Connections]** and click **[!UICONTROL Add New Data Source]**, then the MySQL icon. do not forget to set the `Encrypted` toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 

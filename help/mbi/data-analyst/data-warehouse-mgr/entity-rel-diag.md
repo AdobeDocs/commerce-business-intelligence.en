@@ -34,7 +34,7 @@ Within [!DNL MBI], if the path between these two tables does not already exist, 
 
 ## `sales\_flat\_order & sales\_flat\_order\_item`
 
-![1_OneOrderManyItems`](../../assets/1_OneOrderManyItems.png)
+![1_OneOrderManyItems](../../assets/1_OneOrderManyItems.png)
 
 One order can contain many items. The relationship between these two tables is `sales\_flat\_order.entity\_id = sales\_flat\_order\_item.order\_id`.
 

@@ -92,7 +92,7 @@ This method is not ideal, as it is incredibly slow due to the amount of processi
 
 ## Setting replication methods
 
-Replication methods are set on a table-by-table basis. To set a replication method for a table, you need [`Admin](../../administrator/user-management/user-management.md) permissions so you can access the Data Warehouse Manager.
+Replication methods are set on a table-by-table basis. To set a replication method for a table, you need [`Admin`](../../administrator/user-management/user-management.md) permissions so you can access the Data Warehouse Manager.
 
 1. Once in the Data Warehouse Manager, select the table from the `Synced Tables` list to display the table's schema.
 1. The current replication method is listed below the table name. To change it, click the link.

@@ -93,7 +93,7 @@ Once you identify the columns that link two tables together, use the column type
 
 If the tables are linked using the `primary key` of both tables, then the same unique entity is being described in each table and the relationship is `one-to-one`.
 
-For example, a `users` table may capture most user attributes (such as name) while a supplemental ``user_source` table captures user registration sources. In each table, a row represents one user.
+For example, a `users` table may capture most user attributes (such as name) while a supplemental `user_source` table captures user registration sources. In each table, a row represents one user.
 
 ![](../../assets/one-to-one1.png)
 
