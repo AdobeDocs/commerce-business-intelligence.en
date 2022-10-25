@@ -10,7 +10,7 @@ description: Learn how to use metrics to create charts.
 
 Simply put, a metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period of time.
 
-In MBI, you can use metrics to [create charts](../../data-user/reports/ess-rpt-build-visual.md). For example, the metric **revenue** is the total amount of orders. The metric **average customer revenue per order** is what the average customer spends per order.
+In [!DNL MBI], you can use metrics to [create charts](../../data-user/reports/ess-rpt-build-visual.md). For example, the metric **revenue** is the total amount of orders. The metric **average customer revenue per order** is what the average customer spends per order.
 
 When used in reports, metrics can be analyzed over a specified time period and [filtered or segmented](../../best-practices/segment-filter.md) by different categories. Consider analyzing average customer revenue grouped by gender - in this case, **average customer revenue per order** is the metric and gender is the grouping.
 

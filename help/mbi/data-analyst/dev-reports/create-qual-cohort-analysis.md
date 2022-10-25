@@ -1,12 +1,12 @@
 ---
 title: Create a qualitative cohort analysis
-description: Learn what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in MBI.
+description: Learn what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL MBI].
 ---
 # Create a Qualitative Cohort Analysis
 
 Do you know how your Adwords-acquired customer segments grow their LTV compared to those customers acquired from organic search? Have you ever thought of performing a cohort analysis on different customer segments side-by-side in the same report? If so, a **qualitative cohort analysis** will help you answer those questions.
 
-In this article, we dive into what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in MBI.
+In this article, we dive into what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL MBI].
 
 ## What are qualitative cohorts, anyway? {#whatare}
 

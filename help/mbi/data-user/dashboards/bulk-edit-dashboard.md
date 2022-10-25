@@ -1,6 +1,6 @@
 ---
 title: Bulk-editing Charts in Dashboards
-description: Learn how to use the bulk editing feature in MBI.
+description: Learn how to use the bulk editing feature in [!DNL MBI].
 ---
 # Bulk editing Charts in Dashboards
 

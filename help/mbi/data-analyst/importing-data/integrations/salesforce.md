@@ -26,7 +26,7 @@ That is it! After your credentials are validated, Salesforce setup will be compl
 
 ## Related:
 
-If you are a little more tech-savvy, the [Salesforce API Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) can be a useful resource for learning more about how Salesforce is integrated with MBI.
+If you are a little more tech-savvy, the [Salesforce API Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) can be a useful resource for learning more about how Salesforce is integrated with [!DNL MBI].L MBI].L MBI].
 
 * [Expected Salesforce data](../integrations/salesforce-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)

@@ -2,7 +2,7 @@
 title: sales_order table
 description: Learn how to work with the sales_order table.
 ---
-# sales_order Table
+# `sales_order` Table
 
 The `sales_order` table (`sales_flat_order` on M1) is where each order is captured. In most cases, each row represents one unique order, although there are some custom implementations of **[!UICONTROL Magento]** that result in splitting an order into separate rows.
 
@@ -14,21 +14,21 @@ This table includes all customer orders, whether or not that order was processed
 |---|---|
 |`base_currency_code`|Currency for all values captured in `base_*` fields (that is `base_grand_total`, `base_subtotal`, and so on). This typically reflects the **[!UICONTROL Magento]** store's default currency|
 |`base_discount_amount`|Discount value applied to order|
-|`base_grand_total`|Final price paid by the customer on the order, after all taxes, shipping, and discounts are applied. Although the precise calculation is customizable, in general the `base_grand_total` is calculated as `base_subtotal` + `base_tax_amount` + `base_shipping_amount` + `base_discount_amount` - `base_gift_cards_amount` - `base_customer_balance_amount`|
+|`base_grand_total`|Final price paid by the customer on the order, after all taxes, shipping, and discounts are applied. Although the precise calculation is customizable, in general the `base_grand_total` is calculated as `base_subtotal` + `base_tax_amount` + `base_shipping_amount` `+` `base_discount_amount` `-` `base_gift_cards_amount` `-` `base_customer_balance_amount`|
 |`base_subtotal`|Gross merchandise value of all items included in the order. Taxes, shipping, discounts and so on are not included|
 |`base_shipping_amount`|Shipping value applied to order|
 |`base_tax_amount`|Tax value applied to order|
-|`billing_address_id`|Foreign key associated with the `sales_order_address` table. Join to `sales_order_address.entity_id` to determine the billing address details associated with the order|
+|`billing_address_id`|`Foreign key` associated with the `sales_order_address` table. Join to `sales_order_address.entity_id` to determine the billing address details associated with the order|
 |`coupon_code`|Coupon applied to order. If no coupon is applied, this field will be `NULL`|
-|`created_at`|Creation timestamp of the order, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
+|`created_at`|Creation timestamp of the order, usually stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
 |`customer_email`|Email address of the customer placing the order. This will be populated in all situations, including orders processed through guest checkout|
 |`customer_group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the order|
-|`customer_id`|Foreign key associated with the `customer_entity` table, if the customer is registered. Join to `customer_entity.entity_id` to determine customer attributes associated with the order. If the order was placed through guest checkout, this field will be `NULL`|
+|`customer_id`|`Foreign key` associated with the `customer_entity` table, if the customer is registered. Join to `customer_entity.entity_id` to determine customer attributes associated with the order. If the order was placed through guest checkout, this field will be `NULL`|
 |`entity_id` (PK)|Unique identifier for the table, and commonly used in joins to other tables within the **[!UICONTROL Magento]** instance|
-|`increment_id`|Unique identifier for an order, and commonly referred to as the `order_id` within Magento. The `increment_id` is most often used for joins to external sources, such as Google Ecommerce|
+|`increment_id`|Unique identifier for an order, and commonly referred to as the `order_id` within Magento. The `increment_id` is most often used for joins to external sources, such as [!DNL Google Ecommerce]|
 |`shipping_address_id`|Foreign key associated with the `sales_order_address` table. Join to `sales_order_address.entity_id` to determine the shipping address details associated with the order|
 |`status`|Order's status. May return values such as 'complete', 'processing', 'cancelled', 'refunded', as well as any custom statuses implemented on the **[!UICONTROL Magento]** instance. Subject to changes as the order gets processed|
-|`store_id`|Foreign key associated with the `store` table. Join to `store`.`store_id` to determine which **[!UICONTROL Magento]** store view is associated with the order|
+|`store_id`|`Foreign key` associated with the `store` table. Join to `store`.`store_id` to determine which **[!UICONTROL Magento]** store view is associated with the order|
 
 {style="table-layout:auto"}
 
@@ -61,17 +61,17 @@ This table includes all customer orders, whether or not that order was processed
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|Avg order value|The average revenue per order, where revenue is defined as the `base_grand_total`|Operation: Average<br/>Operand: `base_grand_total`<br/>Timestamp: `created_at`|
-|Avg time between orders|The average time between a customer's (n-1) order and nth order, for all customers and orders|Operation: Average<br/>Operand: `Seconds since previous order`<br/>Timestamp: `created_at`|
-|GMV|The sum of the gross merchandise value for all orders, where GMV is defined as the subtotal, before all taxes and discounts are applied|Operation: Sum<br/>Operand: `base_subtotal`<br/>Timestamp: `created_at`|
-|Median time between orders|The median time between a customer's (n-1) order and nth order, for all customers and orders|Operation: Median<br/>Operand: `Seconds since previous order`<br/>Timestamp: `created_at`|
-|Orders|The total count of orders placed|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `created_at`|
-|Revenue|The sum of the revenue for all orders, where revenue is defined as the final price paid by the customer, after all taxes, discounts, shipping, and so on are applied|Operation: Sum<br/>Operand: `base_grand_total`<br/>Timestamp: `created_at`|
-|Shipping|The sum of the shipping amount for all orders|Operation: Sum<br/>Operand: `base_shipping_amount`<br/>Timestamp: `created_at`|
-|Tax|The sum of the taxes applied to all orders|Operation: Sum<br/>Operand: `base_tax_amount`<br/>Timestamp: `created_at`|
-|Unique Customers|The number of unique customers placing an order in the given reporting time interval. For example if the report's interval was weekly, each customer who places at least one order in a given week will be counted exactly once, regardless of how many orders they placed in that week|Operation: Count Distinct<br/>Operand: `customer_email`<br/>Timestamp: `created_at`|
+|`Avg order value`|The average revenue per order, where revenue is defined as the `base_grand_total`|`Operation: Average`<br/>`Operand: base_grand_total`<br/>`Timestamp: created_at`|
+|`Avg time between orders`|The average time between a customer's (n-1) order and nth order, for all customers and orders|`Operation: Average`<br/>`Operand: Seconds since previous order`<br/>`Timestamp:` `created_at`|
+|`GMV`|The sum of the gross merchandise value for all orders, where GMV is defined as the subtotal, before all taxes and discounts are applied|`Operation: Sum`<br/>`Operand: base_subtotal`<br/>`Timestamp: created_at`|
+|`Median time between orders`|The median time between a customer's (n-1) order and nth order, for all customers and orders|`Operation: Median`<br/>`Operand: Seconds since previous order`<br/>`Timestamp:` `created_at`|
+|`Orders`|The total count of orders placed|`Operation: Count`<br/>`Operand: entity_id`<br/>`Timestamp:` `created_at`|
+|`Revenue`|The sum of the revenue for all orders, where revenue is defined as the final price paid by the customer, after all taxes, discounts, shipping, and so on are applied|`Operation: Sum`<br/>`Operand: base_grand_total`<br/>`Timestamp:` `created_at`|
+|`Shipping`|The sum of the shipping amount for all orders|`Operation: Sum`<br/>`Operand: base_shipping_amount`<br/>`Timestamp:` `created_at`|
+|`Tax`|The sum of the taxes applied to all orders|`Operation: Sum`<br/>`Operand:` `base_tax_amount`<br/>`Timestamp:` `created_at`|
+|`Unique Customers`|The number of unique customers placing an order in the given reporting time interval. For example if the report's interval was weekly, each customer who places at least one order in a given week will be counted exactly once, regardless of how many orders they placed in that week|`Operation: Count Distinct`<br/>`Operand:` `customer_email`<br/>`Timestamp:` `created_at`|
 
-## Foreign Key Joining Paths
+## `Foreign Key` Joining Paths
 
 `customer_entity`
 

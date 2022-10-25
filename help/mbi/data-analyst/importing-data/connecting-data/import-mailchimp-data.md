@@ -1,10 +1,10 @@
 ---
 title: Import MailChimp data
-description: Learn to import MailChimp data into MBI.
+description: Learn to import MailChimp data into [!DNL MBI].
 ---
 # Import MailChimp data
 
-To get a comprehensive picture of your campaigning efforts, you can import your MailChimp email campaign data into MBI. To complete the import, you need to do the following for each MailChimp campaign you have:
+To get a comprehensive picture of your campaigning efforts, you can import your MailChimp email campaign data into [!DNL MBI]. To complete the import, you need to do the following for each MailChimp campaign you have:
 
 ## Export Opens data {#opens}
 

@@ -1,6 +1,6 @@
 ---
 title: Connect PrestaShop
-description: Learn how to connect PrestaShop data to MBI.
+description: Learn how to connect PrestaShop data to [!DNL MBI].
 ---
 # Connect PrestaShop
 

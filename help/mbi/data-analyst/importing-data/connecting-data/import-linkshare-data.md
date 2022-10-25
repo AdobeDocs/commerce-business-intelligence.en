@@ -1,10 +1,10 @@
 ---
 title: Importing Linkshare data
-description: Learn to import Linkshare data into MBI.
+description: Learn to import Linkshare data into [!DNL MBI].
 ---
 # Import Linkshare data
 
-To bring your Linkshare data into MBI, you need to do two things:
+To bring your Linkshare data into [!DNL MBI], you need to do two things:
 
 1. [Export the Linkshare data in CSV format](#export)
 1. [Upload the spreadsheet into MBI](../connecting-data/using-file-uploader.md)
@@ -17,7 +17,7 @@ To bring your Linkshare data into MBI, you need to do two things:
 
 1. Leave all other drop-down options as the default selection.
 
-1. In the **Date Range** dropdown, select whichever option (Sun - Sat, Mon - Sun) matches with your Start of Week settings in MBI.
+1. In the **Date Range** dropdown, select whichever option (Sun - Sat, Mon - Sun) matches with your Start of Week settings in [!DNL MBI].
 
 1. Clear the **Compare Year-Over-Year Data** checkbox.
 

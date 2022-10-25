@@ -36,7 +36,7 @@ For the connection to be successful, your must configure your firewall to allow 
 
 ## Entering the connection and VPN user info into [!DNL MBI] {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the database credentials page open? If not, go to **Manage Data > Connections** and click **Add New Data Source**, then the icon for the database you are connecting. do not forget to change the _Encrypted_ toggle to `Yes`.
+To wrap things up, we need to enter the connection and user info into [!DNL MBI]. Did you leave the database credentials page open? If not, go to **Manage Data > Connections** and click **Add New Data Source**, then the icon for the database you are connecting. do not forget to change the _Encrypted_ toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 

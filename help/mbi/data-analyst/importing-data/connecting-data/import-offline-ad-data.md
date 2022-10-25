@@ -1,6 +1,6 @@
 ---
 title: Import other ad spend data
-description: Learn to import offline or other ad spend data into MBI.
+description: Learn to import offline or other ad spend data into [!DNL MBI].
 ---
 # Import other ad spend data
 
@@ -14,7 +14,7 @@ After you have exported the ad spend data, use [the File Upload feature](../conn
 
 ## Offline Sources
 
-In addition to your online campaigns, you may also have advertisements offline, such as on the radio or a billboard. To account for these cases, you can manually upload a spreadsheet with the cost data to MBI.
+In addition to your online campaigns, you may also have advertisements offline, such as on the radio or a billboard. To account for these cases, you can manually upload a spreadsheet with the cost data to [!DNL MBI].
 
 The table structure explored below is recommended when creating a CSV file to record ad spend data. A template file is also attached at the bottom of this article to serve as example. Recommended columns are:
 

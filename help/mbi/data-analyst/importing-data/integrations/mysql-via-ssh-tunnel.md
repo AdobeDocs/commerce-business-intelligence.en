@@ -76,7 +76,7 @@ This can be a production or secondary machine, as long as it contains real-time 
 
 **Important!**
 
-If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to MBI. In these cases, it is necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
+If the **sshd\_config** file associated with the server is not set to the default option, only certain users will have server access - this will prevent a successful connection to [!DNL MBI]. In these cases, it is necessary to run a command like **AllowUsers** to allow the rjmetric user access to the server.
 
 ## Creating a MySQL user for [!DNL MBI] {#mysql}
 
@@ -92,7 +92,7 @@ To restrict this user from accessing data in specific databases, tables, or colu
 
 ## Entering the connection and user info into [!DNL MBI] {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click **Add New Data Source**, then the MySQL icon. do not forget to set the _Encrypted_ toggle to `Yes`.
+To wrap things up, we need to enter the connection and user info into [!DNL MBI].L MBI]. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click **Add New Data Source**, then the MySQL icon. do not forget to set the _Encrypted_ toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 

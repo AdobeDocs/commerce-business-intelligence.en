@@ -10,7 +10,7 @@ description: Learn how to create columns to augment and optimize your data for a
 * [Handy reference map](#map)
 * [Advanced calculated columns](#advanced)
 
-Within the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), you have the ability to create columns to augment and optimize your data for analysis. [This functionality](../data-warehouse-mgr/creating-calculated-columns.md) can be accessed by selecting any table in the Data Warehouse Manager and clicking **Create New Column**.
+Within the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), you have the ability to create columns to augment and optimize your data for analysis. [This functionality](../data-warehouse-mgr/creating-calculated-columns.md) can be accessed by selecting any table in the Data Warehouse Manager and clicking **[!UICONTROL Create New Column]**.
 
 This article describes the types of columns that you can create with the Data Warehouse Manager, along with a description, a visual walk through of that column, and a [reference map](#map) of all the inputs required to create a column. There are three ways to create calculated columns:
 
@@ -26,7 +26,7 @@ These columns are built using input columns from the same table.
 
 An age calculated column returns the number of seconds between the current time and some input time.
 
-In the example below, we created **Seconds since customer's most recent order** in the **customers**table. This can be leveraged to construct user lists of customers who have not made purchases (sometimes referred to as churning) within X days.
+In the example below, we created `Seconds since customer's most recent order` in the `customers` table. This can be leveraged to construct user lists of customers who have not made purchases (sometimes referred to as churning) within `X days`.
 
 ![](../../assets/age.gif)
 
@@ -34,21 +34,21 @@ In the example below, we created **Seconds since customer's most recent order** 
 
 A currency converter calculated column converts the native currency of a column to a desired new currency.
 
-In the example below, we created **base\_grand\_total In AED**, converting the **base\_grand\_total** from it is native currency to AED in the **sales\_flat\_order** table. This column works well for stores with multiple currencies that want to report in their local currency.
+In the example below, we created `base\_grand\_total In AED`, converting the `base\_grand\_total` from it is native currency to AED in the `sales\_flat\_order` table. This column works well for stores with multiple currencies that want to report in their local currency.
 
-For **[!UICONTROL Magento]** clients, the **base\_currency\_code** field typically stores native currencies. The **Spot Time** field should match the date used in your metrics.
+For **[!UICONTROL Magento]** clients, the `base\_currency\_code` field typically stores native currencies. The `Spot Time` field should match the date used in your metrics.
 
 ![](../../assets/currency_converter.png)
 
 ## One-to-many calculated columns {#onetomany}
 
-One-to-Many columns [utilize a path between two tables](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). This path always implies a one table, where an attribute lives, and a many table, where that attribute gets "relocated" down to. The path can be described as a **foreign key--primary key** relationship.
+`One-to-Many` columns [utilize a path between two tables](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). This path always implies a one table, where an attribute lives, and a many table, where that attribute gets "relocated" down to. The path can be described as a `foreign key--primary key` relationship.
 
 ### Joined column {#joined}
 
 A joined column relocates an attribute on the one table *to* the many table. The classic example of one/many is customers (one) and orders (many).
 
-In the example below, the **Customer's group\_id** dimension gets joined down into the orders table.
+In the example below, the `Customer's group\_id` dimension gets joined down into the `orders` table.
 
 ![](../../assets/joined_column.gif)
 
@@ -60,27 +60,27 @@ These columns utilize the same paths that one-to-many columns do, but they point
 
 This type of calculated column returns the count of values on the many table *onto* the one table.
 
-In the example below, the dimension **Customer's lifetime number of canceled orders** is created on the **customers table** (with a filter for **orders.status**).
+In the example below, the dimension `Customer's lifetime number of canceled orders` is created on the `customers` table (with a filter for `orders.status`).
 
 ![](../../assets/many_to_one.gif){: width="699" height="351"}
 
 ### Sum {#sum}
 
-A sum calculated column is the sum of values on the "many" table onto the one table.
+A sum calculated column is the sum of values on the `many` table onto the one table.
 
-This can be used to create customer-level dimensions like **Customer's lifetime revenue**.
+This can be used to create customer-level dimensions like `Customer's lifetime revenue`.
 
 ### Min or Max {#minmax}
 
 A min or max calculated column returns the smallest or largest record that exists on the many side.
 
-This can be used to create customer-level dimensions like **Customer's first order date**.
+This can be used to create customer-level dimensions like `Customer's first order date`.
 
 ### Exists {#exists}
 
 An exists calculated column is a binary test determining the presence of a record on the many side. In other words, the new column will return a `1` if the path connects at least one row in each table, and `0` if no connection can be made.
 
-This type of dimension might determine, for example, if a customer ever purchased a particular product. Using a join between a _customers_ table and _orders_ table, a filter for a specific product, a dimension **Customer has purchased Product X?** can be built.
+This type of dimension might determine, for example, if a customer ever purchased a particular product. Using a join between a `customers` table and `orders` table, a filter for a specific product, a dimension `Customer has purchased Product X?` can be built.
 
 ## Handy reference map {#map}
 

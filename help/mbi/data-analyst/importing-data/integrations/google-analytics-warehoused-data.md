@@ -30,8 +30,8 @@ The table would look like the example below.
 | **Column Name** | **Description** |
 |-----|-----|
 | \_id | This column is the primary key. |
-| \_rjm\_record\_hash | [!DNL MBI] unique identifier. This column is created by MBI. |
-| \_updated\_at | This column contains the last time that the data row was updated. This column is created by MBI. |
+| \_rjm\_record\_hash | [!DNL MBI] unique identifier. This column is created by [!DNL MBI]. |
+| \_updated\_at | This column contains the last time that the data row was updated. This column is created by [!DNL MBI]. |
 | start-date | Identification of what day the row is for. |
 | end-date | Identification of what day the row is for. |
 | month | Selected dimension: Month of the session, a two digit integer from 01 to 12. |

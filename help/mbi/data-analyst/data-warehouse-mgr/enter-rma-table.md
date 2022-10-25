@@ -4,17 +4,21 @@ description: Learn how analyze information about a specific return request.
 ---
 # enterprise_rma Table
 
-Each row in the `enterprise_rma` table (often called `magento_rma` in **[!UICONTROL Magento]** 2.x, but the name can be customized) contains information about a specific return request. **Note:** _This table only comes standard with your **[!UICONTROL Magento]** account if you are an Enterprise Edition or Enterprise Cloud Edition customer._
+Each row in the `enterprise_rma` table (often called `magento_rma` in **[!UICONTROL Magento]** 2.x, but the name can be customized) contains information about a specific return request. 
+
+>[!NOTE]
+>
+>This table only comes standard with your **[!UICONTROL Magento]** account if you are an `Enterprise Edition` or `Enterprise Cloud Edition` customer.
 
 ## Common Native Columns
 
 |**Column Name**|**Description**|
 |---|---|
-|entity\_id|Unique identifier for the table. Each `entity\_id` represents a return request.|
-|date\_requested|The date that the return was requested.|
-|status|The status of the return. Values include 'received', 'pending', 'authorized', among others.|
-|order\_id|Foreign key associated with the `sales\_flat\_order` table.|
-|customer\_id|Foreign key associated with the `customer\_entity` table.|
+|`entity\_id`|Unique identifier for the table. Each `entity\_id` represents a return request.|
+|`date\_requested`|The date that the return was requested.|
+|`status`|The status of the return. Values include 'received', 'pending', 'authorized', among others.|
+|`order\_id`|Foreign key associated with the `sales\_flat\_order` table.|
+|`customer\_id`|Foreign key associated with the `customer\_entity` table.|
 
 {style="table-layout:auto"}
 
@@ -22,10 +26,10 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in **[!UICONT
 
 |**Column Name**|**Description**|
 |---|---|
-|Order's created\_at|This is the date of the original order. This can be used to obtain the time between order and return request.|
-|Customer's order number|This is the customer's order number associated with the original order.|
-|Seconds between order's created\_at and return's date\_requested|The number of seconds from the order date to the return request.|
-|Return's total value|This is the total monetary amount that is returned. This will be the sum of each return item's individual return amount.|
+|`Order's created\_at`|This is the date of the original order. This can be used to obtain the time between order and return request.|
+|`Customer's order number`|This is the customer's order number associated with the original order.|
+|`Seconds between order's created\_at and return's date\_requested`|The number of seconds from the order date to the return request.|
+|`Return's total value`|This is the total monetary amount that is returned. This will be the sum of each return item's individual return amount.|
 
 {style="table-layout:auto"}
 
@@ -33,10 +37,10 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in **[!UICONT
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|Number of returns|The number of returns requested.|Operation Column: entity id<br>Operation: Count<br>Timestamp Column: date requested|
-|Total returned amount|The total monetary amount returned.|Operation Column: Return's total value<br>Operation: Sum<br>Timestamp Column: date requested|
-|Average returned amount|The average monetary amount returned.|Operation Column: Return's total value<br>Operation: Average<br>Timestamp Column: date requested|
-|Average time to return|The average time from order to return.|Operation Column: Seconds between order's created at and return's date requested<br>Operation: Average<br>Timestamp Column: date requested|
+|`Number of returns`|The number of returns requested.|`Operation` column: `entity id`<br>`Operation`: `Count`<br>`Timestamp` Column: `date requested`|
+|`Total returned amount`|The total monetary amount returned.|`Operation `Column: `Return's total value`<br>`Operation`: Sum<br>`Timestamp` Column: date requested|
+|`Average returned amount`|The average monetary amount returned.|`Operation`` Column: Return's total value`<br>`Operation`: `Average`<br>`Timestamp` Column: `date requested`|
+|`Average time to return`|The average time from order to return.|`Operation` Column: Seconds between order's created at and return's date requested<br>`Operation`: `Average`<br>`Timestamp` Column: `date requested`|
 
 {style="table-layout:auto"}
 

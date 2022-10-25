@@ -1,12 +1,12 @@
 ---
 title: Expected Zendesk data
-description: Learn the main data tables that you can import from Zendesk into MBI, including links to additional documentation about Zendesk data.
+description: Learn the main data tables that you can import from Zendesk into [!DNL MBI], including links to additional documentation about Zendesk data.
 ---
 # Expected Zendesk data
 
 After [you have connected your Zendesk account](../integrations/zendesk.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
-In this article, we explore the main data tables that you can import from Zendesk into MBI, including links to additional documentation about Zendesk data.
+In this article, we explore the main data tables that you can import from Zendesk into [!DNL MBI], including links to additional documentation about Zendesk data.
 
 | Table name | Description |
 |-----|-----|

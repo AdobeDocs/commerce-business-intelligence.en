@@ -14,7 +14,7 @@ We support Amazon RDS, EC2, Microsoft SQL Azure, and most other cloud server pro
 
 Our system needs to run SELECT queries on your database. We do this initially to get a snapshot of your database structure and then regularly overtime to keep our data up to date. Our updates are incremental, and we restrict update frequency and time to prevent any unwanted load on your server.
 
-The best way to do this is for us to connect to your database server over TCP/IP. Create a user for us that can only run SELECT queries (and, optionally, can only select data from the tables you specify). This needs to be done for each of your servers that you will be connecting to MBI.
+The best way to do this is for us to connect to your database server over TCP/IP. Create a user for us that can only run SELECT queries (and, optionally, can only select data from the tables you specify). This needs to be done for each of your servers that you will be connecting to [!DNL MBI].
 
 ## Connecting Microsoft SQL to MBI:
 

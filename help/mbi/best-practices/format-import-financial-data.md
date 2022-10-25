@@ -4,7 +4,7 @@ description: Learn how to format and import financial data.
 ---
 # Format and Import Financial Data
 
-This topic discusses the best way to import financial data for analysis in MBI.
+This topic discusses the best way to import financial data for analysis in [!DNL MBI].
 
 A two-dimensional, cross-tab data table is often the format used for financial data. With values categorized by labels in both columns and rows, this type of layout might be easy to view with human eyes and spreadsheet tools, but it is not very friendly to databases.
 

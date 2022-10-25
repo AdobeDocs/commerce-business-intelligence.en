@@ -44,7 +44,7 @@ Too many companies focus solely on finding channels that provide new users at th
 
 ### Set a Primary Key
 
-A [primary key](http://en.wikipedia.org/wiki/Unique_key) is an unchanging column (or set of columns) that produces unique values within a table. Primary keys are incredibly important, as they ensure that your tables are properly replicated in MBI.
+A [primary key](http://en.wikipedia.org/wiki/Unique_key) is an unchanging column (or set of columns) that produces unique values within a table. Primary keys are incredibly important, as they ensure that your tables are properly replicated in [!DNL MBI].
 
 When building primary keys, use an integer data type for the column that auto-increases. We also recommend you avoid using multiple column primary keys where possible.
 

@@ -1,10 +1,10 @@
 ---
-title: Common **[!UICONTROL Magento]** Tables
+title: Common [!UICONTROL Magento] Tables
 description: Learn about some of the more common tables that [!DNL MBI] customers utilize.
 ---
 # Common **[!UICONTROL Magento]** Tables
 
-When you first [connect a **[!UICONTROL Magento]** instance to MBI](../importing-data/integrations/magento.md), [!DNL MBI] automatically replicates data from some of your commerce tables (typically 4-6 tables) in order to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
+When you first [connect a **[!UICONTROL Magento]** instance to [!DNL MBI](../importing-data/integrations/magento.md), [!DNL MBI] automatically replicates data from some of your commerce tables (typically 4-6 tables) in order to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
 
 Below is a list of some of the more common tables that [!DNL MBI] customers utilize. After you [connect your **[!UICONTROL Magento]** instance to MBI](../../data-analyst/importing-data/integrations/magento.md), you can use the [Data Warehouse Manager](../../data-analyst/data-warehouse-mgr/tour-dwm.md) to track relevant data fields.
 
@@ -24,4 +24,4 @@ Below is a list of some of the more common tables that [!DNL MBI] customers util
 
 ## Related documentation
 
-[Magento Entity Relationship Diagrams](../data-warehouse-mgr/entity-rel-diag.md)
+[[!DNL Magento] Entity Relationship Diagrams](../data-warehouse-mgr/entity-rel-diag.md)

@@ -1,10 +1,10 @@
 ---
 title: Importing CJ Affiliate (Commission Junction) Marketing Data
-description: Learn to import CJ Affiliate (Commission Junction) data into MBI.
+description: Learn to import CJ Affiliate (Commission Junction) data into [!DNL MBI].L MBI].
 ---
 # Import CJ Affiliate data
 
-To import CJ Affiliate (Commission Junction) data into MBI, simply follow the steps below and attach the resulting file to a support ticket. We will setup the data table your account and allow you to continue uploading data independently.
+To import CJ Affiliate (Commission Junction) data into [!DNL MBI], simply follow the steps below and attach the resulting file to a support ticket. We will setup the data table your account and allow you to continue uploading data independently.
 
 ## Export CJ Affiliate Data
 

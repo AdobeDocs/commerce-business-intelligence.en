@@ -12,7 +12,7 @@ This table does not contain records of customers who place an order via guest ch
 
 |**Column Name**|**Description**|
 |---|---|
-|`created_at`|Timestmap corresponding to the account's registration date, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
+|`created_at`|Timestamp corresponding to the account's registration date, usually stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
 |`email`|Email address associated with the account|
 |`entity_id` (PK)|Unique identifier for the table, and commonly used in joins to the `customer_id` in other tables within the instance|
 |`group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the registered account|
@@ -41,12 +41,12 @@ This table does not contain records of customers who place an order via guest ch
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|Avg first 30 day revenue|The average revenue per customer for orders placed within 30 days of the customer's first order|Operation: Average<br/>Operand: `Customer's first 30 day revenue`<br/>Timestamp: `created_at`<br/>Filters:<br/><br/>- \[A\] `Seconds since customer's first order date` ≥ 2592000 (excludes customers who have not yet reached 30 days since their first order)|
-|Avg lifetime coupons|The average number of coupons applied to orders per customer over their lifetime|Operation: Average<br/>Operand: `Customer's lifetime number of coupons`<br/>Timestamp: `created_at`|
-|Avg lifetime orders|The average number of orders placed per customer over their lifetime|Operation: Average<br/>Operand: `Customer's lifetime number of orders`<br/>Timestamp: `created_at`|
-|Avg lifetime revenue|The average total revenue per customer for all orders placed over their lifetime|Operation: Average<br/>Operand: `Customer's lifetime revenue`<br/>Timestamp: `created_at`|
-|New customers|The number of customers with at least one order, counted on the date of their first order. Excludes accounts who register but never place an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `Customer's first order date`|
-|Registered accounts|The number of accounts registered. Includes all registered accounts, regardless of whether or not the account ever placed an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `created_at`|
+|`Avg first 30 day revenue`|The average revenue per customer for orders placed within 30 days of the customer's first order|Operation: Average<br/>Operand: `Customer's first 30 day revenue`<br/>Timestamp: `created_at`<br/>Filters:<br/><br/>- \[A\] `Seconds since customer's first order date` ≥ 2592000 (excludes customers who have not yet reached 30 days since their first order)|
+|`Avg lifetime coupons`|The average number of coupons applied to orders per customer over their lifetime|Operation: Average<br/>Operand: `Customer's lifetime number of coupons`<br/>Timestamp: `created_at`|
+|`Avg lifetime orders`|The average number of orders placed per customer over their lifetime|Operation: Average<br/>Operand: `Customer's lifetime number of orders`<br/>Timestamp: `created_at`|
+|`Avg lifetime revenue`|The average total revenue per customer for all orders placed over their lifetime|Operation: Average<br/>Operand: `Customer's lifetime revenue`<br/>Timestamp: `created_at`|
+|`New customers`|The number of customers with at least one order, counted on the date of their first order. Excludes accounts who register but never place an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `Customer's first order date`|
+|`Registered accounts`|The number of accounts registered. Includes all registered accounts, regardless of whether or not the account ever placed an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `created_at`|
 
 {style="table-layout:auto"}
 

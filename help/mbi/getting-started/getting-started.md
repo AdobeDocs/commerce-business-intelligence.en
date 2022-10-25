@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Learn about MBI.
+description: Learn about [!DNL MBI].
 ---
 # Introduction
 

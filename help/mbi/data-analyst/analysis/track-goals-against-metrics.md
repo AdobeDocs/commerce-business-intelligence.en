@@ -4,7 +4,7 @@ description: Learn how to set up a dashboard that will help you track your busin
 ---
 # Tracking Goals Against Performance Metrics
 
-A large majority of our clients often would like to track their **business goals**, but do not realize this is possible in MBI. In this article, we demonstrate how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. We also show you how to compare year over year performance, all in a dashboard like this:
+A large majority of our clients often would like to track their **business goals**, but do not realize this is possible in [!DNL MBI]. In this article, we demonstrate how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. We also show you how to compare year over year performance, all in a dashboard like this:
 
 ![](../../assets/Goals-_dashboard_2.png)
 

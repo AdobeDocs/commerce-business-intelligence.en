@@ -1,6 +1,6 @@
 ---
 title: Translating SQL queries into [!DNL MBI] reports
-description: Learn how SQL queries are translated into the calculated columns, metrics you use in MBI.
+description: Learn how SQL queries are translated into the calculated columns, metrics you use in [!DNL MBI].
 ---
 # Translate SQL queries in MBI
 
@@ -25,7 +25,7 @@ This example covers the majority of translation cases, but there are some except
 
 ## Aggregate functions
 
-Aggregate functions (i.e., count, sum, average, max, min, etc) in queries either take the form of **metric aggregations** or **column aggregations** in MBI. The differentiating factor is whether or not a join is required to perform the aggregation.
+Aggregate functions (i.e., count, sum, average, max, min, etc) in queries either take the form of **metric aggregations** or **column aggregations** in [!DNL MBI]. The differentiating factor is whether or not a join is required to perform the aggregation.
 
 Let us take a look at an example for each of the above.
 
@@ -33,7 +33,7 @@ Let us take a look at an example for each of the above.
 
 A metric is required when aggregating _within a single table_. So for example, the SUM(b) aggregate function from the query above would most likely be represented by a metric which sums column "b". 
 
-Let us look at a specific example of how a "Total Revenue" metric might be defined in MBI. Take a look at the query below that we will attempt to translate:
+Let us look at a specific example of how a "Total Revenue" metric might be defined in [!DNL MBI]. Take a look at the query below that we will attempt to translate:
 
 | | |
 |--- |--- |
@@ -72,7 +72,7 @@ Next, you need to select the source table. If a path already exists to your "ord
 
 ![Create new path](../../assets/Create_new_path.png)
 
-Here you need to carefully consider the relationship between the two tables you are attempting to join together. In this case, there are potentially **Many** orders associated with **One** customer, therefore the "orders" table is listed on the **Many** side, whereas the "customers" table selected on the **One** side. Note that in MBI, a **path** is equivalent to a **Join** in SQL.
+Here you need to carefully consider the relationship between the two tables you are attempting to join together. In this case, there are potentially **Many** orders associated with **One** customer, therefore the "orders" table is listed on the **Many** side, whereas the "customers" table selected on the **One** side. Note that in [!DNL MBI], a **path** is equivalent to a **Join** in SQL.
 
 Once the path has been saved, you are all set to create the new "Customer LTV" column! Take a look at the below:
 

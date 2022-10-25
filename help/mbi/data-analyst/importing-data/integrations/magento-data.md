@@ -6,7 +6,7 @@ description: Explore the main data tables that **[!UICONTROL Magento]** users im
 
 After you have [connected your **[!UICONTROL Magento]** store](../../../data-analyst/importing-data/integrations/magento.md), you can use the Data Warehouse Manager to easily track relevant data fields from your **[!UICONTROL Magento]** database for analysis.
 
-In this article, we explore the main data tables that **[!UICONTROL Magento]** users import into MBI.
+In this article, we explore the main data tables that **[!UICONTROL Magento]** users import into [!DNL MBI].
 
 | **Table name** | **Description** |
 |-----|-----|

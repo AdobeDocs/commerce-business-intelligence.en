@@ -14,7 +14,7 @@ In [!DNL MBI], there are three general permission levels that apply to users, wh
 * `Standard`
 * `Read-Only`
 
-These permissions enable users to perform certain actions or access specific parts of MBI. Here is a table of what each permission level can do in MBI:
+These permissions enable users to perform certain actions or access specific parts of [!DNL MBI]. Here is a table of what each permission level can do in MBI:
 
 |   | `Admin` | `Standard` | `Read Only` |
 | -----|-----|-----|----|

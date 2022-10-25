@@ -23,7 +23,7 @@ Let us use ad campaigns as an example. If you are running both online and offlin
 
 ## Formatting data for upload {#formatting}
 
-Before you can upload your data into MBI, check that it is formatted according to the guidelines in this section.
+Before you can upload your data into [!DNL MBI], check that it is formatted according to the guidelines in this section.
 
 ### Header row {#header}
 
@@ -102,7 +102,7 @@ Uploaded tables display under the **File Uploads** section of the table list (in
 
 ## Updating or appending data to an existing table {#appending}
 
-Got some new data to add to a file you have already uploaded? No problem - you can easily update and append data in MBI.
+Got some new data to add to a file you have already uploaded? No problem - you can easily update and append data in [!DNL MBI].
 
 1. To get started, go to **Manage Data > File Uploads**.
 
@@ -132,13 +132,13 @@ Just like calculated columns, data from file uploads is available after the next
 
 This article covered only the basics for using importing data, but we are betting you want to do something a little more advanced. Check out the Related articles for guidance on formatting and importing financial, eCommerce, ad spend, and other types of data.
 
-Additionally, file upload is not the only way to get your data into MBI. The [Data Import API](https://devdocs.magento.com/mbi/docs/import-api.html) allows you to push arbitrary data into your [!DNL MBI] data warehouse.
+Additionally, file upload is not the only way to get your data into [!DNL MBI]. The [Data Import API](https://devdocs.magento.com/mbi/docs/import-api.html) allows you to push arbitrary data into your [!DNL MBI] data warehouse.
 
 ## Related {#related}
 
 * [Formatting and importing financial data](../../../best-practices/format-import-financial-data.md)
 * [Importing offline / other ad spend data](../connecting-data/import-offline-ad-data.md)
-* [Expected Google ECommerce data](../integrations/google-ecommerce-data.md)
+* [Expected[!DNL Google ECommerce]data](../integrations/google-ecommerce-data.md)
 
 ## Third Party Resources
 

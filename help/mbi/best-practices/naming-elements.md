@@ -1,6 +1,6 @@
 ---
 title: Name reports and elements in MBI
-description: Learn best practices for naming reports and elements in MBI. 
+description: Learn best practices for naming reports and elements in [!DNL MBI]. 
 ---
 # Name reports and elements
 

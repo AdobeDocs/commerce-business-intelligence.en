@@ -26,4 +26,4 @@ You can sign in with your Adobe ID or using your [!DNL MBI] email address and pa
 
 Enter your email address and password and click **Sign In**.
 
-You now have access to MBI.
+You now have access to [!DNL MBI].

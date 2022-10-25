@@ -6,7 +6,7 @@ description: Learn about some reports that you can use to uncover your most valu
 
 You researched your audience, you created your campaign, you invested in a few marketing channels. Now that some time has passed, how are those channels performing? What channel has brought in the most new users? What source has contributed the most to your total revenue?
 
-With MBI, you can easily segment your revenue and users by referral source, whether it corresponds to [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) or custom data fields. This segmentation will allow you to find your best performing channels and better invest your marketing budget.
+With [!DNL MBI], you can easily segment your revenue and users by referral source, whether it corresponds to [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) or custom data fields. This segmentation will allow you to find your best performing channels and better invest your marketing budget.
 
 In this article, we explore some reports that you can use to uncover your most valuable marketing channels:
 

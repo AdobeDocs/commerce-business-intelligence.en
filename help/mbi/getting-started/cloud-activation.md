@@ -109,7 +109,7 @@ To activate [!DNL MBI] for Cloud Starter projects, first create a [!DNL MBI] acc
                 redis: "redis:redis"
     ```
 
-1. Get information for connecting your database to MBI.
+1. Get information for connecting your database to [!DNL MBI].
 
     Run
     `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp`
@@ -129,7 +129,7 @@ To activate [!DNL MBI] for Cloud Starter projects, first create a [!DNL MBI] acc
                      },
                      "ip" : "169.254.169.143",
                      "path" : "main",
-                     "host" : "mbi.internal",
+                     "host" : "[!DNL MBI].internal",
                      "hostname" : "3m7xizydbomhnulyglx2ku4wpq.mysql.service._.magentosite.cloud",
                      "username" : "mbi",
                      "service" : "mysql",
@@ -145,7 +145,7 @@ To activate [!DNL MBI] for Cloud Starter projects, first create a [!DNL MBI] acc
 
     - Integration Name: [Choose a name for your integration.]
 
-    - Host: `mbi.internal`
+    - Host: `[!DNL MBI].internal`
 
     - Port: `3306`
 

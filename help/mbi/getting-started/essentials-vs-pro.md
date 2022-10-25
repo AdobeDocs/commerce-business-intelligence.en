@@ -6,7 +6,7 @@ description: Learn how MBI Essentials differs from MBI Pro.
 
 >[!NOTE]
 >
->This is archived documentation for MBI.
+>This is archived documentation for [!DNL MBI].
 
 The following table describes what is included with Essentials and Pro.
 

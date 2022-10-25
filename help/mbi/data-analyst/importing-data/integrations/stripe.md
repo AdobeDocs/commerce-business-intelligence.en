@@ -28,13 +28,13 @@ After clicking the **Connect with Stripe**, an access request page appears.
 
 1. Enter your credentials and click **Sign in to your account**.
 
-1. After clicking, your credentials will be validated and you will be directed back to MBI.
+1. After clicking, your credentials will be validated and you will be directed back to [!DNL MBI].
 
 1. If the connection is successful, a *Connection Successful!* message appears at the top of the screen.
 
 ## Related:
 
-If you are a little more tech-savvy, the [Stripe API Documentation](https://stripe.com/docs/api) can be a useful resource for learning more about how Stripe is integrated with MBI.
+If you are a little more tech-savvy, the [Stripe API Documentation](https://stripe.com/docs/api) can be a useful resource for learning more about how Stripe is integrated with [!DNL MBI].L MBI].
 
 * [Expected Stripe data](../integrations/stripe-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)

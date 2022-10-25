@@ -2,37 +2,37 @@
 title: sales_order_item table
 description: Learn how to work with the sales_order_item table.
 ---
-# sales_order_item Table
+# `sales_order_item` Table
 
-The `sales_order_item` table (`sales_flat_order_item` on M1) contains records of all products that were purchased in an order. Each row represents a unique `sku` included in an order. The quantity of units that were purchased for a specific `sku` is most often represented by the `qty_ordered` field.
+The `sales_order_item` table (`sales_flat_order_item` on [!DNL Magento] 1) contains records of all products that were purchased in an order. Each row represents a unique `sku` included in an order. The quantity of units that were purchased for a specific `sku` is most often represented by the `qty_ordered` field.
 
 ## Product Types
 
 The `sales_order_item` captures details on all [product types](https://docs.magento.com/m2/ce/user_guide/catalog/product-types.html) that were purchased. A common practice in **[!UICONTROL Magento]** is to offer configurable products, or in other words, a product that can be customized according to size, color, and other product attributes. Although a configurable product has its own `sku`, it can relate to multiple simple products, where each simple product represents a unique product configuration. Refer to [configuring products](https://devdocs.magento.com/guides/v2.3/rest/tutorials/configurable-product/config-product-intro.html) for more information.
 
-> For example, consider a configurable product such as a t-shirt. When a customer checks out, they select options to alter the color and size. If the customer selects a color of blue, and a size of small, they end up purchasing a simple product like "t-shirt-blue-small" which relates back to the parent product of "t-shirt".
+For example, consider a configurable product such as a t-shirt. When a customer checks out, they select options to alter the color and size. If the customer selects a color of `blue`, and a size of `small`, they end up purchasing a simple product like `t-shirt-blue-small` which relates back to the parent product of `t-shirt`.
 
 When a configurable product is included in an order, two rows are generated in the `sales_order_item` table: one for the [simple](https://docs.magento.com/m2/ce/user_guide/catalog/product-create-simple.html) `sku`, and one for the [configurable](https://docs.magento.com/m2/ce/user_guide/catalog/product-create-configurable.html) parent. These two records in the `sales_order_item` table can be related to each other through the following join:
 
 *  (simple) `sales_order_item.parent_item_id` => (configurable) `sales_order_item.item_id`
 
-Therefore it is possible to report on sales of products either at the simple level or at the configurable level. By default, all standard order-item-level metrics in [!DNL MBI] are configured to exclude the simple products, and *only* report on the configurable versions. This is accomplished through the "Ordered products we count" filter set, which filters on the condition where `parent_item_id` is `NULL`.
+Therefore it is possible to report on sales of products either at the simple level or at the configurable level. By default, all standard `order-item-level` metrics in [!DNL MBI] are configured to exclude the simple products, and *only* report on the configurable versions. This is accomplished through the `Ordered products we count` filter set, which filters on the condition where `parent_item_id` is `NULL`.
 
 ## Common Columns
 
 |**Column Name**|**Description**|
 |----|----|
 |`base_price`|Price of an individual unit of a product at the time of sale after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied, represented in the base currency of the store|
-|`created_at`|Creation timestamp of the order item, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
+|`created_at`|Creation timestamp of the order item, usually stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
 |`item_id` (PK)|Unique identifier for the table|
 |`name`|Text name of the order item|
-|`order_id`|Foreign key associated with the `sales_order` table. Join to `sales_order.entity_id` to determine order attributes associated with the order item|
-|`parent_item_id`|Foreign key that relates a simple product to its parent bundle or configurable product. Join to `sales_order_item.item_id` to determine parent product attributes associated with simple product. For parent order items (that is, bundle or configurable product types), the `parent_item_id` will be `NULL`|
-|`product_id`|Foreign key associated with the `catalog_product_entity` table. Join to `catalog_product_entity.entity_id` to determine product attributes associated with the order item|
+|`order_id`|`Foreign key` associated with the `sales_order` table. Join to `sales_order.entity_id` to determine order attributes associated with the order item|
+|`parent_item_id`|`Foreign ke`y` that relates a simple product to its parent bundle or configurable product. Join to `sales_order_item.item_id` to determine parent product attributes associated with simple product. For parent order items (that is, bundle or configurable product types), the `parent_item_id` will be `NULL`|
+|`product_id`|`Foreign key` associated with the `catalog_product_entity` table. Join to `catalog_product_entity.entity_id` to determine product attributes associated with the order item|
 |`product_type`|Type of product that was sold. Potential [product types](https://docs.magento.com/m2/ce/user_guide/catalog/product-types.html) include: simple, configurable, grouped, virtual, bundle, and downloadable|
 |`qty_ordered`|Quantity of units included in the cart for the particular order item at the time of sale|
 |`sku`|Unique identifier for the order item that was purchased|
-|`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which **[!UICONTROL Magento]** store view is associated with the order item|
+|`store_id`|`Foreign key` associated with the `store` table. Join to `store.store_id` to determine which **[!UICONTROL Magento]** store view is associated with the order item|
 
 {style="table-layout:auto"}
 
@@ -56,12 +56,12 @@ Therefore it is possible to report on sales of products either at the simple lev
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|Products ordered|The total quantity of products included in carts at the time of sale|Operation: Sum<br>Operand: `qty_ordered`<br>Timestamp: `created_at`|
-|Revenue by products ordered|Total value of products included in carts at the time of sale after catalog price rules, tiered discounts, and special pricing are applied and before any taxes, shipping, or cart discounts are applied|Operation: Sum<br>Operand: `Order item total value (quantity * price)`<br>Timestamp: `created_at`|
+|`Products ordered`|The total quantity of products included in carts at the time of sale|`Operation: Sum`<br>`Operand: qty_ordered`<br>`Timestamp: created_at`|
+|`Revenue by products ordered`|Total value of products included in carts at the time of sale after catalog price rules, tiered discounts, and special pricing are applied and before any taxes, shipping, or cart discounts are applied|`Operation: Sum`<br>`Operand: Order item total value (quantity * price)`<br>`Timestamp: created_at`|
 
 {style="table-layout:auto"}
 
-## Foreign Key Joining Paths
+## `Foreign Key` Joining Paths
 
 `catalog_product_entity`
 

@@ -11,7 +11,7 @@ MBI allows you to easily [marry advertising cost data and revenue data](../../da
 * Import your advertising cost data:
   * [Connect your [!DNL Google AdWords] to [!DNL MBI]](../importing-data/integrations/google-adwords.md): This will automatically sync your [!DNL Adwords] spend in [!DNL MBI]
   * [Upload other advertising cost data](../importing-data/connecting-data/import-offline-ad-data.md): This is recommended for channels without a direct connector to [!DNL MBI]
-  * If you import cost data from multiple sources, we can [consolidate](../../best-practices/consolidating-your-tables.md) the data in MBI. Simply [submit a support ticket](../../getting-started/support.md).
+  * If you import cost data from multiple sources, we can [consolidate](../../best-practices/consolidating-your-tables.md) the data in [!DNL MBI]. Simply [submit a support ticket](../../getting-started/support.md).
 * [Track user acquisition channel data](../analysis/google-track-user-acq.md)
 
 ## User acquisition campaigns

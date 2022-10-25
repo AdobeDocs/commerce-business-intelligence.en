@@ -10,7 +10,7 @@ description: Learn the ins and outs of using the SQL Report Builder.
 
 See our [training video](https://support.magento.com/hc/en-us/articles/360016730131) to learn more.
 
-SQL, or Structured Query Language, is a programming language used to communicate with databases. In MBI, SQL is used to query, or retrieve, data from your data warehouse. Take a look at the reports on your dashboard - behind the scenes, each one is powered by a SQL query.
+SQL, or Structured Query Language, is a programming language used to communicate with databases. In [!DNL MBI], SQL is used to query, or retrieve, data from your data warehouse. Take a look at the reports on your dashboard - behind the scenes, each one is powered by a SQL query.
 
 You can use the [SQL Report Builder](../dev-reports/sql-rpt-bldr.md) to directly query your data warehouse, view the results, and transform them into a chart. You can start creating a report with the SQL Report Builder by navigating to **Report Builder** > **SQL Report Builder**.
 

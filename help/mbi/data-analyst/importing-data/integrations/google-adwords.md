@@ -17,8 +17,8 @@ Let us get started by entering our Google Adwords credentials into MBI:
 1. Go to the Connections page under **Manage Data > Integrations**.
 1. Click **Add Integration**, located on the upper-right side of the screen.
 1. Click the **Google Adwords** icon. This will open the Google Adwords credentials page.
-1. Enter your Google Analytics credentials. Upon completion of the authorization process, you will be redirected back to MBI.
-1. A list of profile IDs will display. Check the profiles you want to connect to MBI.
+1. Enter your Google Analytics credentials. Upon completion of the authorization process, you will be redirected back to [!DNL MBI].
+1. A list of profile IDs will display. Check the profiles you want to connect to [!DNL MBI].
 
      ![](../../../assets/cnnct-profile.png){: width="400"}
 
@@ -28,7 +28,7 @@ If you have multiple profiles and need some help identifying which is which, ref
 
 ## Connecting multiple Google Analytics profiles to MBI
 
-You may have multiple websites connected to a single Google Analytics account, identified by their own Google Analytics Profile ID. In this case, you will have the option of including all your Profile IDs in MBI. Just check the profile IDs you want to include during the profile selection step.
+You may have multiple websites connected to a single Google Analytics account, identified by their own Google Analytics Profile ID. In this case, you will have the option of including all your Profile IDs in [!DNL MBI]. Just check the profile IDs you want to include during the profile selection step.
 
 **To identify a particular website's Google Analytics Profile ID:**
 
@@ -42,7 +42,7 @@ You may have multiple websites connected to a single Google Analytics account, i
 
 1. Visit your Google [account settings](https://www.google.com/accounts/) page.
 1. Under the Security section, and click the 'edit' link next to Authorizing applications and sites.
-1. Click the 'revoke access' link next to MBI.
+1. Click the 'revoke access' link next to [!DNL MBI].
 
 ## Related
 

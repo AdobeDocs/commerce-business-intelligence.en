@@ -1,10 +1,10 @@
 ---
 title: Share dashboards organization-wide
-description: Learn how to ensure that every user has access to essential business dashboards in MBI.
+description: Learn how to ensure that every user has access to essential business dashboards in [!DNL MBI].
 ---
 # Share dashboards organization-wide
 
-It is easy to ensure that every user has access to essential business dashboards in MBI. Universal dashboard sharing facilitates increased collaboration and transparency throughout your organization by providing a single "source of truth".
+It is easy to ensure that every user has access to essential business dashboards in [!DNL MBI]. Universal dashboard sharing facilitates increased collaboration and transparency throughout your organization by providing a single "source of truth".
 
 1. To show off your insights to your coworkers, click **Share this Dashboard** at the top of the screen.
 

@@ -1,6 +1,6 @@
 ---
 title: Connect Zendesk
-description: Learn how to consolidate your help desk reporting in MBI.
+description: Learn how to consolidate your help desk reporting in [!DNL MBI].
 ---
 # Connect Zendesk
 
@@ -10,7 +10,7 @@ description: Learn how to consolidate your help desk reporting in MBI.
 
 ![](../../../assets/Zendesk_logo.png)
 
-Connecting your Zendesk data allows you to consolidate your help desk reporting in MBI. This allows you to optimize customer support and monitor help desk performance alongside your revenue.
+Connecting your Zendesk data allows you to consolidate your help desk reporting in [!DNL MBI]. This allows you to optimize customer support and monitor help desk performance alongside your revenue.
 
 Connecting your Zendesk data is a simple three-step process:
 
@@ -18,7 +18,7 @@ Connecting your Zendesk data is a simple three-step process:
 1. [Retrieve your Zendesk API Token](#steptwo)
 1. [Enter your Zendesk login info and Token in MBI](#stepthree)
 
-To complete this process, you will need to open two browser windows or tabs - one for MBI, the other for your Zendesk account.
+To complete this process, you will need to open two browser windows or tabs - one for [!DNL MBI], the other for your Zendesk account.
 
 ## Open the Zendesk credentials page in [!DNL MBI] {#stepone}
 
@@ -38,7 +38,7 @@ To complete this process, you will need to open two browser windows or tabs - on
 
 ## Enter Zendesk login info and API token into [!DNL MBI] {#stepthree}
 
-1. Enter your Zendesk site prefix and login email in the Zendesk credentials page in MBI.
+1. Enter your Zendesk site prefix and login email in the Zendesk credentials page in [!DNL MBI].
 1. Enter your API token.
 1. Click **Save & Connect**. If the connection is successful, a *Connection Successful!* message will display at the top of the screen.
 

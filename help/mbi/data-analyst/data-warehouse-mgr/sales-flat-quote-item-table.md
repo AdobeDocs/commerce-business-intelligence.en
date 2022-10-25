@@ -4,7 +4,7 @@ description: Learn how to work with the quote_item table.
 ---
 # quote_item Table
 
-The `quote_item` table (`sales_flat_quote_item` on M1) contains records on every item added to a shopping cart, whether the cart was abandoned or converted to a purchase. Each row represents one cart item. Due to the potential size of this table, we recommend you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
+The `quote_item` table (`sales_flat_quote_item` on [!DNL Magento] 1) contains records on every item added to a shopping cart, whether the cart was abandoned or converted to a purchase. Each row represents one cart item. Due to the potential size of this table, we recommend you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
 
 >[!NOTE]
 >
@@ -15,14 +15,14 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 |**Column Name**|**Description**|
 |---|---|
 |`base_price`|Price of an individual unit of a product at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied, represented in the base currency of the store|
-|`created_at`|Creation timestamp of the cart item, usually stored locally in UTC. Depending on your configuration in MBI, this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
+|`created_at`|Creation timestamp of the cart item, usually stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
 |`item_id` (PK)|Unique identifier for the table|
 |`name`|Text name of the order item|
-|`parent_item_id`|Foreign key that relates a simple product to its parent bundle or configurable product. Join to `quote_item.item_id` to determine parent product attributes associated with simple product. For parent cart items (that is, bundle or configurable product types), the `parent_item_id` will be `NULL`|
-|`product_id`|Foreign key associated with the `catalog_product_entity` table. Join to `catalog_product_entity.entity_id` to determine product attributes associated with the order item|
+|`parent_item_id`|`Foreign key` that relates a simple product to its parent bundle or configurable product. Join to `quote_item.item_id` to determine parent product attributes associated with simple product. For parent cart items (that is, bundle or configurable product types), the `parent_item_id` will be `NULL`|
+|`product_id`|`Foreign key` associated with the `catalog_product_entity` table. Join to `catalog_product_entity.entity_id` to determine product attributes associated with the order item|
 |`product_type`|Type of product that was added to the cart. Potential [product types](https://docs.magento.com/m2/ce/user_guide/catalog/product-types.html) include: simple, configurable, grouped, virtual, bundle, and downloadable|
 |`qty`|Quantity of units included in the cart for the particular cart item|
-|`quote_id`|Foreign key associated with the `quote` table. Join to `quote.entity_id` to determine cart attributes associated with the cart item|
+|`quote_id`|`Foreign key` associated with the `quote` table. Join to `quote.entity_id` to determine cart attributes associated with the cart item|
 |`sku`|Unique identifier for the cart item|
 |`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which **[!UICONTROL Magento]** store view is associated with the cart item|
 
@@ -44,8 +44,8 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|Number of abandoned cart items|Total quantity of items added to carts that meet specific "abandonment" conditions|Operation: Sum<br/>Operand: `qty`<br/>Timestamp: `Cart creation date`<br>Filters:<br><br>- \[A\] `Cart is active? (1/0)` = 1<br>- \[B\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
-|Abandoned cart item value|Sum of total revenue associated with carts that meet specific "abandonment" conditions|Operation: Sum<br>Operand: `Cart item total value (qty * base_price)`<br>Timestamp: `Cart creation date`<br>Filters:<br><br>- \[A\] `Cart is active? (1/0)` = 1<br>- \[B\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
+|`Number of abandoned cart items`|Total quantity of items added to carts that meet specific "abandonment" conditions|`Operation: Sum`<br/>`Operand: qty`<br/>`Timestamp: Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
+|`Abandoned cart item value`|Sum of total revenue associated with carts that meet specific "abandonment" conditions|`Operation: Sum`<br>`Operand: Cart item total value (qty * base_price)`<br>`Timestamp:` `Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
 
 {style="table-layout:auto"}
 

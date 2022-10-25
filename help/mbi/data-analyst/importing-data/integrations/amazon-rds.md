@@ -14,7 +14,7 @@ On the credentials page (**Manage Data > Integrations**) for each database, you 
 
 ![](../../../assets/RDS_IP.png)
 
-For [!DNL MBI] to successfully connect with your RDS instance, you will need to add these IP addresses to the appropriate database security group via the AWS management console. These IP addresses can be added to an existing group or you can create a new one - the important thing is that the group is authorized to access the instance you want to connect to MBI.
+For [!DNL MBI] to successfully connect with your RDS instance, you will need to add these IP addresses to the appropriate database security group via the AWS management console. These IP addresses can be added to an existing group or you can create a new one - the important thing is that the group is authorized to access the instance you want to connect to [!DNL MBI].
 
 When adding the [!DNL MBI] IP addresses, make sure you add a "/32" to the end of the address to indicate to Amazon that it is an exact IP address. do not worry; the AWS interface will make it clear that this is required.
 
@@ -28,7 +28,7 @@ This is the part of the process where, depending on the database you are using, 
 
 ## Enter connection info into MBI
 
-After you have granted [!DNL MBI] access to your instance and created a user for us, the last thing you will need to do is enter the connection info into MBI.
+After you have granted [!DNL MBI] access to your instance and created a user for us, the last thing you will need to do is enter the connection info into [!DNL MBI].
 
 The credential pages for MySQL, Microsoft SQL, and PostgreSQL are accessed via the Integrations page (**Manage Data > Integrations**) by clicking **Add Integration**. When the list of integrations displays, click the icon for the database you are using to go to the credentials page. If you do not currently have access to the integration you need, contact your CSM.
 

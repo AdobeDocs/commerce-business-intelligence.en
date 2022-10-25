@@ -4,7 +4,7 @@ description: Learn how to set a default dashboard.
 ---
 # Set a default dashboard
 
-The default dashboard is the first dashboard you see upon opening MBI.
+The default dashboard is the first dashboard you see upon opening [!DNL MBI].L MBI].
 
 1. While in the dashboard, click **Dashboard Options** located at the top of the screen.
 

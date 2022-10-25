@@ -16,7 +16,7 @@ description: Learn how to connect MySQL via cPanel.
 
 **One thing we take seriously is data security. We strongly recommend you use SSH or some other form of encryption to secure your data!** If this is not an option, you can still directly connect [!DNL MBI] to your database using the instructions in this article.
 
-In this article, we walk you through directly connecting your MySQL database to [!DNL MBI] using cPanel. This process can also be used to connect **[!UICONTROL Magento]** and any other MySQL-based eCommerce databases to MBI.
+In this article, we walk you through directly connecting your MySQL database to [!DNL MBI] using cPanel. This process can also be used to connect **[!UICONTROL Magento]** and any other MySQL-based eCommerce databases to [!DNL MBI].
 
 1. Create a [!DNL MBI] MySQL user in cPanel
 1. Enter connection and user info into MBI
@@ -34,13 +34,13 @@ Let us get started.
 1. Click **Create User**.
 1. Now that you have created the user, you need to associate it to a database. Go back to the _Add New User_ section - see the settings for Add User to Database? That is what we need.
 1. In the User dropdown of this section, select the user you created.
-1. In the Database dropdown of this section, select the database you want to connect to MBI.
+1. In the Database dropdown of this section, select the database you want to connect to [!DNL MBI].
 1. Click **Add**.
 1. When the checklist of privileges appears, check the box next to SELECT - this is all [!DNL MBI] needs to connect to your database.
 
 ## Entering the connection and user info into [!DNL MBI] {#finish}
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Manage Data > Connections** and click **Add New Data Source**, then the MySQL icon.
+To wrap things up, we need to enter the connection and user info into [!DNL MBI]. Did you leave the MySQL credentials page open? If not, go to **Manage Data > Connections** and click **Add New Data Source**, then the MySQL icon.
 
 Enter the following info into this page in the Database Connection section:
 

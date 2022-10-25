@@ -1,8 +1,8 @@
 ---
 title: Connecting MySQL via a direct connection
-description: Learn how to connect MongoDB via direct connection.
+description: Learn how to connect [!DNL MongoDB] via direct connection.
 ---
-# Connect MongoDB via direct connection
+# Connect [!DNL MongoDB] via direct connection
 
 ## IN THIS ARTICLE
 
@@ -18,7 +18,7 @@ description: Learn how to connect MongoDB via direct connection.
 
 **One thing we take seriously is data security. We strongly recommend you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data!** If this is not an option, you can still directly connect [!DNL MBI] to your database using the instructions in this article.
 
-In this article, we walk you through directly connecting your MySQL database to MBI. These settings can also be used with **[!UICONTROL Magento]** EE/CE or any other eCommerce databases that use MySQL.
+In this article, we walk you through directly connecting your MySQL database to [!DNL MBI]. These settings can also be used with **[!UICONTROL Magento]** EE/CE or any other eCommerce databases that use MySQL.
 
 ## Allow access to the [!DNL MBI] IP addresses {#allowlist}
 
@@ -40,7 +40,7 @@ To restrict this user from accessing data in specific databases, tables, or colu
 
 ## Enter connection info in MBI
 
-To wrap things up, we need to enter the connection and user info into MBI. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click **Add New Data Source**, then the MySQL icon. Do not forget to change the _Encrypted_ toggle to `Yes`.
+To wrap things up, we need to enter the connection and user info into [!DNL MBI]. Did you leave the MySQL credentials page open? If not, go to **Data > Connections** and click **Add New Data Source**, then the MySQL icon. Do not forget to change the _Encrypted_ toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 
