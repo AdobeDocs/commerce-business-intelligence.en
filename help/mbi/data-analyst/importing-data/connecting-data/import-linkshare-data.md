@@ -19,7 +19,7 @@ To bring your `Linkshare` data into [!DNL MBI], you need to do two things:
 
 1. In the `Date Range` dropdown, select whichever option (`Sun - Sat`, `Mon - Sun`) matches with your `Start of Week` settings in [!DNL MBI].
 
-1. Clear the `Compare Year-Over-Year Data checkbox.
+1. Clear the `Compare Year-Over-Year Data` checkbox.
 
 1. Under `Data Type`, select `Transaction Date`.
 

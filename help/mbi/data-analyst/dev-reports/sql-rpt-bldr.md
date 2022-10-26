@@ -74,7 +74,7 @@ After you are done editing your query, you can move onto either creating a visua
 
 ## Creating a visualization {#createviz}
 
-To create a visualization with your query results, click the **[!UICONTROL Chart]** tab in the `Results`**` pane. In this tab, you will select:
+To create a visualization with your query results, click the **[!UICONTROL Chart]** tab in the `Results` pane. In this tab, you will select:
 
 * The `Series`, or the column you want to measure, such as **Items sold**.
 * The `Category`, or the column you want to use to segment your data, such as **acquisition source**.
@@ -102,7 +102,7 @@ Click **[!UICONTROL Save]** at the top right corner of the SQL editor and select
 
 We would like to mention that calculated columns created using SQL are not dependent on update cycles, meaning you can iterate on them as you please and immediately see results.
 
->[!NOTE}]
+>[!NOTE]
 >
 >This only applies to the structure of the column, not the freshness of the data. Fresh data is still dependent on successfully completed update cycles.
 

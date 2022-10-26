@@ -39,7 +39,7 @@ Let us look at a specific example of how a `Total Revenue` metric might be defi
 |--- |--- |
 |`SELECT`||
 |`SUM(order_total) as "Total Revenue"`|`Metric operation` (column)|
-|`FROM orders|`Metric source` table|
+|`FROM orders`|`Metric source` table|
 |`WHERE`||
 |`email NOT LIKE '%@magento.com'`|Metric `filter`|
 |`AND created_at < X`<br><br>`AND created_at >= Y`|Metric `timestamp` (and reporting `time range`)|
@@ -84,7 +84,7 @@ Once the path has been saved, you are all set to create the new `Customer LTV` c
 
 Now that you have built the new `Customer LTV` column in your `customers` table, you are ready to create a [metric aggregation](#aggregate) using this column (for example to find the average LTV per customer), or simply `group by` or `filter` by the calculated column in a report using existing metrics built on the `customers` table. 
 
->[!NOTE}
+>[!NOTE]
 >
 >For the latter, any time you build a new calculated column you will need to [add the dimension to existing metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before it will be available as a `filter` or `group by`.
 

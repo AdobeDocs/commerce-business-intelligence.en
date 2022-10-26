@@ -38,7 +38,7 @@ The `order_detail / items` table should contain one row for each distinct item i
 
 ## `Customers` table {#customerstable}
 
-The `customers`**` table should contain one row for each customer account. Potential columns include:
+The `customers` table should contain one row for each customer account. Potential columns include:
 
 | Column name| Description |
 |----|----|

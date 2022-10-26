@@ -10,13 +10,13 @@ Our [`Cohort Report Builder`](../dev-reports/cohort-rpt-bldr.md) has been great 
 
 This is not a comprehensive list, but here are some potential analyses that can be accomplished with this feature:
 
-* Examining the revenue of customers acquired from [!DNL Google] versus [!DNK Facebook]
+* Examining the revenue of customers acquired from [!DNL Google] versus [!DNL Facebook]
 * Analyzing customers whose first purchase was made in the US versus Canada
 * Looking at the behavior of customers acquired from various ad campaigns
 
 ## How to Create Your Analysis
 
-1. Click **[!UICONTROL Report Builder]** on the left tab or **√Add Report** > **Create Report]** in any dashboard.
+1. Click **[!UICONTROL Report Builder]** on the left tab or **[!UICONTROL Add Report** > **Create Report]** in any dashboard.
 
 1. In the `Report Builder Selection` screen, click **[!UICONTROL Create Report]** next to the `Visual Report Builder` option.
 

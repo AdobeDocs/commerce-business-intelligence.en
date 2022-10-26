@@ -28,7 +28,7 @@ Depending on the connection method and type of database, some tech expertise mig
 
 ![](../../../assets/SaaS_icons.jpg)
 
-`SaaS` integrations are services like [[!DNL Google Adwords]](../integrations/google-adwords.md), [[!DNL Salesforce](../integrations/salesforce.md), and [[!DNL Zendesk]](../integrations/zendesk.md). It is important to note that because third-party data lives on the vendor's server, you cannot directly access it like you can with the data in your database.
+`SaaS` integrations are services like [[!DNL Google Adwords]](../integrations/google-adwords.md), [[!DNL Salesforce]](../integrations/salesforce.md), and [[!DNL Zendesk]](../integrations/zendesk.md). It is important to note that because third-party data lives on the vendor's server, you cannot directly access it like you can with the data in your database.
 
 In most cases, setting up an integration in [!DNL MBI] is as easy as simply entering your account credentials. Some services might require an API key to complete the authorization - check out the [integrations section](../integrations/integrations.md) for instructions on generating any credentials you need.
 
