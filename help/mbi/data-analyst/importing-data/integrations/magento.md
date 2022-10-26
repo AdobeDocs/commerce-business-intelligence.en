@@ -6,7 +6,7 @@ description: Learn how to find your most valuable acquisition sources and channe
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your **[!UICONTROL Magento]** data to [!DNL MBI] will allow you to answer these questions and more.
 

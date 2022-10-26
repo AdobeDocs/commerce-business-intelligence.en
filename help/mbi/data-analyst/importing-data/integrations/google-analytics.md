@@ -6,7 +6,7 @@ description: Learn to connect Google Analytics with [!DNL MBI].
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/google-analytics-logo.png)
 

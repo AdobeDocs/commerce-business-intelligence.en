@@ -6,7 +6,7 @@ description: Learn how to manage and keep track of your business's payment and i
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 Stripe allows you to manage and keep track of your business's payment and invoice data. Connecting your Stripe account to [!DNL MBI] is a simple two-step process:
 

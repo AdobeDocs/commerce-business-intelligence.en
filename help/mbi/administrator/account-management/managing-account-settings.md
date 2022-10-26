@@ -6,7 +6,7 @@ description: Learn how to customize a number of account settings for your data w
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../administrator/user-management/user-management.md)
 
 In your [!DNL MBI] account, you are able to customize a number of account settings for your data warehouse. These can be accessed by selecting your organization name in the upper right-hand corner of any screen, then choosing **[!UICONTROL Account Settings]** from the dropdown.
 

@@ -6,7 +6,7 @@ description: Learn to build dimensions that will link your eCommerce data with y
 
 >[!NOTE]
 >
->[Requires Admin permissions](../../administrator/user-management/user-management.md).
+>Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
 Now that you are finished [connecting your[!DNL Google ECommerce]account](../../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in [!DNL MBI]? In this article, we walk you through building dimensions that will link your eCommerce data with your orders and customer data.
 

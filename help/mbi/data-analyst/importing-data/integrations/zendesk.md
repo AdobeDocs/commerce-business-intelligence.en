@@ -6,7 +6,7 @@ description: Learn how to consolidate your help desk reporting in [!DNL MBI].
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Zendesk_logo.png)
 

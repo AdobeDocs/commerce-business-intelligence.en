@@ -6,7 +6,7 @@ description: Learn how to connect your Microsoft SQL database to [!DNL MBI] in a
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 This article explains how to connect your Microsoft SQL database to [!DNL MBI] in a four-step process. This process requires some technical expertise related to server connections and SQL, and may require support from developers on your team.
 

@@ -6,7 +6,7 @@ description: Learn how data is generated, what exactly causes a new row to be in
 
 >[!NOTE]
 >
->[Requires Admin permissions](../../administrator/user-management/user-management.md).
+>Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
 A dimension is a field in the same table as a metric that can be used to filter or segment charts based on that metric. For example, a revenue metric may contain city, state, country, order status, coupon code and other types of dimensions.
 

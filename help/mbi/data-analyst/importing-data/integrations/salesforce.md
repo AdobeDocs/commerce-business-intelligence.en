@@ -6,7 +6,7 @@ description: Learn how Salesforce data enables a range of analyses, from scoring
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Salesforce_Logo.png)
 

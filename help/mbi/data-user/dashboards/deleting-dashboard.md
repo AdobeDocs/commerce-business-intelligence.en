@@ -6,7 +6,7 @@ description: Learn how to delete a dashboard.
 
 If you want to keep your dashboard list from becoming too cluttered, you can delete a dashboard if it is no longer required. This can be accomplished in one of two ways:
 
-1. [Via the Account Settings page](#account) - this method [requires Admin permissions](../../administrator/user-management/user-management.md)
+1. [Via the Account Settings page](#account) - this method Requires [Admin permissions](../../administrator/user-management/user-management.md)
 
 1. [Via the Dashboard Options menu](#do) - this method requires you to own the dashboard or have Edit permissions.
 

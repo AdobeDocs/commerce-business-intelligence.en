@@ -6,7 +6,7 @@ description: Learn to to analyze your ad spend data and see if your money is bei
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Facebook_Logo.png)
 

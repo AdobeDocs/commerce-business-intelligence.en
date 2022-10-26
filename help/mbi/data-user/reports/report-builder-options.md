@@ -6,7 +6,7 @@ description: Learn how to choose your report builder.
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../administrator/user-management/user-management.md)
 
 We all like having options. But, when confronted with choices, some of us might balk and freeze at the idea of having to commit to a decision. Options are great, but they can also be overwhelming and confusing.
 

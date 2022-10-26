@@ -6,7 +6,7 @@ description: Learn how to manage table and column sync settings, drill down into
 
 >[!NOTE]
 >
->[Requires Admin permissions](../../administrator/user-management/user-management.md)
+>Requires [Admin permissions](../../administrator/user-management/user-management.md)
 
 The Data Warehouse Manager, accessed by clicking **[!UICONTROL Manage Data > Data Warehouse]** in the sidebar, is the portal to your [!DNL MBI] Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
 

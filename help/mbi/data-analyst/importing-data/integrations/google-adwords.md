@@ -6,7 +6,7 @@ description: Learn to measure campaign ROI by marrying your advertising cost and
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Google_Adwords_logo.png)
 

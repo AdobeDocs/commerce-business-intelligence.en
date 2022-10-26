@@ -6,7 +6,7 @@ description: Learn how your business finances can now live along side your sales
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Quickbooks.png)
 

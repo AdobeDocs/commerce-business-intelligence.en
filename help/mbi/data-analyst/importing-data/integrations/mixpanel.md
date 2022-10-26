@@ -6,7 +6,7 @@ description: Learn how to analyze how users navigate and utilize your websites a
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
 
 ![](../../../assets/Mixpanel_logo.png)
 

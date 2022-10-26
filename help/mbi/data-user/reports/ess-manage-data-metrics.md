@@ -6,7 +6,7 @@ description: Learn how to use metrics to create charts.
 
 >[!NOTE]
 >
->[Requires Admin permissions.](../../administrator/user-management/user-management.md)
+>Requires [Admin permissions.](../../administrator/user-management/user-management.md)
 
 Simply put, a metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period of time.
 
