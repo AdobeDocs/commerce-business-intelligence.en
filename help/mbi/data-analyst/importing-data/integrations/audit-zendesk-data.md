@@ -18,7 +18,7 @@ After data export is enabled, only administrators in a specific email domain can
 
 ## Exporting to a downloadable file
 
-1. Click the Admin icon (gear logo) in the sidebar and choose **[!UICONTROL Manage > Reports**.
+1. Click the Admin icon (gear logo) in the sidebar and choose **[!UICONTROL Manage** > **Reports]**.
 1. Click the **[!UICONTROL Export]** tab.
 1. Click **[!UICONTROL Request file]** beside Full XML Export as seen in the image below.
 
