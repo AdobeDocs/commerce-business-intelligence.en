@@ -2,9 +2,9 @@
 title: Connect PostgreSQL via SSH Tunnel
 description: Learn how to connect your PostgreSQL database to [!DNL MBI] via an SSH tunnel.
 ---
-# Connect PostgreSQL via SSH Tunnel
+# Connect `PostgreSQL` via `SSH` Tunnel
 
-To connect your PostgreSQL database to [!DNL MBI] via an `SSH tunnel`, you (or your team, if you are not a techie) will need to do a few things:
+To connect your `PostgreSQL` database to [!DNL MBI] via an `SSH tunnel`, you (or your team, if you are not a techie) will need to do a few things:
 
 1. [Retrieve the [!DNL MBI] public key](#retrieve)
 1. [Allow access to the [!DNL MBI] IP address](#allowlist)
@@ -14,13 +14,13 @@ To connect your PostgreSQL database to [!DNL MBI] via an `SSH tunnel`, you (or y
 
 It is not as complicated as it might sound. Get started.
 
-## Retrieving the [!DNL MBI] public key {#retrieve}
+## Retrieving the [!DNL MBI] `public key` {#retrieve}
 
 The `public key` is used to authorize the [!DNL MBI] Linux user. In the next section, we will create the user and import the key.
 
-1. Go to **[!UICONTROL Manage Data > Connections]** and click **[!UICONTROL Add a Data Source]**.
-1. Click the PostgreSQL icon.
-1. After the `PostgreSQL credentials` page opens, set the `Encrypted` toggle to `Yes`. This will display the SSH setup form.
+1. Go to **[!UICONTROL Manage Data** > **Connections]** and click **[!UICONTROL Add a Data Source]**.
+1. Click the `PostgreSQL` icon.
+1. After the `PostgreSQL credentials` page opens, set the `Encrypted` toggle to `Yes`. This will display the `SSH` setup form.
 1. The `public key` is located underneath this form.
 
 Leave this page open throughout the tutorial - you will need it in the next section and at the end.
@@ -31,13 +31,13 @@ If you are a bit lost, this is how to navigate through [!DNL MBI] to retrieve th
 
 ## Allow access to the [!DNL MBI] IP address {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP address. it is `54.88.76.97/32`, but it is also on the PostgreSQL credentials page. See the blue box in the GIF above? That is it!
+For the connection to be successful, your must configure your firewall to allow access from our IP address. it is `54.88.76.97/32`, but it is also on the `PostgreSQL` credentials page. See the blue box in the GIF above? That is it!
 
-## Creating a Linux user for [!DNL MBI] {#linux}
+## Creating a `Linux` user for [!DNL MBI] {#linux}
 
 This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../../../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the PostgreSQL server.
 
-1. To add the new user, run the following commands as root on your Linux server:
+1. To add the new user, run the following commands as root on your `Linux` server:
 
 ```bash
         adduser rjmetric -p<password>
@@ -54,7 +54,7 @@ This can be a production or secondary machine, as long as it contains real-time 
         "<PASTE KEY HERE>" >> /home/rjmetric/.ssh/authorized_keys
 ```
 
-1. To finish creating the user, alter the permissions on the `/home/rjmetric` directory to allow access via SSH:
+1. To finish creating the user, alter the permissions on the `/home/rjmetric` directory to allow access via `SSH`:
 
 ```bash
         chown -R rjmetric:rjmetric /home/rjmetric

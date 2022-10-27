@@ -6,27 +6,27 @@ description: Learn how to manage and keep track of your business's payment and i
 
 >[!NOTE]
 >
->Requires [Admin permissions.](../../../administrator/user-management/user-management.md)
+>Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-Stripe allows you to manage and keep track of your business's payment and invoice data. Connecting your Stripe account to [!DNL MBI] is a simple two-step process:
+[!DNL Stripe] allows you to manage and keep track of your business's payment and invoice data. Connecting your [!DNL Stripe] account to [!DNL MBI] is a simple two-step process:
 
-1. [Add Stripe as a data source in MBI](#stepone)
-1. [Allow [!DNL MBI] access to your Stripe Data](#steptwo)
+1. [Add [!DNL Stripe] as a data source in [!DNL MBI]](#stepone)
+1. [Allow [!DNL MBI] access to your [!DNL Stripe] Data](#steptwo)
 
-## Add Stripe as a data source {#stepone}
+## Add [!DNL Stripe] as a data source {#stepone}
 
-1. Go to the Connections page under **Admin > Connections**.
-1. Click **Add a Data Source**, located on the right side of the screen above the Data Sources table.
-1. Click the Stripe icon. This will display the Stripe authorization page.
-1. Click **Connect with Stripe**.
+1. Go to the `Connections` page under **[!UICONTROL Admin** > **Connections]**.
+1. Click **[!UICONTROL Add a Data Source]**, located on the right side of the screen above the `Data Sources` table.
+1. Click the [!DNL Stripe] icon. This will display the `[!DNL Stripe] authorization` page.
+1. Click **[!UICONTROL Connect with Stripe]**.
 
-## Allow [!DNL MBI] access to your Stripe data {#steptwo}
+## Allow [!DNL MBI] access to your [!DNL Stripe] data {#steptwo}
 
-After clicking the **Connect with Stripe**, an access request page appears.
+After clicking **[!UICONTROL Connect with Stripe]**, an access request page appears.
 
-1. Click **Sign in with Stripe to Continue**.
+1. Click **[!UICONTROL Sign in with Stripe to Continue]**.
 
-1. Enter your credentials and click **Sign in to your account**.
+1. Enter your credentials and click **[!UICONTROL Sign in to your account]**.
 
 1. After clicking, your credentials will be validated and you will be directed back to [!DNL MBI].
 
@@ -34,8 +34,8 @@ After clicking the **Connect with Stripe**, an access request page appears.
 
 ## Related:
 
-If you are a little more tech-savvy, the [Stripe API Documentation](https://stripe.com/docs/api) can be a useful resource for learning more about how Stripe is integrated with [!DNL MBI].
+If you are a little more tech-savvy, the [[!DNL Stripe] API Documentation](https://stripe.com/docs/api) can be a useful resource for learning more about how [!DNL Stripe] is integrated with [!DNL MBI].
 
-* [Expected Stripe data](../integrations/stripe-data.md)
+* [Expected [!DNL Stripe] data](../integrations/stripe-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
 
