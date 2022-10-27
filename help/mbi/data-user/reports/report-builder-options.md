@@ -11,7 +11,7 @@ We all like having options. But, when confronted with choices, some of us might 
 
 Now that you have more options for creating analyses, it might sometimes be difficult to know exactly which flavor of the report builder will suit your needs. If you need some guidance on choosing the best way to build your analysis, this article is for you.
 
-## When should I use the `SQL Report Builder? {#whensql}
+## When should I use the `SQL Report Builder`? {#whensql}
 
 Take a look at some of the more common reasons you would use the SQL Report Builder over the traditional Report Builder.
 
