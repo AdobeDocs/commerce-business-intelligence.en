@@ -16,7 +16,7 @@ After you have exported the ad spend data, use the [`File Upload` feature](../co
 
 In addition to your online campaigns, you may also have advertisements offline, such as on the radio or a billboard. To account for these cases, you can manually upload a spreadsheet with the cost data to [!DNL MBI].
 
-The table structure explored below is recommended when creating a CSV file to record ad spend data. A template file is also attached at the bottom of this article to serve as example. Recommended columns are:
+The table structure explored below is recommended when creating a `.csv` file to record ad spend data. A template file is also attached at the bottom of this article to serve as example. Recommended columns are:
 
 * `ID` - This is a unique identifier for each data row which is used by the database as primary key. This must be different for every row.
 * `Date` - This is the date the campaign ran, in yyyy-mm-dd format.

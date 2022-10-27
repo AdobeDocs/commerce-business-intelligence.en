@@ -20,7 +20,7 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
     ![import mailchimp 3](../../../assets/import-mailchimp-3.png)
 
-1. Click **[!UICONTROL Export]** and save the CSV file.
+1. Click **[!UICONTROL Export]** and save the `.csv` file.
 
    You will need to add `primary key`, `date (mm/dd/yyyy)`, and `campaign name` columns to this file. Make sure the `primary keys` are unique to each row.
 
@@ -38,13 +38,13 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
     ![import mailchimp 6](../../../assets/import-mailchimp-6.png)
 
-1. Click **[!UICONTROL Export]** and save the CSV file.
+1. Click **[!UICONTROL Export]** and save the `.csv` file.
 
    You will need to add `Primary Key`, `date (mm/dd/yyyy)`, `campaign name`, and `URL` columns to this file. You do not need to add the full URL, just something that will let you know what was clicked.
 
     ![import mailchimp 7](../../../assets/import-mailchimp-7.png)
 
-1. Repeat steps 3 and 4 for each URL clicked in your email, combining all the data into the same CSV file when finished.
+1. Repeat steps 3 and 4 for each URL clicked in your email, combining all the data into the same `.csv` file when finished.
 
 ## Export Sent data {#sent}
 
@@ -56,7 +56,7 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
     ![import mailchimp 8](../../../assets/import-mailchimp-8.png)
 
-1. Click **[!UICONTROL Export]** and save the CSV file.
+1. Click **[!UICONTROL Export]** and save the `.csv` file.
 
    You will need to add `Primary Key`, `date (mm/dd/yyyy)`, and `campaign name` columns to this file.
 

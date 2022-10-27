@@ -50,7 +50,7 @@ Similar to scalar reports, you can save a report as a table by clicking Save or 
 
 **Requirements:**
 
-* Although there are no report configuration requirements, it is important to note that tables are limited to 3500 rows. If your data set includes more than 3500 rows, you will need to either filter the results to narrow down the scope, or export the results to CSV or Excel to see the full data set.
+* Although there are no report configuration requirements, it is important to note that tables are limited to 3500 rows. If your data set includes more than 3500 rows, you will need to either filter the results to narrow down the scope, or export the results to `.csv` or Excel to see the full data set.
 
 ## Line
 

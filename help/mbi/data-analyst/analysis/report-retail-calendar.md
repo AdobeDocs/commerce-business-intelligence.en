@@ -8,13 +8,13 @@ In this article, we demonstrate how to set up the structure to use a [4-5-4 reta
 
 Because many of our customers alter their calendar to use retail or accounting dates, the below steps will illustrate how to work with your data and create reports using retail dates. Though the below instructions will reference the 4-5-4 Retail calendar, you can alter them for any specific calendar your team uses, whether it be financial or just a custom time frame.
 
-Before getting started, you want to familiarize yourself with [the File Uploader](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) and ensure that you have elongated the csv file so that the dates cover all of your historical data as well as push the dates into the future.
+Before getting started, you want to familiarize yourself with [the File Uploader](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) and ensure that you have elongated the `.csv` file so that the dates cover all of your historical data as well as push the dates into the future.
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Getting Started
 
-You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a CSV version of the 4-5-4 retail calendar for retail years 2014 through 2017. Note that you may need to adjust this file according to your internal retail calendar as well as extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your [!DNL MBI] data warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
+You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a `.csv` version of the 4-5-4 retail calendar for retail years 2014 through 2017. Note that you may need to adjust this file according to your internal retail calendar as well as extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your [!DNL MBI] data warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
 
 | Column Name | Column Datatype | Primary Key |
 | --- | --- | --- |

@@ -7,8 +7,6 @@ seo-description: Describes how to use the MBI features used to gain insights fro
 ---
 # [!DNL MBI] User Guide Overview
 
-This guide is intended for > add summary of guide purpose
-
 There are two areas for data administrators:
 
 - The Admin: Use this area to access the configuration UI and reporting.
@@ -18,8 +16,8 @@ There are two areas for data administrators:
 
 | Guide | Description |
 |------ | ----------- |
-| [Adobe Commerce 2.4 User Guide](https://docs.magento.com/user-guide/) | Merchant-focused documentation for both Adobe Commerce and **[!UICONTROL Magento]** Open Source |
-| [Adobe Commerce 2.4 Developer Guide](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or **[!UICONTROL Magento]** Open Source |
+| [`Adobe Commerce 2.4 User Guide`](https://docs.magento.com/user-guide/) | Merchant-focused documentation for both [!DNL Adobe Commerce] and [!DNL Magento Open Source] |
+| [`Adobe Commerce 2.4 Developer Guide`](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize Adobe Commerce or **[!DNL Magento Open Source] |
 
 {style="table-layout:auto"}
 

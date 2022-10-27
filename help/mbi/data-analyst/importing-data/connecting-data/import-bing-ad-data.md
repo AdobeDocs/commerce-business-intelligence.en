@@ -4,7 +4,7 @@ description: Learn to import Bing advertising spend data into [!DNL MBI] for ana
 ---
 # Import [!DNL Bing] Data
 
-To import [!DNL Bing] advertising spend data into [!DNL MBI] for analysis, simply export the data from `[!DNL Bing] Ads Editor` in a CSV format and upload it to [!DNL MBI] as per the steps below:
+To import [!DNL Bing] advertising spend data into [!DNL MBI] for analysis, simply export the data from `[!DNL Bing] Ads Editor` in a `.csv` format and upload it to [!DNL MBI] as per the steps below:
 
 ## [!DNL Bing] Ads Editor
 

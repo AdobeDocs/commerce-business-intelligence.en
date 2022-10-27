@@ -6,7 +6,7 @@ description: Learn how to allow better organization of dashboards.
 
 Dashboard groups allow better organization of dashboards. The most common use case is to group similar dashboards under the same "group". For example, all dashboards related to marketing could be grouped together under a dashboard group "Marketing".
 
-In the dashboard selection drop-down, dashboard groups are shown in alphabetical order, with all dashboards under "No Group" shown last. Dashboards under the same group are shown together and in alphabetical order within each group.
+In the dashboard selection dropdown, dashboard groups are shown in alphabetical order, with all dashboards under "No Group" shown last. Dashboards under the same group are shown together and in alphabetical order within each group.
 
 ## Dashboard Group Sharing
 
@@ -22,11 +22,11 @@ Dashboard groups can be created in one of two ways:
 
    ![create dashboard group](../../assets/create-dashboard-groups-new-dashboard.png)
 
-1. When changing the group of an existing dashboard, from the **[!DNL Manage Data]** > **Dashboards** page:
+1. When changing the group of an existing dashboard, from the `Manage Data > Dashboards` page:
 
    1. Click the dashboard for which you would like to create the new group.
 
-   1. Under _Dashboard Group (optional)_, the current dashboard group will appear.
+   1. Under `Dashboard Group (optional)`, the current dashboard group will appear.
 
    1. To create a new group, type the name of the new group and then click outside the box.
 
@@ -34,9 +34,9 @@ Dashboard groups can be created in one of two ways:
 
 ## Add Existing Dashboards to Existing Groups
 
-1. On the **[!DNL Manage Data]** > **Dashboards** page, choose the dashboard for which to change the group.
+1. On the `Manage Data > Dashboards` page, choose the dashboard for which to change the group.
 
-1. The text under _Dashboard Group (optional)_ shows the current dashboard group of the dashboard.
+1. The text under `Dashboard Group (optional)` shows the current dashboard group of the dashboard.
 
 1. To change the group of the dashboard, choose another group from the list – in this case `PS`, `Campaigns`.
 

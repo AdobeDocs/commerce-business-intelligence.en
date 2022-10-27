@@ -14,7 +14,7 @@ Let us use ad campaigns as an example. If you are running both online and offlin
 
 ## Restrictions and requirements {#require}
 
-1. **The only supported format for file uploads is `CSV` or `comma separated values`**. If you are working in Excel, you can use the Save As function to save the file in CSV format.
+1. **The only supported format for file uploads is `CSV` or `comma separated values`**. If you are working in Excel, you can use the Save As function to save the file in `.csv` format.
 1. **`CSV` files must use `UTF-8 encoding`**. The majority of the time, this will not be an issue. If you encounter this error while uploading a file, [consult this Support article](https://support.magento.com/hc/en-us/articles/360016730591).
 1. **Files cannot be larger than 100MB**. If the file is larger than this, separate the table into chunks and save them as individual files. You can use append the data after the initial file is loaded.
 1. **All tables must have a `primary key`**. There needs to be at least one column in your table that can be used as a `primary key`, or a unique identifier for each row in the table. Any column designated as a `primary key` can *never* be null. A `primary key` can be as simple as adding a column that gives a number to each row, or can be two columns concatenated to make a column of unique values (e.g., `campaign name` and `date`).
@@ -108,7 +108,7 @@ Got some new data to add to a file you have already uploaded? No problem - you c
 
 1. To get started, go to **[!UICONTROL Manage Data** > **File Uploads]**.
 
-1. Click the **[!UICONTROL Edit/Upload CSV to Existing Tables]** tab.
+1. Click the **[!UICONTROL Edit/Upload `.csv` to Existing Tables]** tab.
 
 1. In the dropdown, click the name of the table you want to update or append.
 

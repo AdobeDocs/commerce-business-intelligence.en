@@ -29,7 +29,7 @@ If you are trying to pinpoint a specific discrepancy or set of data, you should 
 
 When the report meets your needs, save it to a dashboard by giving the report a distinct name, clicking **[!UICONTROL Save]**, and selecting the type of report you would like to save and the dashboard. When auditing metrics, we recommend saving the report as a `Table` and saving it to a test dashboard.
 
-After the report is saved, navigate to that dashboard by selecting `Go to Dashboard`. From there, you can export the data by finding the report and selecting **[!UICONTROL Options gear > Full CSV Export]** or **[!UICONTROL Full Excel Export]**.
+After the report is saved, navigate to that dashboard by selecting `Go to Dashboard`. From there, you can export the data by finding the report and selecting **[!UICONTROL Options gear > Full `.csv` Export]** or **[!UICONTROL Full Excel Export]**.
 
 ![](../../assets/export-dboard-data.gif)
 

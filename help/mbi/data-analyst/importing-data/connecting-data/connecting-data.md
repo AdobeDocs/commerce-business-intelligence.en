@@ -12,7 +12,7 @@ Integrations are added and managed using the `Connections` page, which can be ac
 
 ## Types of Integrations
 
-There are four ways to get your data into [!DNL MBI]: connect a database, connect a SaaS integration, upload a CSV file, or use our API.
+There are four ways to get your data into [!DNL MBI]: connect a database, connect a SaaS integration, upload a `.csv` file, or use our API.
 
 ## Database Integrations
 
@@ -34,7 +34,7 @@ In most cases, setting up an integration in [!DNL MBI] is as easy as simply ente
 
 ## File Upload
 
-Not sure how to get data from a supplementary source into your data warehouse? [Using the `File Upload` feature](../connecting-data/using-file-uploader.md) is a good way to pull in data that you do not need for everyday decision making. Following our formatting rules, you can quickly upload CSV files into your data warehouse and join them with other data sources.
+Not sure how to get data from a supplementary source into your data warehouse? [Using the `File Upload` feature](../connecting-data/using-file-uploader.md) is a good way to pull in data that you do not need for everyday decision making. Following our formatting rules, you can quickly upload `.csv` files into your data warehouse and join them with other data sources.
 
 ## [!DNL MBI] `Import API`
 

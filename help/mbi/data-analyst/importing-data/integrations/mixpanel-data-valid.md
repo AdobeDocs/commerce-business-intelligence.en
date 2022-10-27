@@ -16,8 +16,8 @@ When [!DNL MBI] first connects to your [!DNL Mixpanel] data, your Account Manag
 
     ![](../../../assets/past-96-hours.png)
 
-1. Scroll to the lower-right of the report and export a CSV file:
+1. Scroll to the lower-right of the report and export a `.csv` file:
 
     ![](../../../assets/export-csv-mixpanel.png)
 
-1. Send the CSV file to the account manager or analyst you are working with on this validation process.
+1. Send the `.csv` file to the account manager or analyst you are working with on this validation process.

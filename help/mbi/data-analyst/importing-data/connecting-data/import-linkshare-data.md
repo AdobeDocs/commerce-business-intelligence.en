@@ -6,7 +6,7 @@ description: Learn to import Linkshare data into [!DNL MBI].
 
 To bring your `Linkshare` data into [!DNL MBI], you need to do two things:
 
-1. [Export the Linkshare data in CSV format](#export)
+1. [Export the Linkshare data in `.csv` format](#export)
 1. [Upload the spreadsheet into [!DNL MBI]](../connecting-data/using-file-uploader.md)
 
 ## Export data from Linkshare {#export}
@@ -29,6 +29,6 @@ To bring your `Linkshare` data into [!DNL MBI], you need to do two things:
 
 1. Click **[!UICONTROL Download]**.
 
-   At this point, a CSV file will be created and downloaded.
+   At this point, a `.csv` file will be created and downloaded.
 
 After the file is downloaded, you can upload it to [!DNL MBI] using the [`File Upload` feature](../connecting-data/using-file-uploader.md).
