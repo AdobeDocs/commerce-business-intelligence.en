@@ -27,7 +27,7 @@ Connecting your Facebook ad data to [!DNL MBI] is a simple three-step process:
 
 ## Allow [!DNL MBI] access to your [!DNL Facebook Ads] data {#steptwo}
 
-After clicking **[!DNL Facebook]Authorize]**, a small pop-up window will display:
+After clicking **[!DNL Facebook Authorize]**, a small pop-up window will display:
 
  ![](../../../assets/Facebook_Access_Popup.png)
 

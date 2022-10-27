@@ -8,7 +8,7 @@ If you want to view the data behind a chart, click the gear icon in the top-righ
 
 Select either:
 
-- `Report Export
+- `Report Export`
 - `Full .csv Export`
 - `Full Excel Export`
 - `Raw Export`

@@ -12,4 +12,3 @@ The [!DNL Spree] database is based on `PostgreSQL`, you can connect it to [!DNL 
 
 * [Recommended data dimensions for segmentation and filtering](../../../best-practices/segment-filter.md)
 * [What are your most valuable acquisition sources and channels?](../../analysis/most-value-source-channel.md)
-

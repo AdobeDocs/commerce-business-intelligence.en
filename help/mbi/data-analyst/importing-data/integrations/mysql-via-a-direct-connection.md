@@ -7,7 +7,7 @@ description: Learn how to connect [!DNL MongoDB] via direct connection.
 ## In this Article
 
 * [Allow access to the [!DNL MBI] IP address](#allowlist)
-* [Create a `MySQ`L` user for [!DNL MBI]](#steptwo)
+* [Create a `MySQL` user for [!DNL MBI]](#steptwo)
 * [Enter connection info into [!DNL MBI]](#stepthree)
 
 ## Jump to
@@ -16,7 +16,7 @@ description: Learn how to connect [!DNL MongoDB] via direct connection.
 * `MySQL via direct connection`
 * [`MySQL via cPanel`](../integrations/mysql-via-cpanel.md)
 
->[!NOTE}
+>[!NOTE]
 >
 >We strongly recommend you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL MBI] to your database using the instructions in this article.
 

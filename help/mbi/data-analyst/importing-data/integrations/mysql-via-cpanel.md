@@ -14,7 +14,7 @@ description: Learn how to connect MySQL via cPanel.
 
 * **`MySQL via cPanel`**
 
->[!IMPORTANT}
+>[!IMPORTANT]
 >
 >We strongly recommend you use SSH or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL MBI] to your database using the instructions in this article.
 
@@ -34,7 +34,7 @@ Get started.
      ![](../../../assets/create-mbi-mysql-user-cpanel.png)
 
 1. Click **[!UICONTROL Create User]**.
-1. Now that you have created the user, you need to associate it to a database. Go back to the `Add New User` `section - see the settings for `Add User to Database?` That is what we need.
+1. Now that you have created the user, you need to associate it to a database. Go back to the `Add New User` section - see the settings for `Add User to Database?` That is what we need.
 1. In the `User` dropdown of this section, select the user you created.
 1. In the `Database` dropdown of this section, select the database you want to connect to [!DNL MBI].
 1. Click **[!UICONTROL Add]**.

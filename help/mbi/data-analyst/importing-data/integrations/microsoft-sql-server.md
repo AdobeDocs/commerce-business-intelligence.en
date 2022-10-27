@@ -16,7 +16,7 @@ Our system needs to run SELECT queries on your database. We do this initially to
 
 The best way to do this is for us to connect to your database server over TCP/IP. Create a user for us that can only run SELECT queries (and, optionally, can only select data from the tables you specify). This needs to be done for each of your servers that you will be connecting to [!DNL MBI].
 
-## Connecting `Microsoft SQL` to [!DNL MBI}:
+## Connecting `Microsoft SQL` to [!DNL MBI]:
 
 1. Make sure your server allows connections over TCP/IP and mixed mode authentication.
 

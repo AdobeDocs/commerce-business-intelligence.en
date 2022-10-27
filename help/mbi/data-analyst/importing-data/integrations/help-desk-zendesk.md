@@ -179,7 +179,7 @@ Before getting started, you will want to connect your [[!DNL Zendesk]](../integr
 * **`Ticket created_at (day of week)`**
   * * `Column type` - "Same Table > Calculation"
 
-    * ``Input columns` - `created_at`
+    * `Input columns` - `created_at`
 
     * `Calculation` - `to_char(A,'D')||'. '||to_char(A,'Day')`
 
@@ -304,9 +304,9 @@ Before getting started, you will want to connect your [[!DNL Zendesk]](../integr
   * status IN `solved, closed`
 
 * Metric `A`: `Average time to resolution`
-* `Time period`: `All time
-* `Interval`: `None
-* `Chart Type`: `Scalar
+* `Time period`: `All time`
+* `Interval`: `None`
+* `Chart Type`: `Scalar`
 
 * **[!UICONTROL Tickets by status]**
   * [!UICONTROL Metric]: `New Tickets`

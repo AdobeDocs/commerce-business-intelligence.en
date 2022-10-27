@@ -72,7 +72,7 @@ To truly scale [!DNL MBI] throughout your organization and provide valuable insi
 
 When you share a dashboard, you can assign permissions across your organization OR on an individual basis, meaning you get to decide who can view and edit your reports.
 
->[!NOTE}
+>[!NOTE]
 >
 >`Read-Only` users only have access to dashboards that are directly shared with them - they are not able to search for and add dashboards on their own. Do not forget to keep them in the loop!
 
@@ -106,7 +106,7 @@ When you share a dashboard, you can assign permissions across your organization 
 
     **`Default`**
 
-    1. To make this dashboard the default for your [!DNL MBI]] account, click **[!UICONTROL Make Default]**.
+    1. To make this dashboard the default for your [!DNL MBI] account, click **[!UICONTROL Make Default]**.
 
     **`Remove`**
 
