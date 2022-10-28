@@ -4,15 +4,15 @@ description: Learn about activating your [!DNL MBI] account for On-Premise Subsc
 ---
 # Activate your [!DNL MBI] Account for On-Premise Subscriptions
 
-To activate [!DNL MBI] for on-premise subscriptions, first create a [!DNL MBI] account, then connect [!DNL MBI] to your **[!UICONTROL Magento]** database. For information about activation in Cloud Starter projects, see [Activating your [!DNL MBI] Account for Cloud Starter Subscriptions](../getting-started/cloud-activation.md).
+To activate [!DNL MBI] for on-premise subscriptions, first create a [!DNL MBI] account, then connect [!DNL MBI] to your [!UICONTROL Magento] database. For information about activation in `Cloud Starter` projects, see [Activating your [!DNL MBI] Account for `Cloud Starter` Subscriptions](../getting-started/cloud-activation.md).
 
 1. Create your [!DNL MBI] Account.
 
     -  Go to [https://account.magento.com/customer/account/login](https://account.magento.com/customer/account/login)
 
-    -  Go to **My Account** > **My [!DNL MBI] Instances**.
+    -  Go to **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
 
-    -  Click **Create Instance**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
+    -  Click **[!UICONTROL Create Instance]**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
 
     -  Enter your information to create your account.
 
@@ -32,9 +32,9 @@ To activate [!DNL MBI] for on-premise subscriptions, first create a [!DNL MBI] a
 
     ![](../assets/create-account-6.png)
 
-1. Connect [!DNL MBI] to your **[!UICONTROL Magento]** database using an encrypted connection.
+1. Connect [!DNL MBI] to your [!UICONTROL Magento] database using an encrypted connection.
 
-   **[!UICONTROL Magento]** strongly recommends you connect using an [SSH tunnel](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md). However, if this is not an option, you can still link [!DNL MBI] to your database using a [direct connection](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
+   [!UICONTROL Magento] strongly recommends you connect using an [`SSH tunnel`](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md). However, if this is not an option, you can still link [!DNL MBI] to your database using a [`direct connection`](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
 
 1. After you have successfully connected [!DNL MBI] to your Commerce database, contact your Customer Success Manager to coordinate the next steps, such as setting up integrations and other configuration steps.
 
