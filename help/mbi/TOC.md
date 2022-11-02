@@ -76,7 +76,7 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
     - [First purchase report](data-analyst/dev-reports/time-first-purchase-slope-dwnwrd.md)
     - [Understanding the [!DNL Repeat Order Probability Report]](data-analyst/dev-reports/repeat-order-probability.md)
     - [Auditing Metrics using the [!DNL SQL Report Builder]](data-analyst/dev-reports/audit-metrics-sql.md)
-    - [Differences in Columns Between [!DNL SQL] and [!DNL Data Warehouse Manager](data-analyst/dev-reports/columns-sql-dwm.md)
+    - [Differences in Columns Between [!DNL SQL] and [!DNL Data Warehouse Manager]](data-analyst/dev-reports/columns-sql-dwm.md)
   - Connecting Data {#connecting}
     - [Introduction](data-analyst/importing-data/connecting-data/connecting-data.md)
     - [Formatting and importing eCommerce data](data-analyst/importing-data/connecting-data/format-import-ecom-data.md)
