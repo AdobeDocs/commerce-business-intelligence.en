@@ -14,7 +14,4 @@ In this section, you will learn how to connect and import data to [!DNL MBI], vi
 * [`SQL Report Builder`](data-analyst/dev-reports/sql-rpt-bldr.md)
 * [Connecting Data](../mbi/data-analyst/importing-data/connecting-data/connecting-data.md)
 * [Integrations](../mbi/data-analyst/importing-data/integrations/magento.md)
-* [Campaign Analysis](../mbi/data-analyst/analysis/camp-analysis.md)
-* [Customer Analysis](../mbi/data-analyst/analysis/cust-analysis.md)
-* [Business Performance Analysis](../mbi/data-analyst/analysis/bus-perf-analysis.md)
 * [Forecasting](../mbi/data-analyst/analysis/forecasting.md)

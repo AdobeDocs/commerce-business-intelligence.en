@@ -115,4 +115,4 @@ Here is a look at the whole process:
 
 ## Wrapping up
 
-That is it! Your [!DNL MBI] account should now be tidier and easier to navigate for you and your team. For more best practices including optimizing your update time and database, see [Best Practices](../best-practices.md).
+That is it! Your [!DNL MBI] account should now be tidier and easier to navigate for you and your team. 

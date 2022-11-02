@@ -24,5 +24,5 @@ This guide contains the following sections that are organized based on what role
 
 In addition to the above role-based workflows, this guide also contains:
 
--  [Best Practices](../best-practices.md): [!UICONTROL MBI] is a robust and flexible platform which means there are many different ways to perform similar tasks. This section pulls together the [!DNL MBI] recommended methods for capturing, analyzing, and viewing your data.
+-  Best Practices: [!UICONTROL MBI] is a robust and flexible platform which means there are many different ways to perform similar tasks. This section pulls together the [!DNL MBI] recommended methods for capturing, analyzing, and viewing your data.
 -  Tutorials: Follow these self-guided tutorials to learn the power of [!DNL MBI].
