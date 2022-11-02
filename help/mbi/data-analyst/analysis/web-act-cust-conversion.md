@@ -24,7 +24,7 @@ This collection of reports is built using the following:
 
 ## Building your reports
 
-### 1. Start by creating a report that shows the number of page views, sessions and users over time:
+**Start by creating a report that shows the number of page views, sessions and users over time:**
 
 1. Create a new report.
 1. Click **[!UICONTROL Add Metric]**, then mouse over the [!DNL Google Analytics] section at the bottom of the dropdown and select `Page Views`.
@@ -33,21 +33,21 @@ This collection of reports is built using the following:
 1. Now change your time period to a moving range, from 31 days ago to 1 day ago, and adjust the time interval to `by day`.
 1. Give your report a name (e.g., `Page views, sessions and users by day`), and click **[!UICONTROL Save]**.
 
-### 2. Our second report will look at the number of page views over the past year:
+**Our second report will look at the number of page views over the past year:**
 
 1. Create a new report.
 1. Click **[!UICONTROL Add Metric]**, mouse over the [!DNL Google Analytics] section at the bottom of the dropdown and select _Page Views_.
 1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to `by month`.
 1. Give your report a name, like `Page views by month,` and Click **[!UICONTROL Save]**.
 
-### 3. The third chart will look at the bounce rate over the past year:
+**The third chart will look at the bounce rate over the past year:**
 
 1. Create a new report.
 1. Click **[!UICONTROL Add Metric]**, mouse over the [!DNL Google Analytics] section at the bottom of the dropdown and select _Bounce rate_.
 1. Change your time period to a moving range, from 13 months ago to 1 month ago, and adjust the time interval to `by month`.
 1. Give your report a name, like `Bounce rate by month`, and Click **[!UICONTROL Save]**.
 
-### 4. Now, take a look at the average session length of new visitors compared to returning visitors:
+**Now, take a look at the average session length of new visitors compared to returning visitors:**
 
 1. Create a new report.
 1. Click **UICONTROL Add Metric**, mouse over the [!DNL Google Analytics] section at the bottom of the dropdown and select `Average Session Length`.
@@ -55,7 +55,7 @@ This collection of reports is built using the following:
 1. Add a `Group by` and select `New or returning visitor`.  Check the `Show All` box; then click **[!UICONTROL Apply]**.
 1. Give your report a name, like `Average session length`, and Click **[!UICONTROL Save]**.
 
-### 5. Next, take a look at your top referring domains in the last 30 days:
+**Next, take a look at your top referring domains in the last 30 days:**
 
 1. Create a new report.
 1. Click **[!UICONTROL Add Metric]**, mouse over the [!DNL Google Analytics] section at the bottom of the dropdown and select `Sessions`.
@@ -64,7 +64,7 @@ This collection of reports is built using the following:
 1. Add another `group by` and select `ga:medium`. Again, check the `Show All` box; then click **[!UICONTROL Apply]**.
 1. Give your report a name, like `Top 20 Referring Domains, 30 Days`, and click **[!UICONTROL Save]**.
 
-### 6. Finally, take a look at conversion:
+**Finally, take a look at conversion:**
 
 1. Create a new report.
 1. Add the following metrics:

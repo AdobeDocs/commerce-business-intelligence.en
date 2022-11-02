@@ -6,7 +6,7 @@ description: Learn how to segment your data by user acquisition source.
 
 >[!NOTE]
 >
->The process below does not support GoogleUniversal Analytics.
+>The process below does not support [!DNL GoogleUniversal Analytics].
 
 The ability to segment your data by user acquisition source is critical to effectively managing your marketing plan. Knowing the acquisition source of new users shows which channels yield the top returns, and allows your team to allocate marketing dollars with confidence.
 

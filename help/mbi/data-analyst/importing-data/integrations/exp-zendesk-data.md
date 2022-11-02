@@ -10,7 +10,7 @@ In this article, we explore the main data tables that you can import from [!DNL 
 
 | Table name | Description |
 |-----|-----|
-| [`Audits`](https://developer.zendesk.com/rest_api/docs/core/ticket_audits) | The`Audits` table records activity associated with a ticket, including status changes and both customer and agent responses. This table includes a ticket id which links back to the `Tickets` table, which allows you to analyze the time to first response and time to resolution for each ticket. |
+| [`Audits`](https://developer.zendesk.com/rest_api/docs/core/ticket_audits) | The `Audits` table records activity associated with a ticket, including status changes and both customer and agent responses. This table includes a ticket id which links back to the `Tickets` table, which allows you to analyze the time to first response and time to resolution for each ticket. |
 | [`Audit_~\_Events`](https://developer.zendesk.com/rest_api/docs/core/ticket_audits#audit-events) | The `audit_~\_events` table is the child of the `audits` table and records additional details of a ticket event. |
 | [`Organizations`](https://developer.zendesk.com/rest_api/docs/core/organizations) | The `Organizations` table records company information about your end-users such as the name, ID, associated domain names, tags, and any custom fields. |
 | [`Tickets`](https://developer.zendesk.com/rest_api/docs/core/tickets) | The `Tickets` table records all ticket details, including the `created_at` timestamp as well as the `requester\_id` and `assignee\_id`, which allows you to link a ticket to an end-user and agent in the `Users` table respectively. |

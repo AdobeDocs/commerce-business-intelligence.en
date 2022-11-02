@@ -8,6 +8,8 @@ description: Learn how to manage and keep track of your business's payment and i
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
+![](../../../assets/stripe-logo.png)
+
 [!DNL Stripe] allows you to manage and keep track of your business's payment and invoice data. Connecting your [!DNL Stripe] account to [!DNL MBI] is a simple two-step process:
 
 1. [Add [!DNL Stripe] as a data source in [!DNL MBI]](#stepone)

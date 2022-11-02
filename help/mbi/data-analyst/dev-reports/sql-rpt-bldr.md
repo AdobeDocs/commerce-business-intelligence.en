@@ -144,6 +144,10 @@ Unlike the `Visual Report Builder`, the [`Cohort Report Builder`](../dev-reports
 |Intermediate/advanced analysts|Beginners - you need practice defining cohorts.|
 |Identifying behavioral trends over time|Qualitative analysis - it can be [done](../dev-reports/create-qual-cohort-analysis.md), but requires our assistance.|
 
+## Rebuilding Queries after the Update Cycle
+
+You do not have to rebuild your queries. Reports created using the [`SQL Report Builder`](../dev-reports/sql-rpt-bldr.md) are saved like those created in the traditional `Report Builder`. The update process for SQL charts is exactly the same - after your data is updated, the values in your charts will be recalculated and redisplayed.
+
 ## Wrapping up {#wrapup}
 
 If you want to try something a bit more challenging, why not try writing a query that is optimized for visualization? Check out our [Creating visualizations from SQL queries tutorial](../../tutorials/create-visuals-from-sql.md){: target="_blank"} to get started.

@@ -34,7 +34,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
     * To create a new `Group` for the dashboard, enter the name of the group.
 
-        For example, if your **[!UICONTROL Magento]** installation has multiple store views, you might create a Group for each store view.
+        For example, if your [!UICONTROL Magento] installation has multiple store views, you might create a Group for each store view.
 
     * Click **[!UICONTROL Create]**.
 

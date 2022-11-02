@@ -8,6 +8,11 @@ description: Learn how to add a new [!DNL MBI] user and how to update your user 
 1. Enter the user's name and email.
 1. Set the user's **[!UICONTROL general permission level]**: `Admin`, `Standard`, or `Read Only`.
 1. Indicate if this new user should also be accountable for **[!UICONTROL billing]** or **[!UICONTROL technical]** issues by checking the appropriate boxes.
+
+   >[!NOTE]
+   >
+   >To view, add, or change your account's billing information, you must have `Billing` permissions. [Permissions are set on a user-by-user basis](../../administrator/user-management/user-management.md) when user accounts are created. If you need `Billing` permissions, contact your account's administrator.
+
 1. Click **[!UICONTROL Save]**.
 1. The new user will receive an email with login and password details.
 

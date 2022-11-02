@@ -8,6 +8,8 @@ description: Learn how to connect your Microsoft SQL database to [!DNL MBI] in a
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
+![](../../../assets/MicrosoftSQLServer-logo.png)
+
 This article explains how to connect your `Microsoft SQL` database to [!DNL MBI] in a four-step process. This process requires some technical expertise related to server connections and SQL, and may require support from developers on your team.
 
 We support [!DNL Amazon RDS], [!DNL EC2], [!DNL Microsoft SQL Azure], and most other cloud server providers. If you have a question on your particular host, [submit a support ticket](../../../getting-started/support.md) asking us to provide this information.

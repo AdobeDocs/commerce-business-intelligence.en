@@ -26,7 +26,7 @@ Using login dates as an example, many companies will store the last login date r
 
 As a general rule, if you are updating a record due to some kind of user action, do not overwrite information about a previous or separate user action.
 
-## Include Updated_at Columns for Data Updated Over Time
+## Include `Updated_at` Columns for Data Updated Over Time
 
 If a table's rows will have changing values over time, for example, **order\_status** changes from`processing` to `complete`, include an **updated\_at** column to record when the latest change occurs. Ensure that an **updated\_at** value is available when first inserting the new data row, at which time the **updated\_at** date corresponds to the **created\_at** date.
 

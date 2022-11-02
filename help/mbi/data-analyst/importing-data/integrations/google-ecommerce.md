@@ -8,6 +8,8 @@ description: Learn about your most valued referral channels.
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
+![](../../../assets/google-ecommerce-logo.png)
+
 You have steady flow of traffic and orders, which means you are effectively reaching and acquiring customers. But what are your most valuable referral channels? what is the average lifetime value of customers acquired from one source versus another? By connecting your order referral source data from [!DNL Google ECommerce] to [!DNL MBI], you can build analyses that will help you identify your [most valuable marketing channels](../../../data-analyst/analysis/most-value-source-channel.md).
 
 Let us get started by entering our [!DNL Google ECommerce] credentials into [!DNL MBI]:
@@ -39,7 +41,7 @@ To identify a particular website's [!DNL Google Analytics] Profile ID:
 ## Disconnecting [!DNL Google ECommerce] from [!DNL MBI] {#disconnect}
 
 1. Visit your [!DNL Google Analytics] [account settings](https://www.google.com/accounts/) page.
-1. Under the `Security section`, click **[!UICONTROL edit]** next to `Authorizing` applications and sites.
+1. Under the `Security` section, click **[!UICONTROL edit]** next to `Authorizing` applications and sites.
 1. Click **[!UICONTROL revoke access]** next to [!DNL MBI].
 
 ## Related:

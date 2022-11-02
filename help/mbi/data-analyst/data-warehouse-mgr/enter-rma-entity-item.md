@@ -4,11 +4,11 @@ description: Learn how analyze information about a specific item from a requeste
 ---
 # enterprise_rma_item_entity Table
 
-Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_item_entity` in **[!UICONTROL Magento]** 2.x, but the name can be customized) contains information about a specific item from a requested return. 
+Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_item_entity` in [!UICONTROL Magento] 2.x, but the name can be customized) contains information about a specific item from a requested return. 
 
 >[!NOTE]
 >
->This table only comes standard with your **[!UICONTROL Magento]** account if you are an `Enterprise Edition` or `Enterprise Cloud Edition` customer.
+>This table only comes standard with your [!UICONTROL Magento] account if you are an `Enterprise Edition` or `Enterprise Cloud Edition` customer.
 
 ## Common Native Columns
 
@@ -49,12 +49,12 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 `enterprise_rma`
 
 * Create joined columns such as `Return date\_requested` on the `enterprise_rma_item_entity` table via the following join:
-* **[!UICONTROL Magento]** 1.x: `enterprise_rma_item_entity.rma_entity_id ` (many) => `enterprise_rma.entity_id` (one)
-* **[!UICONTROL Magento]** 2.x: `magento_rma_item_entity.rma_entity_id ` (many) => `magento_rma.entity_id` (one)
+* [!UICONTROL Magento] 1.x: `enterprise_rma_item_entity.rma_entity_id ` (many) => `enterprise_rma.entity_id` (one)
+* [!UICONTROL Magento] 2.x: `magento_rma_item_entity.rma_entity_id ` (many) => `magento_rma.entity_id` (one)
 
 `sales_flat_order_item`
 
 * Create joined columns on the  `enterprise_rma_item_entity` table via the following join:
 
-* **[!UICONTROL Magento]** 1.x: `enterprise_rma_item_entity.order_item_id ` (many) => `sales_flat_order_item.item_id` (one)
-* **[!UICONTROL Magento]** 2.x: `magento_rma_item_entity.order_item_id ` (many) => `sales_order_item.item_id` (one)
+* [!UICONTROL Magento] 1.x: `enterprise_rma_item_entity.order_item_id ` (many) => `sales_flat_order_item.item_id` (one)
+* [!UICONTROL Magento] 2.x: `magento_rma_item_entity.order_item_id ` (many) => `sales_order_item.item_id` (one)

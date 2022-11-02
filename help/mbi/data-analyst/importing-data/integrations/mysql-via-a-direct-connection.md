@@ -20,7 +20,7 @@ description: Learn how to connect [!DNL MongoDB] via direct connection.
 >
 >We strongly recommend you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL MBI] to your database using the instructions in this article.
 
-In this article, we walk you through directly connecting your MySQL database to [!DNL MBI]. These settings can also be used with **[!UICONTROL Magento]** or any other eCommerce databases that use MySQL.
+In this article, we walk you through directly connecting your MySQL database to [!DNL MBI]. These settings can also be used with [!UICONTROL Magento] or any other eCommerce databases that use MySQL.
 
 ## Allow access to the [!DNL MBI] IP addresses {#allowlist}
 

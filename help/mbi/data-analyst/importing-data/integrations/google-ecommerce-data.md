@@ -4,7 +4,7 @@ description: Learn what types of data is shared with Google ECommerce.
 ---
 # Expected[!DNL Google ECommerce] data
 
-After your[!DNL Google ECommerce] account is successfully connected to [!DNL MBI], the system will start importing data into a table titled `ecommerce`. This table will record a data row for each transaction. This includes the following order-level data columns:
+After your [!DNL Google ECommerce] account is successfully connected to [!DNL MBI], the system will start importing data into a table titled `ecommerce`. This table will record a data row for each transaction. This includes the following order-level data columns:
 
 | **Column Name** | **Description** |
 |-----|-----|

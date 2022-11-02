@@ -8,7 +8,7 @@ The SQL Report Builder allows you to query and iterate on those queries at any g
 
 Before a query is executed, [[!DNL MBI] estimates its cost](https://support.magento.com/hc/en-us/articles/360016730391). Cost takes into consideration the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds our limits, the query will not run. We put together a list of recommendations for querying your data warehouse, which will ensure you are writing the most streamlined queries possible.
 
-## Using SELECT * or Selecting All Columns
+## Using SELECT or Selecting All Columns
 
 Selecting all columns does not make for a timely, easily executed query. Queries that use `SELECT *` can take quite a bit of time to run, especially if your table has a large number of columns.
 

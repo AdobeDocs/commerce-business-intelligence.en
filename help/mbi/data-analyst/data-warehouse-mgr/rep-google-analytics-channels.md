@@ -41,7 +41,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
 1. **Upload a mapping of Google's channel groupings**
 
-   To save you time, **[!UICONTROL Magento]** has already created a table with the default groupings mapped as a file that you can [download](http://docs.magento.com/downloads/mbi/ga_channel_mapping.csv).
+   To save you time, [!UICONTROL Magento] has already created a table with the default groupings mapped as a file that you can [download](http://docs.magento.com/downloads/mbi/ga_channel_mapping.csv).
 
    If you are a Google Analytics pro and created your own channels, you will want to add your specific rules to the mapping table before uploading the file into [!DNL MBI].
 

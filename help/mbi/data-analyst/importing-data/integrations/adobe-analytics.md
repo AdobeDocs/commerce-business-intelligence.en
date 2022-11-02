@@ -9,6 +9,8 @@ description: Learn to bring together the end-to-end customer journey focus of [!
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
+![](../../../assets/adobe-analytic-slogo.png)
+
 The [!DNL Adobe Analytics] integration for [!DNL MBI] enables you to bring together the end-to-end customer journey focus of [!DNL Adobe Analytics] and the eCommerce focus you rely on from [!DNL MBI], to get a more complete picture of your store's overall performance.
 
 More specifically, the [!DNL Adobe Analytics] integration for [!DNL MBI] provides functionality for merchants to start combining their Commerce and Analytics data sets.

@@ -4,9 +4,9 @@ description: Learn about working with and improving your [!DNL MBI] environment.
 ---
 # Your [!DNL MBI] Environment
 
-As you analyze your commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your **[!UICONTROL Magento]** schema correctly, do not hesitate to [contact support](../getting-started/support.md).
+As you analyze your commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your [!UICONTROL Magento] schema correctly, do not hesitate to [contact support](../getting-started/support.md).
 
-## entity\_id
+## [!DNL entity\_id]
 
 Many of your tables contain a column named `entity\_id`. In each table that contains an `entity\_id`, that column is used to identify unique rows.
 
@@ -14,7 +14,7 @@ For example, each row in the `sales\_order` table is a unique order. The primary
 
 In those tables, `sales\_order.entity\_id` does not equal `customer\_entity.entity\_id`. This holds true for all sets of tables that contain `entity\_id`: `table\_A.entity\_id` does not equal `table\_B.entity\_id`.
 
-## Guest orders
+## [!DNL Guest orders]
 
 If you allow customers to order from your site without having an account (guest orders), those customers will not populate as a row in your `customer\_entity` table. Additionally, each order placed by a guest will have a null `customer\_id` value on the `sales\_order` table.
 
@@ -30,8 +30,8 @@ The trick here is that you must add a filter to your metric that ensures you onl
 
 Products can have multiple categories, and categories can be used for more than one product. Therefore, when setting up category-level analyses, you must be careful to use the correct definitions. Do you want the top level category? Second level category? What if the product can fall into multiple top level categories?
 
-Imagine a pair of jeans that falls into three different category levels, as defined by a **[!UICONTROL Magento]** implementation: 'Clothing' (top level), 'Outerwear' (second level), and 'Pants' (third level). You might wish to analyze your categories performance by number of units sold. The metric you will need for this analysis is _Items sold_, which is built on the `sales\_order\_item` table. Therefore, you need to move category-level information onto the items table. Each row on the `sales\_order\_item` table will have an associated `product\_id`, so if you know the categories associated with a product, you can bring that information over to the desired table.
+Imagine a pair of jeans that falls into three different category levels, as defined by a [!UICONTROL Magento] implementation: 'Clothing' (top level), 'Outerwear' (second level), and 'Pants' (third level). You might wish to analyze your categories performance by number of units sold. The metric you will need for this analysis is _Items sold_, which is built on the `sales\_order\_item` table. Therefore, you need to move category-level information onto the items table. Each row on the `sales\_order\_item` table will have an associated `product\_id`, so if you know the categories associated with a product, you can bring that information over to the desired table.
 
 Before moving any data, you must first know the proper joins and filters to ensure you grab the correct category. For some analyses, you may need to know 'Pants', but in other analyses, 'Clothing' might be more appropriate. These are distinct categories that are identified separately. Knowing how each category level is defined will ensure you are able to attribute unit sales to the appropriate category for your specific analysis.
 
-Now, imagine you also have an 'Our Favorites' top level category on the home page of your website. Perhaps you have implemented your **[!UICONTROL Magento]** store to include these jeans in both the 'Clothing' category as well as the 'Our Favorites' category. If so, then this pair of jeans will have more than one top level category. In that case, moving a single top level category over to the `sales\_order\_item` table does not quite make sense, as there are multiple options. To account for this, we suggest creating yes/no columns that check for specific categories. For example, `Is product in Clothing category?` and `Is product in Our Favorites category?` columns will allow you to check if a product falls into those specific categories.
+Now, imagine you also have an 'Our Favorites' top level category on the home page of your website. Perhaps you have implemented your [!UICONTROL Magento] store to include these jeans in both the 'Clothing' category as well as the 'Our Favorites' category. If so, then this pair of jeans will have more than one top level category. In that case, moving a single top level category over to the `sales\_order\_item` table does not quite make sense, as there are multiple options. To account for this, we suggest creating yes/no columns that check for specific categories. For example, `Is product in Clothing category?` and `Is product in Our Favorites category?` columns will allow you to check if a product falls into those specific categories.

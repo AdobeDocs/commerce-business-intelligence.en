@@ -10,13 +10,13 @@ When you log into your [!DNL MBI] dashboard, there are several ways to check the
 
 Checking the status update cycle is useful when you are auditing the data in your [!DNL MBI] account. If you see [results that do not meet your expectations](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md), for example, daily sales in [!DNL MBI] are not matching what you are seeing in your e-commerce platform or in your [[!DNL Google] e-commerce revenue](https://support.magento.com/hc/en-us/articles/360016505232) you can check the last data point to see if the issue will be resolved once an update completes.
 
-## **[!UICONTROL Read-Only] and **[!UICONTROL Standard] Users
+## [!UICONTROL Read-Only] and [!UICONTROL Standard]** Users
 
 `Read-only` users can log into their dashboard and see how recently the data has been updated by hovering over the icon at the top right of the page. This will show when the last data point was pulled.
 
 ![](../../mbi/assets/last-success-data.png)
 
-## **[!UICONTROL Admin] Users
+## [!UICONTROL Admin] Users
 
 `Admin` users can log into the dashboard and see the last data point above, along with a brief status icon of their account integrations.
 

@@ -4,7 +4,7 @@ description: Learn how to work with the sales_order table.
 ---
 # `sales_order` Table
 
-The `sales_order` table (`sales_flat_order` on M1) is where each order is captured. In most cases, each row represents one unique order, although there are some custom implementations of **[!UICONTROL Magento]** that result in splitting an order into separate rows.
+The `sales_order` table (`sales_flat_order` on M1) is where each order is captured. In most cases, each row represents one unique order, although there are some custom implementations of [!UICONTROL Magento] that result in splitting an order into separate rows.
 
 This table includes all customer orders, whether or not that order was processed through guest checkout. If your store accepts guest checkout please find more information about this [use case](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/guest-orders.html).
 
@@ -12,7 +12,7 @@ This table includes all customer orders, whether or not that order was processed
 
 |**Column Name**|**Description**|
 |---|---|
-|`base_currency_code`|Currency for all values captured in `base_*` fields (that is `base_grand_total`, `base_subtotal`, and so on). This typically reflects the **[!UICONTROL Magento]** store's default currency|
+|`base_currency_code`|Currency for all values captured in `base_*` fields (that is `base_grand_total`, `base_subtotal`, and so on). This typically reflects the [!UICONTROL Magento] store's default currency|
 |`base_discount_amount`|Discount value applied to order|
 |`base_grand_total`|Final price paid by the customer on the order, after all taxes, shipping, and discounts are applied. Although the precise calculation is customizable, in general the `base_grand_total` is calculated as `base_subtotal` + `base_tax_amount` + `base_shipping_amount` `+` `base_discount_amount` `-` `base_gift_cards_amount` `-` `base_customer_balance_amount`|
 |`base_subtotal`|Gross merchandise value of all items included in the order. Taxes, shipping, discounts and so on are not included|
@@ -24,11 +24,11 @@ This table includes all customer orders, whether or not that order was processed
 |`customer_email`|Email address of the customer placing the order. This will be populated in all situations, including orders processed through guest checkout|
 |`customer_group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the order|
 |`customer_id`|`Foreign key` associated with the `customer_entity` table, if the customer is registered. Join to `customer_entity.entity_id` to determine customer attributes associated with the order. If the order was placed through guest checkout, this field will be `NULL`|
-|`entity_id` (PK)|Unique identifier for the table, and commonly used in joins to other tables within the **[!UICONTROL Magento]** instance|
+|`entity_id` (PK)|Unique identifier for the table, and commonly used in joins to other tables within the [!UICONTROL Magento] instance|
 |`increment_id`|Unique identifier for an order, and commonly referred to as the `order_id` within Magento. The `increment_id` is most often used for joins to external sources, such as [!DNL Google Ecommerce]|
 |`shipping_address_id`|Foreign key associated with the `sales_order_address` table. Join to `sales_order_address.entity_id` to determine the shipping address details associated with the order|
-|`status`|Order's status. May return values such as 'complete', 'processing', 'cancelled', 'refunded', as well as any custom statuses implemented on the **[!UICONTROL Magento]** instance. Subject to changes as the order gets processed|
-|`store_id`|`Foreign key` associated with the `store` table. Join to `store`.`store_id` to determine which **[!UICONTROL Magento]** store view is associated with the order|
+|`status`|Order's status. May return values such as 'complete', 'processing', 'cancelled', 'refunded', as well as any custom statuses implemented on the [!UICONTROL Magento] instance. Subject to changes as the order gets processed|
+|`store_id`|`Foreign key` associated with the `store` table. Join to `store`.`store_id` to determine which [!UICONTROL Magento] store view is associated with the order|
 
 {style="table-layout:auto"}
 
@@ -55,7 +55,7 @@ This table includes all customer orders, whether or not that order was processed
 |`Shipping address city`|Shipping city for the order. Calculated by joining `sales_order`.`shipping_address_id` to `sales_order_address`.`entity_id` and returning the `city` field|
 |`Shipping address country`|Shipping country code for the order. Calculated by joining `sales_order`.`Shipping_address_id` to `sales_order_address`.`entity_id` and returning the `country_id`|
 |`Shipping address region`|Shipping region (most often state or province) for the order. Calculated by joining `sales_order`.`shipping_address_id` to `sales_order_address`.`entity_id` and returning the `region` field|
-|`Store name`|The name of the **[!UICONTROL Magento]** store associated with this order. Calculated by joining `sales_order`.`store_id` to `store`.`store_id` and returning the `name` field|
+|`Store name`|The name of the [!UICONTROL Magento] store associated with this order. Calculated by joining `sales_order`.`store_id` to `store`.`store_id` and returning the `name` field|
 
 ## Common Metrics
 
@@ -92,5 +92,5 @@ This table includes all customer orders, whether or not that order was processed
 
 `store`
 
-*  Join to `store` table to create new columns that return details related to the **[!UICONTROL Magento]** store associated with the order.
+*  Join to `store` table to create new columns that return details related to the [!UICONTROL Magento] store associated with the order.
    *  Path: `sales_order.store_id` (many) => `store.store_id` (one) 

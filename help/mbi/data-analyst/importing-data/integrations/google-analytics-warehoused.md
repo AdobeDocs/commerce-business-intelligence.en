@@ -8,6 +8,8 @@ description: Learn to track how visitors use your site, what content is attracti
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
+![](../../../assets/google-analytics-logo.png)
+
 [!DNL Google Analytics] is the most widely-used web analytics service on the internet. Implementing [!DNL Google Analytics] on your website allows you to track how visitors use your site, what content is attractive, where visitors exit, and more. [!DNL Google Analytics Warehoused] is a separate integration from our existing [!DNL Google Analytics] integration. It will allow for better analysis due to having the [!DNL Google Analytics] data in your Data Warehouse, which is different than the live feed of the existing [!DNL Google Analytics] integration. Analyzing these metrics in [!DNL MBI], alongside other pieces of data, will improve your site's overall health and usability.
 
 ## Difference between GA Warehoused and Live Integration

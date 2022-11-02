@@ -139,7 +139,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] a
                ],
     ```
 
-1. Connect your **[!UICONTROL Magento]** Database
+1. Connect your [!UICONTROL Magento] Database
 
    ![](../assets/create-account-11.png)
 
