@@ -12,7 +12,7 @@ When you [activate](../getting-started/onpremise-activation.md) your [!DNL MBI] 
 
 ## How to Get Help
 
-Click [here](../getting-started/support.md) to learn about the customer support services available to [!UICONTROL MBI] subscribers.
+Click [here](../getting-started/support.md) to learn about the customer support services available to [!DNL MBI] subscribers.
 
 ## How to Use this Guide
 

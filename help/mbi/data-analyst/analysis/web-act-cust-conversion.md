@@ -90,7 +90,7 @@ This collection of reports is built using the following:
     * C/D then click **[!UICONTROL Apply]**
     * Rename the formula `Any order conversion`
 
-* Now give your report a name, like `Conversion by month`, and then click **[!UICONTROL Save]**
+* Now give your report a name, like `Conversion by month`, and then click **[!UICONTROL Save]**.
 
 ## Next steps
 
