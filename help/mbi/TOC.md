@@ -24,7 +24,7 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
     - [Delete/Reactivate User](../mbi/administrator/user-management/delete-user.md)
     - [Manage User Permissions](administrator/user-management/user-management.md)
     - [Reset Password](../mbi/administrator/user-management/reset-password.md)
-    - [Restrict Metric Access](../mbi/administrator/user-management/restrict-metric-access.md)ß
+    - [Restrict Metric Access](../mbi/administrator/user-management/restrict-metric-access.md)
 - Analyze Data {#analyze}
   - [Data Analyst](data-analyst.md)
   - Data Warehouse Manager {#warehouse-manager}

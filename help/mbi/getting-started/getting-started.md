@@ -20,9 +20,9 @@ This guide contains the following sections that are organized based on what role
 
 -  [Data User](../data-user.md): You use data to help make business decisions. You might receive reports and dashboards from a data analyst on your team, but you also want to learn how to create those reports and dashboards.
 -  [Data Analyst](../data-analyst.md): You are comfortable designing queries and being the go-to person for data analysis. You know how to find specific answers to data questions and want to facilitate a self-service experience for your colleagues.
--  [Administrator](../administrator.md): You manage the [!UICONTROL MBI] account including licensing, adding and removing users, and handling essential administrative tasks.
+-  [Administrator](../administrator.md): You manage the [!DNL MBI] account including licensing, adding and removing users, and handling essential administrative tasks.
 
 In addition to the above role-based workflows, this guide also contains:
 
 -  [Best Practices](../best-practices.md): [!UICONTROL MBI] is a robust and flexible platform which means there are many different ways to perform similar tasks. This section pulls together the [!DNL MBI] recommended methods for capturing, analyzing, and viewing your data.
--  [Tutorials](../tutorials.md): Follow these self-guided tutorials to learn the power of [!UICONTROL MBI].
+-  Tutorials: Follow these self-guided tutorials to learn the power of [!DNL MBI].
