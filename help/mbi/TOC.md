@@ -14,7 +14,6 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
   - [Sign in to your [!DNL MBI] Account](getting-started/sign-in.md)
   - [How to Get Help](getting-started/support.md)
 - Administrator {#administrator}
-  - [Introduction](../mbi/administrator.md)
   - Account Management {#acct-mgmt}
     - [Benefits of [!DNL New Architecture]](../mbi/administrator/account-management/new-architecture.md)
     - [Display Dashboards around the office](../mbi/administrator/account-management/display-dashboards-office.md)
