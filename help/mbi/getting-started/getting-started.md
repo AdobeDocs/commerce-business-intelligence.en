@@ -6,23 +6,12 @@ description: Learn about [!DNL MBI].
 
 [!DNL MBI] is a cloud-based data management and analytics platform. [!DNL MBI] provides you with the ability to easily consolidate and manage your data sources, model your data, create charts and reports, and maintain a single source of truth.
 
-## Activating your [!UICONTROL MBI] Account
+[!DNL MBI] is a core capability of Adobe Commerce, providing best practice insights across multiple data sources, allowing merchants to make scientific data-driven decisions and take clear and informed actions. Automate your reporting process and transform the way you make business decisions and collaborate across teams. Take the guesswork out of your decision making with [!DNL MBI].
+
+Connect, consolidate, and transform your data. Visualize, analyze, and get deep and actionable insights into your business' data. Create custom metrics and reports without formal BI training empowering your whole team to be data-driven without any of the usual technical headaches or leverage the included dashboards to give an in-depth understanding of your business performance.
+
+Standard dashboards include Marketing ROI, Customer Lifetime Value, Customer Segmentation, Executive and Investor KPIs, Cohort Analysis and Merchandising Analysis.
 
 When you [activate](../getting-started/onpremise-activation.md) your [!DNL MBI] account, you are connecting your [!UICONTROL Magento] database to [!DNL MBI] and immediately getting access to five dashboards with approximately 100 reports. These reports are designed to provide insights around your data and answer questions like: *How are my orders growing month-over-month?*, *Who are my most loyal customers?*, and *Is my coupon strategy working?*.
 
-## How to Get Help
 
-Click [here](../getting-started/support.md) to learn about the customer support services available to [!DNL MBI] subscribers.
-
-## How to Use this Guide
-
-This guide contains the following sections that are organized based on what role you might have within your organization.
-
--  [Data User](../data-user.md): You use data to help make business decisions. You might receive reports and dashboards from a data analyst on your team, but you also want to learn how to create those reports and dashboards.
--  [Data Analyst](../data-analyst.md): You are comfortable designing queries and being the go-to person for data analysis. You know how to find specific answers to data questions and want to facilitate a self-service experience for your colleagues.
--  [Administrator](../administrator.md): You manage the [!DNL MBI] account including licensing, adding and removing users, and handling essential administrative tasks.
-
-In addition to the above role-based workflows, this guide also contains:
-
--  Best Practices: [!UICONTROL MBI] is a robust and flexible platform which means there are many different ways to perform similar tasks. This section pulls together the [!DNL MBI] recommended methods for capturing, analyzing, and viewing your data.
--  Tutorials: Follow these self-guided tutorials to learn the power of [!DNL MBI].
