@@ -171,7 +171,7 @@ To save a report as an area chart, adjust the `Type` to `Chart` and select the a
 
 ## `Funnel`
 
-`Funnel` charts are perfect for visualizing conversion across an expected sequence of events. A few examples include analyzing the potential revenue in your sales funnel from lead to closed deal, or measuring the drop-off of customers between their first and second orders, second and third orders, etc. An example of the latter is displayed below:
+`Funnel` charts are perfect for visualizing conversion across an expected sequence of events. A few examples include analyzing the potential revenue in your sales funnel from lead to closed deal, or measuring the drop in customers between their first and second orders, second and third orders, and so on. An example of the latter is displayed below:
 
 ![](../../assets/blobid4.png)
 

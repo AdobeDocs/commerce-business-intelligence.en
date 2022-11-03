@@ -21,11 +21,11 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 If you are on the original architecture (for example,if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
 
 * **`sales_flat_order`** table
-  * This calculation creates buckets in increments relative to your typical cart sizes. This can range from increments including, 5, 10, 50, 100, etc
+  * This calculation creates buckets in increments relative to your typical cart sizes. This can range from increments including, 5, 10, 50, 100
 
 * **`Order subtotal (buckets)`** Original Architecture: will be created by an analyst as part of your `[FREE SHIPPING ANALYSIS]` ticket
 * **`Order subtotal (buckets)`** New Architecture:
-  * As mentioned above, this calculation creates buckets in increments relative to your typical cart sizes. If you have a native subtotal column such as `base_subtotal`, that can be used as the basis of this new column. If not, it can be a calculated column that excludes shipping, discounts, etc. from revenue. 
+  * As mentioned above, this calculation creates buckets in increments relative to your typical cart sizes. If you have a native subtotal column such as `base_subtotal`, that can be used as the basis of this new column. If not, it can be a calculated column that excludes shipping and discounts from revenue. 
 
    >[!NOTE]
    >

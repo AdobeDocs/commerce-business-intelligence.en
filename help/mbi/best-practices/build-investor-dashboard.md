@@ -57,7 +57,7 @@ With a [!DNL Google Analytics] integration, you can include reports on:
 
 With [[!DNL Magento's] Data Enrichment services](https://magento.com/services), you can include reports on:
 
-* Unique customers by state/region, age, gender, etc.
+* Unique customers by state/region, age, gender.
 
 ## Other Tips
 

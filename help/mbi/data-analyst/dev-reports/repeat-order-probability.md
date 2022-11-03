@@ -6,9 +6,9 @@ description: Learn and understand the Repeat Order Probability Report.
 
 ## When is the `Incremental Event Probability` perspective available?
 
-The `incremental event probability` perspective is only available when filters use dimensions that are equal for all orders (for example, user's `gender`, user's `age`, user's `source`, etc.)
+The `incremental event probability` perspective is only available when filters use dimensions that are equal for all orders (for example, user's `gender`, user's `age` or user's `source`)
 
-This is because this perspective relies on a dimension called `User's order number` for segmentation, which numbers a user's purchases (for example, John's 1st, 2nd, 3rd orders, etc.).
+This is because this perspective relies on a dimension called `User's order number` for segmentation, which numbers a user's purchases (for example, John's 1st, 2nd, and 3rd orders).
 
 If we were to add a filter that uses a dimension which is not equal for all orders (for example, `Order's Region`), the `User's order number` dimension would no longer be accurate as it does not account for specific regions when numbering a user's orders (for example, John's 1st, 2nd, 3rd orders are still the same, regardless of their region).
 

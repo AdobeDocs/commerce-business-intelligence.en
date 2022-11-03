@@ -32,7 +32,7 @@ Say we wanted to create a report that shows us the average revenue per order. In
 
 ## Step 4: Setting the `Time Period` and `Interval of Analysis` {#time}
 
-To zero in on a particular stretch of time, you can set the time period for the analysis. You can also choose time intervals to segment the data; for example, by year, quarter, month, etc. Use the menus in the top right corner of the chart to set the time period and interval.
+To zero in on a particular stretch of time, you can set the time period for the analysis. You can also choose time intervals to segment the data (for example, by year, by quarter, or by month). Use the menus in the top right corner of the chart to set the time period and interval.
 
 ![](../assets/Time_Options_Report_Builder.png)
 

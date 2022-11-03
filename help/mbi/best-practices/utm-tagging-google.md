@@ -14,7 +14,7 @@ The following lists the five most important things to remember when setting up y
 
 ### 1. Aim to tag every URL you can control coming to your site
 
-Every time you ask people to click a link, you should be setting up `UTM` tagging. This includes all your email links (your email service provider likely has a way to automatically tag your URLs), ad links, press articles, blog posts, etc.
+Every time you ask people to click a link, you should be setting up `UTM` tagging. This includes all your email links (your email service provider likely has a way to automatically tag your URLs), ad links, press articles, blog posts.
 
 ### 2. Use a tool to create the URL
 

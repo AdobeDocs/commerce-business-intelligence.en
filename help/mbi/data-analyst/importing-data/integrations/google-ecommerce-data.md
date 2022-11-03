@@ -6,13 +6,13 @@ description: Learn what types of data is shared with Google ECommerce.
 
 After your [!DNL Google ECommerce] account is successfully connected to [!DNL MBI], the system will start importing data into a table titled `ecommerce`. This table will record a data row for each transaction. This includes the following order-level data columns:
 
-| **Column Name** | **Description** |
+| Column Name | Description |
 |-----|-----|
 | `\_id` | This column is the primary key. |
 | `accountId` | This column contains the account ID associated with your [!DNL Google Analytics] eCommerce account. |
 | `profileName` | This column contains your [!DNL Google Analytics] profile name. |
 | `profileId` | This column contains your [!DNL Google Analytics] profile ID. |
-| `socialNetwork` | This column contains the name of the social network (for example, [!DNL Facebook], [!DNL YouTube], etc.) |
+| `socialNetwork` | This column contains the name of the social network (for example, [!DNL Facebook], or [!DNL YouTube]) |
 | `campaign` | This column contains the campaign name (for example, [`utm\_campaign`](https://support.google.com/analytics/answer/1033867?hl=en)). |
 | `medium` | This column contains the medium name (for example, [`utm\_medium`](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | `source` | This column contains the source name. (for example, [`utm\_source`](https://support.google.com/analytics/answer/1033867?hl=en)) |

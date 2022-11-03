@@ -59,7 +59,7 @@ Now we can see just how impactful each month was last year:
 
 This example uses a custom dimension called `Day number of the month`. If you want to create this report and do not already have this dimension in your Data Warehouse, [contact support](../guide-overview.md) for assistance.
 
-The two most common examples in this category are (1) comparing growth metrics (revenue year-over-year, month-over-month, etc.) and (2) better understanding recent inventory or item sales trends.
+The two most common examples in this category are (1) comparing growth metrics (revenue year-over-year or month-over-month) and (2) better understanding recent inventory or item sales trends.
 
 To demonstrate this use case, we look at the daily revenue for the previous month compared to the same month from the previous year. Let's say we want to look at the revenue for each day of January 2016 and then compare that to January 2015, January 2014, and so on – this report would show us that.
 

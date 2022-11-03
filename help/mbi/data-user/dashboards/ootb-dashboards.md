@@ -10,7 +10,7 @@ As part of our services, we offer eCommerce and `SaaS` Starter Packages. These p
 >
 >The availability of some dashboards depends upon your dataset.
 
-If you have questions or you are interested in adding a package to your account, send us a [support ticket](../../guide-overview.md) to get things started.
+If you have questions or you are interested in adding a package to your account, send us a [support ticket](../../getting-started/support.md) to get things started.
 
 ## Executive overview
 
@@ -36,7 +36,7 @@ The `Email Summary` dashboard includes a sample set of charts that can be used i
 
 The `Retention health` dashboard reveals your user base's repeat purchase behavior.
 
-The `Time between orders` chart shows the average and/or median elapsed time between a users' first and second order, second and third order, etc. You may [consider using this data to configure your email marketing campaigns](http://blog.rjmetrics.com/acting-on-marketing-data-in-your-rjmetrics-online-dashboard/).
+The `Time between orders` chart shows the average and/or median elapsed time between a users' first and second order, second and third order, and so on. You may [consider using this data to configure your email marketing campaigns](http://blog.rjmetrics.com/acting-on-marketing-data-in-your-rjmetrics-online-dashboard/).
 
 The `Users by lifetime number of orders` chart lists the total number of users for each lifetime number of orders to provide a general overview of repeat purchase behavior.  
 

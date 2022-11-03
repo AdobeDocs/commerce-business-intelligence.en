@@ -25,7 +25,7 @@ Satisfied with all the settings for `Throwback Bellbottoms`, the employee clicks
 * `entity_type_id` – [!UICONTROL Magento] has multiple categories of objects (like customers, addresses, and products to name a few), and this column is used to denote the category into which this particular row falls.
     * This being the `catalog_product_entity` table, each row has the same entity type: product. In Magento, the `entity_type_id` for product is 4, which is why all three of the new products created return 4 for this column.
 * `attribute_set_id` – Attribute sets are used to identify products that have the same of descriptors.
-    * The top two rows of the table are the `Throwback Bellbottoms` and `Straight Leg Jeans` products, both of which are pants. These products would have the same descriptors (name, inseam, waistline, etc...), and therefore have the same `attribute_set_id`. The third item, `V-Neck T-Shirt` has a different `attribute_set_id` because it would not have the same descriptors as the pants; shirts do not have waistlines or inseams.
+    * The top two rows of the table are the `Throwback Bellbottoms` and `Straight Leg Jeans` products, both of which are pants. These products would have the same descriptors (for example, name, inseam, waistline), and therefore have the same `attribute_set_id`. The third item, `V-Neck T-Shirt` has a different `attribute_set_id` because it would not have the same descriptors as the pants; shirts do not have waistlines or inseams.
 * `sku` - These are unique values assigned to each product by the user when creating a new product in Magento.
 * `created_at` - This column returns the timestamp of when each product was created
 

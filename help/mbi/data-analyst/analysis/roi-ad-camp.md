@@ -26,7 +26,7 @@ Analyses (1) and (2) above are explored in a separate tutorial on [identifying y
 
 >[!NOTE]
 >
->We will make the assumption that all campaign costs were exclusively used to acquire new users. In reality, your campaign cost is also shared with acquiring unconverted visits, repeat purchasers, etc. Yet by assuming that all cost is used to acquire new registered users, the resulting ROI will account for the worst case scenario (highest cost per acquisition), so you can be sure that your actual ROI is higher than our calculation.
+>We will make the assumption that all campaign costs were exclusively used to acquire new users. In reality, your campaign cost is also shared with acquiring unconverted visits, repeat purchasers and such. Yet by assuming that all cost is used to acquire new registered users, the resulting ROI will account for the worst case scenario (highest cost per acquisition), so you can be sure that your actual ROI is higher than our calculation.
 >
 >Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 repeat buyers, your actual cost per new user is $1, but under our assumption that all cost went to acquire new users, the cost per acquisition is $2.)
 
@@ -90,7 +90,7 @@ Are you running product specific advertisements? If so, you can measure ROI on t
 >
 >We will make the assumption that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI will account for the worst case scenario (highest cost per purchase), so you can be sure that your actual ROI is higher than this calculation. Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1, but under our assumption that all cost went to acquire new users, the cost per purchase is $2.)*
 
-Before we start, [submit a support ticket](../../guide-overview.md) to join the following dimensions to your line items table (`sales\_flat\_order\_item, order\_item`, etc.):
+Before we start, [submit a support ticket](../../guide-overview.md) to join the following dimensions to your line items table (`sales\_flat\_order\_item, order\_item`):
 
 * Order's source (if you only track referral source at the user level, then join user's source)
 * Order's campaign (if you only track referral source at the user level, then join user's campaign)
