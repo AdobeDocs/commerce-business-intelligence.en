@@ -99,7 +99,7 @@ Enter the following info into this page, starting with the Database Connection s
 * `Username`: The username for the [!DNL MBI] MySQL user
 * `Password`: The password for the [!DNL MBI] MySQL user
 * `Port`: MySQL's port on your server (3306 by default)
-* `Host` By default, this will be localhost. In general, it will be the bind-address value for your MySQL server, which by default is `127.0.0.1 (localhost)`, but could also be some local network address (e.g., `192.168.0.1`) or your server's public IP address.
+* `Host` By default, this will be localhost. In general, it will be the bind-address value for your MySQL server, which by default is `127.0.0.1 (localhost)`, but could also be some local network address (for example, `192.168.0.1`) or your server's public IP address.
 
    The value can be found in your `my.cnf` file (usually located at `/etc/my.cnf`) underneath the line that reads `\[mysqld\]`. If the bind-address line is commented out in that file, your server is secured from outside connection attempts.
 

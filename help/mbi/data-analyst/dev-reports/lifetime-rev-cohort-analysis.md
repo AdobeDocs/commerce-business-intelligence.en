@@ -30,7 +30,7 @@ Occasionally, a subscription business will actually have a slope that increases 
 
 ## How is this calculated?
 
-There are two simple inputs to this calculation: how many members are in the `cohort` (which never changes), and how much revenue those members generated in the given period. To determine the members in the `cohort`, we count the number of users who were acquired in the period in question. An acquisition can be a first purchase, account creation, newsletter sign up, or some other event. The `revenue` calculation is a bit more complicated. We want to sum revenue for orders that were placed by members of this `cohort` and took place within a fixed time period from their acquisition date (i.e., the first three months). Finally, we divide the revenue by the number of members in the `cohort` for each time period in the chart and add this value cumulatively over time.
+There are two simple inputs to this calculation: how many members are in the `cohort` (which never changes), and how much revenue those members generated in the given period. To determine the members in the `cohort`, we count the number of users who were acquired in the period in question. An acquisition can be a first purchase, account creation, newsletter sign up, or some other event. The `revenue` calculation is a bit more complicated. We want to sum revenue for orders that were placed by members of this `cohort` and took place within a fixed time period from their acquisition date (for example, the first three months). Finally, we divide the revenue by the number of members in the `cohort` for each time period in the chart and add this value cumulatively over time.
 
 ## What are the variations of this chart?
 

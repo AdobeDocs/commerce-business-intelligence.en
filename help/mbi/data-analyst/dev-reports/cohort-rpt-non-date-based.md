@@ -4,7 +4,7 @@ description: Learn to group users by a similar activity or attribute.
 ---
 # `Cohort Report Builder for Non-Date-Based Cohorts`
 
-Our [`Cohort Report Builder`](../dev-reports/cohort-rpt-bldr.md) has been great at helping merchants study how different subsets of users behave over time. In the past, the `Cohort Report Builder` was mainly optimized for grouping users by a common `cohort date` (i.e., the set of all customers who made their first purchase in a given month). The `Non-Date Based Cohort` feature now gives you the power to group users by a similar activity or attribute. Take a look at a few use cases for this feature.
+Our [`Cohort Report Builder`](../dev-reports/cohort-rpt-bldr.md) has been great at helping merchants study how different subsets of users behave over time. In the past, the `Cohort Report Builder` was mainly optimized for grouping users by a common `cohort date` (for example, the set of all customers who made their first purchase in a given month). The `Non-Date Based Cohort` feature now gives you the power to group users by a similar activity or attribute. Take a look at a few use cases for this feature.
 
 ## Use Cases
 

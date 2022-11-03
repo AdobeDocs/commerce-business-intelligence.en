@@ -14,7 +14,7 @@ In this article, we dive into what a qualitative cohort is, why you might be int
 
 See [cohort analysis](https://www.cohortanalysis.com/) - we wrote the site on it!
 
-Most `cohort` analyses in [!DNL MBI] group users together by a common date (i.e, the set of all customers who made their first purchase in a given month). A `qualitative cohort` is a little different: it is a user group that is defined by a characteristic that is not time-based. Some examples include:
+Most `cohort` analyses in [!DNL MBI] group users together by a common date (for example, the set of all customers who made their first purchase in a given month). A `qualitative cohort` is a little different: it is a user group that is defined by a characteristic that is not time-based. Some examples include:
 
 * The set of all users that were acquired from an ad campaign
 * The set of all users whose first purchase included a coupon (or did not)
@@ -22,7 +22,7 @@ Most `cohort` analyses in [!DNL MBI] group users together by a common date (i.e,
 
 ## How does that differ from the normal `cohort` builder? {#different}
 
-The [`Cohort Analysis Builder`](../dev-reports/cohort-rpt-bldr.md) is optimized for grouping cohorts using a time-based characteristic. This is great for analyses focusing on a specific segment of user (i.e., all users who were acquired via a paid search campaign). In the `Cohort Analysis Builder`, you can (1) focus in on that specific user group, and (2) `cohort` on a date (like their first order date).
+The [`Cohort Analysis Builder`](../dev-reports/cohort-rpt-bldr.md) is optimized for grouping cohorts using a time-based characteristic. This is great for analyses focusing on a specific segment of user (for example, all users who were acquired via a paid search campaign). In the `Cohort Analysis Builder`, you can (1) focus in on that specific user group, and (2) `cohort` on a date (like their first order date).
 
 However, if you want to analyze the cohort behavior of multiple user segments in the same cohort report (`paid` search versus `organic` search vs direct traffic, perhaps?), this more advanced analysis can be constructed in the `Report Builder`.
 

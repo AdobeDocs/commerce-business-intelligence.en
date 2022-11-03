@@ -17,7 +17,7 @@ Let us use ad campaigns as an example. If you are running both online and offlin
 1. **The only supported format for file uploads is `CSV` or `comma separated values`**. If you are working in Excel, you can use the Save As function to save the file in `.csv` format.
 1. **`CSV` files must use `UTF-8 encoding`**. The majority of the time, this will not be an issue. If you encounter this error while uploading a file, [consult this Support article](https://support.magento.com/hc/en-us/articles/360016730591).
 1. **Files cannot be larger than 100MB**. If the file is larger than this, separate the table into chunks and save them as individual files. You can use append the data after the initial file is loaded.
-1. **All tables must have a `primary key`**. There needs to be at least one column in your table that can be used as a `primary key`, or a unique identifier for each row in the table. Any column designated as a `primary key` can *never* be null. A `primary key` can be as simple as adding a column that gives a number to each row, or can be two columns concatenated to make a column of unique values (e.g., `campaign name` and `date`).
+1. **All tables must have a `primary key`**. There needs to be at least one column in your table that can be used as a `primary key`, or a unique identifier for each row in the table. Any column designated as a `primary key` can *never* be null. A `primary key` can be as simple as adding a column that gives a number to each row, or can be two columns concatenated to make a column of unique values (for example, `campaign name` and `date`).
 
      If a column (or columns) are designated as unique but there are duplicates, the duplicate rows will not be imported.
 
@@ -60,7 +60,7 @@ Percentages must be entered as decimals. For example:
 
 ### Values with leading and/or trailing zeroes {#zeroes}
 
-Some values in your file - like ZIP codes and IDs - may begin or end with zeroes. To ensure the zeroes are properly retained and uploaded, you can change the formatting type (i.e., [from number to text](https://support.office.com/en-US/article/format-numbers-as-text-583160db-936b-4e52-bdff-6f1863518ba4)) or enforce number formatting.
+Some values in your file - like ZIP codes and IDs - may begin or end with zeroes. To ensure the zeroes are properly retained and uploaded, you can change the formatting type (for example, [from number to text](https://support.office.com/en-US/article/format-numbers-as-text-583160db-936b-4e52-bdff-6f1863518ba4)) or enforce number formatting.
 
 Let us use `US ZIP codes` as an example of how to change number formatting. In [!DNL Excel], highlight the column containing `ZIP codes` and [change the number format](https://support.office.com/en-za/article/Display-numbers-as-postal-codes-61b55c9f-6fe3-4e54-96ca-9e85c38a5a1d) to `ZIP code`. You can also select a custom number format, and in the `Type` window, enter `00000`. Keep in mind this method could present problems if some codes are formatted as `00000` and others are `00000-0000`.
 

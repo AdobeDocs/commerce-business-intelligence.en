@@ -16,7 +16,7 @@ You can leverage [the file uploader](../importing-data/connecting-data/using-fil
 
 ## Calculated Columns
 
-If you are on the original architecture (i.e., if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
+If you are on the original architecture (for example, if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
 
 A further distinction is made if your business allows guest orders. If so, you can ignore all steps for the `customer_entity` table. If guest orders are not allowed, ignore all steps for the `sales_flat_order` table.
 

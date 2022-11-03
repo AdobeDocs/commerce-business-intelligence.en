@@ -18,7 +18,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 ## Calculated Columns
 
-If you are on the original architecture (i.e., if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
+If you are on the original architecture (for example,if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
 
 * **`sales_flat_order`** table
   * This calculation creates buckets in increments relative to your typical cart sizes. This can range from increments including, 5, 10, 50, 100, etc

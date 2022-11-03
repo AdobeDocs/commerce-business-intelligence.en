@@ -169,7 +169,7 @@ Note: No new metrics are needed for this analysis. However, make sure to [add th
 
 ## Next Steps
 
-The above describes how to configure a retail calendar to be compatible with any metric built on your `sales\_order` table (i.e., `Revenue` and `Orders`), but you can also extend this to support the retail calendar for metrics built on any table. The only requirement is that this table has a valid datetime field that can be used to join to the Retail Calendar table.
+The above describes how to configure a retail calendar to be compatible with any metric built on your `sales\_order` table (for example,`Revenue` and `Orders`), but you can also extend this to support the retail calendar for metrics built on any table. The only requirement is that this table has a valid datetime field that can be used to join to the Retail Calendar table.
 
 So for example, to view customer level metrics on a 4-5-4 retail calendar, create a new `Same Table` calculation in the `customer\_entity` table, similar to `\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)` described above. You can then use this column to reproduce all of the `One to Many` JOINED\_COLUMN calculations (like `Created_at (retail year)` and `Include in previous retail year? (Yes/No)` by joining the `customer\_entity` table to the `Retail Calendar` table.
 

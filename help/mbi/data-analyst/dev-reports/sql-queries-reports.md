@@ -25,7 +25,7 @@ This example covers the majority of translation cases, but there are some except
 
 ## Aggregate functions
 
-Aggregate functions (i.e., count, sum, average, max, min, etc) in queries either take the form of **metric aggregations** or **column aggregations** in [!DNL MBI]. The differentiating factor is whether or not a join is required to perform the aggregation.
+Aggregate functions (for example, count, sum, average, max, min, etc) in queries either take the form of **metric aggregations** or **column aggregations** in [!DNL MBI]. The differentiating factor is whether or not a join is required to perform the aggregation.
 
 Let us take a look at an example for each of the above.
 

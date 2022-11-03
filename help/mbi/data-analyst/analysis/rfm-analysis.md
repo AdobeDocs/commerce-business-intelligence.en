@@ -8,7 +8,7 @@ In this article, we demonstrate how to set up a dashboard that will allow you to
 
 ![](../../assets/blobid0.png)
 
-The RFM analysis is only able to be configured if you have the [!DNL MBI] Pro plan on the new architecture (i.e., if you have the "Data Warehouse Views" option under the "Manage Data" menu). These columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
+The RFM analysis is only able to be configured if you have the [!DNL MBI] Pro plan on the new architecture (for example,if you have the "Data Warehouse Views" option under the "Manage Data" menu). These columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
 
 ## Getting Started
 
@@ -141,7 +141,7 @@ Columns to create
 
 >[!NOTE]
 >
->The percentiles used are even splits of customers (i.e., 20% buckets to return 1-5). If you have a custom way you would like to weight these, let the analyst know when you submit the ticket.
+>The percentiles used are even splits of customers (for example,20% buckets to return 1-5). If you have a custom way you would like to weight these, let the analyst know when you submit the ticket.
 
 ## Metrics
 

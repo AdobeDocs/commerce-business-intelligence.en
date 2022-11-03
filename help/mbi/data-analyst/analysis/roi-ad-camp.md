@@ -35,7 +35,7 @@ Analyses (1) and (2) above are explored in a separate tutorial on [identifying y
 1. Create a [!UICONTROL Metric] that sums your spend over time
 1. Go to [!UICONTROL Data > Metrics]
 1. Select `Add New Metric` and select the [!DNL `Adwords...`] table that is recording your [!DNL AdWords] cost data.
-1. In the metric editor, give your metric a name (e.g., [!UICONTROL AdWord Cost])
+1. In the metric editor, give your metric a name (for example, [!UICONTROL AdWord Cost])
 1. Using the dropdowns, perform a **Sum** on the `adCost` column in the [!DNL Adwords...] table (Change) ordered by the `date` column.
     ![](../../assets/success-add-new-metric.png)<!--="500" height="303"}-->
 1. we are done. Click `Back to Metric List` at the top and go to any dashboard.
@@ -66,7 +66,7 @@ Analyses (1) and (2) above are explored in a separate tutorial on [identifying y
 **Finally we will calculate campaign ROI by bringing together these three analyses in one report:**
 
 1. In any dashboard, click **[!UICONTROL Add Report > Create new report]**
-1. Add as input we will use the three metrics we used above. Each will be assigned a letter (i.e., \[`A`\], \[`B`\], and \[`C`\])
+1. Add as input we will use the three metrics we used above. Each will be assigned a letter (for example,\[`A`\], \[`B`\], and \[`C`\])
 1. [!UICONTROL Cost]: Add the metric AdWords cost - this will be variable \[A\]. This will simply return cost by campaigns.
 1. [!UICONTROL Users]: Add the metric New Users - this will be variable \[B\]. This will simply return the number of users by campaigns.
 1. [!UICONTROL LTV]: Add the metric Average Lifetime Revenue - this will be variable \[`C`\]. This will simply return LTV by campaigns.
@@ -90,7 +90,7 @@ Are you running product specific advertisements? If so, you can measure ROI on t
 >
 >We will make the assumption that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI will account for the worst case scenario (highest cost per purchase), so you can be sure that your actual ROI is higher than this calculation. Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1, but under our assumption that all cost went to acquire new users, the cost per purchase is $2.)*
 
-Before we start, [submit a support ticket](../../getting-started/support.md) to join the following dimensions to your line items table (e.g., `sales\_flat\_order\_item, order\_item`, etc.):
+Before we start, [submit a support ticket](../../getting-started/support.md) to join the following dimensions to your line items table (`sales\_flat\_order\_item, order\_item`, etc.):
 
 * Order's source (if you only track referral source at the user level, then join user's source)
 * Order's campaign (if you only track referral source at the user level, then join user's campaign)
@@ -101,7 +101,7 @@ Before we start, [submit a support ticket](../../getting-started/support.md) to 
 1. In any dashboard, click **[!UICONTROL Add Report > Create new report]**
 1. Select the `Revenue by items` metric that calculates revenue at the line items level
 1. Set the [!UICONTROL Time period] to `All-time`, and [!UICONTROL Interval] to `None`
-1. Under the `Filter by` tab, add `product name 'IN'` Product `A`, Product `B`, Product `C`, ..." and include all product names targeted by your campaign separated by a comma (e.g., `product name 'IN' yellow t-shirt`, `red t-shirt, blue t-shirt`)
+1. Under the `Filter by` tab, add `product name 'IN'` Product `A`, Product `B`, Product `C`, ..." and include all product names targeted by your campaign separated by a comma (for example, `product name 'IN' yellow t-shirt`, `red t-shirt, blue t-shirt`)
 1. Under the `Group by` tab, add `order's campaign` or `order's utm\_campaign` as `grouping` field, and click **[!UICONTROL Add All]** in the box
 1. This report will show you the revenue for specific product(s) by campaigns
 

@@ -31,7 +31,7 @@ This collection of reports is built using the following:
 1. Add another metric, again mousing over the [!DNL Google Analytics] section, this time selecting `Sessions`.
 1. Add a third metric, again mousing over the [!DNL Google Analytics] section, this time selecting `Users`.
 1. Now change your time period to a moving range, from 31 days ago to 1 day ago, and adjust the time interval to `by day`.
-1. Give your report a name (e.g., `Page views, sessions and users by day`), and click **[!UICONTROL Save]**.
+1. Give your report a name (for example, `Page views, sessions and users by day`), and click **[!UICONTROL Save]**.
 
 **Our second report will look at the number of page views over the past year:**
 

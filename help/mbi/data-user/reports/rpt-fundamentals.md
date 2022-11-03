@@ -40,8 +40,8 @@ At a higher level, we need to know where to find this data in the database, spec
 
 At a more granular level, we need to identify the exact data fields that will be used for this analysis:
 
-* The data table and column that contain a customer's registration date: e.g. `user.created\_at`
-* The data table and column that contain a purchase date: e.g. `order.created\_at`
+* The data table and column that contain a customer's registration date: for example `user.created\_at`
+* The data table and column that contain a purchase date: for example `order.created\_at`
 
 ## Creating data columns for analysis
 
@@ -53,7 +53,7 @@ That will then be used to create:
 
 * `Time between a customer's registration date and first purchase date`, which returns a specific user's time lapsed between registration and 1st purchase date. This will be the basis for our metric later.
 
-Both of these fields need to be created at the user level (i.e., on the `user` table), so that the average analysis can be normalized by users (i.e., the denominator in this average calculation will be the count of users).
+Both of these fields need to be created at the user level (for example, on the `user` table), so that the average analysis can be normalized by users (in other words, the denominator in this average calculation will be the count of users).
 
 This is where [!DNL MBI] steps in! You can leverage your [!DNL MBI] data warehouse to create the above columns. Simply contact our analyst team and provide us with the specific definition of your new columns and we will create them. You can also leverage our [Column Editor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 

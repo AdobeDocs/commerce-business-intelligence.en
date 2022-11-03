@@ -36,7 +36,7 @@ This metric shows the net revenue you earn from orders that include a particular
 
 ### Percent discounted
 
-This shows the share of gross revenue that is offset by discounts. For coupons that offer a percentage discount, this value is already known (i.e., 10% off). Despite this, this measure provides insight and a method of comparison for coupons that are a fixed dollar discount.
+This shows the share of gross revenue that is offset by discounts. For coupons that offer a percentage discount, this value is already known (for example, 10% off). Despite this, this measure provides insight and a method of comparison for coupons that are a fixed dollar discount.
 
 ### Average net order value
 
@@ -106,7 +106,7 @@ The analyses we touched on in this article can give you valuable insight into ho
 
 **You could analyze your customer acquisitions from coupons.**
 
-Which coupons are encouraging customers to place orders? Are these coupons attracting one-time buyers or do they encourage customer loyalty (i.e. customer who make repeat purchases)?
+Which coupons are encouraging customers to place orders? Are these coupons attracting one-time buyers or do they encourage customer loyalty (in other words, customer who make repeat purchases)?
 
 **You could analyze the time it takes for your customers to use your coupons.**
 

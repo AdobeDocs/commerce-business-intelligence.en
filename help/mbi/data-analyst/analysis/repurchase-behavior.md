@@ -63,7 +63,7 @@ Customers who purchase the brewer have the highest average lifetime revenue; whi
 
 ### Time to next order
 
-Among customers who have purchased coffee capsules, half make a repeat order in about 2 months. However, among customers who have purchased coffee beans, half make a repeat order in about 1 month. This could be because people who order capsules either (1) do not drink as much coffee, or (2) place orders in bulk (e.g., purchasing 2 months' worth of coffee in one order).
+Among customers who have purchased coffee capsules, half make a repeat order in about 2 months. However, among customers who have purchased coffee beans, half make a repeat order in about 1 month. This could be because people who order capsules either (1) do not drink as much coffee, or (2) place orders in bulk (for example, purchasing 2 months' worth of coffee in one order).
 
 ## What other analyses can I build?
 

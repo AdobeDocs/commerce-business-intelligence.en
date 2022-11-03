@@ -80,7 +80,7 @@ Adding multiple filters allows tight control of the chart's data. By default, al
 
 `Perspectives` allow you to easily toggle between different views of your data. Let's take a look at what's available:
 
-- `Standard perspective`: The standard perspective shows you the result for the matching date on the x-axis (e.g. revenue in January). This is the perspective we're using in our Average revenue per orders example.
+- `Standard perspective`: The standard perspective shows you the result for the matching date on the x-axis (for example revenue in January). This is the perspective we're using in our Average revenue per orders example.
 
 ![](../assets/Standard.png)
 

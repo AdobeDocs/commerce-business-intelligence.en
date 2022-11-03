@@ -4,7 +4,7 @@ description: Learn how to create saved Filter Sets and apply them to the metrics
 ---
 # Create filter sets
 
-If you have multiple metrics in [!DNL MBI] that need to be filtered in a similar way (e.g., filter out test orders), you can create saved Filter Sets and apply them to the metrics. This saves you time as you do not have to add individual filters when creating or editing a metric.
+If you have multiple metrics in [!DNL MBI] that need to be filtered in a similar way (for example, filter out test orders), you can create saved Filter Sets and apply them to the metrics. This saves you time as you do not have to add individual filters when creating or editing a metric.
 
 See our [training video](https://support.magento.com/hc/en-us/articles/360016730151) to learn more.
 
@@ -28,7 +28,7 @@ See our [training video](https://support.magento.com/hc/en-us/articles/360016730
 
     For example, if we only wanted to include orders with a status of complete in our `Total number of orders` metric, we would apply a filter that excludes all orders that do not have status = `complete`.
 
-1. Verify your filter logic and that parentheses and operators are placed correctly: e.g., `\[A\] AND \[B\]; (\[A\] OR \[B\]) AND \[C\]`.
+1. Verify your filter logic and that parentheses and operators are placed correctly: for example, `\[A\] AND \[B\]; (\[A\] OR \[B\]) AND \[C\]`.
 
    An incorrect filter is often the cause of data discrepancies between [!DNL MBI] reports and your expected results.
 

@@ -16,6 +16,6 @@ In this article, we are going to explore a few special `operators` used in `filt
 
 * `IS NOT` is similar to the `IS` operator above, but checks for non-NULL columns.
 
-* `IN` checks for a value's presence in a comma-separated list. (e.g., "Color `IN` red,orange" is the equivalent of color `equal to` red OR color `equal to` orange).
+* `IN` checks for a value's presence in a comma-separated list. (for example, "Color `IN` red,orange" is the equivalent of color `equal to` red OR color `equal to` orange).
 
 * `NOT IN` is similar to `IN` above, but checks for a value's absence.

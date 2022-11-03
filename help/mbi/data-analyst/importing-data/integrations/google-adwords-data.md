@@ -36,7 +36,7 @@ The `campaigns` table contains the following columns:
 | [`adClicks`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adclicks) | Total number of clicks for the day |
 | [`adCost`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adcost) | Total cost for the campaign for the day |
 | [`adwordsCampaignID`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adwordscampaignid) | [!DNL Adwords] Campaign ID |
-| [`campaign`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=traffic_sources&jump=ga_campaign) | Campaign name (i.e., [utm\_campaign](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| [`campaign`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=traffic_sources&jump=ga_campaign) | Campaign name (for example, [utm\_campaign](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | [`date`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=time&jump=ga_date) | The date the campaign ran |
 | [`impressions`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_impressions) | Number of impressions for the day |
 | `profileId` | The profile ID |
@@ -56,7 +56,7 @@ The `adwords` table contains the following columns:
 | [`adClicks`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adclicks) | Total number of clicks for the day |
 | [`adCost`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adcost) | Total cost for the campaign for the day |
 | [`adwordsCampaignID`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_adwordscampaignid) | [!DNL Adwords] Campaign ID |
-| [`campaign`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=traffic_sources&jump=ga_campaign) | Campaign name (i.e. [utm\_campaign](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| [`campaign`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=traffic_sources&jump=ga_campaign) | Campaign name (for example, [utm\_campaign](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | [`date`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=time&jump=ga_date) | The date the campaign ran |
 | [`impressions`](https://developers.google.com/analytics/devguides/reporting/core/dimsmets#view=detail&group=adwords&jump=ga_impressions) | Number of impressions for the day |
 | `profileId` | The profile ID |

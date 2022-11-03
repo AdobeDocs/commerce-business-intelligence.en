@@ -81,7 +81,7 @@ Metrics to create
 **Expected revenue per customer by month**
 
 * Metric `A`: `Revenue (hide)`
-  * `Calendar months between first order and this order` `<= X` (Pick some reasonable number for X, e.g., 24 months)
+  * `Calendar months between first order and this order` `<= X` (Pick some reasonable number for X, for example, 24 months)
   * `Is in current month?` = `No`
 
 * [!UICONTROL Metric]: `Revenue`

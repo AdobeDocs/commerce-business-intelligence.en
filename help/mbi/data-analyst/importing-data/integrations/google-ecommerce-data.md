@@ -12,11 +12,11 @@ After your [!DNL Google ECommerce] account is successfully connected to [!DNL MB
 | `accountId` | This column contains the account ID associated with your [!DNL Google Analytics] eCommerce account. |
 | `profileName` | This column contains your [!DNL Google Analytics] profile name. |
 | `profileId` | This column contains your [!DNL Google Analytics] profile ID. |
-| `socialNetwork` | This column contains the name of the social network (e.g., [!DNL Facebook], [!DNL YouTube], etc.) |
-| `campaign` | This column contains the campaign name (i.e., [`utm\_campaign`](https://support.google.com/analytics/answer/1033867?hl=en)). |
-| `medium` | This column contains the medium name (i.e., [`utm\_medium`](https://support.google.com/analytics/answer/1033867?hl=en)) |
-| `source` | This column contains the source name. (i.e., [`utm\_source`](https://support.google.com/analytics/answer/1033867?hl=en)) |
-| `keyword` | This column contains the keyword description (i.e., [`utm\_term`](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| `socialNetwork` | This column contains the name of the social network (for example, [!DNL Facebook], [!DNL YouTube], etc.) |
+| `campaign` | This column contains the campaign name (for example, [`utm\_campaign`](https://support.google.com/analytics/answer/1033867?hl=en)). |
+| `medium` | This column contains the medium name (for example, [`utm\_medium`](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| `source` | This column contains the source name. (for example, [`utm\_source`](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| `keyword` | This column contains the keyword description (for example, [`utm\_term`](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | `transactionId` | This column contains the order ID. This will be used to join the referral data back to your orders data. |
 | `updated\_at` | This column contains the last time that the data row was updated. |
 

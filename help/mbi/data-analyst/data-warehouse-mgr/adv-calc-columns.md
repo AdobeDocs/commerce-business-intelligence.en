@@ -7,11 +7,11 @@ description: Learn the basics for most use column cases -- but you may want calc
 Many analyses you might attempt to create, involve the use of a **new column** that you want to `group by` or `filter by`. The [Creating Calculated Columns](../data-warehouse-mgr/creating-calculated-columns.md) tutorial covers the basics for most use cases, but you may want calculated column that is a bit more complex than what the Data Warehouse Manager can create.
 {: #top}
 
-These types of columns can be created by our team of Data Warehouse analysts. To define a new calculated column, provide us with the **following information**:
+These types of columns can be created by our team of Data Warehouse analysts. To define a new calculated column, provide us with the following information:
 
-1. The **definition** of this column (including inputs, formulas, or formatting)
-1. The **table** that you would like to create the column on
-1. Any **example data points** that describe what the column should contain
+1. The **`definition`** of this column (including inputs, formulas, or formatting)
+1. The **`table`** that you would like to create the column on
+1. Any **`example data points`** that describe what the column should contain
 
 Here are some common examples of advanced calculated columns that users often find useful:
 
@@ -47,8 +47,8 @@ Want to see the Customer's order number column in action? Click the image to see
 To create this type of calculated column, we need to know:
 
 * The table on which you would like to create this column
-* The field which identifies the owner of the events (i.e., `owner\_id` in this example)
-* The field by which you would like to order the events (i.e., `timestamp` in this example)
+* The field which identifies the owner of the events (`owner\_id` in this example)
+* The field by which you would like to order the events (`timestamp` in this example)
 
 [back to top](#top)
 
@@ -99,8 +99,8 @@ A sequential event comparison can be used to find the average or median time bet
 To create this type of calculated column, we need to know:
 
 * The table on which you would like to create this column
-* The field which identifies the owner of the events (i.e., `owner\_id` in the example)
-* The value field which you would like to see the difference between for each sequential event (i.e., `timestamp` in this example)
+* The field which identifies the owner of the events (`owner\_id` in the example)
+* The value field which you would like to see the difference between for each sequential event (`timestamp` in this example)
 
 [back to top](#top)
 

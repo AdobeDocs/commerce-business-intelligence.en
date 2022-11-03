@@ -18,7 +18,7 @@ We recommend two methods to track referral source data based on your setup:
 
 ### (Option 1)  Track order referral source data via [!DNL Google Analytics E-Commerce] (Including [!DNL Shopify] Stores)
 
-If you leverage [!DNL Google Analytics E-Commerce] to track your order and sales data, you can leverage our [!DNL [Google Analytics E-Commerce Connector]](../importing-data/integrations/google-ecommerce.md) to sync each order's referral source data. This will allow you to segment revenue and orders by referral source (e.g., `utm_source`, `utm_medium`, etc.) and also get a sense of customer acquisition sources via [!DNL MBI] custom dimensions such as `User's first order source`.
+If you leverage [!DNL Google Analytics E-Commerce] to track your order and sales data, you can leverage our [!DNL [Google Analytics E-Commerce Connector]](../importing-data/integrations/google-ecommerce.md) to sync each order's referral source data. This will allow you to segment revenue and orders by referral source (for example, `utm_source`, `utm_medium`, etc.) and also get a sense of customer acquisition sources via [!DNL MBI] custom dimensions such as `User's first order source`.
 
 >[!NOTE]
 >
