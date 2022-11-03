@@ -42,6 +42,6 @@ Need help building an advanced calculated column? Encountered a defect or connec
 | Guide | Description |
 |------ | ----------- |
 | [Adobe Commerce 2.4 User Guide](https://docs.magento.com/user-guide/) | Merchant-focused documentation for both [!DNL Adobe Commerce] and [!DNL Magento Open Source] |
-| [Adobe Commerce 2.4 Developer Guide](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize [!DNL Adobe Commerce] or [!DNL Magento Open Source] |
+| [Adobe Commerce 2.4 Developer Documentation](https://devdocs.magento.com/) | Developer-focused documentation used to build and customize [!DNL Adobe Commerce] or [!DNL Magento Open Source] |
 
 {style="table-layout:auto"}
