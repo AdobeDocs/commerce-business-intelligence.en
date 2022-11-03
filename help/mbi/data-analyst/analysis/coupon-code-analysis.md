@@ -451,4 +451,4 @@ Additional columns to create if guest orders NOT supported:
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page.
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).
+If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../guide-overview.md).

@@ -4,7 +4,7 @@ description: Learn about working with and improving your [!DNL MBI] environment.
 ---
 # Your [!DNL MBI] Environment
 
-As you analyze your commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your [!UICONTROL Magento] schema correctly, do not hesitate to [contact support](../getting-started/support.md).
+As you analyze your commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your [!UICONTROL Magento] schema correctly, do not hesitate to [contact support](../guide-overview.md).
 
 ## [!DNL entity\_id]
 

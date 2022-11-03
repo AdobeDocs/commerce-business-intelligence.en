@@ -12,7 +12,6 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
   - [Activate for [!DNL On-Premise]](getting-started/onpremise-activation.md)
   - [Activate for [!DNL Cloud Starter]](getting-started/cloud-activation.md)
   - [Sign in to your [!DNL MBI] Account](getting-started/sign-in.md)
-  - [How to Get Help](getting-started/support.md)
 - Administrator {#administrator}
   - Account Management {#acct-mgmt}
     - [Benefits of [!DNL New Architecture]](../mbi/administrator/account-management/new-architecture.md)

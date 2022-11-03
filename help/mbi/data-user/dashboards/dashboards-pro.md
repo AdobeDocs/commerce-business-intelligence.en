@@ -8,7 +8,7 @@ description: Learn about out-of-the-box dashboards to provide insight into your 
 
 >[!NOTE]
 >
->Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](../../getting-started/support.md).
+>Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](../../guide-overview.md).
 
 ## Report availability
 

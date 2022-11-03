@@ -30,7 +30,7 @@ However, if you want to analyze the cohort behavior of multiple user segments in
 
 Creating a `qualitative cohort` report in the `Report Builder` involves our analyst team creating some [advanced calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) on the necessary tables.
 
-To build these, submit a [support ticket](../../getting-started/support.md) (and reference this article!). Here is what we need to know:
+To build these, submit a [support ticket](../../guide-overview.md) (and reference this article!). Here is what we need to know:
 
 * The `metric` you want to perform your cohort analysis with and what table it uses (example: `Revenue`, built on the `orders` table).
 

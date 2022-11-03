@@ -35,4 +35,4 @@ Discrepancies between [!DNL Google Analytics] and your database can arise for a 
 
 ## How do I troubleshoot a data discrepancy? {#datadiscrepancy}
 
-We know that seeing inconsistent data can be a frustrating experience. Try using our [Data Discrepancy Checklist](https://support.magento.com/hc/en-us/articles/360016731271) or [Data Exports tutorial](https://support.magento.com/hc/en-us/articles/360016730631) to diagnose the problem. If you are still stumped, [contact support](../../getting-started/support.md).
+We know that seeing inconsistent data can be a frustrating experience. Try using our [Data Discrepancy Checklist](https://support.magento.com/hc/en-us/articles/360016731271) or [Data Exports tutorial](https://support.magento.com/hc/en-us/articles/360016730631) to diagnose the problem. If you are still stumped, [contact support](../../guide-overview.md).

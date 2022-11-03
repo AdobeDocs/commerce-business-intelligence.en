@@ -77,7 +77,7 @@ If you are prevented from creating a calculated column due to one or more of the
 
 ## Delete a Calculated Column Path {#delete}
 
-Created an incorrect path in your Data Warehouse? Or maybe you are doing a little spring cleaning and want to tidy up? If you need to delete a path from your account, you can [send a ticket over to our support analysts](../../getting-started/support.md). **Be sure to include the name of the path!**
+Created an incorrect path in your Data Warehouse? Or maybe you are doing a little spring cleaning and want to tidy up? If you need to delete a path from your account, you can [send a ticket over to our support analysts](../../guide-overview.md). **Be sure to include the name of the path!**
 
 ## Wrapping up {#wrapup}
 

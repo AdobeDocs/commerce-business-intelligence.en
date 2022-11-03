@@ -53,6 +53,6 @@ To add an integration, click **[!UICONTROL Manage Data** > **Connections]** and 
 * [Consolidating your tables](../../../best-practices/consolidating-your-tables.md)
 * [Restricting access to your database](../../../administrator/account-management/restrict-db-access.md)
 
-**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you are looking for something - for example, [!DNL Facebook] - but it is not listed, [submit a support ticket](../../../getting-started/support.md).
+**Not seeing an integration you want?** Some integrations have to be activated for them to be visible in your account. If you are looking for something - for example, [!DNL Facebook] - but it is not listed, [submit a support ticket](../../../guide-overview.md).
 
 **If you see an error status for an integration**, do not panic - check out the [Troubleshooting section](https://support.magento.com/hc/en-us/sections/360003078151) for help.

@@ -11,7 +11,7 @@ MBI allows you to easily [marry advertising cost data and revenue data](../../da
 * Import your advertising cost data:
   * [Connect your [!DNL Google AdWords] to [!DNL MBI]](../importing-data/integrations/google-adwords.md): This will automatically sync your [!DNL Adwords] spend in [!DNL MBI]
   * [Upload other advertising cost data](../importing-data/connecting-data/import-offline-ad-data.md): This is recommended for channels without a direct connector to [!DNL MBI]
-  * If you import cost data from multiple sources, we can [consolidate](../../best-practices/consolidating-your-tables.md) the data in [!DNL MBI]. Simply [submit a support ticket](../../getting-started/support.md).
+  * If you import cost data from multiple sources, we can [consolidate](../../best-practices/consolidating-your-tables.md) the data in [!DNL MBI]. Simply [submit a support ticket](../../guide-overview.md).
 * [Track user acquisition channel data](../analysis/google-track-user-acq.md)
 
 ## User acquisition campaigns
@@ -90,7 +90,7 @@ Are you running product specific advertisements? If so, you can measure ROI on t
 >
 >We will make the assumption that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI will account for the worst case scenario (highest cost per purchase), so you can be sure that your actual ROI is higher than this calculation. Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1, but under our assumption that all cost went to acquire new users, the cost per purchase is $2.)*
 
-Before we start, [submit a support ticket](../../getting-started/support.md) to join the following dimensions to your line items table (`sales\_flat\_order\_item, order\_item`, etc.):
+Before we start, [submit a support ticket](../../guide-overview.md) to join the following dimensions to your line items table (`sales\_flat\_order\_item, order\_item`, etc.):
 
 * Order's source (if you only track referral source at the user level, then join user's source)
 * Order's campaign (if you only track referral source at the user level, then join user's campaign)

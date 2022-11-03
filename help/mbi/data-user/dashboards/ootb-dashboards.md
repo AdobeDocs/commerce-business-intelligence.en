@@ -10,7 +10,7 @@ As part of our services, we offer eCommerce and `SaaS` Starter Packages. These p
 >
 >The availability of some dashboards depends upon your dataset.
 
-If you have questions or you are interested in adding a package to your account, send us a [support ticket](../../getting-started/support.md) to get things started.
+If you have questions or you are interested in adding a package to your account, send us a [support ticket](../../guide-overview.md) to get things started.
 
 ## Executive overview
 

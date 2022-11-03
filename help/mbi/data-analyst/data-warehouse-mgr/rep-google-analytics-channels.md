@@ -51,7 +51,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
 1. **Establish a relationship between[!DNL Google ECommerce]and Mappings File Upload**
 
-   To establish a relationship between the[!DNL Google ECommerce]and the mapping table, [submit a support request](../../getting-started/support.md) to our Data Analyst team and reference this article. The analyst will create a new calculated column called **Channel** in the ECommerce table. **After a full update cycle**, this column will be ready to use in a Filter or Group by.
+   To establish a relationship between the[!DNL Google ECommerce]and the mapping table, [submit a support request](../../guide-overview.md) to our Data Analyst team and reference this article. The analyst will create a new calculated column called **Channel** in the ECommerce table. **After a full update cycle**, this column will be ready to use in a Filter or Group by.
 
 Congratulations! Now you have Google Analytics Channel groupings in your Data Warehouse, which means you can analyze your data from a new perspective:
 

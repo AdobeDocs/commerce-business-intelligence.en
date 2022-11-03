@@ -30,4 +30,4 @@ If you need to resend the invitation to the new user, on the [login page](https:
 
 >[!IMPORTANT]
 >
->Each account has a contracted number of licenses, or seats. If you hit your limit or would like to know more, [submit a support ticket](../../getting-started/support.md).
+>Each account has a contracted number of licenses, or seats. If you hit your limit or would like to know more, [submit a support ticket](../../guide-overview.md).

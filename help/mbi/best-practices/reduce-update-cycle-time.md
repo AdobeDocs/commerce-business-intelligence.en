@@ -34,4 +34,4 @@ In addition to reevaluating recheck frequencies, replication methods, and chart 
 
 ## Wrapping Up
 
-If your update time still seems slow even after implementing these recommendations, [contact our support team](../getting-started/support.md).
+If your update time still seems slow even after implementing these recommendations, [contact our support team](../guide-overview.md).

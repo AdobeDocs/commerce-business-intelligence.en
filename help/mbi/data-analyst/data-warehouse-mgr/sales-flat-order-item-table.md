@@ -75,7 +75,7 @@ Therefore it is possible to report on sales of products either at the simple lev
 
 `sales_order_item`
 
-*  Join to `sales_order_item` to create new columns that associate details of the parent configurable or bundle SKU with the simple product. Note that you will need to [contact support](../../getting-started/support.md) for assistance in configuring these calculations, if building in the Data Warehouse manager.
+*  Join to `sales_order_item` to create new columns that associate details of the parent configurable or bundle SKU with the simple product. Note that you will need to [contact support](../../guide-overview.md) for assistance in configuring these calculations, if building in the Data Warehouse manager.
    *  Path: `sales_order_item.parent_item_id` (many) => `sales_order_item.item_id` (one)
 
 `store`

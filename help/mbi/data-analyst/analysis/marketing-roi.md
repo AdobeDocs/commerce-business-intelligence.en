@@ -16,7 +16,7 @@ Before getting started, you want to connect your [!DNL [Facebook Ads]](../import
 
 ## Consolidated Tables
 
-**Original architecture:** To bring together your spend from various sources (like [!DNL Facebook Ads] or [!DNL Google Adwords]), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you have not already, [file a support request](../../getting-started/support.md) with the subject `[MARKETING ROI ANALYSIS]`, and an analyst will create this table.
+**Original architecture:** To bring together your spend from various sources (like [!DNL Facebook Ads] or [!DNL Google Adwords]), we recommend creating a **consolidated table** of all of your ad spend. You will need an analyst to complete this step for you. If you have not already, [file a support request](../../guide-overview.md) with the subject `[MARKETING ROI ANALYSIS]`, and an analyst will create this table.
 
 **New architecture:** You can follow the example set forth in [this Analysis Library](../../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
 
@@ -254,7 +254,7 @@ Columns to create
 * [!UICONTROL Group by]: `campaign` (Use `Customer's first order's` campaign for non-ad spend table metrics)
 * [!UICONTROL Chart Type]: `Table`
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../getting-started/support.md).
+If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../guide-overview.md).
 
 ### Related
 

@@ -63,7 +63,7 @@ The `quote_item` table (`sales_flat_quote_item` on [!DNL Magento] 1) contains 
 
 `quote_item`
 
-*  Join to `quote_item` to create new columns that associate details of the parent configurable or bundle SKU with the simple product. Note that you will need to [contact support](../../getting-started/support.md) for assistance in configuring these calculations, if building in the Data Warehouse manager.
+*  Join to `quote_item` to create new columns that associate details of the parent configurable or bundle SKU with the simple product. Note that you will need to [contact support](../../guide-overview.md) for assistance in configuring these calculations, if building in the Data Warehouse manager.
    *  Path: `quote_item.parent_item_id` (many) => `quote_item.item_id` (one)
 
 `store`

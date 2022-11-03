@@ -142,4 +142,4 @@ The largest number of customers were acquired through the "20% off" coupon. Howe
 
 ## Wrapping Up {#wrapup}
 
-There are a multitude of analyses you can create to better understand how your customers use coupons. Ever thought about analyzing how your customers use your coupons or the time it takes for coupons to be used? What about finding the optimal discount amount - what amount encourages repeat buyers, higher average order value, and higher lifetime revenue? For help with these types of questions, [contact support](../../getting-started/support.md).
+There are a multitude of analyses you can create to better understand how your customers use coupons. Ever thought about analyzing how your customers use your coupons or the time it takes for coupons to be used? What about finding the optimal discount amount - what amount encourages repeat buyers, higher average order value, and higher lifetime revenue? For help with these types of questions, [contact support](../../guide-overview.md).

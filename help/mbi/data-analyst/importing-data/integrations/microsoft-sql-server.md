@@ -12,7 +12,7 @@ description: Learn how to connect your Microsoft SQL database to [!DNL MBI] in a
 
 This article explains how to connect your `Microsoft SQL` database to [!DNL MBI] in a four-step process. This process requires some technical expertise related to server connections and SQL, and may require support from developers on your team.
 
-We support [!DNL Amazon RDS], [!DNL EC2], [!DNL Microsoft SQL Azure], and most other cloud server providers. If you have a question on your particular host, [submit a support ticket](../../../getting-started/support.md) asking us to provide this information.
+We support [!DNL Amazon RDS], [!DNL EC2], [!DNL Microsoft SQL Azure], and most other cloud server providers. If you have a question on your particular host, [submit a support ticket](../../../guide-overview.md) asking us to provide this information.
 
 Our system needs to run SELECT queries on your database. We do this initially to get a snapshot of your database structure and then regularly overtime to keep our data up to date. Our updates are incremental, and we restrict update frequency and time to prevent any unwanted load on your server.
 

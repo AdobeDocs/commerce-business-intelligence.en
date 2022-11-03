@@ -8,7 +8,7 @@ Found something strange in your [[!DNL Zendesk] data](../integrations/exp-zendes
 
 ## Enabling data export
 
-Data export is not currently enabled for all [!DNL Zendesk] accounts. To activate this feature, [submit a support ticket](../../../getting-started/support.md), mentioning your [!DNL Zendesk] subdomain name. 
+Data export is not currently enabled for all [!DNL Zendesk] accounts. To activate this feature, [submit a support ticket](../../../guide-overview.md), mentioning your [!DNL Zendesk] subdomain name. 
 
 >[!NOTE] 
 >
@@ -29,6 +29,6 @@ After data export is enabled, only administrators in a specific email domain can
 
    This download link is valid for at least three days.
 
-This process builds an XML file containing all information stored in your current [!DNL Zendesk] account, including ticket data (with comments), user data, and account data. At this point, you can [submit a support ticket](../../../getting-started/support.md) (be sure to attach this file!) so we can take a closer look at your data. If the file is too large, share it with the [!DNL MBI] team via [!DNL Dropbox] or [!DNL Google Drive].
+This process builds an XML file containing all information stored in your current [!DNL Zendesk] account, including ticket data (with comments), user data, and account data. At this point, you can [submit a support ticket](../../../guide-overview.md) (be sure to attach this file!) so we can take a closer look at your data. If the file is too large, share it with the [!DNL MBI] team via [!DNL Dropbox] or [!DNL Google Drive].
 
 For more information about [!DNL Zendesk] file exports, refer to the official [[!DNL Zendesk] export documentation](https://support.zendesk.com/entries/23002207-Exporting-data-to-a-CSV-or-XML-file-Plus-and-Enterprise-).

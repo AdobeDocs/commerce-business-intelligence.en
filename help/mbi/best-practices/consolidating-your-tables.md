@@ -36,7 +36,7 @@ As with all other tables in your data warehouse, you can add additional columns 
 
 ## Creating, Viewing, or Updating a Consolidated Table
 
-If you are interested in adding a consolidated table to your data warehouse, contact [!DNL MBI] [support](../getting-started/support.md).
+If you are interested in adding a consolidated table to your data warehouse, contact [!DNL MBI] [support](../guide-overview.md).
 
 >[!NOTE]
 >

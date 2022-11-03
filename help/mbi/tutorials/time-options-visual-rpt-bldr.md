@@ -57,7 +57,7 @@ Now we can see just how impactful each month was last year:
 
 ## Comparing the Same Metric Across Different Time Ranges {#difftimerange}
 
-This example uses a custom dimension called `Day number of the month`. If you want to create this report and do not already have this dimension in your Data Warehouse, [contact support](../getting-started/support.md) for assistance.
+This example uses a custom dimension called `Day number of the month`. If you want to create this report and do not already have this dimension in your Data Warehouse, [contact support](../guide-overview.md) for assistance.
 
 The two most common examples in this category are (1) comparing growth metrics (revenue year-over-year, month-over-month, etc.) and (2) better understanding recent inventory or item sales trends.
 

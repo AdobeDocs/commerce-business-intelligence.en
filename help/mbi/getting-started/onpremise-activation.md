@@ -18,7 +18,7 @@ To activate [!DNL MBI] for on-premise subscriptions, first create a [!DNL MBI] a
 
      ![](../assets/create-account-2.png)
 
-    -  Go to your inbox and verify your email address. If you did not receive an email, [contact support](../getting-started/support.md).
+    -  Go to your inbox and verify your email address. If you did not receive an email, [contact support](../guide-overview.md).
 
     -  Create your password.
 

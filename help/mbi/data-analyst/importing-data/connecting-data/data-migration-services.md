@@ -53,7 +53,7 @@ Here is a look at an example:
 
 ## How do I submit a request? {#submitreq}
 
-You can reach out to us by [submitting a support request](../../../getting-started/support.md).
+You can reach out to us by [submitting a support request](../../../guide-overview.md).
 
 If you followed the steps in the previous section for creating the column matching spreadsheet, do not forget to attach it.
 

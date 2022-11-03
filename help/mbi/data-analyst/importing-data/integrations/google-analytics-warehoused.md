@@ -26,7 +26,7 @@ With the [!DNL Google Analytics Live] integration on the other hand, every [!DNL
 
 >[!INFO]
 >
->[!DNL Google Analytics Warehoused] is a `Premium` Integration. [Contact support](../../../getting-started/support.md) if you have an interest in adding this integration to your subscription.
+>[!DNL Google Analytics Warehoused] is a `Premium` Integration. [Contact support](../../../guide-overview.md) if you have an interest in adding this integration to your subscription.
 
 1. Go to the `Connections` page under **[!UICONTROL Admin** > **Integrations]**.
 1. Click **[!UICONTROL Add a Add Integration]**, located on the right side of the screen.
