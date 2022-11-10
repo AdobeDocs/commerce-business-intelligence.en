@@ -23,9 +23,13 @@ The `metadata.md` file includes repo-level metadata that passes through to user 
 | mini-toc-levels | Determines the number of heading levels that appear in right rail. default is 2 |
 | git-repo | Specifies the location of the master repo for internal use |
 
+{style="table-layout:auto"}
+
 In TOC.md file
 
 | metadata | what it does |
 |--- |--- |
 | user-guide-title | Used in article header as link |
 | user-guide-url | Opens helpx hub page |
+
+{style="table-layout:auto"}
