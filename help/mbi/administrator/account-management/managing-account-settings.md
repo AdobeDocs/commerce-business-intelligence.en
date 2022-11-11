@@ -1,6 +1,7 @@
 ---
 title: Manage your account settings
 description: Learn how to customize a number of account settings for your data warehouse.
+exl-id: 847d51b1-287e-4c14-b64e-0bd9bfcccedc
 ---
 # Customizing your account settings
 

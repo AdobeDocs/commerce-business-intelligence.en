@@ -1,6 +1,7 @@
 ---
 title: sales_order_item table
 description: Learn how to work with the sales_order_item table.
+exl-id: 5c48e985-3ba2-414b-bd1f-555b3da763bd
 ---
 # `sales_order_item` Table
 

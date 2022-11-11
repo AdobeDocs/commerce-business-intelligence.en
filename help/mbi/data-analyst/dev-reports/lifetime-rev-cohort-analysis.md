@@ -1,6 +1,7 @@
 ---
 title: Lifetime Revenue Cohort Analysis
 description: Explore the power of [!DNL MBI] cohort analysis.
+exl-id: f2b55745-d364-4ba6-9857-ce9cee05c3ae
 ---
 # `Lifetime Revenue Cohort` Analysis
 

@@ -1,6 +1,7 @@
 ---
 title: Configuring replication methods
 description: Learn how tables are organized, and how the table data behaves will allow you to choose the best replication method for your tables.
+exl-id: 83895c48-a6ec-4b01-9890-164e0b21dcbc
 ---
 # Configuring replication methods
 

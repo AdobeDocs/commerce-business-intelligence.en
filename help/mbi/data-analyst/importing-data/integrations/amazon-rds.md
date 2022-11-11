@@ -1,6 +1,7 @@
 ---
 title: Connect Amazon RDS
 description: Learn the steps for connecting your RDS instance.
+exl-id: 02ad29c8-84d6-4b49-9ac1-e5f4feaa7fda
 ---
 # Connect Amazon RDS
 

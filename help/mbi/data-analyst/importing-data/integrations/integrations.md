@@ -1,6 +1,7 @@
 ---
 title: Connect External Data Using an Integration
 description: Learn about the available integrations you can use to connect various external data sources to [!DNL MBI].
+exl-id: b80f6f77-15f7-4d20-83fe-c6d758f9b0f8
 ---
 # Connect External Data Using an Integration
 

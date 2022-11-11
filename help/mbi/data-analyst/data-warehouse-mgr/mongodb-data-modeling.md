@@ -1,6 +1,7 @@
 ---
 title: MongoDB data modeling
 description: Learn how to avoid data patterns that pose an issue.
+exl-id: 556c854b-5d7c-4f72-8ed7-5bc08d9ee5b9
 ---
 # [!DNL MongoDB] Data Modeling
 

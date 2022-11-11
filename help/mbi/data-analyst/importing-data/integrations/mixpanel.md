@@ -1,6 +1,7 @@
 ---
 title: Connect Mixpanel
 description: Learn how to analyze how users navigate and utilize your websites and apps.
+exl-id: e6a9f08f-1063-4d92-93e6-971280239fdb
 ---
 # Connect [!DNL Mixpanel] 
 

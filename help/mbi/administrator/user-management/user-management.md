@@ -1,6 +1,7 @@
 ---
 title: Managing users and permissions
-description: Learn how to manage your [!DNL MBI] users. 
+description: Learn how to manage your [!DNL MBI] users.
+exl-id: 2a5eeabb-3c13-4ca1-b845-ed255b389c9f
 ---
 # Manage user permissions
 

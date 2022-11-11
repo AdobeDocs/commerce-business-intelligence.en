@@ -1,6 +1,7 @@
 ---
 title: Connecting MySQL via SSH tunnel
 description: Learn how to connect MySQL via SSH Tunnel.
+exl-id: 6b691a6a-9542-4e47-9b1d-d6d3c3dac357
 ---
 # Connect `MySQL` via `SSH Tunnel`
 

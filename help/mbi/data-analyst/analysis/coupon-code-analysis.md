@@ -1,6 +1,7 @@
 ---
 title: Coupon Performance
-description: Learn about analyzing your coupon performance. 
+description: Learn about analyzing your coupon performance.
+exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
 ---
 # Advanced Coupon Code Analysis
 

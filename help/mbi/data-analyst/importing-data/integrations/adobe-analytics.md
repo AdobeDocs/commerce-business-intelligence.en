@@ -1,8 +1,8 @@
 ---
 title: Connect Adobe Analytics
 description: Learn to bring together the end-to-end customer journey focus of [!DNL Adobe Analytics] and the eCommerce focus you rely on from [!DNL MBI].
+exl-id: 824e1ee4-6b88-42f7-b265-29330dbc4407
 ---
-
 # Connect [!DNL Adobe Analytics]
 
 >[!NOTE]

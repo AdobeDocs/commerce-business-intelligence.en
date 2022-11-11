@@ -1,6 +1,7 @@
 ---
 title: Understand your [!DNL MBI] Environment
-description: Learn about working with and improving your [!DNL MBI] environment. 
+description: Learn about working with and improving your [!DNL MBI] environment.
+exl-id: 601b5fba-da02-4cc8-96ed-147c24f326f9
 ---
 # Your [!DNL MBI] Environment
 

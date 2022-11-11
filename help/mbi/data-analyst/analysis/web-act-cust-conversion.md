@@ -1,6 +1,7 @@
 ---
 title: Analyzing Website Activity and Customer Conversion Rates
-description: Learn how to set up a dashboard that will track your website activity - including page views, sessions and users - as well as your customer conversion rate over time. 
+description: Learn how to set up a dashboard that will track your website activity - including page views, sessions and users - as well as your customer conversion rate over time.
+exl-id: 2b57d5b3-3bbf-4ec9-86a6-9fa850c1c459
 ---
 # Analyzing Website Activity
 

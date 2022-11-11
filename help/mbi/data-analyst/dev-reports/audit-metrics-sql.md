@@ -1,6 +1,7 @@
 ---
 title: Working with SQL Report Builder
 description: Learn how to audit data and metrics using the SQL Report Builder so that you can compare the results with the data from your local database.
+exl-id: d1d9e099-4138-43e6-aaec-6f15ebc5c4d4
 ---
 # `SQL Report Builder`
 

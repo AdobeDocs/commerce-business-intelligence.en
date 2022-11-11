@@ -1,6 +1,7 @@
 ---
 title: Create metrics
 description: Learn how to use metrics to create charts.
+exl-id: d4c25546-3c51-4d32-b9d8-c424ec103be5
 ---
 # Create metrics
 

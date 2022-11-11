@@ -1,6 +1,7 @@
 ---
 title: Connect Google Analytics Warehoused
 description: Learn to track how visitors use your site, what content is attractive, where visitors exit, and more.
+exl-id: b9879399-9e1a-4f36-b510-8426ebc83aeb
 ---
 # Connect [!DNL Google Analytics Warehoused]
 
@@ -59,4 +60,3 @@ To identify a particular website's [!DNL Google Analytics] Profile ID:
 * [Analyzing website activity and customer conversion rates](../../analysis/web-act-cust-conversion.md)
 * [Track user acquisition data using [!DNL Google Analytics] cookies](../../analysis/google-track-user-acq.md)
 * [Track user device and browser data using [!DNL Google Analytics] cookies](https://support.magento.com/hc/en-us/articles/360016732911)
-

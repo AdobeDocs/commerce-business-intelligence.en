@@ -1,6 +1,7 @@
 ---
 title: Expected Google Adwords data
 description: Learn how you can use the Data Warehouse Manager to easily track relevant data fields for analysis.
+exl-id: b0085683-7bb1-4da2-b343-4309e4796f0c
 ---
 # Expected Google Adwords data
 

@@ -1,6 +1,7 @@
 ---
 title: Recommended Data Dimensions for Segmentation and Filtering
-description: Learn about best practices for segmentation and filtering. 
+description: Learn about best practices for segmentation and filtering.
+exl-id: 66391bce-bdeb-4e9d-8089-1c796e00d91e
 ---
 # Segmentation and Filtering
 

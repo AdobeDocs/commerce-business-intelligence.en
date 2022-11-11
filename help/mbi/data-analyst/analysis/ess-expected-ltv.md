@@ -1,6 +1,7 @@
 ---
 title: Expected Lifetime Value (LTV) Analysis (basic)
-description: Learn how to create analyses to understand your current customers' lifetime value, and forecast how lifetime value will increase with more orders. 
+description: Learn how to create analyses to understand your current customers' lifetime value, and forecast how lifetime value will increase with more orders.
+exl-id: e6f02cf6-f542-4768-969c-3ec998a7caa9
 ---
 # Expected Lifetime Value Analysis
 

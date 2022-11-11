@@ -1,6 +1,7 @@
 ---
 title: Expected [!UICONTROL Magento] data
 description: Explore the main data tables that [!UICONTROL Magento] users import into MBI
+exl-id: b481c8fc-41b6-4094-8901-17d57f26bfc0
 ---
 # Expected [!UICONTROL Magento] Data
 
@@ -22,4 +23,3 @@ In this article, we explore the main data tables that [!UICONTROL Magento] users
 
 * [Connecting [!DNL Magento]](../integrations/magento.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
-

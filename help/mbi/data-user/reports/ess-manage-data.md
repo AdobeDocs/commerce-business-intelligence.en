@@ -1,6 +1,7 @@
 ---
 title: Manage Data
 description: Learn how to use Manage Data.
+exl-id: 6274eda4-d3ff-47b6-81d9-06ad4f150ef7
 ---
 # Manage Data
 

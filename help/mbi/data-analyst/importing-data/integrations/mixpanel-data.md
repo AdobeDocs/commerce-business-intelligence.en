@@ -1,6 +1,7 @@
 ---
 title: Expected Mixpanel data
 description: Explore the main data tables that you can import from Mixpanel into your [!DNL MBI] account.
+exl-id: 87bd337a-63fa-44cf-b1fe-c2f34ca86029
 ---
 # Expected [!DNL Mixpanel] data
 

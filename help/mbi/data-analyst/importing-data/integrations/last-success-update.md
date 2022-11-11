@@ -1,6 +1,7 @@
 ---
 title: Understand Results Between Database and SQL Editor
 description: Learn to understand results between database and SQL editor.
+exl-id: f31f3eef-791a-4984-901e-bc10554031bd
 ---
 # Database Results vs `SQL Editor` Results
 

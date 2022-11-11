@@ -1,6 +1,7 @@
 ---
 title: Share dashboards with other users
 description: Learn how to share dashboards with other users.
+exl-id: 6279b049-d1b2-4d40-b30b-ee8772e990f4
 ---
 # Share dashboards with other users
 

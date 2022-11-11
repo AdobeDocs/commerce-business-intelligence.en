@@ -1,6 +1,7 @@
 ---
 title: Modifying Your Database to Support for Incremental Replication
-description: Learn how to modify your database to support incremental replication. 
+description: Learn how to modify your database to support incremental replication.
+exl-id: c9a38892-6096-4eb5-8a53-35b8b7b083dc
 ---
 # Support for Incremental Replication
 
@@ -25,4 +26,4 @@ Remember, tables using this method are single column with integer auto increment
 
 ## Wrapping Up
 
-By making minor modifications to your tables, you can take advantage of the faster, more efficient Incremental Replication Methods; however, if this is still not possible, you can still take other steps to [reduce your update time](../best-practices/reduce-update-cycle-time.md) and [optimize your database](../best-practices/opt-db-analysis.md). 
+By making minor modifications to your tables, you can take advantage of the faster, more efficient Incremental Replication Methods; however, if this is still not possible, you can still take other steps to [reduce your update time](../best-practices/reduce-update-cycle-time.md) and [optimize your database](../best-practices/opt-db-analysis.md).

@@ -1,6 +1,7 @@
 ---
 title: Dashboard Wide Filtering
 description: Learn how to make bulk edits of all the reports on a specific dashboard.
+exl-id: 379d0027-8a7a-4062-a66a-4f06c37b806c
 ---
 # Dashboard Wide Filtering
 

@@ -1,6 +1,7 @@
 ---
 title: Storing Data in Magento
 description: Learn how data is generated, what exactly causes a new row to be inserted into one of the Core [!UICONTROL Magento] Tables, and how are actions such as making a purchase or creating an account recorded into the [!UICONTROL Magento] database.
+exl-id: 436ecdc1-7112-4dec-9db7-1f3757a2a938
 ---
 # Storing Data in [!DNL Magento]
 

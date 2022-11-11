@@ -1,6 +1,7 @@
 ---
 title: Analyzing Inventory Levels
-description: Learn how to analyze inventory levels. 
+description: Learn how to analyze inventory levels.
+exl-id: 620156c5-7bea-4b36-84c7-e0cb4b5cc8be
 ---
 # Analyze Inventory Levels
 

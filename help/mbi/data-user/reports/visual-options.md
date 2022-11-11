@@ -1,6 +1,7 @@
 ---
 title: Visualization Options in the Visual Report Builder
 description: Learn how to use the Visualization options in the Visual Report Builder.
+exl-id: e42a004e-28e3-4484-bb5a-b58c810b23e0
 ---
 # Visualization Options
 

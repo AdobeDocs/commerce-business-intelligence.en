@@ -1,6 +1,7 @@
 ---
 title: Free shipping threshold
-description: Learn how to how to set up a dashboard that will track the performance of your free shipping threshold. 
+description: Learn how to how to set up a dashboard that will track the performance of your free shipping threshold.
+exl-id: a90ad89b-96d3-41f4-bfc4-f8c223957113
 ---
 # Free Shipping
 

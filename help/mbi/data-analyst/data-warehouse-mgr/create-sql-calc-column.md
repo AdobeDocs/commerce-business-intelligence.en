@@ -1,6 +1,7 @@
 ---
 title: Creating and Using a SQL Calculated Column
 description: Learn how advanced columns can be created in the form of SQL Calculation columns on the new MBI architecture.
+exl-id: f16e4ee4-ed73-4ddb-b701-1fe3db14346a
 ---
 # Create a SQL Calculated Column
 

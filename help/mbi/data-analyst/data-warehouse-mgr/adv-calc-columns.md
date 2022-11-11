@@ -1,6 +1,7 @@
 ---
 title: Advanced Calculated Column Types
 description: Learn the basics for most use column cases -- but you may want calculated column that iss a bit more complex than what the Data Warehouse Manager can create.
+exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
 ---
 # Advanced Calculated Column Types
 

@@ -1,6 +1,7 @@
 ---
 title: Data User
 description: Data User
+exl-id: 2f412c94-5042-4411-b19b-482993e6f70f
 ---
 # Data User
 
@@ -13,4 +14,3 @@ In this section, you will learn how to acquire and display data in [!DNL MBI] us
 * [Building Reports](../mbi/data-user/reports/rpt-fundamentals.md)
 * [Building Dashboards](../mbi/data-user/dashboards/ess-dashboards.md)
 * [Sharing Data](../mbi/data-user/export-data/share-data.md)
-

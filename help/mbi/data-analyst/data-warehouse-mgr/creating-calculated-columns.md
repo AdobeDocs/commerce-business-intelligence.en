@@ -1,6 +1,7 @@
 ---
 title: Create calculated columns
 description: Learn how to consolidate data from different sources.
+exl-id: 668cbc77-6a96-4687-9f40-3635b1be5c66
 ---
 # Create Calculated Columns
 

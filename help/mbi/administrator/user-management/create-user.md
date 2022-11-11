@@ -1,6 +1,7 @@
 ---
 title: Add/Edit a new user
-description: Learn how to add a new [!DNL MBI] user and how to update your user name or password. 
+description: Learn how to add a new [!DNL MBI] user and how to update your user name or password.
+exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 ---
 # Add a new user
 

@@ -1,6 +1,7 @@
 ---
 title: Understand and build basic analytics
-description: Learn how to understand and build basics analytics. 
+description: Learn how to understand and build basics analytics.
+exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
 ---
 # Basic Analytics
 

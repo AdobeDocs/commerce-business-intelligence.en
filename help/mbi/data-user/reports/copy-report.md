@@ -1,6 +1,7 @@
 ---
 title: Create a copy of a report
 description: Learn how to create a copy of a report.
+exl-id: c57783b4-32ae-4054-a85a-5ddf63cfd34b
 ---
 # Create a copy of a report
 

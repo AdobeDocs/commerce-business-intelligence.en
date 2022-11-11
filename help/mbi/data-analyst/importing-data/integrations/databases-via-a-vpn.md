@@ -1,6 +1,7 @@
 ---
 title: Connect databases via VPN
 description: Learn how to connect databases via VPN instead of SSH Tunnel.
+exl-id: c7aa564d-42de-426e-92e9-f6e250a6abba
 ---
 # Connect databases via VPN
 

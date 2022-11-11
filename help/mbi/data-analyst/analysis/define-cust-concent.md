@@ -1,6 +1,7 @@
 ---
 title: Define customer concentration
-description: Learn how to set up a dashboard that will help you measure how total revenue is distributed among your customer base. 
+description: Learn how to set up a dashboard that will help you measure how total revenue is distributed among your customer base.
+exl-id: 6242019f-a6a5-48d3-b214-94acd7842e00
 ---
 # Customer Concentration
 

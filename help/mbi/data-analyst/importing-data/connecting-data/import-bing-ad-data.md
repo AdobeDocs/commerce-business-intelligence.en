@@ -1,6 +1,7 @@
 ---
 title: Import Bing Ad Spend data
 description: Learn to import Bing advertising spend data into [!DNL MBI] for analysis.
+exl-id: c8dec4b4-74ce-41b2-a77d-403fe44e2816
 ---
 # Import [!DNL Bing] Data
 

@@ -1,6 +1,7 @@
 ---
 title: sales_order table
 description: Learn how to work with the sales_order table.
+exl-id: 19a8ab88-de51-48f8-af39-ae4897834afe
 ---
 # `sales_order` Table
 
@@ -93,4 +94,4 @@ This table includes all customer orders, whether or not that order was processed
 `store`
 
 *  Join to `store` table to create new columns that return details related to the [!UICONTROL Magento] store associated with the order.
-   *  Path: `sales_order.store_id` (many) => `store.store_id` (one) 
+   *  Path: `sales_order.store_id` (many) => `store.store_id` (one)

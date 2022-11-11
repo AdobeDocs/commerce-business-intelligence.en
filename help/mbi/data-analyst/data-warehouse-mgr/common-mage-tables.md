@@ -1,6 +1,7 @@
 ---
 title: Common [!UICONTROL Magento] Tables
 description: Learn about some of the more common tables that [!DNL MBI] customers utilize.
+exl-id: 8b316130-55c6-4771-ae6e-97ac605fc6cc
 ---
 # Common [!UICONTROL Magento] Tables
 

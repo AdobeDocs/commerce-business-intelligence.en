@@ -1,6 +1,7 @@
 ---
 title: Translating SQL queries into [!DNL MBI] reports
 description: Learn how SQL queries are translated into the calculated columns, metrics you use in [!DNL MBI].
+exl-id: b3e3905f-6952-4f15-a582-bf892a971fae
 ---
 # Translate SQL queries in MBI
 

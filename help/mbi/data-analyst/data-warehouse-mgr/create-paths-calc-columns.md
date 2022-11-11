@@ -1,6 +1,7 @@
 ---
 title: Create or delete paths for calculated columns
 description: Learn how to define a path describing how the table you are creating a column on is related to the table you are pulling information from.
+exl-id: 734a8046-8058-4f03-93a2-8d59b9be6d2d
 ---
 # Create or Delete Paths for Calculated Columns
 

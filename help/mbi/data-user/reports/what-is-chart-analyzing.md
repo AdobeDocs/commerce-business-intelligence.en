@@ -1,6 +1,7 @@
 ---
 title: Chart data information
 description: Learn how to use the Visualization options in the Visual Report Builder.
+exl-id: 865efc8b-1e1a-4033-9e42-cbd03b220260
 ---
 # Chart data information
 

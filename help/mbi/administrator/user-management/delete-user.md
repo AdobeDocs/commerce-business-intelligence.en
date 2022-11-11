@@ -1,6 +1,7 @@
 ---
 title: Delete or reactivate a user
-description: Learn how to delete an [!DNL MBI] user. 
+description: Learn how to delete an [!DNL MBI] user.
+exl-id: 0590275d-3329-40fb-8be1-4a700438338d
 ---
 # Delete a user
 

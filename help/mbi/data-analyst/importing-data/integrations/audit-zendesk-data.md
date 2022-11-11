@@ -1,6 +1,7 @@
 ---
 title: Audit Zendesk data
 description: Learn the steps for exporting your Zendesk data.
+exl-id: 3c8dcc72-3623-4c4e-a941-f431a97571e0
 ---
 # Audit Zendesk data
 

@@ -1,6 +1,7 @@
 ---
 title: Connect Google ECommerce
 description: Learn about your most valued referral channels.
+exl-id: c80f52f3-894a-4084-8c0e-aee618ed77f5
 ---
 # Connect [!DNL Google ECommerce]
 

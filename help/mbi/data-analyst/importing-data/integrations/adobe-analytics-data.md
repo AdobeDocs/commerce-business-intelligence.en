@@ -1,8 +1,8 @@
 ---
 title: Expected [!DNL Adobe Analytics] Data
 description: Learn the steps for connecting your RDS instance.
+exl-id: 4df66ec1-c7f3-4b02-8f0f-49cada99c14c
 ---
-
 # Expected [!DNL Adobe Analytics] Data
 
 The [!DNL Adobe Analytics] integration for [!DNL MBI] uses the [Analytics 2.0 Reporting API](https://developer.adobe.com/analytics-apis/docs/2.0/#!AdobeDocs/analytics-2.0-apis/master/README.md).

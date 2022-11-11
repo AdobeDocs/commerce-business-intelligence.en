@@ -1,6 +1,7 @@
 ---
 title: Commerce Churn
-description: Learn how to generate and analyze your Commerce churn rate. 
+description: Learn how to generate and analyze your Commerce churn rate.
+exl-id: 8775cf0a-114d-4b48-8bd2-fc1700c59a12
 ---
 # Churn Rate
 

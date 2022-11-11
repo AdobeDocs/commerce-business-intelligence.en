@@ -1,6 +1,7 @@
 ---
 title: Expected Google Analytics Warehoused Data
 description: Learn to interact with your Google Analytics warehoused data.
+exl-id: 2b1305cd-5f34-43d9-b77f-a4f5b1d82c66
 ---
 # Expected [!DNL Google Analytics] Warehoused Data
 

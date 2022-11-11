@@ -1,6 +1,7 @@
 ---
 title: Name reports and elements in MBI
-description: Learn best practices for naming reports and elements in [!DNL MBI]. 
+description: Learn best practices for naming reports and elements in [!DNL MBI].
+exl-id: c662cedd-c779-4254-b04b-f3092a538c85
 ---
 # Name reports and elements
 

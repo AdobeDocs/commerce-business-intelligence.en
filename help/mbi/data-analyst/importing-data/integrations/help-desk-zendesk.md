@@ -1,6 +1,7 @@
 ---
 title: Help desk reporting for Zendesk
 description: Learn about your most valued referral channels.
+exl-id: b6142ef2-2be8-401f-ac35-f86fc68d204e
 ---
 # Help desk reporting for [!DNL Zendesk]
 

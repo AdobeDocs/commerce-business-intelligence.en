@@ -1,6 +1,7 @@
 ---
 title: Manage Dashboards
 description: Learn how to manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard.
+exl-id: 32c21093-2a7d-4d8e-afc0-19bd702f9b36
 ---
 # Manage a dashboard
 

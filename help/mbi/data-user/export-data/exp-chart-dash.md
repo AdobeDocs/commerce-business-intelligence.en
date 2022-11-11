@@ -1,6 +1,7 @@
 ---
 title: Export Chart Data
 description: Learn how to view the data behind a chart.
+exl-id: 3c75ff3c-c4e2-4ff8-a303-6f24ccfca0ff
 ---
 # Export Chart Data
 

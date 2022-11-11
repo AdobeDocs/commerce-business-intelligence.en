@@ -1,6 +1,7 @@
 ---
 title: Export Raw Data
 description: Learn to export records from your [!DNL MBI] Data Warehouse to get a closer look at what is powering your dashboard.
+exl-id: 26decdaf-2b2c-4ca2-b3d5-0386892662e8
 ---
 # Export Raw Data
 
