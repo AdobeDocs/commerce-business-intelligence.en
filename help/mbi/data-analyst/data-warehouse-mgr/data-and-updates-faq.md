@@ -1,9 +1,9 @@
 ---
-title: Data and Updates FAQ
+title: Data and Updates Information
 description: Learn how to check the status of your update cycle.
 exl-id: a4a2e487-b826-4888-baf0-9d246a8ff153
 ---
-# Data and Updates FAQ
+# Data and Updates Information
 
 * [Why did my data change?](#datachange)
 * [What is the difference between a regular and forced update?](#regularforcedupdates)
