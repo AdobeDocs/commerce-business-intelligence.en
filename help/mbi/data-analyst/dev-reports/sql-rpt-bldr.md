@@ -61,6 +61,12 @@ You can also use the sidebar in the SQL editor to insert metrics, tables, and co
 
 ![Inserting a table into the SQL editor.](../../assets/SQL_RB_Insert_Table.png)
 
+>[!NOTE]
+>
+>Any [SELECT function](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), or any function that does not mutate data, that is supported by PostgreSQL is supported in the SQL Report Builder. This includes, but is not limited to, AVG, COUNT, COUNT DISTINCT, MIN/MAX, and SUM.
+
+Also, any JOIN type is supported, but we recommend only using INNER JOIN as it is the least expensive of the JOIN types.
+
 ## Running the query and viewing results {#runquery}
 
 When you are done writing your query, click **[!UICONTROL Run Query]**. The results will display in a table below the SQL editor:
@@ -148,6 +154,14 @@ Unlike the `Visual Report Builder`, the [`Cohort Report Builder`](../dev-reports
 ## Rebuilding Queries after the Update Cycle
 
 You do not have to rebuild your queries. Reports created using the [`SQL Report Builder`](../dev-reports/sql-rpt-bldr.md) are saved like those created in the traditional `Report Builder`. The update process for SQL charts is exactly the same - after your data is updated, the values in your charts will be recalculated and redisplayed.
+
+>[!NOTE]
+>
+>When deleting a SQL report/query it does not delete the underlying columns from your Data Warehouse. You will not lose any columns, regardless of how you built them.
+
+* Columns created using the Data Warehouse Manager will not be affected if you delete a report or query that uses them.
+
+* Columns created using the SQL Report Builder are not saved to your Data Warehouse.
 
 ## Wrapping up {#wrapup}
 

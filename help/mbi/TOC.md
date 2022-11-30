@@ -39,7 +39,7 @@ breadcrumb-title: MBI User Guide
     - [Creating / Deleting paths for calculated columns](data-analyst/data-warehouse-mgr/create-paths-calc-columns.md)
     - [Creating / Using a SQL Calculated Column](data-analyst/data-warehouse-mgr/create-sql-calc-column.md)
     - [Creating calculated columns](data-analyst/data-warehouse-mgr/creating-calculated-columns.md)
-    - [Data and Updates FAQ](data-analyst/data-warehouse-mgr/data-and-updates-faq.md)
+    - [Data and Updates Information](data-analyst/data-warehouse-mgr/data-and-updates-faq.md)
     - [Guest orders](data-analyst/data-warehouse-mgr/guest-orders.md)
     - [How [!UICONTROL Magento] Stores Data](data-analyst/data-warehouse-mgr/mage-store-data.md)
     - [[!DNL Magento] Entity Relationship Diagrams](data-analyst/data-warehouse-mgr/entity-rel-diag.md)
@@ -180,7 +180,8 @@ breadcrumb-title: MBI User Guide
     - [Chart analyzing](data-user/reports/what-is-chart-analyzing.md)
   - Dashboards {#dashboards}
     - [Create Dashboards](data-user/dashboards/ess-dashboards.md)
-    - [Out-of-the-box dashboards](data-user/dashboards/dashboards-pro.md)
+    - [Out-of-the-box dashboards](data-user/dashboards/ootb-dashboards.md)
+    - [Dashboard Pro](data-user/dashboards/dashboards-pro.md)
     - [Importing charts from another user](data-user/dashboards/import-charts-other-user.md)
     - [Permanently deleting a chart](data-user/dashboards/delete-chart.md)
     - [Using Dashboard Groups](data-user/dashboards/using-dashboard-groups.md)
