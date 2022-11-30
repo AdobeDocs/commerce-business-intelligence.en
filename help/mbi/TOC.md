@@ -1,6 +1,7 @@
 ---
 title: MBI
 description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
+breadcrumb-title: MBI User Guide
 ---
 
 # [!DNL MBI] User Guide {#mbi}
