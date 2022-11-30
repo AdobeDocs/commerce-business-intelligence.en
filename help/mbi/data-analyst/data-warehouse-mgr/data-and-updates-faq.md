@@ -1,8 +1,8 @@
 ---
-title: Data and Updates FAQ
+title: Data and Updates Information
 description: Learn how to check the status of your update cycle.
 ---
-# Data and Updates FAQ
+# Data and Updates Information
 
 * [Why did my data change?](#datachange)
 * [What is the difference between a regular and forced update?](#regularforcedupdates)
