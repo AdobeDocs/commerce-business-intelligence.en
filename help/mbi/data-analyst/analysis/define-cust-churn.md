@@ -1,5 +1,5 @@
 ---
-title: DefinE commerce churn
+title: Define customer churn
 description: Learn how to set up a dashboard that will help you define churn for your transactional customers. 
 ---
 # Transactional Customer Churn
