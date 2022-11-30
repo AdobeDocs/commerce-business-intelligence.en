@@ -1,6 +1,7 @@
 ---
 title: Guest orders
 description: Learn about the impact guest orders have on your data and what options you have to properly account for guest orders in your [!DNL MBI] data warehouse.
+exl-id: cd5120ca-454c-4cf4-acb4-3aebe06cdc9a
 ---
 # Guest Orders
 

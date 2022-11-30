@@ -1,6 +1,7 @@
 ---
 title: Managing data dimensions
 description: Learn how data is generated, what exactly causes a new row to be inserted into one of the Core [!UICONTROL Magento] Tables, and how are actions such as making a purchase or creating an account recorded into the [!UICONTROL Magento] database.
+exl-id: 143a4b1e-2e6f-438a-90e6-bdda13b39cb9
 ---
 # Managing data dimensions
 

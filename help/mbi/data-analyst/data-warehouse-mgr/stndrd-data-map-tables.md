@@ -1,6 +1,7 @@
 ---
 title: Standardize data with mapping tables
 description: Learn how to work with mapping tables.
+exl-id: e452ff87-f298-43d5-acc3-af58e53bd0bc
 ---
 # Standardize Data with Mapping Tables
 

@@ -1,6 +1,7 @@
 ---
 title: Connect MySQL via cPanel
 description: Learn how to connect MySQL via cPanel.
+exl-id: 90b0a0b0-8c6b-4144-95b4-f588f18616c7
 ---
 # Connect MySQL via cPanel
 

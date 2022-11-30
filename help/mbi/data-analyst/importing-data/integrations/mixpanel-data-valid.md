@@ -1,6 +1,7 @@
 ---
 title: Data Validation in Mixpanel
 description: Learn how to confirm that we have synced all the same data that is available to you directly within Mixpanel.
+exl-id: d18ce954-26fe-4440-ad8b-4f266c007b2f
 ---
 # Data Validation in `Mixpanel`
 

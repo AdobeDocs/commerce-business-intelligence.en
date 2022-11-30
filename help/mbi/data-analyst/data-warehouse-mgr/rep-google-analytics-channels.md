@@ -1,6 +1,7 @@
 ---
 title: Replicating Google Analytics channels using acquisition sources
 description: Learn how to replicate Google Analytics channels using acquisition sources.
+exl-id: e7248fe4-94db-4cdf-8f58-1f65061a207d
 ---
 # Google Analytics using Acquisition Sources
 

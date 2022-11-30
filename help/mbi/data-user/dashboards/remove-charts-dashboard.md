@@ -1,6 +1,7 @@
 ---
 title: Remove Chart from Dashboard
 description: Learn how to remove a chart from a dashboard.
+exl-id: 44116f15-92a5-43c9-8808-7902742508c9
 ---
 # Remove a chart from a dashboard
 

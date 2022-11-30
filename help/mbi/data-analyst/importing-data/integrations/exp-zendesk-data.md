@@ -1,6 +1,7 @@
 ---
 title: Expected Zendesk data
 description: Learn the main data tables that you can import from Zendesk into MBI, including links to additional documentation about Zendesk data.
+exl-id: 838d8d13-e2e1-44c2-a416-f1792200ee6f
 ---
 # Expected Zendesk data
 
@@ -27,4 +28,3 @@ In this article, we explore the main data tables that you can import from [!DNL 
 
 * [Connecting Zendesk](../integrations/zendesk.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)
-

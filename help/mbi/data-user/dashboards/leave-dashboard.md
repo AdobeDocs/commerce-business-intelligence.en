@@ -1,6 +1,7 @@
 ---
 title: Leave (unshare) a dashboard
 description: Learn how to leave or unshare yourself from a dashboard.
+exl-id: c84e7145-aded-4f66-8e52-a61c7e6ac804
 ---
 # Leave (unshare) a dashboard
 

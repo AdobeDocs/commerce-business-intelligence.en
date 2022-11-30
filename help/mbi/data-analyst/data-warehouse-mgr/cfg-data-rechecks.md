@@ -1,6 +1,7 @@
 ---
 title: Configuring Data Checks
 description: Learn how to configure data columns with changeable values.
+exl-id: c31ef32e-ba5a-4902-b632-fbab551cc632
 ---
 # Configuring Data Checks
 

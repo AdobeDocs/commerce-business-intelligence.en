@@ -1,6 +1,7 @@
 ---
 title: Connect Stripe
 description: Learn how to manage and keep track of your business's payment and invoice data.
+exl-id: c038f2a9-b2bd-4e45-93f9-12d2e5077b31
 ---
 # Connect Stripe
 
@@ -40,4 +41,3 @@ If you are a little more tech-savvy, the [[!DNL Stripe] API Documentation](https
 
 * [Expected [!DNL Stripe] data](../integrations/stripe-data.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
-

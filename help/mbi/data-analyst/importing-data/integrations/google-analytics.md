@@ -1,6 +1,7 @@
 ---
 title: Connect Google Analytics
 description: Learn to connect Google Analytics with [!DNL MBI].
+exl-id: 10e813f1-0306-4bdd-8222-e6364ac624de
 ---
 # Connect [!DNL Google Analytics]
 

@@ -1,6 +1,7 @@
 ---
 title: Using the Date Difference Calculated Column
 description: Learn the purpose and uses of the Date Difference calculated column.
+exl-id: 6ecab794-3466-4b3a-a929-3e56287522aa
 ---
 # Date Difference Calculated Column
 

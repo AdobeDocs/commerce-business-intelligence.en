@@ -1,6 +1,7 @@
 ---
 title: Clone dashboards
 description: Learn how to clone dashboards.
+exl-id: f0bfa786-ab01-4c55-9d8a-ed002c2321b6
 ---
 # Clone a Dashboard
 

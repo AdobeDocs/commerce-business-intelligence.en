@@ -1,6 +1,7 @@
 ---
 title: Connect Microsoft SQL Server
 description: Learn how to connect your Microsoft SQL database to [!DNL MBI] in a four-step process.
+exl-id: 7f49d1dc-8fbb-4a8c-9d07-9a8195c266f5
 ---
 # Connect Microsoft SQL Server
 

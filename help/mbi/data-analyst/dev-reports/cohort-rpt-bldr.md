@@ -1,6 +1,7 @@
 ---
 title: Cohort Report Builder
 description: Learn about the analysis of user groups that share similar characteristics over their life cycles.
+exl-id: d80c5389-7256-40e0-86e0-49903113f93d
 ---
 # Cohort Report Builder
 

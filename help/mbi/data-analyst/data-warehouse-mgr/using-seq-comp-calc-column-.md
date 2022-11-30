@@ -1,8 +1,8 @@
 ---
 title: Sequential Comparison Calculated Column
 description: Learn the purpose and uses of the Sequential Comparison calculated column.
+exl-id: 625062b4-f05d-42aa-94c3-729b39c7d728
 ---
-
 # Sequential Comparison Calculated Column
 
 This topic outlines the purpose and uses of the `Sequential Comparison` calculated column available in the **[!DNL Manage Data > Data Warehouse]** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.

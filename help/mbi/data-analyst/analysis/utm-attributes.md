@@ -1,6 +1,7 @@
 ---
 title: Google Analytics and UTM Attribution
-description: Learn about the Google Analytics source attribution process. 
+description: Learn about the Google Analytics source attribution process.
+exl-id: 48b8a3d3-f1ac-4d3f-8f65-db1245c9ae0a
 ---
 # Google Analytics and UTM Attribution
 

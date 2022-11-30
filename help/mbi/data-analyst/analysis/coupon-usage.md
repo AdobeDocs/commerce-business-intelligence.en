@@ -1,6 +1,7 @@
 ---
 title: Analyzing coupon usage
-description: Learn how to analyzing coupon usage on acquiring and retaining customers. 
+description: Learn how to analyzing coupon usage on acquiring and retaining customers.
+exl-id: d4d1393f-1695-43f2-980a-84525f84031e
 ---
 # Coupon Usage
 

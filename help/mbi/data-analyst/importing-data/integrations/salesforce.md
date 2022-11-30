@@ -1,6 +1,7 @@
 ---
 title: Connect Salesforce
 description: Learn how Salesforce data enables a range of analyses, from scoring and optimizing leads to hitting your goals for converted opportunities.
+exl-id: 249b2b40-8c8a-4616-9383-17690f07003d
 ---
 # Connect Salesforce
 

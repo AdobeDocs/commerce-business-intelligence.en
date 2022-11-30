@@ -1,6 +1,7 @@
 ---
 title: quote table
 description: Learn how to work with the quote table.
+exl-id: 3a1e9239-33a7-429e-bfc8-628c68701710
 ---
 # quote Table
 

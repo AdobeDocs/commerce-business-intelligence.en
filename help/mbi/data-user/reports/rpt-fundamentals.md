@@ -1,6 +1,7 @@
 ---
 title: Use a Report
 description: Learn how to use your report data.
+exl-id: 94d4db27-0e06-4066-9c03-036b109d2d9b
 ---
 # Use a report
 

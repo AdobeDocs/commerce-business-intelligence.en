@@ -1,6 +1,7 @@
 ---
 title: Analyzing Returned Orders
-description: Learn how to set up a dashboard that will provide a detailed analysis of your store's returns. 
+description: Learn how to set up a dashboard that will provide a detailed analysis of your store's returns.
+exl-id: 6a948561-45b7-4813-9661-ab42197ca5bd
 ---
 # Returned Orders
 

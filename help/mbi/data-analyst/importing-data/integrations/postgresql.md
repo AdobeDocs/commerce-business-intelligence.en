@@ -1,6 +1,7 @@
 ---
 title: Connect PostgreSQL via SSH Tunnel
 description: Learn how to connect your PostgreSQL database to [!DNL MBI] via an SSH tunnel.
+exl-id: da610988-21c1-4f5f-b4e2-e2deb175a2aa
 ---
 # Connect `PostgreSQL` via `SSH` Tunnel
 
@@ -99,4 +100,3 @@ That is it! When you are finished, click **Save & Test** to complete the setup.
 ### Related
 
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
-

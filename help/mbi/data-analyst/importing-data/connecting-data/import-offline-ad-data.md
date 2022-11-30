@@ -1,6 +1,7 @@
 ---
 title: Import other ad spend data
 description: Learn to import offline or other ad spend data into [!DNL MBI].
+exl-id: 6f12a397-0927-4e87-95ff-3a55ccc9e14b
 ---
 # Import other ad spend data
 

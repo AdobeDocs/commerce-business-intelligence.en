@@ -1,6 +1,7 @@
 ---
 title: Use Dashboard Groups
 description: Learn how to allow better organization of dashboards.
+exl-id: e48b7345-62d0-4898-997e-3c3c02040ad3
 ---
 # Use dashboard groups
 

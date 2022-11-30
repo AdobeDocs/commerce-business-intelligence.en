@@ -1,6 +1,7 @@
 ---
 title: Connect Zendesk
 description: Learn how to consolidate your help desk reporting in [!DNL MBI].
+exl-id: 1c7f7c5c-4b1c-4bcf-8f1d-2b4cf9cdb0fb
 ---
 # Connect [!DNL Zendesk]
 

@@ -1,6 +1,7 @@
 ---
 title: Connect PrestaShop
 description: Learn how to connect PrestaShop data to [!DNL MBI].
+exl-id: b6f240c0-9461-4015-a56a-64e8e67392fa
 ---
 # Connect `PrestaShop`
 
@@ -14,4 +15,3 @@ The `PrestaShop` database is based on `MySQL`, you can connect it to [!DNL MBI] 
 
 * [Recommended data dimensions for segmentation and filtering](../../../best-practices/segment-filter.md)
 * [What are your most valuable acquisition sources and channels?](../../analysis/most-value-source-channel.md)
-

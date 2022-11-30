@@ -1,6 +1,7 @@
 ---
 title: Create filter sets for metrics
 description: Learn how to create saved Filter Sets and apply them to the metrics.
+exl-id: 6ef8b67c-bebd-45eb-bca7-95832ec34fc8
 ---
 # Create filter sets
 

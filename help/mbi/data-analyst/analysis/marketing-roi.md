@@ -1,6 +1,7 @@
 ---
 title: Marketing ROI
-description: Learn how to set up a dashboard that will track your channel analysis – including ROI in aggregate and by campaign. 
+description: Learn how to set up a dashboard that will track your channel analysis – including ROI in aggregate and by campaign.
+exl-id: 5de83998-e6cf-478d-bb6a-7a3dc77c2c0c
 ---
 # Marketing ROI
 

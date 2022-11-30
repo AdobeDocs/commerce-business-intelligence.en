@@ -1,6 +1,7 @@
 ---
 title: Add Charts to Dashboards
 description: Learn how to add charts to dashboards using the Add Report function.
+exl-id: 4a4f14c3-a6ab-4abc-9451-2a0f2fcf06a2
 ---
 # Add Charts to Dashboards
 

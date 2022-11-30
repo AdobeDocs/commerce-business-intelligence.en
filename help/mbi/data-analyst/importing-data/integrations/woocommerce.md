@@ -1,6 +1,7 @@
 ---
 title: Connect WooCommerce
 description: Learn how to see how your business is performing or find your most valuable acquisition sources and channels.
+exl-id: 26ac24e0-087b-4958-873c-2facab22ffb2
 ---
 # Connect [!DNL WooCommerce]
 

@@ -1,6 +1,7 @@
 ---
 title: Activate your [!DNL MBI] Account for Cloud Starter Subscriptions
 description: Learn how to activate [!DNL MBI] for Cloud Starter projects.
+exl-id: 172439ee-fa1d-4872-b6a9-c61a212a7cbe
 ---
 # Activate your [!DNL MBI] Account for `Cloud Starter` Subscriptions
 

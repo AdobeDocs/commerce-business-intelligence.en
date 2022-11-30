@@ -1,6 +1,7 @@
 ---
 title: Expected Facebook Ads data
 description: Learn a brief overview of the tables we recommend you sync to your data warehouse
+exl-id: 0c8b907b-1a98-470b-bb2c-55327e88e502
 ---
 # Expected [!DNL Facebook Ads] data
 
@@ -54,4 +55,3 @@ This table includes the same information as the `facebook_ads_insights_{account_
 
 * [Connecting [!DNL Facebook Ads]](../integrations/facebook-ads.md)
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)
-

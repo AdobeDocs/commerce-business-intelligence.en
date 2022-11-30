@@ -1,6 +1,7 @@
 ---
 title: Importing CJ Affiliate (Commission Junction) Marketing Data
 description: Learn to import CJ Affiliate (Commission Junction) data into [!DNL MBI].L MBI].
+exl-id: 1db83f34-15a1-4599-ab0a-65d527ccae01
 ---
 # Import `CJ Affiliate` data
 

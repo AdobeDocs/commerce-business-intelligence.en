@@ -1,6 +1,7 @@
 ---
 title: Import charts from another user
 description: Learn how to edit a chart that another user owns, or create something similar.
+exl-id: defcb72d-6027-4ae7-b974-e2f39773fe32
 ---
 # Import chart from another user
 

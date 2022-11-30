@@ -1,6 +1,7 @@
 ---
 title: Expected QuickBooks data
 description: Learn how to to easily track relevant data fields for analysis.
+exl-id: a60996bd-e3d1-497d-abce-f02ef1444f1a
 ---
 # Expected [!DNL QuickBooks] data
 

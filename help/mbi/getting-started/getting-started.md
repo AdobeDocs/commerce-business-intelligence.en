@@ -1,6 +1,7 @@
 ---
 title: Introduction
 description: Learn about [!DNL MBI].
+exl-id: 0c960d8c-9bb7-429e-a88e-21678a77b710
 ---
 # Introduction
 

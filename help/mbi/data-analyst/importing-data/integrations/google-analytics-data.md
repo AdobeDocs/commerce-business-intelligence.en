@@ -1,6 +1,7 @@
 ---
 title: Expected Google Analytics data
 description: Learn to interact with your Google Analytics metrics.
+exl-id: db9fdaaa-47a9-4095-b1f8-9b6c74c25b7c
 ---
 # Expected [!DNL Google Analytics] data
 

@@ -1,6 +1,7 @@
 ---
 title: Using the SQL Report Builder
 description: Learn the ins and outs of using the SQL Report Builder.
+exl-id: 3a485b00-c59d-4bc5-b78b-57e9e92dd9d6
 ---
 # Using `SQL Report Builder`
 

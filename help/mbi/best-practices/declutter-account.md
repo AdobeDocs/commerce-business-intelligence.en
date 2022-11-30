@@ -1,6 +1,7 @@
 ---
 title: Decluttering your [!DNL MBI] Account
-description: Learn how to clean up your [!DNL MBI] account. 
+description: Learn how to clean up your [!DNL MBI] account.
+exl-id: 5fcdac2d-41ca-4011-b646-a699d9ecc6e4
 ---
 # Clean up your [!DNL MBI] Account
 
@@ -115,4 +116,4 @@ Here is a look at the whole process:
 
 ## Wrapping up
 
-That is it! Your [!DNL MBI] account should now be tidier and easier to navigate for you and your team. 
+That is it! Your [!DNL MBI] account should now be tidier and easier to navigate for you and your team.

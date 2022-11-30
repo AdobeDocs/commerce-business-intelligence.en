@@ -1,6 +1,7 @@
 ---
 title: Activating your [!DNL MBI] Account for On-Premise Subscriptions
 description: Learn about activating your [!DNL MBI] account for On-Premise Subscriptions.
+exl-id: 0efac7b4-2457-48c7-947a-d2776b90a1dd
 ---
 # Activate your [!DNL MBI] Account for On-Premise Subscriptions
 

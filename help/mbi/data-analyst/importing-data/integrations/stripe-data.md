@@ -1,6 +1,7 @@
 ---
 title: Expected Stripe data
 description: Explore the main data tables that you can import from Stripe into [!DNL MBI].
+exl-id: 694577b2-48f9-4376-850d-acae1776afe3
 ---
 # Expected [!DNL Stripe] data
 

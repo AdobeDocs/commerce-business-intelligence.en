@@ -1,6 +1,7 @@
 ---
 title: Optimizing Your Database for Analysis
-description: Learn how to optimize your database for analysis. 
+description: Learn how to optimize your database for analysis.
+exl-id: e73e1a1e-c933-476d-97bc-bd8f52bb2fa1
 ---
 # Optimize your database
 

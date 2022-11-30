@@ -1,6 +1,7 @@
 ---
 title: Order data using the Show Top/Bottom feature
 description: Learn how to order your data using the Show Top/Bottom feature.
+exl-id: d47119f4-cdc5-4fa7-a606-d4b8555a8843
 ---
 # Ordering Data using `Show Top/Bottom` feature
 

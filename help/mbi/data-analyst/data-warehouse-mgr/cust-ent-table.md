@@ -1,6 +1,7 @@
 ---
 title: customer_entity table
 description: Learn how to access records of all registered accounts.
+exl-id: 24bf0e66-eea0-45ea-8ce6-4ff99b678201
 ---
 # customer_entity Table
 

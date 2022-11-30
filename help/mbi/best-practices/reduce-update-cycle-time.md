@@ -1,6 +1,7 @@
 ---
 title: Reduce Your Update Cycle Time
-description: Learn how to reduce your update cycle time. 
+description: Learn how to reduce your update cycle time.
+exl-id: 0b211e2d-770f-480d-a7fb-8d10e3e7272e
 ---
 # Reduce Update Cycle Processing Time
 

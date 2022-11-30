@@ -1,6 +1,7 @@
 ---
 title: Coupon Code Analysis (basic)
-description: Learn about the coupon performance of your business is an interesting way to segment your orders and better understand customer habits. 
+description: Learn about the coupon performance of your business is an interesting way to segment your orders and better understand customer habits.
+exl-id: 0d486259-b210-42ae-8f79-cd91cc15c2c2
 ---
 # Basic Coupon Code Analysis
 

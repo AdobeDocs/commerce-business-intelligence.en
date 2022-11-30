@@ -1,6 +1,7 @@
 ---
 title: Access your [!DNL MBI] Account
 description: Learn about signing into your [!DNL MBI] account.
+exl-id: 3ee36e0e-f447-4be3-afc8-ccc6d3aa4f20
 ---
 # Access your activated [!DNL MBI] account
 

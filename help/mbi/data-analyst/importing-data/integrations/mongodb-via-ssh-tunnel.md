@@ -1,6 +1,7 @@
 ---
 title: Connect [!DNL MongoDB] via SSH tunnel
 description: Learn how to connect [!DNL MongoDB] via SSH tunnel.
+exl-id: 3557a8c7-c4c5-4742-ae30-125c719aca39
 ---
 # Connect [!DNL MongoDB] via SSH Tunnel 
 
@@ -139,4 +140,3 @@ That is it! When you are finished, click **[!UICONTROL Save Test]** to complete 
 ### Related
 
 * [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
-
