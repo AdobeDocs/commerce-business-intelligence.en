@@ -1,6 +1,7 @@
 ---
 title: Included Dashboards
 description: Learn how to check on the health of essential metrics such as user lifetime revenue, number of repeat purchases, and more, thus creating a solid foundation for future exploration.
+exl-id: f50fc417-e5d4-401c-9baa-cda1468196a2
 ---
 # Included dashboards
 
