@@ -1,6 +1,7 @@
 ---
 title: MBI Essentials vs. Pro
 description: Learn how MBI Essentials differs from MBI Pro.
+exl-id: 624a6285-8497-43d9-a56d-8ae503e0e2dd
 ---
 # [!DNL MBI Essentials] vs [!DNL MBI Pro]
 
