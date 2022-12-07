@@ -13,6 +13,7 @@ breadcrumb-title: MBI User Guide
   - [Activate for [!DNL On-Premise]](getting-started/onpremise-activation.md)
   - [Activate for [!DNL Cloud Starter]](getting-started/cloud-activation.md)
   - [Sign in to your [!DNL MBI] Account](getting-started/sign-in.md)
+  - [MBI Essentials vs. MBI Pro](getting-started/essentials-vs-pro.md)
 - Administrator {#administrator}
   - Account Management {#acct-mgmt}
     - [Benefits of [!DNL New Architecture]](../mbi/administrator/account-management/new-architecture.md)

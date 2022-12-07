@@ -2,7 +2,7 @@
 title: MBI Essentials vs. Pro
 description: Learn how MBI Essentials differs from MBI Pro.
 ---
-# [!DNL MBI] Essentials vs [!DNL MBI] Pro
+# [!DNL MBI Essentials] vs [!DNL MBI Pro]
 
 >[!NOTE]
 >
@@ -29,7 +29,9 @@ The following table describes what is included with Essentials and Pro.
 
 {style="table-layout:auto"}
 
-_Number of tables depends on guest checkout._
+>[!NOTE]
+>
+>Number of tables depends on guest checkout.
 
 **Included tables**
 
