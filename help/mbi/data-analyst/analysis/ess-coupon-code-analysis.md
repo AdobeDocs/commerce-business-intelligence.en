@@ -25,7 +25,7 @@ The first step will be to construct a new metric with the following steps:
 
 * Navigate to **[!UICONTROL Manage Data > Metrics > Create New Metric]**.
 
-* Select the `sales_order` (if your store is on [!UICONTROL Magento] 2) or `sales_flat_order` (if your store is on [!UICONTROL Magento] 1) table.
+* Select the `sales_order`.
 * This metric performs a **Sum** on the **base_discount_amount** column, ordered by **created_at**.
   * [!UICONTROL Filters]:
     * Add the `Orders we count` (Saved Filter Set)

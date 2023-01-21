@@ -41,7 +41,7 @@ To enable product revenue analyses, most accounts have a column called `Order it
 
 ![](../../assets/Order_item_total_value.png)
 
-In the [!UICONTROL Magento] schema, the `Order item total value (quantity * price)` column uses the inputs `qty ordered` and `base price` aliased as `A` and `B` respectively.
+In the Commerce schema, the `Order item total value (quantity * price)` column uses the inputs `qty ordered` and `base price` aliased as `A` and `B` respectively.
 
 The values that will be returned by this new column will be a dollars and cents, so the correct data type is `Decimal(10,2)`.
 

@@ -56,7 +56,7 @@ With a [!DNL Google Analytics] integration, you can include reports on:
 * Site visits
 * Conversion rate
 
-With [[!DNL Magento's] Data Enrichment services](https://magento.com/services), you can include reports on:
+With the [Commerce Data Enrichment services](https://business.adobe.com/products/magento/magento-commerce.html), you can include reports on:
 
 * Unique customers by state/region, age, gender.
 

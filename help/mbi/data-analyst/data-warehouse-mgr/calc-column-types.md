@@ -37,7 +37,7 @@ A currency converter calculated column converts the native currency of a column 
 
 In the example below, we created `base\_grand\_total In AED`, converting the `base\_grand\_total` from it is native currency to AED in the `sales\_flat\_order` table. This column works well for stores with multiple currencies that want to report in their local currency.
 
-For [!UICONTROL Magento] clients, the `base\_currency\_code` field typically stores native currencies. The `Spot Time` field should match the date used in your metrics.
+For Commerce clients, the `base\_currency\_code` field typically stores native currencies. The `Spot Time` field should match the date used in your metrics.
 
 ![](../../assets/currency_converter.png)
 

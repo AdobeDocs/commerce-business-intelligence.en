@@ -43,7 +43,7 @@ If you would rather automate the retrieval of data from one of your own sources,
 
 Using the API requires a bit of technical expertise - someone who is comfortable with writing and maintaining a small Ruby or PHP script will be more than qualified.
 
-To learn more about getting started with the `Import API`, check out the [Developer site](https://devdocs.magento.com/mbi/docs/getting-started.html) and [how to generate an API key](https://devdocs.magento.com/mbi/docs/import-api.html).
+To learn more about getting started with the `Import API`, check out the [Developer site](https://developer.adobe.com/commerce/services/reporting/) and [how to generate an API key](https://developer.adobe.com/commerce/services/reporting/import-api/).
 
 ## Add an Integration
 

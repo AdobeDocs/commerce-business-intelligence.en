@@ -5,7 +5,7 @@ exl-id: 172439ee-fa1d-4872-b6a9-c61a212a7cbe
 ---
 # Activate your [!DNL MBI] Account for `Cloud Starter` Subscriptions
 
-To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] account, then create a `SSH` key, then finally connect to your [!UICONTROL Magento] database. See [activating on-premise subscriptions](../getting-started/onpremise-activation.md).
+To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] account, then create a `SSH` key, then finally connect to your Commerce database. See [activating on-premise subscriptions](../getting-started/onpremise-activation.md).
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] a
                ],
     ```
 
-1. Connect your [!UICONTROL Magento] Database
+1. Connect your Commerce Database
 
    ![](../assets/create-account-11.png)
 
