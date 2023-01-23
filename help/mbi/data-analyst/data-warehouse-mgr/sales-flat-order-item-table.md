@@ -33,7 +33,7 @@ Therefore it is possible to report on sales of products either at the simple lev
 |`product_type`|Type of product that was sold. Potential [product types](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types) include: simple, configurable, grouped, virtual, bundle, and downloadable|
 |`qty_ordered`|Quantity of units included in the cart for the particular order item at the time of sale|
 |`sku`|Unique identifier for the order item that was purchased|
-|`store_id`|`Foreign key` associated with the `store` table. Join to `store.store_id` to determine which Commerce s associated with the order item|
+|`store_id`|`Foreign key` associated with the `store` table. Join to `store.store_id` to determine which Commerce store view associated with the order item|
 
 {style="table-layout:auto"}
 
