@@ -7,7 +7,7 @@ exl-id: 19a8ab88-de51-48f8-af39-ae4897834afe
 
 The `sales_order` table (`sales_flat_order` on M1) is where each order is captured. In most cases, each row represents one unique order, although there are some custom implementations of Commerce that result in splitting an order into separate rows.
 
-This table includes all customer orders, whether or not that order was processed through guest checkout. If your store accepts guest checkout please find more information about this [use case](../data-warehouse-mgr/guest-orders.md).
+This table includes all customer orders, whether or not that order was processed through guest checkout. If your store accepts guest checkout, you can find more information about this [use case](../data-warehouse-mgr/guest-orders.md).
 
 ## Common Columns
 
