@@ -1,13 +1,13 @@
 ---
-title: Expected [!UICONTROL Magento] data
-description: Explore the main data tables that [!UICONTROL Magento] users import into MBI
+title: Expected Commerce Data
+description: Explore the main data tables that Commerce users import into MBI
 exl-id: b481c8fc-41b6-4094-8901-17d57f26bfc0
 ---
-# Expected [!UICONTROL Magento] Data
+# Expected Commerce Data
 
-After you have [connected your [!UICONTROL Magento] store](../../../data-analyst/importing-data/integrations/magento.md), you can use the Data Warehouse Manager to easily track relevant data fields from your [!UICONTROL Magento] database for analysis.
+After you have [connected your Commerce store](../../../data-analyst/importing-data/integrations/magento.md), you can use the Data Warehouse Manager to easily track relevant data fields from your Commerce database for analysis.
 
-In this article, we explore the main data tables that [!UICONTROL Magento] users import into [!DNL MBI].
+In this article, we explore the main data tables that Commerce users import into [!DNL MBI].
 
 | **Table name** | **Description** |
 |-----|-----|
@@ -15,7 +15,7 @@ In this article, we explore the main data tables that [!UICONTROL Magento] users
 | `Orders` | The `sales\_flat\_order` table records all orders, including the `created\_at` timestamp that the order was placed and the `base\_grand\_total` field that sums up revenue. These fields will be the basis for your order-level metrics. If the order was made by a *registered customer*, the `customer\_id` field will link back to the  `customer\_entity` table to allow analysis on customer buying behavior. |
 | `Order items` | The `sales\_flat\_order\_item` table records each item belonging to an order. This includes the `price` and `qty\_ordered` fields, as well as the `order\_id` field which connects to the `sales\_flat\_order` table. This table is the foundation for metrics like `Item sold`, and allows you to segment by `product` and `product type`. |
 | `Products` | The `catalog\_product\_entity` table stores information on product-level attributes, like category, size, and color. |
-| `Categories` | Your products will belong to one or many different `product categories`, depending on how your [!UICONTROL Magento] build is set up. The `catalog\_category\_entity` table stores the hierarchy of these categories (Apprarel > Tops > T-Shirts, for example), and the `catalog\_category\_product` table logs the connections between your products and those categories. |
+| `Categories` | Your products will belong to one or many different `product categories`, depending on how your Commerce build is set up. The `catalog\_category\_entity` table stores the hierarchy of these categories (Apprarel > Tops > T-Shirts, for example), and the `catalog\_category\_product` table logs the connections between your products and those categories. |
 
 {style="table-layout:auto"}
 

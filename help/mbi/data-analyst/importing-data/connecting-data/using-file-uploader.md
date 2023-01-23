@@ -135,7 +135,7 @@ Just like calculated columns, data from file uploads is available after the next
 
 This article covered only the basics for using importing data, but we are betting you want to do something a little more advanced. Check out the Related articles for guidance on formatting and importing financial, eCommerce, ad spend, and other types of data.
 
-Additionally, file upload is not the only way to get your data into [!DNL MBI]. The [Data Import API](https://devdocs.magento.com/mbi/docs/import-api.html) functions allows you to push arbitrary data into your [!DNL MBI] data warehouse.
+Additionally, file upload is not the only way to get your data into [!DNL MBI]. The [Data Import API](https://developer.adobe.com/commerce/services/reporting/import-api/) functions allows you to push arbitrary data into your [!DNL MBI] data warehouse.
 
 ## Related {#related}
 

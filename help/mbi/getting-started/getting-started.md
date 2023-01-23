@@ -13,4 +13,4 @@ Connect, consolidate, and transform your data. Visualize, analyze, and get deep 
 
 Standard dashboards include Marketing ROI, Customer Lifetime Value, Customer Segmentation, Executive and Investor KPIs, Cohort Analysis and Merchandising Analysis.
 
-When you [activate](../getting-started/onpremise-activation.md) your [!DNL MBI] account, you are connecting your [!UICONTROL Magento] database to [!DNL MBI] and immediately getting access to five dashboards with approximately 100 reports. These reports are designed to provide insights around your data and answer questions like: *How are my orders growing month-over-month?*, *Who are my most loyal customers?*, and *Is my coupon strategy working?*.
+When you [activate](../getting-started/onpremise-activation.md) your [!DNL MBI] account, you are connecting your Commerce database to [!DNL MBI] and immediately getting access to five dashboards with approximately 100 reports. These reports are designed to provide insights around your data and answer questions like: *How are my orders growing month-over-month?*, *Who are my most loyal customers?*, and *Is my coupon strategy working?*.

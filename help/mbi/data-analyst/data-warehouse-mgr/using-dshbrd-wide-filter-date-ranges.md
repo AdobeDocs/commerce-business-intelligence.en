@@ -35,7 +35,7 @@ When you specify a date filter for a dashboard, that filter is applied to that d
 
 ## Store filters
 
-To analyze how a specific store is performing, click the stores icon in the upper-right-hand corner (![Store Filter](../../assets/store-filter.png)). By default, `Store Filter` is set to `All Stores`, which displays the data from all [store views](https://docs.magento.com/user-guide/stores/stores-all-create-view.html) available in your Commerce site.
+To analyze how a specific store is performing, click the stores icon in the upper-right-hand corner (![Store Filter](../../assets/store-filter.png)). By default, `Store Filter` is set to `All Stores`, which displays the data from all [store views](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) available in your Commerce site.
 
 >[!NOTE]
 >

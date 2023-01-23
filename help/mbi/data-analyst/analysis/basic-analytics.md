@@ -80,7 +80,7 @@ This table is used to manage your subscription information, such as subscription
 
 ## Marketing Spend table
 
-When analyzing your marketing spend, you can include [!DNL Facebook], [!DNL Google AdWords], or other sources in your analyses. If you have multiple marketing spend sources, contact our [Services Team](https://magento.com/services) for help setting up a consolidated table for your marketing campaigns.
+When analyzing your marketing spend, you can include [!DNL Facebook], [!DNL Google AdWords], or other sources in your analyses. If you have multiple marketing spend sources, contact our [Services Team](https://business.adobe.com/products/magento/fully-managed-service.html) for help setting up a consolidated table for your marketing campaigns.
 
 **Dimensions**
 

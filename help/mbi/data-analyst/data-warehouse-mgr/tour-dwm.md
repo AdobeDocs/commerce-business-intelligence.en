@@ -24,7 +24,7 @@ In this article, we will cover:
 
 The left side of `Data Warehouse Manager` page contains the tables list, allowing you to easily toggle between tables. When you select a table from the list, the table management area will populate with the table's schema where you can make changes to the selected table.
 
-Within the table list, tables are grouped by their connection source. These sources are added under [!UICONTROL Manage Data > Integrations] and may be either a database, an [API](https://devdocs.magento.com/mbi/docs/getting-started.html), or a third-party connector. At the top of the table list is a search box enabling you to easily find desired tables.
+Within the table list, tables are grouped by their connection source. These sources are added under [!UICONTROL Manage Data > Integrations] and may be either a database, an [API](https://developer.adobe.com/commerce/services/reporting/), or a third-party connector. At the top of the table list is a search box enabling you to easily find desired tables.
 
 Underneath the search box, you will see two options: `All Tables` and `Synced Tables`. The `All Tables` option lists all the tables that you have made available to your Data Warehouse, which includes both synced and unsynced tables.
 

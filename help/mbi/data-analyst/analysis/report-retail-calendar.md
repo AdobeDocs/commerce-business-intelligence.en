@@ -15,7 +15,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 ## Getting Started
 
-You can [download](https://docs.magento.com/downloads/mbi/454_calendar.csv) a `.csv` version of the 4-5-4 retail calendar for retail years 2014 through 2017. Note that you may need to adjust this file according to your internal retail calendar as well as extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your [!DNL MBI] data warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
+You can [download](../../assets/454-calendar.csv) a `.csv` version of the 4-5-4 retail calendar for retail years 2014 through 2017. Note that you may need to adjust this file according to your internal retail calendar as well as extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your [!DNL MBI] data warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
 
 | Column Name | Column Datatype | Primary Key |
 | --- | --- | --- |

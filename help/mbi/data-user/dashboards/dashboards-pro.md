@@ -125,7 +125,7 @@ The Orders dashboard provides insights on transactional volume of orders, their 
 
 ## Products
 
-The Products dashboard shows general product performance in terms of products ordered, their Gross Merchandise Value (GMV), as well as top products purchased and refunded. It can help you to balance purchases and returns, and to determine product success and popularity. Your store must be [configured to track refunds](https://docs.magento.com/user-guide/sales/credit-configure.html) for those charts to be populated.
+The Products dashboard shows general product performance in terms of products ordered, their Gross Merchandise Value (GMV), as well as top products purchased and refunded. It can help you to balance purchases and returns, and to determine product success and popularity. Your store must be [configured to track refunds](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html) for those charts to be populated.
 
 >[!NOTE]
 >
