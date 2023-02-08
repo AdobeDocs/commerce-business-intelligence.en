@@ -19,7 +19,7 @@ When analyzing repeat probability decay and churn, consider using ([or building]
 
 ### Initial repeat order probability
 
-This measure is defined as the total number of repeat orders, as a percent of total orders. Phrased another way, this is the likelihood of an order to be followed up by another order. When this probability is above 50%, it implies that more than half of all orders are followed up by a subsequent order.
+This measure is defined as the total number of repeat orders, as a percent of total orders. Phrased another way, this is the likelihood of an order to be followed up by another order. When this probability is above 50 percent, it implies that more than half of all orders are followed up by a subsequent order.
 
 ### Repeat order probability given months since order
 
@@ -70,7 +70,7 @@ After creating the above analysis and determining a churn threshold, you can bui
 
 If you offer more than one product, you probably wonder how customers that purchase a specific product behave differently over time compared to other customers. Want to know more? Check out this tutorial to explore the lifetime purchasing behavior of customer cohorts based on specific products that they have purchased.
 
-This best practice is provided by [!DNL MBI] Data Analysis Services (DAS). We look forward to answering any of your specific business questions! [Contact support](../../guide-overview.md) for more info.
+This best practice is provided by [!DNL MBI] Data Analysis Services (DAS). We look forward to answering any of your specific business questions! [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for more info.
 
 ### Related
 

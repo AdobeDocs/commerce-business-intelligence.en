@@ -11,7 +11,7 @@ As part of our services, we offer eCommerce and `SaaS` Starter Packages. These p
 >
 >The availability of some dashboards depends upon your dataset.
 
-If you have questions or you are interested in adding a package to your account, submit a [support ticket](../../guide-overview.md) for help.
+If you have questions or you are interested in adding a package to your account, submit a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for help.
 
 ## Executive overview
 

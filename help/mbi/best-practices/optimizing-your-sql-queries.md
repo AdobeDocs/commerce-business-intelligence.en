@@ -7,7 +7,7 @@ exl-id: 2782c707-6a02-4e5d-bfbb-eff20659fbb2
 
 The SQL Report Builder allows you to query and iterate on those queries at any given time. This is useful when you need to modify a query without having to wait for an update cycle to finish before realizing a column or report you created needs updating.
 
-Before a query is executed, [[!DNL MBI] estimates its cost](https://support.magento.com/hc/en-us/articles/360016730391). Cost takes into consideration the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds our limits, the query will not run. We put together a list of recommendations for querying your data warehouse, which will ensure you are writing the most streamlined queries possible.
+Before a query is executed, [[!DNL MBI] estimates its cost](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html?lang=en). Cost takes into consideration the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds our limits, the query will not run. We put together a list of recommendations for querying your data warehouse, which will ensure you are writing the most streamlined queries possible.
 
 ## Using SELECT or Selecting All Columns
 

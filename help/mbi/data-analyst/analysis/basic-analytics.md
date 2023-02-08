@@ -38,7 +38,7 @@ If some of these calculations do not currently exist in your database, any admin
 
 **Do you accept guest orders?**
 
-*If so, this table may not contain all of your customers. Contact our [support team](https://support.magento.com/hc/en-us/articles/360016503692) to make sure your customer analyses include all customers.*
+*If so, this table may not contain all of your customers. Contact our [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to make sure your customer analyses include all customers.*
 
 *Not sure if you accept guest orders? Refer to [this topic](../data-warehouse-mgr/guest-orders.md) to learn more!*
 
@@ -52,7 +52,7 @@ In this table, each row represents one order. The columns in this table contain 
 * **[!UICONTROL Created_at]**: The date the order was created or placed.
 * **[!UICONTROL Customer_email]**: The email address of the customer who placed the order. This may also be the unique identifier for the customer.
 * **[!UICONTROL Customer's lifetime number of orders]**: A copy of the column with the same name on your `Customers` table.
-* **[!UICONTROL Customer's order number]**: The customer's sequential order number associated with the order. For example, if the row you are looking at is a customer's first order, this column is "1"; but, if this was the customer's 15th order, this column shows "15" for this order. If this dimension does not exist on your `Customers` table, ask our [support team](https://support.magento.com/hc/en-us/articles/360016503692) to help you build it.
+* **[!UICONTROL Customer's order number]**: The customer's sequential order number associated with the order. For example, if the row you are looking at is a customer's first order, this column is "1"; but, if this was the customer's 15th order, this column shows "15" for this order. If this dimension does not exist on your `Customers` table, ask our [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to help you build it.
 * **[!UICONTROL Customer's order number (previous-current)]**: A concatenation of two values in the **[!UICONTROL Customer's order number]** column. It is used in a sample report below to display the elapsed time between any two orders. For example, the time between a customer's first order date and their second order date is represented as "1-2" with this calculation.
 * **[!UICONTROL Coupon_code]**: Shows which coupon(s) were used on each order.
 * **[!UICONTROL Seconds since previous order]**: The time (in seconds) between a customer's orders.
@@ -80,7 +80,7 @@ This table is used to manage your subscription information, such as subscription
 
 ## Marketing Spend table
 
-When analyzing your marketing spend, you can include [!DNL Facebook], [!DNL Google AdWords], or other sources in your analyses. If you have multiple marketing spend sources, contact our [Services Team](https://business.adobe.com/products/magento/fully-managed-service.html) for help setting up a consolidated table for your marketing campaigns.
+When analyzing your marketing spend, you can include [!DNL Facebook], [!DNL Google AdWords], or other sources in your analyses. If you have multiple marketing spend sources, contact our [Managed Services Team](https://business.adobe.com/products/magento/fully-managed-service.html) for help setting up a consolidated table for your marketing campaigns.
 
 **Dimensions**
 
@@ -529,7 +529,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 >[!NOTE]
 >
->You can title the formula as "ROI", and Hide all metrics. In addition, you can adjust the filters in the metrics to analyze alternative sources and mediums. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
+>You can title the formula as "ROI", and Hide all metrics. In addition, you can adjust the filters in the metrics to analyze alternative sources and mediums. Also, check out [this topic](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
    ![ROI 1](../../assets/ROI_1.png)<!--{: width="929"}-->
 

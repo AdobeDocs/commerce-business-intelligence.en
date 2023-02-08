@@ -21,7 +21,7 @@ You can do this by clicking your company's name in the top-right corner of the t
 
 >[!WARNING]
 >
->Deactivating a user will also remove the charts, dashboards, and other assets created by that user. If you want to preserve these assets, reach out to the [!DNL MBI] [support](../guide-overview.md) team before deactivating the user. Support can help you transfer these assets to another user.
+>Deactivating a user will also remove the charts, dashboards, and other assets created by that user. If you want to preserve these assets, contact the [!DNL MBI] [support](../guide-overview.md) team before deactivating the user. Support can help you transfer these assets to another user.
 
 ### Reactivate a User
 

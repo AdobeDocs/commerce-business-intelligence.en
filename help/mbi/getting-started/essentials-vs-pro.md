@@ -146,7 +146,3 @@ Items in _italics_ are calculated fields.
   * `store_id`
   * `name`
 
-Refer to the following video series to learn more about the differences between [!DNL MBI Essentials] and [!DNL MBI Pro].
-
-* [`Essentials`](https://support.magento.com/hc/en-us/articles/360005305614)
-* [`Pro`](https://support.magento.com/hc/en-us/articles/360005373453)

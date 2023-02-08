@@ -11,7 +11,7 @@ One or more filter(s) can be added to limit the data that is used to product a r
 >
 >A report can have a maximum of 3,500 data points. To reduce the number of data points, use a filter to reduce the amount of data that is used to generate the report.
 
-MBI includes a selection of filters that you can use "out of the box," or modify to suit your needs. There is no limit to the number of filters you can create.
+MBI includes a selection of filters that you can use "out of the box (OOTB)," or modify to suit your needs. There is no limit to the number of filters you can create.
 
 ## To add a filter:
 

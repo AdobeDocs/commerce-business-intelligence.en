@@ -40,4 +40,4 @@ After clicking **[!UICONTROL Connect with Stripe]**, an access request page appe
 If you are a little more tech-savvy, the [[!DNL Stripe] API Documentation](https://stripe.com/docs/api) can be a useful resource for learning more about how [!DNL Stripe] is integrated with [!DNL MBI].
 
 * [Expected [!DNL Stripe] data](../integrations/stripe-data.md)
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

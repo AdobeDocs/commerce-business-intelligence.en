@@ -15,7 +15,7 @@ The [!DNL Adobe Analytics] integration for [!DNL MBI] enables you to bring toget
 
 More specifically, the [!DNL Adobe Analytics] integration for [!DNL MBI] provides functionality for merchants to start combining their Commerce and Analytics data sets.
 - Create a connection from your existing [!DNL Adobe Analytics] account into [!DNL MBI].
-- Select up to 25 metrics and dimensions from 1 report suite to replicate into your [!DNL MBI] data warehouse.
+- Select up to 25 metrics and dimensions from one report suite to replicate into your [!DNL MBI] data warehouse.
 - Use all standard [!DNL MBI] functionality to transform, join, and report on replicated [!DNL Adobe Analytics] data.
 
 ## Connection Prerequisites

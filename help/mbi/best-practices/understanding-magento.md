@@ -5,7 +5,7 @@ exl-id: 601b5fba-da02-4cc8-96ed-147c24f326f9
 ---
 # Your [!DNL MBI] Environment
 
-As you analyze your commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Commerce schema correctly, do not hesitate to [contact support](../guide-overview.md).
+As you analyze your commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Commerce schema correctly, do not hesitate to [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 ## [!DNL entity\_id]
 

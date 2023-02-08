@@ -15,7 +15,8 @@ exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
    >To view, add, or change your account's billing information, you must have `Billing` permissions. [Permissions are set on a user-by-user basis](../../administrator/user-management/user-management.md) when user accounts are created. If you need `Billing` permissions, contact your account's administrator.
 
 1. Click **[!UICONTROL Save]**.
-1. The new user will receive an email with login and password details.
+
+The new user will receive an email with login and password details.
 
 >[!NOTE]
 >
@@ -31,4 +32,4 @@ If you need to resend the invitation to the new user, on the [login page](https:
 
 >[!IMPORTANT]
 >
->Each account has a contracted number of licenses, or seats. If you hit your limit or would like to know more, [submit a support ticket](../../guide-overview.md).
+>Each account has a contracted number of licenses, or seats. If you hit your limit or would like to know more, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

@@ -98,4 +98,4 @@ Revenue (shipped\_at)
 
 ## Wrapping Up {#wrapup}
 
-Establishing style and naming conventions early on will help set you up for success in your [!DNL MBI] account. Remember the three Cs: clarity, consistency, and credibility.
+Establishing style and naming conventions early on will help set you up for success in your [!DNL MBI] account. Remember the three C's: clarity, consistency, and credibility.

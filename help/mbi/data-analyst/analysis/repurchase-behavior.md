@@ -74,4 +74,4 @@ In addition to analyzing the repurchasing behavior of your customers, you can al
 
 Once you have identified why churn is happening, you can use your analysis to build a `reactivation` campaign. Using this data, you can identify users who've become inactive, how long it is been since their last visit, what their last purchase was, and so on. This will allow you to make actionable decisions that will entice your customers to come back.
 
-For help with analysis, [contact support](../../guide-overview.md).
+For help with analysis, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

@@ -153,7 +153,7 @@ To create this type of calculated column, we need to know:
 
 Not to worry. Just because it is not listed here does not mean it is not possible. Our team of Data Warehouse Analysts have you covered.
 
-To define a new calculated column, [submit a support ticket](../../guide-overview.md) with details on exactly what you would like to build.
+To define a new calculated column, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) with details on exactly what you would like to build.
 
 ## Related documentation
 

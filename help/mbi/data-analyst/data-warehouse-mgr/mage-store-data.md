@@ -32,7 +32,7 @@ Satisfied with all the settings for `Throwback Bellbottoms`, the employee clicks
 
 ## `customer\_entity`
 
-Shortly after the addition of the three new products, a new customer, `Sammy Customer`, visits `Clothes4U`'s website for the first time. Since `Clothes4U` does not [allow guest orders](https://support.magento.com/hc/en-us/articles/360016729951-Common-Magento-Misconceptions), `Sammy Customer` must first create an account on the website. She enters her credentials and clicks submit, resulting in the following new entry on the [`customer\_entity table`](../data-warehouse-mgr/cust-ent-table.md):
+Shortly after the addition of the three new products, a new customer, `Sammy Customer`, visits `Clothes4U`'s website for the first time. Since `Clothes4U` does not allow guest orders, `Sammy Customer` must first create an account on the website. She enters her credentials and clicks submit, resulting in the following new entry on the [`customer\_entity table`](../data-warehouse-mgr/cust-ent-table.md):
 
 |**`entity id`**|**`entity type id`**|**`email`**|**`created at`**|
 |---|---|---|---|

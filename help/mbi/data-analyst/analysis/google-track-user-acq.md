@@ -87,7 +87,6 @@ This is interesting, but of limited use. What we would really like to know is th
 
 ### Related
 
-*   **[Track user device, browser and OS data in your database](https://support.magento.com/hc/en-us/articles/360016732911)**
 *   **[Discover your most valuable acquisition sources and channels](../analysis/most-value-source-channel.md)**
 *   **[Connect your [!DNL Google Adwords] account](../importing-data/integrations/google-adwords.md)**
 *   **[Increase ROI on your advertising campaigns](../analysis/roi-ad-camp.md)**
