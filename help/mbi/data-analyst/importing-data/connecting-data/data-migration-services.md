@@ -5,7 +5,7 @@ exl-id: 105cd003-98ef-4358-80b9-b3190c2c57b7
 ---
 # Data Migration
 
-Migrating to a new database schema, server, or reporting database does not have to be stressful. Our **[!DNL Magento Services - Analytics]** team offers migration assistance - we do all the heavy lifting so you do not have to.
+Migrating to a new database schema, server, or reporting database does not have to be stressful. Our **[!DNL Adobe Commerce Services - Analytics]** team offers migration assistance - we do all the heavy lifting so you do not have to.
 
 To ensure your transition is as smooth as possible, we ask that you be as detailed as possible when submitting your migration request. In this article is everything you need to submit a request and get started on the migration. Providing us with a comprehensive picture of your needs will guarantee that your project is scoped properly and that the estimate is accurate.
 

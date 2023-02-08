@@ -5,7 +5,7 @@ exl-id: 5c48e985-3ba2-414b-bd1f-555b3da763bd
 ---
 # `sales_order_item` Table
 
-The `sales_order_item` table (`sales_flat_order_item` on [!DNL Magento] 1) contains records of all products that were purchased in an order. Each row represents a unique `sku` included in an order. The quantity of units that were purchased for a specific `sku` is most often represented by the `qty_ordered` field.
+The `sales_order_item` table (`sales_flat_order_item` on M1 1) contains records of all products that were purchased in an order. Each row represents a unique `sku` included in an order. The quantity of units that were purchased for a specific `sku` is most often represented by the `qty_ordered` field.
 
 ## Product Types
 

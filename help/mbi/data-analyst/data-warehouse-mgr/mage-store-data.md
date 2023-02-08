@@ -3,9 +3,9 @@ title: Storing Data in Commerce
 description: Learn how data is generated, what exactly causes a new row to be inserted into one of the Core Commerce Tables, and how are actions such as making a purchase or creating an account recorded into the Commerce database.
 exl-id: 436ecdc1-7112-4dec-9db7-1f3757a2a938
 ---
-# Storing Data in [!DNL Magento]
+# Storing Data in [!DNL Adobe Commerce]
 
-The Commerce platform records and organizes a wide variety of valuable commerce data across hundreds of tables. In this topic, you will learn how that data is generated, what exactly causes a new row to be inserted into one of the [Core Commerce Tables](../data-warehouse-mgr/common-mage-tables.md), and how are actions such as making a purchase or creating an account recorded into the Commerce database. To explain these concepts, refer to the following example:
+The Adobe Commerce platform records and organizes a wide variety of valuable commerce data across hundreds of tables. In this topic, you will learn how that data is generated, what exactly causes a new row to be inserted into one of the [Core Commerce Tables](../data-warehouse-mgr/common-mage-tables.md), and how are actions such as making a purchase or creating an account recorded into the Commerce database. To explain these concepts, refer to the following example:
 
 `Clothes4U` is a clothing retailer with both an online, and a brick and mortar presence. It uses Magento Open Source behind its website to gather and organize data.
 
@@ -24,10 +24,10 @@ Satisfied with all the settings for `Throwback Bellbottoms`, the employee clicks
 * `entity_id` – This is the primary key of the `catalog_product_entity` table, meaning every row of the table must have a different `entity_id`. Each `entity_id` on this table can only be associated with one product, and each product can only be associated with one `entity_id`
     * The top line of the table above, `entity_id` = 205, is the new row created for "Throwback Bellbottoms." Wherever `entity_id` = 205 appears in the Commerce platform, it will be referring to the product "Throwback Bellbottoms"
 * `entity_type_id` – Commerce has multiple categories of objects (like customers, addresses, and products to name a few), and this column is used to denote the category into which this particular row falls.
-    * This being the `catalog_product_entity` table, each row has the same entity type: product. In Magento, the `entity_type_id` for product is 4, which is why all three of the new products created return 4 for this column.
+    * This being the `catalog_product_entity` table, each row has the same entity type: product. In Adobe Commerce, the `entity_type_id` for product is 4, which is why all three of the new products created return 4 for this column.
 * `attribute_set_id` – Attribute sets are used to identify products that have the same of descriptors.
     * The top two rows of the table are the `Throwback Bellbottoms` and `Straight Leg Jeans` products, both of which are pants. These products would have the same descriptors (for example, name, inseam, waistline), and therefore have the same `attribute_set_id`. The third item, `V-Neck T-Shirt` has a different `attribute_set_id` because it would not have the same descriptors as the pants; shirts do not have waistlines or inseams.
-* `sku` - These are unique values assigned to each product by the user when creating a new product in Magento.
+* `sku` - These are unique values assigned to each product by the user when creating a new product in Adobe Commerce.
 * `created_at` - This column returns the timestamp of when each product was created
 
 ## `customer\_entity`

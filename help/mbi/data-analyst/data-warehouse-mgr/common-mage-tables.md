@@ -25,4 +25,4 @@ Below is a list of some of the more common tables that [!DNL MBI] customers util
 
 ## Related documentation
 
-[[!DNL Magento] Entity Relationship Diagrams](../data-warehouse-mgr/entity-rel-diag.md)
+[Entity Relationship Diagrams](../data-warehouse-mgr/entity-rel-diag.md)

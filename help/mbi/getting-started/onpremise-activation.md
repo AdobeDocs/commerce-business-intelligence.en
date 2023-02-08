@@ -9,7 +9,7 @@ To activate [!DNL MBI] for on-premise subscriptions, first create a [!DNL MBI] a
 
 1. Create your [!DNL MBI] Account.
 
-    -  Go to your [Magento account login](https://account.magento.com/customer/account/login)
+    -  Go to your [Adobe Commerce account login](https://account.magento.com/customer/account/login)
 
     -  Go to **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
 

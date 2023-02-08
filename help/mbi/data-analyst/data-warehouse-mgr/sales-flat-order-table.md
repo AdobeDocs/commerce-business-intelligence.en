@@ -26,7 +26,7 @@ This table includes all customer orders, whether or not that order was processed
 |`customer_group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the order|
 |`customer_id`|`Foreign key` associated with the `customer_entity` table, if the customer is registered. Join to `customer_entity.entity_id` to determine customer attributes associated with the order. If the order was placed through guest checkout, this field will be `NULL`|
 |`entity_id` (PK)|Unique identifier for the table, and commonly used in joins to other tables within the Commerce instance|
-|`increment_id`|Unique identifier for an order, and commonly referred to as the `order_id` within Magento. The `increment_id` is most often used for joins to external sources, such as [!DNL Google Ecommerce]|
+|`increment_id`|Unique identifier for an order, and commonly referred to as the `order_id` within Adobe Commerce. The `increment_id` is most often used for joins to external sources, such as [!DNL Google Ecommerce]|
 |`shipping_address_id`|Foreign key associated with the `sales_order_address` table. Join to `sales_order_address.entity_id` to determine the shipping address details associated with the order|
 |`status`|Order's status. May return values such as 'complete', 'processing', 'cancelled', 'refunded', as well as any custom statuses implemented on the Commerce instance. Subject to changes as the order gets processed|
 |`store_id`|`Foreign key` associated with the `store` table. Join to `store`.`store_id` to determine which Commerce store view is associated with the order|

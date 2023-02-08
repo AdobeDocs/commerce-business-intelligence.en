@@ -19,7 +19,7 @@ exl-id: 90b0a0b0-8c6b-4144-95b4-f588f18616c7
 >
 >We strongly recommend you use SSH or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL MBI] to your database using the instructions in this article.
 
-In this article, we walk you through directly connecting your MySQL database to [!DNL MBI] using cPanel``. This process can also be used to connect [!DNL Magento] and any other MySQL-based eCommerce databases to [!DNL MBI].
+In this article, we walk you through directly connecting your MySQL database to [!DNL MBI] using cPanel``. This process can also be used to connect [!DNL Adobe Commerce] and any other MySQL-based eCommerce databases to [!DNL MBI].
 
 1. Create a [!DNL MBI] MySQL user in `cPanel`
 1. Enter connection and user info into [!DNL MBI]
