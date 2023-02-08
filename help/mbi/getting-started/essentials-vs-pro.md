@@ -16,8 +16,7 @@ The following table describes what is included with Essentials and Pro.
 | `Pre-Defined Reports`| Up to 100 | Custom |
 | `Pre-Defined Dashboards`| 5-6 | Custom |
 | `New Custom Report Creation`| Yes | Yes |
-| `
-Commerce Tables`| 4-6 | Unlimited |
+| `Commerce Tables`| 4-6 | Unlimited |
 | `Log-ins/User Accounts`| 10 | 20 |
 | `User Permissions`| Yes | Yes |
 | `Data Warehouse Manager`| Unavailable | Available |
