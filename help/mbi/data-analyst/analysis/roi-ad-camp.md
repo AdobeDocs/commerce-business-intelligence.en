@@ -91,7 +91,7 @@ Are you running product specific advertisements? If so, you can measure ROI on t
 >
 >We will make the assumption that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI will account for the worst case scenario (highest cost per purchase), so you can be sure that your actual ROI is higher than this calculation. Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1, but under our assumption that all cost went to acquire new users, the cost per purchase is $2.)*
 
-Before we start, [submit a support ticket](../../guide-overview.md) to join the following dimensions to your line items table (`sales\_flat\_order\_item, order\_item`):
+Before we start, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to join the following dimensions to your line items table (`sales\_flat\_order\_item, order\_item`):
 
 * Order's source (if you only track referral source at the user level, then join user's source)
 * Order's campaign (if you only track referral source at the user level, then join user's campaign)

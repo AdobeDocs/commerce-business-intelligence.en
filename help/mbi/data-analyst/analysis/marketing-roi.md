@@ -255,7 +255,7 @@ Columns to create
 * [!UICONTROL Group by]: `campaign` (Use `Customer's first order's` campaign for non-ad spend table metrics)
 * [!UICONTROL Chart Type]: `Table`
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../guide-overview.md).
+If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 ### Related
 

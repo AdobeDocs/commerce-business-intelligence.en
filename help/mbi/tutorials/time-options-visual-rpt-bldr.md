@@ -58,7 +58,7 @@ Now we can see just how impactful each month was last year:
 
 ## Comparing the Same Metric Across Different Time Ranges {#difftimerange}
 
-This example uses a custom dimension called `Day number of the month`. If you want to create this report and do not already have this dimension in your Data Warehouse, [contact support](../guide-overview.md) for assistance.
+This example uses a custom dimension called `Day number of the month`. If you want to create this report and do not already have this dimension in your Data Warehouse, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for assistance.
 
 The two most common examples in this category are (1) comparing growth metrics (revenue year-over-year or month-over-month) and (2) better understanding recent inventory or item sales trends.
 
@@ -136,4 +136,3 @@ This example demonstrates that current inventory levels were well-situated for a
 
 Because your customers behave differently over time, you can expect to see variances in data when performing analyses. Setting custom Time Options enables you to quickly create complex analyses, enabling data-driven decisions that factor in historical trends.
 
-See our [training video](https://support.magento.com/hc/en-us/articles/360016730071-Training-Video-Time-Options-in-the-Visual-Report-Builder) to learn more.

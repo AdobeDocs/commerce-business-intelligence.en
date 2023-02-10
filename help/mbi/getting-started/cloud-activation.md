@@ -13,7 +13,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] a
 
 1. Create your [!DNL MBI] Account.
 
-    - Go to [https://account.magento.com/customer/account/login](https://account.magento.com/customer/account/login)
+    - Go to [Adobe Commerce account login](https://account.magento.com/customer/account/login)
 
     - Go to **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
 
@@ -47,7 +47,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] a
 
 1. Create dedicated [!DNL MBI] User.
 
-    - Create a new user on [https://accounts.magento.com](https://accounts.magento.com).
+    - Create a new user in your [Adobe Commerce account](https://accounts.magento.com).
 
     - _Why a new user?_ [!DNL MBI] needs a user added to the project to continuously fetch new data to be transferred to the account's [!DNL MBI] data warehouse. This user will serve as that connection. Adding this user to the project will come in Step 4.
 
@@ -69,7 +69,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] a
 
 1. Add your new [!DNL MBI] `Public key` to the [!DNL MBI] user created in Step 5.
 
-    - Go to [https://accounts.magento.cloud/](https://accounts.magento.cloud/). Sign in with your account log in information for the new [!DNL MBI] user created. Then go to the `Account Settings` tab.
+    - Go to [your cloud Adobe Commerce account](https://accounts.magento.cloud/). Sign in with your account log in information for the new [!DNL MBI] user created. Then go to the `Account Settings` tab.
 
     - Scroll down the page and expand the dropdown for `SSH` keys. Then click **[!UICONTROL Add a public key]**.
 

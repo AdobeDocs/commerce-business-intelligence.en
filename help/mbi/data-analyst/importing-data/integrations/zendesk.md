@@ -46,4 +46,4 @@ To complete this process, you will need to open two browser windows or tabs - on
 ## Related:
 
 * [Expected [!DNL Zendesk] data](../integrations/exp-zendesk-data.md)
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

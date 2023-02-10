@@ -32,4 +32,4 @@ After clicking **[!UICONTROL Connect to Quickbooks]**, log into your [!DNL Intui
 ## Related
 
 * [Expected [!DNL QuickBooks] data](../integrations/quickbooks-data.md)
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

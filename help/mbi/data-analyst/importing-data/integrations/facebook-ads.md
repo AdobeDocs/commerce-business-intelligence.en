@@ -46,11 +46,11 @@ You will follow a series of steps to allow [!DNL MBI] to access data from your P
 
 ## what is next? {#next}
 
-Make sure that you are tracking [!DNL Facebook] campaigns in [!DNL Google Analytics] as per this [tutorial](https://www.facebook.com/business/google-analytics). This will ensure that the `utm\_campaign` field in [!DNL Google Analytics] is properly populated for your [!DNL Facebook] campaigns.
+Make sure that you are tracking [!DNL Facebook] campaigns in [!DNL Google Analytics]. This will ensure that the `utm\_campaign` field in [!DNL Google Analytics] is properly populated for your [!DNL Facebook] campaigns.
 
 ## Related
 
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
 * [Connect your [!DNL Google Adwords] account](../integrations/google-ecommerce.md)
 * [Track order referral source via [!DNL Google eCommerce]](../integrations/google-ecommerce.md)
 * [Track user referral source in your database](../../analysis/google-track-user-acq.md)

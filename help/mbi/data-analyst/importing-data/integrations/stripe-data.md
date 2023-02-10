@@ -11,13 +11,13 @@ In this article, we explore the main data tables that you can import from [!DNL 
 
 | **Table Name** | **Description** |
 |-----|-----|
-| [`Customers`](https://stripe.com/docs/api/curl#customer_object) | Customer objects allow you to perform recurring charges and track multiple charges that are associated with the same customer. |
-| [`Charges`](https://stripe.com/docs/api/curl#charge_object) | This table contains information about charges to credit and debit cards, including the amount, currency, status, customer ID, and more. |
-| [`Coupons`](https://stripe.com/docs/api/curl#coupon_object) | This table contains information about a percent- or amount-off discount you may want to apply to a customer. Note that coupons only apply to invoices; they do not apply to one-off charges. |
-| [`Invoices`](https://stripe.com/docs/api/curl#invoice_object) | This table contains information about invoices including the amount owed, subscriptions, invoice items, any automatic proration adjustments, and more. |
-| [`Plans`](https://stripe.com/docs/api/curl#plan_object) | This table contains the pricing information for different products and feature levels on your site. For example, you may have a $10/month plan for basic features and a $20/month plan for premium features. |
-| [`Subscriptions`](https://stripe.com/docs/api/curl#subscription_object) | This table contains the details of subscription plans your customers belong to. Attributes include customer ID, status, canceled/ended at dates, tax percent, trial information, and more. |
-| [`Events`](https://stripe.com/docs/api/curl#event_object) | Events let you know about something interesting that has just happened in an account. [When an interesting event occurs](https://stripe.com/docs/api/curl#event_types), a new event object is created. For example, when a charge succeeds `charge.succeeded` event is created; or, when an invoice cannot be paid an `invoice.payment\_failed` event is created. |
+| [`Customers`](https://stripe.com/docs/sources/customers) | Customer objects allow you to perform recurring charges and track multiple charges that are associated with the same customer. |
+| [`Charges`](https://stripe.com/docs/payments/payment-intents/migration/charges) | This table contains information about charges to credit and debit cards, including the amount, currency, status, customer ID, and more. |
+| [`Coupons`](https://stripe.com/docs/api/coupons/object) | This table contains information about a percent- or amount-off discount you may want to apply to a customer. Note that coupons only apply to invoices; they do not apply to one-off charges. |
+| [`Invoices`](https://stripe.com/docs/billing/migration/invoice-states) | This table contains information about invoices including the amount owed, subscriptions, invoice items, any automatic proration adjustments, and more. |
+| [`Plans`](https://stripe.com/docs/api/plans/object) | This table contains the pricing information for different products and feature levels on your site. For example, you may have a $10/month plan for basic features and a $20/month plan for premium features. |
+| [`Subscriptions`](https://stripe.com/docs/api/subscriptions/object) | This table contains the details of subscription plans your customers belong to. Attributes include customer ID, status, canceled/ended at dates, tax percent, trial information, and more. |
+| [`Events`](https://stripe.com/docs/development/dashboard/events) | Events let you know about something interesting that has just happened in an account. [When an interesting event occurs](https://stripe.com/docs/api/events/types), a new event object is created. For example, when a charge succeeds `charge.succeeded` event is created; or, when an invoice cannot be paid an `invoice.payment\_failed` event is created. |
 
 {style="table-layout:auto"}
 
@@ -28,4 +28,4 @@ In this article, we explore the main data tables that you can import from [!DNL 
 ## Related:
 
 * [Connecting [!DNL Stripe]](../integrations/stripe.md)
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

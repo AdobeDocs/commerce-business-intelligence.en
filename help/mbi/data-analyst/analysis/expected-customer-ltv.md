@@ -132,4 +132,4 @@ Other chart details
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page.
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../guide-overview.md).
+If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

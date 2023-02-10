@@ -32,8 +32,8 @@ Absolutely! If an update is currently in progress, there will be a link on the `
 
 ## Why is[!DNL Google ECommerce]data different from my database? {#ecommdatabase}
 
-Discrepancies between [!DNL Google Analytics] and your database can arise for a number of reasons. Tracking not being properly enabled, users visiting incognito, and click events not working correctly are just a few examples. If your revenue and orders do not look quite right, [use this article](https://support.magento.com/hc/en-us/articles/360016505232) to diagnose the problem.
+Discrepancies between [!DNL Google Analytics] and your database can arise for a number of reasons. Tracking not being properly enabled, users visiting incognito, and click events not working correctly are just a few examples. If your revenue and orders do not look quite right, [use this article](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html?lang=en) to diagnose the problem.
 
 ## How do I troubleshoot a data discrepancy? {#datadiscrepancy}
 
-We know that seeing inconsistent data can be a frustrating experience. Try using our [Data Discrepancy Checklist](https://support.magento.com/hc/en-us/articles/360016731271) or [Data Exports tutorial](https://support.magento.com/hc/en-us/articles/360016730631) to diagnose the problem. If you are still stumped, [contact support](../../guide-overview.md).
+We know that seeing inconsistent data can be a frustrating experience. Try using our [Data Discrepancy Checklist](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.html?lang=en) or [Data Exports tutorial](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en) to diagnose the problem. If you are still stumped, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

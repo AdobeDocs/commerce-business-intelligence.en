@@ -39,7 +39,7 @@ To analyze how a specific store is performing, click the stores icon in the uppe
 
 >[!NOTE]
 >
->A store filter is enabled or disabled for an entire [!DNL MBI] account. If a dashboard contains reports that are not affected by the filter, such as reports that are not built on any Commerce data, those reports do not update when the store filter is applied. You can [contact support](../../guide-overview.md) if you believe a report should update based on store selection or if you believe your account store filter is mistakenly disabled.
+>A store filter is enabled or disabled for an entire [!DNL MBI] account. If a dashboard contains reports that are not affected by the filter, such as reports that are not built on any Commerce data, those reports do not update when the store filter is applied. You can [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) if you believe a report should update based on store selection or if you believe your account store filter is mistakenly disabled.
 
 When you select a store from the `Store Filter`, the filter retains your selection when you navigate between dashboards. Retaining your selection allows you to see data for your selected store everywhere until you select `All Stores`.
 

@@ -18,5 +18,5 @@ You can reactivate the user by creating a new user with the same email address. 
 If you only need the dashboards from that user pushed into a different user's account, do the following:
 
 1. Use the deleted user's email address to create a new [!DNL MBI] user.
-1. [Notify support](../../guide-overview.md) after you create the user. Support will transfer the dashboards into your account.
+1. [Notify support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) after you create the user. Support will transfer the dashboards into your account.
 1. After Support notifies you of the transfer, you can delete the user again.

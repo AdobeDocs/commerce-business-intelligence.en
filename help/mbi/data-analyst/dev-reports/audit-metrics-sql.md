@@ -40,4 +40,4 @@ You can also write custom queries and export the results to compare against your
 
 ### Still stumped?
 
-If you find a discrepancy after auditing your data, take a look at the [Contacting Support: Data Discrepancies](https://support.magento.com/hc/en-us/articles/360016505312) support article for more information on what to do next.
+If you find a discrepancy after auditing your data, take a look at the [Contacting Support: Data Discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=en) support article for more information on what to do next.

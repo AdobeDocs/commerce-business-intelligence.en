@@ -139,4 +139,4 @@ That is it! When you are finished, click **[!UICONTROL Save Test]** to complete 
 
 ### Related
 
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

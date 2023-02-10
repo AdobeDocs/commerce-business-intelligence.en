@@ -9,7 +9,7 @@ When you log into your [!DNL MBI] dashboard, there are several ways to check the
 
 ## Why Should I Check the Update Cycle Status?
 
-Checking the status update cycle is useful when you are auditing the data in your [!DNL MBI] account. If you see [results that do not meet your expectations](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md), for example, daily sales in [!DNL MBI] are not matching what you are seeing in your e-commerce platform or in your [[!DNL Google] e-commerce revenue](https://support.magento.com/hc/en-us/articles/360016505232) you can check the last data point to see if the issue will be resolved once an update completes.
+Checking the status update cycle is useful when you are auditing the data in your [!DNL MBI] account. If you see [results that do not meet your expectations](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md), for example, daily sales in [!DNL MBI] are not matching what you are seeing in your e-commerce platform or in your [[!DNL Google] e-commerce revenue](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html?lang=en) you can check the last data point to see if the issue will be resolved once an update completes.
 
 ## [!UICONTROL Read-Only] and [!UICONTROL Standard]** Users
 

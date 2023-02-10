@@ -9,4 +9,4 @@ To reset your password, click **[!UICONTROL Reset Password]** below the password
 
 Additionally, you can change your password inside [!DNL MBI] by using the **[!UICONTROL Personal Settings]** page.
 
-If you reset your password and still are locked out of your account, follow [these tips](https://support.magento.com/hc/en-us/articles/360016503952) to help pinpoint the problem.
+If you reset your password and still are locked out of your account, follow [these tips](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.html?lang=en) to help pinpoint the problem.

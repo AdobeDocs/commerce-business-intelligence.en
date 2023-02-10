@@ -11,7 +11,7 @@ exl-id: 6625349f-2ec0-402d-8635-889a1f29811c
 >
 >The structure (columns) of each table is dependent on the fields contained in the object.
 
-To get a list of objects available to your organization, refer to the [!DNL Salesforce] [Get a List of Objects documentation](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_describeGlobal.htm). After you have a list of objects, check out the [Entity Relationship Diagram (ERD) section](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_erd_majors.htm) of [!DNL Salesforce] documentation to see how entities relate to each other.
+To get a list of objects available to your organization, refer to the [!DNL Salesforce] [Get a List of Objects documentation](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_describeGlobal.htm). After you have a list of objects, check out the [Entity Relationship Diagram (ERD) section](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_erd_knowledge.htm) of [!DNL Salesforce] documentation to see how entities relate to each other.
 
 ## Unsupported Objects
 
@@ -42,4 +42,4 @@ At this time, [!DNL Salesforce] does not currently expose the following objects 
 ## Related:
 
 * [Connecting [!DNL Salesforce]](../integrations/salesforce.md)
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

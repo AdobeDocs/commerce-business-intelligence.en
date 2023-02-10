@@ -30,4 +30,4 @@ That is it! After your credentials are validated, [!DNL Salesforce] setup will b
 If you are a little more tech-savvy, the [[!DNL Salesforce] API Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) can be a useful resource for learning more about how Salesforce is integrated with [!DNL MBI].
 
 * [Expected [!DNL Salesforce] data](../integrations/salesforce-data.md)
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

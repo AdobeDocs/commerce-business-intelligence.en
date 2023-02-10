@@ -9,15 +9,15 @@ exl-id: 3a485b00-c59d-4bc5-b78b-57e9e92dd9d6
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md) to create and edit SQL charts. `Standard` users can rearrange these charts on dashboards, and `Read-only` users will have the same experience they do with traditional charts. In addition, `Read-only` users do not have access to the text of the query.
 
-See our [training video](https://support.magento.com/hc/en-us/articles/360016730131) to learn more.
+See our [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=en) to learn more.
 
 `SQL`, or Structured Query Language, is a programming language used to communicate with databases. In [!DNL MBI], SQL is used to query, or retrieve, data from your data warehouse. Take a look at the reports on your dashboard - behind the scenes, each one is powered by a SQL query.
 
 You can use the [`SQL Report Builder`](../dev-reports/sql-rpt-bldr.md) to directly query your data warehouse, view the results, and transform them into a chart. You can start creating a report with the `SQL Report Builder` by navigating to **[!UICONTROL Report Builder** > **SQL Report Builder]**.
 
-See our [training video](https://support.magento.com/hc/en-us/articles/360016730131-Training-Video-SQL-Report-Builder) to learn more.
+See our [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=en) to learn more.
 
-The `SQL Report Builder` allows you to directly query your data warehouse, view the results, and quickly transform them into a chart. The best part about using SQL to build reports is that [you do not need to wait on update cycles to iterate on columns](https://support.magento.com/hc/en-us/articles/360016506212) you create. If the results do not look quite right, you can quickly edit and re-run the query until things match your expectations.
+The `SQL Report Builder` allows you to directly query your data warehouse, view the results, and quickly transform them into a chart. The best part about using SQL to build reports is that you do not need to wait on update cycles to iterate on columns you create. If the results do not look quite right, you can quickly edit and re-run the query until things match your expectations.
 
 In this article, we walk you through using the `SQL Report Builder`. After you know your way around, check out our SQL for visualizations tutorial or try optimizing some of the queries you have written.
 
@@ -125,9 +125,9 @@ We would like to mention that calculated columns created using SQL are not depen
 
 The majority of the time, differences in results can be attributed to update cycles. If [!DNL MBI] is in the process of replicating data from your database to your Data Warehouse, you might see different results even when using the same query.
 
-Connection issues can also result in discrepancies. Navigate to the `Connections` page by clicking **[!DNL Manage Data** > **Connections]**) to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations) to get things running again.
+Connection issues can also result in discrepancies. Navigate to the `Connections` page by clicking **[!DNL Manage Data** > **Connections]**) to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en) to get things running again.
 
-If all your integrations are connected successfully and you are not in the middle of an update cycle, something else may be amiss. Try using the [data discrepancy troubleshooting guides](https://support.magento.com/hc/en-us/sections/360003074492) on our Support site to pinpoint the problem.
+If all your integrations are connected successfully and you are not in the middle of an update cycle, something else may be amiss. 
 
 #### Does deleting a SQL report also delete the underlying columns from my Data Warehouse?
 

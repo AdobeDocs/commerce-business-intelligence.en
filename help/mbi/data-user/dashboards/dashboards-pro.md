@@ -9,7 +9,7 @@ exl-id: fe61c92e-de87-4317-96d7-01d2a9846bf9
 
 >[!NOTE]
 >
->Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](../../guide-overview.md).
+>Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 ## Report availability
 

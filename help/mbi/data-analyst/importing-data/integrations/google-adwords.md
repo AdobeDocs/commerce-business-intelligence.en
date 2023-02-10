@@ -47,10 +47,9 @@ You may have multiple websites connected to a single [!DNL Google Analytics] acc
 
 ## Related
 
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
 * [Track order referral source via [!DNL Google ECommerce]](../integrations/google-ecommerce.md)
 * [Track user referral source in your database](../../analysis/google-track-user-acq.md)
-* [Track user device, browser and OS data in your database](https://support.magento.com/hc/en-us/articles/360016732911)
 * [Discover your most valuable acquisition sources and channels](../../analysis/most-value-source-channel.md)
 * [Increase ROI on your advertising campaigns](../../analysis/roi-ad-camp.md)
 * [How does [!DNL Google Analytics] UTM attribution work?](../../analysis/utm-attributes.md)
