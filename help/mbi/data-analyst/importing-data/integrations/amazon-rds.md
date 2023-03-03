@@ -33,7 +33,7 @@ This is the part of the process where, depending on the database you are using, 
 
 After you have granted [!DNL MBI] access to your instance and created a user for us, the last thing you need to do is enter the connection info into [!DNL MBI].
 
-The credential pages for `MySQL`, `Microsoft SQL`, and `PostgreSQL` are accessed via the `Integrations` page (**[!UICONTROL Manage Data** > **Integrations]**) by clicking **[!UICONTROL Add Integration]**. When the list of integrations displays, click the icon for the database you are using to go to the credentials page. If you do not currently have access to the integration you need, contact your CSM.
+The credential pages for `MySQL`, `Microsoft SQL`, and `PostgreSQL` are accessed via the `Integrations` page (**[!UICONTROL Manage Data** > **Integrations]**) by clicking **[!UICONTROL Add Integration]**. When the list of integrations displays, click the icon for the database you are using to go to the credentials page. If you do not currently have access to the integration you need, contact your Adobe Account Team.
 
 To finish creating the connection, we will need the following info:
 

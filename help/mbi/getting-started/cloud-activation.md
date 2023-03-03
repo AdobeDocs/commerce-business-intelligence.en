@@ -9,7 +9,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] a
 
 >[!NOTE]
 >
->For help activating [!DNL MBI] for `Cloud Pro` projects, contact your Customer Success Manager or Customer Technical Advisor.
+>For help activating [!DNL MBI] for `Cloud Pro` projects, contact your Adobe Account Team or Customer Technical Advisor.
 
 1. Create your [!DNL MBI] Account.
 
@@ -17,7 +17,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] a
 
     - Go to **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
 
-    - Click **[!UICONTROL Create Instance]**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
+    - Click **[!UICONTROL Create Instance]**. If you do not see this button, contact your Adobe Account Team or Customer Technical Advisor.
 
     - Select your `Cloud Starter` subscription. If you only have a `cloud starter` subscription this will automatically be selected.
 
@@ -192,6 +192,6 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create a [!DNL MBI] a
 
 1. You have now successfully connected to your [!DNL MBI] account.
 
-1. After you have successfully connected [!DNL MBI] to your Commerce database, contact your Customer Success Manager to coordinate the next steps, such as setting up integrations and other configuration steps.
+1. After you have successfully connected [!DNL MBI] to your Commerce database, contact your Adobe Account Team to coordinate the next steps, such as setting up integrations and other configuration steps.
 
 1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your [!DNL MBI] account.

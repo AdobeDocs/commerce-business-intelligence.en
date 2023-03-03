@@ -5,7 +5,7 @@ exl-id: 3ee36e0e-f447-4be3-afc8-ccc6d3aa4f20
 ---
 # Access your activated [!DNL MBI] account
 
-After you have activated your [!DNL MBI] account either for [on-premise](../getting-started/onpremise-activation.md) or [cloud](../getting-started/cloud-activation.md) and have worked with your Customer Success Manager to finalize the configuration steps, you can now sign in to your account.
+After you have activated your [!DNL MBI] account either for [on-premise](../getting-started/onpremise-activation.md) or [cloud](../getting-started/cloud-activation.md) and have worked with your Adobe Account Team to finalize the configuration steps, you can now sign in to your account.
 
 You can sign in with your [!DNL Adobe ID] or using your [!DNL MBI] email address and password.
 
