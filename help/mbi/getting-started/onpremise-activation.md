@@ -13,7 +13,7 @@ To activate [!DNL MBI] for on-premise subscriptions, first create a [!DNL MBI] a
 
     -  Go to **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
 
-    -  Click **[!UICONTROL Create Instance]**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
+    -  Click **[!UICONTROL Create Instance]**. If you do not see this button, contact your Adobe Account Team or Customer Technical Advisor.
 
     -  Enter your information to create your account.
 
@@ -37,6 +37,6 @@ To activate [!DNL MBI] for on-premise subscriptions, first create a [!DNL MBI] a
 
    Commerce strongly recommends you connect using an [`SSH tunnel`](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md). However, if this is not an option, you can still link [!DNL MBI] to your database using a [`direct connection`](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
 
-1. After you have successfully connected [!DNL MBI] to your Commerce database, contact your Customer Success Manager to coordinate the next steps, such as setting up integrations and other configuration steps.
+1. After you have successfully connected [!DNL MBI] to your Commerce database, contact your Adobe Account Team to coordinate the next steps, such as setting up integrations and other configuration steps.
 
 1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your [!DNL MBI] account.
