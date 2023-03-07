@@ -5,7 +5,7 @@ exl-id: 2a5eeabb-3c13-4ca1-b845-ed255b389c9f
 ---
 # Manage user permissions
 
-MBI is intended to be a single source of truth across your organization. Each user will have their own set of dashboards which they can [share with other users](../../data-user/dashboards/share-dashboard-with-users.md).
+MBI is intended to be a single source of truth across your organization. Each user has their own set of dashboards which they can [share with other users](../../data-user/dashboards/share-dashboard-with-users.md).
 
 ## User Permission Levels
 
@@ -44,26 +44,26 @@ These permissions enable users to perform certain actions or access specific par
 >
 >_You can limit a **[!UICONTROL Standard]** user's [access to specific metrics](../../administrator/user-management/restrict-metric-access.md)._
 >
->**[!UICONTROL Standard] _users can access Billing with an additional permission setting._
+>**[!UICONTROL Standard] _users can access Billing with an extra permission setting._
 >
->**[!UICONTROL Read-Only]** users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in [!DNL MBI], nor can they search for and add new dashboards to their account. We recommend that you share a specific set of dashboards with **[!UICONTROL Read-Only]** users that you or another member of your team maintains. Do not clone a set of dashboards for them.
+>**[!UICONTROL Read-Only]** users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in [!DNL MBI], nor can they search for and add new dashboards to their account. Adobe recommends that you share a specific set of dashboards with **[!UICONTROL Read-Only]** users that you or another member of your team maintains. Do not clone a set of dashboards for them.
 
 ## Additional permissions: Billing and Technical {#billingtech}
 
-In addition to the general permission levels, two other user designations also exist - `Billing` and `Technical`. These designations are intended to be used in conjunction with the general permission levels.
+In addition to the general permission levels, two other user designations also exist - `Billing` and `Technical`. These designations should be used with the general permission levels.
 
 ### Billing
 
-`Billing` users have access to the billing page and can change payment information. Additionally, they may also be contacted by our teams for billing questions.
+`Billing` users have access to the billing page and can change payment information. Also, they may also be contacted by Adobe for billing questions.
 
-`Admin` users have access to the Billing tab by default, but Standard users can also gain access if they have the `Billing` checkbox selected on their profile.
+`Admin` users have access to the `Billing` tab by default, but `Standard` users can also gain access if they have the `Billing` checkbox selected on their profile.
 
 ![billing](../../assets/billing.png)<!--{: width="550" height="363"}-->
 
 ### Technical
 
-`Technical` users do not have any permissions specific to them - this setting just marks a technical contact within your organization. These users may be contacted by our teams for technical questions.
+`Technical` users do not have any permissions specific to them - this setting just marks a technical contact within your organization. These users may be contacted by Adobe for technical questions.
 
 `Admin` users can add new users to their account by clicking **[!UICONTROL Account Settings]** > **[!UICONTROL Create Users]** and following the prompts. After the user is created in [!DNL MBI], the lucky person you are inviting will receive email instructions on how to complete the account setup process.
 
-At any time, `Admins` can view all the users in their account by clicking **[!UICONTROL Account Settings]** > **[!UICONTROL Manage Users]**. This page displays the user's permissions and what metrics and dashboards they have access to.
+At any time, `Admins` can view all the users in their account by clicking **[!UICONTROL Account Settings]** > **[!UICONTROL Manage Users]**. This page displays the user's permissions and which metrics and dashboards that they can access.

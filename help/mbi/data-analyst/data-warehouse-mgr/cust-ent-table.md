@@ -5,7 +5,7 @@ exl-id: 24bf0e66-eea0-45ea-8ce6-4ff99b678201
 ---
 # customer_entity Table
 
-The `customer_entity` table contains records of all registered accounts. An account is considered registered if they sign up for an account, regardless of whether or not they ever complete a purchase. Each row corresponds to one unique registered account, as identified by that account's `entity_id`.
+The `customer_entity` table contains records of all registered accounts. An account is considered registered if they sign up for an account, regardless of whether they ever complete a purchase. Each row corresponds to one unique registered account, as identified by that account's `entity_id`.
 
 This table does not contain records of customers who place an order via guest checkout. If your store accepts guest checkout, [learn how to account](../data-warehouse-mgr/guest-orders.md) for those customers.
 
@@ -13,7 +13,7 @@ This table does not contain records of customers who place an order via guest ch
 
 |**Column Name**|**Description**|
 |---|---|
-|`created_at`|Timestamp corresponding to the account's registration date, usually stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
+|`created_at`|Timestamp corresponding to the account's registration date, stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
 |`email`|Email address associated with the account|
 |`entity_id` (PK)|Unique identifier for the table, and commonly used in joins to the `customer_id` in other tables within the instance|
 |`group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the registered account|
@@ -47,7 +47,7 @@ This table does not contain records of customers who place an order via guest ch
 |`Avg lifetime orders`|The average number of orders placed per customer over their lifetime|Operation: Average<br/>Operand: `Customer's lifetime number of orders`<br/>Timestamp: `created_at`|
 |`Avg lifetime revenue`|The average total revenue per customer for all orders placed over their lifetime|Operation: Average<br/>Operand: `Customer's lifetime revenue`<br/>Timestamp: `created_at`|
 |`New customers`|The number of customers with at least one order, counted on the date of their first order. Excludes accounts who register but never place an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `Customer's first order date`|
-|`Registered accounts`|The number of accounts registered. Includes all registered accounts, regardless of whether or not the account ever placed an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `created_at`|
+|`Registered accounts`|The number of accounts registered. Includes all registered accounts, regardless of whether the account ever placed an order|Operation: Count<br/>Operand: `entity_id`<br/>Timestamp: `created_at`|
 
 {style="table-layout:auto"}
 
@@ -55,10 +55,10 @@ This table does not contain records of customers who place an order via guest ch
 
 `customer_group`
 
-*  Join to `customer_group` table to create new columns that return the customer group name of the registered account.
+*  Join to `customer_group` table to create columns that return the customer group name of the registered account.
    *  Path: `customer_entity.group_id` (many) => `customer_group.customer_group_id` (one)
 
 `store`
 
-*  Join to `store` table to create new columns that return details related to the  store associated with registered account.
+*  Join to `store` table to create columns that return details related to the  store associated with registered account.
    *  Path: `customer_entity.store_id` (many) => `store.store_id` (one)

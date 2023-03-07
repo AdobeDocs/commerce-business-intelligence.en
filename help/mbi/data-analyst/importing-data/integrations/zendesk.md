@@ -19,29 +19,29 @@ Connecting your [!DNL Zendesk] data is a simple three-step process:
 1. [Retrieve your [!DNL Zendesk] API Token](#steptwo)
 1. [Enter your [!DNL Zendesk] login info and Token in [!DNL MBI]](#stepthree)
 
-To complete this process, you will need to open two browser windows or tabs - one for [!DNL MBI], the other for your [!DNL Zendesk] account.
+To complete this process, you need to open two browser windows or tabs - one for [!DNL MBI], the other for your [!DNL Zendesk] account.
 
 ## Open the [!DNL Zendesk] credentials page in [!DNL MBI] {#stepone}
 
 1. Go to the `Integrations` page under **[!UICONTROL Manage Data** > **Data Sources** > **Integrations]**.
 1. Click **[!UICONTROL Add Integration]**, located on the right side of the screen.
-1. Click the [!DNL Zendesk] icon. This will open the [!DNL Zendesk] credentials page.
+1. Click the [!DNL Zendesk] icon. This opens the [!DNL Zendesk] credentials page.
 
 ## Retrieve your [!DNL Zendesk] API token {#steptwo}
 
 1. In the window/tab where you are logged into your [!DNL Zendesk] account, click the Settings (gear) icon in the bottom-left corner of the screen.
 1. When the `Settings` menu displays, locate the `Channels` section. Click **[!UICONTROL API]** in this section.
-1. In the `Token Access` section of this page, click the checkbox next to `Enabled`. A list of Active API Tokens will display.
+1. In the `Token Access` section of this page, click the checkbox next to `Enabled`. A list of Active API Tokens display.
 1. Click **[!UICONTROL Add New Token]**.
-1. When prompted, enter a label for the token. We recommend using `MBI`, so you will know, at a glance, what application is using the token.
+1. When prompted, enter a label for the token. Adobe recommends using `MBI`, so you know, at a glance, what application is using the token.
 1. Click **[!UICONTROL Create]**.
-1. An API token will be created. Copy this token; it will be used in the next step.
+1. An API token is created. Copy this token; it will be used in the next step.
 
 ## Enter [!DNL Zendesk] login info and API token into [!DNL MBI] {#stepthree}
 
 1. Enter your [!DNL Zendesk] site prefix and login email in the [!DNL Zendesk] credentials page in [!DNL MBI].
 1. Enter your API token.
-1. Click **[!UICONTROL Save & Connect]**. If the connection is successful, a *Connection Successful!* message will display at the top of the screen.
+1. Click **[!UICONTROL Save & Connect]**. If the connection is successful, a *Connection Successful!* message displays at the top of the screen.
 
 ## Related:
 

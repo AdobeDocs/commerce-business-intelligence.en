@@ -1,6 +1,6 @@
 ---
 title: Advanced Calculated Column Types
-description: Learn the basics for most use column cases -- but you may want calculated column that iss a bit more complex than what the Data Warehouse Manager can create.
+description: Learn the basics for most use column cases -- but you may want calculated column that is a bit more complex than what the Data Warehouse Manager can create.
 exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
 ---
 # Advanced Calculated Column Types
@@ -8,7 +8,7 @@ exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
 Many analyses you might attempt to create, involve the use of a **new column** that you want to `group by` or `filter by`. The [Creating Calculated Columns](../data-warehouse-mgr/creating-calculated-columns.md) tutorial covers the basics for most use cases, but you may want calculated column that is a bit more complex than what the Data Warehouse Manager can create.
 {: #top}
 
-These types of columns can be created by our team of Data Warehouse analysts. To define a new calculated column, provide us with the following information:
+These types of columns can be created by the Adobe team of Data Warehouse analysts. To define a new calculated column, provide us with the following information:
 
 1. The **`definition`** of this column (including inputs, formulas, or formatting)
 1. The **`table`** that you would like to create the column on
@@ -25,7 +25,7 @@ Here are some common examples of advanced calculated columns that users often fi
 
 ## I am trying to order events sequentially {#compareevents}
 
-We call this an **event number** calculated column. This means we are trying to find the sequence in which events occurred for a particular event owner, like a customer or user.
+This is called an **event number** calculated column. This means you are trying to find the sequence in which events occurred for a particular event owner, like a customer or user.
 
 Here is an example:
 
@@ -45,17 +45,17 @@ Want to see the Customer's order number column in action? Click the image to see
 
 ![Using an event number calculated column to Group By the customer's order number.](../../assets/EventNumber.gif)<!--{: style="max-width: 500px;"}-->
 
-To create this type of calculated column, we need to know:
+To create this type of calculated column, you need to know:
 
 * The table on which you would like to create this column
 * The field which identifies the owner of the events (`owner\_id` in this example)
 * The field by which you would like to order the events (`timestamp` in this example)
 
-[back to top](#top)
+[Back to top](#top)
 
 ## I am trying to find the time between two events. {#twoevents}
 
-We call this a `date difference` calculated column. This means we are trying to find the time between two events belonging to a single record, based on the event timestamps.
+This is called a `date difference` calculated column. This means you are trying to find the time between two events belonging to a single record, based on the event timestamps.
 
 Here's an example:
 
@@ -70,16 +70,16 @@ A date difference calculated column could be used to create a metric which calcu
 
 ![Using a date difference calculated column to calculate Average time to first order.](../../assets/DateDifference.gif)<!--{: style="max-width: 500px;"}-->
 
-To create this type of calculated column, we need to know:
+To create this type of calculated column, you need to know:
 
 * The table on which you would like to create this column
 * The two timestamps between which you want to know the difference
 
-[back to top](#top)
+[Back to top](#top)
 
 ## I am trying to compare sequential event values. {#sequence}
 
-We call this a **sequential event comparison**. This means we are trying to find the delta between a value (currency, number, timestamp) and the corresponding value for the owner's previous event.
+This is called a **sequential event comparison**. This means you are trying to find the delta between a value (currency, number, timestamp) and the corresponding value for the owner's previous event.
 
 Here is an example:
 
@@ -97,13 +97,13 @@ A sequential event comparison can be used to find the average or median time bet
 
 =![Using a sequential event comparison calculated column to calculate Average and Median time between orders.](../../assets/SeqEventComp.gif)<!--{: style="max-width: 500px;"}-->
 
-To create this type of calculated column, we need to know:
+To create this type of calculated column, you need to know:
 
 * The table on which you would like to create this column
 * The field which identifies the owner of the events (`owner\_id` in the example)
 * The value field which you would like to see the difference between for each sequential event (`timestamp` in this example)
 
-[back to top](#top)
+[Back to top](#top)
 
 ## I am trying to convert currency. {#currency}
 
@@ -118,14 +118,14 @@ Here is an example:
 
 {style="table-layout:auto"}
 
-To create this type of calculated column, we need to know:
+To create this type of calculated column, you need to know:
 
 * The table on which you would like to create this column
-* The transaction amount column you would like to convert
+* The transaction amount column that you would like to convert
 * The column which indicates the currency in which the data was recorded (typically an ISO code)
 * The preferred reporting currency
 
-[back to top](#top)
+[Back to top](#top)
 
 ## I am trying to convert timezones. {#timezone}
 
@@ -140,18 +140,18 @@ Here is an example:
 
 {style="table-layout:auto"}
 
-To create this type of calculated column, we need to know:
+To create this type of calculated column, you need to know:
 
 * The table on which you would like to create this column
-* The timestamp column you would like to convert
+* The timestamp column that you would like to convert
 * The timezone in which the data was recorded
 * The preferred reporting timezone
 
-[back to top](#top)
+[Back to top](#top)
 
 ## I am trying to do something not listed here. {#else}
 
-Not to worry. Just because it is not listed here does not mean it is not possible. Our team of Data Warehouse Analysts have you covered.
+Not to worry. Just because it is not listed here does not mean it is not possible. The Adobe team of Data Warehouse Analysts can help.
 
 To define a new calculated column, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) with details on exactly what you would like to build.
 

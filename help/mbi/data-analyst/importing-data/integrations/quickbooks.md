@@ -27,7 +27,7 @@ After clicking **[!UICONTROL Connect to Quickbooks]**, log into your [!DNL Intui
 ![](../../../assets/QuickBooks_App_Store_1.jpg)
 
 1. In the `Search for a company` dropdown, select your company.
-1. Click **[!UICONTROL Next]**. You are redirected to [!DNL MBI] and a *Connection Successful!* message will display at the top of the screen.
+1. Click **[!UICONTROL Next]**. You are redirected to [!DNL MBI] and a *Connection Successful!* message displays at the top of the screen.
 
 ## Related
 

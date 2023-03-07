@@ -5,7 +5,7 @@ exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
 ---
 # Advanced Coupon Code Analysis
 
-Understanding the coupon performance of your business is an interesting way to segment your orders and also better understand your customers. This article will walk you through the steps to create analyses to understand which customers you acquire through the use of coupons, how they perform and track general coupon usage.
+Understanding the coupon performance of your business is an interesting way to segment your orders and also better understand your customers. This article walks you through the steps to create analyses to understand which customers you acquire by using coupons, how they perform and track general coupon usage.
 
 ![](../../assets/coupon_analysis_-_analysis_library.png)<!--{: width="800" height="375"}-->
 
@@ -29,8 +29,8 @@ Columns to create regardless of guest orders policy:
   * [!UICONTROL Inputs]:
     * `A`: `coupon\_code`
 
-  * [!UICONTROL Datatype]:: `String`
-  * [!UICONTROL Calculation]:: case when `A` is null then `No coupon` else `Coupon` end
+  * [!UICONTROL Datatype]: `String`
+  * [!UICONTROL Calculation]: case when `A` is null then `No coupon` else `Coupon` end
 
 * **\[INPUT\] customer\_id - coupon code**
    * [!UICONTROL Column type]: `Same Table => CALCULATION`
@@ -38,8 +38,8 @@ Columns to create regardless of guest orders policy:
     * `A`: `customer\_id`
     * `B`: `coupon\_code`
 
-  * [!UICONTROL Datatype]:: String
-  * [!UICONTROL Calculation]:: `concat(A,' - ',B)`
+  * [!UICONTROL Datatype] String
+  * [!UICONTROL Calculation]: `concat(A,' - ',B)`
 
 * **Number of orders with this coupon**
    * [!UICONTROL Column type]: `Same Table => EVENT\_NUMBER`
@@ -73,13 +73,13 @@ Additional columns to create if guest orders NOT supported:
       * `A`: `Orders we count`
       * `B`: `Order has coupon applied? (Coupon/No coupon) = Coupon`
 
-  * **Coupon acquisition customer or Non coupon acquisition customer**
+  * **Coupon acquisition customer or Non-coupon acquisition customer**
     * [!UICONTROL Column type]: `Same Table => CALCULATION`
     * [!UICONTROL Inputs]:
       * `A`: `Customer's first order included a coupon? (Coupon/No coupon)`
 
-    * [!UICONTROL Datatype]:: `String`
-    * [!UICONTROL Calculation]:: **case when A='Coupon' then 'Coupon acquisition customer' else 'Non coupon acquisition customer' end**
+    * [!UICONTROL Datatype]: `String`
+    * [!UICONTROL Calculation]: **case when A='Coupon' then 'Coupon acquisition customer' else 'Non-coupon acquisition customer' end**
 
   * **Percent of customer's orders with coupon**
     * [!UICONTROL Column type]: `Same Table => CALCULATION`
@@ -87,16 +87,16 @@ Additional columns to create if guest orders NOT supported:
       * `A`: `User's lifetime number of coupons used`
       * `B`: `User's lifetime number of orders`
 
-    * [!UICONTROL Datatype]:: `Decimal`
-    * [!UICONTROL Calculation]:: **case when A is null or B is null or B=0 then null else A/B end**
+    * [!UICONTROL Datatype]: `Decimal`
+    * [!UICONTROL Calculation]: **case when A is null or B is null or B=0 then null else A/B end**
 
   * **Customer's coupon usage**
     * [!UICONTROL Column type]: `Same Table => Calculation`
     * [!UICONTROL Inputs]:
       * `A`: `Percent of customer's orders with coupon`
 
-    * [!UICONTROL Datatype]:: `String`
-    * [!UICONTROL Calculation]:: **case when A is null then null when A=0 then 'Never used coupon' when A<0.5 then 'Mostly full price' when A=0.5 then '50/50' when A=1 then 'Coupons only' when A>0.5 then 'Mostly coupon' else 'Undefined' end**
+    * [!UICONTROL Datatype]: `String`
+    * [!UICONTROL Calculation]: **case when A is null then null when A=0 then 'Never used coupon' when A<0.5 then 'Mostly full price' when A=0.5 then '50/50' when A=1 then 'Coupons only' when A>0.5 then 'Mostly coupon' else 'Undefined' end**
 
 * `sales\_flat\_order` table
   * **Customer's first order included coupon? (Coupon/No coupon)**
@@ -117,13 +117,13 @@ Additional columns to create if guest orders NOT supported:
   * **Customer's first order's coupon **{::}**-** created by analyst as part of your \[COUPON ANALYSIS\] ticket
 
 * **Customer's lifetime number of coupons used **{::}**-** created by analyst as part of your \[COUPON ANALYSIS\] ticket
-* **Coupon acquisition customer or Non coupon acquisition customer**
+* **Coupon acquisition customer or Non-coupon acquisition customer**
    * [!UICONTROL Column type]: `Same Table => CALCULATION`
   * [!UICONTROL Inputs]:
     * `A`: `Customer's first order included a coupon? (Coupon/No coupon)`
 
-  * [!UICONTROL Datatype]:: `String`
-  * [!UICONTROL Calculation]:: **case when A='Coupon' then 'Coupon acquisition customer' else 'Non coupon acquisition customer' end**
+  * [!UICONTROL Datatype]: `String`
+  * [!UICONTROL Calculation]: **case when A='Coupon' then 'Coupon acquisition customer' else 'Non-coupon acquisition customer' end**
 
 * **Percent of customer's orders with coupon**
    * [!UICONTROL Column type]: `Same Table => CALCULATION`
@@ -131,16 +131,16 @@ Additional columns to create if guest orders NOT supported:
     * `A`: `User's lifetime number of coupons used`
     * `B`: `User's lifetime number of orders`
 
-  * [!UICONTROL Datatype]:: `Decimal`
-  * [!UICONTROL Calculation]:: **case when A is null or B is null or B=0 then null else A/B end**
+  * [!UICONTROL Datatype]: `Decimal`
+  * [!UICONTROL Calculation]: **case when A is null or B is null or B=0 then null else A/B end**
 
 * **Customer's coupon usage**
    * [!UICONTROL Column type]: `Same Table => Calculation`
   * [!UICONTROL Inputs]:
     * `A`: `Percent of customer's orders with coupon`
 
-  * [!UICONTROL Datatype]:: `String`
-  * [!UICONTROL Calculation]:: **case when A is null then null when A=0 then 'Never used coupon' when A<0.5 then 'Mostly full price' when A=0.5 then '50/50' when A=1 then 'Coupons only' when A>0.5 then 'Mostly coupon' else 'Undefined' end**
+  * [!UICONTROL Datatype]: `String`
+  * [!UICONTROL Calculation]: **case when A is null then null when A=0 then 'Never used coupon' when A<0.5 then 'Mostly full price' when A=0.5 then '50/50' when A=1 then 'Coupons only' when A>0.5 then 'Mostly coupon' else 'Undefined' end**
 
 ## Metrics
 
@@ -219,7 +219,7 @@ Additional columns to create if guest orders NOT supported:
 
 >[!NOTE]
 >
->If you have a large number of coupon codes, as many of our clients do, you will want to apply a Top/Bottom such as Top 10 sorted by Avg lifetime revenue
+>If you have many coupon codes, as many clients do, you want to apply a Top/Bottom such as Top 10 sorted by Avg lifetime revenue
 
 * **Repeat order probablility: Coupon acquisitions**
   * [!UICONTROL Metric]: `Number of orders`
@@ -233,7 +233,7 @@ Additional columns to create if guest orders NOT supported:
   * [!UICONTROL Formula]: `B/A`
   * [!UICONTROL Format]: `Percentage %`
 
-  * Select statistically significant number from `Customer's by lifetime orders` chart. When looking at the chart, as a good rule we typically look for order numbers with 30 or more customers in the bucket. Depending on your data set, this may be a large number so feel free to add 1-10.
+  * Select statistically significant number from `Customer's by lifetime orders` chart. When looking at the chart, as a good rule is to look for order numbers with 30 or more customers in the bucket. Depending on your data set, this may be a large number so feel free to add 1-10.
 
 * Metric `A`: `Number of orders`
 * Metric `B`: `Number of non last orders`
@@ -269,7 +269,7 @@ Additional columns to create if guest orders NOT supported:
 * **Coupon-acquired customers' coupon usage rate (repeat orders)**
   * [!UICONTROL Metric]: `New customers`
   * [!UICONTROL Filter]:
-     * Coupon acquisition customer or Non coupon acquisition customer = Coupon acquisition
+     * Coupon acquisition customer or Non-coupon acquisition customer = Coupon acquisition
 
   * [!UICONTROL Metric]: `Number of orders`
   * [!UICONTROL Filter]:
@@ -296,7 +296,7 @@ Additional columns to create if guest orders NOT supported:
 * **Non-coupon-acquired customers' coupon usage rate (repeat orders)**
   * [!UICONTROL Metric]: `New customers`
   * [!UICONTROL Filter]:
-     * Coupon acquisition customer or Non coupon acquisition customer = Non coupon acquisition
+     * Coupon acquisition customer or Non-coupon acquisition customer = Non-coupon acquisition
 
   * [!UICONTROL Metric]: `Number of orders`
   * [!UICONTROL Filter]:
@@ -450,6 +450,6 @@ Additional columns to create if guest orders NOT supported:
 >
 >The quantity of 10 for "Number of orders with this coupon" is arbitrary. Feel free to use the most appropriate quantity for this filter.
 
-After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page.
+After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the image at the top of the page.
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

@@ -7,13 +7,13 @@ exl-id: 556c854b-5d7c-4f72-8ed7-5bc08d9ee5b9
 
 When [!DNL MBI] pulls in [!DNL MongoDB] data, that data is translated into a relational model.
 
-The bad news: While the majority of data patterns do not pose an issue, there are a few that, because of the translation to a relational model, [!DNL MBI] does not support.
+The bad news: While most data patterns do not pose an issue, there are a few that, because of the translation to a relational model, [!DNL MBI] does not support.
 
 The good news: All these patterns can be avoided.
 
-## Sub-nested Arrays {#subnested}
+## Subnested Arrays {#subnested}
 
-If your collection looks like the example below, [!DNL MBI] will only replicate the data in the items array. Data from the subitems array will not be pulled.
+If your collection looks like the example below, [!DNL MBI] only replicates the data in the items array. Data from the subitems array are not pulled.
 
 ```bash
     {
@@ -48,7 +48,7 @@ Collections that include objects with variable object keys are not replicated in
     }
 ```
 
-This usually occurs where an object is being used and an array would be more appropriate. Now, we will rework the above example:
+This usually occurs where an object is being used and an array would be more appropriate. Now, rework the above example:
 
 ```bash
     {

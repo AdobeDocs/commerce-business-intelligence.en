@@ -5,7 +5,7 @@ exl-id: e0cce957-af2c-4514-9afd-c9aaa651a4f0
 ---
 # Onboarding
 
-The onboarding questions related to `store` and `database` settings ensure that we set up your reporting correctly. With these answers, we will deliver your reports that are precisely tailored to your store's setup.
+The onboarding questions related to `store` and `database` settings ensure that you set up your reporting correctly. With these answers, Adobe delivers your reports that are precisely tailored to your store's setup.
 
 ## Store settings
 
@@ -19,7 +19,7 @@ The onboarding questions related to `store` and `database` settings ensure that 
 
 -  *Which version of Commerce do you use?* - Select the `currency` that your store operates in.
 
--  *Is your store based in the European Union?* - If you answer `Yes` to this question, we will host your Data Warehouse and all of your data in the European Union, in compliance with GDPR.
+-  *Is your store based in the European Union?* - If you answer `Yes` to this question, Adobe host your Data Warehouse and all of your data in the European Union, in compliance with GDPR.
 
 ## Database settings
 

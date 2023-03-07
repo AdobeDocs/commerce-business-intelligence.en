@@ -19,13 +19,13 @@ exl-id: 53765844-c9bb-4a16-b00c-ce9672f87415
 
 >[!NOTE]
 >
->We strongly recommend you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL MBI] to your database using the instructions in this article.
+>Adobe recommends you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL MBI] to your database using the instructions in this article.
 
-In this article, we walk you through directly connecting your MySQL database to [!DNL MBI]. These settings can also be used with Commerce or any other eCommerce databases that use MySQL.
+This article walks you through directly connecting your MySQL database to [!DNL MBI]. These settings can also be used with Commerce or any other eCommerce databases that use MySQL.
 
 ## Allow access to the [!DNL MBI] IP addresses {#allowlist}
 
-For the connection to be successful, your must configure your firewall to allow access from our IP addresses. They are `54.88.76.97` and `34.250.211.151`, but it is also on the MySQL credentials page:
+For the connection to be successful, you must configure your firewall to allow access from your IP addresses. They are `54.88.76.97` and `34.250.211.151`, but it is also on the MySQL credentials page:
 
 ![MBI_Allow_Access_IPs.png](../../../assets/MBI_allow_access_IPs.png)
 
@@ -39,11 +39,11 @@ The simplest way to create a `MySQL` user for [!DNL MBI] is to execute the follo
 
 To restrict this user from accessing data in specific databases, tables, or columns, you can instead run `GRANT` queries that only allow access to the data you permit.
 
-**Re-run the GRANT query for all required IPs using the same user and password.**
+**Rerun the GRANT query for all required IPs using the same user and password.**
 
 ## Enter connection info in MBI
 
-To wrap things up, we need to enter the connection and user info into [!DNL MBI]. Did you leave the MySQL credentials page open? If not, go to **[!UICONTROL Data** > **Connections]** and click **[!UICONTROL Add New Data Source]**, then the MySQL icon. Do not forget to change the `Encrypted` toggle to `Yes`.
+To wrap things up, you need to enter the connection and user info into [!DNL MBI]. Did you leave the MySQL credentials page open? If not, go to **[!UICONTROL Data** > **Connections]** and click **[!UICONTROL Add New Data Source]**, then the MySQL icon. Do not forget to change the `Encrypted` toggle to `Yes`.
 
 Enter the following info into this page, starting with the `Database Connection` section:
 
@@ -51,9 +51,9 @@ Enter the following info into this page, starting with the `Database Connection`
 * `Username`: The username for the [!DNL MBI] MySQL user
 * `Password`: The password for the [!DNL MBI] MySQL user
 * `Port`: MySQL's port on your server (`3306` by default)
-* `Host`: By default, this will be localhost. In general, it will be the bind-address value for your MySQL server, which by default is `127.0.0.1 (localhost)`, but could also be some local network address (for example, `192.168.0.1`) or your server's public IP address.
+* `Host`: By default, this is localhost. In general, it is the bind-address value for your MySQL server, which by default is `127.0.0.1 (localhost)`, but could also be some local network address (for example, `192.168.0.1`) or your server's public IP address.
 
-   The value can be found in your `my.cnf` file (usually located at `/etc/my.cnf`) underneath the line that reads `\[mysqld\]`. If the bind-address line is commented out in that file, your server is secured from outside connection attempts.
+   The value can be found in your `my.cnf` file (located at `/etc/my.cnf`) underneath the line that reads `\[mysqld\]`. If the bind-address line is commented out in that file, your server is secured from outside connection attempts.
 
 That is it! When you are finished, click **[!UICONTROL Save & Test]** to complete the setup.
 

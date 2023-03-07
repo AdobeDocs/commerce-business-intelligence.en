@@ -11,9 +11,9 @@ exl-id: 1af79b9e-77ff-4fc6-917a-4e6743b95035
 * [Handy reference map](#map)
 * [Advanced calculated columns](#advanced)
 
-Within the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), you have the ability to create columns to augment and optimize your data for analysis. [This functionality](../data-warehouse-mgr/creating-calculated-columns.md) can be accessed by selecting any table in the Data Warehouse Manager and clicking **[!UICONTROL Create New Column]**.
+Within the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), you can create columns to augment and optimize your data for analysis. [This functionality](../data-warehouse-mgr/creating-calculated-columns.md) can be accessed by selecting any table in the Data Warehouse Manager and clicking **[!UICONTROL Create New Column]**.
 
-This article describes the types of columns that you can create with the Data Warehouse Manager, along with a description, a visual walk through of that column, and a [reference map](#map) of all the inputs required to create a column. There are three ways to create calculated columns:
+This article describes the types of columns that you can create with the Data Warehouse Manager. It also covers the description, a visual walk-through of that column, and a [reference map](#map) of all the inputs required to create a column. There are three ways to create calculated columns:
 
 * [Same table calculated columns](#sametable)
 * [One-to-many calculated columns](#onetomany)
@@ -27,7 +27,7 @@ These columns are built using input columns from the same table.
 
 An age calculated column returns the number of seconds between the current time and some input time.
 
-In the example below, we created `Seconds since customer's most recent order` in the `customers` table. This can be leveraged to construct user lists of customers who have not made purchases (sometimes referred to as churning) within `X days`.
+The example below creates `Seconds since customer's most recent order` in the `customers` table. This can be used to construct user lists of customers who have not made purchases (sometimes referred to as churning) within `X days`.
 
 ![](../../assets/age.gif)
 
@@ -35,7 +35,7 @@ In the example below, we created `Seconds since customer's most recent order` in
 
 A currency converter calculated column converts the native currency of a column to a desired new currency.
 
-In the example below, we created `base\_grand\_total In AED`, converting the `base\_grand\_total` from it is native currency to AED in the `sales\_flat\_order` table. This column works well for stores with multiple currencies that want to report in their local currency.
+The example below creates `base\_grand\_total In AED`, converting the `base\_grand\_total` from it is native currency to AED in the `sales\_flat\_order` table. This column works well for stores with multiple currencies that want to report in their local currency.
 
 For Commerce clients, the `base\_currency\_code` field typically stores native currencies. The `Spot Time` field should match the date used in your metrics.
 
@@ -43,7 +43,7 @@ For Commerce clients, the `base\_currency\_code` field typically stores native c
 
 ## One-to-many calculated columns {#onetomany}
 
-`One-to-Many` columns [utilize a path between two tables](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). This path always implies a one table, where an attribute lives, and a many table, where that attribute gets "relocated" down to. The path can be described as a `foreign key--primary key` relationship.
+`One-to-Many` columns [use a path between two tables](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). This path always implies a one table, where an attribute lives, and a many table, where that attribute gets "relocated" down to. The path can be described as a `foreign key--primary key` relationship.
 
 ### Joined column {#joined}
 
@@ -55,7 +55,7 @@ In the example below, the `Customer's group\_id` dimension gets joined down into
 
 ## Many-to-one calculated columns {#manytoone}
 
-These columns utilize the same paths that one-to-many columns do, but they point data in the opposite direction. The column gets created on the one side of the path, as opposed to the many side. Because of this relationship, the value in the column needs to be an aggregation, that is, a mathematical operation performed on the data points on the many side. There are many use cases for this, and a few are listed below.
+These columns use the same paths that one-to-many columns do, but they point data in the opposite direction. The column gets created on the one side of the path, as opposed to the many side. Because of this relationship, the value in the column needs to be an aggregation, that is, a mathematical operation performed on the data points on the many side. There are many use cases for this, and a few are listed below.
 
 ### Count {#count}
 
@@ -79,7 +79,7 @@ This can be used to create customer-level dimensions like `Customer's first orde
 
 ### Exists {#exists}
 
-An exists calculated column is a binary test determining the presence of a record on the many side. In other words, the new column will return a `1` if the path connects at least one row in each table, and `0` if no connection can be made.
+An exists calculated column is a binary test determining the presence of a record on the many side. In other words, the new column returns a `1` if the path connects at least one row in each table, and `0` if no connection can be made.
 
 This type of dimension might determine, for example, if a customer ever purchased a particular product. Using a join between a `customers` table and `orders` table, a filter for a specific product, a dimension `Customer has purchased Product X?` can be built.
 
@@ -91,9 +91,9 @@ If you are having a little trouble remembering what all the inputs are when crea
 
 ## Advanced calculated columns {#advanced}
 
-In your quest to analyze and answer questions about your business, you may encounter a situation where you are unable to build the exact column you want. In these cases, we have got you covered!
+In your quest to analyze and answer questions about your business, you may encounter a situation where you are unable to build the exact column you want. 
 
-To ensure a speedy turnaround, we recommend checking out the [Advanced Calculated Column Types](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) guide to see what kind of columns our support team can build. In that article, we also cover the info we will need from you to create the column - please include it with your request.
+To ensure a speedy turnaround, Adobe recommends checking out the [Advanced Calculated Column Types](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) guide to see what kind of columns the Adobe support team can build. That article also covers the info that you need from you to create the column - include it with your request.
 
 ## Related documentation
 

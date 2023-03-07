@@ -1,6 +1,6 @@
 ---
 title: Connect Facebook Ads
-description: Learn to to analyze your ad spend data and see if your money is being spent effectively.
+description: Learn to analyze your ad spend data and see if your money is being spent effectively.
 exl-id: 219a868b-f17c-4299-9e29-94db9156c9b6
 ---
 # Connect [!DNL Facebook Ads]
@@ -23,7 +23,7 @@ Connecting your Facebook ad data to [!DNL MBI] is a simple three-step process:
 
 1. To add the [!DNL Facebook] integration to your account, navigate to the `Connections` page under **[!UICONTROL Manage Data** > **Integrations]**.
 1. Click **[!UICONTROL Add Integration]**, located on the right side of the screen above the Data `Sources` table.
-1. Click the [!DNL Facebook] icon. This will display the [!DNL Facebook] authorization page.
+1. Click the [!DNL Facebook] icon. This displays the [!DNL Facebook] authorization page.
 1. Click **[!UICONTROL Authorize]**.
 
 ## Allow [!DNL MBI] access to your [!DNL Facebook Ads] data {#steptwo}
@@ -32,7 +32,7 @@ After clicking **[!DNL Facebook Authorize]**, a small pop-up window will display
 
  ![](../../../assets/Facebook_Access_Popup.png)
 
-You will follow a series of steps to allow [!DNL MBI] to access data from your Public Profile, [!DNL Facebook Ads] and related stats. Click **[!UICONTROL OK]** on these steps to continue.
+You follow a series of steps to allow [!DNL MBI] to access data from your Public Profile, [!DNL Facebook Ads] and, related stats. Click **[!UICONTROL OK]** on these steps to continue.
 
 ## Select [!DNL Facebook Ads] Accounts for pulling data {#stepthree}
 
@@ -42,11 +42,11 @@ You will follow a series of steps to allow [!DNL MBI] to access data from your P
 
 1. Click **[!UICONTROL Save Connections]**.
 
-   If the connection is successful, a *Connection Successful!* message will display at the top of the page.
+   If the connection is successful, a *Connection Successful!* message displays at the top of the page.
 
-## what is next? {#next}
+## What is next? {#next}
 
-Make sure that you are tracking [!DNL Facebook] campaigns in [!DNL Google Analytics]. This will ensure that the `utm\_campaign` field in [!DNL Google Analytics] is properly populated for your [!DNL Facebook] campaigns.
+Make sure that you are tracking [!DNL Facebook] campaigns in [!DNL Google Analytics]. This ensures that the `utm\_campaign` field in [!DNL Google Analytics] is properly populated for your [!DNL Facebook] campaigns.
 
 ## Related
 
@@ -54,7 +54,7 @@ Make sure that you are tracking [!DNL Facebook] campaigns in [!DNL Google Analyt
 * [Connect your [!DNL Google Adwords] account](../integrations/google-ecommerce.md)
 * [Track order referral source via [!DNL Google eCommerce]](../integrations/google-ecommerce.md)
 * [Track user referral source in your database](../../analysis/google-track-user-acq.md)
-* [Track user device, browser and OS data in your database](../../analysis/track-usr-dev-browser.md)
+* [Track user device, browser, and OS data in your database](../../analysis/track-usr-dev-browser.md)
 * [Discover your most valuable acquisition sources and channels](../../analysis/most-value-source-channel.md)
 * [Increase ROI on your advertising campaigns](../../analysis/roi-ad-camp.md)
 * [How does [!DNL Google Analytics] UTM attribution work?](../../analysis/utm-attributes.md)

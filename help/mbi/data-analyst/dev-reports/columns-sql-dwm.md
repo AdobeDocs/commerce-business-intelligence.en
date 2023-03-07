@@ -5,7 +5,7 @@ exl-id: 31dd7a04-5c03-4399-b67e-f51703eb9fea
 ---
 # Differences Between SQL and Data Warehouse Manager
 
-There are two key differences between columns created in the [SQL Report Builder](../dev-reports/sql-rpt-bldr.md) and those created using the [Data Warehouse Manager](../data-warehouse-mgr/creating-calculated-columns.md): one is the dependency on update cycles, the other is how columns are saved in your account.
+There are two key differences between columns created in the [SQL Report Builder](../dev-reports/sql-rpt-bldr.md) and those created using the [Data Warehouse Manager](../data-warehouse-mgr/creating-calculated-columns.md). One is the dependency on update cycles, and the other is how columns are saved in your account.
 
 ## Columns in the `SQL Report Builder`
 
@@ -17,4 +17,4 @@ Columns are not dependent on update cycles, so you no longer have to wait for on
 
 ## Columns in the Data Warehouse Manager
 
-Columns are dependent on update cycles, so a full cycle must complete before they can be edited. These columns are saved to the Data Warehouse Manager and can be used in the traditional `Report Builder` or `SQL Report Builder`.
+Columns depend update cycles, so a full cycle must complete before they can be edited. These columns are saved to the Data Warehouse Manager and can be used in the traditional `Report Builder` or `SQL Report Builder`.

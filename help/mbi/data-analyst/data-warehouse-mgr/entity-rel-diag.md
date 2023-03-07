@@ -9,7 +9,7 @@ What is an **[!UICONTROL entity relationship (ER) diagram]**? An `ER` diagram is
 
 >[!NOTE]
 >
->Throughout this article you will see the words **join**, **relationship** and **path**. These words are all used to describe how two tables are connected.
+>Throughout this article, you see the words **join**, **relationship**, and **path**. These words are all used to describe how two tables are connected.
 
 ## Core Commerce `ER` Diagram
 
@@ -29,7 +29,7 @@ One customer can place many orders. The relationship between these two tables is
 >
 >`customer\_entity.entity\_id` does not equal `sales\_flat\_order.entity\_id`. The first can be thought of as a `customer\_id` and the second can be thought of as an `order\_id.` 
 
-Within [!DNL MBI], if the path between these two tables does not already exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
+Within [!DNL MBI], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
 
 ![](../../assets/SFO___CE_path.png)
 
@@ -39,7 +39,7 @@ Within [!DNL MBI], if the path between these two tables does not already exist, 
 
 One order can contain many items. The relationship between these two tables is `sales\_flat\_order.entity\_id = sales\_flat\_order\_item.order\_id`.
 
-Within [!DNL MBI], if the path between these two tables does not already exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
+Within [!DNL MBI], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
 
 ![](../../assets/SFOI___SFO_path.png)
 
@@ -49,6 +49,6 @@ Within [!DNL MBI], if the path between these two tables does not already exist, 
 
 One product can be purchased many items. The relationship between these two tables is `catalog\_product\_entity.entity\_id = sales\_flat\_order\_item.product`.
 
-Within [!DNL MBI], if the path between these two tables does not already exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it will be defined as follows:
+Within [!DNL MBI], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
 
 ![](../../assets/SFOI___CPE_path.png)

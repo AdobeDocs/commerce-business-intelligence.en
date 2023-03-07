@@ -5,17 +5,17 @@ exl-id: 3754151c-4b0f-4238-87f2-134b8409e32b
 ---
 # Reporting on a Retail Calendar
 
-In this article, we demonstrate how to set up the structure to use a [4-5-4 retail calendar](https://nrf.com/resources/4-5-4-calendar) within your [!DNL MBI] account. The visual report builder provides incredibly flexible time ranges, intervals and independent settings. Our team is also able to help you change the start day of the week to align with your business preferences. However, all of these settings work with the traditional monthly calendar in place.
+This article demonstrates how to set up the structure to use a [4-5-4 retail calendar](https://nrf.com/resources/4-5-4-calendar) within your [!DNL MBI] account. The visual report builder provides incredibly flexible time ranges, intervals, and independent settings. However, all of these settings work with the traditional monthly calendar in place.
 
-Because many of our customers alter their calendar to use retail or accounting dates, the below steps will illustrate how to work with your data and create reports using retail dates. Though the below instructions will reference the 4-5-4 Retail calendar, you can alter them for any specific calendar your team uses, whether it be financial or just a custom time frame.
+Because many customers alter their calendar to use retail or accounting dates, the below steps illustrate how to work with your data and create reports using retail dates. Though the below instructions reference the 4-5-4 Retail calendar, you can alter them for any specific calendar your team uses, whether it be financial or just a custom time frame.
 
-Before getting started, you want to familiarize yourself with [the File Uploader](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) and ensure that you have elongated the `.csv` file so that the dates cover all of your historical data as well as push the dates into the future.
+Before getting started, you need to familiarize yourself with [the File Uploader](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) and ensure that you have elongated the `.csv` file. This ensures that the dates cover all of your historical data and push the dates into the future.
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Getting Started
 
-You can [download](../../assets/454-calendar.csv) a `.csv` version of the 4-5-4 retail calendar for retail years 2014 through 2017. Note that you may need to adjust this file according to your internal retail calendar as well as extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your [!DNL MBI] data warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
+You can [download](../../assets/454-calendar.csv) a `.csv` version of the 4-5-4 retail calendar for retail years 2014 through 2017. You may need to adjust this file according to your internal retail calendar and extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your [!DNL MBI] Data Warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
 
 | Column Name | Column Datatype | Primary Key |
 | --- | --- | --- |
@@ -81,8 +81,8 @@ You can [download](../../assets/454-calendar.csv) a `.csv` version of the 4-5-4 
    * **Created\_at (retail week)**
       * [!UICONTROL Column type]: `One to Many > JOINED\_COLUMN`
       * Path -
-         * [!UICONTROL Many]:sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00
-         * [!UICONTROL One]:Retail Calendar.Date Retai
+         * [!UICONTROL Many]: sales\_order.\[INPUT\] created\_at (yyyy-mm-dd 00:00:00
+         * [!UICONTROL One]: Retail Calendar.Date Retail
       * Select a [!UICONTROL table]: `Retail Calendar`
       * Select a [!UICONTROL column]: `Week Retail`
    * **Created\_at (retail month)**
@@ -170,8 +170,8 @@ Note: No new metrics are needed for this analysis. However, make sure to [add th
 
 ## Next Steps
 
-The above describes how to configure a retail calendar to be compatible with any metric built on your `sales\_order` table (for example,`Revenue` and `Orders`), but you can also extend this to support the retail calendar for metrics built on any table. The only requirement is that this table has a valid datetime field that can be used to join to the Retail Calendar table.
+The above describes how to configure a retail calendar to be compatible with any metric built on your `sales\_order` table (such as `Revenue` or `Orders`). You can also extend this to support the retail calendar for metrics built on any table. The only requirement is that this table has a valid datetime field that can be used to join to the Retail Calendar table.
 
-So for example, to view customer level metrics on a 4-5-4 retail calendar, create a new `Same Table` calculation in the `customer\_entity` table, similar to `\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)` described above. You can then use this column to reproduce all of the `One to Many` JOINED\_COLUMN calculations (like `Created_at (retail year)` and `Include in previous retail year? (Yes/No)` by joining the `customer\_entity` table to the `Retail Calendar` table.
+So for example, to view customer level metrics on a 4-5-4 retail calendar, create a `Same Table` calculation in the `customer\_entity` table, similar to `\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)` described above. You can then use this column to reproduce the `One to Many` JOINED\_COLUMN calculations (like `Created_at (retail year)` and `Include in previous retail year? (Yes/No)` by joining the `customer\_entity` table to the `Retail Calendar` table.
 
 Do not forget to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.

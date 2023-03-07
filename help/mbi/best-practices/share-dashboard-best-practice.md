@@ -9,7 +9,7 @@ Sharing dashboards means you and your team possess the same information at any g
 
 ## Avoid Duplicate Dashboards
 
-At times, you may find multiple dashboards with the same name - this is usually because other users have created and shared similar dashboards with you. These dashboards could be duplicates of a primary copy. In this case, we recommend you have one user share the primary copy of the dashboard and then remove all duplicate dashboards.
+At times, you may find multiple dashboards with the same name - this is usually because other users have created and shared similar dashboards with you. These dashboards could be duplicates of a primary copy. In this case, Adobe recommends you have one user share the primary copy of the dashboard and then remove all duplicate dashboards.
 
 To see who owns a dashboard, click the dashboard dropdown on the top left. Any dashboards that do not have a name below them belong to you.
 
@@ -28,12 +28,12 @@ When new users are created, they do not own any dashboards or charts. They will,
 
 ## Share Dashboards with New Users
 
-New users may also benefit from access to some dashboards that are not shared organization-wide. In these cases, we recommend that dashboard owners [share the relevant dashboards](../data-user/dashboards/share-dashboard-with-users.md) with new users as soon as their accounts are created.
+New users may also benefit from access to some dashboards that are not shared organization-wide. In these cases, Adobe recommends that dashboard owners [share the relevant dashboards](../data-user/dashboards/share-dashboard-with-users.md) with new users when their accounts are created.
 
 ## Be Selective with Edit Permissions
 
-`Edit` permissions give users a lot of power. But with great power comes great responsibility. To prevent accidental changes to your charts and dashboards, we recommend that you are selective about who you give `Edit` permissions to.
+`Edit` permissions give users a lot of power. But with great power comes great responsibility. To prevent accidental changes to your charts and dashboards, Adobe recommends that you are selective about who you give `Edit` permissions to.
 
 ## Annotate Your Charts
 
-Sharing a dashboard merely gives users access to the same information. To ensure that information is understood, we recommend using the chart notes feature to share knowledge and nuances about a specific data point or to convey the purpose of an analysis.
+Sharing a dashboard merely gives users access to the same information. To ensure that information is understood, Adobe recommends using the chart notes feature to share knowledge and nuances about a specific data point or to convey the purpose of an analysis.

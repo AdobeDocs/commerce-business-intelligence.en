@@ -21,7 +21,7 @@ Before you begin this tutorial, refer to the following terminology used in the `
 >
 >Dates and timestamps can also be used as `Categories`. They are just another column of data in your query and must be formatted and ordered as desired in the query itself.
 
-- `Labels`: These are applied as x-axis labels. When analyzing data trending over time, the year and month columns are generally specified as labels. More than one column can be set to be Label.
+- `Labels`: These are applied as x-axis labels. When analyzing data trending over time, the year and month columns are specified as labels. More than one column can be set to be Label.
 
 ## Step 1: Write the Query
 
@@ -29,7 +29,7 @@ Keep in mind the following:
 
 - The `SQL Report Builder` uses [`Redshift SQL`](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html).
 
-- If you are creating a report with a time series, be sure to `ORDER BY` the timestamp column(s). This will ensure that the timestamps are plotted in the right order on the report.
+- If you are creating a report with a time series, be sure to `ORDER BY` the timestamp column(s). This ensures that the timestamps are plotted in the right order on the report.
 
 - The `EXTRACT` function is great to use for parsing out the day, week, month, or year of the timestamp. This is useful when the `time interval` you want to use on the report is `daily`, `weekly`, `monthly`, or `yearly`.
 
@@ -54,17 +54,17 @@ This query returns this table of results:
 
 ## Step 2: Create the Visualization
 
-With these results, *how do you create the visualization?* To get started, click the **[!UICONTROL Chart]** tab in the `Results` pane. This will display the `Chart settings` tab.
+With these results, *how do you create the visualization?* To get started, click the **[!UICONTROL Chart]** tab in the `Results` pane. This displays the `Chart settings` tab.
 
 When a query is first executed, the report may look inscrutable because all columns in the query are plotted as a series:
 
 ![](../assets/SQL_initial_report_results.png)
 
-For this example, we want this to be a line chart that trends over time. To create it, use these settings:
+For this example, you want this to be a line chart that trends over time. To create it, use these settings:
 
-- `Series`: Select the `Items sold` column as the `Series` since we want to measure it. After you define a `Series` column, you'll see a single line plotted in the report.
+- `Series`: Select the `Items sold` column as the `Series` since you want to measure it. After you define a `Series` column, you'll see a single line plotted in the report.
 
-- `Category`: For this example, we want to view each product as a different line in the report. To do this, we set `Product name` as the `Category`.
+- `Category`: For this example, you want to view each product as a different line in the report. To do this, you set `Product name` as the `Category`.
 
 - `Labels`: Use the columns `year` and `month` as labels on the x-axis to be able to view `Items Sold` as trending over time.
 
@@ -72,7 +72,7 @@ For this example, we want this to be a line chart that trends over time. To crea
 >
 >The query must contain an `ORDER BY` clause on the labels if they are `date`/`time` columns.
 
-Here is a quick look at how we created this visualization, from running the query to setting up the report:
+Below is a quick look at how you created this visualization, from running the query to setting up the report:
 
 ![](../assets/SQL_report_settings.gif)
 
@@ -84,7 +84,7 @@ This example uses the `Line` chart type. To use a different `chart type`, click 
 
 ## Step 4: Save the Visualization
 
-If you want to use this report again, give the report a name and click **[!UICONTROL Save]** in the top right corner.
+If you want to use this report again, give the report a name and click **[!UICONTROL Save]** in the top-right corner.
 
 In the dropdown, select `Chart` as the `Type` and then a dashboard to save the report to.
 

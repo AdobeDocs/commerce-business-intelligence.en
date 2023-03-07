@@ -43,7 +43,7 @@ The following example shows how to create a simple report, group the data by an 
 
         ![Group by](../../assets/magento-bi-report-builder-group-by-dimensions.png)
 
-        The `Group By` detail lists each coupon used by customers. The coupons that were used to place the initial order are marked with a checkbox. The chart now has multiple colored lines that represent the each coupon that was used for a first order. The legend is color-coded to correspond to each row of data.
+        The `Group By` detail lists each coupon used by customers. The coupons that were used to place the initial order are marked with a checkbox. The chart now has multiple colored lines that represent each coupon that was used for a first order. The legend is color-coded to correspond to each row of data.
 
     * Click **[!UICONTROL Apply]** to close the Group By detail.
 

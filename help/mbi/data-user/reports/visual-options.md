@@ -7,7 +7,7 @@ exl-id: e42a004e-28e3-4484-bb5a-b58c810b23e0
 
 Selecting the right visualization for a given data set is a critical piece of the analytical process. Every data set has a story to tell, but the effect of that story is emphasized by its visual impact and readability.
 
-The [!DNL MBI] `Visual Report Builder` offers 12 distinct visualization options, each with their own advantages and use-cases. This article discusses the various visualization options in [!DNL MBI], including required report configurations when applicable, as well as an example of a use-case. The following visualizations are available in MBI:
+The [!DNL MBI] `Visual Report Builder` offers 12 distinct visualization options, each with their own advantages and use-cases. This article discusses the various visualization options in [!DNL MBI], including required report configurations when applicable, and an example of a use case. The following visualizations are available in MBI:
 
 * `Scalar`
 * `Table`
@@ -29,7 +29,7 @@ The [!DNL MBI] `Visual Report Builder` offers 12 distinct visualization options,
 
 ![](../../assets/blobid0.png)
 
-To save a report as a scalar, configure your filters and time settings, then click **[!UICONTROL Save]** or **[!UICONTROL Update]** at the top-right of the report. Under the `Type` dropdown, choose the Number: Metric name to save the report as the value shown on the left side-bar.
+To save a report as a scalar, configure your filters and time settings, then click **[!UICONTROL Save]** or **[!UICONTROL Update]** at the top-right section of the report. Under the `Type` dropdown, choose the Number: Metric name to save the report as the value shown on the left side bar.
 
 ![](../../assets/blobid1.png)
 
@@ -41,7 +41,7 @@ To save a report as a scalar, configure your filters and time settings, then cli
 
 ## `Table`
 
-As the name suggests, `table` reports are great for displaying tabular details. When there is a need to display a large number of group by values or metrics in a single report, a table is often the best way to go. As an example, below is a table of "Customer details", showing orders and revenue grouped by customer email:
+As the name suggests, `table` reports are great for displaying tabular details. When there is a need to display many groups by values or metrics in a single report, a table is often the best way to go. As an example, below is a table of "Customer details", showing orders and revenue grouped by customer email:
 
  ![](../../assets/blobid2.png)
 
@@ -51,7 +51,7 @@ Similar to scalar reports, you can save a report as a table by clicking **[!UICO
 
 **Requirements:**
 
-* Although there are no report configuration requirements, it is important to note that tables are limited to 3500 rows. If your data set includes more than 3500 rows, you will need to either filter the results to narrow down the scope, or export the results to `.csv` or `Excel` to see the full data set.
+* Although there are no report configuration requirements, it is important to note that tables are limited to 3500 rows. If your data set includes more than 3500 rows, you need to either filter the results to narrow down the scope, or export the results to `.csv` or `Excel` to see the full data set.
 
 ## `Line`
 
@@ -75,7 +75,7 @@ To save a report as a line chart, adjust the report `Type` to `Chart`, and selec
 
 ![](../../assets/blobid2.png)
 
-Every distinct metric, group by, and time interval combination is displayed as its own bar. If you have two metrics with one `group by`, containing three distinct `group by` values, your report will show six separate bars.
+Every distinct metric, group by, and time interval combination is displayed as its own bar. If you have two metrics with one `group by`, containing three distinct `group by` values, your report shows six separate bars.
 
 To save a report as a bar chart, adjust the report `Type` to `Chart` and select the `Bar` option as shown below:
 
@@ -89,7 +89,7 @@ To save a report as a bar chart, adjust the report `Type` to `Chart` and select 
 
 `Stacked bar` charts are similar to their bar chart brethren, with the additional ability of displaying the proportional breakdown of each bar. Most often, stacked bar charts are set up with two or more metrics and a single group by, such that each bar represents a unique group by value that is split among its metric constituents.
 
-As an example, the report below has two identical revenue metrics: one filtered for first time orders and the other filtered for repeat orders. After grouping by store, you can see both the total revenue contribution for each store (represented by the total width of the bar) as well as the first time vs repeat breakdown of revenue for each store:
+For example, the report below has two identical revenue metrics with one filtered for first time orders and the other filtered for repeat orders. After grouping by store, you can see both the total revenue contribution for each store (represented by the total width of the bar) and the first time vs repeat breakdown of revenue for each store.
 
 ![](../../assets/blobid4.png)
 
@@ -105,9 +105,9 @@ To save a report as a stacked bar chart, adjust the report `Type` to `Chart` and
 
 ## `Column`
 
-`Column` charts represent each data point as a vertical column, and are generally better for displaying time trending data than the horizontal bar chart visualization. Since each unique metric and group by combination is represented in its own series of bars, a column report is generally best for reports with three or less metrics, or one metric with a single group by containing 1-3 group by values.
+`Column` charts represent each data point as a vertical column, and are better for displaying time-trending data than the horizontal bar chart visualization. Each unique metric and group by combination is represented in its own series of bars. A column report is best for reports with three or less metrics or one metric with a single group by containing 1-3 group by values.
 
-In the example below, we are showing two revenue metrics, one filtered for first time revenue and the other for repeat revenue, trending over time by month:
+In the example below, you see two revenue metrics, one filtered for first-time revenue and the other for repeat revenue, trending over time by month:
 
 ![](../../assets/blobid6.png)
 
@@ -176,7 +176,7 @@ To save a report as an area chart, adjust the `Type` to `Chart` and select the a
 
 ![](../../assets/blobid4.png)
 
-In a funnel report, the relative value of a given step of the funnel is reflected by the height of the step, and the order in which the steps are displayed is determined by the report configuration. There are two ways to configure a funnel report:
+In a funnel report, the relative value of a given step of the funnel is reflected by the height of the step. The report configuration determines the order in which the steps are displayed. There are two ways to configure a funnel report:
 
 * `Single metric with one group by`: - Order of steps determined by "Show Top/Bottom" setting of the group by. By default, funnel steps are displayed in order from the largest to smallest value, but you can also sort them alphabetically by the group by name.
 
@@ -221,7 +221,7 @@ Option 2:
 
 ## `Bubble` chart
 
-A `bubble` chart can display up to four dimensions of data where the `X` and `Y` axes specify the location of the bubbles, the `Z` axis is the size of the bubbles, and by including two group bys you can add color to the bubbles. This type of visualization is best used when you want to plot multiple dimensions of data in a single chart.
+A `bubble` chart can display up to four dimensions of data where the `X` and `Y` axes specify the location of the bubbles. The `Z` axis is the size of the bubbles, and by including two groups bys you can add color to the bubbles. This type of visualization is best used when you want to plot multiple dimensions of data in a single chart.
 
 For example, the following chart shows the number of customers (bubble size) grouped by a specific acquisition source (bubble color) and state (various bubbles in specific color), plotted against total revenue and average lifetime orders.
 
@@ -245,7 +245,7 @@ Option 2
 * No `group by`
 * Set `time interval`
 
-**Requirements for multi series bubble chart:**
+**Requirements for multiseries bubble chart:**
 
 * Three `metrics`
 * Two `group by`

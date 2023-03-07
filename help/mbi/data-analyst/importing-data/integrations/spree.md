@@ -5,7 +5,7 @@ exl-id: d443e6ca-04b0-4090-a3be-14db71819356
 ---
 # Connect [!DNL Spree]
 
-Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your [!DNL Spree] data to [!DNL MBI] will allow you to answer these questions and more.
+Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your [!DNL Spree] data to [!DNL MBI] allow you to answer these questions and more.
 
 The [!DNL Spree] database is based on `PostgreSQL`, you can connect it to [!DNL MBI] using the [same steps that you would for a normal `Postgres` connection](../integrations/postgresql.md).
 

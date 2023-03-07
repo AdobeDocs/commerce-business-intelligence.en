@@ -5,7 +5,7 @@ exl-id: 0efac7b4-2457-48c7-947a-d2776b90a1dd
 ---
 # Activate your [!DNL MBI] Account for On-Premise Subscriptions
 
-To activate [!DNL MBI] for on-premise subscriptions, first create a [!DNL MBI] account, then connect [!DNL MBI] to your Commerce database. For information about activation in `Cloud Starter` projects, see [Activating your [!DNL MBI] Account for `Cloud Starter` Subscriptions](../getting-started/cloud-activation.md).
+To activate [!DNL MBI] for on-premise subscriptions, first create an [!DNL MBI] account, then connect [!DNL MBI] to your Commerce database. For information about activation in `Cloud Starter` projects, see [Activating your [!DNL MBI] Account for `Cloud Starter` Subscriptions](../getting-started/cloud-activation.md).
 
 1. Create your [!DNL MBI] Account.
 
@@ -25,7 +25,7 @@ To activate [!DNL MBI] for on-premise subscriptions, first create a [!DNL MBI] a
 
     ![](../assets/create-account-4.png)
 
-    -  After you create your account, you have the option to add users to your new account. Technical admins can now be added to carry out the following steps.
+    -  After you create your account, you can add users to your new account. Technical admins can now be added to carry out the following steps.
 
      ![](../assets/create-account-5.png)
 

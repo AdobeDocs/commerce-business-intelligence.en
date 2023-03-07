@@ -1,6 +1,6 @@
 ---
 title: enterprise_rma Table
-description: Learn how analyze information about a specific return request.
+description: Learn how to analyze information about a specific return request.
 exl-id: a19cbc9a-e34f-4f4e-820f-9e413d1a552d
 ---
 # enterprise_rma Table
@@ -30,7 +30,7 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in Commerce 2
 |`Order's created\_at`|This is the date of the original order. This can be used to obtain the time between order and return request.|
 |`Customer's order number`|This is the customer's order number associated with the original order.|
 |`Seconds between order's created\_at and return's date\_requested`|The number of seconds from the order date to the return request.|
-|`Return's total value`|This is the total monetary amount that is returned. This will be the sum of each return item's individual return amount.|
+|`Return's total value`|This is the total monetary amount that is returned. This is the sum of each return item's individual return amount.|
 
 {style="table-layout:auto"}
 
