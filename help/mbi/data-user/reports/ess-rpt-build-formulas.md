@@ -43,7 +43,7 @@ A formula combines multiple metrics and mathematical logic to answer a question.
 
     * In the `Enter your Formul` input box, enter `A/B`.
 
-        This will divide the revenue by products ordered by the number of new customers.
+        This divides the revenue by products ordered by the number of new customers.
 
     * Set `Select format` to `123Number`.
 
@@ -79,7 +79,7 @@ A formula combines multiple metrics and mathematical logic to answer a question.
 
 ## Step 4: Save the Report
 
-In this step, you will save the report as a chart and also as a table.
+In this step, you save the report as a chart and also as a table.
 
 1. Click `Untitled Report` at the top of the page and enter a descriptive title. For this example, the report title is `2017 Holiday Sales`.
 

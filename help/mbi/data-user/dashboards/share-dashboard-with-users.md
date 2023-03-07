@@ -5,7 +5,7 @@ exl-id: 6279b049-d1b2-4d40-b30b-ee8772e990f4
 ---
 # Share dashboards with other users
 
-Sharing dashboards is a great way to keep your team in the loop and encourage collaborative discussion. By creating and sharing a central dashboard, you can provide your team with the information they need while still maintaining control. [We recommend](../../best-practices/share-dashboard-best-practice.md){: target="_blank"} that you grant `Edit` rights to a select few to minimize accidental changes.
+Sharing dashboards is a great way to keep your team in the loop and encourage collaborative discussion. By creating and sharing a central dashboard, you can provide your team with the information they need while still maintaining control. [Adobe recommends](../../best-practices/share-dashboard-best-practice.md){: target="_blank"} that you grant `Edit` rights to a select few to minimize accidental changes.
 
 >[!NOTE]
 >

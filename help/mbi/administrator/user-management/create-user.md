@@ -3,7 +3,7 @@ title: Add/Edit a new user
 description: Learn how to add a new [!DNL MBI] user and how to update your user name or password.
 exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 ---
-# Add a new user
+# Add a user
 
 1. Click on your company's name in the upper right-hand corner and select **[!UICONTROL Invite User]** from the dropdown.
 1. Enter the user's name and email.
@@ -16,19 +16,19 @@ exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 
 1. Click **[!UICONTROL Save]**.
 
-The new user will receive an email with login and password details.
+The new user is sent an email with login and password details.
 
 >[!NOTE]
 >
->The new user will not have any dashboards by default. We recommends that you [share](../../data-user/dashboards/share-dashboard-with-users.md) the necessary dashboards with the new user right away.
+>The new user does not have any dashboards by default. Adobe recommends that you [share](../../data-user/dashboards/share-dashboard-with-users.md) the necessary dashboards with the new user right away.
 
 ## Update your email address or password
 
-You can update your email address and/or password by clicking on your company name in the top right-hand corner and then click Click **[!UICONTROL Edit Profile]**.
+You can update your email address and/or password by clicking your company name in the top right-hand corner and then click Click **[!UICONTROL Edit Profile]**.
 
 ## Resend the Invitation
 
-If you need to resend the invitation to the new user, on the [login page](https://dashboard.rjmetrics.com), click **[!UICONTROL Forgot?]**, enter the new user's email address, and click **[!UICONTROL Reset Password]**. This will resend the invitation and allow the user to log in.
+If you need to resend the invitation to the new user, on the [login page](https://dashboard.rjmetrics.com/v2/session/create), click **[!UICONTROL Forgot?]**, enter the new user's email address, and click **[!UICONTROL Reset Password]**. This resends the invitation and allows the user to log in.
 
 >[!IMPORTANT]
 >

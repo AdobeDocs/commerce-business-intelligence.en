@@ -5,7 +5,7 @@ exl-id: 6274eda4-d3ff-47b6-81d9-06ad4f150ef7
 ---
 # Manage Data
 
-Manage Data provides access to a variety of tools for managing integrations, report and chart data, dashboards, and exports.
+Manage Data provides access to various tools for managing integrations, report and chart data, dashboards, and exports.
 
 ## To access `Manage Data`:
 

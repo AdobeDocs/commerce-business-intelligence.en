@@ -23,7 +23,7 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
 1. Click **[!UICONTROL Export]** and save the `.csv` file.
 
-   You will need to add `primary key`, `date (mm/dd/yyyy)`, and `campaign name` columns to this file. Make sure the `primary keys` are unique to each row.
+   You must add `primary key`, `date (mm/dd/yyyy)`, and `campaign name` columns to this file. Make sure the `primary keys` are unique to each row.
 
     ![import mailchimp 4](../../../assets/import-mailchimp-4.png)
 
@@ -41,7 +41,7 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
 1. Click **[!UICONTROL Export]** and save the `.csv` file.
 
-   You will need to add `Primary Key`, `date (mm/dd/yyyy)`, `campaign name`, and `URL` columns to this file. You do not need to add the full URL, just something that will let you know what was clicked.
+   You must add `Primary Key`, `date (mm/dd/yyyy)`, `campaign name`, and `URL` columns to this file. You do not need to add the full URL, just something that lets you know what was clicked.
 
     ![import mailchimp 7](../../../assets/import-mailchimp-7.png)
 
@@ -59,12 +59,12 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
 1. Click **[!UICONTROL Export]** and save the `.csv` file.
 
-   You will need to add `Primary Key`, `date (mm/dd/yyyy)`, and `campaign name` columns to this file.
+   You must add `Primary Key`, `date (mm/dd/yyyy)`, and `campaign name` columns to this file.
 
     ![import mailchimp 9](../../../assets/import-mailchimp-9.png)
 
 ## Prepare files for upload into [!DNL MBI] {#upload}
 
-Each file - `Opens`, `Clicks`, and `Sent` - should be uploaded to [!DNL MBI] as a separate file. We also recommend that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with `Open`, `Click`, or `Sent`, and replace `DATE` with the date of export.
+Each file - `Opens`, `Clicks`, and `Sent` - should be uploaded to [!DNL MBI] as a separate file. Adobe recommends that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with `Open`, `Click`, or `Sent`, and replace `DATE` with the date of export.
 
-When you are ready to upload the files, use the [`File Upload` feature](../connecting-data/using-file-uploader.md) to bring the data into your data warehouse.
+When you are ready to upload the files, use the [`File Upload` feature](../connecting-data/using-file-uploader.md) to bring the data into your Data Warehouse.

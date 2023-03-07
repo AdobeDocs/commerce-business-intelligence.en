@@ -9,7 +9,7 @@ exl-id: 32c21093-2a7d-4d8e-afc0-19bd702f9b36
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-In **[!DNL Manage Data** > **Dashboards]**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. Here is a quick look at what we cover in this article:
+In **[!DNL Manage Data** > **Dashboards]**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. Covered in this article:
 
 1. [Renaming dashboards](#rename)
 
@@ -23,7 +23,7 @@ In **[!DNL Manage Data** > **Dashboards]**, you can manage user permissions for 
 
 To rename a dashboard:
 
-1. Click the name of the dashboard you want to change.
+1. Click the name of the dashboard that you want to change.
 
 2. Enter the new name in the `Dashboard Name` field.
 
@@ -35,7 +35,7 @@ Three levels of access exist in [!DNL MBI] for dashboards - `View`, `Edit`, and 
 
 * `Edit` allows selected users to edit and save charts to this dashboard if they have Standard or Admin permissions. Also, users with Edit permissions can also share dashboards with other users.
 
-* `None` means selected users cannot view or edit this dashboard.
+* `None` means that selected users cannot view or edit this dashboard.
 
 User permissions can be changed one of two ways - for all users or for an individual user.
 
@@ -47,7 +47,7 @@ User permissions can be changed one of two ways - for all users or for an indivi
 
 To change your default dashboard for the account:
 
-1. Click the name of the dashboard you want as your default.
+1. Click the name of the dashboard that you want as your default.
 
 1. Click **[!UICONTROL Make Default]**.
 
@@ -55,6 +55,6 @@ To change your default dashboard for the account:
 
 To delete a dashboard:
 
-1. Click the name of the dashboard you want to delete.
+1. Click the name of the dashboard that you want to delete.
 
 1. Click **[!UICONTROL Delete Dashboard]**.

@@ -13,15 +13,15 @@ To permanently delete a chart:
 
 1. Click **[!UICONTROL Charts]**.
 
-1. The charts you have the ability to delete (based on user permissions and chart ownership) will display on the right side of the screen.
+1. The charts you can delete (based on user permissions and chart ownership) display on the right side of the screen.
 
-1. Click the checkbox next to the chart line you want to delete.
+1. Click the checkbox next to the chart line that you want to delete.
 
 1. Click **[!UICONTROL Delete Selected]**.
 
    >[!NOTE]
    >
-   >If the chart is being used in a dashboard or email summary, a notification will display. To continue, you must confirm the deletion and then click **[!UICONTROL Force Deletion]**.
+   >If the chart is being used in a dashboard or email summary, a notification displays. To continue, you must confirm the deletion and then click **[!UICONTROL Force Deletion]**.
 
 Example:
 

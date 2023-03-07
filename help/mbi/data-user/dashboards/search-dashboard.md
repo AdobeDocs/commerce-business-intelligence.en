@@ -5,7 +5,7 @@ exl-id: eea09ee5-e7ec-4002-8257-a35a64c900a9
 ---
 # Search for a dashboard
 
-In this article, we show you how to use the [`Global Search` feature](#global) to look for dashboards and how to search for [dashboards owned by other users](#other).
+This article shows you how to use the [`Global Search` feature](#global) to look for dashboards and how to search for [dashboards owned by other users](#other).
 
 ## Global Search {#global}
 

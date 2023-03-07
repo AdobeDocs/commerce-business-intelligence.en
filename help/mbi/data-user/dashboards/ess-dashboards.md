@@ -7,13 +7,13 @@ exl-id: a872344b-ac66-41eb-a471-5a69f8802527
 
 [!DNL MBI] Dashboards give you a quick view of your store's performance and sales activity at a glance. Individual dashboards can be shared with other users and organized into logical groups. You can also set different levels of permission for other users.
 
-It is easy to create a new report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
+It is easy to create a report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
 
 ![Dashboard](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png)
 
 ## Creating dashboards {#createdash}
 
-Dashboards are essentially sharable, themed buckets for the analyses you create in the Report Builders. This is how you can encourage your team to collaborate and maintain a single source of truth across your organization.
+Dashboards are sharable, themed buckets for the analyses you create in the Report Builders. This is how you can encourage your team to collaborate and maintain a single source of truth across your organization.
 
 *If you are an Admin or a Standard user*, you can create a dashboard by clicking the `Dashboard Options` dropdown and choosing `Create New dashboard`.
 
@@ -21,7 +21,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
 ![arrange resize dashboard element](../../assets/arrange_resize_dashboard_element.gif)
 
-### Create a new dashboard
+### Create a dashboard
 
 1. On the menu, click **[!UICONTROL Dashboards]**.
 
@@ -33,7 +33,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
     * Enter a `Name` for your dashboard.
 
-    * To create a new `Group` for the dashboard, enter the name of the group.
+    * To create a `Group` for the dashboard, enter the name of the group.
 
         For example, if your Commerce installation has multiple store views, you might create a Group for each store view.
 
@@ -69,7 +69,7 @@ In **[!DNL Manage Data** > **Dashboards]**, you can manage user permissions for 
 
 ### Sharing your dashboards {#sharingdash}
 
-To truly scale [!DNL MBI] throughout your organization and provide valuable insights, we encourage you to share dashboards you create with other team members. *You can share dashboards you own* by clicking the `Share Dashboard` option at the top of the page.
+To truly scale [!DNL MBI] throughout your organization and provide valuable insights, Adobe encourages you to share dashboards you create with other team members. *You can share dashboards you own* by clicking the `Share Dashboard` option at the top of the page.
 
 When you share a dashboard, you can assign permissions across your organization OR on an individual basis, meaning you get to decide who can view and edit your reports.
 

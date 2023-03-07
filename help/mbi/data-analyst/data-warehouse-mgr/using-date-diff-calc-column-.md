@@ -9,7 +9,7 @@ exl-id: 6ecab794-3466-4b3a-a929-3e56287522aa
 
 **Explanation**
 
-The `Date Difference` column type: finds the time between two events belonging to a single record, based on the event timestamps. The raw value calculated in this column is in seconds, but it will auto-convert to minutes, hours, days and so on for display on reports. When used as a filter/group by, however, you will want to use the value in seconds.
+The `Date Difference` column type: finds the time between two events belonging to a single record, based on the event timestamps. The raw value calculated in this column is in seconds, but it auto-converts to minutes, hours, days, and so on, for display on reports. When used as a filter/group by, however, you want to use the value in seconds.
 
 A `date difference` calculated column could be used to create a metric which calculates the average or median time between two events, such as average time between customer registration and their first orders.
 
@@ -38,7 +38,7 @@ The following steps describe how to create a `Date Difference` column.
     * Select `Starting DATETIME` column** > Choose the starting datetime field, which is typically the event that occurs earlier
 
 1. Provide a name to the column and Click **[!UICONTROL Save]**.
-1. The column will be available to use *immediately*.
+1. The column is available to use *immediately*.
 
 As an example, the following example is configured to calculate the `Seconds between order date and customer's creation date`:
 

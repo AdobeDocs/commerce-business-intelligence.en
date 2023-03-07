@@ -17,11 +17,11 @@ You can sign in with your [!DNL Adobe ID] or using your [!DNL MBI] email address
 
     ![sign-in-adobe](../assets/sign-in-adobe.png)
 
-1. Enter the email address you used when you created your [!DNL MBI] account. If you do not already have an Adobe account, click **[!UICONTROL Create an account]** and enter your information. Remember to use the email address you used when you created your [!DNL MBI] account. The email address is the key you need to access your Adobe account.
+1. Enter the email address that you used when you created your [!DNL MBI] account. If you do not already have an Adobe account, click **[!UICONTROL Create an account]** and enter your information. Remember to use the email address you used when you created your [!DNL MBI] account. The email address is the key that you need to access your Adobe account.
 
 >[!NOTE]
 >
->If you log in using your [!DNL Adobe ID], you will not be able to change your [!DNL MBI] profile password.
+>If you log in using your [!DNL Adobe ID], you are not able to change your [!DNL MBI] profile password.
 
 ## Sign in using your user name and password
 

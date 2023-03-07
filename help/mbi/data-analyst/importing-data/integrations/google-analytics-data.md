@@ -5,15 +5,15 @@ exl-id: db9fdaaa-47a9-4095-b1f8-9b6c74c25b7c
 ---
 # Expected [!DNL Google Analytics] data
 
-After you have connected a [!DNL Google Analytics] integration, you can interact with your [!DNL Google Analytics] metrics *immediately in the `Visual Report Builder`*. When you enter the `Visual Report Builder`, if you click **[!UICONTROL Add a Metric]**, a series of metrics from your [!DNL Google Analytics] profile(s) will appear in a dropdown immediately beneath the metrics in your data warehouse.
+After you have connected a [!DNL Google Analytics] integration, you can interact with your [!DNL Google Analytics] metrics *immediately in the `Visual Report Builder`*. When you enter the `Visual Report Builder`, if you click **[!UICONTROL Add a Metric]**, a series of metrics from your [!DNL Google Analytics] profile appears in a dropdown immediately beneath the metrics in your Data Warehouse.
 
-The [!DNL Google Analytics] integration is *live* -- this means that the `Report Builder` requests data from [!DNL Google Analytics] *immediately* when you add a metric to your report. It also means that the metrics you can access are defined exactly as they are in [!DNL Google Analytics], and that these values are not *warehoused* in your [!DNL MBI] account -- only displayed visually in your reports.
+The [!DNL Google Analytics] integration is *live* -- this means that the `Report Builder` requests data from [!DNL Google Analytics] *immediately* when you add a metric to your report. It also means that the metrics that you can access are defined exactly as they are in [!DNL Google Analytics], and that these values are not *warehoused* in your [!DNL MBI] account -- only displayed visually in your reports.
 
-[!DNL Google Analytics] integrations in [!DNL MBI] utilize the [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
+[!DNL Google Analytics] integrations in [!DNL MBI] use the [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
 
 >[!NOTE]
 >
->To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with the metric(s) you use in the `Report Builder`. You can check [here](https://developers.google.com/analytics/devguides/reporting/core/dimsmets).
+>To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with one or more metrics you use in the `Report Builder`. You can check [here](https://ga-dev-tools.google/dimensions-metrics-explorer/).
 
 ## Supported Metrics
 

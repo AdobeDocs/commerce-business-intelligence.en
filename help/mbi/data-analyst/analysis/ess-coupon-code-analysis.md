@@ -7,7 +7,7 @@ exl-id: 0d486259-b210-42ae-8f79-cd91cc15c2c2
 
 Understanding the coupon performance of your business is an interesting way to segment your orders and better understand customer habits.
 
-We have documented the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
+This article documents the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
 
 ![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
@@ -21,7 +21,7 @@ First, a note about how coupon codes are tracked. If a customer applied a coupon
 
 ## Building a Metric
 
-The first step will be to construct a new metric with the following steps:
+The first step is to construct a new metric with the following steps:
 
 * Navigate to **[!UICONTROL Manage Data > Metrics > Create New Metric]**.
 
@@ -39,7 +39,7 @@ The first step will be to construct a new metric with the following steps:
   * Navigate to [!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
   * Give the dashboard a name such as `_Coupon Analysis_`.
 
-* This will be where we create and add all the reports.
+* This is where you create and add all the reports.
 
 ## Building Reports
 
@@ -47,7 +47,7 @@ The first step will be to construct a new metric with the following steps:
 
 >[!NOTE]
 >
->The [!UICONTROL Time Period]** for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. We recommend all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
+>The [!UICONTROL Time Period]** for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. Adobe recommends all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
 
 * **Orders with coupons**
   * [!UICONTROL Metric]:`Orders`
@@ -118,15 +118,15 @@ The first step will be to construct a new metric with the following steps:
       * [`A`] `coupon_code` **IS NOT**`[NULL]`
       * [`B`] `Customer's order number` **Equal to** `1`
 
-  * Create new formula: `Gross revenue`
+  * Create formula: `Gross revenue`
     * [!UICONTROL Formula]: `(B – C)`
     * [!UICONTROL Format]: `Currency`
 
-  * Create new formula:**% discounted**
+  * Create formula:**% discounted**
     * Formula: `(C / (B - C))`
     * [!UICONTROL Format]: `Percentage`
 
-  * Create new formula: `Average order discount`
+  * Create formula: `Average order discount`
     * [!UICONTROL Formula]: `(C / A)`
     * [!UICONTROL Format]: `Percentage`
 

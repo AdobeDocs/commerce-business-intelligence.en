@@ -5,11 +5,11 @@ exl-id: 12837490-b9ca-4040-bb71-8988b5dde485
 ---
 # Filter Options
 
-In this article, we are going to explore a few special `operators` used in `filters` when [creating a report](../../tutorials/using-visual-report-builder.md){: target="_blank"} or [creating a metric](../../data-user/reports/ess-manage-data-metrics.md){: target="_blank"}.
+This article explores a few special `operators` used in `filters` when [creating a report](../../tutorials/using-visual-report-builder.md){: target="_blank"} or [creating a metric](../../data-user/reports/ess-manage-data-metrics.md){: target="_blank"}.
 
 ## `Filter Operators`
 
-* `LIKE` for pattern matching. This must be used in conjunction with the wildcard characters % (for a wildcard with a variable number of letters) or _ (for a wildcard single letter).  For example, the restriction `LIKE \_ake%` would return true for `Jake Stein`, `Jake Smith`, or `Fake Smith`.  It would return false for `Drake Smith`.
+* `LIKE` for pattern matching. This must be used with the wildcard characters % (for a wildcard with a variable number of letters) or _ (for a wildcard single letter).  For example, the restriction `LIKE \_ake%` would return true for `Jake Stein`, `Jake Smith`, or `Fake Smith`.  It would return false for `Drake Smith`.
 
 * `NOT LIKE` is similar to pattern matching above, but checks for which patterns do not match.
 

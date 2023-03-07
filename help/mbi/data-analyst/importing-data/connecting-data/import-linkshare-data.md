@@ -30,6 +30,6 @@ To bring your `Linkshare` data into [!DNL MBI], you need to do two things:
 
 1. Click **[!UICONTROL Download]**.
 
-   At this point, a `.csv` file will be created and downloaded.
+   At this point, a `.csv` file  and downloaded.
 
 After the file is downloaded, you can upload it to [!DNL MBI] using the [`File Upload` feature](../connecting-data/using-file-uploader.md).

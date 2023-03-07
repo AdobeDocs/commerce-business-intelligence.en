@@ -23,12 +23,12 @@ Therefore it is possible to report on sales of products either at the simple lev
 
 |**Column Name**|**Description**|
 |----|----|
-|`base_price`|Price of an individual unit of a product at the time of sale after [catalog price rules, tiered discounts, and special pricing](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied, represented in the base currency of the store|
-|`created_at`|Creation timestamp of the order item, usually stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
+|`base_price`|Price of an individual unit of a product at the time of sale after [catalog price rules, tiered discounts, and special pricing](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied. This is represented in the base currency of the store|
+|`created_at`|Creation timestamp of the order item, stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
 |`item_id` (PK)|Unique identifier for the table|
 |`name`|Text name of the order item|
 |`order_id`|`Foreign key` associated with the `sales_order` table. Join to `sales_order.entity_id` to determine order attributes associated with the order item|
-|`parent_item_id`|`Foreign key` that relates a simple product to its parent bundle or configurable product. Join to `sales_order_item.item_id` to determine parent product attributes associated with simple product. For parent order items (that is, bundle or configurable product types), the `parent_item_id` will be `NULL`|
+|`parent_item_id`|`Foreign key` that relates a simple product to its parent bundle or configurable product. Join to `sales_order_item.item_id` to determine parent product attributes associated with simple product. For parent order items (that is, bundle or configurable product types), the `parent_item_id` is `NULL`|
 |`product_id`|`Foreign key` associated with the `catalog_product_entity` table. Join to `catalog_product_entity.entity_id` to determine product attributes associated with the order item|
 |`product_type`|Type of product that was sold. Potential [product types](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types) include: simple, configurable, grouped, virtual, bundle, and downloadable|
 |`qty_ordered`|Quantity of units included in the cart for the particular order item at the time of sale|
@@ -66,7 +66,7 @@ Therefore it is possible to report on sales of products either at the simple lev
 
 `catalog_product_entity`
 
-*  Join to `catalog_product_entity` table to create new columns that return product attributes associated with the order item.
+*  Join to `catalog_product_entity` table to create columns that return product attributes associated with the order item.
    *  Path: `sales_order_item.product_id` (many) => `catalog_product_entity.entity_id` (one)
 
 `sales_order`
@@ -76,10 +76,10 @@ Therefore it is possible to report on sales of products either at the simple lev
 
 `sales_order_item`
 
-*  Join to `sales_order_item` to create new columns that associate details of the parent configurable or bundle SKU with the simple product. Note that you will need to [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for assistance in configuring these calculations, if building in the Data Warehouse manager.
+*  Join to `sales_order_item` to create columns that associate details of the parent configurable or bundle SKU with the simple product. [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for assistance in configuring these calculations, if building in the Data Warehouse manager.
    *  Path: `sales_order_item.parent_item_id` (many) => `sales_order_item.item_id` (one)
 
 `store`
 
-*  Join to `store` table to create new columns that return details related to the Commerce store associated with the order item.
+*  Join to `store` table to create columns that return details related to the Commerce store associated with the order item.
    *  Path: `sales_order_item.store_id` (many) => `store.store_id` (one)

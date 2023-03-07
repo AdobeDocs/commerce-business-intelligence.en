@@ -5,7 +5,7 @@ exl-id: c18734ce-0ae0-4e84-b9d0-eb2c21a5c3a5
 ---
 # Average time to first purchase report 
 
-Many of our customers have a metric and chart named `Average time to first purchase`, which shows the average time between a group of users' registration date and first purchase date. The data almost invariably slopes downward as time moves closer to the present.
+Many Adobe customers have a metric and chart named `Average time to first purchase`, which shows the average time between a group of users' registration date and first purchase date. The data almost invariably slopes downward as time moves closer to the present.
 
 ![average time to first order](../../assets/average-time-to-first-order.png)
 

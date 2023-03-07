@@ -1,21 +1,25 @@
 ---
 title: Recency, Frequency, Monetary (RFM) Analysis
-description: Learn how to set up a dashboard that will allow you to segment your customers by their recency, frequency, and monetary rankings.
+description: Learn how to set up a dashboard that allows you to segment your customers by their recency, frequency, and monetary rankings.
 exl-id: 8f0f08fd-710b-4810-9faf-3d0c3cc0a25d
 ---
 # RFM Analysis
 
-In this article, we demonstrate how to set up a dashboard that will allow you to segment your customers by their recency, frequency, and monetary rankings. RFM analysis is a marketing technique that takes customer behaviors into account to help you determine segmentation for outreach. It takes three aspects into account: Recency in how recently a customer purchased from your store, Frequency in how often they purchase from you, and Monetary in how much the customer spends.
+This article demonstrates how to set up a dashboard that allows you to segment your customers by their recency, frequency, and monetary rankings. RFM analysis is a marketing technique that takes customer behaviors into account to help you determine segmentation for outreach. It accounts for three aspects: 
+
+* Recency in how recently a customer purchased from your store
+* Frequency in how often they purchase from you 
+* Monetary in how much the customer spends
 
 ![](../../assets/blobid0.png)
 
-The RFM analysis is only able to be configured if you have the [!DNL MBI] Pro plan on the new architecture (for example,if you have the "Data Warehouse Views" option under the "Manage Data" menu). These columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
+The RFM analysis can only be configured if you have the [!DNL MBI] Pro plan on the new architecture (for example, if you have the "Data Warehouse Views" option under the "Manage Data" menu). These columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
 
 ## Getting Started
 
-You will need to first upload a file containing just a primary key with the value of one. This will allow the creation of some necessary calculated columns for the analysis.
+You need to first upload a file containing just a primary key with the value of one. This allows the creation of some necessary calculated columns for the analysis.
 
-You can leverage this [help center article](../importing-data/connecting-data/using-file-uploader.md) as well as the image below to format your file.
+You can use this [help center article](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file.
 
 ## Calculated Columns
 
@@ -40,7 +44,7 @@ Columns to create
 * [!UICONTROL Calculation]: `**case when A is null then null else 1 end**`
 * [!UICONTROL Datatype]: `Integer`
 
-* **Count reference** table (this is the file you just uploaded with the number "1")
+* **Count reference** table (this is the file you uploaded with the number "1")
 * Number of customers
 * [!UICONTROL Column type]: `Many to One > Count Distinct`
 * [!UICONTROL Path]: `ales_flat_order.(input) reference > Count reference.Primary Key` OR `customer_entity.(input)reference > Count Reference`. `Primary Key`
@@ -142,7 +146,7 @@ Columns to create
 
 >[!NOTE]
 >
->The percentiles used are even splits of customers (for example,20% buckets to return 1-5). If you have a custom way you would like to weight these, let the analyst know when you submit the ticket.
+>The percentiles used are even splits of customers (for example, 20% buckets to return 1-5). If you have a custom way you would like to weight these, let the analyst know when you submit the ticket.
 
 ## Metrics
 
@@ -164,7 +168,7 @@ No new metrics!
 * [!UICONTROL Group by]: `Email`
 * [!UICONTROL Chart type]: `Table`
 
-* **Customers with 5 recency score**
+* **Customers with five recency score**
 * Metric `A`: `New customers`
 * [!UICONTROL Metric]: `New customers`
 * [!UICONTROL Filter]: `Customer's recency score (by percentiles) Equal to 5`
@@ -177,7 +181,7 @@ No new metrics!
 * [!UICONTROL Group by]: `Customer's RFM score (R+F+M)`
 * [!UICONTROL Chart type]: `Table`
 
-* **Customers with 1 recency score**
+* **Customers with one recency score**
 * Metric `A`: `New customers`
 * [!UICONTROL Metric]: `New customers`
 * [!UICONTROL Filter]: `Customer's recency score (by percentiles) Equal to 1`
@@ -190,4 +194,4 @@ No new metrics!
 * [!UICONTROL Group by]: `Customer's RFM score (R+F+M)`
 * [!UICONTROL Chart type]: `Table`
 
-After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the above sample dashboard, but the three generated tables are just examples of the types of customer segmentation you can perform.
+After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the above sample dashboard, but the three generated tables are just examples of the types of customer segmentation you can perform.

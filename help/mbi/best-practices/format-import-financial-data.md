@@ -7,7 +7,7 @@ exl-id: cdbed262-7cf1-4fd6-ad5a-c44d26dffba7
 
 This topic discusses the best way to import financial data for analysis in [!DNL MBI].
 
-A two-dimensional, cross-tab data table is often the format used for financial data. With values categorized by labels in both columns and rows, this type of layout might be easy to view with human eyes and spreadsheet tools, but it is not very friendly to databases.
+A two-dimensional, cross-tab data table is often the format used for financial data. With values categorized by labels in both columns and rows, this type of layout might be easy to view with human eyes and spreadsheet tools, but it is not friendly to databases.
 
 ![](../../mbi/assets/crosstab.png)
 
@@ -20,7 +20,7 @@ To import and analyze this data in [!DNL MBI], the table must be flattened into 
 To flatten a two-dimensional table using an Excel pivot table:
 
 1. Open the file with the two-dimensional data table.
-1. Open the PivotTable Wizard. In Windows, the shortcut is `Alt-D`. In Mac OSX, enter `Command-Option-P`.
+1. Open the PivotTable Wizard. In Windows, the shortcut is `Alt-D`. In Mac OS, enter `Command-Option-P`.
 1. Select **[!UICONTROL Multiple consolidated ranges]** and click **[!UICONTROL Next]**.
 1. Select **[!UICONTROL I will create the page fields]** and click **[!UICONTROL Next]**.
 1. Select the entire data set in the two-dimensional table, including the labels. Ensure that `0` is selected for the number of desired page fields and click **[!UICONTROL Next]**.

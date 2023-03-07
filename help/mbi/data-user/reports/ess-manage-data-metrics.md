@@ -9,15 +9,15 @@ exl-id: d4c25546-3c51-4d32-b9d8-c424ec103be5
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-Simply put, a metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period of time.
+Put, a metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period.
 
-In [!DNL MBI], you can use metrics to [create charts](../../data-user/reports/ess-rpt-build-visual.md). For example, the metric `revenue` is the total amount of orders. The metric `average customer revenue per order` is what the average customer spends per order.
+In [!DNL MBI], you can use metrics to [create charts](../../data-user/reports/ess-rpt-build-visual.md). For example, the metric `revenue` is the total number of orders. The metric `average customer revenue per order` is what the average customer spends per order.
 
 When used in reports, metrics can be analyzed over a specified time period and [filtered or segmented](../../best-practices/segment-filter.md) by different categories. Consider analyzing average customer revenue grouped by gender - in this case, `average customer revenue per order` is the metric and gender is the grouping.
 
 ## Defining the Metric {#define}
 
-1. To create a new metric, click **[!UICONTROL Data** > **Metrics]**.
+1. To create a metric, click **[!UICONTROL Data** > **Metrics]**.
 
 1. Click **[!UICONTROL Create New Metric]**.
 
@@ -25,7 +25,7 @@ When used in reports, metrics can be analyzed over a specified time period and [
 
 1. Name your metric.
 
-    We recommend a name that, at a glance, tells you what the metric is. For example: `Average Order Revenue`.
+    Adobe recommends a name that, at a glance, tells you what the metric is. For example: `Average Order Revenue`.
 
 1. The next step is to define what your metric does. Using the dropdown menus, define the metric's operation, the `operation` column, and a `date` dimension:
 
@@ -48,21 +48,21 @@ When used in reports, metrics can be analyzed over a specified time period and [
 
 ## Adding Filters {#filters}
 
-The `Filter` section allows you to create a new filter or apply a [saved filter set](../../data-user/reports/ess-manage-data-filters.md) to your metric.
+The `Filter` section allows you to create a filter or apply a [saved filter set](../../data-user/reports/ess-manage-data-filters.md) to your metric.
 
-For our `average order revenue` metric, we would not want to include any test orders that might have been done while setting up our store - this would give us an inaccurate result. We can apply a filter set to remove those orders from the data set. After the filter is created, it will apply to all charts built using this metric.
+For the `average order revenue` metric, you would not want to include any test orders that might have been done while setting up your store - this would give us an inaccurate result. Can apply a filter set to remove those orders from the data set. After the filter is created, it will apply to all charts built using this metric.
 
 The `Filter Logic` section is where you can further define how a metric should behave.
 
-* "\[`A`\] or \[`B`\]" will allow any data that satisfy the filters \[`A`\] OR \[`B`\]
-* "\[`A`\] and \[`B`\]" will only allow data that satisfies both filters \[`A`\] and \[`B`\]
-* "(\[`A`\] and \[`B`\]) OR \[`C`\]" will only allow data that either satisfy both filters \[`A`\] and \[`B`\], or satisfies filter \[`C`\] alone
+* "\[`A`\] or \[`B`\]" allows any data that satisfy the filters \[`A`\] OR \[`B`\]
+* "\[`A`\] and \[`B`\]" only allows data that satisfies both filters \[`A`\] and \[`B`\]
+* "(\[`A`\] and \[`B`\]) OR \[`C`\]" only allows data that either satisfy both filters \[`A`\] and \[`B`\], or satisfies filter \[`C`\] alone
 
 ## Adding Dimensions {#dimensions}
 
-The [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) section shows all available data dimensions for filtering or grouping; by default, all available data columns are listed as dimensions. Continuing our example, if we wanted to segment our revenue by referral source, we could do that here.
+The [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) section shows all available data dimensions for filtering or grouping; by default, all available data columns are listed as dimensions. Continuing the example, if you wanted to segment your revenue by referral source, you can do that here.
 
-In addition to listing all available data columns as dimensions, [!DNL MBI] will also take a guess at which columns are groupable. *To segment or group data on reports*, columns must be marked as groupable.
+In addition to listing all available data columns as dimensions, [!DNL MBI] guesses at which columns are groupable. *To segment or group data on reports*, columns must be marked as groupable.
 
 ## Finishing Up {#finish}
 
