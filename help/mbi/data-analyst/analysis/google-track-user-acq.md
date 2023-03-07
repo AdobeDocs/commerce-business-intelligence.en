@@ -47,7 +47,7 @@ What if you want to email a follow-up deal to all customers acquired from a cert
 
 There is clearly some acquisition source data encoded into the string. This is tested to confirm that this is the visitor's latest acquisition source and associated campaign data. Now you need to know how to extract the data. Luckily, Justin Cutroni has previously described how this encoding works, and shared some JavaScript code to extract the key bits of information.
 
-This code was translated into a [PHP library hosted on github](https://github.com/RJMetrics/referral-grabber-php).   To use the library, `include` a reference to `ReferralGrabber.php` and then call
+This code was translated into a [PHP library hosted on github](https://github.com/RJMetrics/referral-grabber-php). To use the library, `include` a reference to `ReferralGrabber.php` and then call
 
 > `$data = ReferralGrabber::parseGoogleCookie($_COOKIE['__utmz']);`
 
