@@ -81,7 +81,7 @@ In either of the above scenarios, `Full Table` replication does not detect any c
 
 When a table uses `Primary Key Batch` (PK Batch), new data is discovered by counting rows inside ranges, or batches, of primary key values. While you typically think of this being used with integers, even text values can be ordered in a way that allows the system to define constant ranges.
 
-For example, Let us say that an update runs and performs a row count for the range of keys from 1 to 100. In this update, the system finds and logs 37 rows. In the next update, a row count is performed again on the 1-100 range and finds 41 rows. Because there is a difference in the number of rows compared to the last update, the system inspects that range (or batch) in more detail.
+For example, say that an update runs and performs a row count for the range of keys from 1 to 100. In this update, the system finds and logs 37 rows. In the next update, a row count is performed again on the 1-100 range and finds 41 rows. Because there is a difference in the number of rows compared to the last update, the system inspects that range (or batch) in more detail.
 
 This method is intended to replicate data from tables that meet the following criteria:
 

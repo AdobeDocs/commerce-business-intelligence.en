@@ -25,7 +25,7 @@ To connect your `MySQL` database to [!DNL MBI] via an `SSH tunnel`, you (or your
 1. Create a `MySQL` user for [!DNL MBI]
 1. Enter the connection and user info into [!DNL MBI]
 
-It is not as complicated as it might sound. Let us get started.
+Get started.
 
 ## Retrieving the [!DNL MBI] public key {#retrieve}
 

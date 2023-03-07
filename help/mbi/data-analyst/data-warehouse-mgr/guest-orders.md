@@ -29,7 +29,7 @@ Typically, the Sales Engineer that implements your account takes guest orders in
 
 The most optimal way to account for guest orders is to base all customer-level metrics on the `orders` table. This setup uses a unique customer ID that all customers have, including guests (normally customer email is used). This ignores registration data from the `customers` table. With this option, only customers who have made at least one purchase are included in customer-level reports. Registered users who have not yet made one purchase are not included. With this option, your `New customer` metric is based on the customer's first order date in the `orders` table.
 
-You may notice that the `Customers we count` filter set in this type of setup has a filter for `Customer's order number = 1`. Let's think about why this is.
+You may notice that the `Customers we count` filter set in this type of setup has a filter for `Customer's order number = 1`. Think about why this is.
 
 ![](../../assets/guest-orders-filter-set.png)
 

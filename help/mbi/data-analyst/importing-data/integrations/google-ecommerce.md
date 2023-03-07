@@ -13,7 +13,7 @@ exl-id: c80f52f3-894a-4084-8c0e-aee618ed77f5
 
 You have steady flow of traffic and orders, which means you are effectively reaching and acquiring customers. But what are your most valuable referral channels? What is the average lifetime value of customers acquired from one source versus another? By connecting your order referral source data from [!DNL Google ECommerce] to [!DNL MBI], you can build analyses that help you identify your [most valuable marketing channels](../../../data-analyst/analysis/most-value-source-channel.md).
 
-Let us get started by entering your [!DNL Google ECommerce] credentials into [!DNL MBI]:
+Get started by entering your [!DNL Google ECommerce] credentials into [!DNL MBI]:
 
 1. Go to the `Connections` page under **[!UICONTROL Admin** > **Connections]**.
 1. Click **[!UICONTROL Add a New Source]**, located on the right side of the screen above the `Data Sources` table.

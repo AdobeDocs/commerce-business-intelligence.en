@@ -11,7 +11,7 @@ Many Adobe customers have a metric and chart named `Average time to first purcha
 
 This is because these newer customers have not yet had the opportunity to generate any purchases that were made more than one month from their join date. Since users who have never made a purchase are not included at all (until they do make a purchase), this biases the average downward for newer groups of customers.
 
-There are a few other potential ways to look at this metric that introduce less bias. Let's explore one example.
+There are a few other potential ways to look at this metric that introduce less bias. Explore one example.
 
 ## Example: Perform a `cohort` analysis of first orders
 

@@ -22,7 +22,7 @@ Start by looking at a general query:
 |`AND time < X`<br><br> `AND time >= Y`|Report `time frame`|
 |`GROUP BY a`|Report `group by`|
 
-This example covers most translation cases, but there are some exceptions. Let us dive in, starting with how the `aggregate` function is translated.
+This example covers most translation cases, but there are some exceptions. Dive in, starting with how the `aggregate` function is translated.
 
 ## Aggregate functions
 
@@ -93,7 +93,7 @@ See [creating calculated columns](../data-warehouse-mgr/creating-calculated-colu
 
 ## `Group By` clauses
 
-`Group By` functions in queries are often represented in [!DNL MBI] as a column used to segment or filter a visual report. As an example, let us revisit the `Total Revenue` query that you explored previously, but this time Let us segment the revenue by the `coupon\_code` to gain a better understanding of which coupons are generating the most revenue.
+`Group By` functions in queries are often represented in [!DNL MBI] as a column used to segment or filter a visual report. As an example, let us revisit the `Total Revenue` query that you explored previously, but this time segment the revenue by the `coupon\_code` to gain a better understanding of which coupons are generating the most revenue.
 
 Start with the query below:
 

@@ -23,7 +23,7 @@ To complete this process, you need to open two browser windows or tabs - one for
 
 ## Opening the [!DNL Mixpanel] credentials page {#stepone}
 
-Let us get started:
+Get started:
 
 1. Go to the `Connections` page under **[!DNL Manage Data** > **Connections]**.
 1. Click **[!UICONTROL Add a New Source]**, located on the right side of the screen above the `Data Sources` table.

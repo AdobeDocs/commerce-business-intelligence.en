@@ -149,7 +149,7 @@ If you opted to group users by a `cohort date` that has been joined from another
 
 ![](../../assets/Cohort_Counting_Members_option.png)
 
-Let us look at an example to understand this setting. Suppose you built a report cohorting a `Revenue` metric by `Customer's registration date`. You also wanted to use the perspective `Average value per cohort member` to see the revenue per buyer over time. To find the average value per buyer, you need to decide on the number of buyers to divide by. Is it the number of registered customers in your `customers` table, or is it the number of distinct buyers in your `orders table` for the same period?
+Look at an example to understand this setting. Suppose you built a report cohorting a `Revenue` metric by `Customer's registration date`. You also wanted to use the perspective `Average value per cohort member` to see the revenue per buyer over time. To find the average value per buyer, you need to decide on the number of buyers to divide by. Is it the number of registered customers in your `customers` table, or is it the number of distinct buyers in your `orders table` for the same period?
 
 This setting answers that question. Counting members in the `customers` table includes all customers (whether they made a purchase, ever) in the average. Counting members in the `orders` table includes only customers who made a purchase.
 

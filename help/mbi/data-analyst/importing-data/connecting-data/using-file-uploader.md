@@ -11,7 +11,7 @@ exl-id: 28db0e78-0222-431d-bbb9-6ef133686603
 
 [!DNL MBI] is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single Data Warehouse. Even data that lives outside your databases and integrations can be brought into [!DNL MBI] by using the File Upload tool in the Data Warehouse Manager.
 
-Let us use ad campaigns as an example. If you are running both online and offline campaigns, you cannot get the whole picture if you are only analyzing data from an online integration. Uploading a spreadsheet with the offline campaign data allows you to analyze both sets of data and get a more robust understanding of your campaign performance.
+Use ad campaigns as an example. If you are running both online and offline campaigns, you cannot get the whole picture if you are only analyzing data from an online integration. Uploading a spreadsheet with the offline campaign data allows you to analyze both sets of data and get a more robust understanding of your campaign performance.
 
 ## Restrictions and requirements {#require}
 
@@ -63,7 +63,7 @@ Percentages must be entered as decimals. For example:
 
 Some values in your file - like ZIP codes and IDs - may begin or end with zeroes. To ensure that the zeroes are properly retained and uploaded, you can change the formatting type (for example, [from number to text](https://support.microsoft.com/en-us/office/format-numbers-as-text-583160db-936b-4e52-bdff-6f1863518ba4?ui=en-us&rs=en-us&ad=us)) or enforce number formatting.
 
-Let us use `US ZIP codes` as an example of how to change number formatting. In [!DNL Excel], highlight the column containing `ZIP codes` and [change the number format](https://support.microsoft.com/en-us/office/display-numbers-as-postal-codes-61b55c9f-6fe3-4e54-96ca-9e85c38a5a1d?ui=en-us&rs=en-us&ad=us) to `ZIP code`. You can also select a custom number format, and in the `Type` window, enter `00000`. Keep in mind this method could present problems if some codes are formatted as `00000` and others are `00000-0000`.
+Use `US ZIP codes` as an example of how to change number formatting. In [!DNL Excel], highlight the column containing `ZIP codes` and [change the number format](https://support.microsoft.com/en-us/office/display-numbers-as-postal-codes-61b55c9f-6fe3-4e54-96ca-9e85c38a5a1d?ui=en-us&rs=en-us&ad=us) to `ZIP code`. You can also select a custom number format, and in the `Type` window, enter `00000`. Keep in mind this method could present problems if some codes are formatted as `00000` and others are `00000-0000`.
 
 The `Type` can be [formatted differently to accommodate other data types](https://support.microsoft.com/en-us/office/keeping-leading-zeros-and-large-numbers-1bf7b935-36e1-4985-842f-5dfa51f85fe7?correlationid=e1d4c2d3-cd5d-4a14-999d-437800274a90&ui=en-us&rs=en-us&ad=us), such as IDs. If an `ID` is nine digits long, for example, the `Type` could be `000000000` or `000-000-000`. This would change `123456` to `000-123-456`.
 
@@ -71,7 +71,7 @@ For [!DNL Google Docs] and [!DNL Apple Numbers] resources, refer to the [Related
 
 ## Uploading data {#uploading}
 
-Now that your spreadsheet is correctly formatted and [!DNL MBI]-friendly, Let us add it to your Data Warehouse.
+Now that your spreadsheet is correctly formatted and [!DNL MBI]-friendly, add it to your Data Warehouse.
 
 1. To get started, go to **[!UICONTROL Data** > **File Uploads]**.
 

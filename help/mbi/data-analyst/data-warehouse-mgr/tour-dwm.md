@@ -77,7 +77,7 @@ Below the search bar in the table list is a `Check for new tables and columns` l
 
 Simply being able to see and manage data from all your sources makes gaining insights into your business that much easier. But within the Data Warehouse Manager, you can go a step further by creating calculated columns inside your tables. `Calculated` columns derive new information from your existing data.
 
-Let us say you want to add `user's lifetime revenue` to your `users` table to find high value users. Or, if you want to segment revenue by gender, you can add `customer's gender` to your `orders` table.
+Say you want to add `user's lifetime revenue` to your `users` table to find high value users. Or, if you want to segment revenue by gender, you can add `customer's gender` to your `orders` table.
 
 For more information, check out this [tutorial](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 

@@ -13,7 +13,7 @@ exl-id: db99f817-2a2e-4194-9dd2-ec2d6b27a118
 
 You did your research, you created your ads, you launched your campaign. Now it is time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../../analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
-Let us get started by entering your [!DNL Google Adwords] credentials into [!DNL MBI]:
+Get started by entering your [!DNL Google Adwords] credentials into [!DNL MBI]:
 
 1. Go to the Connections page under **Manage Data > Integrations**.
 1. Click **Add Integration**, located on the upper-right side of the screen.

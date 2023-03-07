@@ -13,7 +13,7 @@ exl-id: 10e813f1-0306-4bdd-8222-e6364ac624de
 
 [!DNL Google Analytics] is the most widely used web analytics service on the internet. Implementing [!DNL Google Analytics] on your website allows you to track how visitors use your site, what content is attractive, where visitors exit, and more. Analyzing these metrics in [!DNL MBI], alongside other pieces of data, improves your site's overall health and usability.
 
-Let us get started by entering your [!DNL Google Analytics] credentials into [!DNL MBI]:
+Get started by entering your [!DNL Google Analytics] credentials into [!DNL MBI]:
 
 1. Go to the **[!UICONTROL Manage Data** > **Integrations]** page.
 1. Click **[!UICONTROL Add Integration]**, located on the right side of the screen.
