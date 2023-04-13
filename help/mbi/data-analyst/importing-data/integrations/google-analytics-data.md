@@ -16,6 +16,7 @@ The [!DNL Google Analytics] integration is *live* -- this means that the `Report
 >To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with one or more metrics you use in the `Report Builder`. You can check [here](https://ga-dev-tools.google/dimensions-metrics-explorer/).
 
 +++Supported Metrics and Dimensions (Google Analytics 3)
+
 ## Supported Metrics
 
 | [!DNL MBI] Display Name | [!DNL Google Analytics] Name / Formula |

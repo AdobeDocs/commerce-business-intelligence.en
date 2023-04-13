@@ -7,6 +7,6 @@ exl-id: 0efac7b4-2457-48c7-947a-d2776b90a1dd
 
 To activate [!DNL MBI] for on-premise or `Cloud Pro` subscriptions, contact your Adobe Customer Success Manager.
 
-[!NOTE]
+>[!NOTE]
 >
 >Adobe no longer supports new `Cloud Starter` subscriptions.
