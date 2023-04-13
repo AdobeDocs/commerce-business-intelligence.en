@@ -1,6 +1,7 @@
 ---
 title: Importing Linkshare data
 description: Learn to import Linkshare data into [!DNL MBI].
+exl-id: 1c2025a6-746c-4929-bbb1-62af1afcbc49
 ---
 # Import `Linkshare` data
 
@@ -29,6 +30,6 @@ To bring your `Linkshare` data into [!DNL MBI], you need to do two things:
 
 1. Click **[!UICONTROL Download]**.
 
-   At this point, a `.csv` file will be created and downloaded.
+   At this point, a `.csv` file  and downloaded.
 
 After the file is downloaded, you can upload it to [!DNL MBI] using the [`File Upload` feature](../connecting-data/using-file-uploader.md).

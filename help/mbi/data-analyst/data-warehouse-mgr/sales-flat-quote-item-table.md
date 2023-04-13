@@ -1,30 +1,31 @@
 ---
 title: quote_item table
 description: Learn how to work with the quote_item table.
+exl-id: dad36e88-5986-4b52-8a0e-ac084fabb275
 ---
 # quote_item Table
 
-The `quote_item` table (`sales_flat_quote_item` on [!DNL Magento] 1) contains records on every item added to a shopping cart, whether the cart was abandoned or converted to a purchase. Each row represents one cart item. Due to the potential size of this table, we recommend you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
+The `quote_item` table (`sales_flat_quote_item` on M1) 1) contains records on every item added to a shopping cart, whether the cart was abandoned or converted to a purchase. Each row represents one cart item. Due to the potential size of this table, Adobe recommends you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
 
 >[!NOTE]
 >
->Analyzing historical abandoned carts is only possible if you do not delete records from the `quote` and `quote_item` table. If you do delete records, you will only be able to see the carts not yet removed from your database.
+>Analyzing historical, abandoned carts is only possible if you do not delete records from the `quote` and `quote_item` table. If you do delete records, you are only able to see the carts not yet removed from your database.
 
 ## Common Native Columns
 
 |**Column Name**|**Description**|
 |---|---|
-|`base_price`|Price of an individual unit of a product at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied, represented in the base currency of the store|
-|`created_at`|Creation timestamp of the cart item, usually stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
+|`base_price`|Price of an individual unit of a product at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied. This is represented in the base currency of the store.|
+|`created_at`|Creation timestamp of the cart item, stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
 |`item_id` (PK)|Unique identifier for the table|
 |`name`|Text name of the order item|
-|`parent_item_id`|`Foreign key` that relates a simple product to its parent bundle or configurable product. Join to `quote_item.item_id` to determine parent product attributes associated with simple product. For parent cart items (that is, bundle or configurable product types), the `parent_item_id` will be `NULL`|
+|`parent_item_id`|`Foreign key` that relates a simple product to its parent bundle or configurable product. Join to `quote_item.item_id` to determine parent product attributes associated with simple product. For parent cart items (that is, bundle or configurable product types), the `parent_item_id` is `NULL`|
 |`product_id`|`Foreign key` associated with the `catalog_product_entity` table. Join to `catalog_product_entity.entity_id` to determine product attributes associated with the order item|
-|`product_type`|Type of product that was added to the cart. Potential [product types](https://docs.magento.com/m2/ce/user_guide/catalog/product-types.html) include: simple, configurable, grouped, virtual, bundle, and downloadable|
+|`product_type`|Type of product that was added to the cart. Potential [product types](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types) include: simple, configurable, grouped, virtual, bundle, and downloadable|
 |`qty`|Quantity of units included in the cart for the particular cart item|
 |`quote_id`|`Foreign key` associated with the `quote` table. Join to `quote.entity_id` to determine cart attributes associated with the cart item|
 |`sku`|Unique identifier for the cart item|
-|`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which [!UICONTROL Magento] store view is associated with the cart item|
+|`store_id`|Foreign key associated with the `store` table. Join to `store.store_id` to determine which Commerce store view is associated with the cart item|
 
 {style="table-layout:auto"}
 
@@ -34,9 +35,9 @@ The `quote_item` table (`sales_flat_quote_item` on [!DNL Magento] 1) contains 
 |---|---|
 |`Cart creation date`|Timestamp associated with the cart creation date. Calculated by joining `quote_item.quote_id` to `quote.entity_id` and returning the `created_at` timestamp|
 |`Cart is active? (1/0)`|Boolean field that returns "1" if the cart was created by a customer and has not yet converted to an order. Returns "0" for converted carts, or carts created through the admin. Calculated by joining `quote_item.quote_id` to `quote.entity_id` and returning the `is_active` field|
-|`Cart item total value (qty * base_price)`|Total value of an item at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://docs.magento.com/m2/ce/user_guide/catalog/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied. Calculated by multiplying the `qty` by the `base_price`|
+|`Cart item total value (qty * base_price)`|Total value of an item at the time the item was added to a cart, after [catalog price rules, tiered discounts, and special pricing](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) are applied and before any taxes, shipping, or cart discounts are applied. Calculated by multiplying the `qty` by the `base_price`|
 |`Seconds since cart creation`|Elapsed time between the cart's creation date and now. Calculated by joining `quote_item.quote_id` to `quote.entity_id` and returning the `Seconds since cart creation` field|
-|`Store name`|Name of the [!UICONTROL Magento] store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
+|`Store name`|Name of the Commerce store associated with the order item. Calculated by joining `sales_order_item.store_id` to `store.store_id` and returning the `name` field|
 
 {style="table-layout:auto"}
 
@@ -53,7 +54,7 @@ The `quote_item` table (`sales_flat_quote_item` on [!DNL Magento] 1) contains 
 
 `catalog_product_entity`
 
-*  Join to `catalog_product_entity` table to create new columns that return product attributes associated with the cart item.
+*  Join to `catalog_product_entity` table to create columns that return product attributes associated with the cart item.
    *  Path: `quote_item.product_id` (many) => `catalog_product_entity.entity_id` (one)
 
 `quote`
@@ -63,10 +64,10 @@ The `quote_item` table (`sales_flat_quote_item` on [!DNL Magento] 1) contains 
 
 `quote_item`
 
-*  Join to `quote_item` to create new columns that associate details of the parent configurable or bundle SKU with the simple product. Note that you will need to [contact support](../../guide-overview.md) for assistance in configuring these calculations, if building in the Data Warehouse manager.
+*  Join to `quote_item` to create columns that associate details of the parent configurable or bundle SKU with the simple product. [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for assistance in configuring these calculations, if building in the Data Warehouse manager.
    *  Path: `quote_item.parent_item_id` (many) => `quote_item.item_id` (one)
 
 `store`
 
-*  Join to `store` table to create new columns that return details related to the [!UICONTROL Magento] store associated with the cart item.
+*  Join to `store` table to create columns that return details related to the Commerce store associated with the cart item.
    *  Path: `quote_item.store_id` (many) => `store.store_id` (one)

@@ -1,6 +1,7 @@
 ---
 title: Connect QuickBooks
 description: Learn how your business finances can now live along side your sales and marketing data, allowing you to quickly and easily keep tabs on your expenses, identify overspending, and more.
+exl-id: e100c88c-af59-4185-b2a2-c8e77bfd7277
 ---
 # Connect [!DNL QuickBooks]
 
@@ -26,9 +27,9 @@ After clicking **[!UICONTROL Connect to Quickbooks]**, log into your [!DNL Intui
 ![](../../../assets/QuickBooks_App_Store_1.jpg)
 
 1. In the `Search for a company` dropdown, select your company.
-1. Click **[!UICONTROL Next]**. You are redirected to [!DNL MBI] and a *Connection Successful!* message will display at the top of the screen.
+1. Click **[!UICONTROL Next]**. You are redirected to [!DNL MBI] and a *Connection Successful!* message displays at the top of the screen.
 
 ## Related
 
 * [Expected [!DNL QuickBooks] data](../integrations/quickbooks-data.md)
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

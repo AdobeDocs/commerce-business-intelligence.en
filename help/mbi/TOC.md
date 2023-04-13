@@ -1,6 +1,7 @@
 ---
 title: MBI
 description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
+breadcrumb-title: MBI User Guide
 ---
 
 # [!DNL MBI] User Guide {#mbi}
@@ -9,8 +10,7 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
 - [[!DNL MBI] Introduction](getting-started/getting-started.md)
 - Getting Started {#start}
   - [Onboarding](getting-started/onboarding.md)
-  - [Activate for [!DNL On-Premise]](getting-started/onpremise-activation.md)
-  - [Activate for [!DNL Cloud Starter]](getting-started/cloud-activation.md)
+  - [Activate your [!DNL MBI] Account](getting-started/onpremise-activation.md)
   - [Sign in to your [!DNL MBI] Account](getting-started/sign-in.md)
 - Administrator {#administrator}
   - Account Management {#acct-mgmt}
@@ -38,21 +38,21 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
     - [Creating / Deleting paths for calculated columns](data-analyst/data-warehouse-mgr/create-paths-calc-columns.md)
     - [Creating / Using a SQL Calculated Column](data-analyst/data-warehouse-mgr/create-sql-calc-column.md)
     - [Creating calculated columns](data-analyst/data-warehouse-mgr/creating-calculated-columns.md)
-    - [Data and Updates FAQ](data-analyst/data-warehouse-mgr/data-and-updates-faq.md)
+    - [Data and Updates Information](data-analyst/data-warehouse-mgr/data-and-updates-faq.md)
     - [Guest orders](data-analyst/data-warehouse-mgr/guest-orders.md)
-    - [How [!UICONTROL Magento] Stores Data](data-analyst/data-warehouse-mgr/mage-store-data.md)
-    - [[!DNL Magento] Entity Relationship Diagrams](data-analyst/data-warehouse-mgr/entity-rel-diag.md)
+    - [How Commerce Stores Data](data-analyst/data-warehouse-mgr/mage-store-data.md)
+    - [Entity Relationship Diagrams](data-analyst/data-warehouse-mgr/entity-rel-diag.md)
     - [Managing data dimensions in metrics](data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md)
     - [[!DNL MongoDB] data modeling guide](data-analyst/data-warehouse-mgr/mongodb-data-modeling.md)
     - [Replicating [!DNL Google Analytics] channels](data-analyst/data-warehouse-mgr/rep-google-analytics-channels.md)
     - [Standardizing data with mapping tables](data-analyst/data-warehouse-mgr/stndrd-data-map-tables.md)
-    - [Translating sQL queries into [!DNL MBI] reports](data-analyst/dev-reports/sql-queries-reports.md)
+    - [Translating SQL queries into [!DNL MBI] reports](data-analyst/dev-reports/sql-queries-reports.md)
     - [Understanding and Evaluating Table Relationships](data-analyst/data-warehouse-mgr/table-relationships.md)
     - [Using the Date Difference Calculated](data-analyst/data-warehouse-mgr/using-date-diff-calc-column-.md)
     - [Using Dashboard Wide Filtering](data-analyst/data-warehouse-mgr/using-dshbrd-wide-filter-date-ranges.md)
     - [Using the Event Number Calculated Column](data-analyst/data-warehouse-mgr/using-event-num-calc-column.md)
     - [Using the Sequential Comparison Calculated Column](data-analyst/data-warehouse-mgr/using-seq-comp-calc-column-.md)
-  - Common [!UICONTROL Magento] Tables {#tables}
+  - Common Commerce Tables {#tables}
     - [Introduction](data-analyst/data-warehouse-mgr/common-mage-tables.md)
     - [[!DNL customer_entity]](data-analyst/data-warehouse-mgr/cust-ent-table.md)
     - [[!DNL enterprise_rma]](data-analyst/data-warehouse-mgr/enter-rma-table.md)
@@ -123,8 +123,8 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
     - [Connecting [!DNL Amazon RDS]](data-analyst/importing-data/integrations/amazon-rds.md)
     - [Connecting Databases via VPN](data-analyst/importing-data/integrations/databases-via-a-vpn.md)
     - [Connect Your [!DNL MySQL Database] to [!DNL MBI]](data-analyst/importing-data/integrations/db-to-mbi.md)
-    - [Connecting [!DNL Magento]](data-analyst/importing-data/integrations/magento.md)
-    - [Expected [!UICONTROL Magento] Data](data-analyst/importing-data/integrations/magento-data.md)
+    - [Connecting Commerce](data-analyst/importing-data/integrations/magento.md)
+    - [Expected Commerce Data](data-analyst/importing-data/integrations/magento-data.md)
     - [Connecting [!DNL Microsoft SQL Server]](data-analyst/importing-data/integrations/microsoft-sql-server.md)
     - [Connecting [!DNL MongoDB] via [!DNL SSH Tunnel]](data-analyst/importing-data/integrations/mongodb-via-ssh-tunnel.md)
     - [Connecting [!DNL MySQL] via a [!DNL direct connection]](data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
@@ -179,7 +179,8 @@ description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
     - [Chart analyzing](data-user/reports/what-is-chart-analyzing.md)
   - Dashboards {#dashboards}
     - [Create Dashboards](data-user/dashboards/ess-dashboards.md)
-    - [Out-of-the-box dashboards](data-user/dashboards/dashboards-pro.md)
+    - [Out-of-the-box dashboards](data-user/dashboards/ootb-dashboards.md)
+    - [Dashboard Pro](data-user/dashboards/dashboards-pro.md)
     - [Importing charts from another user](data-user/dashboards/import-charts-other-user.md)
     - [Permanently deleting a chart](data-user/dashboards/delete-chart.md)
     - [Using Dashboard Groups](data-user/dashboards/using-dashboard-groups.md)

@@ -1,0 +1,23 @@
+source,medium,channel
+direct,(not set),Direct
+NULL,(none),Direct
+NULL,organic,Organic Search
+NULL,social,Social
+NULL,social-network,Social
+NULL,social-media,Social
+NULL,sm,Social
+NULL,social network,Social
+NULL,social media,Social
+NULL,email,Email
+NULL,affiliate,Affiliates
+NULL,referral,Referral
+NULL,cpc,Paid Search
+NULL,ppc,Paid Search
+NULL,paidsearch,Paid Search
+NULL,cpv,Other Advertising
+NULL,cpa,Other Advertising
+NULL,cpp,Other Advertising
+NULL,content-text,Other Advertising
+NULL,display,Display
+NULL,cpm,Display
+NULL,banner,Display

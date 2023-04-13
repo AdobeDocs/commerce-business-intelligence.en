@@ -1,16 +1,17 @@
 ---
 title: Help desk reporting for Zendesk
 description: Learn about your most valued referral channels.
+exl-id: b6142ef2-2be8-401f-ac35-f86fc68d204e
 ---
 # Help desk reporting for [!DNL Zendesk]
 
 >[!NOTE]
 >
->This is only available for clients that are on the `Pro` plan and using the new architecture. You are on the [new architecture](https://support.magento.com/hc/en-us/articles/360016503052-New-Architecture-FAQ) if you have the `Data Warehouse Views` section available after selecting `Manage Data` from the main toolbar.
+>This is only available for clients that are on the `Pro` plan and using the new architecture. You are on the new architecture if you have the `Data Warehouse Views` section available after selecting `Manage Data` from the main toolbar.
 
-Consolidating your [!DNL Zendesk] data with your transactional database is an excellent way to better understand how your customers are interacting with your sales or customer success teams and what type of customers are utilizing your support platform. In this article, we demonstrate how to set up a dashboard to get granular reports about your [!DNL Zendesk] performance and tie in your transactional customers.
+Consolidating your [!DNL Zendesk] data with your transactional database is an excellent way to better understand how your customers are interacting with your sales or customer success teams. It also helps you know what type of customers are using your support platform. This article demonstrates how to set up a dashboard to get granular reports about your [!DNL Zendesk] performance and tie in your transactional customers.
 
-Before getting started, you will want to connect your [[!DNL Zendesk]](../integrations/zendesk.md). This analysis contains [advanced calculated columns](../../data-warehouse-mgr/adv-calc-columns.md).
+Before getting started, you want to connect your [[!DNL Zendesk]](../integrations/zendesk.md). This analysis contains [advanced calculated columns](../../data-warehouse-mgr/adv-calc-columns.md).
 
 <!-- Getting Started -->
 
@@ -255,7 +256,7 @@ Before getting started, you will want to connect your [[!DNL Zendesk]](../integr
 * [!UICONTROL Filter]:
 
 * **[!DNL Zendesk] Average/median time to first response**
-  * Tickets we count
+  * Tickets that are counted
   * status IN closed, solved
 
 * In the **`[Zendesk] tickets`** table

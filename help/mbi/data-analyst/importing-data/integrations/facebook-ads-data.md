@@ -1,6 +1,7 @@
 ---
 title: Expected Facebook Ads data
-description: Learn a brief overview of the tables we recommend you sync to your data warehouse
+description: Learn a brief overview of the tables that are recommended you sync to your Data Warehouse
+exl-id: 0c8b907b-1a98-470b-bb2c-55327e88e502
 ---
 # Expected [!DNL Facebook Ads] data
 
@@ -8,27 +9,27 @@ description: Learn a brief overview of the tables we recommend you sync to your 
 
 After you have [connected your [!DNL Facebook Ads] account](../integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
-In this article, we  give you a brief overview of the tables we recommend you sync to your data warehouse. This is not an complete list, as there are quite a few subtables. We are only highlighting the core tables.
+This article gives you a brief overview of the tables Adobe recommends you sync to your Data Warehouse. This is not a complete list, as there are quite a few subtables. It only highlights the core tables.
 
 ## Core ad campaign tables
 
 These tables contain data about core ad campaign components.
 
-### [`facebook _campaigns_ (account-id)`](https://developers.facebook.com/docs/reference/ads-api/adcampaign/)
+### [`facebook _campaigns_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign-group)
 
 This table is the core table of campaigns in a [!DNL Facebook Ads] account. Columns include `campaign id`, `name`, `status (active/paused)`, `objective`.
 
 ### [`facebook _adsets_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign)
 
-This table records is the core table of [!DNL Facebook Ads] Sets in a [!DNL Facebook Ads] account. Columns include the Ad `Campaign id/name` the Ad Set belongs to, the budgeting, bid type, scheduling and audience targeting information.
+This table record is the core table of [!DNL Facebook Ads] Sets in a [!DNL Facebook Ads] account. Columns include the Ad `Campaign id/name` the Ad Set belongs to, the budgeting, bid type, scheduling, and audience-targeting information.
 
-### [`facebook _ads_ (account-id)`](https://developers.facebook.com/docs/reference/ads-api/adgroup/)
+### [`facebook _ads_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/adgroup)
 
-This table records all of the ads in a [!DNL Facebook Ads] account. Columns include the ad information including the Ad Set and Ad Campaign it belongs to, the ad bidding, ad targeting and reference to specific creative (image/text) that the ad uses.
+This table records all ads in a [!DNL Facebook Ads] account. Columns include the ad information including the Ad Set and Ad Campaign that it belongs to, the ad bidding, ad targeting, and reference to specific creative (image/text) that the ad uses.
 
-### [`facebook _adcreative_ (account-id)`](https://developers.facebook.com/docs/reference/ads-api/adcreative/)
+### [`facebook _adcreative_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-creative)
 
-This table records all of the creatives that are used in [!DNL Facebook Ads]. These includes creative name, description, and relevant image urls where appropriate.
+This table records creatives that are used in [!DNL Facebook Ads]. Creatives includes creative name, description, and relevant image urls where appropriate.
 
 ## Segmented campaign tables
 
@@ -53,5 +54,4 @@ This table includes the same information as the `facebook_ads_insights_{account_
 ## Related
 
 * [Connecting [!DNL Facebook Ads]](../integrations/facebook-ads.md)
-* [Reauthenticating integrations](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)
-
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

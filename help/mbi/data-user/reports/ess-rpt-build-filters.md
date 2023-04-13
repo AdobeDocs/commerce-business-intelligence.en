@@ -1,16 +1,17 @@
 ---
 title: Filters
 description: Learn how to use filters.
+exl-id: eb683dfe-9a90-400a-a0c0-3dc00d1f28b5
 ---
 # Filters
 
-One or more filter(s) can be added to limit the data that is used to product a report. Each filter is an expression that includes a column from the associated table, an operator, and a value. For example to include only repeat customers, you might create a filter that includes only customers who have placed more than one order. Multiple filters can be used with logical `AND/OR` operators to add logic to the report.
+One or more filters can be added to limit the data that is used to product a report. Each filter is an expression that includes a column from the associated table, an operator, and a value. For example to include only repeat customers, you might create a filter that includes only customers who have placed more than one order. Multiple filters can be used with logical `AND/OR` operators to add logic to the report.
 
 >[!TIP]
 >
 >A report can have a maximum of 3,500 data points. To reduce the number of data points, use a filter to reduce the amount of data that is used to generate the report.
 
-MBI includes a selection of filters that you can use "out of the box," or modify to suit your needs. There is no limit to the number of filters you can create.
+MBI includes a selection of filters that you can use "out of the box (OOTB)," or modify to suit your needs. There is no limit to the number of filters that you can create.
 
 ## To add a filter:
 
@@ -42,7 +43,7 @@ MBI includes a selection of filters that you can use "out of the box," or modify
 
     * When the filter is complete, click **[!UICONTROL Apply]**.
 
-        The report now includes only repeat customers, and the number of customer records retrieved for the report has been reduced from 33K to 12.6k.
+        The report now includes only repeat customers, and the number of customer records retrieved for the report has been reduced from 33,000 to 12,600.
 
         ![Filtered Report](../../assets/magento-bi-report-builder-filter-report.png)<!--{: .zoom}-->
 

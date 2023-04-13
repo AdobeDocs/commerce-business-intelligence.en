@@ -1,14 +1,15 @@
 ---
 title: Commerce Churn
-description: Learn how to generate and analyze your Commerce churn rate. 
+description: Learn how to generate and analyze your Commerce churn rate.
+exl-id: 8775cf0a-114d-4b48-8bd2-fc1700c59a12
 ---
 # Churn Rate
 
-In this topic, we demonstrate how to calculate a **churn rate** for your **commerce customers**. Unlike SaaS or traditional subscription companies, commerce customers typically do not have a concrete **"churn event"** to show you that they should no longer count toward your active customers. For this reason, the below instructions allow you to define a customer as "churned" based upon a determined amount of time passing since their last order.
+This topic demonstrates how to calculate a **churn rate** for your **commerce customers**. Unlike SaaS or traditional subscription companies, commerce customers typically do not have a concrete **"churn event"** to show you that they should no longer count toward your active customers. For this reason, the below instructions allow you to define a customer as "churned" based on a determined amount of time passing since their last order.
 
 ![](../../assets/Churn_rate_image.png)
 
-Many customers want assistance in starting to conceptualize what **timeframe** they should use based upon their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../analysis/define-cust-churn.md) article. Then, you can use the results in the formula for churn rate in the below instructions.
+Many customers want assistance in starting to conceptualize what **timeframe** they should use based on their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../analysis/define-cust-churn.md) article. Then, you can use the results in the formula for churn rate in the below instructions.
 
 ## Calculated Columns
 
@@ -33,11 +34,11 @@ Columns to create
 ## Metrics
 
 * **New customers (by first order date)**
-  * Customers we count
+  * Customers that are counted
 
 >[!NOTE]
 >
->This metric may already exist on your account.
+>This metric may exist on your account.
 
 * In the **`customer_entity`** table
 * This metric performs a **Count**
@@ -46,11 +47,11 @@ Columns to create
 * [!UICONTROL Filter]:
 
 * **New customers (by last order date)**
-  * Customers we count
+  * Customers that are counted
 
 >[!NOTE]
 >
->This metric may already exist on your account.
+>This metric may exist on your account.
 
 * In the **`customer_entity`** table
 * This metric performs a **Count**
@@ -96,4 +97,4 @@ Below are some common month > second conversions, but google provides other valu
 | 9 | 23,328,000 |
 | 12 | 31,104,000 |
 
-After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the above sample dashboard.
+After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the above sample dashboard.

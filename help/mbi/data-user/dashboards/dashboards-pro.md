@@ -1,6 +1,7 @@
 ---
 title: Out-of-the-Box Dashboards
 description: Learn about out-of-the-box dashboards to provide insight into your business.
+exl-id: fe61c92e-de87-4317-96d7-01d2a9846bf9
 ---
 # Out-of-the-box dashboards
 
@@ -8,7 +9,7 @@ description: Learn about out-of-the-box dashboards to provide insight into your 
 
 >[!NOTE]
 >
->Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](../../guide-overview.md).
+>Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 ## Report availability
 
@@ -26,10 +27,10 @@ The Customers (guest checkout allowed) dashboard provides information about your
 |`Orders by Existing Customers (Past 30 Days)`|Orders in the past 30 days from customers who have previously placed at least one order.|
 |`Total Unique Customers (Past 30 Days)`|Count of unique customers placing orders in the past 30 days.|
 |`Orders by New vs Existing Customers`|Number of orders by customers with no previous orders versus customers with at least one previous order.|
-|`Subsequent Order Probability (All Time)`|The likelihood that customers who have placed an order will place another one.|
+|`Subsequent Order Probability (All Time)`|The likelihood that customers who have placed an order places another one.|
 |`% of Customers with Multiple Orders (All Time)`|Percent of all customers that have placed more than one order.|
 |`Median Time Between Orders (All Time)`|Median amount of time each customer takes between placing one order and the next.|
-|`Subsequent Order Probability`|The likelihood that customers who have placed an order will place another one, broken out by order number (that is, percent of customers with one order who place a second, percent with two who place a third, and so on).|
+|`Subsequent Order Probability`|The likelihood that customers who have placed an order places another order, broken out by order number. That is, the percent of customers with one order who place a second, percent with two who place a third, and so on).|
 |`Time Between Orders`|The average and median time customers take between orders, broken out by order number (that is, the time between orders one and two, two and three, and so on).|
 |`Number of Customers - Lifetime Orders`|For a given number of orders placed in a customer's lifetime, the number of customers who have placed that many orders and the percent of the entire customer base that number represents.|
 |`One-Time Customers who Bought 3-6 Months Ago`|Customers who made their first and only purchase between three and six months ago.|
@@ -49,10 +50,10 @@ The Customers (no guest checkout allowed) dashboard provides information about y
 |% Conversion from Registration to First Order (Past 30 Days)|Percent of accounts registered in past 30 days that have placed an order.|
 |% Conversion from Registration to First Order|Percent of accounts registered that have made an order, by month of registration.|
 |Orders by New vs Existing Customers|Number of orders by customers with no previous orders versus customers with at least one previous order.|
-|Subsequent Order Probability (All Time)|The likelihood that customers who have placed an order will place another one.|
+|Subsequent Order Probability (All Time)|The likelihood that customers who have placed an order places another one.|
 |% of Customers with Multiple Orders (All Time)|Percent of all customers that have placed more than one order.|
 |Median Time Between Orders (All Time)|Median amount of time each customer takes between placing one order and the next.|
-|Subsequent Order Probability|The likelihood that customers who have placed an order will place another one, broken out by order number (that is, percent of customers with one order who place a second, percent with two who place a third, and so on).|
+|Subsequent Order Probability|The likelihood that customers who have placed an order places another one, broken out by order number. That is, percent of customers with one order who place a second, percent with two who place a third, and so on.|
 |Time Between Orders|The average and median time customers take between orders, broken out by order number (that is, the time between orders one and two, two and three, and so on).|
 |Number of Customers - Lifetime Orders|For a given number of orders placed in a customer's lifetime, the number of customers who have placed that many orders and the percent of the entire customer base that number represents.|
 |One-Time Customers who Bought 3-6 Months Ago|Customers who made their first and only purchase between three and six months ago.|
@@ -99,7 +100,7 @@ The Executive Summary (no guest checkout allowed) dashboard gives you a succinct
 
 ## Orders
 
-The Orders dashboard provides insights on transactional volume of orders, their status, coupon codes used, revenue generated, and the payment methods used. For example, you can track the fulfillment process and make sure there are no issues or bottleneck occurrences.
+The Orders dashboard provides insights on transactional volume of orders, their status, coupon codes used, revenue generated, and the payment methods used. For example, you can track the fulfillment process and ensure that there are no issues or bottleneck occurrences.
 
 >[!NOTE]
 >
@@ -124,7 +125,7 @@ The Orders dashboard provides insights on transactional volume of orders, their 
 
 ## Products
 
-The Products dashboard shows general product performance in terms of products ordered, their Gross Merchandise Value (GMV), as well as top products purchased and refunded. It can help you to balance purchases and returns, and to determine product success and popularity. Your store must be [configured to track refunds](https://docs.magento.com/user-guide/sales/credit-configure.html) for those charts to be populated.
+The Products dashboard shows general product performance in terms of products ordered, their Gross Merchandise Value (GMV), and top products purchased and refunded. It can help you to balance purchases and returns, and to determine product success and popularity. Your store must be [configured to track refunds](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html) for those charts to be populated.
 
 >[!NOTE]
 >

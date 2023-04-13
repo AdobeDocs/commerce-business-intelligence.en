@@ -1,10 +1,11 @@
 ---
 title: Set a Default Dashboard
 description: Learn how to set a default dashboard.
+exl-id: a3fc64e3-b527-4c2c-848d-c0962cd20ff3
 ---
 # Set a default dashboard
 
-The default dashboard is the first dashboard you see upon opening [!DNL MBI].
+The default dashboard is the first dashboard that you see upon opening [!DNL MBI].
 
 1. While in the dashboard, click **[!UICONTROL Dashboard Options]** located at the top of the screen.
 

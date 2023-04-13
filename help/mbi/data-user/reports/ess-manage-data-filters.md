@@ -1,12 +1,13 @@
 ---
 title: Create filter sets for metrics
 description: Learn how to create saved Filter Sets and apply them to the metrics.
+exl-id: 6ef8b67c-bebd-45eb-bca7-95832ec34fc8
 ---
 # Create filter sets
 
 If you have multiple metrics in [!DNL MBI] that need to be filtered in a similar way (for example, filter out test orders), you can create saved Filter Sets and apply them to the metrics. This saves you time as you do not have to add individual filters when creating or editing a metric.
 
-See our [training video](https://support.magento.com/hc/en-us/articles/360016730151) to learn more.
+See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html?lang=en) to learn more.
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ See our [training video](https://support.magento.com/hc/en-us/articles/360016730
 
 1. Add all relevant filters.
 
-    For example, if we only wanted to include orders with a status of complete in our `Total number of orders` metric, we would apply a filter that excludes all orders that do not have status = `complete`.
+    For example, if you only wanted to include orders with a status of complete in your `Total number of orders` metric, you would apply a filter that excludes all orders that do not have status = `complete`.
 
 1. Verify your filter logic and that parentheses and operators are placed correctly: for example, `\[A\] AND \[B\]; (\[A\] OR \[B\]) AND \[C\]`.
 

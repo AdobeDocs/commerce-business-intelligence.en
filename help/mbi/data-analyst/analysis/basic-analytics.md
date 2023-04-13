@@ -1,29 +1,30 @@
 ---
 title: Understand and build basic analytics
-description: Learn how to understand and build basics analytics. 
+description: Learn how to understand and build basics analytics.
+exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
 ---
 # Basic Analytics
 
 Once you are familiar with the [!DNL MBI] platform and have a basic understanding of the tool, you are going to want to start building reports. One of the most common questions you may have is "What should I be looking at?"
 
-The information below outlines some of the common metrics and reports you might find valuable. A number of these reports already exist within your account, so make sure you review the metrics and reports that exist within your account to avoid creating duplicates.
+The information below outlines some of the common metrics and reports that you might find valuable. Some of these reports exist within your account, so make sure you review the metrics and reports that exist within your account to avoid creating duplicates.
 
 ## Tables and columns you want to understand
 
 When building a metric, you need to know four pieces of information:
 
 1. The table the data lives on,
-1. The specific action you want to perform,
+1. The specific action that you want to perform,
 1. The column you want to perform that action on, and
 1. The timestamp you want to use for tracking that data.
 
-Most likely, the names of the tables we use in these examples are slightly different from the column and table names in your database because each database is unique. Reference the below definitions if you need help identifying a corresponding table or column in your database.
+Most likely, the names of the tables used in these examples are slightly different from the column and table names in your database because each database is unique. Reference the below definitions if you need help with identifying a corresponding table or column in your database.
 
 ## Customers table
 
-This table contains the key information about each customer, such as a unique customer ID, email address, account creation date, and so on. In the examples below, we will use **[!UICONTROL customer_entity]** as the name of a sample customer table.
+This table contains the key information about each customer, such as a unique customer ID, email address, and so on. The examples below use **[!UICONTROL customer_entity]** as the name of a sample customer table.
 
-If some of these calculations do not currently exist in your database, any admin user in your account can build them. Additionally, you want to make sure that these dimensions are groupable for all applicable metrics.
+If some of these calculations do not currently exist in your database, any admin user in your account can build them. Also, you want to make sure that these dimensions are groupable for all applicable metrics.
 
 **Dimensions**
 
@@ -37,28 +38,28 @@ If some of these calculations do not currently exist in your database, any admin
 
 **Do you accept guest orders?**
 
-*If so, this table may not contain all of your customers. Contact our [support team](https://support.magento.com/hc/en-us/articles/360016503692) to make sure your customer analyses include all customers.*
+*If so, this table may not contain all of your customers. Contact the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to ensure your customer analyses include all customers.*
 
 *Not sure if you accept guest orders? Refer to [this topic](../data-warehouse-mgr/guest-orders.md) to learn more!*
 
 ## Orders table
 
-In this table, each row represents one order. The columns in this table contain basic information about each order, such as the order's ID, creation date, status, the ID of the customer who placed the order, and so on. In the examples below, we use **[!UICONTROL sales_flat_order]** as the name of a sample orders table.
+In this table, each row represents one order. The columns in this table contain basic information about each order, such as the order's ID, creation date, status, the ID of the customer who placed the order, and so on. The examples below use **[!UICONTROL sales_flat_order]** as the name of a sample orders table.
 
 **Dimensions**
 
-* **[!UICONTROL Customer_id]**: A unique identifier for the customer who placed the order. This will often be used to move information between the customer and orders tables. In our examples, we expect the customer_id on the **[!UICONTROL sales_flat_order]** table to align with the **[!UICONTROL entitiy_id]** on the **[!UICONTROL customer_entity]** table.
+* **[!UICONTROL Customer_id]**: A unique identifier for the customer who placed the order. This is often used to move information between the customer and orders tables. In these examples, you expect the customer_id on the **[!UICONTROL sales_flat_order]** table to align with the **[!UICONTROL entitiy_id]** on the **[!UICONTROL customer_entity]** table.
 * **[!UICONTROL Created_at]**: The date the order was created or placed.
 * **[!UICONTROL Customer_email]**: The email address of the customer who placed the order. This may also be the unique identifier for the customer.
 * **[!UICONTROL Customer's lifetime number of orders]**: A copy of the column with the same name on your `Customers` table.
-* **[!UICONTROL Customer's order number]**: The customer's sequential order number associated with the order. For example, if the row you are looking at is a customer's first order, this column is "1"; but, if this was the customer's 15th order, this column shows "15" for this order. If this dimension does not exist on your `Customers` table, ask our [support team](https://support.magento.com/hc/en-us/articles/360016503692) to help you build it.
+* **[!UICONTROL Customer's order number]**: The customer's sequential order number associated with the order. For example, if the row you are looking at is a customer's first order, this column is "1"; but, if this was the customer's 15th order, this column shows "15" for this order. If this dimension does not exist on your `Customers` table, ask the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to help you build it.
 * **[!UICONTROL Customer's order number (previous-current)]**: A concatenation of two values in the **[!UICONTROL Customer's order number]** column. It is used in a sample report below to display the elapsed time between any two orders. For example, the time between a customer's first order date and their second order date is represented as "1-2" with this calculation.
-* **[!UICONTROL Coupon_code]**: Shows which coupon(s) were used on each order.
+* **[!UICONTROL Coupon_code]**: Shows which coupons were used on each order.
 * **[!UICONTROL Seconds since previous order]**: The time (in seconds) between a customer's orders.
 
 ## Order Items table
 
-In this table, each row represents one item that was sold. This table contains information about the items sold in each order, such as the order reference number, product number, quantity, and so on. In the examples below, we use `sales_flat_order_item` as the name of a sample order items table.
+In this table, each row represents one item that was sold. This table contains information about the items sold in each order, such as the order reference number, product number, quantity, and so on. The examples below use `sales_flat_order_item` as the name of a sample order items table.
 
 **Dimensions**
 
@@ -74,12 +75,12 @@ This table is used to manage your subscription information, such as subscription
 
 **Dimensions**
 
-* **[!UICONTROL Customer_id]**: A unique identifier for the customer who placed the order. This is a common way to build a path between the Customers table and the Orders table. In our examples, we expect the customer_id on the **sales_flat_order** table to align with the `entitiy_id` on the `customer_entity` table.
+* **[!UICONTROL Customer_id]**: A unique identifier for the customer who placed the order. This is a common way to build a path between the Customers table and the Orders table. In these examples, you expect the customer_id on the **sales_flat_order** table to align with the `entitiy_id` on the `customer_entity` table.
 * **[!UICONTROL Start date]**: The date a customer's subscription started.
 
 ## Marketing Spend table
 
-When analyzing your marketing spend, you can include [!DNL Facebook], [!DNL Google AdWords], or other sources in your analyses. If you have multiple marketing spend sources, contact our [Services Team](https://magento.com/services) for help setting up a consolidated table for your marketing campaigns.
+When analyzing your marketing spend, you can include [!DNL Facebook], [!DNL Google AdWords], or other sources in your analyses. If you have multiple marketing spend sources, contact the [Managed Services Team](https://business.adobe.com/products/magento/fully-managed-service.html) for help with setting up a consolidated table for your marketing campaigns.
 
 **Dimensions**
 
@@ -88,14 +89,14 @@ When analyzing your marketing spend, you can include [!DNL Facebook], [!DNL Goog
 * **[!UICONTROL Clicks]**: The total number of clicks. In [!DNL Facebook], this would be the clicks column in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the adClicks column in the `campaigns####` table.
 * **[!UICONTROL Impressions]**: The total number of impressions. In [!DNL Facebook], this would be the impressions in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the impressions the `campaigns####` table.
 * **[!UICONTROL Campaign]**: The total number of clicks. In [!DNL Facebook], this would be the campaign_name column in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the campaign column in the `campaigns####` table.
-* **[!UICONTROL Date]**: The timestamp that the spend, clicks, or impressions occurred for a particular campaign. In [!DNL Facebook], this would be the `date_start` column in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the date column in the `campaigns####` table.
+* **[!UICONTROL Date]**: The time and date that the activity (spend, clicks, or impressions) occurred for a particular campaign. In [!DNL Facebook], this would be the `date_start` column in the `facebook_ads_insights_####` table. In [!DNL Google AdWords], this would be the date column in the `campaigns####` table.
 * **[!UICONTROL Customer's first order's source]**: The order's source from a customer's first order. First, check to see if you have a column named `customer's first order's source` in your account. If you do not see this column, you can create the desired column using these instructions.
 * **[!UICONTROL Customer's first order's medium]**: The order's medium from a customer's first order. First, check to see if you have a column named `customer's first order's source` in your account. If you do not see this column, you can create the desired column using these instructions.
 * **[!UICONTROL Customer's first order's campaign]**: The order's campaign from a customer's first order. First, check to see if you have a column named `customer's first order's source` in your account. If you do not see this column, you can create the desired column using these instructions.
 
 ## Common reports and metrics
 
-Here are some common examples of reports and metrics you might find useful:
+Here are some common examples of reports and metrics that you might find useful:
 
 * [Customer Analytics](#customeranalytics)
 * [Order Analytics](#orderanalytics)
@@ -105,7 +106,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### New users
 
-* **Description**: A count of the total number of newly acquired users over a given period of time. `New Users` is different from `Unique Customers`, because `New Users` has the timestamp that an account was created with your service (this does not mean they necessarily placed an order) while `Unique Customers` have placed at least one order.
+* **Description**: A count of the total number of newly acquired users over a given period. `New Users` is different from `Unique Customers`, because `New Users` has the timestamp that an account was created with your service (this does not mean they necessarily placed an order) while `Unique Customers` have placed at least one order.
 * **Metric Definition**: This metric performs a **Count** of `entity_id` from `customer_entity` table ordered by `created_at`.
 * **Report Example**: Number of new users created last month
    * **[!UICONTROL Metric]**: `New Users`
@@ -116,7 +117,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### Unique customers
 
-* **Description**: A count of the total number of distinct customers over a given period of time. This is different from `New Users`, because it only tracks customers who have placed at least one order. A distinct customers report will only track a customer once in a given time interval. If you set the time interval to `By Day` and a customer makes more than one purchase on that day, the customer will only be counted once. If you want to see a total number of purchases in general, look at `Number of Orders`.
+* **Description**: A count of the total number of distinct customers over a given period. This is different from `New Users`, because it only tracks customers who have placed at least one order. A distinct customer's report only tracks a customer once in a given time interval. If you set the time interval to `By Day` and a customer makes more than one purchase on that day, the customer is only counted once. If you want to see a total number of purchases in general, look at `Number of Orders`.
 * **Metric Definition**: This metric performs a **Count Distinct** of `customer_id` from `sales_flat_order` table ordered by `created_at`.
 * **Report Example**: Distinct customers by week over the last 90 days
    * **[!UICONTROL Metric]**: `Distinct Customers`
@@ -127,7 +128,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### New subscribers
 
-* **Description**: A count of the total number of new subscribers acquired over a given period of time.
+* **Description**: A count of the total number of new subscribers acquired over a given period.
 * **Metric Definition**: This metric performs a **Count Distinct** of `customer_id` from `subscriptions` table ordered by `start_date`.
 * **Report Example**: New subscribers this year by month
    * **[!UICONTROL Metric]**: `New Subscribers`
@@ -138,7 +139,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### Repeat customers
 
-* **Description**: The total number of customers who placed more than one order over a period of time. In a repeat customers report, you can use the `Distinct Customers` metric and the `Customer's Order Number` dimension from your `orders` table.
+* **Description**: The total number of customers who placed more than one order over a period. In a repeat customers report, you can use the `Distinct Customers` metric and the `Customer's Order Number` dimension from your `orders` table.
 * **Metric Used**: `Distinct Customers`
 * **Report example**: Number of 2nd and 3rd purchases placed last year
    * **[!UICONTROL Metric]**: `Distinct Customers`
@@ -148,7 +149,7 @@ Here are some common examples of reports and metrics you might find useful:
 
    ![](../../assets/2nd_and_3rd_purchases_last_year.png)
 
-* **Report example 2**:  Number of repeat customers last year
+* **Report example 2**:  The number of repeat customers last years
    * **[!UICONTROL Metric]**: `Distinct Customers`
    * **[!UICONTROL Filters]**: `Customer's Order Number Greater Than 1`
    * **[!UICONTROL Time Range]**: `Moving range > Last Year`
@@ -184,13 +185,13 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### Average lifetime revenue by cohort
 
-* **Description**: Track the [average lifetime revenue of distinct cohorts](../dev-reports/lifetime-rev-cohort-analysis.md) of users over time to identify top performing cohorts. Cohorts are grouped together by a common date, such as first order date or creation date.
+* **Description**: Track the [average lifetime revenue of distinct cohorts](../dev-reports/lifetime-rev-cohort-analysis.md) of users over time to identify top performing cohorts. Cohorts are grouped by a common date, such as first order date or creation date.
 * **Metric Used**: `Revenue`
 * **Report example**: Average Customer Lifetime Revenue by Cohort
    * **[!UICONTROL Metric]**: `Revenue`
    * **[!UICONTROL Cohort Date]**: `Customer's first order date`
    * **[!UICONTROL Time Interval]**: `Month`
-   * **[!UICONTROL Time Period]**: Moving Set of Cohorts of the most recent 8 cohorts with at least 4 months of data
+   * **[!UICONTROL Time Period]**: Moving Set of Cohorts of the most recent eight cohorts with at least four months of data
    * **[!UICONTROL Duration]**: `12 Month(s)`
    * **[!UICONTROL Table]**: `Customer_entity`
    * **[!UICONTROL Perspective]**: Cumulative Average Value Per Cohort Member
@@ -201,7 +202,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 * **Description**: A count of the number of customers acquired who have used a coupon/discount code. This can help you get a clear view of your discount seekers vs. full-price purchasers.
 * **Metric Used**: `New Users`
-* **Report example**: Coupon and non coupon customers by month
+* **Report example**: Coupon and non-coupon customers by month
    * **[!UICONTROL Metric A]**: `Non coupon customers`
    * **[!UICONTROL Metric]**: `New Users`
    * **[!UICONTROL Filters]**: Customer's Lifetime Number of Orders Greater Than 0 and Customer's Lifetime Number of Coupons Equal to 0
@@ -213,7 +214,7 @@ Here are some common examples of reports and metrics you might find useful:
 
    ![Customers by Coupon Usage](../../assets/Customers_by_coupon_usage.png)<!--{: width="929"}-->
 
-* **Report example 2**: Percent of Coupon and Non coupon customers by month
+* **Report example 2**: Percent of Coupon and Non-coupon customers by month
    * **[!UICONTROL Metric A]**: `Non coupon customers` (hide metric)
       * **[!UICONTROL Metric]**: `New Users`
       * **[!UICONTROL Filters]**: `Customer's Lifetime Number of Orders Greater Than 0` and `Customer's Lifetime Number of Coupons Equal to 0`
@@ -230,11 +231,11 @@ Here are some common examples of reports and metrics you might find useful:
 
    ![Coupon Usage](../../assets/Customers_by_coupon_usage_formula.png)<!--{: width="929"}-->
 
-### Average first 30 day revenue
+### Average first 30-day revenue
 
 * **Description**: The average of the amount of revenue generated by customers within their first 30 days as a customer.
 * **Metric Description**: This metric performs an **Average** of `Customer's First 30 Day Revenue` from `customer_entity` table ordered by `created_at`.
-* **Report Description**: All time average of Customer's first 30 day revenue
+* **Report Description**: All-time average of Customer's first 30-day revenue
 *    **[!UICONTROL Metric]**: `Average First 30 Day Revenue`
 *    **[!UICONTROL Time Range]**: `All Time`
 *    **[!UICONTROL Time Interval]**: `None`
@@ -244,8 +245,8 @@ Here are some common examples of reports and metrics you might find useful:
 ### Average customer lifetime revenue
 
 * **Description**: The average amount of revenue generated by your customers over their lifetime.
-* **Metric Description**: This metric performs a **Average** of the `Customer's Lifetime Revenue` column on the `customer_entity` table based on the `created_at`.
-* **Report Description**: All time average of Customer's lifetime revenue
+* **Metric Description**: This metric performs an **Average** of the `Customer's Lifetime Revenue` column on the `customer_entity` table based on the `created_at`.
+* **Report Description**: All-time average of Customer's lifetime revenue
    * **[!UICONTROL Metric]**: `Average Customer Lifetime Revenue`
    * **[!UICONTROL Time Range]**: `All Time`
    * **[!UICONTROL Time Interval]**: `None`
@@ -257,7 +258,7 @@ Here are some common examples of reports and metrics you might find useful:
 ### Revenue
 
 * **Description**: The revenue metric displays the total revenue earned over a chosen time period.
-* This metrics performs a **sum** of `grand_total` from `sales_flat_order` table ordered by `created_at`.
+* This metric performs a **sum** of `grand_total` from `sales_flat_order` table ordered by `created_at`.
 * **Report Example**: Revenue by month, YTD
    * **[!UICONTROL Metric]**: `Revenue`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
@@ -265,13 +266,13 @@ Here are some common examples of reports and metrics you might find useful:
 
 >[!TIP]
 >
->Make sure your revenue metric's calculation is consistent with the definition that you discuss internally. For example, you may only want to count revenue from orders that have been shipped, you might need to convert currencies from different regions, and you may want to exclude tax. Further, you can use [Filter Sets](../../data-user/reports/ess-manage-data-filters.md) to ensure consistency across all metrics built on the same table.
+>Make sure your revenue metric's calculation is consistent with the definition that you discuss internally. For example, you may want to count revenue from orders that have been shipped, to convert currencies from different regions, or to exclude tax. Also, you can use [Filter Sets](../../data-user/reports/ess-manage-data-filters.md) to ensure consistency across all metrics built on the same table.
 
    ![Revenue](../../assets/revenue.png)<!--{: width="929"}-->
 
 ### Orders
 
-* **Description**: A count of the total number of orders over a given period of time. An Orders report will track changes in order volume caused by new product offerings, promotions, or anything else that may increase (or decrease) transaction volume. You may often want to segment this metric by a number of variables to answer your questions.
+* **Description**: A count of the total number of orders over a given period. An Orders report tracks changes in order volume caused by new product offerings, promotions, or anything else that may increase (or decrease) transaction volume. You may often want to segment this metric by some variables to answer your questions.
 * **Metric definition**: This metric performs a **Count** of `entity_id` from `sales_flat_order` table ordered by `created_at`.
 * **Report example**: Orders by month, YTD
    * **[!UICONTROL Metric]**: `number of orders`
@@ -287,7 +288,7 @@ Here are some common examples of reports and metrics you might find useful:
 ### Products ordered
 
 * **Description**: The products ordered metric tells you the quantity of items sold over a specific time period.
-* **Metric definition**: This metrics performs a **sum** of `qty_ordered` from `sales_flat_order_item` table ordered by `created_at`.
+* **Metric definition**: This metric performs a **sum** of `qty_ordered` from `sales_flat_order_item` table ordered by `created_at`.
 * **Report example**: Items sold by month, YTD
    * **[!UICONTROL Metric]**: `Products ordered`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
@@ -296,11 +297,11 @@ Here are some common examples of reports and metrics you might find useful:
    ![Products Ordered](../../assets/products_ordered_pic1.png)<!--{: width="929"}-->
 
 * Combine this metric with your number of orders metric to calculate the number of items per order. Next, add coupon codes to the report to determine how your promotions impact cart size, or segment by new vs repeat orders to better understand your customer behavior.
-* **Report example**: Products per order: 1st order vs repeat orders
-   * **[!UICONTROL Metric A]**: Products ordered: 1st order
+* **Report example**: Products per order: first order vs repeat orders
+   * **[!UICONTROL Metric A]**: Products ordered: first order
       * **[!UICONTROL Metric]**: `Products ordered`
       * **[!UICONTROL Filter]**: `Customer's order number = 1`
-   * **[!UICONTROL Metric B]**: Orders: 1st order
+   * **[!UICONTROL Metric B]**: Orders: first order
       * **[!UICONTROL Metric]**: `Orders`
       * **[!UICONTROL Filter]**: `Customer's order number = 1`
    * **[!UICONTROL Metric C]**: Products ordered: repeat orders
@@ -322,7 +323,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### Average order value
 
-* **Description**: Track the average value of the orders placed over a period of time. Use this metric to quickly determine how your average order value (AOV) has fluctuated as a result of your marketing efforts, product offering, and/or other changes in your business.
+* **Description**: Track the average value of the orders placed over a period. Use this metric to quickly determine how your average order value (AOV) has fluctuated as a result of your marketing efforts, product offering, and/or other changes in your business.
 * **Metric definition**: This metric performs an **average** of `grand_total` from `sales_flat_order` table ordered by `created_at`.
 * **Report example**: AOV vs previous year, YTD
    * **[!UICONTROL Metric]**: `Average order value`
@@ -413,7 +414,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### Cost per click (CPC)
 
-* **Description**: Using the ad spend and ad clicks metrics you created above, you can analyze your cost per click by different campaigns over time.
+* **Description**: Using the ad spend and ad clicks metrics that you created above, you can analyze your cost per click by different campaigns over time.
 * **Report Example**: CPC by campaign
    * **[!UICONTROL Metric A]**: `Ad spend`
    * **[!UICONTROL Metric B]**: `Ad clicks`
@@ -431,7 +432,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### Customers by acquisition source
 
-* **Description**: If you track an order's source, medium, and campaign using [!DNL Google eCommerce], you can analyze your customers by their acquisition source. This will help you identify which marketing sources are acquiring customers and answer questions such as "are most of your customers making their first orders through [!DNL Google], [!DNL Facebook], or some other source?"
+* **Description**: If you track an order's source, medium, and campaign using [!DNL Google eCommerce], you can analyze your customers by their acquisition source. This helps you identify which marketing sources are acquiring customers and answer questions such as "are most of your customers making their first orders through [!DNL Google], [!DNL Facebook], or some other source?"
 * **Report Example**: Customers by acquisition source
    * **[!UICONTROL Metric Used]**: `New Customers`
    * **[!UICONTROL Time Range]**: `All-Time`
@@ -487,7 +488,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 ### Lifetime value by acquisition source, medium, and campaign
 
-* **Description**: Alongside analyzing the number of customers acquired by each campaign, you can analyze the average lifetime revenue of these customers. This will help you identify:
+* **Description**: Alongside analyzing the number of customers acquired by each campaign, you can analyze the average lifetime revenue of these customers. This helps you identify:
    * If certain campaigns attract a large volume of customers, but those customers have a low lifetime value.
    * If certain campaigns attract a low volume of customers, but those customers have a high lifetime value.
 * **Report Example**: First add the `New customers` metric. Then, add the `Average lifetime revenue` metric. Select the desired time frame and choose the `interval` as `None`. Finally, select the `group by` option as`Customer's first order's campaign`.
@@ -503,7 +504,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 >[!NOTE]
 >
->For the two filters, you can add any other mediums that are considered "paid" mediums for your business such as cpc or paid search, and you can add any other sources you would like to analyze such as Facebook. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
+>For the two filters, you can add any other mediums that are considered "paid" mediums for your business (such as cpc or paid search). You can also add any other sources you would like to analyze such as Facebook. Check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
    ![Lifetime value by acquisition source, medium, and campaign](../../assets/LTV_2.png)<!--{: width="929"}-->
 
@@ -528,7 +529,7 @@ Here are some common examples of reports and metrics you might find useful:
 
 >[!NOTE]
 >
->You can title the formula as "ROI", and Hide all metrics. In addition, you can adjust the filters in the metrics to analyze alternative sources and mediums. Also, check out [this article](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
+>You can title the formula as "ROI", and Hide all metrics. In addition, you can adjust the filters in the metrics to analyze alternative sources and mediums. Also, check out [this topic](../analysis/roi-ad-camp.md) for more details on CAC, LTV, and ROI.
 
    ![ROI 1](../../assets/ROI_1.png)<!--{: width="929"}-->
 

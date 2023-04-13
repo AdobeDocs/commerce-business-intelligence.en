@@ -1,10 +1,11 @@
 ---
 title: Create automated email summaries
 description: Learn how to create automated email summaries.
+exl-id: a9aea4fc-9193-467f-8554-3ad77ac3fa73
 ---
 # Create automated email summaries
 
-Email summaries are a powerful communication tool you can use to share the current status and trends of your business with key stakeholders. With email summaries you can:
+Email summaries are a powerful communication tool that you can use to share the status and trends of your business with key stakeholders. With email summaries you can:
 
 * Email graphical summaries that include reports
 * Include or exclude the email summary author from receiving the email
@@ -17,7 +18,7 @@ Email summaries are a powerful communication tool you can use to share the curre
 
    If this is the first time you are creating an email summary, this page does not display any saved summaries.
 
-1. Click **[!UICONTROL Create New Email Summary]** in the top right corner.
+1. Click **[!UICONTROL Create New Email Summary]** in the top-right corner.
 
 1. Enter a name for the summary.
 
@@ -25,7 +26,7 @@ Email summaries are a powerful communication tool you can use to share the curre
 
 1. In the `Choose Content` section, select the reports you want to include in the summary.
 
-   You can select up to 10 reports that you own. After you select a report, use the icons that appear to select if you want that report sent as a table or a chart. If you saved the report as a number, you can only send it as a number. For information about sending an email summary that contains a report with stale data, see [Managing your account settings](../../administrator/account-management/managing-account-settings.md).
+   You can select up to ten reports that you own. After you select a report, use the icons that appear to select if you want that report sent as a table or a chart. If you saved the report as a number, you can only send it as a number. For information about sending an email summary that contains a report with stale data, see [Managing your account settings](../../administrator/account-management/managing-account-settings.md).
 
    >[!NOTE]
    >

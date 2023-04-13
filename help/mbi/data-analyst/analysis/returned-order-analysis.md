@@ -1,14 +1,15 @@
 ---
 title: Analyzing Returned Orders
-description: Learn how to set up a dashboard that will provide a detailed analysis of your store's returns. 
+description: Learn how to set up a dashboard that provides a detailed analysis of your store's returns.
+exl-id: 6a948561-45b7-4813-9661-ab42197ca5bd
 ---
 # Returned Orders
 
-In this article, we demonstrate how to set up a dashboard that will provide a detailed analysis of your store's returns.
+In this article, learn how to set up a dashboard that provides a detailed analysis of your store's returns.
 
 ![](../../assets/detailed-returns-dboard.png)
 
-Before getting started, you will need to be an [Enterprise client of Magento](https://magento.com/products/magento-commerce) and will want to make sure your company is using the `enterprise\_rma` table for returns.
+Before getting started, you must be an [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html) customer and should make sure that your company is using the `enterprise\_rma` table for returns.
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
@@ -65,7 +66,7 @@ Columns to create
 * Select a [!UICONTROL column]: `Customer's order number`
    * `enterprise_rma.order_id = sales_flat_order.entity_id`
 
-* **`Time between order's created_at and date_requested`** will be created by an analyst as part of your `[RETURNS ANALYSIS]` ticket
+* **`Time between order's created_at and date_requested`** is created by an analyst as part of your `[RETURNS ANALYSIS]` ticket
 
 * **`enterprise_rma_item_entity`** table
 * **`return_date_requested`**
@@ -78,7 +79,7 @@ Columns to create
 * Select a [!UICONTROL column]: `date_requested`
   * `enterprise_rma_item_entity.rma_entity_id = enterprise_rma.entity_id`
 
-* **`Return item total value (qty_returned * price)`** will be created by an analyst as part of your `[RETURNS ANALYSIS]` ticket
+* **`Return item total value (qty_returned * price)`** is created by an analyst as part of your `[RETURNS ANALYSIS]` ticket
 
 * **`sales_flat_order`** table
 * **`Order contains a return? (1=yes/0=No)`**
@@ -86,8 +87,8 @@ Columns to create
 * Select a [!UICONTROL table]: `enterprise_rma`
   * `enterprise_rma.order_id = sales_flat_order.entity_id`
 
-* **`Customer's previous order number`** will be created by an analyst as part of your `[RETURNS ANALYSIS]` ticket
-* **`Customer's previous order contains return? (1=yes/0=no)`** will be created by an analyst as part of your `[RETURNS ANALYSIS]` ticket
+* **`Customer's previous order number`** is created by an analyst as part of your `[RETURNS ANALYSIS]` ticket
+* **`Customer's previous order contains return? (1=yes/0=no)`** is created by an analyst as part of your `[RETURNS ANALYSIS]` ticket
 
 >[!NOTE]
 >
@@ -118,7 +119,7 @@ Columns to create
 
 * **Average time between order and return**
 * In the **`enterprise_rma`** table
-* This metric performs a **Average**
+* This metric performs an **Average**
 * On the **`Time between order's created_at and date_requested`** column
 * Ordered by the **`date_requested`**
 * [!UICONTROL Filter]: `Returns we count`
@@ -213,6 +214,6 @@ Columns to create
 * [!UICONTROL Group by]: `product_sku AND/OR product_name`
 * [!UICONTROL Chart Type]: `Table`
 
-After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the above sample dashboard.
+After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the above sample dashboard.
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../guide-overview.md).
+If you run into any questions while building this analysis or want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

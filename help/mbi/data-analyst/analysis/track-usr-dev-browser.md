@@ -1,6 +1,7 @@
 ---
 title: Google Analytics - Track user device and browser data in your database
-description: Learn  how many users are actually logging in via mobile devices and how that affects the lifetime value of those users. 
+description: Learn  how many users are actually logging in via mobile devices and how that affects the lifetime value of those users.
+exl-id: 57b1bc45-b139-4370-86ea-2fbd021aa14d
 ---
 # [!UICONTROL Google Analytics] Tracking
 
@@ -22,7 +23,7 @@ This information can be accessed by your server every time a request is made. In
 
 ### When should you record this data?
 
-We recommend you add a new field called `Platform` or `User-Agent` to your `Customers` and `Orders` database tables to store this information whenever a user is created or an order is placed. If you are using a SQL database, this field should be a `VARCHAR(255)`. 
+Adobe recommends you add a new field called `Platform` or `User-Agent` to your `Customers` and `Orders` database tables to store this information whenever a user is created or an order is placed. If you are using a SQL database, this field should be a `VARCHAR(255)`. 
 
 >[!NOTE]
 >

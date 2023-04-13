@@ -1,22 +1,23 @@
 ---
 title: Define customer concentration
-description: Learn how to set up a dashboard that will help you measure how total revenue is distributed among your customer base. 
+description: Learn how to set up a dashboard that helps you measure how total revenue is distributed among your customer base.
+exl-id: 6242019f-a6a5-48d3-b214-94acd7842e00
 ---
 # Customer Concentration
 
-In this article, we demonstrate how to set up a dashboard that will help you measure how total revenue is distributed among your customer base. Understand what percent of customers contribute what percent of revenue and create segmented lists to best market to and retain your high contributing customers.
+This article demonstrates how to set up a dashboard that helps you measure how total revenue is distributed among your customer base. Understand what percent of customers contribute what percent of revenue and create segmented lists to best market to and retain your high contributing customers.
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Getting Started
 
-You will need to first upload a file containing just a primary key with the value of one. This will allow the creation of some necessary calculated columns for the analysis.
+You need to first upload a file containing just a primary key with the value of one. This allows the creation of some necessary calculated columns for the analysis.
 
-You can leverage [the file uploader](../importing-data/connecting-data/using-file-uploader.md) as well as the image below to format your file.
+You can use [the file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file.
 
 ## Calculated Columns
 
-If you are on the original architecture (for example, if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
+If you are on the original architecture (for example, if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you want to contact the support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
 
 A further distinction is made if your business allows guest orders. If so, you can ignore all steps for the `customer_entity` table. If guest orders are not allowed, ignore all steps for the `sales_flat_order` table.
 
@@ -29,7 +30,7 @@ Columns to create
 * [!UICONTROL Calculation]: - **case when A is null then null else 1 end**
 * [!UICONTROL Datatype]: – `Integer`
 
-* `Customer concentration` table (this is the file you just uploaded with the number `1`)
+* `Customer concentration` table (this is the file you uploaded with the number `1`)
 * Number of customers
 * [!UICONTROL Column type]: – `Many to One > Count Distinct`
 * Path – `sales_flat_order.(input) reference > Customer Concentration.Primary Key` OR `customer_entity.(input)reference > Customer Concentration.Primary Key`
@@ -72,7 +73,7 @@ Columns to create
 
 >[!NOTE]
 >
->The percentiles used are even splits of customers, representing the Xth percentile of your customer base. Each customer will be associated with an integer from 1 to 100, which can be thought of as their lifetime revenue *rank*. For example, if the Customer's revenue percentile for a specific customer is **5**, this customer is in the ***5th percentile*** of all customers in terms of lifetime revenue.
+>The percentiles used are even splits of customers, representing the Xth percentile of your customer base. Each customer is associated with an integer from 1 to 100, which can be thought of as their lifetime revenue *rank*. For example, if the Customer's revenue percentile for a specific customer is **5**, this customer is in the ***fifth percentile*** of all customers in terms of lifetime revenue.
 
 ## Metrics
 
@@ -133,6 +134,6 @@ Columns to create
 * [!UICONTROL Group by]: `Email`
 * [!UICONTROL Chart type]: `Table`
 
-After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the above sample dashboard.
+After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the above sample dashboard.
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../guide-overview.md).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

@@ -1,14 +1,15 @@
 ---
 title: Free shipping threshold
-description: Learn how to how to set up a dashboard that will track the performance of your free shipping threshold. 
+description: Learn how to set up a dashboard that track the performance of your free shipping threshold.
+exl-id: a90ad89b-96d3-41f4-bfc4-f8c223957113
 ---
 # Free Shipping
 
 >[!NOTE]
 >
->This article contains instructions for clients that are utilizing the original architecture and new architecture. You are on the new architecture if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
+>This article contains instructions for clients that are using the original architecture and new architecture. You are on the new architecture if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
 
-In this article, we demonstrate how to set up a dashboard that will track the performance of your free shipping threshold. This dashboard, shown below, is a great way to A/B test two different free shipping thresholds. For example, your company might be unsure whether you should offer free shipping at $50 or $100. You should perform an A/B test of two random subsets of your customers, and perform the analysis in [!DNL MBI].
+This article demonstrates how to set up a dashboard that track the performance of your free shipping threshold. This dashboard, shown below, is a great way to A/B test two free shipping thresholds. For example, your company might be unsure whether you should offer free shipping at $50 or $100. You should perform an A/B test of two random subsets of your customers, and perform the analysis in [!DNL MBI].
 
 Before getting started, you want to identify two separate time periods where you have had different values for your store's free shipping threshold.
 
@@ -18,18 +19,18 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 ## Calculated Columns
 
-If you are on the original architecture (for example,if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you will want to reach out to our support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
+If you are on the original architecture (for example, if you do not have the `Data Warehouse Views` option under the `Manage Data` menu), you want to reach out to the support team to build out the below columns. On the new architecture, these columns can be created from the `Manage Data > Data Warehouse` page. Detailed instructions are given below.
 
 * **`sales_flat_order`** table
   * This calculation creates buckets in increments relative to your typical cart sizes. This can range from increments including, 5, 10, 50, 100
 
-* **`Order subtotal (buckets)`** Original Architecture: will be created by an analyst as part of your `[FREE SHIPPING ANALYSIS]` ticket
+* **`Order subtotal (buckets)`** Original Architecture: created by an analyst as part of your `[FREE SHIPPING ANALYSIS]` ticket
 * **`Order subtotal (buckets)`** New Architecture:
   * As mentioned above, this calculation creates buckets in increments relative to your typical cart sizes. If you have a native subtotal column such as `base_subtotal`, that can be used as the basis of this new column. If not, it can be a calculated column that excludes shipping and discounts from revenue. 
 
    >[!NOTE]
    >
-   >The "bucket" sizes will depend on what is appropriate for you as a client. You could start with your `average order value` and create a certain number of buckets less than and greater than that amount. When looking at the calculation below, you will see how to easily copy part of the query, edit it, and create additional buckets. The example is done in increments of 50.
+   >The "bucket" sizes depend on what is appropriate for you as a client. You could start with your `average order value` and create some buckets less than and greater than that amount. When looking at the calculation below, you see how to easily copy part of the query, edit it, and create additional buckets. The example is done in increments of 50.
 
   * `Column type - Same table, Column definition - Calculation, Column Inputs-` `base_subtotal`, or `calculated column`, `Datatype`: `Integer`
   * [!UICONTROL Calculation]: `case when A >= 0 and A<=200 then 0 - 200`
@@ -110,4 +111,4 @@ No new metrics!!!
 
 Repeat the above steps and reports for Shipping B and the time period with shipping rule B.
 
-After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of this page.
+After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the image at the top of this page.

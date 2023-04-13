@@ -1,16 +1,17 @@
 ---
 title: Expected Lifetime Value (LTV) Analysis for Pro
-description: Learn how to set up a dashboard that will help you understand customer lifetime value growth and expected lifetime value of your customers. 
+description: Learn how to set up a dashboard that helps you understand customer lifetime value growth and expected lifetime value of your customers.
+exl-id: e353b92a-ff3b-466b-b519-4f86d054c0bc
 ---
 # Expected Lifetime Value Analysis
 
-In this article, we demonstrate how to set up a dashboard that will help you understand customer lifetime value growth and expected lifetime value of your customers. 
+This article demonstrates how to set up a dashboard that helps you understand customer lifetime value growth and expected lifetime value of your customers. 
 
 ![](../../assets/exp-lifetim-value-anyalysis.png)
 
 This analysis is only available to Pro account customers on the new architecture. If your account has access to the `Persistent Views` feature under the `Manage Data` side bar, you are on the new architecture and can follow the instructions listed here to build this analysis yourself.
 
-Before getting started, you will want to familiarize yourself with our [cohort report builder.](../dev-reports/cohort-rpt-bldr.md)
+Before getting started, you want to familiarize yourself with the [cohort report builder.](../dev-reports/cohort-rpt-bldr.md)
 
 ## Calculated Columns
 
@@ -129,6 +130,6 @@ Other chart details
 * [!UICONTROL Cohort date]: `Customer's first order date`
 * [!UICONTROL Perspective]: `Cumulative average value per cohort member`
 
-After compiling all the reports, you can organize them on the dashboard as you desire. The end result may look like the image at the top of the page.
+After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the image at the top of the page.
 
-If you run into any questions while building this analysis, or simply want to engage our professional services team, [contact support](../../guide-overview.md).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

@@ -1,18 +1,19 @@
 ---
 title: Expected Lifetime Value (LTV) Analysis (basic)
-description: Learn how to create analyses to understand your current customers' lifetime value, and forecast how lifetime value will increase with more orders. 
+description: Learn how to create analyses to understand your current customers' lifetime value, and forecast how lifetime value increases with more orders.
+exl-id: e6f02cf6-f542-4768-969c-3ec998a7caa9
 ---
 # Expected Lifetime Value Analysis
 
 Forecasting the lifetime value of customers as they place more orders is one of the most important aspects of any business of any size.
 
-Here are the steps to create analyses to understand your current customers' lifetime value, and forecast how lifetime value will increase with more orders:
+Here are the steps to create analyses to understand your current customers' lifetime value, and forecast how lifetime value increases with more orders:
 
 ![expected lifetime value](../../assets/expected_ltv_720.png)
 
 ## Building a Metric
 
-The first step will be to construct a new metric with the following steps:
+The first step is to construct a new metric with the following steps:
 * Navigate to **[!UICONTROL Manage Data > Metrics]**
   * View the existing **[!UICONTROL Avg lifetime revenue]**.
 
@@ -33,15 +34,13 @@ Once the metric has been created, you can **create a dashboard** by doing this:
 * Navigate to **[!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
 * Give the dashboard a name such as `Expected LTV`.
 
-* This will be where we create and add all the reports.
+* This is where you create and add all the reports.
 
 ## Building Reports
 
-* If you have not already, check out [this video](https://fast.wistia.net/embed/iframe/24zz7wmjrt) about using the **[!UICONTROL Visual Report Builder] to build charts, tables, and scalar values.
-
 >[!NOTE]
 >
->On **[!UICONTROL Time Period:]**, the time period for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. We recommend all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
+>On **[!UICONTROL Time Period:]**, the time period for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. Adobe recommends all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
 
 * **[!UICONTROL Average LTV (all)]**
   * [!UICONTROL Metric]: `Avg lifetime revenue`
@@ -77,7 +76,7 @@ Once the metric has been created, you can **create a dashboard** by doing this:
 
    >[!NOTE]
    >
-   >Do not add all of the values for `Customer's lifetime number of orders`, instead look at a point where the number of New Customers reaches a small number, and manually add each Customer's lifetime number of order value to that point. For instance, if there are 200 customers at one order, 75 at two, 15 at three, and 3 at four, add *1, 2, and 3*.
+   >Do not add all of the values for `Customer's lifetime number of orders`. Instead, look at a point where the number of New Customers reaches a small number and manually add each Customer's lifetime number of order value to that point. For instance, if there are 200 customers at one order, 75 at two, 15 at three, and 3 at four, add *1, 2, and 3*.
 
 * Add the existing [!UICONTROL Avg customer lifetime revenue by cohort] report.
 

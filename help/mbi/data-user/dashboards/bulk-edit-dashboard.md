@@ -1,10 +1,11 @@
 ---
 title: Bulk-editing Charts in Dashboards
-description: Learn how to use the bulk editing feature in [!DNL MBI].
+description: Learn how to use the bulk-editing feature in [!DNL MBI].
+exl-id: 576ffabb-5e5d-4251-9662-951e2cd30f31
 ---
 # Bulk editing Charts in Dashboards
 
-The bulk-editing feature makes it easy to change chart names and dates in your dashboards. For example, you want all charts on a specific dashboard to refer to a single store and report on a monthly basis rather than quarterly. Rather than changing everything manually, let the `bulk-editing` feature do the work. In this article, you will learn how to use:
+The bulk-editing feature makes it easy to change chart names and dates in your dashboards. For example, you want all charts on a specific dashboard to refer to a single store and report on a monthly basis rather than quarterly. Rather than changing everything manually, let the `bulk-editing` feature do the work. In this article, you learn how to use:
 
 * [The `Find/Replace` Feature](#findreplace)
 
@@ -12,11 +13,11 @@ The bulk-editing feature makes it easy to change chart names and dates in your d
 
 * [The `Change Dates` Feature](#dates)
 
-That being said, consider this - *Do these changes need to be permanent?* If not, consider cloning the dashboard and then changing the dates in the new dashboard. This will allow you to preserve your original dashboard while still making the changes you need.
+That being said, consider this - *Do these changes need to be permanent?* If not, consider cloning the dashboard and then changing the dates in the new dashboard. This allows you to preserve your original dashboard while still making the changes you need.
 
 >[!NOTE]
 >
->If you are making changes to a lot of reports, the update process could take a little while.
+>If you are changing numerous reports, the update process could take a little while.
 
 ## Using `Find/Replace` {#findreplace}
 
@@ -40,7 +41,7 @@ Example:
 
 1. Click **[!UICONTROL Prepend Report Names]** in the pop-up window.
 
-1. Type the words or characters you want to prepend your charts with.
+1. Type the words or characters that you want to prepend your charts with.
 
 1. Click **[!UICONTROL Update Reports]**.
 

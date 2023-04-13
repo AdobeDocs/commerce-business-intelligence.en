@@ -1,6 +1,7 @@
 ---
 title: Consolidate your Tables
-description: Learn how to consolidate your tables and databases. 
+description: Learn how to consolidate your tables and databases.
+exl-id: 6065bed3-fb84-4147-a223-92dc3e1b15a5
 ---
 # Consolidate your Tables
 
@@ -20,7 +21,7 @@ The following discusses when it might be appropriate to use consolidated tables 
 
 If you sell your products under different brands and websites, it is likely that the tables for each brand or website are similarly structured.
 
-For example, you may have an `orders` table for website `A` and a separate, but similar, `orders` table for website `B`. In this situation, it may be useful to consolidate the `orders` tables from website `A` and `B` so that you can look at the consolidated revenue and number of orders from website `A` and `B`, in addition to be able to segment metrics by these two websites.
+For example, you may have an `orders` table for website `A` and a separate, but similar, `orders` table for website `B`. In this situation, it may be useful to consolidate the `orders` tables from website `A` and `B`. This lets you look at the consolidated revenue and number of orders from website `A` and `B`, in addition to be able to segment metrics by these two websites.
 
 ### Integrating Legacy Data
 
@@ -28,15 +29,15 @@ Many companies have refactored their databases at one time or another, and the d
 
 ### Combining Events for Active User Analysis
 
-Imagine a website where users can do several things: take a survey, play a game, make a purchase, refer a friend, and so on. Typically, each of these events will be stored in its own table. This makes it difficult to conduct an analysis of how many distinct users took at least one action of any kind in a given time period.
+Imagine a website where users can do several things: take a survey, play a game, make a purchase, refer a friend, and so on. Typically, each of these events is stored in its own table. This makes it difficult to conduct an analysis of how many distinct users took at least one action of any kind in a given time period.
 
-You can utilize consolidated tables to create one unified list of all users and when any of these events took place. You can then run queries on the consolidated table to easily conduct such an analysis.
+You can use consolidated tables to create one unified list of all users and when any of these events took place. You can then run queries on the consolidated table to easily conduct such an analysis.
 
-As with all other tables in your data warehouse, you can add additional columns to power different kinds of charts and analyses.
+As with all other tables in your Data Warehouse, you can add additional columns to power different kinds of charts and analyses.
 
 ## Creating, Viewing, or Updating a Consolidated Table
 
-If you are interested in adding a consolidated table to your data warehouse, contact [!DNL MBI] [support](../guide-overview.md).
+If you are interested in adding a consolidated table to your Data Warehouse, contact [!DNL MBI] [support](../guide-overview.md).
 
 >[!NOTE]
 >
