@@ -7,7 +7,7 @@ exl-id: db9fdaaa-47a9-4095-b1f8-9b6c74c25b7c
 
 After you have connected a [!DNL Google Analytics] integration, you can interact with your [!DNL Google Analytics] metrics *immediately in the `Visual Report Builder`*. When you enter the `Visual Report Builder`, if you click **[!UICONTROL Add a Metric]**, a series of metrics from your [!DNL Google Analytics] profile appears in a dropdown immediately beneath the metrics in your Data Warehouse.
 
-The [!DNL Google Analytics] integration is *live* -- this means that the `Report Builder` requests data from [!DNL Google Analytics] *immediately* when you add a metric to your report. It also means that the metrics that you can access are defined exactly as they are in [!DNL Google Analytics], and that these values are not *warehoused* in your [!DNL MBI] account -- only displayed visually in your reports.
+The [!DNL Google Analytics] integration is *live* -- this means that the `Report Builder` requests data from [!DNL Google Analytics] *immediately* when you add a metric to your report. It also means that the metrics that you can access are defined exactly as they are in [!DNL Google Analytics], and that these values are not *warehoused* in your [!DNL MBI] account - only displayed visually in your reports.
 
 +++Supported Metrics and Dimensions (Google Analytics 3 or Universal Analytics)
 
