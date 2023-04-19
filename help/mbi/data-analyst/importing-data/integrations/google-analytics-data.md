@@ -9,13 +9,13 @@ After you have connected a [!DNL Google Analytics] integration, you can interact
 
 The [!DNL Google Analytics] integration is *live* -- this means that the `Report Builder` requests data from [!DNL Google Analytics] *immediately* when you add a metric to your report. It also means that the metrics that you can access are defined exactly as they are in [!DNL Google Analytics], and that these values are not *warehoused* in your [!DNL MBI] account -- only displayed visually in your reports.
 
++++Supported Metrics and Dimensions (Google Analytics 3 or Universal Analytics)
+
 [!DNL Google Analytics] integrations in [!DNL MBI] use the [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
 
 >[!NOTE]
 >
 >To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with one or more metrics you use in the `Report Builder`. You can check [here](https://ga-dev-tools.google/dimensions-metrics-explorer/).
-
-+++Supported Metrics and Dimensions (Google Analytics 3)
 
 ## Supported Metrics
 
@@ -144,7 +144,9 @@ The [!DNL Google Analytics] integration is *live* -- this means that the `Report
 
 +++Supported Metrics and Dimensions (Google Analytics 4)
 
-For the dimensions and metrics supported in the Analytics Data API queries, see [Google Analytics Data API (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema).
+For the complete list of Metrics & Dimensions supported in the Analytics Data API queries, see [Google Analytics Data API (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema) and [GA4 Dimensions & Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
+
+
 
 >[!NOTE]
 >
