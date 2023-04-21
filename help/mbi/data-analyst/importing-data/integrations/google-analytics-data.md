@@ -144,12 +144,12 @@ The [!DNL Google Analytics] integration is *live* -- this means that the `Report
 
 +++Supported Metrics and Dimensions (Google Analytics 4)
 
-[!DNL Google Analytics] integrations in [!DNL MBI] use the [!DNL Google Analytics] [Core Reporting API (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema).
+[!DNL Google Analytics] integrations in [!DNL MBI] use the [!DNL Google Analytics] [CGoogle Analytics Data API v1 (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1).
 
 >[!NOTE]
 >
 >There are four non-supported dimensions in MBI: `cohort`, `cohortNthDay`, `cohortNthMonth`, and `cohortNthWeek`.
 >
->To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with one or more metrics you use in the `Report Builder`. You can check the [GA4 Dimensions & Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
+>To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with one or more metrics you use in the `Visual Report Builder`. You can check the [GA4 Dimensions & Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
 
 +++
