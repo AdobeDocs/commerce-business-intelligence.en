@@ -144,11 +144,7 @@ The [!DNL Google Analytics] integration is *live* -- this means that the `Report
 
 +++Supported Metrics and Dimensions (Google Analytics 4)
 
-[!DNL Google Analytics] integrations in [!DNL MBI] use the [!DNL Google Analytics] [Core Reporting API (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema);
-
-For the complete list of Metrics & Dimensions supported in the Analytics Data API queries, see [GA4 Dimensions & Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
-
-
+[!DNL Google Analytics] integrations in [!DNL MBI] use the [!DNL Google Analytics] [Core Reporting API (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema).
 
 >[!NOTE]
 >
