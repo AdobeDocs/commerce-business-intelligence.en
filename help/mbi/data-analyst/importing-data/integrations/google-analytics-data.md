@@ -11,6 +11,10 @@ The [!DNL Google Analytics] integration is *live* -- this means that the `Report
 
 +++Supported Metrics and Dimensions (Google Analytics 3 or Universal Analytics)
 
+>[NOTE]
+>
+>On July 1, 2023, standard Universal Analytics ([!DNL Google Analytics] 3) properties will no longer process data. You will be able to see your Universal Analytics reports for a period of time after July 1, 2023. However, new data will only flow into [!DNL Google Analytics] 4 properties.
+
 [!DNL Google Analytics] integrations in [!DNL MBI] use the [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
 
 >[!NOTE]
