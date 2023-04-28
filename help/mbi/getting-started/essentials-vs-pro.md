@@ -3,8 +3,6 @@ title: MBI Essentials vs. Pro
 description: Learn how MBI Essentials differs from MBI Pro.
 exl-id: 624a6285-8497-43d9-a56d-8ae503e0e2dd
 
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=en
 ---
 # [!DNL MBI Essentials] vs [!DNL MBI Pro]
 
@@ -148,4 +146,3 @@ Items in _italics_ are calculated fields.
 * `store` table
   * `store_id`
   * `name`
-
