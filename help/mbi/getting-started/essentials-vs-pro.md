@@ -6,11 +6,7 @@ exl-id: 624a6285-8497-43d9-a56d-8ae503e0e2dd
 ---
 # [!DNL MBI Essentials] vs [!DNL MBI Pro]
 
->[!NOTE]
->
->This is archived documentation for [!DNL MBI].
-
-The following table describes what is included with Essentials and Pro.
+The following table describes elements included with a legacy `Essentials` account versus a current MBI account. Adobe no longer offers `Essentials`.
 
 |   | **`MBI Essentials`**| **`MBI Pro`**|
 |-----|-----|-----|
