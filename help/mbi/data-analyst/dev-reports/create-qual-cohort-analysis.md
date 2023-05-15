@@ -1,13 +1,13 @@
 ---
 title: Create a qualitative cohort analysis
-description: Learn what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL MBI].
+description: Learn what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL Commerce Intelligence].
 exl-id: 113244e4-409b-4129-b3d4-7a3433539ade
 ---
 # Create a `Qualitative Cohort Analysis`
 
 Do you know how your [!DNL Adwords]-acquired customer segments grow their LTV compared to those customers acquired from organic search? Have you ever thought of performing a `cohort` analysis on different customer segments side by side in the same report? If so, a `qualitative cohort analysis` helps you answer those questions.
 
-This article dives into what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL MBI].
+This article dives into what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL Commerce Intelligence].
 
 ## What are `qualitative cohorts`, anyway? {#whatare}
 
@@ -15,7 +15,7 @@ This article dives into what a qualitative cohort is, why you might be intereste
 
 See [cohort analysis](https://www.cohortanalysis.com/).
 
-Most `cohort` analyses in [!DNL MBI] group users together by a common date (for example, the set of all customers who made their first purchase in a given month). A `qualitative cohort` is a little different: it is a user group that is defined by a characteristic that is not time-based. Some examples include:
+Most `cohort` analyses in [!DNL Commerce Intelligence] group users together by a common date (for example, the set of all customers who made their first purchase in a given month). A `qualitative cohort` is a little different: it is a user group that is defined by a characteristic that is not time-based. Some examples include:
 
 * The set of all users that were acquired from an ad campaign
 * The set of all users whose first purchase included a coupon (or did not)

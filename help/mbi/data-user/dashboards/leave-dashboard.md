@@ -5,7 +5,7 @@ exl-id: c84e7145-aded-4f66-8e52-a61c7e6ac804
 ---
 # Leave (unshare) a dashboard
 
-Changing teams? In the middle of spring cleaning your [!DNL MBI] account? To leave or unshare yourself from a dashboard, click **[!UICONTROL Shared]** at the top of the screen while in the dashboard you want to leave. Click **[!UICONTROL Leave this Dashboard]** to remove yourself.
+Changing teams? In the middle of spring cleaning your [!DNL Commerce Intelligence] account? To leave or unshare yourself from a dashboard, click **[!UICONTROL Shared]** at the top of the screen while in the dashboard you want to leave. Click **[!UICONTROL Leave this Dashboard]** to remove yourself.
 
 Example:
 

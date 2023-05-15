@@ -39,9 +39,9 @@ In the second column, enter what these values **should be**. Continuing with the
 
 ![](../../assets/Mapping_table_examples.jpg)
 
-## What do I need to do in [!DNL MBI] to use it? {#use}
+## What do I need to do in [!DNL Commerce Intelligence] to use it? {#use}
 
-After you have finished creating the mapping table, you'll need to [upload the file](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) into [!DNL MBI] and [create a joined column](../../data-analyst/data-warehouse-mgr/calc-column-types.md) that relocates the new field into the desired table. You can do this after the file is synced to your Data Warehouse.
+After you have finished creating the mapping table, you'll need to [upload the file](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) into [!DNL Commerce Intelligence] and [create a joined column](../../data-analyst/data-warehouse-mgr/calc-column-types.md) that relocates the new field into the desired table. You can do this after the file is synced to your Data Warehouse.
 
 This example moves the column that you created on the `mapping_state` table (`state_input`) to the `customer_address` table using a joined column. This allows us to group by the clean `state_input` column in your reports instead of the `state` column.
 
@@ -72,7 +72,7 @@ After an update cycle completes, you will be able to use your new joined column 
 
 ![](../../assets/Clean_State_Segments.png)
 
-Mapping tables are handy for any time that you want to clean up some potentially messy data in your Data Warehouse. However, mapping tables can also be used for some other cool use cases, like [replicating your Google Analytics channels in MBI](../data-warehouse-mgr/rep-google-analytics-channels.md).
+Mapping tables are handy for any time that you want to clean up some potentially messy data in your Data Warehouse. However, mapping tables can also be used for some other cool use cases, like [replicating your Google Analytics channels in Commerce Intelligence](../data-warehouse-mgr/rep-google-analytics-channels.md).
 
 ### Related
 

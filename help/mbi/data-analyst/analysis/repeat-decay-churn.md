@@ -70,7 +70,7 @@ After creating the above analysis and determining a churn threshold, you can bui
 
 If you offer more than one product, you probably wonder how customers that purchase a specific product behave differently over time compared to other customers. Want to know more? Check out this tutorial to explore the lifetime purchasing behavior of customer cohorts based on specific products that they have purchased.
 
-This best practice is provided by [!DNL MBI] Data Analysis Services (DAS). [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for more info.
+This best practice is provided by [!DNL Commerce Intelligence] Data Analysis Services (DAS). [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for more info.
 
 ### Related
 

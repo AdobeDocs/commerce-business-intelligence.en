@@ -15,7 +15,7 @@ Sharing dashboards is a great way to keep your team in the loop and encourage co
 
 1. Click **[!UICONTROL Share Dashboard]** at the top of the screen.
 
-   A list of all users in your [!DNL MBI] account will display.
+   A list of all users in your [!DNL Commerce Intelligence] account will display.
 
 1. To select a user to share the dashboard with, check the box to the left of their name.
 

@@ -5,7 +5,7 @@ exl-id: 70bfd855-3b3f-469b-99bc-deb8251904b7
 ---
 # UTM Tracking
 
-`UTM` tracking is a tagging convention for URLs that let you analyze where your users are coming from. If you look on the URLs you click from most marketing email or banner ads, you see UTM tagging. It is those long links that end with things like `utm\_source` and `utm\_medium`.
+`UTM` tracking is a tagging convention for URLs that enable you to analyze where your users are coming from. If you look on the URLs you click from most marketing email or banner ads, you see UTM tagging. It is those long links that end with things like `utm\_source` and `utm\_medium`.
 
 [!DNL Google Analytics] uses `UTM` tagging to know where your traffic is coming from. Some of this information comes from the [HTTP referrer](https://en.wikipedia.org/wiki/HTTP_referer) but the rest of it you have to supply yourself with `UTM` parameters. When you see `google adwords` or `email marketing`, it means those `UTM` parameters being recorded from the original link click and then stored in users' cookies. From there, [!DNL Google Analytics] uses that data to [attribute interesting behaviors](../data-analyst/analysis/google-track-user-acq.md) on your site. Understanding what those parameters are for helps you understand how best to set up and use UTM tagging.
 

@@ -5,7 +5,7 @@ exl-id: 0b211e2d-770f-480d-a7fb-8d10e3e7272e
 ---
 # Reduce Update Cycle Processing Time
 
-[!DNL MBI] syncs with your database throughout the day to replicate new data, ensuring that your dashboards always show the latest information.
+[!DNL Adobe Commerce Intelligence] syncs with your database throughout the day to replicate new data, ensuring that your dashboards always show the latest information.
 
 Many factors can add to an already lengthy update time. Certain replication methods, higher recheck frequencies, and the number of dashboards and charts are just a few contributors. This topics discusses some best practices to reduce your update times.
 
@@ -13,7 +13,7 @@ Many factors can add to an already lengthy update time. Certain replication meth
 
 In a database table, there can be data columns with changeable values. For example, in an **orders** table there might be a column called **status**. When an order is initially written to the database, the status column might contain the value `pending`. The order is replicated in your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) with this `pending` value.
 
-Changeable columns must be [rechecked for updated values](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) over time. By default, [!DNL MBI] rechecks these columns during every update, but if there is a large amount of data to be rechecked and replicated, it can negatively impact your update time. Instead of running rechecks during every update, Adobe recommends setting the recheck frequency to daily, weekly, or monthly.
+Changeable columns must be [rechecked for updated values](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) over time. By default, [!DNL Commerce Intelligence] rechecks these columns during every update, but if there is a large amount of data to be rechecked and replicated, it can negatively impact your update time. Instead of running rechecks during every update, Adobe recommends setting the recheck frequency to daily, weekly, or monthly.
 
 ## Use Incremental Replication Methods
 
@@ -21,9 +21,9 @@ As mentioned above, long update times are directly correlated to how much data h
 
 ## Remove Unused Charts from Dashboards
 
-At the end of the update cycle, [!DNL MBI] performs a cache operation for all charts. A cache stores data so future requests for information can be completed faster. In [!DNL MBI], this means dashboards load quickly because charts do not need to query data every time they load.
+At the end of the update cycle, [!DNL Commerce Intelligence] performs a cache operation for all charts. A cache stores data so future requests for information can be completed faster. In [!DNL Commerce Intelligence], this means dashboards load quickly because charts do not need to query data every time they load.
 
-Since [!DNL MBI] only performs cache operations for charts found in a dashboard, removing unused charts from your dashboards decreases your update time. Keep in mind that the same chart might be on multiple dashboards - check with your team to make sure they also removed any unused charts.
+Since [!DNL Commerce Intelligence] only performs cache operations for charts found in a dashboard, removing unused charts from your dashboards decreases your update time. Keep in mind that the same chart might be on multiple dashboards - check with your team to make sure they also removed any unused charts.
 
 >[!NOTE]
 >

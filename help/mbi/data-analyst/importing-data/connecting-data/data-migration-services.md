@@ -20,7 +20,7 @@ After you have the answers to the above, you need to know the type of migration:
 
 ## Migrating to a new database with the same schema {#sameschema}
 
-When submitting the request, let us know that the database schema is not changing and that the connection is already set up in [!DNL MBI].
+When submitting the request, let us know that the database schema is not changing and that the connection is already set up in [!DNL Commerce Intelligence].
 
 If the database has a new name, include it in the request so your dashboards can be properly migrated.
 

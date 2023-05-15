@@ -1,11 +1,11 @@
 ---
 title: Add/Edit a new user
-description: Learn how to add a new [!DNL MBI] user and how to update your user name or password.
+description: Learn how to add a new [!DNL Commerce Intelligence] user and how to update your user name or password.
 exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 ---
 # Add a user
 
-1. Click on your company's name in the upper right-hand corner and select **[!UICONTROL Invite User]** from the dropdown.
+1. Click on your company's name in the upper-right corner and select **[!UICONTROL Invite User]** from the dropdown.
 1. Enter the user's name and email.
 1. Set the user's **[!UICONTROL general permission level]**: `Admin`, `Standard`, or `Read Only`.
 1. Indicate if this new user should also be accountable for **[!UICONTROL billing]** or **[!UICONTROL technical]** issues by checking the appropriate boxes.
@@ -24,11 +24,11 @@ The new user is sent an email with login and password details.
 
 ## Update your email address or password
 
-You can update your email address and/or password by clicking your company name in the top right-hand corner and then click Click **[!UICONTROL Edit Profile]**.
+You can update your email address and/or password by clicking your company name in the top right-hand corner and then click **[!UICONTROL Edit Profile]**.
 
 ## Resend the Invitation
 
-If you need to resend the invitation to the new user, on the [login page](https://dashboard.rjmetrics.com/v2/session/create), click **[!UICONTROL Forgot?]**, enter the new user's email address, and click **[!UICONTROL Reset Password]**. This resends the invitation and allows the user to log in.
+If you need to resend the invitation to the new user, on the [login page](https://dashboard.rjmetrics.com/v2/session/create), click **[!UICONTROL Forgot?]**, enter the new user's email address, and click **[!UICONTROL Reset Password]**. This re-sends the invitation and allows the user to log in.
 
 >[!IMPORTANT]
 >

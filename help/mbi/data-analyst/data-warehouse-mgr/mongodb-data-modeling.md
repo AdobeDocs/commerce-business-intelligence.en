@@ -5,15 +5,15 @@ exl-id: 556c854b-5d7c-4f72-8ed7-5bc08d9ee5b9
 ---
 # [!DNL MongoDB] Data Modeling
 
-When [!DNL MBI] pulls in [!DNL MongoDB] data, that data is translated into a relational model.
+When [!DNL Commerce Intelligence] pulls in [!DNL MongoDB] data, that data is translated into a relational model.
 
-The bad news: While most data patterns do not pose an issue, there are a few that, because of the translation to a relational model, [!DNL MBI] does not support.
+The bad news: While most data patterns do not pose an issue, there are a few that, because of the translation to a relational model, [!DNL Commerce Intelligence] does not support.
 
 The good news: All these patterns can be avoided.
 
 ## Subnested Arrays {#subnested}
 
-If your collection looks like the example below, [!DNL MBI] only replicates the data in the items array. Data from the subitems array are not pulled.
+If your collection looks like the example below, [!DNL Commerce Intelligence] only replicates the data in the items array. Data from the subitems array are not pulled.
 
 ```bash
     {
@@ -35,7 +35,7 @@ If your collection looks like the example below, [!DNL MBI] only replicates the 
 
 ## Variable Object Keys {#varobjectkeys}
 
-Collections that include objects with variable object keys are not replicated in [!DNL MBI]. For example:
+Collections that include objects with variable object keys are not replicated in [!DNL Commerce Intelligence]. For example:
 
 ```bash
     {

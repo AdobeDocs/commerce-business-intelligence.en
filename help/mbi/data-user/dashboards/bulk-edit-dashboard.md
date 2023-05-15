@@ -1,6 +1,6 @@
 ---
 title: Bulk-editing Charts in Dashboards
-description: Learn how to use the bulk-editing feature in [!DNL MBI].
+description: Learn how to use the bulk-editing feature in [!DNL Commerce Intelligence].
 exl-id: 576ffabb-5e5d-4251-9662-951e2cd30f31
 ---
 # Bulk editing Charts in Dashboards

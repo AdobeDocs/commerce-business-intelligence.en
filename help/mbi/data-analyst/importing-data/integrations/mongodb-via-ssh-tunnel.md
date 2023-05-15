@@ -5,21 +5,21 @@ exl-id: 3557a8c7-c4c5-4742-ae30-125c719aca39
 ---
 # Connect [!DNL MongoDB] via SSH Tunnel 
 
-To connect your [!DNL MongoDB] database to [!DNL MBI] via an SSH tunnel, you (or your team, if you are not a techie) must do a few things:
+To connect your [!DNL MongoDB] database to [!DNL Commerce Intelligence] via an SSH tunnel, you (or your team, if you are not a techie) must do a few things:
 
-1. [Retrieve the [!DNL MBI] public key](#retrieve)
-1. [Allow access to the [!DNL MBI] IP address](#allowlist)
-1. [Create a Linux&reg; user for MBI](#linux)
-1. [Create a [!DNL MongoDB] user for MBI](#mongodb)
-1. [Enter the connection and user info into [!DNL MBI]](#finish)
+1. [Retrieve the [!DNL Commerce Intelligence] public key](#retrieve)
+1. [Allow access to the [!DNL Commerce Intelligence] IP address](#allowlist)
+1. [Create a Linux&reg; user for Commerce Intelligence](#linux)
+1. [Create a [!DNL MongoDB] user for Commerce Intelligence](#mongodb)
+1. [Enter the connection and user info into [!DNL Commerce Intelligence]](#finish)
 
 >[!NOTE]
 >
 >Due to the technical nature of this setup, Adobe recommends you loop in a developer to help out if you have not done this before.
 
-## Retrieving the [!DNL MBI] public key {#retrieve}
+## Retrieving the [!DNL Commerce Intelligence] public key {#retrieve}
 
-The `public key` is used to authorize the [!DNL MBI] `Linux` user. The next section walks you through creating the user and import the keys.
+The `public key` is used to authorize the [!DNL Commerce Intelligence] `Linux` user. The next section walks you through creating the user and import the keys.
 
 1. Go to **[!UICONTROL Data** > **Connections]** and click **[!UICONTROL Add New Data Source]**.
 1. Click the [!DNL MONGODB] icon.
@@ -28,21 +28,21 @@ The `public key` is used to authorize the [!DNL MBI] `Linux` user. The next sect
 
 Leave this page open throughout the tutorial - you will need it in the next section and at the end.
 
-If you are a bit lost, here is how to navigate through [!DNL MBI] to retrieve the key:
+If you are a bit lost, here is how to navigate through [!DNL Commerce Intelligence] to retrieve the key:
 
 ![Retrieving the RJMetrics public key](../../../assets/MongoDB_Public_Key.gif)<!--{:.zoom}-->
 
-## Allow access to the [!DNL MBI] IP address {#allowlist}
+## Allow access to the [!DNL Commerce Intelligence] IP address {#allowlist}
 
 For the connection to be successful, you must configure your firewall to allow access from your IP addresses. They are `54.88.76.97` and `34.250.211.151`, but it is also on the [!DNL MongoDB] credentials page:
 
 ![MBI_Allow_Access_IPs.png](../../../assets/MBI_allow_access_IPs.png)
 
-## Creating a `Linux` user for [!DNL MBI] {#linux}
+## Creating a `Linux` user for [!DNL Commerce Intelligence] {#linux}
 
 >[!IMPORTANT]
 >
->If the `sshd_config` file associated with the server is not set to the default option, only certain users have server access - this prevents a successful connection to [!DNL MBI]. In these cases, it is necessary to run a command like `AllowUsers` to allow the `rjmetric` user access to the server.
+>If the `sshd_config` file associated with the server is not set to the default option, only certain users have server access - this prevents a successful connection to [!DNL Commerce Intelligence]. In these cases, it is necessary to run a command like `AllowUsers` to allow the `rjmetric` user access to the server.
 
 This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may restrict this user any way you like as long as it retains the right to connect to the [!DNL MongoDB] server.
 
@@ -68,7 +68,7 @@ To finish creating the user, alter the permissions on the /home/rjmetric directo
     chmod -R 700 /home/rjmetric/.ssh
 ```
 
-## Creating an [!DNL MBI] [!DNL MongoDB] user {#mongodb}
+## Creating an [!DNL Commerce Intelligence] [!DNL MongoDB] user {#mongodb}
 
 [!DNL MongoDB] servers have two run modes - [one with the "auth" option](#auth) `(mongod -- auth)` and one without, [which is the default](#default). The steps for creating a [!DNL MongoDB] user varies depending on what mode your server is using. Bee sure to verify the mode before continuing.
 
@@ -78,16 +78,16 @@ When connecting to multiple databases, you can add the user by logging into [!DN
 
 >[!NOTE]
 >
->To see all available databases, the [!DNL MBI] user requires the permissions to run `listDatabases.`
+>To see all available databases, the [!DNL Commerce Intelligence] user requires the permissions to run `listDatabases.`
 
-This command grants the [!DNL MBI] user access `to all databases`:
+This command grants the [!DNL Commerce Intelligence] user access `to all databases`:
 
 ```bash
     use admin
     db.createUser('rjmetric', '< secure password here >', true)
 ```
 
-Use this command to grant the [!DNL MBI] user access `to a single database`:
+Use this command to grant the [!DNL Commerce Intelligence] user access `to a single database`:
 
 ```bash
     use < database name >
@@ -116,22 +116,22 @@ If your server does not use `auth` mode, your [!DNL MongoDB] server is accessibl
 
 To bind your [!DNL MongoDB] server to a different address, adjust the database hostname in the next step accordingly.
 
-## Entering the connection and user info into [!DNL MBI] {#finish}
+## Entering the connection and user info into [!DNL Commerce Intelligence] {#finish}
 
-To wrap things up, you need to enter the connection and user info into [!DNL MBI]. Did you leave the [!DNL MongoDB] credentials page open? If not, go to **[!UICONTROL Data > Connections]** and click **[!UICONTROL Add New Data Source]**, then the [!DNL MongoDB] icon. Do not forget to change the `Encrypted` toggle to `Yes`.
+To wrap things up, you need to enter the connection and user info into [!DNL Commerce Intelligence]. Did you leave the [!DNL MongoDB] credentials page open? If not, go to **[!UICONTROL Data > Connections]** and click **[!UICONTROL Add New Data Source]**, then the [!DNL MongoDB] icon. Do not forget to change the `Encrypted` toggle to `Yes`.
 
 Enter the following info into this page, starting with the `Database Connection` section:
 
 * `Host`: `127.0.0.1`
-* `Username`: The [!DNL MBI] [!DNL MongoDB] username (should be `rjmetric`)
-* `Password`: The [!DNL MBI] [!DNL MongoDB] password
+* `Username`: The [!DNL Commerce Intelligence] [!DNL MongoDB] username (should be `rjmetric`)
+* `Password`: The [!DNL Commerce Intelligence] [!DNL MongoDB] password
 * `Port`: MongoDB's port on your server (`27017` by default)
 * `Database Name` (Optional): If you only allowed access to one database, specify the name of that database here.
 
 Under the `SSH Connection` section:
 
 * `Remote Address`: The IP address or hostname of the server you will SSH into
-* `Username`: The [!DNL MBI] Linux&reg; (SSH) username (should be rjmetric)
+* `Username`: The [!DNL Commerce Intelligence] Linux&reg; (SSH) username (should be rjmetric)
 * `SSH Port`: The SSH port on your server (22 by default)
 
 That is it! When you are finished, click **[!UICONTROL Save Test]** to complete the setup.

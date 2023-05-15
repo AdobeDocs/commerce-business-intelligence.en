@@ -1,24 +1,24 @@
 ---
-title: Activate your [!DNL MBI] Account for Cloud Starter Subscriptions
-description: Learn how to activate [!DNL MBI] for Cloud Starter projects.
+title: Activate your [!DNL Commerce Intelligence] Account for Cloud Starter Subscriptions
+description: Learn how to activate [!DNL Commerce Intelligence] for Cloud Starter projects.
 exl-id: 172439ee-fa1d-4872-b6a9-c61a212a7cbe
 
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/start/onpremise-activation.html
 ---
-# Activate your [!DNL MBI] Account for `Cloud Starter` Subscriptions
+# Activate your [!DNL Commerce Intelligence] Account for `Cloud Starter` Subscriptions
 
-To activate [!DNL MBI] for `Cloud Starter` projects, first create an [!DNL MBI] account, then create a `SSH` key, then finally connect to your Commerce database. See [activating on-premise subscriptions](../getting-started/onpremise-activation.md).
+To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first create an [!DNL Commerce Intelligence] account, then create a `SSH` key, then finally connect to your Commerce database. See [activating on-premise subscriptions](../getting-started/onpremise-activation.md).
 
 >[!NOTE]
 >
->For help with activation [!DNL MBI] for `Cloud Pro` projects, contact your Adobe Account Team or Customer Technical Advisor.
+>For help with activation [!DNL Commerce Intelligence] for `Cloud Pro` projects, contact your Adobe Account Team or Customer Technical Advisor.
 
-1. Create your [!DNL MBI] Account.
+1. Create your [!DNL Commerce Intelligence] Account.
 
     - Go to [Adobe Commerce account login](https://account.magento.com/customer/account/login)
 
-    - Go to **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
+    - Go to **[!UICONTROL My Account** > **My [!DNL Commerce Intelligence] Instances]**.
 
     - Click **[!UICONTROL Create Instance]**. If you do not see this button, contact your Adobe Account Team or Customer Technical Advisor.
 
@@ -48,41 +48,41 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create an [!DNL MBI] 
 
     Gather some information before you can connect your database for the third step in the onboarding flow. You complete the `Connect your database` page in Step 9.
 
-1. Create dedicated [!DNL MBI] User.
+1. Create dedicated [!DNL Commerce Intelligence] User.
 
     - Create a user in your [Adobe Commerce account](https://account.magento.com/customer/account/login).
 
-    - _Why a new user?_ [!DNL MBI] needs a user added to the project to continuously fetch new data to be transferred to the account's [!DNL MBI] Data Warehouse. This user serves as that connection. Adding this user to the project is covered in Step 4.
+    - _Why a new user?_ [!DNL Commerce Intelligence] needs a user added to the project to continuously fetch new data to be transferred to the account's [!DNL Commerce Intelligence] Data Warehouse. This user serves as that connection. Adding this user to the project is covered in Step 4.
 
-    - The reason for having a dedicated [!DNL MBI] user is to prevent the added user from inadvertently being deactivated or deleted and stopping the [!DNL MBI] connection.
+    - The reason for having a dedicated [!DNL Commerce Intelligence] user is to prevent the added user from inadvertently being deactivated or deleted and stopping the [!DNL Commerce Intelligence] connection.
 
 1. Add the newly created user to the project's primary environment as a `Contributor`.
 
     ![](../assets/create-account-7.png)
 
-1. Get your [!DNL MBI] `SSH` keys.
+1. Get your [!DNL Commerce Intelligence] `SSH` keys.
 
-    - Go to the `Connect your database` page of the [!DNL MBI] setup user interface and scroll down to `Encryption settings`.
+    - Go to the `Connect your database` page of the [!DNL Commerce Intelligence] setup user interface and scroll down to `Encryption settings`.
 
     - For the `Encryption Type` field, choose `SSH Tunnel`.
 
-    - From the dropdown, you can copy and paste the provided [!DNL MBI] `Public Key`.
+    - From the dropdown, you can copy and paste the provided [!DNL Commerce Intelligence] `Public Key`.
 
     ![](../assets/create-account-8.png)
 
-1. Add your new [!DNL MBI] `Public key` to the [!DNL MBI] user created in Step 5.
+1. Add your new [!DNL Commerce Intelligence] `Public key` to the [!DNL Commerce Intelligence] user created in Step 5.
 
-    - Go to [your cloud Adobe Commerce account](https://account.magento.com/cloud/customer/login/). Sign in with your account login information for the new [!DNL MBI] user created. Then go to the `Account Settings` tab.
+    - Go to [your cloud Adobe Commerce account](https://account.magento.com/cloud/customer/login/). Sign in with your account login information for the new [!DNL Commerce Intelligence] user created. Then go to the `Account Settings` tab.
 
     - Scroll down the page and expand the dropdown for `SSH` keys. Then click **[!UICONTROL Add a public key]**.
 
     ![](../assets/create-account-9.png)
 
-    - Add the [!DNL MBI] `SSH Public Key` from above.
+    - Add the [!DNL Commerce Intelligence] `SSH Public Key` from above.
 
     ![](../assets/create-account-10.png)
 
-1. Provide [!DNL MBI] MySQL credentials.
+1. Provide [!DNL Commerce Intelligence] MySQL credentials.
 
     - Update your `.magento/services.yaml`
 
@@ -113,7 +113,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create an [!DNL MBI] 
                 redis: "redis:redis"
     ```
 
-1. Get information for connecting your database to [!DNL MBI].
+1. Get information for connecting your database to [!DNL Commerce Intelligence].
 
     Run
     `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp`
@@ -133,7 +133,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create an [!DNL MBI] 
                      },
                      "ip" : "169.254.169.143",
                      "path" : "main",
-                     "host" : "[!DNL MBI].internal",
+                     "host" : "[!DNL Commerce Intelligence].internal",
                      "hostname" : "3m7xizydbomhnulyglx2ku4wpq.mysql.service._.magentosite.cloud",
                      "username" : "mbi",
                      "service" : "mysql",
@@ -149,7 +149,7 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create an [!DNL MBI] 
 
     - `Integration Name`: [Choose a name for your integration.]
 
-    - `Host`: `[!DNL MBI].internal`
+    - `Host`: `[!DNL Commerce Intelligence].internal`
 
     - `Port`: `3306`
 
@@ -193,8 +193,8 @@ To activate [!DNL MBI] for `Cloud Starter` projects, first create an [!DNL MBI] 
 
 1. Click **[!UICONTROL Save Integration]**.
 
-1. You have now successfully connected to your [!DNL MBI] account.
+1. You have now successfully connected to your [!DNL Commerce Intelligence] account.
 
-1. After you have successfully connected [!DNL MBI] to your Commerce database, contact your Adobe Account Team to coordinate the next steps, such as setting up integrations and other configuration steps.
+1. After you have successfully connected [!DNL Commerce Intelligence] to your Commerce database, contact your Adobe Account Team to coordinate the next steps, such as setting up integrations and other configuration steps.
 
-1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your [!DNL MBI] account.
+1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your [!DNL Commerce Intelligence] account.

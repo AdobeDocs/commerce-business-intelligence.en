@@ -1,23 +1,23 @@
 ---
 title: Connect PostgreSQL via SSH Tunnel
-description: Learn how to connect your PostgreSQL database to [!DNL MBI] via an SSH tunnel.
+description: Learn how to connect your PostgreSQL database to [!DNL Commerce Intelligence] via an SSH tunnel.
 exl-id: da610988-21c1-4f5f-b4e2-e2deb175a2aa
 ---
 # Connect `PostgreSQL` via `SSH` Tunnel
 
-To connect your `PostgreSQL` database to [!DNL MBI] via an `SSH tunnel`, you (or your team, if you are not a techie) must do a few things:
+To connect your `PostgreSQL` database to [!DNL Commerce Intelligence] via an `SSH tunnel`, you (or your team, if you are not a techie) must do a few things:
 
-1. [Retrieve the [!DNL MBI] public key](#retrieve)
-1. [Allow access to the [!DNL MBI] IP address](#allowlist)
-1. [Create a Linux&reg; user for [!DNL MBI] ](#linux)
-1. [Create a Postgres user for [!DNL MBI] ](#postgres)
-1. [Enter the connection and user info into MBI](#finish)
+1. [Retrieve the [!DNL Commerce Intelligence] public key](#retrieve)
+1. [Allow access to the [!DNL Commerce Intelligence] IP address](#allowlist)
+1. [Create a Linux&reg; user for [!DNL Commerce Intelligence] ](#linux)
+1. [Create a Postgres user for [!DNL Commerce Intelligence] ](#postgres)
+1. [Enter the connection and user info into Commerce Intelligence](#finish)
 
 It is not as complicated as it might sound. Get started.
 
-## Retrieving the [!DNL MBI] `public key` {#retrieve}
+## Retrieving the [!DNL Commerce Intelligence] `public key` {#retrieve}
 
-The `public key` is used to authorize the [!DNL MBI] Linux&reg; user. In the next section, you will create the user and import the key.
+The `public key` is used to authorize the [!DNL Commerce Intelligence] Linux&reg; user. In the next section, you will create the user and import the key.
 
 1. Go to **[!UICONTROL Manage Data** > **Connections]** and click **[!UICONTROL Add a Data Source]**.
 1. Click the `PostgreSQL` icon.
@@ -26,15 +26,15 @@ The `public key` is used to authorize the [!DNL MBI] Linux&reg; user. In the nex
 
 Leave this page open throughout the tutorial - you will need it in the next section and at the end.
 
-If you are a bit lost, this is how to navigate through [!DNL MBI] to retrieve the key:
+If you are a bit lost, this is how to navigate through [!DNL Commerce Intelligence] to retrieve the key:
 
 ![Retrieving the RJMetrics public key](../../../assets/get-mbi-public-key.gif) 
 
-## Allow access to the [!DNL MBI] IP address {#allowlist}
+## Allow access to the [!DNL Commerce Intelligence] IP address {#allowlist}
 
 For the connection to be successful, you must configure your firewall to allow access from your IP address. It is `54.88.76.97/32`, but it is also on the `PostgreSQL` credentials page. See the blue box in the GIF above? That is it!
 
-## Creating a `Linux` user for [!DNL MBI] {#linux}
+## Creating a `Linux` user for [!DNL Commerce Intelligence] {#linux}
 
 This can be a production or secondary machine, as long as it contains real-time (or frequently updated) data. You may [restrict this user](../../../administrator/account-management/restrict-db-access.md) any way you like, as long as it retains the right to connect to the PostgreSQL server.
 
@@ -64,11 +64,11 @@ This can be a production or secondary machine, as long as it contains real-time 
 
 >[!IMPORTANT]
 >
->If the `sshd\_config` file associated with the server is not set to the default option, only certain users have server access - this prevents a successful connection to [!DNL MBI]. In these cases, it is necessary to run a command like `AllowUsers` to allow the rjmetric user access to the server.
+>If the `sshd\_config` file associated with the server is not set to the default option, only certain users have server access - this prevents a successful connection to [!DNL Commerce Intelligence]. In these cases, it is necessary to run a command like `AllowUsers` to allow the rjmetric user access to the server.
 
-## Creating an [!DNL MBI] Postgres user {#postgres}
+## Creating an [!DNL Commerce Intelligence] Postgres user {#postgres}
 
-Your organization may require a different process, but the simplest way to create this user is to execute the following query when logged into Postgres as a user with the right to grant privileges. The user should also own the schema that [!DNL MBI] is being granted access to.
+Your organization may require a different process, but the simplest way to create this user is to execute the following query when logged into Postgres as a user with the right to grant privileges. The user should also own the schema that [!DNL Commerce Intelligence] is being granted access to.
 
 ```sql
     GRANT CONNECT ON DATABASE <database name> TO rjmetric WITH PASSWORD <secure password>;GRANT USAGE ON SCHEMA <schema name> TO rjmetric;GRANT SELECT ON ALL TABLES IN SCHEMA <schema name> TO rjmetric;ALTER DEFAULT PRIVILEGES IN SCHEMA <schema name> GRANT SELECT ON TABLES TO rjmetric;
@@ -78,9 +78,9 @@ Replace `secure password` with your own secure password, which can be different 
 
 If you want to connect multiple databases or schemas, repeat this process as necessary.
 
-## Entering the connection and user info into [!DNL MBI] {#finish}
+## Entering the connection and user info into [!DNL Commerce Intelligence] {#finish}
 
-To wrap things up, you need to enter the connection and user info into [!DNL MBI]. Did you leave the PostgreSQL credentials page open? If not, go to **[!UICONTROL Manage Data > Connections]** and click **[!UICONTROL Add a Data Source]**, then the PostgreSQL icon. Do not forget to set the `Encrypted` toggle to `Yes`.
+To wrap things up, you need to enter the connection and user info into [!DNL Commerce Intelligence]. Did you leave the PostgreSQL credentials page open? If not, go to **[!UICONTROL Manage Data > Connections]** and click **[!UICONTROL Add a Data Source]**, then the PostgreSQL icon. Do not forget to set the `Encrypted` toggle to `Yes`.
 
 Enter the following info into this page, starting with the Database Connection section:
 

@@ -11,7 +11,7 @@ exl-id: 3a485b00-c59d-4bc5-b78b-57e9e92dd9d6
 
 See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=en) to learn more.
 
-`SQL`, or Structured Query Language, is a programming language used to communicate with databases. In [!DNL MBI], SQL is used to query, or retrieve, data from your Data Warehouse. Look at the reports on your dashboard - behind the scenes, each one is powered by a SQL query.
+`SQL`, or Structured Query Language, is a programming language used to communicate with databases. In [!DNL Commerce Intelligence], SQL is used to query, or retrieve, data from your Data Warehouse. Look at the reports on your dashboard - behind the scenes, each one is powered by a SQL query.
 
 You can use the [`SQL Report Builder`](../dev-reports/sql-rpt-bldr.md) to directly query your Data Warehouse, view the results, and transform them into a chart. You can start creating a report with the `SQL Report Builder` by navigating to **[!UICONTROL Report Builder** > **SQL Report Builder]**.
 
@@ -123,7 +123,7 @@ Calculated columns created using SQL are not dependent on update cycles, meaning
 
 #### Database vs SQL Editor Results
 
-Most the time, differences in results can be attributed to update cycles. If [!DNL MBI] is in the process of replicating data from your database to your Data Warehouse, you might see different results even when using the same query.
+Most the time, differences in results can be attributed to update cycles. If [!DNL Commerce Intelligence] is in the process of replicating data from your database to your Data Warehouse, you might see different results even when using the same query.
 
 Connection issues can also result in discrepancies. Navigate to the `Connections` page by clicking **[!DNL Manage Data** > **Connections]**) to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en) to get things running again.
 

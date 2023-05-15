@@ -1,13 +1,13 @@
 ---
 title: Guest orders
-description: Learn about the impact guest orders have on your data and what options you have to properly account for guest orders in your [!DNL MBI] Data Warehouse.
+description: Learn about the impact guest orders have on your data and what options you have to properly account for guest orders in your [!DNL Commerce Intelligence] Data Warehouse.
 exl-id: cd5120ca-454c-4cf4-acb4-3aebe06cdc9a
 ---
 # Guest Orders
 
 While reviewing your orders, if you notice that many `customer\_id` values are null or do not have a value to join back to the `customers` table, this is indicative that your store allows guest orders. This means that your `customers` table is most likely not inclusive of all of your customers.
 
-This topic discusses the impact guest orders have on your data and what options you have to properly account for guest orders in your [!DNL MBI] Data Warehouse.
+This topic discusses the impact guest orders have on your data and what options you have to properly account for guest orders in your [!DNL Commerce Intelligence] Data Warehouse.
 
 ## Impact of guest orders on data
 

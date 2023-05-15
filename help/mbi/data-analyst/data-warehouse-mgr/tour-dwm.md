@@ -9,7 +9,7 @@ exl-id: b9577919-0db0-47f1-a426-1abe48443ac0
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md)
 
-The Data Warehouse Manager, accessed by clicking **[!UICONTROL Manage Data > Data Warehouse]** in the sidebar, is the portal to your [!DNL MBI] Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
+The Data Warehouse Manager, accessed by clicking **[!UICONTROL Manage Data > Data Warehouse]** in the sidebar, is the portal to your [!DNL Commerce Intelligence] Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
 
 This article covers:
 
@@ -33,7 +33,7 @@ The `Synced Tables` option shows all tables that have already been added into yo
 Do not see the table that you are looking for in the `All Tables` list? There are a few possible reasons for this:
 
 * The data source has not been added yet
-* The data source is a database and the [!DNL MBI] user that you created does not have access. In this case, you or your database administrator must grant access.
+* The data source is a database and the [!DNL Commerce Intelligence] user that you created does not have access. In this case, you or your database administrator must grant access.
 * The data source or table was recently added and has not been synced yet
 
 ## Syncing tables and columns {#syncing}

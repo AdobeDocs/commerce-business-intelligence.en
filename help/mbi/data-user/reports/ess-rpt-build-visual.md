@@ -11,7 +11,7 @@ The following example shows how to create a simple report, group the data by an 
 
 ## To create a simple report:
 
-1. In the [!DNL MBI] menu, click **[!UICONTROL Report Builder]**.
+1. In the [!DNL Commerce Intelligence] menu, click **[!UICONTROL Report Builder]**.
 
 1. Under `Visual Report Builder`, click **[!UICONTROL Create Report]** and do the following:
 

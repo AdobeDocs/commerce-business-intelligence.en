@@ -13,7 +13,7 @@ This article demonstrates how to set up a dashboard that allows you to segment y
 
 ![](../../assets/blobid0.png)
 
-The RFM analysis can only be configured if you have the [!DNL MBI] Pro plan on the new architecture (for example, if you have the "Data Warehouse Views" option under the "Manage Data" menu). These columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
+The RFM analysis can only be configured if you have the [!DNL Commerce Intelligence] Pro plan on the new architecture (for example, if you have the "Data Warehouse Views" option under the "Manage Data" menu). These columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
 
 ## Getting Started
 

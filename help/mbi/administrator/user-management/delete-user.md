@@ -1,15 +1,15 @@
 ---
 title: Delete or reactivate a user
-description: Learn how to delete an [!DNL MBI] user.
+description: Learn how to delete an [!DNL Commerce Intelligence] user.
 exl-id: 0590275d-3329-40fb-8be1-4a700438338d
 ---
 # Delete a user
 
-Users can be deleted by going to your account dropdown on the top right. Click **[!UICONTROL Manage Users]**, select the account you want to delete, and then click **[!UICONTROL Deactivate User]**.
+Users can be deleted by going to your account dropdown on the upper-right corner. Click **[!UICONTROL Manage Users]**, select the account you want to delete and click **[!UICONTROL Deactivate User]**.
 
 >[!NOTE]
 >
->Before you delete someone, you may want to check if there are any charts you want to keep. [!DNL MBI] support can share the user's dashboards with you, which allows you to save only what you need. Support can also push all the dashboards to your account, which transfers ownership to you. [Contact us](../../guide-overview.md) for help.
+>Before you delete someone, you may want to check if there are any charts you want to keep. [!DNL Adobe Commerce Intelligence] support can share the user's dashboards with you, which allows you to save only what you need. Support can also push all the dashboards to your account, which transfers ownership to you. [Contact us](../../guide-overview.md) for help.
 
 ## Reactivate a deleted user
 
@@ -17,6 +17,6 @@ You can reactivate the user by creating a user with the same email address. They
 
 If you only need the dashboards from that user pushed into a different user's account, do the following:
 
-1. Use the deleted user's email address to create a new [!DNL MBI] user.
+1. Use the deleted user's email address to create a new [!DNL Commerce Intelligence] user.
 1. [Notify support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) after you create the user. Support transfers the dashboards into your account.
 1. After Support notifies you of the transfer, you can delete the user again.

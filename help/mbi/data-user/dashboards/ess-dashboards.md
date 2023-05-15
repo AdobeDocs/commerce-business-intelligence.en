@@ -5,7 +5,7 @@ exl-id: a872344b-ac66-41eb-a471-5a69f8802527
 ---
 # Dashboards
 
-[!DNL MBI] Dashboards give you a quick view of your store's performance and sales activity at a glance. Individual dashboards can be shared with other users and organized into logical groups. You can also set different levels of permission for other users.
+[!DNL Commerce Intelligence] Dashboards give you a quick view of your store's performance and sales activity at a glance. Individual dashboards can be shared with other users and organized into logical groups. You can also set different levels of permission for other users.
 
 It is easy to create a report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
 
@@ -69,7 +69,7 @@ In **[!DNL Manage Data** > **Dashboards]**, you can manage user permissions for 
 
 ### Sharing your dashboards {#sharingdash}
 
-To truly scale [!DNL MBI] throughout your organization and provide valuable insights, Adobe encourages you to share dashboards you create with other team members. *You can share dashboards you own* by clicking the `Share Dashboard` option at the top of the page.
+To truly scale [!DNL Commerce Intelligence] throughout your organization and provide valuable insights, Adobe encourages you to share dashboards you create with other team members. *You can share dashboards you own* by clicking the `Share Dashboard` option at the top of the page.
 
 When you share a dashboard, you can assign permissions across your organization OR on an individual basis, meaning you get to decide who can view and edit your reports.
 
@@ -107,7 +107,7 @@ When you share a dashboard, you can assign permissions across your organization 
 
     **`Default`**
 
-    1. To make this dashboard the default for your [!DNL MBI] account, click **[!UICONTROL Make Default]**.
+    1. To make this dashboard the default for your [!DNL Commerce Intelligence] account, click **[!UICONTROL Make Default]**.
 
     **`Remove`**
 

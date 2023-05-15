@@ -21,7 +21,7 @@ This table includes all customer orders, whether that order was processed throug
 |`base_tax_amount`|Tax value applied to order|
 |`billing_address_id`|`Foreign key` associated with the `sales_order_address` table. Join to `sales_order_address.entity_id` to determine the billing address details associated with the order|
 |`coupon_code`|Coupon applied to order. If no coupon is applied, this field is `NULL`|
-|`created_at`|Creation timestamp of the order, stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
+|`created_at`|Creation timestamp of the order, stored locally in UTC. Depending on your configuration in [!DNL Commerce Intelligence], this timestamp may be converted to a reporting time zone in [!DNL Commerce Intelligence] that differs from your database time zone|
 |`customer_email`|Email address of the customer placing the order. This is populated in all situations, including orders processed through guest checkout|
 |`customer_group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the order|
 |`customer_id`|`Foreign key` associated with the `customer_entity` table, if the customer is registered. Join to `customer_entity.entity_id` to determine customer attributes associated with the order. If the order was placed through guest checkout, this field is `NULL`|

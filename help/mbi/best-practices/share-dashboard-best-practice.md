@@ -5,13 +5,13 @@ exl-id: 73df627f-bc08-45c0-aa5e-410c4fd0642d
 ---
 # Share a Dashboard
 
-Sharing dashboards means you and your team possess the same information at any given time, which allows for collaboration and discussion. Here are some recommendations for sharing dashboards and keeping your [!DNL MBI] account uncluttered.
+Sharing dashboards means you and your team possess the same information at any given time, which allows for collaboration and discussion. Here are some recommendations for sharing dashboards and keeping your [!DNL Adobe Commerce Intelligence] account uncluttered.
 
 ## Avoid Duplicate Dashboards
 
 At times, you may find multiple dashboards with the same name - this is usually because other users have created and shared similar dashboards with you. These dashboards could be duplicates of a primary copy. In this case, Adobe recommends you have one user share the primary copy of the dashboard and then remove all duplicate dashboards.
 
-To see who owns a dashboard, click the dashboard dropdown on the top left. Any dashboards that do not have a name below them belong to you.
+To see who owns a dashboard, click the dashboard dropdown on the upper-left corner. Any dashboards that do not have a name below them belong to you.
 
  ![](../../mbi/assets/Dash_ownership.gif)
 
@@ -24,7 +24,7 @@ To remove all duplicate dashboards:
 
 ## Create a Core Set of Dashboards
 
-When new users are created, they do not own any dashboards or charts. They will, however, see a list of the most popular dashboards in your organization (with View or Edit rights for the whole team) upon first logging in. Ensure that dashboards are always in this list so that new users can be included.
+When new users are created, they do not own any dashboards or charts. However, they will see a list of the most popular dashboards in your organization (with View or Edit rights for the whole team) upon first logging in. Ensure that dashboards are always in this list so that new users can be included.
 
 ## Share Dashboards with New Users
 

@@ -11,15 +11,15 @@ exl-id: e6a9f08f-1063-4d92-93e6-971280239fdb
 
 ![](../../../assets/Mixpanel_logo.png)
 
-With [!DNL Mixpanel], you can analyze how users navigate and use your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting [!DNL Mixpanel] to [!DNL MBI] lets you analyze how your users behave and how that behavior translates into revenue.
+With [!DNL Mixpanel], you can analyze how users navigate and use your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting [!DNL Mixpanel] to [!DNL Commerce Intelligence] lets you analyze how your users behave and how that behavior translates into revenue.
 
-Connecting your [!DNL Mixpanel] data to [!DNL MBI] a simple three-step process:
+Connecting your [!DNL Mixpanel] data to [!DNL Commerce Intelligence] a simple three-step process:
 
-1. [Open the [!DNL Mixpanel] credentials page in [!DNL MBI]](#stepone)
+1. [Open the [!DNL Mixpanel] credentials page in [!DNL Commerce Intelligence]](#stepone)
 1. [Retrieve your [!DNL Mixpanel] API credentials](#steptwo)
-1. [Enter your [!DNL Mixpanel] API credentials in MBI](#stepthree)
+1. [Enter your [!DNL Mixpanel] API credentials in Commerce Intelligence](#stepthree)
 
-To complete this process, you need to open two browser windows or tabs - one for [!DNL MBI], the other for your [!DNL Mixpanel] account.
+To complete this process, you need to open two browser windows or tabs - one for [!DNL Commerce Intelligence], the other for your [!DNL Mixpanel] account.
 
 ## Opening the [!DNL Mixpanel] credentials page {#stepone}
 
@@ -43,9 +43,9 @@ If you have not logged into your [!DNL Mixpanel] account yet, do so and then do 
 
 Keep this open - you need it to wrap this up.
 
-## Entering your [!DNL Mixpanel] API credentials in [!DNL MBI] {#stepthree}
+## Entering your [!DNL Mixpanel] API credentials in [!DNL Commerce Intelligence] {#stepthree}
 
-1. Copy the `API Key` and `Secret` into the [!DNL Mixpanel] credentials page in [!DNL MBI].
+1. Copy the `API Key` and `Secret` into the [!DNL Mixpanel] credentials page in [!DNL Commerce Intelligence].
 1. Click **[!UICONTROL Connect to Mixpanel]** to complete the setup.
 
 That is it! If the connection is successful, a _Success!_ message displays at the top of the page.

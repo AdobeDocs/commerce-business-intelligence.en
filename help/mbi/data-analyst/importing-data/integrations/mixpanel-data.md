@@ -1,17 +1,17 @@
 ---
 title: Expected Mixpanel data
-description: Explore the main data tables that you can import from Mixpanel into your [!DNL MBI] account.
+description: Explore the main data tables that you can import from Mixpanel into your [!DNL Commerce Intelligence] account.
 exl-id: 87bd337a-63fa-44cf-b1fe-c2f34ca86029
 ---
 # Expected [!DNL Mixpanel] data
 
 After [you have connected your [!DNL Mixpanel] account](../integrations/mixpanel.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
-This article explores the main data tables that you can import from [!DNL Mixpanel] into your [!DNL MBI] account. The following tables will be created in your Data Warehouse after connecting Mixpanel. To view all the fields available for tracking, click the links in the table name column.
+This article explores the main data tables that you can import from [!DNL Mixpanel] into your [!DNL Commerce Intelligence] account. The following tables will be created in your Data Warehouse after connecting Mixpanel. To view all the fields available for tracking, click the links in the table name column.
 
 >[!NOTE]
 >
->Due to the limitations of the [!DNL Mixpanel] API, historical data - data older than seven (7) days from the date of connection to [!DNL MBI] - is not replicated.
+>Due to the limitations of the [!DNL Mixpanel] API, historical data - data older than seven (7) days from the date of connection to [!DNL Commerce Intelligence] - is not replicated.
 
 | **Table Name** | **Description** |
 |-----|-----|

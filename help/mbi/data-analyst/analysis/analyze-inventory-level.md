@@ -5,7 +5,7 @@ exl-id: 620156c5-7bea-4b36-84c7-e0cb4b5cc8be
 ---
 # Analyze Inventory Levels
 
-This topic demonstrates how to set up a dashboard which provides insights into your current inventory. This topic contains instructions for clients on both the legacy architecture or new architecture. You are on the legacy architecture if you do not have the **[!UICONTROL Data Warehouse Views]** option under the **[!UICONTROL Manage Data]** menu). If you are on the legacy architecture, submit a [new support request](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) with the subject **[!UICONTROL INVENTORY ANALYSIS]** once you reach the designated section in the _Calculated columns_ instructions below.
+This topic demonstrates how to set up a dashboard which provides insights into your current inventory and contains instructions for clients on both the legacy architecture or new architecture. You are on the legacy architecture if you do not have the **[!UICONTROL Data Warehouse Views]** option under the **[!UICONTROL Manage Data]** menu. If you are on the legacy architecture, submit a [new support request](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) with the subject **[!UICONTROL INVENTORY ANALYSIS]** once you reach the designated section in the _Calculated columns_ instructions below.
 
 ## Columns to track:
 

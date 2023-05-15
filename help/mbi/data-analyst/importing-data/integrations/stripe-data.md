@@ -1,13 +1,13 @@
 ---
 title: Expected Stripe data
-description: Explore the main data tables that you can import from Stripe into [!DNL MBI].
+description: Explore the main data tables that you can import from Stripe into [!DNL Commerce Intelligence].
 exl-id: 694577b2-48f9-4376-850d-acae1776afe3
 ---
 # Expected [!DNL Stripe] data
 
 After [you have connected your [!DNL Stripe] account](../integrations/stripe.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
-This article explores the main data tables that you can import from [!DNL Stripe] into [!DNL MBI]. After setup is completed, the following tables will be created in your Data Warehouse. Click the links in the Table Name column to learn more about the attributes in each table.
+This article explores the main data tables that you can import from [!DNL Stripe] into [!DNL Commerce Intelligence]. After setup is completed, the following tables will be created in your Data Warehouse. Click the links in the Table Name column to learn more about the attributes in each table.
 
 | **Table Name** | **Description** |
 |-----|-----|

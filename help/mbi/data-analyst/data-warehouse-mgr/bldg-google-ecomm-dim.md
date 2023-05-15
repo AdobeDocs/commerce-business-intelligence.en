@@ -9,7 +9,7 @@ exl-id: f8a557ae-01d7-4886-8a1c-c0f245c7bc49
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-Now that you are finished [connecting your[!DNL Google ECommerce]account](../../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in [!DNL MBI]? This article walks you through building dimensions that link your eCommerce data with your orders and customer data.
+Now that you are finished [connecting your[!DNL Google ECommerce]account](../../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in [!DNL Commerce Intelligence]? This article walks you through building dimensions that link your eCommerce data with your orders and customer data.
 
 The dimensions covered give you the ability to build analyses that [answer vital questions about your marketing channels and campaigns](../../data-analyst/analysis/most-value-source-channel.md). What percent of revenue comes from each source? How does the lifetime value of Facebook acquired customers compare to those from [!DNL Google]?
 

@@ -13,11 +13,11 @@ When new tables are synced in the Data Warehouse Manager, a replication method i
 
 `Replication` methods fall into three groups - `Incremental`, `Full Table`, and `Paused`.
 
-[**[!UICONTROL Incremental Replication]**](#incremental) means that [!DNL MBI] replicates only new or updated data on every replication attempt. As these methods greatly reduce latency, Adobe recommends using it where possible.
+[**[!UICONTROL Incremental Replication]**](#incremental) means that [!DNL Commerce Intelligence] replicates only new or updated data on every replication attempt. As these methods greatly reduce latency, Adobe recommends using it where possible.
 
-[**[!UICONTROL Full Table Replication]**](#fulltable) means that [!DNL MBI] replicates the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, Adobe recommends using an Incremental method instead.
+[**[!UICONTROL Full Table Replication]**](#fulltable) means that [!DNL Commerce Intelligence] replicates the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, Adobe recommends using an Incremental method instead.
 
-**[!UICONTROL Paused]** indicates that replication for the table is stopped or paused. [!DNL MBI] does not check for new or updated data during an update cycle; this means that no data is replicated from a table that has this as its Replication Method.
+**[!UICONTROL Paused]** indicates that replication for the table is stopped or paused. [!DNL Commerce Intelligence] does not check for new or updated data during an update cycle; this means that no data is replicated from a table that has this as its Replication Method.
 
 ## Incremental replication methods {#incremental}
 
@@ -68,7 +68,7 @@ When a table uses `Add Date` replication, new data is discovered by searching fo
 
 `Full table` replication refreshes the entire table any time new rows are detected. This is by far the least efficient replication method, because all data must be reprocessed during every update, assuming there are new rows.
 
-New rows are detected by querying your database at the start of the synchronization process and counting the number of rows. If your local database contains more rows than [!DNL MBI], then the table is refreshed. If the row counts are identical, or if [!DNL MBI] contains *more* rows than your local database, then the table is skipped.
+New rows are detected by querying your database at the start of the synchronization process and counting the number of rows. If your local database contains more rows than [!DNL Commerce Intelligence], then the table is refreshed. If the row counts are identical, or if [!DNL Commerce Intelligence] contains *more* rows than your local database, then the table is skipped.
 
 This raises the important point that **`Full Table` replication is incompatible when:**
 
@@ -102,7 +102,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
 
    >[!NOTE]
    >
-   >**Some Incremental methods require you to set a `Replication Key`**. [!DNL MBI] will use this key to determine where the next update cycle should begin.
+   >**Some Incremental methods require you to set a `Replication Key`**. [!DNL Commerce Intelligence] will use this key to determine where the next update cycle should begin.
    >
    >For example, if you want to use the `modified at` method for your `orders` table, you need to set a `date column` as the replication key. Several options for replication keys may exist, but you select `created at`, or the time the order was created. If the last update cycle stopped at 12/1/2015 00:10:00, the next cycle would begin replicating data with a `created at` date greater than this.
 

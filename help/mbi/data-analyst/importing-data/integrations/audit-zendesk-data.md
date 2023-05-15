@@ -30,6 +30,6 @@ After data export is enabled, only administrators in a specific email domain can
 
    This download link is valid for at least three days.
 
-This process builds an XML file containing all information stored in your current [!DNL Zendesk] account, including ticket data (with comments), user data, and account data. At this point, you can [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) (be sure to attach this file!) so you can take a closer look at your data. If the file is too large, share it with the [!DNL MBI] team via [!DNL Dropbox] or [!DNL Google Drive].
+This process builds an XML file containing all information stored in your current [!DNL Zendesk] account, including ticket data (with comments), user data, and account data. At this point, you can [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) (be sure to attach this file!) so you can take a closer look at your data. If the file is too large, share it with the [!DNL Commerce Intelligence] team via [!DNL Dropbox] or [!DNL Google Drive].
 
 For more information about [!DNL Zendesk] file exports, refer to the official [[!DNL Zendesk] export documentation](https://support.zendesk.com/hc/en-us/articles/4408886165402-Exporting-data-to-a-JSON-CSV-or-XML-file).

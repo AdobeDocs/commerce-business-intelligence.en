@@ -1,11 +1,11 @@
 ---
 title: Import MailChimp data
-description: Learn to import MailChimp data into [!DNL MBI].
+description: Learn to import MailChimp data into [!DNL Commerce Intelligence].
 exl-id: 5595c6a6-5476-4a0e-a493-ddc32161894e
 ---
 # Import `MailChimp` data
 
-To get a comprehensive picture of your campaigning efforts, you can import your `MailChimp` email campaign data into [!DNL MBI]. To complete the import, you need to do the following for each `MailChimp` campaign you have:
+To get a comprehensive picture of your campaigning efforts, you can import your `MailChimp` email campaign data into [!DNL Commerce Intelligence]. To complete the import, you need to do the following for each `MailChimp` campaign you have:
 
 ## Export Opens data {#opens}
 
@@ -63,8 +63,8 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
     ![import mailchimp 9](../../../assets/import-mailchimp-9.png)
 
-## Prepare files for upload into [!DNL MBI] {#upload}
+## Prepare files for upload into [!DNL Commerce Intelligence] {#upload}
 
-Each file - `Opens`, `Clicks`, and `Sent` - should be uploaded to [!DNL MBI] as a separate file. Adobe recommends that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with `Open`, `Click`, or `Sent`, and replace `DATE` with the date of export.
+Each file - `Opens`, `Clicks`, and `Sent` - should be uploaded to [!DNL Commerce Intelligence] as a separate file. Adobe recommends that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with `Open`, `Click`, or `Sent`, and replace `DATE` with the date of export.
 
 When you are ready to upload the files, use the [`File Upload` feature](../connecting-data/using-file-uploader.md) to bring the data into your Data Warehouse.

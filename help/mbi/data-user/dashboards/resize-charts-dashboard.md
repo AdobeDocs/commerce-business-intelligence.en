@@ -5,7 +5,7 @@ exl-id: 0abbb845-6713-421e-95e0-c0b43cf7dad4
 ---
 # Working with charts in dashboards
 
-Scalar numbers. Bar graphs. Charts extending over long periods. Every chart displays information differently, meaning the size and location of charts is not a one-size-fits-all solution. In [!DNL MBI], you can resize and rearrange charts to create your ideal workspace.
+Scalar numbers. Bar graphs. Charts extending over long periods. Every chart displays information differently, meaning the size and location of charts is not a one-size-fits-all solution. In [!DNL Commerce Intelligence], you can resize and rearrange charts to create your ideal workspace.
 
 *To resize a chart*, click and drag the bottom-right corner of any chart.
 

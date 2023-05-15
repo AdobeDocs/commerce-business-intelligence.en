@@ -5,7 +5,7 @@ exl-id: cbb10673-5704-4a90-9574-5ac114f389b9
 ---
 # New Architecture
 
-MBI Product and Engineering teams have been focused on making the most sweeping, highly requested improvements possible for the last year. Adobe is thrilled to announce the availability of a new [!DNL MBI] product architecture that makes these improvements a reality.
+Adobe Commerce Intelligence Product and Engineering teams have been focused on making the most sweeping, highly requested improvements possible for the last year. Adobe is thrilled to announce the availability of a new [!DNL Commerce Intelligence] product architecture that makes these improvements a reality.
 
 ## Benefits of New Architecture
 
@@ -19,15 +19,15 @@ The main differences are listed above, but the main change is the way calculatio
 
 ### Moving to New Architecture
 
-As the accounts are fundamentally built differently, there is no automatic process to migrate your Data Warehouse or reports to a new architecture account. Moving to the new architecture requires a reimplementation of your existing account.
+As the accounts are fundamentally built differently, there is no automatic process to migrate your Data Warehouse or reports to a new architecture account. Moving to the new architecture requires a re-implementation of your existing account.
 
 ### Cost to Move to the New Architecture
 
-No added cost! Adobe will create this new account for you to begin reimplementation, which is free for at least one month. This allows you time to have both accounts open so that you can more easily perform the reimplementation and ensures that your team does not have a gap in service.
+No added cost! Adobe will create this new account for you to begin re-implementation, which is free for at least one month. This allows you time to have both accounts open so that you can more easily perform the re-implementation and ensures that your team does not have a gap in service.
 
 ### Time Needed to Reimplement Account in the New Architecture
 
-Reimplementation times vary depending on what you want to rebuild. Adobe recommends that you perform the following steps in your existing account to get an idea of what would be involved in your reimplementation:
+Re-implementation times vary depending on what you want to rebuild. Adobe recommends that you perform the following steps in your existing account to get an idea of what would be involved in your re-implementation:
 
 * Identify a core set of reports/dashboards.
 * Identify metrics and dimensions required to build those reports.
@@ -37,7 +37,7 @@ When this is complete, you know what data you need to sync to the new architectu
 
 ### Getting Help
 
-The [!DNL MBI] Services team can perform your reimplementation for an extra cost. Contact your [Adobe Account Team](../../guide-overview.md) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
+The [!DNL Commerce Intelligence] Services team can perform your re-implementation for an extra cost. Contact your [Adobe Account Team](../../guide-overview.md) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
 
 ### Staying with Existing Architecture
 

@@ -20,7 +20,7 @@ When using either of these methods, changeable columns must be flagged for reche
    >The auditor relies on a sampling process and the changing columns may not be caught immediately.
 
 * You can set them yourself by selecting the checkbox next to the column in the Data Warehouse manager, clicking **[!UICONTROL Set Recheck Frequency]**, and choosing an appropriate time interval for when you should check for changes.
-* A member of the [!DNL MBI] Data Warehouse team can manually mark the columns for rechecking in your Data Warehouse. If you are aware of changeable columns, contact the team to request that rechecks are set. Include a list of columns, along with frequency, with your request.
+* A member of the [!DNL Commerce Intelligence] Data Warehouse team can manually mark the columns for rechecking in your Data Warehouse. If you are aware of changeable columns, contact the team to request that rechecks are set. Include a list of columns, along with frequency, with your request.
 
 ## Recheck frequencies {#frequency}
 

@@ -69,7 +69,7 @@ Now, you can create the path.
 
 ### Limitations of Creating Paths {#limits}
 
-* **[!DNL MBI] cannot guess primary/foreign key relationships**. You do not want to introduce incorrect data into your account, so creating paths must be done manually.
+* **[!DNL Commerce Intelligence] cannot guess primary/foreign key relationships**. You do not want to introduce incorrect data into your account, so creating paths must be done manually.
 * **Currently, paths can only be specified between two different tables**. Does the logic that you are trying to recreate involve more than two tables? It then might make sense to (1) join the columns to an intermediary table first, then to the "final destination" table, or (2) consult with the Adobe team to find the best approach to your goals.
 * **A column can only be the foreign key reference for ONE path at one time**. For example, if `order_items.order_id` points to `orders.id`, then `order_items.order_id` cannot point to anything else.
 * **`Many-to-many` paths can technically be created, but often produce bad data because neither side is a true `one-to-many` foreign key**. The best way to approach these paths always depend on the specific desired analysis. Consult the RJ analyst team to uncovering the best solution.
@@ -82,7 +82,7 @@ Created an incorrect path in your Data Warehouse? Or maybe you are doing a littl
 
 ## Wrapping up {#wrapup}
 
-Now that you are comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always click **[!UICONTROL Support]** in your [!DNL MBI] account to get assistance.
+Now that you are comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always click **[!UICONTROL Support]** in your [!DNL Commerce Intelligence] account to get assistance.
 
 ## Related
 

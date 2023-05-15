@@ -9,7 +9,7 @@ Good segmentation is what turns a superficial statistic into a business metric t
 
 Want to know who your most valuable customers are? What your most valuable marketing channels are? Which of your products are moving faster and why? To get to any of these answers, you have to start by segmenting your data.
 
-This article covers critical segments that are often recommended to customers. It also goes into detail on which questions that these segments can help you answer. Technically, segments are data columns in your database. In [!DNL MBI], they are referred to as dimensions.
+This topic covers critical segments that are often recommended to customers. It also goes into detail on which questions that these segments can help you answer. Technically, segments are data columns in your database. In [!DNL Adobe Commerce Intelligence], they are referred to as dimensions.
 
 ![](../../mbi/assets/mbi-critical-segments.png)
 
@@ -22,7 +22,7 @@ User segments help you understand who your users are and how they behave.
 * **Gender**: Do different genders engage with your website differently?
 * **Address**: Where do your users come from? Should you focus your marketing efforts on a particular region? Have your recent advertising campaigns performed as expected in your target regions?
 * **Customer acquisition source**\: Do you know what marketing channel your users come from? Did they click on an ad or find you via search? [Segmenting your data by user acquisition source](../data-analyst/analysis/google-track-user-acq.md) is the first step in optimizing your new customer acquisition. Step two is to spend more money in what is working and kill what is not.
-* **Registration device**: Did users register via your mobile app or your website? iOS or Android&trade;? Is your mobile user base large enough to allocate more resources to develop your mobile product? (If you are not tracking this yet, see this topic [about tracking user device](../data-analyst/analysis/track-usr-dev-browser.md).
+* **Registration device**: Did users register via your mobile app or your website? iOS or Android&trade;? Is your mobile user base large enough to allocate more resources to develop your mobile product? If you are not tracking this yet, see this topic [about tracking user device](../data-analyst/analysis/track-usr-dev-browser.md).
 * **Referred by**: Who are your top influencers? How many users were directly referred by others?
 * **Industry**: If you are a B2B business, in which industries do your users work? Which trade organizations are worth joining?
 * **Survey responses**: If you perform customer surveys, use the responses as segments for a deeper level of profiling. You can ask questions that complement what you already know about your users or confirm your guesses.
@@ -57,13 +57,13 @@ If you are interested in merchandising, check out [how to use product segments t
 
 Segmentation experts may want to move beyond one-dimensional slices and begin establishing real customer profiles. For example, people between ages of 13 and 24 that registered via a mobile device put in a group "Young & Mobile". How does this group's behavior compare to the rest of your user base?
 
-This type of analysis is what marketers at Fortune 1000 companies do all day. Before the advent of cloud-based business intelligence platforms like [!DNL MBI], it was largely out of reach for the rest of us. Fortunately, that is no longer the case.
+This type of analysis is what marketers at Fortune 1000 companies do all day. Before the advent of cloud-based business intelligence platforms like [!DNL Commerce Intelligence], it was largely out of reach for the rest of us. Fortunately, that is no longer the case.
 
 ## Tracking New Segments
 
 The first step to segment your metrics by the above dimensions is to make sure that you are tracking this data in your database. If it is not tracked, meet with your tech team and find a way to start tracking this data.
 
-After you confirm that the data is tracked in your database, [contact the support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to push the dimensions to your [!DNL MBI] metrics and charts. You can also use the *Field Management* tool to track these fields in [!DNL MBI].
+After you confirm that the data is tracked in your database, [contact the support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to push the dimensions to your [!DNL Commerce Intelligence] metrics and charts. You can also use the *Field Management* tool to track these fields in [!DNL Commerce Intelligence].
 
 ## Related
 

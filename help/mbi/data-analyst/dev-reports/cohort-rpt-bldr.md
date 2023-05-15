@@ -5,7 +5,7 @@ exl-id: d80c5389-7256-40e0-86e0-49903113f93d
 ---
 # Cohort Report Builder
 
-Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who do not? If the answer is `Yes`, then the `Cohort Report Builder` is the perfect tool for you. [!DNL MBI] is optimized to perform this analysis and make it relevant to your business.
+Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who do not? If the answer is `Yes`, then the `Cohort Report Builder` is the perfect tool for you. [!DNL Commerce Intelligence] is optimized to perform this analysis and make it relevant to your business.
 
 ## What is cohort analysis? {#what}
 
@@ -13,7 +13,7 @@ Have you ever wanted to study how different subsets of your users behave over ti
 
 For a more in-depth primer on `cohort` analysis, [look here](https://www.cohortanalysis.com/).
 
-In your [!DNL MBI] dashboard, it is easy to create user `cohorts` based on a `cohort` date and a metric in your account.
+In your [!DNL Commerce Intelligence] dashboard, it is easy to create user `cohorts` based on a `cohort` date and a metric in your account.
 
 ## Well, why is cohort analysis important? {#important}
 
@@ -93,7 +93,7 @@ Here is an example to pull it all together. In this example, I want to check out
 
 #### Legacy Architecture {#personalinfo}
 
-Below are instructions specific to the legacy version of the `Cohort Report Builder`. If you are interested in using the new version, see [New Architecture](../../administrator/account-management/new-architecture.md) for more information about migrating to an [!DNL MBI] New Architecture account.
+Below are instructions specific to the legacy version of the `Cohort Report Builder`. If you are interested in using the new version, see [New Architecture](../../administrator/account-management/new-architecture.md) for more information about migrating to an [!DNL Commerce Intelligence] New Architecture account.
 
 #### How do I create my own `cohort` analysis? {#create}
 

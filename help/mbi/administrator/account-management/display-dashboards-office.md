@@ -5,7 +5,7 @@ exl-id: aabe5c8f-0809-467c-9713-099aed6926b9
 ---
 # Display Dashboards around the office
 
-For [!DNL MBI] users who are interested in displaying their dashboards and reports on screens throughout the office, there are various hardware options that can easily enable this setup.
+For [!DNL Commerce Intelligence] users who are interested in displaying their dashboards and reports on screens throughout the office, there are various hardware options that can easily enable this setup.
 
 Here is the recommended list of things that you need for the option:
 

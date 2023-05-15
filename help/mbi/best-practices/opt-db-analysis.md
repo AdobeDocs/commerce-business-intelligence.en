@@ -5,7 +5,7 @@ exl-id: e73e1a1e-c933-476d-97bc-bd8f52bb2fa1
 ---
 # Optimize your database
 
-The primary benefit of using an operational database for business intelligence is that nothing needs to be built or modified in order to collect data. Valuable information is already there; all you need to do is unlock it.
+The primary benefit of using an operational database for [!DNL Adobe Commerce Intelligence] is that nothing needs to be built or modified in order to collect data. Valuable information is already there - you just need to unlock it.
 
 This topic contains some recommendations to help you optimize your database for analysis and draw actionable insights from raw data.
 
@@ -45,16 +45,16 @@ Too many companies focus solely on finding channels that provide new users at th
 
 ### Set a Primary Key
 
-A [primary key](https://en.wikipedia.org/wiki/Unique_key) is an unchanging column (or set of columns) that produces unique values within a table. Primary keys are incredibly important, as they ensure that your tables are properly replicated in [!DNL MBI].
+A [primary key](https://en.wikipedia.org/wiki/Unique_key) is an unchanging column (or set of columns) that produces unique values within a table. Primary keys are incredibly important, as they ensure that your tables are properly replicated in [!DNL Commerce Intelligence].
 
 When building primary keys, use an integer data type for the column that auto-increases. Adobe recommends you avoid using multiple column primary keys where possible.
 
-If your table is an SQL view, add a column that can act as a primary key. [!DNL MBI] is able to automatically identify this column as a primary key.
+If your table is an SQL view, add a column that can act as a primary key. [!DNL Commerce Intelligence] is able to automatically identify this column as a primary key.
 
 ### Assign a Data Type to Your Data Column
 
-If a data column does not have an assigned [data type](https://en.wikipedia.org/wiki/Data_type), [!DNL MBI] guesses which data type to use. If the system guesses incorrectly, you may not be able to perform the relevant analyses until the Adobe support team adjusts the column to the proper data type. For example, if a date column is guessed as a numeric data type, you can trend over time using that date dimension.
+If a data column does not have an assigned [data type](https://en.wikipedia.org/wiki/Data_type), [!DNL Commerce Intelligence] guesses which data type to use. If the system guesses incorrectly, you may not be able to perform the relevant analyses until the Adobe support team adjusts the column to the proper data type. For example, if a date column is guessed as a numeric data type, you can trend over time using that date dimension.
 
 ### Add Prefixes to Your Data Tables if You Have Multiple Databases
 
-If you have more than one database connected to [!DNL MBI], Adobe recommends you add prefixes to your tables to avoid confusion. Prefixes help you remember where metrics or data dimensions are sourced from.
+If you have more than one database connected to [!DNL Commerce Intelligence], Adobe recommends you add prefixes to your tables to avoid confusion. Prefixes help you remember where metrics or data dimensions are sourced from.

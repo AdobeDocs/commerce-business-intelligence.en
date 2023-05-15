@@ -20,7 +20,7 @@ There are a few different ways [to check the status of your update cycle](../../
 
 ## What is the difference between a regular and forced update? {#regularforcedupdates}
 
-Regular updates are **scheduled** processes while forced updates are **manual processes initiated by you**. If you have blackout hours - or a time period where [!DNL MBI] should not update your data - forcing an update starts a cycle that does not respect the limitations of the blackout period.
+Regular updates are **scheduled** processes while forced updates are **manual processes initiated by you**. If you have blackout hours - or a time period where [!DNL Commerce Intelligence] should not update your data - forcing an update starts a cycle that does not respect the limitations of the blackout period.
 
 ## Why does the update cycle take a long time? {#updatecycletime}
 

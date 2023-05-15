@@ -5,9 +5,9 @@ exl-id: 6065bed3-fb84-4147-a223-92dc3e1b15a5
 ---
 # Consolidate your Tables
 
-If you operate multiple store fronts or in multiple markets, you may have similar databases stored separately. In [!DNL MBI], it is easy to consolidate similar tables from different databases together.
+If you operate multiple store fronts or in multiple markets, you may have similar databases stored separately. In [!DNL Adobe Commerce Intelligence], it is easy to consolidate similar tables from different databases together.
 
-For example, you may have an `orders` table for `Market A`, and a similar `orders` table for `Market B`. [!DNL MBI] can consolidate both tables and allow you to look at the aggregate order data from both `Market A` and `B`, in addition to segmenting it by specific market.
+For example, you may have an `orders` table for `Market A`, and a similar `orders` table for `Market B`. [!DNL Commerce Intelligence] can consolidate both tables and allow you to look at the aggregate order data from both `Market A` and `B`, in addition to segmenting it by specific market.
 
 For consolidation of tables to work, input tables must be **similarly structured**. In other words, all input tables must contain the data columns required in the consolidated table.
 
@@ -37,8 +37,8 @@ As with all other tables in your Data Warehouse, you can add additional columns 
 
 ## Creating, Viewing, or Updating a Consolidated Table
 
-If you are interested in adding a consolidated table to your Data Warehouse, contact [!DNL MBI] [support](../guide-overview.md).
+If you are interested in adding a consolidated table to your Data Warehouse, contact [!DNL Commerce Intelligence] [support](../guide-overview.md).
 
 >[!NOTE]
 >
->Because consolidated tables are not viewable in the `Data Warehouse Manager`, viewing and updating these tables can only be done by [!DNL MBI] support.
+>Because consolidated tables are not viewable in the `Data Warehouse Manager`, viewing and updating these tables can only be done by [!DNL Commerce Intelligence] support.

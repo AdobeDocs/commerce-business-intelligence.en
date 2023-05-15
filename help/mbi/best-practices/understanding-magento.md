@@ -1,9 +1,9 @@
 ---
-title: Understand your [!DNL MBI] Environment
-description: Learn about working with and improving your [!DNL MBI] environment.
+title: Understand your [!DNL Commerce Intelligence] Environment
+description: Learn about working with and improving your [!DNL Commerce Intelligence] environment.
 exl-id: 601b5fba-da02-4cc8-96ed-147c24f326f9
 ---
-# Your [!DNL MBI] Environment
+# Your [!DNL Adobe Commerce Intelligence] Environment
 
 As you analyze your commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Commerce schema correctly, do not hesitate to [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 

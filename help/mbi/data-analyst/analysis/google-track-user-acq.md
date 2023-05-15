@@ -11,7 +11,7 @@ exl-id: 2ce3e4f9-4741-4ada-b822-ec6a5ca94497
 
 The ability to segment your data by user acquisition source is critical to effectively managing your marketing plan. Knowing the acquisition source of new users shows which channels yield the top returns, and allows your team to allocate marketing dollars with confidence.
 
-If you are not already tracking user acquisition sources in your database, [!DNL MBI] can help you get started:
+If you are not already tracking user acquisition sources in your database, [!DNL Commerce Intelligence] can help you get started:
 
 ## Tracking user acquisition source
 
@@ -19,15 +19,15 @@ Adobe recommends two methods to track referral source data based on your setup:
 
 ### (Option 1)  Track order referral source data via [!DNL Google Analytics E-Commerce] (Including [!DNL Shopify] Stores)
 
-If you use [!DNL Google Analytics E-Commerce] to track your order and sales data, you can use the [!DNL [Google Analytics E-Commerce Connector]](../importing-data/integrations/google-ecommerce.md) to sync each order's referral source data. This allows you to segment revenue and orders by referral source (for example, `utm_source` or `utm_medium`). You also get a sense of customer acquisition sources via [!DNL MBI] custom dimensions such as `User's first order source`.
+If you use [!DNL Google Analytics E-Commerce] to track your order and sales data, you can use the [!DNL [Google Analytics E-Commerce Connector]](../importing-data/integrations/google-ecommerce.md) to sync each order's referral source data. This allows you to segment revenue and orders by referral source (for example, `utm_source` or `utm_medium`). You also get a sense of customer acquisition sources via [!DNL Commerce Intelligence] custom dimensions such as `User's first order source`.
 
 >[!NOTE]
 >
->For Shopify users**: Turn on [!DNL [Google Analytics E-Commerce] tracking in Shopify](https://help.shopify.com/en/manual/reports-and-analytics/google-analytics#ecommerce-tracking) before connecting your [!DNL Google Analytics E-Commerce] account to [!DNL MBI].
+>For Shopify users**: Turn on [!DNL [Google Analytics E-Commerce] tracking in Shopify](https://help.shopify.com/en/manual/reports-and-analytics/google-analytics#ecommerce-tracking) before connecting your [!DNL Google Analytics E-Commerce] account to [!DNL Commerce Intelligence].
 
 ### (Option 2) Saving [!DNL Google Analytics]' acquisition source data in your database
 
-This article explains how to save [!DNL Google Analytics] acquisition channel information into your own database - namely the `source`, `medium`, `term`, `content`, `campaign`, and `gclid` parameters that were present on a user's first visit to your website. For an explanation of these parameters, check out the [!DNL [Google Analytics] documentation](https://support.google.com/analytics/answer/1191184?hl=en#zippy=%2Cin-this-article). Then, you explore some of the powerful marketing analyses that can be performed with this information in [!DNL MBI].
+This article explains how to save [!DNL Google Analytics] acquisition channel information into your own database - namely the `source`, `medium`, `term`, `content`, `campaign`, and `gclid` parameters that were present on a user's first visit to your website. For an explanation of these parameters, check out the [!DNL [Google Analytics] documentation](https://support.google.com/analytics/answer/1191184?hl=en#zippy=%2Cin-this-article). Then, you explore some of the powerful marketing analyses that can be performed with this information in [!DNL Commerce Intelligence].
 
 #### Why?
 

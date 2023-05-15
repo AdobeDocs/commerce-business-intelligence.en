@@ -9,11 +9,11 @@ exl-id: e7248fe4-94db-4cdf-8f58-1f65061a207d
 
 Creating custom segments to see how different traffic performs and observe trends is one of the most powerful uses for  [!DNL Google Analytics ]. One class of segments that exist by default in [!DNL Google Analytics ] are `Channels`. Channels are a grouping of common ways that people come to your site.  [!DNL Google Analytics ] automatically sorts the many ways that you acquire a user - whether it is social media, pay-per-click, email, or referral links - and bundles them into a bucket, or Channel.
 
-## Why do not I see my `channels` in MBI? {#nochannels}
+## Why do not I see my `channels` in Commerce Intelligence? {#nochannels}
 
 `Channels` are simple, aggregate buckets of data. To sort your acquisitions into Channel buckets, Google sets distinct rules and definitions using specific parameters: a combination of acquisition [Source](https://support.google.com/analytics/answer/1033173?hl=en) (the origin of your traffic) and acquisition [Medium](https://support.google.com/analytics/answer/6099206?hl=en) (the general category of the source).
 
-While having these buckets can help you make sense of where your traffic is coming from, this data is not tagged by channel but by a combination of Source and Medium. Because Google sends channel information as two separate data points, channel groupings do not automatically show up in [!DNL MBI].
+While having these buckets can help you make sense of where your traffic is coming from, this data is not tagged by channel but by a combination of Source and Medium. Because Google sends channel information as two separate data points, channel groupings do not automatically show up in [!DNL Commerce Intelligence].
 
 ## What are the default channel groupings? How are they created?
 
@@ -44,7 +44,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
    To save you time, Commerce has already created a table with the default groupings mapped as a file that you can [download](../../assets/ga-channel-mapping.csv).
 
-   If you are a Google Analytics pro and created your own channels, you want to add your specific rules to the mapping table before uploading the file into [!DNL MBI].
+   If you are a Google Analytics pro and created your own channels, you want to add your specific rules to the mapping table before uploading the file into [!DNL Commerce Intelligence].
 
    Bring it into your Data Warehouse as a [File Upload](../importing-data/connecting-data/using-file-uploader.md).
 

@@ -5,7 +5,7 @@ exl-id: 9d621f40-f9c2-4310-bd96-a46ab7159930
 ---
 # Tracking Goals Against Performance Metrics
 
-Most clients would like to track their **business goals**, but do not realize this is possible in [!DNL MBI]. This article demonstrates how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. You also learn how to compare year over year performance, all in a dashboard like this:
+Most clients would like to track their **business goals**, but do not realize this is possible in [!DNL Commerce Intelligence]. This article demonstrates how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. You also learn how to compare year over year performance, all in a dashboard like this:
 
 ![](../../assets/Goals-_dashboard_2.png)
 
@@ -15,7 +15,7 @@ Before getting started, you want to familiarize yourself with the [file uploader
 
 You need to first upload a file containing specific daily/monthly/quarterly targets for your business.
 
-You can use the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that clients track in [!DNL MBI] include Orders, Revenue, and New registered accounts.
+You can use the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that clients track in [!DNL Commerce Intelligence] include Orders, Revenue, and New registered accounts.
 
 ![](../../assets/Goals-_Excel.png)
 

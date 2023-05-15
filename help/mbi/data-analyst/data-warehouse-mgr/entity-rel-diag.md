@@ -29,7 +29,7 @@ One customer can place many orders. The relationship between these two tables is
 >
 >`customer\_entity.entity\_id` does not equal `sales\_flat\_order.entity\_id`. The first can be thought of as a `customer\_id` and the second can be thought of as an `order\_id.` 
 
-Within [!DNL MBI], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
+Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
 
 ![](../../assets/SFO___CE_path.png)
 
@@ -39,7 +39,7 @@ Within [!DNL MBI], if the path between these two tables does not exist, you can 
 
 One order can contain many items. The relationship between these two tables is `sales\_flat\_order.entity\_id = sales\_flat\_order\_item.order\_id`.
 
-Within [!DNL MBI], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
+Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
 
 ![](../../assets/SFOI___SFO_path.png)
 
@@ -49,6 +49,6 @@ Within [!DNL MBI], if the path between these two tables does not exist, you can 
 
 One product can be purchased many items. The relationship between these two tables is `catalog\_product\_entity.entity\_id = sales\_flat\_order\_item.product`.
 
-Within [!DNL MBI], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
+Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
 
 ![](../../assets/SFOI___CPE_path.png)

@@ -9,7 +9,7 @@ exl-id: a90ad89b-96d3-41f4-bfc4-f8c223957113
 >
 >This article contains instructions for clients that are using the original architecture and new architecture. You are on the new architecture if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
 
-This article demonstrates how to set up a dashboard that track the performance of your free shipping threshold. This dashboard, shown below, is a great way to A/B test two free shipping thresholds. For example, your company might be unsure whether you should offer free shipping at $50 or $100. You should perform an A/B test of two random subsets of your customers, and perform the analysis in [!DNL MBI].
+This article demonstrates how to set up a dashboard that track the performance of your free shipping threshold. This dashboard, shown below, is a great way to A/B test two free shipping thresholds. For example, your company might be unsure whether you should offer free shipping at $50 or $100. You should perform an A/B test of two random subsets of your customers, and perform the analysis in [!DNL Commerce Intelligence].
 
 Before getting started, you want to identify two separate time periods where you have had different values for your store's free shipping threshold.
 

@@ -57,7 +57,7 @@ To delete one or more dimensions from multiple metrics:
 
 >[!NOTE]
 >
->Any dimension that you want to filter or group by must already be tracked in [!DNL MBI]. If you do not find the desired dimension, you may need to start tracking a new data column in your database via the [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) page.
+>Any dimension that you want to filter or group by must already be tracked in [!DNL Commerce Intelligence]. If you do not find the desired dimension, you may need to start tracking a new data column in your database via the [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) page.
 
 
 **To delete dimension(s) from a metric:**
@@ -70,7 +70,7 @@ To delete one or more dimensions from multiple metrics:
 
 >[!NOTE]
 >
->Even after deleting a dimension, it still exists as a column on your table in your Data Warehouse. You can add it back to any metric, and build new metrics using these dimensions. To remove the data column that a dimension corresponds to from [!DNL MBI], simply untrack the data column via the [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) page.
+>Even after deleting a dimension, it still exists as a column on your table in your Data Warehouse. You can add it back to any metric, and build new metrics using these dimensions. To remove the data column that a dimension corresponds to from [!DNL Commerce Intelligence], simply untrack the data column via the [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) page.
 
 ## Related documentation
 

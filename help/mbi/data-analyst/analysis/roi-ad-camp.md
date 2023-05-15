@@ -5,14 +5,14 @@ exl-id: 4f2bf408-eeaf-4dbf-b62e-89426734640a
 ---
 # Advertising Campaigns and ROI
 
-MBI allows you to easily [marry advertising cost data and revenue data](../../data-analyst/importing-data/integrations/google-adwords.md) from your database. This helps you identify which campaigns have the highest ROI. This article explores a few different methods of evaluating your campaign performance.
+Commerce Intelligence allows you to easily [marry advertising cost data and revenue data](../../data-analyst/importing-data/integrations/google-adwords.md) from your database. This helps you identify which campaigns have the highest ROI. This article explores a few different methods of evaluating your campaign performance.
 
 ## Prerequisites
 
 * Import your advertising cost data:
-  * [Connect your [!DNL Google AdWords] to [!DNL MBI]](../importing-data/integrations/google-adwords.md): This syncs your [!DNL Adwords] spend in [!DNL MBI]
-  * [Upload other advertising cost data](../importing-data/connecting-data/import-offline-ad-data.md): This is recommended for channels without a direct connector to [!DNL MBI]
-  * If you import cost data from multiple sources, you can [consolidate](../../best-practices/consolidating-your-tables.md) the data in [!DNL MBI]. Simply [submit a support ticket](../../guide-overview.md).
+  * [Connect your [!DNL Google AdWords] to [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): This syncs your [!DNL Adwords] spend in [!DNL Commerce Intelligence]
+  * [Upload other advertising cost data](../importing-data/connecting-data/import-offline-ad-data.md): This is recommended for channels without a direct connector to [!DNL Commerce Intelligence]
+  * If you import cost data from multiple sources, you can [consolidate](../../best-practices/consolidating-your-tables.md) the data in [!DNL Commerce Intelligence]. Simply [submit a support ticket](../../guide-overview.md).
 * [Track user acquisition channel data](../analysis/google-track-user-acq.md)
 
 ## User acquisition campaigns
