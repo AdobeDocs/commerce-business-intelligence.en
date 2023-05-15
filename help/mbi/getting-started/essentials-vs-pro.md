@@ -40,6 +40,7 @@ The following table describes elements included with a legacy `Essentials` accou
 * `customer\_group`
 * `store`
 
+<!---
 ## Columns Included in Essentials
 
 Items in _italics_ are calculated fields.
@@ -142,3 +143,4 @@ Items in _italics_ are calculated fields.
 * `store` table
   * `store_id`
   * `name`
+-->
