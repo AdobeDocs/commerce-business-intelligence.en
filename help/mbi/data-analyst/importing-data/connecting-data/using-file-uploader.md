@@ -30,11 +30,11 @@ Before you can upload your data into [!DNL Commerce Intelligence], check that it
 
 To ensure that columns are labeled and imported properly, make sure that the first row of your spreadsheet is a header that describes the data in each column.
 
-Column names must be unique and contain only letters, numbers, spaces, and these symbols: `$ % # /`. If a column name contains a comma, it is split into two columns when the file uploads. Also, Adobe recommends that there be fewer than 85 columns in the file to optimize update speed.
+Column names must be unique and contain only letters, numbers, spaces, and these symbols: `$ % # /`. If a column name contains a comma, it is split into two columns when the file uploads. Also, [!DNL Adobe] recommends that there be fewer than 85 columns in the file to optimize update speed.
 
 ### Data with commas {#commas}
 
-Because files have to be in `CSV` format, the use of commas can cause problems with uploading data. `CSV` files use commas to indicate new values, therefore a column with a name like `Campaigns`, `August` is read as two columns (`Campaigns` and `August`) instead of one, shifting all of your data over one row. Adobe recommends avoiding commas wherever possible. You can use `Data Preview` to see if your data is displaying correctly once an update completes.
+Because files have to be in `CSV` format, the use of commas can cause problems with uploading data. `CSV` files use commas to indicate new values, therefore a column with a name like `Campaigns`, `August` is read as two columns (`Campaigns` and `August`) instead of one, shifting all of your data over one row. [!DNL Adobe] recommends avoiding commas wherever possible. You can use `Data Preview` to see if your data is displaying correctly once an update completes.
 
 ### Dates
 
@@ -133,7 +133,7 @@ Just like calculated columns, data from file uploads is available after the next
 
 ## Wrapping up {#wrapup}
 
-This article covered only the basics for using importing data, but you may want to do something more advanced. Check out the Related articles for guidance on formatting and importing financial, eCommerce, ad spend, and other types of data.
+This topic covered only the basics for using importing data, but you may want to do something more advanced. Check out the Related articles for guidance on formatting and importing financial, eCommerce, ad spend, and other types of data.
 
 Also, file upload is not the only way to get your data into [!DNL Commerce Intelligence]. The [Data Import API](https://developer.adobe.com/commerce/services/reporting/import-api/) functions allow you to push arbitrary data into your [!DNL Commerce Intelligence] Data Warehouse.
 

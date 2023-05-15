@@ -5,7 +5,7 @@ exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
 ---
 # Basic Analytics
 
-Once you are familiar with the [!DNL Commerce Intelligence] platform and have a basic understanding of the tool, you are going to want to start building reports. One of the most common questions you may have is "What should I be looking at?"
+Once you are familiar with the [!DNL Adobe Commerce Intelligence] platform and have a basic understanding of the tool, you are going to want to start building reports. One of the most common questions you may have is "What should I be looking at?"
 
 The information below outlines some of the common metrics and reports that you might find valuable. Some of these reports exist within your account, so make sure you review the metrics and reports that exist within your account to avoid creating duplicates.
 

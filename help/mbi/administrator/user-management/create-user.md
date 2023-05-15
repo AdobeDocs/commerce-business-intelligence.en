@@ -20,7 +20,7 @@ The new user is sent an email with login and password details.
 
 >[!NOTE]
 >
->The new user does not have any dashboards by default. Adobe recommends that you [share](../../data-user/dashboards/share-dashboard-with-users.md) the necessary dashboards with the new user right away.
+>The new user does not have any dashboards by default. [!DNL Adobe] recommends that you [share](../../data-user/dashboards/share-dashboard-with-users.md) the necessary dashboards with the new user right away.
 
 ## Update your email address or password
 

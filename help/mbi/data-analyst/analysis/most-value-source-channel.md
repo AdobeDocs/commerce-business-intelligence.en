@@ -7,9 +7,9 @@ exl-id: 8d25bc80-ea60-47db-b01b-04a23a24c14d
 
 You researched your audience, you created your campaign, you invested in a few marketing channels. Now that some time has passed, how are those channels performing? What channel has brought in the most new users? What source has contributed the most to your total revenue?
 
-With [!DNL Commerce Intelligence], you can easily segment your revenue and users by referral source, whether it corresponds to [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) or custom data fields. This segmentation allows you to find your best performing channels and better invest your marketing budget.
+With [!DNL Adobe Commerce Intelligence], you can easily segment your revenue and users by referral source, whether it corresponds to [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) or custom data fields. This segmentation allows you to find your best performing channels and better invest your marketing budget.
 
-This article explores some reports that you can use to uncover your most valuable marketing channels:
+This topic explores some reports that you can use to uncover your most valuable marketing channels:
 
 * [New users by sources](#newusersbysource)
 * [Average lifetime revenue by user source](#avglifetimerev)
@@ -19,7 +19,7 @@ This article explores some reports that you can use to uncover your most valuabl
 
 ## Prerequisites {#prereqs}
 
-To build the analyses in this article, you need access to marketing acquisition/referral source data. If you are not already tracking it, you need to bring [order referral source data from [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md) into [!DNL Commerce Intelligence] before you can continue. In addition, adding user device information to your analyses enables you to see what technology your referrals are using.
+To build the analyses in this topic, you need access to marketing acquisition/referral source data. If you are not already tracking it, you need to bring [order referral source data from [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md) into [!DNL Adobe Commerce Intelligence] before you can continue. Also, adding user device information to your analyses enables you to see what technology your referrals are using.
 
 ## New users by source {#newusersbysource}
 
@@ -105,7 +105,7 @@ Here is a visual walkthrough:
 
 ## Wrapping Up {#wrapup}
 
-This article touched on just a few analyses you can use to analyze the value of your acquisition and marketing channels, but this is just the tip of the iceberg. 
+This topic touched on just a few analyses you can use to analyze the value of your acquisition and marketing channels, but this is just the tip of the iceberg. 
 
 ## Related {#related}
 

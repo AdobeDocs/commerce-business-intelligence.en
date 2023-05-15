@@ -5,7 +5,7 @@ exl-id: 83895c48-a6ec-4b01-9890-164e0b21dcbc
 ---
 # Configuring replication methods
 
-`Replication` methods and [rechecks](../data-warehouse-mgr/cfg-data-rechecks.md) are used to identify new or updated data in your database tables. Setting them correctly is crucial to ensuring both data accuracy and optimized update times. This article focuses on replication methods.
+`Replication` methods and [rechecks](../data-warehouse-mgr/cfg-data-rechecks.md) are used to identify new or updated data in your database tables. Setting them correctly is crucial to ensuring both data accuracy and optimized update times. This topic focuses on replication methods.
 
 When new tables are synced in the Data Warehouse Manager, a replication method is automatically chosen for the table. Understanding the various replication methods, how tables are organized, and how the table data behaves allows you to choose the best replication method for your tables.
 
@@ -13,9 +13,9 @@ When new tables are synced in the Data Warehouse Manager, a replication method i
 
 `Replication` methods fall into three groups - `Incremental`, `Full Table`, and `Paused`.
 
-[**[!UICONTROL Incremental Replication]**](#incremental) means that [!DNL Commerce Intelligence] replicates only new or updated data on every replication attempt. As these methods greatly reduce latency, Adobe recommends using it where possible.
+[**[!UICONTROL Incremental Replication]**](#incremental) means that [!DNL Commerce Intelligence] replicates only new or updated data on every replication attempt. As these methods greatly reduce latency, [!DNL Adobe] recommends using it where possible.
 
-[**[!UICONTROL Full Table Replication]**](#fulltable) means that [!DNL Commerce Intelligence] replicates the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, Adobe recommends using an Incremental method instead.
+[**[!UICONTROL Full Table Replication]**](#fulltable) means that [!DNL Commerce Intelligence] replicates the entire contents of a table on every replication attempt. Because of the potentially large amount of data to be replicated, these methods can increase latency and update times. If a table contains any timestamped or datetime columns, [!DNL Adobe] recommends using an Incremental method instead.
 
 **[!UICONTROL Paused]** indicates that replication for the table is stopped or paused. [!DNL Commerce Intelligence] does not check for new or updated data during an update cycle; this means that no data is replicated from a table that has this as its Replication Method.
 
@@ -29,7 +29,7 @@ The `Modified At` replication method uses a datetime column - which is populated
 * the `datetime` column is never null;
 * rows are not deleted from the table
 
-In addition to those criteria, Adobe recommends **indexing** the `datetime` column used for `Modified At` replication, as this helps optimize replication speed.
+In addition to those criteria, [!DNL Adobe] recommends **indexing** the `datetime` column used for `Modified At` replication, as this helps optimize replication speed.
 
 When the update runs, new or changed data is identified by searching for rows that have a value in the `datetime` column that occurred after the most recent update. When new rows are discovered, they are replicated to your Data Warehouse. If any rows exist in the Data Warehouse, they are overwritten with the current database values.
 
@@ -89,7 +89,7 @@ This method is intended to replicate data from tables that meet the following cr
 * composite keys (multiple columns comprising the primary key) - note that columns used in a composite primary key can never have null values; or
 * single-column, integer, non-auto-incrementing primary key values.
 
-This method is not ideal, as it is incredibly slow due to the amount of processing that must occur to examine batches and find changes. Adobe recommends not using this method unless it is impossible to make necessary modifications to support the other replication methods. Expect update times to increase if this method must be used.
+This method is not ideal, as it is incredibly slow due to the amount of processing that must occur to examine batches and find changes. [!DNL Adobe] recommends not using this method unless it is impossible to make necessary modifications to support the other replication methods. Expect update times to increase if this method must be used.
 
 ## Setting replication methods
 

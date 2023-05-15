@@ -7,7 +7,7 @@ exl-id: 668cbc77-6a96-4687-9f40-3635b1be5c66
 
 When analyzing your data, it is beneficial to consolidate data from different sources. Want to group revenue by acquisition source, linking data from your orders table and Google Analytics? Or how about grouping revenue by customer gender, or joining a customer attribute to transaction data for segmentation?
 
-This guide teaches you how to do just that. Before getting started, Adobe recommends that you check out the [Calculated Column Types Guide](../../data-analyst/data-warehouse-mgr/calc-column-types.md). The _Calculated Column Types Guide_ outlines the types of columns that you can create in the Data Warehouse Manager, along with their definitions and examples.
+This guide teaches you how to do just that. Before getting started, [!DNL Adobe] recommends that you check out the [Calculated Column Types Guide](../../data-analyst/data-warehouse-mgr/calc-column-types.md). The _Calculated Column Types Guide_ outlines the types of columns that you can create in the Data Warehouse Manager, along with their definitions and examples.
 
 1. To get started, click **[!DNL Manage Data > Data Warehouse]** in the sidebar.
 

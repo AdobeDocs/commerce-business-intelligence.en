@@ -5,13 +5,13 @@ exl-id: 2b57d5b3-3bbf-4ec9-86a6-9fa850c1c459
 ---
 # Analyzing Website Activity
 
-[!DNL Commerce Intelligence] allows you to easily integrate your advertising cost data with the rest of your data. This not only enables you to understand your website activity, but empowers you to derive the percentage of visitors on your website that become a registered user or make a purchase.
+[!DNL Adobe Commerce Intelligence] allows you to easily integrate your advertising cost data with the rest of your data. This not only enables you to understand your website activity, but empowers you to derive the percentage of visitors on your website that become a registered user or make a purchase.
 
-This article demonstrates how to set up a dashboard that will track your website activity - including page views, sessions, and users - and your customer conversion rate over time.
+This topic demonstrates how to set up a dashboard that will track your website activity - including page views, sessions, and users - and your customer conversion rate over time.
 
 ## Prerequisites
 
-**Import your advertising cost data** - Connect [!DNL [Google AdWords]](../importing-data/integrations/google-adwords.md) to [!DNL Commerce Intelligence] - this automatically syncs your [!DNL AdWords] spend in Commerce Intelligence.
+**Import your advertising cost data** - Connect [!DNL [Google AdWords]](../importing-data/integrations/google-adwords.md) to [!DNL Adobe Commerce Intelligence] - this automatically syncs your [!DNL AdWords] spend in Commerce Intelligence.
 
 **Track user acquisition channel data** - To tie your [!DNL Google AdWords] data to specific orders in your database, you must [track user acquisition](../analysis/google-track-user-acq.md) via [!DNL Google Analytics E-commerce]. This allows you to connect each order with a utm source and medium.
 

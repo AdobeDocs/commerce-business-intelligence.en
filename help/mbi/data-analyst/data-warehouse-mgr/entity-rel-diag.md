@@ -5,11 +5,11 @@ exl-id: de7d419f-efbe-4d0c-95a8-155a12aa93f3
 ---
 # Entity Relationship Diagram
 
-What is an **[!UICONTROL entity relationship (ER) diagram]**? An `ER` diagram is a visualization of tables within a database and how they relate to each other. This article contains a few ER diagrams to help you visualize the relationship between a handful of common Commerce database tables.
+What is an **[!UICONTROL entity relationship (ER) diagram]**? An `ER` diagram is a visualization of tables within a database and how they relate to each other. This topic contains a few ER diagrams to help you visualize the relationship between a handful of common Commerce database tables.
 
 >[!NOTE]
 >
->Throughout this article, you see the words **join**, **relationship**, and **path**. These words are all used to describe how two tables are connected.
+>Throughout this topic, you see the words **join**, **relationship**, and **path**. These words are all used to describe how two tables are connected.
 
 ## Core Commerce `ER` Diagram
 

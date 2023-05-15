@@ -5,14 +5,14 @@ exl-id: c7aa564d-42de-426e-92e9-f6e250a6abba
 ---
 # Connect databases via VPN
 
-While Adobe recommends that you connect your databases using an SSH tunnel, you can also use an encrypted VPN connection to keep things secure. A `VPN` can be used for any of your database integrations and, to keep things simple, the process is just about the same as setting up an `SSH tunnel`:
+While [!DNL Adobe] recommends that you connect your databases using an SSH tunnel, you can also use an encrypted VPN connection to keep things secure. A `VPN` can be used for any of your database integrations and, to keep things simple, the process is just about the same as setting up an `SSH tunnel`:
 
 1. [Create an [!DNL Commerce Intelligence] database user](#database)
 1. [Create an [!DNL Commerce Intelligence] VPN user](#vpn)
 1. [Allow access to the [!DNL Commerce Intelligence] IP address](#allowlist)
 1. [Enter the connection and VPN user info into Commerce Intelligence](#finish)
 
-In addition to database credentials, you must enter credentials for a VPN user to wrap things up. Any VPN user works, but Adobe recommends you create an [!DNL Commerce Intelligence] user - it makes it easier for you to track the users on your account.
+In addition to database credentials, you must enter credentials for a VPN user to wrap things up. Any VPN user works, but [!DNL Adobe] recommends you create an [!DNL Commerce Intelligence] user - it makes it easier for you to track the users on your account.
 
 ## Creating a database user for [!DNL Commerce Intelligence] {#database}
 
@@ -25,7 +25,7 @@ The process for creating a database user varies depending on the database type y
 
 ## Creating a `VPN` user for [!DNL Commerce Intelligence] {#vpn}
 
-As mentioned before, any valid `VPN` user works - but Adobe recommends you create a user solely for [!DNL Commerce Intelligence] use.
+As mentioned before, any valid `VPN` user works - but [!DNL Adobe] recommends you create a user solely for [!DNL Commerce Intelligence] use.
 
 ## Allow access to the [!DNL Commerce Intelligence] IP addresses {#allowlist}
 

@@ -21,7 +21,7 @@ If you want to create such a new dimension, [contact support](https://experience
 
 ## Comparing repeat probability of orders with different attributes
 
-To compare the number of repeat purchases for different order attributes (for example, order's `region`), Adobe recommends creating a chart similar to `Users by lifetime number of orders`. This shows you the number of users that made 1, 2, 3,... lifetime number of orders, and add the order level filter. (in other words, This can show you whether users make more or less repeat purchases in one region or another.)
+To compare the number of repeat purchases for different order attributes (for example, order's `region`), [!DNL Adobe] recommends creating a chart similar to `Users by lifetime number of orders`. This shows you the number of users that made 1, 2, 3,... lifetime number of orders, and add the order level filter. (in other words, This can show you whether users make more or less repeat purchases in one region or another.)
 
 The numbers that make up such a chart can then be exported to excel to calculate the repeat order probability ratio. To see the probability of customers that made `(x)` orders to make `(x+1)` orders, simply` divide the number of people who've made at least (x+1) purchases by the number of people who have made at least (x)` purchases.
 

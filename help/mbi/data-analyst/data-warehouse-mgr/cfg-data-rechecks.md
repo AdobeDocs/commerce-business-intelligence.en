@@ -37,7 +37,7 @@ Frequency options are:
 * `monthly` - recheck occurs post-9pm Friday update every four weeks for your declared timezone
 * `once` - occurs only in the next update (a one-off refresh)
 
-As update times are correlated to how much data needs to be synced, Adobe recommends choosing a `daily`, `weekly`, or `monthly` recheck instead of every update.
+As update times are correlated to how much data needs to be synced, [!DNL Adobe] recommends choosing a `daily`, `weekly`, or `monthly` recheck instead of every update.
 
 ## Managing recheck frequencies {#manage}
 
@@ -49,7 +49,7 @@ To change the recheck frequency, click the checkbox next to the columns you want
 
 You might sometimes see `Paused` in the `Changes?` column. This value displays when the table's [replication method](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) is set to `Paused`.
 
-Adobe recommends reviewing these columns to both optimize your updates and ensure that changeable columns are being rechecked. If the recheck frequency for a column is high given how often the data changes, Adobe recommends decreasing it to optimize your updates.
+[!DNL Adobe] recommends reviewing these columns to both optimize your updates and ensure that changeable columns are being rechecked. If the recheck frequency for a column is high given how often the data changes, [!DNL Adobe] recommends decreasing it to optimize your updates.
 
 Contact us with questions or to inquire about current replication methods or rechecks.
 

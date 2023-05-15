@@ -28,7 +28,7 @@ If you are trying to pinpoint a specific discrepancy or set of data, you should 
 
 ## Saving and exporting
 
-When the report meets your needs, save it to a dashboard by giving the report a distinct name, clicking **[!UICONTROL Save]**, and selecting the type of report you would like to save and the dashboard. When auditing metrics, Adobe recommends saving the report as a `Table` and saving it to a test dashboard.
+When the report meets your needs, save it to a dashboard by giving the report a distinct name, clicking **[!UICONTROL Save]**, and selecting the type of report you would like to save and the dashboard. When auditing metrics, [!DNL Adobe] recommends saving the report as a `Table` and saving it to a test dashboard.
 
 After the report is saved, navigate to that dashboard by selecting `Go to Dashboard`. From there, you can export the data by finding the report and selecting **[!UICONTROL Options gear > Full `.csv` Export]** or **[!UICONTROL Full Excel Export]**.
 
@@ -40,4 +40,4 @@ You can also write custom queries and export the results to compare against your
 
 ### Still stumped?
 
-If you find a discrepancy after auditing your data, look at the [Contacting Support: Data Discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=en) support article for more information on what to do next.
+If you find a discrepancy after auditing your data, look at the [Contacting Support: Data Discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=en) support topic for more information on what to do next.

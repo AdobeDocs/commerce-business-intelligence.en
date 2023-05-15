@@ -5,7 +5,7 @@ exl-id: fea8f7e9-c84c-4d49-a657-8b75140c113a
 ---
 # Transactional Customer Churn
 
-This article demonstrates how to set up a dashboard that helps you define churn for your transactional customers.
+This topic demonstrates how to set up a dashboard that helps you define churn for your transactional customers.
 
 ![](../../assets/churn-deashboard.png)
 
@@ -108,7 +108,7 @@ The formula you use simplifies to (Total repeat orders that occurred after X mon
 
 Once you have built out your dashboard, the most common question asked is: How do I use this to determine a churn threshold?
 
-**There is no "one right answer" to this.** However, Adobe recommends finding the point where the line crosses the value that is half of the initial repeat probability rate. This is the point where you can say "If a user is going to make a repeat order, they probably would have done it by now." Ultimately, the goal is to select the threshold where it makes sense to switch from "retention" to "reactivation" efforts.
+**There is no "one right answer" to this.** However, [!DNL Adobe] recommends finding the point where the line crosses the value that is half of the initial repeat probability rate. This is the point where you can say "If a user is going to make a repeat order, they probably would have done it by now." Ultimately, the goal is to select the threshold where it makes sense to switch from "retention" to "reactivation" efforts.
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the image at the top of the page
 

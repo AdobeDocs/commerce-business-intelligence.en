@@ -24,7 +24,7 @@ Regular updates are **scheduled** processes while forced updates are **manual pr
 
 ## Why does the update cycle take a long time? {#updatecycletime}
 
-Numerous factors can add to an already lengthy update time. Certain [replication methods](../data-warehouse-mgr/cfg-replication-methods.md), [higher recheck frequencies](../data-warehouse-mgr/cfg-data-rechecks.md), and the number of dashboards and charts are just a few contributors. Adobe recommends [reconfiguring some of your settings](../../best-practices/reduce-update-cycle-time.md) and [optimizing your database for analysis](../../best-practices/opt-db-analysis.md) to reduce update times.
+Numerous factors can add to an already lengthy update time. Certain [replication methods](../data-warehouse-mgr/cfg-replication-methods.md), [higher recheck frequencies](../data-warehouse-mgr/cfg-data-rechecks.md), and the number of dashboards and charts are just a few contributors. [!DNL Adobe] recommends [reconfiguring some of your settings](../../best-practices/reduce-update-cycle-time.md) and [optimizing your database for analysis](../../best-practices/opt-db-analysis.md) to reduce update times.
 
 ## Can I be notified when an update cycle completes? {#notifyupdate}
 

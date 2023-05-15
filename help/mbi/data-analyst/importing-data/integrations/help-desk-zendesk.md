@@ -9,7 +9,7 @@ exl-id: b6142ef2-2be8-401f-ac35-f86fc68d204e
 >
 >This is only available for clients that are on the `Pro` plan and using the new architecture. You are on the new architecture if you have the `Data Warehouse Views` section available after selecting `Manage Data` from the main toolbar.
 
-Consolidating your [!DNL Zendesk] data with your transactional database is an excellent way to better understand how your customers are interacting with your sales or customer success teams. It also helps you know what type of customers are using your support platform. This article demonstrates how to set up a dashboard to get granular reports about your [!DNL Zendesk] performance and tie in your transactional customers.
+Consolidating your [!DNL Zendesk] data with your transactional database is an excellent way to better understand how your customers are interacting with your sales or customer success teams. It also helps you know what type of customers are using your support platform. This topic demonstrates how to set up a dashboard to get granular reports about your [!DNL Zendesk] performance and tie in your transactional customers.
 
 Before getting started, you want to connect your [[!DNL Zendesk]](../integrations/zendesk.md). This analysis contains [advanced calculated columns](../../data-warehouse-mgr/adv-calc-columns.md).
 

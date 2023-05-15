@@ -33,17 +33,17 @@ Understanding the percentage of customers that are expected to make repeat purch
 
 ## Today's example
 
-Look at the repeat probability decay for a typical eCommerce business.
+Look at the repeat probability decay for a typical ecommerce business.
 
 ![Initial repeat order probability repeat order probability given months since order.](../../assets/Order_probability_reports.png)
 
 ### Initial repeat order probability
 
-In this example, the initial repeat order probability - or the likelihood that a customer makes a repeat purchase - is 60%. This means that 60% of all orders placed with this business are followed by a subsequent order.
+In this example, the initial repeat order probability - or the likelihood that a customer makes a repeat purchase - is 60 percent. This means that 60 percent of all orders placed with this business are followed by a subsequent order.
 
 ### Repeat order probability given months since order
 
-This report shows the probability of a customer ordering again given that some months have elapsed since their last order. Although there is no singular definition for the churn threshold given this report, Adobe recommends defining churn as the point where the probability decay crosses the value that is half of the initial repeat probability rate.
+This report shows the probability of a customer ordering again given that some months have elapsed since their last order. Although there is no singular definition for the churn threshold given this report, [!DNL Adobe] recommends defining churn as the point where the probability decay crosses the value that is half of the initial repeat probability rate.
 
 Since the initial repeat probability rate for this example is 60%, the churn date would be the time when the repeat order probability drops below 60%/2 = 30%, or at about 6 months. Out of the 60% of orders that expected to be followed with another order, half of them were placed within the first 6 months.
 
@@ -70,7 +70,7 @@ After creating the above analysis and determining a churn threshold, you can bui
 
 If you offer more than one product, you probably wonder how customers that purchase a specific product behave differently over time compared to other customers. Want to know more? Check out this tutorial to explore the lifetime purchasing behavior of customer cohorts based on specific products that they have purchased.
 
-This best practice is provided by [!DNL Commerce Intelligence] Data Analysis Services (DAS). [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for more info.
+This best practice is provided by [!DNL Adobe Commerce Intelligence] Data Analysis Services (DAS). [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for more info.
 
 ### Related
 

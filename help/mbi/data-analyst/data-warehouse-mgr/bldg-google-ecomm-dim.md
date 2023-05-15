@@ -9,13 +9,13 @@ exl-id: f8a557ae-01d7-4886-8a1c-c0f245c7bc49
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-Now that you are finished [connecting your[!DNL Google ECommerce]account](../../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in [!DNL Commerce Intelligence]? This article walks you through building dimensions that link your eCommerce data with your orders and customer data.
+Now that you are finished [connecting your[!DNL Google ECommerce]account](../../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in [!DNL Commerce Intelligence]? This topic walks you through building dimensions that link your eCommerce data with your orders and customer data.
 
 The dimensions covered give you the ability to build analyses that [answer vital questions about your marketing channels and campaigns](../../data-analyst/analysis/most-value-source-channel.md). What percent of revenue comes from each source? How does the lifetime value of Facebook acquired customers compare to those from [!DNL Google]?
 
 ## Prerequisites and overview
 
-To create the dimensions in this article, you need a [!DNL Google ECommerce] table, an `orders` table, and a `customers` table. Those tables must be [synced to your Data Warehouse](../../data-analyst/data-warehouse-mgr/tour-dwm.md) before dimensions can be built. Tables that are synced display in the `Synced Tables` section of the `Data Warehouse Manager`.
+To create the dimensions in this topic, you need a [!DNL Google ECommerce] table, an `orders` table, and a `customers` table. Those tables must be [synced to your Data Warehouse](../../data-analyst/data-warehouse-mgr/tour-dwm.md) before dimensions can be built. Tables that are synced display in the `Synced Tables` section of the `Data Warehouse Manager`.
 
 Here is a quick look at syncing tables and columns if you need a refresher:
 
@@ -115,7 +115,7 @@ Finish up by joining the `Customer's first order's` medium and `campaign` dimens
 
 You finished creating the dimensions, which means you can now create powerful analyses that track the performance of your various channels and campaigns. Remember that the **new columns will not be available until after the next update completes**.
 
- Some of the more popular dimensions are covered in this article, but the sky is the limit - try creating your own or feel free to ping us if you want help with exploring other options. 
+ Some of the more popular dimensions are covered in this topic, but the sky is the limit - try creating your own or feel free to ping us if you want help with exploring other options. 
 
 ### I am stuck! What is different? {#stuck}
 

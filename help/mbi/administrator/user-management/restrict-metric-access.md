@@ -7,7 +7,7 @@ exl-id: 88f5ca7a-8073-4968-9685-95f141b2a87f
 
 In addition to setting user permission levels, you can also restrict access to metrics on a user-by-user basis. For example, if you want your accounting department to have access to revenue-related metrics but not user-acquisition metrics, you can restrict access to those metrics.
 
-In cases like these, Adobe recommends setting that user's account to **[[!UICONTROL Standard]](../../administrator/user-management/user-management.md)**. **[!UICONTROL Standard]** permissions should be given to users who do not need to create or alter metrics, calculated columns, integrations, or users, but they do need access to data in the Data Warehouse. If you want to fully restrict access to data, use the **[!UICONTROL Read Only]** permissions instead.
+In cases like these, [!DNL Adobe] recommends setting that user's account to **[[!UICONTROL Standard]](../../administrator/user-management/user-management.md)**. **[!UICONTROL Standard]** permissions should be given to users who do not need to create or alter metrics, calculated columns, integrations, or users, but they do need access to data in the Data Warehouse. If you want to fully restrict access to data, use the **[!UICONTROL Read Only]** permissions instead.
 
 After setting the permission level, you can select the metrics a **[!UICONTROL Standard]** user can access by doing the following:
 

@@ -36,7 +36,7 @@ These examples are specific, which decreases the potential for confusion.
 
 ### Be consistent with capitalization {#capitalize}
 
-Adobe recommends first letter uppercase with the rest of the characters lowercase, unless proper noun style of capitalization. For example, **User's order number** rather than **User's Order Number.**
+[!DNL Adobe] recommends first letter uppercase with the rest of the characters lowercase, unless proper noun style of capitalization. For example, **User's order number** rather than **User's Order Number.**
 
 This is really a matter of preference, but the thing to remember is to be consistent with whatever you choose.
 

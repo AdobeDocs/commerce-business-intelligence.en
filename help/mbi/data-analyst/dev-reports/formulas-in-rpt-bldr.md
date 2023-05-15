@@ -5,7 +5,7 @@ exl-id: 7a0ad07a-5bcc-474f-95bc-ccc2b74073b2
 ---
 # Formulas in the `Report Builder`
 
-In the [`Report Builder`](../../tutorials/using-visual-report-builder.md), you can create powerful visualizations using the [defined metrics](../../data-user/reports/ess-manage-data-metrics.md) in your account. Combining these metrics in a formula allows you to glean additional insights from your data. This article dives into how formulas can be used in the `Report Builder` - lets jump in!
+In the [`Report Builder`](../../tutorials/using-visual-report-builder.md), you can create powerful visualizations using the [defined metrics](../../data-user/reports/ess-manage-data-metrics.md) in your account. Combining these metrics in a formula allows you to glean additional insights from your data. This topic dives into how formulas can be used in the `Report Builder` - lets jump in!
 
 ## What is a `formula`? {#what}
 

@@ -23,11 +23,11 @@ When adding the [!DNL Commerce Intelligence] IP addresses, make sure you add a `
 
 >[!NOTE]
 >
->This step is only required if you are using an encrypted connection. For instructions on how to do this, refer to the setup article for the database you are using (ex: MySQL). The `Linux` user allows us to create an `SSH tunnel`, which is the safest method of sending data over the internet.
+>This step is only required if you are using an encrypted connection. For instructions on how to do this, refer to the setup topic for the database you are using (ex: MySQL). The `Linux` user allows us to create an `SSH tunnel`, which is the safest method of sending data over the internet.
 
 ## Create a database user for Commerce Intelligence
 
-This is the part of the process where, depending on the database you are using, the steps vary. The idea is the same, though: you create a user for [!DNL Commerce Intelligence] which is used to access your database. Instructions for creating a database [!DNL Commerce Intelligence] user can be found in the setup article for the database you are using.
+This is the part of the process where, depending on the database you are using, the steps vary. The idea is the same, though: you create a user for [!DNL Commerce Intelligence] which is used to access your database. Instructions for creating a database [!DNL Commerce Intelligence] user can be found in the setup topic for the database you are using.
 
 ## Enter connection info into Commerce Intelligence
 

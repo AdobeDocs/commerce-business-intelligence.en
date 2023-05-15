@@ -5,7 +5,7 @@ exl-id: 62666d08-5240-4f19-bf8e-e5b2d79a25c4
 ---
 # Customer Repurchasing Behavior
 
-If you offer more than one product, you probably wonder how customers that purchase a specific product behave differently over time compared to other customers. This article explores analyses that can help you answer the following questions:
+If you offer more than one product, you probably wonder how customers that purchase a specific product behave differently over time compared to other customers. This topic explores analyses that can help you answer the following questions.
 
 Among customers who purchase a *specific item*,
 
@@ -16,7 +16,7 @@ Among customers who purchase a *specific item*,
 
 ## Recommended metrics
 
-When building customer repurchasing activity analyses, Adobe recommends using the following metrics:
+When building customer repurchasing activity analyses, [!DNL Adobe] recommends using the following metrics:
 
 ### Repeat order probability
 
@@ -46,7 +46,7 @@ Keeping the above metrics in mind, look at an example involving coffee products.
 
 {style="table-layout:auto"}
 
-Now that you have your data, look at what this could mean for each of your metrics.
+Now that you have your data, what does this mean for each of your metrics?
 
 ### Repeat order probability
 
@@ -60,7 +60,7 @@ Based on the data above, you can see that people who purchase the brewer or caps
 
 ### Average customer lifetime revenue
 
-Customers who purchase the brewer have the highest average lifetime revenue; which makes sense, given that the cost of the brewer is included in this measure. In contrast, customers who purchase coffee beans typically only purchase low-cost items.
+Customers who purchase the brewer have the highest average lifetime revenue, which makes sense, given that the cost of the brewer is included in this measure. In contrast, customers who purchase coffee beans typically only purchase low-cost items.
 
 ### Time to next order
 
@@ -68,7 +68,7 @@ Among customers who have purchased coffee capsules, half make a repeat order in 
 
 ## What other analyses can I build?
 
-Using the metrics outlined in this article, you can also build other useful repurchasing analyses. For example, you can also see how customers repurchase **the same item** - for example, if they buy refills regularly. Capsules and coffee beans may be repurchased regularly, but it would be unexpected to see customers making repeat purchases of the coffee brewer. If your business focuses on refills or restocking, this analysis would be useful.
+Using the metrics outlined in this topic, you can also build other useful repurchasing analyses. For example, you can also see how customers repurchase **the same item** - for example, if they buy refills regularly. Capsules and coffee beans may be repurchased regularly, but it would be unexpected to see customers making repeat purchases of the coffee brewer. If your business focuses on refills or restocking, this analysis would be useful.
 
 In addition to analyzing the repurchasing behavior of your customers, you can also build analyses that look at customer loyalty. Consider analyzing patterns in customer churn - where are your customers leaving your site and not coming back? At what rate is this occurring?
 

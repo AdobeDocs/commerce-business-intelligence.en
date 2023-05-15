@@ -7,7 +7,7 @@ exl-id: 0d486259-b210-42ae-8f79-cd91cc15c2c2
 
 Understanding the coupon performance of your business is an interesting way to segment your orders and better understand customer habits.
 
-This article documents the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
+This topic documents the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
 
 ![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
@@ -47,7 +47,7 @@ The first step is to construct a new metric with the following steps:
 
 >[!NOTE]
 >
->The [!UICONTROL Time Period]** for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. Adobe recommends all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
+>The [!UICONTROL Time Period]** for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. [!DNL Adobe] recommends all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
 
 * **Orders with coupons**
   * [!UICONTROL Metric]:`Orders`

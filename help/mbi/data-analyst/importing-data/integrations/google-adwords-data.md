@@ -74,7 +74,7 @@ Using this data, you can start creating [metrics ](../../../data-user/reports/es
 
 ## Consolidated tables
 
-Adobe recommends creating a `consolidated ad spend` table to combine the data from all of your multiple advertising sources into a single table. This enables you to use a single set of metrics for advertising analysis.
+[!DNL Adobe] recommends creating a `consolidated ad spend` table to combine the data from all of your multiple advertising sources into a single table. This enables you to use a single set of metrics for advertising analysis.
 
 Without a consolidated table, if you build a beautiful dashboard on the `adwords` table, you need to replicate the reporting or create duplicate metrics to compare that data to your [!DNL Facebook Ads] data. Using a consolidated table allows you to seamlessly incorporate [!DNL Facebook Ads] data with your existing [!DNL Adwords] reports. You can segment by ad platform as well.
 

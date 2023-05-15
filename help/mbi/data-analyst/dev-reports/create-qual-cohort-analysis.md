@@ -7,7 +7,7 @@ exl-id: 113244e4-409b-4129-b3d4-7a3433539ade
 
 Do you know how your [!DNL Adwords]-acquired customer segments grow their LTV compared to those customers acquired from organic search? Have you ever thought of performing a `cohort` analysis on different customer segments side by side in the same report? If so, a `qualitative cohort analysis` helps you answer those questions.
 
-This article dives into what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL Commerce Intelligence].
+This topic dives into what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL Commerce Intelligence].
 
 ## What are `qualitative cohorts`, anyway? {#whatare}
 

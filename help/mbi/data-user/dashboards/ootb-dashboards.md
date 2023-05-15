@@ -17,7 +17,7 @@ If you have questions or you are interested in adding a package to your account,
 
 The `executive overview` dashboard is built from charts that exist on other dashboards. This dashboard is a high-level overview of your data and contains charts that would be reviewed daily, while other dashboards contained more detailed information. Initially, it is set as the default dashboard in each account.
 
-A general set of charts is included for you. Adobe recommends that you tailor this dashboard to your needs by adding other charts you use most frequently.
+A general set of charts is included for you. [!DNL Adobe] recommends that you tailor this dashboard to your needs by adding other charts you use most frequently.
 
 ## Cohort analysis
 

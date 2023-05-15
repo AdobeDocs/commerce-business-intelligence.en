@@ -7,9 +7,9 @@ exl-id: 5de83998-e6cf-478d-bb6a-7a3dc77c2c0c
 
 >[!NOTE]
 >
->This article contains instructions for clients that are using the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
+>This topic contains instructions for clients that are using the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
 
-If you are spending money on online advertising, you want to track your return on this spend and make data-driven decisions on further investments. This article demonstrates how to set up a dashboard that track your channel analysis – including ROI in aggregate and by campaign.
+If you are spending money on online advertising, you want to track your return on this spend and make data-driven decisions on further investments. This topic demonstrates how to set up a dashboard that track your channel analysis – including ROI in aggregate and by campaign.
 
 ![](../../assets/Marketing_dashboard_example.png)
 
@@ -17,7 +17,7 @@ Before getting started, you want to connect your [!DNL [Facebook Ads]](../import
 
 ## Consolidated Tables
 
-**Original architecture:** To bring together your spend from various sources (like [!DNL Facebook Ads] or [!DNL Google Adwords]), Adobe recommends creating a **consolidated table** of all of your ad spend. You need an analyst to complete this step for you. If you have not, [file a support request](../../guide-overview.md) with the subject `[MARKETING ROI ANALYSIS]`, and an analyst creates this table.
+**Original architecture:** To bring together your spend from various sources, like [!DNL Facebook Ads] or [!DNL Google Adwords], [!DNL Adobe] recommends creating a **consolidated table** of all of your ad spend. You need an analyst to complete this step for you. If you have not, [file a support request](../../guide-overview.md) with the subject `[MARKETING ROI ANALYSIS]`, and an analyst creates this table.
 
 **New architecture:** You can follow the example in [this Analysis Library](../../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
 

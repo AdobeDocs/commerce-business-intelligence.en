@@ -5,7 +5,7 @@ exl-id: b0619365-fa75-49b5-a393-87f3364a390f
 ---
 # Coupon Impact
 
-Analyzing how customers use your coupons can provide significant insight into your business. Specifically, analyzing how you acquire and retain customers via coupons. This article explores analyses that can help you answer the following types of questions:
+Analyzing how customers use your coupons can provide significant insight into your business. Specifically, analyzing how you acquire and retain customers via coupons. This topic explores analyses that can help you answer the following types of questions:
 
 * How many customers are you acquiring via coupons?
 * Are coupon-acquired customers more likely to make repeat purchases than customers not acquired through coupons?

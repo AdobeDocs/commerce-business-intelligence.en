@@ -19,7 +19,7 @@ See the [training video](https://experienceleague.adobe.com/docs/commerce-knowle
 
 The `SQL Report Builder` allows you to directly query your Data Warehouse, view the results, and quickly transform them into a chart. The best part about using SQL to build reports is that you do not need to wait on update cycles to iterate on columns you create. If the results do not look right, you can quickly edit and rerun the query until things match your expectations.
 
-This article walks you through using the `SQL Report Builder`. After you know your way around, check out the SQL for visualizations tutorial or try optimizing some of the queries you have written.
+This topic walks you through using the `SQL Report Builder`. After you know your way around, check out the SQL for visualizations tutorial or try optimizing some of the queries you have written.
 
 Covered in this article:
 
@@ -65,7 +65,7 @@ You can also use the sidebar in the SQL editor to insert metrics, tables, and co
 >
 >Any [SELECT function](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), or any function that does not mutate data, that is supported by PostgreSQL is supported in the SQL Report Builder. This includes, but is not limited to, AVG, COUNT, COUNT DISTINCT, MIN/MAX, and SUM.
 
-Also, any JOIN type is supported, but Adobe recommends only using INNER JOIN as it is the least expensive of the JOIN types.
+Also, any JOIN type is supported, but [!DNL Adobe] recommends only using INNER JOIN as it is the least expensive of the JOIN types.
 
 ## Running the query and viewing results {#runquery}
 

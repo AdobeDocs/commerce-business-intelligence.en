@@ -8,7 +8,7 @@ exl-id: ec4204ef-975e-45c3-b09e-fb97ffc2c497
 >[!NOTE]
 >>Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-Now that you have more options for creating analyses, it may sometimes be difficult to know exactly which flavor of the report builder suits your needs. This article guides you through choosing the best way to build your analysis.
+Now that you have more options for creating analyses, it may sometimes be difficult to know exactly which flavor of the report builder suits your needs. This topic guides you through choosing the best way to build your analysis.
 
 ## When should I use the `SQL Report Builder`? {#whensql}
 

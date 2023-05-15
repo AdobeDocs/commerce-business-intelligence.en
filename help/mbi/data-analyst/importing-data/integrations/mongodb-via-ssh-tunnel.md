@@ -15,7 +15,7 @@ To connect your [!DNL MongoDB] database to [!DNL Commerce Intelligence] via an S
 
 >[!NOTE]
 >
->Due to the technical nature of this setup, Adobe recommends you loop in a developer to help out if you have not done this before.
+>Due to the technical nature of this setup, [!DNL Adobe] recommends you loop in a developer to help out if you have not done this before.
 
 ## Retrieving the [!DNL Commerce Intelligence] public key {#retrieve}
 

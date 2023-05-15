@@ -13,11 +13,11 @@ Many factors can add to an already lengthy update time. Certain replication meth
 
 In a database table, there can be data columns with changeable values. For example, in an **orders** table there might be a column called **status**. When an order is initially written to the database, the status column might contain the value `pending`. The order is replicated in your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) with this `pending` value.
 
-Changeable columns must be [rechecked for updated values](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) over time. By default, [!DNL Commerce Intelligence] rechecks these columns during every update, but if there is a large amount of data to be rechecked and replicated, it can negatively impact your update time. Instead of running rechecks during every update, Adobe recommends setting the recheck frequency to daily, weekly, or monthly.
+Changeable columns must be [rechecked for updated values](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) over time. By default, [!DNL Commerce Intelligence] rechecks these columns during every update, but if there is a large amount of data to be rechecked and replicated, it can negatively impact your update time. Instead of running rechecks during every update, [!DNL Adobe] recommends setting the recheck frequency to daily, weekly, or monthly.
 
 ## Use Incremental Replication Methods
 
-As mentioned above, long update times are directly correlated to how much data has to be rechecked and replicated. [Incremental replication methods](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) can greatly reduce the amount of data processed during the update cycle. Where possible, Adobe recommends using these methods or modifying your database to support an incremental method.
+As mentioned above, long update times are directly correlated to how much data has to be rechecked and replicated. [Incremental replication methods](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) can greatly reduce the amount of data processed during the update cycle. Where possible, [!DNL Adobe] recommends using these methods or modifying your database to support an incremental method.
 
 ## Remove Unused Charts from Dashboards
 

@@ -11,7 +11,7 @@ exl-id: b9577919-0db0-47f1-a426-1abe48443ac0
 
 The Data Warehouse Manager, accessed by clicking **[!UICONTROL Manage Data > Data Warehouse]** in the sidebar, is the portal to your [!DNL Commerce Intelligence] Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
 
-This article covers:
+This topic covers:
 
 * [Learning your way around](#learning)
 * [Syncing tables and columns](#syncing)

@@ -27,7 +27,7 @@ No added cost! Adobe will create this new account for you to begin re-implementa
 
 ### Time Needed to Reimplement Account in the New Architecture
 
-Re-implementation times vary depending on what you want to rebuild. Adobe recommends that you perform the following steps in your existing account to get an idea of what would be involved in your re-implementation:
+Re-implementation times vary depending on what you want to rebuild. [!DNL Adobe] recommends that you perform the following steps in your existing account to get an idea of what would be involved in your re-implementation:
 
 * Identify a core set of reports/dashboards.
 * Identify metrics and dimensions required to build those reports.

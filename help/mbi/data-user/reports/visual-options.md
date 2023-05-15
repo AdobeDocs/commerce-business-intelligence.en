@@ -7,7 +7,7 @@ exl-id: e42a004e-28e3-4484-bb5a-b58c810b23e0
 
 Selecting the right visualization for a given data set is a critical piece of the analytical process. Every data set has a story to tell, but the effect of that story is emphasized by its visual impact and readability.
 
-The [!DNL Commerce Intelligence] `Visual Report Builder` offers 12 distinct visualization options, each with their own advantages and use-cases. This article discusses the various visualization options in [!DNL Commerce Intelligence], including required report configurations when applicable, and an example of a use case. The following visualizations are available in Commerce Intelligence:
+The [!DNL Commerce Intelligence] `Visual Report Builder` offers 12 distinct visualization options, each with their own advantages and use-cases. This topic discusses the various visualization options in [!DNL Commerce Intelligence], including required report configurations when applicable, and an example of a use case. The following visualizations are available in Commerce Intelligence:
 
 * `Scalar`
 * `Table`

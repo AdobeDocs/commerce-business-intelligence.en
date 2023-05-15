@@ -5,7 +5,7 @@ exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
 ---
 # Advanced Coupon Code Analysis
 
-Understanding the coupon performance of your business is an interesting way to segment your orders and also better understand your customers. This article walks you through the steps to create analyses to understand which customers you acquire by using coupons, how they perform and track general coupon usage.
+Understanding the coupon performance of your business is an interesting way to segment your orders and also better understand your customers. This topic walks you through the steps to create analyses to understand which customers you acquire by using coupons, how they perform and track general coupon usage.
 
 ![](../../assets/coupon_analysis_-_analysis_library.png)<!--{: width="800" height="375"}-->
 
@@ -13,7 +13,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
 
 ## Getting Started
 
-As a first step, you need to ensure that the following columns are synced to your Data Warehouse. If they are not, go ahead and track them, by navigating to "Manage Data" > "Data Warehouse", and syncing the following:
+As a first step, you need to ensure that the following columns are synced to your Data Warehouse. If they are not, go ahead and track them, by navigating to `Manage Data` > `Data Warehouse`, and syncing the following:
 
 * **sales\_flat\_order** table
 * **coupon\_code**

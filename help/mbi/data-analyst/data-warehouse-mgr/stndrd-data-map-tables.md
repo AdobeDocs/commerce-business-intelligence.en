@@ -29,7 +29,7 @@ It is possible that there is a tech resource that can help you clean up the data
 * Percentages must be entered as decimals.
 * Make sure any leading or trailing zeroes are properly retained.
 
-Before you dive in, Adobe recommends that you [export the raw table data](../../tutorials/export-raw-data.md). Looking at the raw data first means you can explore all possible combinations for the data you need to clean up, thus ensuring that the mapping table covers everything.
+Before you dive in, [!DNL Adobe] recommends that you [export the raw table data](../../tutorials/export-raw-data.md). Looking at the raw data first means you can explore all possible combinations for the data you need to clean up, thus ensuring that the mapping table covers everything.
 
 To make a mapping table, you need to create a two-column spreadsheet that follows the [formatting rules for file uploads](../../data-analyst/importing-data/connecting-data/using-file-uploader.md).
 

@@ -5,7 +5,7 @@ exl-id: 6a948561-45b7-4813-9661-ab42197ca5bd
 ---
 # Returned Orders
 
-In this article, learn how to set up a dashboard that provides a detailed analysis of your store's returns.
+This topic demonstrates how to set up a dashboard that provides a detailed analysis of your store's returns.
 
 ![](../../assets/detailed-returns-dboard.png)
 

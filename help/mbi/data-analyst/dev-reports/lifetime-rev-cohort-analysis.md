@@ -5,7 +5,7 @@ exl-id: f2b55745-d364-4ba6-9857-ce9cee05c3ae
 ---
 # `Lifetime Revenue Cohort` Analysis
 
-There are numerous ways to look at your data in [!DNL Commerce Intelligence], and you know that interpretation and understanding are as important as calculation and visualization. This article explores the power of [!DNL Commerce Intelligence] `cohort` analysis.
+There are numerous ways to look at your data in [!DNL Commerce Intelligence], and you know that interpretation and understanding are as important as calculation and visualization. This topic explores the power of [!DNL Commerce Intelligence] `cohort` analysis.
 
 ## What does `lifetime revenue cohort` analysis mean?
 

@@ -5,7 +5,7 @@ exl-id: 576ffabb-5e5d-4251-9662-951e2cd30f31
 ---
 # Bulk editing Charts in Dashboards
 
-The bulk-editing feature makes it easy to change chart names and dates in your dashboards. For example, you want all charts on a specific dashboard to refer to a single store and report on a monthly basis rather than quarterly. Rather than changing everything manually, let the `bulk-editing` feature do the work. In this article, you learn how to use:
+The bulk-editing feature makes it easy to change chart names and dates in your dashboards. For example, you want all charts on a specific dashboard to refer to a single store and report on a monthly basis rather than quarterly. Rather than changing everything manually, let the `bulk-editing` feature do the work. In this topic, you learn how to use:
 
 * [The `Find/Replace` Feature](#findreplace)
 

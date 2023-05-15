@@ -7,13 +7,13 @@ exl-id: 2782c707-6a02-4e5d-bfbb-eff20659fbb2
 
 The [!DNL SQL Report Builder] allows you to query and iterate on those queries at any given time. This is useful when you need to modify a query without having to wait for an update cycle to finish before realizing a column or report you created needs updating.
 
-Before a query is executed, [[!DNL Commerce Intelligence] estimates its cost](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html?lang=en). Cost considers the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds [!DNL Commerce Intelligence] limits, the query fails. For querying your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md), which ensures you are writing the most streamlined queries possible, Adobe recommends the following.
+Before a query is executed, [[!DNL Commerce Intelligence] estimates its cost](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html?lang=en). Cost considers the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds [!DNL Commerce Intelligence] limits, the query fails. For querying your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md), which ensures you are writing the most streamlined queries possible, [!DNL Adobe] recommends the following.
 
 ## Using SELECT or Selecting All Columns
 
 Selecting all columns does not make for a timely, easily executed query. Queries that use `SELECT *` can take quite a bit of time to run, especially if your table has many columns.
 
-For this reason, Adobe recommends you avoid using `SELECT *` wherever possible and only include the columns you need:
+For this reason, [!DNL Adobe] recommends you avoid using `SELECT *` wherever possible and only include the columns you need:
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
@@ -39,7 +39,7 @@ These queries are identical in every way except for the type of JOIN they use.
 
 ## Using Multiple Joins
 
-While you can include multiple joins in your query, remember that it may drive the query's cost up. To keep from hitting the cost threshold, Adobe recommends avoiding multiple joins where possible.
+While you can include multiple joins in your query, remember that it may drive the query's cost up. To keep from hitting the cost threshold, [!DNL Adobe] recommends avoiding multiple joins where possible.
 
 ## Using Filters
 

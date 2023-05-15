@@ -5,21 +5,21 @@ exl-id: 8f0f08fd-710b-4810-9faf-3d0c3cc0a25d
 ---
 # RFM Analysis
 
-This article demonstrates how to set up a dashboard that allows you to segment your customers by their recency, frequency, and monetary rankings. RFM analysis is a marketing technique that takes customer behaviors into account to help you determine segmentation for outreach. It accounts for three aspects: 
+This topic demonstrates how to set up a dashboard that allows you to segment your customers by their recency, frequency, and monetary rankings. RFM analysis is a marketing technique that takes customer behaviors into account to help you determine segmentation for outreach. It accounts for three aspects: 
 
-* Recency in how recently a customer purchased from your store
-* Frequency in how often they purchase from you 
-* Monetary in how much the customer spends
+1. Recency in how recently a customer purchased from your store
+1. Frequency in how often they purchase from you 
+1. Monetary in how much the customer spends
 
 ![](../../assets/blobid0.png)
 
-The RFM analysis can only be configured if you have the [!DNL Commerce Intelligence] Pro plan on the new architecture (for example, if you have the "Data Warehouse Views" option under the "Manage Data" menu). These columns can be created from the "Manage Data > Data Warehouse" page. Detailed instructions are given below.
+The RFM analysis can only be configured if you have the [!DNL Adobe Commerce Intelligence] Pro plan on the new architecture (for example, if you have the `Data Warehouse Views` option under the `Manage Data` menu). These columns can be created from the **[!DNL Manage Data > Data Warehouse]** page. Detailed instructions are provided below.
 
 ## Getting Started
 
 You need to first upload a file containing just a primary key with the value of one. This allows the creation of some necessary calculated columns for the analysis.
 
-You can use this [help center article](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file.
+You can use this [article](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file.
 
 ## Calculated Columns
 
@@ -146,13 +146,15 @@ Columns to create
 
 >[!NOTE]
 >
->The percentiles used are even splits of customers (for example, 20% buckets to return 1-5). If you have a custom way you would like to weight these, let the analyst know when you submit the ticket.
+>The percentiles used are even splits of customers (for example, 20 percent buckets to return 1-5). If you have a custom way you would like to weight these, let the analyst know when you submit the ticket.
 
 ## Metrics
 
 No new metrics!
 
-**Note**: Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
+>[!NOTE]
+>
+>Make sure to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.
 
 ## Reports
 

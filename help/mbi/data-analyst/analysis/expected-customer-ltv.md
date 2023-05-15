@@ -5,7 +5,7 @@ exl-id: e353b92a-ff3b-466b-b519-4f86d054c0bc
 ---
 # Expected Lifetime Value Analysis
 
-This article demonstrates how to set up a dashboard that helps you understand customer lifetime value growth and expected lifetime value of your customers. 
+This topic demonstrates how to set up a dashboard that helps you understand customer lifetime value growth and expected lifetime value of your customers. 
 
 ![](../../assets/exp-lifetim-value-anyalysis.png)
 

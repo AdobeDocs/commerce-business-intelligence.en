@@ -25,7 +25,7 @@ There are four ways to get your data into [!DNL Commerce Intelligence]: connect 
 
 [!DNL Commerce Intelligence] supports SQL-based and NoSQL databases such as [MySQL](../../importing-data/integrations/mysql-via-ssh-tunnel.md), [Microsoft&reg; SQL](../integrations/microsoft-sql-server.md), [MongoDB](../integrations/mongodb-via-ssh-tunnel.md), and [PostgreSQL](../integrations/postgresql.md).
 
-While you can directly connect your database to [!DNL Commerce Intelligence] using database credentials, Adobe recommends you use a proven encryption method like an SSH tunnel. This ensures that your data stays safe and secure as it makes its way into your Data Warehouse.
+While you can directly connect your database to [!DNL Commerce Intelligence] using database credentials, [!DNL Adobe] recommends you use a proven encryption method like an SSH tunnel. This ensures that your data stays safe and secure as it makes its way into your Data Warehouse.
 
 Depending on the connection method and type of database, some tech expertise might be required to complete the setup.
 

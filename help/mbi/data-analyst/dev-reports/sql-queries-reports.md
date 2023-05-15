@@ -7,7 +7,7 @@ exl-id: b3e3905f-6952-4f15-a582-bf892a971fae
 
 Ever wondered how SQL queries are translated into the [calculated columns](../data-warehouse-mgr/creating-calculated-columns.md), [metrics](../../data-user/reports/ess-manage-data-metrics.md), and [reports](../../tutorials/using-visual-report-builder.md) you use in [!DNL Commerce Intelligence]? If you are a heavy SQL user, understanding how SQL is translated in [!DNL Commerce Intelligence] enables you to work smarter in the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) and get the most out of the [!DNL Commerce Intelligence] platform.
 
-At the end of this article, you find a **translation matrix** for SQL query clauses and [!DNL Commerce Intelligence] elements.
+At the end of this topic, you find a **translation matrix** for SQL query clauses and [!DNL Commerce Intelligence] elements.
 
 Start by looking at a general query:
 

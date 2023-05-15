@@ -13,7 +13,7 @@ exl-id: 1af79b9e-77ff-4fc6-917a-4e6743b95035
 
 Within the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), you can create columns to augment and optimize your data for analysis. [This functionality](../data-warehouse-mgr/creating-calculated-columns.md) can be accessed by selecting any table in the Data Warehouse Manager and clicking **[!UICONTROL Create New Column]**.
 
-This article describes the types of columns that you can create with the Data Warehouse Manager. It also covers the description, a visual walk-through of that column, and a [reference map](#map) of all the inputs required to create a column. There are three ways to create calculated columns:
+This topic describes the types of columns that you can create with the Data Warehouse Manager. It also covers the description, a visual walk-through of that column, and a [reference map](#map) of all the inputs required to create a column. There are three ways to create calculated columns:
 
 * [Same table calculated columns](#sametable)
 * [One-to-many calculated columns](#onetomany)
@@ -93,7 +93,7 @@ If you are having a little trouble remembering what all the inputs are when crea
 
 In your quest to analyze and answer questions about your business, you may encounter a situation where you are unable to build the exact column you want. 
 
-To ensure a speedy turnaround, Adobe recommends checking out the [Advanced Calculated Column Types](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) guide to see what kind of columns the Adobe support team can build. That article also covers the info that you need from you to create the column - include it with your request.
+To ensure a speedy turnaround, [!DNL Adobe] recommends checking out the [Advanced Calculated Column Types](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) guide to see what kind of columns the Adobe support team can build. That topic also covers the info that you need from you to create the column - include it with your request.
 
 ## Related documentation
 
