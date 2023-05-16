@@ -13,7 +13,7 @@ exl-id: 219a868b-f17c-4299-9e29-94db9156c9b6
 
 You did your research, you created your ads, you launched your campaign on [!DNL Facebook]. Now it is time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../../../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
-Connecting your Facebook ad data to [!DNL Commerce Intelligence] is a simple three-step process:
+Connecting your [!DNL Facebook Ad] data to [!DNL Commerce Intelligence] is a simple three-step process:
 
 1. [Add [!DNL Facebook] as a data source in [!DNL Commerce Intelligence]](#stepone)
 1. [Allow [!DNL Commerce Intelligence] access to your [!DNL Facebook Ads] data](#steptwo)
@@ -21,8 +21,8 @@ Connecting your Facebook ad data to [!DNL Commerce Intelligence] is a simple thr
 
 ## Add [!DNL Facebook] as a data source in [!DNL Commerce Intelligence] {#stepone}
 
-1. To add the [!DNL Facebook] integration to your account, navigate to the `Connections` page under **[!UICONTROL Manage Data** > **Integrations]**.
-1. Click **[!UICONTROL Add Integration]**, located on the right side of the screen above the Data `Sources` table.
+1. To add the [!DNL Facebook] integration to your [!DNL Commerce Intelligence]account, navigate to the `Connections` page under **[!UICONTROL Manage Data** > **Integrations]**.
+1. Click **[!UICONTROL Add Integration]**, located on the right.
 1. Click the [!DNL Facebook] icon. This displays the [!DNL Facebook] authorization page.
 1. Click **[!UICONTROL Authorize]**.
 

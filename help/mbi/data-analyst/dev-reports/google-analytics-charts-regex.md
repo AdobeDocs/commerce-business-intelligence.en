@@ -7,7 +7,7 @@ exl-id: ee80fd0d-e3b1-4331-853d-3c2c11931d3f
 
 (with regex syntax help)
 
-After you have connected your [[!DNL Google Analytics] account](../../data-analyst/importing-data/integrations/google-analytics.md), you are able to create charts from your [!DNL Google Analytics] data.
+After you have connected your [[!DNL Google Analytics] account](../../data-analyst/importing-data/integrations/google-analytics.md), you can create charts with your [!DNL Google Analytics] data.
 
 ## Create [!DNL Google Analytics] Charts
 

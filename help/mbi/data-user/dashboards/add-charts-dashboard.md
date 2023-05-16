@@ -5,7 +5,7 @@ exl-id: 4a4f14c3-a6ab-4abc-9451-2a0f2fcf06a2
 ---
 # Add Charts to Dashboards
 
-Existing charts can be added to dashboards using the `Add Report` function, located in the top-right area of the screen. The same chart can be added to multiple dashboards, meaning if the chart is edited, all dashboards with this chart reflect the change.
+Existing charts can be added to dashboards using the [!UICONTROL Add Report] function, located in the top-right area of the screen. The same chart can be added to multiple dashboards, meaning if the chart is edited, all dashboards with this chart reflect the change.
 
 >[!NOTE]
 >

@@ -12,13 +12,13 @@ While [!DNL Adobe] recommends that you connect your databases using an SSH tunne
 1. [Allow access to the [!DNL Commerce Intelligence] IP address](#allowlist)
 1. [Enter the connection and VPN user info into Commerce Intelligence](#finish)
 
-In addition to database credentials, you must enter credentials for a VPN user to wrap things up. Any VPN user works, but [!DNL Adobe] recommends you create an [!DNL Commerce Intelligence] user - it makes it easier for you to track the users on your account.
+In addition to database credentials, you must enter credentials for a VPN user to wrap things up. Any VPN user works, but [!DNL Adobe] recommends you create an [!DNL Commerce Intelligence] user, as it makes it easier for you to track the users on your account.
 
 ## Creating a database user for [!DNL Commerce Intelligence] {#database}
 
 The process for creating a database user varies depending on the database type you are connecting. To see the instructions for each database type, click the links below.
 
-* [Microsoft&reg; SQL](../integrations/microsoft-sql-server.md)
+* [Microsoft SQL](../integrations/microsoft-sql-server.md)
 * [MongoDB](../integrations/databases-via-a-vpn.md)
 * [MySQL](../integrations/mysql-via-a-direct-connection.md)
 * [PostgreSQL](../integrations/postgresql.md)
@@ -35,17 +35,17 @@ For the connection to be successful, you must configure your firewall to allow a
 
 ## Entering the connection and `VPN` user info into [!DNL Commerce Intelligence] {#finish}
 
-To wrap things up, you need to enter the connection and user info into [!DNL Commerce Intelligence]. Did you leave the database `credentials` page open? If not, go to **[!UICONTROL Manage Data** > **Connections]** and click **[!UICONTROL Add New Data Source]**, then the icon for the database you are connecting. Do not forget to change the `Encrypted` toggle to `Yes`.
+To wrap things up, you need to enter the connection and user info into [!DNL Commerce Intelligence]. Did you leave the database `credentials` page open? If not, go to **[!UICONTROL Manage Data** > **Connections]**. Click **[!UICONTROL Add New Data Source]**, and then click the icon for the database you are connecting. Do not forget to change the `Encrypted` toggle to `Yes`.
 
 Enter the following info into this page, starting with the `Database Connection` section:
 
 * `Username`: The username for the [!DNL Commerce Intelligence] database user
 * `Password`: The password for the [!DNL Commerce Intelligence] database user
 * `Port`: The database's port on your server. Defaults are:
-* `MicrosoftSQL`: `1433`
-* `MongoDB`: `27017`
-* `MySQL`: `3306`
-* `PostgreSQL`: `5432`
+   * `MicrosoftSQL`: `1433`
+   * `MongoDB`: `27017`
+   * `MySQL`: `3306`
+   * `PostgreSQL`: `5432`
 * `Host`: By default, this is localhost `127.0.0.1`, but it could also be your server's public IP address or a local area network address.
 * `Database Name (optional)`: If you only allowed access to one database (this is specified during the database user creation step), enter the name of that database here.
 

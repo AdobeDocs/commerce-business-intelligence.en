@@ -15,10 +15,14 @@ exl-id: 10e813f1-0306-4bdd-8222-e6364ac624de
 
 Get started by entering your [!DNL Google Analytics] credentials into [!DNL Commerce Intelligence]:
 
-1. Go to the **[!UICONTROL Manage Data** > **Integrations]** page.
+1. Go to **[!UICONTROL Manage Data** > **Integrations]**.
+
 1. Click **[!UICONTROL Add Integration]**, located on the right side of the screen.
+
 1. Click the [!DNL Google Analytics] icon. This opens the [!DNL Google Analytics] credentials page.
+
 1. Enter your [!DNL Google Analytics] credentials. At completion of the authorization process, you are redirected back to [!DNL Commerce Intelligence].
+
 1. A list of profile IDs display. Check the profiles that you want to connect to [!DNL Commerce Intelligence]. If you have multiple profiles and need some help identifying which is which, refer to the Connecting Multiple [!DNL Google Analytics] profiles section below.
 
      ![](../../../assets/list-profile-id.png)<!--{: width="600px"}-->

@@ -3,16 +3,16 @@ title: Importing Linkshare data
 description: Learn to import Linkshare data into [!DNL Commerce Intelligence].
 exl-id: 1c2025a6-746c-4929-bbb1-62af1afcbc49
 ---
-# Import `Linkshare` data
+# Import [!DNL Linkshare] data
 
-To bring your `Linkshare` data into [!DNL Commerce Intelligence], you need to do two things:
+To bring your [!DNL Linkshare] data into [!DNL Adobe Commerce Intelligence], you need to do two things:
 
 1. [Export the Linkshare data in `.csv` format](#export)
 1. [Upload the spreadsheet into [!DNL Commerce Intelligence]](../connecting-data/using-file-uploader.md)
 
 ## Export data from Linkshare {#export}
 
-1. In your `Linkshare` account, go to **[!UICONTROL Reports** > **Run Reports].**
+1. In your [!DNL Linkshare] account, go to **[!UICONTROL Reports** > **Run Reports].**
 
 1. In the `Report` dropdown, select **[!UICONTROL Sales & Activity Report]**.
 

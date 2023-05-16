@@ -123,13 +123,13 @@ breadcrumb-title: Commerce Intelligence User Guide
   - Database Integrations {#integration}
     - [Connecting [!DNL Amazon RDS]](data-analyst/importing-data/integrations/amazon-rds.md)
     - [Connecting Databases via VPN](data-analyst/importing-data/integrations/databases-via-a-vpn.md)
-    - [Connect Your [!DNL MySQL Database] to [!DNL Commerce Intelligence]](data-analyst/importing-data/integrations/db-to-mbi.md)
+    - [Connect Your [!DNL [!DNL MySQL] Database] to [!DNL Commerce Intelligence]](data-analyst/importing-data/integrations/db-to-mbi.md)
     - [Connecting Commerce](data-analyst/importing-data/integrations/magento.md)
     - [Expected Commerce Data](data-analyst/importing-data/integrations/magento-data.md)
     - [Connecting [!DNL Microsoft SQL Server]](data-analyst/importing-data/integrations/microsoft-sql-server.md)
     - [Connecting [!DNL MongoDB] via [!DNL SSH Tunnel]](data-analyst/importing-data/integrations/mongodb-via-ssh-tunnel.md)
     - [Connecting [!DNL MySQL] via a [!DNL direct connection]](data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
-    - [Connecting [!DNL MySQL] via [!DNL cPanel]](data-analyst/importing-data/integrations/mysql-via-cpanel.md)
+    - [Connecting [!DNL MySQL] via [!DNL [!DNL cPanel]]](data-analyst/importing-data/integrations/mysql-via-cpanel.md)
     - [Connecting [!DNL MySQL] via [!DNL SSH Tunnel]](data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md)
     - [Connecting [!DNL PostgreSQ]](data-analyst/importing-data/integrations/postgresql.md)
   - Analyze Campaigns {#campaigns}

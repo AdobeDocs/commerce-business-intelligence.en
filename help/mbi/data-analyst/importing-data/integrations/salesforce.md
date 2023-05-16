@@ -3,7 +3,7 @@ title: Connect Salesforce
 description: Learn how Salesforce data enables a range of analyses, from scoring and optimizing leads to hitting your goals for converted opportunities.
 exl-id: 249b2b40-8c8a-4616-9383-17690f07003d
 ---
-# Connect Salesforce
+# Connect [!DNL Salesforce]
 
 >[!NOTE]
 >
@@ -22,8 +22,6 @@ Connecting your [!DNL Salesforce] data enables a range of analyses, from scoring
 1. Click the [!DNL Salesforce] icon.
 1. Click **[!UICONTROL Connect to Salesforce]**.
 1. Enter your [!DNL Salesforce] credentials and click **[!UICONTROL Login to Salesforce]**.
-
-That is it! After your credentials are validated, [!DNL Salesforce] setup will be complete.
 
 ## Related:
 

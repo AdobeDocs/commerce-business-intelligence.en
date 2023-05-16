@@ -1,6 +1,6 @@
 ---
-title: Translating SQL queries into [!DNL Commerce Intelligence] reports
-description: Learn how SQL queries are translated into the calculated columns, metrics you use in [!DNL Commerce Intelligence].
+title: Translating SQL queries into Commerce Intelligence reports
+description: Learn how SQL queries are translated into the calculated columns, metrics you use in Commerce Intelligence.
 exl-id: b3e3905f-6952-4f15-a582-bf892a971fae
 ---
 # Translate SQL queries in Commerce Intelligence
@@ -45,7 +45,7 @@ Look at a specific example of how a `Total Revenue` metric might be defined in 
 |`email NOT LIKE '%@magento.com'`|Metric `filter`|
 |`AND created_at < X`<br><br>`AND created_at >= Y`|Metric `timestamp` (and reporting `time range`)|
 
-Navigating to the metric builder by clicking **[!UICONTROL Manage Data** > **Metrics** > **Create New Metric]**, you first must select the appropriate `source` table, which in this case is the `orders` table. Then the metric would be set up as shown below:
+Navigate to the metric builder by clicking **[!UICONTROL Manage Data** > **Metrics** > **Create New Metric]**, you first must select the appropriate `source` table, which in this case is the `orders` table. Then the metric would be set up as shown below:
 
 ![Metric aggregation](../../assets/Metric_aggregation.png)
 
@@ -77,9 +77,9 @@ Here you need to carefully consider the relationship between the two tables you 
 
 >[!NOTE]
 >
->In [!DNL Commerce Intelligence], a *path* is equivalent to a `Join` in SQL.
+>In [!DNL Commerce Intelligence], a `path` is equivalent to a `Join` in SQL.
 
-Once the path has been saved, you are all set to create the `Customer LTV` column! Look at the below:
+Once the path has been saved, you can create the `Customer LTV` column! See below:
 
 ![](../../assets/Customer_LTV.gif)
 
@@ -89,7 +89,7 @@ Now that you have built the new `Customer LTV` column in your `customers` table,
 >
 >For the latter, anytime you build a new calculated column you must [add the dimension to existing metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before it is available as a `filter` or `group by`.
 
-See [creating calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) with your Data Warehouse manager.
+See [creating calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) with your Data Warehouse Manager.
 
 ## `Group By` clauses
 

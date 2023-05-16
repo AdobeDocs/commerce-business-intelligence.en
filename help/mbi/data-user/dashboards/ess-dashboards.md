@@ -5,7 +5,7 @@ exl-id: a872344b-ac66-41eb-a471-5a69f8802527
 ---
 # Dashboards
 
-[!DNL Commerce Intelligence] Dashboards give you a quick view of your store's performance and sales activity at a glance. Individual dashboards can be shared with other users and organized into logical groups. You can also set different levels of permission for other users.
+[!DNL Adobe Commerce Intelligence] Dashboards give you a quick view of your store's performance and sales activity at a glance. Individual dashboards can be shared with other users and organized into logical groups. You can also set different levels of permission for other users.
 
 It is easy to create a report, add it to a dashboard, and export the data to Excel. Charts and reports can be resized and dragged into position on the dashboard.
 

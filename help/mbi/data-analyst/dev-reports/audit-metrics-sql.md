@@ -16,7 +16,7 @@ To get started, open the `SQL Report Builder` by navigating to **[!UICONTROL Rep
 -  Any **filters (and filter sets)** that have been added to the metric, indicated by the WHERE clause in the example below.
 -  The component of the **timestamp** (year, month) on which the data is to be ordered, indicated by the ORDER BY clause in the example below.
 
-If you would like to have a clearer view of the query, you can reformat how it is displayed in the query field. When you are ready, select `Run Query`. The results populate as a table in the report panel below the query.
+To have a clearer view of the query, you can reformat how it is displayed in the query field. When ready, select `Run Query`. The results populate as a table in the report panel below the query.
 
 ![](../../assets/run-query-results.gif)
 
@@ -28,7 +28,7 @@ If you are trying to pinpoint a specific discrepancy or set of data, you should 
 
 ## Saving and exporting
 
-When the report meets your needs, save it to a dashboard by giving the report a distinct name, clicking **[!UICONTROL Save]**, and selecting the type of report you would like to save and the dashboard. When auditing metrics, [!DNL Adobe] recommends saving the report as a `Table` and saving it to a test dashboard.
+When the report meets your needs, give the report a distinct name, click **[!UICONTROL Save]**, and select the type of report you would like to save and the dashboard. When auditing metrics, [!DNL Adobe] recommends saving the report as a `Table` and saving it to a test dashboard.
 
 After the report is saved, navigate to that dashboard by selecting `Go to Dashboard`. From there, you can export the data by finding the report and selecting **[!UICONTROL Options gear > Full `.csv` Export]** or **[!UICONTROL Full Excel Export]**.
 

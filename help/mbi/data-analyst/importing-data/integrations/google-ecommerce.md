@@ -16,9 +16,13 @@ You have steady flow of traffic and orders, which means you are effectively reac
 Get started by entering your [!DNL Google ECommerce] credentials into [!DNL Commerce Intelligence]:
 
 1. Go to the `Connections` page under **[!UICONTROL Admin** > **Connections]**.
+
 1. Click **[!UICONTROL Add a New Source]**, located on the right side of the screen above the `Data Sources` table.
+
 1. Click the [!DNL Google ECommerce] icon. This opens the [!DNL Google ECommerce] credentials page.
+
 1. Enter your [!DNL Google Analytics] credentials. At completion of the authorization process, you are redirected back to [!DNL Commerce Intelligence].
+
 1. A list of profile IDs display. Check the profiles that you want to connect to [!DNL Commerce Intelligence].
 
      If you have multiple profiles and need some help identifying which is which, refer to the **Connecting Multiple [!DNL Google Analytics] profiles section below.
@@ -33,9 +37,9 @@ You may have multiple websites connected to a single [!DNL Google Analytics] acc
 
 To identify a particular website's [!DNL Google Analytics] Profile ID:
 
-1. Log into [!DNL Google Analytics]
-1. Go to the particular website's [!DNL Google Analytics] dashboard
-1. Look at the URL - the Profile ID corresponds to the eight numbers following `p` at the end of the line
+1. Log into [!DNL Google Analytics].
+1. Go to the particular website's [!DNL Google Analytics] dashboard.
+1. Look at the URL - the Profile ID corresponds to the eight numbers following `p` at the end of the line.
 
    `www.google.com/analytics/web/#home/a11345062w43527078p**XXXXXXXX**/`
 

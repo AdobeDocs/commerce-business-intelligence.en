@@ -9,7 +9,7 @@ exl-id: 28db0e78-0222-431d-bbb9-6ef133686603
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-[!DNL Commerce Intelligence] is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single Data Warehouse. Even data that lives outside your databases and integrations can be brought into [!DNL Commerce Intelligence] by using the File Upload tool in the Data Warehouse Manager.
+[!DNL Adobe Commerce Intelligence] is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single Data Warehouse. Even data that lives outside your databases and integrations can be brought into [!DNL Commerce Intelligence] by using the File Upload tool in the Data Warehouse Manager.
 
 Use ad campaigns as an example. If you are running both online and offline campaigns, you cannot get the whole picture if you are only analyzing data from an online integration. Uploading a spreadsheet with the offline campaign data allows you to analyze both sets of data and get a more robust understanding of your campaign performance.
 
@@ -115,7 +115,7 @@ Got some new data to add to a file you have already uploaded? No problem - you c
 
 1. Use the dropdown to select the option for handling duplicate rows:
 
-    | | |
+    |Option |Description |
     |---|---|
     |`Overwrite old row with new row`|This overwrites existing data with new data if a row has the same primary key in both the existing table and the new file. This is the method to use for columns with values that change over time - for example, a Status column. Existing data is overwritten and updated with the new data. Rows with primary keys not in the existing table are added as new rows.|
     |`Retain old row; discard new row`|This causes new data to be ignored if a row has the same primary key in both the existing table and the new file.|

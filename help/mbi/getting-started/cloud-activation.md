@@ -82,7 +82,7 @@ To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first cre
 
     ![](../assets/create-account-10.png)
 
-1. Provide [!DNL Commerce Intelligence] MySQL credentials.
+1. Provide [!DNL Commerce Intelligence] [!DNL MySQL] credentials.
 
     - Update your `.magento/services.yaml`
 

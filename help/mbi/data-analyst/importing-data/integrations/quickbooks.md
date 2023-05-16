@@ -17,12 +17,12 @@ With the [!DNL QuickBooks] integration, your business finances can now live alon
 
 1. Go to the `Integrations` page under **[!UICONTROL Manage Data** > **Data Sources]**.
 1. Click **[!UICONTROL Add Integration]**, located on the right side of the screen above the `Data Sources` table.
-1. Click the `QuickBooks` icon.
+1. Click the [!DNL QuickBooks] icon.
 1. Click **[!UICONTROL Connect to Quickbooks]**.
 
 ## Grant [!DNL Commerce Intelligence] access to your [!DNL QuickBooks] data
 
-After clicking **[!UICONTROL Connect to Quickbooks]**, log into your [!DNL Intuit] account and authorize the connection:
+After clicking **[!UICONTROL Connect to Quickbooks]**, log in to your [!DNL Intuit] account and authorize the connection:
 
 ![](../../../assets/QuickBooks_App_Store_1.jpg)
 

@@ -5,19 +5,19 @@ exl-id: d80c5389-7256-40e0-86e0-49903113f93d
 ---
 # Cohort Report Builder
 
-Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who do not? If the answer is `Yes`, then the `Cohort Report Builder` is the perfect tool for you. [!DNL Commerce Intelligence] is optimized to perform this analysis and make it relevant to your business.
+Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who do not? If the answer is `Yes`, then the `Cohort Report Builder` is the perfect tool for you. [!DNL Adobe Commerce Intelligence] is optimized to perform this analysis and make it relevant to your business.
 
 ## What is cohort analysis? {#what}
 
 `Cohort` analysis can be broadly defined as the analysis of user groups that share similar characteristics over their life cycles. It allows you to identify behavioral trends across different user groups.
 
-For a more in-depth primer on `cohort` analysis, [look here](https://www.cohortanalysis.com/).
+For an in-depth primer on `cohort` analysis, review [this page](https://www.cohortanalysis.com/).
 
 In your [!DNL Commerce Intelligence] dashboard, it is easy to create user `cohorts` based on a `cohort` date and a metric in your account.
 
 ## Well, why is cohort analysis important? {#important}
 
-As mentioned above, `cohort` analysis allows you to identify behavioral trends among different user groups. With a solid understanding of how certain groups behave, you can tailor your decisions and spending to maximize your sales. Take, for example, a lifetime revenue `cohort` analysis - while this kind of analysis is beneficial for many reasons, the immediate one is better customer acquisition decisions.
+As mentioned above, `cohort` analysis allows you to identify behavioral trends among different user groups. With a solid understanding of how certain groups behave, you can tailor your decisions and spending to maximize your sales. For example, take a lifetime revenue `cohort` analysis - while this kind of analysis is beneficial for many reasons, the immediate one is better customer acquisition decisions.
 
 ## How do I create my own `cohort` analysis?
 

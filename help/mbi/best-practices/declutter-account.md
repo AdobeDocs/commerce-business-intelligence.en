@@ -21,7 +21,7 @@ To do this - click your company's name in the upper-right navigation bar, then s
 
 >[!WARNING]
 >
->Deactivating a user removes the charts, dashboards, and other assets created by that user. If you want to preserve these assets, contact the [!DNL Commerce Intelligence] [support](../guide-overview.md) team before deactivating the user. Support can help you transfer these assets to another user.
+>Deactivating a user removes the charts, dashboards, and other assets created by that user. If you want to preserve these assets, contact the [!DNL Commerce Intelligence] [support](../guide-overview.md#Submitting-a-Support-Ticket) team before deactivating the user. Support can help you transfer these assets to another user.
 
 ### Reactivate a User
 
@@ -93,7 +93,7 @@ If you decide that the metric is no longer needed, navigate back to the **[!UICO
 
 The last step is to assess the columns currently being synced in your Data Warehouse. Not only can unsyncing columns declutter your account, it can also potentially reduce your update time.
 
-If you would like to pursue this, reach out to [!DNL Commerce Intelligence] [Support](../guide-overview.md). The Support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
+If you would like to pursue this, reach out to [!DNL Commerce Intelligence] [Support](../guide-overview.md#Submitting-a-Support-Ticket). The Support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
 
 >[!NOTE]
 >

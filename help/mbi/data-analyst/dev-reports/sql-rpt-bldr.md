@@ -13,7 +13,7 @@ See the [training video](https://experienceleague.adobe.com/docs/commerce-knowle
 
 `SQL`, or Structured Query Language, is a programming language used to communicate with databases. In [!DNL Commerce Intelligence], SQL is used to query, or retrieve, data from your Data Warehouse. Look at the reports on your dashboard - behind the scenes, each one is powered by a SQL query.
 
-You can use the [`SQL Report Builder`](../dev-reports/sql-rpt-bldr.md) to directly query your Data Warehouse, view the results, and transform them into a chart. You can start creating a report with the `SQL Report Builder` by navigating to **[!UICONTROL Report Builder** > **SQL Report Builder]**.
+You can use the [`SQL Report Builder`](../dev-reports/sql-rpt-bldr.md) to directly query your Data Warehouse, view the results, and transform them into a chart. You can start creating a report with the `SQL Report Builder` by clicking **[!UICONTROL Report Builder** > **SQL Report Builder]**.
 
 See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=en) to learn more.
 
@@ -33,7 +33,7 @@ Covered in this article:
 
 ## SQL Report Builder Integrations
 
-In the current state of the world, [[!DNL Google Analytics]](../importing-data/integrations/google-analytics.md) is the only integration unavailable for use with the [`SQL Report Builder`](../dev-reports/sql-rpt-bldr.md). This functionality is in development.
+[[!DNL Google Analytics]](../importing-data/integrations/google-analytics.md) is the only integration unavailable for use with the [`SQL Report Builder`](../dev-reports/sql-rpt-bldr.md). This functionality is in development.
 
 To get started creating a SQL report, click **[!UICONTROL Report Builder]** or **[!UICONTROL Add Report]** at the top of any dashboard. In the `Report Picker` screen, click **[!UICONTROL SQL Report Builder]** to open the SQL editor.
 
@@ -65,7 +65,7 @@ You can also use the sidebar in the SQL editor to insert metrics, tables, and co
 >
 >Any [SELECT function](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), or any function that does not mutate data, that is supported by PostgreSQL is supported in the SQL Report Builder. This includes, but is not limited to, AVG, COUNT, COUNT DISTINCT, MIN/MAX, and SUM.
 
-Also, any JOIN type is supported, but [!DNL Adobe] recommends only using INNER JOIN as it is the least expensive of the JOIN types.
+Also, any `JOIN` type is supported, but [!DNL Adobe] recommends only using INNER JOIN as it is the least expensive of the `JOIN` types.
 
 ## Running the query and viewing results {#runquery}
 

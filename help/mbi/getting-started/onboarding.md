@@ -23,6 +23,6 @@ The onboarding questions related to `store` and `database` settings ensure that 
 
 ## Database settings
 
--  `Database name` - What is the *name of the MySQL database* where your Commerce transactional data resides?
+-  `Database name` - What is the *name of the [!DNL MySQL] database* where your Commerce transactional data resides?
 
 -  `Table prefix (optional)` - Are the tables contained in your Commerce database prepended by anything (for example, `store_`)? This is not normally the case, but it is a customization that can be made.

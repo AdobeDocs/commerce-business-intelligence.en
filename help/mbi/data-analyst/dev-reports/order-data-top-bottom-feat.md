@@ -13,7 +13,7 @@ This kind of sorting and ordering of data can be done in reports that use both a
 
 ## How do I use this? {#how}
 
-After clicking the **[!UICONTROL Show Top/Bottom link]**, a window will display where you can set the display and sorting parameters. The number in the textbox can either be a whole number (like `5`) or `ALL`. Next, you can choose to sort the report either by the metric OR by the grouping.
+Click the **[!UICONTROL Show Top/Bottom link]** to set the display and sorting parameters. The number in the textbox can either be a whole number (like `5`) or `ALL`. Next, you can choose to sort the report either by the metric OR by the grouping.
 
 For example, if you wanted to display the five referral sources that brought in the most revenue, this is how you do it:
 

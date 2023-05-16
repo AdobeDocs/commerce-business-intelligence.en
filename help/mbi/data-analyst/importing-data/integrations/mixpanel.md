@@ -17,16 +17,18 @@ Connecting your [!DNL Mixpanel] data to [!DNL Commerce Intelligence] a simple th
 
 1. [Open the [!DNL Mixpanel] credentials page in [!DNL Commerce Intelligence]](#stepone)
 1. [Retrieve your [!DNL Mixpanel] API credentials](#steptwo)
-1. [Enter your [!DNL Mixpanel] API credentials in Commerce Intelligence](#stepthree)
+1. [Enter your [!DNL Mixpanel] API credentials in [!DNL Commerce Intelligence]](#stepthree)
 
-To complete this process, you need to open two browser windows or tabs - one for [!DNL Commerce Intelligence], the other for your [!DNL Mixpanel] account.
+To complete this process, you need to open two browser windows or tabs, one for [!DNL Commerce Intelligence] and the other for your [!DNL Mixpanel] account.
 
 ## Opening the [!DNL Mixpanel] credentials page {#stepone}
 
 Get started:
 
 1. Go to the `Connections` page under **[!DNL Manage Data** > **Connections]**.
+
 1. Click **[!UICONTROL Add a New Source]**, located on the right side of the screen above the `Data Sources` table.
+
 1. Click the [!DNL Mixpanel] icon and the credentials page open.
 
 Leave this page open for now and switch to the browser window with your [!DNL Mixpanel] account.
@@ -35,20 +37,22 @@ Leave this page open for now and switch to the browser window with your [!DNL Mi
 
 If you have not logged into your [!DNL Mixpanel] account yet, do so and then do the following:
 
-1. Click **[!UICONTROL Account]** in the top-right corner.
+1. Click **[!UICONTROL Account]** in the upper-right corner.
+
 1. In the displayed dialog, click **[!UICONTROL Projects]**.
+
 1. Your API credentials display:
 
 ![Retrieving Mixpanel API credentials](../../../assets/Mixpanel_API_creds.png)
 
-Keep this open - you need it to wrap this up.
+Keep this open, you need it to wrap this up.
 
 ## Entering your [!DNL Mixpanel] API credentials in [!DNL Commerce Intelligence] {#stepthree}
 
 1. Copy the `API Key` and `Secret` into the [!DNL Mixpanel] credentials page in [!DNL Commerce Intelligence].
 1. Click **[!UICONTROL Connect to Mixpanel]** to complete the setup.
 
-That is it! If the connection is successful, a _Success!_ message displays at the top of the page.
+If the connection is successful, a _Success!_ message displays at the top of the page.
 
 ### Related
 

@@ -5,11 +5,11 @@ exl-id: 3557a8c7-c4c5-4742-ae30-125c719aca39
 ---
 # Connect [!DNL MongoDB] via SSH Tunnel 
 
-To connect your [!DNL MongoDB] database to [!DNL Commerce Intelligence] via an SSH tunnel, you (or your team, if you are not a techie) must do a few things:
+To connect your [!DNL MongoDB] database to [!DNL Commerce Intelligence] via an SSH tunnel, you must do a few things:
 
 1. [Retrieve the [!DNL Commerce Intelligence] public key](#retrieve)
 1. [Allow access to the [!DNL Commerce Intelligence] IP address](#allowlist)
-1. [Create a Linux&reg; user for Commerce Intelligence](#linux)
+1. [Create a Linux user for Commerce Intelligence](#linux)
 1. [Create a [!DNL MongoDB] user for Commerce Intelligence](#mongodb)
 1. [Enter the connection and user info into [!DNL Commerce Intelligence]](#finish)
 
@@ -131,10 +131,10 @@ Enter the following info into this page, starting with the `Database Connection`
 Under the `SSH Connection` section:
 
 * `Remote Address`: The IP address or hostname of the server you will SSH into
-* `Username`: The [!DNL Commerce Intelligence] Linux&reg; (SSH) username (should be rjmetric)
+* `Username`: The [!DNL Commerce Intelligence] Linux (SSH) username (should be rjmetric)
 * `SSH Port`: The SSH port on your server (22 by default)
 
-That is it! When you are finished, click **[!UICONTROL Save Test]** to complete the setup.
+When you are finished, click **[!UICONTROL Save Test]** to complete the setup.
 
 ### Related
 

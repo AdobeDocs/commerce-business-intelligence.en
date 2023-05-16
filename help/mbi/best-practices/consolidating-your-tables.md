@@ -37,7 +37,7 @@ As with all other tables in your Data Warehouse, you can add additional columns 
 
 ## Creating, Viewing, or Updating a Consolidated Table
 
-If you are interested in adding a consolidated table to your Data Warehouse, contact [!DNL Commerce Intelligence] [support](../guide-overview.md).
+If you are interested in adding a consolidated table to your Data Warehouse, contact [!DNL Commerce Intelligence] [support](../guide-overview.md#Submitting-a-Support-Ticket).
 
 >[!NOTE]
 >
