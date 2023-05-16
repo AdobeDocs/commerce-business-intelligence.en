@@ -28,7 +28,7 @@ Get started.
 
 ## Creating an [!DNL Commerce Intelligence] [!DNL MySQL] user in [!DNL cPanel] {#cpanel}
 
-1. Log in to [!DNL cPanel](../../../data-analyst/importing-data/integrations/mysql-via-cpanel.md) via your hosting provider.
+1. Log in to [!DNL cPanel] via your hosting provider.
 1. Click **[!UICONTROL [!DNL MySQL] Databases]**, located in the `Database` section.
 1. Scroll down to the `Add New User` section and create a user for [!DNL Commerce Intelligence]:
 

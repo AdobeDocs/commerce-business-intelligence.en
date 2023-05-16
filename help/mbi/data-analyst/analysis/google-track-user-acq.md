@@ -23,8 +23,7 @@ If you use [!DNL Google Analytics E-Commerce] to track your order and sales data
 
 >[!NOTE]
 >
->
-**For Shopify users**: Turn on [!DNL [Google Analytics E-Commerce] tracking in Shopify](https://help.shopify.com/en/manual/reports-and-analytics/google-analytics#ecommerce-tracking) before connecting your [!DNL Google Analytics E-Commerce] account to [!DNL Commerce Intelligence].
+>**For Shopify users**: Turn on [!DNL [Google Analytics E-Commerce] tracking in Shopify](https://help.shopify.com/en/manual/reports-and-analytics/google-analytics#ecommerce-tracking) before connecting your [!DNL Google Analytics E-Commerce] account to [!DNL Commerce Intelligence].
 
 ### (Option 2) Saving [!DNL Google Analytics]' acquisition source data in your database
 

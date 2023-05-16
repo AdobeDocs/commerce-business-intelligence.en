@@ -6,11 +6,12 @@ seo-title: Commerce Intelligence User Guide
 seo-description: Describes how to use Adobe Commerce Intelligence features used to gain insights from Adobe Commerce or Magento Open Source data, along with other third-party data sources.
 exl-id: f62c7a98-1b4c-4abb-9692-50ce0f3ee1fb
 ---
+
+# [!DNL Adobe Commerce Intelligence] User Guide Overview
+
 >[!IMPORTANT]
 >
 >In 2023, [!DNL Magento Business Intelligence] is rebranded [!DNL Adobe Commerce Intelligence]. Text references have been updated, with UI screen captures coming later in the year.
-
-# [!DNL Adobe Commerce Intelligence] User Guide Overview
 
 There are two areas for data administrators: 
 

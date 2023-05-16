@@ -13,9 +13,9 @@ exl-id: 53765844-c9bb-4a16-b00c-ce9672f87415
 
 ## Jump to
 
-* [`MySQL via SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md)
-* `MySQL via direct connection`
-* [`MySQL via [!DNL cPanel]`](../integrations/mysql-via-cpanel.md)
+* [[!DNL MySQL] via `SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md)
+* [!DNL MySQL] via `direct connection`
+* [[!DNL MySQL] via [!DNL cPanel]](../integrations/mysql-via-cpanel.md)
 
 >[!NOTE]
 >
