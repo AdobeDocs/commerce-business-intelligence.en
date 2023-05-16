@@ -9,7 +9,7 @@ Users can be deleted by going to your account dropdown on the upper-right corner
 
 >[!NOTE]
 >
->Before you delete someone, you may want to check if there are any charts you want to keep. [!DNL Adobe Commerce Intelligence] support can share the user's dashboards with you, which allows you to save only what you need. Support can also push all the dashboards to your account, which transfers ownership to you. [Contact us](../../guide-overview.md) for help.
+>Before you delete someone, you may want to check if there are any charts you want to keep. [!DNL Adobe Commerce Intelligence] support can share the user's dashboards with you, which allows you to save only what you need. Support can also push all the dashboards to your account, which transfers ownership to you. [Contact us](../../guide-overview.md#Submitting-a-Support-Ticket) for help.
 
 ## Reactivate a deleted user
 

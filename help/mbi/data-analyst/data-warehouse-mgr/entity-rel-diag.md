@@ -5,13 +5,13 @@ exl-id: de7d419f-efbe-4d0c-95a8-155a12aa93f3
 ---
 # Entity Relationship Diagram
 
-What is an **[!UICONTROL entity relationship (ER) diagram]**? An `ER` diagram is a visualization of tables within a database and how they relate to each other. This topic contains a few ER diagrams to help you visualize the relationship between a handful of common Commerce database tables.
+What is an **[!UICONTROL entity relationship (ER) diagram]**? An [!UICONTROL ER] diagram is a visualization of tables within a database and how they relate to each other. This topic contains a few [!UICONTROL ER] diagrams to help you visualize the relationship between a few common Adobe Commerce database tables.
 
 >[!NOTE]
 >
 >Throughout this topic, you see the words **join**, **relationship**, and **path**. These words are all used to describe how two tables are connected.
 
-## Core Commerce `ER` Diagram
+## Core Commerce [!UICONTROL ER] Diagram
 
 ![4_DB_Chart](../../assets/4_DB_Chart.png)
 
@@ -39,7 +39,7 @@ Within [!DNL Commerce Intelligence], if the path between these two tables does n
 
 One order can contain many items. The relationship between these two tables is `sales\_flat\_order.entity\_id = sales\_flat\_order\_item.order\_id`.
 
-Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
+Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) in the Data Warehouse tab. When you are ready to create the path, define the path as demonstrated below.
 
 ![](../../assets/SFOI___SFO_path.png)
 
@@ -49,6 +49,6 @@ Within [!DNL Commerce Intelligence], if the path between these two tables does n
 
 One product can be purchased many items. The relationship between these two tables is `catalog\_product\_entity.entity\_id = sales\_flat\_order\_item.product`.
 
-Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
+Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, define the path as demonstrated below.
 
 ![](../../assets/SFOI___CPE_path.png)

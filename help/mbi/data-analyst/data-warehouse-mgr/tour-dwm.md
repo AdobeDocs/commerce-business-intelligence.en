@@ -9,7 +9,7 @@ exl-id: b9577919-0db0-47f1-a426-1abe48443ac0
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md)
 
-The Data Warehouse Manager, accessed by clicking **[!UICONTROL Manage Data > Data Warehouse]** in the sidebar, is the portal to your [!DNL Commerce Intelligence] Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
+The [Data Warehouse Manager](../mbi/data-analyst/data-warehouse-mgr/tour-dwm.md), accessed by clicking **[!UICONTROL Manage Data > Data Warehouse]**, is the portal to your [!DNL Adobe Commerce Intelligence] Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
 
 This topic covers:
 
@@ -55,7 +55,7 @@ The Data Warehouse Manager not only gives you the ability to easily view and man
     If you are syncing a table that comes directly from your database, it is possible that `Primary Keys` may not be denoted. In this case, contact your database administrator to request that a primary key or keys be added to the table.
 1. When finished, click the ![button](../../assets/button.png) button.
 
-A *Success!* message appears and the status changes to `Pending` for the selected columns. After the next full update completes, the newly synced tables and columns will be available for use in reports; you can also set new [replication methods](./cfg-replication-methods.md) after the initial sync.
+A *Success!* message displays and the status changes to `Pending` for the selected columns. After the next full update completes, the newly synced tables and columns will be available for use in reports. You can also set new [replication methods](./cfg-replication-methods.md) after the initial sync.
 
 Here is a quick look at the whole process:
 
@@ -113,6 +113,6 @@ When you are ready to use your new columns in reports, [you need to add them to 
 
 ## Wrapping up
 
-This tutorial covered a lot of material. By now, you should have a solid understanding of what a database is, how data is organized, how tables relate to each other, and what you can do with the Data Warehouse Manager.
+This article covered a lot of material. By now, you should have a solid understanding of what a database is, how data is organized, how tables relate to each other, and what you can do with the Data Warehouse Manager.
 
-Excellent! Go test out your new knowledge by [creating a calculated column](../data-warehouse-mgr/creating-calculated-columns.md) or [making some interesting reports](../../tutorials/using-visual-report-builder.md).
+Go test your knowledge by [creating a calculated column](../data-warehouse-mgr/creating-calculated-columns.md) or [making some interesting reports](../../tutorials/using-visual-report-builder.md).

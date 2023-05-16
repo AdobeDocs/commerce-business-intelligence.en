@@ -5,22 +5,23 @@ exl-id: c31ef32e-ba5a-4902-b632-fbab551cc632
 ---
 # Configuring Data Checks
 
-In a database table, there can be data columns with changeable values. For example, in an `orders`) table there might be a column called `status`. When an order is initially written to the database, the status column might contain the value _pending_. The order is replicated in your [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) with this `pending` value.
+In a database table, there can be data columns with changeable values. For example, in an `orders` table there might be a column called `status`. When an order is initially written to the database, the status column might contain the value _pending_. The order is replicated in your [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) with this `pending` value.
 
-Order statuses can change, though - they are not always in a `pending` status. Eventually it could become `complete` or `cancelled`. To ensure that your Data Warehouse syncs this change, the column must be rechecked for new values.
+Order statuses can change, though they are not always in a `pending` status. Eventually it could become `complete` or `cancelled`. To ensure that your Data Warehouse syncs this change, the column must be rechecked for new values.
 
 How does this fit in with the [replication methods](../data-warehouse-mgr/cfg-replication-methods.md) that was discussed? The processing of rechecks varies based on the chosen replication method. The `Modified\_At` replication method is the best choice for processing changing values, as rechecks do not have to be configured. The `Auto-Incrementing Primary Key` and `Primary Key Batch Monitoring` methods require recheck configuration.
 
 When using either of these methods, changeable columns must be flagged for rechecking. There are three ways to do this:
 
-* An auditing process that runs as part of the update flags columns to be rechecked. 
+1. An auditing process that runs as part of the update flags columns to be rechecked. 
 
    >[!NOTE]
    >
    >The auditor relies on a sampling process and the changing columns may not be caught immediately.
 
-* You can set them yourself by selecting the checkbox next to the column in the Data Warehouse manager, clicking **[!UICONTROL Set Recheck Frequency]**, and choosing an appropriate time interval for when you should check for changes.
-* A member of the [!DNL Commerce Intelligence] Data Warehouse team can manually mark the columns for rechecking in your Data Warehouse. If you are aware of changeable columns, contact the team to request that rechecks are set. Include a list of columns, along with frequency, with your request.
+1. You can set them yourself by selecting the checkbox next to the column in the Data Warehouse manager, clicking **[!UICONTROL Set Recheck Frequency]**, and choosing an appropriate time interval for when you should check for changes.
+
+1. A member of the [!DNL Adobe Commerce Intelligence] Data Warehouse team can manually mark the columns for rechecking in your Data Warehouse. If you are aware of changeable columns, contact the team to request that rechecks are set. Include a list of columns, along with frequency, with your request.
 
 ## Recheck frequencies {#frequency}
 

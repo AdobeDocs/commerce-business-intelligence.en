@@ -12,7 +12,7 @@ exl-id: 4f2bf408-eeaf-4dbf-b62e-89426734640a
 * Import your advertising cost data:
   * [Connect your [!DNL Google AdWords] to [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): This syncs your [!DNL Adwords] spend in [!DNL Commerce Intelligence]
   * [Upload other advertising cost data](../importing-data/connecting-data/import-offline-ad-data.md): This is recommended for channels without a direct connector to [!DNL Commerce Intelligence]
-  * If you import cost data from multiple sources, you can [consolidate](../../best-practices/consolidating-your-tables.md) the data in [!DNL Commerce Intelligence]. Simply [submit a support ticket](../../guide-overview.md).
+  * If you import cost data from multiple sources, you can [consolidate](../../best-practices/consolidating-your-tables.md) the data in [!DNL Commerce Intelligence]. Simply [submit a support ticket](../../guide-overview.md#Submitting-a-Support-Ticket).
 * [Track user acquisition channel data](../analysis/google-track-user-acq.md)
 
 ## User acquisition campaigns

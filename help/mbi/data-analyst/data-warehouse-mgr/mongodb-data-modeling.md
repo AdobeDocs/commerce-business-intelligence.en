@@ -5,9 +5,9 @@ exl-id: 556c854b-5d7c-4f72-8ed7-5bc08d9ee5b9
 ---
 # [!DNL MongoDB] Data Modeling
 
-When [!DNL Commerce Intelligence] pulls in [!DNL MongoDB] data, that data is translated into a relational model.
+When [!DNL Adobe Commerce Intelligence] pulls in [!DNL MongoDB] data, that data is translated into a relational model.
 
-The bad news: While most data patterns do not pose an issue, there are a few that, because of the translation to a relational model, [!DNL Commerce Intelligence] does not support.
+The bad news: While most data patterns do not pose an issue, there are a few that are not supported by [!DNL Commerce Intelligence], because of the translation to a relational model.
 
 The good news: All these patterns can be avoided.
 

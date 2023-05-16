@@ -7,7 +7,7 @@ exl-id: 24bf0e66-eea0-45ea-8ce6-4ff99b678201
 
 The `customer_entity` table contains records of all registered accounts. An account is considered registered if they sign up for an account, regardless of whether they ever complete a purchase. Each row corresponds to one unique registered account, as identified by that account's `entity_id`.
 
-This table does not contain records of customers who place an order via guest checkout. If your store accepts guest checkout, [learn how to account](../data-warehouse-mgr/guest-orders.md) for those customers.
+This table does not contain records of customers who place an order via guest checkout. If your store accepts guest checkout, see [how to account for guest orders](../data-warehouse-mgr/guest-orders.md) for those orders.
 
 ## Common Columns
 

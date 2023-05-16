@@ -5,7 +5,7 @@ exl-id: 8b316130-55c6-4771-ae6e-97ac605fc6cc
 ---
 # Common Commerce Tables
 
-When you first connect a Commerce instance to [[!DNL Commerce Intelligence]](../importing-data/integrations/magento.md), [!DNL Commerce Intelligence] automatically replicates data from some of your commerce tables (typically 4-6 tables) in order to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
+When you first connect a [!DNL Adobe Commerce] instance to [[!DNL Adobe Commerce Intelligence]](../importing-data/integrations/magento.md), [!DNL Commerce Intelligence] automatically replicates data from some of your commerce tables (typically 4-6 tables) to configure the initial set of dashboards and reports. Although this offers a great starting point, most store instances generate tens if not hundreds of additional tables which can provide critical insight into the performance of your business.
 
 Below is a list of some of the more common tables that [!DNL Commerce Intelligence] customers use. After you [connect your Commerce instance to Commerce Intelligence](../../data-analyst/importing-data/integrations/magento.md), you can use the [Data Warehouse Manager](../../data-analyst/data-warehouse-mgr/tour-dwm.md) to track relevant data fields.
 

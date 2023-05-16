@@ -13,13 +13,13 @@ Understanding relationships is vital to maintaining data integrity, as it impact
 
 There are three types of relationships that can exist between two tables:
 
-* [`one-to-one`](#onetoone)
-* [`one-to-many`](#onetomany)
-* [`many-to-many`](#manytomany)
+1. [`one-to-one`](#onetoone)
+1. [`one-to-many`](#onetomany)
+1. [`many-to-many`](#manytomany)
 
 ### `One-to-One` {#onetoone}
 
-In a `one-to-one` relationship, a record in Table `B` belongs to only one record in Table `A`. And a record in Table `A` belongs to only one record in Table `B`.
+In a `one-to-one` relationship, a record in table `B` belongs to only one record in table `A`. And a record in Table `A` belongs to only one record in Table `B`.
 
 For example, in the relationship between people and driver's license numbers, a person can have only one driver's license number, and a driver's license number belongs to only person.
 
@@ -27,13 +27,13 @@ For example, in the relationship between people and driver's license numbers, a 
 
 ### `One-to-Many` {#onetomany}
 
-In a `one-to-many` relationship, a record in Table `A` can potentially belong to several records in Table `B`. Think about the relationship between `orders` and `items` - an order can contain many items, but an item belongs to a single order. In this case, the `orders` table is the one side and the `items` table is the many side.
+In a `one-to-many` relationship, a record in table `A` can potentially belong to several records in table `B`. Think about the relationship between `orders` and `items` - an order can contain many items, but an item belongs to a single order. In this case, the `orders` table is the one side and the `items` table is the many side.
 
 ![](../../assets/one-to-many_001.png)
 
 ### `Many-to-Many` {#manytomany}
 
-In a `many-to-many` relationship, a record in Table `B` can potentially belong to several records in Table `A`. And vice versa, a record in Table `A` can potentially belong to several records in Table `B`.
+In a `many-to-many` relationship, a record in table `B` can potentially belong to several records in table `A`. And vice versa, a record in table `A` can potentially belong to several records in Ttable `B`.
 
 Think about the relationship between **products** and **categories**: a product can belong to many categories, and a category can contain many products.
 
@@ -54,6 +54,7 @@ For example, when thinking about users and orders consider all that is possible 
 To use this method:
 
 1. Identify the entity being described in each table. **Hint: it is usually a noun**. For example, the `user` and `orders` tables are explicitly describing users and orders.
+
 1. Identify one or more verbs that describes how these entities interact. For example, when comparing users to orders, users "place" orders. Going the other direction, orders "belong" to users.
 
 This type of framework can be applied to any pairing of tables in your Data Warehouse. This allows you to easily identify the type of relationship and which table is a one side and which table is a many side.

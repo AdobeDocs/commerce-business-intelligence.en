@@ -3,23 +3,23 @@ title: Replicating Google Analytics channels using acquisition sources
 description: Learn how to replicate Google Analytics channels using acquisition sources.
 exl-id: e7248fe4-94db-4cdf-8f58-1f65061a207d
 ---
-# Google Analytics using Acquisition Sources
+# [!DNL Google Analytics] using Acquisition Sources
 
 ## What are Channels? {#channels}
 
-Creating custom segments to see how different traffic performs and observe trends is one of the most powerful uses for  [!DNL Google Analytics ]. One class of segments that exist by default in [!DNL Google Analytics ] are `Channels`. Channels are a grouping of common ways that people come to your site.  [!DNL Google Analytics ] automatically sorts the many ways that you acquire a user - whether it is social media, pay-per-click, email, or referral links - and bundles them into a bucket, or Channel.
+Creating custom segments to see how different traffic performs and observe trends is one of the most powerful uses for [!DNL Google Analytics]. One class of segments that exist by default in [!DNL Google Analytics] are `Channels`. Channels are a grouping of common ways that people come to your site.  [!DNL Google Analytics] automatically sorts the many ways that you acquire a user - whether it is social media, pay-per-click, email, or referral links - and bundles them into a bucket, or Channel.
 
 ## Why do not I see my `channels` in Commerce Intelligence? {#nochannels}
 
-`Channels` are simple, aggregate buckets of data. To sort your acquisitions into Channel buckets, Google sets distinct rules and definitions using specific parameters: a combination of acquisition [Source](https://support.google.com/analytics/answer/1033173?hl=en) (the origin of your traffic) and acquisition [Medium](https://support.google.com/analytics/answer/6099206?hl=en) (the general category of the source).
+`Channels` are simple, aggregate buckets of data. To sort your acquisitions into Channel buckets, [!DNL Google] sets distinct rules and definitions using specific parameters: a combination of acquisition [Source](https://support.google.com/analytics/answer/1033173?hl=en) (the origin of your traffic) and acquisition [Medium](https://support.google.com/analytics/answer/6099206?hl=en) (the general category of the source).
 
-While having these buckets can help you make sense of where your traffic is coming from, this data is not tagged by channel but by a combination of Source and Medium. Because Google sends channel information as two separate data points, channel groupings do not automatically show up in [!DNL Commerce Intelligence].
+While having these buckets can help you make sense of where your traffic is coming from, this data is not tagged by channel but by a combination of Source and Medium. Because [!DNL Google] sends channel information as two separate data points, channel groupings do not automatically show up in [!DNL Commerce Intelligence].
 
 ## What are the default channel groupings? How are they created?
 
-By default, Google sets you up with eight different channels. Look at the rules that determine how they're created:
+By default, [!DNL Google] sets up eight different channels. The rules that determine how channels are created are below.
 
-| Channel | What is it? | How is it created? |
+| **Channel** | **What is it?** | **How is it created?** |
 |---|---|---|
 | Direct | Anyone who comes directly into your site. | Source = `Direct`<br>AND Medium = `(not set); OR Medium = (none)` |
 | Organic Search | Traffic that has been organically ranked in unpaid search engines. | Medium = `organic` |
@@ -38,13 +38,13 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
 1. **Enable your[!DNL Google ECommerce]integration**
 
-   [Once enabled](../importing-data/integrations/google-ecommerce.md), make sure to [sync](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) the **medium** and **source** fields in your Data Warehouse. After this is completed, medium and source acquisition data will be brought into your Data Warehouse.
+   [When enabled](../importing-data/integrations/google-ecommerce.md), make sure to [sync](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) the **medium** and **source** fields in your Data Warehouse. After this is completed, medium and source acquisition data will be brought into your Data Warehouse.
 
 1. **Upload a mapping of Google's channel groupings**
 
-   To save you time, Commerce has already created a table with the default groupings mapped as a file that you can [download](../../assets/ga-channel-mapping.csv).
+   Adobe Commerce creates a table with the default groupings mapped as a file that you can [download](../../assets/ga-channel-mapping.csv).
 
-   If you are a Google Analytics pro and created your own channels, you want to add your specific rules to the mapping table before uploading the file into [!DNL Commerce Intelligence].
+   If you are a [!DNL Google Analytics] pro and created your own channels, you want to add your specific rules to the mapping table before uploading the file into [!DNL Commerce Intelligence].
 
    Bring it into your Data Warehouse as a [File Upload](../importing-data/connecting-data/using-file-uploader.md).
 
@@ -52,13 +52,13 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
 1. **Establish a relationship between[!DNL Google ECommerce]and Mappings File Upload**
 
-   To establish a relationship between the[!DNL Google ECommerce]and the mapping table, [submit a support request](../../guide-overview.md) to your Data Analyst team and reference this article. The analyst creates a new calculated column called **Channel** in the ECommerce table. **After a full update cycle**, this column will be ready to use in a Filter or Group by.
+   To establish a relationship between the[!DNL Google ECommerce] and the mapping table, [submit a support request](../../guide-overview.md#Submitting-a-Support-Ticket) to your Data Analyst team and reference this topic. The analyst creates a new calculated column called **Channel** in the ECommerce table. **After a full update cycle**, this column will be ready to use in a `Filter` or `Group by`.
 
-Congratulations! Now you have Google Analytics Channel groupings in your Data Warehouse, which means you can analyze your data from a new perspective:
+You now have [!DNL Google Analytics Channel] groupings in your Data Warehouse, which means you can analyze your data from a new perspective:
 
 ![Segmenting the Number of Orders metric by Channel](../../assets/GA_Channel_Gif.gif)
 
-In this example, you started simple - segmenting the **Number of Orders** metric by **Channel**. Now it is your turn - go test out your new column and see what trends you can identify in your Google Analytics channel data!
+In this example, you started simple with segmenting the **Number of Orders** metric by **Channel**. Test out your new column and see what trends you can identify in your [!DNL Google Analytics Channel] data!
 
 ## Related documentation
 

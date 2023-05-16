@@ -7,7 +7,7 @@ exl-id: 83895c48-a6ec-4b01-9890-164e0b21dcbc
 
 `Replication` methods and [rechecks](../data-warehouse-mgr/cfg-data-rechecks.md) are used to identify new or updated data in your database tables. Setting them correctly is crucial to ensuring both data accuracy and optimized update times. This topic focuses on replication methods.
 
-When new tables are synced in the Data Warehouse Manager, a replication method is automatically chosen for the table. Understanding the various replication methods, how tables are organized, and how the table data behaves allows you to choose the best replication method for your tables.
+When new tables are synced in the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), a replication method is automatically chosen for the table. Understanding the various replication methods, how tables are organized, and how the table data behaves allows you to choose the best replication method for your tables.
 
 ## What are the replication methods?
 
@@ -31,7 +31,7 @@ The `Modified At` replication method uses a datetime column - which is populated
 
 In addition to those criteria, [!DNL Adobe] recommends **indexing** the `datetime` column used for `Modified At` replication, as this helps optimize replication speed.
 
-When the update runs, new or changed data is identified by searching for rows that have a value in the `datetime` column that occurred after the most recent update. When new rows are discovered, they are replicated to your Data Warehouse. If any rows exist in the Data Warehouse, they are overwritten with the current database values.
+When the update runs, new or changed data is identified by searching for rows that have a value in the `datetime` column that occurred after the most recent update. When new rows are discovered, they are replicated to your Data Warehouse. If any rows exist in the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), they are overwritten with the current database values.
 
 For example, a table may have a column called `modified\_at` that indicates the last time data was changed. If the most recent update ran Tuesday at noon, the update searches for all rows having a `modified\_at` value greater than Tuesday at noon. Any discovered rows that were either created or modified since noon on Tuesday are replicated to the Data Warehouse.
 
@@ -98,7 +98,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
 1. Once in the Data Warehouse Manager, select the table from the `Synced Tables` list to display the table's schema.
 1. The current replication method is listed below the table name. To change it, click the link.
 1. In the pop-up that displays, click the radio button next to either `Incremental` or `Full Table` replication to select a replication type.
-1. Next, click the **[!UICONTROL Replication Method]** dropdown to select a method - for example, `Paused` or `Modified At`.
+1. Next, click the **[!UICONTROL Replication Method]** dropdown to select a method. For example, `Paused` or `Modified At`.
 
    >[!NOTE]
    >
@@ -106,7 +106,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
    >
    >For example, if you want to use the `modified at` method for your `orders` table, you need to set a `date column` as the replication key. Several options for replication keys may exist, but you select `created at`, or the time the order was created. If the last update cycle stopped at 12/1/2015 00:10:00, the next cycle would begin replicating data with a `created at` date greater than this.
 
-1. When finished, Click **[!UICONTROL Save]**.
+1. When finished, click **[!UICONTROL Save]**.
 
 Look at the whole process:
 

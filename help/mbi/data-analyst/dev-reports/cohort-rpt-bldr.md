@@ -101,7 +101,7 @@ Below are instructions specific to the legacy version of the `Cohort Report Buil
 
 `Cohort` analysis in action! Here, you can see revenue growing over time on a cumulative and per-user basis.
 
-This section walks you through creating your own `cohort` analysis. For examples (and animated GIFs demonstrating the process), look at the [Examples section](#examples) of this article.
+This section walks you through creating your own `cohort` analysis. For examples (and animated GIFs demonstrating the process), look at the [Examples section](#examples) of this topic.
 
 1. Click **[!UICONTROL Report Builder]** on the left tab or **[!UICONTROL Add Report** > **Create Report]** in any dashboard.
 

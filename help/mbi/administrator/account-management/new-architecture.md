@@ -37,7 +37,7 @@ When this is complete, you know what data you need to sync to the new architectu
 
 ### Getting Help
 
-The [!DNL Commerce Intelligence] Services team can perform your re-implementation for an extra cost. Contact your [Adobe Account Team](../../guide-overview.md) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
+The [!DNL Adobe Commerce Intelligence] [Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) can perform your re-implementation for an extra cost. Contact your [Adobe Account Team](../../guide-overview.md#Submitting-a-Support-Ticket) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
 
 ### Staying with Existing Architecture
 

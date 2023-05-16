@@ -9,7 +9,7 @@ This topic demonstrates how to calculate a **churn rate** for your **commerce cu
 
 ![](../../assets/Churn_rate_image.png)
 
-Many customers want assistance in starting to conceptualize what **timeframe** they should use based on their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../analysis/define-cust-churn.md) article. Then, you can use the results in the formula for churn rate in the below instructions.
+Many customers want assistance in starting to conceptualize what **timeframe** they should use based on their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../analysis/define-cust-churn.md) topic. Then, you can use the results in the formula for churn rate in the below instructions.
 
 ## Calculated Columns
 

@@ -17,7 +17,7 @@ exl-id: 90b0a0b0-8c6b-4144-95b4-f588f18616c7
 
 >[!IMPORTANT]
 >
->[!DNL Adobe] recommends you use SSH or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL Commerce Intelligence] to your database using the instructions in this article.
+>[!DNL Adobe] recommends you use SSH or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL Commerce Intelligence] to your database using the instructions in this topic.
 
 This topic walks you through directly connecting your MySQL database to [!DNL Commerce Intelligence] using `cPanel`. This process can also be used to connect [!DNL Adobe Commerce] and any other MySQL-based eCommerce databases to [!DNL Commerce Intelligence].
 

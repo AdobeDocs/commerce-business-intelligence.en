@@ -15,9 +15,9 @@ Within the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), you can 
 
 This topic describes the types of columns that you can create with the Data Warehouse Manager. It also covers the description, a visual walk-through of that column, and a [reference map](#map) of all the inputs required to create a column. There are three ways to create calculated columns:
 
-* [Same table calculated columns](#sametable)
-* [One-to-many calculated columns](#onetomany)
-* [Many-to-one calculated columns](#manytoone)
+1. [Same table calculated columns](#sametable)
+1. [One-to-many calculated columns](#onetomany)
+1. [Many-to-one calculated columns](#manytoone)
 
 ## Same table calculated columns {#sametable}
 
@@ -79,13 +79,13 @@ This can be used to create customer-level dimensions like `Customer's first orde
 
 ### Exists {#exists}
 
-An exists calculated column is a binary test determining the presence of a record on the many side. In other words, the new column returns a `1` if the path connects at least one row in each table, and `0` if no connection can be made.
+An calculated column is a binary test determining the presence of a record on the many side. In other words, the new column returns a `1` if the path connects at least one row in each table, and `0` if no connection can be made.
 
 This type of dimension might determine, for example, if a customer ever purchased a particular product. Using a join between a `customers` table and `orders` table, a filter for a specific product, a dimension `Customer has purchased Product X?` can be built.
 
 ## Handy reference map {#map}
 
-If you are having a little trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you are building:
+If you are having trouble remembering what all the inputs are when creating a calculated column, keep this reference map handy when you are building:
 
 ![](../../assets/merged_reference_map.png)
 

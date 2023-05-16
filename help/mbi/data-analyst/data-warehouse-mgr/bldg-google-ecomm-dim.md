@@ -9,9 +9,9 @@ exl-id: f8a557ae-01d7-4886-8a1c-c0f245c7bc49
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-Now that you are finished [connecting your[!DNL Google ECommerce]account](../../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in [!DNL Commerce Intelligence]? This topic walks you through building dimensions that link your eCommerce data with your orders and customer data.
+Now that you are finished [connecting your[!DNL Google ECommerce] account](../../data-analyst/importing-data/integrations/google-ecommerce.md), what can you do with that data in [!DNL Commerce Intelligence]? This topic walks you through building dimensions that link your eCommerce data with your orders and customer data.
 
-The dimensions covered give you the ability to build analyses that [answer vital questions about your marketing channels and campaigns](../../data-analyst/analysis/most-value-source-channel.md). What percent of revenue comes from each source? How does the lifetime value of Facebook acquired customers compare to those from [!DNL Google]?
+The dimensions covered give you the ability to build analyses that [answer vital questions about your marketing channels and campaigns](../../data-analyst/analysis/most-value-source-channel.md). What percent of revenue comes from each source? How does the lifetime value of [!DNL Facebook] acquired customers compare to those from [!DNL Google]?
 
 ## Prerequisites and overview
 
@@ -119,8 +119,8 @@ You finished creating the dimensions, which means you can now create powerful a
 
 ### I am stuck! What is different? {#stuck}
 
-**`Orders` table #1:** When creating the `Order's [!DNL Google Analytics]` medium and `campaign` dimensions, the difference is the columns selected in step 12. In this example, the column was `Source`.
+**`Orders` table #1: When creating the `Order's [!DNL Google Analytics]` medium and `campaign` dimensions, the difference is the columns selected in step 12. In this example, the column was `Source`.
 
-**`Customers` table:** When creating the `Customer's first order's [!DNL Google Analytics]` medium and `campaign` dimensions, the difference is the columns selected in step 5. In this example, the column was `Order's [!DNL Google Analytics]` source.
+**`Customers` table: When creating the `Customer's first order's [!DNL Google Analytics]` medium and `campaign` dimensions, the difference is the columns selected in step 5. In this example, the column was `Order's [!DNL Google Analytics]` source.
 
-**`Orders` table #2:** When joining the `Customer's first order's [!DNL Google Analytics]` medium and `campaign` columns to the `orders` table, the difference is the columns selected in step 5. In this example, the column was `Customer's first order's [!DNL Google Analytics]` source.
+**`Orders` table #2: When joining the `Customer's first order's [!DNL Google Analytics]` medium and `campaign` columns to the `orders` table, the difference is the columns selected in step 5. In this example, the column was `Customer's first order's [!DNL Google Analytics]` source.

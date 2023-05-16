@@ -30,6 +30,7 @@ From here you can create a view by following the sample instructions below:
 1. If observing an existing view, click **[!UICONTROL New Data Warehouse View]** to open a blank query window. If a blank query window is already open, proceed to the next step.
 1. Give the view a name by typing in the `View Name` field. The name provided here determines the display name for the view in the Data Warehouse. `View names` are limited to lower case letters, numbers, and underscores (_). All other characters are forbidden.
 1. Enter your query in the window titled `Select Query`, using standard PostgreSQL syntax. 
+
    >[!NOTE]
    >
    >Your query must reference specific column names. The use of the `*`character to select all columns is not permitted.
@@ -70,7 +71,7 @@ Look a closer look at one of the examples mentioned earlier in this article: con
 |4|aaa|110|2017-06-08 00:00:00|6000|10|
 |5|ccc|5|2017-07-06 00:00:00|300|1.2|
 
-To create a single ad spend table containing both [!DNL Facebook] and [!DNL AdWords] campaigns, you must write a SQL query and use the `UNION ALL` function. A `UNION ALL` statement is most often used to combine multiple distinct SQL queries while appending the results of each query to a single output.
+To create a single ad spend table containing both [!DNL Facebook] and [!DNL Google AdWords] campaigns, you must write a SQL query and use the `UNION ALL` function. A `UNION ALL` statement is most often used to combine multiple distinct SQL queries while appending the results of each query to a single output.
 
 There are a few requirements of a `UNION` statement worth mentioning, as outlined in the PostgreSQL [documentation](https://www.postgresql.org/docs/8.3/queries-union.html):
 
@@ -123,13 +124,13 @@ Saving the query above as a `Data Warehouse View` creates a table with both [!DN
 |**5**|[!DNL Facebook]|2017-07-06 00:00:00|ccc|1.2|300|5|
 |**5**|[!DNL Google AdWords]|2017-07-10 00:00:00|fff|28.5|10200|280|
 
-Rather than creating a separate set of marketing metrics for each ad source, you can now create just a single set of metrics using the table above to capture all of your ads.
+Rather than creating a separate set of marketing metrics for each ad source, you can create just a single set of metrics using the table above to capture all of your ads.
 
 **Looking for additional help?**
 
-Writing SQL and creating `Data Warehouse Views` is not included with Technical Support. However, the Services team does offer assistance in the creation of views. For everything from migrating a legacy database with a new database to create a single Data Warehouse View for the purposes of a specific analysis, the support team can help.
+Writing SQL and creating `Data Warehouse Views` is not included with Technical Support. However, the [Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) does offer assistance in the creation of views. For everything from migrating a legacy database with a new database to create a single Data Warehouse View for the purposes of a specific analysis, the support team can help.
 
-Usually, the creation of a new `Data Warehouse View` for the purposes of consolidating 2-3 similarly structured tables requires five hours of services time, which translates to roughly $1250 of work. However below are a few common factors which can increase the expected investment required:
+Usually, the creation of a new `Data Warehouse View` for the purposes of consolidating 2-3 similarly structured tables requires five hours of services time, which translates to roughly $1,250 of work. However below are a few common factors which can increase the expected investment required:
 
 * Consolidation of more than three tables into a single view
 * Creation of more than one Data Warehouse view

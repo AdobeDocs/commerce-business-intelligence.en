@@ -19,7 +19,7 @@ exl-id: 53765844-c9bb-4a16-b00c-ce9672f87415
 
 >[!NOTE]
 >
->[!DNL Adobe] recommends you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL Commerce Intelligence] to your database using the instructions in this article.
+>[!DNL Adobe] recommends you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL Commerce Intelligence] to your database using the instructions in this topic.
 
 This topic walks you through directly connecting your MySQL database to [!DNL Commerce Intelligence]. These settings can also be used with Commerce or any other eCommerce databases that use MySQL.
 
