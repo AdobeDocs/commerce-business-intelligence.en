@@ -5,7 +5,7 @@ exl-id: 5afa8c3c-1673-4350-babf-3e4657292871
 ---
 # Share dashboards organization-wide
 
-It is easy to ensure that every user has access to essential business dashboards in [!DNL Commerce Intelligence]. Universal dashboard sharing facilitates increased collaboration and transparency throughout your organization by providing a single "source of truth".
+It is easy to ensure that every user has access to essential business dashboards in [!DNL Adobe Commerce Intelligence]. Universal dashboard sharing facilitates increased collaboration and transparency throughout your organization by providing a single "source of truth".
 
 1. To show off your insights to your coworkers, click **[!UICONTROL Share this Dashboard]** at the top of the screen.
 

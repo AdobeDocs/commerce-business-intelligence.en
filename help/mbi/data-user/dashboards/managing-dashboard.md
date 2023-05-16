@@ -9,7 +9,7 @@ exl-id: 32c21093-2a7d-4d8e-afc0-19bd702f9b36
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-In **[!DNL Manage Data** > **Dashboards]**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. Covered in this article:
+In **[!DNL Manage Data** > **Dashboards]**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. This topic covers:
 
 1. [Renaming dashboards](#rename)
 

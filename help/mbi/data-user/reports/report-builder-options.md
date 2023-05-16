@@ -10,15 +10,15 @@ exl-id: ec4204ef-975e-45c3-b09e-fb97ffc2c497
 
 Now that you have more options for creating analyses, it may sometimes be difficult to know exactly which flavor of the report builder suits your needs. This topic guides you through choosing the best way to build your analysis.
 
-## When should I use the `SQL Report Builder`? {#whensql}
+## When should I use the [!DNL SQL Report Builder]? {#whensql}
 
-Look at some of the more common reasons that you would use the SQL Report Builder over the traditional Report Builder.
+Look at some of the more common reasons that you would use the [!DNL SQL Report Builder] over the traditional [!DNL Report Builder].
 
 ### If you want to use SQL-specific functions…
 
-Part of the beauty of the `SQL Report Builder` is that it gives you the ability to use functions that are not currently available in the Data Warehouse Manager. In the past, an analyst may have had to step in to help you fully realize your vision.
+Part of the beauty of the [!DNL SQL Report Builder] is that it gives you the ability to use functions that are not currently available in the Data Warehouse Manager. In the past, an analyst may have had to step in to help you fully realize your vision.
 
-The SQL Report Builder supports functions like [`LISTAGG`](https://docs.aws.amazon.com/redshift/latest/dg/r_LISTAGG.html) and [`GETDATE`](https://docs.aws.amazon.com/redshift/latest/dg/r_GETDATE.html), which you could not previously use. You can access the [`full list`](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html), but some other SQL-specific functions include:
+The [!DNL SQL Report Builder] supports functions like [`LISTAGG`](https://docs.aws.amazon.com/redshift/latest/dg/r_LISTAGG.html) and [`GETDATE`](https://docs.aws.amazon.com/redshift/latest/dg/r_GETDATE.html), which you could not previously use. You can access the [`full list`](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html), but some other SQL-specific functions include:
 
 * [`Bitwise aggregate` functions](https://docs.aws.amazon.com/redshift/latest/dg/c_bitwise_aggregate_functions.html)
 * [`CASE expression`](https://docs.aws.amazon.com/redshift/latest/dg/r_CASE_function.html)
@@ -31,17 +31,17 @@ The SQL Report Builder supports functions like [`LISTAGG`](https://docs.aws.amaz
 
 ### If you want to do some testing…
 
-If you want to try different techniques and strategies to figure out what works best for your analysis, you might want to use the `SQL Report Builder`. Building out columns in the Data Warehouse Manager takes time and columns that you create using the DWM depend on update cycles.
+If you want to try different techniques and strategies to figure out what works best for your analysis, you might want to use the [!DNL SQL Report Builder]. Building out columns in the Data Warehouse Manager takes time and columns that you create using the DWM depend on update cycles.
 
 At best, you must wait through one update cycle before you can use your column. If you realize you made a mistake in building the column, you have to wait through *two* cycles: one to initially populate the column, and another cycle for the revisions to propagate.
 
 ### If you only use a new column once…
 
-As mentioned in the section above, creating a column in the Data Warehouse Manager takes time. If you only plan on using a column you create in one report, Adobe suggests using the `SQL Report Builder`. This eliminates the need to wait for an update cycle to complete, getting you back to work more quickly.
+As mentioned in the section above, creating a column in the Data Warehouse Manager takes time. If you only plan on using a column you create in one report, Adobe suggests using the [!DNL SQL Report Builder]. This eliminates the need to wait for an update cycle to complete, getting you back to work more quickly.
 
 ### If you are working with data that has a one-to-many relationship…
 
-Sometimes, the structure of your data might make the `SQL Report Builder` a more efficient and logical choice to build your analysis. Creating columns for one-to-one relationships is straightforward in the Data Warehouse Manager, but things can get a little confusing when you're dealing with one-to-many relationships.
+Sometimes, the structure of your data might make the [!DNL SQL Report Builder] a more efficient and logical choice to build your analysis. Creating columns for one-to-one relationships is straightforward in the Data Warehouse Manager, but things can get a little confusing when you're dealing with one-to-many relationships.
 
 Say that a single product is considered a part of multiple product categories, and you would like to view the revenue associated with each category of each product. Trying to create this relationship using the DWM can be tedious and difficult, but writing a SQL query may be a bit more straightforward:
 
@@ -49,7 +49,7 @@ Say that a single product is considered a part of multiple product categories, a
 
 ## When should I use the traditional Report Builder? {#whentraditionalrb}
 
-While the `SQL Report Builder` gives you more control and access to previously unavailable functionality, it might not always be the right choice. Adobe suggests that you also consider the following when deciding what flavor of the report builder to use.
+While the [!DNL SQL Report Builder] gives you more control and access to previously unavailable functionality, it might not always be the right choice. Adobe suggests that you also consider the following when deciding what flavor of the report builder to use.
 
 ### If you are building a simple report…
 
@@ -63,4 +63,4 @@ If there are some people who need the report but are not familiar with SQL, Adob
 
 ## Wrapping up {#wrapup}
 
-Both the `SQL Report Builder` and `Visual Report Builder` are suitable for a wide variety of use cases. This typically depends on what your analytical needs are and who are consuming the analysis.
+Both the [!DNL SQL Report Builder] and [!DNL Visual Report Builder] are suitable for a wide variety of use cases. This typically depends on what your analytical needs are and who are consuming the analysis.

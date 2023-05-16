@@ -3,15 +3,19 @@ title: Commerce Intelligence User Guide Overview
 description: Comprehensive information for Commerce Intelligence data administrators.
 breadcrumb-title: Guide Overview
 seo-title: Commerce Intelligence User Guide
-seo-description: Describes how to use the Commerce Intelligence features used to gain insights from Adobe Commerce or Magento Open Source data.
+seo-description: Describes how to use Adobe Commerce Intelligence features used to gain insights from Adobe Commerce or Magento Open Source data, along with other third-party data sources.
 exl-id: f62c7a98-1b4c-4abb-9692-50ce0f3ee1fb
 ---
-# [!DNL Commerce Intelligence] User Guide Overview
+>[!IMPORTANT]
+>
+>In 2023, [!DNL Magento Business Intelligence] is rebranded [!DNL Adobe Commerce Intelligence]. Text references have been updated, with UI screen captures coming later in the year.
+
+# [!DNL Adobe Commerce Intelligence] User Guide Overview
 
 There are two areas for data administrators: 
 
 - The Admin: Use this area to access the configuration UI and reporting.
-- The command-line interface: Use this tool to execute installation and backend configuration tasks.
+- The command-line interface (CLI): Use this tool to execute installation and backend configuration tasks.
 
 ## How to Use this Guide
 
@@ -28,7 +32,7 @@ In addition to the above role-based workflows, this guide also contains:
 
 ## How to Get Help
 
-Contact the support team if you have questions, want to take advantage of some of your Professional Services, or encounter problems with your account.
+Contact the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) if you have questions and want to take advantage of some of your Professional Services or if you encounter problems with your account.
 
 ### Service Policies 
 

@@ -5,7 +5,7 @@ exl-id: 94d4db27-0e06-4066-9c03-036b109d2d9b
 ---
 # Use a report
 
-Use reports in [!DNL Commerce Intelligence] to help you answer business questions - whether you simply want to see this month's revenue compared to last year or understand your acquisition costs for your latest [!DNL Google AdWords] campaign.
+Use reports in [!DNL Adobe Commerce Intelligence] to help you answer business questions - whether you simply want to see this month's revenue compared to last year or understand your acquisition costs for your latest [!DNL Google AdWords] campaign.
 
 What does that path from question to answer look like, exactly?
 

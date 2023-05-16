@@ -5,7 +5,7 @@ exl-id: 26decdaf-2b2c-4ca2-b3d5-0386892662e8
 ---
 # Export Raw Data
 
-Using raw data exports, you can export records from your [!DNL Commerce Intelligence] Data Warehouse to get a closer look at what is powering your dashboard. Also, raw data exports can help you [pinpoint data discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en).
+Using raw data exports, you can export records from your Data Warehouse to get a closer look at what is powering your dashboard. Also, raw data exports can help you [pinpoint data discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en).
 
 Raw data exports provide access to additional columns and dimensions generated through de-normalization and pre-aggregation of relevant metrics. For example, `User's first order date` is a dimension that you can export for each user in [!DNL Commerce Intelligence], while it may not be available in your database.
 
@@ -17,13 +17,16 @@ This tutorial covers the following:
 
 ## Step 1: Selecting Data to Export {#select}
 
-There are two ways that you can export raw data in [!DNL Commerce Intelligence]: at the chart level or at the table level.
+There are two ways that you can export raw data in [!DNL Commerce Intelligence]:
 
-### Exporting at the Table Level in your `Manage Data` Tab
+1. at the chart level 
+1. at the table level
 
-If you want to export the table from `Manage Data` tab, you need [Admin](../administrator/user-management/user-management.md) permissions.
+### Exporting at the Table Level in your [!UICONTROL Manage Data] Tab
 
-1. Click **[!UICONTROL Manage Data** > **Export Data** > **Raw Data Export]** to get started.
+If you want to export the table from [!UICONTROL Manage Data] tab, you need [Admin](../administrator/user-management/user-management.md) permissions.
+
+1. Click **[!UICONTROL Manage Data** > **Export Data** > **Raw Data Export]**.
 1. You see an `Export List` of recently created data exports, if any exist. Click **[!UICONTROL Add Export]** to create an export.
 1. The `New Raw Data Export` dialog displays. Here, you can customize your export by selecting or deselecting columns and filters:
 
@@ -37,8 +40,11 @@ If you want to export the table from `Manage Data` tab, you need [Admin](../admi
 ### Exporting at the Chart Level from the Dashboard
 
 1. Click the gear icon in the top-right corner of any chart.
+
 1. Select `Raw Export` from the dropdown to display the `Raw Export` dialog.
+
 1. Customize the export by choosing the `table`, `columns`, and `filters` to include or exclude. Refer to the previous section for more detailed info on the fields in this module. 
+
    >[!NOTE]
    >
    >The table that displays in the `Table` field is, by default, the table that powers the chart.
@@ -59,6 +65,4 @@ To check if your export is ready, click **[!UICONTROL Raw Data Exports]** in the
 
 ## Step 3: Accessing Historical Exports {#historical}
 
-To view your past exports, click **[!UICONTROL Raw Data Export]** in the top-right corner of the screen. Pending and completed reports can be accessed for up to seven days.
-
-Congratulations! You have finished.
+To view your past exports, click **[!UICONTROL Raw Data Export]** in the upper-right corner of the screen. Pending and completed reports can be accessed for up to seven days.

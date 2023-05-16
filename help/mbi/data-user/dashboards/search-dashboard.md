@@ -5,11 +5,11 @@ exl-id: eea09ee5-e7ec-4002-8257-a35a64c900a9
 ---
 # Search for a dashboard
 
-This topic shows you how to use the [`Global Search` feature](#global) to look for dashboards and how to search for [dashboards owned by other users](#other).
+This topic shows you how to use the [[!DNL Global Search] feature](#global) to look for dashboards and how to search for [dashboards owned by other users](#other).
 
 ## Global Search {#global}
 
-The `Global Search` menu allows you to search for and select dashboards to view.
+The [!DNL Global Search] menu allows you to search for and select dashboards to view.
 
 * *To view a list of your existing dashboards*, click the dashboard.
 

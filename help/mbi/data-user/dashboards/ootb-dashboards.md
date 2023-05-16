@@ -5,7 +5,7 @@ exl-id: f50fc417-e5d4-401c-9baa-cda1468196a2
 ---
 # Included dashboards
 
-Adobe offers eCommerce and `SaaS` Starter Packages. These packages, created by Adobe analysts, contain a customized set of dashboards and reports for your dataset. The analyses contained in these packages let you check on the health of essential metrics such as user lifetime revenue, number of repeat purchases, and more, thus creating a solid foundation for future exploration.
+[!DNL Adobe] offers `eCommerce` and `SaaS` Starter Packages. These packages, created by Adobe analysts, contain a customized set of dashboards and reports for your dataset. The analyses contained in these packages let you check on the health of essential metrics such as user lifetime revenue, number of repeat purchases, and more, thus creating a solid foundation for future exploration.
 
 >[!NOTE]
 >

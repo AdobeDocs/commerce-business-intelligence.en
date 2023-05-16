@@ -3,9 +3,9 @@ title: Use the Visual Report Builder
 description: Learn to analyze the data in your report for a specific time period.
 exl-id: da97b63d-63f0-4fd6-87e3-4cac49a42acc
 ---
-# Use the `Visual Report Builder`
+# Use the [!DNL Visual Report Builder]
 
-The [`Visual Report Builder`](../data-user/reports/ess-rpt-build-visual.md) allows you to visually explore your data to draw insights and help drive business decisions. This tutorial walks you through the process of creating a basic report.
+The [[!DNL Visual Report Builder]](../data-user/reports/ess-rpt-build-visual.md) allows you to visually explore your data to draw insights and help drive business decisions. This tutorial walks you through the process of creating a basic report.
 
 >[!NOTE]
 >
@@ -13,9 +13,9 @@ The [`Visual Report Builder`](../data-user/reports/ess-rpt-build-visual.md) allo
 
 ## Step 1: Creating a Report
 
-To get started creating a report, click **[!UICONTROL Report Builder]** on the sidebar or **[!UICONTROL Add Report]** at the top of any dashboard. When the `Report Builder` selection page displays, click the **[!UICONTROL Visual Report Builder]** option.
+To get started creating a report, click **[!UICONTROL Report Builder]** on the sidebar or **[!UICONTROL Add Report]** at the top of any dashboard. When the `Report Builder` page displays, click the **[!UICONTROL Visual Report Builder]** option.
 
-To edit a report created in the `Visual Report Builder`, click the gear (Options) icon in the top-right corner of any chart, then click **[!UICONTROL Edit]**.
+To edit a report created in the [!DNL Visual Report Builder], click the gear (Options) icon in the upper-right corner of any chart, then click **[!UICONTROL Edit]**.
 
 ## Step 2: Adding Metrics
 
@@ -39,7 +39,7 @@ To zero in on a particular stretch of time, you can set the time period for the 
 
 When setting a specific date range for the time period, make sure that the start date is at the beginning of the interval and the end date is at the end of your interval.
 
-For example, setting a time period from `January 1st to March 1st` and choosing a `monthly` interval shows `March` as a datapoint, but ignore every day in `March` except `March 1`. In that case, you should make your `Time Period` from `January 1 to March 31`.
+For example, setting a time period from `January 1st` to `March 1st` and choosing a `monthly` interval shows `March` as a datapoint, but ignore every day in `March` except `March 1`. In that case, you should make your `Time Period` from `January 1 to March 31`.
 
 ## Step 5: `Group by` / `Segmenting the Analysis` {#groupby}
 

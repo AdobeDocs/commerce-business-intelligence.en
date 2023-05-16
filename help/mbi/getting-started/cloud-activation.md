@@ -1,12 +1,12 @@
 ---
-title: Activate your [!DNL Commerce Intelligence] Account for Cloud Starter Subscriptions
-description: Learn how to activate [!DNL Commerce Intelligence] for Cloud Starter projects.
+title: Activate your Commerce Intelligence Account for Cloud Starter Subscriptions
+description: Learn how to activate Commerce Intelligence for Cloud Starter projects.
 exl-id: 172439ee-fa1d-4872-b6a9-c61a212a7cbe
 
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/start/onpremise-activation.html
 ---
-# Activate your [!DNL Commerce Intelligence] Account for `Cloud Starter` Subscriptions
+<!---# Activate your [!DNL Commerce Intelligence] Account for `Cloud Starter` Subscriptions
 
 To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first create an [!DNL Commerce Intelligence] account, then create a `SSH` key, then finally connect to your Commerce database. See [activating on-premise subscriptions](../getting-started/onpremise-activation.md).
 
@@ -197,4 +197,4 @@ To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first cre
 
 1. After you have successfully connected [!DNL Commerce Intelligence] to your Commerce database, contact your Adobe Account Team to coordinate the next steps, such as setting up integrations and other configuration steps.
 
-1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your [!DNL Commerce Intelligence] account.
+1. When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your [!DNL Commerce Intelligence] account.--->

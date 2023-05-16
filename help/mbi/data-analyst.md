@@ -11,12 +11,12 @@ This section demonstrates how to:
 * connect and import data to [!DNL Commerce Intelligence]
 * view how your data is stored and structured in your Data Warehouse
 * analyze your data
-* use the `SQL report builder`
+* use the [!DNL SQL Report Builder]
 
 ## Related
 
 * [Data Warehouse Manager](../mbi/data-analyst/data-warehouse-mgr/tour-dwm.md)
-* [`SQL Report Builder`](data-analyst/dev-reports/sql-rpt-bldr.md)
+* [[!DNL SQL Report Builder]](data-analyst/dev-reports/sql-rpt-bldr.md)
 * [Connecting Data](../mbi/data-analyst/importing-data/connecting-data/connecting-data.md)
 * [Integrations](../mbi/data-analyst/importing-data/integrations/magento.md)
 * [Forecasting](../mbi/data-analyst/analysis/forecasting.md)

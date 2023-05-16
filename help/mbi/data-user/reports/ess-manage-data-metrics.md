@@ -9,7 +9,7 @@ exl-id: d4c25546-3c51-4d32-b9d8-c424ec103be5
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-Put, a metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period.
+A metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period.
 
 In [!DNL Commerce Intelligence], you can use metrics to [create charts](../../data-user/reports/ess-rpt-build-visual.md). For example, the metric `revenue` is the total number of orders. The metric `average customer revenue per order` is what the average customer spends per order.
 

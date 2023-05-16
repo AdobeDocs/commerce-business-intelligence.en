@@ -10,5 +10,5 @@ Take your pick - plain English or the metric definition. Users can annotate char
 ## Related:
 
 * [Basic Analytics](../../data-analyst/analysis/basic-analytics.md)
-* [`Visual Report Builder`](../../data-user/reports/ess-rpt-build-visual.md)
-* [`SQL Report Builder`](../../data-analyst/dev-reports/sql-rpt-bldr.md)
+* [!DNL Visual Report Builder](../../data-user/reports/ess-rpt-build-visual.md)
+* [!DNL SQL Report Builder](../../data-analyst/dev-reports/sql-rpt-bldr.md)
