@@ -9,7 +9,7 @@ exl-id: b9577919-0db0-47f1-a426-1abe48443ac0
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md)
 
-The [Data Warehouse Manager](../mbi/data-analyst/data-warehouse-mgr/tour-dwm.md), accessed by clicking **[!UICONTROL Manage Data > Data Warehouse]**, is the portal to your [!DNL Adobe Commerce Intelligence] Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
+The Data Warehouse Manager, accessed by clicking **[!UICONTROL Manage Data > Data Warehouse]**, is the portal to your [!DNL Adobe Commerce Intelligence] Data Warehouse. Using the Data Warehouse Manager, you can manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports. 
 
 This topic covers:
 
