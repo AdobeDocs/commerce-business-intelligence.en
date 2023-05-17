@@ -68,6 +68,7 @@ With the account creation finished, `Sammy Customer` is ready to start making a 
 * `created_at` – This column returns the timestamp for when each order was created
 
 ## `sales\_flat\_order\_item ( or Sales\_order\_item` 
+
 (if you have Commerce 2.0 or later)
 
 In addition to the single row on the `Sales\_flat\_order` table, when `Sammy Customer` submits the order, a row for each unique item in that order is inserted into the [`sales\_flat\_order\_item` table](../data-warehouse-mgr/sales-flat-order-item-table.md):
