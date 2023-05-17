@@ -9,4 +9,4 @@ Being able to forecast the lifetime value of customers as they place more orders
 
 In this section, you learn about your current customers' lifetime value, and forecast how lifetime value increases with more orders.
 
-See also: [Expected Lifetime Value (LTV) analysis (basic](../../data-analyst/analysis/ess-expected-ltv.md)
+See also: [Expected Lifetime Value (LTV) analysis (basic)](../../data-analyst/analysis/ess-expected-ltv.md)

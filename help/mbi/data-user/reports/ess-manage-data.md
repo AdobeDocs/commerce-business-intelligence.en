@@ -7,7 +7,7 @@ exl-id: 6274eda4-d3ff-47b6-81d9-06ad4f150ef7
 
 Manage Data provides access to various tools for managing integrations, report and chart data, dashboards, and exports.
 
-## To access `Manage Data`:
+## To access [!DNL Manage Data]:
 
 1. In the menu, click **[!DNL Manage Data]**.
 

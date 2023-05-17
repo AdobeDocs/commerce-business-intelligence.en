@@ -3,7 +3,7 @@ title: Cohort Report Builder for Non-Date Based Cohorts
 description: Learn to group users by a similar activity or attribute.
 exl-id: c7b85ce9-113c-4ffc-855f-3d53fe2347d8
 ---
-# `Cohort Report Builder for Non-Date-Based Cohorts`
+# [!DNL Cohort Report Builder] for Non-Date-Based Cohorts
 
 The [`Cohort Report Builder`](../dev-reports/cohort-rpt-bldr.md) is great at helping merchants study how different subsets of users behave over time. In the past, the `Cohort Report Builder` was optimized for grouping users by a common `cohort date` (for example, the set of all customers who made their first purchase in a given month). The `Non-Date Based Cohort` feature now gives you the power to group users by a similar activity or attribute. Look at a few use cases for this feature.
 

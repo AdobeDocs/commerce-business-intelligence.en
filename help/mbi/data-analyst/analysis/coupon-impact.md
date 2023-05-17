@@ -63,7 +63,7 @@ The number of repeat orders for non-coupon acquisitions is much higher than coup
 
 Similarly, the number of repeat orders made with a coupon are higher for non-coupon acquisitions.
 
-## #Percent of repeat orders with coupon
+## Percent of repeat orders with coupon
 
 Non-coupon acquired customers have a much lower percent of repeat orders with a coupon applied than coupon-acquired customers. Thus, for coupon-acquired customers, almost half of repeat orders has a coupon applied. In this example, coupon acquired customers tend to make repeat purchases with coupons.
 

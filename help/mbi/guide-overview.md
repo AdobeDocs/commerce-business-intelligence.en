@@ -41,7 +41,7 @@ See a [list of which services that the customer support team provides](https://e
 
 ### Submitting a Support Ticket
 
-Need help with building an advanced calculated column? Encountered a defect or connection problem? Should you need to get in touch with the support team, Adobe asks that you use the [support ticket guidelines] (https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en). These guidelines outline the information Adobe needs to resolve the issue.
+Need help with building an advanced calculated column? Encountered a defect or connection problem? Should you need to get in touch with the support team, Adobe asks that you use the [support ticket guidelines](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en). These guidelines outline the information Adobe needs to resolve the issue.
 
 ## Available documentation
 

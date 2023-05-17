@@ -5,7 +5,7 @@ exl-id: c7aa564d-42de-426e-92e9-f6e250a6abba
 ---
 # Connect databases via VPN
 
-While [!DNL Adobe] recommends that you connect your databases using an SSH tunnel, you can also use an encrypted VPN connection to keep things secure. A `VPN` can be used for any of your database integrations and, to keep things simple, the process is just about the same as setting up an `SSH tunnel`:
+While [!DNL Adobe] recommends that you connect your databases using an `SSH tunnel`, you can also use an encrypted `VPN` connection to keep things secure. A `VPN` can be used for any of your database integrations and, to keep things simple, the process is just about the same as setting up an `SSH tunnel`:
 
 1. [Create an [!DNL Commerce Intelligence] database user](#database)
 1. [Create an [!DNL Commerce Intelligence] VPN user](#vpn)
@@ -58,4 +58,4 @@ Under the `Encryption Connection` section:
 * `Username`: The [!DNL Commerce Intelligence] `VPN` username
 * `Password`: The [!DNL Commerce Intelligence] `VPN` user password
 
-That is it! When you are finished, click **[!UICONTROL Save & Test]** to complete the setup.
+When you are finished, click **[!UICONTROL Save & Test]** to complete the setup.

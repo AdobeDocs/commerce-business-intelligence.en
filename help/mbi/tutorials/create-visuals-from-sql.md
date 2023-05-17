@@ -88,6 +88,6 @@ If you want to use this report again, give the report a name and click **[!UICON
 
 In the dropdown, select `Chart` as the `Type` and then a dashboard to save the report to.
 
-## Congratulations! You've finished.
+## Wrapping Up
 
 Want to take it a step further? Check out the [query optimization best practices](../best-practices/optimizing-your-sql-queries.md).

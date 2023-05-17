@@ -12,9 +12,9 @@ Now that you have more options for creating analyses, it may sometimes be diffic
 
 ## When should I use the [!DNL SQL Report Builder]? {#whensql}
 
-Look at some of the more common reasons that you would use the [!DNL SQL Report Builder] over the traditional [!DNL Report Builder].
+Look at some of the more common reasons that you would use the [!DNL SQL Report Builder] over the [!DNL traditional Report Builder].
 
-### If you want to use SQL-specific functions…
+### If you want to use [!DNL SQL]-specific functions…
 
 Part of the beauty of the [!DNL SQL Report Builder] is that it gives you the ability to use functions that are not currently available in the Data Warehouse Manager. In the past, an analyst may have had to step in to help you fully realize your vision.
 
@@ -41,9 +41,9 @@ As mentioned in the section above, creating a column in the Data Warehouse Manag
 
 ### If you are working with data that has a one-to-many relationship…
 
-Sometimes, the structure of your data might make the [!DNL SQL Report Builder] a more efficient and logical choice to build your analysis. Creating columns for one-to-one relationships is straightforward in the Data Warehouse Manager, but things can get a little confusing when you're dealing with one-to-many relationships.
+Sometimes, the structure of your data might make the [!DNL SQL Report Builder] a more efficient and logical choice to build your analysis. Creating columns for one-to-one relationships is straightforward in the Data Warehouse Manager, but things can get a little confusing when you are dealing with one-to-many relationships.
 
-Say that a single product is considered a part of multiple product categories, and you would like to view the revenue associated with each category of each product. Trying to create this relationship using the DWM can be tedious and difficult, but writing a SQL query may be a bit more straightforward:
+Say that a single product is considered a part of multiple product categories, and you would like to view the revenue associated with each category of each product. Trying to create this relationship using the DWM can be tedious and difficult, but writing a [!DNL SQL] query may be a bit more straightforward:
 
 ![](../../assets/When_should_I_use_the_RB_2.png)
 
@@ -53,13 +53,13 @@ While the [!DNL SQL Report Builder] gives you more control and access to previou
 
 ### If you are building a simple report…
 
-If what you want to create is straightforward, using the traditional Report Builder can be much faster than writing a full SQL query. It helps if any columns that you need to create the analysis are already in the Data Warehouse Manager.
+If what you want to create is straightforward, using the traditional Report Builder can be much faster than writing a full [!DNL SQL] query. It helps if any columns that you need to create the analysis are already in the Data Warehouse Manager.
 
 ### If you are sharing your work with other users…
 
-Are users across your organization using/viewing this analysis? Depending on who you are sharing your work with, sticking with the Visual Report Builder may be better sometimes. Users can quickly look at the definition in the Visual Report Builder versus reading a potentially long SQL query.
+Are users across your organization using/viewing this analysis? Depending on who you are sharing your work with, sticking with the Visual Report Builder may be better sometimes. Users can quickly look at the definition in the [!DNL Visual Report Builder] versus reading a potentially long [!DNL SQL] query.
 
-If there are some people who need the report but are not familiar with SQL, Adobe suggests using the original flavor of the Report Builder. It makes things easier on them.
+If there are some people who need the report but are not familiar with [!DNL SQL], [!DNL Adobe] suggests using the original flavor of the Report Builder. It makes things easier on them.
 
 ## Wrapping up {#wrapup}
 

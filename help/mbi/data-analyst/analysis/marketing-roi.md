@@ -26,11 +26,7 @@ Before getting started, you want to connect your [!DNL [Facebook Ads]](../import
 Columns to create
 
 * **`Consolidated Digital Ad Spend`** table
-* **`Campaign name`** is created by an analyst as part of your **[MARKETING ROI ANALYSIS]** ticket 
-
->[!NOTE]
->
->See above for new architecture differences.
+* **`Campaign name`** is created by an [!DNL Adobe] analyst as part of your **[MARKETING ROI ANALYSIS]** ticket 
 
 **Original and new architectures:**
 
@@ -44,7 +40,6 @@ Columns to create
     * Select a [!UICONTROL table]: `ecommerce####`
     * Select a [!UICONTROL column]: `campaign`
     * [!UICONTROL Path]: `sales_flat_order.increment_id = ecommerce#####.transactionID`
-
 
   * **`Order's GA medium`**
     * Select a definition: Joined Column

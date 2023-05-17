@@ -13,7 +13,6 @@ exl-id: 6b691a6a-9542-4e47-9b1d-d6d3c3dac357
 
 ## JUMP TO
 
-* [!DNL MySQL] via [!DNL SSH Tunnel]
 * [[!DNL MySQL] via `direct connection`](../integrations/mysql-via-a-direct-connection.md)
 * [[!DNL MySQL] via [!DNL cPanel]](../integrations/mysql-via-cpanel.md)
 

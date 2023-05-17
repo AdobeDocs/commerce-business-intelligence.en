@@ -9,7 +9,7 @@ exl-id: 02ad29c8-84d6-4b49-9ac1-e5f4feaa7fda
 
 * [[!DNL MySQL]](../integrations/mysql-via-a-direct-connection.md)
 * [[!DNL Microsoft SQL]](../integrations/microsoft-sql-server.md)
-* [[!DNL PostgreSQ]](../integrations/postgresql.md).
+* [[!DNL PostgreSQL]](../integrations/postgresql.md)
 
 The steps for connecting your [!DNL RDS] instance vary, depending on the type of database you are using and whether you are using an encrypted connection (like an [`SSH tunnel for MySQL`](../integrations/mysql-via-ssh-tunnel.md)), but here are the basics.
 
@@ -29,11 +29,11 @@ When adding the [!DNL Commerce Intelligence] IP addresses, make sure you add a `
 >
 >This step is only required if you are using an encrypted connection. For instructions on how to do this, refer to the setup topic for the database you are using (ex: MySQL). The `Linux` user allows us to create an `SSH tunnel`, which is the safest method of sending data over the internet.
 
-## Create a database user for Commerce Intelligence
+## Create a database user for [!DNL Commerce Intelligence]
 
 This is the part of the process where, depending on the database you are using, the steps vary. The idea is the same, though, you create a user for [!DNL Commerce Intelligence] which is used to access your database. Instructions for creating a database [!DNL Commerce Intelligence] user can be found in the setup topic for the database you are using.
 
-## Enter connection info into Commerce Intelligence
+## Enter connection info into [!DNL Commerce Intelligence]
 
 After you have granted [!DNL Commerce Intelligence] access to your instance and created a user for us, the last thing you need to do is enter the connection info into [!DNL Commerce Intelligence].
 

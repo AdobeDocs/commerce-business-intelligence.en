@@ -3,18 +3,18 @@ title: Working with SQL Report Builder
 description: Learn how to audit data and metrics using the SQL Report Builder so that you can compare the results with the data from your local database.
 exl-id: d1d9e099-4138-43e6-aaec-6f15ebc5c4d4
 ---
-# `SQL Report Builder`
+# [!DNL SQL Report Builder]
 
-The `SQL Report Builder` is primarily used to build new reports and iterate on analyses, but it can also be used to effectively audit data and metrics. The following information explains how to audit data and metrics using the `SQL Report Builder` so that you can compare the results with the data from your local database.
+The [!DNL SQL Report Builder] is primarily used to build new reports and iterate on analyses, but it can also be used to effectively audit data and metrics. The following information explains how to audit data and metrics using the [!DNL SQL Report Builder] so that you can compare the results with the data from your local database.
 
 ## Querying a metric
 
-To get started, open the `SQL Report Builder` by navigating to **[!UICONTROL Report Builder > SQL Report Builder > Create Report]**. You can use the sidebar in the SQL editor to insert a metric directly into your query by hovering over the metric and clicking **[!UICONTROL Insert]**. This adds the query definition of that metric to the editor. The definition includes the following components:
+To get started, open the [!DNL SQL Report Builder] by navigating to **[!UICONTROL Report Builder > SQL Report Builder > Create Report]**. You can use the sidebar in the [!DNL SQL] editor to insert a metric directly into your query by hovering over the metric and clicking **[!UICONTROL Insert]**. This adds the query definition of that metric to the editor. The definition includes the following components:
 
--  The **metric operation** being performed, indicated by SUM() in the example below.
--  The **table on** which the metric is built, indicated by the FROM clause.
--  Any **filters (and filter sets)** that have been added to the metric, indicated by the WHERE clause in the example below.
--  The component of the **timestamp** (year, month) on which the data is to be ordered, indicated by the ORDER BY clause in the example below.
+-  The **metric operation** being performed, indicated by `SUM()` in the example below.
+-  The **table on** which the metric is built, indicated by the `FROM` clause.
+-  Any **filters (and filter sets)** that have been added to the metric, indicated by the `WHERE` clause in the example below.
+-  The component of the **timestamp** (year, month) on which the data is to be ordered, indicated by the `ORDER BY` clause in the example below.
 
 To have a clearer view of the query, you can reformat how it is displayed in the query field. When ready, select `Run Query`. The results populate as a table in the report panel below the query.
 
@@ -36,8 +36,8 @@ After the report is saved, navigate to that dashboard by selecting `Go to Dashbo
 
 ## Custom queries
 
-You can also write custom queries and export the results to compare against your local database. Following the [guidelines for query optimization](../../best-practices/optimizing-your-sql-queries.md), write a query in the SQL editor. You can use the buttons at the top of the sidebar to toggle between lists of tables and metrics available for use in the `SQL Report Builder` and add them to your query. When your custom query fits your needs, you can save the report and export that data from the dashboard.
+You can also write custom queries and export the results to compare against your local database. Following the [guidelines for query optimization](../../best-practices/optimizing-your-sql-queries.md), write a query in the SQL editor. You can use the buttons at the top of the sidebar to toggle between lists of tables and metrics available for use in the [!DNL SQL Report Builder] and add them to your query. When your custom query fits your needs, you can save the report and export that data from the dashboard.
 
-### Still stumped?
-
-If you find a discrepancy after auditing your data, look at the [Contacting Support: Data Discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=en) support topic for more information on what to do next.
+>[!NOTE]
+>
+>If you find a discrepancy after auditing your data, look at the [Contacting Support: Data Discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=en) support topic for more information on what to do next.

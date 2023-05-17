@@ -49,9 +49,9 @@ Columns to create
 * **New customers (by last order date)**
   * Customers that are counted
 
->[!NOTE]
->
->This metric may exist on your account.
+   >[!NOTE]
+   >
+   >This metric may exist on your account.
 
 * In the **`customer_entity`** table
 * This metric performs a **Count**

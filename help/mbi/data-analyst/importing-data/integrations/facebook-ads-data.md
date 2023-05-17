@@ -5,8 +5,6 @@ exl-id: 0c8b907b-1a98-470b-bb2c-55327e88e502
 ---
 # Expected [!DNL Facebook Ads] data
 
-![](../../../assets/Facebook_Logo.png)
-
 After you have [connected your [!DNL Facebook Ads] account](../integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
 This topic gives you a brief overview of the tables [!DNL Adobe] recommends you sync to your Data Warehouse. This only highlights the core tables, as there are quite a few subtables.

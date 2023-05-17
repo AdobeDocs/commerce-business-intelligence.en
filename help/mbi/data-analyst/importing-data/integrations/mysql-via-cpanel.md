@@ -13,8 +13,6 @@ exl-id: 90b0a0b0-8c6b-4144-95b4-f588f18616c7
 * [[!DNL MySQL] via SSH tunnel](../integrations/mysql-via-ssh-tunnel.md)
 * [[!DNL MySQL] via direct connection](../integrations/mysql-via-a-direct-connection.md)
 
-* **[!DNL MySQL] via [!DNL cPanel]**
-
 >[!IMPORTANT]
 >
 >[!DNL Adobe] recommends you use SSH or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL Commerce Intelligence] to your database using the instructions in this topic.

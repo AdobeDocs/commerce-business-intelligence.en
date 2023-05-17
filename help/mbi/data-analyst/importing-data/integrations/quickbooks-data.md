@@ -5,8 +5,6 @@ exl-id: a60996bd-e3d1-497d-abce-f02ef1444f1a
 ---
 # Expected [!DNL QuickBooks] data
 
-![](../../../assets/Quickbooks.png)
-
 After [you have connected your [!DNL QuickBooks] account](../../../data-analyst/importing-data/integrations/quickbooks.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis. The following tables are created in your Data Warehouse:
 
 To view all the fields available for tracking, click the links in the table name column.

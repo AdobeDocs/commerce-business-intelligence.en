@@ -64,8 +64,6 @@ To create the `joined` column, navigate to the table to which the field will be 
 1. The path may not populate immediately after saving - if this happens, click the `Path` box and select the path you created.
 1. Click **[!UICONTROL Save]** to create the column.
 
-That is it!
-
 ## What do I do now? {#wrapup}
 
 After an update cycle completes, you will be able to use your new joined column to properly segment your data instead of the messy column from your database. Look at your grouping options now - no more stress mess:

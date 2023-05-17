@@ -7,7 +7,7 @@ exl-id: 2c88b85a-7320-44ca-87a5-5b91250348ea
 
 ## When is the `Incremental Event Probability` perspective available?
 
-The `incremental event probability` perspective is only available when filters use dimensions that are equal for all orders (for example, user's `gender`, user's `age` or user's `source`)
+The `incremental event probability` perspective is only available when filters use dimensions that are equal for all orders (for example, user's `gender`, user's `age` or user's `source`).
 
 This is because this perspective relies on a dimension called `User's order number` for segmentation, which numbers a user's purchases (for example, John's 1st, 2nd, and 3rd orders).
 
@@ -27,7 +27,7 @@ The numbers that make up such a chart can then be exported to excel to calculate
 
 ### Example:
 
-| | |
+|Category |Value |
 |---|---|
 |Number of customers who made 1 purchase in their lifetime|`90`|
 |Number of customers who made 2 purchases in their lifetime|`30`|

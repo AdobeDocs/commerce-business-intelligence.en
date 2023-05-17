@@ -1,20 +1,19 @@
 ---
-title: Connecting [!DNL MySQL] via a direct connection
+title: Connecting MySQL via a direct connection
 description: Learn how to connect [!DNL MongoDB] via direct connection.
 exl-id: 53765844-c9bb-4a16-b00c-ce9672f87415
 ---
-# Connect [!DNL MongoDB] via direct connection
+# Connect [!DNL MySQL] via direct connection
 
-## In this Article
+## In this topic
 
 * [Allow access to the [!DNL Commerce Intelligence] IP address](#allowlist)
-* [Create a `MySQL` user for [!DNL Commerce Intelligence]](#steptwo)
+* [Create a [!DNL MySQL] user for [!DNL Commerce Intelligence]](#steptwo)
 * [Enter connection info into [!DNL Commerce Intelligence]](#stepthree)
 
 ## Jump to
 
 * [[!DNL MySQL] via `SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md)
-* [!DNL MySQL] via `direct connection`
 * [[!DNL MySQL] via [!DNL cPanel]](../integrations/mysql-via-cpanel.md)
 
 >[!NOTE]

@@ -27,7 +27,7 @@ Get started by entering your [!DNL Google Adwords] credentials into [!DNL Commer
 
 If you have multiple profiles and need some help identifying which is which, refer to the `Connecting Multiple Google Analytics profiles` section below.
 
-## `Connecting multiple Google Analytics profiles`
+## Connecting multiple [!DNL Google Analytics] profiles
 
 You may have multiple websites connected to a single [!DNL Google Analytics] account, identified by their own [!DNL Google Analytics] Profile ID. In this case, you have the option of including all your Profile IDs in [!DNL Commerce Intelligence]. Check the profile IDs you want to include during the profile selection step.
 

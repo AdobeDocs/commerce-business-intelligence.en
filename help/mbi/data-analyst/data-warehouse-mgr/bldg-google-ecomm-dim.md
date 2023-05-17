@@ -117,10 +117,10 @@ You finished creating the dimensions, which means you can now create powerful a
 
  Some of the more popular dimensions are covered in this topic, but the sky is the limit - try creating your own or feel free to ping us if you want help with exploring other options. 
 
-### I am stuck! What is different? {#stuck}
+### Additional Notes
 
-**`Orders` table #1: When creating the `Order's [!DNL Google Analytics]` medium and `campaign` dimensions, the difference is the columns selected in step 12. In this example, the column was `Source`.
+**`Orders` table #1**: When creating the `Order's [!DNL Google Analytics]` medium and `campaign` dimensions, the difference is the columns selected in step 12. In this example, the column was `Source`.
 
-**`Customers` table: When creating the `Customer's first order's [!DNL Google Analytics]` medium and `campaign` dimensions, the difference is the columns selected in step 5. In this example, the column was `Order's [!DNL Google Analytics]` source.
+**`Customers` table**: When creating the `Customer's first order's [!DNL Google Analytics]` medium and `campaign` dimensions, the difference is the columns selected in step 5. In this example, the column was `Order's [!DNL Google Analytics]` source.
 
-**`Orders` table #2: When joining the `Customer's first order's [!DNL Google Analytics]` medium and `campaign` columns to the `orders` table, the difference is the columns selected in step 5. In this example, the column was `Customer's first order's [!DNL Google Analytics]` source.
+**`Orders` table #2**: When joining the `Customer's first order's [!DNL Google Analytics]` medium and `campaign` columns to the `orders` table, the difference is the columns selected in step 5. In this example, the column was `Customer's first order's [!DNL Google Analytics]` source.

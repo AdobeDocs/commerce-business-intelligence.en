@@ -1,9 +1,9 @@
 ---
 title: Connect PostgreSQL via SSH Tunnel
-description: Learn how to connect your PostgreSQL database to [!DNL Commerce Intelligence] via an SSH tunnel.
+description: Learn how to connect your PostgreSQL database to Commerce Intelligence via an SSH tunnel.
 exl-id: da610988-21c1-4f5f-b4e2-e2deb175a2aa
 ---
-# Connect [!DNL PostgreSQL] via `SSH` Tunnel
+# Connect [!DNL PostgreSQL] via [!DNL SSH Tunnel]
 
 To connect your [!DNL PostgreSQL] database to [!DNL Commerce Intelligence] via an `SSH tunnel`, you must do a few things:
 
@@ -13,7 +13,7 @@ To connect your [!DNL PostgreSQL] database to [!DNL Commerce Intelligence] via a
 1. [Create a [!DNL PostgreSQL] user for [!DNL Commerce Intelligence] ](#postgres)
 1. [Enter the connection and user info into [!DNL Commerce Intelligence]](#finish)
 
-## Retrieving the [!DNL Commerce Intelligence] `public key` {#retrieve}
+## Retrieving the [!DNL Commerce Intelligence] [!DNL public key] {#retrieve}
 
 The `public key` is used to authorize the [!DNL Commerce Intelligence] [!DNL Linux] user. Now, you will create the user and import the key.
 

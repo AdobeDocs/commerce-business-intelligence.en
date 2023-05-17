@@ -5,7 +5,7 @@ exl-id: 6f12a397-0927-4e87-95ff-3a55ccc9e14b
 ---
 # Import other ad spend data
 
-Uploading your advertising spend data allows you to measure campaign ROI by marrying your advertising cost and the customer `lifetime value (CLV)` of users acquired from your campaigns.
+Uploading your advertising spend data allows you to measure campaign ROI by marrying your advertising cost and the `customer lifetime value (CLV)` of users acquired from your campaigns.
 
 ## Uploading advertising cost data
 

@@ -5,11 +5,11 @@ exl-id: 249b2b40-8c8a-4616-9383-17690f07003d
 ---
 # Connect [!DNL Salesforce]
 
+![](../../../assets/Salesforce_Logo.png)
+
 >[!NOTE]
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
-
-![](../../../assets/Salesforce_Logo.png)
 
 Connecting your [!DNL Salesforce] data enables a range of analyses, from scoring and optimizing leads to hitting your goals for converted opportunities.
 

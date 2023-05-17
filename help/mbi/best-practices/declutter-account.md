@@ -116,4 +116,4 @@ Here is a look at the whole process:
 
 ## Wrapping up
 
-That is it! Your [!DNL Commerce Intelligence] account should now be tidier and easier to navigate for you and your team.
+Your [!DNL Commerce Intelligence] account should now be tidier and easier to navigate for you and your team.

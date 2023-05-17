@@ -42,7 +42,7 @@ The table would look like the example below.
 
 {style="table-layout:auto"}
 
-## Reminder: Difference between Google Analytics Warehoused and Live Integration
+## What's the difference between [!DNL Google Analytics Warehoused] and [!DNL Live Integration]
 
 The main differentiator is that one integration is stored ([!DNL Google Analytics Warehoused]), and the other is not ([!DNL Google Analytics Live]). In cases of [!DNL Google Analytics Warehoused], this allows for manipulation of your [!DNL Google Analytics] data and gives you the ability to combine [!DNL Google Analytics] and other data sources to create insightful reporting.
 

@@ -29,7 +29,7 @@ Whenever you are interested in performing an analysis that considers these attri
 
 Below is a look at the expected schema for both tables.
 
-## `Campaigns` table
+## [!DNL Campaigns] table
 
 The `campaigns` table contains the following columns:
 
@@ -49,7 +49,7 @@ The `campaigns` table contains the following columns:
 
 {style="table-layout:auto"}
 
-## AdWords table
+## [!DNL AdWords] table
 
 The `adwords` table contains the following columns:
 

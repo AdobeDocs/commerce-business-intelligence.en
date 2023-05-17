@@ -23,7 +23,7 @@ This topic demonstrates how to set up a dashboard which provides insights into y
 
 ## Calculated columns:
 
-### New Architecture
++++ New Architecture
 
 * **[!UICONTROL catalog_product_entity]** table:
   * **`Product's most recent order date`**
@@ -100,7 +100,8 @@ This topic demonstrates how to set up a dashboard which provides insights into y
     * Definition:
       * case when A is null or B is null or B = 0.0 then null else round(A::decimal/B,2) end
 
-### Legacy Architecture
++++
++++ Legacy Architecture
 
 * **[!UICONTROL catalog_product_entity]** table:
   * **`Product's most recent order date`**
@@ -162,6 +163,8 @@ This topic demonstrates how to set up a dashboard which provides insights into y
 
   * **`Weeks on hand`**
     * Created by an analyst when you file submit your **[!UICONTROL INVENTORY ANALYSIS]** support request
+
++++
 
 ## Metrics
 

@@ -3,11 +3,11 @@ title: Use Time Options in the Visual Report Builder
 description: Learn to analyze the data in your report for a specific time period.
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
 ---
-# Use `Time` Options in [!DNL Visual Report Builder]
+# Use [!DNL Time] Options in [!DNL Visual Report Builder]
 
 One of the features of the [!DNL Visual Report Builder] is the global `Time Range` and `Interval` settings. These settings allow you to analyze the data in your report for a specific time period.
 
-However, for some analyses, you may need to consider different Time Ranges or Time Intervals in the same report. That is where `Time` Options come in. To give you a better idea of how to use `Time` Options in your reports, this tutorial covers the following use cases:
+However, for some analyses, you may need to consider different Time Ranges or Time Intervals in the same report. That is where `Time` Options come in. To give you a better idea of how to use `Time` options in your reports, this tutorial covers the following use cases:
 
 * [Analyzing Metrics without Timestamps](#notimestamp)
 * [Giving One Metric an Independent Time Interval](#independenttimeinterval)
