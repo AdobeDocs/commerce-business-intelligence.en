@@ -11,6 +11,8 @@ exl-id: 219a868b-f17c-4299-9e29-94db9156c9b6
 
 ![](../../../assets/facebook_logo1.png)
 
+![](../../../assets/facebook-ads-logo.png)
+
 You did your research, you created your ads, you launched your campaign on [!DNL Facebook]. Now it is time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../../../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
 Connecting your [!DNL Facebook Ad] data to [!DNL Commerce Intelligence] is a simple three-step process:
