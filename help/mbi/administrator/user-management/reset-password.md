@@ -9,4 +9,4 @@ To reset your password, click **[!UICONTROL Reset Password]** below the password
 
 Also, you can change your password inside [!DNL Commerce Intelligence] by using the **[!UICONTROL Personal Settings]** page.
 
-If you reset your password and remain locked out of your account, follow [these tips](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.html?lang=en) to help pinpoint the problem.
+If you reset your password and remain locked out of your account, follow [these tips](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.html) to help pinpoint the problem.

@@ -40,7 +40,7 @@ Once the metric has been created, you can **create a dashboard** by doing this:
 
 >[!NOTE]
 >
->On **[!UICONTROL Time Period:]**, the time period for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. [!DNL Adobe] recommends all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
+>On **[!UICONTROL Time Period:]**, the time period for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. Adobe recommends all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
 
 * **[!UICONTROL Average LTV (all)]**
   * [!UICONTROL Metric]: `Avg lifetime revenue`

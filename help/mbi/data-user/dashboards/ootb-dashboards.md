@@ -11,13 +11,13 @@ exl-id: f50fc417-e5d4-401c-9baa-cda1468196a2
 >
 >The availability of some dashboards depends upon your dataset.
 
-If you have questions or you are interested in adding a package to your account, submit a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for help.
+If you have questions or you are interested in adding a package to your account, submit a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) for help.
 
 ## Executive overview
 
 The `executive overview` dashboard is built from charts that exist on other dashboards. This dashboard is a high-level overview of your data and contains charts that would be reviewed daily, while other dashboards contained more detailed information. Initially, it is set as the default dashboard in each account.
 
-A general set of charts is included for you. [!DNL Adobe] recommends that you tailor this dashboard to your needs by adding other charts you use most frequently.
+A general set of charts is included for you. Adobe recommends that you tailor this dashboard to your needs by adding other charts you use most frequently.
 
 ## Cohort analysis
 

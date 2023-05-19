@@ -9,7 +9,7 @@ Uploading your advertising spend data allows you to measure campaign ROI by marr
 
 ## Uploading advertising cost data
 
-The first step in analyzing ad spend data is getting the data. Since most advertising platforms allow you to export reports, [!DNL Adobe] recommends you export the raw data from your ad platform and directly upload it to [!DNL Commerce Intelligence] without any manipulation. You can perform operations on the data in your Data Warehouse, so there is no need to double your efforts.
+The first step in analyzing ad spend data is getting the data. Since most advertising platforms allow you to export reports, Adobe recommends you export the raw data from your ad platform and directly upload it to [!DNL Commerce Intelligence] without any manipulation. You can perform operations on the data in your Data Warehouse, so there is no need to double your efforts.
 
 After you have exported the ad spend data, use the [`File Upload` feature](../connecting-data/using-file-uploader.md) to bring the data into your Data Warehouse. You can upload new data to the same [!DNL Commerce Intelligence] table over time.
 

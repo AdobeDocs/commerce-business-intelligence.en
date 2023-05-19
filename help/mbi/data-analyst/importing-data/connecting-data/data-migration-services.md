@@ -5,7 +5,7 @@ exl-id: 105cd003-98ef-4358-80b9-b3190c2c57b7
 ---
 # Data Migration
 
-Migrating to a new database schema, server, or reporting database does not have to be stressful. The [[!DNL Adobe] Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) offers migration assistance.
+Migrating to a new database schema, server, or reporting database does not have to be stressful. The [[!DNL Adobe] Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) offers migration assistance.
 
 To ensure that your transition is as smooth as possible, you should be as detailed as possible when submitting your migration request. This topic has everything that you need to submit a request and get started on the migration. Providing us with a comprehensive picture of your needs guarantee that your project is scoped properly and that the estimate is accurate.
 
@@ -41,9 +41,9 @@ If you feel comfortable doing the matching yourself, follow these instructions a
 
 1. In a spreadsheet, create a tab for every table to be migrated to the new database.
 
-1. In each tab, create a column for all the existing columns that need to be migrated. [!DNL Adobe] recommends naming it something like `Existing column name`.
+1. In each tab, create a column for all the existing columns that need to be migrated. Adobe recommends naming it something like `Existing column name`.
 
-1. You also need to make another column for the column equivalents in the new database in each tab of the spreadsheet. [!DNL Adobe] recommends naming the column something like `New column name`.
+1. You also need to make another column for the column equivalents in the new database in each tab of the spreadsheet. Adobe recommends naming the column something like `New column name`.
 
 1. Enter the existing columns and their equivalents. If an existing column does not have a new equivalent, enter `N/A`.
 
@@ -59,7 +59,7 @@ Here is a look at an example:
 
 ## How do I submit a request? {#submitreq}
 
-You can reach out to us by [submitting a support request](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+You can reach out to us by [submitting a support request](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 If you followed the steps in the previous section for creating the column-matching spreadsheet, do not forget to attach it.
 

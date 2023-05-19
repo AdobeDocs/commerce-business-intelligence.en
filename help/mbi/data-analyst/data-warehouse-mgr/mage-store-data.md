@@ -51,7 +51,7 @@ Shortly after the addition of the three new products, a new customer, `Sammy Cus
 * `email` – this field is populated by the email that a new customer enters when making their account
 * `created_at` – This column returns the timestamp for when each user joined
 
-## `sales\_flat\_order (or Sales\_order` if you have [!DNL Adobe Commerce] 2.x
+## `sales\_flat\_order (or Sales\_order` if you have [!DNL Adobe Commerce 2.x]
 
 With the account creation finished, `Sammy Customer` is ready to start making a purchase. On the website, the customer adds two pairs of the `Throwback Bellbottoms` and one `V-Neck T-Shirt` to the cart. Satisfied with the selections, the customer moves to checkout and submits the order, creating the following entry on the [sales flat order table](../data-warehouse-mgr/sales-flat-order-table.md):
 

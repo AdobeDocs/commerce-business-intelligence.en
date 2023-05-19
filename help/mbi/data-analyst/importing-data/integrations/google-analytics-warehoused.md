@@ -27,7 +27,7 @@ With the [!DNL Google Analytics Live] integration on the other hand, every [!DNL
 
 >[!INFO]
 >
->[!DNL Google Analytics Warehoused] is a `Premium` Integration. [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) if you have an interest in adding this integration to your subscription.
+>[!DNL Google Analytics Warehoused] is a `Premium` Integration. [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) if you have an interest in adding this integration to your subscription.
 
 1. Go to the `Connections` page under **[!UICONTROL Admin** > **Integrations]**.
 1. Click **[!UICONTROL Add an Integration]**, located on the right side.
@@ -55,7 +55,7 @@ To identify a particular website's [!DNL Google Analytics] Profile ID:
 
 ## Related documentation
 
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Connecting [!DNL Google Adwords]](../integrations/google-adwords.md)
 * [Analyzing website activity and customer conversion rates](../../analysis/web-act-cust-conversion.md)
 * [Track user acquisition data using [!DNL Google Analytics] cookies](../../analysis/google-track-user-acq.md)

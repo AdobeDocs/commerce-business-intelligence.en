@@ -33,7 +33,7 @@ To complete this process, you need to open two browser windows or tabs - one for
 1. When the `Settings` menu displays, locate the `Channels` section. Click **[!UICONTROL API]** in this section.
 1. In the `Token Access` section of this page, click the checkbox next to `Enabled`. A list of Active API Tokens display.
 1. Click **[!UICONTROL Add New Token]**.
-1. When prompted, enter a label for the token. [!DNL Adobe] recommends using `Commerce Intelligence`, so you know, at a glance, what application is using the token.
+1. When prompted, enter a label for the token. Adobe recommends using `Commerce Intelligence`, so you know, at a glance, what application is using the token.
 1. Click **[!UICONTROL Create]**.
 1. An API token is created. Copy this token; it will be used in the next step.
 
@@ -46,4 +46,4 @@ To complete this process, you need to open two browser windows or tabs - one for
 ## Related:
 
 * [Expected [!DNL Zendesk] data](../integrations/exp-zendesk-data.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

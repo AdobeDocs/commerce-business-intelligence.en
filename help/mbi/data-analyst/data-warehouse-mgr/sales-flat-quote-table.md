@@ -5,7 +5,7 @@ exl-id: 3a1e9239-33a7-429e-bfc8-628c68701710
 ---
 # Quote Table
 
-The `quote` table (`sales_flat_quote` on M1) contains records on every shopping cart created in your store, whether they were abandoned or converted to a purchase. Each row represents one cart. Due to the potential size of this table, [!DNL Adobe] recommends you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
+The `quote` table (`sales_flat_quote` on M1) contains records on every shopping cart created in your store, whether they were abandoned or converted to a purchase. Each row represents one cart. Due to the potential size of this table, Adobe recommends you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
 
 >[!NOTE]
 >

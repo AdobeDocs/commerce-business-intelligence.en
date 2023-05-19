@@ -108,8 +108,8 @@ The formula you use simplifies to (Total repeat orders that occurred after X mon
 
 Once you have built out your dashboard, the most common question asked is: How do I use this to determine a churn threshold?
 
-**There is no "one right answer" to this.** However, [!DNL Adobe] recommends finding the point where the line crosses the value that is half of the initial repeat probability rate. This is the point where you can say "If a user is going to make a repeat order, they probably would have done it by now." Ultimately, the goal is to select the threshold where it makes sense to switch from "retention" to "reactivation" efforts.
+**There is no "one right answer" to this.** However, Adobe recommends finding the point where the line crosses the value that is half of the initial repeat probability rate. This is the point where you can say "If a user is going to make a repeat order, they probably would have done it by now." Ultimately, the goal is to select the threshold where it makes sense to switch from "retention" to "reactivation" efforts.
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the image at the top of the page
 
-If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

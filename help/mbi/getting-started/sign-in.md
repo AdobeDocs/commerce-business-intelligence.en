@@ -5,7 +5,7 @@ exl-id: 3ee36e0e-f447-4be3-afc8-ccc6d3aa4f20
 ---
 # Access your activated [!DNL Adobe Commerce Intelligence] account
 
-After you have activated your [!DNL Commerce Intelligence] account either for [on-premise or cloud](../getting-started/onpremise-activation.md) and have worked with your [!DNL Adobe] Account Team to finalize the configuration steps, you can now sign in to your account.
+After you have activated your [!DNL Commerce Intelligence] account either for [on-premise or cloud](../getting-started/onpremise-activation.md) and have worked with your Adobe Account Team to finalize the configuration steps, you can now sign in to your account.
 
 You can sign in with your [!DNL Adobe ID] or using your [!DNL Commerce Intelligence] email address and password.
 

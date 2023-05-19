@@ -52,7 +52,7 @@ To identify a particular website's [!DNL Google Analytics] Profile ID:
 ## Related:
 
 * [Expected [!DNL Google ECommerce] data](../integrations/google-ecommerce-data.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Setting up [!DNL Google ECommerce] tracking](https://support.google.com/analytics/answer/1009612?hl=en)
 * [Discover your most valuable acquisition sources and channels](../../analysis/most-value-source-channel.md)
 * [Increase ROI on your advertising campaigns](../../analysis/roi-ad-camp.md)

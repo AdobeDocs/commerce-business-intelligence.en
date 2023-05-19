@@ -65,6 +65,6 @@ To get a comprehensive picture of your campaigning efforts, you can import your 
 
 ## Prepare files for upload into [!DNL Commerce Intelligence] {#upload}
 
-Each file - `Opens`, `Clicks`, and `Sent` - should be uploaded to [!DNL Commerce Intelligence] as a separate file. [!DNL Adobe] recommends that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with `Open`, `Click`, or `Sent`, and replace `DATE` with the date of export.
+Each file - `Opens`, `Clicks`, and `Sent` - should be uploaded to [!DNL Commerce Intelligence] as a separate file. Adobe recommends that you name the files using this naming convention: `MailChimp\_ACTION\_DATE`. Replace `ACTION` with `Open`, `Click`, or `Sent`, and replace `DATE` with the date of export.
 
 When you are ready to upload the files, use the [`File Upload` feature](../connecting-data/using-file-uploader.md) to bring the data into your Data Warehouse.

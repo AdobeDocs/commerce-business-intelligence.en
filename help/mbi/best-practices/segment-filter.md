@@ -63,7 +63,7 @@ This type of analysis is what marketers at Fortune 1000 companies do all day. Be
 
 The first step to segment your metrics by the above dimensions is to make sure that you are tracking this data in your database. If it is not tracked, meet with your tech team and find a way to start tracking this data.
 
-After you confirm that the data is tracked in your database, [contact the support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to push the dimensions to your [!DNL Commerce Intelligence] metrics and charts. You can also use the *Field Management* tool to track these fields in [!DNL Commerce Intelligence].
+After you confirm that the data is tracked in your database, [contact the support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) to push the dimensions to your [!DNL Commerce Intelligence] metrics and charts. You can also use the *Field Management* tool to track these fields in [!DNL Commerce Intelligence].
 
 ## Related
 

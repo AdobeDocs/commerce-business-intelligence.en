@@ -1,11 +1,11 @@
 ---
-title: Onboarding
-description: Learn about onboarding.
+title: Onboarding Adobe Commerce Intelligence
+description: Learn about onboarding Adobe Commerce Intelligence.
 exl-id: e0cce957-af2c-4514-9afd-c9aaa651a4f0
 ---
-# Onboarding
+# Onboarding [!DNL Adobe Commerce Intelligence]
 
-The onboarding questions related to `store` and `database` settings ensure that you set up your reporting correctly. With these answers, [!DNL Adobe] delivers your reports that are precisely tailored to your store's setup.
+The onboarding questions related to `store` and `database` settings ensure that you set up your reporting correctly. With these answers, Adobe delivers your reports that are precisely tailored to your store's setup.
 
 ## Store settings
 
@@ -19,7 +19,7 @@ The onboarding questions related to `store` and `database` settings ensure that 
 
 -  *Which version of Commerce do you use?* - Select the `currency` that your store operates in.
 
--  *Is your store based in the European Union?* - If you answer `Yes` to this question, [!DNL Adobe] host your Data Warehouse and all of your data in the European Union, in compliance with GDPR.
+-  *Is your store based in the European Union?* - If you answer `Yes` to this question, Adobe host your Data Warehouse and all of your data in the European Union, in compliance with GDPR.
 
 ## Database settings
 

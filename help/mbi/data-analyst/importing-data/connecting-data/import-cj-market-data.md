@@ -5,7 +5,7 @@ exl-id: 1db83f34-15a1-4599-ab0a-65d527ccae01
 ---
 # Import [!DNL CJ Affiliate] data
 
-To import [!DNL CJ Affiliate (Commission Junction)] data into [!DNL Adobe Commerce Intelligence], simply follow the steps below and attach the resulting file to a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en). Adobe will set up the data table your account and allow you to continue uploading data independently.
+To import [!DNL CJ Affiliate (Commission Junction)] data into [!DNL Adobe Commerce Intelligence], simply follow the steps below and attach the resulting file to a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html). Adobe will set up the data table your account and allow you to continue uploading data independently.
 
 ## Export [!DNL CJ Affiliate] Data
 

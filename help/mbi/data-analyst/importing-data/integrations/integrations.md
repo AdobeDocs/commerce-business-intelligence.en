@@ -9,4 +9,4 @@ An integration is a data source. Integrations are applications and databases tha
 
 This section presents the available integrations that you can use to connect various external data sources to [!DNL Commerce Intelligence].
 
-To delete a connection or integration, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) and include the name of the connection or integration to delete.
+To delete a connection or integration, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) and include the name of the connection or integration to delete.

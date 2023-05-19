@@ -5,7 +5,7 @@ exl-id: dad36e88-5986-4b52-8a0e-ac084fabb275
 ---
 # quote_item Table
 
-The `quote_item` table (`sales_flat_quote_item` on M1) contains records on every item added to a shopping cart, whether the cart was abandoned or converted to a purchase. Each row represents one cart item. Due to the potential size of this table, [!DNL Adobe] recommends you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
+The `quote_item` table (`sales_flat_quote_item` on M1) contains records on every item added to a shopping cart, whether the cart was abandoned or converted to a purchase. Each row represents one cart item. Due to the potential size of this table, Adobe recommends you periodically delete records if certain criteria are met, such as if there are any unconverted carts older than 60 days.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 
 `quote_item`
 
-*  Join to `quote_item` to create columns that associate details of the parent configurable or bundle SKU with the simple product. [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for assistance in configuring these calculations, if building in the Data Warehouse manager.
+*  Join to `quote_item` to create columns that associate details of the parent configurable or bundle SKU with the simple product. [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) for assistance in configuring these calculations, if building in the Data Warehouse manager.
    *  Path: `quote_item.parent_item_id` (many) => `quote_item.item_id` (one)
 
 `store`

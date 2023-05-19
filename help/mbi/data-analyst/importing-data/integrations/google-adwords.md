@@ -47,7 +47,7 @@ You may have multiple websites connected to a single [!DNL Google Analytics] acc
 
 ## Related
 
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Track order referral source via [!DNL Google ECommerce]](../integrations/google-ecommerce.md)
 * [Track user referral source in your database](../../analysis/google-track-user-acq.md)
 * [Discover your most valuable acquisition sources and channels](../../analysis/most-value-source-channel.md)

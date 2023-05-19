@@ -6,7 +6,7 @@ breadcrumb-title: Commerce Intelligence User Guide
 
 # [!DNL Commerce Intelligence] User Guide {#mbi}
 
-- [[!DNL Commerce Intelligence] User Guide Overview](guide-overview.md)
+- [[!DNL Commerce Intelligence] User Guide](guide-overview.md)
 - [[!DNL Commerce Intelligence] Introduction](getting-started/getting-started.md)
 - Getting Started {#start}
   - [Onboarding](getting-started/onboarding.md)

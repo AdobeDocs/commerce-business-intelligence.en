@@ -23,4 +23,4 @@ command="env PATH="" /bin/bash -r" <rjmetrics public key goes here>
 ... other keys ...
 ```
 
-Once this is complete, the user you created for [!DNL Commerce Intelligence] cannot make changes to your system.
+When this is complete, the user you created for [!DNL Commerce Intelligence] cannot make changes to your system.

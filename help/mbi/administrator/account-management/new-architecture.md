@@ -5,7 +5,7 @@ exl-id: cbb10673-5704-4a90-9574-5ac114f389b9
 ---
 # New Architecture
 
-Adobe Commerce Intelligence Product and Engineering teams have been focused on making the most sweeping, highly requested improvements possible for the last year. Adobe is thrilled to announce the availability of a new [!DNL Commerce Intelligence] product architecture that makes these improvements a reality.
+[!DNL Adobe Commerce Intelligence] Product and Engineering teams have been focused on making the most sweeping, highly requested improvements possible for the last year. Adobe is thrilled to announce the availability of a new [!DNL Commerce Intelligence] product architecture that makes these improvements a reality.
 
 ## Benefits of New Architecture
 
@@ -27,7 +27,7 @@ No added cost! Adobe will create this new account for you to begin re-implementa
 
 ### Time Needed to Reimplement Account in the New Architecture
 
-Re-implementation times vary depending on what you want to rebuild. [!DNL Adobe] recommends that you perform the following steps in your existing account to get an idea of what would be involved in your re-implementation:
+Re-implementation times vary depending on what you want to rebuild. Adobe recommends that you perform the following steps in your existing account to get an idea of what would be involved in your re-implementation:
 
 * Identify a core set of reports/dashboards.
 * Identify metrics and dimensions required to build those reports.
@@ -37,7 +37,7 @@ When this is complete, you know what data you need to sync to the new architectu
 
 ### Getting Help
 
-The [!DNL Adobe Commerce Intelligence] [Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) can perform your re-implementation for an extra cost. Contact your [Adobe Account Team](../../guide-overview.md#Submitting-a-Support-Ticket) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
+The [!DNL Adobe Commerce Intelligence] [Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) can perform your re-implementation for an extra cost. Contact your [Adobe Account Team](../../guide-overview.md#Submitting-a-Support-Ticket) and be prepared to provide a list of dashboards/reports that you want to prioritize creating in the new account
 
 ### Staying with Existing Architecture
 

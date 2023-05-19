@@ -9,13 +9,13 @@ exl-id: 3a485b00-c59d-4bc5-b78b-57e9e92dd9d6
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md) to create and edit SQL charts. `Standard` users can rearrange these charts on dashboards, and `Read-only` users have the same experience they do with traditional charts. In addition, `Read-only` users do not have access to the text of the query.
 
-See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=en) to learn more.
+See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) to learn more.
 
 [!DNL SQL], or Structured Query Language, is a programming language used to communicate with databases. In [!DNL Commerce Intelligence], [!DNL SQL] is used to query, or retrieve, data from your Data Warehouse. Look at the reports on your dashboard - behind the scenes, each one is powered by a [!DNL SQL] query.
 
 You can use the [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) to directly query your Data Warehouse, view the results, and transform them into a chart. You can start creating a report with the [!DNL SQL Report Builder] by clicking **[!UICONTROL Report Builder** > **[!DNL SQL Report Builder]]**.
 
-See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=en) to learn more.
+See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) to learn more.
 
 The [!DNL SQL Report Builder] allows you to directly query your Data Warehouse, view the results, and quickly transform them into a chart. The best part about using [!DNL SQL] to build reports is that you do not need to wait on update cycles to iterate on columns you create. If the results do not look right, you can quickly edit and rerun the query until things match your expectations.
 
@@ -65,7 +65,7 @@ You can also use the sidebar in the [!DNL SQL] editor to insert metrics, tables,
 >
 >Any [SELECT function](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), or any function that does not mutate data, that is supported by PostgreSQL is supported in the SQL Report Builder. This includes, but is not limited to, AVG, COUNT, COUNT DISTINCT, MIN/MAX, and SUM.
 
-Also, any `JOIN` type is supported, but [!DNL Adobe] recommends only using INNER JOIN as it is the least expensive of the `JOIN` types.
+Also, any `JOIN` type is supported, but Adobe recommends only using INNER JOIN as it is the least expensive of the `JOIN` types.
 
 ## Running the query and viewing results {#runquery}
 
@@ -125,7 +125,7 @@ Calculated columns created using [!DNL SQL] are not dependent on update cycles, 
 
 Most the time, differences in results can be attributed to update cycles. If [!DNL Commerce Intelligence] is in the process of replicating data from your database to your Data Warehouse, you might see different results even when using the same query.
 
-Connection issues can also result in discrepancies. Navigate to the `Connections` page by clicking **[!DNL Manage Data** > **Connections]** to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en) to get things running again.
+Connection issues can also result in discrepancies. Navigate to the `Connections` page by clicking **[!DNL Manage Data** > **Connections]** to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html) to get things running again.
 
 If all your integrations are connected successfully and you are not in the middle of an update cycle, something else may be amiss. 
 
@@ -149,7 +149,7 @@ Unlike the [!DNL Visual Report Builder], the [[!DNL Cohort Report Builder]](../d
 |**This is perfect for...**|**This is not so great for...**|
 |---|---|
 |Intermediate/advanced analysts|Beginners - you need practice-defining cohorts.|
-|Identifying behavioral trends over time|Qualitative analysis - it can be [done](../dev-reports/create-qual-cohort-analysis.md), but requires [!DNL Adobe] assistance.|
+|Identifying behavioral trends over time|Qualitative analysis - it can be [done](../dev-reports/create-qual-cohort-analysis.md), but requires Adobe assistance.|
 
 ## Rebuilding Queries after the Update Cycle
 

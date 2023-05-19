@@ -1,9 +1,9 @@
 ---
-title: Add/Edit a new user
+title: Add a new Adobe Commerce Intelligence user
 description: Learn how to add a new [!DNL Commerce Intelligence] user and how to update your user name or password.
 exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 ---
-# Add a user
+# Add a new [!DNL Adobe Commercer Intelligence] user
 
 1. Click your company's name in the upper-right corner and select **[!UICONTROL Invite User]** from the dropdown.
 1. Enter the user's name and email.
@@ -20,7 +20,7 @@ The new user is sent an email with login and password details.
 
 >[!NOTE]
 >
->The new user does not have any dashboards by default. [!DNL Adobe] recommends that you [share](../../data-user/dashboards/share-dashboard-with-users.md) the necessary dashboards with the new user right away.
+>The new user does not have any dashboards by default. Adobe recommends that you [share](../../data-user/dashboards/share-dashboard-with-users.md) the necessary dashboards with the new user right away.
 
 ## Update your email address or password
 
@@ -32,4 +32,4 @@ If you need to resend the invitation, on the [login page](https://dashboard.rjme
 
 >[!IMPORTANT]
 >
->Each account has a contracted number of licenses, or seats. If you hit your limit or would like to know more, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+>Each account has a contracted number of licenses, or seats. If you hit your limit or would like to know more, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

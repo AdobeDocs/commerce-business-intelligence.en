@@ -205,4 +205,4 @@ This is the same as the `perspective` above, except that the first time period v
 
 ## Wrapping up {#finish}
 
-The `Cohort Report Builder` is optimized for grouping users by a common `cohort date`. You might be interested in grouping the users by a similar activity or attribute. [!DNL Adobe] recommends checking out [this tutorial on qualitative cohorts](../dev-reports/create-qual-cohort-analysis.md) to get started.
+The `Cohort Report Builder` is optimized for grouping users by a common `cohort date`. You might be interested in grouping the users by a similar activity or attribute. Adobe recommends checking out [this tutorial on qualitative cohorts](../dev-reports/create-qual-cohort-analysis.md) to get started.

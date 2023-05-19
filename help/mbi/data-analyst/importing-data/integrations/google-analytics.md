@@ -49,7 +49,7 @@ To identify a particular website's [!DNL Google Analytics] Profile ID:
 
 ## Related:
 
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Connecting [!DNL Google Adwords]](../integrations/google-adwords.md)
 * [Analyzing website activity and customer conversion rates](../../analysis/web-act-cust-conversion.md)
 * [Track user acquisition data using [!DNL Google Analytics] cookies](../../analysis/google-track-user-acq.md)

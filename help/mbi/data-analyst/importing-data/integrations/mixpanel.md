@@ -57,4 +57,4 @@ If the connection is successful, a _Success!_ message displays at the top of the
 ### Related
 
 * [Expected [!DNL Mixpanel] data](../integrations/mixpanel-data.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

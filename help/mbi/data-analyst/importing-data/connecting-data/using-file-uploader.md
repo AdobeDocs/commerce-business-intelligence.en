@@ -16,7 +16,7 @@ Use ad campaigns as an example. If you are running both online and offline campa
 ## Restrictions and requirements {#require}
 
 1. **The only supported format for file uploads is `CSV` or `comma separated values`**. If you are working in Excel, you can use the Save As function to save the file in `.csv` format.
-1. **`CSV` files must use `UTF-8 encoding`**. Most the time, this is not an issue. If you encounter this error while uploading a file, [consult this Support article](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html?lang=en).
+1. **`CSV` files must use `UTF-8 encoding`**. Most the time, this is not an issue. If you encounter this error while uploading a file, [consult this Support article](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html).
 1. **Files cannot be larger than 100MB**. If the file is larger than this, separate the table into chunks and save them as individual files. You can append the data after the initial file is loaded.
 1. **All tables must have a `primary key`**. There needs to be at least one column in your table that can be used as a `primary key`, or a unique identifier for each row in the table. Any column designated as a `primary key` can *never* be null. A `primary key` can be as simple as adding a column that gives a number to each row, or can be two columns concatenated to make a column of unique values (for example, `campaign name` and `date`).
 
@@ -30,11 +30,11 @@ Before you can upload your data into [!DNL Commerce Intelligence], check that it
 
 To ensure that columns are labeled and imported properly, make sure that the first row of your spreadsheet is a header that describes the data in each column.
 
-Column names must be unique and contain only letters, numbers, spaces, and these symbols: `$ % # /`. If a column name contains a comma, it is split into two columns when the file uploads. Also, [!DNL Adobe] recommends that there be fewer than 85 columns in the file to optimize update speed.
+Column names must be unique and contain only letters, numbers, spaces, and these symbols: `$ % # /`. If a column name contains a comma, it is split into two columns when the file uploads. Also, Adobe recommends that there be fewer than 85 columns in the file to optimize update speed.
 
 ### Data with commas {#commas}
 
-Because files have to be in `CSV` format, the use of commas can cause problems with uploading data. `CSV` files use commas to indicate new values, therefore a column with a name like `Campaigns`, `August` is read as two columns (`Campaigns` and `August`) instead of one, shifting all of your data over one row. [!DNL Adobe] recommends avoiding commas wherever possible. You can use `Data Preview` to see if your data is displaying correctly once an update completes.
+Because files have to be in `CSV` format, the use of commas can cause problems with uploading data. `CSV` files use commas to indicate new values, therefore a column with a name like `Campaigns`, `August` is read as two columns (`Campaigns` and `August`) instead of one, shifting all of your data over one row. Adobe recommends avoiding commas wherever possible. You can use `Data Preview` to see if your data is displaying correctly once an update completes.
 
 ### Dates
 

@@ -13,7 +13,7 @@ This is useful if you want to re-create an existing set of charts but change the
 
 1. In the dropdown , click **[!UICONTROL Save As]**.
 
-1. When prompted, enter the `New Dashboard Name`. [!DNL Adobe] recommends names that tell you, at a glance, what information is contained in the dashboard.
+1. When prompted, enter the `New Dashboard Name`. Adobe recommends names that tell you, at a glance, what information is contained in the dashboard.
 
    For example, you are cloning a dashboard named `Customer Activity`. This dashboard contained customer activity information for your Philadelphia location, but now you want to create a dashboard for your new New York City location. This dashboard could be named `New York City - Customer Activity`.
 

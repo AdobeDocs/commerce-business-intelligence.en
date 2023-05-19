@@ -9,7 +9,7 @@ When you log into your [!DNL Adobe Commerce Intelligence] dashboard, there are s
 
 ## Why Should I Check the Update Cycle Status?
 
-Checking the status update cycle is useful when you are auditing the data in your [!DNL Commerce Intelligence] account. If you see [results that do not meet your expectations](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md), for example, daily sales in [!DNL Commerce Intelligence] are not matching what you are seeing in your e-commerce platform or in your [[!DNL Google] e-commerce revenue](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html?lang=en) you can check the last data point to see if the issue is resolved once an update completes.
+Checking the status update cycle is useful when you are auditing the data in your [!DNL Commerce Intelligence] account. If you see [results that do not meet your expectations](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md), for example, daily sales in [!DNL Commerce Intelligence] are not matching what you are seeing in your e-commerce platform or in your [[!DNL Google] e-commerce revenue](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) you can check the last data point to see if the issue is resolved once an update completes.
 
 ## [!UICONTROL Read-Only] and [!UICONTROL Standard] Users
 

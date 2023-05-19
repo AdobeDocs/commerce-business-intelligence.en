@@ -15,6 +15,6 @@ Found something strange in [[!DNL Google Adwords]](../integrations/google-adwor
 
 1. After your account is added to [!DNL Google Adwords] Editor, select **[!UICONTROL File** > **Export Spreadsheet (CSV)** > **Export Whole Account]**
 
-This builds a `.csv` file containing all information stored in your current [!DNL Google Adwords] account. At this point, submit a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) (be sure to attach this file!) so you can take a closer look at your data. If the file is too large, share it with the [!DNL Commerce Intelligence] team via [!DNL Dropbox] or [!DNL Google Drive].
+This builds a `.csv` file containing all information stored in your current [!DNL Google Adwords] account. At this point, submit a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (be sure to attach this file!) so you can take a closer look at your data. If the file is too large, share it with the [!DNL Commerce Intelligence] team via [!DNL Dropbox] or [!DNL Google Drive].
 
 For more information about [!DNL Google Adwords] `.csv` file exports, refer to the official [[!DNL Google Adwords] documentation](https://support.google.com/google-ads/editor/answer/38657?hl=en).

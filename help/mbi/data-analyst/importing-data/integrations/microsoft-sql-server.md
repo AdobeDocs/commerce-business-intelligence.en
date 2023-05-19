@@ -13,7 +13,7 @@ exl-id: 7f49d1dc-8fbb-4a8c-9d07-9a8195c266f5
 
 This topic explains how to connect your [!DNL Microsoft SQL] database to [!DNL Commerce Intelligence] in a four-step process. This process requires some technical expertise related to server connections and SQL, and may require support from developers on your team.
 
-[!DNL Commerce Intelligence] supports [!DNL Amazon RDS], [!DNL EC2], [!DNL Microsoft SQL Azure], and most other cloud server providers. If you have a question on your particular host, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) asking us to provide this information.
+[!DNL Commerce Intelligence] supports [!DNL Amazon RDS], [!DNL EC2], [!DNL Microsoft SQL Azure], and most other cloud server providers. If you have a question on your particular host, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) asking us to provide this information.
 
 Your system needs to run SELECT queries on your database. This is initially done to get a snapshot of your database structure and then regularly overtime to keep your data up to date. Your updates are incremental, and Adobe restrict update frequency and time to prevent any unwanted load on your server.
 

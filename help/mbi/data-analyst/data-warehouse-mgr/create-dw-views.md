@@ -37,7 +37,7 @@ From here you can create a view by following the sample instructions below:
 
 1. When you are finished, Click **[!UICONTROL Save]** to save your view. Your view temporarily has a `Pending` status until it is processed by the next full update cycle, at which point the status changes to `Active`. After being processed by an update, your view is ready to use in reports.
 
-It is important to mention that after saving, the underlying query used to generate a `Data Warehouse View` cannot be edited. If you need to adjust the structure of a `Data Warehouse View`, you must create a view and manually migrate any calculated columns, metrics, or reports from the original view to the new one. When migration is complete, you can safely delete the original view. Because `Data Warehouse Views` are not editable, [!DNL Adobe] recommends that you test the output of your query using the `SQL Report Builder` before saving your query as a Data Warehouse View.
+It is important to mention that after saving, the underlying query used to generate a `Data Warehouse View` cannot be edited. If you need to adjust the structure of a `Data Warehouse View`, you must create a view and manually migrate any calculated columns, metrics, or reports from the original view to the new one. When migration is complete, you can safely delete the original view. Because `Data Warehouse Views` are not editable, Adobe recommends that you test the output of your query using the `SQL Report Builder` before saving your query as a Data Warehouse View.
 
 ## Example: [!DNL Facebook] and [!DNL Google AdWords] data
 
@@ -128,7 +128,7 @@ Rather than creating a separate set of marketing metrics for each ad source, you
 
 **Looking for additional help?**
 
-Writing SQL and creating `Data Warehouse Views` is not included with Technical Support. However, the [Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) does offer assistance in the creation of views. For everything from migrating a legacy database with a new database to create a single Data Warehouse View for the purposes of a specific analysis, the support team can help.
+Writing SQL and creating `Data Warehouse Views` is not included with Technical Support. However, the [Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) does offer assistance in the creation of views. For everything from migrating a legacy database with a new database to create a single Data Warehouse View for the purposes of a specific analysis, the support team can help.
 
 Usually, the creation of a new `Data Warehouse View` for the purposes of consolidating 2-3 similarly structured tables requires five hours of services time, which translates to roughly $1,250 of work. However below are a few common factors which can increase the expected investment required:
 

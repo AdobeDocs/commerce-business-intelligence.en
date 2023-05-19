@@ -27,4 +27,4 @@ This topic explores the main data tables that you can import from [!DNL Zendesk]
 ## Related
 
 * [Connecting Zendesk](../integrations/zendesk.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

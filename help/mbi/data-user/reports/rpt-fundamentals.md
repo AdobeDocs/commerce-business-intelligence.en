@@ -99,7 +99,7 @@ Simply go to any dashboard and [create a report](../../data-user/reports/ess-man
 
 #### Adding descriptions to reports
 
-When creating reports that are shared with other members of your team, [!DNL Adobe] recommends adding descriptions which allow other users to better understand your analysis.
+When creating reports that are shared with other members of your team, Adobe recommends adding descriptions which allow other users to better understand your analysis.
 
 1. Click **[!UICONTROL i]** at the top of any report.
 1. Enter a description into the word box.

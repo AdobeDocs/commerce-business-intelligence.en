@@ -25,7 +25,7 @@ When used in reports, metrics can be analyzed over a specified time period and [
 
 1. Name your metric.
 
-    [!DNL Adobe] recommends a name that, at a glance, tells you what the metric is. For example: `Average Order Revenue`.
+    Adobe recommends a name that, at a glance, tells you what the metric is. For example: `Average Order Revenue`.
 
 1. The next step is to define what your metric does. Using the dropdown menus, define the metric's operation, the `operation` column, and a `date` dimension:
 

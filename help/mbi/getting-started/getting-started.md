@@ -1,16 +1,16 @@
 ---
-title: Introduction
-description: Learn about [!DNL Commerce Intelligence].
+title: Introduction to Adobe Commerce Intelligence
+description: Learn about Adobe Commerce Intelligence.
 exl-id: 0c960d8c-9bb7-429e-a88e-21678a77b710
 ---
 
-# Introduction
+# Introduction to [!DNL Adobe Commerce Intelligence]
 
->[!IMPORTANT]
+>[!NOTE]
 >
->In 2023, [!DNL Magento Business Intelligence] is rebranded [!DNL Adobe Commerce Intelligence]. Text references have been updated, with UI screen captures coming later in the year.
+>[!DNL Adobe Commerce Intelligence] was previously known as [!DNL Magento Business Intelligence]. A series of updates are currently underway for this guide to capture the changes.
 
-[!DNL Adobe Commerce Intelligence (formerly known as Magento Business Intelligence)] is a cloud-based data management and analytics platform. [!DNL Commerce Intelligence] provides you with the ability to easily consolidate and manage your data sources, model your data, create charts and reports, and maintain a single source of truth.
+[!DNL Adobe Commerce Intelligence] (formerly known as [!DNL Magento Business Intelligence]) is a cloud-based data management and analytics platform. [!DNL Commerce Intelligence] provides you with the ability to easily consolidate and manage your data sources, model your data, create charts and reports, and maintain a single source of truth.
 
 [!DNL Commerce Intelligence], a core capability of [!DNL Adobe Commerce], provides best practice insights across multiple data sources, allowing merchants to make scientific data-driven decisions and take clear and informed actions. Automate your reporting process and transform the way you make business decisions and collaborate across teams. Take the guesswork out of your decision making with [!DNL Commerce Intelligence].
 

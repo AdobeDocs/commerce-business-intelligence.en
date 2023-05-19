@@ -1,5 +1,5 @@
 ---
-title: Commerce Intelligence User Guide Overview
+title: Commerce Intelligence User Guide
 description: Comprehensive information for Commerce Intelligence data administrators.
 breadcrumb-title: Guide Overview
 seo-title: Commerce Intelligence User Guide
@@ -7,11 +7,11 @@ seo-description: Describes how to use Adobe Commerce Intelligence features used 
 exl-id: f62c7a98-1b4c-4abb-9692-50ce0f3ee1fb
 ---
 
-# [!DNL Adobe Commerce Intelligence] User Guide Overview
+# [!DNL Adobe Commerce Intelligence] User Guide
 
->[!IMPORTANT]
+>[!NOTE]
 >
->In 2023, [!DNL Magento Business Intelligence] is rebranded [!DNL Adobe Commerce Intelligence]. Text references have been updated, with UI screen captures coming later in the year.
+>[!DNL Adobe Commerce Intelligence] was previously known as [!DNL Magento Business Intelligence]. A series of updates are currently underway for this guide to capture the changes.
 
 There are two areas for data administrators: 
 
@@ -33,15 +33,15 @@ In addition to the above role-based workflows, this guide also contains:
 
 ## How to Get Help
 
-Contact the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) if you have questions and want to take advantage of some of your Professional Services or if you encounter problems with your account.
+Contact the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) if you have questions and want to take advantage of some of your Professional Services or if you encounter problems with your account.
 
 ### Service Policies 
 
-See a [list of which services that the customer support team provides](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+See a [list of which services that the customer support team provides](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ### Submitting a Support Ticket
 
-Need help with building an advanced calculated column? Encountered a defect or connection problem? Should you need to get in touch with the support team, Adobe asks that you use the [support ticket guidelines](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en). These guidelines outline the information Adobe needs to resolve the issue.
+Need help with building an advanced calculated column? Encountered a defect or connection problem? Should you need to get in touch with the support team, Adobe asks that you use the [support ticket guidelines](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html). These guidelines outline the information Adobe needs to resolve the issue.
 
 ## Available documentation
 

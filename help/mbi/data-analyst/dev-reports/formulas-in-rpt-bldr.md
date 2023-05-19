@@ -57,4 +57,4 @@ In this example, you used the `Stacked Columns` perspective to display the resul
 
 Did you notice in the examples above that the formula's `timestamp`, `groupings`, `perspectives`, and `filters` are inherited from its input metrics? Keep in mind that formulas can be used to use `perspectives` and [independent time options](../../tutorials/time-options-visual-rpt-bldr.md){: target="_blank"}, just like metrics can.
 
-If you have any additional questions about using formulas in the `Report Builder`, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you have any additional questions about using formulas in the `Report Builder`, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

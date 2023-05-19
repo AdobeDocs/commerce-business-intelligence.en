@@ -1,11 +1,11 @@
 ---
-title: Managing users and permissions
-description: Learn how to manage your [!DNL Commerce Intelligence] users.
+title: Managing Adobe Commerce users and permissions
+description: Learn how to manage your Commerce Intelligence users.
 exl-id: 2a5eeabb-3c13-4ca1-b845-ed255b389c9f
 ---
 # Manage user permissions
 
-Adobe Commerce Intelligence is intended to be a single source of truth across your organization. Each user has their own set of dashboards which they can [share with other users](../../data-user/dashboards/share-dashboard-with-users.md).
+[!DNL Adobe Commerce Intelligence] is intended to be a single source of truth across your organization. Each user has their own set of dashboards which they can [share with other users](../../data-user/dashboards/share-dashboard-with-users.md).
 
 ## User Permission Levels
 
@@ -46,7 +46,7 @@ These permissions enable users to perform certain actions or access specific par
 >
 >**[!UICONTROL Standard] _users can access Billing with an extra permission setting._
 >
->**[!UICONTROL Read-Only]** users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in [!DNL Commerce Intelligence], nor can they search for and add new dashboards to their account. [!DNL Adobe] recommends that you share a specific set of dashboards with **[!UICONTROL Read-Only]** users that you or another member of your team maintains. Do not clone a set of dashboards for them.
+>**[!UICONTROL Read-Only]** users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in [!DNL Commerce Intelligence], nor can they search for and add new dashboards to their account. Adobe recommends that you share a specific set of dashboards with **[!UICONTROL Read-Only]** users that you or another member of your team maintains. Do not clone a set of dashboards for them.
 
 ## Additional permissions: Billing and Technical {#billingtech}
 

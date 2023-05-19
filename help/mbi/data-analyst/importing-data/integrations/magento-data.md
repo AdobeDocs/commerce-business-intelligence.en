@@ -22,4 +22,4 @@ This topic explores the main data tables that Commerce users import into [!DNL C
 ## Related
 
 * [Connecting [!DNL Adobe Commerce]](../integrations/magento.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

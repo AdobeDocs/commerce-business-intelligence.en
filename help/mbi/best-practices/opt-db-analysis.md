@@ -47,7 +47,7 @@ Too many companies focus solely on finding channels that provide new users at th
 
 A [primary key](https://en.wikipedia.org/wiki/Unique_key) is an unchanging column (or set of columns) that produces unique values within a table. Primary keys are incredibly important, as they ensure that your tables are properly replicated in [!DNL Commerce Intelligence].
 
-When building primary keys, use an integer data type for the column that auto-increases. [!DNL Adobe] recommends you avoid using multiple column primary keys where possible.
+When building primary keys, use an integer data type for the column that auto-increases. Adobe recommends you avoid using multiple column primary keys where possible.
 
 If your table is an SQL view, add a column that can act as a primary key. [!DNL Commerce Intelligence] is able to automatically identify this column as a primary key.
 
@@ -57,4 +57,4 @@ If a data column does not have an assigned [data type](https://en.wikipedia.org/
 
 ### Add Prefixes to Your Data Tables if You Have Multiple Databases
 
-If you have more than one database connected to [!DNL Commerce Intelligence], [!DNL Adobe] recommends you add prefixes to your tables to avoid confusion. Prefixes help you remember where metrics or data dimensions are sourced from.
+If you have more than one database connected to [!DNL Commerce Intelligence], Adobe recommends you add prefixes to your tables to avoid confusion. Prefixes help you remember where metrics or data dimensions are sourced from.

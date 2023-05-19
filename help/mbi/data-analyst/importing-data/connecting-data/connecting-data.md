@@ -29,7 +29,7 @@ There are four ways to get your data into [!DNL Commerce Intelligence]: connect 
 
 [!DNL Commerce Intelligence] supports SQL-based and NoSQL databases such as [MySQL](../../importing-data/integrations/mysql-via-ssh-tunnel.md), [Microsoft SQL](../integrations/microsoft-sql-server.md), [MongoDB](../integrations/mongodb-via-ssh-tunnel.md), and [PostgreSQL](../integrations/postgresql.md).
 
-While you can directly connect your database to [!DNL Commerce Intelligence] using database credentials, [!DNL Adobe] recommends you use a proven encryption method like an SSH tunnel. This ensures that your data stays safe and secure as it makes its way into your Data Warehouse.
+While you can directly connect your database to [!DNL Commerce Intelligence] using database credentials, Adobe recommends you use a proven encryption method like an SSH tunnel. This ensures that your data stays safe and secure as it makes its way into your Data Warehouse.
 
 Depending on the connection method and type of database, some technical expertise might be required to complete the setup.
 
@@ -62,6 +62,6 @@ To add an integration, click **[!UICONTROL Manage Data** > **Connections]** and 
 * [Consolidating your tables](../../../best-practices/consolidating-your-tables.md)
 * [Restricting access to your database](../../../administrator/account-management/restrict-db-access.md)
 
-**Not seeing an integration you want?** Some integrations must be activated for them to be visible in your account. If you are looking for something like [!DNL Facebook] but it is not listed, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+**Not seeing an integration you want?** Some integrations must be activated for them to be visible in your account. If you are looking for something like [!DNL Facebook] but it is not listed, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 **If you see an error status for an integration**, check out the [Troubleshooting section](https://support.magento.com/hc/en-us/sections/360003078151) for help.

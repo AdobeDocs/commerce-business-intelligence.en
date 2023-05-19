@@ -93,7 +93,7 @@ If you are having trouble remembering what all the inputs are when creating a ca
 
 In your quest to analyze and answer questions about your business, you may encounter a situation where you are unable to build the exact column you want. 
 
-To ensure a speedy turnaround, [!DNL Adobe] recommends checking out the [Advanced Calculated Column Types](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) guide to see what kind of columns the Adobe support team can build. That topic also covers the info that you need from you to create the column - include it with your request.
+To ensure a speedy turnaround, Adobe recommends checking out the [Advanced Calculated Column Types](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) guide to see what kind of columns the Adobe support team can build. That topic also covers the info that you need from you to create the column - include it with your request.
 
 ## Related documentation
 

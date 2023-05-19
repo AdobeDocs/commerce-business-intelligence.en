@@ -12,7 +12,7 @@ When [creating calculated columns](../data-warehouse-mgr/creating-calculated-col
 1. How the tables in your databases relate to each other
 1. The primary and foreign keys that define this relationship
 
-If you know this information, you can easily create a path following the instructions in this topic. You may want to ask a technical expert in your organization or contact the [Professional Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you know this information, you can easily create a path following the instructions in this topic. You may want to ask a technical expert in your organization or contact the [Professional Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ## Refreshers on table relationships and key types {#refresher}
 
@@ -71,7 +71,7 @@ Now, you can create the path.
 
 * **[!DNL Commerce Intelligence] cannot guess primary/foreign key relationships**. You do not want to introduce incorrect data into your account, so creating paths must be done manually.
 
-* **Currently, paths can only be specified between two different tables**. Does the logic that you are trying to recreate involve more than two tables? It then might make sense to (1) join the columns to an intermediary table first, then to the "final destination" table, or (2) consult with the [Professional Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to find the best approach to your goals.
+* **Currently, paths can only be specified between two different tables**. Does the logic that you are trying to recreate involve more than two tables? It then might make sense to (1) join the columns to an intermediary table first, then to the "final destination" table, or (2) consult with the [Professional Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) to find the best approach to your goals.
 
 * **A column can only be the foreign key reference for ONE path at one time**. For example, if `order_items.order_id` points to `orders.id`, then `order_items.order_id` cannot point to anything else.
 

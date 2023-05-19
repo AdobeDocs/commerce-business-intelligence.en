@@ -17,7 +17,7 @@ Before getting started, you want to connect your [!DNL [Facebook Ads]](../import
 
 ## Consolidated Tables
 
-**Original architecture:** To bring together your spend from various sources, like [!DNL Facebook Ads] or [!DNL Google Adwords], [!DNL Adobe] recommends creating a **consolidated table** of all of your ad spend. You need an analyst to complete this step for you. If you have not, [file a support request](../../guide-overview.md#Submitting-a-Support-Ticket) with the subject `[MARKETING ROI ANALYSIS]`, and an analyst creates this table.
+**Original architecture:** To bring together your spend from various sources, like [!DNL Facebook Ads] or [!DNL Google Adwords], Adobe recommends creating a **consolidated table** of all of your ad spend. You need an analyst to complete this step for you. If you have not, [file a support request](../../guide-overview.md#Submitting-a-Support-Ticket) with the subject `[MARKETING ROI ANALYSIS]`, and an analyst creates this table.
 
 **New architecture:** You can follow the example in [this Analysis Library](../../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
 
@@ -26,7 +26,7 @@ Before getting started, you want to connect your [!DNL [Facebook Ads]](../import
 Columns to create
 
 * **`Consolidated Digital Ad Spend`** table
-* **`Campaign name`** is created by an [!DNL Adobe] analyst as part of your **[MARKETING ROI ANALYSIS]** ticket 
+* **`Campaign name`** is created by an Adobe analyst as part of your **[MARKETING ROI ANALYSIS]** ticket 
 
 **Original and new architectures:**
 
@@ -250,7 +250,7 @@ Columns to create
 * [!UICONTROL Group by]: `campaign` (Use `Customer's first order's` campaign for non-ad spend table metrics)
 * [!UICONTROL Chart Type]: `Table`
 
-If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ### Related
 

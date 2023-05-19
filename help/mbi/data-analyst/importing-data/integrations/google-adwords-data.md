@@ -81,4 +81,4 @@ Using this data, you can start creating [metrics](../../../data-user/reports/ess
 
 If you do not have a consolidated table and you build a beautiful dashboard on the `adwords` table, you need to replicate the reporting or create duplicate metrics to compare that data to your [!DNL Facebook Ads] data. Using a consolidated table allows you to seamlessly incorporate [!DNL Facebook Ads] data with your existing [!DNL Adwords] reports. You can segment by ad platform as well.
 
-If you have already synced the fields above, [contact us](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to consolidate your ad spend.
+If you have already synced the fields above, [contact us](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) to consolidate your ad spend.

@@ -59,7 +59,7 @@ If what you want to create is straightforward, using the traditional Report Buil
 
 Are users across your organization using/viewing this analysis? Depending on who you are sharing your work with, sticking with the Visual Report Builder may be better sometimes. Users can quickly look at the definition in the [!DNL Visual Report Builder] versus reading a potentially long [!DNL SQL] query.
 
-If there are some people who need the report but are not familiar with [!DNL SQL], [!DNL Adobe] suggests using the original flavor of the Report Builder. It makes things easier on them.
+If there are some people who need the report but are not familiar with [!DNL SQL], Adobe suggests using the original flavor of the Report Builder. It makes things easier on them.
 
 ## Wrapping up {#wrapup}
 

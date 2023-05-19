@@ -49,6 +49,6 @@ The following information is needed to connect:
 
 1. The selected report suite displays in a table. Click **[!UICONTROL Save]** to confirm your selection.
 
-1. Inform the [!DNL Commerce Intelligence] [Support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) that your integration is authorized, and they run the initial connection process for you.
+1. Inform the [!DNL Commerce Intelligence] [Support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) that your integration is authorized, and they run the initial connection process for you.
 
 After the initial connection process runs, your table will be available in the Data Warehouse page, under the `All Tables` tab. Select the columns that you wish to replicate, and the data will appear after the next full update.

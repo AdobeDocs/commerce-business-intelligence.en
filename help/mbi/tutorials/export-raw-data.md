@@ -5,7 +5,7 @@ exl-id: 26decdaf-2b2c-4ca2-b3d5-0386892662e8
 ---
 # Export Raw Data
 
-Using raw data exports, you can export records from your Data Warehouse to get a closer look at what is powering your dashboard. Also, raw data exports can help you [pinpoint data discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en).
+Using raw data exports, you can export records from your Data Warehouse to get a closer look at what is powering your dashboard. Also, raw data exports can help you [pinpoint data discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html).
 
 Raw data exports provide access to additional columns and dimensions generated through de-normalization and pre-aggregation of relevant metrics. For example, `User's first order date` is a dimension that you can export for each user in [!DNL Commerce Intelligence], while it may not be available in your database.
 

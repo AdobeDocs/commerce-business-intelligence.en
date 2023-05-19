@@ -16,7 +16,7 @@ Among customers who purchase a *specific item*,
 
 ## Recommended metrics
 
-When building customer repurchasing activity analyses, [!DNL Adobe] recommends using the following metrics:
+When building customer repurchasing activity analyses, Adobe recommends using the following metrics:
 
 ### Repeat order probability
 
@@ -74,4 +74,4 @@ In addition to analyzing the repurchasing behavior of your customers, you can al
 
 Once you have identified why churn is happening, you can use your analysis to build a `reactivation` campaign. Using this data, you can identify users who've become inactive, how long it has been since their last visit, what their last purchase was, and so on. This allows you to make actionable decisions that entice your customers to come back.
 
-For help with analysis, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+For help with analysis, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

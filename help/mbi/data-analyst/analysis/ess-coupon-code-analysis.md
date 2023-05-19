@@ -47,7 +47,7 @@ The first step is to construct a new metric with the following steps:
 
 >[!NOTE]
 >
->The [!UICONTROL Time Period]** for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. [!DNL Adobe] recommends all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
+>The [!UICONTROL Time Period]** for each report is listed as `All-time`. Feel free to alter this to suit your analysis needs. Adobe recommends all reports on this dashboard cover the same time period, such as `All time`, `Year-to-date`, or `Last 365 days`.
 
 * **Orders with coupons**
   * [!UICONTROL Metric]:`Orders`
