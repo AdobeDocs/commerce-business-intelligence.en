@@ -46,7 +46,7 @@ You follow a series of steps to allow [!DNL Commerce Intelligence] to access dat
 
 ## What is next? {#next}
 
-Make sure that you are tracking [!DNL Facebook] campaigns in [!DNL Google Analytics]. This ensures that the `utm\_campaign` field in [!DNL Google Analytics] is properly populated for your [!DNL Facebook] campaigns.
+Make sure that you are tracking [!DNL Facebook] campaigns in [!DNL Google Analytics]. This ensures that the `utm\_campaign` field in [!DNL Google Analytics] is properly populated for your [!DNL Facebook] campaigns. 
 
 ## Related
 
