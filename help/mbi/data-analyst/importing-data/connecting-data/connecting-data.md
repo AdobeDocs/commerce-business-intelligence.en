@@ -35,7 +35,7 @@ Depending on the connection method and type of database, some technical expertis
 
 ## `SaaS` Integrations
 
-![](../../../assets/SaaS_icons.jpg)
+![](../../../assets/SaaS_icons.jpg)spree-commerce-logo.png
 
 `SaaS` integrations are services like [[!DNL Google Adwords]](../integrations/google-adwords.md), [[!DNL Salesforce]](../integrations/salesforce.md), and [[!DNL Zendesk]](../integrations/zendesk.md). Because third-party data lives on the vendor's server, you cannot directly access it like you can with the data in your database.
 
