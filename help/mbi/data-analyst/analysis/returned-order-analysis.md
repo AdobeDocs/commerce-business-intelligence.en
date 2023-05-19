@@ -5,7 +5,7 @@ exl-id: 6a948561-45b7-4813-9661-ab42197ca5bd
 ---
 # Returned Orders
 
-In this article, learn how to set up a dashboard that provides a detailed analysis of your store's returns.
+This topic demonstrates how to set up a dashboard that provides a detailed analysis of your store's returns.
 
 ![](../../assets/detailed-returns-dboard.png)
 
@@ -216,4 +216,4 @@ Columns to create
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the above sample dashboard.
 
-If you run into any questions while building this analysis or want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you run into any questions while building this analysis or want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

@@ -7,7 +7,7 @@ exl-id: db9fdaaa-47a9-4095-b1f8-9b6c74c25b7c
 
 After you have connected a [!DNL Google Analytics] integration, you can interact with your [!DNL Google Analytics] metrics *immediately in the `Visual Report Builder`*. When you enter the `Visual Report Builder`, if you click **[!UICONTROL Add a Metric]**, a series of metrics from your [!DNL Google Analytics] profile appears in a dropdown immediately beneath the metrics in your Data Warehouse.
 
-The [!DNL Google Analytics] integration is *live* -- this means that the `Report Builder` requests data from [!DNL Google Analytics] *immediately* when you add a metric to your report. It also means that the metrics that you can access are defined exactly as they are in [!DNL Google Analytics], and that these values are not *warehoused* in your [!DNL MBI] account - only displayed visually in your reports.
+The [!DNL Google Analytics] integration is *live* -- this means that the `Report Builder` requests data from [!DNL Google Analytics] *immediately* when you add a metric to your report. It also means that the metrics that you can access are defined exactly as they are in [!DNL Google Analytics], and that these values are not *warehoused* in your [!DNL Commerce Intelligence] account - only displayed visually in your reports.
 
 +++Supported Metrics and Dimensions (Google Analytics 3 or Universal Analytics)
 
@@ -15,7 +15,7 @@ The [!DNL Google Analytics] integration is *live* -- this means that the `Report
 >
 >On July 1, 2023, standard Universal Analytics ([!DNL Google Analytics] 3) properties will no longer process data. You will be able to see your Universal Analytics reports for a period of time after July 1, 2023. However, new data will only flow into [!DNL Google Analytics] 4 properties.
 
-[!DNL Google Analytics] integrations in [!DNL MBI] use the [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
+[!DNL Google Analytics] integrations in [!DNL Commerce Intelligence] use the [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/), and support the following metrics and dimensions.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ The [!DNL Google Analytics] integration is *live* -- this means that the `Report
 
 ## Supported Metrics
 
-| [!DNL MBI] Display Name | [!DNL Google Analytics] Name / Formula |
+| [!DNL Commerce Intelligence] Display Name | [!DNL Google Analytics] Name / Formula |
 | --- | --- |
 | `Page Views` | `ga:pageviews` |
 | `Total Time Spent On Page` | `ga:timeOnPage` |
@@ -77,7 +77,7 @@ The [!DNL Google Analytics] integration is *live* -- this means that the `Report
 
 ## Supported Dimensions
 
-| [!DNL MBI] Display Name | [!DNL Google Analytics] Name / Formula | Groupable? |
+| [!DNL Commerce Intelligence] Display Name | [!DNL Google Analytics] Name / Formula | Groupable? |
 | --- | --- | --- |
 | `Ad Content` | `ga:adContent` | `Yes` |
 | `Ad Group` | `ga:adGroup` | `Yes` |
@@ -148,11 +148,11 @@ The [!DNL Google Analytics] integration is *live* -- this means that the `Report
 
 +++Supported Metrics and Dimensions (Google Analytics 4)
 
-[!DNL Google Analytics] integrations in [!DNL MBI] use the [!DNL Google Analytics] [Data API v1 (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1).
+[!DNL Google Analytics] integrations in [!DNL Commerce Intelligence] use the [!DNL Google Analytics] [Data API v1 (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1).
 
 >[!NOTE]
 >
-> MBI does not support the following dimensions: `cohort`, `cohortNthDay`, `cohortNthMonth`, and `cohortNthWeek`.
+> Commerce Intelligence does not support the following dimensions: `cohort`, `cohortNthDay`, `cohortNthMonth`, and `cohortNthWeek`.
 >
 >To avoid unexpected or nonsensical results, confirm that any dimensions you use are compatible with one or more metrics you use in the `Visual Report Builder`. You can check the [GA4 Dimensions & Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
 

@@ -5,7 +5,7 @@ exl-id: 6625349f-2ec0-402d-8635-889a1f29811c
 ---
 # Expected [!DNL Salesforce] data
 
-[After the [!DNL Salesforce] setup is complete](../integrations/salesforce.md), a table for each queryable [object](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_concepts.htm) - named `sf_/\{sobject-name}` - is created in your Data Warehouse. 
+After the [[!DNL Salesforce] setup](../integrations/salesforce.md) is complete, a table for each queryable [object](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_concepts.htm) - named `sf_/\{sobject-name}` - is created in your Data Warehouse. 
 
 >[!NOTE]
 >
@@ -42,4 +42,4 @@ Currently, [!DNL Salesforce] does not currently expose the following objects in 
 ## Related:
 
 * [Connecting [!DNL Salesforce]](../integrations/salesforce.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

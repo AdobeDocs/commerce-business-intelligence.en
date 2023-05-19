@@ -7,13 +7,13 @@ exl-id: 74cf11c3-7ce0-477f-9a28-9d782e5da3d9
 
 >[!NOTE]
 >
->This article contains instructions for clients that are using the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the _Data Warehouse Views_ section available after selecting `Manage Data` from the main toolbar.
+>This topic contains instructions for clients that are using the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the [!DNL _Data Warehouse Views_] section available after selecting [!DNL Manage Data] from the main toolbar.
 
-The report builder allows you to easily see trends over time and change perspective for time periods you may want to compare. This article demonstrates how to set up a dashboard to go a level deeper to allow you to create reports for week over week, month over month and year over year analysis.
+The report builder allows you to easily see trends over time and change perspective for time periods you may want to compare. This topic demonstrates how to set up a dashboard to go a level deeper to allow you to create reports for week over week, month over month and year over year analysis.
 
 ![](../../assets/Wow__mom__yoy.png)
 
-Before getting started, you want to familiarize yourself with explore perspectives in more detail [here](../../tutorials/using-visual-report-builder.md) and independent time options [here](../../tutorials/time-options-visual-rpt-bldr.md).
+Before getting started, you should review explore perspectives in more detail [here](../../tutorials/using-visual-report-builder.md) and independent time options [here](../../tutorials/time-options-visual-rpt-bldr.md).
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 

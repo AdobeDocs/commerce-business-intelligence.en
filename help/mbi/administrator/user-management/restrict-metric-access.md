@@ -13,8 +13,8 @@ After setting the permission level, you can select the metrics a **[!UICONTROL S
 
 1. Go to **[!UICONTROL Account Settings]** > **[!UICONTROL Manage Users]**.
 1. Select the desired user account.
-1. The **[!UICONTROL Metrics]** tab displays a list of available metrics. Check the metrics that you want the user to have access to; deselect those that the user should not have access to.
-1. [!DNL MBI] saves the changes automatically. If the change is successful, [!DNL MBI] displays **[!UICONTROL Saved!]** at the top of the page.
+1. The **[!UICONTROL Metrics]** tab displays a list of available metrics. Check the metrics that you want the user to have access to and deselect those that the user should not have access to.
+1. [!DNL Adobe Commerce Intelligence] saves the changes automatically. If the change is successful, [!DNL Commerce Intelligence] displays **[!UICONTROL Saved!]** at the top of the page.
 
 >[!NOTE]
 >
@@ -24,4 +24,4 @@ You can also restrict access to a metric by editing the metric and **[!UICONTROL
 
 >[!NOTE]
 >
->If you duplicate a metric, [!DNL MBI] copies the user permissions set in the original metric.
+>If you duplicate a metric, [!DNL Commerce Intelligence] copies the user permissions set in the original metric.

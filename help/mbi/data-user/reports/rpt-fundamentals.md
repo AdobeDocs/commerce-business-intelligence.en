@@ -5,7 +5,7 @@ exl-id: 94d4db27-0e06-4066-9c03-036b109d2d9b
 ---
 # Use a report
 
-Use reports in [!DNL MBI] to help you answer business questions - whether you simply want to see this month's revenue compared to last year or understand your acquisition costs for your latest [!DNL Google AdWords] campaign.
+Use reports in [!DNL Adobe Commerce Intelligence] to help you answer business questions - whether you simply want to see this month's revenue compared to last year or understand your acquisition costs for your latest [!DNL Google AdWords] campaign.
 
 What does that path from question to answer look like, exactly?
 
@@ -56,7 +56,7 @@ That is then used to create:
 
 Both of these fields need to be created at the user level (for example, on the `user` table). This enables the average analysis can be normalized by users (in other words, the denominator in this average calculation is the count of users).
 
-This is where [!DNL MBI] steps in! You can use your [!DNL MBI] Data Warehouse to create the above columns. Contact the Adobe analyst team and provide us with the specific definition of your new columns for creation. You can also use the [Column Editor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
+This is where [!DNL Commerce Intelligence] steps in! You can use your [!DNL Commerce Intelligence] Data Warehouse to create the above columns. Contact the Adobe analyst team and provide us with the specific definition of your new columns for creation. You can also use the [Column Editor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
 It is a best practice to avoid creating these calculated data fields in your database directly as it puts an unnecessary burden on your production servers.
 
@@ -69,7 +69,7 @@ Here you want to perform the following calculation:
 
 _[SUM of `Time between a customer's registration date and first purchase date`] / [Total number of customers that registered and purchased]_
 
-And you want to see this calculation plotted over time, or trending, according to a customer's registration date. And Here is how to [create this metric](../../data-user/reports/ess-manage-data-metrics.md) in [!DNL MBI]:
+And you want to see this calculation plotted over time, or trending, according to a customer's registration date. And Here is how to [create this metric](../../data-user/reports/ess-manage-data-metrics.md) in [!DNL Commerce Intelligence]:
 
 1. Go to **[!UICONTROL Data]** and select the `Metrics` tab.
 1. Click **[!UICONTROL Add New Metric]** and select the `user` table (where you created the dimensions above).

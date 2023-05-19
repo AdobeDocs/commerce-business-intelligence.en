@@ -5,11 +5,9 @@ exl-id: 0c8b907b-1a98-470b-bb2c-55327e88e502
 ---
 # Expected [!DNL Facebook Ads] data
 
-![](../../../assets/Facebook_Logo.png)
-
 After you have [connected your [!DNL Facebook Ads] account](../integrations/facebook-ads.md), you can use the [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields for analysis.
 
-This article gives you a brief overview of the tables Adobe recommends you sync to your Data Warehouse. This is not a complete list, as there are quite a few subtables. It only highlights the core tables.
+This topic gives you a brief overview of the tables Adobe recommends you sync to your Data Warehouse. This only highlights the core tables, as there are quite a few subtables.
 
 ## Core ad campaign tables
 
@@ -54,4 +52,4 @@ This table includes the same information as the `facebook_ads_insights_{account_
 ## Related
 
 * [Connecting [!DNL Facebook Ads]](../integrations/facebook-ads.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

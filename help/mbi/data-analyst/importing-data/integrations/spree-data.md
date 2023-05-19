@@ -1,13 +1,13 @@
 ---
 title: Expected Spree data
-description: Explore the main data tables that you can import from Spree into your [!DNL MBI] account.
+description: Explore the main data tables that you can import from Spree into your [!DNL Commerce Intelligence] account.
 exl-id: 203a2d4b-e7ad-4704-a3c1-8e22ff0bf2d6
 ---
 # Expected [!DNL Spree] data
 
 After you have [connected your [!DNL Spree] store](../../../data-analyst/importing-data/integrations/spree.md), you can use the [Data Warehouse Manager](../../data-warehouse-mgr/tour-dwm.md) to easily track relevant data fields from your [!DNL Spree] platform for analysis.
 
-This article explores the main data tables that you can import from [!DNL Spree] into your [!DNL MBI] account, including links to [additional documentation](https://guides.spreecommerce.org/developer/addresses.html#address) about [!DNL Spree] data.
+This topic explores the main data tables that you can import from [!DNL Spree] into your [!DNL Commerce Intelligence] account, including links to [additional documentation](https://guides.spreecommerce.org/developer/addresses.html#address) about [!DNL Spree] data.
 
 | **Table name** | **Description** |
 |-----|-----|
@@ -22,4 +22,4 @@ This article explores the main data tables that you can import from [!DNL Spree]
 ## Related:
 
 * [Connecting [!DNL Spree]](../integrations/spree.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

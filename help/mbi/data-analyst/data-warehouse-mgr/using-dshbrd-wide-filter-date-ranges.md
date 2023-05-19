@@ -5,7 +5,7 @@ exl-id: 379d0027-8a7a-4062-a66a-4f06c37b806c
 ---
 # Dashboard-Wide Filtering
 
-With dashboard-wide filtering, you can make bulk edits of all the reports on a specific dashboard. You can quickly view the same analysis over different time periods or for different stores. You can easily compare the performance of a previous year, month, or week per store. Further, you can update an entire dashboard to accommodate a newly launched campaign.
+With dashboard-wide filtering, you can make bulk edits of all the reports on a specific dashboard. You can quickly view the same analysis over different time periods or for different stores. You can easily compare the performance of a previous year, month, or week per store. You can update an entire dashboard to accommodate a newly launched campaign.
 
 ## Date filters
 
@@ -39,7 +39,7 @@ To analyze how a specific store is performing, click the stores icon in the uppe
 
 >[!NOTE]
 >
->A store filter is enabled or disabled for an entire [!DNL MBI] account. If a dashboard contains reports that are not affected by the filter (such as reports that are not built on any Commerce data(), those reports do not update when the store filter is applied. You can [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) if you believe that a report should update based on store selection or if you believe that your account store filter is mistakenly disabled.
+>A store filter is enabled or disabled for an entire [!DNL Commerce Intelligence] account. If a dashboard contains reports that are not affected by the filter (such as reports that are not built on any [!DNL Adobe Commerce] data), those reports do not update when the store filter is applied. You can [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) if you believe that a report should update based on store selection or if you believe that your account store filter is mistakenly disabled.
 
 When you select a store from the `Store Filter`, the filter retains your selection when you navigate between dashboards. Retaining your selection allows you to see data for your selected store everywhere until you select `All Stores`.
 

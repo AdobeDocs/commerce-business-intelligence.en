@@ -1,19 +1,19 @@
 ---
-title: Storing Data in Commerce
-description: Learn how data is generated, what causes a new row to be inserted , and how actions are recorded into the Commerce database.
+title: Storing Data in Adobe Commerce
+description: Learn how data is generated, what causes a new row to be inserted , and how actions are recorded into the Adobe Commerce database.
 exl-id: 436ecdc1-7112-4dec-9db7-1f3757a2a938
 ---
 # Storing Data in [!DNL Adobe Commerce]
 
-The Adobe Commerce platform records and organizes a wide variety of valuable commerce data across hundreds of tables. This topic describes:
+The [!DNL Adobe Commerce] platform records and organizes a wide variety of valuable commerce data across hundreds of tables. This topic describes:
 
 * how that data is generated
-* what exactly causes a new row to be inserted into one of the [Core Commerce Tables](../data-warehouse-mgr/common-mage-tables.md)
-* how actions such as making a purchase or creating an account are recorded into the Commerce database
+* what causes a new row to be inserted into one of the [Core Commerce Tables](../data-warehouse-mgr/common-mage-tables.md)
+* how actions such as making a purchase or creating an account are recorded into the [!DNL Adobe Commerce] database
 
-To explain these concepts, refer to the following example:
+To discuss these concepts, refer to the following example:
 
-`Clothes4U` is a clothing retailer with both an online, and a brick and mortar presence. It uses Magento Open Source behind its website to gather and organize data.
+`Clothes4U` is a clothing retailer with both an online and brick and mortar presences. It uses [!DNL Magento Open Source] behind its website to gather and organize data.
 
 ## `catalog\_product\_entity`
 
@@ -51,7 +51,7 @@ Shortly after the addition of the three new products, a new customer, `Sammy Cus
 * `email` – this field is populated by the email that a new customer enters when making their account
 * `created_at` – This column returns the timestamp for when each user joined
 
-## `sales\_flat\_order (or Sales\_order` if you have Commerce 2.0 or later)
+## `sales\_flat\_order (or Sales\_order` if you have [!DNL Adobe Commerce 2.x]
 
 With the account creation finished, `Sammy Customer` is ready to start making a purchase. On the website, the customer adds two pairs of the `Throwback Bellbottoms` and one `V-Neck T-Shirt` to the cart. Satisfied with the selections, the customer moves to checkout and submits the order, creating the following entry on the [sales flat order table](../data-warehouse-mgr/sales-flat-order-table.md):
 
@@ -67,7 +67,9 @@ With the account creation finished, `Sammy Customer` is ready to start making a 
     * The two pairs of "Throwback Bellbottoms" and the "V-Neck T-Shirt" cost $94.85 dollars in total
 * `created_at` – This column returns the timestamp for when each order was created
 
-## `sales\_flat\_order\_item ( or Sales\_order\_item` if you have Commerce 2.0 or later)
+## `sales\_flat\_order\_item ( or Sales\_order\_item` 
+
+(if you have Commerce 2.0 or later)
 
 In addition to the single row on the `Sales\_flat\_order` table, when `Sammy Customer` submits the order, a row for each unique item in that order is inserted into the [`sales\_flat\_order\_item` table](../data-warehouse-mgr/sales-flat-order-item-table.md):
 

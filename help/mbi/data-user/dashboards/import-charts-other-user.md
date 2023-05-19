@@ -5,7 +5,7 @@ exl-id: defcb72d-6027-4ae7-b974-e2f39773fe32
 ---
 # Import chart from another user
 
-You may want to edit a chart that another user owns, or create something similar. It easy to import a chart that another user currently owns and saves it in your own dashboard.
+You may want to edit a chart that another user owns or create something similar. It is easy to import a chart that another user currently owns and saves it in your own dashboard.
 
 ## Find the chart
 

@@ -9,14 +9,14 @@ exl-id: 28db0e78-0222-431d-bbb9-6ef133686603
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-[!DNL MBI] is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single Data Warehouse. Even data that lives outside your databases and integrations can be brought into [!DNL MBI] by using the File Upload tool in the Data Warehouse Manager.
+[!DNL Adobe Commerce Intelligence] is powerful not only because of its visualization features, but because it gives you the ability to put all of your data into a single Data Warehouse. Even data that lives outside your databases and integrations can be brought into [!DNL Commerce Intelligence] by using the File Upload tool in the Data Warehouse Manager.
 
 Use ad campaigns as an example. If you are running both online and offline campaigns, you cannot get the whole picture if you are only analyzing data from an online integration. Uploading a spreadsheet with the offline campaign data allows you to analyze both sets of data and get a more robust understanding of your campaign performance.
 
 ## Restrictions and requirements {#require}
 
 1. **The only supported format for file uploads is `CSV` or `comma separated values`**. If you are working in Excel, you can use the Save As function to save the file in `.csv` format.
-1. **`CSV` files must use `UTF-8 encoding`**. Most the time, this is not an issue. If you encounter this error while uploading a file, [consult this Support article](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html?lang=en).
+1. **`CSV` files must use `UTF-8 encoding`**. Most the time, this is not an issue. If you encounter this error while uploading a file, [consult this Support article](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html).
 1. **Files cannot be larger than 100MB**. If the file is larger than this, separate the table into chunks and save them as individual files. You can append the data after the initial file is loaded.
 1. **All tables must have a `primary key`**. There needs to be at least one column in your table that can be used as a `primary key`, or a unique identifier for each row in the table. Any column designated as a `primary key` can *never* be null. A `primary key` can be as simple as adding a column that gives a number to each row, or can be two columns concatenated to make a column of unique values (for example, `campaign name` and `date`).
 
@@ -24,7 +24,7 @@ Use ad campaigns as an example. If you are running both online and offline campa
 
 ## Formatting data for upload {#formatting}
 
-Before you can upload your data into [!DNL MBI], check that it is formatted according to the guidelines in this section.
+Before you can upload your data into [!DNL Commerce Intelligence], check that it is formatted according to the guidelines in this section.
 
 ### Header row {#header}
 
@@ -71,7 +71,7 @@ For [!DNL Google Docs] and [!DNL Apple Numbers] resources, refer to the [Related
 
 ## Uploading data {#uploading}
 
-Now that your spreadsheet is correctly formatted and [!DNL MBI]-friendly, add it to your Data Warehouse.
+Now that your spreadsheet is correctly formatted and [!DNL Commerce Intelligence]-friendly, add it to your Data Warehouse.
 
 1. To get started, go to **[!UICONTROL Data** > **File Uploads]**.
 
@@ -79,7 +79,7 @@ Now that your spreadsheet is correctly formatted and [!DNL MBI]-friendly, add it
 
 1. Click **[!UICONTROL Choose File]** and select the file. Click **[!UICONTROL Open]** to start the upload.
 
-   After the upload completes, a list of the columns [!DNL MBI] found in your file displays.
+   After the upload completes, a list of the columns [!DNL Commerce Intelligence] found in your file displays.
 
 1. Check that the column names and data types are correct. Specifically, check that any date columns are being read as dates and not numbers.
 
@@ -105,7 +105,7 @@ Uploaded tables display under the **File Uploads** section of the table list (in
 
 ## Updating or appending data to an existing table {#appending}
 
-Got some new data to add to a file you have already uploaded? No problem - you can easily update and append data in [!DNL MBI].
+Got some new data to add to a file you have already uploaded? No problem - you can easily update and append data in [!DNL Commerce Intelligence].
 
 1. To get started, go to **[!UICONTROL Manage Data** > **File Uploads]**.
 
@@ -115,7 +115,7 @@ Got some new data to add to a file you have already uploaded? No problem - you c
 
 1. Use the dropdown to select the option for handling duplicate rows:
 
-    | | |
+    |Option |Description |
     |---|---|
     |`Overwrite old row with new row`|This overwrites existing data with new data if a row has the same primary key in both the existing table and the new file. This is the method to use for columns with values that change over time - for example, a Status column. Existing data is overwritten and updated with the new data. Rows with primary keys not in the existing table are added as new rows.|
     |`Retain old row; discard new row`|This causes new data to be ignored if a row has the same primary key in both the existing table and the new file.|
@@ -125,7 +125,7 @@ Got some new data to add to a file you have already uploaded? No problem - you c
 
 1. Click **[!UICONTROL Open]** to start the upload.
 
-    After the upload completes, [!DNL MBI] will validate the data structure in the file. A *Success!* message appears at the top of the screen after your table is saved.
+    After the upload completes, [!DNL Commerce Intelligence] will validate the data structure in the file. A *Success!* message appears at the top of the screen after your table is saved.
 
 ## Data availability {#availability}
 
@@ -133,9 +133,9 @@ Just like calculated columns, data from file uploads is available after the next
 
 ## Wrapping up {#wrapup}
 
-This article covered only the basics for using importing data, but you may want to do something more advanced. Check out the Related articles for guidance on formatting and importing financial, eCommerce, ad spend, and other types of data.
+This topic covered only the basics for using importing data, but you may want to do something more advanced. Check out the Related articles for guidance on formatting and importing financial, eCommerce, ad spend, and other types of data.
 
-Also, file upload is not the only way to get your data into [!DNL MBI]. The [Data Import API](https://developer.adobe.com/commerce/services/reporting/import-api/) functions allow you to push arbitrary data into your [!DNL MBI] Data Warehouse.
+Also, file upload is not the only way to get your data into [!DNL Commerce Intelligence]. The [Data Import API](https://developer.adobe.com/commerce/services/reporting/import-api/) functions allow you to push arbitrary data into your [!DNL Commerce Intelligence] Data Warehouse.
 
 ## Related {#related}
 

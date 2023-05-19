@@ -1,19 +1,19 @@
 ---
-title: Decluttering your [!DNL MBI] Account
-description: Learn how to clean up your [!DNL MBI] account.
+title: Decluttering your [!DNL Commerce Intelligence] Account
+description: Learn how to clean up your [!DNL Commerce Intelligence] account.
 exl-id: 5fcdac2d-41ca-4011-b646-a699d9ecc6e4
 ---
-# Clean up your [!DNL MBI] Account
+# Clean up your [!DNL Adobe Commerce Intelligence] Account
 
-Whether you have been with [!DNL MBI] for six months or six years, maintaining a tidy account is paramount to your organization getting the most out of the platform. Over time, it is natural for there to be users, dashboards, reports, metrics, and columns that are no longer needed. Perhaps you created a report for one-time use and forgot about it or a user who left your company never had their account deactivated.
+Whether you have been with [!DNL Commerce Intelligence] for six months or six years, maintaining a tidy account is paramount to your organization getting the most out of the platform. Over time, it is natural for there to be users, dashboards, reports, metrics, and columns that are no longer needed. Perhaps you created a report for one-time use and forgot about it or a user who left your company never had their account deactivated.
 
-With [standardized, clear naming for all elements](../best-practices/naming-elements.md)) of your [!DNL MBI] account, the account audit steps below help you reduce the clutter and unnecessary analyses for your users. One additional benefit includes [potentially faster update cycles](../best-practices/reduce-update-cycle-time.md).
+With [standardized, clear naming for all elements](../best-practices/naming-elements.md)) of your [!DNL Commerce Intelligence] account, the account audit steps below help you reduce the clutter and unnecessary analyses for your users. One additional benefit includes [potentially faster update cycles](../best-practices/reduce-update-cycle-time.md).
 
 ## Step 1: Identify Your Non-Active Users
 
-The first step in cleaning up your account is to deactivate the accounts of your non-active users, such as people who have left the company or no longer use [!DNL MBI] in their current roles.
+The first step in cleaning up your account is to deactivate the accounts of your non-active users, such as people who have left the company or no longer use [!DNL Commerce Intelligence] in their current roles.
 
-You can do this by clicking your company's name in the top-right corner of the top navigation bar, then selecting **[!UICONTROL Manage Users]**. Next, select the user you want to deactivate, and click **[!UICONTROL Deactivate User]**. 
+To do this - click your company's name in the upper-right navigation bar, then select **[!UICONTROL Manage Users]**. Next, select the user you want to deactivate and click **[!UICONTROL Deactivate User]**. 
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ You can do this by clicking your company's name in the top-right corner of the t
 
 >[!WARNING]
 >
->Deactivating a user removes the charts, dashboards, and other assets created by that user. If you want to preserve these assets, contact the [!DNL MBI] [support](../guide-overview.md) team before deactivating the user. Support can help you transfer these assets to another user.
+>Deactivating a user removes the charts, dashboards, and other assets created by that user. If you want to preserve these assets, contact the [!DNL Commerce Intelligence] [support](../guide-overview.md#Submitting-a-Support-Ticket) team before deactivating the user. Support can help you transfer these assets to another user.
 
 ### Reactivate a User
 
@@ -83,7 +83,7 @@ After you have cleaned up your users list, dashboards, and reports, you can move
 1. To generate a list of dependent reports for a metric, go to **[!DNL Manage Data]**, then select Click **[!UICONTROL Metrics]**.
 1. Click **[!UICONTROL Edit]** next to a metric.
 1. At the bottom of the page, you see a section called **[!UICONTROL Dependent Charts]**. Click the link to generate a dependent reports list for this metric.
-1. After the system completes the check, [!DNL MBI] displays a list of dashboards, reports, and users using this metric.
+1. After the system completes the check, [!DNL Commerce Intelligence] displays a list of dashboards, reports, and users using this metric.
 
 ![](../../mbi/assets/report_dependecies.png)
 
@@ -93,7 +93,7 @@ If you decide that the metric is no longer needed, navigate back to the **[!UICO
 
 The last step is to assess the columns currently being synced in your Data Warehouse. Not only can unsyncing columns declutter your account, it can also potentially reduce your update time.
 
-If you would like to pursue this, reach out to [!DNL MBI] [Support](../guide-overview.md). The Support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
+If you would like to pursue this, reach out to [!DNL Commerce Intelligence] [Support](../guide-overview.md#Submitting-a-Support-Ticket). The Support team can create a report that includes all columns that are not being used in any dashboard for any user and that are not used in email summaries, excluding SQL Reports. You can then use this report as a guide for selecting columns to unsync via the Data Warehouse Manager.
 
 >[!NOTE]
 >
@@ -116,4 +116,4 @@ Here is a look at the whole process:
 
 ## Wrapping up
 
-That is it! Your [!DNL MBI] account should now be tidier and easier to navigate for you and your team.
+Your [!DNL Commerce Intelligence] account should now be tidier and easier to navigate for you and your team.

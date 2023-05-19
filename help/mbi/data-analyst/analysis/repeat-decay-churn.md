@@ -33,13 +33,13 @@ Understanding the percentage of customers that are expected to make repeat purch
 
 ## Today's example
 
-Look at the repeat probability decay for a typical eCommerce business.
+Look at the repeat probability decay for a typical ecommerce business.
 
 ![Initial repeat order probability repeat order probability given months since order.](../../assets/Order_probability_reports.png)
 
 ### Initial repeat order probability
 
-In this example, the initial repeat order probability - or the likelihood that a customer makes a repeat purchase - is 60%. This means that 60% of all orders placed with this business are followed by a subsequent order.
+In this example, the initial repeat order probability - or the likelihood that a customer makes a repeat purchase - is 60 percent. This means that 60 percent of all orders placed with this business are followed by a subsequent order.
 
 ### Repeat order probability given months since order
 
@@ -70,7 +70,7 @@ After creating the above analysis and determining a churn threshold, you can bui
 
 If you offer more than one product, you probably wonder how customers that purchase a specific product behave differently over time compared to other customers. Want to know more? Check out this tutorial to explore the lifetime purchasing behavior of customer cohorts based on specific products that they have purchased.
 
-This best practice is provided by [!DNL MBI] Data Analysis Services (DAS). [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for more info.
+This best practice is provided by [!DNL Adobe Commerce Intelligence] Data Analysis Services (DAS). [Contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) for more info.
 
 ### Related
 

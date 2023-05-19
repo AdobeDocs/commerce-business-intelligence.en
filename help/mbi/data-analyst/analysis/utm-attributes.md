@@ -3,9 +3,9 @@ title: Google Analytics and UTM Attribution
 description: Learn about the Google Analytics source attribution process.
 exl-id: 48b8a3d3-f1ac-4d3f-8f65-db1245c9ae0a
 ---
-# Google Analytics and UTM Attribution
+# [!DNL Google Analytics] and UTM Attribution
 
-It is critical to [track user acquisition source](../../data-analyst/analysis/google-track-user-acq.md) to [identify the best performing advertising campaigns](../../data-analyst/analysis/most-value-source-channel.md). This article explores the Google Analytics source attribution process. In other words, what piece of information is recorded when.
+It is critical to [track user acquisition source](../../data-analyst/analysis/google-track-user-acq.md) to [identify the best performing advertising campaigns](../../data-analyst/analysis/most-value-source-channel.md). This topic explores the [!DNL Google Analytics] source attribution process. In other words, what piece of information is recorded when.
 
 ## What is attribution?
 
@@ -25,11 +25,11 @@ When the UTM parameters are specified on the URL, these get parsed out and place
 
 Last click attribution is the most common attribution model employed by [!DNL Google Analytics]. In this case, the [!DNL Google Analytics] cookie represents the UTM parameters for the most recent source before the conversion event, and this is [recorded in the database](../../data-analyst/analysis/google-track-user-acq.md). The [!DNL Google Analytics] cookie only overwrites the previous UTM parameters if the user clicks on a new URL that contains a new set of UTM parameters.
 
-For example, consider a user who first visits a website via [!DNL Google Analytics][!DNL Google Analytics][!DNL Google Analytics] *paid search*, then returns via *organic search*, and finally comes back to the *website directly* or via an *email link* **without UTM parameters** before the conversion event. In this example, the [!DNL Google Analytics] cookie says the user's source is organic, since this represents the last source before the conversion. The *path* of the user before that final conversion event is ignored. If instead the user visited the website from an email link with UTM, then the [!DNL Google Analytics] cookie would say that the source is "email". Therefore, if there are existing UTM parameters in the cookie, and the user comes in via direct, the [!DNL Google Analytics] cookie shows the UTM parameters rather than "direct". 
+For example, consider a user who first visits a website via [!DNL Google Analytics] *paid search*, then returns via *organic search*, and finally comes back to the *website directly* or via an *email link* **without UTM parameters** before the conversion event. In this example, the [!DNL Google Analytics] cookie says the user's source is organic, since this represents the last source before the conversion. The *path* of the user before that final conversion event is ignored. If instead the user visited the website from an email link with UTM, then the [!DNL Google Analytics] cookie would say that the source is "email". Therefore, if there are existing UTM parameters in the cookie, and the user comes in via direct, the [!DNL Google Analytics] cookie shows the UTM parameters rather than "direct". 
 
 >[!NOTE]
 >
->A specific user's [!DNL Google Analytics] cookie parameters are erased when the cookie [expires](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage), or when a user clears their cookies in the browser.*)
+>A specific user's [!DNL Google Analytics] cookie parameters are erased when the cookie [expires](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage), or when a user clears their cookies in the browser.*
 
 ### First click attribution
 
@@ -39,10 +39,10 @@ Some paid attribution tools allow you to capture "the pancake stack" of sources 
 
 [!DNL Google Analytics] has some robust functionality in their web interface that lets you perform four different attribution models:
 
-* first click
-* last click
-* linear (divide revenue equally across all the sources in the path)
-* weighted (customized attribution)
+1. first click
+1. last click
+1. linear (divide revenue equally across all the sources in the path)
+1. weighted (customized attribution)
 
 Now that you understand what is the attribution model for each micro or macro-conversion, the question becomes "What do you do with the totality of a user's conversions?".  For example, look at the UTMs recorded based on the GA last click logic:
 

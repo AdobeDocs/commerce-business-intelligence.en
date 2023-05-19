@@ -5,7 +5,7 @@ exl-id: 34234ff6-b258-4369-9774-946d8423d4da
 ---
 # Permanently delete a chart
 
-Even if you [remove a chart from the dashboard](../../data-user/dashboards/remove-charts-dashboard.md), it still exists in your [!DNL MBI] account. 
+Even if you [remove a chart from the dashboard](../../data-user/dashboards/remove-charts-dashboard.md), it still exists in your [!DNL Commerce Intelligence] account. 
 
 To permanently delete a chart:
 

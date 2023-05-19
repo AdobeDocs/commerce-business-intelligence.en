@@ -7,7 +7,7 @@ exl-id: 0d486259-b210-42ae-8f79-cd91cc15c2c2
 
 Understanding the coupon performance of your business is an interesting way to segment your orders and better understand customer habits.
 
-This article documents the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
+This topic documents the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
 
 ![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
@@ -15,7 +15,7 @@ This article documents the steps required to create this analysis to understand 
 
 First, a note about how coupon codes are tracked. If a customer applied a coupon to an order, three things happen:
 
-* A discount is reflected in the `base_grand_total` amount (your `Revenue` metric in MBI)
+* A discount is reflected in the `base_grand_total` amount (your `Revenue` metric in Commerce Intelligence)
 * The coupon code is stored in the `coupon_code` field. If this field is NULL (empty), the order does not have a coupon associated with it.
 * The discounted amount is stored in `base_discount_amount`. Depending on your configuration, this value may appear negative or positive.
 

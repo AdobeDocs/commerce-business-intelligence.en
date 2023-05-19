@@ -5,6 +5,6 @@ exl-id: cd898aa0-afec-481a-b800-d156d57aba85
 ---
 # Working with Data
 
-MBI allows you to import data from multiple sources. In this section, learn the best practices for organizing and working with that data.
+[!DNL Adobe Commerce Intelligence] allows you to import data from multiple sources. In this section, learn the best practices for organizing and working with that data.
 
-You learn how to optimize your database and your SQL queries; how to check the update cycle status, and how to reduce the update cycle time.
+You learn how to optimize your database and your SQL queries, how to check the update cycle status, and how to reduce the update cycle time.

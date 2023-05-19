@@ -9,7 +9,7 @@ exl-id: 32c21093-2a7d-4d8e-afc0-19bd702f9b36
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-In **[!DNL Manage Data** > **Dashboards]**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. Covered in this article:
+In **[!DNL Manage Data** > **Dashboards]**, you can manage user permissions for dashboards you own, delete dashboards you no longer need, and set a default dashboard. This topic covers:
 
 1. [Renaming dashboards](#rename)
 
@@ -29,7 +29,7 @@ To rename a dashboard:
 
 ## Manage User Permissions {#userperm}
 
-Three levels of access exist in [!DNL MBI] for dashboards - `View`, `Edit`, and `None`.
+Three levels of access exist in [!DNL Commerce Intelligence] for dashboards - `View`, `Edit`, and `None`.
 
 * `View` allows selected users to view the dashboard but not edit it. Users can also resize charts, export data, and copy the charts onto their own dashboards using the Save As function if they have Standard or Admin permissions.
 

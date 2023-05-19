@@ -1,21 +1,21 @@
 ---
-title: Managing users and permissions
-description: Learn how to manage your [!DNL MBI] users.
+title: Managing Adobe Commerce users and permissions
+description: Learn how to manage your Commerce Intelligence users.
 exl-id: 2a5eeabb-3c13-4ca1-b845-ed255b389c9f
 ---
 # Manage user permissions
 
-MBI is intended to be a single source of truth across your organization. Each user has their own set of dashboards which they can [share with other users](../../data-user/dashboards/share-dashboard-with-users.md).
+[!DNL Adobe Commerce Intelligence] is intended to be a single source of truth across your organization. Each user has their own set of dashboards which they can [share with other users](../../data-user/dashboards/share-dashboard-with-users.md).
 
 ## User Permission Levels
 
-In [!DNL MBI], there are three general permission levels that apply to users, which are selected when an account is created:
+In [!DNL Commerce Intelligence], there are three general permission levels that apply to users, which are selected when an account is created:
 
 * `Admin`
 * `Standard`
 * `Read-Only`
 
-These permissions enable users to perform certain actions or access specific parts of [!DNL MBI]. Here is a table of what each permission level can do in MBI:
+These permissions enable users to perform certain actions or access specific parts of [!DNL Commerce Intelligence]. Here is a table of what each permission level can do in [!DNL Commerce Intelligence]:
 
 |   | `Admin` | `Standard` | `Read Only` |
 | -----|-----|-----|----|
@@ -46,7 +46,7 @@ These permissions enable users to perform certain actions or access specific par
 >
 >**[!UICONTROL Standard] _users can access Billing with an extra permission setting._
 >
->**[!UICONTROL Read-Only]** users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in [!DNL MBI], nor can they search for and add new dashboards to their account. Adobe recommends that you share a specific set of dashboards with **[!UICONTROL Read-Only]** users that you or another member of your team maintains. Do not clone a set of dashboards for them.
+>**[!UICONTROL Read-Only]** users can only _view_ dashboards that have been shared with them; they cannot create or edit anything in [!DNL Commerce Intelligence], nor can they search for and add new dashboards to their account. Adobe recommends that you share a specific set of dashboards with **[!UICONTROL Read-Only]** users that you or another member of your team maintains. Do not clone a set of dashboards for them.
 
 ## Additional permissions: Billing and Technical {#billingtech}
 
@@ -64,6 +64,6 @@ In addition to the general permission levels, two other user designations also e
 
 `Technical` users do not have any permissions specific to them - this setting just marks a technical contact within your organization. These users may be contacted by Adobe for technical questions.
 
-`Admin` users can add new users to their account by clicking **[!UICONTROL Account Settings]** > **[!UICONTROL Create Users]** and following the prompts. After the user is created in [!DNL MBI], the lucky person you are inviting will receive email instructions on how to complete the account setup process.
+`Admin` users can add new users to their account by clicking **[!UICONTROL Account Settings]** > **[!UICONTROL Create Users]** and following the prompts. After the user is created in [!DNL Commerce Intelligence], the lucky person you are inviting will receive email instructions on how to complete the account setup process.
 
 At any time, `Admins` can view all the users in their account by clicking **[!UICONTROL Account Settings]** > **[!UICONTROL Manage Users]**. This page displays the user's permissions and which metrics and dashboards that they can access.

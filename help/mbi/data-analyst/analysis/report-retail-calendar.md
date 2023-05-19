@@ -1,21 +1,21 @@
 ---
 title: Reporting on a retail calendar
-description: Learn how to set up the structure to use a 4-5-4 retail calendar within your [!DNL MBI] account.
+description: Learn how to set up the structure to use a 4-5-4 retail calendar within your [!DNL Commerce Intelligence] account.
 exl-id: 3754151c-4b0f-4238-87f2-134b8409e32b
 ---
 # Reporting on a Retail Calendar
 
-This article demonstrates how to set up the structure to use a [4-5-4 retail calendar](https://nrf.com/resources/4-5-4-calendar) within your [!DNL MBI] account. The visual report builder provides incredibly flexible time ranges, intervals, and independent settings. However, all of these settings work with the traditional monthly calendar in place.
+This topic demonstrates how to set up the structure to use a [4-5-4 retail calendar](https://nrf.com/resources/4-5-4-calendar) within your [!DNL Adobe Commerce Intelligence] account. The visual report builder provides incredibly flexible time ranges, intervals, and independent settings. However, all of these settings work with the traditional monthly calendar in place.
 
 Because many customers alter their calendar to use retail or accounting dates, the below steps illustrate how to work with your data and create reports using retail dates. Though the below instructions reference the 4-5-4 Retail calendar, you can alter them for any specific calendar your team uses, whether it be financial or just a custom time frame.
 
-Before getting started, you need to familiarize yourself with [the File Uploader](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) and ensure that you have elongated the `.csv` file. This ensures that the dates cover all of your historical data and push the dates into the future.
+Before getting started, you should review [the File Uploader](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) and ensure that you have elongated the `.csv` file. This ensures that the dates cover all of your historical data and push the dates into the future.
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Getting Started
 
-You can [download](../../assets/454-calendar.csv) a `.csv` version of the 4-5-4 retail calendar for retail years 2014 through 2017. You may need to adjust this file according to your internal retail calendar and extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your [!DNL MBI] Data Warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
+You can [download](../../assets/454-calendar.csv) a `.csv` version of the 4-5-4 retail calendar for retail years 2014 through 2017. You may need to adjust this file according to your internal retail calendar and extend the date range to support your historical and current time frame. After downloading the file, use the File Uploader to create a Retail Calendar table in your [!DNL Commerce Intelligence] Data Warehouse. If you are using an unaltered version of the 4-5-4 retail calendar, ensure that the structure and data types of the fields in this table match the following:
 
 | Column Name | Column Datatype | Primary Key |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ You can [download](../../assets/454-calendar.csv) a `.csv` version of the 4-5-4 
 
          >[!NOTE]
          >
-         >The `now()` function above is specific to PostgreSQL. Although most [!DNL MBI] data warehouses are hosted on PostgreSQL, some may be hosted on Redshift. If the calculation above returns an error, you may need to use the Redshift function `getdate()` instead of `now()`.
+         >The `now()` function above is specific to PostgreSQL. Although most [!DNL Commerce Intelligence] data warehouses are hosted on PostgreSQL, some may be hosted on Redshift. If the calculation above returns an error, you may need to use the Redshift function `getdate()` instead of `now()`.
 
     * **Current retail year** (Must be created by support analyst)
       * [!UICONTROL Column type]: E`vent Counter`
@@ -172,6 +172,6 @@ Note: No new metrics are needed for this analysis. However, make sure to [add th
 
 The above describes how to configure a retail calendar to be compatible with any metric built on your `sales\_order` table (such as `Revenue` or `Orders`). You can also extend this to support the retail calendar for metrics built on any table. The only requirement is that this table has a valid datetime field that can be used to join to the Retail Calendar table.
 
-So for example, to view customer level metrics on a 4-5-4 retail calendar, create a `Same Table` calculation in the `customer\_entity` table, similar to `\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)` described above. You can then use this column to reproduce the `One to Many` JOINED\_COLUMN calculations (like `Created_at (retail year)` and `Include in previous retail year? (Yes/No)` by joining the `customer\_entity` table to the `Retail Calendar` table.
+For example, to view customer level metrics on a 4-5-4 retail calendar, create a `Same Table` calculation in the `customer\_entity` table, similar to `\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)` described above. You can then use this column to reproduce the `One to Many` JOINED\_COLUMN calculations (like `Created_at (retail year)`) and `Include in previous retail year? (Yes/No)` by joining the `customer\_entity` table to the `Retail Calendar` table.
 
 Do not forget to [add all new columns as dimensions to metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before building new reports.

@@ -5,7 +5,7 @@ exl-id: fea8f7e9-c84c-4d49-a657-8b75140c113a
 ---
 # Transactional Customer Churn
 
-This article demonstrates how to set up a dashboard that helps you define churn for your transactional customers.
+This topic demonstrates how to set up a dashboard that helps you define churn for your transactional customers.
 
 ![](../../assets/churn-deashboard.png)
 
@@ -112,4 +112,4 @@ Once you have built out your dashboard, the most common question asked is: How d
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the image at the top of the page
 
-If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

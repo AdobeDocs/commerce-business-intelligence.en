@@ -11,7 +11,7 @@ One or more filters can be added to limit the data that is used to product a rep
 >
 >A report can have a maximum of 3,500 data points. To reduce the number of data points, use a filter to reduce the amount of data that is used to generate the report.
 
-MBI includes a selection of filters that you can use "out of the box (OOTB)," or modify to suit your needs. There is no limit to the number of filters that you can create.
+[!DNL Adobe Commerce Intelligence] includes a selection of filters that you can use "out of the box (OOTB)," or modify to suit your needs. There is no limit to the number of filters that you can create.
 
 ## To add a filter:
 

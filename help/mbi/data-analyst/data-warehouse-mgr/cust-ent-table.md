@@ -7,13 +7,13 @@ exl-id: 24bf0e66-eea0-45ea-8ce6-4ff99b678201
 
 The `customer_entity` table contains records of all registered accounts. An account is considered registered if they sign up for an account, regardless of whether they ever complete a purchase. Each row corresponds to one unique registered account, as identified by that account's `entity_id`.
 
-This table does not contain records of customers who place an order via guest checkout. If your store accepts guest checkout, [learn how to account](../data-warehouse-mgr/guest-orders.md) for those customers.
+This table does not contain records of customers who place an order via guest checkout. If your store accepts guest checkout, see [how to account for guest orders](../data-warehouse-mgr/guest-orders.md) for those orders.
 
 ## Common Columns
 
 |**Column Name**|**Description**|
 |---|---|
-|`created_at`|Timestamp corresponding to the account's registration date, stored locally in UTC. Depending on your configuration in [!DNL MBI], this timestamp may be converted to a reporting time zone in [!DNL MBI] that differs from your database time zone|
+|`created_at`|Timestamp corresponding to the account's registration date, stored locally in UTC. Depending on your configuration in [!DNL Commerce Intelligence], this timestamp may be converted to a reporting time zone in [!DNL Commerce Intelligence] that differs from your database time zone|
 |`email`|Email address associated with the account|
 |`entity_id` (PK)|Unique identifier for the table, and commonly used in joins to the `customer_id` in other tables within the instance|
 |`group_id`|Foreign key associated with the `customer_group` table. Join to `customer_group.customer_group_id` to determine the customer group associated with the registered account|

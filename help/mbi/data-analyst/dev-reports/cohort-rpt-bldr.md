@@ -5,19 +5,19 @@ exl-id: d80c5389-7256-40e0-86e0-49903113f93d
 ---
 # Cohort Report Builder
 
-Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who do not? If the answer is `Yes`, then the `Cohort Report Builder` is the perfect tool for you. [!DNL MBI] is optimized to perform this analysis and make it relevant to your business.
+Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who do not? If the answer is `Yes`, then the `Cohort Report Builder` is the perfect tool for you. [!DNL Adobe Commerce Intelligence] is optimized to perform this analysis and make it relevant to your business.
 
 ## What is cohort analysis? {#what}
 
 `Cohort` analysis can be broadly defined as the analysis of user groups that share similar characteristics over their life cycles. It allows you to identify behavioral trends across different user groups.
 
-For a more in-depth primer on `cohort` analysis, [look here](https://www.cohortanalysis.com/).
+For an in-depth primer on `cohort` analysis, review [this page](https://www.cohortanalysis.com/).
 
-In your [!DNL MBI] dashboard, it is easy to create user `cohorts` based on a `cohort` date and a metric in your account.
+In your [!DNL Commerce Intelligence] dashboard, it is easy to create user `cohorts` based on a `cohort` date and a metric in your account.
 
 ## Well, why is cohort analysis important? {#important}
 
-As mentioned above, `cohort` analysis allows you to identify behavioral trends among different user groups. With a solid understanding of how certain groups behave, you can tailor your decisions and spending to maximize your sales. Take, for example, a lifetime revenue `cohort` analysis - while this kind of analysis is beneficial for many reasons, the immediate one is better customer acquisition decisions.
+As mentioned above, `cohort` analysis allows you to identify behavioral trends among different user groups. With a solid understanding of how certain groups behave, you can tailor your decisions and spending to maximize your sales. For example, take a lifetime revenue `cohort` analysis - while this kind of analysis is beneficial for many reasons, the immediate one is better customer acquisition decisions.
 
 ## How do I create my own `cohort` analysis?
 
@@ -93,7 +93,7 @@ Here is an example to pull it all together. In this example, I want to check out
 
 #### Legacy Architecture {#personalinfo}
 
-Below are instructions specific to the legacy version of the `Cohort Report Builder`. If you are interested in using the new version, see [New Architecture](../../administrator/account-management/new-architecture.md) for more information about migrating to an [!DNL MBI] New Architecture account.
+Below are instructions specific to the legacy version of the `Cohort Report Builder`. If you are interested in using the new version, see [New Architecture](../../administrator/account-management/new-architecture.md) for more information about migrating to an [!DNL Commerce Intelligence] New Architecture account.
 
 #### How do I create my own `cohort` analysis? {#create}
 
@@ -101,7 +101,7 @@ Below are instructions specific to the legacy version of the `Cohort Report Buil
 
 `Cohort` analysis in action! Here, you can see revenue growing over time on a cumulative and per-user basis.
 
-This section walks you through creating your own `cohort` analysis. For examples (and animated GIFs demonstrating the process), look at the [Examples section](#examples) of this article.
+This section walks you through creating your own `cohort` analysis. For examples (and animated GIFs demonstrating the process), look at the [Examples section](#examples) of this topic.
 
 1. Click **[!UICONTROL Report Builder]** on the left tab or **[!UICONTROL Add Report** > **Create Report]** in any dashboard.
 

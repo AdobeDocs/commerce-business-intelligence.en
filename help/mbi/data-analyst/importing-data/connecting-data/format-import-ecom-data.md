@@ -5,7 +5,7 @@ exl-id: 7b910f78-9a5a-4d5d-a8b7-1b0b76304afe
 ---
 # Formatting and Importing Data
 
-If you are using an integration not currently supported by [!DNL MBI], you can still use the [File Upload feature](using-file-uploader.md) to get your data into your Data Warehouse. This article covers the ideal data formats to be used for uploading eCommerce data.
+If you are using an integration not currently supported by [!DNL Adobe Commerce Intelligence], you can still use the [File Upload feature](using-file-uploader.md) to get your data into your Data Warehouse. This topic covers the ideal data formats to be used for uploading ecommerce data.
 
 ## `Orders` table
 

@@ -5,7 +5,7 @@ exl-id: 6279b049-d1b2-4d40-b30b-ee8772e990f4
 ---
 # Share dashboards with other users
 
-Sharing dashboards is a great way to keep your team in the loop and encourage collaborative discussion. By creating and sharing a central dashboard, you can provide your team with the information they need while still maintaining control. [Adobe recommends](../../best-practices/share-dashboard-best-practice.md){: target="_blank"} that you grant `Edit` rights to a select few to minimize accidental changes.
+Sharing dashboards is a great way to keep your team in the loop and encourage collaborative discussion. By creating and sharing a central dashboard, you can provide your team with the information they need while still maintaining control. [[!DNL Adobe] recommends](../../best-practices/share-dashboard-best-practice.md){: target="_blank"} that you grant `Edit` rights to a select few to minimize accidental changes.
 
 >[!NOTE]
 >
@@ -15,7 +15,7 @@ Sharing dashboards is a great way to keep your team in the loop and encourage co
 
 1. Click **[!UICONTROL Share Dashboard]** at the top of the screen.
 
-   A list of all users in your [!DNL MBI] account will display.
+   A list of all users in your [!DNL Commerce Intelligence] account will display.
 
 1. To select a user to share the dashboard with, check the box to the left of their name.
 

@@ -3,17 +3,17 @@ title: Use Time Options in the Visual Report Builder
 description: Learn to analyze the data in your report for a specific time period.
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
 ---
-# Use `Time` Options in `Visual Report Builder`
+# Use [!DNL Time] Options in [!DNL Visual Report Builder]
 
-One of the features of the `Visual Report Builder` is the global `Time Range` and `Interval` settings. These settings allow you to analyze the data in your report for a specific time period.
+One of the features of the [!DNL Visual Report Builder] is the global `Time Range` and `Interval` settings. These settings allow you to analyze the data in your report for a specific time period.
 
-However, for some analyses, you may need to consider different Time Ranges or Time Intervals in the same report. That is where `Time` Options come in. To give you a better idea of how to use `Time` Options in your reports, this tutorial covers the following use cases:
+However, for some analyses, you may need to consider different Time Ranges or Time Intervals in the same report. That is where `Time` Options come in. To give you a better idea of how to use `Time` options in your reports, this tutorial covers the following use cases:
 
 * [Analyzing Metrics without Timestamps](#notimestamp)
 * [Giving One Metric an Independent Time Interval](#independenttimeinterval)
 * [Comparing the Same Metric Across Different Time Ranges](#difftimerange)
 
-If you want to follow along with some of the sample reports discussed in this topic, open the [`Visual Report Builder`](../data-user/reports/ess-rpt-build-visual.md) before continuing.
+If you want to follow along with some of the sample reports discussed in this topic, open the [[!DNL Visual Report Builder]](../data-user/reports/ess-rpt-build-visual.md) before continuing.
 
 ## Analyzing Metrics without Timestamps {#notimestamp}
 
@@ -58,7 +58,7 @@ Now you can see just how impactful each month was last year:
 
 ## Comparing the Same Metric Across Different Time Ranges {#difftimerange}
 
-This example uses a custom dimension called `Day number of the month`. If you want to create this report and do not already have this dimension in your Data Warehouse, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) for assistance.
+This example uses a custom dimension called `Day number of the month`. If you want to create this report and do not already have this dimension in your Data Warehouse, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) for assistance.
 
 The two most common examples in this category are (1) comparing growth metrics (revenue year-over-year or month-over-month) and (2) better understanding recent inventory or item sales trends.
 

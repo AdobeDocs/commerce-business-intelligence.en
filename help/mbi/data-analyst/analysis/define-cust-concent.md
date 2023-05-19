@@ -5,7 +5,7 @@ exl-id: 6242019f-a6a5-48d3-b214-94acd7842e00
 ---
 # Customer Concentration
 
-This article demonstrates how to set up a dashboard that helps you measure how total revenue is distributed among your customer base. Understand what percent of customers contribute what percent of revenue and create segmented lists to best market to and retain your high contributing customers.
+This topic demonstrates how to set up a dashboard that helps you measure how total revenue is distributed among your customer base. Understand what percent of customers contribute what percent of revenue and create segmented lists to best market to and retain your high contributing customers.
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
@@ -136,4 +136,4 @@ Columns to create
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the above sample dashboard.
 
-If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

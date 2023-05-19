@@ -5,9 +5,9 @@ exl-id: 9b9bc205-5b64-4e64-8d23-057072e5dd72
 ---
 # Create Visualizations from SQL Queries
 
-The goal for this tutorial is to familiarize you with the terminology used in the `SQL Report Builder` and give you a solid foundation for creating `SQL visualizations`.
+The goal for this tutorial is to familiarize you with the terminology used in the [!DNL SQL Report Builder] and give you a solid foundation for creating `SQL visualizations`.
 
-The [`SQL Report Builder`](../data-analyst/dev-reports/sql-rpt-bldr.md) is a report builder with options: you can run a query for the sole purpose of retrieving a table of data, or you can turn those results into a report. This tutorial explains how to build a visualization from a SQL query.
+The [[!DNL SQL Report Builder]](../data-analyst/dev-reports/sql-rpt-bldr.md) is a report builder with options: you can run a query for the sole purpose of retrieving a table of data, or you can turn those results into a report. This tutorial explains how to build a visualization from a SQL query.
 
 ## Terminology
 
@@ -27,13 +27,13 @@ Before you begin this tutorial, refer to the following terminology used in the `
 
 Keep in mind the following:
 
-- The `SQL Report Builder` uses [`Redshift SQL`](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html).
+- The [!DNL SQL Report Builder] uses [`Redshift SQL`](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html).
 
 - If you are creating a report with a time series, be sure to `ORDER BY` the timestamp column(s). This ensures that the timestamps are plotted in the right order on the report.
 
 - The `EXTRACT` function is great to use for parsing out the day, week, month, or year of the timestamp. This is useful when the `time interval` you want to use on the report is `daily`, `weekly`, `monthly`, or `yearly`.
 
-To get started, open up the `SQL Report Builder` by clicking **[!UICONTROL Report Builder** > **SQL Report Builder]**.
+To get started, open up the [!DNL SQL Report Builder] by clicking **[!UICONTROL Report Builder** > **SQL Report Builder]**.
 
 As an example, consider this query that returns the monthly total number of items sold for each product:
 
@@ -88,6 +88,6 @@ If you want to use this report again, give the report a name and click **[!UICON
 
 In the dropdown, select `Chart` as the `Type` and then a dashboard to save the report to.
 
-## Congratulations! You've finished.
+## Wrapping Up
 
 Want to take it a step further? Check out the [query optimization best practices](../best-practices/optimizing-your-sql-queries.md).

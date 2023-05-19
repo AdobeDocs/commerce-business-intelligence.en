@@ -1,13 +1,13 @@
 ---
 title: Expected Commerce Data
-description: Explore the main data tables that Commerce users import into MBI
+description: Explore the main data tables that Commerce users import into Commerce Intelligence
 exl-id: b481c8fc-41b6-4094-8901-17d57f26bfc0
 ---
-# Expected Commerce Data
+# Expected [!DNL Adobe Commerce] Data
 
-After you have [connected your Commerce store](../../../data-analyst/importing-data/integrations/magento.md), you can use the Data Warehouse Manager to easily track relevant data fields from your Commerce database for analysis.
+After you have [connected your [!DNL Adobe Commerce] store](../../../data-analyst/importing-data/integrations/magento.md), you can use the Data Warehouse Manager to easily track relevant data fields from your Commerce database for analysis.
 
-This article explores the main data tables that Commerce users import into [!DNL MBI].
+This topic explores the main data tables that Commerce users import into [!DNL Commerce Intelligence].
 
 | **Table name** | **Description** |
 |-----|-----|
@@ -22,4 +22,4 @@ This article explores the main data tables that Commerce users import into [!DNL
 ## Related
 
 * [Connecting [!DNL Adobe Commerce]](../integrations/magento.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

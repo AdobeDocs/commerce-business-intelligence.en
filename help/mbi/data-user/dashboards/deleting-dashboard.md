@@ -9,7 +9,7 @@ If you want to keep your dashboard list from becoming too cluttered, you can del
 
 1. [Via the `Account Settings` page](#account) - this method Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-1. [Via the `Dashboard Options` menu](#do) - this method requires you to own the dashboard or have Edit permissions.
+1. [Via the `Dashboard Options` menu](#do) - this method requires you to own the dashboard or have `Edit` permissions.
 
 ## Delete Dashboard via the `Account Settings` page {#account}
 

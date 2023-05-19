@@ -41,7 +41,7 @@ A formula combines multiple metrics and mathematical logic to answer a question.
 
     Do the following:
 
-    * In the `Enter your Formul` input box, enter `A/B`.
+    * In the `Enter your Formula` input box, enter `A/B`.
 
         This divides the revenue by products ordered by the number of new customers.
 
@@ -65,7 +65,7 @@ A formula combines multiple metrics and mathematical logic to answer a question.
 
     * On the calendars, choose the date range.
 
-        For this example, the holiday season is from November 1 through December 31.
+        For this example, the holiday season is from `November 1` through `December 31`.
 
     * Under `Select Time Interval`, choose `Day`.
 

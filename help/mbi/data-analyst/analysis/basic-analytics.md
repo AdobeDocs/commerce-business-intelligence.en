@@ -5,7 +5,7 @@ exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
 ---
 # Basic Analytics
 
-Once you are familiar with the [!DNL MBI] platform and have a basic understanding of the tool, you are going to want to start building reports. One of the most common questions you may have is "What should I be looking at?"
+Once you are familiar with the [!DNL Adobe Commerce Intelligence] platform and have a basic understanding of the tool, you are going to want to start building reports. One of the most common questions you may have is "What should I be looking at?"
 
 The information below outlines some of the common metrics and reports that you might find valuable. Some of these reports exist within your account, so make sure you review the metrics and reports that exist within your account to avoid creating duplicates.
 
@@ -38,7 +38,7 @@ If some of these calculations do not currently exist in your database, any admin
 
 **Do you accept guest orders?**
 
-*If so, this table may not contain all of your customers. Contact the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to ensure your customer analyses include all customers.*
+*If so, this table may not contain all of your customers. Contact the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) to ensure your customer analyses include all customers.*
 
 *Not sure if you accept guest orders? Refer to [this topic](../data-warehouse-mgr/guest-orders.md) to learn more!*
 
@@ -52,7 +52,7 @@ In this table, each row represents one order. The columns in this table contain 
 * **[!UICONTROL Created_at]**: The date the order was created or placed.
 * **[!UICONTROL Customer_email]**: The email address of the customer who placed the order. This may also be the unique identifier for the customer.
 * **[!UICONTROL Customer's lifetime number of orders]**: A copy of the column with the same name on your `Customers` table.
-* **[!UICONTROL Customer's order number]**: The customer's sequential order number associated with the order. For example, if the row you are looking at is a customer's first order, this column is "1"; but, if this was the customer's 15th order, this column shows "15" for this order. If this dimension does not exist on your `Customers` table, ask the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to help you build it.
+* **[!UICONTROL Customer's order number]**: The customer's sequential order number associated with the order. For example, if the row you are looking at is a customer's first order, this column is "1"; but, if this was the customer's 15th order, this column shows "15" for this order. If this dimension does not exist on your `Customers` table, ask the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) to help you build it.
 * **[!UICONTROL Customer's order number (previous-current)]**: A concatenation of two values in the **[!UICONTROL Customer's order number]** column. It is used in a sample report below to display the elapsed time between any two orders. For example, the time between a customer's first order date and their second order date is represented as "1-2" with this calculation.
 * **[!UICONTROL Coupon_code]**: Shows which coupons were used on each order.
 * **[!UICONTROL Seconds since previous order]**: The time (in seconds) between a customer's orders.

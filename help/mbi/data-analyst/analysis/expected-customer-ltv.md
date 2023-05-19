@@ -5,7 +5,7 @@ exl-id: e353b92a-ff3b-466b-b519-4f86d054c0bc
 ---
 # Expected Lifetime Value Analysis
 
-This article demonstrates how to set up a dashboard that helps you understand customer lifetime value growth and expected lifetime value of your customers. 
+This topic demonstrates how to set up a dashboard that helps you understand customer lifetime value growth and expected lifetime value of your customers. 
 
 ![](../../assets/exp-lifetim-value-anyalysis.png)
 
@@ -132,4 +132,4 @@ Other chart details
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the image at the top of the page.
 
-If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

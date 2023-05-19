@@ -5,7 +5,7 @@ exl-id: 7a0ad07a-5bcc-474f-95bc-ccc2b74073b2
 ---
 # Formulas in the `Report Builder`
 
-In the [`Report Builder`](../../tutorials/using-visual-report-builder.md), you can create powerful visualizations using the [defined metrics](../../data-user/reports/ess-manage-data-metrics.md) in your account. Combining these metrics in a formula allows you to glean additional insights from your data. This article dives into how formulas can be used in the `Report Builder` - lets jump in!
+In the [`Report Builder`](../../tutorials/using-visual-report-builder.md), you can create powerful visualizations using the [defined metrics](../../data-user/reports/ess-manage-data-metrics.md) in your account. Combining these metrics in a formula allows you to glean additional insights from your data. This topic dives into how formulas can be used in the `Report Builder` - lets jump in!
 
 ## What is a `formula`? {#what}
 
@@ -57,4 +57,4 @@ In this example, you used the `Stacked Columns` perspective to display the resul
 
 Did you notice in the examples above that the formula's `timestamp`, `groupings`, `perspectives`, and `filters` are inherited from its input metrics? Keep in mind that formulas can be used to use `perspectives` and [independent time options](../../tutorials/time-options-visual-rpt-bldr.md){: target="_blank"}, just like metrics can.
 
-If you have any additional questions about using formulas in the `Report Builder`, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you have any additional questions about using formulas in the `Report Builder`, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

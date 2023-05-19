@@ -3,13 +3,13 @@ title: Cohort Report Builder for Non-Date Based Cohorts
 description: Learn to group users by a similar activity or attribute.
 exl-id: c7b85ce9-113c-4ffc-855f-3d53fe2347d8
 ---
-# `Cohort Report Builder for Non-Date-Based Cohorts`
+# [!DNL Cohort Report Builder] for Non-Date-Based Cohorts
 
-The [`Cohort Report Builder`](../dev-reports/cohort-rpt-bldr.md) has been great at helping merchants study how different subsets of users behave over time. In the past, the `Cohort Report Builder` was optimized for grouping users by a common `cohort date` (for example, the set of all customers who made their first purchase in a given month). The `Non-Date Based Cohort` feature now gives you the power to group users by a similar activity or attribute. Look at a few use cases for this feature.
+The [`Cohort Report Builder`](../dev-reports/cohort-rpt-bldr.md) is great at helping merchants study how different subsets of users behave over time. In the past, the `Cohort Report Builder` was optimized for grouping users by a common `cohort date` (for example, the set of all customers who made their first purchase in a given month). The `Non-Date Based Cohort` feature now gives you the power to group users by a similar activity or attribute. Look at a few use cases for this feature.
 
 ## Use Cases
 
-This is not a comprehensive list, but here are some potential analyses that can be accomplished with this feature:
+This is not a comprehensive list, but here are some potential analyses that can be accomplished with this feature.
 
 * Examining the revenue of customers acquired from [!DNL Google] versus [!DNL Facebook]
 * Analyzing customers whose first purchase was made in the US versus Canada
@@ -27,7 +27,7 @@ Now that you are in the `Report Builder`, you add the metric that you want to pe
 
 >[!NOTE]
 >
->Native [!DNL Google Analytics] metrics are not compatible with the `Cohort Report Builder`. The goal for this example is to look at revenue over time for first-order customers who were acquired through different GA sources.
+>Native [!DNL Google Analytics] metrics are not compatible with the `Cohort Report Builder`. The goal for this example is to look at revenue over time for first-order customers who were acquired through different [!DNL Google Analytics] sources.
 
 ### Toggle `Metric View` to `Cohort`
 
@@ -43,9 +43,9 @@ Five specifications are needed to build a Cohort report:
 1. Cohort first action time range
 1. Time range after cohort occurrence
 
-![cohort-groups](../../assets/2-cohort-groups.png){: width="200" height="224"}
+![cohort-groups](../../assets/2-cohort-groups.png)<!--{: width="200" height="224"}-->
 
-![cohort-first-action-time-range](../../assets/3-cohort-first-action-time-range.png){: width="400" height="554"}
+![cohort-first-action-time-range]<!--(../../assets/3-cohort-first-action-time-range.png){: width="400" height="554"}-->
 
 #### 1. Grouping `cohorts`
 
@@ -71,7 +71,10 @@ Do you want to see the `cohorts` over time by month, week, or year? Here is wher
 
 ![cohort-first-action-time-range](../../assets/5-cohort-first-action-time-range.png)<!--{: width="400" height="557"}-->
 
-### Other notes
+>[!NOTE]
+>
+>[!UICONTROL Filters] applied to your metrics remain intact when you toggle between `Standard` and `Cohort` views.
 
-* [!UICONTROL Filters]: applied to your metrics remain intact when you toggle between `Standard` and `Cohort` views
-* See [`Perspectives`](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
+### Related
+
+See [`Perspectives`](../../data-analyst/dev-reports/cohort-rpt-bldr.md).

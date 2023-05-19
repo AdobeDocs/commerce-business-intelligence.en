@@ -1,17 +1,17 @@
 ---
 title: Creating and Using a SQL Calculated Column
-description: Learn how advanced columns can be created in the form of SQL Calculation columns on the new MBI architecture.
+description: Learn how advanced columns can be created in the form of SQL Calculation columns on the new Adobe Commerce Intelligence architecture.
 exl-id: f16e4ee4-ed73-4ddb-b701-1fe3db14346a
 ---
 # Create a SQL Calculated Column
 
-This topic outlines the purpose and uses of the `Calculation` column type: that can be added to tables using the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md). Below is an explanation of what SQL calculations do, why they are used, the process for creating a SQL calculation, and two examples.
+This topic outlines the purpose and uses of the `Calculation` column type, that can be added to tables using the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md). Below explains what SQL calculations do, why they are used, the process for creating a SQL calculation, and includes two examples.
 
 **Explanation**
 
-In the past, columns that were deemed `advanced` could only be done by an analyst on the Customer Success team here at [!DNL MBI]. Now all the power is in the hands of the end user, and advanced columns can be created in the form of `SQL Calculation` columns on the new [!DNL MBI] architecture.
+In the past, columns that were deemed `advanced` could only be done by an analyst on the Customer Success team here at [!DNL Adobe Commerce Intelligence]. Now all the power is in the hands of the end user, and advanced columns can be created in the form of `SQL Calculation` columns on the new [!DNL Commerce Intelligence] architecture.
 
-The `Calculation` column type, now available as an option in the Data Warehouse Manager, is a same table operation that allows you to transform the columns on a table using PostgreSQL logic. Documentation on the functions and operators that can be used in the `Calculatio`n column type can be found on the PostgreSQL website [here](https://www.postgresql.org/docs/9.6/functions.html).
+The `Calculation` column type, now available as an option in the Data Warehouse Manager, is a same table operation that allows you to transform the columns on a table using PostgreSQL logic. Documentation on the functions and operators that can be used in the `Calculation` column type can be found on the PostgreSQL website [here](https://www.postgresql.org/docs/9.6/functions.html).
 
 The different columns that can be created with the `Calculation` column are almost unlimited, but most columns can be created using IF-THEN statements and basic arithmetic, which is used in the examples below.
 
@@ -67,4 +67,5 @@ From here you can create a `Calculation` column by following the steps below:
     * `Datetime` – yyyy-MM-dd hh:mm:ss format
 
 1. Click **[!UICONTROL test column]**. This generates a list of five test values for each of your inputs and shows the result of the logic from step 6 for each set of test values. If any portion of the SQL generates an error, the appropriate error message is returned. Sample results can only be generated if all input columns are native fields. If any of the input columns are calculated columns, you must validate the results by adding the column to a metric and viewing in the Visual Report Builder
-1. When you are satisfied with the results, Click **[!UICONTROL Save]**. The column enables for use.
+
+1. When you are satisfied with the results, click **[!UICONTROL Save]**. The column enables for use.

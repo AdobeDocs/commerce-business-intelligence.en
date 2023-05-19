@@ -1,13 +1,13 @@
 ---
 title: Create a qualitative cohort analysis
-description: Learn what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL MBI].
+description: Learn what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in Commerce Intelligence.
 exl-id: 113244e4-409b-4129-b3d4-7a3433539ade
 ---
 # Create a `Qualitative Cohort Analysis`
 
-Do you know how your [!DNL Adwords]-acquired customer segments grow their LTV compared to those customers acquired from organic search? Have you ever thought of performing a `cohort` analysis on different customer segments side by side in the same report? If so, a `qualitative cohort analysis` helps you answer those questions.
+Do you know how your [!DNL Google Adwords]-acquired customer segments grow their LTV compared to those customers acquired from organic search? Have you ever thought of performing a `cohort` analysis on different customer segments side by side in the same report? If so, a `qualitative cohort analysis` helps you answer those questions.
 
-This article dives into what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL MBI].
+This topic dives into what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in [!DNL Commerce Intelligence].
 
 ## What are `qualitative cohorts`, anyway? {#whatare}
 
@@ -15,7 +15,7 @@ This article dives into what a qualitative cohort is, why you might be intereste
 
 See [cohort analysis](https://www.cohortanalysis.com/).
 
-Most `cohort` analyses in [!DNL MBI] group users together by a common date (for example, the set of all customers who made their first purchase in a given month). A `qualitative cohort` is a little different: it is a user group that is defined by a characteristic that is not time-based. Some examples include:
+Most `cohort` analyses in [!DNL Commerce Intelligence] group users together by a common date (for example, the set of all customers who made their first purchase in a given month). A `qualitative cohort` is a little different: it is a user group that is defined by a characteristic that is not time-based. Examples include:
 
 * The set of all users that were acquired from an ad campaign
 * The set of all users whose first purchase included a coupon (or did not)
@@ -31,7 +31,7 @@ However, if you want to analyze the cohort behavior of multiple user segments in
 
 Creating a `qualitative cohort` report in the `Report Builder` involves the Adobe analyst team creating some [advanced calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) on the necessary tables.
 
-To build these, submit a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) (and reference this article!). Here is what you need to know:
+To build these, submit a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (and reference this article!). Here is what you need to know:
 
 * The `metric` you want to perform your cohort analysis with and what table it uses (example: `Revenue`, built on the `orders` table).
 

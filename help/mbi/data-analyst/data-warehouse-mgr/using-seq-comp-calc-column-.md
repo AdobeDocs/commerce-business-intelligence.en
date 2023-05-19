@@ -5,7 +5,7 @@ exl-id: 625062b4-f05d-42aa-94c3-729b39c7d728
 ---
 # Sequential Comparison Calculated Column
 
-This topic outlines the purpose and uses of the `Sequential Comparison` calculated column available in the **[!DNL Manage Data > Data Warehouse]** page. Below is an explanation of what it does, followed by an example, and the mechanics of creating it.
+This topic outlines the purpose and uses of the `Sequential Comparison` calculated column available in the **[!DNL Manage Data > Data Warehouse]** page. Below is an explanation of what it does, followed by an example and the mechanics of creating it.
 
 **Explanation**
 
@@ -33,17 +33,25 @@ For this calculated column type, the row corresponding to the owner's first even
 
 To create an **Event Number** column:
 
-1. Navigate to the **[!DNL Manage Data** > **Data Warehouse]** page.
+1. Navigate to the **[!DNL Manage Data > Data Warehouse]** page.
+
 1. Navigate to the table on which you want to create this column.
-1. Click **[!UICONTROL Create New Column]** at the top right of the screen.
+
+1. Click **[!UICONTROL Create New Column]** in the upper-right corner.
+
 1. Select `Same Table` as the `Definition Type` (if the columns that you want to compare are not on the same table you may need to relocate them).
+
 1. Select `SEQUENTIAL_COMPARISON` as the `Column Definition Equation`.
+
 1. Choose the inputs, as explained above:
    - `Event Owner`
    - `Event Date`
    - `Value to Compare`
-1. Filters can also be added to exclude rows from being considered. The excluded rows have a NULL value for this column.
-1. Provide a name for the column at the top of the page and Click **[!UICONTROL Save]**.
+
+1. Filters can also be added to exclude rows from being considered. The excluded rows have a `NULL` value for this column.
+
+1. Provide a name for the column at the top of the page and click **[!UICONTROL Save]**.
+
 1. The column is available to use *immediately*.
 
 ![SEC](../../assets/SEC_new.png)

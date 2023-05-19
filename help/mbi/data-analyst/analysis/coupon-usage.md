@@ -5,15 +5,13 @@ exl-id: d4d1393f-1695-43f2-980a-84525f84031e
 ---
 # Coupon Usage
 
-Do you ever wonder how offering coupons affects your business? Want to know which coupons are helping or hurting performance? This article explores analyses that give you a good picture of your customers' coupon usage by answering these questions:
+Do you ever wonder how offering coupons affects your business? Want to know which coupons are helping or hurting performance? This topic explores analyses that give you a good picture of your customers' coupon usage by answering these questions:
 
 * How many customers are using coupons?
 * How many coupons are being used?
 * What is your revenue before and after coupons are applied?
 * What is the average order value before and after coupons are applied?
 * What kind of customers are you attracting with coupons?
-
-Lets get started!
 
 ## Recommended metrics {#metrics}
 
@@ -103,7 +101,7 @@ For average lifetime revenue, you can see that the average lifetime revenue for 
 
 ## What else can I analyze? {#otheranalyses}
 
-The analyses mentioned in this article can give you valuable insight into how your customers use your coupons, but there are a multitude of other analyses that allow you to dig a little deeper.
+The analyses mentioned in this topic can give you valuable insight into how your customers use your coupons, but there are a multitude of other analyses that allow you to dig a little deeper.
 
 **You could analyze your customer acquisitions from coupons.**
 

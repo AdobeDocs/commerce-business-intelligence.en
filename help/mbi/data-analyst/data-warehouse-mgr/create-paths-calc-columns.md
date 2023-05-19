@@ -12,7 +12,7 @@ When [creating calculated columns](../data-warehouse-mgr/creating-calculated-col
 1. How the tables in your databases relate to each other
 1. The primary and foreign keys that define this relationship
 
-If you know this information, you are able to easily create a path following the instructions in this article. An overview of these concepts if you are feeling a little unsure, but you may want to ask a technical expert in your organization or contact the Adobe support team.
+If you know this information, you can easily create a path following the instructions in this topic. You may want to ask a technical expert in your organization or contact the [Professional Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ## Refreshers on table relationships and key types {#refresher}
 
@@ -30,7 +30,7 @@ Tables can be related to one another in one of three ways:
 
 {style="table-layout:auto"}
 
-Once a relationship between two tables is understood, it can be used to determine what path should be created to bring information from one table to another. This next step requires knowing the primary and foreign keys that facilitate a table relationship.
+When a relationship between two tables is understood, it can be used to determine what path should be created to bring information from one table to another. This next step requires knowing the primary and foreign keys that facilitate a table relationship.
 
 ### Primary and foreign keys {#keys}
 
@@ -51,9 +51,9 @@ Use the relationship between **customers** and **orders** to show you how it is 
 Now, you can create the path.
 
 1. Click **[!UICONTROL Data > Data Warehouse]**.
-1. In the table list, click the table you want to create the column in. In this example, it is the `customers` table.
+1. In the table list, click the table in which you want to create the column. In this example, it is the `customers` table.
 1. The table schema displays. Click **[!UICONTROL Create New Column]**.
-1. Give your column a name - for example, `Customer's orders`.
+1. Give your column a name, for example, `Customer's orders`.
 1. Select the definition for the column. Check out the [Calculated Column Guide](../data-warehouse-mgr/creating-calculated-columns.md) for a handy cheat sheet.
 1. In the [!UICONTROL Select table and column] dropdown, click the **[!UICONTROL Create new path]** option. 
 
@@ -69,20 +69,23 @@ Now, you can create the path.
 
 ### Limitations of Creating Paths {#limits}
 
-* **[!DNL MBI] cannot guess primary/foreign key relationships**. You do not want to introduce incorrect data into your account, so creating paths must be done manually.
-* **Currently, paths can only be specified between two different tables**. Does the logic that you are trying to recreate involve more than two tables? It then might make sense to (1) join the columns to an intermediary table first, then to the "final destination" table, or (2) consult with the Adobe team to find the best approach to your goals.
+* **[!DNL Commerce Intelligence] cannot guess primary/foreign key relationships**. You do not want to introduce incorrect data into your account, so creating paths must be done manually.
+
+* **Currently, paths can only be specified between two different tables**. Does the logic that you are trying to recreate involve more than two tables? It then might make sense to (1) join the columns to an intermediary table first, then to the "final destination" table, or (2) consult with the [Professional Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) to find the best approach to your goals.
+
 * **A column can only be the foreign key reference for ONE path at one time**. For example, if `order_items.order_id` points to `orders.id`, then `order_items.order_id` cannot point to anything else.
+
 * **`Many-to-many` paths can technically be created, but often produce bad data because neither side is a true `one-to-many` foreign key**. The best way to approach these paths always depend on the specific desired analysis. Consult the RJ analyst team to uncovering the best solution.
 
 If you are prevented from creating a calculated column due to one or more of the limitations above, contact support with a description of the column you are
 
 ## Delete a Calculated Column Path {#delete}
 
-Created an incorrect path in your Data Warehouse? Or maybe you are doing a little spring cleaning and want to tidy up? If you need to delete a path from your account, you can [send a ticket over to Adobe support analysts](../../guide-overview.md). **Be sure to include the name of the path!**
+Created an incorrect path in your Data Warehouse? Or maybe you are doing a little spring cleaning and want to tidy up? If you need to delete a path from your account, you can [send a ticket over to Adobe support analysts](../../guide-overview.md#Submitting-a-Support-Ticket). **Be sure to include the name of the path!**
 
 ## Wrapping up {#wrapup}
 
-Now that you are comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always click **[!UICONTROL Support]** in your [!DNL MBI] account to get assistance.
+Now that you are comfortable creating paths for calculated columns in your Data Warehouse. If you are still unsure about a particular path, remember that you can always click **[!UICONTROL Support]** in your [!DNL Commerce Intelligence] account to get assistance.
 
 ## Related
 

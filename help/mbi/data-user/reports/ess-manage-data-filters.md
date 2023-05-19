@@ -5,9 +5,9 @@ exl-id: 6ef8b67c-bebd-45eb-bca7-95832ec34fc8
 ---
 # Create filter sets
 
-If you have multiple metrics in [!DNL MBI] that need to be filtered in a similar way (for example, filter out test orders), you can create saved Filter Sets and apply them to the metrics. This saves you time as you do not have to add individual filters when creating or editing a metric.
+If you have multiple metrics in [!DNL Commerce Intelligence] that need to be filtered in a similar way (for example, filter out test orders), you can create saved Filter Sets and apply them to the metrics. This saves you time as you do not have to add individual filters when creating or editing a metric.
 
-See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html?lang=en) to learn more.
+See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html) for more information.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ See the [training video](https://experienceleague.adobe.com/docs/commerce-knowle
 
 1. Verify your filter logic and that parentheses and operators are placed correctly: for example, `\[A\] AND \[B\]; (\[A\] OR \[B\]) AND \[C\]`.
 
-   An incorrect filter is often the cause of data discrepancies between [!DNL MBI] reports and your expected results.
+   An incorrect filter is often the cause of data discrepancies between [!DNL Commerce Intelligence] reports and your expected results.
 
 1. Save the `Filter Set`.
 
@@ -39,7 +39,7 @@ After a filter set is saved, you can apply it to any metric that is using the sa
 
 >[!NOTE]
 >
->`Filter Sets` can also be applied to calculated columns in [!DNL MBI]. You may request to apply a filter set to a data dimension created in [!DNL MBI] via by contacting support.
+>`Filter Sets` can also be applied to calculated columns in [!DNL Commerce Intelligence]. You may request to apply a filter set to a data dimension created in [!DNL Commerce Intelligence] via by contacting support.
 
 ## Related
 

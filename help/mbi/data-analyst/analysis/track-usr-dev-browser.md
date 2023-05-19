@@ -5,7 +5,7 @@ exl-id: 57b1bc45-b139-4370-86ea-2fbd021aa14d
 ---
 # [!UICONTROL Google Analytics] Tracking
 
-With [!UICONTROL Google Analytics] you can [save referral source information](../analysis/google-track-user-acq.md) to understand where your most valuable users are coming from. In this topic, you will learn about the platform (for example, device or browser) your users are working on. With this, you will be able to understand how many users are actually logging in via mobile devices and how that affects the lifetime value of those users.
+With [!UICONTROL Google Analytics] you can [save referral source information](../analysis/google-track-user-acq.md) to understand where your most valuable users are coming from. This topic discusses the platform (for example, device or browser) your users are working on. With this, you will be able to understand how many users are actually logging in via mobile devices and how that affects the lifetime value of those users.
 
 ## Saving User Device and Browser Data
 
@@ -23,7 +23,7 @@ This information can be accessed by your server every time a request is made. In
 
 ### When should you record this data?
 
-Adobe recommends you add a new field called `Platform` or `User-Agent` to your `Customers` and `Orders` database tables to store this information whenever a user is created or an order is placed. If you are using a SQL database, this field should be a `VARCHAR(255)`. 
+[!DNL Adobe] recommends you add a new field called `Platform` or `User-Agent` to your `Customers` and `Orders` database tables to store this information whenever a user is created or an order is placed. If you are using a SQL database, this field should be a `VARCHAR(255)`. 
 
 >[!NOTE]
 >

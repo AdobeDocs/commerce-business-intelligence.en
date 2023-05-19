@@ -5,7 +5,7 @@ exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
 ---
 # Advanced Calculated Column Types
 
-Many analyses you might attempt to create, involve the use of a **new column** that you want to `group by` or `filter by`. The [Creating Calculated Columns](../data-warehouse-mgr/creating-calculated-columns.md) tutorial covers the basics for most use cases, but you may want calculated column that is a bit more complex than what the Data Warehouse Manager can create.
+Many analyses you might want to create involve the use of a **new column** that you want to `group by` or `filter by`. The [Creating Calculated Columns](../data-warehouse-mgr/creating-calculated-columns.md) tutorial covers the basics for most use cases, but you may want calculated column that is a bit more complex than what the Data Warehouse Manager can create.
 {: #top}
 
 These types of columns can be created by the Adobe team of Data Warehouse analysts. To define a new calculated column, provide us with the following information:
@@ -153,7 +153,7 @@ To create this type of calculated column, you need to know:
 
 Not to worry. Just because it is not listed here does not mean it is not possible. The Adobe team of Data Warehouse Analysts can help.
 
-To define a new calculated column, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) with details on exactly what you would like to build.
+To define a new calculated column, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) with details on exactly what you would like to build.
 
 ## Related documentation
 

@@ -7,9 +7,9 @@ exl-id: 5de83998-e6cf-478d-bb6a-7a3dc77c2c0c
 
 >[!NOTE]
 >
->This article contains instructions for clients that are using the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
+>This topic contains instructions for clients that are using the original architecture and new architecture. You are on the [new architecture](../../administrator/account-management/new-architecture.md) if you have the "Data Warehouse Views" section available after selecting "Manage Data" from the main toolbar.
 
-If you are spending money on online advertising, you want to track your return on this spend and make data-driven decisions on further investments. This article demonstrates how to set up a dashboard that track your channel analysis – including ROI in aggregate and by campaign.
+If you are spending money on online advertising, you want to track your return on this spend and make data-driven decisions on further investments. This topic demonstrates how to set up a dashboard that track your channel analysis – including ROI in aggregate and by campaign.
 
 ![](../../assets/Marketing_dashboard_example.png)
 
@@ -17,7 +17,7 @@ Before getting started, you want to connect your [!DNL [Facebook Ads]](../import
 
 ## Consolidated Tables
 
-**Original architecture:** To bring together your spend from various sources (like [!DNL Facebook Ads] or [!DNL Google Adwords]), Adobe recommends creating a **consolidated table** of all of your ad spend. You need an analyst to complete this step for you. If you have not, [file a support request](../../guide-overview.md) with the subject `[MARKETING ROI ANALYSIS]`, and an analyst creates this table.
+**Original architecture:** To bring together your spend from various sources, like [!DNL Facebook Ads] or [!DNL Google Adwords], Adobe recommends creating a **consolidated table** of all of your ad spend. You need an analyst to complete this step for you. If you have not, [file a support request](../../guide-overview.md#Submitting-a-Support-Ticket) with the subject `[MARKETING ROI ANALYSIS]`, and an analyst creates this table.
 
 **New architecture:** You can follow the example in [this Analysis Library](../../data-analyst/data-warehouse-mgr/create-dw-views.md) topic. Consolidated Tables are now known as Data Warehouse Views on the new architecture.
 
@@ -26,11 +26,7 @@ Before getting started, you want to connect your [!DNL [Facebook Ads]](../import
 Columns to create
 
 * **`Consolidated Digital Ad Spend`** table
-* **`Campaign name`** is created by an analyst as part of your **[MARKETING ROI ANALYSIS]** ticket 
-
->[!NOTE]
->
->See above for new architecture differences.
+* **`Campaign name`** is created by an Adobe analyst as part of your **[MARKETING ROI ANALYSIS]** ticket 
 
 **Original and new architectures:**
 
@@ -44,7 +40,6 @@ Columns to create
     * Select a [!UICONTROL table]: `ecommerce####`
     * Select a [!UICONTROL column]: `campaign`
     * [!UICONTROL Path]: `sales_flat_order.increment_id = ecommerce#####.transactionID`
-
 
   * **`Order's GA medium`**
     * Select a definition: Joined Column
@@ -255,7 +250,7 @@ Columns to create
 * [!UICONTROL Group by]: `campaign` (Use `Customer's first order's` campaign for non-ad spend table metrics)
 * [!UICONTROL Chart Type]: `Table`
 
-If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ### Related
 

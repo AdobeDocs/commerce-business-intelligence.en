@@ -5,11 +5,11 @@ exl-id: a19cbc9a-e34f-4f4e-820f-9e413d1a552d
 ---
 # enterprise_rma Table
 
-Each row in the `enterprise_rma` table (often called `magento_rma` in Commerce 2.x, but the name can be customized) contains information about a specific return request. 
+Each row in the `enterprise_rma` table (often called `magento_rma` in Adobe Commerce 2.x, but the name can be customized) contains information about a specific return request. 
 
 >[!NOTE]
 >
->This table only comes standard with your Commerce account if you are an `Enterprise Edition` or `Enterprise Cloud Edition` customer.
+>This table only comes standard with your Adobe Commerce account if you are an `Enterprise Edition` or `Enterprise Cloud Edition` customer.
 
 ## Common Native Columns
 

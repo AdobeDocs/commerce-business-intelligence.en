@@ -1,18 +1,18 @@
 ---
-title: MBI
-description: Learn how to use [!DNL MBI] features available for Adobe Commerce.
-breadcrumb-title: MBI User Guide
+title: Commerce Intelligence
+description: Learn how to use [!DNL Commerce Intelligence] features available for Adobe Commerce.
+breadcrumb-title: Commerce Intelligence User Guide
 ---
 
-# [!DNL MBI] User Guide {#mbi}
+# [!DNL Commerce Intelligence] User Guide {#mbi}
 
-- [[!DNL MBI] User Guide Overview](guide-overview.md)
-- [[!DNL MBI] Introduction](getting-started/getting-started.md)
+- [[!DNL Commerce Intelligence] User Guide](guide-overview.md)
+- [[!DNL Commerce Intelligence] Introduction](getting-started/getting-started.md)
 - Getting Started {#start}
   - [Onboarding](getting-started/onboarding.md)
-  - [Activate your [!DNL MBI] Account](getting-started/onpremise-activation.md)
-  - [Sign in to your [!DNL MBI] Account](getting-started/sign-in.md)
-  - [MBI Essentials vs MBI Pro](getting-started/essentials-vs-pro.md)
+  - [Activate your [!DNL Commerce Intelligence] Account](getting-started/onpremise-activation.md)
+  - [Sign in to your [!DNL Commerce Intelligence] Account](getting-started/sign-in.md)
+  - [Commerce Intelligence Essentials vs Commerce Intelligence Pro](getting-started/essentials-vs-pro.md)
 - Administrator {#administrator}
   - Account Management {#acct-mgmt}
     - [Benefits of [!DNL New Architecture]](../mbi/administrator/account-management/new-architecture.md)
@@ -47,7 +47,7 @@ breadcrumb-title: MBI User Guide
     - [[!DNL MongoDB] data modeling guide](data-analyst/data-warehouse-mgr/mongodb-data-modeling.md)
     - [Replicating [!DNL Google Analytics] channels](data-analyst/data-warehouse-mgr/rep-google-analytics-channels.md)
     - [Standardizing data with mapping tables](data-analyst/data-warehouse-mgr/stndrd-data-map-tables.md)
-    - [Translating SQL queries into [!DNL MBI] reports](data-analyst/dev-reports/sql-queries-reports.md)
+    - [Translating SQL queries into [!DNL Commerce Intelligence] reports](data-analyst/dev-reports/sql-queries-reports.md)
     - [Understanding and Evaluating Table Relationships](data-analyst/data-warehouse-mgr/table-relationships.md)
     - [Using the Date Difference Calculated](data-analyst/data-warehouse-mgr/using-date-diff-calc-column-.md)
     - [Using Dashboard Wide Filtering](data-analyst/data-warehouse-mgr/using-dshbrd-wide-filter-date-ranges.md)
@@ -68,7 +68,7 @@ breadcrumb-title: MBI User Guide
     - [Creating a qualitative cohort analysis](data-analyst/dev-reports/create-qual-cohort-analysis.md)
     - [Explore special filter operators](data-analyst/dev-reports/explr-special-filter-ops.md)
     - [Export the results of my query](data-analyst/dev-reports/export-query-results.md)
-    - [Using Formulas in the [!DNL Report Builder]](../mbi/data-analyst/dev-reports/formulas-in-rpt-bldr.md)
+    - [Using Formulas in the [Report Builder]](../mbi/data-analyst/dev-reports/formulas-in-rpt-bldr.md)
     - [Create [!DNL Google Analytics] charts](data-analyst/dev-reports/google-analytics-charts-regex.md)
     - [Importance of the [!DNL Lifetime Revenue Cohort Analysis]](data-analyst/dev-reports/lifetime-rev-cohort-analysis.md)
     - [Ordering data using the [!DNL Show Top/Bottom] feature](data-analyst/dev-reports/order-data-top-bottom-feat.md)
@@ -123,8 +123,8 @@ breadcrumb-title: MBI User Guide
   - Database Integrations {#integration}
     - [Connecting [!DNL Amazon RDS]](data-analyst/importing-data/integrations/amazon-rds.md)
     - [Connecting Databases via VPN](data-analyst/importing-data/integrations/databases-via-a-vpn.md)
-    - [Connect Your [!DNL MySQL Database] to [!DNL MBI]](data-analyst/importing-data/integrations/db-to-mbi.md)
-    - [Connecting Commerce](data-analyst/importing-data/integrations/magento.md)
+    - [Connect Your [!DNL MySQL Database] to [!DNL Commerce Intelligence]](data-analyst/importing-data/integrations/db-to-mbi.md)
+    - [Connecting Adobe Commerce](data-analyst/importing-data/integrations/magento.md)
     - [Expected Commerce Data](data-analyst/importing-data/integrations/magento-data.md)
     - [Connecting [!DNL Microsoft SQL Server]](data-analyst/importing-data/integrations/microsoft-sql-server.md)
     - [Connecting [!DNL MongoDB] via [!DNL SSH Tunnel]](data-analyst/importing-data/integrations/mongodb-via-ssh-tunnel.md)
@@ -215,11 +215,11 @@ breadcrumb-title: MBI User Guide
     - [Modifying Your Database to Support Incremental Replication](best-practices/mod-db-inc-replication.md)
     - [Optimizing your Database for Analysis](best-practices/opt-db-analysis.md)
     - [Optimizing Your [!DNL SQL] Queries](best-practices/optimizing-your-sql-queries.md)
-    - [Understanding your [!DNL MBI] Environment](best-practices/understanding-magento.md)
+    - [Understanding your [!DNL Commerce Intelligence] Environment](best-practices/understanding-magento.md)
   - Project Organization {#project}
-    - [Naming Reports and Elements in [!DNL MBI]](best-practices/naming-elements.md)
+    - [Naming Reports and Elements in [!DNL Commerce Intelligence]](best-practices/naming-elements.md)
     - [Consolidating your tables](best-practices/consolidating-your-tables.md)
-    - [Declutter your [!DNL MBI] account](best-practices/declutter-account.md)
+    - [Declutter your [!DNL Commerce Intelligence] account](best-practices/declutter-account.md)
   - Working with Dashboards {#working-dashboards}
     - [Sharing Dashboards](best-practices/share-dashboard-best-practice.md)
     - [Building an Investor Dashboard](best-practices/build-investor-dashboard.md)

@@ -1,9 +1,9 @@
 ---
-title: Onboarding
-description: Learn about onboarding.
+title: Onboarding Adobe Commerce Intelligence
+description: Learn about onboarding Adobe Commerce Intelligence.
 exl-id: e0cce957-af2c-4514-9afd-c9aaa651a4f0
 ---
-# Onboarding
+# Onboarding [!DNL Adobe Commerce Intelligence]
 
 The onboarding questions related to `store` and `database` settings ensure that you set up your reporting correctly. With these answers, Adobe delivers your reports that are precisely tailored to your store's setup.
 
@@ -23,6 +23,6 @@ The onboarding questions related to `store` and `database` settings ensure that 
 
 ## Database settings
 
--  `Database name` - What is the *name of the MySQL database* where your Commerce transactional data resides?
+-  `Database name` - What is the *name of the [!DNL MySQL] database* where your Commerce transactional data resides?
 
 -  `Table prefix (optional)` - Are the tables contained in your Commerce database prepended by anything (for example, `store_`)? This is not normally the case, but it is a customization that can be made.

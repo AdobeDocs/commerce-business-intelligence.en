@@ -9,9 +9,9 @@ exl-id: d4c25546-3c51-4d32-b9d8-c424ec103be5
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md).
 
-Put, a metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period.
+A metric is a measurement. In SQL and database structures, a metric is like a stored query over a variable period.
 
-In [!DNL MBI], you can use metrics to [create charts](../../data-user/reports/ess-rpt-build-visual.md). For example, the metric `revenue` is the total number of orders. The metric `average customer revenue per order` is what the average customer spends per order.
+In [!DNL Commerce Intelligence], you can use metrics to [create charts](../../data-user/reports/ess-rpt-build-visual.md). For example, the metric `revenue` is the total number of orders. The metric `average customer revenue per order` is what the average customer spends per order.
 
 When used in reports, metrics can be analyzed over a specified time period and [filtered or segmented](../../best-practices/segment-filter.md) by different categories. Consider analyzing average customer revenue grouped by gender - in this case, `average customer revenue per order` is the metric and gender is the grouping.
 
@@ -62,7 +62,7 @@ The `Filter Logic` section is where you can further define how a metric should b
 
 The [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) section shows all available data dimensions for filtering or grouping; by default, all available data columns are listed as dimensions. Continuing the example, if you wanted to segment your revenue by referral source, you can do that here.
 
-In addition to listing all available data columns as dimensions, [!DNL MBI] guesses at which columns are groupable. *To segment or group data on reports*, columns must be marked as groupable.
+In addition to listing all available data columns as dimensions, [!DNL Commerce Intelligence] guesses at which columns are groupable. *To segment or group data on reports*, columns must be marked as groupable.
 
 ## Finishing Up {#finish}
 

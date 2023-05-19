@@ -5,17 +5,17 @@ exl-id: 9d621f40-f9c2-4310-bd96-a46ab7159930
 ---
 # Tracking Goals Against Performance Metrics
 
-Most clients would like to track their **business goals**, but do not realize this is possible in [!DNL MBI]. This article demonstrates how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. You also learn how to compare year over year performance, all in a dashboard like this:
+Most clients would like to track their **business goals**, but do not realize this is possible in [!DNL Adobe Commerce Intelligence]. This topic demonstrates how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. You also learn how to compare year over year performance, all in a dashboard like this:
 
 ![](../../assets/Goals-_dashboard_2.png)
 
-Before getting started, you want to familiarize yourself with the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and make sure you have defined your business goals for a given period.
+Before getting started, you should review the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and make sure you have defined your business goals for a given period.
 
 ## Getting Started
 
 You need to first upload a file containing specific daily/monthly/quarterly targets for your business.
 
-You can use the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that clients track in [!DNL MBI] include Orders, Revenue, and New registered accounts.
+You can use the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that clients track in [!DNL Commerce Intelligence] include Orders, Revenue, and New registered accounts.
 
 ![](../../assets/Goals-_Excel.png)
 
@@ -43,7 +43,7 @@ Create one new metric for each target. For example, if you upload monthly revenu
 
 ## Reports
 
-As always, it is helpful to have a mix of static values and visual charts when analyzing your targets. Below are three example reports to get you started tracking your revenue performance.
+It is helpful to have a mix of static values and visual charts when analyzing your targets. Below are three example reports to get you started tracking your revenue performance.
 
 * **Revenue left to achieve target**
 * Metric `A`: `Revenue`

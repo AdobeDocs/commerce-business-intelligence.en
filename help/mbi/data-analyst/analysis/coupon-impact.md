@@ -5,7 +5,7 @@ exl-id: b0619365-fa75-49b5-a393-87f3364a390f
 ---
 # Coupon Impact
 
-Analyzing how customers use your coupons can provide significant insight into your business. Specifically, analyzing how you acquire and retain customers via coupons. This article explores analyses that can help you answer the following types of questions:
+Analyzing how customers use your coupons can provide significant insight into your business. Specifically, analyzing how you acquire and retain customers via coupons. This topic explores analyses that can help you answer the following types of questions:
 
 * How many customers are you acquiring via coupons?
 * Are coupon-acquired customers more likely to make repeat purchases than customers not acquired through coupons?
@@ -63,7 +63,7 @@ The number of repeat orders for non-coupon acquisitions is much higher than coup
 
 Similarly, the number of repeat orders made with a coupon are higher for non-coupon acquisitions.
 
-## #Percent of repeat orders with coupon
+## Percent of repeat orders with coupon
 
 Non-coupon acquired customers have a much lower percent of repeat orders with a coupon applied than coupon-acquired customers. Thus, for coupon-acquired customers, almost half of repeat orders has a coupon applied. In this example, coupon acquired customers tend to make repeat purchases with coupons.
 
@@ -143,4 +143,4 @@ The largest number of customers were acquired through the "20% off" coupon. Howe
 
 ## Wrapping Up {#wrapup}
 
-There are a multitude of analyses that you can create to better understand how your customers use coupons. Ever thought about analyzing how your customers use your coupons or the time that it takes for coupons to be used? What about finding the optimal discount amount - what amount encourages repeat buyers, higher average order value, and higher lifetime revenue? For help with these types of questions, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+There are a multitude of analyses that you can create to better understand how your customers use coupons. Ever thought about analyzing how your customers use your coupons or the time that it takes for coupons to be used? What about finding the optimal discount amount - what amount encourages repeat buyers, higher average order value, and higher lifetime revenue? For help with these types of questions, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

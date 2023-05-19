@@ -5,14 +5,14 @@ exl-id: 4f2bf408-eeaf-4dbf-b62e-89426734640a
 ---
 # Advertising Campaigns and ROI
 
-MBI allows you to easily [marry advertising cost data and revenue data](../../data-analyst/importing-data/integrations/google-adwords.md) from your database. This helps you identify which campaigns have the highest ROI. This article explores a few different methods of evaluating your campaign performance.
+[!DNL Adobe Commerce Intelligence] allows you to easily [marry advertising cost data and revenue data](../../data-analyst/importing-data/integrations/google-adwords.md) from your database. This helps you identify which campaigns have the highest return on investment (ROI). This topic explores a few different methods of evaluating your campaign performance.
 
 ## Prerequisites
 
 * Import your advertising cost data:
-  * [Connect your [!DNL Google AdWords] to [!DNL MBI]](../importing-data/integrations/google-adwords.md): This syncs your [!DNL Adwords] spend in [!DNL MBI]
-  * [Upload other advertising cost data](../importing-data/connecting-data/import-offline-ad-data.md): This is recommended for channels without a direct connector to [!DNL MBI]
-  * If you import cost data from multiple sources, you can [consolidate](../../best-practices/consolidating-your-tables.md) the data in [!DNL MBI]. Simply [submit a support ticket](../../guide-overview.md).
+  * [Connect your [!DNL Google AdWords] to [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): This syncs your [!DNL Adwords] spend in [!DNL Commerce Intelligence]
+  * [Upload other advertising cost data](../importing-data/connecting-data/import-offline-ad-data.md): This is recommended for channels without a direct connector to [!DNL Commerce Intelligence]
+  * If you import cost data from multiple sources, you can [consolidate](../../best-practices/consolidating-your-tables.md) the data in [!DNL Commerce Intelligence]. Simply [submit a support ticket](../../guide-overview.md#Submitting-a-Support-Ticket).
 * [Track user acquisition channel data](../analysis/google-track-user-acq.md)
 
 ## User acquisition campaigns
@@ -29,7 +29,7 @@ Analyses (1) and (2) above are explored in a separate tutorial on [identifying y
 >
 >This example assumes that all campaign costs were exclusively used to acquire new users. In reality, your campaign cost is also shared with acquiring unconverted visits, repeat purchasers and such. By assuming that all cost is used to acquire new registered users, the resulting ROI accounts for the worst case scenario (highest cost per acquisition). You can be sure that your actual ROI is higher than your calculation.
 >
->Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 repeat buyers, your actual cost per new user is $1. But, with the assumption that all cost went to acquire new users, the cost per acquisition is $2.)
+>Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 repeat buyers, your actual cost per new user is $1. But, with the assumption that all cost went to acquire new users, the cost per acquisition is $2.
 
 **1. Start by creating a chart that segments your Ad Cost by Campaigns:**
 
@@ -89,9 +89,9 @@ Are you running product-specific advertisements? If so, you can measure ROI on t
 
 >[!NOTE]
 >
->This example assumes that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI accounts for the worst case scenario (highest cost per purchase). You can be sure that your actual ROI is higher than this calculation. Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1. Under the assumption that all cost went to acquire new users, the cost per purchase is $2.)*
+>This example assumes that all campaign costs were exclusively used to generate purchases of specific product(s). By assuming that all cost was spent on generating purchases, the resulting ROI accounts for the worst case scenario (highest cost per purchase). You can be sure that your actual ROI is higher than this calculation. Example: Assuming that you spent $20 on a campaign that generated 10 new users and 10 purchases, your actual cost per purchase is $1. Under the assumption that all cost went to acquire new users, the cost per purchase is $2.
 
-Before you start, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) to join the following dimensions to your line items table (`sales\_flat\_order\_item, order\_item`):
+Before you start, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) to join the following dimensions to your line items table (`sales\_flat\_order\_item, order\_item`):
 
 * Order's source (if you only track referral source at the user level, then join user's source)
 * Order's campaign (if you only track referral source at the user level, then join user's campaign)

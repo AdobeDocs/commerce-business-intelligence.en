@@ -3,17 +3,17 @@ title: Visual Report Builder
 description: Learn how to use Visual Report Builder.
 exl-id: 1101f43d-e014-4df2-be21-12d90a9d8a56
 ---
-# `Visual Report Builder`
+# [!DNL Visual Report Builder]
 
-`Visual Report Builder` makes it easy to create quick reports based on predefined metrics. Each metric includes a query that defines the set of data for the report.
+[!DNL Visual Report Builder] makes it easy to create quick reports based on predefined metrics. Each metric includes a query that defines the set of data for the report.
 
 The following example shows how to create a simple report, group the data by an additional dimension, set the date and time interval, change the chart type, and save the report to a dashboard.
 
 ## To create a simple report:
 
-1. In the [!DNL MBI] menu, click **[!UICONTROL Report Builder]**.
+1. In the [!DNL Commerce Intelligence] menu, click **[!UICONTROL Report Builder]**.
 
-1. Under `Visual Report Builder`, click **[!UICONTROL Create Report]** and do the following:
+1. Under [!UICONTROL Visual Report Builder], click **[!UICONTROL Create Report]** and do the following:
 
     * Click **[!UICONTROL Add Metric]**.
 

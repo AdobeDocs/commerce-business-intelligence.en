@@ -1,13 +1,13 @@
 ---
-title: Translating SQL queries into [!DNL MBI] reports
-description: Learn how SQL queries are translated into the calculated columns, metrics you use in [!DNL MBI].
+title: Translating SQL queries into Commerce Intelligence reports
+description: Learn how SQL queries are translated into the calculated columns, metrics you use in Commerce Intelligence.
 exl-id: b3e3905f-6952-4f15-a582-bf892a971fae
 ---
-# Translate SQL queries in MBI
+# Translate SQL queries in Commerce Intelligence
 
-Ever wondered how SQL queries are translated into the [calculated columns](../data-warehouse-mgr/creating-calculated-columns.md), [metrics](../../data-user/reports/ess-manage-data-metrics.md), and [reports](../../tutorials/using-visual-report-builder.md) you use in [!DNL MBI]? If you are a heavy SQL user, understanding how SQL is translated in [!DNL MBI] enables you to work smarter in the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) and get the most out of the [!DNL MBI] platform.
+Ever wondered how SQL queries are translated into the [calculated columns](../data-warehouse-mgr/creating-calculated-columns.md), [metrics](../../data-user/reports/ess-manage-data-metrics.md), and [reports](../../tutorials/using-visual-report-builder.md) you use in [!DNL Commerce Intelligence]? If you are a heavy SQL user, understanding how SQL is translated in [!DNL Commerce Intelligence] enables you to work smarter in the [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) and get the most out of the [!DNL Commerce Intelligence] platform.
 
-At the end of this article, you find a **translation matrix** for SQL query clauses and [!DNL MBI] elements.
+At the end of this topic, you find a **translation matrix** for SQL query clauses and [!DNL Commerce Intelligence] elements.
 
 Start by looking at a general query:
 
@@ -26,7 +26,7 @@ This example covers most translation cases, but there are some exceptions. Dive 
 
 ## Aggregate functions
 
-Aggregate functions (for example, `count`, `sum`, `average`, `max`, `min`) in queries either take the form of **metric aggregations** or **column aggregations** in [!DNL MBI]. The differentiating factor is whether a join is required to perform the aggregation.
+Aggregate functions (for example, `count`, `sum`, `average`, `max`, `min`) in queries either take the form of **metric aggregations** or **column aggregations** in [!DNL Commerce Intelligence]. The differentiating factor is whether a join is required to perform the aggregation.
 
 Look at an example for each of the above.
 
@@ -34,7 +34,7 @@ Look at an example for each of the above.
 
 A metric is required when aggregating `within a single table`. So for example, the `SUM(b)` aggregate function from the query above would most likely be represented by a metric which sums column `B`. 
 
-Look at a specific example of how a `Total Revenue` metric might be defined in [!DNL MBI]. Look at the query below that you attempt to translate:
+Look at a specific example of how a `Total Revenue` metric might be defined in [!DNL Commerce Intelligence]. Look at the query below that you attempt to translate:
 
 | | |
 |--- |--- |
@@ -45,7 +45,7 @@ Look at a specific example of how a `Total Revenue` metric might be defined in 
 |`email NOT LIKE '%@magento.com'`|Metric `filter`|
 |`AND created_at < X`<br><br>`AND created_at >= Y`|Metric `timestamp` (and reporting `time range`)|
 
-Navigating to the metric builder by clicking **[!UICONTROL Manage Data** > **Metrics** > **Create New Metric]**, you first must select the appropriate `source` table, which in this case is the `orders` table. Then the metric would be set up as shown below:
+Navigate to the metric builder by clicking **[!UICONTROL Manage Data** > **Metrics** > **Create New Metric]**, you first must select the appropriate `source` table, which in this case is the `orders` table. Then the metric would be set up as shown below:
 
 ![Metric aggregation](../../assets/Metric_aggregation.png)
 
@@ -65,7 +65,7 @@ The query for this aggregation may look something like the below:
 |`ON c.customer_id = o.customer_id`|Path|
 |`WHERE o.status = 'success'`|Aggregate filter|
 
-Setting this up in [!DNL MBI] requires the use of your Data Warehouse manager, where you build a path between your `orders` and `customers` table then create a column called `Customer LTV` in your customer's table.
+Setting this up in [!DNL Commerce Intelligence] requires the use of your Data Warehouse manager, where you build a path between your `orders` and `customers` table then create a column called `Customer LTV` in your customer's table.
 
 Look at how to establish a new path between the `customers` and `orders`. The end goal is to create a new aggregated column in the `customers` table, so first navigate to the `customers` table in your Data Warehouse, then click **[!UICONTROL Create a Column** > **Select a definition** > **SUM]**.
 
@@ -77,9 +77,9 @@ Here you need to carefully consider the relationship between the two tables you 
 
 >[!NOTE]
 >
->In [!DNL MBI], a *path* is equivalent to a `Join` in SQL.
+>In [!DNL Commerce Intelligence], a `path` is equivalent to a `Join` in SQL.
 
-Once the path has been saved, you are all set to create the `Customer LTV` column! Look at the below:
+Once the path has been saved, you can create the `Customer LTV` column! See below:
 
 ![](../../assets/Customer_LTV.gif)
 
@@ -89,11 +89,11 @@ Now that you have built the new `Customer LTV` column in your `customers` table,
 >
 >For the latter, anytime you build a new calculated column you must [add the dimension to existing metrics](../data-warehouse-mgr/manage-data-dimensions-metrics.md) before it is available as a `filter` or `group by`.
 
-See [creating calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) with your Data Warehouse manager.
+See [creating calculated columns](../data-warehouse-mgr/creating-calculated-columns.md) with your Data Warehouse Manager.
 
 ## `Group By` clauses
 
-`Group By` functions in queries are often represented in [!DNL MBI] as a column used to segment or filter a visual report. As an example, let us revisit the `Total Revenue` query that you explored previously, but this time segment the revenue by the `coupon\_code` to gain a better understanding of which coupons are generating the most revenue.
+`Group By` functions in queries are often represented in [!DNL Commerce Intelligence] as a column used to segment or filter a visual report. As an example, let us revisit the `Total Revenue` query that you explored previously, but this time segment the revenue by the `coupon\_code` to gain a better understanding of which coupons are generating the most revenue.
 
 Start with the query below:
 
@@ -143,11 +143,11 @@ Now assume you already have metrics set up to calculate the `Total Revenue` and 
 
 ## Wrapping Up
 
-If you are a heavy SQL user, thinking about how queries translate in [!DNL MBI] enables you to build calculated columns, metrics, and reports.
+If you are a heavy SQL user, thinking about how queries translate in [!DNL Commerce Intelligence] enables you to build calculated columns, metrics, and reports.
 
-For quick reference, check out the matrix below. This shows a SQL clause's equivalent [!DNL MBI] element and how it can map to more than one element, depending on how it is used in the query.
+For quick reference, check out the matrix below. This shows a SQL clause's equivalent [!DNL Commerce Intelligence] element and how it can map to more than one element, depending on how it is used in the query.
 
-## MBI Elements
+## Commerce Intelligence Elements
 
 |**`SQL Clause`**|**`Metric`**|**`Filter`**|**`Report group by`**|**`Report time frame`**|**`Path`**|**`Calculated column inputs`**|**`Source table`**|
 |--|--|--|--|--|--|--|--|

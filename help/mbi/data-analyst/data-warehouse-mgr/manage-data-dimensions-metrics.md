@@ -15,9 +15,9 @@ A dimension is a field in the same table as a metric that can be used to filter 
 
 To add one or more dimensions to multiple Metrics at once:
 
-1. On the main navigation bar, go to **[!UICONTROL Manage Data > Metrics]**.
+1. Go to **[!UICONTROL Manage Data > Metrics]**.
 
-1. At the top of the page, click **[!UICONTROL Add Dimensions To Metric(s)]**.
+1. Click **[!UICONTROL Add Dimensions To Metric(s)]**.
 
 1. Choose the table that contains the dimensions.
 
@@ -33,9 +33,9 @@ To add one or more dimensions to multiple Metrics at once:
 
 To delete one or more dimensions from multiple metrics:
 
-1. On the main navigation bar, go to **[!UICONTROL Data > Metrics]**.
+1. Go to **[!UICONTROL Data > Metrics]**.
 
-1. At the top of the page, click **[!UICONTROL Remove Dimensions From Metric(s)]**.
+1. Click **[!UICONTROL Remove Dimensions From Metric(s)]**.
 
 1. Choose the table that contains the dimensions.
 
@@ -43,26 +43,26 @@ To delete one or more dimensions from multiple metrics:
 
 1. Click **[!UICONTROL Remove]**.
 
-1. If the dimensions are in use on reports, you are shown a warning and a list of charts that are using the dimensions. Click **[!UICONTROL Delete]** to delete the checked dimensions and all of their dependents, including reports.
+1. If the dimensions are in use on reports, a warning displays with the list of charts that are using the dimensions. Click **[!UICONTROL Delete]** to delete the checked dimensions and all of their dependents, including reports.
 
 ## Manage dimensions in metrics
 
 **To add dimension(s) in a metric:**
 
-1. On the main navigation bar, go to **[!UICONTROL Data > Metrics]**.
+1. Go to **[!UICONTROL Data > Metrics]**.
 
 1. Click **[!UICONTROL Edit]** on the metric you want a new dimension.
 
-1. Under the `Dimensions` section, use the `Add a dimension` dropdown to select a dimension to add.
+1. In the `Dimensions` section, use the `Add a dimension` dropdown to select a dimension to add.
 
 >[!NOTE]
 >
->Any dimension that you want to filter or group by must already be tracked in [!DNL MBI]. If you do not find the desired dimension, you may need to start tracking a new data column in your database via the [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) page.
+>Any dimension that you want to filter or group by must already be tracked in [!DNL Commerce Intelligence]. If you do not find the desired dimension, you may need to start tracking a new data column in your database via the [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) page.
 
 
 **To delete dimension(s) from a metric:**
 
-1. On the main navigation bar, go to **[!UICONTROL Manage Data > Metrics]**.
+1. Go to **[!UICONTROL Manage Data > Metrics]**.
 
 1. Click **[!UICONTROL Edit]** on the metric you want a new dimension.
 
@@ -70,7 +70,7 @@ To delete one or more dimensions from multiple metrics:
 
 >[!NOTE]
 >
->Even after deleting a dimension, it still exists as a column on your table in your Data Warehouse. You can add it back to any metric, and build new metrics using these dimensions. To remove the data column that a dimension corresponds to from [!DNL MBI], simply untrack the data column via the [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) page.
+>Even after deleting a dimension, it still exists as a column on your table in your Data Warehouse. You can add it back to any metric, and build new metrics using these dimensions. To remove the data column that a dimension corresponds to from [!DNL Commerce Intelligence], simply untrack the data column via the [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) page.
 
 ## Related documentation
 

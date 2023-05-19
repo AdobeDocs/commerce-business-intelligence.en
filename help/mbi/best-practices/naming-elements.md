@@ -1,19 +1,19 @@
 ---
-title: Name reports and elements in MBI
-description: Learn best practices for naming reports and elements in [!DNL MBI].
+title: Name reports and elements in Commerce Intelligence
+description: Learn best practices for naming reports and elements in [!DNL Commerce Intelligence].
 exl-id: c662cedd-c779-4254-b04b-f3092a538c85
 ---
 # Name reports and elements
 
-Before you get started building in[!DNL MBI], Adobe wants to share some secrets to success. Knowing how to create metrics, filters, and so on, is important, but all your work may be for naught if you cannot find what you need or if there is ambiguity.
+Before you get started building in[!DNL Adobe Commerce Intelligence], Adobe wants to share some secrets to success. Knowing how to create metrics, filters, and so on, is important, but all your work may be for naught if you cannot find what you need or if there is ambiguity.
 
 ## Why is nomenclature important? {#why}
 
-The way you name your calculated columns, metrics, and reports dictates the ease in which different users can navigate through your [!DNL MBI] account. When naming these features, keep in mind the three Cs:
+The way you name your calculated columns, metrics, and reports dictates the ease in which different users can navigate through your [!DNL Commerce Intelligence] account. When naming these features, keep in mind the three Cs:
 
 * **CLARITY** - So you can tell at a glance what a report is showing, what a metric does, and so on.
 * **CONSISTENCY** - So that you (and the Adobe support team) can easily find and understand elements and reports in your account.
-* **CREDIBILITY** - In order to inspire and empower other data-driven [!DNL MBI] users, you need to instill confidence in how they understand and use the data!
+* **CREDIBILITY** - In order to inspire and empower other data-driven [!DNL Commerce Intelligence] users, you need to instill confidence in how they understand and use the data!
 
 Read on for tried and true nomenclature tips!
 
@@ -36,7 +36,7 @@ These examples are specific, which decreases the potential for confusion.
 
 ### Be consistent with capitalization {#capitalize}
 
-Adobe recommends first letter uppercase with the rest of the characters lowercase, unless proper noun style of capitalization. For example, **User's order number** rather than **User's Order Number.**
+[!DNL Adobe] recommends first letter uppercase with the rest of the characters lowercase, unless proper noun style of capitalization. For example, **User's order number** rather than **User's Order Number.**
 
 This is really a matter of preference, but the thing to remember is to be consistent with whatever you choose.
 
@@ -50,7 +50,7 @@ You likely already have a nomenclature in place at your company. Keep the metric
 
 ### Spelling and grammar {#spelling}
 
-Make sure to double check your spelling and do not forget about those pesky possessives!
+Make sure to double-check your spelling and do not forget about those pesky possessives!
 
 ## Charts {#charts}
 
@@ -98,4 +98,4 @@ Revenue (shipped\_at)
 
 ## Wrapping Up {#wrapup}
 
-Establishing style and naming conventions early helps set you up for success in your [!DNL MBI] account. Remember the three Cs: clarity, consistency, and credibility.
+Establishing style and naming conventions early helps set you up for success in your [!DNL Commerce Intelligence] account. Remember the three Cs: clarity, consistency, and credibility.

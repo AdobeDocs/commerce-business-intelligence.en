@@ -9,9 +9,9 @@ exl-id: 847d51b1-287e-4c14-b64e-0bd9bfcccedc
 >
 >Requires [Admin permissions.](../../administrator/user-management/user-management.md)
 
-In your [!DNL MBI] account, you are able to customize your account settings for your Data Warehouse. These can be accessed by selecting your organization name in the upper right-hand corner of any screen, then choosing **[!UICONTROL Account Settings]** from the dropdown.
+In your [!DNL Commerce Intelligence] account, you can customize your account settings for your Data Warehouse. These can be accessed by selecting your organization name in the upper right-hand corner of any screen, then choosing **[!UICONTROL Account Settings]** from the dropdown.
 
-* **[!UICONTROL Client Name:]** This setting appears in the upper-right-hand corner of all dashboards and elsewhere throughout your account. If you want to change **[!UICONTROL "Vandelay Industries Co., Ltd]** to just **[!UICONTROL "Vandelay]**, this is where to do that.
+* **[!UICONTROL Client Name:]** This setting appears in the upper-right corner of all dashboards and elsewhere throughout your account. If you want to change **[!UICONTROL "Vandelay Industries Co., Ltd]** to just **[!UICONTROL "Vandelay]**, this is where to do that.
 
 * **[!UICONTROL Currency:]** This is the *default currency* for all monetary values in your account. Anytime a decimal or currency value is synced into your Data Warehouse, this setting determines the symbol placed before that value within your reports.
 

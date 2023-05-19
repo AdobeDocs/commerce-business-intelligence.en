@@ -5,7 +5,7 @@ exl-id: 12837490-b9ca-4040-bb71-8988b5dde485
 ---
 # Filter Options
 
-This article explores a few special `operators` used in `filters` when [creating a report](../../tutorials/using-visual-report-builder.md){: target="_blank"} or [creating a metric](../../data-user/reports/ess-manage-data-metrics.md){: target="_blank"}.
+This topic explores a few special `operators` used in `filters` when [creating a report](../../tutorials/using-visual-report-builder.md){: target="_blank"} or [creating a metric](../../data-user/reports/ess-manage-data-metrics.md){: target="_blank"}.
 
 ## `Filter Operators`
 
