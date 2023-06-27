@@ -150,7 +150,7 @@ For quick reference, check out the matrix below. This shows a SQL clause's equiv
 ## Commerce Intelligence Elements
 
 |**`SQL Clause`**|**`Metric`**|**`Filter`**|**`Report group by`**|**`Report time frame`**|**`Path`**|**`Calculated column inputs`**|**`Source table`**|
-|--|--|--|--|--|--|--|--|
+|---|---|---|---|---|---|---|---|
 |`SELECT`|X|-|X|-|-|X|-|
 |`FROM`|-|-|-|-|-|-|X|
 |`WHERE`|-|X|-|-|-|-|-|
