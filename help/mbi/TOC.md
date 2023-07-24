@@ -4,7 +4,6 @@ description: Learn how to use [!DNL Commerce Intelligence] features available fo
 breadcrumb-title: Commerce Intelligence User Guide
 role: Admin, Data Architect, Data Engineer, Leader, User
 feature: Business Performance
-recommendations: noDisplay
 ---
 
 # [!DNL Commerce Intelligence] User Guide {#mbi}
