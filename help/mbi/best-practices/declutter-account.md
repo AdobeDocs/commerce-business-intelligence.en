@@ -3,7 +3,7 @@ title: Decluttering your [!DNL Commerce Intelligence] Account
 description: Learn how to clean up your [!DNL Commerce Intelligence] account.
 exl-id: 5fcdac2d-41ca-4011-b646-a699d9ecc6e4
 role: Admin, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Clean up your [!DNL Adobe Commerce Intelligence] Account
 

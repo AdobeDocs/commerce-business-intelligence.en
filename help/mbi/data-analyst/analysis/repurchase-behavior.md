@@ -3,7 +3,7 @@ title: Analyzing Customer Repurchasing Behavior
 description: Learn how to analyze customer repurchase behavior.
 exl-id: 62666d08-5240-4f19-bf8e-e5b2d79a25c4
 role: Admin, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Customer Repurchasing Behavior
 

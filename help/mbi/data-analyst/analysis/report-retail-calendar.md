@@ -3,7 +3,7 @@ title: Reporting on a retail calendar
 description: Learn how to set up the structure to use a 4-5-4 retail calendar within your [!DNL Commerce Intelligence] account.
 exl-id: 3754151c-4b0f-4238-87f2-134b8409e32b
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Reporting on a Retail Calendar
 

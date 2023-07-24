@@ -3,7 +3,7 @@ title: Define customer concentration
 description: Learn how to set up a dashboard that helps you measure how total revenue is distributed among your customer base.
 exl-id: 6242019f-a6a5-48d3-b214-94acd7842e00
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Customer Concentration
 

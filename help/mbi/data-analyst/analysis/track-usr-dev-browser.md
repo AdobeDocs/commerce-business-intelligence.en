@@ -3,7 +3,7 @@ title: Google Analytics - Track user device and browser data in your database
 description: Learn  how many users are actually logging in via mobile devices and how that affects the lifetime value of those users.
 exl-id: 57b1bc45-b139-4370-86ea-2fbd021aa14d
 role: Admin, User
-feature: Business Performance
+feature: Business Performance
 ---
 # [!UICONTROL Google Analytics] Tracking
 

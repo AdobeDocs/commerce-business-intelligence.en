@@ -38,10 +38,10 @@ Each row in the `enterprise_rma` table (often called `magento_rma` in Adobe Comm
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|`Number of returns`|The number of returns requested.|`Operation` column: `entity id`<br>`Operation`: `Count`<br>`Timestamp` Column: `date requested`|
-|`Total returned amount`|The total monetary amount returned.|`Operation `Column: `Return's total value`<br>`Operation`: Sum<br>`Timestamp` Column: date requested|
-|`Average returned amount`|The average monetary amount returned.|`Operation`` Column: Return's total value`<br>`Operation`: `Average`<br>`Timestamp` Column: `date requested`|
-|`Average time to return`|The average time from order to return.|`Operation` Column: Seconds between order's created at and return's date requested<br>`Operation`: `Average`<br>`Timestamp` Column: `date requested`|
+|`Number of returns`|The number of returns requested.|`Operation` column: `entity id`<br>`Operation`: `Count`<br>`Timestamp` Column: `date requested`|
+|`Total returned amount`|The total monetary amount returned.|`Operation `Column: `Return's total value`<br>`Operation`: Sum<br>`Timestamp` Column: date requested|
+|`Average returned amount`|The average monetary amount returned.|`Operation`` Column: Return's total value`<br>`Operation`: `Average`<br>`Timestamp` Column: `date requested`|
+|`Average time to return`|The average time from order to return.|`Operation` Column: Seconds between order's created at and return's date requested<br>`Operation`: `Average`<br>`Timestamp` Column: `date requested`|
 
 {style="table-layout:auto"}
 

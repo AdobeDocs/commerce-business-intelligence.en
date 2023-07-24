@@ -45,8 +45,8 @@ The `quote_item` table (`sales_flat_quote_item` on M1) contains records on eve
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|`Number of abandoned cart items`|Total quantity of items added to carts that meet specific "abandonment" conditions|`Operation: Sum`<br/>`Operand: qty`<br/>`Timestamp: Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
-|`Abandoned cart item value`|Sum of total revenue associated with carts that meet specific "abandonment" conditions|`Operation: Sum`<br>`Operand: Cart item total value (qty * base_price)`<br>`Timestamp:` `Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
+|`Number of abandoned cart items`|Total quantity of items added to carts that meet specific "abandonment" conditions|`Operation: Sum`<br/>`Operand: qty`<br/>`Timestamp: Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
+|`Abandoned cart item value`|Sum of total revenue associated with carts that meet specific "abandonment" conditions|`Operation: Sum`<br>`Operand: Cart item total value (qty * base_price)`<br>`Timestamp:` `Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, where "x" corresponds to the elapsed time (in seconds) since cart creation beyond which a cart is considered abandoned|
 
 {style="table-layout:auto"}
 

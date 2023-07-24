@@ -3,7 +3,7 @@ title: Forecasting
 description: Forecasting
 exl-id: 61e0516a-941c-4e32-b051-6ff664962198
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Forecasting
 

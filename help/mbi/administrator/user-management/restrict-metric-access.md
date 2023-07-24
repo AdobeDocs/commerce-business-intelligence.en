@@ -3,7 +3,7 @@ title: Restrict metrics access
 description: Learn how to work with metrics access and restrictions.
 exl-id: 88f5ca7a-8073-4968-9685-95f141b2a87f
 role: Admin, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Manage metrics users
 

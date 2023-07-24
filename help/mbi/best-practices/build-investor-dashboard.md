@@ -3,7 +3,7 @@ title: Building a dashboard for investors
 description: Learn how to build a dashboard for investors.
 exl-id: 917e7628-3498-4413-a7e1-61799989a7dd
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Build Investor Dashboard
 

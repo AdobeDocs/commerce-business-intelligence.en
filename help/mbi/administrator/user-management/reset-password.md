@@ -3,7 +3,7 @@ title: Reset Password
 description: Learn how to reset a user's password.
 exl-id: 4de90da3-9846-4c3a-a31e-8b379f207618
 role: Admin, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Reset your password
 

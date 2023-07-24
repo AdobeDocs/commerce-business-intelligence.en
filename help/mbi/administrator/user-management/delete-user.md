@@ -3,7 +3,7 @@ title: Delete or reactivate an Adobe Commerce Intelligence user
 description: Learn how to delete an [!DNL Commerce Intelligence] user.
 exl-id: 0590275d-3329-40fb-8be1-4a700438338d
 role: Admin, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Delete an [!DNL Adobe Commerce Intelligence] user
 

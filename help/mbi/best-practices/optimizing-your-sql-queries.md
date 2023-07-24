@@ -3,7 +3,7 @@ title: Optimizing Your SQL Queries
 description: Learn how to optimize your SQL queries.
 exl-id: 2782c707-6a02-4e5d-bfbb-eff20659fbb2
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Business Performance
 ---
 # Optimize your SQL queries
 
