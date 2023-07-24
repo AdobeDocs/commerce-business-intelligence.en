@@ -2,6 +2,8 @@
 title: Sharing Dashboards
 description: Learn how to work with and share your dashboards.
 exl-id: 73df627f-bc08-45c0-aa5e-410c4fd0642d
+role: Admin, User
+feature: Business Performance
 ---
 # Share a Dashboard
 

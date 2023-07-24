@@ -2,6 +2,8 @@
 title: Formatting and Importing Financial Data
 description: Learn how to format and import financial data.
 exl-id: cdbed262-7cf1-4fd6-ad5a-c44d26dffba7
+role: Admin, Data Architect, Data Engineer, User
+feature: Business Performance
 ---
 # Format and Import Financial Data
 

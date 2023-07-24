@@ -2,6 +2,8 @@
 title: Tracking Goals Against Metrics
 description: Learn how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time.
 exl-id: 9d621f40-f9c2-4310-bd96-a46ab7159930
+role: Admin, User
+feature: Business Performance
 ---
 # Tracking Goals Against Performance Metrics
 

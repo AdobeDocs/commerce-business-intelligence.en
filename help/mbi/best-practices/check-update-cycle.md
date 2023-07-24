@@ -2,6 +2,8 @@
 title: Checking the Update Cycle Status
 description: Learn how to check the update cycle status.
 exl-id: bd65f2bb-86c1-4e83-a132-797694ddb086
+role: Admin, Data Architect, Data Engineer, User
+feature: Business Performance
 ---
 # Update cycle progress
 

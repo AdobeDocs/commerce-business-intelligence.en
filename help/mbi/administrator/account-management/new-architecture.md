@@ -2,6 +2,8 @@
 title: New Architecture
 description: Learn about the benefits of moving to new architecture.
 exl-id: cbb10673-5704-4a90-9574-5ac114f389b9
+role: Admin, Data Architect, Data Engineer, User
+feature: Business Performance
 ---
 # New Architecture
 

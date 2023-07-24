@@ -2,6 +2,8 @@
 title: Consolidate your Tables
 description: Learn how to consolidate your tables and databases.
 exl-id: 6065bed3-fb84-4147-a223-92dc3e1b15a5
+role: Admin, User
+feature: Business Performance
 ---
 # Consolidate your Tables
 

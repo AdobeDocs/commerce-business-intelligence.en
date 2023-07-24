@@ -2,6 +2,8 @@
 title: Google Analytics - Track User Acquisition Source Data Overview
 description: Learn how to segment your data by user acquisition source.
 exl-id: 2ce3e4f9-4741-4ada-b822-ec6a5ca94497
+role: Admin, User
+feature: Business Performance
 ---
 # Segmentation by user acquisition source
 

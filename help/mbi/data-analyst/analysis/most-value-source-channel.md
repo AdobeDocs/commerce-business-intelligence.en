@@ -2,6 +2,8 @@
 title: Identifying Your Most Valuable Marketing Sources and Channels
 description: Learn about some reports that you can use to uncover your most valuable marketing channels.
 exl-id: 8d25bc80-ea60-47db-b01b-04a23a24c14d
+role: Admin, Data Architect, Data Engineer, User
+feature: Business Performance
 ---
 # Identify Successful Marketing Sources
 
