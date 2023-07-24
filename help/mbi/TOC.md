@@ -1,7 +1,7 @@
 ---
 title: Commerce Intelligence
 description: Learn how to use [!DNL Commerce Intelligence] features available for Adobe Commerce.
-breadcrumb-title: [!DNL Commerce Intelligence] User Guide
+breadcrumb-title: Commerce Intelligence User Guide
 role: Admin, Data Architect, Data Engineer, Leader, User
 feature: Business Performance
 recommendations: noDisplay
