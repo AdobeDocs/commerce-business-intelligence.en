@@ -3,7 +3,7 @@ title: Restricting Access to your Database
 description: Learn how you can restrict access, limiting access to the server that houses your database.
 exl-id: 7a0bc0d7-086e-4a6e-b1dd-6db13814710e
 role: Admin, User
-feature: Business Performance
+feature: Accounts, User Management
 ---
 # Restrict Access
 

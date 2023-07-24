@@ -2,6 +2,8 @@
 title: Enterprise_Rma_Item_Entity Table
 description: Learn how to analyze information about a specific item from a requested return.
 exl-id: aa71cb3f-3e0b-4b6b-b4cc-dad103f79c51
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # enterprise_rma_item_entity Table
 

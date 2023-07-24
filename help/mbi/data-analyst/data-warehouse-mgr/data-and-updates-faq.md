@@ -2,6 +2,8 @@
 title: Data and Updates Information
 description: Learn how to check the status of your update cycle.
 exl-id: a4a2e487-b826-4888-baf0-9d246a8ff153
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Data and Updates Information
 

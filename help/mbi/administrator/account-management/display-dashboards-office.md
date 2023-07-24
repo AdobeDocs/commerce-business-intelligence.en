@@ -3,7 +3,7 @@ title: Displaying dashboards on multiple screens
 description: Learn how to display your dashboards around the office.
 exl-id: aabe5c8f-0809-467c-9713-099aed6926b9
 role: Admin, User
-feature: Business Performance
+feature: Dashboards
 ---
 # Display Dashboards around the office
 

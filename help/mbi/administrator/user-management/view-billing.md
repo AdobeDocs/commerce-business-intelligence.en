@@ -2,7 +2,7 @@
 title: View the billing information
 description: Learn how to update your billing information. 
 role: Admin, User
-feature: Business Performance
+feature: User Management
 ---
 # Billing Information
 

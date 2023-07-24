@@ -3,7 +3,7 @@ title: Recency, Frequency, Monetary (RFM) Analysis
 description: Learn how to set up a dashboard that allows you to segment your customers by their recency, frequency, and monetary rankings.
 exl-id: 8f0f08fd-710b-4810-9faf-3d0c3cc0a25d
 role: Admin, User
-feature: Business Performance
+feature: Data Warehouse Manager, Reports, Dashboards
 ---
 # RFM Analysis
 

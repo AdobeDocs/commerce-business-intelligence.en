@@ -3,7 +3,7 @@ title: Increasing ROI on your advertising campaigns
 description: Learn about a few different methods of evaluating your campaign performance.
 exl-id: 4f2bf408-eeaf-4dbf-b62e-89426734640a
 role: Admin, User
-feature: Business Performance
+feature: Data Warehouse Manager, Reports, Campaigns
 ---
 # Advertising Campaigns and ROI
 

@@ -2,6 +2,8 @@
 title: Data Warehouse Manager
 description: Learn how to manage table and column sync settings, drill down into a table's schema, and create calculated columns to use in reports.
 exl-id: b9577919-0db0-47f1-a426-1abe48443ac0
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Data Warehouse Manager
 

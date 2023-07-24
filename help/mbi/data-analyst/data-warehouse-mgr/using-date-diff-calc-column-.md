@@ -2,6 +2,8 @@
 title: Using the Date Difference Calculated Column
 description: Learn the purpose and uses of the Date Difference calculated column.
 exl-id: 6ecab794-3466-4b3a-a929-3e56287522aa
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Date Difference Calculated Column
 

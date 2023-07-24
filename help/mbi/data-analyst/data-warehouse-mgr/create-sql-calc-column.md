@@ -2,6 +2,8 @@
 title: Creating and Using a SQL Calculated Column
 description: Learn how advanced columns can be created in the form of SQL Calculation columns on the new Adobe Commerce Intelligence architecture.
 exl-id: f16e4ee4-ed73-4ddb-b701-1fe3db14346a
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, SQL Report Builder, Commerce Tables
 ---
 # Create a SQL Calculated Column
 

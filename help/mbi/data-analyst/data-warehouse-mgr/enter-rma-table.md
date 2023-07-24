@@ -2,6 +2,8 @@
 title: enterprise_rma Table
 description: Learn how to analyze information about a specific return request.
 exl-id: a19cbc9a-e34f-4f4e-820f-9e413d1a552d
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # enterprise_rma Table
 

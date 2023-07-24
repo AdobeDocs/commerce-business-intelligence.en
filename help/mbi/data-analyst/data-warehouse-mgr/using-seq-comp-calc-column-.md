@@ -2,6 +2,8 @@
 title: Sequential Comparison Calculated Column
 description: Learn the purpose and uses of the Sequential Comparison calculated column.
 exl-id: 625062b4-f05d-42aa-94c3-729b39c7d728
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Sequential Comparison Calculated Column
 

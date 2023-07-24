@@ -3,7 +3,7 @@ title: Commerce Churn
 description: Learn how to generate and analyze your Commerce churn rate.
 exl-id: 8775cf0a-114d-4b48-8bd2-fc1700c59a12
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Data Warehouse Manager, Reports
 ---
 # Churn Rate
 

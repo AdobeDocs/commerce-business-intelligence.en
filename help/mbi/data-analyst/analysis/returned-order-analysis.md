@@ -3,7 +3,7 @@ title: Analyzing Returned Orders
 description: Learn how to set up a dashboard that provides a detailed analysis of your store's returns.
 exl-id: 6a948561-45b7-4813-9661-ab42197ca5bd
 role: Admin, User
-feature: Business Performance
+feature: Data Warehouse Manager, Reports, Dashboards
 ---
 # Returned Orders
 

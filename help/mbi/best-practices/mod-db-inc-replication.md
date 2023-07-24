@@ -3,7 +3,7 @@ title: Modifying Your Database to Support for Incremental Replication
 description: Learn how to modify your database to support incremental replication.
 exl-id: c9a38892-6096-4eb5-8a53-35b8b7b083dc
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Data Integration, Data Import/Export, Data Warehouse Manager
 ---
 # Support for Incremental Replication
 

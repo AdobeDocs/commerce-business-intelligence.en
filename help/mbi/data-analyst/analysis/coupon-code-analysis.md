@@ -3,7 +3,7 @@ title: Coupon Performance
 description: Learn about analyzing your coupon performance.
 exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
 role: Admin, User
-feature: Business Performance
+feature: Data Warehouse Manager, Reports
 ---
 # Advanced Coupon Code Analysis
 

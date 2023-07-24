@@ -3,7 +3,7 @@ title: Understand your [!DNL Commerce Intelligence] Environment
 description: Learn about working with and improving your [!DNL Commerce Intelligence] environment.
 exl-id: 601b5fba-da02-4cc8-96ed-147c24f326f9
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Data Warehouse Manager
 ---
 # Your [!DNL Adobe Commerce Intelligence] Environment
 

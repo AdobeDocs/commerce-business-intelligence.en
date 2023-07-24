@@ -3,7 +3,7 @@ title: Manage your account settings
 description: Learn how to customize your account settings for your Data Warehouse.
 exl-id: 847d51b1-287e-4c14-b64e-0bd9bfcccedc
 role: Admin, User
-feature: Business Performance
+feature: Accounts
 ---
 # Customizing your account settings
 

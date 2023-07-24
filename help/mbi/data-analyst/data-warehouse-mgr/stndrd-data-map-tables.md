@@ -2,6 +2,8 @@
 title: Standardize data with mapping tables
 description: Learn how to work with mapping tables.
 exl-id: e452ff87-f298-43d5-acc3-af58e53bd0bc
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Standardize Data with Mapping Tables
 

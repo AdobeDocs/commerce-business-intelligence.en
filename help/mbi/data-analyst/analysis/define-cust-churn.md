@@ -3,7 +3,7 @@ title: Define customer churn
 description: Learn how to set up a dashboard that helps you define churn for your transactional customers.
 exl-id: fea8f7e9-c84c-4d49-a657-8b75140c113a
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Data Warehouse Manager, Reports, Dashboards
 ---
 # Transactional Customer Churn
 

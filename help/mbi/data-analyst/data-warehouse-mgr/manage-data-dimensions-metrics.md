@@ -2,6 +2,8 @@
 title: Managing data dimensions
 description: Learn what a dimension is and it can be used to filter or segment charts based on a metric.
 exl-id: 143a4b1e-2e6f-438a-90e6-bdda13b39cb9
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Managing data dimensions
 

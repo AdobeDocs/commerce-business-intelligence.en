@@ -3,7 +3,7 @@ title: Coupon Code Analysis (basic)
 description: Learn about the coupon performance of your business is an interesting way to segment your orders and better understand customer habits.
 exl-id: 0d486259-b210-42ae-8f79-cd91cc15c2c2
 role: Admin, User
-feature: Business Performance
+feature: Data Warehouse Manager, Reports
 ---
 # Basic Coupon Code Analysis
 

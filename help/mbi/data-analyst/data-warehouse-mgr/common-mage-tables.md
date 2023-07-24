@@ -2,6 +2,8 @@
 title: Common Commerce Tables
 description: Learn about some of the more common tables that [!DNL Commerce Intelligence] customers use.
 exl-id: 8b316130-55c6-4771-ae6e-97ac605fc6cc
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Common Commerce Tables
 

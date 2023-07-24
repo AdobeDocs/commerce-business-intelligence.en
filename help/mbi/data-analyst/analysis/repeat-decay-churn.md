@@ -3,7 +3,7 @@ title: Analyzing Repeat Probability Decay and Churn
 description: Learn and understand how time lapses between orders and when customers are expected to churn.
 exl-id: ea26052d-ac74-43b7-a4a6-977800d4c719
 role: Admin, Data Architect, Data Engineer, User
-feature: Business Performance
+feature: Data Warehouse Manager, Reports, Dashboards
 ---
 # Repeat Probability Decay and Churn
 

@@ -2,6 +2,8 @@
 title: Understand and Evaluate Table Relationships
 description: Learn how to understand how many possible occurrences in one table could belong to an entity in another.
 exl-id: e7256f46-879a-41da-9919-b700f2691013
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Understand and Evaluate Table Relationships
 

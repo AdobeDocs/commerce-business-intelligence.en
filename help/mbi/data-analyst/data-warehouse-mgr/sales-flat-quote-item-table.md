@@ -2,6 +2,8 @@
 title: quote_item table
 description: Learn how to work with the quote_item table.
 exl-id: dad36e88-5986-4b52-8a0e-ac084fabb275
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # quote_item Table
 

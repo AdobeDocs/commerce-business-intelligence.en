@@ -3,7 +3,7 @@ title: Name reports and elements in Commerce Intelligence
 description: Learn best practices for naming reports and elements in [!DNL Commerce Intelligence].
 exl-id: c662cedd-c779-4254-b04b-f3092a538c85
 role: Admin, User
-feature: Business Performance
+feature: Reports
 ---
 # Name reports and elements
 

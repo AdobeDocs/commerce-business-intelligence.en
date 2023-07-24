@@ -3,7 +3,7 @@ title: Free shipping threshold
 description: Learn how to set up a dashboard that track the performance of your free shipping threshold.
 exl-id: a90ad89b-96d3-41f4-bfc4-f8c223957113
 role: Admin,  User
-feature: Business Performance
+feature: Data Warehouse Manager, Dashboards. Reports
 ---
 # Free Shipping
 
