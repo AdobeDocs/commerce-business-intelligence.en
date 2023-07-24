@@ -1,7 +1,6 @@
 ---
 solution: Commerce, Commerce Intelligence
 product: magento
-feature-set: Commerce Intelligence
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
