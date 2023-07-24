@@ -6,7 +6,6 @@ audience: end-user
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-business-intelligence.en
 role: User
-feature: Business Performance
 level: Beginner, Intermediate
 topic: Commerce
 index: yes
