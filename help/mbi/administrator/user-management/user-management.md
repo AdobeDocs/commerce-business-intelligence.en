@@ -2,8 +2,7 @@
 title: Managing Adobe Commerce users and permissions
 description: Learn how to manage your Commerce Intelligence users.
 exl-id: 2a5eeabb-3c13-4ca1-b845-ed255b389c9f
-role: Admin, 
-User
+role: Admin, User
 feature: Business Performance
 ---
 # Manage user permissions
