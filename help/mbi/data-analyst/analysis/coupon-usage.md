@@ -2,6 +2,8 @@
 title: Analyzing coupon usage
 description: Learn how to analyze coupon usage on acquiring and retaining customers.
 exl-id: d4d1393f-1695-43f2-980a-84525f84031e
+role: Admin, User
+feature: Data Warehouse Manager, Reports
 ---
 # Coupon Usage
 

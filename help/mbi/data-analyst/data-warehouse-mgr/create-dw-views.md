@@ -2,6 +2,8 @@
 title: Create and Use Data Warehouse Views
 description: Learn about a method of creating new warehoused tables by modifying an existing table, or joining or consolidating multiple tables together by using SQL.
 exl-id: 5aa571c9-7f38-462c-8f1b-76a826c9dc55
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager
 ---
 # Working with Data Warehouse Views
 

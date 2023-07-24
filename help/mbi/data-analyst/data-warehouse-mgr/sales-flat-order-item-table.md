@@ -2,6 +2,8 @@
 title: sales_order_item table
 description: Learn how to work with the sales_order_item table.
 exl-id: 5c48e985-3ba2-414b-bd1f-555b3da763bd
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # `sales_order_item` Table
 

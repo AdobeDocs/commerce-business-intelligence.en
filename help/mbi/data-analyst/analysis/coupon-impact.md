@@ -2,6 +2,8 @@
 title: Analyzing coupon impact
 description: Learn how to analyze coupon impact on acquiring and retaining customers.
 exl-id: b0619365-fa75-49b5-a393-87f3364a390f
+role: Admin, User
+feature: Data Warehouse Manager, Reports
 ---
 # Coupon Impact
 

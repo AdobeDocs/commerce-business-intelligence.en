@@ -1,11 +1,14 @@
 ---
-solution: Commerce
+solution: Commerce, Commerce Intelligence
 product: magento
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-business-intelligence.en
 role: User
+feature-set: Commerce Intelligence
+level: Beginner, Intermediate
+topic: Commerce
 index: yes
 ---
 

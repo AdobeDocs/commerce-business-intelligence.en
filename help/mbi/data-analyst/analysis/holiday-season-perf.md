@@ -2,6 +2,8 @@
 title: Analyzing Holiday Season Performance
 description: Learn and understand how the pattern of this year's growth compares with previous years.
 exl-id: 328f30b8-0db6-48fd-8d97-95f0bc7e4803
+role: Admin, User
+feature: Data Warehouse Manager, Reports, Dashboards
 ---
 # Holiday Shopping Analysis
 

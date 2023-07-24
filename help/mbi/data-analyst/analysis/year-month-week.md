@@ -2,6 +2,8 @@
 title: Yearly, Monthly, and Weekly Reports
 description: Learn how to easily see trends over time and change perspective for time periods you may want to compare.
 exl-id: 74cf11c3-7ce0-477f-9a28-9d782e5da3d9
+role: Admin, Data Architect, Data Engineer, Leader, User
+feature: Reports, Dashboards
 ---
 # Reporting over Time Periods
 

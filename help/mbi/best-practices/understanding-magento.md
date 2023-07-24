@@ -2,6 +2,8 @@
 title: Understand your [!DNL Commerce Intelligence] Environment
 description: Learn about working with and improving your [!DNL Commerce Intelligence] environment.
 exl-id: 601b5fba-da02-4cc8-96ed-147c24f326f9
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Warehouse Manager
 ---
 # Your [!DNL Adobe Commerce Intelligence] Environment
 
@@ -13,7 +15,7 @@ Many of your tables contain a column named `entity\_id`. In each table that con
 
 For example, each row in the `sales\_order` table is a unique order. The primary key in this table is called `entity\_id`. This column can be thought of as `order\_id`. In a separate table, `customer\_entity`, each row represents a unique customer. The primary key in this table is also called `entity\_id`, which can be thought of as `customer\_id`.
 
-In those tables, `sales\_order.entity\_id` does not equal `customer\_entity.entity\_id`. This holds true for all sets of tables that contain `entity\_id`: `table\_A.entity\_id` does not equal `table\_B.entity\_id`.
+In those tables, `sales\_order.entity\_id` does not equal `customer\_entity.entity\_id`. This holds true for all sets of tables that contain `entity\_id`: `table\_A.entity\_id` does not equal `table\_B.entity\_id`.
 
 ## [!DNL Guest orders]
 

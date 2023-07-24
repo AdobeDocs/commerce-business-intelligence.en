@@ -2,6 +2,8 @@
 title: Storing Data in Adobe Commerce
 description: Learn how data is generated, what causes a new row to be inserted , and how actions are recorded into the Adobe Commerce database.
 exl-id: 436ecdc1-7112-4dec-9db7-1f3757a2a938
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Storing Data in [!DNL Adobe Commerce]
 

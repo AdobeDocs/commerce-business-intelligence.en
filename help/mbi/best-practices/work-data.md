@@ -2,6 +2,8 @@
 title: Working with Data
 description: Learn the best practices for organizing and working with that data.
 exl-id: cd898aa0-afec-481a-b800-d156d57aba85
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Integration, Data Import/Export, Data Warehouse Manager
 ---
 # Working with Data
 

@@ -2,6 +2,8 @@
 title: Reduce Your Update Cycle Time
 description: Learn how to reduce your update cycle time.
 exl-id: 0b211e2d-770f-480d-a7fb-8d10e3e7272e
+role: Admin, User
+feature: Data Integration, Data Import/Export, Data Warehouse Manager, Dashboards
 ---
 # Reduce Update Cycle Processing Time
 

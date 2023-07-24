@@ -2,6 +2,8 @@
 title: Calculated Column Types
 description: Learn how to create columns to augment and optimize your data for analysis.
 exl-id: 1af79b9e-77ff-4fc6-917a-4e6743b95035
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration
 ---
 # Calculated Column Types
 

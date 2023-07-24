@@ -2,6 +2,8 @@
 title: customer_entity table
 description: Learn how to access records of all registered accounts.
 exl-id: 24bf0e66-eea0-45ea-8ce6-4ff99b678201
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # customer_entity Table
 

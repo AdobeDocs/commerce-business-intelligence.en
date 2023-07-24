@@ -2,6 +2,8 @@
 title: Enterprise_Rma_Item_Entity Table
 description: Learn how to analyze information about a specific item from a requested return.
 exl-id: aa71cb3f-3e0b-4b6b-b4cc-dad103f79c51
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # enterprise_rma_item_entity Table
 
@@ -40,7 +42,7 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 
 |**Metric Name**|**Description**|**Construction**|
 |---|---|---|
-|`Number of items returned`|The number of items that are returned.|Operation Column: qty returned<br>Operation: Sum<br>Timestamp Column: Return date requested |
+|`Number of items returned`|The number of items that are returned.|Operation Column: qty returned<br>Operation: Sum<br>Timestamp Column: Return date requested |
 |`Returned items' total value`|The monetary amount returned. |Operation Column: Return item's total value (qty returned * price)<br>Operation: Sum<br>Timestamp Column: Return date requested|
 
 {style="table-layout:auto"}
@@ -58,4 +60,4 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 * Create joined columns on the  `enterprise_rma_item_entity` table via the following join:
 
 * Commerce 1.x: `enterprise_rma_item_entity.order_item_id ` (many) => `sales_flat_order_item.item_id` (one)
-* Commerce 2.x: `magento_rma_item_entity.order_item_id ` (many) => `sales_order_item.item_id` (one)
+* Commerce 2.x: `magento_rma_item_entity.order_item_id ` (many) => `sales_order_item.item_id` (one)

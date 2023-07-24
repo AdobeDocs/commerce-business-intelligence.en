@@ -1,7 +1,9 @@
 ---
-title: Build[!DNL Google ECommerce]dimensions
+title: Build[!DNL Google ECommerce] dimensions
 description: Learn to build dimensions that link your eCommerce data with your orders and customer data.
 exl-id: f8a557ae-01d7-4886-8a1c-c0f245c7bc49
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Integration, Data Warehouse Manager
 ---
 # Build [!DNL Google ECommerce] Dimensions
 
