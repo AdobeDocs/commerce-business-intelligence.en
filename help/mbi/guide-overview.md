@@ -5,8 +5,6 @@ breadcrumb-title: Guide Overview
 seo-title: Commerce Intelligence User Guide
 seo-description: Describes how to use Adobe Commerce Intelligence features used to gain insights from Adobe Commerce or Magento Open Source data, along with other third-party data sources.
 exl-id: f62c7a98-1b4c-4abb-9692-50ce0f3ee1fb
-role: Admin, Data Architect, Data Engineer, Leader, User
-feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration, Accounts, Business Performance, Campaigns, Dashboards, Data Import/Export, Projects, SQL Report Builder, User Management
 ---
 
 # [!DNL Adobe Commerce Intelligence] User Guide
