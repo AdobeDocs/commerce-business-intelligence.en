@@ -1,7 +1,8 @@
 ---
 title: Export Chart Data
 description: Learn how to view the data behind a chart.
-exl-id: 3c75ff3c-c4e2-4ff8-a303-6f24ccfca0ffrole: Admin, Data Architect, Data Engineer, User
+exl-id: 3c75ff3c-c4e2-4ff8-a303-6f24ccfca0ff
+role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Export Chart Data
