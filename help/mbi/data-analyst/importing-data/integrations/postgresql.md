@@ -2,6 +2,8 @@
 title: Connect PostgreSQL via SSH Tunnel
 description: Learn how to connect your PostgreSQL database to Commerce Intelligence via an SSH tunnel.
 exl-id: da610988-21c1-4f5f-b4e2-e2deb175a2aa
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder
 ---
 # Connect [!DNL PostgreSQL] via [!DNL SSH Tunnel]
 

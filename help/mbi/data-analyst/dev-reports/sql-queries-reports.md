@@ -2,6 +2,8 @@
 title: Translating SQL queries into Commerce Intelligence reports
 description: Learn how SQL queries are translated into the calculated columns, metrics you use in Commerce Intelligence.
 exl-id: b3e3905f-6952-4f15-a582-bf892a971fae
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, SQL Report Builder, Reports
 ---
 # Translate SQL queries in Commerce Intelligence
 

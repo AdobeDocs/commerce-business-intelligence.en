@@ -2,6 +2,8 @@
 title: Commerce Intelligence Essentials vs. Pro
 description: Learn how Commerce Intelligence Essentials differs from Commerce Intelligence Pro.
 exl-id: 624a6285-8497-43d9-a56d-8ae503e0e2dd
+role: Admin, Data Architect, Data Engineer, Leader, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 
 ---
 # [!DNL Commerce Intelligence Essentials] vs [!DNL Commerce Intelligence Pro]

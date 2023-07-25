@@ -2,6 +2,8 @@
 title: Importing Linkshare data
 description: Learn to import Linkshare data into [!DNL Commerce Intelligence].
 exl-id: 1c2025a6-746c-4929-bbb1-62af1afcbc49
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Import [!DNL Linkshare] data
 

@@ -2,6 +2,8 @@
 title: Import MailChimp data
 description: Learn to import MailChimp data into [!DNL Commerce Intelligence].
 exl-id: 5595c6a6-5476-4a0e-a493-ddc32161894e
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Import [!DNL Mailchimp] data
 

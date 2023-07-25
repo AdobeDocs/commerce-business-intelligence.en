@@ -2,6 +2,8 @@
 title: Use the Visual Report Builder
 description: Learn to analyze the data in your report for a specific time period.
 exl-id: da97b63d-63f0-4fd6-87e3-4cac49a42acc
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 ---
 # Use the [!DNL Visual Report Builder]
 

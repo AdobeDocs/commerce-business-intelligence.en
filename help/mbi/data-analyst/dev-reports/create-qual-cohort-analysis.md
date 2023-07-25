@@ -2,6 +2,8 @@
 title: Create a qualitative cohort analysis
 description: Learn what a qualitative cohort is, why you might be interested in building this analysis, and how you can create it in Commerce Intelligence.
 exl-id: 113244e4-409b-4129-b3d4-7a3433539ade
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports
 ---
 # Create a `Qualitative Cohort Analysis`
 

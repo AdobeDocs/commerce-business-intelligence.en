@@ -2,6 +2,8 @@
 title: Expected Commerce Data
 description: Explore the main data tables that Commerce users import into Commerce Intelligence
 exl-id: b481c8fc-41b6-4094-8901-17d57f26bfc0
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL Adobe Commerce] Data
 

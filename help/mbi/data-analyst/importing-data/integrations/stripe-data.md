@@ -2,6 +2,8 @@
 title: Expected Stripe data
 description: Explore the main data tables that you can import from Stripe into Commerce Intelligence.
 exl-id: 694577b2-48f9-4376-850d-acae1776afe3
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL Stripe] data
 

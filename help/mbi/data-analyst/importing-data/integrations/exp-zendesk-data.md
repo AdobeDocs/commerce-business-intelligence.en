@@ -2,6 +2,8 @@
 title: Expected Zendesk data
 description: Learn the main data tables that you can import from Zendesk into Commerce Intelligence, including links to additional documentation about Zendesk data.
 exl-id: 838d8d13-e2e1-44c2-a416-f1792200ee6f
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL Zendesk] data
 

@@ -2,6 +2,8 @@
 title: Lifetime Revenue Cohort Analysis
 description: Explore the power of Commerce Intelligence cohort analysis.
 exl-id: f2b55745-d364-4ba6-9857-ce9cee05c3ae
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports
 ---
 # [!DNL Lifetime Revenue Cohort] Analysis
 

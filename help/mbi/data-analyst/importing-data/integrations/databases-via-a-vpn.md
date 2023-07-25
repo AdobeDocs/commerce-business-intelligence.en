@@ -2,6 +2,8 @@
 title: Connect databases via VPN
 description: Learn how to connect databases via VPN instead of SSH Tunnel.
 exl-id: c7aa564d-42de-426e-92e9-f6e250a6abba
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect databases via VPN
 

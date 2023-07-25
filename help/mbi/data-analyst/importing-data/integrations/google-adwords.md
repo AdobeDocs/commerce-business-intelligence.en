@@ -2,6 +2,8 @@
 title: Connect Google Adwords
 description: Learn to measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV) of users acquired from your campaigns.
 exl-id: db99f817-2a2e-4194-9dd2-ec2d6b27a118
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Google Adwords]
 

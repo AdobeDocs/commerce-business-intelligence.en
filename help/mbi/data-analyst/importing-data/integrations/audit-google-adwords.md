@@ -2,6 +2,8 @@
 title: Auditing Google Adwords data
 description: Learn the steps for exporting your Google Adwords data.
 exl-id: f619801f-e789-44ad-945e-268d430bf583
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Audit [!DNL Google Adwords] data
 

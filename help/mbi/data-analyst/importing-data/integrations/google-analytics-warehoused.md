@@ -2,6 +2,8 @@
 title: Connect Google Analytics Warehoused
 description: Learn to track how visitors use your site, what content is attractive, where visitors exit, and more.
 exl-id: b9879399-9e1a-4f36-b510-8426ebc83aeb
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Google Analytics Warehoused]
 

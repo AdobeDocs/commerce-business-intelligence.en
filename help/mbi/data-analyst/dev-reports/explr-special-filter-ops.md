@@ -2,6 +2,8 @@
 title: Special filter operators
 description: Learn about a few special operators used in filters when creating a report or creating a metric.
 exl-id: 12837490-b9ca-4040-bb71-8988b5dde485
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports
 ---
 # Filter Options
 

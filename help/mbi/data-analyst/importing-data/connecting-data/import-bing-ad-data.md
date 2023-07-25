@@ -2,6 +2,8 @@
 title: Import Bing Ad Spend data
 description: Learn to import Bing advertising spend data into [!DNL Commerce Intelligence] for analysis.
 exl-id: c8dec4b4-74ce-41b2-a77d-403fe44e2816
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Import [!DNL Bing] Data
 

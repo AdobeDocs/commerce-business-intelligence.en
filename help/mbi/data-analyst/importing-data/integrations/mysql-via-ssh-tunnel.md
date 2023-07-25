@@ -2,6 +2,8 @@
 title: Connecting [!DNL MySQL] via SSH tunnel
 description: Learn how to connect [!DNL MySQL] via SSH Tunnel.
 exl-id: 6b691a6a-9542-4e47-9b1d-d6d3c3dac357
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder
 ---
 # Connect [!DNL MySQL] via [!DNL SSH Tunnel]
 

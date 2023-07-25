@@ -2,6 +2,8 @@
 title: Average time to first purchase report
 description: Learn how to use the Average time to first purchase report.
 exl-id: c18734ce-0ae0-4e84-b9d0-eb2c21a5c3a5
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports
 ---
 # Average time to first purchase report 
 

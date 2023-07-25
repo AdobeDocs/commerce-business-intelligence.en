@@ -2,6 +2,8 @@
 title: Formulas
 description: Learn how to use formulas.
 exl-id: b6432d93-739f-410c-b732-e09a278f8dae
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 ---
 # Formulas
 

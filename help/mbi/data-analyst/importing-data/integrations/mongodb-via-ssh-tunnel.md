@@ -2,6 +2,8 @@
 title: Connect [!DNL MongoDB] via SSH tunnel
 description: Learn how to connect [!DNL MongoDB] via SSH tunnel.
 exl-id: 3557a8c7-c4c5-4742-ae30-125c719aca39
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL MongoDB] via SSH Tunnel 
 

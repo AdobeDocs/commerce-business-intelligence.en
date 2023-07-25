@@ -2,6 +2,8 @@
 title: Activate your [!DNL Commerce Intelligence] Account
 description: Learn who to contact to activate your [!DNL Commerce Intelligence] account.
 exl-id: 0efac7b4-2457-48c7-947a-d2776b90a1dd
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 ---
 # Activate your [!DNL Commerce Intelligence] Account 
 

@@ -2,6 +2,8 @@
 title: Connect QuickBooks
 description: Learn how your business finances can now live along side your sales and marketing data, allowing you to quickly and easily keep tabs on your expenses, identify overspending, and more.
 exl-id: e100c88c-af59-4185-b2a2-c8e77bfd7277
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL QuickBooks]
 

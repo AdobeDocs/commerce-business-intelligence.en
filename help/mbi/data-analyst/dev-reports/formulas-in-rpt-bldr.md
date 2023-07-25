@@ -2,6 +2,8 @@
 title: Formulas in the Report Builder
 description: Learn how formulas can be used in the Report Builder.
 exl-id: 7a0ad07a-5bcc-474f-95bc-ccc2b74073b2
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports
 ---
 # Formulas in the `Report Builder`
 

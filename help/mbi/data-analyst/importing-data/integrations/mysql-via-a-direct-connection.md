@@ -2,6 +2,8 @@
 title: Connecting MySQL via a direct connection
 description: Learn how to connect [!DNL MongoDB] via direct connection.
 exl-id: 53765844-c9bb-4a16-b00c-ce9672f87415
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL MySQL] via direct connection
 

@@ -2,6 +2,8 @@
 title: Repeat Order Probability Report
 description: Learn and understand the Repeat Order Probability Report.
 exl-id: 2c88b85a-7320-44ca-87a5-5b91250348ea
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports
 ---
 # Repeat Order Probability Report
 

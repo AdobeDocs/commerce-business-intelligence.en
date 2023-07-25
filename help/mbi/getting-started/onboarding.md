@@ -2,6 +2,8 @@
 title: Onboarding Adobe Commerce Intelligence
 description: Learn about onboarding Adobe Commerce Intelligence.
 exl-id: e0cce957-af2c-4514-9afd-c9aaa651a4f0
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 ---
 # Onboarding [!DNL Adobe Commerce Intelligence]
 

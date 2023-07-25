@@ -2,6 +2,8 @@
 title: Permanently delete a chart
 description: Learn how to permanently delete a chart.
 exl-id: 34234ff6-b258-4369-9774-946d8423d4da
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Permanently delete a chart
 

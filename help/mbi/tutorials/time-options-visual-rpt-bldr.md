@@ -2,6 +2,8 @@
 title: Use Time Options in the Visual Report Builder
 description: Learn to analyze the data in your report for a specific time period.
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 ---
 # Use [!DNL Time] Options in [!DNL Visual Report Builder]
 

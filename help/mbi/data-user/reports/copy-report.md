@@ -2,6 +2,8 @@
 title: Create a copy of a report
 description: Learn how to create a copy of a report.
 exl-id: c57783b4-32ae-4054-a85a-5ddf63cfd34b
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports
 ---
 # Create a copy of a report
 

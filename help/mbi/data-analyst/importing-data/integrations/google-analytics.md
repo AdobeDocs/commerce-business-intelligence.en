@@ -2,6 +2,8 @@
 title: Connect Google Analytics
 description: Learn to connect Google Analytics with [!DNL Commerce Intelligence].
 exl-id: 10e813f1-0306-4bdd-8222-e6364ac624de
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Google Analytics]
 

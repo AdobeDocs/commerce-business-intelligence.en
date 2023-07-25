@@ -2,6 +2,8 @@
 title: Use Dashboard Groups
 description: Learn how to allow better organization of dashboards.
 exl-id: e48b7345-62d0-4898-997e-3c3c02040ad3
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Use dashboard groups
 

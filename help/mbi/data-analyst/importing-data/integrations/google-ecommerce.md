@@ -2,6 +2,8 @@
 title: Connect Google ECommerce
 description: Learn about your most valued referral channels.
 exl-id: c80f52f3-894a-4084-8c0e-aee618ed77f5
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Google ECommerce]
 

@@ -2,6 +2,8 @@
 title: Create automated email summaries
 description: Learn how to create automated email summaries.
 exl-id: a9aea4fc-9193-467f-8554-3ad77ac3fa73
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Create automated email summaries
 

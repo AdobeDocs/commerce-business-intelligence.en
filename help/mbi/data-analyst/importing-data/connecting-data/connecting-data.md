@@ -2,6 +2,8 @@
 title: Connect Your Data
 description: Learn how to browse the tables available for syncing in the Data Warehouse Manager.
 exl-id: 94beba8b-6a86-4af9-87fb-96b1cf8f8fa2
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration
 ---
 # Connect your Data
 

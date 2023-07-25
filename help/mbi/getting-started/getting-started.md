@@ -2,6 +2,8 @@
 title: Introduction to Adobe Commerce Intelligence
 description: Learn about Adobe Commerce Intelligence.
 exl-id: 0c960d8c-9bb7-429e-a88e-21678a77b710
+role: Admin, Data Architect, Data Engineer, Leader, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 ---
 
 # Introduction to [!DNL Adobe Commerce Intelligence]
