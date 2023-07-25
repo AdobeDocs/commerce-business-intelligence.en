@@ -3,7 +3,7 @@ title: Cohort Report Builder for Non-Date Based Cohorts
 description: Learn to group users by a similar activity or attribute.
 exl-id: c7b85ce9-113c-4ffc-855f-3d53fe2347d8
 role: Admin, Data Architect, Data Engineer, User
-feature: Commerce Tables, Data Warehouse Manager,  Reports
+feature: Commerce Tables, Data Warehouse Manager, Reports
 ---
 # [!DNL Cohort Report Builder] for Non-Date-Based Cohorts
 
