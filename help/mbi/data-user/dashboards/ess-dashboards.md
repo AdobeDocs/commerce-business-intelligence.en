@@ -2,6 +2,9 @@
 title: Dashboards
 description: Learn how to create and work with a dashboard.
 exl-id: a872344b-ac66-41eb-a471-5a69f8802527
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Dashboards
+
 ---
 # Dashboards
 

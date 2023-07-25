@@ -2,6 +2,8 @@
 title: Export Raw Data
 description: Learn to export records from your [!DNL Commerce Intelligence] Data Warehouse to get a closer look at what is powering your dashboard.
 exl-id: 26decdaf-2b2c-4ca2-b3d5-0386892662e8
+role: Admin, Data Architect, Data Engineer, Leader, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Import/Export
 ---
 # Export Raw Data
 

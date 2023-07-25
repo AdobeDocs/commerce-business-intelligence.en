@@ -2,6 +2,8 @@
 title: Share dashboards organization-wide
 description: Learn how to ensure that every user has access to essential business dashboards in [!DNL Commerce Intelligence].
 exl-id: 5afa8c3c-1673-4350-babf-3e4657292871
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Share dashboards organization-wide
 

@@ -2,6 +2,8 @@
 title: Connect Amazon RDS
 description: Learn the steps for connecting your RDS instance.
 exl-id: 02ad29c8-84d6-4b49-9ac1-e5f4feaa7fda
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Amazon RDS]
 

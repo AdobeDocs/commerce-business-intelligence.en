@@ -2,6 +2,8 @@
 title: Connect Stripe
 description: Learn how to manage and track your business's payment and invoice data.
 exl-id: c038f2a9-b2bd-4e45-93f9-12d2e5077b31
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Stripe]
 

@@ -2,6 +2,8 @@
 title: Differences Between SQL and Data Warehouse Manager
 description: Learn the differences between SQL and Data Warehouse Manager.
 exl-id: 31dd7a04-5c03-4399-b67e-f51703eb9fea
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, SQL Report Builder, Reports
 ---
 # Differences Between [!DNL SQL] and [!DNL Data Warehouse Manager]
 

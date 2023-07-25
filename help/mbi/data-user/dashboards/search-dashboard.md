@@ -2,6 +2,8 @@
 title: Searching for Dashboards
 description: Learn how to use the Global Search feature to look for dashboards and how to search for dashboards owned by other users.
 exl-id: eea09ee5-e7ec-4002-8257-a35a64c900a9
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Search for a dashboard
 

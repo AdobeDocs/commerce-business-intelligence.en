@@ -2,6 +2,8 @@
 title: Connect Microsoft SQL Server
 description: Learn how to connect your Microsoft SQL database to [!DNL Commerce Intelligence] in a four-step process.
 exl-id: 7f49d1dc-8fbb-4a8c-9d07-9a8195c266f5
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder
 ---
 # Connect [!DNL Microsoft SQL] Server
 

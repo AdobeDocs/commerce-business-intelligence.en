@@ -1,6 +1,8 @@
 ---
 title: Tutorials
 description: Tutorials
+role: Admin, Data Architect, Data Engineer, User
+feature: Dashboards, Reports
 ---
 # Tutorials
 

@@ -2,6 +2,8 @@
 title: Expected Facebook Ads data
 description: Learn a brief overview of the tables that are recommended you sync to your Data Warehouse
 exl-id: 0c8b907b-1a98-470b-bb2c-55327e88e502
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL Facebook Ads] data
 

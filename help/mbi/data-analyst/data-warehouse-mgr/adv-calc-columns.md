@@ -2,7 +2,7 @@
 title: Advanced Calculated Column Types
 description: Learn the basics for most use column cases -- but you may want calculated column that is a bit more complex than what the Data Warehouse Manager can create.
 exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
-role: Data Architect, Data Engineer, User
+role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager
 ---
 # Advanced Calculated Column Types

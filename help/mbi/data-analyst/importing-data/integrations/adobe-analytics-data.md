@@ -2,6 +2,8 @@
 title: Expected [!DNL Adobe Analytics] Data
 description: Learn the steps for connecting your RDS instance.
 exl-id: 4df66ec1-c7f3-4b02-8f0f-49cada99c14c
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL Adobe Analytics] Data
 

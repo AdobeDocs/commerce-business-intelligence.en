@@ -2,6 +2,8 @@
 title: Expected Spree data
 description: Explore the main data tables that you can import from Spree into your [!DNL Commerce Intelligence] account.
 exl-id: 203a2d4b-e7ad-4704-a3c1-8e22ff0bf2d6
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL Spree] data
 

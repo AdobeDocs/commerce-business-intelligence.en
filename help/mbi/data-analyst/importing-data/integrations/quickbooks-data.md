@@ -2,6 +2,8 @@
 title: Expected QuickBooks data
 description: Learn how to easily track relevant data fields for analysis.
 exl-id: a60996bd-e3d1-497d-abce-f02ef1444f1a
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL QuickBooks] data
 

@@ -2,6 +2,8 @@
 title: Resize and Rearrange Charts in a Dashboard
 description: Learn how you can resize and rearrange charts to create your ideal workspace.
 exl-id: 0abbb845-6713-421e-95e0-c0b43cf7dad4
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Working with charts in dashboards
 

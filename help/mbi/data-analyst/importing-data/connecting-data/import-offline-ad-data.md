@@ -2,6 +2,8 @@
 title: Import other ad spend data
 description: Learn to import offline or other ad spend data into [!DNL Commerce Intelligence].
 exl-id: 6f12a397-0927-4e87-95ff-3a55ccc9e14b
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Import other ad spend data
 

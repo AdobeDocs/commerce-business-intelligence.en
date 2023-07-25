@@ -2,6 +2,8 @@
 title: Connect Mixpanel
 description: Learn how to analyze how users navigate and use your websites and apps.
 exl-id: e6a9f08f-1063-4d92-93e6-971280239fdb
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Mixpanel] 
 

@@ -2,6 +2,8 @@
 title: Expected Salesforce data
 description: Learn about supported and unsupported objects in Salesforce data.
 exl-id: 6625349f-2ec0-402d-8635-889a1f29811c
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL Salesforce] data
 

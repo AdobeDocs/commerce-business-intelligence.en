@@ -2,6 +2,8 @@
 title: Create Visualizations from SQL Queries
 description: Learn to familiarize you with the terminology used in the SQL Report Builder and give you a solid foundation for creating SQL visualizations.
 exl-id: 9b9bc205-5b64-4e64-8d23-057072e5dd72
+role: Admin, Data Architect, Data Engineer, Leader, User
+feature: SQL Report Builder, Data Warehouse Manager, Reports, Data Integration
 ---
 # Create Visualizations from SQL Queries
 

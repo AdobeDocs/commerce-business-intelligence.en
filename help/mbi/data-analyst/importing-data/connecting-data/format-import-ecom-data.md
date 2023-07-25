@@ -2,6 +2,8 @@
 title: Formatting and importing eCommerce data
 description: Learn the ideal data formats to be used for uploading eCommerce data.
 exl-id: 7b910f78-9a5a-4d5d-a8b7-1b0b76304afe
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Formatting and Importing Data
 

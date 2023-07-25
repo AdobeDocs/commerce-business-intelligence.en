@@ -2,6 +2,8 @@
 title: Connect Zendesk
 description: Learn how to consolidate your help desk reporting in [!DNL Commerce Intelligence].
 exl-id: 1c7f7c5c-4b1c-4bcf-8f1d-2b4cf9cdb0fb
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Zendesk]
 

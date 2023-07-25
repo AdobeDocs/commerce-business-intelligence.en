@@ -2,6 +2,8 @@
 title: Access shared dashboards
 description: Learn how to Access shared dashboards.
 exl-id: 528b8a2e-f13c-4ce8-ab8e-13864f50761a
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Access shared dashboards
 

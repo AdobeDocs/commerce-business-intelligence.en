@@ -2,6 +2,8 @@
 title: Expected Google Analytics data
 description: Learn to interact with your Google Analytics metrics.
 exl-id: db9fdaaa-47a9-4095-b1f8-9b6c74c25b7c
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL Google Analytics] data
 

@@ -2,6 +2,8 @@
 title: Expected[!DNL Google ECommerce]data
 description: Learn what types of data are shared with Google ECommerce.
 exl-id: 8e5d8863-f003-4c38-95c5-660bcbff48da
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected[!DNL Google ECommerce] data
 

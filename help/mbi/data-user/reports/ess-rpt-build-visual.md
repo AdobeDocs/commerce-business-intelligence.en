@@ -2,6 +2,8 @@
 title: Visual Report Builder
 description: Learn how to use Visual Report Builder.
 exl-id: 1101f43d-e014-4df2-be21-12d90a9d8a56
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 ---
 # [!DNL Visual Report Builder]
 

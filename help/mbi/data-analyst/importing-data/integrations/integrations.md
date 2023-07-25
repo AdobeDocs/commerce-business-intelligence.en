@@ -2,6 +2,8 @@
 title: Connect External Data Using an Integration
 description: Learn about the available integrations that you can use to connect various external data sources to [!DNL Commerce Intelligence].
 exl-id: b80f6f77-15f7-4d20-83fe-c6d758f9b0f8
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect External Data Using an Integration
 

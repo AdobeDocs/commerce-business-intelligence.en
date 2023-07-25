@@ -2,6 +2,8 @@
 title: Remove Chart from Dashboard
 description: Learn how to remove a chart from a dashboard.
 exl-id: 44116f15-92a5-43c9-8808-7902742508c9
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Remove a chart from a dashboard
 

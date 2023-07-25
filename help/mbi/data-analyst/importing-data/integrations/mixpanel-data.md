@@ -2,6 +2,8 @@
 title: Expected Mixpanel data
 description: Explore the main data tables that you can import from Mixpanel into your [!DNL Commerce Intelligence] account.
 exl-id: 87bd337a-63fa-44cf-b1fe-c2f34ca86029
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Expected [!DNL Mixpanel] data
 

@@ -2,6 +2,8 @@
 title: Connect PrestaShop
 description: Learn how to connect PrestaShop data to [!DNL Commerce Intelligence].
 exl-id: b6f240c0-9461-4015-a56a-64e8e67392fa
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL PrestaShop]
 
