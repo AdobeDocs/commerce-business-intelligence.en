@@ -7,7 +7,7 @@ feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 ---
 # Activate your [!DNL Commerce Intelligence] Account for On-Premise Subscriptions
 
-To activate [!DNL Commerce Intelligence] for on-premise subscriptions, first create an [!DNL Commerce Intelligence] account, then connect [!DNL Commerce Intelligence] to your Commerce database. <!-- For information about activation in `Cloud Starter` projects, see [Activating your [!DNL Commerce Intelligence] Account for `Cloud Starter` Subscriptions](../getting-started/cloud-activation.md).-->
+To activate [!DNL Commerce Intelligence] for on-premise subscriptions, first create a [!DNL Commerce Intelligence] account, then connect [!DNL Commerce Intelligence] to your Commerce database. <!-- For information about activation in `Cloud Starter` projects, see [Activating your [!DNL Commerce Intelligence] Account for `Cloud Starter` Subscriptions](../getting-started/cloud-activation.md).-->
 
 1. Create your [!DNL Commerce Intelligence] account.
 
