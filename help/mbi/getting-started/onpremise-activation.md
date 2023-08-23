@@ -55,6 +55,7 @@ This user should also have a dedicated email address assigned. This is needed in
 Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Commerce] project's primary environment with a **Master** setting of `Contributor`.
 
    ![](../assets/commerce-add-user-settings.png)
+
 ## Get your [!DNL Commerce Intelligence] SSH keys
 
    1. Go to the [!UICONTROL Connect your database] page of the [!DNL Commerce Intelligence] setup and scroll down and choose [!UICONTROL Encryption] settings.
@@ -79,7 +80,7 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
  
       ![](../assets/paste-public-key.png)
 
-  ## Provide [!DNL Commerce Intelligence] Essentials `MySQL` credentials
+## Provide [!DNL Commerce Intelligence] Essentials `MySQL` credentials
 
    1. Update your `.magento/services.yaml`.
     
