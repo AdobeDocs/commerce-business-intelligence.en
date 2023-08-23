@@ -110,23 +110,23 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
 Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect your Magento Database] screen.
 
-   ![](../assets/connect-magento-db.png)
+![](../assets/connect-magento-db.png)
 
-   Inputs:
+Inputs:
 
-   [!UICONTROL Integration Name]:  [choose a name for your [!DNL Commerce Intelligence] instance]
+[!UICONTROL Integration Name]:  [choose a name for your [!DNL Commerce Intelligence] instance]
    
-   [!UICONTROL Host]: `mbi.internal`
+[!UICONTROL Host]: `mbi.internal`
 
-   [!UICONTROL Port]: `3306`
+[!UICONTROL Port]: `3306`
 
-   [!UICONTROL Username]: `mbi`
+[!UICONTROL Username]: `mbi`
 
-   [!UICONTROL Password]: [input password displayed in the previous section]
+[!UICONTROL Password]: [input password displayed in the previous section]
 
-   [!UICONTROL Database Name]: `main`
+[!UICONTROL Database Name]: `main`
 
-   [!UICONTROL Table Prefixes]: [leave blank if there are no table prefixes]
+[!UICONTROL Table Prefixes]: [leave blank if there are no table prefixes]
 
 ## Set your [!UICONTROL **Time Zone**] settings
 
@@ -140,23 +140,23 @@ Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect y
 
 ## Get your encryption settings information
 
-   The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**] in setting up your [!UICONTROL **Encryption**] settings. Use the SSH Access string by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
-    
-      ![](../assets/master-branch-settings.png)
+The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**] in setting up your [!UICONTROL **Encryption**] settings. Use the SSH Access string by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
+
+![](../assets/master-branch-settings.png)
 
 ## Input your [!DNL Encryption] settings.
 
-   ![](../assets/encryption-settings-2.png)
+![](../assets/encryption-settings-2.png)
 
-   Inputs:
+Inputs:
 
-   [!UICONTROL Encryption Type]: `SSH Tunnel`
+[!UICONTROL Encryption Type]: `SSH Tunnel`
 
-   [!UICONTROL Remote Address]: `ssh.us-3.magento.cloud`  [from the previous step]
+[!UICONTROL Remote Address]: `ssh.us-3.magento.cloud`  [from the previous step]
 
-   [!UICONTROL Username]: `vfbfui4vmfez6-master-7rqtwti—mymagento`  [from the previous step] 
+[!UICONTROL Username]: `vfbfui4vmfez6-master-7rqtwti—mymagento`  [from the previous step] 
 
-   [!UICONTROL Port]: `22`
+[!UICONTROL Port]: `22`
 
 ## Save your integration. 
 
