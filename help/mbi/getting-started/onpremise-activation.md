@@ -24,15 +24,17 @@ To activate [!DNL Commerce Intelligence] for on-premise subscriptions, first cre
 
 ## Create your password
 
-Once your account is created, you are sent an email from [!DNL "The Magento BI Team support@rjmetrics.com"]. Use the link provided to access your [!DNL Commerce Intelligence] account so you can create your password. Go to your inbox and verify your email address. If you did not receive an email, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Once your account is created, you are sent an email from [!DNL "The Magento BI Team support@rjmetrics.com"]. Use the link provided to access your [!DNL Commerce Intelligence] account so you can create your password. Go to your inbox and verify your email address. 
+
+If you did not receive an email, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
    ![](../assets/create-account-4.png)
 
-After you create your account, you can add users to your new account. Admins can now be added using the **Invite User** option in your settings.
+ Once you have set your password and are logged into [!DNL Commerce Intelligence], you can log in and add other users to your new [!DNL Commerce Intelligence] account. When adding users, you can add admin users with appropriate permissions to complete the activation process.
 
    ![](../assets/create-account-5.png)
 
-1. Enter information about your store to set your preferences.
+1. Enter information about your store to set your store preferences.
 
    There is some information you need to gather before you can connect your database. You need this information when completing the [!DNL **Connect your Database**] setup.
 
@@ -40,9 +42,9 @@ After you create your account, you can add users to your new account. Admins can
 
 ## Create a dedicated [!DNL Commerce Intelligence] user in the [!DNL Commerce] admin
 
-[!DNL Commerce Intelligence] needs a permanent and dedicated user added to the [!DNL Commerce] project. This dedicated connection to [!DNL Commerce][!DNL  enables new data to fetch and transfer to the account's Commerce Intelligence] data warehouse. This user will serve as that permanent connection. 
+[!DNL Commerce Intelligence] needs a permanent and dedicated user added to the [!DNL Commerce] project. This dedicated connection to [!DNL Commerce] enables new data to fetch and transfer to the account's [!DNL Commerce Intelligence] data warehouse. This dedicated user will serve as that permanent connection. 
 
-A dedicated [!DNL Commerce Intelligence] user is to prevent this user from being deactivated or deleted, thus stopping the [!DNL Commerce Intelligence] connection.
+Using a dedicated [!DNL Commerce Intelligence] user prevents this user from being deactivated or deleted, thus stopping the [!DNL Commerce Intelligence] connection.
 
 This user should also have a dedicated email address assigned. This is needed in the next step. Create this dedicated Commerce user at https://accounts.magento.com.
 
@@ -50,11 +52,10 @@ This user should also have a dedicated email address assigned. This is needed in
 >
 >We encourage using a name to indicate its permanent status (e.g., ACI-dedicated, ACI-database-connector, etc.).
  
-Finally, add the newly created user to the [!DNL Commerce] project's primary environment with a **Master** setting of `Contributor`.
+Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Commerce] project's primary environment with a **Master** setting of `Contributor`.
 
    ![](../assets/commerce-add-user-settings.png)
-
-Next, get your [!DNL Commerce Intelligence] SSH keys.
+## Get your [!DNL Commerce Intelligence] SSH keys
 
    1. Go to the [!UICONTROL Connect your database] page of the [!DNL Commerce Intelligence] setup and scroll down and choose [!UICONTROL Encryption] settings.
  
@@ -64,7 +65,7 @@ Next, get your [!DNL Commerce Intelligence] SSH keys.
 
        ![](../assets/encryption-setting-new-account.png) 
 
-Next, add your public key to the [!DNL Commerce Intelligence]. 
+## Add your public key to the [!DNL Commerce Intelligence]
     
    1. Go to https://accounts.magento.cloud/. Sign in with your [!DNL Commerce] account log in information for the new [!DNL Commerce Intelligence] user you just created. 
 
@@ -78,7 +79,7 @@ Next, add your public key to the [!DNL Commerce Intelligence].
  
       ![](../assets/paste-public-key.png)
 
-  Next, provide [!DNL Commerce Intelligence] Essentials `MySQL` credentials.
+  ## Provide [!DNL Commerce Intelligence] Essentials `MySQL` credentials
 
    1. Update your `.magento/services.yaml`.
     
@@ -88,7 +89,7 @@ Next, add your public key to the [!DNL Commerce Intelligence].
 
       ![](../assets/magento-app-yaml-relationships.png)
 
-Finally, get the information for connecting your [!DNL Commerce] database to [!DNL Commerce Intelligence].
+## Get the information for connecting your [!DNL Commerce] database to [!DNL Commerce Intelligence]
 
    1. Run the following to get your information.
 
@@ -108,41 +109,41 @@ Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect y
 
    ![](../assets/connect-magento-db.png)
 
-   Inputs:
+    Inputs:
 
-   [!UICONTROL Integration Name]:  [choose a name for your [!DNL Commerce Intelligence] instance]
+    [!UICONTROL Integration Name]:  [choose a name for your [!DNL Commerce Intelligence] instance]
    
-   [!UICONTROL Host]: `mbi.internal`
+    [!UICONTROL Host]: `mbi.internal`
    
-   [!UICONTROL Port]: `3306`
+    [!UICONTROL Port]: `3306`
 
-   [!UICONTROL Username]: `mbi`
+    [!UICONTROL Username]: `mbi`
 
-   [!UICONTROL Password]: [input password displayed in the previous section]
+    [!UICONTROL Password]: [input password displayed in the previous section]
 
-   [!UICONTROL Database Name]: `main`
+    [!UICONTROL Database Name]: `main`
 
-   [!UICONTROL Table Prefixes]: [leave blank if there are no table prefixes]
+    [!UICONTROL Table Prefixes]: [leave blank if there are no table prefixes]
 
-Next, you must set your [!UICONTROL **Time Zone**] settings.
+## Set your [!UICONTROL **Time Zone**] settings
 
    ![](../assets/time-zone-settings.png)
 
-   Inputs:
+    Inputs:
 
-   [!UICONTROL Database Timezone]: `UTC`
+    [!UICONTROL Database Timezone]: `UTC`
 
-   [!UICONTROL Desired Timezone]: [choose the time zone for which you want your data to display]
+    [!UICONTROL Desired Timezone]: [choose the time zone for which you want your data to display]
 
-Next, you must get your encryption settings information.
+## Get your encryption settings information
 
     The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**] in setting up your [!UICONTROL **Encryption**] settings. Use the SSH Access string by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
     
        ![](../assets/master-branch-settings.png)
 
-Next, input your [!DNL Encryption] settings.
+## Input your [!DNL Encryption] settings.
 
-      ![](../assets/encryption-settings-2.png)
+   ![](../assets/encryption-settings-2.png)
 
     Inputs:
 
@@ -154,9 +155,11 @@ Next, input your [!DNL Encryption] settings.
 
     [!UICONTROL Port]: `22`
 
-You can now save your integration. Click [!UICONTROL **Save Integration**].
+## Save your integration. 
 
-    You have now successfully connected your [!DNL Commerce] database to your [!DNL Commerce Intelligence] account.
+Click [!UICONTROL **Save Integration**].
+
+You have now successfully connected your [!DNL Commerce] database to your [!DNL Commerce Intelligence] account.
 
 >[!NOTE]
 >
