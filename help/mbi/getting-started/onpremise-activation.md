@@ -30,15 +30,17 @@ If you did not receive an email, [contact support](https://experienceleague.adob
 
    ![](../assets/create-account-4.png)
 
- Once you have set your password and are logged into [!DNL Commerce Intelligence], you can log in and add other users to your new [!DNL Commerce Intelligence] account. When adding users, you can add admin users with appropriate permissions to complete the activation process.
-
-   ![](../assets/create-account-5.png)
-
-1. Enter information about your store to set your store preferences.
+## Set your store preferences
 
    There is some information you need to gather before you can connect your database. You need this information when completing the [!DNL **Connect your Database**] setup.
 
    ![](../assets/create-account-6.png)
+
+## Adding [!DNL Commerce Intelligence] users
+
+When you have set your password and are logged into [!DNL Commerce Intelligence], you can log in and add other users to your new [!DNL Commerce Intelligence] account. When adding users, you can add admin users with appropriate permissions to complete the activation process.
+
+   ![](../assets/create-account-5.png)
 
 ## Create a dedicated [!DNL Commerce Intelligence] user in the [!DNL Commerce] admin
 
@@ -46,7 +48,7 @@ If you did not receive an email, [contact support](https://experienceleague.adob
 
 Using a dedicated [!DNL Commerce Intelligence] user prevents this user from being deactivated or deleted, thus stopping the [!DNL Commerce Intelligence] connection.
 
-This user should also have a dedicated email address assigned. This is needed in the next step. Create this dedicated Commerce user at https://accounts.magento.com.
+This user should also have a dedicated email address assigned. This is needed in the next step. [Create this dedicated Commerce user](https://accounts.magento.com).
 
 >[!NOTE]
 >
@@ -90,7 +92,7 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
       ![](../assets/magento-app-yaml-relationships.png)
 
-## Get the information for connecting your [!DNL Commerce] database to [!DNL Commerce Intelligence]
+## Get information to connect your [!DNL Commerce] database to [!DNL Commerce Intelligence]
 
    1. Run the following to get your information.
 
@@ -110,51 +112,51 @@ Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect y
 
    ![](../assets/connect-magento-db.png)
 
-    Inputs:
+   Inputs:
 
-    [!UICONTROL Integration Name]:  [choose a name for your [!DNL Commerce Intelligence] instance]
+   [!UICONTROL Integration Name]:  [choose a name for your [!DNL Commerce Intelligence] instance]
    
-    [!UICONTROL Host]: `mbi.internal`
-   
-    [!UICONTROL Port]: `3306`
+   [!UICONTROL Host]: `mbi.internal`
 
-    [!UICONTROL Username]: `mbi`
+   [!UICONTROL Port]: `3306`
 
-    [!UICONTROL Password]: [input password displayed in the previous section]
+   [!UICONTROL Username]: `mbi`
 
-    [!UICONTROL Database Name]: `main`
+   [!UICONTROL Password]: [input password displayed in the previous section]
 
-    [!UICONTROL Table Prefixes]: [leave blank if there are no table prefixes]
+   [!UICONTROL Database Name]: `main`
+
+   [!UICONTROL Table Prefixes]: [leave blank if there are no table prefixes]
 
 ## Set your [!UICONTROL **Time Zone**] settings
 
    ![](../assets/time-zone-settings.png)
 
-    Inputs:
+   Inputs:
 
-    [!UICONTROL Database Timezone]: `UTC`
+   [!UICONTROL Database Timezone]: `UTC`
 
-    [!UICONTROL Desired Timezone]: [choose the time zone for which you want your data to display]
+   [!UICONTROL Desired Timezone]: [choose the time zone for which you want your data to display]
 
 ## Get your encryption settings information
 
-    The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**] in setting up your [!UICONTROL **Encryption**] settings. Use the SSH Access string by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
+   The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**] in setting up your [!UICONTROL **Encryption**] settings. Use the SSH Access string by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
     
-       ![](../assets/master-branch-settings.png)
+      ![](../assets/master-branch-settings.png)
 
 ## Input your [!DNL Encryption] settings.
 
    ![](../assets/encryption-settings-2.png)
 
-    Inputs:
+   Inputs:
 
-    [!UICONTROL Encryption Type]: `SSH Tunnel`
+   [!UICONTROL Encryption Type]: `SSH Tunnel`
 
-    [!UICONTROL Remote Address]: `ssh.us-3.magento.cloud`  [from the previous step]
+   [!UICONTROL Remote Address]: `ssh.us-3.magento.cloud`  [from the previous step]
 
-    [!UICONTROL Username]: `vfbfui4vmfez6-master-7rqtwti—mymagento`  [from the previous step] 
+   [!UICONTROL Username]: `vfbfui4vmfez6-master-7rqtwti—mymagento`  [from the previous step] 
 
-    [!UICONTROL Port]: `22`
+   [!UICONTROL Port]: `22`
 
 ## Save your integration. 
 
