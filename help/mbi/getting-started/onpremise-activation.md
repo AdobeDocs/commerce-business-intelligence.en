@@ -62,7 +62,7 @@ Next, get your [!DNL Commerce Intelligence] SSH keys.
 
    1. From the drop-down, copy the public key that is provided.
 
-       ![](../assets/encryption-settings-new-account.png) 
+       ![](../assets/encryption-setting-new-account.png) 
 
 Next, add your public key to the [!DNL Commerce Intelligence]. 
     
