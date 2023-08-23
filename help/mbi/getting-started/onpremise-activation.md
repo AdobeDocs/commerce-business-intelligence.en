@@ -72,7 +72,7 @@ Next, add your public key to the [!DNL Commerce Intelligence].
  
    1. Scroll down and expand the [!UICONTROL **SSH Keys**] drop-down. Then click [!UICONTROL **Add a public key**].
 
-     ![](../assets/add-public-key.png)
+      ![](../assets/add-public-key.png)
 
    1. Paste the public key you copied in the [!DNL Encryption Type] step above.
  
