@@ -24,7 +24,7 @@ To activate [!DNL Commerce Intelligence] for on-premise subscriptions, first cre
 
 ## Create your password
 
-Once your account is created, you are sent an email from [!DNL "The Magento BI Team support@rjmetrics.com"]. Use the link provided to access your [!DNL Commerce Intelligence] account so you can create your password. Go to your inbox and verify your email address. 
+Once your account is created, you are sent an email from [!DNL "The Magento BI Team support@rjmetrics.com"]. Use the link provided in the email to access your [!DNL Commerce Intelligence] account so you can create your password. Go to your inbox and verify your email address. 
 
 If you did not receive an email, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
