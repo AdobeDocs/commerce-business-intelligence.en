@@ -49,7 +49,7 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
    ![](../assets/commerce-add-user-settings.png)
 
-## Get your encryption settings information
+## Get your Commerce Intelligence SSH keys
 
    1. Go to the [!UICONTROL Connect your database] page of the [!DNL Commerce Intelligence] setup and scroll down and choose [!UICONTROL Encryption] settings.
  
