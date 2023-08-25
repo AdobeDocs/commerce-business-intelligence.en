@@ -15,7 +15,7 @@ To create your account, contact your Adobe Account Team or Customer Technical Ad
 
 ## Create your password
 
-Once your account is created, you are sent an email from [!DNL "The Adobe Team support@rjmetrics.com"]. Use the link provided in the email to access your [!DNL Commerce Intelligence] account so you can create your password. Go to your inbox and verify your email address. 
+Once your account is created, you are sent an email from [!DNL The Magento BI Team@rjmetrics.com]. Use the link provided in the email to access your [!DNL Commerce Intelligence] account so you can create your password. Go to your inbox and verify your email address. 
 
 If you did not receive an email, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
