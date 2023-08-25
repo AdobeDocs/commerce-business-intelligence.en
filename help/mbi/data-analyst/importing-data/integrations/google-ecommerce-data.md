@@ -5,7 +5,7 @@ exl-id: 8e5d8863-f003-4c38-95c5-660bcbff48da
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
-# Expected[!DNL Google ECommerce] data
+# Expected [!DNL Google ECommerce] data
 
 After your [!DNL Google ECommerce] account is successfully connected to [!DNL Commerce Intelligence], the system will start importing data into a table titled `ecommerce`. This table records a data row for each transaction. This includes the following order-level data columns:
 

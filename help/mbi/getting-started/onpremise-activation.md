@@ -13,12 +13,12 @@ To activate [!DNL Commerce Intelligence] for on-premise subscriptions, first cre
 
    1. Go to your [[!DNL Adobe Commerce] account login](https://account.magento.com/customer/account/login).
 
-   1. Go to **[!UICONTROL My Account** > **My [!DNL Commerce Intelligence] Instances]**.
+   1. Go to **[!UICONTROL My Account** > **My Commerce Intelligence Instances]**.
 
    1. Click **[!UICONTROL Create Instance]**. 
        If you do not see this button, contact your Adobe Account Team or Customer Technical Advisor.
 
-   1. Enter your information to create your account.
+   1. To create your account, enter your information to create your account.
 
    ![](../assets/create-account-2.png)
 
@@ -32,7 +32,7 @@ If you did not receive an email, [contact support](https://experienceleague.adob
 
 ## Set your store preferences
 
-   There is some information you need to gather before you can connect your database. You need this information when completing the [!DNL **Connect your Database**] setup.
+   There is some information that you must gather before you can connect your database. You need this information when completing the **[!UICONTROL Connect your Database]** setup.
 
    ![](../assets/create-account-6.png)
 
@@ -44,17 +44,17 @@ When you have set your password and are logged into [!DNL Commerce Intelligence]
 
 ## Create a dedicated [!DNL Commerce Intelligence] user in the [!DNL Commerce] admin
 
-[!DNL Commerce Intelligence] needs a permanent and dedicated user added to the [!DNL Commerce] project. This dedicated connection to [!DNL Commerce] enables new data to fetch and transfer to the account's [!DNL Commerce Intelligence] data warehouse. This dedicated user will serve as that permanent connection. 
+[!DNL Commerce Intelligence] needs a permanent and dedicated user added to the [!DNL Commerce] project. This dedicated connection to [!DNL Commerce] enables new data to fetch and transfer to the account's [!DNL Commerce Intelligence] Data Warehouse. This dedicated user serves as that permanent connection. 
 
 Using a dedicated [!DNL Commerce Intelligence] user prevents this user from being deactivated or deleted, thus stopping the [!DNL Commerce Intelligence] connection.
 
-This user should also have a dedicated email address assigned. This is needed in the next step. [Create this dedicated Commerce user](https://accounts.magento.com).
+This user should also have a dedicated email address assigned. This user is needed in the next step. [Create this dedicated Commerce user](https://accounts.magento.com).
 
 >[!NOTE]
 >
->We encourage using a name to indicate its permanent status (e.g., ACI-dedicated, ACI-database-connector, etc.).
+>Adobe encourages using a name to indicate its permanent status (e.g., ACI-dedicated, ACI-database-connector, and so forth).
  
-Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Commerce] project's primary environment with a **Master** setting of `Contributor`.
+Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Commerce] project's primary environment with a **[!UICONTROL Master]** setting of `Contributor`.
 
    ![](../assets/commerce-add-user-settings.png)
 
@@ -66,21 +66,21 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
    1. From the drop-down, copy the public key that is provided.
 
-       ![](../assets/encryption-setting-new-account.png) 
+      ![](../assets/encryption-setting-new-account.png) 
 
 ## Add your public key to the [!DNL Commerce Intelligence]
     
-   1. Go to https://accounts.magento.cloud/. Sign in with your [!DNL Commerce] account log in information for the new [!DNL Commerce Intelligence] user you just created. 
+   1. Go to [!DNL https://accounts.magento.cloud/](https://accounts.magento.cloud/). Sign in with your [!DNL Commerce] account login information for the new [!DNL Commerce Intelligence] user you created. 
 
    1. Then select the **Account Settings** tab.
  
-   1. Scroll down and expand the [!UICONTROL **SSH Keys**] drop-down. Then click [!UICONTROL **Add a public key**].
+   1. Scroll down and expand the **[!UICONTROL SSH Keys]** drop-down. Then click **[!UICONTROL Add a public key]**.
 
-      ![](../assets/add-public-key.png)
+       ![](../assets/add-public-key.png)
 
-   1. Paste the public key you copied in the [!DNL Encryption Type] step above.
+   1. Paste the public key that you copied in the [!DNL Encryption Type] step above.
  
-      ![](../assets/paste-public-key.png)
+       ![](../assets/paste-public-key.png)
 
 ## Provide [!DNL Commerce Intelligence] Essentials `MySQL` credentials
 
@@ -92,7 +92,7 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
       ![](../assets/magento-app-yaml-relationships.png)
 
-## Get information to connect your [!DNL Commerce] database to [!DNL Commerce Intelligence]
+## Get information for connecting your [!DNL Commerce] database to [!DNL Commerce Intelligence]
 
    1. Run the following to get your information.
 
@@ -106,7 +106,7 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
 >[!NOTE]
 >
->Adobe strongly recommends you connect using an [`SSH tunnel`](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md). However, if this is not an option, you can still link [!DNL Commerce Intelligence] to your database using a [`direct connection`](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
+>Adobe strongly recommends you connect using an [`SSH tunnel`](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md). However, if this method is not an option, you can still link [!DNL Commerce Intelligence] to your database using a [`direct connection`](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
 
 Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect your Magento Database] screen.
 
