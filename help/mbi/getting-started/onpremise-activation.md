@@ -70,7 +70,7 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
 ## Add your public key to the [!DNL Commerce Intelligence]
     
-   1. Go to [!DNL https://accounts.magento.cloud/](https://accounts.magento.cloud/). Sign in with your [!DNL Commerce] account login information for the new [!DNL Commerce Intelligence] user you created. 
+   1. Go to [your [!DNL Commerce] account](https://accounts.magento.cloud/). Sign in with your [!DNL Commerce] account login information for the new [!DNL Commerce Intelligence] user you created. 
 
    1. Then select the **Account Settings** tab.
  
