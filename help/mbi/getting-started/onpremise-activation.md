@@ -11,20 +11,11 @@ To activate [!DNL Commerce Intelligence] for on-premise subscriptions, first cre
 
 ## Create your [!DNL Commerce Intelligence] account
 
-   1. Go to your [[!DNL Adobe Commerce] account login](https://account.magento.com/customer/account/login).
-
-   1. Go to **[!UICONTROL My Account** > **My Commerce Intelligence Instances]**.
-
-   1. Click **[!UICONTROL Create Instance]**. 
-       If you do not see this button, contact your Adobe Account Team or Customer Technical Advisor.
-
-   1. To create your account, enter your information to create your account.
-
-   ![](../assets/create-account-2.png)
+To create your account, contact your Adobe Account Team or Customer Technical Advisor.
 
 ## Create your password
 
-Once your account is created, you are sent an email from [!DNL "The Magento BI Team support@rjmetrics.com"]. Use the link provided in the email to access your [!DNL Commerce Intelligence] account so you can create your password. Go to your inbox and verify your email address. 
+Once your account is created, you are sent an email from [!DNL "The A Team support@rjmetrics.com"]. Use the link provided in the email to access your [!DNL Commerce Intelligence] account so you can create your password. Go to your inbox and verify your email address. 
 
 If you did not receive an email, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
@@ -58,7 +49,7 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
    ![](../assets/commerce-add-user-settings.png)
 
-## Get your [!DNL Commerce Intelligence] SSH keys
+## Get your encryption settings information
 
    1. Go to the [!UICONTROL Connect your database] page of the [!DNL Commerce Intelligence] setup and scroll down and choose [!UICONTROL Encryption] settings.
  
@@ -70,7 +61,7 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
 ## Add your public key to the [!DNL Commerce Intelligence]
     
-   1. Go to [your [!DNL Commerce] account](https://accounts.magento.cloud/). Sign in with your [!DNL Commerce] account login information for the new [!DNL Commerce Intelligence] user you created. 
+   1. Go to the [!DNL Commerce Admin], and sign in with using the login information for the Commerce Intelligence user you just created. 
 
    1. Then select the **Account Settings** tab.
  
@@ -112,7 +103,7 @@ Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect y
 
 ![](../assets/connect-magento-db.png)
 
-Inputs:
+**Inputs:**
 
 [!UICONTROL Integration Name]:  [choose a name for your [!DNL Commerce Intelligence] instance]
    
@@ -132,7 +123,7 @@ Inputs:
 
    ![](../assets/time-zone-settings.png)
 
-   Inputs:
+   **Inputs:**
 
    [!UICONTROL Database Timezone]: `UTC`
 
@@ -140,15 +131,15 @@ Inputs:
 
 ## Get your encryption settings information
 
-The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**] in setting up your [!UICONTROL **Encryption**] settings. Use the SSH Access string by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
+The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**]. Use the SSH Access string by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
 
 ![](../assets/master-branch-settings.png)
 
-## Input your [!DNL Encryption] settings.
+## Input your [!DNL Encryption] settings
 
 ![](../assets/encryption-settings-2.png)
 
-Inputs:
+**Inputs:**
 
 [!UICONTROL Encryption Type]: `SSH Tunnel`
 
@@ -166,7 +157,7 @@ You have now successfully connected your [!DNL Commerce] database to your [!DNL 
 
 >[!NOTE]
 >
->If you are a Magento BI Pro customer, contact your Customer Success Manager or Customer Technical Advisor to coordinate the next steps.
+>If you are a [!DNL Adobe Commerce Intelligence Pro] customer, contact your Customer Success Manager or Customer Technical Advisor to coordinate the next steps.
 
 When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your [!DNL Commerce Intelligence] account.
 
