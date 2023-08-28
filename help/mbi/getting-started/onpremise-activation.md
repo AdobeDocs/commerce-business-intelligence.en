@@ -160,7 +160,7 @@ You have now successfully connected your [!DNL Commerce] database to your [!DNL 
 >
 >If you are a [!DNL Adobe Commerce Intelligence Pro] customer, contact your Customer Success Manager or Customer Technical Advisor to coordinate the next steps.
 
-When you finish configuration, you can [sign in](../getting-started/sign-in.md) to your [!DNL Commerce Intelligence] account.
+After you complete the configuration, [sign in](../getting-started/sign-in.md) to your [!DNL Commerce Intelligence] account.
 
 <!---# Activate your [!DNL Commerce Intelligence] Account 
 
