@@ -23,7 +23,7 @@ If you did not receive an email, [contact support](https://experienceleague.adob
 
 ## Set your store preferences
 
-   There is some information that you must gather before you can connect your database. You need this information when completing the **[!UICONTROL Connect your Database]** setup.
+   Before you configure the database connection, complete the store information form. This information is required to complete the **[!UICONTROL Connect your Database]** setup.
 
    ![](../assets/create-account-6.png)
 
