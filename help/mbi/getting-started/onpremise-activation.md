@@ -64,7 +64,7 @@ After you created the dedicated user  for [!DNL Commerce Intelligence] in the Ad
 
    1. Select the **Account Settings** tab.
  
-   1. Scroll down and expand the **[!UICONTROL SSH Keys]** drop-down. Then click **[!UICONTROL Add a public key]**.
+   1. Scroll down and expand the **[!UICONTROL SSH Keys]** drop-down. Then, select **[!UICONTROL Add a public key]**.
 
        ![](../assets/add-public-key.png)
 
