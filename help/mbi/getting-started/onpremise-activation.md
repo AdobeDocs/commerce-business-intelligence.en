@@ -35,7 +35,7 @@ After you set your password and log into [!DNL Commerce Intelligence], you can a
 
 ## Create a dedicated [!DNL Commerce Intelligence] user in the [!DNL Commerce] admin
 
-[!DNL Commerce Intelligence] needs a permanent and dedicated user added to the [!DNL Commerce] project. This dedicated connection to [!DNL Commerce] enables new data to fetch and transfer to the account's [!DNL Commerce Intelligence] Data Warehouse. This dedicated user serves as that permanent connection. 
+To use [!DNL Commerce Intelligence], you must add a permanent and dedicated user to the [!DNL Commerce] project. This dedicated user serves as a permanent connection to [!DNL Commerce] that enables the fetch and transfer of new data to the account's [!DNL Commerce Intelligence] Data Warehouse.
 
 Using a dedicated [!DNL Commerce Intelligence] user prevents this user from being deactivated or deleted, thus stopping the [!DNL Commerce Intelligence] connection.
 
