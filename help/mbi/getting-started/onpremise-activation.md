@@ -150,7 +150,7 @@ The project UI provides an SSH access string. This string can be used for gather
 
 ## Save your integration. 
 
-Click [!UICONTROL **Save Integration**].
+After completing the configuration steps, apply the changes by selecting [!UICONTROL **Save Integration**].
 
 You have now successfully connected your [!DNL Commerce] database to your [!DNL Commerce Intelligence] account.
 
