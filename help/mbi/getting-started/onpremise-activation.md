@@ -60,7 +60,7 @@ After you created the dedicated user  for [!DNL Commerce Intelligence] in the Ad
 
 ## Add your public key to the [!DNL Commerce Intelligence]
     
-   1. Go to the [!DNL Commerce Admin], and sign in with using the login information for the Commerce Intelligence user you just created. 
+   1. From the [!DNL Commerce Admin], sign in using the login information for the [!DNL Commerce Intelligence] user you just created. 
 
    1. Then select the **Account Settings** tab.
  
