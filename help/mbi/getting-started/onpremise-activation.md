@@ -37,7 +37,7 @@ After you set your password and log into [!DNL Commerce Intelligence], you can a
 
 To use [!DNL Commerce Intelligence], you must add a permanent and dedicated user to the [!DNL Commerce] project. This dedicated user serves as a permanent connection to [!DNL Commerce] that enables the fetch and transfer of new data to the account's [!DNL Commerce Intelligence] Data Warehouse.
 
-Using a dedicated [!DNL Commerce Intelligence] user prevents this user from being deactivated or deleted, thus stopping the [!DNL Commerce Intelligence] connection.
+Configuring a dedicated [!DNL Commerce Intelligence] user ensures that the account is not deactivated or deleted, thus stopping the [!DNL Commerce Intelligence] connection.
 
 This user should also have a dedicated email address assigned. This user is needed in the next step. [Create this dedicated Commerce user](https://accounts.magento.com).
 
