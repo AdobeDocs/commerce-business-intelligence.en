@@ -29,7 +29,7 @@ If you did not receive an email, [contact support](https://experienceleague.adob
 
 ## Adding [!DNL Commerce Intelligence] users
 
-When you have set your password and are logged into [!DNL Commerce Intelligence], you can log in and add other users to your new [!DNL Commerce Intelligence] account. When adding users, you can add admin users with appropriate permissions to complete the activation process.
+After you set your password and log into [!DNL Commerce Intelligence], you can add other users to your [!DNL Commerce Intelligence] account. When adding users, add admin users with appropriate permissions to complete the activation process.
 
    ![](../assets/create-account-5.png)
 
