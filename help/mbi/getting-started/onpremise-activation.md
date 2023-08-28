@@ -39,7 +39,6 @@ To use [!DNL Commerce Intelligence], you must add a permanent and dedicated user
 
 Configuring a dedicated [!DNL Commerce Intelligence] user ensures that the account is not deactivated or deleted, thus stopping the [!DNL Commerce Intelligence] connection.
 
-This user should also have a dedicated email address assigned. This user is needed in the next step. [Create this dedicated Commerce user](https://accounts.magento.com).
 
 >[!NOTE]
 >
