@@ -42,7 +42,7 @@ Configuring a dedicated [!DNL Commerce Intelligence] user ensures that the accou
 
 >[!NOTE]
 >
->Adobe encourages using a name to indicate its permanent status (e.g., ACI-dedicated, ACI-database-connector, and so forth).
+>Adobe encourages using an account name that indicate its permanent status (e.g., ACI-dedicated, ACI-database-connector, and so forth).
  
 After you created the dedicated user  for [!DNL Commerce Intelligence] in the Admin, add the same user to the primary environment of the [!DNL Commerce] project with a **[!UICONTROL Master]** setting of `Contributor`.
 
