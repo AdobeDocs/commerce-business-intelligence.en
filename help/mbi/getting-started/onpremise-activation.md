@@ -97,7 +97,7 @@ Finally, add the newly created [!DNL Commerce Intelligence] user to the [!DNL Co
 
 >[!NOTE]
 >
->Adobe strongly recommends you connect using an [`SSH tunnel`](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md). However, if this method is not an option, you can still link [!DNL Commerce Intelligence] to your database using a [`direct connection`](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
+>Adobe strongly recommends that you use an [`SSH tunnel`](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) tunnel to make the database connection. However, if this method is not an option, you can still link [!DNL Commerce Intelligence] to your database using a [`direct connection`](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
 
 Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect your Magento Database] screen.
 
