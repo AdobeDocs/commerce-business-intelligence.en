@@ -90,7 +90,7 @@ Get the database connection information to the [!DNL Commerce] database to [!DNL
 
         `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp`
 
-   1. Review your information. You should have results similar to this example.
+   1. Review the database information, which should look similar to the following example.
 
       ![](../assets/example-database-information.png)
 
