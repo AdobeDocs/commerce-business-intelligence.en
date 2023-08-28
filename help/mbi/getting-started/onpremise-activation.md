@@ -50,7 +50,7 @@ After you created the dedicated user  for [!DNL Commerce Intelligence] in the Ad
 
 ## Get your Commerce Intelligence SSH keys
 
-   1. Go to the [!UICONTROL Connect your database] page of the [!DNL Commerce Intelligence] setup and scroll down and choose [!UICONTROL Encryption] settings.
+   1. On the [!UICONTROL Connect your database] page for [!DNL Commerce Intelligence] setup,  scroll down and select **[!UICONTROL Encryption settings]**.
  
    1. For **Encryption Type**, select `SSH Tunnel`.
 
