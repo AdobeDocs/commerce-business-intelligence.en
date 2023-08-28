@@ -132,7 +132,7 @@ Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect y
 
 ## Get your encryption settings information
 
-The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**]. Use the SSH Access string by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
+The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**]. Use the SSH Access string by selecting the access site button on the Master branch of the Project UI. Then, find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
 
 ![](../assets/master-branch-settings.png)
 
