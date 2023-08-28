@@ -82,7 +82,9 @@ After you created the dedicated user  for [!DNL Commerce Intelligence] in the Ad
 
       ![](../assets/magento-app-yaml-relationships.png)
 
-## Get information for connecting your [!DNL Commerce] database to [!DNL Commerce Intelligence]
+## Get database connection information
+
+Get the database connection information to the [!DNL Commerce] database to [!DNL Commerce Intelligence]
 
    1. Run the following to get your information.
 
