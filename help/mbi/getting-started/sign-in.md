@@ -9,11 +9,7 @@ feature: Accounts
 
 After you have activated your [!DNL Commerce Intelligence] account either for [on-premise or cloud](../getting-started/onpremise-activation.md) and have worked with your Adobe Account Team to finalize the configuration steps, you can now sign in to your account.
 
-You can sign in with your [!DNL Adobe ID] or using your [!DNL Commerce Intelligence] email address and password.
-
-![sign-in](../assets/sign-in.png)
-
-## Sign in using your [!DNL Adobe ID]
+## Sign in using your [!DNL Adobe ID] 
 
 1. Click **[!UICONTROL Sign in with Adobe ID]**.
 
