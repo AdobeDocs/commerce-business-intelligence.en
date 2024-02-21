@@ -51,10 +51,10 @@ feature: Business Performance
     - [Standardizing data with mapping tables](data-analyst/data-warehouse-mgr/stndrd-data-map-tables.md)
     - [Translating SQL queries into [!DNL Commerce Intelligence] reports](data-analyst/dev-reports/sql-queries-reports.md)
     - [Understanding and Evaluating Table Relationships](data-analyst/data-warehouse-mgr/table-relationships.md)
-    - [Using the Date Difference Calculated](data-analyst/data-warehouse-mgr/using-date-diff-calc-column-.md)
+    - [Using the Date Difference Calculated](data-analyst/data-warehouse-mgr/using-date-diff-calc-column.md)
     - [Using Dashboard Wide Filtering](data-analyst/data-warehouse-mgr/using-dshbrd-wide-filter-date-ranges.md)
     - [Using the Event Number Calculated Column](data-analyst/data-warehouse-mgr/using-event-num-calc-column.md)
-    - [Using the Sequential Comparison Calculated Column](data-analyst/data-warehouse-mgr/using-seq-comp-calc-column-.md)
+    - [Using the Sequential Comparison Calculated Column](data-analyst/data-warehouse-mgr/using-seq-comp-calc-column.md)
   - Common Commerce Tables {#tables}
     - [Introduction](data-analyst/data-warehouse-mgr/common-mage-tables.md)
     - [[!DNL customer_entity]](data-analyst/data-warehouse-mgr/cust-ent-table.md)
