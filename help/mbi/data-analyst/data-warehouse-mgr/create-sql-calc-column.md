@@ -66,7 +66,7 @@ From here you can create a `Calculation` column by following the steps below:
     * `Integer` – Whole number
     * `Decimal(10,2)` - a decimal number with 10 total digits, of which 2 are to the right of the decimal point
     * `String` – Any type of text or series of characters that use non-numbers
-    * `Datetime` – yyyy-MM-dd hh:mm:ss format
+    * `Datetime` – `yyyy-MM-dd hh:mm:ss` format
 
 1. Click **[!UICONTROL test column]**. This generates a list of five test values for each of your inputs and shows the result of the logic from step 6 for each set of test values. If any portion of the SQL generates an error, the appropriate error message is returned. Sample results can only be generated if all input columns are native fields. If any of the input columns are calculated columns, you must validate the results by adding the column to a metric and viewing in the Visual Report Builder
 
