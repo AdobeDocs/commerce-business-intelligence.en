@@ -21,9 +21,9 @@ First, a note about how coupon codes are tracked. If a customer applied a coupon
 * The coupon code is stored in the `coupon_code` field. If this field is NULL (empty), the order does not have a coupon associated with it.
 * The discounted amount is stored in `base_discount_amount`. Depending on your configuration, this value may appear negative or positive.
 
-As of Commerce 2.4.7, a customer can apply more than one coupon codes to an order, so in these cases:
+As of Commerce 2.4.7, a customer can apply more than one coupon code to an order. In this case:
 
-* The coupon codes applied are stored in the `coupon_code` field of `sales_order_coupons`. And the first coupon code is still stored in the `coupon_code` field of `sales_order`. If this field is NULL (empty), the order does not have a coupon associated with it. But also
+* All coupon codes applied are stored in the `coupon_code` field of `sales_order_coupons`. The first coupon code applied is also stored in the `coupon_code` field of `sales_order`. If this field is NULL (empty), the order does not have a coupon associated with it.
 
 ## Building a Metric
 
