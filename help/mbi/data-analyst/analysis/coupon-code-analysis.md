@@ -455,3 +455,9 @@ Additional columns to create if guest orders NOT supported:
 After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the image at the top of the page.
 
 If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+
+>[!NOTE]
+>
+>The Adobe Commerce 2.4.7 Customers will be able to make use of the new tables **quote_coupons** and **sales_order_coupons** to get insights on multi-coupon usage behavior of Customers.
+
+![](../../assets/multicoupon_relationship_tables.png)

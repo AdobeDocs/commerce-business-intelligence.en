@@ -177,3 +177,9 @@ The first step is to construct a new metric with the following steps:
   * [!UICONTROL Chart type]: `Stacked Column`
 
 After building the reports, refer to the image at the top of this topic for how you can organize the reports on your dashboard.
+
+>[!NOTE]
+>
+>The Adobe Commerce 2.4.7 Customers will be able to make use of the new tables **quote_coupons** and **sales_order_coupons** to get insights on multi-coupon usage behavior of Customers.
+
+![](../../assets/multicoupon_relationship_tables.png)
