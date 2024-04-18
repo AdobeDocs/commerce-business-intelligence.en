@@ -458,6 +458,6 @@ If you run into any questions while building this analysis, or simply want to en
 
 >[!NOTE]
 >
->The Adobe Commerce 2.4.7 Customers will be able to make use of the new tables **quote_coupons** and **sales_order_coupons** to get insights on multi-coupon usage behavior of Customers.
+>As of Adobe Commerce 2.4.7, customers can use the **quote_coupons** and **sales_order_coupons** tables to get insights on how customer use multiple coupons.
 
 ![](../../assets/multicoupon_relationship_tables.png)
