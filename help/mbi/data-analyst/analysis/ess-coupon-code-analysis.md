@@ -21,6 +21,10 @@ First, a note about how coupon codes are tracked. If a customer applied a coupon
 * The coupon code is stored in the `coupon_code` field. If this field is NULL (empty), the order does not have a coupon associated with it.
 * The discounted amount is stored in `base_discount_amount`. Depending on your configuration, this value may appear negative or positive.
 
+As of Commerce 2.4.7, a customer can apply more than one coupon code to an order. In this case:
+
+* All coupon codes applied are stored in the `coupon_code` field of `sales_order_coupons`. The first coupon code applied is also stored in the `coupon_code` field of `sales_order`. If this field is NULL (empty), the order does not have a coupon associated with it.
+
 ## Building a Metric
 
 The first step is to construct a new metric with the following steps:
@@ -173,3 +177,9 @@ The first step is to construct a new metric with the following steps:
   * [!UICONTROL Chart type]: `Stacked Column`
 
 After building the reports, refer to the image at the top of this topic for how you can organize the reports on your dashboard.
+
+>[!NOTE]
+>
+>As of Adobe Commerce 2.4.7, customers can use the **quote_coupons** and **sales_order_coupons** tables to get insights on how customer use multiple coupons.
+
+![](../../assets/multicoupon_relationship_tables.png)
