@@ -27,7 +27,353 @@ With [!DNL Advanced User Management] enabled, only Admin users can create the fo
 
 [!DNL Advanced User Management] impacts several features across Commerce Intelligence. The following table describes features, permissions, and their availability for various roles based on the feature being enabled or disabled.
 
-[table]
+<table><thead>
+  <tr>
+    <th colspan="3" rowspan="2">Commerce Intelligence Features</th>
+    <th colspan="6">Advanced User Management Features</th>
+  </tr>
+  <tr>
+    <th colspan="3">Disabled</th>
+    <th colspan="3">Enabled</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>Feature Group</td>
+    <td>Feature</td>
+    <td>Permissions</td>
+    <td>Admin</td>
+    <td>Standard</td>
+    <td>Read-only</td>
+    <td>Admin</td>
+    <td>Standard</td>
+    <td>Read-only</td>
+  </tr>
+  <tr>
+    <td rowspan="7">Manage Users (Accessible to all Admins &amp; impacts all roles)</td>
+    <td>Configure User Groups</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Invite User</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Permissions Tab - Role mapping</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Permissions Tab - User Group mapping (AUM)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Permissions Tab - Stores subset mapping (AUM)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Metrics Tab</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Shared Dashboards Tab</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Report Builder</td>
+    <td>Visual Report Builder</td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SQL Report Builder</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Email Summary</td>
+    <td>Create Email Summaries without Data Partitioning</td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Create Email Summaries with Data Partitioning (AUM)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="4">Dashboards&nbsp;&nbsp;- Share</td>
+    <td>Share Dashboard with Users across Roles</td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Share Dashboard with User Groups &amp; Admins (AUM)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Share Dashboard - Permissions</td>
+    <td>Edit</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="18">Dashboards - View (Open Shared Dashboard with given permissions)</td>
+    <td rowspan="2">Reshare a Shared Dashboard</td>
+    <td>Edit</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Date Filter (without EDIT TIME Options feature flag)</td>
+    <td>Edit</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Date Filter (with EDIT TIME Options feature flag)</td>
+    <td>Edit</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Store Filter (without EDIT TIME Options feature flag)</td>
+    <td>Edit</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Store Filter (with EDIT TIME Options feature flag)</td>
+    <td>Edit</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Dashboard Data - Filter reports data based on User Group mapping (AUM)</td>
+    <td>Edit</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Report - Edit</td>
+    <td>Edit</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Report Export (CSV, XLSX)</td>
+    <td>Edit</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Report - Raw Export</td>
+    <td>Edit</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>View</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody></table>
 
 ## Admin control
 
