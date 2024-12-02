@@ -11,17 +11,13 @@ The [!DNL Advanced User Management] feature provides enhanced data visibility co
 
 [!DNL Advanced User Management] simplifies dashboard sharing and data visibility while ensuring security and scalability for large organizations. The flexibility to configure user groups, roles, and permissions makes Commerce Intelligence a powerful tool for enterprise-level requirements.
 
-With [!DNL Advanced User Management] enabled, only Admin users can create the following:
+With [!DNL Advanced User Management] enabled, only Admin users have access to setup the following:
 
 - Metrics
 - Visual Report Builder
 - SQL based Reports
 - Email Summary
 - Raw Exports
-
->[!NOTE]
->
->Admins can collaborate by [sharing dashboards](#share-dashboards) with each other.
 
 ## Feature matrix
 
@@ -30,7 +26,7 @@ With [!DNL Advanced User Management] enabled, only Admin users can create the fo
 <table><thead>
   <tr>
     <th colspan="3" rowspan="2">Commerce Intelligence Features</th>
-    <th colspan="6">Advanced User Management Features</th>
+    <th colspan="6">Advanced User Management (AUM) Features</th>
   </tr>
   <tr>
     <th colspan="3">Disabled</th>
@@ -434,7 +430,7 @@ Admin users are always are mapped to [!UICONTROL **All**] stores by default, whi
 
 [!DNL Advanced User Management] provides powerful options for sharing dashboards while maintaining data security.
 
-- Admins can share dashboards with the user groups as well as with other admin users. This enables centralized management of dashboards and simplifies management for large organizations.
+- Admins can share dashboards with the user groups as well as with other admin users to collaborate. This enables centralized management of dashboards and simplifies management for large organizations.
 
    ![Share dashboards](../../assets/share-dashboards.png)
 
