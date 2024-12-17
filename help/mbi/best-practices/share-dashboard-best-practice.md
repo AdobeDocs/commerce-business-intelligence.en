@@ -15,7 +15,7 @@ At times, you may find multiple dashboards with the same name - this is usually 
 
 To see who owns a dashboard, click the dashboard dropdown on the upper-left corner. Any dashboards that do not have a name below them belong to you.
 
- ![](../../mbi/assets/Dash_ownership.gif)
+ ![](../../mbi/assets/Dash_ownership.png)
 
 To remove all duplicate dashboards:
 
