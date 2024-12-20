@@ -49,7 +49,7 @@ One or more filters can be added to limit the data that is used to product a rep
 
         ![Filtered Report](../../assets/magento-bi-report-builder-filter-report.png)<!--{: .zoom}-->
 
-1. In the sidebar, click the perspective (![Eye icon](../../assets/magento-bi-btn-perspective.png)) icon.
+1. In the sidebar, click the perspective ( ![](../../assets/magento-bi-btn-perspective.png)) icon.
 
     ![Perspective](../../assets/magento-bi-report-builder-filter-perspective.png)<!--{: .zoom}-->
 
