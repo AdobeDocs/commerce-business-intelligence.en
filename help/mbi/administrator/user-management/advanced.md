@@ -3,8 +3,8 @@ title: Advanced user management
 description: Enhance data visibility, streamline reporting, tailor access by user groups, simplify dashboard sharing, and ensure security and scalability for your organization.
 role: Admin, User
 feature: User Management
+exl-id: d96a075d-53ab-48d3-ba83-3ff4298a0cb7
 ---
-
 # Advanced user management
 
 The [!DNL Advanced User Management] feature provides enhanced data visibility controls and enables logical data filtering based on user groups (organizational regions). It allows you to tailor data visibility based on user groups and eliminates the need to create a replica of existing dashboards to meet region-specific reporting requirements every time the business expands to a new region.
