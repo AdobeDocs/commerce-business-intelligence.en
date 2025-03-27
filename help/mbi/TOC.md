@@ -27,6 +27,7 @@ feature: Business Performance
     - [Manage User Permissions](administrator/user-management/user-management.md)
     - [Reset Password](../mbi/administrator/user-management/reset-password.md)
     - [Restrict Metric Access](../mbi/administrator/user-management/restrict-metric-access.md)
+    - [Advanced user managemnt](../mbi/administrator/user-management/advanced.md)
 - Analyze Data {#analyze}
   - [Data Analyst](data-analyst.md)
   - Data Warehouse Manager {#warehouse-manager}
