@@ -53,3 +53,5 @@ Need help with building an advanced calculated column? Encountered a defect or c
 | [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
 
 {{$include /help/_includes/templated/whats-new.md}}
+
+<!-- Last updated from includes: 2025-09-03 15:37:01 -->
