@@ -47,9 +47,11 @@ Need help with building an advanced calculated column? Encountered a defect or c
 
 | Documentation resource | Description |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
-| [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentation to support a collection of services that help merchants integrate key components of their business with their store. |
-| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain projects deployed on Adobe Commerce and Magento Open Source platforms.|
+| [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) | Merchant-focused documentation for both Adobe Commerce and Magento Open Source |
+| [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home) | Documentation to support a collection of services that help merchants integrate key components of their business with their store. |
+| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-guides/home) | Systems documentation about the concepts, processes, tools, and best practices to develop, deploy, and maintain projects deployed on Adobe Commerce and Magento Open Source platforms.|
 | [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/) | Developer-focused documentation used to build and customize Adobe Commerce or Magento Open Source |
 
-{style="table-layout:auto"}
+{{$include /help/_includes/templated/whats-new.md}}
+
+<!-- Last updated from includes: 2025-09-03 15:37:01 -->
