@@ -16,3 +16,7 @@ gem 'rake'
 gem 'tzinfo'
 gem 'whatsup_github', git: 'https://github.com/commerce-docs/whatsup_github', tag: 'v1.2.0'
 gem 'jekyll'
+
+# Adobe Comdox EXL Rake Tasks - using local path for development
+# gem 'adobe-comdox-exl-rake-tasks', path: '/Users/dimashevtsov/Projects/repos/tools/adobe-comdox-exl-rake-tasks'
+gem 'adobe-comdox-exl-rake-tasks', git: 'https://github.com/commerce-docs/adobe-comdox-exl-rake-tasks.git'
