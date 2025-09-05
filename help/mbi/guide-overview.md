@@ -54,4 +54,4 @@ Need help with building an advanced calculated column? Encountered a defect or c
 
 {{$include /help/_includes/templated/whats-new.md}}
 
-<!-- Last updated from includes: 2025-09-03 15:37:01 -->
+<!-- Last updated from includes: 2025-09-04 10:40:17 -->
