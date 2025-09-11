@@ -17,7 +17,7 @@ With the [!DNL QuickBooks] integration, your business finances can now live alon
 
 >[!NOTE]
 >
->Adobe Commerce Intelligence integrates with QuickBooks Online, not QuickBooks Desktop. This integration requires login through the Intuit account and a cloud connection, matching QuickBooks Online SaaS structure rather than the locally installed QuickBooks Desktop model.
+>Adobe Commerce Intelligence integrates with QuickBooks Online (not Desktop) and requires an Intuit account login with a cloud connection, matching the QuickBooks Online SaaS structure rather than the locally installed QuickBooks Desktop model.
 
 ## Add [!DNL QuickBooks] as a data source in [!DNL Commerce Intelligence]
 
