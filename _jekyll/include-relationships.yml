@@ -1,11 +1,11 @@
 ---
 metadata:
-  last_updated: 2025-09-05 17:07:12 CDT
+  last_updated: 2025-09-12 15:45:13 CDT
   description: Index of main files and their included files for automatic timestamp
     updates
   total_relationships: 1
   auto_discovered: true
-  discovery_date: 2025-09-05 17:07:12 CDT
+  discovery_date: 2025-09-12 15:45:13 CDT
 relationships:
   mbi/guide-overview.md:
   - "/help/_includes/templated/whats-new.md"
