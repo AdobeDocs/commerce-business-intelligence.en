@@ -17,14 +17,14 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 
 |**Column Name**|**Description**|
 |---|---|
-|`entity\_id`|Unique identifier for the table. Each `entity\_id` represents an item that has been requested for return.|
-|`rma\_entity\_id`|Foreign key associated with the `enterprise\_rma` table.|
+|`entity_id`|Unique identifier for the table. Each `entity_id` represents an item that has been requested for return.|
+|`rma_entity_id`|Foreign key associated with the `enterprise_rma` table.|
 |`status`|The status of the item's return. Values include 'received', 'pending', 'authorized', among others. The values in this status may not match the value of the overall return's status.|
-|`qty\_requested`|The quantity the customer requests for return.|
-|`qty\_approved`|The quantity approved for return.|
-|`qty\_returned`|The quantity returned.|
-|`order\_item\_id`|Foreign key associated with the `sales\_flat\_order\_item` table.|
-|`product\_sku`|The sku being returned.|
+|`qty_requested`|The quantity the customer requests for return.|
+|`qty_approved`|The quantity approved for return.|
+|`qty_returned`|The quantity returned.|
+|`order_item_id`|Foreign key associated with the `sales_flat_order_item` table.|
+|`product_sku`|The sku being returned.|
 
 {style="table-layout:auto"}
 
@@ -32,9 +32,9 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 
 |**Column Name**|**Description**|
 |---|---|
-|`Return date\_requested`|This is the date that the customer requested the return.|
+|`Return date_requested`|This is the date that the customer requested the return.|
 |`Item price`|The price of the item.|
-|`Return item's total value (qty\_returned * price)`|This is the total monetary value of the items that are returned. This is used to calculate the total return amount on the `enterprise\_rma` table.|
+|`Return item's total value (qty_returned * price)`|This is the total monetary value of the items that are returned. This is used to calculate the total return amount on the `enterprise_rma` table.|
 
 {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ Each row in the `enterprise_rma_item_entity` table (often called `magento_rma_it
 
 `enterprise_rma`
 
-* Create joined columns such as `Return date\_requested` on the `enterprise_rma_item_entity` table via the following join:
+* Create joined columns such as `Return date_requested` on the `enterprise_rma_item_entity` table via the following join:
 * Commerce 1.x: `enterprise_rma_item_entity.rma_entity_id ` (many) => `enterprise_rma.entity_id` (one)
 * Commerce 2.x: `magento_rma_item_entity.rma_entity_id ` (many) => `magento_rma.entity_id` (one)
 
