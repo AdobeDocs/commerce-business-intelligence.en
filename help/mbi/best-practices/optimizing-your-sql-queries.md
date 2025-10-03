@@ -7,7 +7,7 @@ feature: Data Integration, Data Import/Export, Data Warehouse Manager
 ---
 # Optimize your SQL queries
 
-The [!DNL SQL Report Builder] allows you to query and iterate on those queries at any given time. This is useful when you need to modify a query without having to wait for an update cycle to finish before realizing a column or report you created needs updating.
+The [!DNL SQL Report Builder] lets you run and change your queries whenever you want. This capability is helpful if you need to update a query right away, instead of waiting for an update cycle to finish before fixing a column or report.
 
 Before a query is executed, [[!DNL Commerce Intelligence] estimates its cost](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Cost considers the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds [!DNL Commerce Intelligence] limits, the query fails. For querying your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md), which ensures you are writing the most streamlined queries possible, Adobe recommends the following.
 
@@ -45,7 +45,7 @@ While you can include multiple joins in your query, remember that it may drive t
 
 ## Using Filters
 
-Use filters whenever possible. `WHERE` and `HAVING` clauses filter your results and give you only the data you really want.
+Use filters whenever possible. The clauses `WHERE` and `HAVING` filter your results and give you only the data you really want.
 
 ## Using Filters in JOIN Clauses
 
@@ -67,7 +67,7 @@ Comparison operators (>, <, =, and so on) are the least expensive, followed by [
 
 Using `EXISTS` versus `IN` depends on the type of results that you are trying to return. If you are only interested in a single value, use the `EXISTS` clause instead of `IN`. `IN` is used with lists of comma-separated values, which increases the computational cost of the query.
 
-When `IN` queries are run, the system must first process the subquery (the `IN` statement), then the entire query based on the relationship specified in the `IN` statement. `EXISTS` is far more efficient because the query does not have to be run through multiple times - a true/false value is returned while checking the relationship specified in the query.
+When `IN` queries are run, the system must first process the subquery (the `IN` statement), then the entire query based on the relationship specified in the `IN` statement. The `EXISTS` query is far more efficient because the query does not have to be run multiple times - a true/false value is returned while checking the relationship specified in the query.
 
 To put it simply: the system does not have to process as much when using `EXISTS`.
 
@@ -79,7 +79,7 @@ To put it simply: the system does not have to process as much when using `EXISTS
 
 ## Using ORDER BY
 
-`ORDER BY` is an expensive function in SQL and can significantly raise the cost of a query. If you receive an error message saying that the EXPLAIN cost of your query is too high, try eliminating any `ORDER BY`s from your query unless required.
+The `ORDER BY` function is expensive in SQL and can significantly raise the cost of a query. If you receive an error message saying that the EXPLAIN cost of your query is too high, try eliminating any `ORDER BY`s from your query unless required.
 
 This is not to say that `ORDER BY` cannot be used - just that it should only be used when necessary.
 
