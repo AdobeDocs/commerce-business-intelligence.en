@@ -15,6 +15,10 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 
 With the [!DNL QuickBooks] integration, your business finances can now live along side your sales and marketing data, allowing you to quickly and easily keep tabs on your expenses, identify overspending, and more.
 
+>[!NOTE]
+>
+>Adobe Commerce Intelligence integrates with QuickBooks Online (not Desktop) and requires an Intuit account login with a cloud connection, matching the QuickBooks Online SaaS structure rather than the locally installed QuickBooks Desktop model.
+
 ## Add [!DNL QuickBooks] as a data source in [!DNL Commerce Intelligence]
 
 1. Go to the `Integrations` page under **[!UICONTROL Manage Data** > **Data Sources]**.
