@@ -391,9 +391,9 @@ To configure user groups:
    ![Configure user groups](../../assets/configure-user-groups.png)
 
 1. [!UICONTROL **Add Group**] allows admins to create a new user group:
-   
+
    - Enter a name for the group (for example, "Americas").
-   
+
    - Select stores or filters relevant to the user group.
 
    - Save the configuration.
@@ -454,13 +454,13 @@ Admin users can view dashboard data with access to all stores.
 
 However, users can view dashboard data filtered based on the stores that are mapped to them during user configuration.
 
-![View dashboard admin](../../assets/view-dashboard-user.png)
+![View dashboard filtered admin](../../assets/view-dashboard-user.png)
 
 >[!TIP]
 >
 >Admins can enable date filters for shared dashboards, allowing users to view data over different date ranges instead of the default time span set during report creation. This feature can be toggled on or off based on business needs.
 
-### Schedule email summaries  
+### Schedule email summaries
 
 [!DNL Advanced User Management] extends data filtering capabilities to email summaries. Depending on the audience, admin users can specify user groups for which the selected reports must be filtered.
 

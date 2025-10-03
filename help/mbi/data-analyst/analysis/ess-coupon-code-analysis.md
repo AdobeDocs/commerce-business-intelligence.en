@@ -11,7 +11,7 @@ Understanding the coupon performance of your business is an interesting way to s
 
 This topic documents the steps required to create this analysis to understand how coupon-acquired customers perform, see trends, and track individual coupon code usage.
 
-![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
+![Coupon code analysis dashboard showing usage and performance metrics](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
 ## Getting Started
 
@@ -182,4 +182,4 @@ After building the reports, refer to the image at the top of this topic for how 
 >
 >As of Adobe Commerce 2.4.7, customers can use the **quote_coupons** and **sales_order_coupons** tables to get insights on how customer use multiple coupons.
 
-![](../../assets/multicoupon_relationship_tables.png)
+![Table relationship diagram for multi-coupon analysis](../../assets/multicoupon_relationship_tables.png)

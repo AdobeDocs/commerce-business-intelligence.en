@@ -15,7 +15,7 @@ With [standardized, clear naming for all elements](../best-practices/naming-elem
 
 The first step in cleaning up your account is to deactivate the accounts of your non-active users, such as people who have left the company or no longer use [!DNL Commerce Intelligence] in their current roles.
 
-To do this - click your company's name in the upper-right navigation bar, then select **[!UICONTROL Manage Users]**. Next, select the user you want to deactivate and click **[!UICONTROL Deactivate User]**. 
+To do this - click your company's name in the upper-right navigation bar, then select **[!UICONTROL Manage Users]**. Next, select the user you want to deactivate and click **[!UICONTROL Deactivate User]**.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ After you access your dashboards and reports, you can then begin cleaning up you
 
 You can also select **[!UICONTROL Dashboard Options]**, then **[!UICONTROL Delete]** from the dashboard itself.
 
-![](../../mbi/assets/Delete_from_dashboard.png)
+![Delete option in dashboard gear menu](../../mbi/assets/Delete_from_dashboard.png)
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ You can also select **[!UICONTROL Dashboard Options]**, then **[!UICONTROL Delet
 
 Here is a look at the unused report deletion process:
 
-![](../../mbi/assets/unused_reports.png)
+![Unused reports list showing reports not on any dashboard](../../mbi/assets/unused_reports.png)
 
 ## Step 3: Delete Unused Metrics
 
@@ -87,7 +87,7 @@ After you have cleaned up your users list, dashboards, and reports, you can move
 1. At the bottom of the page, you see a section called **[!UICONTROL Dependent Charts]**. Click the link to generate a dependent reports list for this metric.
 1. After the system completes the check, [!DNL Commerce Intelligence] displays a list of dashboards, reports, and users using this metric.
 
-![](../../mbi/assets/report_dependecies.png)
+![Report dependencies dialog showing which reports use selected column](../../mbi/assets/report_dependecies.png)
 
 If you decide that the metric is no longer needed, navigate back to the **[!UICONTROL Metrics]** page by clicking **[!UICONTROL Back to Metric List]** to find the metric you want to delete. Click **[!UICONTROL Delete]**.
 
@@ -105,7 +105,8 @@ If you would like to pursue this, reach out to [!DNL Commerce Intelligence] [Sup
 
 1. Go to **[!DNL Manage Data]**, then **[!UICONTROL Data Warehouse]**.
 1. In the **[!UICONTROL Synced Tables]** list, navigate to the table that contains the column.
-1. Check one or more boxes next to one or more columns that you want to unsync. 
+1. Check one or more boxes next to one or more columns that you want to unsync.
+
    >[!NOTE]
    >
    >You cannot unsync a Primary Key column without dropping the entire table.
@@ -114,7 +115,7 @@ If you would like to pursue this, reach out to [!DNL Commerce Intelligence] [Sup
 
 Here is a look at the whole process:
 
-![](../../mbi/assets/drop_column.png)
+![Drop column option in Data Warehouse Manager](../../mbi/assets/drop_column.png)
 
 ## Wrapping up
 

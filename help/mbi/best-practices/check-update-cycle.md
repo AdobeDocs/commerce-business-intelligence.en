@@ -17,7 +17,7 @@ Checking the status update cycle is useful when you are auditing the data in you
 
 `Read-only` users can log into their dashboard and see how recently the data has been updated by hovering over the icon at the top right of the page. This shows when the last data point was pulled.
 
-![](../../mbi/assets/last-success-data.png)
+![Last successful data update timestamp shown in interface](../../mbi/assets/last-success-data.png)
 
 ## [!UICONTROL Admin] Users
 
@@ -25,13 +25,13 @@ Checking the status update cycle is useful when you are auditing the data in you
 
 For more detail, admin users can click **[!UICONTROL Manage Data]** > **[!UICONTROL Integrations]**.
 
-![](../../mbi/assets/detail-manage-data-integrations.png)
+![Manage Data integrations page showing connection details and update status](../../mbi/assets/detail-manage-data-integrations.png)
 
 This page shows you the current update status and the time of the last completed update.
 
 If an update is in progress, you see a link to request an email notification once the update completes.
 
-If an update is not in progress, you see a link to force an update to start. 
+If an update is not in progress, you see a link to force an update to start.
 
 >[!NOTE]
 >

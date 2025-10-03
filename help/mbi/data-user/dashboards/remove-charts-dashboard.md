@@ -7,7 +7,7 @@ feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Remove a chart from a dashboard
 
-To remove a chart from a dashboard, click the gear (![](../../assets/gear-icon.png)) icon in the top-right corner of the chart and click **[!UICONTROL Remove from Dashboard]**.
+To remove a chart from a dashboard, click the gear (![Gear icon](../../assets/gear-icon.png)) icon in the top-right corner of the chart and click **[!UICONTROL Remove from Dashboard]**.
 
 >[!NOTE]
 >

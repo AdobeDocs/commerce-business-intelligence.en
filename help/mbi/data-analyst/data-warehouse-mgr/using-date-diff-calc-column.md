@@ -44,4 +44,4 @@ The following steps describe how to create a `Date Difference` column.
 
 As an example, the following example is configured to calculate the `Seconds between order date and customer's creation date`:
 
-![](../../assets/date_diff.png)
+![Date difference calculation configuration showing datetime column selections](../../assets/date_diff.png)

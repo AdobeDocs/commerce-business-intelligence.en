@@ -17,7 +17,7 @@ In the typical commerce database, there is an `orders` table that joins to a `cu
 
 * **If all customers are registered** and guest orders are not allowed, this means that every record in the `orders` table has a value in the `customer\_id` column. As a result, every order joins back to the `customers` table. 
 
-  ![](../../assets/guest-orders-4.png)
+  ![Guest orders data table showing customer information](../../assets/guest-orders-4.png)
 
 * **If guest orders are allowed**, this means that some orders do not have a value in the `customer\_id` column. Only registered customers are given a value for the `customer\_id` column on the `orders` table. Customers who are not registered receive a `NULL` (or blank) value for this column. As a result, not all order records have matching records in the `customers` table.
 
@@ -33,7 +33,7 @@ The most optimal way to account for guest orders is to base all customer-level m
 
 You may notice that the `Customers we count` filter set in this type of setup has a filter for `Customer's order number = 1`. 
 
-![](../../assets/guest-orders-filter-set.png)
+![Filter set configuration for excluding guest orders](../../assets/guest-orders-filter-set.png)
 
 In a situation without guest orders, each customer exists as a unique row in the customer table (see Image 1). A metric such as `New customers` can simply count the id of this table based on `created\_at` date to understand New customers based on registration date.
 

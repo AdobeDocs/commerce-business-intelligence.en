@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/adobe-analytic-slogo.png)
+![Adobe Analytics logo](../../../assets/adobe-analytic-slogo.png)
 
 The [!DNL Adobe Analytics] integration for [!DNL Adobe Commerce Intelligence] enables you to bring together the end-to-end customer journey focus of [!DNL Adobe Analytics] and the eCommerce focus you rely on from [!DNL Commerce Intelligence]. This gives you a complete picture of your store's overall performance.
 

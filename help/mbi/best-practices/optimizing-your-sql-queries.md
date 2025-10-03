@@ -19,7 +19,7 @@ For this reason, Adobe recommends you avoid using `SELECT *` wherever possible a
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Select_all_1.png) | ![](../../mbi/assets/Select_all_2.png) |
+| ![SQL query using SELECT asterisk](../../mbi/assets/Select_all_1.png) | ![SQL query selecting specific columns](../../mbi/assets/Select_all_2.png) |
 
 {style="table-layout:auto"}
 
@@ -33,7 +33,7 @@ Look at how you can rewrite a FULL OUTER JOIN query:
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Full_Outer_Join_1.png) | ![](../../mbi/assets/Full_Outer_Join_2.png) |
+| ![SQL query with full outer join](../../mbi/assets/Full_Outer_Join_1.png) | ![SQL query with optimized join](../../mbi/assets/Full_Outer_Join_2.png) |
 
 {style="table-layout:auto"}
 
@@ -53,7 +53,7 @@ If you are using a filter when performing a join, be sure to apply it to both ta
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Join_filters_1.png) | ![](../../mbi/assets/Join_filters_2.png) |
+| ![SQL query with WHERE clause filter](../../mbi/assets/Join_filters_1.png) | ![SQL query with ON clause filter](../../mbi/assets/Join_filters_2.png) |
 
 {style="table-layout:auto"}
 
@@ -73,7 +73,7 @@ To put it simply: the system does not have to process as much when using `EXISTS
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Exists_1.png) | ![](../../mbi/assets/Exists_2.png) |
+| ![SQL query using LEFT JOIN with NULL check](../../mbi/assets/Exists_1.png) | ![SQL query using EXISTS clause](../../mbi/assets/Exists_2.png) |
 
 {style="table-layout:auto"}
 
@@ -89,7 +89,7 @@ There may be a few situations where this approach does not conform with what you
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Group_by_2.png) | ![](../../mbi/assets/Group_by_1.png) |
+| ![SQL query with GROUP BY before filter](../../mbi/assets/Group_by_2.png) | ![SQL query with filter before GROUP BY](../../mbi/assets/Group_by_1.png) |
 
 {style="table-layout:auto"}
 

@@ -9,7 +9,7 @@ feature: Data Warehouse Manager, Reports, Dashboards
 
 This topic demonstrates how to set up a dashboard that helps you define churn for your transactional customers.
 
-![](../../assets/churn-deashboard.png)
+![Customer churn dashboard showing churn rate and retention metrics](../../assets/churn-deashboard.png)
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
