@@ -19,19 +19,19 @@ After your account has been created, check your email for an account notificatio
 
 If you did not receive an email, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
-   ![](../assets/create-account-4.png)
+   ![Create password screen for new Commerce Intelligence account](../assets/create-account-4.png)
 
 ## Set your store preferences
 
    Before you configure the database connection, complete the store information form. This information is required to complete the **[!UICONTROL Connect your Database]** setup.
 
-   ![](../assets/create-account-6.png)
+   ![Store information form with business name, currency, and timezone fields](../assets/create-account-6.png)
 
 ## Add [!DNL Commerce Intelligence] users
 
 After you set your password and log into [!DNL Commerce Intelligence], you can add other users to your [!DNL Commerce Intelligence] account. When adding users, add admin users with appropriate permissions to complete the activation process.
 
-   ![](../assets/create-account-5.png)
+   ![Add user form with email address and permission level fields](../assets/create-account-5.png)
 
 ## Create a dedicated [!DNL Commerce Intelligence] user in the [!DNL Commerce] admin
 
@@ -43,44 +43,44 @@ Configuring a dedicated [!DNL Commerce Intelligence] user ensures that the accou
 >[!NOTE]
 >
 >Adobe encourages using an account name that indicate its permanent status (e.g., ACI-dedicated, ACI-database-connector, and so forth).
- 
+
 After you created the dedicated user for [!DNL Commerce Intelligence] in the Admin, add the same user to the primary environment of the [!DNL Commerce] project with a **[!UICONTROL Master]** setting of `Contributor`.
 
-   ![](../assets/commerce-add-user-settings.png)
+   ![Commerce add user interface with role set to Contributor](../assets/commerce-add-user-settings.png)
 
 ## Get your Commerce Intelligence SSH keys
 
    1. On the [!UICONTROL Connect your database] page for [!DNL Commerce Intelligence] setup,  scroll down and select **[!UICONTROL Encryption settings]**.
- 
+
    1. For **Encryption Type**, select `SSH Tunnel`.
 
    1. From the drop-down, copy the public key that is provided.
 
-      ![](../assets/encryption-setting-new-account.png) 
+      ![Encryption settings page showing SSH Tunnel type and public key field](../assets/encryption-setting-new-account.png)
 
 ## Add your public key to the [!DNL Commerce Intelligence]
-    
-   1. From the [!DNL Commerce Admin], sign in using the login information for the [!DNL Commerce Intelligence] user you just created. 
+
+   1. From the [!DNL Commerce Admin], sign in using the login information for the [!DNL Commerce Intelligence] user you just created.
 
    1. Select the **Account Settings** tab.
- 
+
    1. Scroll down and expand the **[!UICONTROL SSH Keys]** drop-down. Then, select **[!UICONTROL Add a public key]**.
 
-       ![](../assets/add-public-key.png)
+       ![Account settings page with SSH Keys section and Add a public key button](../assets/add-public-key.png)
 
    1. Paste the public key that you copied in the [!DNL Encryption Type] step above.
- 
-       ![](../assets/paste-public-key.png)
+
+       ![Add public key form with key text field and Submit button](../assets/paste-public-key.png)
 
 ## Provide [!DNL Commerce Intelligence] Essentials `MySQL` credentials
 
    1. Update your `.magento/services.yaml`.
-    
-      ![](../assets/update-magento-services-yaml.png)
+
+      ![Code showing MySQL service configuration in services.yaml file](../assets/update-magento-services-yaml.png)
 
    1. Update your `.magento.app.yaml`.
 
-      ![](../assets/magento-app-yaml-relationships.png)
+      ![Code showing database relationships configuration in app.yaml file](../assets/magento-app-yaml-relationships.png)
 
 ## Get database connection information
 
@@ -92,7 +92,7 @@ Get the database connection information to the [!DNL Commerce] database to [!DNL
 
    1. Review the database information, which should look similar to the following example.
 
-      ![](../assets/example-database-information.png)
+      ![JSON output showing database connection credentials including host, port, and username](../assets/example-database-information.png)
 
 ## Connect [!DNL Commerce Intelligence] to your [!DNL Commerce] database using an encrypted connection
 
@@ -102,12 +102,12 @@ Get the database connection information to the [!DNL Commerce] database to [!DNL
 
 Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect your Magento Database] screen.
 
-![](../assets/connect-magento-db.png)
+![Connect your database form with fields for integration name, host, port, username, password, and database name](../assets/connect-magento-db.png)
 
 **Inputs:**
 
 [!UICONTROL Integration Name]:  [choose a name for your [!DNL Commerce Intelligence] instance]
-   
+
 [!UICONTROL Host]: `mbi.internal`
 
 [!UICONTROL Port]: `3306`
@@ -122,7 +122,7 @@ Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect y
 
 ## Set your [!UICONTROL **Time Zone**] settings
 
-   ![](../assets/time-zone-settings.png)
+   ![Time zone settings form with database timezone and desired timezone dropdown fields](../assets/time-zone-settings.png)
 
    **Inputs:**
 
@@ -134,11 +134,11 @@ Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect y
 
 The project UI provides an SSH access string. This string can be used for gathering the information needed for the [!UICONTROL **Remote Address**] and [!UICONTROL **Username**]. Use the SSH Access string by selecting the access site button on the Master branch of the Project UI. Then, find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
 
-![](../assets/master-branch-settings.png)
+![Project UI showing SSH access information with username and remote address](../assets/master-branch-settings.png)
 
 ## Input your [!DNL Encryption] settings
 
-![](../assets/encryption-settings-2.png)
+![Encryption settings form with fields for encryption type, remote address, username, and port](../assets/encryption-settings-2.png)
 
 **Inputs:**
 
@@ -150,7 +150,7 @@ The project UI provides an SSH access string. This string can be used for gather
 
 [!UICONTROL Port]: `22`
 
-## Save your integration. 
+## Save your integration.
 
 After completing the configuration steps, apply the changes by selecting [!UICONTROL **Save Integration**].
 
@@ -162,7 +162,7 @@ You have now successfully connected your [!DNL Commerce] database to your [!DNL 
 
 After you complete the configuration, [sign in](../getting-started/sign-in.md) to your [!DNL Commerce Intelligence] account.
 
-<!---# Activate your [!DNL Commerce Intelligence] Account 
+<!---# Activate your [!DNL Commerce Intelligence] Account
 
 To activate [!DNL Commerce Intelligence] for on-premise or `Cloud Pro` subscriptions, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 

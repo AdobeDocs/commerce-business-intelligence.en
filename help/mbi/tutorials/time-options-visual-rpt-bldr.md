@@ -23,7 +23,7 @@ Some metrics simply cannot trend over time because the data is not collected or 
 
 When using such a metric in your reporting, you notice that adding this metric to a report automatically sets an independent `Time Interval` of `None` and `Time Range` of `Global`:
 
-![](../assets/Metrics_without_timestamps.gif)
+![Report showing metric with Time Interval set to None and Time Range set to Global](../assets/Metrics_without_timestamps.gif)
 
 ## Giving One Metric an Independent Time Interval {#independenttimeinterval}
 
@@ -56,7 +56,7 @@ This type of report can be useful if you want to compare revenue generated year-
 
 Now you can see just how impactful each month was last year:
 
-![](../assets/Independent_Time_Int.png)
+![Chart showing percentage of revenue by month for the previous year](../assets/Independent_Time_Int.png)
 
 ## Comparing the Same Metric Across Different Time Ranges {#difftimerange}
 
@@ -81,7 +81,7 @@ To demonstrate this use case, look at the daily revenue for the previous month c
 
    Do not worry if the metric disappears from the report - setting an independent time option automatically hides the metric from the report. To redisplay it, click **[!UICONTROL Show]** next to the metric.
 
-   ![](../assets/Different_Time_Ranges.gif)
+   ![Demonstration of setting different time ranges for metrics in a report](../assets/Different_Time_Ranges.gif)
 
    * Click **[!UICONTROL Apply]** to save the interval and range settings.
 
@@ -89,7 +89,7 @@ To demonstrate this use case, look at the daily revenue for the previous month c
 
    * In the `Group By` dropdown, select `Show All` and click **[!UICONTROL Apply]**. This creates the X-axis values for the report:
 
-   ![](../assets/TO4.png)
+   ![Report showing revenue comparison grouped by day number of month](../assets/TO4.png)
 
    * Rename the metrics. In the example, the first metric is `Revenue - 2015` and the second is `Revenue - 2014`.
 
@@ -130,7 +130,7 @@ To create the formulas, click **[!UICONTROL Add Formula]**. Enter the formulae b
 
 * For the `last promo period`, enter `D / C` in the `Formula` field.
 
-   ![](../assets/Different_Time_Ranges_2.png)
+   ![Report showing weeks of supply calculations for different time periods](../assets/Different_Time_Ranges_2.png)
 
 * Lastly, customize the report by hiding the metrics and adding a `SKU` or a similar dimension to the report as a `Group By`.
 

@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/Google_Adwords_logo.png)
+![Google AdWords logo](../../../assets/Google_Adwords_logo.png)
 
 You did your research, you created your ads, you launched your [!DNL Google] campaign. Now it is time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../../analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
@@ -23,7 +23,7 @@ Get started by entering your [!DNL Google Adwords] credentials into [!DNL Commer
 1. Enter your [!DNL Google Analytics] credentials. Upon completion of the authorization process, you are redirected back to [!DNL Commerce Intelligence].
 1. A list of profile IDs display. Check the profiles that you want to connect to [!DNL Commerce Intelligence].
 
-     ![](../../../assets/cnnct-profile.png)
+     ![Google AdWords connection dialog showing profile selection](../../../assets/cnnct-profile.png)
 
 1. Changes are saved automatically, so click **[!UICONTROL Back to Connections]** when you are done.
 

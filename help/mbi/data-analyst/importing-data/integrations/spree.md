@@ -7,7 +7,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 ---
 # Connect [!DNL Spree]
 
-![](../../../assets/spree-commerce-logo.png)
+![Spree Commerce logo](../../../assets/spree-commerce-logo.png)
 
 Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your [!DNL Spree] data to [!DNL Commerce Intelligence] allow you to answer these questions and more.
 

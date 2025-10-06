@@ -40,8 +40,8 @@ Analyses (1) and (2) above are explored in a separate tutorial on [identifying y
 1. Select `Add New Metric` and select the [!DNL `Adwords...`] table that is recording your [!DNL AdWords] cost data.
 1. In the metric editor, give your metric a name (for example, [!UICONTROL AdWord Cost])
 1. Using the dropdowns, perform a **Sum** on the `adCost` column in the [!DNL Adwords...] table (Change) ordered by the `date` column.
-    ![](../../assets/success-add-new-metric.png)<!--="500" height="303"}-->
-1.  Click `Back to Metric List` at the top and go to any dashboard.
+    ![Success message after adding new metric](../../assets/success-add-new-metric.png)<!--="500" height="303"}-->
+1. Click `Back to Metric List` at the top and go to any dashboard.
 
 1. Create a report that segments spend by campaigns
 1. In any dashboard, click [!UICONTROL Add Report > Create report]
@@ -116,8 +116,8 @@ Before you start, [submit a support ticket](https://experienceleague.adobe.com/d
 1. With these metrics in place, add formulas:
 1. [!UICONTROL ROI]: Enter the formula `\[A\]/\[B\]`, if `\[A\]` represents `Revenue per campaign for specific product(s)` and `\[B\]` represents `Ad cost by campaigns`. This returns the ratio of (Revenue for specific product(s)) / (Campaign Cost)
 1. [!UICONTROL Return]: Enter the formula `\[A\]-\[B\]`. This returns the average margin made on a user by calculating (average user LTV) - (average cost per acquisition)
-  1. (Optional) [!UICONTROL Revenue]: Unhide the `Revenue by items` metric to see revenue for specific product(s) per campaigns
-  1. (Optional) [!UICONTROL Cost]: Unhide the `AdWords Cost` metric to see the cost for campaigns
+   1. (Optional) [!UICONTROL Revenue]: Unhide the `Revenue by items` metric to see revenue for specific product(s) per campaigns
+   1. (Optional) [!UICONTROL Cost]: Unhide the `AdWords Cost` metric to see the cost for campaigns
 
 1. Give your report a name and be sure to save it as a table
 

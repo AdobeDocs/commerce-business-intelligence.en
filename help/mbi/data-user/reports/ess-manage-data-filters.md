@@ -17,7 +17,7 @@ See the [training video](https://experienceleague.adobe.com/docs/commerce-knowle
 
 1. Click **[!DNL Manage Data** > **Filter Sets]** in the sidebar.
 
-    ![](../../assets/create-filter-sets.png)
+    ![Create filter sets interface with add filter set option](../../assets/create-filter-sets.png)
 
 1. Click **[!UICONTROL Add Filter Set]** at the top of the page.
 

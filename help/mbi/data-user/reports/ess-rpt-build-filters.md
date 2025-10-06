@@ -21,7 +21,7 @@ One or more filters can be added to limit the data that is used to product a rep
 
    In this report, each data point shows the total number of customers for the month.
 
-1. In the left panel, click the Filters (![](../../assets/magento-bi-btn-filter.png)) icon.
+1. In the left panel, click the Filters (![Filter icon](../../assets/magento-bi-btn-filter.png)) icon.
 
     ![Add Filter](../../assets/magento-bi-report-builder-filter-add.png)
 
@@ -29,7 +29,7 @@ One or more filters can be added to limit the data that is used to product a rep
 
     Filters are numbered alphabetically, and the first is `[A]`. The first two parts of the filter are dropdown options, and the third part is a value.
 
-      ![](../../assets/magento-bi-report-builder-filter-add-a.png)
+      ![Filter interface showing add filter option](../../assets/magento-bi-report-builder-filter-add-a.png)
 
     * Click the first part of the filter and choose the column that you want to use as the subject of the expression.
 

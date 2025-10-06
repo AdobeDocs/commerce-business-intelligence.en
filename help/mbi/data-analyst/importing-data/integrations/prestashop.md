@@ -7,7 +7,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 ---
 # Connect [!DNL PrestaShop]
 
-![](../../../assets/Prestashop-logo.png)
+![PrestaShop logo](../../../assets/Prestashop-logo.png)
 
 Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your [!DNL PrestaShop] data to [!DNL Commerce Intelligence] allow you to answer these questions and more.
 

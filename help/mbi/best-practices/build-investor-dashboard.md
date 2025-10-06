@@ -24,7 +24,7 @@ Here is what you need to create reports for your investor dashboard:
 * **[!UICONTROL Revenue by quarter]**
     * Metric – Revenue
 * **[!UICONTROL Revenue from 1st time orders vs repeat orders]**
-    * Metric – First-time order revenue
+  * Metric – First-time order revenue
     * Filter – User's order number is equal to 1
   * Metric 2 – Repeat order revenue
     * Filter – User's order number is greater than 1
@@ -71,4 +71,4 @@ With the [Commerce Data Enrichment services](https://business.adobe.com/products
 
 Organize your reports thoughtfully and pay attention to detail. Once complete, the dashboard looks similar to below:
 
-![](../../mbi/assets/investor-dboard-example.png)
+![Build Investor Dashboard](../../mbi/assets/investor-dboard-example.png)

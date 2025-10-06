@@ -13,20 +13,20 @@ The [!DNL SQL Report Builder] is primarily used to build new reports and iterate
 
 To get started, open the [!DNL SQL Report Builder] by navigating to **[!UICONTROL Report Builder > SQL Report Builder > Create Report]**. You can use the sidebar in the [!DNL SQL] editor to insert a metric directly into your query by hovering over the metric and clicking **[!UICONTROL Insert]**. This adds the query definition of that metric to the editor. The definition includes the following components:
 
--  The **metric operation** being performed, indicated by `SUM()` in the example below.
--  The **table on** which the metric is built, indicated by the `FROM` clause.
--  Any **filters (and filter sets)** that have been added to the metric, indicated by the `WHERE` clause in the example below.
--  The component of the **timestamp** (year, month) on which the data is to be ordered, indicated by the `ORDER BY` clause in the example below.
+- The **metric operation** being performed, indicated by `SUM()` in the example below.
+- The **table on** which the metric is built, indicated by the `FROM` clause.
+- Any **filters (and filter sets)** that have been added to the metric, indicated by the `WHERE` clause in the example below.
+- The component of the **timestamp** (year, month) on which the data is to be ordered, indicated by the `ORDER BY` clause in the example below.
 
 To have a clearer view of the query, you can reformat how it is displayed in the query field. When ready, select `Run Query`. The results populate as a table in the report panel below the query.
 
-![](../../assets/run-query-results.gif)
+![Animated demonstration of running SQL query and viewing results](../../assets/run-query-results.gif)
 
 ## Restricting the query
 
 If you are trying to pinpoint a specific discrepancy or set of data, you should restrict the query to a specific sample to check against your local database. You can do this by editing the query to match your desired restrictions. In the following example, you are restricting the query to include only revenue from January 1, 2013 or later. After you update the query, select **[!UICONTROL Run Query]** again to update the results.
 
-![](../../assets/restricting-query.gif)
+![Animated demonstration of restricting query with filters](../../assets/restricting-query.gif)
 
 ## Saving and exporting
 
@@ -34,7 +34,7 @@ When the report meets your needs, give the report a distinct name, click **[!UIC
 
 After the report is saved, navigate to that dashboard by selecting `Go to Dashboard`. From there, you can export the data by finding the report and selecting **[!UICONTROL Options gear > Full `.csv` Export]** or **[!UICONTROL Full Excel Export]**.
 
-![](../../assets/export-dboard-data.gif)
+![Animated demonstration of exporting dashboard data](../../assets/export-dboard-data.gif)
 
 ## Custom queries
 
