@@ -1,20 +1,20 @@
 ---
-title: Create automated email summaries
+title: Create Automated Email Summaries
 description: Learn how to create automated email summaries.
 exl-id: a9aea4fc-9193-467f-8554-3ad77ac3fa73
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
-# Create automated email summaries
+# Create Automated Email Summaries
 
-Email summaries are a powerful communication tool that you can use to share the status and trends of your business with key stakeholders. With email summaries you can:
+Email summaries are a powerful communication tool that you can use to share the status and trends of your business with key stakeholders. With email summaries, you can:
 
 * Email graphical summaries that include reports
 * Include or exclude the email summary author from receiving the email
 * Schedule when the email is sent
 * Edit, delete, and pause existing scheduled email summaries
 
-## Create New Email Summary
+## Create new email summary
 
 1. Click **[!DNL Manage Data]** then **[!UICONTROL Email Summary]** in the sidebar.
 
@@ -28,17 +28,32 @@ Email summaries are a powerful communication tool that you can use to share the 
 
 1. In the `Choose Content` section, select the reports you want to include in the summary.
 
+   You have two options for adding content:
+   
+   * **Select Individual Reports** - Choose specific reports from your dashboards
+   * **Select Entire Dashboard** - Include all reports from a dashboard as they appear in the dashboard layout
+
    You can select up to ten reports that you own. After you select a report, use the icons that appear to select if you want that report sent as a table or a chart. If you saved the report as a number, you can only send it as a number. For information about sending an email summary that contains a report with stale data, see [Managing your account settings](../../administrator/account-management/managing-account-settings.md).
+   
+   For adding entire dashboards, you have the following format and delete options:
+
+   * Change the report's format to a chart or a table
+   * Delete reports from being included in the email
+   * Select to include a CSV file for tabular reports - this allows recipients to access raw, exportable data directly from their inbox.
 
    >[!NOTE]
    >
    >`Cohort` reports are only available if you are using the new architecture.
 
+   >[!NOTE]
+   >
+   >Large CSV attachments are supported up to a combined total of 25 MB per email.
+
 1. (Optional) Select `Send Email To Me` if you want to receive the email.
 
 1. To include other users on the email, enter their email addresses in the `Add Email Recipients` field separated by commas, spaces, tabs, or semi-colons.
 
-## Schedule Email Summary
+## Schedule email summary
 
 In the `Set when to send the Email Summary` field, you can specify when to send the email summaries. Options are:
 
@@ -46,7 +61,7 @@ In the `Set when to send the Email Summary` field, you can specify when to send 
 * `Once`
 * `Repeating`
 
-### Save Email Summary to be Sent at a Later Date
+### Save email summary to be sent at a later date
 
 1. Select `Manual` from the `Set when to send the Email Summary` field.
 
@@ -56,7 +71,7 @@ In the `Set when to send the Email Summary` field, you can specify when to send 
 
 1. When you are ready to send the summary, click the gear icon and select `Send Now`.
 
-### Send Email Summary Once
+### Send email summary once
 
 1. Select `Once` from the `Set when to send the Email Summary` field.
 
@@ -64,7 +79,7 @@ In the `Set when to send the Email Summary` field, you can specify when to send 
 
 1. Specify the time to send the email in the `Select time to send` field.
 
-### Create Repeating Schedule
+### Create repeating schedule
 
 1. Select `Repeating` from the `Set when to send the Email Summary` field.
 
@@ -76,20 +91,24 @@ In the `Set when to send the Email Summary` field, you can specify when to send 
 
 1. (Optional) To specify an end date, select `End Date` and select the end date from the calendar.
 
-## Modify Existing Email Summary
+## Modify existing email summary
 
-After you create and save an email summary, the `Email Summaries` page displays a list of all saved summaries. You can expand (`+`) each row for more information. The columns in this view are:
+After you create and save an email summary, the `Email Summaries` page displays a list of all saved summaries. You can expand (`+`) in each row for more information. The columns in this view are:
 
 * `Email Name` - Name of the email summary
-* `Content` - Type of content within the summary, such as the names of any reports. For information about sending an email summary that contains a report with stale data, see [Managing your account settings](../../administrator/account-management/managing-account-settings.md).
+* `Content` - Type of content within the summary, such as the names of any reports
 * `Scheduled` - Frequency, date, and time the email summary is sent
-* `Recipients` - Recipients of email summary
+* `Recipients` - Recipients of the email summary
 * `Created Date` - Date the email summary was created
 * `Status` - `Paused` or `Active`
 
+>[!NOTE]
+>
+>For information about sending an email summary that contains a report with stale data, see [Managing your account settings](../../administrator/account-management/managing-account-settings.md).
+
 Click the gear icon to the right of each row to:
 
-* `Send Now` - Sends the email summary immediately to all specified recipients
-* `Edit` - Allows you to modify the details of the email summary
-* `Pause/Active` - Allows you to pause the email summary from being delivered or enable the summary based on how it is configured
-* `Delete` - Deletes the email summary
+* `Send Now` - Send the email summary immediately to all specified recipients
+* `Edit` - Modify the details of the email summary
+* `Pause/Active` - Pause or activate the email summary delivery
+* `Delete` - Delete the email summary
