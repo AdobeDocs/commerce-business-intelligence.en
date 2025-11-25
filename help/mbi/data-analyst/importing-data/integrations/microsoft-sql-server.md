@@ -29,9 +29,9 @@ The best way to do this is for us to connect to your database server over TCP/IP
 
    You can find the IP address that is used to connect to your server on the connections section of your `Settings` page.
 
-1. Create a user that to use to log into your database server. You have two options; either via `UI` or via a `query`:
+1. Create a user to log into your database server. You have two options; either via `UI` or via a `query`:
     * `UI`
-    * [`Query`](http://sqlserverplanet.com/security/add-user) (second example)
+    * `Query`
 
 1. Input the server IP address, username, and password in [!DNL Commerce Intelligence] under **[!UICONTROL Manage Data** > **Connections]**.
 
