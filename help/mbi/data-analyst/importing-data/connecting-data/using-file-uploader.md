@@ -145,6 +145,6 @@ Also, file upload is not the only way to get your data into [!DNL Commerce Intel
 * [Importing offline / other ad spend data](../connecting-data/import-offline-ad-data.md)
 * [Expected[!DNL Google ECommerce] data](../integrations/google-ecommerce-data.md)
 
-## Third-Party Resource
+## Third-party resource
 
 * [[!DNL Google Docs] Data Formatting Guide](https://support.google.com/docs/answer/56470?hl=en)
