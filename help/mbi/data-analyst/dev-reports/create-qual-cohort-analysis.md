@@ -47,7 +47,7 @@ Once the Adobe analyst team responds to the above, you have a couple of new adva
 
 First, you want to add the metric you are interested in cohorting, once for each `cohort` you are analyzing. In this example, you want to see cumulative `Revenue` made in the months after a customer's first order, segmented by the `User's referral source`. This means that, for each segment, you add one `Revenue` metric and filter for the specific segment:
 
-![](../../assets/qualcohort1.gif)
+![Animated demonstration of creating a qualitative cohort analysis](../../assets/qualcohort1.gif)
 
 Second, you should make two changes to the time options of the report:
 
@@ -57,7 +57,7 @@ Second, you should make two changes to the time options of the report:
 
 In this example, you look at an `all time` view of `Revenue`. After this, you should end up with a series of dots:
 
-![](../../assets/qualcohort2.gif)
+![Animated demonstration of cohort grouping and analysis options](../../assets/qualcohort2.gif)
 
 Third, you adjust to set up the `cohorts`. Based on the `cohort date` and `time interval` you specified to the Adobe analyst team, you have a dimension in your account that performs the `cohort` dating. In this example, that custom dimension is called `Months between this order and customer's first order date`. Using this dimension, you should:
 

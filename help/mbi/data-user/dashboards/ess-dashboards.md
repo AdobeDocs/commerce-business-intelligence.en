@@ -28,7 +28,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
 1. On the menu, click **[!UICONTROL Dashboards]**.
 
-1. The name of the default dashboard appears in the upper-left corner of the dashboard header. Click the down arrow (![](../../assets/magento-bi-btn-down.png)) to show the available options.
+1. The name of the default dashboard appears in the upper-left corner of the dashboard header. Click the down arrow (![Down arrow icon](../../assets/magento-bi-btn-down.png)) to show the available options.
 
     ![Create Dashboard](../../assets/magento-bi-dashboard-create.png)
 
@@ -44,7 +44,7 @@ What the dashboards you create look like is entirely up to you. You can arrange 
 
     ![dashboard name](../../assets/magento-bi-dashboard-create-name.png)
 
-    * The name of your new dashboard appears in the upper-left corner. Click the down arrow (![](../../assets/magento-bi-btn-down.png)) to show the options. If you created a group, the new dashboard appears below the group in the list.
+    * The name of your new dashboard appears in the upper-left corner. Click the down arrow (![Down arrow icon](../../assets/magento-bi-btn-down.png)) to show the options. If you created a group, the new dashboard appears below the group in the list.
 
 ### Add a report
 

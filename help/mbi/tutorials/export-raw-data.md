@@ -21,7 +21,7 @@ This tutorial covers the following:
 
 There are two ways that you can export raw data in [!DNL Commerce Intelligence]:
 
-1. at the chart level 
+1. at the chart level
 1. at the table level
 
 ### Exporting at the Table Level in your [!UICONTROL Manage Data] Tab
@@ -55,7 +55,7 @@ If you want to export the table from [!UICONTROL Manage Data] tab, you need [Adm
 
 Look at the entire process at the chart level.
 
-![](../assets/Chart-level_export.gif)
+![Animated demonstration of exporting raw data from a chart](../assets/Chart-level_export.gif)
 
 ## Step 2: Downloading the Export {#download}
 
@@ -63,7 +63,7 @@ The export will begin processing immediately after completing your selections in
 
 To check if your export is ready, click **[!UICONTROL Raw Data Exports]** in the top-right corner of the screen. Click **[!UICONTROL Download]** to download a zipped `.csv` file of your export.
 
-![](../assets/Downloading_export.gif)
+![Animated demonstration of downloading an exported CSV file](../assets/Downloading_export.gif)
 
 ## Step 3: Accessing Historical Exports {#historical}
 

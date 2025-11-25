@@ -9,7 +9,7 @@ feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce 
 
 Imagine you are in the `Report Builder` building a `Revenue by State` report. Everything is going well until you try to add a `billing state` grouping to your report and you see this:
 
-![](../../assets/Messy_State_Segments.png)
+![Chart showing messy state segments with inconsistent naming](../../assets/Messy_State_Segments.png)
 
 ## How could this happen?
 
@@ -39,7 +39,7 @@ In the first column, enter the values stored in your database with **only one va
 
 In the second column, enter what these values **should be**. Continuing with the billing state example, if you want `pa`, `PA`, `Pennsylvania`, and `pennsylvania` to simply be `PA`, you would enter `PA` in this column for each input value.
 
-![](../../assets/Mapping_table_examples.jpg)
+![Example mapping table showing original values and standardized values](../../assets/Mapping_table_examples.jpg)
 
 ## What do I need to do in [!DNL Commerce Intelligence] to use it? {#use}
 
@@ -60,7 +60,7 @@ To create the `joined` column, navigate to the table to which the field will be 
    * On the `One` side, select the `mapping` table and the `Primary key` column. In this case, you would select the `state_input` column from the `mapping_state` table.
    * Here is a look at what the path looks like:
 
-      ![](../../assets/State_Mapping_Path.png)
+      ![Data Warehouse Manager showing state mapping calculation path](../../assets/State_Mapping_Path.png)
 
 1. When finished, Click **[!UICONTROL Save]** to create the path.
 1. The path may not populate immediately after saving - if this happens, click the `Path` box and select the path you created.
@@ -70,7 +70,7 @@ To create the `joined` column, navigate to the table to which the field will be 
 
 After an update cycle completes, you will be able to use your new joined column to properly segment your data instead of the messy column from your database. Look at your grouping options now - no more stress mess:
 
-![](../../assets/Clean_State_Segments.png)
+![Chart showing clean state segments after standardization](../../assets/Clean_State_Segments.png)
 
 Mapping tables are handy for any time that you want to clean up some potentially messy data in your Data Warehouse. However, mapping tables can also be used for some other cool use cases, like [replicating your [!DNL Google Analytics channels] in [!DNL Commerce Intelligence]](../data-warehouse-mgr/rep-google-analytics-channels.md).
 

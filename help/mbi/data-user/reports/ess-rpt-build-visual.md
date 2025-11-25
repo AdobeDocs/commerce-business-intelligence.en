@@ -57,7 +57,7 @@ The following example shows how to create a simple report, group the data by an 
 
         ![Group by Table Data](../../assets/magento-bi-report-builder-group-by-table-data.png)
 
-    * Click the Transpose (![](../../assets/magento-bi-btn-transpose.png)) control in the upper-right corner of the table to change the orientation of the data.
+    * Click the Transpose (![Transpose icon](../../assets/magento-bi-btn-transpose.png)) control in the upper-right corner of the table to change the orientation of the data.
 
         The axis of the data is flipped, and the table now has a column for each coupon code, and a row for each month. You might find this orientation easier to read.
 
@@ -89,14 +89,14 @@ The following example shows how to create a simple report, group the data by an 
 
       | | |
       |-----|-----|
-      | ![](../../assets/magento-bi-btn-chart-line.png) | Line graph |
-      | ![](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontal Bar |
-      | ![](../../assets/magento-bi-btn-chart-horz-stacked-bar.png) | Horizontal Stacked Bar |
-      | ![](../../assets/magento-bi-btn-chart-vert-bar.png) | Vertical Bar|
-      | ![](../../assets/magento-bi-btn-chart-vert-stacked-bar.png) | Vertical Stacked Bar|
-      | ![](../../assets/magento-bi-btn-chart-pie.png) | Pie|
-      | ![](../../assets/magento-bi-btn-chart-area.png) | Area|
-      | ![](../../assets/magento-bi-btn-chart-funnel.png) | Funnel|
+      | ![Line graph icon](../../assets/magento-bi-btn-chart-line.png) | Line graph |
+      | ![Horizontal bar icon](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontal Bar |
+      | ![Horizontal stacked bar icon](../../assets/magento-bi-btn-chart-horz-stacked-bar.png) | Horizontal Stacked Bar |
+      | ![Vertical bar icon](../../assets/magento-bi-btn-chart-vert-bar.png) | Vertical Bar|
+      | ![Vertical stacked bar icon](../../assets/magento-bi-btn-chart-vert-stacked-bar.png) | Vertical Stacked Bar|
+      | ![Pie chart icon](../../assets/magento-bi-btn-chart-pie.png) | Pie|
+      | ![Area chart icon](../../assets/magento-bi-btn-chart-area.png) | Area|
+      | ![Funnel chart icon](../../assets/magento-bi-btn-chart-funnel.png) | Funnel|
 
       {style="table-layout:auto"}
 

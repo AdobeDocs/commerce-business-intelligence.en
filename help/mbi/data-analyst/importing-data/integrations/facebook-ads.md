@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/facebook-ads-logo.png)
+![Facebook Ads logo](../../../assets/facebook-ads-logo.png)
 
 You did your research, you created your ads, you launched your campaign on [!DNL Facebook]. Now it is time to analyze your ad spend data and see if your money is being spent effectively. Using your ad spend data, you can [measure campaign ROI by marrying your advertising cost and the customer lifetime value (CLV)](../../../data-analyst/analysis/roi-ad-camp.md) of users acquired from your campaigns.
 
@@ -32,7 +32,7 @@ Connecting your [!DNL Facebook Ad] data to [!DNL Commerce Intelligence] is a sim
 
 After clicking **[!DNL Facebook Authorize]**, a small pop-up window will display:
 
- ![](../../../assets/Facebook_Access_Popup.png)
+ ![Facebook access permission dialog for Commerce Intelligence](../../../assets/Facebook_Access_Popup.png)
 
 You follow a series of steps to allow [!DNL Commerce Intelligence] to access data from your Public Profile, [!DNL Facebook Ads] and, related stats. Click **[!UICONTROL OK]** on these steps to continue.
 
@@ -40,7 +40,7 @@ You follow a series of steps to allow [!DNL Commerce Intelligence] to access dat
 
 1. After authentication is completed, you will be prompted to select the [!DNL Facebook Ads] Accounts you want to pull data from. Select the desired accounts by clicking the checkbox in the `Connect` column.
 
-     ![](../../../assets/Facebook_Ad_Accounts.png)
+     ![Facebook Ad Accounts selection interface](../../../assets/Facebook_Ad_Accounts.png)
 
 1. Click **[!UICONTROL Save Connections]**.
 

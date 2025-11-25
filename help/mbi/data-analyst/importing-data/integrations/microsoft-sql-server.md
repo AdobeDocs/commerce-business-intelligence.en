@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/MicrosoftSQLServer-logo.png)
+![Microsoft SQL Server logo](../../../assets/MicrosoftSQLServer-logo.png)
 
 This topic explains how to connect your [!DNL Microsoft SQL] database to [!DNL Commerce Intelligence] in a four-step process. This process requires some technical expertise related to server connections and SQL, and may require support from developers on your team.
 
@@ -35,7 +35,7 @@ The best way to do this is for us to connect to your database server over TCP/IP
 
 1. Input the server IP address, username, and password in [!DNL Commerce Intelligence] under **[!UICONTROL Manage Data** > **Connections]**.
 
-    ![](../../../assets/manage-data-connections.png)
+    ![Manage Data connections page showing database integrations](../../../assets/manage-data-connections.png)
 
 1. Click **[!UICONTROL Add a Data Source]**.
 

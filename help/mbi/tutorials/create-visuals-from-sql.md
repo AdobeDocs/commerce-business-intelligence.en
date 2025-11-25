@@ -17,7 +17,7 @@ Before you begin this tutorial, refer to the following terminology used in the `
 
 - `Series`: The column that you want to measure is referred to as a Series in the SQL Report Builder. Common examples are `revenue`, `items sold`, and `marketing spend`. At least one column must be set as a `Series` to create a visualization.
 
-- `Category`: The column you want to use to segment your data is called a `Category` This is just like the `Group By` feature in the [`Visual Report Builder`](../data-user/reports/ess-rpt-build-visual.md). For example, if you want to segment your customers' lifetime revenue by their acquisition source, the column that contains acquisition source would be specified as the `Category`. More than one column can be set as a `Category`. 
+- `Category`: The column you want to use to segment your data is called a `Category` This is just like the `Group By` feature in the [`Visual Report Builder`](../data-user/reports/ess-rpt-build-visual.md). For example, if you want to segment your customers' lifetime revenue by their acquisition source, the column that contains acquisition source would be specified as the `Category`. More than one column can be set as a `Category`.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ As an example, consider this query that returns the monthly total number of item
 
 This query returns this table of results:
 
-![](../assets/SQL_results_table.png)
+![Table showing SQL query results with items sold by product, year, and month](../assets/SQL_results_table.png)
 
 ## Step 2: Create the Visualization
 
@@ -60,7 +60,7 @@ With these results, *how do you create the visualization?* To get started, click
 
 When a query is first executed, the report may look inscrutable because all columns in the query are plotted as a series:
 
-![](../assets/SQL_initial_report_results.png)
+![Initial SQL report with all columns plotted as series](../assets/SQL_initial_report_results.png)
 
 For this example, you want this to be a line chart that trends over time. To create it, use these settings:
 
@@ -76,13 +76,13 @@ For this example, you want this to be a line chart that trends over time. To cre
 
 Below is a quick look at how you created this visualization, from running the query to setting up the report:
 
-![](../assets/SQL_report_settings.gif)
+![Animated demonstration of configuring SQL report visualization settings](../assets/SQL_report_settings.gif)
 
 ## Step 3: Select a `Chart Type`
 
 This example uses the `Line` chart type. To use a different `chart type`, click the icons above the chart options section to change it:
 
-![](../assets/Chart_types.png)
+![Available chart type icons including line, bar, area, and other visualization options](../assets/Chart_types.png)
 
 ## Step 4: Save the Visualization
 

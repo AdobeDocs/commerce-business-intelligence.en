@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/google-analytics-logo.png)
+![Google Analytics logo](../../../assets/google-analytics-logo.png)
 
 [!DNL Google Analytics] is the most widely used web analytics service on the internet. Implementing [!DNL Google Analytics] on your website allows you to track how visitors use your site, what content is attractive, where visitors exit, and more. Analyzing these metrics in [!DNL Commerce Intelligence], alongside other pieces of data, improves your site's overall health and usability.
 
@@ -27,7 +27,7 @@ Get started by entering your [!DNL Google Analytics] credentials into [!DNL Comm
 
 1. A list of profile IDs display. Check the profiles that you want to connect to [!DNL Commerce Intelligence]. If you have multiple profiles and need some help identifying which is which, refer to the Connecting Multiple [!DNL Google Analytics] profiles section below.
 
-     ![](../../../assets/list-profile-id.png)<!--{: width="600px"}-->
+     ![Google Analytics Admin page showing profile ID in URL](../../../assets/list-profile-id.png)<!--{: width="600px"}-->
 
 1. Changes are saved automatically, so click **Back to Connections** when you are done.
 

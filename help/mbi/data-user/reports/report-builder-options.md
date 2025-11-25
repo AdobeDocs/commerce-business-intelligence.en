@@ -47,7 +47,7 @@ Sometimes, the structure of your data might make the [!DNL SQL Report Builder] a
 
 Say that a single product is considered a part of multiple product categories, and you would like to view the revenue associated with each category of each product. Trying to create this relationship using the DWM can be tedious and difficult, but writing a [!DNL SQL] query may be a bit more straightforward:
 
-![](../../assets/When_should_I_use_the_RB_2.png)
+![SQL query showing revenue by product category with one-to-many relationships](../../assets/When_should_I_use_the_RB_2.png)
 
 ## When should I use the traditional Report Builder? {#whentraditionalrb}
 

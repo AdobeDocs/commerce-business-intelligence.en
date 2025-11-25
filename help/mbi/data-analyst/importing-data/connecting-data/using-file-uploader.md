@@ -99,11 +99,11 @@ Now that your spreadsheet is correctly formatted and [!DNL Commerce Intelligence
 
 If you need a visual, look at the whole process:
 
-![](../../../assets/fileupload.gif)
+![Animated demonstration of file upload process showing data being added](../../../assets/fileupload.gif)
 
 Uploaded tables display under the **File Uploads** section of the table list (in both the All Tables and Synced Tables options) in the Data Warehouse Manager:
 
-![](../../../assets/upload-tables.png)
+![Upload tables interface showing available tables for data import](../../../assets/upload-tables.png)
 
 ## Updating or appending data to an existing table {#appending}
 

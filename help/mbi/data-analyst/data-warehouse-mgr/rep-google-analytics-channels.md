@@ -40,7 +40,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
 1. **Enable your[!DNL Google ECommerce]integration**
 
-   [When enabled](../importing-data/integrations/google-ecommerce.md), make sure to [sync](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) the **medium** and **source** fields in your Data Warehouse. After this is completed, medium and source acquisition data will be brought into your Data Warehouse.
+   [When enabled](../importing-data/integrations/google-ecommerce.md), make sure to [sync](tour-dwm.md#syncing) the **medium** and **source** fields in your Data Warehouse. After this is completed, medium and source acquisition data will be brought into your Data Warehouse.
 
 1. **Upload a mapping of Google's channel groupings**
 
@@ -50,7 +50,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
    Bring it into your Data Warehouse as a [File Upload](../importing-data/connecting-data/using-file-uploader.md).
 
-   ![](../../assets/Setting_Primary_Keys.png)
+   ![Data Warehouse Manager interface showing primary key settings](../../assets/Setting_Primary_Keys.png)
 
 1. **Establish a relationship between[!DNL Google ECommerce]and Mappings File Upload**
 

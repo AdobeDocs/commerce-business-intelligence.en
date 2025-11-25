@@ -9,7 +9,7 @@ feature: Data Warehouse Manager, Reports, Dashboards
 
 This topic demonstrates how to set up a dashboard that provides a detailed analysis of your store's returns.
 
-![](../../assets/detailed-returns-dboard.png)
+![Detailed returns dashboard showing return rates and reasons](../../assets/detailed-returns-dboard.png)
 
 Before getting started, you must be an [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html) customer and should make sure that your company is using the `enterprise\_rma` table for returns.
 

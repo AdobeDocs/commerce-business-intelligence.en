@@ -39,7 +39,7 @@ Now that you are in the `Report Builder`, add the metric that you want to perfor
 
 **Toggle the Metric View to `Cohort`**
 
-![](../../assets/visual-report-builder-cohort-toggle.png)
+![Visual Report Builder showing cohort analysis toggle option](../../assets/visual-report-builder-cohort-toggle.png)
 
 This opens up a new window to configure the details of the `Cohort` Report.
 
@@ -75,7 +75,7 @@ This feature allows you to set the time range of data that you view for the sele
 
 The interval for this value changes with whatever you selected in the `cohort time period` and the value is set to `12` by default; the value does not change unless you click on the calendar icon to edit it.
 
-![](../../assets/cohort-time-range.png)
+![Cohort time range selector showing date options](../../assets/cohort-time-range.png)
 
 #### Other notes
 
@@ -97,7 +97,7 @@ Below are instructions specific to the legacy version of the `Cohort Report Buil
 
 #### How do I create my own `cohort` analysis? {#create}
 
-![](../../assets/create-cohort-analysis.png)
+![Create cohort analysis dialog with configuration options](../../assets/create-cohort-analysis.png)
 
 `Cohort` analysis in action! Here, you can see revenue growing over time on a cumulative and per-user basis.
 
@@ -147,7 +147,7 @@ Under `duration`, you can define the chart's X-axis settings. That is, how many 
 
 If you opted to group users by a `cohort date` that has been joined from another table, you may see a `counting members in the … table` option.
 
-![](../../assets/Cohort_Counting_Members_option.png)
+![Cohort counting members option showing independent vs cumulative modes](../../assets/Cohort_Counting_Members_option.png)
 
 Look at an example to understand this setting. Suppose you built a report cohorting a `Revenue` metric by `Customer's registration date`. You also wanted to use the perspective `Average value per cohort member` to see the revenue per buyer over time. To find the average value per buyer, you need to decide on the number of buyers to divide by. Is it the number of registered customers in your `customers` table, or is it the number of distinct buyers in your `orders table` for the same period?
 
@@ -161,7 +161,7 @@ Just above the report visualization is a dropdown of `perspective` settings.
 
 See [Perspectives](#perspectives).
 
-![](../../assets/Cohort_Perspective_Menu.png)
+![Cohort perspective menu showing different view options](../../assets/Cohort_Perspective_Menu.png)
 
 ## Examples of cohort analysis {#examples}
 

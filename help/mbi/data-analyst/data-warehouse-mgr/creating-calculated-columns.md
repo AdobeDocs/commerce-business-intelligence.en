@@ -43,7 +43,7 @@ Your new column appears in the current table with a `Pending` status. After the 
 
 If you are having trouble remembering what all the inputs are when creating a calculated column, try keeping this reference map handy when you are building:
 
-![](../../assets/Calculated_Columns_Example.png)
+![Example calculated column configuration in Data Warehouse Manager](../../assets/Calculated_Columns_Example.png)
 
 ## Related documentation
 

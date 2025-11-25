@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/Mixpanel_logo.png)
+![Mixpanel logo](../../../assets/Mixpanel_logo.png)
 
 With [!DNL Mixpanel], you can analyze how users navigate and use your websites and apps. Taking a close look at user behavior data leads to smarter design and development decisions, meaning a better product overall. Connecting [!DNL Mixpanel] to [!DNL Commerce Intelligence] lets you analyze how your users behave and how that behavior translates into revenue.
 

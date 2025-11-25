@@ -13,7 +13,7 @@ Want to know who your most valuable customers are? What your most valuable marke
 
 This topic covers critical segments that are often recommended to customers. It also goes into detail on which questions that these segments can help you answer. Technically, segments are data columns in your database. In [!DNL Adobe Commerce Intelligence], they are referred to as dimensions.
 
-![](../../mbi/assets/mbi-critical-segments.png)
+![Dashboard showing critical customer segments and filters](../../mbi/assets/mbi-critical-segments.png)
 
 
 ## User Segments

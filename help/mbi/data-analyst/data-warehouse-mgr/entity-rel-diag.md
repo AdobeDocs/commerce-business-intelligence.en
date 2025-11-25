@@ -33,7 +33,7 @@ One customer can place many orders. The relationship between these two tables is
 
 Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, it is defined as follows:
 
-![](../../assets/SFO___CE_path.png)
+![Entity relationship diagram showing path from sales_flat_order to customer_entity](../../assets/SFO___CE_path.png)
 
 ## `sales\_flat\_order & sales\_flat\_order\_item`
 
@@ -43,7 +43,7 @@ One order can contain many items. The relationship between these two tables is `
 
 Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) in the Data Warehouse tab. When you are ready to create the path, define the path as demonstrated below.
 
-![](../../assets/SFOI___SFO_path.png)
+![Entity relationship diagram showing path from sales_flat_order_item to sales_flat_order](../../assets/SFOI___SFO_path.png)
 
 ## `catalog\_product\_entity & sales\_flat\_order\_item`
 
@@ -53,4 +53,4 @@ One product can be purchased many items. The relationship between these two tabl
 
 Within [!DNL Commerce Intelligence], if the path between these two tables does not exist, you can [create the path](../data-warehouse-mgr/create-paths-calc-columns.md) within the Data Warehouse tab. When you are ready to create the path, define the path as demonstrated below.
 
-![](../../assets/SFOI___CPE_path.png)
+![Entity relationship diagram showing path from sales_flat_order_item to catalog_product_entity](../../assets/SFOI___CPE_path.png)

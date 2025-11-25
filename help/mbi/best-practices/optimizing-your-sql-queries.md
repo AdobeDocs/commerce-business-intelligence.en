@@ -7,7 +7,7 @@ feature: Data Integration, Data Import/Export, Data Warehouse Manager
 ---
 # Optimize your SQL queries
 
-The [!DNL SQL Report Builder] allows you to query and iterate on those queries at any given time. This is useful when you need to modify a query without having to wait for an update cycle to finish before realizing a column or report you created needs updating.
+The [!DNL SQL Report Builder] lets you run and change your queries whenever you want. This capability is helpful if you need to update a query right away, instead of waiting for an update cycle to finish before fixing a column or report.
 
 Before a query is executed, [[!DNL Commerce Intelligence] estimates its cost](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Cost considers the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds [!DNL Commerce Intelligence] limits, the query fails. For querying your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md), which ensures you are writing the most streamlined queries possible, Adobe recommends the following.
 
@@ -19,7 +19,7 @@ For this reason, Adobe recommends you avoid using `SELECT *` wherever possible a
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Select_all_1.png) | ![](../../mbi/assets/Select_all_2.png) |
+| ![SQL query using SELECT asterisk](../../mbi/assets/Select_all_1.png) | ![SQL query selecting specific columns](../../mbi/assets/Select_all_2.png) |
 
 {style="table-layout:auto"}
 
@@ -33,7 +33,7 @@ Look at how you can rewrite a FULL OUTER JOIN query:
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Full_Outer_Join_1.png) | ![](../../mbi/assets/Full_Outer_Join_2.png) |
+| ![SQL query with full outer join](../../mbi/assets/Full_Outer_Join_1.png) | ![SQL query with optimized join](../../mbi/assets/Full_Outer_Join_2.png) |
 
 {style="table-layout:auto"}
 
@@ -45,7 +45,7 @@ While you can include multiple joins in your query, remember that it may drive t
 
 ## Using Filters
 
-Use filters whenever possible. `WHERE` and `HAVING` clauses filter your results and give you only the data you really want.
+Use filters whenever possible. The clauses `WHERE` and `HAVING` filter your results and give you only the data you really want.
 
 ## Using Filters in JOIN Clauses
 
@@ -53,7 +53,7 @@ If you are using a filter when performing a join, be sure to apply it to both ta
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Join_filters_1.png) | ![](../../mbi/assets/Join_filters_2.png) |
+| ![SQL query with WHERE clause filter](../../mbi/assets/Join_filters_1.png) | ![SQL query with ON clause filter](../../mbi/assets/Join_filters_2.png) |
 
 {style="table-layout:auto"}
 
@@ -67,19 +67,19 @@ Comparison operators (>, <, =, and so on) are the least expensive, followed by [
 
 Using `EXISTS` versus `IN` depends on the type of results that you are trying to return. If you are only interested in a single value, use the `EXISTS` clause instead of `IN`. `IN` is used with lists of comma-separated values, which increases the computational cost of the query.
 
-When `IN` queries are run, the system must first process the subquery (the `IN` statement), then the entire query based on the relationship specified in the `IN` statement. `EXISTS` is far more efficient because the query does not have to be run through multiple times - a true/false value is returned while checking the relationship specified in the query.
+When `IN` queries are run, the system must first process the subquery (the `IN` statement), then the entire query based on the relationship specified in the `IN` statement. The `EXISTS` query is far more efficient because the query does not have to be run multiple times - a true/false value is returned while checking the relationship specified in the query.
 
 To put it simply: the system does not have to process as much when using `EXISTS`.
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Exists_1.png) | ![](../../mbi/assets/Exists_2.png) |
+| ![SQL query using LEFT JOIN with NULL check](../../mbi/assets/Exists_1.png) | ![SQL query using EXISTS clause](../../mbi/assets/Exists_2.png) |
 
 {style="table-layout:auto"}
 
 ## Using ORDER BY
 
-`ORDER BY` is an expensive function in SQL and can significantly raise the cost of a query. If you receive an error message saying that the EXPLAIN cost of your query is too high, try eliminating any `ORDER BY`s from your query unless required.
+The `ORDER BY` function is expensive in SQL and can significantly raise the cost of a query. If you receive an error message saying that the EXPLAIN cost of your query is too high, try eliminating any `ORDER BY`s from your query unless required.
 
 This is not to say that `ORDER BY` cannot be used - just that it should only be used when necessary.
 
@@ -89,7 +89,7 @@ There may be a few situations where this approach does not conform with what you
 
 | **Instead of this...** | **Try this!** |
 |-----|-----|
-| ![](../../mbi/assets/Group_by_2.png) | ![](../../mbi/assets/Group_by_1.png) |
+| ![SQL query with GROUP BY before filter](../../mbi/assets/Group_by_2.png) | ![SQL query with filter before GROUP BY](../../mbi/assets/Group_by_1.png) |
 
 {style="table-layout:auto"}
 

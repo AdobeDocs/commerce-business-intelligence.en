@@ -9,7 +9,7 @@ feature: Data Warehouse Manager, Reports
 
 This topic demonstrates how to calculate a **churn rate** for your **commerce customers**. Unlike SaaS or traditional subscription companies, commerce customers typically do not have a concrete **"churn event"** to show you that they should no longer count toward your active customers. For this reason, the below instructions allow you to define a customer as "churned" based on a determined amount of time passing since their last order.
 
-![](../../assets/Churn_rate_image.png)
+![Churn rate visualization showing customer retention over time](../../assets/Churn_rate_image.png)
 
 Many customers want assistance in starting to conceptualize what **timeframe** they should use based on their data. If you want to use historical customer behavior to define this **churn timeframe**, you may want to familiarize yourself with the [defining churn](../analysis/define-cust-churn.md) topic. Then, you can use the results in the formula for churn rate in the below instructions.
 
@@ -27,7 +27,7 @@ Columns to create
 
 * **`Seconds since customer's last order date`**
   * Select a [!UICONTROL definition]: `Age`
-  * Select [!UICONTROL column]: `Customer's last order date` 
+  * Select [!UICONTROL column]: `Customer's last order date`
 
 >[!NOTE]
 >
