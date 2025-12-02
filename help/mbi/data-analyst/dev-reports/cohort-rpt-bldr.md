@@ -13,8 +13,6 @@ Have you ever wanted to study how different subsets of your users behave over ti
 
 `Cohort` analysis can be broadly defined as the analysis of user groups that share similar characteristics over their life cycles. It allows you to identify behavioral trends across different user groups.
 
-For an in-depth primer on `cohort` analysis, review [this page](https://www.cohortanalysis.com/).
-
 In your [!DNL Commerce Intelligence] dashboard, it is easy to create user `cohorts` based on a `cohort` date and a metric in your account.
 
 ## Well, why is cohort analysis important? {#important}
