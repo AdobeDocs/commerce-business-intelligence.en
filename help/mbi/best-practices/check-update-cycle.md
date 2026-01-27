@@ -36,3 +36,34 @@ If an update is not in progress, you see a link to force an update to start.
 >[!NOTE]
 >
 >If you have blackout hours (time when you do not want [!DNL Commerce Intelligence] to update your data) set, forcing an update starts an update cycle that does not respect the limitations of those blackout hours.
+
+
+## Check the update cycle status using the API
+
+You can retrieve the most recent completed update cycle using the **Update Cycle Status API**.
+
+**Request**
+
+```bash
+curl -sS -H "X-RJM-API-Key: <EXPORT-API-KEY>" \
+  https://api.rjmetrics.com/0.1/client/<CLIENT_ID>/fullupdatestatus
+```
+
+**Response (example)**
+
+```json
+{
+  "clientId": 194,
+  "lastCompletedUpdateJob": {
+    "id": 13554,
+    "type": { "id": 2, "name": "Full Update" },
+    "start": "2025-12-09 03:26:25",
+    "end": "2025-12-09 03:29:03",
+    "status": { "id": 4, "name": "Completed Successfully" }
+  },
+  "lastCompletedUpdateJobWithDataSync": null,
+  "timezoneAbbreviation": "EST"
+}
+```
+
+For parameters, authentication, errors, and rate limits, see [Update Cycle Status API](https://developer.adobe.com/commerce/services/reporting/update-cycle-status-api/) in the developer documentation. 

@@ -67,3 +67,7 @@ To add an integration, click **[!UICONTROL Manage Data** > **Connections]** and 
 **Not seeing an integration you want?** Some integrations must be activated for them to be visible in your account. If you are looking for something like [!DNL Facebook] but it is not listed, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 **If you see an error status for an integration**, check out the [Troubleshooting section](https://support.magento.com/hc/en-us/sections/360003078151) for help.
+
+## Monitor update health (optional)
+
+After you connect sources, you may want to automate a basic health check to confirm that full updates are completing. Use the [Update Cycle Status API](https://developer.adobe.com/commerce/services/reporting/update-cycle-status-api/) in the developer documentation to fetch the most recent completed update cycle for your client and display it in internal dashboards or alerts.
