@@ -18,7 +18,13 @@ feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce 
 
 Chart values can change throughout the day due to new data being synced to your Data Warehouse. Also, values for existing data columns can change due to [rechecks](../data-warehouse-mgr/cfg-data-rechecks.md). A recheck is a process that looks for changed values in data columns, such as an order status moving from `open` to `shipped`.
 
-There are a few different ways [to check the status of your update cycle](../../best-practices/check-update-cycle.md), depending on the user's permissions settings.
+There are a few different ways [to check the status of your update cycle](../../best-practices/check-update-cycle.md), depending on the user's permissions settings:
+
+* **[!UICONTROL Read-Only] and [!UICONTROL Standard] Users** - Can hover over the icon at the top right of the page to see when the last data point was pulled.
+* **[!UICONTROL Admin] Users** - Can view the last data point and account integrations status icon. For more detail, navigate to **[!UICONTROL Manage Data]** > **[!UICONTROL Integrations]** to see the current update status and the time of the last completed update.
+* **API Method** - Can retrieve the most recent completed update cycle using the Update Cycle Status API.
+
+For complete details on checking your update cycle status, see [Checking the Update Cycle Status](../../best-practices/check-update-cycle.md).
 
 ## What is the difference between a regular and forced update? {#regularforcedupdates}
 
@@ -30,7 +36,7 @@ Numerous factors can add to an already lengthy update time. Certain [replication
 
 ## Can I be notified when an update cycle completes? {#notifyupdate}
 
-If an update is in progress, there is a link on the `Connections` page that you can use to request an email notification once the cycle completes.
+If an update is in progress, there is a link on the **[!UICONTROL Manage Data]** > **[!UICONTROL Integrations]** page that you can use to request an email notification once the cycle completes. If an update is not in progress, you see a link to force an update to start instead.
 
 ## Why is[!DNL Google ECommerce]data different from my database? {#ecommdatabase}
 
