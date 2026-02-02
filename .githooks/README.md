@@ -4,7 +4,7 @@ This directory contains pre-commit hooks that automatically optimize images befo
 
 ## What the hooks do
 
-- **Automatically detect** staged image files (PNG, JPG, JPEG, GIF, SVG)
+- **Automatically detect** staged image files (PNG, JPG, JPEG, GIF)
 - **Run `image_optim`** to compress and optimize images
 - **Re-stage optimized images** automatically
 - **Ensure all committed images** are properly optimized
@@ -78,11 +78,11 @@ Image optimization complete!
 ## Image guidelines
 
 - **PNG**: Use for screenshots and UI elements (will be optimized automatically)
-- **SVG**: Use for icons and simple graphics (optimization disabled by default)
+- **SVG**: Use for icons and simple graphics (not auto-optimized by the pre-commit hook)
 - **JPEG**: Use for photographs (will be optimized automatically)
 - **GIF**: Use for animations (will be optimized automatically)
 
-The pre-commit hooks will automatically optimize all images on commit.
+The pre-commit hooks will automatically optimize PNG, JPEG, and GIF images on commit.
 
 ## Manual optimization
 
@@ -131,10 +131,13 @@ The hooks use the configuration file `_jekyll/.image_optim.yml` to customize opt
 
 ## Supported image formats
 
+The pre-commit hook automatically processes:
+
 - **PNG** (`.png`) - Lossless and lossy compression
 - **JPEG** (`.jpg`, `.jpeg`) - Lossy compression with metadata cleanup
 - **GIF** (`.gif`) - Animation and static optimization
-- **SVG** (`.svg`) - Vector optimization (disabled by default)
+
+**Note**: SVG optimization is disabled by default (can break complex vector graphics and animations). SVG files are not automatically processed by the pre-commit hook.
 
 ## Best practices
 
