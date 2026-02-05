@@ -66,4 +66,4 @@ curl -sS -H "X-RJM-API-Key: <EXPORT-API-KEY>" \
 }
 ```
 
-For parameters, authentication, errors, and rate limits, see [Update Cycle Status API](https://developer.adobe.com/commerce/services/reporting/update-cycle-status-api/) in the developer documentation. 
+For parameters, authentication, errors, and rate limits, see [Update Cycle Status API](https://developer.adobe.com/commerce/services/reporting/update-cycle/) in the developer documentation. 
