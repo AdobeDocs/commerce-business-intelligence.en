@@ -1,3 +1,10 @@
 ---
 repo: AdobeDocs/commerce-business-intelligence.en
 url: https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview
+exclude:
+  - Rakefile
+  - tmp
+  - Gemfile
+  - Gemfile.lock
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
