@@ -2,7 +2,7 @@
 title: Use File Uploader
 description: Learn how to put all of your data into a single Data Warehouse.
 exl-id: 28db0e78-0222-431d-bbb9-6ef133686603
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Use File Uploader

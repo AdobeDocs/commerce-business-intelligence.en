@@ -2,7 +2,7 @@
 title: Access your Commerce Intelligence Account
 description: Learn about signing into your Commerce Intelligence account.
 exl-id: 3ee36e0e-f447-4be3-afc8-ccc6d3aa4f20
-role: Admin, Data Architect, Data Engineer, Leader, User
+role: Admin, Developer, Leader, User
 feature: Accounts
 ---
 # Access your activated [!DNL Adobe Commerce Intelligence] account

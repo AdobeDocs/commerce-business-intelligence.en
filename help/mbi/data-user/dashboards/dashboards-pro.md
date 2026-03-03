@@ -2,7 +2,7 @@
 title: Out-of-the-Box Dashboards
 description: Learn about out-of-the-box dashboards to provide insight into your business.
 exl-id: fe61c92e-de87-4317-96d7-01d2a9846bf9
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Out-of-the-box dashboards

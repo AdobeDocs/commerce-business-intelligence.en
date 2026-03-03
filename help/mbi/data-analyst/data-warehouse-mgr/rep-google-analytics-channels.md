@@ -2,7 +2,7 @@
 title: Replicating Google Analytics channels using acquisition sources
 description: Learn how to replicate Google Analytics channels using acquisition sources.
 exl-id: e7248fe4-94db-4cdf-8f58-1f65061a207d
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # [!DNL Google Analytics] using Acquisition Sources
@@ -26,11 +26,11 @@ By default, [!DNL Google] sets up eight different channels. The rules that deter
 | Direct | Anyone who comes directly into your site. | Source = `Direct`<br>AND Medium = `(not set); OR Medium = (none)` |
 | Organic Search | Traffic that has been organically ranked in unpaid search engines. | Medium = `organic` |
 | Referral | Traffic that comes in from an external link that is not Organic Search or from websites that are not social networks. | Medium = `referral`|
-| Paid Search | Traffic that has a UTM Tracking code where the medium is either "cpc", "ppc", or "paidsearch" AND is an ad distribution network that does not match "Content."| Medium = `^(cpc|ppc|paidsearch)$`<br>AND Ad Distribution Network ≠ `Content` |
-| Social | Referral traffic that comes from any of approximately 400 social networks and are not tagged as ads. | Social Source referral = `Yes`<br>OR Medium = `^(social|social-network|social-media|sm|social network|social media)$`|
+| Paid Search | Traffic that has a UTM Tracking code where the medium is either "cpc", "ppc", or "paidsearch" AND is an ad distribution network that does not match "Content." | Medium = `^(cpc`\|`ppc`\|`paidsearch)$`<br>AND Ad Distribution Network ≠ `Content` |
+| Social | Referral traffic that comes from any of approximately 400 social networks and are not tagged as ads. | Social Source referral = `Yes`<br>OR Medium = `^(social`\|`social-network`\|`social-media`\|`sm`\|`social network`\|`social media)$` |
 | Email | Traffic from sessions that are tagged with a medium of "email." | UTM Tracking code of Medium = `email` |
-| Display | Traffic that has a UTM Tracking code where the medium is either display or cpm. Also includes AdWords interaction where the ad distribution network matches "Content"                                 | Medium = `^(display|cpm|banner)$`<br>OR Ad Distribution Network = `Content`<br>AND Ad Format ≠ `Text` |
-| Other | Sessions from other advertising channels (not including Paid Search) that are tagged with a medium of "cpc", "ppc", "cpm, "cpv", "cpa", "cpp", "affiliate".| Medium = `^(cpv|cpa|cpp|content-text)$`|
+| Display | Traffic that has a UTM Tracking code where the medium is either display or cpm. Also includes AdWords interaction where the ad distribution network matches "Content" | Medium = `^(display`\|`cpm`\|`banner)$`<br>OR Ad Distribution Network = `Content`<br>AND Ad Format ≠ `Text` |
+| Other | Sessions from other advertising channels (not including Paid Search) that are tagged with a medium of "cpc", "ppc", "cpm, "cpv", "cpa", "cpp", "affiliate". | Medium = `^(cpv`\|`cpa`\|`cpp`\|`content-text)$` |
 
 {style="table-layout:auto"}
 

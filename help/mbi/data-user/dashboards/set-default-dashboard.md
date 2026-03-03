@@ -2,7 +2,7 @@
 title: Set a Default Dashboard
 description: Learn how to set a default dashboard.
 exl-id: a3fc64e3-b527-4c2c-848d-c0962cd20ff3
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Set a default dashboard

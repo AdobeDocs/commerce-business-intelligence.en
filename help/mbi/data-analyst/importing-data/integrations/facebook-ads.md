@@ -2,7 +2,7 @@
 title: Connect Facebook Ads
 description: Learn to analyze your ad spend data and see if your money is being spent effectively.
 exl-id: 219a868b-f17c-4299-9e29-94db9156c9b6
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Facebook Ads]

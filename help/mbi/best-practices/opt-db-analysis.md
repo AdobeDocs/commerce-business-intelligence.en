@@ -2,7 +2,7 @@
 title: Optimizing Your Database for Analysis
 description: Learn how to optimize your database for analysis.
 exl-id: e73e1a1e-c933-476d-97bc-bd8f52bb2fa1
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Business Performance, Data Integration, Data Import/Export, Data Warehouse Manager
 ---
 # Optimize your database

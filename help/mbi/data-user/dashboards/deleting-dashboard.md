@@ -2,7 +2,7 @@
 title: Delete a Dashboard
 description: Learn how to delete a dashboard.
 exl-id: 27482dea-0593-46d6-8310-ad505ff9436a
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Delete a dashboard

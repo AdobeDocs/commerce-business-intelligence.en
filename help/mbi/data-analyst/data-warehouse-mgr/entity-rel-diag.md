@@ -2,7 +2,7 @@
 title: Entity Relationship Diagrams
 description: Learn about a few ER diagrams to help you visualize the relationship between a handful of common Commerce database tables.
 exl-id: de7d419f-efbe-4d0c-95a8-155a12aa93f3
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Entity Relationship Diagram
