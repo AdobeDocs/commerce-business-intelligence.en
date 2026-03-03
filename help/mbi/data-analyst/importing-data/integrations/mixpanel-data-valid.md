@@ -24,3 +24,4 @@ When [!DNL Adobe Commerce Intelligence] first connects to your [!DNL Mixpanel] d
     ![Mixpanel export to CSV option in menu](../../../assets/export-csv-mixpanel.png)
 
 1. Send the `.csv` file to the account manager or analyst that you are working with on this validation process.
+
