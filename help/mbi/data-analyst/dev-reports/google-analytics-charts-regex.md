@@ -2,7 +2,7 @@
 title: Create Google Analytics charts
 description: Learn how to create charts from your Google Analytics data.
 exl-id: ee80fd0d-e3b1-4331-853d-3c2c11931d3f
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
 ---
 # Create [!DNL Google Analytics] charts

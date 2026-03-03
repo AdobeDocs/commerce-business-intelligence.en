@@ -2,7 +2,7 @@
 title: Connect Adobe Commerce
 description: Learn how to find your most valuable acquisition sources and channels.
 exl-id: c20e7673-9aa3-4e5e-979c-6adaa4164793
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Connect [!DNL Adobe Commerce]

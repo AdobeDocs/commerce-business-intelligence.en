@@ -2,7 +2,7 @@
 title: UTM Tracking in Google Analytics
 description: Learn about best practices for UTM tracking (tagging) in Google Analytics.
 exl-id: 70bfd855-3b3f-469b-99bc-deb8251904b7
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager
 ---
 # UTM Tracking

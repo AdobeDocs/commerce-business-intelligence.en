@@ -2,7 +2,7 @@
 title: Event Number Calculated Column
 description: Learn the purpose and uses of the Event Number calculated column.
 exl-id: c234621e-2e68-4e63-8b0d-7034d1b5fe1f
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 ---
 # Event Number Calculated Column

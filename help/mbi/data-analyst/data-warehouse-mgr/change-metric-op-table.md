@@ -2,7 +2,7 @@
 title: Change a metric's operational table
 description: Learn how to change the data table that a metric uses to perform its operation.
 exl-id: c7a074ca-31f4-43e5-85d9-b64dca95dc23
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 
 ---

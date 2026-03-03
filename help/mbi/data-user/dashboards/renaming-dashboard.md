@@ -2,7 +2,7 @@
 title: Renaming Dashboards
 description: Learn how to remove a chart from a dashboard.
 exl-id: 45c67f3c-4660-4bb5-ba10-55ed666525f4
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
 ---
 # Remove a chart from a dashboard

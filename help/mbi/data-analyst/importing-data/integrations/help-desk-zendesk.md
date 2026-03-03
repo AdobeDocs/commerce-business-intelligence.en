@@ -2,7 +2,7 @@
 title: Help desk reporting for Zendesk
 description: Learn about your most valued referral channels.
 exl-id: b6142ef2-2be8-401f-ac35-f86fc68d204e
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Help desk reporting for [!DNL Zendesk]

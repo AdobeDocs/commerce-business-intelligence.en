@@ -2,7 +2,7 @@
 title: Choose a report builder
 description: Learn how to choose your report builder.
 exl-id: ec4204ef-975e-45c3-b09e-fb97ffc2c497
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 ---
 # Choose a report builder

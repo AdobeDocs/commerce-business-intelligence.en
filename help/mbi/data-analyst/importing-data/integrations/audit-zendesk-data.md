@@ -2,7 +2,7 @@
 title: Audit Zendesk data
 description: Learn the steps for exporting your Zendesk data.
 exl-id: 3c8dcc72-3623-4c4e-a941-f431a97571e0
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 ---
 # Audit Zendesk data
