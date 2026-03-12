@@ -4,6 +4,23 @@ description: Learn how to set up a dashboard that helps you understand customer 
 exl-id: e353b92a-ff3b-466b-b519-4f86d054c0bc
 role: Admin, User
 feature: Data Warehouse Manager, Reports, Dashboards
+product_v2:
+  - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
+    internal-label: Commerce Intelligence
+feature_v2:
+  - id: b0c4e988-b173-423f-88d4-345071a0bce8
+    internal-label: Data Warehouse Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Expert
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Expected Lifetime Value Analysis
 

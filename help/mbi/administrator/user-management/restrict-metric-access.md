@@ -10,6 +10,12 @@ product_v2:
     internal-label: Commerce Intelligence
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: 'Admin tools and workspace '
+subfeature_v2:
+  - id: a5fafba0-d4b6-446a-93b4-ff47bde7657e
+    internal-label: 'Admin dashboard '
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
