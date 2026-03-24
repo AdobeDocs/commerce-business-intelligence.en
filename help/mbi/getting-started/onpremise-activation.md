@@ -192,10 +192,12 @@ You have now successfully connected your [!DNL Commerce] database to your [!DNL 
 
 After you complete the configuration, [sign in](../getting-started/sign-in.md) to your [!DNL Commerce Intelligence] account.
 
-<!---# Activate your [!DNL Commerce Intelligence] Account
+<!--
+# Activate your [!DNL Commerce Intelligence] Account
 
 To activate [!DNL Commerce Intelligence] for on-premise or `Cloud Pro` subscriptions, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 >[!NOTE]
 >
->Adobe no longer supports new `Cloud Starter` subscriptions.--->
+>Adobe no longer supports new `Cloud Starter` subscriptions.
+-->

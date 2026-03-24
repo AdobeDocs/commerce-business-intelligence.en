@@ -11,7 +11,7 @@ role: User
 feature-set: Commerce Intelligence
 level: Beginner, Intermediate
 topic: Commerce
-index: yes
+index: true
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 
