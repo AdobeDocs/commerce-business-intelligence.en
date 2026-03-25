@@ -7,15 +7,25 @@ exl-id: d96a075d-53ab-48d3-ba83-3ff4298a0cb7
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b6935462-7263-4ced-a703-60de6a5aeb2d
     internal-label: Administration
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 subfeature_v2:
   - id: d971c7be-3e54-4af9-807c-8d1f9f7b22df
     internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
