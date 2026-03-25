@@ -1,7 +1,7 @@
 ---
 title: Rebuild queries after update cycle?
 description: Learn what happens to your queries after the update cycle is run.
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f

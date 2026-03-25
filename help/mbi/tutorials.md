@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 description: Tutorials
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, User
 feature: Dashboards, Reports
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
