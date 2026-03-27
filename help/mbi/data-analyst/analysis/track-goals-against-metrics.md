@@ -9,7 +9,7 @@ feature: Data Warehouse Manager, Reports, Dashboards, Reports
 
 Most clients would like to track their **business goals**, but do not realize this is possible in [!DNL Adobe Commerce Intelligence]. This topic demonstrates how to set up a dashboard that will help you track your business goals against your actual data - including revenue, new registered users, and orders over time. You also learn how to compare year over year performance, all in a dashboard like this:
 
-![](../../assets/Goals-_dashboard_2.png)
+![Dashboard showing goals tracking against actual metrics performance](../../assets/Goals-_dashboard_2.png)
 
 Before getting started, you should review the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and make sure you have defined your business goals for a given period.
 
@@ -19,7 +19,7 @@ You need to first upload a file containing specific daily/monthly/quarterly targ
 
 You can use the [file uploader](../importing-data/connecting-data/using-file-uploader.md) and the image below to format your file. The most common targets that clients track in [!DNL Commerce Intelligence] include Orders, Revenue, and New registered accounts.
 
-![](../../assets/Goals-_Excel.png)
+![Excel spreadsheet template for tracking goals and metrics](../../assets/Goals-_Excel.png)
 
 ## Metrics
 

@@ -7,7 +7,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 ---
 # Connect [!DNL Salesforce]
 
-![](../../../assets/Salesforce_Logo.png)
+![Salesforce logo](../../../assets/Salesforce_Logo.png)
 
 >[!NOTE]
 >

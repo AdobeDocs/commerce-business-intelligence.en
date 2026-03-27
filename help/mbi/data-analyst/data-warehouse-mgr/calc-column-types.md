@@ -31,7 +31,7 @@ An age calculated column returns the number of seconds between the current time 
 
 The example below creates `Seconds since customer's most recent order` in the `customers` table. This can be used to construct user lists of customers who have not made purchases (sometimes referred to as churning) within `X days`.
 
-![](../../assets/age.gif)
+![Animated demonstration of creating age calculation column](../../assets/age.gif)
 
 ### Currency Converter
 
@@ -41,7 +41,7 @@ The example below creates `base\_grand\_total In AED`, converting the `base\_gra
 
 For Commerce clients, the `base\_currency\_code` field typically stores native currencies. The `Spot Time` field should match the date used in your metrics.
 
-![](../../assets/currency_converter.png)
+![Currency converter calculated column configuration](../../assets/currency_converter.png)
 
 ## One-to-many calculated columns {#onetomany}
 
@@ -53,7 +53,7 @@ A joined column relocates an attribute on the one table *to* the many table. The
 
 In the example below, the `Customer's group\_id` dimension gets joined down into the `orders` table.
 
-![](../../assets/joined_column.gif)
+![Animated demonstration of creating joined column linking tables](../../assets/joined_column.gif)
 
 ## Many-to-one calculated columns {#manytoone}
 
@@ -65,7 +65,7 @@ This type of calculated column returns the count of values on the many table *on
 
 In the example below, the dimension `Customer's lifetime number of canceled orders` is created on the `customers` table (with a filter for `orders.status`).
 
-![](../../assets/many_to_one.gif){: width="699" height="351"}
+![Animated demonstration of many-to-one column aggregation](../../assets/many_to_one.gif){: width="699" height="351"}
 
 ### Sum {#sum}
 
@@ -89,7 +89,7 @@ This type of dimension might determine, for example, if a customer ever purchase
 
 If you are having trouble remembering what all the inputs are when creating a calculated column, keep this reference map handy when you are building:
 
-![](../../assets/merged_reference_map.png)
+![Reference map showing merged calculated column configuration](../../assets/merged_reference_map.png)
 
 ## Advanced calculated columns {#advanced}
 

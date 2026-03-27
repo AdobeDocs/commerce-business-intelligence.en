@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/stripe-logo.png)
+![Stripe logo](../../../assets/stripe-logo.png)
 
 [!DNL Stripe] allows you to manage and track your business's payment and invoice data. Connecting your [!DNL Stripe] account to [!DNL Commerce Intelligence] is a simple two-step process:
 

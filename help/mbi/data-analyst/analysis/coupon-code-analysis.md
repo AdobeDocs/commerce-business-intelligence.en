@@ -9,7 +9,7 @@ feature: Data Warehouse Manager, Reports
 
 Understanding the coupon performance of your business is an interesting way to segment your orders and also better understand your customers. This topic walks you through the steps to create analyses to understand which customers you acquire by using coupons, how they perform and track general coupon usage.
 
-![](../../assets/coupon_analysis_-_analysis_library.png)<!--{: width="800" height="375"}-->
+![Coupon code analysis from analysis library showing key metrics](../../assets/coupon_analysis_-_analysis_library.png)<!--{: width="800" height="375"}-->
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
@@ -460,4 +460,4 @@ If you run into any questions while building this analysis, or simply want to en
 >
 >As of Adobe Commerce 2.4.7, customers can use the **quote_coupons** and **sales_order_coupons** tables to get insights on how customer use multiple coupons.
 
-![](../../assets/multicoupon_relationship_tables.png)
+![Table relationship diagram for multi-coupon analysis](../../assets/multicoupon_relationship_tables.png)

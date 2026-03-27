@@ -32,7 +32,7 @@ Get started.
 1. Click **[!UICONTROL [!DNL MySQL] Databases]**, located in the `Database` section.
 1. Scroll down to the `Add New User` section and create a user for [!DNL Commerce Intelligence]:
 
-     ![](../../../assets/create-mbi-mysql-user-cpanel.png)
+     ![cPanel MySQL Databases interface showing create user form](../../../assets/create-mbi-mysql-user-cpanel.png)
 
 1. Click **[!UICONTROL Create User]**.
 1. Now that you have created the user, you need to associate it to a database. Go back to the `Add New User` section - see the settings for `Add User to Database?` That is what you need.

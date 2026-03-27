@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/WooCommerce-Logo.jpg)
+![WooCommerce logo](../../../assets/WooCommerce-Logo.jpg)
 
 Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your [!DNL WooCommerce] data to [!DNL Commerce Intelligence] allow you to answer these questions and more.
 

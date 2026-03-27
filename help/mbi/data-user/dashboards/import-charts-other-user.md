@@ -15,7 +15,7 @@ First find the chart which you want to copy from the other user. All the dashboa
 
 ## Clone the chart
 
-In the shared dashboard, pick the chart that you want to copy to your own account. Click the gear (![](../../assets/gear-icon.png)) icon and then click **[!UICONTROL Save As]**.
+In the shared dashboard, pick the chart that you want to copy to your own account. Click the gear (![Gear icon](../../assets/gear-icon.png)) icon and then click **[!UICONTROL Save As]**.
 
 You are prompted to name your copy of the chart, and add it to any of your existing dashboards. If you do not select a dashboard, it is added to your list of existing charts and you can [add it later](../../data-user/dashboards/add-charts-dashboard.md).
 

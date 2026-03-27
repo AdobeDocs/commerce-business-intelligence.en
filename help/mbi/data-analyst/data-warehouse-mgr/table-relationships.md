@@ -25,13 +25,13 @@ In a `one-to-one` relationship, a record in table `B` belongs to only one record
 
 For example, in the relationship between people and driver's license numbers, a person can have only one driver's license number, and a driver's license number belongs to only person.
 
-![](../../assets/one-to-one.png)
+![Diagram showing one-to-one relationship between two entities](../../assets/one-to-one.png)
 
 ### `One-to-Many` {#onetomany}
 
 In a `one-to-many` relationship, a record in table `A` can potentially belong to several records in table `B`. Think about the relationship between `orders` and `items` - an order can contain many items, but an item belongs to a single order. In this case, the `orders` table is the one side and the `items` table is the many side.
 
-![](../../assets/one-to-many_001.png)
+![Diagram showing one-to-many relationship between orders and items](../../assets/one-to-many_001.png)
 
 ### `Many-to-Many` {#manytomany}
 
@@ -39,7 +39,7 @@ In a `many-to-many` relationship, a record in table `B` can potentially belong t
 
 Think about the relationship between **products** and **categories**: a product can belong to many categories, and a category can contain many products.
 
-![](../../assets/many-to-many.png)
+![Diagram showing many-to-many relationship between products and categories](../../assets/many-to-many.png)
 
 ## Evaluating Your Tables {#eval}
 
@@ -69,7 +69,7 @@ One given person can have only one driver's license number. One given driver's l
 
 This is a `one-to-one` relationship where each table is a one side.
 
-![](../../assets/one-to-one3.png)
+![Conceptual diagram of one-to-one relationship between person and driver's license](../../assets/one-to-one3.png)
 
 ### `One-to-Many`
 
@@ -77,7 +77,7 @@ One given order can possibly contain many items. One given item belongs to only 
 
 This is a `one-to-many` relationship where the orders table is the one side and the items table is the many side.
 
-![](../../assets/one-to-many3.png)
+![Conceptual diagram of one-to-many relationship between orders and items](../../assets/one-to-many3.png)
 
 ### `Many-to-Many`
 
@@ -85,7 +85,7 @@ One given product can possibly belong to many categories. One given category can
 
 This is a `many-to-many` relationship where each table is a many side.
 
-![](../../assets/many-to-many3.png)
+![Conceptual diagram of many-to-many relationship between products and categories](../../assets/many-to-many3.png)
 
 ### Using the Table's Schema {#schema}
 
@@ -99,7 +99,7 @@ If the tables are linked using the `primary key` of both tables, then the same u
 
 For example, a `users` table may capture most user attributes (such as name) while a supplemental `user_source` table captures user registration sources. In each table, a row represents one user.
 
-![](../../assets/one-to-one1.png)
+![Schema diagram showing one-to-one relationship using primary keys](../../assets/one-to-one1.png)
 
 ### `One-to-many`
 
@@ -109,17 +109,17 @@ For example, a `users` table may capture most user attributes (such as name) whi
 
 When tables are linked using a `Foreign key` pointing to a `primary key`, this setup describes a `one-to-many` relationship. The one side is the table containing the `primary key` and the many side is the table containing the `foreign key`.
 
-![](../../assets/one-to-many1.png)
+![Schema diagram showing one-to-many relationship using foreign key](../../assets/one-to-many1.png)
 
 ### `Many-to-many`
 
 If either of the following is true, the relationship is `many-to-many`:
 
 * `Non-primary key` columns are being used to link two tables
-    ![](../../assets/many-to-many1.png)
+    ![Schema diagram showing many-to-many relationship using non-primary keys](../../assets/many-to-many1.png)
 * Part of a composite `primary key` is used to link two tables
 
-![](../../assets/many-to-mnay2.png)
+![Schema diagram showing many-to-many relationship using composite primary key](../../assets/many-to-mnay2.png)
 
 ## Next steps
 

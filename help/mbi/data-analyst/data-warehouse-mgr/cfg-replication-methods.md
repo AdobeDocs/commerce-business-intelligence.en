@@ -112,7 +112,7 @@ Replication methods are set on a table-by-table basis. To set a replication meth
 
 Look at the whole process:
 
-![](../../assets/replication_method.gif)<!--{: width="801" height="341"}-->
+![Animated demonstration of configuring replication methods for database tables](../../assets/replication_method.gif)<!--{: width="801" height="341"}-->
 
 ## Wrapping up
 

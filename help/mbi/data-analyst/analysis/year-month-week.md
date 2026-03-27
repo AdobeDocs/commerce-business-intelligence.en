@@ -13,7 +13,7 @@ feature: Reports, Dashboards
 
 The report builder allows you to easily see trends over time and change perspective for time periods you may want to compare. This topic demonstrates how to set up a dashboard to go a level deeper to allow you to create reports for week over week, month over month and year over year analysis.
 
-![](../../assets/Wow__mom__yoy.png)
+![Dashboard showing week-over-week, month-over-month, and year-over-year comparisons](../../assets/Wow__mom__yoy.png)
 
 Before getting started, you should review explore perspectives in more detail [here](../../tutorials/using-visual-report-builder.md) and independent time options [here](../../tutorials/time-options-visual-rpt-bldr.md).
 
@@ -35,7 +35,7 @@ This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-c
   * `created_at (day of the month)`< [!UICONTROL Calculation]: **to_char(A, 'dd')**
   * `created_at (day of the week)` [!UICONTROL Calculation]: **to_char(A, 'd-Day')**
   * **`created_at (hour of the day)` [!UICONTROL Calculation]: **to_char(A, 'hh24')**
-    ![](../../assets/new-arch-create-calc.png)
+    ![Create calculated column interface in Data Warehouse Manager](../../assets/new-arch-create-calc.png)
 
 ## Metrics
 

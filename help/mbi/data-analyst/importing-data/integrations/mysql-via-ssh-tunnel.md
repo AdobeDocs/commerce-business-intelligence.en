@@ -40,7 +40,7 @@ Leave this page open throughout the tutorial - you will need it in the next sect
 
 Here's how to navigate through [!DNL Commerce Intelligence] to retrieve the key:
 
-![](../../../assets/MySQL_SSH.gif)<!--{: width="770"}-->
+![Animated demonstration of MySQL connection via SSH tunnel](../../../assets/MySQL_SSH.gif)<!--{: width="770"}-->
 
 ## Allow access to the [!DNL Commerce Intelligence] IP address {#allowlist}
 

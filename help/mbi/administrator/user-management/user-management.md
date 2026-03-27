@@ -60,7 +60,7 @@ In addition to the general permission levels, two other user designations also e
 
 `Admin` users have access to the `Billing` tab by default, but `Standard` users can also gain access if they have the `Billing` checkbox selected on their profile.
 
-![billing](../../assets/billing.png)<!--{: width="550" height="363"}-->
+![Billing page](../../assets/billing.png)<!--{: width="550" height="363"}-->
 
 ### Technical
 

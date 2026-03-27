@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/google-analytics-logo.png)
+![Google Analytics logo](../../../assets/google-analytics-logo.png)
 
 [!DNL Google Analytics] is the most widely used web analytics service on the internet. Implementing [!DNL Google Analytics] on your website allows you to track how visitors use your site, what content is attractive, where visitors exit, and more. [!DNL Google Analytics Warehoused] is a separate integration from your existing [!DNL Google Analytics] integration. It allows for better analysis due to having the [!DNL Google Analytics] data in your Data Warehouse, which is different from the live feed of the existing [!DNL Google Analytics] integration. Analyzing these metrics in [!DNL Commerce Intelligence], alongside other pieces of data, improves your site's overall health and usability.
 

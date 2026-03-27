@@ -41,7 +41,7 @@ To get started creating a [!DNL SQL] report, click **[!UICONTROL Report Builder]
 
 ## Get Started
 
-To edit a report, click the gear (![](../../assets/gear-icon.png)) icon in the top-right corner of a [!DNL SQL]-based chart and click **[!UICONTROL Edit]**.
+To edit a report, click the gear (![Gear icon](../../assets/gear-icon.png)) icon in the top-right corner of a [!DNL SQL]-based chart and click **[!UICONTROL Edit]**.
 
 ## Writing a query {#writing}
 
@@ -91,7 +91,7 @@ To create a visualization with your query results, click the **[!UICONTROL Chart
 
 Here is a quick look at what the visualization process looks like:
 
-![](../../assets/SQL_RB_viz_overview.gif)
+![Animated demonstration of SQL Report Builder visualization overview](../../assets/SQL_RB_viz_overview.gif)
 
 For a detailed walk-through of how to create a visualization, refer to the [Creating visualizations from SQL queries tutorial](../../tutorials/create-visuals-from-sql.md){: target="_blank"}.
 
@@ -101,7 +101,7 @@ Before you can save your work, you must give the report a name. Remember to foll
 
 Click **[!UICONTROL Save]** at the upper-right corner of the [!DNL SQL] editor and select the report `Type` (`Chart` or `Table`). To wrap things up, select the dashboard to save the report to and click **[!UICONTROL Save to Dashboard]**.
 
-![](../../assets/SQL_Save_Report.gif)
+![Animated demonstration of saving a SQL report to dashboard](../../assets/SQL_Save_Report.gif)
 
 ### Analyze Your Data
 

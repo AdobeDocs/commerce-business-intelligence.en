@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/Zendesk_logo.png)
+![Zendesk logo](../../../assets/Zendesk_logo.png)
 
 Connecting your [!DNL Zendesk] data allows you to consolidate your help desk reporting in [!DNL Commerce Intelligence]. This allows you to optimize customer support and monitor help desk performance alongside your revenue.
 

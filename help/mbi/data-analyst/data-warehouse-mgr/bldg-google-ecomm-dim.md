@@ -21,7 +21,7 @@ To create the dimensions in this topic, you need a [!DNL Google ECommerce] table
 
 Here is a quick look at syncing tables and columns if you need a refresher:
 
-![](../../assets/Syncing_New_Columns.gif)
+![Animated demonstration of syncing new columns in Data Warehouse](../../assets/Syncing_New_Columns.gif)
 
 After creating a join from the `orders` table to the [!DNL Google eCommerce] table, you create the first three dimensions in the list below. Next, you use those dimensions to create three user/customer dimensions in the `customers` table. To finish up, you join those columns to the `orders` table.
 
@@ -59,7 +59,7 @@ This example builds the **Order's [!DNL Google Analytics] Source** dimension.
 1. In the window that displays, set the `Many` side to `orders.order\_id`, or the column in the `orders` table that contains the order ID.
 1. On the `One` side, find the `Google ECommerce` table, then set the column to `transactionID`.
 
-    ![](../../assets/google-ecommerce-table.png)
+    ![Google eCommerce table structure showing available dimensions](../../assets/google-ecommerce-table.png)
 
 1. Click **[!UICONTROL Save]** to create the path.
 1. After the path is added, click the **[!UICONTROL Select table and column]** dropdown again.
@@ -68,7 +68,7 @@ This example builds the **Order's [!DNL Google Analytics] Source** dimension.
 
 Here is a look at the whole process:
 
-![](../../assets/help_center.gif)
+![Animated demonstration of creating Google Analytics source dimension](../../assets/help_center.gif)
 
 Next, try creating **Order's [!DNL Google Analytics] medium** and `campaign`. Not much changes for these dimensions, so give it a try. But if you get stuck, you can check out [the end of this article](#stuck) to see what is different.
 
@@ -109,7 +109,7 @@ This example joins the `Customer's first order's [!DNL Google Analytics] source`
 
 Here is a look at the whole process:
 
-![](../../assets/help_center2.gif)
+![Animated demonstration of creating customer acquisition dimensions](../../assets/help_center2.gif)
 
 Finish up by joining the `Customer's first order's` medium and `campaign` dimensions to the `orders` table. Join the dimensions, and if there are problems, then check out [the end of the article](#stuck) if you need help.
 

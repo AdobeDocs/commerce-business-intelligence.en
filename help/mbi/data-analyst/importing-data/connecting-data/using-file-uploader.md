@@ -99,11 +99,11 @@ Now that your spreadsheet is correctly formatted and [!DNL Commerce Intelligence
 
 If you need a visual, look at the whole process:
 
-![](../../../assets/fileupload.gif)
+![Animated demonstration of file upload process showing data being added](../../../assets/fileupload.gif)
 
 Uploaded tables display under the **File Uploads** section of the table list (in both the All Tables and Synced Tables options) in the Data Warehouse Manager:
 
-![](../../../assets/upload-tables.png)
+![Upload tables interface showing available tables for data import](../../../assets/upload-tables.png)
 
 ## Updating or appending data to an existing table {#appending}
 
@@ -145,7 +145,6 @@ Also, file upload is not the only way to get your data into [!DNL Commerce Intel
 * [Importing offline / other ad spend data](../connecting-data/import-offline-ad-data.md)
 * [Expected[!DNL Google ECommerce] data](../integrations/google-ecommerce-data.md)
 
-## Third-Party Resources
+## Third-party resource
 
-* [Numbers Data Formatting Guide](http://www.dummies.com/how-to/content/how-to-choose-a-number-format-in-your-numbers-spre.html)
 * [[!DNL Google Docs] Data Formatting Guide](https://support.google.com/docs/answer/56470?hl=en)

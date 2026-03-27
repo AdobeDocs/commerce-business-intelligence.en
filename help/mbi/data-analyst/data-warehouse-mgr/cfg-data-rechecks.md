@@ -48,7 +48,7 @@ Recheck frequencies can be managed in the Data Warehouse by clicking a table nam
 
 To change the recheck frequency, click the checkbox next to the columns you want to change. Then click the **[!UICONTROL Set Recheck Frequency]** dropdown and set the desired frequency.
 
-![](../../assets/dwm-recheck.png)
+![Data Warehouse Manager showing recheck configuration options](../../assets/dwm-recheck.png)
 
 You might sometimes see `Paused` in the `Changes?` column. This value displays when the table's [replication method](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) is set to `Paused`.
 

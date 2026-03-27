@@ -13,14 +13,14 @@ When [!DNL Adobe Commerce Intelligence] first connects to your [!DNL Mixpanel] d
 
 1. Visit your `Segmentation` section and view `Your Top Events`.
 
-    ![](../../../assets/your-top-events.png)
+    ![Mixpanel dashboard showing your top events](../../../assets/your-top-events.png)
 
 1. Select `Past 96 Hours` for the time range
 
-    ![](../../../assets/past-96-hours.png)
+    ![Mixpanel time range selector showing past 96 hours option](../../../assets/past-96-hours.png)
 
 1. Scroll to the lower-right portion of the report and export a `.csv` file:
 
-    ![](../../../assets/export-csv-mixpanel.png)
+    ![Mixpanel export to CSV option in menu](../../../assets/export-csv-mixpanel.png)
 
 1. Send the `.csv` file to the account manager or analyst that you are working with on this validation process.

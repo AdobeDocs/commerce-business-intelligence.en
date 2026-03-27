@@ -15,7 +15,7 @@ This topic demonstrates how to set up a dashboard that track the performance of 
 
 Before getting started, you want to identify two separate time periods where you have had different values for your store's free shipping threshold.
 
-![](../../assets/free_shipping_threshold.png)
+![Chart showing free shipping threshold analysis and order value distribution](../../assets/free_shipping_threshold.png)
 
 This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
