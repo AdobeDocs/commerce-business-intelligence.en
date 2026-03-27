@@ -1,6 +1,6 @@
 ---
 title: Data User
-description: Data User
+description: Learn how to use data to make more informed business decisions as well as create reports and dashboards.
 exl-id: 2f412c94-5042-4411-b19b-482993e6f70f
 role: Admin, Data Architect, Data Engineer, Leader, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration

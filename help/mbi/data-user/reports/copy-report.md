@@ -11,4 +11,4 @@ Often, you find yourself wanting to create similarly defined charts where you on
 
 In these cases, launch the `Chart Editor` and click **[!UICONTROL Save As]** at the top-right corner. This replicates your existing chart and add it to your current dashboard with the new name you select, and allow you to edit the settings of the new chart right away.
 
-![](../../assets/create-report-copy.png)
+![Chart editor showing Save As option to create a copy of a report](../../assets/create-report-copy.png)

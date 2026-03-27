@@ -122,4 +122,4 @@ Need to include a report in a presentation or document? Any report can be saved 
 
 See below:
 
-![](../../assets/exp-rep-as-image.gif)
+![Animated demonstration of exporting a report as an image file](../../assets/exp-rep-as-image.gif)

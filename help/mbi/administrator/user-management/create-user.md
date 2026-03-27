@@ -5,7 +5,7 @@ exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 role: Admin, User
 feature: User Management
 ---
-# Add a new [!DNL Adobe Commercer Intelligence] user
+# Add a new [!DNL Adobe Commerce Intelligence] user
 
 1. Click your company's name in the upper-right corner and select **[!UICONTROL Invite User]** from the dropdown.
 1. Enter the user's name and email.

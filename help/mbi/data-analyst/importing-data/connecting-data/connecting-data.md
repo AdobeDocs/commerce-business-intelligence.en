@@ -10,7 +10,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration
 In [!DNL Adobe Commerce Intelligence], data sources are called `integrations`. After an `integration` is successfully connected, you will be able to browse the tables available for syncing in the Data Warehouse Manager.
 
 Integrations are added and managed using the `Connections` page, which can be accessed by clicking **[!UICONTROL Manage Data** > **Connections]**. Here, you see:
- 
+
 * a list of all the integrations connected to your account
 
 * the integration type
@@ -37,7 +37,7 @@ Depending on the connection method and type of database, some technical expertis
 
 ## `SaaS` Integrations
 
-![](../../../assets/SaaS_icons.jpg)spree-commerce-logo.png
+![SaaS integration icons showing various supported platforms](../../../assets/SaaS_icons.jpg)spree-commerce-logo.png
 
 `SaaS` integrations are services like [[!DNL Google Adwords]](../integrations/google-adwords.md), [[!DNL Salesforce]](../integrations/salesforce.md), and [[!DNL Zendesk]](../integrations/zendesk.md). Because third-party data lives on the vendor's server, you cannot directly access it like you can with the data in your database.
 
@@ -67,3 +67,7 @@ To add an integration, click **[!UICONTROL Manage Data** > **Connections]** and 
 **Not seeing an integration you want?** Some integrations must be activated for them to be visible in your account. If you are looking for something like [!DNL Facebook] but it is not listed, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 **If you see an error status for an integration**, check out the [Troubleshooting section](https://support.magento.com/hc/en-us/sections/360003078151) for help.
+
+## Monitor update health (optional)
+
+After you connect sources, you may want to automate a basic health check to confirm that full updates are completing. Use the [Update Cycle Status API](https://developer.adobe.com/commerce/services/reporting/update-cycle-status-api/) in the developer documentation to fetch the most recent completed update cycle for your client and display it in internal dashboards or alerts.

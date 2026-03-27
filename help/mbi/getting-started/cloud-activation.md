@@ -28,23 +28,23 @@ To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first cre
 
     - Input your information to create your account.
 
-     ![](../assets/create-account-2.png)
+     ![Create account form with name, email, and company information fields](../assets/create-account-2.png)
 
     - Go to your inbox and verify your email address.
 
-    ![](../assets/create-account-3.png)
+    ![Email verification prompt](../assets/create-account-3.png)
 
     - Create your password.
 
-    ![](../assets/create-account-4.png)
+    ![Create password screen for new Commerce Intelligence account](../assets/create-account-4.png)
 
     - After creating your account, you can add users to your new account. Technical admins can now be added to carry out the following steps.
 
-     ![](../assets/create-account-5.png)
+     ![Add user form with email address and permission level fields](../assets/create-account-5.png)
 
 1. Input information about your store to set your preferences.
 
-    ![](../assets/create-account-6.png)
+    ![Store information form with business name, currency, and timezone fields](../assets/create-account-6.png)
 
     Gather some information before you can connect your database for the third step in the onboarding flow. You complete the `Connect your database` page in Step 9.
 
@@ -58,7 +58,7 @@ To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first cre
 
 1. Add the newly created user to the project's primary environment as a `Contributor`.
 
-    ![](../assets/create-account-7.png)
+    ![Add user to project interface with role set to Contributor](../assets/create-account-7.png)
 
 1. Get your [!DNL Commerce Intelligence] `SSH` keys.
 
@@ -68,7 +68,7 @@ To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first cre
 
     - From the dropdown, you can copy and paste the provided [!DNL Commerce Intelligence] `Public Key`.
 
-    ![](../assets/create-account-8.png)
+    ![Encryption settings page showing SSH Tunnel type and public key field](../assets/create-account-8.png)
 
 1. Add your new [!DNL Commerce Intelligence] `Public key` to the [!DNL Commerce Intelligence] user created in Step 5.
 
@@ -76,11 +76,11 @@ To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first cre
 
     - Scroll down the page and expand the dropdown for `SSH` keys. Then click **[!UICONTROL Add a public key]**.
 
-    ![](../assets/create-account-9.png)
+    ![Account settings page with SSH Keys section expanded](../assets/create-account-9.png)
 
     - Add the [!DNL Commerce Intelligence] `SSH Public Key` from above.
 
-    ![](../assets/create-account-10.png)
+    ![Add public key form with key text field](../assets/create-account-10.png)
 
 1. Provide [!DNL Commerce Intelligence] [!DNL MySQL] credentials.
 
@@ -145,7 +145,7 @@ To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first cre
 
 1. Connect your Commerce Database
 
-   ![](../assets/create-account-11.png)
+   ![Connect your database form with fields for integration name, host, port, username, password, and database name](../assets/create-account-11.png)
 
     - `Integration Name`: [Choose a name for your integration.]
 
@@ -163,7 +163,7 @@ To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first cre
 
 1. Set your Timezone Settings.
 
-    ![Inputs](../assets/create-account-12.png)
+    ![Time zone settings form with database timezone and desired timezone dropdown fields](../assets/create-account-12.png)
 
      - `Database`: `Timezone: UTC`
 
@@ -173,13 +173,13 @@ To activate [!DNL Commerce Intelligence] for `Cloud Starter` projects, first cre
 
     - The project UI provides an `SSH` access string. This string can be used for gathering the information needed for `Remote Address` and `Username` in setting up your `Encryption` settings. Use the `SSH Access` string found by clicking the access site button on your Primary branch of your Project UI and find your `User Name` and `Remote Address` as shown below.
 
-    ![](../assets/create-account-13.png)
+    ![Project UI showing access site button on primary branch](../assets/create-account-13.png)
 
-    ![](../assets/create-account-14.png)
+    ![SSH access information showing username and remote address](../assets/create-account-14.png)
 
 1. Input information for your `Encryption` settings
 
-    ![](../assets/create-account-15.png)
+    ![Encryption settings form with fields for encryption type, remote address, username, and port](../assets/create-account-15.png)
 
     **Inputs**
 

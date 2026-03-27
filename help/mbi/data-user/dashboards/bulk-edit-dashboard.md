@@ -23,7 +23,7 @@ That being said, consider this - *Do these changes need to be permanent?* If not
 
 ## Using [!DNL Find/Replace] {#findreplace}
 
-1. Click the gear (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the [!UICONTROL Bulk Edit Reports] window.
+1. Click the gear (![Gear icon](../../assets/gear-icon.png)) icon next to your dashboard's name, then the [!UICONTROL Bulk Edit Reports] window.
 
 1. Click **[!UICONTROL Chart Title Find and Replace]** in the popup.
 
@@ -39,7 +39,7 @@ Example:
 
 ## Prepending `Chart Names` {#prepend}
 
-1. Click the gear (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then the [!UICONTROL Bulk Edit Reports] window.
+1. Click the gear (![Gear icon](../../assets/gear-icon.png)) icon next to your dashboard's name, then the [!UICONTROL Bulk Edit Reports] window.
 
 1. Click **[!UICONTROL Prepend Report Names]** in the popup.
 
@@ -53,7 +53,7 @@ Example:
 
 ## Changing `Dates` {#dates}
 
-1. Click the gear (![](../../assets/gear-icon.png)) icon next to your dashboard's name, then select the [!UICONTROL Bulk Edit Reports] window.
+1. Click the gear (![Gear icon](../../assets/gear-icon.png)) icon next to your dashboard's name, then select the [!UICONTROL Bulk Edit Reports] window.
 
 1. Click **[!UICONTROL Change Dates]** in the pop-up window.
 

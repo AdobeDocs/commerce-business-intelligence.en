@@ -11,7 +11,7 @@ feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/
 >
 >Requires [Admin permissions](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/google-ecommerce-logo.png)
+![Google eCommerce logo](../../../assets/google-ecommerce-logo.png)
 
 You have steady flow of traffic and orders, which means you are effectively reaching and acquiring customers. But what are your most valuable referral channels? What is the average lifetime value of customers acquired from one source versus another? By connecting your order referral source data from [!DNL Google ECommerce] to [!DNL Commerce Intelligence], you can build analyses that help you identify your [most valuable marketing channels](../../../data-analyst/analysis/most-value-source-channel.md).
 
@@ -29,7 +29,7 @@ Get started by entering your [!DNL Google ECommerce] credentials into [!DNL Comm
 
      If you have multiple profiles and need some help identifying which is which, refer to the **Connecting Multiple [!DNL Google Analytics] profiles section below.
 
-     ![](../../../assets/conn-mult-ga-profiles.png)<!--{: width="500"}-->
+     ![Form showing options to connect multiple Google Analytics profiles](../../../assets/conn-mult-ga-profiles.png)<!--{: width="500"}-->
 
 1. Changes are saved automatically, so click **[!UICONTROL Back to Connections]** when you are finished.
 

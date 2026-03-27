@@ -19,7 +19,7 @@ The steps for connecting your [!DNL RDS] instance vary, depending on the type of
 
 On the credentials page (**[!UICONTROL Manage Data** > **Integrations]**) for each database, you see a box containing the IP addresses you must authorize to connect R[!DNL RDS] to [!DNL Commerce Intelligence]: `54.88.76.97` and `34.250.211.151`. Here is a look at the `MySQL credentials` page, where you highlighted the IP address box:
 
-![](../../../assets/RDS_IP.png)
+![Amazon RDS security group settings showing IP address configuration](../../../assets/RDS_IP.png)
 
 For [!DNL Commerce Intelligence] to successfully connect with your [!DNL RDS] instance, you must add these IP addresses to the appropriate database security group via the AWS management console. These IP addresses can be added to an existing group or you can create a one - the important thing is that the group is authorized to access the instance you want to connect to [!DNL Commerce Intelligence].
 
@@ -49,6 +49,6 @@ To finish creating the connection, you need the following info:
 
 If you are using an encrypted connection, change the `Encrypted` toggle on the database credentials page to `Yes`. This displays an extra form for setting up the encryption:
 
-![](../../../assets/sql-integration-encrypted-yes.png)
+![SQL integration form with encryption enabled showing Yes option](../../../assets/sql-integration-encrypted-yes.png)
 
 

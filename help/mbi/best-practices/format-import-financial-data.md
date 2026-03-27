@@ -11,11 +11,11 @@ This topic discusses the best way to import financial data for analysis in [!DNL
 
 A two-dimensional, cross-tab data table is often the format used for financial data. With values categorized by labels in both columns and rows, this type of layout might be easy to view with human eyes and spreadsheet tools, but it is not friendly to databases.
 
-![](../../mbi/assets/crosstab.png)
+![Crosstab format showing data in pivot table layout](../../mbi/assets/crosstab.png)
 
 To import and analyze this data in [!DNL Commerce Intelligence], the table must be flattened into a one-dimensional list. When flattened, each data value is categorized by multiple labels that are all in a single row, where each row is unique or would have a unique identifier, for example a primary key column.
 
-![](../../mbi/assets/flattened.png)
+![Flattened format showing data in columnar layout](../../mbi/assets/flattened.png)
 
 ## Formatting Excel files for Import
 
@@ -29,7 +29,7 @@ To flatten a two-dimensional table using an [!DNL Excel] pivot table:
 1. Create the pivot table in a new sheet and click **[!UICONTROL Finish]**.
 1. Deselect the column and row fields from the field list.
 1. Double-click the resulting numerical value to show the flattened source data in a new sheet.
-    ![](../../mbi/assets/pivot-table-double-click.png)
+    ![Excel pivot table field list showing double-click to expand](../../mbi/assets/pivot-table-double-click.png)
 1. Save as a `CSV` file.
 
 ## Wrapping Up

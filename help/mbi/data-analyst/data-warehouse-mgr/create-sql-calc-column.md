@@ -21,7 +21,7 @@ The different columns that can be created with the `Calculation` column are almo
 
 Most accounts have a column called `Is customer's last order?` on their `orders` table to perform analyses on repeat purchase rates and churned customers. If your account is on the new architecture, this column is built using a `Calculation` column and can be seen in the screenshot below:
 
-![](../../assets/Is_customer_s_last_order.png)
+![SQL calculated column definition for identifying customer's last order](../../assets/Is_customer_s_last_order.png)
 
 The `Is customer's last order?` column uses the inputs `Customer's lifetime number of orders` and `Customer's order number` aliased as `A` and `B` respectively.
 
@@ -41,7 +41,7 @@ Many clients like to analyze revenue at the item level, slicing it by fields lik
 
 To enable product revenue analyses, most accounts have a column called `Order item total value (quantity * price)` on their `Orders Items` table. If your account is on the new architecture, this column is also built using a `Calculation` column and can be seen in the screenshot below:
 
-![](../../assets/Order_item_total_value.png)
+![SQL calculated column definition for order item total value](../../assets/Order_item_total_value.png)
 
 In the Commerce schema, the `Order item total value (quantity * price)` column uses the inputs `qty ordered` and `base price` aliased as `A` and `B` respectively.
 
@@ -51,7 +51,7 @@ The values that are returned by this new column are in dollars and cents, so the
 
 A new `Calculation` column can be added to a table by navigating to **[!DNL Manage Data > Data Warehouse]** as shown below:
 
-![](../../assets/blobid2.png)
+![Table view showing calculated column results](../../assets/blobid2.png)
 
 From here you can create a `Calculation` column by following the steps below:
 

@@ -13,7 +13,7 @@ In the [`Report Builder`](../../tutorials/using-visual-report-builder.md), you c
 
 In the `Report Builder`, a `formula` is just a combination of one or more metrics based on some mathematical logic. A typical example looks like this:
 
-![](../../assets/formula-example.png)
+![Formula example showing calculation in Report Builder](../../assets/formula-example.png)
 
 In this example, you use a `Number of orders metric (A)` and a `Distinct buyers metric (B)`, and the goal is to answer the question: what is the average number of orders my buyers are making each month? The parameters of the formula are:
 

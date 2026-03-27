@@ -53,7 +53,7 @@ If you feel comfortable doing the matching yourself, follow these instructions a
 
 Here is a look at an example:
 
-![](../../../assets/Migration_Spreadsheet.png)
+![Migration spreadsheet template with database schema and table structure](../../../assets/Migration_Spreadsheet.png)
 
 >[!NOTE]
 >

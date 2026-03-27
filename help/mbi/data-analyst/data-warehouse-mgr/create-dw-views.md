@@ -13,7 +13,7 @@ This document outlines the purpose and uses of `Data Warehouse Views` accessible
 
 The `Data Warehouse Views` feature is a method of creating new warehoused tables by modifying an existing table, or joining or consolidating multiple tables together by using SQL. Once a `Data Warehouse View` has been created and processed by an update cycle, it populates in your Data Warehouse as a new table under the `Data Warehouse Views` dropdown, as shown below:
 
-![](../../assets/Data_Warehouse.png)
+![Data Warehouse interface showing table management options](../../assets/Data_Warehouse.png)
 
 From here, your new view functions like any other table, giving you the power to create new calculated columns or build metrics and reports on top of it.
 
@@ -25,7 +25,7 @@ If you are familiar with SQL, both of these consolidation examples use the `UNIO
 
 New `Data Warehouse Views` can be created and existing views can be deleted by navigating to **[!UICONTROL Manage Data]** > **[!UICONTROL Data Warehouse Views]**, as shown below:
 
-![](../../assets/Data_Warehouse_Views.png)
+![Data Warehouse Views section showing custom view configurations](../../assets/Data_Warehouse_Views.png)
 
 From here you can create a view by following the sample instructions below:
 

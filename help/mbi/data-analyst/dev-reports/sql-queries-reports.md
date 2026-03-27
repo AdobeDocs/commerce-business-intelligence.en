@@ -83,7 +83,7 @@ Here you need to carefully consider the relationship between the two tables you 
 
 Once the path has been saved, you can create the `Customer LTV` column! See below:
 
-![](../../assets/Customer_LTV.gif)
+![Animated demonstration of customer lifetime value analysis using SQL](../../assets/Customer_LTV.gif)
 
 Now that you have built the new `Customer LTV` column in your `customers` table, you are ready to create a [metric aggregation](#aggregate) using this column (for example, to find the average LTV per customer). You can also `group by` or `filter` by the calculated column in a report using existing metrics built on the `customers` table. 
 

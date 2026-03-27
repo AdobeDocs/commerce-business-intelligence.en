@@ -7,13 +7,13 @@ feature: Data Warehouse Manager, Reports, Dashboards
 ---
 # RFM Analysis
 
-This topic demonstrates how to set up a dashboard that allows you to segment your customers by their recency, frequency, and monetary rankings. RFM analysis is a marketing technique that takes customer behaviors into account to help you determine segmentation for outreach. It accounts for three aspects: 
+This topic demonstrates how to set up a dashboard that allows you to segment your customers by their recency, frequency, and monetary rankings. RFM analysis is a marketing technique that takes customer behaviors into account to help you determine segmentation for outreach. It accounts for three aspects:
 
 1. Recency in how recently a customer purchased from your store
-1. Frequency in how often they purchase from you 
+1. Frequency in how often they purchase from you
 1. Monetary in how much the customer spends
 
-![](../../assets/blobid0.png)
+![RFM analysis dashboard showing recency, frequency, and monetary value segments](../../assets/blobid0.png)
 
 The RFM analysis can only be configured if you have the [!DNL Adobe Commerce Intelligence] Pro plan on the new architecture (for example, if you have the `Data Warehouse Views` option under the `Manage Data` menu). These columns can be created from the **[!DNL Manage Data > Data Warehouse]** page. Detailed instructions are provided below.
 
@@ -36,8 +36,8 @@ Columns to create
 * Selected [!UICONTROL column]: `created_at`
 * [!UICONTROL Filter]: `Orders we count`
 
-*     Seconds since customer's last order date    
-* [!UICONTROL Column type]: –     "Same table > Age    
+*     Seconds since customer's last order date
+* [!UICONTROL Column type]: –     "Same table > Age
 * Selected [!UICONTROL column]: `Customer's last order date`
 
 * (input) Count reference

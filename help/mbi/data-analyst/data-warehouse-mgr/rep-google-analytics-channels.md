@@ -27,7 +27,7 @@ By default, [!DNL Google] sets up eight different channels. The rules that deter
 | Organic Search | Traffic that has been organically ranked in unpaid search engines. | Medium = `organic` |
 | Referral | Traffic that comes in from an external link that is not Organic Search or from websites that are not social networks. | Medium = `referral`|
 | Paid Search | Traffic that has a UTM Tracking code where the medium is either "cpc", "ppc", or "paidsearch" AND is an ad distribution network that does not match "Content."| Medium = `^(cpc|ppc|paidsearch)$`<br>AND Ad Distribution Network ≠ `Content` |
-| Social | Referral traffic that comes from any of approximately [400 social networks](https://www.annielytics.com/blog/analytics/sites-google-analytics-includes-in-social-reports/) and are not tagged as ads. | Social Source referral = `Yes`<br>OR Medium = `^(social|social-network|social-media|sm|social network|social media)$`|
+| Social | Referral traffic that comes from any of approximately 400 social networks and are not tagged as ads. | Social Source referral = `Yes`<br>OR Medium = `^(social|social-network|social-media|sm|social network|social media)$`|
 | Email | Traffic from sessions that are tagged with a medium of "email." | UTM Tracking code of Medium = `email` |
 | Display | Traffic that has a UTM Tracking code where the medium is either display or cpm. Also includes AdWords interaction where the ad distribution network matches "Content"                                 | Medium = `^(display|cpm|banner)$`<br>OR Ad Distribution Network = `Content`<br>AND Ad Format ≠ `Text` |
 | Other | Sessions from other advertising channels (not including Paid Search) that are tagged with a medium of "cpc", "ppc", "cpm, "cpv", "cpa", "cpp", "affiliate".| Medium = `^(cpv|cpa|cpp|content-text)$`|
@@ -40,7 +40,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
 1. **Enable your[!DNL Google ECommerce]integration**
 
-   [When enabled](../importing-data/integrations/google-ecommerce.md), make sure to [sync](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) the **medium** and **source** fields in your Data Warehouse. After this is completed, medium and source acquisition data will be brought into your Data Warehouse.
+   [When enabled](../importing-data/integrations/google-ecommerce.md), make sure to [sync](tour-dwm.md#syncing) the **medium** and **source** fields in your Data Warehouse. After this is completed, medium and source acquisition data will be brought into your Data Warehouse.
 
 1. **Upload a mapping of Google's channel groupings**
 
@@ -50,7 +50,7 @@ Now that you know channels are just combinations of sources and mediums, it is a
 
    Bring it into your Data Warehouse as a [File Upload](../importing-data/connecting-data/using-file-uploader.md).
 
-   ![](../../assets/Setting_Primary_Keys.png)
+   ![Data Warehouse Manager interface showing primary key settings](../../assets/Setting_Primary_Keys.png)
 
 1. **Establish a relationship between[!DNL Google ECommerce]and Mappings File Upload**
 

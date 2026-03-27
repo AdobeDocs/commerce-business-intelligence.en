@@ -13,7 +13,7 @@ feature: Reports, Dashboards
 
 If you are spending money on online advertising, you want to track your return on this spend and make data-driven decisions on further investments. This topic demonstrates how to set up a dashboard that track your channel analysis – including ROI in aggregate and by campaign.
 
-![](../../assets/Marketing_dashboard_example.png)
+![Marketing dashboard showing ROI metrics and campaign performance](../../assets/Marketing_dashboard_example.png)
 
 Before getting started, you want to connect your [!DNL [Facebook Ads]](../importing-data/integrations/facebook-ads.md), [!DNL [Adwords]](../importing-data/integrations/google-adwords.md), and [!DNL [Google Ecommerce]](../importing-data/integrations/google-ecommerce.md) accounts and bring in any additional online ad spend data. This analysis contains [advanced calculated columns](../data-warehouse-mgr/adv-calc-columns.md).
 
