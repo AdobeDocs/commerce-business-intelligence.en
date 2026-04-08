@@ -2,8 +2,38 @@
 title: Activate your [!DNL Adobe Commerce Intelligence] Account
 description: Learn who to contact to activate your [!DNL Commerce Intelligence] account.
 exl-id: 0efac7b4-2457-48c7-947a-d2776b90a1dd
-role: Admin, Data Architect, Data Engineer, User
+role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
+TQID: https://experienceleague.adobe.com/V34xz5uwqrCn716FqG5byQ6wnLwkZUccBXgJMqiSdR4
+product_v2:
+  - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
+    internal-label: Commerce Intelligence
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b0c4e988-b173-423f-88d4-345071a0bce8
+    internal-label: Data Warehouse Manager
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 ---
 # Activate your [!DNL Commerce Intelligence] Account for On-Premise and Starter Subscriptions
 
@@ -162,10 +192,12 @@ You have now successfully connected your [!DNL Commerce] database to your [!DNL 
 
 After you complete the configuration, [sign in](../getting-started/sign-in.md) to your [!DNL Commerce Intelligence] account.
 
-<!---# Activate your [!DNL Commerce Intelligence] Account
+<!--
+# Activate your [!DNL Commerce Intelligence] Account
 
 To activate [!DNL Commerce Intelligence] for on-premise or `Cloud Pro` subscriptions, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 >[!NOTE]
 >
->Adobe no longer supports new `Cloud Starter` subscriptions.--->
+>Adobe no longer supports new `Cloud Starter` subscriptions.
+-->
