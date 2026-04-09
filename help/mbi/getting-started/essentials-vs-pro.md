@@ -64,11 +64,11 @@ The following table describes elements included with a legacy `Essentials` accou
 
 **Included tables**
 
-* `sales\_order`
-* `sales\_order\_item`
-* `sales\_order\_address`
-* `customer\_entity`
-* `customer\_group`
+* `sales_order`
+* `sales_order_item`
+* `sales_order_address`
+* `customer_entity`
+* `customer_group`
 * `store`
 
 <!--
