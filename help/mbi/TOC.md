@@ -230,5 +230,5 @@ feature: Business Performance
 - Tutorials {#tutorials}
   - [Using the [!DNL Visual Report Builder]](tutorials/using-visual-report-builder.md)
   - [Using Time Options in the [!DNL Visual Report Builder]](tutorials/time-options-visual-rpt-bldr.md)
-  - [Creating Visualizations fro an [!DNL SQL] Query](tutorials/create-visuals-from-sql.md)
+  - [Creating Visualizations from an [!DNL SQL] Query](tutorials/create-visuals-from-sql.md)
   - [Exporting Raw Data](tutorials/export-raw-data.md)
