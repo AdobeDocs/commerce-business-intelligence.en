@@ -5,6 +5,7 @@ product_v2:
     internal-label: "Commerce"
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: "Commerce Intelligence"
+usetq: true
 landing-page-name: commerce
 landing-page-breadcrumb-title: Commerce
 product: magento
