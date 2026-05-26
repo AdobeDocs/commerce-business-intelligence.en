@@ -128,7 +128,7 @@ Get the database connection information to the [!DNL Commerce] database to [!DNL
 
 >[!NOTE]
 >
->Adobe strongly recommends that you use an [`SSH tunnel`](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) tunnel to make the database connection. However, if this method is not an option, you can still link [!DNL Commerce Intelligence] to your database using a [`direct connection`](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
+>Adobe strongly recommends that you use an [`SSH tunnel`](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) tunnel to make the database connection. For SSH host key enrollment, errors, and troubleshooting, see [SSH host key verification](../data-analyst/importing-data/integrations/ssh-host-key-verification.md). However, if this method is not an option, you can still link [!DNL Commerce Intelligence] to your database using a [`direct connection`](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
 
 Enter your [!DNL Commerce Intelligence] information in the [!UICONTROL Connect your Magento Database] screen.
 

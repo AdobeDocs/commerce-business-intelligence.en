@@ -33,7 +33,7 @@ topic_v2:
 ---
 # Connect databases via VPN
 
-While Adobe recommends that you connect your databases using an `SSH tunnel`, you can also use an encrypted `VPN` connection to keep things secure. A `VPN` can be used for any of your database integrations and, to keep things simple, the process is just about the same as setting up an `SSH tunnel`:
+While Adobe recommends that you connect your databases using an `SSH tunnel`, you can also use an encrypted `VPN` connection to keep things secure. For SSH host key enrollment, errors, and troubleshooting on SSH tunnel connections, see [SSH host key verification](ssh-host-key-verification.md). A `VPN` can be used for any of your database integrations and, to keep things simple, the process is just about the same as setting up an `SSH tunnel`:
 
 1. [Create an [!DNL Commerce Intelligence] database user](#database)
 1. [Create an [!DNL Commerce Intelligence] VPN user](#vpn)

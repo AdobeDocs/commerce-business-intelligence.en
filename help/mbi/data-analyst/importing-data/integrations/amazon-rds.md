@@ -61,7 +61,7 @@ When adding the [!DNL Commerce Intelligence] IP addresses, make sure you add a `
 
 >[!NOTE]
 >
->This step is only required if you are using an encrypted connection. For instructions on how to do this, refer to the setup topic for the database you are using (ex: MySQL). The `Linux` user allows us to create an `SSH tunnel`, which is the safest method of sending data over the internet.
+>This step is only required if you are using an encrypted connection. For instructions on how to do this, refer to the setup topic for the database you are using (ex: MySQL). The `Linux` user allows us to create an `SSH tunnel`, which is the safest method of sending data over the internet. For SSH host key enrollment, errors, and troubleshooting, see [SSH host key verification](ssh-host-key-verification.md).
 
 ## Create a database user for [!DNL Commerce Intelligence]
 

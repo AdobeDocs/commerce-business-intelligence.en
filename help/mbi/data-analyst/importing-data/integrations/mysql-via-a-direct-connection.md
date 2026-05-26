@@ -40,11 +40,12 @@ topic_v2:
 ## Jump to
 
 * [[!DNL MySQL] via `SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md)
+* [SSH host key verification](../integrations/ssh-host-key-verification.md)
 * [[!DNL MySQL] via [!DNL cPanel]](../integrations/mysql-via-cpanel.md)
 
 >[!NOTE]
 >
->[!DNL Adobe] recommends you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data! If this is not an option, you can still directly connect [!DNL Commerce Intelligence] to your database using the instructions in this topic.
+>[!DNL Adobe] recommends you use [SSH](../integrations/mysql-via-ssh-tunnel.md) or some other form of encryption to secure your data! For SSH host key verification, see [SSH host key verification](../integrations/ssh-host-key-verification.md). If this is not an option, you can still directly connect [!DNL Commerce Intelligence] to your database using the instructions in this topic.
 
 This topic walks you through directly connecting your [!DNL MySQL] database to [!DNL Commerce Intelligence]. These settings can also be used with [!DNL Adobe Commerce] or any other eCommerce databases that use MySQL.
 

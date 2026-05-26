@@ -136,6 +136,11 @@ In the `SSH Connection` section:
 
 When you are finished, click **[!UICONTROL Save & Test]** to complete the setup.
 
-## Related:
+>[!NOTE]
+>
+>For SSH host key enrollment, refresh, error messages, and troubleshooting, see [SSH host key verification](ssh-host-key-verification.md).
 
+## Related {#related}
+
+* [SSH host key verification](ssh-host-key-verification.md)
 * [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
