@@ -7,7 +7,7 @@ on:
 
 jobs:
   mirror-to-public:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.repository_owner == 'Adobe-Enterprise-Docs' && github.event_name == 'push' && github.ref == 'refs/heads/main'
     # TODO(maintainer): If your org uses a different reusable workflow repo, replace Adobe-Enterprise-Docs/workflows.
     # TODO(maintainer): Pin to a commit SHA for stronger supply-chain security instead of @main.
     uses: Adobe-Enterprise-Docs/workflows/.github/workflows/mirror-to-public.yml@main
