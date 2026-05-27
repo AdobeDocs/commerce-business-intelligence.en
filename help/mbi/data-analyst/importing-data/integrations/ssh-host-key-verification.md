@@ -33,7 +33,7 @@ feature_v2:
 
 During **[!UICONTROL Save & Test]**, the system enrolls the SSH bastion host keys for your connection and stores them securely per connection. After enrollment, replication and tunneling only succeed when the live bastion host keys match the enrolled keys.
 
-This model improves security by blocking man-in-the-middle and unexpected host changes. It also means that host key rotation, missing trust material, or infrastructure changes can surface as SSH host key errors on the connection instead of generic tunnel failures.
+This model improves security by blocking man-in-the-middle and unexpected host changes. It also means that host key rotation, missing trust material, or infrastructure changes can surface as SSH host key errors on the connection instead of generic tunnel failures. If your team rotates bastion host keys or the bastion identity changes, an Admin must run **[!UICONTROL Refresh SSH Host Keys]**. Saving the connection again does not update enrolled keys by itself.
 
 >[!NOTE]
 >
@@ -43,13 +43,17 @@ This model improves security by blocking man-in-the-middle and unexpected host c
 
 **[!UICONTROL Save & Test]** performs **initial SSH host key enrollment only**. It is conservative by design and does not rotate or overwrite keys that are already enrolled for the connection.
 
+>[!IMPORTANT]
+>
+>Host key rotation requires an Admin to run **[!UICONTROL Refresh SSH Host Keys]**. If bastion host keys changed or the bastion identity changed (hostname, IP, or port), running **[!UICONTROL Save & Test]** again or re-saving the connection does not update enrolled keys. The connection can keep failing until an Admin refreshes host keys.
+
 | Enrolled host key state | What Save & Test does |
 | --- | --- |
 | Host keys not yet enrolled | Scans the bastion host and port, enrolls the host keys, and stores them for this connection |
-| Host keys already enrolled | Skips enrollment. Does not overwrite, rotate, or delete existing enrolled keys |
+| Host keys already enrolled | Skips enrollment. Does not overwrite, rotate, or delete existing enrolled keys, even if live bastion keys no longer match |
 | Enrolled keys missing, empty, or invalid | Does not repair invalid trust material by itself. Use **[!UICONTROL Refresh SSH Host Keys]** or contact Support if errors continue |
 
-After a successful first enrollment, later **[!UICONTROL Save & Test]** runs validate credentials and connection settings but leave enrolled SSH host keys unchanged.
+After a successful first enrollment, later **[!UICONTROL Save & Test]** runs validate credentials and connection settings but leave enrolled SSH host keys unchanged. Use **[!UICONTROL Refresh SSH Host Keys]** when bastion host keys rotate or the bastion identity changes.
 
 ## Expected behavior for Refresh SSH Host Keys {#refresh-ssh-host-keys}
 
