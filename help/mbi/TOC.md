@@ -131,6 +131,7 @@ feature: Business Performance
     - [Connecting Adobe Commerce](data-analyst/importing-data/integrations/magento.md)
     - [Expected Commerce Data](data-analyst/importing-data/integrations/magento-data.md)
     - [Connecting [!DNL Microsoft SQL Server]](data-analyst/importing-data/integrations/microsoft-sql-server.md)
+    - [SSH host key verification](data-analyst/importing-data/integrations/ssh-host-key-verification.md)
     - [Connecting [!DNL MongoDB] via [!DNL SSH Tunnel]](data-analyst/importing-data/integrations/mongodb-via-ssh-tunnel.md)
     - [Connecting [!DNL MySQL] via a [!DNL direct connection]](data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md)
     - [Connecting [!DNL MySQL] via [!DNL cPanel]](data-analyst/importing-data/integrations/mysql-via-cpanel.md)

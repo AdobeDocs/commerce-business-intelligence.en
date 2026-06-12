@@ -85,6 +85,11 @@ If you are using an [`SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md), you
 
 When you are finished, click **[!UICONTROL Save & Test]** to complete the setup.
 
-## Related:
+>[!NOTE]
+>
+>If you use an SSH tunnel, see [SSH host key verification](ssh-host-key-verification.md) for enrollment, refresh, error messages, and troubleshooting.
 
+## Related {#related}
+
+* [SSH host key verification](ssh-host-key-verification.md)
 * [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

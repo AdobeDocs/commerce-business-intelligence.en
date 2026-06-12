@@ -37,7 +37,7 @@ topic_v2:
 
 Want to see how your business is performing or find your most valuable acquisition sources and channels? Connecting your [!DNL Adobe Commerce] data to [!DNL Commerce Intelligence] allows you to answer these questions and more.
 
-As the [!DNL Adobe Commerce] database is based on MySQL, you can connect it to [!DNL Commerce Intelligence] through a [direct connection](../integrations/mysql-via-a-direct-connection.md), [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), or [via an SSH tunnel](../integrations/mysql-via-ssh-tunnel.md). The SSH method is recommended because it is the most secure.
+As the [!DNL Adobe Commerce] database is based on MySQL, you can connect it to [!DNL Commerce Intelligence] through a [direct connection](../integrations/mysql-via-a-direct-connection.md), [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), or [via an SSH tunnel](../integrations/mysql-via-ssh-tunnel.md). The SSH method is recommended because it is the most secure. For SSH host key verification, see [SSH host key verification](../integrations/ssh-host-key-verification.md).
 
 ## Related information
 
