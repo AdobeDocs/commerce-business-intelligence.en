@@ -33,7 +33,7 @@ feature_v2:
 
 During **[!UICONTROL Save & Test]**, the system enrolls the SSH bastion host keys for your connection and stores them securely per connection. After enrollment, replication and tunneling only succeed when the live bastion host keys match the enrolled keys.
 
-This model improves security by blocking man-in-the-middle and unexpected host changes. It also means that host key rotation, missing trust material, or infrastructure changes can surface as SSH host key errors on the connection instead of generic tunnel failures.
+This model improves security by blocking man-in-the-middle attacks and unexpected host changes. It also means that host key rotation, missing trust material, or infrastructure changes can surface as SSH host key errors on the connection instead of generic tunnel failures.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ You do not edit, upload, or manage `known_hosts` files. Enrollment and refresh r
 
 >[!IMPORTANT]
 >
->Host key rotation requires an Admin to run **[!UICONTROL Refresh SSH Host Keys]**. If bastion host keys changed or the bastion identity changed (hostname, IP, or port), running **[!UICONTROL Save & Test]** again or re-saving the connection does not update enrolled keys. The connection can keep failing until an Admin refreshes host keys.
+>Host key rotation requires an Admin to run **[!UICONTROL Refresh SSH Host Keys]**. If bastion host keys changed or the bastion identity changed (hostname, IP, or port), running **[!UICONTROL Save & Test]** again or re-saving the connection does not update enrolled keys. The connection can keep failing until an Admin refreshes the host keys.
 
 ## Expected behavior for Save & Test {#save-and-test}
 
@@ -103,16 +103,16 @@ The following table maps common messages to likely causes and typical next steps
 
 ## Troubleshooting checklist {#troubleshooting}
 
-1. Confirm **Remote Address**, **SSH Port**, and Linux user settings match your bastion.
+1. Confirm **Remote Address**, **SSH Port**, and Linux user settings match your bastion settings.
 1. Confirm your firewall allows the [!DNL Commerce Intelligence] IP addresses shown on your database credentials page.
 1. Ask your infrastructure team whether SSH host keys on the bastion changed recently.
 1. Run **[!UICONTROL Save & Test]** to validate settings and enroll keys if none exist yet.
-1. Ask an Admin to run **[!UICONTROL Refresh SSH Host Keys]**, wait a few minutes, then run **[!UICONTROL Save & Test]** again. Repeat once if the first refresh does not resolve the error.
-1. If the connection still shows an SSH host key error after two refresh attempts, use **[!UICONTROL Contact Support]** on the connection page (or your account support channel).
+1. Ask an Admin to run **[!UICONTROL Refresh SSH Host Keys]**, wait a few minutes, then run **[!UICONTROL Save & Test]** again. If the first refresh does not resolve the error, repeat this step.
+1. If the connection still shows an SSH host key error after two refresh attempts, click **[!UICONTROL Contact Support]** on the connection page (or your account support channel).
 
 ## When to contact Adobe Support {#contact-support}
 
-Contact Support when:
+Contact support when:
 
 * SSH host key errors continue after an Admin runs **[!UICONTROL Refresh SSH Host Keys]** twice and **[!UICONTROL Save & Test]** still fails
 * **[!UICONTROL Refresh SSH Host Keys]** never completes or the connection status does not change after 15–30 minutes
