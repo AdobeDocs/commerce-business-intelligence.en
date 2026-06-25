@@ -87,3 +87,4 @@ Under the `Encryption Connection` section:
 * `Password`: The [!DNL Commerce Intelligence] `VPN` user password
 
 When you are finished, click **[!UICONTROL Save & Test]** to complete the setup.
+

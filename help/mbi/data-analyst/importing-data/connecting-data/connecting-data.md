@@ -103,3 +103,4 @@ To add an integration, click **[!UICONTROL Manage Data** > **Connections]** and 
 ## Monitor update health (optional)
 
 After you connect sources, you may want to automate a basic health check to confirm that full updates are completing. Use the [Update Cycle Status API](https://developer.adobe.com/commerce/services/reporting/update-cycle-status-api/) in the developer documentation to fetch the most recent completed update cycle for your client and display it in internal dashboards or alerts.
+

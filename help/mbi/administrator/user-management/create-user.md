@@ -57,3 +57,4 @@ If you need to resend the invitation, on the [login page](https://dashboard.rjme
 >[!IMPORTANT]
 >
 >Each account has a contracted number of licenses, or seats. If you hit your limit or would like to know more, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+

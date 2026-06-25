@@ -497,3 +497,4 @@ However, users can view dashboard data filtered based on the stores that are map
 [!DNL Advanced User Management] extends data filtering capabilities to email summaries. Depending on the audience, admin users can specify user groups for which the selected reports must be filtered.
 
 ![Schedule email summary](../../assets/schedule-email-summary.png)
+
