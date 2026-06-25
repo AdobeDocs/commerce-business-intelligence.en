@@ -44,3 +44,4 @@ As the [!DNL Adobe Commerce] database is based on MySQL, you can connect it to [
 * [Expected Commerce data](../integrations/magento-data.md)
 * [Recommended data dimensions for segmentation and filtering](../../../best-practices/segment-filter.md)
 * [What are your most valuable acquisition sources and channels?](../../analysis/most-value-source-channel.md)
+
