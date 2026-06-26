@@ -2,7 +2,7 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Jun 19 15:44:55 2026
+updated: Fri Jun 26 17:41:59 2026
 entries:
 - description: New [SSH host key verification](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/integration/ssh-host-key-verification)
     topic documents save and test enrollment, refresh SSH host keys, migration behavior,
