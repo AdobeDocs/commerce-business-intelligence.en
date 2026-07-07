@@ -498,3 +498,4 @@ However, users can view dashboard data filtered based on the stores that are map
 
 ![Schedule email summary](../../assets/schedule-email-summary.png)
 
+
