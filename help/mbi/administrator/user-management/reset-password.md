@@ -37,3 +37,4 @@ Also, you can change your password inside [!DNL Commerce Intelligence] by using 
 
 If you reset your password and remain locked out of your account, follow [these tips](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.html) to help pinpoint the problem.
 
+

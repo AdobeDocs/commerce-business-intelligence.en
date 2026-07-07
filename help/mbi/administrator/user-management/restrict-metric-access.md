@@ -50,3 +50,4 @@ You can also restrict access to a metric by editing the metric and **[!UICONTROL
 >
 >If you duplicate a metric, [!DNL Commerce Intelligence] copies the user permissions set in the original metric.
 
+

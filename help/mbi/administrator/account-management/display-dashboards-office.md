@@ -43,3 +43,4 @@ Here is the recommended list of things that you need for the option:
 
 Once you have the hardware above, you can open a browser window on your screen with a specific dashboard that you want to display in each tab. Finally, configure your browser to rotate through each dashboard at the desired frequency.
 
+

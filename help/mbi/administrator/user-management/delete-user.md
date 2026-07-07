@@ -47,3 +47,4 @@ If you only need the dashboards from that user pushed into a different user's ac
 1. [Notify support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) after you create the user. Support transfers the dashboards into your account.
 1. After Adobe Support notifies you of the transfer, you can delete the user again.
 
+
