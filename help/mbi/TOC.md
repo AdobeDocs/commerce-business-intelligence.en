@@ -5,6 +5,7 @@ user-guide-title: Commerce Intelligence User Guide
 breadcrumb-title: Commerce Intelligence User Guide
 role: Admin, Developer, Leader, User
 feature: Business Performance
+nudge: true
 ---
 
 # [!DNL Commerce Intelligence] User Guide {#mbi}
