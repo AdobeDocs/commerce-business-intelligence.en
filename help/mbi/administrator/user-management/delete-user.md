@@ -1,7 +1,6 @@
 ---
 title: Delete or reactivate an Adobe Commerce Intelligence user
 description: Learn how to delete an [!DNL Commerce Intelligence] user.
-exl-id: 0590275d-3329-40fb-8be1-4a700438338d
 role: Admin, User
 feature: User Management
 product_v2:
@@ -28,7 +27,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+exl-id: 0590275d-3329-40fb-8be1-4a700438338d
 ---
+
 # Delete an [!DNL Adobe Commerce Intelligence] user
 
 Users can be deleted by going to your account dropdown on the upper-right corner. Click **[!UICONTROL Manage Users]**, select the account you want to delete and click **[!UICONTROL Deactivate User]**.
@@ -46,5 +47,3 @@ If you only need the dashboards from that user pushed into a different user's ac
 1. Use the deleted user's email address to create a new [!DNL Commerce Intelligence] user.
 1. [Notify support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) after you create the user. Support transfers the dashboards into your account.
 1. After Adobe Support notifies you of the transfer, you can delete the user again.
-
-

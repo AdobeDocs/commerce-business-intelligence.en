@@ -1,7 +1,6 @@
 ---
 title: Add a new Adobe Commerce Intelligence user
 description: Learn how to add a new [!DNL Commerce Intelligence] user and how to update your user name or password.
-exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 role: Admin, User
 feature: User Management
 TQID: https://experienceleague.adobe.com/-cMJHvHlodd05-Np22qtxxS8lHMi4StXOz1iD83xWkU
@@ -26,7 +25,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
+exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 ---
+
 # Add a new [!DNL Adobe Commerce Intelligence] user
 
 1. Click your company's name in the upper-right corner and select **[!UICONTROL Invite User]** from the dropdown.
@@ -57,5 +58,3 @@ If you need to resend the invitation, on the [login page](https://dashboard.rjme
 >[!IMPORTANT]
 >
 >Each account has a contracted number of licenses, or seats. If you hit your limit or would like to know more, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
-
-

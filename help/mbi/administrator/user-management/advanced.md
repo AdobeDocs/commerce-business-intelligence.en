@@ -3,7 +3,6 @@ title: Advanced user management
 description: Enhance data visibility, streamline reporting, tailor access by user groups, simplify dashboard sharing, and ensure security and scalability for your organization.
 role: Admin, User
 feature: User Management
-exl-id: d96a075d-53ab-48d3-ba83-3ff4298a0cb7
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -36,7 +35,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+exl-id: d96a075d-53ab-48d3-ba83-3ff4298a0cb7
 ---
+
 # Advanced user management
 
 The [!DNL Advanced User Management] feature provides enhanced data visibility controls and enables logical data filtering based on user groups (organizational regions). It allows you to tailor data visibility based on user groups and eliminates the need to create a replica of existing dashboards to meet region-specific reporting requirements every time the business expands to a new region.
@@ -497,5 +498,3 @@ However, users can view dashboard data filtered based on the stores that are map
 [!DNL Advanced User Management] extends data filtering capabilities to email summaries. Depending on the audience, admin users can specify user groups for which the selected reports must be filtered.
 
 ![Schedule email summary](../../assets/schedule-email-summary.png)
-
-

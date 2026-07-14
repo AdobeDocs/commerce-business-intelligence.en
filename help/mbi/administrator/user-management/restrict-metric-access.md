@@ -1,7 +1,6 @@
 ---
 title: Restrict metrics access
 description: Learn how to work with metrics access and restrictions.
-exl-id: 88f5ca7a-8073-4968-9685-95f141b2a87f
 role: Admin, User
 feature: User Management
 product_v2:
@@ -26,7 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+exl-id: 88f5ca7a-8073-4968-9685-95f141b2a87f
 ---
+
 # Manage metrics users
 
 In addition to setting user permission levels, you can also restrict access to metrics on a user-by-user basis. For example, if you want your accounting department to have access to revenue-related metrics but not user-acquisition metrics, you can restrict access to those metrics.
@@ -49,5 +50,3 @@ You can also restrict access to a metric by editing the metric and **[!UICONTROL
 >[!NOTE]
 >
 >If you duplicate a metric, [!DNL Commerce Intelligence] copies the user permissions set in the original metric.
-
-
