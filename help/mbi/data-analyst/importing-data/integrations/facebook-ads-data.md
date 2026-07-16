@@ -41,19 +41,27 @@ This topic gives you a brief overview of the tables Adobe recommends you sync to
 
 These tables contain data about core ad campaign components.
 
-### [`facebook _campaigns_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign-group)
+### `facebook _campaigns_ (account-id)`
+
+[`facebook _campaigns_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign-group)
 
 This table is the core table of campaigns in a [!DNL Facebook Ads] account. Columns include `campaign id`, `name`, `status (active/paused)`, `objective`.
 
-### [`facebook _adsets_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign)
+### `facebook _adsets_ (account-id)`
+
+[`facebook _adsets_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign)
 
 This table record is the core table of [!DNL Facebook Ads] Sets in a [!DNL Facebook Ads] account. Columns include the Ad `Campaign id/name` the Ad Set belongs to, the budgeting, bid type, scheduling, and audience-targeting information.
 
-### [`facebook _ads_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/adgroup)
+### `facebook _ads_ (account-id)`
+
+[`facebook _ads_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/adgroup)
 
 This table records all ads in a [!DNL Facebook Ads] account. Columns include the ad information including the Ad Set and Ad Campaign that it belongs to, the ad bidding, ad targeting, and reference to specific creative (image/text) that the ad uses.
 
-### [`facebook _adcreative_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-creative)
+### `facebook _adcreative_ (account-id)`
+
+[`facebook _adcreative_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-creative)
 
 This table records creatives that are used in [!DNL Facebook Ads]. Creatives includes creative name, description, and relevant image urls where appropriate.
 
