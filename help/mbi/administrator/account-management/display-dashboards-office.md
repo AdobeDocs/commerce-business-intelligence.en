@@ -39,4 +39,4 @@ Here is the recommended list of things that you need for the option:
 1. **A USB keyboard and mouse** to control your dongle.
 1. **A browser extension to rotate between several tabs at once.** This allows you to set up any selected dashboards that you display in a unique tab. Adobe recommend the [Revolver Tabs](https://chrome.google.com/webstore/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda?hl=en) extension if you are using [!DNL Chrome].
 
-Once you have the hardware above, you can open a browser window on your screen with a specific dashboard that you want to display in each tab. Finally, configure your browser to rotate through each dashboard at the desired frequency.
+Once you have the required hardware, you can open a browser window on your screen with a specific dashboard that you want to display in each tab. Finally, configure your browser to rotate through each dashboard at the desired frequency.
