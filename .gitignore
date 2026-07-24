@@ -5,3 +5,6 @@ tmp/
 _jekyll/.env
 _jekyll/tmp/
 .cursor/
+.claude/
+.scout/
+.vscode/
