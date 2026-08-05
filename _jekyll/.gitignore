@@ -1,2 +1,4 @@
 include-relationships.yml
 .env
+.bundle/
+vendor/
