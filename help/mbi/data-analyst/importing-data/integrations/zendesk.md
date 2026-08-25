@@ -76,4 +76,4 @@ To complete this process, you need to open two browser windows or tabs - one for
 ## Related:
 
 * [Expected [!DNL Zendesk] data](../integrations/exp-zendesk-data.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations)

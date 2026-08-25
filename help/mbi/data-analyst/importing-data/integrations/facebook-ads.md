@@ -78,7 +78,7 @@ Make sure that you are tracking [!DNL Facebook] campaigns in [!DNL Google Analyt
 
 ## Related
 
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations)
 * [Connect your [!DNL Google Adwords] account](../integrations/google-ecommerce.md)
 * [Track order referral source via [!DNL Google eCommerce]](../integrations/google-ecommerce.md)
 * [Track user referral source in your database](../../analysis/google-track-user-acq.md)

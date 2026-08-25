@@ -62,4 +62,4 @@ After clicking **[!UICONTROL Connect to Quickbooks]**, log in to your [!DNL Intu
 ## Related
 
 * [Expected [!DNL QuickBooks] data](../integrations/quickbooks-data.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations)

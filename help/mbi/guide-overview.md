@@ -65,15 +65,15 @@ In addition to the above role-based workflows, this guide also contains:
 
 ## How to Get Help
 
-Contact the [support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) if you have questions and want to take advantage of some of your Professional Services or if you encounter problems with your account.
+Contact the [support team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies) if you have questions and want to take advantage of some of your Professional Services or if you encounter problems with your account.
 
 ### Service Policies 
 
-See a [list of which services that the customer support team provides](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+See a [list of which services that the customer support team provides](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies).
 
 ### Submitting a Support Ticket
 
-Need help with building an advanced calculated column? Encountered a defect or connection problem? Should you need to get in touch with the support team, Adobe asks that you use the [support ticket guidelines](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html). These guidelines outline the information Adobe needs to resolve the issue.
+Need help with building an advanced calculated column? Encountered a defect or connection problem? Should you need to get in touch with the support team, Adobe asks that you use the [support ticket guidelines](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies). These guidelines outline the information Adobe needs to resolve the issue.
 
 ## Available documentation
 

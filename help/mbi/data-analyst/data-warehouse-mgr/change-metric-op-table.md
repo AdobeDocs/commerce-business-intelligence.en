@@ -45,6 +45,6 @@ In certain cases, you may decide to change the data table that a metric uses to 
 
     ![Table selection dropdown showing available tables](../../assets/change-metrics-2.png)
 
-1. If you do not have a matching column in the new table, you can either **create it in your data table** or [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) if it is a calculation column or dimension made by [!DNL Commerce Intelligence]. You can also **delete the dimension from the metric**. To delete a dimension that you no longer need, simply go back to the metric's editor and select which dimensions to delete under `Dimensions`.
+1. If you do not have a matching column in the new table, you can either **create it in your data table** or [contact support](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies) if it is a calculation column or dimension made by [!DNL Commerce Intelligence]. You can also **delete the dimension from the metric**. To delete a dimension that you no longer need, simply go back to the metric's editor and select which dimensions to delete under `Dimensions`.
 
     ![Operational column selection dropdown menu](../../assets/change-metrics-3.png)

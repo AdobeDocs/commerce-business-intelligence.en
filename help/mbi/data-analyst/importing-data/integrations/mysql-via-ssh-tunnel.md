@@ -143,4 +143,4 @@ When you are finished, click **[!UICONTROL Save & Test]** to complete the setup.
 ## Related {#related}
 
 * [SSH host key verification](ssh-host-key-verification.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations)

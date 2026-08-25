@@ -242,4 +242,4 @@ Columns to create
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the above sample dashboard.
 
-If you run into any questions while building this analysis or want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+If you run into any questions while building this analysis or want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies).

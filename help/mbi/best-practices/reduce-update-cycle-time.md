@@ -63,4 +63,4 @@ In addition to reevaluating recheck frequencies, replication methods, and chart 
 
 ## Wrapping Up
 
-If your update time still seems slow even after implementing these recommendations, [contact the support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+If your update time still seems slow even after implementing these recommendations, [contact the support team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies).

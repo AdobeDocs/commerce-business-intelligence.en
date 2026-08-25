@@ -164,7 +164,7 @@ Rather than creating a separate set of marketing metrics for each ad source, you
 
 **Looking for additional help?**
 
-Writing SQL and creating `Data Warehouse Views` is not included with Technical Support. However, the [Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) does offer assistance in the creation of views. For everything from migrating a legacy database with a new database to create a single Data Warehouse View for the purposes of a specific analysis, the support team can help.
+Writing SQL and creating `Data Warehouse Views` is not included with Technical Support. However, the [Services team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies) does offer assistance in the creation of views. For everything from migrating a legacy database with a new database to create a single Data Warehouse View for the purposes of a specific analysis, the support team can help.
 
 Usually, the creation of a new `Data Warehouse View` for the purposes of consolidating 2-3 similarly structured tables requires five hours of services time, which translates to roughly $1,250 of work. However below are a few common factors which can increase the expected investment required:
 
