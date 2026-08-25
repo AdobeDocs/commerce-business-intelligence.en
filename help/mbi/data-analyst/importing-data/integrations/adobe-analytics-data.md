@@ -1,6 +1,6 @@
 ---
 title: Expected [!DNL Adobe Analytics] Data
-description: Learn the steps for connecting your RDS instance.
+description: Review the data fields Commerce Intelligence imports from Adobe Analytics using the Analytics 2.0 Reporting API, so you know what to expect in your reports.
 exl-id: 4df66ec1-c7f3-4b02-8f0f-49cada99c14c
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export

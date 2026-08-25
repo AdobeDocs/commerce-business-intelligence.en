@@ -1,6 +1,6 @@
 ---
 title: Clone dashboards
-description: Learn how to clone dashboards.
+description: Clone a Commerce Intelligence dashboard to copy all of its reports into a new dashboard, saving time when you need a similar view for a different audience.
 exl-id: f0bfa786-ab01-4c55-9d8a-ed002c2321b6
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards

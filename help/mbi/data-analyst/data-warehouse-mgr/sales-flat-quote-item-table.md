@@ -1,6 +1,6 @@
 ---
 title: quote_item table
-description: Learn how to work with the quote_item table.
+description: Review the quote_item table schema in Commerce Intelligence, which tracks every cart item. Learn Adobe's recommendations for managing table size over time.
 exl-id: dad36e88-5986-4b52-8a0e-ac084fabb275
 role: Admin, Developer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables

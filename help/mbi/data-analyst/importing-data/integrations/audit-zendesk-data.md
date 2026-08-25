@@ -1,6 +1,6 @@
 ---
 title: Audit Zendesk data
-description: Learn the steps for exporting your Zendesk data.
+description: Audit your Zendesk data in Commerce Intelligence by exporting it to a downloadable file. Use the export to pinpoint discrepancies and verify accuracy.
 exl-id: 3c8dcc72-3623-4c4e-a941-f431a97571e0
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export

@@ -1,6 +1,6 @@
 ---
 title: Checking the Update Cycle Status
-description: Learn how to check the update cycle status.
+description: Check the status of your last Commerce Intelligence update cycle directly from your dashboard. See how account permissions affect what you can view.
 exl-id: bd65f2bb-86c1-4e83-a132-797694ddb086
 role: Admin, Developer, User
 feature: Dashboards

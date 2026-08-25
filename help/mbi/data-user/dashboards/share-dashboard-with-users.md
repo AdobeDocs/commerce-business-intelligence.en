@@ -1,6 +1,6 @@
 ---
 title: Share dashboards with other users
-description: Learn how to share dashboards with other users.
+description: Share a Commerce Intelligence dashboard with your team to keep everyone aligned. Learn Adobe's recommendations for granting edit rights to a select few users.
 exl-id: 6279b049-d1b2-4d40-b30b-ee8772e990f4
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards

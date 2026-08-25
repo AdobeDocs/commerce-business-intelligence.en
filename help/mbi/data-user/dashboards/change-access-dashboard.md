@@ -1,6 +1,6 @@
 ---
 title: Change access to shared dashboards
-description: Learn how to change access to shared dashboards.
+description: Update permissions for a shared Commerce Intelligence dashboard at any time. Learn how to adjust user and organization access from the Share Dashboard menu.
 exl-id: 0041281a-0a3c-49f8-9a5f-39a02c3acf26
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards

@@ -1,6 +1,6 @@
 ---
 title: Delete a Dashboard
-description: Learn how to delete a dashboard.
+description: Delete a Commerce Intelligence dashboard you no longer need using either of two available methods, keeping your dashboard list organized and clutter-free.
 exl-id: 27482dea-0593-46d6-8310-ad505ff9436a
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards

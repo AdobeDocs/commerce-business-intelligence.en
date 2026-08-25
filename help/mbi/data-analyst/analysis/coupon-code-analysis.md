@@ -1,6 +1,6 @@
 ---
 title: Coupon Performance
-description: Learn about analyzing your coupon performance.
+description: Analyze coupon performance in Commerce Intelligence. Segment orders by coupon code to see which coupons drive acquisition, track usage, and measure results.
 exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
 role: Admin, User
 feature: Data Warehouse Manager, Reports

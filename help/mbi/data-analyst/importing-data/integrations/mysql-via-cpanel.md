@@ -1,6 +1,6 @@
 ---
 title: Connect MySQL via cPanel
-description: Learn how to connect MySQL via cPanel.
+description: Connect a MySQL database hosted on cPanel to Commerce Intelligence. Create a dedicated user and enter connection details to start syncing your data.
 exl-id: 90b0a0b0-8c6b-4144-95b4-f588f18616c7
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder

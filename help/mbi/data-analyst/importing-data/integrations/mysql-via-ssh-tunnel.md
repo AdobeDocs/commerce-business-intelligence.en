@@ -1,6 +1,6 @@
 ---
 title: Connecting [!DNL MySQL] via SSH tunnel
-description: Learn how to connect [!DNL MySQL] via SSH Tunnel.
+description: Securely connect your MySQL database to Commerce Intelligence using an SSH tunnel. Retrieve the public key, allowlist the IP address, and configure users.
 exl-id: 6b691a6a-9542-4e47-9b1d-d6d3c3dac357
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder

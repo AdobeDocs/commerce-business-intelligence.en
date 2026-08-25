@@ -1,6 +1,6 @@
 ---
 title: Create a copy of a report
-description: Learn how to create a copy of a report.
+description: Create a copy of a Commerce Intelligence report when you need a similar chart with one small change, like a different filter or group-by setting.
 exl-id: c57783b4-32ae-4054-a85a-5ddf63cfd34b
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports

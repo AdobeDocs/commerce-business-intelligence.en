@@ -1,6 +1,6 @@
 ---
 title: Set a Default Dashboard
-description: Learn how to set a default dashboard.
+description: Set your default Commerce Intelligence dashboard so it's the first thing you see when you open the platform, giving quick access to your key metrics.
 exl-id: a3fc64e3-b527-4c2c-848d-c0962cd20ff3
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards

@@ -1,6 +1,6 @@
 ---
 title: Sharing Dashboards
-description: Learn how to work with and share your dashboards.
+description: Follow best practices for sharing Commerce Intelligence dashboards with your team. Keep collaboration effective while your account stays organized and tidy.
 exl-id: 73df627f-bc08-45c0-aa5e-410c4fd0642d
 role: Admin, User
 feature: Dashboards

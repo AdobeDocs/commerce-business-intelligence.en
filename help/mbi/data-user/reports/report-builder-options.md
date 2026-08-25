@@ -1,6 +1,6 @@
 ---
 title: Choose a report builder
-description: Learn how to choose your report builder.
+description: Compare the report builders available in Commerce Intelligence and learn which one fits your reporting needs, from visual builders to SQL-based options.
 exl-id: ec4204ef-975e-45c3-b09e-fb97ffc2c497
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration

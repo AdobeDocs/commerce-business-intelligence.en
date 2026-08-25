@@ -1,6 +1,6 @@
 ---
 title: Export Chart Data
-description: Learn how to view the data behind a chart.
+description: View and export the data behind any Commerce Intelligence chart using the chart's gear icon, so you can dig deeper into the numbers driving your dashboard.
 exl-id: 3c75ff3c-c4e2-4ff8-a303-6f24ccfca0ff
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export

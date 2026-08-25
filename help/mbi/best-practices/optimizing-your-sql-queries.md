@@ -1,6 +1,6 @@
 ---
 title: Optimizing Your SQL Queries
-description: Learn how to optimize your SQL queries.
+description: Optimize SQL queries in the Commerce Intelligence SQL Report Builder. Learn best practices to reduce query cost and avoid failures from oversized results.
 exl-id: 2782c707-6a02-4e5d-bfbb-eff20659fbb2
 role: Admin, Developer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager

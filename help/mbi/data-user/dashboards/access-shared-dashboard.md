@@ -1,6 +1,6 @@
 ---
 title: Access shared dashboards
-description: Learn how to Access shared dashboards.
+description: Learn how new users can quickly access dashboards shared with them in Commerce Intelligence, so your team gets up to speed without extra setup steps.
 exl-id: 528b8a2e-f13c-4ce8-ab8e-13864f50761a
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards

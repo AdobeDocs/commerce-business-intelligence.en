@@ -1,6 +1,6 @@
 ---
 title: Analyzing Inventory Levels
-description: Learn how to analyze inventory levels.
+description: Build a dashboard to monitor current inventory levels in Commerce Intelligence. Instructions cover both legacy and new architecture account configurations.
 exl-id: 620156c5-7bea-4b36-84c7-e0cb4b5cc8be
 role: Admin, Developer, User
 feature: Dashboards, Reports

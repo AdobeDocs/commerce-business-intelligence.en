@@ -1,6 +1,6 @@
 ---
 title: Building a dashboard for investors
-description: Learn how to build a dashboard for investors.
+description: Build an investor-ready dashboard in Commerce Intelligence. Learn best practices for a clear, comprehensive view distinct from daily operations dashboards.
 exl-id: 917e7628-3498-4413-a7e1-61799989a7dd
 role: Admin, Developer, User
 feature: Dashboards, Data Integration

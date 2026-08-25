@@ -1,6 +1,6 @@
 ---
 title: Permanently delete a chart
-description: Learn how to permanently delete a chart.
+description: Learn the difference between removing a chart from a dashboard and permanently deleting it in Commerce Intelligence, and how to delete a chart for good.
 exl-id: 34234ff6-b258-4369-9774-946d8423d4da
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards

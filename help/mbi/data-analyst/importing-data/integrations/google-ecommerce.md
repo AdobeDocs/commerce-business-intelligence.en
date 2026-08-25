@@ -1,6 +1,6 @@
 ---
 title: Connect Google ECommerce
-description: Learn about your most valued referral channels.
+description: Connect Google Ecommerce data to Commerce Intelligence to track your most valuable referral channels and analyze revenue alongside your other data sources.
 exl-id: c80f52f3-894a-4084-8c0e-aee618ed77f5
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export

@@ -1,6 +1,6 @@
 ---
 title: Remove Chart from Dashboard
-description: Learn how to remove a chart from a dashboard.
+description: Remove a chart from a Commerce Intelligence dashboard using the chart's gear icon menu, without permanently deleting the chart from your account.
 exl-id: 44116f15-92a5-43c9-8808-7902742508c9
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
