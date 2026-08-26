@@ -43,7 +43,7 @@ topic_v2:
 
 >[!NOTE]
 >
->Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+>Access to these dashboards depends on your account type and your access level. If you do not see these dashboards, contact [support](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies).
 
 ## Report availability
 
@@ -159,7 +159,7 @@ The Orders dashboard provides insights on transactional volume of orders, their 
 
 ## Products
 
-The Products dashboard shows general product performance in terms of products ordered, their Gross Merchandise Value (GMV), and top products purchased and refunded. It can help you to balance purchases and returns, and to determine product success and popularity. Your store must be [configured to track refunds](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html) for those charts to be populated.
+The Products dashboard shows general product performance in terms of products ordered, their Gross Merchandise Value (GMV), and top products purchased and refunded. It can help you to balance purchases and returns, and to determine product success and popularity. Your store must be [configured to track refunds](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) for those charts to be populated.
 
 >[!NOTE]
 >

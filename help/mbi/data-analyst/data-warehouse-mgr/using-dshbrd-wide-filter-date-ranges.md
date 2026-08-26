@@ -63,11 +63,11 @@ When you specify a date filter for a dashboard, that filter is applied to that d
 
 ## Store filters
 
-To analyze how a specific store is performing, click the stores icon in the upper-right-hand corner (![Store Filter](../../assets/store-filter.png)). By default, `Store Filter` is set to `All Stores`, which displays the data from all [store views](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) available in your Commerce site.
+To analyze how a specific store is performing, click the stores icon in the upper-right-hand corner (![Store Filter](../../assets/store-filter.png)). By default, `Store Filter` is set to `All Stores`, which displays the data from all [store views](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-views) available in your Commerce site.
 
 >[!NOTE]
 >
->A store filter is enabled or disabled for an entire [!DNL Commerce Intelligence] account. If a dashboard contains reports that are not affected by the filter (such as reports that are not built on any [!DNL Adobe Commerce] data), those reports do not update when the store filter is applied. You can [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) if you believe that a report should update based on store selection or if you believe that your account store filter is mistakenly disabled.
+>A store filter is enabled or disabled for an entire [!DNL Commerce Intelligence] account. If a dashboard contains reports that are not affected by the filter (such as reports that are not built on any [!DNL Adobe Commerce] data), those reports do not update when the store filter is applied. You can [contact support](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies) if you believe that a report should update based on store selection or if you believe that your account store filter is mistakenly disabled.
 
 When you select a store from the `Store Filter`, the filter retains your selection when you navigate between dashboards. Retaining your selection allows you to see data for your selected store everywhere until you select `All Stores`.
 

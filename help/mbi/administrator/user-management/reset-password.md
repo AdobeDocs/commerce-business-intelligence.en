@@ -1,6 +1,6 @@
 ---
 title: Reset Password
-description: Learn how to reset a user's password.
+description: Reset your Commerce Intelligence account password from the sign-in page. Follow the emailed link to create a new password and regain access to your dashboards.
 role: Admin, User
 feature: User Management
 product_v2:

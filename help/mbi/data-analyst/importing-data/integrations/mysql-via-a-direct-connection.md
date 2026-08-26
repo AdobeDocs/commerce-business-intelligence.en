@@ -85,4 +85,4 @@ When you are finished, click **[!UICONTROL Save & Test]** to complete the setup.
 
 ## Related documentation
 
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations)

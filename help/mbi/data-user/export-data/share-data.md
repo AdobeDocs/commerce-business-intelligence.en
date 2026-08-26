@@ -1,6 +1,6 @@
 ---
 title: Sharing Data
-description: Overview of sharing data.
+description: Learn how to export and share Commerce Intelligence data as CSV or Excel files, and configure automated email summaries to keep stakeholders informed.
 exl-id: 5c434d3b-0519-4980-a666-60bed122a93b
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export

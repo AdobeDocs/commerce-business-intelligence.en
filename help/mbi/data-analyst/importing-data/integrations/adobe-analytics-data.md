@@ -1,6 +1,6 @@
 ---
 title: Expected [!DNL Adobe Analytics] Data
-description: Learn the steps for connecting your RDS instance.
+description: Review the data fields Commerce Intelligence imports from Adobe Analytics using the Analytics 2.0 Reporting API, so you know what to expect in your reports.
 exl-id: 4df66ec1-c7f3-4b02-8f0f-49cada99c14c
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
@@ -70,6 +70,6 @@ This section outlines limitations of the [!DNL Adobe Analytics] integration for 
 | Limitation | Description |
 | --- | --- |
 | `Historical data period` | As with other third-party integrations, the [!DNL Adobe Analytics] integration pulls a limited amount of historical data and then continues to keep data updated. The historical period is configured to 2 weeks. |
-| `Empty component combinations` | Some combinations of metrics and dimensions contain no data. If such a combination is selected for replication, [!DNL Commerce Intelligence] excludes the column from the replicated table. To avoid selecting such a combination, you can first create a report in the [[!DNL Adobe Analytics] Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) to verify you get the data you expect. |
+| `Empty component combinations` | Some combinations of metrics and dimensions contain no data. If such a combination is selected for replication, [!DNL Commerce Intelligence] excludes the column from the replicated table. To avoid selecting such a combination, you can first create a report in the [[!DNL Adobe Analytics] Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) to verify you get the data you expect. |
 | `Re-authorization cadence` | Reauthorization of the [!DNL Adobe Analytics] integration is required every two weeks. To reauthorize, go to the Edit page for the integration and click **[!UICONTROL Re-Authorize with [!DNL Adobe Analytics]]**. |
 | `One dimension per row` | [!DNL Adobe Analytics] provides metric data for one dimension at a time. If you select multiple dimensions during setup, each row in your [!DNL Commerce Intelligence] table contains a single dimension value and nulls for each other dimension. |

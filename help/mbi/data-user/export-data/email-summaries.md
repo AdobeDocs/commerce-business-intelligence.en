@@ -1,6 +1,6 @@
 ---
 title: Create Automated Email Summaries
-description: Learn how to create automated email summaries.
+description: Create automated email summaries in Commerce Intelligence to share business status and trends with key stakeholders on a recurring schedule.
 exl-id: a9aea4fc-9193-467f-8554-3ad77ac3fa73
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export

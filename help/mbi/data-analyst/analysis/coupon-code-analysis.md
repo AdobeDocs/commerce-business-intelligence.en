@@ -1,6 +1,6 @@
 ---
 title: Coupon Performance
-description: Learn about analyzing your coupon performance.
+description: Analyze coupon performance in Commerce Intelligence. Segment orders by coupon code to see which coupons drive acquisition, track usage, and measure results.
 exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
 role: Admin, User
 feature: Data Warehouse Manager, Reports
@@ -480,7 +480,7 @@ Additional columns to create if guest orders NOT supported:
 
 After compiling all the reports, you can organize them on the dashboard as you desire. The result may look like the image at the top of the page.
 
-If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+If you run into any questions while building this analysis, or simply want to engage the Professional Services team, [contact support](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies).
 
 >[!NOTE]
 >

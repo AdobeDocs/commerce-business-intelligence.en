@@ -37,13 +37,13 @@ topic_v2:
 >
 >Requires [Admin permissions](../../administrator/user-management/user-management.md) to create and edit SQL charts. `Standard` users can rearrange these charts on dashboards, and `Read-only` users have the same experience they do with traditional charts. In addition, `Read-only` users do not have access to the text of the query.
 
-See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) to learn more.
+See the [training video](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/mbi/sql-report-builder) to learn more.
 
 [!DNL SQL], or Structured Query Language, is a programming language used to communicate with databases. In [!DNL Commerce Intelligence], [!DNL SQL] is used to query, or retrieve, data from your Data Warehouse. Look at the reports on your dashboard - behind the scenes, each one is powered by a [!DNL SQL] query.
 
 You can use the [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) to directly query your Data Warehouse, view the results, and transform them into a chart. You can start creating a report with the [!DNL SQL Report Builder] by clicking **[!UICONTROL Report Builder** > **[!DNL SQL Report Builder]]**.
 
-See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) to learn more.
+See the [training video](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/mbi/sql-report-builder) to learn more.
 
 The [!DNL SQL Report Builder] allows you to directly query your Data Warehouse, view the results, and quickly transform them into a chart. The best part about using [!DNL SQL] to build reports is that you do not need to wait on update cycles to iterate on columns you create. If the results do not look right, you can quickly edit and rerun the query until things match your expectations.
 
@@ -153,7 +153,7 @@ Calculated columns created using [!DNL SQL] are not dependent on update cycles, 
 
 Most the time, differences in results can be attributed to update cycles. If [!DNL Commerce Intelligence] is in the process of replicating data from your database to your Data Warehouse, you might see different results even when using the same query.
 
-Connection issues can also result in discrepancies. Navigate to the `Connections` page by clicking **[!DNL Manage Data** > **Connections]** to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html) to get things running again.
+Connection issues can also result in discrepancies. Navigate to the `Connections` page by clicking **[!DNL Manage Data** > **Connections]** to check it out - is there an error for the database integration in question? If so, you may need to [reauthenticate the integration](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations) to get things running again.
 
 If all your integrations are connected successfully and you are not in the middle of an update cycle, something else may be amiss. 
 

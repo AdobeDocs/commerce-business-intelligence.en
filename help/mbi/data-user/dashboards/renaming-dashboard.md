@@ -1,6 +1,6 @@
 ---
 title: Renaming Dashboards
-description: Learn how to remove a chart from a dashboard.
+description: Rename a Commerce Intelligence dashboard from the Dashboard Options menu when its current name no longer fits, updating it in just a few quick steps.
 exl-id: 45c67f3c-4660-4bb5-ba10-55ed666525f4
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
@@ -26,7 +26,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Remove a chart from a dashboard
+# Rename a dashboard
 
 >[!NOTE]
 >

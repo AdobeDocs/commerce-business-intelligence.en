@@ -1,6 +1,6 @@
 ---
 title: Introduction to Adobe Commerce Intelligence
-description: Learn about Adobe Commerce Intelligence.
+description: Get started with Adobe Commerce Intelligence, formerly Magento Business Intelligence. Learn what the platform offers and how to begin exploring your data.
 exl-id: 0c960d8c-9bb7-429e-a88e-21678a77b710
 role: Admin, Developer, Leader, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration

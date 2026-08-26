@@ -35,7 +35,7 @@ topic_v2:
 ---
 # Your [!DNL Adobe Commerce Intelligence] Environment
 
-As you analyze your commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Commerce schema correctly, do not hesitate to [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+As you analyze your commerce data, be aware of these factors and common misconceptions. If you need assistance with making sure you are using your Commerce schema correctly, do not hesitate to [contact support](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies).
 
 ## [!DNL entity\_id]
 

@@ -37,7 +37,7 @@ topic_v2:
 ---
 # Data Migration
 
-Migrating to a new database schema, server, or reporting database does not have to be stressful. The [[!DNL Adobe] Services team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) offers migration assistance.
+Migrating to a new database schema, server, or reporting database does not have to be stressful. The [[!DNL Adobe] Services team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies) offers migration assistance.
 
 To ensure that your transition is as smooth as possible, you should be as detailed as possible when submitting your migration request. This topic has everything that you need to submit a request and get started on the migration. Providing us with a comprehensive picture of your needs guarantee that your project is scoped properly and that the estimate is accurate.
 
@@ -91,7 +91,7 @@ Here is a look at an example:
 
 ## How do I submit a request? {#submitreq}
 
-You can reach out to us by [submitting a support request](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+You can reach out to us by [submitting a support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies).
 
 If you followed the steps in the previous section for creating the column-matching spreadsheet, do not forget to attach it.
 

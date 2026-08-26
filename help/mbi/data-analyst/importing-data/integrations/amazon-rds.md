@@ -1,6 +1,6 @@
 ---
 title: Connect Amazon RDS
-description: Learn the steps for connecting your RDS instance.
+description: Connect your Amazon RDS database to Commerce Intelligence. Follow the setup steps to sync data from supported RDS database engines into your Data Warehouse.
 exl-id: 02ad29c8-84d6-4b49-9ac1-e5f4feaa7fda
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export

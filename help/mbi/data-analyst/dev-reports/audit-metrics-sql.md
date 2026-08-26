@@ -68,4 +68,4 @@ You can also write custom queries and export the results to compare against your
 
 >[!NOTE]
 >
->If you find a discrepancy after auditing your data, look at the [Contacting Support: Data Discrepancies](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html) support topic for more information on what to do next.
+>If you find a discrepancy after auditing your data, look at the [Contacting Support: Data Discrepancies](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies) support topic for more information on what to do next.

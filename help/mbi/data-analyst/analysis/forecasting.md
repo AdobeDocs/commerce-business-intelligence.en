@@ -1,6 +1,6 @@
 ---
 title: Forecasting
-description: Forecasting
+description: Forecast customer lifetime value and future orders in Commerce Intelligence. See how forecasting helps you plan revenue and growth strategies with confidence.
 exl-id: 61e0516a-941c-4e32-b051-6ff664962198
 role: Admin, Developer, User
 feature: Data Warehouse Manager, Reports

@@ -88,4 +88,4 @@ This table includes the same information as the `facebook_ads_insights_{account_
 ## Related
 
 * [Connecting [!DNL Facebook Ads]](../integrations/facebook-ads.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations)

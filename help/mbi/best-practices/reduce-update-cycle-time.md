@@ -1,6 +1,6 @@
 ---
 title: Reduce Your Update Cycle Time
-description: Learn how to reduce your update cycle time.
+description: Reduce your Commerce Intelligence update cycle time so your dashboards reflect the latest data faster. Learn what affects sync speed and how to improve it.
 exl-id: 0b211e2d-770f-480d-a7fb-8d10e3e7272e
 role: Admin, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager, Dashboards
@@ -63,4 +63,4 @@ In addition to reevaluating recheck frequencies, replication methods, and chart 
 
 ## Wrapping Up
 
-If your update time still seems slow even after implementing these recommendations, [contact the support team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+If your update time still seems slow even after implementing these recommendations, [contact the support team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies).

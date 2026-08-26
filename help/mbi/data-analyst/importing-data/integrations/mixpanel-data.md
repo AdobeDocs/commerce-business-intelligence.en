@@ -50,4 +50,4 @@ This topic explores the main data tables that you can import from [!DNL Mixpanel
 ## Related documentation
 
 * [Connecting [!DNL Mixpanel]](../integrations/mixpanel.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations)

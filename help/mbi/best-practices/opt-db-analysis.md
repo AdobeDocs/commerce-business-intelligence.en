@@ -1,6 +1,6 @@
 ---
 title: Optimizing Your Database for Analysis
-description: Learn how to optimize your database for analysis.
+description: Optimize your operational database for use with Commerce Intelligence. Unlock valuable data that already exists without building or modifying new sources.
 exl-id: e73e1a1e-c933-476d-97bc-bd8f52bb2fa1
 role: Admin, Developer, User
 feature: Business Performance, Data Integration, Data Import/Export, Data Warehouse Manager

@@ -1,6 +1,6 @@
 ---
 title: Use a Report
-description: Learn how to use your report data.
+description: Use Commerce Intelligence reports to answer business questions, from tracking monthly revenue against last year to measuring campaign acquisition costs.
 exl-id: 94d4db27-0e06-4066-9c03-036b109d2d9b
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration

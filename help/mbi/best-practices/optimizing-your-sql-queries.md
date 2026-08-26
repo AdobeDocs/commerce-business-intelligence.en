@@ -1,6 +1,6 @@
 ---
 title: Optimizing Your SQL Queries
-description: Learn how to optimize your SQL queries.
+description: Optimize SQL queries in the Commerce Intelligence SQL Report Builder. Learn best practices to reduce query cost and avoid failures from oversized results.
 exl-id: 2782c707-6a02-4e5d-bfbb-eff20659fbb2
 role: Admin, Developer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager
@@ -37,7 +37,7 @@ topic_v2:
 
 The [!DNL SQL Report Builder] lets you run and change your queries whenever you want. This capability is helpful if you need to update a query right away, instead of waiting for an update cycle to finish before fixing a column or report.
 
-Before a query is executed, [[!DNL Commerce Intelligence] estimates its cost](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Cost considers the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds [!DNL Commerce Intelligence] limits, the query fails. For querying your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md), which ensures you are writing the most streamlined queries possible, Adobe recommends the following.
+Before a query is executed, [!DNL Commerce Intelligence] estimates its cost. Cost considers the length of time and number of resources required to execute a query. If that cost is deemed to be too high or if the number of returned rows exceeds [!DNL Commerce Intelligence] limits, the query fails. For querying your [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md), which ensures you are writing the most streamlined queries possible, Adobe recommends the following.
 
 ## Using SELECT or Selecting All Columns
 

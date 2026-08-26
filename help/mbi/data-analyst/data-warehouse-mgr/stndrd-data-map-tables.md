@@ -1,6 +1,6 @@
 ---
 title: Standardize data with mapping tables
-description: Learn how to work with mapping tables.
+description: Standardize inconsistent values, like billing state formats, using mapping tables in Commerce Intelligence's Data Warehouse Manager to keep reports accurate.
 exl-id: e452ff87-f298-43d5-acc3-af58e53bd0bc
 role: Admin, Developer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables

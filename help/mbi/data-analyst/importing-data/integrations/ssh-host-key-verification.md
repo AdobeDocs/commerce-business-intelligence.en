@@ -127,4 +127,4 @@ Include the connection name, approximate time of the last **[!UICONTROL Save & T
 * [Connect MySQL via SSH tunnel](mysql-via-ssh-tunnel.md)
 * [Connect MongoDB via SSH tunnel](mongodb-via-ssh-tunnel.md)
 * [Connect PostgreSQL via SSH tunnel](postgresql.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations)

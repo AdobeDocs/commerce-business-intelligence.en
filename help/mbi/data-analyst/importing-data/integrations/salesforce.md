@@ -54,4 +54,4 @@ Connecting your [!DNL Salesforce] data enables a range of analyses, from scoring
 If you are a little more tech-savvy, the [[!DNL Salesforce] API Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) can be a useful resource for learning more about how Salesforce is integrated with [!DNL Commerce Intelligence].
 
 * [Expected [!DNL Salesforce] data](../integrations/salesforce-data.md)
-* [Reauthenticating integrations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Reauthenticating integrations](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations)

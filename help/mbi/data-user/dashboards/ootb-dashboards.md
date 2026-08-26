@@ -41,7 +41,7 @@ topic_v2:
 >
 >The availability of some dashboards depends upon your dataset.
 
-If you have questions or you are interested in adding a package to your account, submit a [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) for help.
+If you have questions or you are interested in adding a package to your account, submit a [support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies) for help.
 
 ## Executive overview
 

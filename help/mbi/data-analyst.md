@@ -1,6 +1,6 @@
 ---
 title: Data Analyst
-description: Data Analyst
+description: Explore the Data Analyst role in Commerce Intelligence. Design custom queries, build calculated columns, and enable self-service reporting for your team.
 exl-id: e7c4e0ba-f8fd-4a35-a9b1-1c2c43a1773d
 role: Admin, Developer, Leader, User
 feature: Data Warehouse Manager, Reports, Data Integration, Data Integration

@@ -1,6 +1,6 @@
 ---
 title: sales_order table
-description: Learn how to work with the sales_order table.
+description: Explore the sales_order table structure in Commerce Intelligence's Data Warehouse. Understand how each row represents an order and where custom splits occur.
 exl-id: 19a8ab88-de51-48f8-af39-ae4897834afe
 role: Admin, Developer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables

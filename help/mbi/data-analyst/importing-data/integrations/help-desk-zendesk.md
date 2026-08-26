@@ -1,6 +1,6 @@
 ---
 title: Help desk reporting for Zendesk
-description: Learn about your most valued referral channels.
+description: Analyze Zendesk help desk data in Commerce Intelligence to track ticket volume and support trends. Available on the Pro plan with new architecture accounts.
 exl-id: b6142ef2-2be8-401f-ac35-f86fc68d204e
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export

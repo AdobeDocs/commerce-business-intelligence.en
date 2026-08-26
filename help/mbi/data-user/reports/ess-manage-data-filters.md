@@ -32,7 +32,7 @@ level_v2:
 
 If you have multiple metrics in [!DNL Commerce Intelligence] that need to be filtered in a similar way (for example, filter out test orders), you can create saved Filter Sets and apply them to the metrics. This saves you time as you do not have to add individual filters when creating or editing a metric.
 
-See the [training video](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html) for more information.
+See the [training video](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/mbi/filter-sets) for more information.
 
 >[!NOTE]
 >

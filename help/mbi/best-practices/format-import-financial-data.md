@@ -1,6 +1,6 @@
 ---
 title: Formatting and Importing Financial Data
-description: Learn how to format and import financial data.
+description: Learn the best practices for formatting and importing financial data into Commerce Intelligence, so your data warehouse stays accurate and easy to analyze.
 exl-id: cdbed262-7cf1-4fd6-ad5a-c44d26dffba7
 role: Admin, Developer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager
