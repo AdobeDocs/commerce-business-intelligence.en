@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-last-update: 2026-08-14
+last-update: 2026-08-26
 ---
 # [!DNL Adobe Commerce Intelligence] User Guide
 
