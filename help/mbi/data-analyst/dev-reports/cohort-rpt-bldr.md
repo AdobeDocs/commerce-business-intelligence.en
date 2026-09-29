@@ -82,9 +82,9 @@ This opens up a new window to configure the details of the `Cohort` Report.
 
 `Cohorts` are grouped by a timestamp, like **registration date** or **first order date**.
 
-   >[!NOTE]
-   >
-   >You cannot use the same timestamp that the metric is built on for the `cohort` date. For an analysis that requires this, you can use the `Standard report builder` instead.
+>[!NOTE]
+>
+>You cannot use the same timestamp that the metric is built on for the `cohort` date. For an analysis that requires this, you can use the `Standard report builder` instead.
 
 #### 2. `Cohort` time period
 
