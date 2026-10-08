@@ -4,7 +4,7 @@ description: Explore the Data Analyst role in Commerce Intelligence. Design cust
 exl-id: e7c4e0ba-f8fd-4a35-a9b1-1c2c43a1773d
 role: Admin, Developer, Leader, User
 feature: Data Warehouse Manager, Reports, Data Integration, Data Integration
-TQID: https://experienceleague.adobe.com/Hn40ZLeFD98hg8JbixDuSBtkT5dDL6HR0e3vZ6GIm0w
+TQID: 'https://experienceleague.adobe.com/Hn40ZLeFD98hg8JbixDuSBtkT5dDL6HR0e3vZ6GIm0w'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,6 +13,10 @@ product_v2:
 feature_v2:
   - id: b0c4e988-b173-423f-88d4-345071a0bce8
     internal-label: Data Warehouse Manager
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
+  - id: 4d217dbe-2c9a-5839-94d7-471fd31623b7
+    internal-label: Data Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

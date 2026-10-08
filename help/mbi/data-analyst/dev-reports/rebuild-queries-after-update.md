@@ -18,7 +18,7 @@ role_v2:
     internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-    internal-label: Expert
+    internal-label: Experienced
 ---
 # Rebuilding Queries after the Update Cycle
 

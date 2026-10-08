@@ -4,7 +4,7 @@ description: Learn to familiarize you with the terminology used in the SQL Repor
 exl-id: 9b9bc205-5b64-4e64-8d23-057072e5dd72
 role: Admin, Developer, Leader, User
 feature: SQL Report Builder, Data Warehouse Manager, Reports, Data Integration
-TQID: https://experienceleague.adobe.com/xWv7O8UJ6gXxysl6oG1t24ygF-PE4LTanwyrrvoJzQ4
+TQID: 'https://experienceleague.adobe.com/xWv7O8UJ6gXxysl6oG1t24ygF-PE4LTanwyrrvoJzQ4'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,6 +13,12 @@ product_v2:
 feature_v2:
   - id: b0c4e988-b173-423f-88d4-345071a0bce8
     internal-label: Data Warehouse Manager
+  - id: c38ccf61-5a4f-5140-ad2b-c3434e82ed6d
+    internal-label: SQL Report Builder
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
+  - id: 4d217dbe-2c9a-5839-94d7-471fd31623b7
+    internal-label: Data Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

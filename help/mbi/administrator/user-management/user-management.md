@@ -4,7 +4,7 @@ description: Learn how to manage your Commerce Intelligence users.
 exl-id: 2a5eeabb-3c13-4ca1-b845-ed255b389c9f
 role: Admin, User
 feature: User Management
-TQID: https://experienceleague.adobe.com/T3ZdoQW35n6CAJmDlOlfDVSI1eUA--e4RKZbOMF1BWY
+TQID: 'https://experienceleague.adobe.com/T3ZdoQW35n6CAJmDlOlfDVSI1eUA--e4RKZbOMF1BWY'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,6 +13,11 @@ product_v2:
 feature_v2:
   - id: b0c4e988-b173-423f-88d4-345071a0bce8
     internal-label: Data Warehouse Manager
+  - id: b6935462-7263-4ced-a703-60de6a5aeb2d
+    internal-label: Administration
+subfeature_v2:
+  - id: d971c7be-3e54-4af9-807c-8d1f9f7b22df
+    internal-label: User management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

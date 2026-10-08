@@ -4,7 +4,7 @@ description: Learn how to use the Global Search feature to look for dashboards a
 exl-id: eea09ee5-e7ec-4002-8257-a35a64c900a9
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
-TQID: https://experienceleague.adobe.com/u-Lxj2hdQajxLehmuSHnLUwIQVXEJGk2YbLL4FEFvV8
+TQID: 'https://experienceleague.adobe.com/u-Lxj2hdQajxLehmuSHnLUwIQVXEJGk2YbLL4FEFvV8'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,6 +13,10 @@ product_v2:
 feature_v2:
   - id: b0c4e988-b173-423f-88d4-345071a0bce8
     internal-label: Data Warehouse Manager
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: 06e518d4-11ae-5c20-98b0-ce8ab05d7166
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

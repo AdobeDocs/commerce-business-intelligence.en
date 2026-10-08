@@ -4,7 +4,7 @@ description: Follow best practices for sharing Commerce Intelligence dashboards 
 exl-id: 73df627f-bc08-45c0-aa5e-410c4fd0642d
 role: Admin, User
 feature: Dashboards
-TQID: https://experienceleague.adobe.com/krvwzmyk7zJ8Wk-XFKxi2iISq7DfVIN6dzPMjaTxmkU
+TQID: 'https://experienceleague.adobe.com/krvwzmyk7zJ8Wk-XFKxi2iISq7DfVIN6dzPMjaTxmkU'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
     internal-label: Accounts
+  - id: 06e518d4-11ae-5c20-98b0-ce8ab05d7166
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -4,7 +4,7 @@ description: Learn about signing into your Commerce Intelligence account.
 exl-id: 3ee36e0e-f447-4be3-afc8-ccc6d3aa4f20
 role: Admin, Developer, Leader, User
 feature: Accounts
-TQID: https://experienceleague.adobe.com/cWdIfZqu7TJwRraadRp6cemJ6T5Amp0mRnHA-am-cBc
+TQID: 'https://experienceleague.adobe.com/cWdIfZqu7TJwRraadRp6cemJ6T5Amp0mRnHA-am-cBc'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 9e444628-408e-5d74-8cd4-c552f0d5d47f
+    internal-label: Accounts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

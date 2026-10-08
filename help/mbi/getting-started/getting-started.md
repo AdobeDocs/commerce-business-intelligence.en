@@ -4,7 +4,7 @@ description: Get started with Adobe Commerce Intelligence, formerly Magento Busi
 exl-id: 0c960d8c-9bb7-429e-a88e-21678a77b710
 role: Admin, Developer, Leader, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
-TQID: https://experienceleague.adobe.com/gszPpebCdsdnu1iMruPLD8fA79rJH5L8Prd5eTX-YPc
+TQID: 'https://experienceleague.adobe.com/gszPpebCdsdnu1iMruPLD8fA79rJH5L8Prd5eTX-YPc'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -17,6 +17,12 @@ feature_v2:
     internal-label: Order Management System
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
+  - id: 4d217dbe-2c9a-5839-94d7-471fd31623b7
+    internal-label: Data Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

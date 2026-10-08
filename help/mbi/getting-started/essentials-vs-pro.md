@@ -4,7 +4,7 @@ description: Learn how Commerce Intelligence Essentials differs from Commerce In
 exl-id: 624a6285-8497-43d9-a56d-8ae503e0e2dd
 role: Admin, Developer, Leader, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
-TQID: https://experienceleague.adobe.com/5MTFaBTLbZyjDFtMSG0lISoXV8cbMGjSpDvcQ7Syj3o
+TQID: 'https://experienceleague.adobe.com/5MTFaBTLbZyjDFtMSG0lISoXV8cbMGjSpDvcQ7Syj3o'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -17,6 +17,12 @@ feature_v2:
     internal-label: Accounts
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
     internal-label: Architecture
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
+  - id: 4d217dbe-2c9a-5839-94d7-471fd31623b7
+    internal-label: Data Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

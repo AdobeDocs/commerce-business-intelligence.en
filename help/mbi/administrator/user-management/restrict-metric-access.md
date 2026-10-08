@@ -3,6 +3,7 @@ title: Restrict metrics access
 description: Learn how to work with metrics access and restrictions.
 role: Admin, User
 feature: User Management
+exl-id: 88f5ca7a-8073-4968-9685-95f141b2a87f
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,7 +14,9 @@ feature_v2:
     internal-label: Administration
 subfeature_v2:
   - id: a763c1a2-1d0a-40d7-9617-8139636fd12e
-    internal-label: 'Access management '
+    internal-label: Access management
+  - id: d971c7be-3e54-4af9-807c-8d1f9f7b22df
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -22,10 +25,11 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-exl-id: 88f5ca7a-8073-4968-9685-95f141b2a87f
 ---
 
 # Manage metrics users

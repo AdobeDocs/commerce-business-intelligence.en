@@ -4,7 +4,7 @@ description: Learn how to easily see trends over time and change perspective for
 exl-id: 74cf11c3-7ce0-477f-9a28-9d782e5da3d9
 role: Admin, Developer, Leader, User
 feature: Reports, Dashboards
-TQID: https://experienceleague.adobe.com/KHFNcuiZONPjk6D4ijyAfcPSrP84xWMOcTub80REqPM
+TQID: 'https://experienceleague.adobe.com/KHFNcuiZONPjk6D4ijyAfcPSrP84xWMOcTub80REqPM'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -19,6 +19,10 @@ feature_v2:
     internal-label: Architecture
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
+  - id: 06e518d4-11ae-5c20-98b0-ce8ab05d7166
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

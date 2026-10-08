@@ -4,7 +4,7 @@ description: Learn the basics for most use column cases -- but you may want calc
 exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager
-TQID: https://experienceleague.adobe.com/X0eHrn1HpOnwDENUnnBphaBBJxfZCymDeySTznBipMU
+TQID: 'https://experienceleague.adobe.com/X0eHrn1HpOnwDENUnnBphaBBJxfZCymDeySTznBipMU'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Order Management System
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

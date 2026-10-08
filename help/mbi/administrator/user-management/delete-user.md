@@ -3,6 +3,7 @@ title: Delete or reactivate an Adobe Commerce Intelligence user
 description: Learn how to delete an [!DNL Commerce Intelligence] user.
 role: Admin, User
 feature: User Management
+exl-id: 0590275d-3329-40fb-8be1-4a700438338d
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -22,12 +23,13 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-exl-id: 0590275d-3329-40fb-8be1-4a700438338d
 ---
 
 # Delete an [!DNL Adobe Commerce Intelligence] user

@@ -4,7 +4,7 @@ description: Learn how to find your most valuable acquisition sources and channe
 exl-id: c20e7673-9aa3-4e5e-979c-6adaa4164793
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-TQID: https://experienceleague.adobe.com/47kqz7E7uMZ-viAPBipHPrJaVCfXOa8hlWl-D3BvI8s
+TQID: 'https://experienceleague.adobe.com/47kqz7E7uMZ-viAPBipHPrJaVCfXOa8hlWl-D3BvI8s'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,6 +13,12 @@ product_v2:
 feature_v2:
   - id: b0c4e988-b173-423f-88d4-345071a0bce8
     internal-label: Data Warehouse Manager
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: 4d217dbe-2c9a-5839-94d7-471fd31623b7
+    internal-label: Data Integration
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -4,7 +4,7 @@ description: Learn how to create columns to augment and optimize your data for a
 exl-id: 1af79b9e-77ff-4fc6-917a-4e6743b95035
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration
-TQID: https://experienceleague.adobe.com/41EjlLtffc-ZE-LO6oKMyXcs9Lnv35yxj8BgM6iIWsQ
+TQID: 'https://experienceleague.adobe.com/41EjlLtffc-ZE-LO6oKMyXcs9Lnv35yxj8BgM6iIWsQ'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: 4d217dbe-2c9a-5839-94d7-471fd31623b7
+    internal-label: Data Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

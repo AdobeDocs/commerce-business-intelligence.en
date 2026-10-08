@@ -4,7 +4,7 @@ description: Learn the difference between removing a chart from a dashboard and 
 exl-id: 34234ff6-b258-4369-9774-946d8423d4da
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
-TQID: https://experienceleague.adobe.com/9jUopqDQyIiblQqK6RCN7RVHP875z4S2J9yVYLzYZqQ
+TQID: 'https://experienceleague.adobe.com/9jUopqDQyIiblQqK6RCN7RVHP875z4S2J9yVYLzYZqQ'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,6 +13,10 @@ product_v2:
 feature_v2:
   - id: b0c4e988-b173-423f-88d4-345071a0bce8
     internal-label: Data Warehouse Manager
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: 06e518d4-11ae-5c20-98b0-ce8ab05d7166
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

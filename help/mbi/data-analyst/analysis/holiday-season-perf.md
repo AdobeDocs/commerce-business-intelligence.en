@@ -4,7 +4,7 @@ description: Learn and understand how the pattern of this year's growth compares
 exl-id: 328f30b8-0db6-48fd-8d97-95f0bc7e4803
 role: Admin, User
 feature: Data Warehouse Manager, Reports, Dashboards
-TQID: https://experienceleague.adobe.com/F4mu9ROfti6evThwTpNK24vnJr-PzQiLEPgwNMUB0fQ
+TQID: 'https://experienceleague.adobe.com/F4mu9ROfti6evThwTpNK24vnJr-PzQiLEPgwNMUB0fQ'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -15,6 +15,10 @@ feature_v2:
     internal-label: Data Warehouse Manager
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
+  - id: 06e518d4-11ae-5c20-98b0-ce8ab05d7166
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

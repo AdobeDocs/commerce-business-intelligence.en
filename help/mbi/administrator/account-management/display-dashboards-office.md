@@ -3,6 +3,7 @@ title: Displaying dashboards on multiple screens
 description: Learn how to display your dashboards around the office.
 role: Admin, User
 feature: Dashboards
+exl-id: aabe5c8f-0809-467c-9713-099aed6926b9
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -11,6 +12,8 @@ product_v2:
 feature_v2:
   - id: b6935462-7263-4ced-a703-60de6a5aeb2d
     internal-label: Administration
+  - id: 06e518d4-11ae-5c20-98b0-ce8ab05d7166
+    internal-label: Dashboards
 subfeature_v2:
   - id: f716072d-c2db-43bd-a648-7ff464fa3a44
     internal-label: Display dashboards
@@ -22,10 +25,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-exl-id: aabe5c8f-0809-467c-9713-099aed6926b9
 ---
 
 # Display Dashboards around the office
