@@ -4,7 +4,7 @@ description: Remove a chart from a Commerce Intelligence dashboard using the cha
 exl-id: 44116f15-92a5-43c9-8808-7902742508c9
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
-TQID: https://experienceleague.adobe.com/8l8uDzTOPwLvekzqGXaBGZkbVpQiSoDGgcXwnEqMOyo
+TQID: 'https://experienceleague.adobe.com/8l8uDzTOPwLvekzqGXaBGZkbVpQiSoDGgcXwnEqMOyo'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,6 +13,10 @@ product_v2:
 feature_v2:
   - id: b0c4e988-b173-423f-88d4-345071a0bce8
     internal-label: Data Warehouse Manager
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: 06e518d4-11ae-5c20-98b0-ce8ab05d7166
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

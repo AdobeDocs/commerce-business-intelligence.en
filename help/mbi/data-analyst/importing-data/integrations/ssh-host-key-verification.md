@@ -3,6 +3,20 @@ title: SSH host key verification
 description: Learn how Commerce Intelligence enrolls SSH host keys, how to refresh them, troubleshoot errors, and when to contact Support for SSH tunnel connections.
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
+product_v2:
+  - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
+    internal-label: Commerce Intelligence
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b0c4e988-b173-423f-88d4-345071a0bce8
+    internal-label: Data Warehouse Manager
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: 4d217dbe-2c9a-5839-94d7-471fd31623b7
+    internal-label: Data Integration
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -18,14 +32,6 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-product_v2:
-  - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
-    internal-label: Commerce Intelligence
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-    internal-label: Commerce
-feature_v2:
-  - id: b0c4e988-b173-423f-88d4-345071a0bce8
-    internal-label: Data Warehouse Manager
 ---
 # SSH host key verification {#ssh-host-keys}
 

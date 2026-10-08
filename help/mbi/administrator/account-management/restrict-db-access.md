@@ -3,7 +3,8 @@ title: Restricting Access to your Database
 description: Learn how you can restrict access, limiting access to the server that houses your database.
 role: Admin, User
 feature: Accounts, User Management
-TQID: https://experienceleague.adobe.com/O2cS-hbhjqktc4LpJD6agxgIwabrypgCY9fnJTCR2XM
+exl-id: 7a0bc0d7-086e-4a6e-b1dd-6db13814710e
+TQID: 'https://experienceleague.adobe.com/O2cS-hbhjqktc4LpJD6agxgIwabrypgCY9fnJTCR2XM'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -12,6 +13,13 @@ product_v2:
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
     internal-label: Accounts
+  - id: 9e444628-408e-5d74-8cd4-c552f0d5d47f
+    internal-label: Accounts
+  - id: b6935462-7263-4ced-a703-60de6a5aeb2d
+    internal-label: Administration
+subfeature_v2:
+  - id: d971c7be-3e54-4af9-807c-8d1f9f7b22df
+    internal-label: User management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,7 +30,6 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-exl-id: 7a0bc0d7-086e-4a6e-b1dd-6db13814710e
 ---
 
 # Restrict Access

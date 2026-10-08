@@ -4,7 +4,7 @@ description: Learn how to analyze coupon usage on acquiring and retaining custom
 exl-id: d4d1393f-1695-43f2-980a-84525f84031e
 role: Admin, User
 feature: Data Warehouse Manager, Reports
-TQID: https://experienceleague.adobe.com/daD-KtQU4wgz2hcTnuJ93rop8fbl8siAjXeK8IwU0Ao
+TQID: 'https://experienceleague.adobe.com/daD-KtQU4wgz2hcTnuJ93rop8fbl8siAjXeK8IwU0Ao'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Data Warehouse Manager
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

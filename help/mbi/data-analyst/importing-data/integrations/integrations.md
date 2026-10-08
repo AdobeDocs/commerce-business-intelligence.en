@@ -4,7 +4,7 @@ description: Learn about the available integrations that you can use to connect 
 exl-id: b80f6f77-15f7-4d20-83fe-c6d758f9b0f8
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-TQID: https://experienceleague.adobe.com/4C9HpT9GwprrH28VBr-gOJoYfBaS4VI55G5qsm00Rr4
+TQID: 'https://experienceleague.adobe.com/4C9HpT9GwprrH28VBr-gOJoYfBaS4VI55G5qsm00Rr4'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -15,6 +15,12 @@ feature_v2:
     internal-label: Data Warehouse Manager
   - id: c32adafa-ed01-4b31-997e-2413013911b0
     internal-label: Integrations
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: 4d217dbe-2c9a-5839-94d7-471fd31623b7
+    internal-label: Data Integration
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

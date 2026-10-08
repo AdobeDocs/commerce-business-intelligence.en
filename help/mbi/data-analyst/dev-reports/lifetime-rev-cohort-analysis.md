@@ -4,7 +4,7 @@ description: Explore the power of Commerce Intelligence cohort analysis.
 exl-id: f2b55745-d364-4ba6-9857-ce9cee05c3ae
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
-TQID: https://experienceleague.adobe.com/j6-YcGwVWr3-ZmGEBtOCCL8YgDmXM81b5uHC310fxwQ
+TQID: 'https://experienceleague.adobe.com/j6-YcGwVWr3-ZmGEBtOCCL8YgDmXM81b5uHC310fxwQ'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -15,6 +15,10 @@ feature_v2:
     internal-label: Data Warehouse Manager
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

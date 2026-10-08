@@ -3,6 +3,7 @@ title: Reset Password
 description: Reset your Commerce Intelligence account password from the sign-in page. Follow the emailed link to create a new password and regain access to your dashboards.
 role: Admin, User
 feature: User Management
+exl-id: 4de90da3-9846-4c3a-a31e-8b379f207618
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -22,12 +23,13 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-exl-id: 4de90da3-9846-4c3a-a31e-8b379f207618
 ---
 
 # Reset your password

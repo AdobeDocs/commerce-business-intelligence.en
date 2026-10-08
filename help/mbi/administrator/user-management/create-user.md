@@ -3,7 +3,8 @@ title: Add a new Adobe Commerce Intelligence user
 description: Learn how to add a new [!DNL Commerce Intelligence] user and how to update your user name or password.
 role: Admin, User
 feature: User Management
-TQID: https://experienceleague.adobe.com/-cMJHvHlodd05-Np22qtxxS8lHMi4StXOz1iD83xWkU
+exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
+TQID: 'https://experienceleague.adobe.com/-cMJHvHlodd05-Np22qtxxS8lHMi4StXOz1iD83xWkU'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -12,6 +13,11 @@ product_v2:
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
     internal-label: Accounts
+  - id: b6935462-7263-4ced-a703-60de6a5aeb2d
+    internal-label: Administration
+subfeature_v2:
+  - id: d971c7be-3e54-4af9-807c-8d1f9f7b22df
+    internal-label: User management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,7 +31,6 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 ---
 
 # Add a new [!DNL Adobe Commerce Intelligence] user

@@ -4,7 +4,7 @@ description: Learn how to check on the health of essential metrics such as user 
 exl-id: f50fc417-e5d4-401c-9baa-cda1468196a2
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
-TQID: https://experienceleague.adobe.com/P-wLLeYV4VVlaeMEa-X5WkXcS09d5fKQZGQwGO-OnK0
+TQID: 'https://experienceleague.adobe.com/P-wLLeYV4VVlaeMEa-X5WkXcS09d5fKQZGQwGO-OnK0'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -15,6 +15,10 @@ feature_v2:
     internal-label: Data Warehouse Manager
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: 06e518d4-11ae-5c20-98b0-ce8ab05d7166
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

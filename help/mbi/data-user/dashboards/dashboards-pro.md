@@ -4,7 +4,7 @@ description: Learn about out-of-the-box dashboards to provide insight into your 
 exl-id: fe61c92e-de87-4317-96d7-01d2a9846bf9
 role: Admin, Developer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
-TQID: https://experienceleague.adobe.com/niQ01gOnBCdufbZDpw0mcck3AWN-2gXR1QyWD8LHLBQ
+TQID: 'https://experienceleague.adobe.com/niQ01gOnBCdufbZDpw0mcck3AWN-2gXR1QyWD8LHLBQ'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -19,6 +19,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 5d2a63cb-5675-5572-9de5-bc904157ef45
+    internal-label: Commerce Tables
+  - id: 06e518d4-11ae-5c20-98b0-ce8ab05d7166
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

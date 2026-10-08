@@ -4,7 +4,7 @@ description: Learn best practices for naming reports and elements in [!DNL Comme
 exl-id: c662cedd-c779-4254-b04b-f3092a538c85
 role: Admin, User
 feature: Reports
-TQID: https://experienceleague.adobe.com/qa6daoMCZ4amPkvXatm77q-wwLpzweOQS5aGVYccqLU
+TQID: 'https://experienceleague.adobe.com/qa6daoMCZ4amPkvXatm77q-wwLpzweOQS5aGVYccqLU'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

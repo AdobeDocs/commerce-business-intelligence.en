@@ -4,7 +4,7 @@ description: Learn how to analyze coupon impact on acquiring and retaining custo
 exl-id: b0619365-fa75-49b5-a393-87f3364a390f
 role: Admin, User
 feature: Data Warehouse Manager, Reports
-TQID: https://experienceleague.adobe.com/eILs8O8m45IOVLRYERopvcugIawdQ3c1YGTxr11W3mo
+TQID: 'https://experienceleague.adobe.com/eILs8O8m45IOVLRYERopvcugIawdQ3c1YGTxr11W3mo'
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Data Warehouse Manager
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: f842eedf-96a8-52c7-891d-4e56f7441a7e
+    internal-label: Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

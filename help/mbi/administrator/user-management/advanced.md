@@ -3,6 +3,7 @@ title: Advanced user management
 description: Enhance data visibility, streamline reporting, tailor access by user groups, simplify dashboard sharing, and ensure security and scalability for your organization.
 role: Admin, User
 feature: User Management
+exl-id: d96a075d-53ab-48d3-ba83-3ff4298a0cb7
 product_v2:
   - id: cc9c1b69-d771-4a04-84d3-df2e3989418f
     internal-label: Commerce Intelligence
@@ -28,6 +29,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -35,7 +38,6 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-exl-id: d96a075d-53ab-48d3-ba83-3ff4298a0cb7
 ---
 
 # Advanced user management
