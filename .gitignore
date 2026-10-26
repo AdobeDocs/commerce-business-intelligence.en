@@ -8,3 +8,4 @@ _jekyll/tmp/
 .claude/
 .scout/
 .vscode/
+*.log
