@@ -9,3 +9,4 @@ _jekyll/tmp/
 .scout/
 .vscode/
 *.log
+AGENTS.md
